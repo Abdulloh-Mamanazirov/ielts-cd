@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { StartTestForm } from "@/components/player/StartTestForm";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
+import { describeTest } from "@/lib/skills";
 import { getPlayableTest } from "@/lib/tests/access";
 
 export default async function TestStartPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -40,10 +41,14 @@ export default async function TestStartPage({ params }: { params: Promise<{ slug
       </p>
       <h1 className="mt-1 text-2xl font-bold text-ink">{test.title}</h1>
       <p className="mt-2 text-sm text-ink-muted">
-        {test.totalQuestions} questions · {Math.round(test.durationSeconds / 60)} minutes
+        {describeTest(test.totalQuestions, test.durationSeconds, "minutes")}
       </p>
 
-      <StartTestForm testId={test.id} durationMinutes={Math.round(test.durationSeconds / 60)} />
+      <StartTestForm
+        testId={test.id}
+        durationMinutes={Math.round(test.durationSeconds / 60)}
+        skill={test.skill}
+      />
     </main>
   );
 }

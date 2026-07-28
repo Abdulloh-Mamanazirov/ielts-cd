@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 
 import type { PlayableTest } from "@/lib/tests/access";
 import type { GradeResult } from "@/lib/tests/grade";
@@ -14,6 +14,7 @@ import { RichHtml } from "./SlotHtml";
 import { SplitView } from "./SplitView";
 import { SubmitDialog } from "./SubmitDialog";
 import { useAutosave } from "./useAutosave";
+import { useCountdown } from "./useCountdown";
 import { useTextSize } from "./useTextSize";
 
 export type AttemptSnapshot = {
@@ -279,33 +280,4 @@ export function TestPlayer({
       />
     </div>
   );
-}
-
-/**
- * Seconds left, measured against the server's deadline rather than counted down
- * locally, so a backgrounded tab cannot drift. Only the clock is state; the
- * remaining time is derived during render.
- */
-function useCountdown(expiresAt: string | null, frozen: boolean, onExpire: () => void) {
-  const [now, setNow] = useState(() => Date.now());
-  const fired = useRef(false);
-
-  useEffect(() => {
-    if (!expiresAt || frozen) return;
-    const interval = setInterval(() => setNow(Date.now()), 1000);
-    return () => clearInterval(interval);
-  }, [expiresAt, frozen]);
-
-  const remaining = expiresAt
-    ? Math.max(0, Math.round((new Date(expiresAt).getTime() - now) / 1000))
-    : null;
-
-  useEffect(() => {
-    if (remaining === 0 && !fired.current) {
-      fired.current = true;
-      onExpire();
-    }
-  }, [remaining, onExpire]);
-
-  return remaining;
 }

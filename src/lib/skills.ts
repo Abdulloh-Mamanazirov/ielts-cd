@@ -33,6 +33,21 @@ export const SKILLS: Array<{
   },
 ];
 
+/**
+ * "40 questions · 33 min", or just the time for writing and speaking, which
+ * have no questions to count. Saying "0 questions" would be worse than saying
+ * nothing, and the alternative — loading each test's content to count tasks —
+ * is not worth a list page pulling megabytes of passage HTML.
+ */
+export function describeTest(
+  totalQuestions: number,
+  durationSeconds: number,
+  unit: "min" | "minutes" = "min",
+): string {
+  const time = `${Math.round(durationSeconds / 60)} ${unit}`;
+  return totalQuestions > 0 ? `${totalQuestions} questions · ${time}` : time;
+}
+
 export function isSkillSlug(value: string | undefined): value is SkillSlug {
   return Boolean(value && (SKILL_SLUGS as readonly string[]).includes(value));
 }

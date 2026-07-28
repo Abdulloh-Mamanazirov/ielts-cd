@@ -50,8 +50,10 @@ The home page, then: sign up → browse tests → choose practice or mock → si
 test → submit → see your score, band and per-question review → find it again on
 your dashboard.
 
-Not built yet: the admin panel, writing and speaking players, the full mock, and
-Uzbek/Russian translations. Audio upload is script-only until admin exists.
+All four skills are playable. Not built yet: the admin panel, the full mock, and
+Uzbek/Russian translations. Audio upload and test import are script-only until
+admin exists, and writing and speaking have nowhere for an instructor to enter a
+band yet — see `docs/ROADMAP.md`.
 
 ### Images to add
 
@@ -115,6 +117,28 @@ That last check catches structural disagreement between content and key. It
 cannot catch a key that is internally consistent but semantically wrong, since
 it grades the key against itself — the type checks above are what catch that.
 
+## Writing and speaking
+
+Neither is auto-graded, and that shapes everything downstream. Submitting one
+leaves `Attempt.band` **null**, which is the single signal the rest of the app
+reads: the dashboard shows "awaiting marking", excludes the attempt from band
+history and from best-by-skill, and the results page explains why there is no
+number yet. A zero would have been easier and would have quietly dragged down
+every average.
+
+Writing text rides the existing autosave endpoint, keyed by task number in the
+attempt's `answers` map, and is copied into its own `WritingSubmission` row on
+submit so the instructor's queue can be a plain query.
+
+Speaking answers are recorded with `MediaRecorder` and uploaded **one prompt at
+a time**, so a crash halfway through a test costs one answer rather than the
+sitting. Re-recording in practice replaces the previous take, file and row
+together. A mock allows no second take and no listening back before the end.
+
+When the admin panel lands, marking must set **both** `WritingSubmission.
+instructorBand` and `Attempt.band` — the first is the instructor's record, the
+second is what the dashboard reads.
+
 ## Converting the legacy HTML mocks
 
 `_source-tests/` holds the instructor's existing self-contained HTML tests. Each
@@ -138,6 +162,12 @@ the source HTML is downloaded from third parties and must never be executed.
 Listening audio in the source files is hot-linked from archive.org. The converter
 records the URL as `audioSourceUrl` so it gets re-hosted; a listening test cannot
 be published without an uploaded audio file.
+
+The writing and speaking tests have no adapter: they come from the official IELTS
+sample PDFs in `_source-tests/`, hand-authored into `content/tests/` the way the
+"Adding a test" flow above describes. Task 1 charts were extracted from the PDF
+into `public/test-media/`. Writing one converter per PDF would have been more
+code than reading three prompts.
 
 ## Media storage
 
@@ -193,7 +223,7 @@ src/lib/tests/            content schema, grader, band tables, validator, access
 src/lib/auth/             scrypt passwords, DB-backed sessions, guards, rate limiting
 src/lib/attempts/         grading, storage, unrecognized-answer queue
 src/lib/media/            file storage, range parsing, audio probing, video links
-src/components/player/    the CD test player
+src/components/player/    the CD test player, plus the writing and speaking players
 src/app/api/              auth, attempt and audio streaming routes
 src/app/                  login, signup, dashboard, tests, attempt, results
 scripts/convert/          HTML to JSON adapters

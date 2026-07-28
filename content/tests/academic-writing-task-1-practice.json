@@ -1,0 +1,27 @@
+{
+  "slug": "academic-writing-task-1-practice",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "writing",
+    "title": "Academic Writing Task 1 — Process Diagram",
+    "source": "IELTS.org, Academic Writing sample tasks 2023 (Task 1C)",
+    "description": "A single Task 1 in 20 minutes: describe the process by which bricks are manufactured. Good for practising process language without sitting a full hour.",
+    "totalQuestions": 0,
+    "durationSeconds": 1200,
+    "tasks": [
+      {
+        "number": 1,
+        "promptHtml": "<p>The diagram below shows the process by which bricks are manufactured for the building industry.</p><p>Summarise the information by selecting and reporting the main features, and make comparisons where relevant.</p>",
+        "imageUrl": "/test-media/writing-task1c-brick-manufacturing.png",
+        "minWords": 150,
+        "suggestedMinutes": 20
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

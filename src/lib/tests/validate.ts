@@ -418,6 +418,111 @@ function checkAcceptedAnswerSanity(
 }
 
 /**
+ * Writing and speaking have no answer key to check against, so the checks are
+ * about the task being sittable: a prompt the student can actually read, a
+ * visual where Academic Task 1 needs one, and timings that add up to the
+ * duration the test claims.
+ */
+function checkWritingTasks(content: TestContent, issues: ValidationIssue[]) {
+  const tasks = content.tasks ?? [];
+  const seen = new Set<number>();
+
+  for (const task of tasks) {
+    if (seen.has(task.number)) {
+      issues.push({
+        level: "error",
+        code: "duplicate_task",
+        message: `Writing task ${task.number} appears more than once`,
+      });
+    }
+    seen.add(task.number);
+
+    if (stripHtml(task.promptHtml).length === 0) {
+      issues.push({
+        level: "error",
+        code: "empty_prompt",
+        message: `Writing task ${task.number} has an empty prompt`,
+      });
+    }
+
+    // Academic Task 1 is always a description of a visual; without it the
+    // student is being asked to summarise something they cannot see.
+    if (task.number === 1 && !task.imageUrl) {
+      issues.push({
+        level: "warning",
+        code: "task1_without_image",
+        message:
+          "Task 1 has no imageUrl. Academic Task 1 describes a chart, graph or diagram, so this is only right for a General Training letter.",
+      });
+    }
+
+    const expectedMinimum = task.number === 1 ? 150 : 250;
+    if (task.minWords < expectedMinimum) {
+      issues.push({
+        level: "warning",
+        code: "unusual_min_words",
+        message: `Writing task ${task.number} asks for ${task.minWords} words; the exam requires at least ${expectedMinimum}`,
+      });
+    }
+  }
+
+  const suggested = tasks.reduce((sum, task) => sum + task.suggestedMinutes, 0) * 60;
+  if (suggested > content.durationSeconds) {
+    issues.push({
+      level: "error",
+      code: "timings_exceed_duration",
+      message: `The tasks suggest ${suggested / 60} minutes but the test only allows ${content.durationSeconds / 60}`,
+    });
+  }
+}
+
+function checkSpeakingPrompts(content: TestContent, issues: ValidationIssue[]) {
+  const prompts = content.prompts ?? [];
+
+  for (const [index, prompt] of prompts.entries()) {
+    if (stripHtml(prompt.promptHtml).length === 0) {
+      issues.push({
+        level: "error",
+        code: "empty_prompt",
+        message: `Speaking prompt ${index + 1} (part ${prompt.part}) has an empty prompt`,
+      });
+    }
+  }
+
+  // The long turn is the one prompt with a defined shape: a cue card, a minute
+  // to prepare, and one to two minutes of speech.
+  const longTurns = prompts.filter((prompt) => prompt.part === 2 && prompt.prepSeconds > 0);
+  if (prompts.some((prompt) => prompt.part === 2) && longTurns.length === 0) {
+    issues.push({
+      level: "warning",
+      code: "no_long_turn",
+      message: "Part 2 has no prompt with preparation time, so there is no cue card long turn",
+    });
+  }
+  for (const turn of longTurns) {
+    if (!turn.bulletsHtml || turn.bulletsHtml.length === 0) {
+      issues.push({
+        level: "warning",
+        code: "cue_card_without_bullets",
+        message: "The Part 2 cue card has no bullets for the student to structure their answer around",
+      });
+    }
+  }
+
+  const speaking = prompts.reduce(
+    (sum, prompt) => sum + prompt.prepSeconds + prompt.speakSeconds,
+    0,
+  );
+  if (speaking > content.durationSeconds) {
+    issues.push({
+      level: "error",
+      code: "timings_exceed_duration",
+      message: `The prompts need ${Math.round(speaking / 60)} minutes but the test only allows ${content.durationSeconds / 60}`,
+    });
+  }
+}
+
+/**
  * Fills in the key's own answers and grades them with the real grader. Anything
  * short of full marks means the content and the key disagree structurally.
  *
@@ -512,15 +617,18 @@ export function validateTestImport(input: unknown): ValidationReport {
     };
   }
 
+  if (content.skill === "writing") checkWritingTasks(content, issues);
+  if (content.skill === "speaking") checkSpeakingPrompts(content, issues);
+
   return {
-    ok: true,
+    ok: !issues.some((issue) => issue.level === "error"),
     issues,
     parsed: parsed.data,
     stats: {
       skill: content.skill,
       totalQuestions: content.totalQuestions,
       questionsCovered: 0,
-      parts: 0,
+      parts: (content.tasks ?? content.prompts ?? []).length,
       groups: 0,
     },
   };

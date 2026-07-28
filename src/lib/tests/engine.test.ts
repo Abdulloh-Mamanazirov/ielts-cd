@@ -341,3 +341,153 @@ describe("validateTestImport", () => {
     assert.ok(report.issues.every((issue) => issue.code === "schema"));
   });
 });
+
+/** An Academic Writing test: a chart to describe, then an opinion essay. */
+function writingImport(): z.input<typeof testImportSchema> {
+  return {
+    content: {
+      schemaVersion: SCHEMA_VERSION,
+      skill: "writing",
+      title: "Sample Writing",
+      totalQuestions: 0,
+      durationSeconds: 3600,
+      tasks: [
+        {
+          number: 1,
+          promptHtml: "<p>The chart below shows enrolment.</p>",
+          imageUrl: "/test-media/chart.png",
+          minWords: 150,
+          suggestedMinutes: 20,
+        },
+        {
+          number: 2,
+          promptHtml: "<p>To what extent do you agree?</p>",
+          minWords: 250,
+          suggestedMinutes: 40,
+        },
+      ],
+    },
+    answerKey: { schemaVersion: SCHEMA_VERSION, answers: {}, sets: [] },
+  };
+}
+
+function tasksOf(input: z.input<typeof testImportSchema>) {
+  return (input.content as { tasks: Array<Record<string, unknown>> }).tasks;
+}
+
+describe("validateTestImport for writing", () => {
+  it("accepts a well-formed two-task test", () => {
+    const report = validateTestImport(writingImport());
+    assert.equal(report.ok, true);
+    assert.equal(report.issues.length, 0);
+    assert.equal(report.stats?.skill, "writing");
+  });
+
+  it("warns when Academic Task 1 has no visual to describe", () => {
+    const noImage = writingImport();
+    delete tasksOf(noImage)[0].imageUrl;
+
+    const report = validateTestImport(noImage);
+    assert.ok(report.issues.some((issue) => issue.code === "task1_without_image"));
+    // A General Training letter legitimately has no image, so this cannot block.
+    assert.equal(report.ok, true);
+  });
+
+  it("errors when the suggested timings do not fit the duration", () => {
+    const cramped = writingImport();
+    (cramped.content as { durationSeconds: number }).durationSeconds = 1800;
+
+    const report = validateTestImport(cramped);
+    assert.equal(report.ok, false);
+    assert.ok(report.issues.some((issue) => issue.code === "timings_exceed_duration"));
+  });
+
+  it("errors on a duplicated task number", () => {
+    const duplicated = writingImport();
+    tasksOf(duplicated)[1].number = 1;
+
+    const report = validateTestImport(duplicated);
+    assert.equal(report.ok, false);
+    assert.ok(report.issues.some((issue) => issue.code === "duplicate_task"));
+  });
+
+  it("errors on a prompt that is empty once its markup is stripped", () => {
+    const blank = writingImport();
+    tasksOf(blank)[0].promptHtml = "<p></p>";
+
+    const report = validateTestImport(blank);
+    assert.equal(report.ok, false);
+    assert.ok(report.issues.some((issue) => issue.code === "empty_prompt"));
+  });
+
+  it("warns when a task asks for fewer words than the exam requires", () => {
+    const lenient = writingImport();
+    tasksOf(lenient)[1].minWords = 200;
+
+    const report = validateTestImport(lenient);
+    assert.ok(report.issues.some((issue) => issue.code === "unusual_min_words"));
+  });
+});
+
+/** A speaking test with all three parts and a cue card long turn. */
+function speakingImport(): z.input<typeof testImportSchema> {
+  return {
+    content: {
+      schemaVersion: SCHEMA_VERSION,
+      skill: "speaking",
+      title: "Sample Speaking",
+      totalQuestions: 0,
+      durationSeconds: 840,
+      prompts: [
+        { part: 1, promptHtml: "<p>Where do you live?</p>", prepSeconds: 0, speakSeconds: 30 },
+        {
+          part: 2,
+          promptHtml: "<p>Describe something you own.</p>",
+          bulletsHtml: ["where you got it", "why it matters"],
+          prepSeconds: 60,
+          speakSeconds: 120,
+        },
+        { part: 3, promptHtml: "<p>How have values changed?</p>", prepSeconds: 0, speakSeconds: 60 },
+      ],
+    },
+    answerKey: { schemaVersion: SCHEMA_VERSION, answers: {}, sets: [] },
+  };
+}
+
+function promptsOf(input: z.input<typeof testImportSchema>) {
+  return (input.content as { prompts: Array<Record<string, unknown>> }).prompts;
+}
+
+describe("validateTestImport for speaking", () => {
+  it("accepts a well-formed three-part test", () => {
+    const report = validateTestImport(speakingImport());
+    assert.equal(report.ok, true);
+    assert.equal(report.issues.length, 0);
+    assert.equal(report.stats?.skill, "speaking");
+  });
+
+  it("warns when Part 2 has no preparation time, so there is no long turn", () => {
+    const rushed = speakingImport();
+    promptsOf(rushed)[1].prepSeconds = 0;
+
+    const report = validateTestImport(rushed);
+    assert.ok(report.issues.some((issue) => issue.code === "no_long_turn"));
+  });
+
+  it("warns when the cue card has no bullets", () => {
+    const bare = speakingImport();
+    delete promptsOf(bare)[1].bulletsHtml;
+
+    const report = validateTestImport(bare);
+    assert.ok(report.issues.some((issue) => issue.code === "cue_card_without_bullets"));
+  });
+
+  it("errors when speaking and preparation time overrun the test", () => {
+    const overlong = speakingImport();
+    promptsOf(overlong)[1].speakSeconds = 900;
+
+    const report = validateTestImport(overlong);
+    assert.equal(report.ok, false);
+    assert.ok(report.issues.some((issue) => issue.code === "timings_exceed_duration"));
+  });
+});

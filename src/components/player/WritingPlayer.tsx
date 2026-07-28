@@ -1,0 +1,320 @@
+"use client";
+
+import { useCallback, useMemo, useRef, useState } from "react";
+
+import type { PlayableTest } from "@/lib/tests/access";
+import { countWords } from "@/lib/tests/normalize";
+import { cn } from "@/lib/utils";
+import { PlayerHeader } from "./PlayerChrome";
+import { RichHtml } from "./SlotHtml";
+import { SplitView } from "./SplitView";
+import { Cell, ConfirmDialog } from "./SubmitDialog";
+import { useAutosave } from "./useAutosave";
+import { useCountdown } from "./useCountdown";
+import { useTextSize } from "./useTextSize";
+import type { AttemptSnapshot } from "./TestPlayer";
+
+/**
+ * The writing test. Nothing here is graded: the essay goes to the instructor,
+ * so the screen's whole job is to keep the prompt and the word count in front
+ * of the student and never lose a keystroke.
+ *
+ * Task text is stored in the attempt's `answers` map keyed by task number,
+ * which is why it rides the existing autosave endpoint untouched.
+ */
+export function WritingPlayer({
+  test,
+  attempt,
+}: {
+  test: PlayableTest;
+  attempt: AttemptSnapshot;
+}) {
+  const tasks = useMemo(
+    () => [...(test.content.tasks ?? [])].sort((a, b) => a.number - b.number),
+    [test.content.tasks],
+  );
+
+  const [texts, setTexts] = useState<Record<string, string>>(attempt.answers ?? {});
+  const [activeTask, setActiveTask] = useState(tasks[0]?.number ?? 1);
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+
+  const { queue, flush, status } = useAutosave(attempt.id);
+  const { size, step, canDecrease, canIncrease } = useTextSize();
+
+  const handleChange = useCallback(
+    (taskNumber: number, value: string) => {
+      setTexts((previous) => ({ ...previous, [String(taskNumber)]: value }));
+      queue({ answers: { [String(taskNumber)]: value } });
+    },
+    [queue],
+  );
+
+  const submit = useCallback(async () => {
+    if (submitting || submitted) return;
+
+    setSubmitting(true);
+    await flush();
+
+    try {
+      const response = await fetch(`/api/attempts/${attempt.id}/submit`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ answers: texts }),
+      });
+
+      if (!response.ok) {
+        const data = await response.json().catch(() => ({}));
+        window.alert(data?.error ?? "Could not submit. Please try again.");
+        return;
+      }
+
+      setSubmitted(true);
+      setDialogOpen(false);
+      // Unlike a graded test there is nothing to review in place, so the
+      // results page is the right destination.
+      window.location.href = `/dashboard/results/${attempt.id}`;
+    } finally {
+      setSubmitting(false);
+    }
+  }, [attempt.id, flush, submitted, submitting, texts]);
+
+  const remaining = useCountdown(attempt.expiresAt, submitted, submit);
+  const current = tasks.find((task) => task.number === activeTask) ?? tasks[0];
+
+  const counts = tasks.map((task) => ({
+    task,
+    words: countWords(texts[String(task.number)] ?? ""),
+  }));
+  const totalWords = counts.reduce((sum, entry) => sum + entry.words, 0);
+  const shortTasks = counts.filter((entry) => entry.words < entry.task.minWords);
+
+  const download = useCallback(() => {
+    const body = tasks
+      .map((task) => {
+        const text = texts[String(task.number)] ?? "";
+        return `TASK ${task.number} (${countWords(text)} words)\n\n${text}`;
+      })
+      .join("\n\n\n");
+
+    const blob = new Blob([`${test.title}\n\n${body}\n`], {
+      type: "text/plain;charset=utf-8",
+    });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `${test.slug}.txt`;
+    link.click();
+    URL.revokeObjectURL(url);
+  }, [tasks, test.slug, test.title, texts]);
+
+  if (!current) {
+    return <p className="p-8 text-sm text-ink-muted">This test has no tasks.</p>;
+  }
+
+  return (
+    <div className="flex h-dvh flex-col bg-surface-alt">
+      <PlayerHeader
+        title={test.title}
+        subtitle={`${attempt.mode === "MOCK" ? "Mock" : "Practice"} · ${tasks.length} task${tasks.length === 1 ? "" : "s"}`}
+        remaining={remaining}
+        totalSeconds={test.durationSeconds}
+        saveStatus={status}
+        textSize={size}
+        onTextSize={step}
+        canDecrease={canDecrease}
+        canIncrease={canIncrease}
+        onSubmit={() => setDialogOpen(true)}
+        submitting={submitting}
+      />
+
+      {tasks.length > 1 && (
+        <div
+          role="tablist"
+          aria-label="Writing tasks"
+          className="flex flex-none gap-1 border-b border-ink/[0.12] bg-white px-4 py-2 lg:px-[22px]"
+        >
+          {counts.map(({ task, words }) => (
+            <button
+              key={task.number}
+              role="tab"
+              type="button"
+              aria-selected={task.number === activeTask}
+              onClick={() => setActiveTask(task.number)}
+              className={cn(
+                "rounded-[9px] px-4 py-2 text-[13px] font-bold transition",
+                task.number === activeTask
+                  ? "bg-ink text-white"
+                  : "bg-surface-alt text-ink-muted hover:bg-ink/10",
+              )}
+            >
+              Task {task.number}
+              <span
+                className={cn(
+                  "ml-2 text-[11.5px] tabular-nums",
+                  task.number === activeTask ? "text-white/60" : "text-ink-subtle",
+                )}
+              >
+                {words}/{task.minWords}
+              </span>
+            </button>
+          ))}
+        </div>
+      )}
+
+      <SplitView
+        leftLabel={`Task ${current.number}`}
+        rightLabel="Your answer"
+        left={
+          <div className="min-h-0 flex-1 overflow-y-auto px-6 py-5 lg:px-8" style={{ fontSize: size }}>
+            <p className="text-[10px] font-bold tracking-[0.22em] text-ink-subtle">
+              WRITING TASK {current.number}
+            </p>
+            <p className="mt-2 text-[13px] font-semibold text-ink-muted">
+              You should spend about {current.suggestedMinutes} minutes on this task. Write at least{" "}
+              {current.minWords} words.
+            </p>
+
+            <RichHtml
+              html={current.promptHtml}
+              className="mt-5 leading-relaxed text-ink [&_blockquote]:my-4 [&_blockquote]:border-l-2 [&_blockquote]:border-brand-red [&_blockquote]:pl-4 [&_blockquote]:font-serif [&_blockquote]:text-[1.05em] [&_p]:mt-3"
+            />
+
+            {current.imageUrl && (
+              // The prompt above already describes what the visual shows, which
+              // is what an empty alt defers to rather than repeating.
+              <figure className="mt-6">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={current.imageUrl}
+                  alt=""
+                  className="w-full rounded-lg bg-white shadow-[0_1px_2px_rgba(11,17,32,.12)]"
+                />
+              </figure>
+            )}
+          </div>
+        }
+        right={
+          <Editor
+            key={current.number}
+            value={texts[String(current.number)] ?? ""}
+            onChange={(value) => handleChange(current.number, value)}
+            minWords={current.minWords}
+            fontSize={size}
+            disabled={submitted}
+            onDownload={download}
+          />
+        }
+      />
+
+      <ConfirmDialog
+        open={dialogOpen}
+        eyebrow="SUBMIT TEST"
+        title={
+          shortTasks.length === 0
+            ? "Both tasks meet the word count."
+            : `Task ${shortTasks.map((entry) => entry.task.number).join(" and ")} ${
+                shortTasks.length === 1 ? "is" : "are"
+              } under the minimum.`
+        }
+        confirmLabel="Submit for marking"
+        confirmingLabel="Submitting…"
+        submitting={submitting}
+        onConfirm={submit}
+        onCancel={() => setDialogOpen(false)}
+      >
+        <dl className="mt-5 flex gap-px overflow-hidden rounded-lg bg-rule">
+          {counts.map(({ task, words }) => (
+            <Cell
+              key={task.number}
+              label={`Task ${task.number}`}
+              value={`${words}/${task.minWords}`}
+              accent={words < task.minWords}
+            />
+          ))}
+          <Cell label="Total" value={String(totalWords)} />
+        </dl>
+
+        <p className="mt-5 text-sm leading-relaxed text-ink-muted">
+          Writing is marked by your instructor, not automatically, so there is no band straight
+          away. You will find it on your dashboard once it has been reviewed.
+        </p>
+      </ConfirmDialog>
+    </div>
+  );
+}
+
+/**
+ * A plain textarea, deliberately. The exam gives no formatting, and a rich
+ * editor would let a student produce something they cannot reproduce on the day.
+ */
+function Editor({
+  value,
+  onChange,
+  minWords,
+  fontSize,
+  disabled,
+  onDownload,
+}: {
+  value: string;
+  onChange: (value: string) => void;
+  minWords: number;
+  fontSize: number;
+  disabled: boolean;
+  onDownload: () => void;
+}) {
+  const words = countWords(value);
+  const short = words < minWords;
+  const areaRef = useRef<HTMLTextAreaElement>(null);
+
+  return (
+    <div className="flex min-h-0 flex-1 flex-col">
+      <textarea
+        ref={areaRef}
+        value={value}
+        onChange={(event) => onChange(event.target.value)}
+        disabled={disabled}
+        spellCheck={false}
+        aria-label="Your answer"
+        placeholder="Type your answer here."
+        style={{ fontSize }}
+        className="min-h-0 flex-1 resize-none border-0 px-6 py-5 leading-[1.75] text-ink outline-none placeholder:text-ink-faint disabled:bg-surface-alt lg:px-8"
+      />
+
+      <div className="flex flex-none flex-wrap items-center justify-between gap-3 border-t border-ink/[0.1] px-6 py-2.5 lg:px-8">
+        <p
+          aria-live="polite"
+          className={cn(
+            "text-[12.5px] font-semibold tabular-nums",
+            short ? "text-ink-subtle" : "text-ok",
+          )}
+        >
+          {words} {words === 1 ? "word" : "words"}
+          <span className="text-ink-subtle">
+            {short ? ` · ${minWords - words} below the minimum` : ` · minimum ${minWords} met`}
+          </span>
+        </p>
+
+        <button
+          type="button"
+          onClick={onDownload}
+          className="inline-flex items-center gap-2 rounded-[9px] bg-surface-alt px-3.5 py-2 text-[12.5px] font-bold text-ink-muted transition hover:bg-ink hover:text-white"
+        >
+          <DownloadIcon />
+          Download
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function DownloadIcon() {
+  return (
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+      <path d="m7 10 5 5 5-5" />
+      <path d="M12 15V3" />
+    </svg>
+  );
+}

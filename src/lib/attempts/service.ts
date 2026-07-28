@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/db";
 import { gradeSubmission, type Submission } from "@/lib/tests/grade";
-import { normalizeAnswer } from "@/lib/tests/normalize";
+import { countWords, normalizeAnswer } from "@/lib/tests/normalize";
 import { groupByQuestionNumber } from "@/lib/tests/slots";
 import type { QuestionGroup, TestAnswerKey, TestContent } from "@/lib/tests/schema";
 
@@ -60,6 +60,60 @@ export async function gradeAndStore(
   await recordUnrecognizedAnswers(testId, content, result.verdicts);
 
   return { attempt, result };
+}
+
+/** Skills a machine can mark. The other two go to the instructor. */
+export function isAutoGraded(skill: TestContent["skill"]): boolean {
+  return skill === "listening" || skill === "reading";
+}
+
+/**
+ * Closes a writing or speaking attempt. There is no score: `band` stays null
+ * until an instructor sets one, which is what the dashboard reads to tell
+ * "awaiting marking" apart from "marked".
+ *
+ * Writing text is lifted out of the attempt's answers map into its own row so
+ * the instructor's queue can be a plain query rather than a JSON dig.
+ */
+export async function submitForReview(
+  attemptId: string,
+  content: TestContent,
+  answers: Record<string, string>,
+  startedAt: Date,
+) {
+  const timeSpentSeconds = Math.max(0, Math.round((Date.now() - startedAt.getTime()) / 1000));
+
+  if (content.skill === "writing") {
+    const task1Text = answers["1"] ?? "";
+    const task2Text = answers["2"] ?? null;
+
+    const fields = {
+      task1Text,
+      task2Text,
+      task1WordCount: countWords(task1Text),
+      task2WordCount: countWords(task2Text ?? ""),
+    };
+
+    await prisma.writingSubmission.upsert({
+      where: { attemptId },
+      create: { attemptId, ...fields },
+      update: fields,
+    });
+  }
+
+  await prisma.attempt.update({
+    where: { id: attemptId },
+    data: {
+      status: "SUBMITTED",
+      submittedAt: new Date(),
+      timeSpentSeconds,
+      answers,
+      rawScore: null,
+      band: null,
+    },
+  });
+
+  return { timeSpentSeconds };
 }
 
 /**

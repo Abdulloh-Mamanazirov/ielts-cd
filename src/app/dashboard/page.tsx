@@ -205,10 +205,18 @@ export default async function DashboardPage() {
                         {attempt.submittedAt?.toLocaleDateString()}
                       </p>
                     </div>
-                    <span className="text-sm tabular-nums text-ink-muted">
-                      {attempt.rawScore}/{attempt.test.totalQuestions}
-                    </span>
-                    {attempt.band !== null && (
+                    {attempt.test.totalQuestions > 0 && (
+                      <span className="text-sm tabular-nums text-ink-muted">
+                        {attempt.rawScore}/{attempt.test.totalQuestions}
+                      </span>
+                    )}
+                    {/* Writing and speaking carry no band until the instructor
+                        sets one, which is what makes null the right signal here. */}
+                    {attempt.band === null ? (
+                      <span className="rounded-full bg-surface-alt px-3 py-1 text-[11px] font-bold tracking-[0.04em] text-ink-subtle">
+                        AWAITING MARKING
+                      </span>
+                    ) : (
                       <span className="font-display text-xl tabular-nums text-ink">
                         {attempt.band.toFixed(1)}
                       </span>

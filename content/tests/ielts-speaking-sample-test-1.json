@@ -1,0 +1,110 @@
+{
+  "slug": "ielts-speaking-sample-test-1",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "speaking",
+    "title": "Speaking Test 1 — Possessions",
+    "source": "IELTS.org, Speaking sample tasks 2023",
+    "description": "The full three-part interview: home town and accommodation, a long turn about something you own, then a discussion of status and advertising.",
+    "totalQuestions": 0,
+    "durationSeconds": 840,
+    "prompts": [
+      {
+        "part": 1,
+        "promptHtml": "<p class=\"frame\">Let's talk about your home town or village.</p><p>What kind of place is it?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>What's the most interesting part of your town or village?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>What kind of jobs do the people in your town or village do?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>Would you say it's a good place to live? Why?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p class=\"frame\">Let's move on to talk about accommodation.</p><p>Tell me about the kind of accommodation you live in.</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>How long have you lived there?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>What do you like about living there?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>What sort of accommodation would you most like to live in?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 2,
+        "promptHtml": "<p>Describe something you own which is very important to you.</p>",
+        "bulletsHtml": [
+          "where you got it from",
+          "how long you have had it",
+          "what you use it for",
+          "and explain why it is important to you"
+        ],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 2,
+        "promptHtml": "<p class=\"frame\">Rounding off.</p><p>Is it valuable in terms of money?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 20
+      },
+      {
+        "part": 2,
+        "promptHtml": "<p>Would it be easy to replace?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 20
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider first of all how people's values have changed.</p><p>What kind of things give status to people in your country?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Have things changed since your parents' time?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Finally, let's talk about the role of advertising.</p><p>Do you think advertising influences what people buy?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

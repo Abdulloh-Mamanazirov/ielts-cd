@@ -4,7 +4,7 @@ import { AppShell } from "@/components/app/AppShell";
 import { PageHeader } from "@/components/app/PageHeader";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
-import { isSkillSlug, skillBySlug, SKILLS } from "@/lib/skills";
+import { describeTest, isSkillSlug, skillBySlug, SKILLS } from "@/lib/skills";
 import { cn } from "@/lib/utils";
 
 export const metadata = { title: "Practice tests" };
@@ -119,7 +119,7 @@ export default async function TestsPage({
                 <div className="min-w-0 flex-1">
                   <p className="truncate font-bold text-ink">{test.title}</p>
                   <p className="mt-1 text-xs text-ink-subtle">
-                    {test.totalQuestions} questions · {Math.round(test.durationSeconds / 60)} min
+                    {describeTest(test.totalQuestions, test.durationSeconds)}
                     {test.isPremium && " · Premium"}
                   </p>
                 </div>

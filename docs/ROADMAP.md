@@ -29,20 +29,15 @@ without re-deriving anything.
   bar with a buffering gate and mock-mode lockdown. All three listening tests
   now have audio and are published.
 
+- **Writing and speaking** — both players built, and four tests authored from
+  the official sample PDFs (3 writing, 1 speaking). Neither is auto-graded:
+  submitting leaves `Attempt.band` null, which is what the dashboard reads to
+  show "awaiting marking" and to keep an unmarked attempt out of band history.
+  Speaking answers upload one prompt at a time.
+
 ## Next, in priority order
 
-### 1. Writing and speaking
-
-`_source-tests/` holds `ielts-academic-writing-sample-tasks-2023_removed.pdf`
-and `ielts-speaking-sample-tasks-2023.pdf` (ignore the speaking sample answers
-and recordings inside it).
-
-This is more than conversion — neither player exists yet:
-- Writing: task prompt, editor with live word count, download, save to
-  dashboard, instructor view in admin.
-- Speaking: cue cards with prep/speak timers and an in-browser recorder.
-
-### 2. Admin panel
+### 1. Admin panel
 
 Nothing exists yet. Without it the instructor cannot add tests, upload audio,
 grant premium, review writing, or manage the homepage content — all of which are
@@ -50,12 +45,18 @@ currently script only. Needed before handover. The audio upload form should wrap
 `scripts/upload-audio.ts`, whose ingest step already does the hard parts
 (content-addressed keys, container sniffing, superseded-file cleanup).
 
-### 3. Full mock
+Marking writing and speaking is the most urgent part: students can sit both
+today, and nothing can give them a band. Marking must write **both**
+`WritingSubmission.instructorBand` and `Attempt.band` — the first is the
+instructor's record, the second is what the dashboard reads.
 
-Composition of one test per skill. Deliberately shown as "Coming soon" in the UI
-because it cannot run until writing and speaking exist.
+### 2. Full mock
 
-### 4. Uzbek and Russian
+Composition of one test per skill. All four players exist now, so what is left is
+the composition itself: four attempts under one clock, an overall band across
+them, and a resume path. Still "Coming soon" in the UI.
+
+### 3. Uzbek and Russian
 
 Copy is already isolated in `src/content/site.ts` so this is a swap to a
 per-locale dictionary plus routing. Translations must come from the instructor;
@@ -73,6 +74,14 @@ do not invent them for a public-facing site.
   running either way, so pausing costs a student clock rather than winning them
   a re-listen, and force-resuming would fight a student whose headphones just
   came out.
+- The speaking recorder has **not** been exercised against a real microphone.
+  Everything around it has — the briefing, the permission-denied path, upload,
+  supersede, playback with ranges, validation rejections — but the tooling used
+  to verify it blocks device capture, so `MediaRecorder` itself was never run.
+  Sit one speaking test in a real browser before handover.
+- Speaking has no per-answer retake limit in practice, and no cap on how many
+  times a student re-records. Fine for practice; worth a thought if speaking
+  ever counts towards anything.
 - `X-Accel-Redirect` is written but has only been exercised with
   `MEDIA_INTERNAL_PREFIX` empty, which is the Node-streaming path. The nginx
   handoff needs verifying on the real server; the README has the `location`

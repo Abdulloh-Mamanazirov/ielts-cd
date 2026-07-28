@@ -52,9 +52,10 @@ export function StartPractice({ counts }: { counts: Record<string, number> }) {
 }
 
 /**
- * Not linked yet: a full mock composes one test per skill, and neither the
- * writing nor speaking player exists. Showing it disabled with the reason is
- * more honest than a button that leads nowhere.
+ * Not linked yet. All four players exist now, but a full mock is a composition
+ * of four attempts under one clock, with an overall band across them — none of
+ * which is built. Showing it disabled is more honest than a button that leads
+ * nowhere.
  */
 function FullMockBanner() {
   return (

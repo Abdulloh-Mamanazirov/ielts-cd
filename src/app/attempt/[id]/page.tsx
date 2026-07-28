@@ -1,6 +1,8 @@
 import { notFound, redirect } from "next/navigation";
 
+import { SpeakingPlayer } from "@/components/player/SpeakingPlayer";
 import { TestPlayer, type AttemptSnapshot } from "@/components/player/TestPlayer";
+import { WritingPlayer } from "@/components/player/WritingPlayer";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { getPlayableTest } from "@/lib/tests/access";
@@ -39,6 +41,15 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
     answers: (attempt.answers as Record<string, string>) ?? {},
     flags: (attempt.flags as number[]) ?? [],
   };
+
+  // Three players, one lifecycle. Which one a student gets is decided here and
+  // nowhere else.
+  if (access.test.skill === "writing") {
+    return <WritingPlayer test={access.test} attempt={snapshot} />;
+  }
+  if (access.test.skill === "speaking") {
+    return <SpeakingPlayer test={access.test} attempt={snapshot} />;
+  }
 
   return <TestPlayer test={access.test} attempt={snapshot} />;
 }

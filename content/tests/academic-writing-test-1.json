@@ -1,0 +1,33 @@
+{
+  "slug": "academic-writing-test-1",
+  "isPremium": true,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "writing",
+    "title": "Academic Writing Test 1",
+    "source": "IELTS.org, Academic Writing sample tasks 2023 (Task 1A and Task 2A)",
+    "description": "Task 1 describes a bar chart on further education in Britain. Task 2 argues about wealth and preparation for adult life.",
+    "totalQuestions": 0,
+    "durationSeconds": 3600,
+    "tasks": [
+      {
+        "number": 1,
+        "promptHtml": "<p>The chart below shows the number of men and women in further education in Britain in three periods and whether they were studying full-time or part-time.</p><p>Summarise the information by selecting and reporting the main features, and make comparisons where relevant.</p>",
+        "imageUrl": "/test-media/writing-task1a-further-education.png",
+        "minWords": 150,
+        "suggestedMinutes": 20
+      },
+      {
+        "number": 2,
+        "promptHtml": "<p>Write about the following topic:</p><blockquote><p>Children who are brought up in families that do not have large amounts of money are better prepared to deal with the problems of adult life than children brought up by wealthy parents.</p><p>To what extent do you agree or disagree with this opinion?</p></blockquote><p>Give reasons for your answer and include any relevant examples from your own knowledge or experience.</p>",
+        "minWords": 250,
+        "suggestedMinutes": 40
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

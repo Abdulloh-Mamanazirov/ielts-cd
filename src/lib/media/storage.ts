@@ -1,5 +1,5 @@
 import { createReadStream } from "node:fs";
-import { mkdir, stat } from "node:fs/promises";
+import { mkdir, rm, stat, writeFile } from "node:fs/promises";
 import { dirname, resolve, sep } from "node:path";
 import { Readable } from "node:stream";
 
@@ -10,8 +10,9 @@ import { Readable } from "node:stream";
  * but a single bad row must not turn into arbitrary file reads.
  */
 
-/** Subdirectory under the media root, so audio and recordings stay separable. */
+/** Subdirectories under the media root, so audio and recordings stay separable. */
 export const AUDIO_PREFIX = "audio";
+export const RECORDING_PREFIX = "recordings";
 
 /**
  * One path segment: starts alphanumeric, then word characters, dots or hyphens.
@@ -70,6 +71,16 @@ export async function mediaFileSize(storageKey: string): Promise<number | null> 
 
 export async function ensureMediaDir(storageKey: string): Promise<void> {
   await mkdir(dirname(resolveMediaPath(storageKey)), { recursive: true });
+}
+
+/** Whole-file write, for uploads small enough to hold in memory (recordings). */
+export async function writeMediaFile(storageKey: string, data: Uint8Array): Promise<void> {
+  await ensureMediaDir(storageKey);
+  await writeFile(resolveMediaPath(storageKey), data);
+}
+
+export async function deleteMediaFile(storageKey: string): Promise<void> {
+  await rm(resolveMediaPath(storageKey), { force: true });
 }
 
 /**

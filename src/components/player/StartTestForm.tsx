@@ -9,9 +9,11 @@ import { cn } from "@/lib/utils";
 export function StartTestForm({
   testId,
   durationMinutes,
+  skill,
 }: {
   testId: string;
   durationMinutes: number;
+  skill: "listening" | "reading" | "writing" | "speaking";
 }) {
   const router = useRouter();
   const [starting, setStarting] = useState<"PRACTICE" | "MOCK" | null>(null);
@@ -42,14 +44,32 @@ export function StartTestForm({
     }
   };
 
+  // Writing and speaking are marked by a person, so practice cannot promise
+  // explanations and a mock cannot promise a band the moment time runs out.
+  const marked = skill === "writing" || skill === "speaking";
+
   return (
     <div className="mt-8">
       <div className="grid gap-4 sm:grid-cols-2">
         <ModeCard
           title="Practice"
           subtitle="Untimed"
-          description="Pause whenever you like, then check your answers with explanations."
-          points={["Timer can be paused", "Answers explained afterwards", "Saved to your progress"]}
+          description={
+            marked
+              ? skill === "speaking"
+                ? "Take your time, re-record any answer, and listen back before you send it."
+                : "Take your time over the prompt, and keep editing until you are happy with it."
+              : "Pause whenever you like, then check your answers with explanations."
+          }
+          points={[
+            "Timer can be paused",
+            marked
+              ? skill === "speaking"
+                ? "Re-record and listen back"
+                : "Edit until you submit"
+              : "Answers explained afterwards",
+            "Saved to your progress",
+          ]}
           accent="ok"
           busy={starting === "PRACTICE"}
           disabled={starting !== null}
@@ -59,7 +79,11 @@ export function StartTestForm({
           title="Mock"
           subtitle={`${durationMinutes} minutes`}
           description="The real thing: a countdown you cannot pause, submitted automatically when time runs out."
-          points={["No pausing", "Auto-submits at zero", "Counts towards your progress"]}
+          points={[
+            "No pausing",
+            "Auto-submits at zero",
+            marked ? "Marked by your instructor" : "Counts towards your progress",
+          ]}
           accent="blue"
           busy={starting === "MOCK"}
           disabled={starting !== null}

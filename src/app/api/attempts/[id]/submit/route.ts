@@ -2,7 +2,13 @@ import { z } from "zod";
 
 import { requireUserApi } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
-import { gradeAndStore, isExpired, SUBMIT_GRACE_SECONDS } from "@/lib/attempts/service";
+import {
+  gradeAndStore,
+  isAutoGraded,
+  isExpired,
+  submitForReview,
+  SUBMIT_GRACE_SECONDS,
+} from "@/lib/attempts/service";
 import { getAnswerKey } from "@/lib/tests/access";
 
 const submitSchema = z.object({
@@ -56,6 +62,18 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
     ...(attempt.answers as Record<string, string>),
     ...(lateSubmission ? {} : (parsed.data.answers ?? {})),
   };
+
+  // Writing and speaking have no key to mark against. The attempt closes with
+  // no band at all rather than a zero, which would drag down a band average
+  // that the instructor has not even looked at yet.
+  if (!isAutoGraded(loaded.content.skill)) {
+    await submitForReview(attempt.id, loaded.content, submission, attempt.startedAt);
+    return Response.json({
+      awaitingReview: true,
+      skill: loaded.content.skill,
+      lateSubmission,
+    });
+  }
 
   const { result } = await gradeAndStore(
     attempt.id,
