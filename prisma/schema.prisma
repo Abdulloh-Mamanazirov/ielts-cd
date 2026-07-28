@@ -1,0 +1,307 @@
+// IELTS mock test platform — database schema
+// Docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  STUDENT
+  ADMIN
+}
+
+enum Skill {
+  LISTENING
+  READING
+  WRITING
+  SPEAKING
+}
+
+enum TestStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum AttemptMode {
+  PRACTICE
+  MOCK
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  SUBMITTED
+  ABANDONED
+}
+
+enum FullMockStatus {
+  IN_PROGRESS
+  COMPLETED
+  ABANDONED
+}
+
+enum AnswerReviewStatus {
+  PENDING
+  ACCEPTED
+  REJECTED
+}
+
+enum TestimonialMedia {
+  TEXT
+  YOUTUBE
+  INSTAGRAM
+}
+
+model User {
+  id                 String    @id @default(cuid())
+  email              String    @unique
+  passwordHash       String
+  fullName           String
+  role               Role      @default(STUDENT)
+  isPremium          Boolean   @default(false)
+  premiumGrantedAt   DateTime?
+  premiumGrantedById String?
+  premiumNote        String?
+  lastLoginAt        DateTime?
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  sessions           Session[]
+  attempts           Attempt[]
+  fullMocks          FullMock[]
+  reviewedWriting    WritingSubmission[] @relation("WritingReviewer")
+
+  @@index([isPremium])
+  @@index([createdAt])
+}
+
+// Session tokens are random 32-byte values; only their SHA-256 hash is stored,
+// so a database leak cannot be replayed as a valid cookie.
+model Session {
+  id         String   @id @default(cuid())
+  tokenHash  String   @unique
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt  DateTime
+  lastSeenAt DateTime @default(now())
+  userAgent  String?
+  ipAddress  String?
+  createdAt  DateTime @default(now())
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+// Recorded for unknown emails too, so it cannot be a relation on User.
+model LoginAttempt {
+  id         String   @id @default(cuid())
+  identifier String
+  ipAddress  String?
+  succeeded  Boolean
+  createdAt  DateTime @default(now())
+
+  @@index([identifier, createdAt])
+  @@index([ipAddress, createdAt])
+}
+
+model Test {
+  id              String     @id @default(cuid())
+  slug            String     @unique
+  skill           Skill
+  title           String
+  description     String?
+  isPremium       Boolean    @default(false)
+  status          TestStatus @default(DRAFT)
+  schemaVersion   Int        @default(1)
+  // Rendered by the player; safe to send to the browser.
+  content         Json
+  // Accepted answers, explanations, evidence. Never serialize this to a client.
+  answerKey       Json
+  totalQuestions  Int
+  durationSeconds Int
+  source          String?
+  audioAssetId    String?
+  audioAsset      AudioAsset? @relation(fields: [audioAssetId], references: [id], onDelete: SetNull)
+  // Where a converted listening test's audio came from, so the admin knows what
+  // to re-host. Publishing still requires an uploaded audioAsset.
+  audioSourceUrl  String?
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+  publishedAt     DateTime?
+
+  attempts        Attempt[]
+  answerReviews   AnswerReview[]
+
+  @@index([skill, status])
+  @@index([status, isPremium])
+}
+
+model AudioAsset {
+  id              String   @id @default(cuid())
+  filename        String
+  storageKey      String   @unique
+  mimeType        String
+  sizeBytes       Int
+  durationSeconds Int?
+  createdAt       DateTime @default(now())
+
+  tests           Test[]
+}
+
+model Attempt {
+  id         String        @id @default(cuid())
+  userId     String
+  user       User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  testId     String
+  test       Test          @relation(fields: [testId], references: [id], onDelete: Cascade)
+  mode       AttemptMode
+  status     AttemptStatus @default(IN_PROGRESS)
+  fullMockId String?
+  fullMock   FullMock?     @relation(fields: [fullMockId], references: [id], onDelete: SetNull)
+  sequence   Int?
+
+  answers     Json @default("{}")
+  flags       Json @default("[]")
+  annotations Json @default("{}")
+  result      Json?
+
+  rawScore         Int?
+  band             Float?
+  startedAt        DateTime  @default(now())
+  submittedAt      DateTime?
+  timeSpentSeconds Int?
+  // Server-authoritative deadline for MOCK mode; a tampered client clock cannot extend it.
+  expiresAt        DateTime?
+
+  writingSubmission  WritingSubmission?
+  speakingRecordings SpeakingRecording[]
+
+  @@index([userId, submittedAt])
+  @@index([userId, status])
+  @@index([testId])
+  @@index([fullMockId])
+}
+
+model FullMock {
+  id              String         @id @default(cuid())
+  userId          String
+  user            User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  includeSpeaking Boolean        @default(false)
+  status          FullMockStatus @default(IN_PROGRESS)
+  overallBand     Float?
+  startedAt       DateTime       @default(now())
+  completedAt     DateTime?
+
+  attempts        Attempt[]
+
+  @@index([userId, startedAt])
+}
+
+model WritingSubmission {
+  id                 String    @id @default(cuid())
+  attemptId          String    @unique
+  attempt            Attempt   @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  task1Text          String    @db.Text
+  task2Text          String?   @db.Text
+  task1WordCount     Int       @default(0)
+  task2WordCount     Int       @default(0)
+  instructorBand     Float?
+  instructorFeedback String?   @db.Text
+  reviewedAt         DateTime?
+  reviewedById       String?
+  reviewedBy         User?     @relation("WritingReviewer", fields: [reviewedById], references: [id], onDelete: SetNull)
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  @@index([reviewedAt])
+}
+
+model SpeakingRecording {
+  id              String   @id @default(cuid())
+  attemptId       String
+  attempt         Attempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  part            Int
+  promptIndex     Int?
+  storageKey      String   @unique
+  mimeType        String
+  sizeBytes       Int
+  durationSeconds Int?
+  createdAt       DateTime @default(now())
+
+  @@index([attemptId])
+}
+
+// Answers students typed that were marked wrong, grouped for the instructor to
+// accept into the answer key as a legitimate variant.
+model AnswerReview {
+  id               String             @id @default(cuid())
+  testId           String
+  test             Test               @relation(fields: [testId], references: [id], onDelete: Cascade)
+  questionNumber   Int
+  normalizedAnswer String
+  rawExample       String
+  occurrences      Int                @default(1)
+  status           AnswerReviewStatus @default(PENDING)
+  decidedAt        DateTime?
+  createdAt        DateTime           @default(now())
+  updatedAt        DateTime           @updatedAt
+
+  @@unique([testId, questionNumber, normalizedAnswer])
+  @@index([status])
+}
+
+model ShowcaseResult {
+  id           String   @id @default(cuid())
+  studentName  String
+  overallBand  Float
+  listening    Float?
+  reading      Float?
+  writing      Float?
+  speaking     Float?
+  quoteEn      String?
+  quoteUz      String?
+  quoteRu      String?
+  // Scan of the Test Report Form. Redact personal details before uploading:
+  // a real TRF carries the candidate's full name, ID, date of birth and
+  // nationality, none of which belong on a public page.
+  certificateUrl String?
+  testDate       DateTime?
+  displayOrder Int      @default(0)
+  isVisible    Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([isVisible, displayOrder])
+}
+
+model Testimonial {
+  id           String           @id @default(cuid())
+  studentName  String
+  rating       Int              @default(5)
+  mediaType    TestimonialMedia @default(TEXT)
+  mediaUrl     String?
+  // YouTube thumbnails are derived from the video id. Instagram blocks
+  // hotlinking and its oEmbed needs a token, so reels need one uploaded here.
+  thumbnailUrl String?
+  caption      String?
+  quoteEn      String?
+  quoteUz      String?
+  quoteRu      String?
+  displayOrder Int              @default(0)
+  isVisible    Boolean          @default(true)
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+
+  @@index([isVisible, displayOrder])
+}
+
+model SiteSetting {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt
+}
