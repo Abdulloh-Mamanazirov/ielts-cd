@@ -1,5 +1,5 @@
 import { VideoCard, type VideoTestimonial } from "./VideoCard";
-import { parseVideoUrl } from "@/lib/media";
+import { parseVideoUrl } from "@/lib/media/video";
 
 /**
  * YouTube is landscape and Instagram reels are portrait, so mixing them in one

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { posterFor } from "@/lib/media";
+import { posterFor } from "@/lib/media/video";
 import { cn } from "@/lib/utils";
 
 export type VideoTestimonial = {

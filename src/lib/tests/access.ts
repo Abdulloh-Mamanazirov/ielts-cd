@@ -14,6 +14,8 @@ export type PlayableTest = {
   durationSeconds: number;
   totalQuestions: number;
   hasAudio: boolean;
+  /** Recorded at upload, so the player can show a length before the file loads. */
+  audioDurationSeconds: number | null;
   content: TestContent;
 };
 
@@ -38,6 +40,7 @@ export async function getPlayableTest(
       durationSeconds: true,
       totalQuestions: true,
       audioAssetId: true,
+      audioAsset: { select: { durationSeconds: true } },
       content: true,
     },
   });
@@ -69,9 +72,57 @@ export async function getPlayableTest(
       durationSeconds: record.durationSeconds,
       totalQuestions: record.totalQuestions,
       hasAudio: Boolean(record.audioAssetId),
+      audioDurationSeconds: record.audioAsset?.durationSeconds ?? null,
       content: parsed.data,
     },
   };
+}
+
+export type TestAudio = {
+  id: string;
+  filename: string;
+  storageKey: string;
+  mimeType: string;
+  sizeBytes: number;
+  durationSeconds: number | null;
+};
+
+/**
+ * The audio behind a test, subject to the same gate as sitting it. Deliberately
+ * does not parse the content JSON: a browser issues a range request for every
+ * seek, and re-validating a 40-question test each time would be wasted work.
+ */
+export async function getTestAudio(
+  testId: string,
+  user: SessionUser | null,
+): Promise<{ ok: true; audio: TestAudio } | { ok: false; reason: AccessDenial }> {
+  const record = await prisma.test.findUnique({
+    where: { id: testId },
+    select: {
+      isPremium: true,
+      status: true,
+      audioAsset: {
+        select: {
+          id: true,
+          filename: true,
+          storageKey: true,
+          mimeType: true,
+          sizeBytes: true,
+          durationSeconds: true,
+        },
+      },
+    },
+  });
+
+  if (!record) return { ok: false, reason: "not_found" };
+
+  const isAdmin = user?.role === "ADMIN";
+  if (record.status !== "PUBLISHED" && !isAdmin) return { ok: false, reason: "not_found" };
+  if (!user) return { ok: false, reason: "not_signed_in" };
+  if (!canAccessTest(user, record)) return { ok: false, reason: "premium_required" };
+  if (!record.audioAsset) return { ok: false, reason: "unavailable" };
+
+  return { ok: true, audio: record.audioAsset };
 }
 
 /** Server-only. Never call this from a component or return its value to a client. */

@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { PlayableTest } from "@/lib/tests/access";
 import type { GradeResult } from "@/lib/tests/grade";
 import { questionNumbersInGroup } from "@/lib/tests/slots";
+import { AudioBar } from "./AudioBar";
 import { PassagePane, type Evidence } from "./PassagePane";
 import { PlayerHeader, ReviewHeader } from "./PlayerChrome";
 import { QuestionGroupView, type ReviewInfo } from "./QuestionGroupView";
@@ -157,6 +158,12 @@ export function TestPlayer({
     .flatMap((part) => part.questions)
     .filter((question) => (answers[String(question)] ?? "").trim()).length;
 
+  // Part offsets are optional in the schema; without them the track just has no
+  // markers on it.
+  const audioMarkers = parts
+    .filter((part) => part.audioStartSeconds !== undefined)
+    .map((part) => ({ number: part.number, startSeconds: part.audioStartSeconds! }));
+
   const questionsPane = (
     <div className="min-h-0 flex-1 overflow-y-auto px-6 py-5 lg:px-8" style={{ fontSize: size }}>
       {!currentPart?.passageHtml && currentPart?.instructionsHtml && (
@@ -214,6 +221,17 @@ export function TestPlayer({
           canIncrease={canIncrease}
           onSubmit={() => setDialogOpen(true)}
           submitting={submitting}
+        />
+      )}
+
+      {test.skill === "listening" && test.hasAudio && (
+        <AudioBar
+          src={`/api/tests/${test.id}/audio`}
+          // Mock rules apply only while the test is live. In review the point is
+          // to study the recording, so the controls come back.
+          locked={attempt.mode === "MOCK" && !reviewMode}
+          knownDuration={test.audioDurationSeconds}
+          parts={audioMarkers}
         />
       )}
 
