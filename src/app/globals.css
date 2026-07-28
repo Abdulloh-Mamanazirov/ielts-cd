@@ -1,26 +1,140 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/**
+ * Design direction 1a — "Result Board".
+ * Editorial grid, data as the hero, Archivo Black display over Archivo text.
+ *
+ * House rule from the design: no card anywhere on the site gets a grey border.
+ * Separation comes from background changes, hairline rules and shadow.
+ */
+@theme {
+  --color-ink: #0b1120;
+  --color-ink-muted: rgba(11, 17, 32, 0.7);
+  --color-ink-soft: rgba(11, 17, 32, 0.62);
+  --color-ink-subtle: rgba(11, 17, 32, 0.5);
+  --color-ink-faint: rgba(11, 17, 32, 0.16);
+  --color-rule: rgba(11, 17, 32, 0.14);
+  --color-rule-strong: rgba(11, 17, 32, 0.16);
+
+  --color-brand-red: #fe014d;
+  --color-brand-red-cta: #e10046;
+  --color-brand-red-dark: #c9003d;
+  --color-brand-red-soft: #fff1f4;
+  --color-brand-blue: #0154f8;
+  --color-brand-blue-dark: #0143c9;
+  --color-brand-blue-soft: #eef3ff;
+
+  --color-surface: #ffffff;
+  --color-surface-alt: #f3f4f5;
+  --color-surface-muted: #f5f7fa;
+
+  --color-ok: #0b7a52;
+  --color-ok-soft: rgba(11, 122, 82, 0.09);
+  --color-bad: #e10046;
+  --color-bad-soft: rgba(225, 0, 70, 0.07);
+
+  --font-sans: var(--font-archivo), system-ui, sans-serif;
+  --font-display: var(--font-archivo-black), var(--font-archivo), sans-serif;
+  --font-serif: var(--font-source-serif), Georgia, serif;
+
+  /* 10 / 14 / 18 / 26 / 52 / 104 — headline and stat numerals share one voice. */
+  --text-eyebrow: 0.625rem;
+  --text-stat: 3.25rem;
+  --text-display: 6.5rem;
+
+  --animate-rise: om-rise 0.6s cubic-bezier(0.16, 0.84, 0.44, 1) both;
+  --animate-marquee: om-marquee 34s linear infinite;
+  --animate-spin-slow: om-spin 70s linear infinite;
+  --animate-grow: om-grow 0.7s cubic-bezier(0.16, 0.84, 0.44, 1) both;
+  /* `backwards`, not `both`: the bar's resting state is its natural height, so
+     if the animation never runs the chart is still readable rather than flat. */
+  --animate-grow-y: om-grow-y 0.7s cubic-bezier(0.16, 0.84, 0.44, 1) backwards;
+  --animate-pulse-slow: om-pulse 1.6s ease-in-out infinite;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes om-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
   }
 }
 
+/**
+ * The track holds four copies of the strip and shifts by exactly one of them,
+ * so the loop point is invisible. Two copies plus -50% only works when a single
+ * copy is wider than the viewport; below that a gap opens on every cycle, which
+ * is what made the old ticker stutter.
+ */
+@keyframes om-marquee {
+  to {
+    transform: translateX(-25%);
+  }
+}
+
+@keyframes om-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes om-grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* The timer's last five minutes — the only motion in the player chrome. */
+@keyframes om-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+/* Chart bars rise from their baseline — the one celebratory moment in the app. */
+@keyframes om-grow-y {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-surface-alt);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* The 120px column grid that sits under the editorial sections. */
+.om-grid-lines {
+  background-image: linear-gradient(90deg, rgba(11, 17, 32, 0.055) 1px, transparent 1px);
+  background-size: 120px 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
