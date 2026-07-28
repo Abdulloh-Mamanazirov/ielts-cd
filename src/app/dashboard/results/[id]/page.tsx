@@ -43,9 +43,15 @@ export default async function ResultPage({ params }: { params: Promise<{ id: str
 
   if (!attempt || !attempt.submittedAt) notFound();
 
-  const stored = attempt.result as { verdicts?: QuestionVerdict[]; isEstimate?: boolean } | null;
+  const stored = attempt.result as {
+    verdicts?: QuestionVerdict[];
+    isEstimate?: boolean;
+    /** Speaking has no submission row, so its marking rides in the attempt. */
+    instructorFeedback?: string;
+  } | null;
   const verdicts = stored?.verdicts ?? [];
   const autoGraded = attempt.test.totalQuestions > 0;
+  const feedback = attempt.writingSubmission?.instructorFeedback ?? stored?.instructorFeedback;
 
   return (
     <main className="mx-auto max-w-3xl px-5 py-10">
@@ -85,13 +91,13 @@ export default async function ResultPage({ params }: { params: Promise<{ id: str
         </p>
       )}
 
-      {attempt.writingSubmission?.instructorFeedback && (
+      {feedback && (
         <section className="mt-8">
           <h2 className="mb-2 text-sm font-bold uppercase tracking-wide text-ink-subtle">
             Instructor feedback
           </h2>
           <p className="whitespace-pre-wrap rounded-xl bg-white p-5 text-sm leading-relaxed text-ink shadow-[0_1px_2px_rgba(11,17,32,.08)]">
-            {attempt.writingSubmission.instructorFeedback}
+            {feedback}
           </p>
         </section>
       )}

@@ -9,6 +9,7 @@ import {
   submitForReview,
   SUBMIT_GRACE_SECONDS,
 } from "@/lib/attempts/service";
+import { refreshFullMock } from "@/lib/full-mock/service";
 import { getAnswerKey } from "@/lib/tests/access";
 
 const submitSchema = z.object({
@@ -43,6 +44,7 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
       answers: true,
       startedAt: true,
       expiresAt: true,
+      fullMockId: true,
     },
   });
 
@@ -68,10 +70,12 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
   // that the instructor has not even looked at yet.
   if (!isAutoGraded(loaded.content.skill)) {
     await submitForReview(attempt.id, loaded.content, submission, attempt.startedAt);
+    if (attempt.fullMockId) await refreshFullMock(attempt.fullMockId);
     return Response.json({
       awaitingReview: true,
       skill: loaded.content.skill,
       lateSubmission,
+      fullMockId: attempt.fullMockId,
     });
   }
 
@@ -84,6 +88,8 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
     attempt.startedAt,
   );
 
+  if (attempt.fullMockId) await refreshFullMock(attempt.fullMockId);
+
   return Response.json({
     rawScore: result.rawScore,
     totalQuestions: result.totalQuestions,
@@ -92,5 +98,6 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
     isEstimate: result.isEstimate,
     verdicts: result.verdicts,
     lateSubmission,
+    fullMockId: attempt.fullMockId,
   });
 }

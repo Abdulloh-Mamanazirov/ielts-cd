@@ -36,7 +36,12 @@ export function OptionPill({
   return (
     <label
       className={cn(
-        "flex cursor-pointer items-center gap-3 rounded-[9px] px-3.5 py-2.5 text-sm transition",
+        // `relative` is load-bearing. The input below is `sr-only`, which is
+        // absolutely positioned; without a positioned ancestor its containing
+        // block is the document, so every hidden radio lands further down the
+        // page and inflates the document's scroll height. Clicking a label then
+        // focuses that input and the browser scrolls the whole window to it.
+        "relative flex cursor-pointer items-center gap-3 rounded-[9px] px-3.5 py-2.5 text-sm transition",
         !mark && "bg-white shadow-[inset_0_0_0_1.5px_rgba(11,17,32,.16)] hover:shadow-[inset_0_0_0_1.5px_rgba(11,17,32,.4)]",
         !mark && checked && "shadow-[inset_0_0_0_2px_#0154f8]",
         mark === "correct" && "bg-ok-soft font-semibold shadow-[inset_0_0_0_2px_#0b7a52]",

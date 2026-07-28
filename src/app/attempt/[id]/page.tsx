@@ -22,6 +22,7 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
       flags: true,
       startedAt: true,
       expiresAt: true,
+      fullMockId: true,
     },
   });
 
@@ -40,6 +41,7 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
     expiresAt: attempt.expiresAt?.toISOString() ?? null,
     answers: (attempt.answers as Record<string, string>) ?? {},
     flags: (attempt.flags as number[]) ?? [],
+    fullMockId: attempt.fullMockId,
   };
 
   // Three players, one lifecycle. Which one a student gets is decided here and

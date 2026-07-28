@@ -6,6 +6,7 @@ import { PageHeader } from "@/components/app/PageHeader";
 import { StartPractice } from "@/components/app/StartPractice";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
+import { fullMockBlockers } from "@/lib/full-mock/service";
 import { cn } from "@/lib/utils";
 
 export const metadata = { title: "Dashboard" };
@@ -35,7 +36,10 @@ export default async function DashboardPage() {
       },
     }),
     prisma.attempt.findMany({
-      where: { userId: user.id, status: "IN_PROGRESS" },
+      // Sections of a full mock are resumed from the full mock page, in order.
+      // Listing them here as loose unfinished tests would invite a student to
+      // jump straight into section 3.
+      where: { userId: user.id, status: "IN_PROGRESS", fullMockId: null },
       orderBy: { startedAt: "desc" },
       select: { id: true, startedAt: true, test: { select: { title: true, skill: true } } },
     }),
@@ -45,6 +49,8 @@ export default async function DashboardPage() {
       _count: { _all: true },
     }),
   ]);
+
+  const fullMockReady = (await fullMockBlockers(user)).length === 0;
 
   const skillCounts = Object.fromEntries(
     testsBySkill.map((row) => [row.skill.toLowerCase(), row._count._all]),
@@ -81,11 +87,9 @@ export default async function DashboardPage() {
         eyebrow={`WELCOME BACK, ${user.fullName.split(" ")[0].toUpperCase()}`}
         title={
           weakest ? (
-            <>
-              {SKILL_LABEL[weakest.skill].toLowerCase()} needs
-              <br />
-              the work.
-            </>
+            // No forced break: at the smaller heading size this fits on one
+            // line, and the header is meant to be a strip, not a billboard.
+            <>{SKILL_LABEL[weakest.skill].toLowerCase()} needs the work.</>
           ) : (
             <>Let&apos;s find your baseline.</>
           )
@@ -99,9 +103,9 @@ export default async function DashboardPage() {
         }
       />
 
-      <div className="px-6 pb-16 lg:px-10">
+      <div className="px-6 pb-16 pt-6 lg:px-10 lg:pt-8">
         <div className="mx-auto max-w-4xl space-y-px bg-rule">
-          <StartPractice counts={skillCounts} />
+          <StartPractice counts={skillCounts} fullMockReady={fullMockReady} />
           {inProgress.length > 0 && (
             <section className="bg-white p-6 lg:p-8">
               <h2 className="text-[10px] font-bold tracking-[0.22em] text-brand-blue">

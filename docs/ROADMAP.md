@@ -35,28 +35,22 @@ without re-deriving anything.
   show "awaiting marking" and to keep an unmarked attempt out of band history.
   Speaking answers upload one prompt at a time.
 
+- **Full mock** — one test per skill, composed at the start and stored as real
+  attempts with a sequence. Selection rules live in `src/lib/full-mock/select.ts`
+  with no database import, so they are unit tested; section length outranks
+  freshness, so a mock never uses the 13-question reading practice. Each
+  section's clock starts when it is opened and cannot be reset by reloading. The
+  overall band is written only once every section has one.
+- **Admin panel** — `/admin`, role guarded, server actions that re-check the
+  caller. Marking queue for writing and speaking (writes both
+  `WritingSubmission.instructorBand` and `Attempt.band`), answer-review queue
+  that can extend a test's key, JSON test import running the real validator,
+  publish/archive controls that refuse to publish a listening test without
+  audio, and premium grants.
+
 ## Next, in priority order
 
-### 1. Admin panel
-
-Nothing exists yet. Without it the instructor cannot add tests, upload audio,
-grant premium, review writing, or manage the homepage content — all of which are
-currently script only. Needed before handover. The audio upload form should wrap
-`scripts/upload-audio.ts`, whose ingest step already does the hard parts
-(content-addressed keys, container sniffing, superseded-file cleanup).
-
-Marking writing and speaking is the most urgent part: students can sit both
-today, and nothing can give them a band. Marking must write **both**
-`WritingSubmission.instructorBand` and `Attempt.band` — the first is the
-instructor's record, the second is what the dashboard reads.
-
-### 2. Full mock
-
-Composition of one test per skill. All four players exist now, so what is left is
-the composition itself: four attempts under one clock, an overall band across
-them, and a resume path. Still "Coming soon" in the UI.
-
-### 3. Uzbek and Russian
+### 1. Uzbek and Russian
 
 Copy is already isolated in `src/content/site.ts` so this is a swap to a
 per-locale dictionary plus routing. Translations must come from the instructor;
@@ -64,6 +58,13 @@ do not invent them for a public-facing site.
 
 ## Known gaps worth remembering
 
+- The admin panel has no audio upload form; `npm run audio:upload` is still the
+  way in, and the tests screen prints the exact command for a listening test
+  that needs one. The script's ingest already does the hard parts
+  (content-addressed keys, container sniffing, superseded-file cleanup), so the
+  form is a wrapper around it rather than new logic.
+- Homepage showcase results and testimonials are still seed rows with no admin
+  screen. They are the last script-only content.
 - Mock-mode play-once holds for the life of the page. Reloading mid-attempt
   rearms the recording, because nothing about audio position is persisted.
   Fixing it properly means attempt-level state (a column, or a key inside

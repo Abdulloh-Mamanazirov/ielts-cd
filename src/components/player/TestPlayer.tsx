@@ -24,6 +24,8 @@ export type AttemptSnapshot = {
   expiresAt: string | null;
   answers: Record<string, string>;
   flags: number[];
+  /** Set when this attempt is one section of a full mock. */
+  fullMockId: string | null;
 };
 
 export function TestPlayer({
@@ -126,6 +128,14 @@ export function TestPlayer({
         return;
       }
 
+      // Mid-mock there is another section waiting, so marking is deferred to
+      // the end rather than opened in place — a student should not be reading
+      // explanations with the reading clock about to start.
+      if (attempt.fullMockId) {
+        window.location.href = "/full-mock";
+        return;
+      }
+
       // No router.refresh(): the attempt page redirects a submitted attempt to
       // the results page, which would pull the student away from the passage
       // just as the marking appears.
@@ -135,7 +145,7 @@ export function TestPlayer({
     } finally {
       setSubmitting(false);
     }
-  }, [answers, attempt.id, flush, reviewMode, submitting]);
+  }, [answers, attempt.fullMockId, attempt.id, flush, reviewMode, submitting]);
 
   const goToQuestion = useCallback(
     (questionNumber: number) => {
@@ -193,7 +203,9 @@ export function TestPlayer({
   );
 
   return (
-    <div className="flex h-dvh flex-col bg-surface-alt">
+    // `overflow-hidden`: the player owns the viewport and scrolls inside its own
+    // panes. Nothing should ever be able to scroll the document behind it.
+    <div className="flex h-dvh flex-col overflow-hidden bg-surface-alt">
       {reviewMode && result ? (
         <ReviewHeader
           title={test.title}

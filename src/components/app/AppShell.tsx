@@ -58,11 +58,15 @@ export function AppShell({
               />
             ))}
 
-            <NavItem href="/tests?skill=full" label="Full mock" current={current} skill="full" />
+            <NavItem href="/full-mock" label="Full mock" current={current} skill="full" />
 
             <NavGroupLabel>More</NavGroupLabel>
 
             <NavItem href="/results" label="Student results" current={current} icon="star" />
+
+            {user.role === "ADMIN" && (
+              <NavItem href="/admin" label="Instructor" current={current} icon="grid" />
+            )}
           </ul>
         </nav>
 

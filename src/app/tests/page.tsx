@@ -4,7 +4,7 @@ import { AppShell } from "@/components/app/AppShell";
 import { PageHeader } from "@/components/app/PageHeader";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
-import { describeTest, isSkillSlug, skillBySlug, SKILLS } from "@/lib/skills";
+import { describeTest, isSkillSlug, skillBySlug } from "@/lib/skills";
 import { cn } from "@/lib/utils";
 
 export const metadata = { title: "Practice tests" };
@@ -25,16 +25,12 @@ export default async function TestsPage({
   const user = await requireUser("/tests");
 
   const active = isSkillSlug(skill) ? skillBySlug(skill) : undefined;
-  // "full" is a valid nav target but not a skill, so it filters to nothing and
-  // falls through to the empty state below.
-  const isFullMock = skill === "full";
 
   const [tests, attempts] = await Promise.all([
     prisma.test.findMany({
       where: {
         status: "PUBLISHED",
         ...(active ? { skill: active.db } : {}),
-        ...(isFullMock ? { id: "__none__" } : {}),
       },
       orderBy: [{ skill: "asc" }, { isPremium: "asc" }, { title: "asc" }],
       select: {
@@ -66,34 +62,20 @@ export default async function TestsPage({
   const hasPremium = user.isPremium || user.role === "ADMIN";
 
   return (
-    <AppShell user={user} current={active ? `/tests?skill=${active.slug}` : isFullMock ? "/tests?skill=full" : "/tests"}>
+    <AppShell user={user} current={active ? `/tests?skill=${active.slug}` : "/tests"}>
       <PageHeader
-        eyebrow={isFullMock ? "FULL MOCK" : active ? active.name.toUpperCase() : "PRACTICE TESTS"}
-        title={isFullMock ? "All four skills." : active ? `${active.name} tests.` : "Choose a test."}
+        eyebrow={active ? active.name.toUpperCase() : "PRACTICE TESTS"}
+        title={active ? `${active.name} tests.` : "Choose a test."}
         subtitle={
-          isFullMock
-            ? "A full mock composes one test per skill. It unlocks once the writing and speaking players are ready."
-            : hasPremium
-              ? "You have access to every test, free and premium."
-              : "Free tests are open to you. Premium tests unlock when your instructor grants access."
+          hasPremium
+            ? "You have access to every test, free and premium."
+            : "Free tests are open to you. Premium tests unlock when your instructor grants access."
         }
       />
 
-      <div className="px-6 pb-6 lg:px-10">
-        <ul className="mx-auto flex max-w-4xl flex-wrap gap-2">
-          <SkillChip href="/tests" label="All" active={!active && !isFullMock} />
-          {SKILLS.map((entry) => (
-            <SkillChip
-              key={entry.slug}
-              href={`/tests?skill=${entry.slug}`}
-              label={entry.name}
-              active={active?.slug === entry.slug}
-            />
-          ))}
-        </ul>
-      </div>
-
-      <div className="px-6 pb-16 lg:px-10">
+      {/* No skill filter row: the sidebar already picks the skill, and a second
+          set of controls saying the same thing only competes with it. */}
+      <div className="px-6 pb-16 pt-6 lg:px-10 lg:pt-8">
         <ul className="mx-auto max-w-4xl space-y-px bg-rule">
           {tests.map((test) => {
             const locked = test.isPremium && !hasPremium;
@@ -163,32 +145,13 @@ export default async function TestsPage({
 
         {tests.length === 0 && (
           <p className="mx-auto max-w-4xl bg-white p-12 text-center text-sm text-ink-subtle">
-            {isFullMock
-              ? "Full mocks are not available yet."
-              : active
-                ? `No ${active.name.toLowerCase()} tests are published yet.`
-                : "No tests published yet."}
+            {active
+              ? `No ${active.name.toLowerCase()} tests are published yet.`
+              : "No tests published yet."}
           </p>
         )}
       </div>
     </AppShell>
-  );
-}
-
-function SkillChip({ href, label, active }: { href: string; label: string; active: boolean }) {
-  return (
-    <li>
-      <Link
-        href={href}
-        aria-current={active ? "page" : undefined}
-        className={cn(
-          "block rounded-full px-4 py-2 text-sm font-bold transition",
-          active ? "bg-brand-blue text-white" : "bg-white text-ink-muted hover:bg-ink hover:text-white",
-        )}
-      >
-        {label}
-      </Link>
-    </li>
   );
 }
 

@@ -161,11 +161,13 @@ export function SpeakingPlayer({
         return;
       }
       setSubmitted(true);
-      window.location.href = `/dashboard/results/${attempt.id}`;
+      window.location.href = attempt.fullMockId
+        ? "/full-mock"
+        : `/dashboard/results/${attempt.id}`;
     } finally {
       setSubmitting(false);
     }
-  }, [attempt.id, submitted, submitting]);
+  }, [attempt.fullMockId, attempt.id, submitted, submitting]);
 
   const testRemaining = useCountdown(attempt.expiresAt, submitted, submit);
   const answered = Object.keys(saved).length;
@@ -175,7 +177,7 @@ export function SpeakingPlayer({
   }
 
   return (
-    <div className="flex h-dvh flex-col bg-surface-alt">
+    <div className="flex h-dvh flex-col overflow-hidden bg-surface-alt">
       <PlayerHeader
         title={test.title}
         subtitle={`${locked ? "Mock" : "Practice"} · ${prompts.length} questions`}

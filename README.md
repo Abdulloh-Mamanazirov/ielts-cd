@@ -50,10 +50,9 @@ The home page, then: sign up → browse tests → choose practice or mock → si
 test → submit → see your score, band and per-question review → find it again on
 your dashboard.
 
-All four skills are playable. Not built yet: the admin panel, the full mock, and
-Uzbek/Russian translations. Audio upload and test import are script-only until
-admin exists, and writing and speaking have nowhere for an instructor to enter a
-band yet — see `docs/ROADMAP.md`.
+All four skills are playable, they compose into a full mock, and the instructor
+has an admin panel to mark, publish and grant premium from. Not built yet:
+Uzbek/Russian translations — see `docs/ROADMAP.md`.
 
 ### Images to add
 
@@ -139,6 +138,49 @@ When the admin panel lands, marking must set **both** `WritingSubmission.
 instructorBand` and `Attempt.band` — the first is the instructor's record, the
 second is what the dashboard reads.
 
+## The full mock
+
+One test per skill, sat back to back. The composition is decided once, at the
+start, and written as real `Attempt` rows with a `sequence` — picking lazily
+would let the set change under a student who paused overnight.
+
+`src/lib/full-mock/select.ts` holds the choosing rules and imports no database,
+so they can be tested directly. In priority order: a full-length section the
+student has not sat, then the full-length one they sat longest ago, then
+anything unsat, then whatever is oldest. **Section length outranks freshness** —
+the library holds a 13-question reading passage and a single-task writing
+practice, and a "full mock" built from those reports a band the student cannot
+reproduce on the day.
+
+Each section is untimed until it is opened; the clock starts on the first
+`POST /api/full-mocks/[id]/start` and reopening keeps the original deadline, so
+a reload cannot buy time. Submitting a section returns the student to the mock
+rather than into review — nobody should read explanations with the next clock
+about to start.
+
+The overall band is only written once every section has one. Writing and
+speaking wait on the instructor, so a mock can complete today and gain its
+overall a week later; averaging early would publish a number that then changes.
+
+## Admin
+
+`/admin`, guarded by role. Every server action re-checks the caller: an action
+is a public endpoint with a generated name, and being unreachable from the UI is
+not access control.
+
+- **Marking** — the queue that unblocks writing and speaking bands. Recording a
+  band writes `WritingSubmission.instructorBand` *and* `Attempt.band`; the first
+  is the marker's record, the second is what every student screen reads.
+  Speaking has no submission row, so its feedback rides in `Attempt.result`.
+- **Answer reviews** — typed answers the grader rejected, grouped by how many
+  students gave them. Accepting one writes the variant into the test's answer
+  key for future sittings. Attempts already marked are deliberately left alone:
+  silently changing a band a student has seen is worse than the original miss.
+- **Tests** — paste-in JSON import running the same validator as the conversion
+  scripts, and publish/archive controls. Imports always land as drafts, and a
+  listening test cannot be published without audio.
+- **Students** — premium grants, with a note recording why.
+
 ## Converting the legacy HTML mocks
 
 `_source-tests/` holds the instructor's existing self-contained HTML tests. Each
@@ -223,6 +265,8 @@ src/lib/tests/            content schema, grader, band tables, validator, access
 src/lib/auth/             scrypt passwords, DB-backed sessions, guards, rate limiting
 src/lib/attempts/         grading, storage, unrecognized-answer queue
 src/lib/media/            file storage, range parsing, audio probing, video links
+src/lib/full-mock/        composition rules (select.ts) and lifecycle (service.ts)
+src/app/admin/            instructor panel: marking, reviews, tests, students
 src/components/player/    the CD test player, plus the writing and speaking players
 src/app/api/              auth, attempt and audio streaming routes
 src/app/                  login, signup, dashboard, tests, attempt, results

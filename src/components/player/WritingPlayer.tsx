@@ -73,12 +73,15 @@ export function WritingPlayer({
       setSubmitted(true);
       setDialogOpen(false);
       // Unlike a graded test there is nothing to review in place, so the
-      // results page is the right destination.
-      window.location.href = `/dashboard/results/${attempt.id}`;
+      // results page is the right destination — unless another section of a
+      // full mock is waiting.
+      window.location.href = attempt.fullMockId
+        ? "/full-mock"
+        : `/dashboard/results/${attempt.id}`;
     } finally {
       setSubmitting(false);
     }
-  }, [attempt.id, flush, submitted, submitting, texts]);
+  }, [attempt.fullMockId, attempt.id, flush, submitted, submitting, texts]);
 
   const remaining = useCountdown(attempt.expiresAt, submitted, submit);
   const current = tasks.find((task) => task.number === activeTask) ?? tasks[0];
@@ -114,7 +117,7 @@ export function WritingPlayer({
   }
 
   return (
-    <div className="flex h-dvh flex-col bg-surface-alt">
+    <div className="flex h-dvh flex-col overflow-hidden bg-surface-alt">
       <PlayerHeader
         title={test.title}
         subtitle={`${attempt.mode === "MOCK" ? "Mock" : "Practice"} · ${tasks.length} task${tasks.length === 1 ? "" : "s"}`}
