@@ -32,6 +32,10 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# uploaded listening audio and speaking recordings
+/.media/
 
 # vercel
 .vercel
@@ -39,3 +43,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/src/generated/prisma
+
+# Source test media. The HTML and PDF originals are versioned because they are
+# the material the converters parse; the audio is ~90 MB and would live in git
+# history forever, so it is kept on disk and re-hosted to the media directory.
+/_source-tests/*.mp3
+/_source-tests/*.m4a
+/_source-tests/*.wav
+
+# Windows crash dumps
+*.stackdump
