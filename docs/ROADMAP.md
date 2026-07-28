@@ -48,13 +48,30 @@ without re-deriving anything.
   publish/archive controls that refuse to publish a listening test without
   audio, and premium grants.
 
+- **Locale plumbing** — `src/content/locales/` holds one dictionary per
+  language. English is the reference and every other locale is merged over it
+  key by key, so a partial translation renders in English rather than blank.
+
 ## Next, in priority order
 
-### 1. Uzbek and Russian
+### 1. Uzbek and Russian translations
 
-Copy is already isolated in `src/content/site.ts` so this is a swap to a
-per-locale dictionary plus routing. Translations must come from the instructor;
-do not invent them for a public-facing site.
+**This is a content task, not a code one.** The dictionaries exist and are
+wired; `uz.ts` and `ru.ts` are deliberately empty because the wording has to
+come from the instructor. This is a public page carrying his name and his band
+promises — a machine translation of his own sales copy costs him students.
+
+To ship a language:
+
+1. Fill in any subset of the sections in `src/content/locales/en.ts` inside
+   `uz.ts` or `ru.ts`. Anything missing falls back to English.
+2. Add the locale to `ACTIVE_LOCALES` in `src/content/locales/index.ts`.
+3. Add locale routing and a switcher, and change `site.ts` to resolve the
+   locale from the request instead of using the default.
+
+Step 3 is the only remaining code, and it is deliberately not written yet:
+publishing a `/ru` route that serves English is worse for a reader than not
+offering Russian at all.
 
 ## Known gaps worth remembering
 

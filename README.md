@@ -51,8 +51,9 @@ test → submit → see your score, band and per-question review → find it aga
 your dashboard.
 
 All four skills are playable, they compose into a full mock, and the instructor
-has an admin panel to mark, publish and grant premium from. Not built yet:
-Uzbek/Russian translations — see `docs/ROADMAP.md`.
+has an admin panel to mark, publish and grant premium from. The only thing
+outstanding is Uzbek and Russian **copy** — the dictionaries are wired and
+waiting for the instructor's own words. See `docs/ROADMAP.md`.
 
 ### Images to add
 
@@ -63,10 +64,12 @@ no code change needed:
   transparent or white background, portrait, roughly 4:5
 - `logo.png` (or `.svg`) — the DN monogram, square
 
-Marketing copy lives in `src/content/site.ts`, deliberately in one module so
-adding Uzbek and Russian means swapping it for a per-locale dictionary rather
-than editing markup. The showcase results and testimonials on the home page are
-placeholder rows from the seed; replace them with real students.
+Marketing copy lives in `src/content/locales/`, one dictionary per language.
+English is the reference; every other locale is merged over it key by key, so a
+half-finished translation renders in English rather than blank. `uz.ts` and
+`ru.ts` are empty on purpose — see the roadmap. The showcase results and
+testimonials on the home page are placeholder rows from the seed; replace them
+with real students.
 
 ## Scripts
 
