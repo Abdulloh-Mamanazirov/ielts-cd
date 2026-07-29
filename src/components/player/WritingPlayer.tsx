@@ -142,40 +142,6 @@ export function WritingPlayer({
         submitting={submitting}
       />
 
-      {tasks.length > 1 && (
-        <div
-          role="tablist"
-          aria-label="Writing tasks"
-          className="flex flex-none gap-1 border-b border-ink/[0.12] bg-white px-4 py-2 lg:px-[22px]"
-        >
-          {counts.map(({ task, words }) => (
-            <button
-              key={task.number}
-              role="tab"
-              type="button"
-              aria-selected={task.number === activeTask}
-              onClick={() => setActiveTask(task.number)}
-              className={cn(
-                "rounded-[9px] px-4 py-2 text-[13px] font-bold transition",
-                task.number === activeTask
-                  ? "bg-ink text-white"
-                  : "bg-surface-alt text-ink-muted hover:bg-ink/10",
-              )}
-            >
-              Task {task.number}
-              <span
-                className={cn(
-                  "ml-2 text-[11.5px] tabular-nums",
-                  task.number === activeTask ? "text-white/60" : "text-ink-subtle",
-                )}
-              >
-                {words}/{task.minWords}
-              </span>
-            </button>
-          ))}
-        </div>
-      )}
-
       <SplitView
         leftLabel={`Task ${current.number}`}
         rightLabel="Your answer"
@@ -220,6 +186,54 @@ export function WritingPlayer({
           />
         }
       />
+
+      {/* Along the bottom, like the reading and listening navigator and like the
+          real test — the switch between tasks is navigation, and navigation on
+          this screen lives in one place. Under the header it also sat between
+          the student and the prompt they were meant to be reading. */}
+      {tasks.length > 1 && (
+        <nav
+          aria-label="Writing tasks"
+          className="flex flex-none items-center gap-1 border-t border-ink/[0.12] bg-white px-3 py-2 lg:px-[18px]"
+        >
+          {counts.map(({ task, words }) => {
+            const here = task.number === activeTask;
+            const met = words >= task.minWords;
+
+            return (
+              <button
+                key={task.number}
+                type="button"
+                onClick={() => setActiveTask(task.number)}
+                aria-current={here ? "true" : undefined}
+                aria-label={`Task ${task.number}, ${words} of ${task.minWords} words written`}
+                className={cn(
+                  "flex items-center gap-2 rounded-lg px-3 py-1.5 transition",
+                  here ? "bg-surface-alt" : "hover:bg-surface-alt",
+                )}
+              >
+                <span
+                  className={cn(
+                    "text-[12.5px] font-bold",
+                    here ? "text-ink" : "text-ink-muted",
+                  )}
+                >
+                  Task {task.number}
+                </span>
+                <span
+                  aria-hidden
+                  className={cn(
+                    "text-[12.5px] tabular-nums",
+                    met ? "text-ok" : "text-ink-subtle",
+                  )}
+                >
+                  {words}/{task.minWords}
+                </span>
+              </button>
+            );
+          })}
+        </nav>
+      )}
 
       <ConfirmDialog
         open={dialogOpen}

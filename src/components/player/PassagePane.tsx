@@ -42,7 +42,6 @@ function anchorIn(scroller: HTMLElement, box: DOMRect) {
  */
 export function PassagePane({
   html,
-  instructionsHtml,
   evidence,
   fontSize,
   part,
@@ -52,7 +51,6 @@ export function PassagePane({
   onSetNote,
 }: {
   html: string;
-  instructionsHtml?: string;
   evidence?: Evidence | null;
   fontSize: number;
   part?: number;
@@ -200,13 +198,6 @@ export function PassagePane({
 
   return (
     <div ref={scroller} className="relative min-h-0 flex-1 overflow-y-auto px-6 py-5 lg:px-8">
-      {instructionsHtml && (
-        <RichHtml
-          html={instructionsHtml}
-          className="mb-5 border-l-2 border-brand-red pl-4 text-sm text-ink-muted [&_h3]:font-display [&_h3]:text-base [&_h3]:text-ink"
-        />
-      )}
-
       <article
         ref={article}
         style={{ fontSize }}

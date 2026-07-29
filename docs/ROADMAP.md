@@ -52,6 +52,15 @@ without re-deriving anything.
   language. English is the reference and every other locale is merged over it
   key by key, so a partial translation renders in English rather than blank.
 
+- **Exam-shell pass** — the reading and listening screens were rebuilt to sit
+  closer to the computer-delivered test after a review from outside. Options
+  are a plain control-letter-text row rather than a card (`AnswerOption.tsx`);
+  gap numbers sit inside the box, centred until answered; part instructions run
+  full width above both panes; and the bottom bar opens only the part you are
+  in, collapsing the rest to `Part N  x of y`. The band is now revealed in the
+  middle of the screen on submit before the marked paper appears. Writing's
+  task switcher moved to the bottom to match.
+
 ## Next, in priority order
 
 ### 1. Uzbek and Russian translations

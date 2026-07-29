@@ -13,6 +13,7 @@ import { useAnnotations } from "./useAnnotations";
 import { PlayerHeader, ReviewHeader } from "./PlayerChrome";
 import { QuestionGroupView, type ReviewInfo } from "./QuestionGroupView";
 import { QuestionNav, type NavPart } from "./QuestionNav";
+import { ScoreReveal } from "./ScoreReveal";
 import { RichHtml } from "./SlotHtml";
 import { SplitView } from "./SplitView";
 import { SubmitDialog } from "./SubmitDialog";
@@ -47,6 +48,7 @@ export function TestPlayer({
   const [activePart, setActivePart] = useState(parts[0]?.number ?? 1);
   const [activeQuestion, setActiveQuestion] = useState(1);
   const [result, setResult] = useState<GradeResult | null>(null);
+  const [scoreOpen, setScoreOpen] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [dialogOpen, setDialogOpen] = useState(false);
   const [evidence, setEvidence] = useState<Evidence | null>(null);
@@ -152,6 +154,8 @@ export function TestPlayer({
       // just as the marking appears.
       setResult(await response.json());
       setDialogOpen(false);
+      // The band leads; the marked paper is behind it.
+      setScoreOpen(true);
       window.scrollTo({ top: 0 });
     } finally {
       setSubmitting(false);
@@ -193,13 +197,6 @@ export function TestPlayer({
 
   const questionsPane = (
     <div className="min-h-0 flex-1 overflow-y-auto px-6 py-5 lg:px-8" style={{ fontSize: size }}>
-      {!currentPart?.passageHtml && currentPart?.instructionsHtml && (
-        <RichHtml
-          html={currentPart.instructionsHtml}
-          className="mb-5 border-l-2 border-brand-red pl-4 text-sm text-ink-muted [&_h3]:font-display [&_h3]:text-base [&_h3]:text-ink"
-        />
-      )}
-
       {currentPart?.groups.map((group) => (
         <QuestionGroupView
           key={group.id}
@@ -265,6 +262,20 @@ export function TestPlayer({
         />
       )}
 
+      {/* The part's own instructions run full width above both panes, where the
+          real test puts them — they govern the passage and the questions
+          equally, and inside one pane they read as a caption on that pane. */}
+      {currentPart?.instructionsHtml && (
+        <div className="flex-none px-3.5 pt-3.5">
+          <RichHtml
+            html={currentPart.instructionsHtml}
+            // Kept tight on purpose: every pixel here is a pixel of question
+            // pane, and on a laptop the two are competing for the same screen.
+            className="rounded-xl bg-white px-5 py-2.5 text-[13px] leading-snug text-ink-muted shadow-[0_1px_2px_rgba(11,17,32,.08)] [&_h3]:mb-0.5 [&_h3]:text-[14.5px] [&_h3]:font-bold [&_h3]:text-ink [&_p+p]:mt-1 [&_strong]:text-ink"
+          />
+        </div>
+      )}
+
       {currentPart?.passageHtml ? (
         <SplitView
           leftLabel="Passage"
@@ -272,7 +283,6 @@ export function TestPlayer({
           left={
             <PassagePane
               html={currentPart.passageHtml}
-              instructionsHtml={currentPart.instructionsHtml}
               evidence={evidence}
               fontSize={size}
               part={currentPart.number}
@@ -319,6 +329,19 @@ export function TestPlayer({
         onConfirm={submit}
         onCancel={() => setDialogOpen(false)}
       />
+
+      {result && (
+        <ScoreReveal
+          open={scoreOpen}
+          skillLabel={test.skill === "listening" ? "Listening" : "Reading"}
+          band={result.band}
+          rawScore={result.rawScore}
+          totalQuestions={result.totalQuestions}
+          isEstimate={result.isEstimate}
+          resultsHref={`/dashboard/results/${attempt.id}`}
+          onClose={() => setScoreOpen(false)}
+        />
+      )}
     </div>
   );
 }

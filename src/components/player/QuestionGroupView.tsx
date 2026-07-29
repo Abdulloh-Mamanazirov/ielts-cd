@@ -5,7 +5,7 @@ import { useCallback } from "react";
 import type { QuestionGroup } from "@/lib/tests/schema";
 import { cn } from "@/lib/utils";
 import { AnswerInput } from "./AnswerInput";
-import { OptionPill, type OptionMark } from "./OptionPill";
+import { AnswerOption, type OptionMark } from "./AnswerOption";
 import { RichHtml, SlotHtml } from "./SlotHtml";
 
 const FIXED_CHOICES: Record<string, string[]> = {
@@ -40,10 +40,13 @@ export function QuestionGroupView(props: GroupViewProps) {
   const { group } = props;
 
   return (
-    <section className="mb-10 scroll-mt-6" data-group={group.id}>
+    <section className="mb-9 scroll-mt-6" data-group={group.id}>
+      {/* The rubric is set as plain exam prose — no rule, no tint, no shrunken
+          grey. In the real test the instructions read at the same weight as the
+          questions, and students are told to read them that carefully. */}
       <RichHtml
         html={group.rubricHtml}
-        className="mb-5 border-l-2 border-brand-blue pl-4 text-sm leading-relaxed text-ink-muted [&_h3]:mb-1 [&_h3]:font-display [&_h3]:text-base [&_h3]:text-ink [&_strong]:text-ink"
+        className="mb-4 text-[0.95em] leading-relaxed text-ink [&_h3]:mb-1.5 [&_h3]:text-[1.08em] [&_h3]:font-bold [&_h3]:text-ink [&_p]:mt-1.5 [&_strong]:font-bold [&_strong]:text-ink"
       />
 
       {group.type === "map_labeling" ? (
@@ -59,9 +62,36 @@ export function QuestionGroupView(props: GroupViewProps) {
 }
 
 /**
+ * The question number, in the exam's own idiom: bold, plain, in the margin.
+ * It only becomes a coloured chip in review, where the screen is no longer
+ * pretending to be the test and a verdict is the point.
+ */
+function QuestionNumber({
+  label,
+  verdict,
+}: {
+  label: string;
+  verdict?: "correct" | "incorrect";
+}) {
+  return (
+    <span
+      className={cn(
+        "flex-none select-none font-bold tabular-nums",
+        !verdict && "min-w-[1.6em] text-ink",
+        verdict === "correct" && "rounded bg-ok px-1.5 py-0.5 text-[0.82em] text-white",
+        verdict === "incorrect" &&
+          "rounded bg-brand-red-cta px-1.5 py-0.5 text-[0.82em] text-white",
+      )}
+    >
+      {label}
+    </span>
+  );
+}
+
+/**
  * Map and diagram labelling. The letters are positions on the image, not
  * choices with text, so they render as a compact row of chips per item — a full
- * option pill each would mean fifty-odd pills for a six-label map.
+ * option row each would mean fifty-odd rows for a six-label map.
  */
 function MapLabelling({
   group,
@@ -87,7 +117,7 @@ function MapLabelling({
         />
       )}
 
-      <ol className="space-y-2">
+      <ol className="space-y-1.5">
         {group.questions?.map((question) => {
           const review = reviewFor(question.number);
           const value = (answers[String(question.number)] ?? "").toUpperCase();
@@ -97,26 +127,19 @@ function MapLabelling({
               key={question.number}
               id={`q${question.number}`}
               className={cn(
-                "flex flex-wrap items-center gap-3 rounded-[10px] px-3 py-2 transition",
-                activeQuestion === question.number && !reviewMode && "bg-brand-blue-soft/60",
-                review?.correct && "bg-ok-soft",
-                review && !review.correct && "bg-bad-soft",
+                "relative flex flex-wrap items-center gap-3 rounded-md py-1.5 transition",
+                review?.correct && "bg-ok-soft px-2",
+                review && !review.correct && "bg-bad-soft px-2",
               )}
             >
-              <span
-                className={cn(
-                  "flex h-[26px] flex-none items-center justify-center rounded-md px-2 text-[12.5px] font-bold",
-                  review
-                    ? review.correct
-                      ? "bg-ok text-white"
-                      : "bg-brand-red-cta text-white"
-                    : "text-ink shadow-[inset_0_0_0_1.5px_rgba(11,17,32,.22)]",
-                )}
-              >
-                {question.number}
-              </span>
+              {activeQuestion === question.number && !reviewMode && <ActiveRule />}
 
-              <span className="min-w-0 flex-1 text-sm text-ink">{question.textHtml}</span>
+              <QuestionNumber
+                label={String(question.number)}
+                verdict={review ? (review.correct ? "correct" : "incorrect") : undefined}
+              />
+
+              <span className="min-w-0 flex-1 text-ink">{question.textHtml}</span>
 
               <span className="flex flex-wrap gap-1">
                 {letters.map((letter) => {
@@ -140,7 +163,7 @@ function MapLabelling({
                         !review &&
                           (chosen
                             ? "bg-brand-blue text-white"
-                            : "bg-white text-ink shadow-[inset_0_0_0_1.5px_rgba(11,17,32,.2)] hover:shadow-[inset_0_0_0_1.5px_rgba(11,17,32,.5)]"),
+                            : "bg-white text-ink shadow-[inset_0_0_0_1.5px_rgba(11,17,32,.25)] hover:shadow-[inset_0_0_0_1.5px_rgba(11,17,32,.55)]"),
                         review && chosen && isRight && "bg-ok text-white",
                         review && chosen && !isRight && "bg-brand-red-cta text-white",
                         review && !chosen && isRight && "bg-ok/20 text-ok shadow-[inset_0_0_0_1.5px_#0b7a52]",
@@ -166,13 +189,27 @@ function MapLabelling({
   );
 }
 
+/**
+ * Where the student is, marked in the margin rather than by repainting the
+ * question. A block of colour behind the current question is a thing the real
+ * test never does, and it fights the passage for attention.
+ */
+function ActiveRule() {
+  return (
+    <span
+      aria-hidden
+      className="absolute -left-3 top-0 h-full w-[3px] rounded-full bg-brand-blue"
+    />
+  );
+}
+
 function WordBank({ group }: { group: QuestionGroup }) {
   return (
-    <ul className="mb-5 grid gap-x-5 gap-y-1.5 rounded-[10px] bg-surface-alt p-4 text-sm sm:grid-cols-2">
+    <ul className="mb-5 grid gap-x-6 gap-y-1.5 rounded-md bg-surface-alt px-4 py-3.5 text-[0.95em] sm:grid-cols-2">
       {group.wordBank?.map((item) => (
         <li key={item.letter} className="flex gap-2.5">
-          <span className="font-bold text-brand-blue">{item.letter}</span>
-          <RichHtml html={item.textHtml} className="text-ink-muted" />
+          <span className="w-[0.9em] flex-none font-bold text-ink">{item.letter}</span>
+          <RichHtml html={item.textHtml} className="text-ink" />
         </li>
       ))}
     </ul>
@@ -211,7 +248,7 @@ function CompletionBody({
   );
 
   return (
-    <div className="question-body leading-8 text-ink [&_.flow-arrow]:my-1 [&_.flow-arrow]:text-center [&_.flow-arrow]:text-brand-blue [&_.flow-box]:rounded-[10px] [&_.flow-box]:bg-surface-alt [&_.flow-box]:px-4 [&_.flow-box]:py-3 [&_.form-label]:font-semibold [&_.form-row]:flex [&_.form-row]:flex-wrap [&_.form-row]:gap-x-3 [&_.form-row]:border-b [&_.form-row]:border-rule [&_.form-row]:py-2 [&_.notes-list]:list-disc [&_.notes-list]:pl-5 [&_.q-table]:w-full [&_.q-table_td]:border [&_.q-table_td]:border-rule [&_.q-table_td]:p-2.5 [&_.q-table_th]:border [&_.q-table_th]:border-rule [&_.q-table_th]:bg-surface-alt [&_.q-table_th]:p-2.5 [&_.q-table_th]:text-left [&_.summary-title]:mb-2 [&_.summary-title]:font-bold">
+    <div className="question-body leading-8 text-ink [&_.flow-arrow]:my-1 [&_.flow-arrow]:text-center [&_.flow-arrow]:text-brand-blue [&_.flow-box]:rounded-md [&_.flow-box]:bg-surface-alt [&_.flow-box]:px-4 [&_.flow-box]:py-3 [&_.form-label]:font-semibold [&_.form-row]:flex [&_.form-row]:flex-wrap [&_.form-row]:gap-x-3 [&_.form-row]:border-b [&_.form-row]:border-rule [&_.form-row]:py-2 [&_.notes-list]:list-disc [&_.notes-list]:pl-5 [&_.q-table]:w-full [&_.q-table_td]:border [&_.q-table_td]:border-rule [&_.q-table_td]:p-2.5 [&_.q-table_th]:border [&_.q-table_th]:border-rule [&_.q-table_th]:bg-surface-alt [&_.q-table_th]:p-2.5 [&_.q-table_th]:text-left [&_.summary-title]:mb-2 [&_.summary-title]:font-bold">
       <SlotHtml html={group.bodyHtml ?? ""} renderSlot={renderSlot} />
     </div>
   );
@@ -237,6 +274,8 @@ function ItemList(props: GroupViewProps) {
               number={question.number}
               textHtml={question.textHtml}
               options={options}
+              // TRUE/FALSE/NOT GIVEN and YES/NO/NOT GIVEN are the answer, so
+              // printing a letter beside them would be printing it twice.
               useLetterBadge={!fixed}
             />
           </li>
@@ -272,6 +311,7 @@ function QuestionItem({
   const isMulti = group.selectCount > 1;
   const review = reviewFor(number);
   const accepted = review?.allAccepted.map((value) => value.trim().toUpperCase()) ?? [];
+  const isHere = activeQuestion >= number && activeQuestion <= number + group.selectCount - 1;
 
   const toggleMulti = (letter: string) => {
     const next = selected.includes(letter)
@@ -294,29 +334,14 @@ function QuestionItem({
   };
 
   return (
-    <div
-      className={cn(
-        "rounded-[10px] transition",
-        !reviewMode &&
-          activeQuestion >= number &&
-          activeQuestion <= number + group.selectCount - 1 &&
-          "bg-brand-blue-soft/60 p-3 -m-3",
-      )}
-      onFocus={() => onFocusQuestion(number)}
-    >
-      <div className="mb-3 flex items-start gap-3">
-        <span
-          className={cn(
-            "mt-0.5 flex h-[26px] flex-none items-center justify-center rounded-md px-2 text-[12.5px] font-bold",
-            review
-              ? review.correct
-                ? "bg-ok text-white"
-                : "bg-brand-red-cta text-white"
-              : "text-ink shadow-[inset_0_0_0_1.5px_rgba(11,17,32,.22)]",
-          )}
-        >
-          {isMulti ? `${number}–${number + group.selectCount - 1}` : number}
-        </span>
+    <div className="relative" onFocus={() => onFocusQuestion(number)}>
+      {isHere && !reviewMode && <ActiveRule />}
+
+      <div className="mb-2 flex items-start gap-2.5">
+        <QuestionNumber
+          label={isMulti ? `${number}–${number + group.selectCount - 1}` : String(number)}
+          verdict={review ? (review.correct ? "correct" : "incorrect") : undefined}
+        />
 
         {textHtml && <RichHtml html={textHtml} className="flex-1 leading-relaxed text-ink" />}
 
@@ -330,7 +355,7 @@ function QuestionItem({
               "flex h-7 w-7 flex-none items-center justify-center rounded transition",
               flags.includes(number)
                 ? "bg-brand-red text-white"
-                : "text-ink-subtle hover:bg-surface-alt",
+                : "text-ink-faint hover:bg-surface-alt hover:text-ink-muted",
             )}
           >
             <svg width="13" height="13" viewBox="0 0 24 24" fill={flags.includes(number) ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2.2" strokeLinejoin="round" aria-hidden>
@@ -340,9 +365,10 @@ function QuestionItem({
         )}
       </div>
 
-      <div className="space-y-2">
+      {/* Indented to sit under the question text, not under its number. */}
+      <div className="pl-6">
         {options.map((option) => (
-          <OptionPill
+          <AnswerOption
             key={option.letter}
             letter={option.letter}
             textHtml={option.textHtml}
