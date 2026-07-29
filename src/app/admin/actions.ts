@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
 
+import { reorder } from "@/lib/admin/order";
 import { requireAdminApi } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { refreshFullMock } from "@/lib/full-mock/service";
@@ -439,4 +440,253 @@ export async function decideAnswerReview(input: unknown): Promise<ActionResult> 
     ok: true,
     message: parsed.data.accept ? "Added to the answer key." : "Rejected.",
   };
+}
+
+/* -------------------------------------------------------------------------- */
+/*  Home page showcase: student results and reviews                           */
+/* -------------------------------------------------------------------------- */
+
+/** IELTS reports in half bands. The same rule the marking form uses. */
+const bandField = z
+  .number()
+  .min(0)
+  .max(9)
+  .refine((value) => (value * 2) % 1 === 0, { message: "Bands go in halves" });
+
+/**
+ * An image this site is hosting, not one borrowed from elsewhere.
+ *
+ * Uploads land in `/test-media/`, but seeded rows point at files in the public
+ * root, so both shapes have to pass. What is excluded is an absolute URL — a
+ * certificate on someone else's host disappears the day they tidy up — and
+ * anything carrying a traversal segment.
+ */
+const localImage = z
+  .string()
+  .regex(/^\/[A-Za-z0-9][A-Za-z0-9._/-]*$/, "Upload the image rather than linking to one")
+  .refine((value) => !value.includes(".."), { message: "Invalid image path" });
+
+const optionalText = (max: number) =>
+  z
+    .string()
+    .max(max)
+    .transform((value) => value.trim())
+    .optional();
+
+const showcaseSchema = z.object({
+  id: z.string().min(1).optional(),
+  studentName: z.string().min(1, "A name is needed").max(120),
+  overallBand: bandField,
+  listening: bandField.nullable().optional(),
+  reading: bandField.nullable().optional(),
+  writing: bandField.nullable().optional(),
+  speaking: bandField.nullable().optional(),
+  quoteEn: optionalText(600),
+  quoteUz: optionalText(600),
+  quoteRu: optionalText(600),
+  certificateUrl: localImage.nullable().optional(),
+  /** `<input type="date">` hands back an empty string when it is cleared. */
+  testDate: z.string().max(40).optional(),
+  isVisible: z.boolean().default(true),
+});
+
+function parseTestDate(value: string | undefined): Date | null {
+  if (!value?.trim()) return null;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+/** Every public page this content appears on, refreshed together. */
+function revalidateShowcase() {
+  revalidatePath("/admin/showcase");
+  revalidatePath("/");
+  revalidatePath("/results");
+}
+
+export async function saveShowcaseResult(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const parsed = showcaseSchema.safeParse(input);
+  if (!parsed.success) {
+    return { ok: false, error: parsed.error.issues[0]?.message ?? "Invalid request" };
+  }
+
+  const { id, testDate, quoteEn, quoteUz, quoteRu, certificateUrl, ...rest } = parsed.data;
+
+  const data = {
+    ...rest,
+    quoteEn: quoteEn || null,
+    quoteUz: quoteUz || null,
+    quoteRu: quoteRu || null,
+    certificateUrl: certificateUrl || null,
+    testDate: parseTestDate(testDate),
+  };
+
+  if (id) {
+    await prisma.showcaseResult.update({ where: { id }, data });
+    revalidateShowcase();
+    return { ok: true, message: `Saved ${data.studentName}.` };
+  }
+
+  // New rows go to the bottom, which is where the newest addition belongs
+  // until someone decides otherwise.
+  const last = await prisma.showcaseResult.findFirst({
+    orderBy: { displayOrder: "desc" },
+    select: { displayOrder: true },
+  });
+
+  await prisma.showcaseResult.create({
+    data: { ...data, displayOrder: (last?.displayOrder ?? -1) + 1 },
+  });
+
+  revalidateShowcase();
+  return { ok: true, message: `Added ${data.studentName}.` };
+}
+
+export async function deleteShowcaseResult(id: string): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  await prisma.showcaseResult.delete({ where: { id } });
+  revalidateShowcase();
+  return { ok: true, message: "Result removed." };
+}
+
+export async function moveShowcaseResult(id: string, delta: -1 | 1): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const rows = await prisma.showcaseResult.findMany({
+    orderBy: [{ displayOrder: "asc" }, { createdAt: "asc" }],
+    select: { id: true },
+  });
+
+  const next = reorder(
+    rows.map((row) => row.id),
+    id,
+    delta,
+  );
+  if (!next) return { ok: false, error: "It is already at the end" };
+
+  await prisma.$transaction(
+    next.map((rowId, index) =>
+      prisma.showcaseResult.update({ where: { id: rowId }, data: { displayOrder: index } }),
+    ),
+  );
+
+  revalidateShowcase();
+  return { ok: true, message: "Order updated." };
+}
+
+const testimonialSchema = z
+  .object({
+    id: z.string().min(1).optional(),
+    studentName: z.string().min(1, "A name is needed").max(120),
+    rating: z.number().int().min(1).max(5),
+    mediaType: z.enum(["TEXT", "YOUTUBE", "INSTAGRAM"]),
+    mediaUrl: z.string().max(500).optional(),
+    thumbnailUrl: localImage.nullable().optional(),
+    caption: optionalText(300),
+    quoteEn: optionalText(1000),
+    quoteUz: optionalText(1000),
+    quoteRu: optionalText(1000),
+    isVisible: z.boolean().default(true),
+  })
+  .superRefine((value, ctx) => {
+    if (value.mediaType === "TEXT") {
+      if (!value.quoteEn?.trim()) {
+        ctx.addIssue({
+          code: "custom",
+          message: "A written review needs its words",
+          path: ["quoteEn"],
+        });
+      }
+      return;
+    }
+
+    if (!/^https:\/\//i.test(value.mediaUrl?.trim() ?? "")) {
+      ctx.addIssue({
+        code: "custom",
+        message: "A video review needs an https link to the video",
+        path: ["mediaUrl"],
+      });
+    }
+  });
+
+export async function saveTestimonial(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const parsed = testimonialSchema.safeParse(input);
+  if (!parsed.success) {
+    return { ok: false, error: parsed.error.issues[0]?.message ?? "Invalid request" };
+  }
+
+  const { id, mediaUrl, thumbnailUrl, caption, quoteEn, quoteUz, quoteRu, ...rest } = parsed.data;
+
+  const data = {
+    ...rest,
+    // A written review has no link to keep, and a stale one left behind means
+    // the card renders a play button over nothing.
+    mediaUrl: rest.mediaType === "TEXT" ? null : mediaUrl?.trim() || null,
+    thumbnailUrl: thumbnailUrl || null,
+    caption: caption || null,
+    quoteEn: quoteEn || null,
+    quoteUz: quoteUz || null,
+    quoteRu: quoteRu || null,
+  };
+
+  if (id) {
+    await prisma.testimonial.update({ where: { id }, data });
+    revalidateShowcase();
+    return { ok: true, message: `Saved ${data.studentName}.` };
+  }
+
+  const last = await prisma.testimonial.findFirst({
+    orderBy: { displayOrder: "desc" },
+    select: { displayOrder: true },
+  });
+
+  await prisma.testimonial.create({
+    data: { ...data, displayOrder: (last?.displayOrder ?? -1) + 1 },
+  });
+
+  revalidateShowcase();
+  return { ok: true, message: `Added ${data.studentName}.` };
+}
+
+export async function deleteTestimonial(id: string): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  await prisma.testimonial.delete({ where: { id } });
+  revalidateShowcase();
+  return { ok: true, message: "Review removed." };
+}
+
+export async function moveTestimonial(id: string, delta: -1 | 1): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const rows = await prisma.testimonial.findMany({
+    orderBy: [{ displayOrder: "asc" }, { createdAt: "asc" }],
+    select: { id: true },
+  });
+
+  const next = reorder(
+    rows.map((row) => row.id),
+    id,
+    delta,
+  );
+  if (!next) return { ok: false, error: "It is already at the end" };
+
+  await prisma.$transaction(
+    next.map((rowId, index) =>
+      prisma.testimonial.update({ where: { id: rowId }, data: { displayOrder: index } }),
+    ),
+  );
+
+  revalidateShowcase();
+  return { ok: true, message: "Order updated." };
 }

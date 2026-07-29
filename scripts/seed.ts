@@ -113,10 +113,27 @@ async function seedTests() {
 }
 
 /**
- * Placeholder marketing content so the home page has something to render during
- * development. Replace it from the admin panel with real students.
+ * Placeholder marketing content, so the home page has something to render
+ * during development. Replace it with real students in `/admin/showcase`.
+ *
+ * Written only into a database that has none. These rows used to be upserted by
+ * student name on every run, which was fine while the seed was the only way to
+ * edit them; it is not any more, and re-running it after launch would quietly
+ * undo the instructor's own wording, ordering and certificates.
  */
 async function seedHomepageContent() {
+  const [existingResults, existingTestimonials] = await Promise.all([
+    prisma.showcaseResult.count(),
+    prisma.testimonial.count(),
+  ]);
+
+  if (existingResults > 0 || existingTestimonials > 0) {
+    console.log(
+      `skip  home page content (${existingResults} results, ${existingTestimonials} reviews already there — edit them in /admin/showcase)`,
+    );
+    return;
+  }
+
   const results = [
     {
       studentName: "Malika A.",
@@ -175,12 +192,6 @@ async function seedHomepageContent() {
     }
     await prisma.showcaseResult.create({ data: { ...result, displayOrder: index } });
   }
-
-  // One-time cleanup of placeholder rows from an earlier seed whose links
-  // pointed at platform home pages rather than at a specific video.
-  await prisma.testimonial.deleteMany({
-    where: { studentName: { in: ["Nilufar — Band 8.0 interview", "Jasur — speaking tips"] } },
-  });
 
   const testimonials = [
     {

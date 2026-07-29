@@ -52,6 +52,12 @@ without re-deriving anything.
   language. English is the reference and every other locale is merged over it
   key by key, so a partial translation renders in English rather than blank.
 
+- **Showcase admin** — `/admin/showcase` owns the student results and reviews
+  on the home page and `/results`: add, edit, reorder, hide, delete, with
+  certificate and poster uploads through the existing image route. The seed now
+  writes those rows only into a database that has none, so re-running it cannot
+  undo the instructor's edits.
+
 - **Exam-shell pass** — the reading and listening screens were rebuilt to sit
   closer to the computer-delivered test after a review from outside. Options
   are a plain control-letter-text row rather than a card (`AnswerOption.tsx`);
@@ -89,8 +95,10 @@ offering Russian at all.
   that needs one. The script's ingest already does the hard parts
   (content-addressed keys, container sniffing, superseded-file cleanup), so the
   form is a wrapper around it rather than new logic.
-- Homepage showcase results and testimonials are still seed rows with no admin
-  screen. They are the last script-only content.
+- The showcase rows the seed writes are placeholders with a stock certificate
+  image. They are real rows now, editable in `/admin/showcase` — replace them
+  with real students before launch rather than deleting the screen's contents
+  and starting from an empty home page.
 - Mock-mode play-once holds for the life of the page. Reloading mid-attempt
   rearms the recording, because nothing about audio position is persisted.
   Fixing it properly means attempt-level state (a column, or a key inside
@@ -123,7 +131,9 @@ offering Russian at all.
 - Instagram reels cannot have thumbnails derived (no public oEmbed without a
   token). `Testimonial.thumbnailUrl` exists for uploaded ones; YouTube posters
   are derived automatically.
-- Showcase results and testimonials on the home page are placeholder seed rows.
+- The home page orders showcase results by `displayOrder`; `/results` orders by
+  band and only uses `displayOrder` to break a tie. The admin screen says so,
+  but if the arrows there should govern both, `/results` is the one to change.
 - Contact details in `src/content/site.ts` came from a mockup image — confirm
   them before launch.
 - `npm audit` reports advisories in dev-only transitive deps of eslint and

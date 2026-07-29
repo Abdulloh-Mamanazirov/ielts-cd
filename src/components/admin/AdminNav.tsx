@@ -11,6 +11,7 @@ const ITEMS = [
   { href: "/admin/reviews", label: "Answer reviews", badge: "reviews" as const },
   { href: "/admin/tests", label: "Tests" },
   { href: "/admin/students", label: "Students" },
+  { href: "/admin/showcase", label: "Results & reviews" },
 ];
 
 export function AdminNav({
