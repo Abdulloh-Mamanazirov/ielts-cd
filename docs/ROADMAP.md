@@ -92,6 +92,9 @@ offering Russian at all.
   running either way, so pausing costs a student clock rather than winning them
   a re-listen, and force-resuming would fight a student whose headphones just
   came out.
+- The speaking "skip this question" control has not been exercised end to end,
+  for the same reason as the recorder below: the pane used to verify blocks the
+  microphone, so the briefing cannot be passed.
 - The speaking recorder has **not** been exercised against a real microphone.
   Everything around it has — the briefing, the permission-denied path, upload,
   supersede, playback with ranges, validation rejections — but the tooling used

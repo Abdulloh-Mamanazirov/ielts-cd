@@ -123,8 +123,12 @@ Group types cover the standard question formats: `completion`, `short_answer`,
 
 ## Adding a test
 
-The intended flow is: convert a PDF to JSON with an LLM, paste it into admin,
-fix what the validator flags, preview it in the real player, publish.
+The intended flow is: copy the skill's prompt from **Admin → Tests → Add a
+test**, hand it to any AI model with the PDF (or an old HTML test), paste the
+reply back, name it, import, attach any artwork, preview it in the real player,
+publish. The prompts live in `src/lib/admin/import-prompts.ts` and state every
+rule below, so the model is told the constraints rather than discovering them
+through rejections it never sees.
 
 Pasted JSON is treated as untrusted. `validateTestImport()` enforces:
 
