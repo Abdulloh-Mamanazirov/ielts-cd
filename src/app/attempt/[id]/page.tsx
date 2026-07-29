@@ -4,6 +4,7 @@ import { SpeakingPlayer } from "@/components/player/SpeakingPlayer";
 import { TestPlayer, type AttemptSnapshot } from "@/components/player/TestPlayer";
 import { WritingPlayer } from "@/components/player/WritingPlayer";
 import { requireUser } from "@/lib/auth/guards";
+import type { Annotations } from "@/lib/player/highlights";
 import { prisma } from "@/lib/db";
 import { getPlayableTest } from "@/lib/tests/access";
 
@@ -20,6 +21,7 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
       status: true,
       answers: true,
       flags: true,
+      annotations: true,
       startedAt: true,
       expiresAt: true,
       fullMockId: true,
@@ -41,6 +43,7 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
     expiresAt: attempt.expiresAt?.toISOString() ?? null,
     answers: (attempt.answers as Record<string, string>) ?? {},
     flags: (attempt.flags as number[]) ?? [],
+    annotations: (attempt.annotations as Annotations) ?? {},
     fullMockId: attempt.fullMockId,
   };
 

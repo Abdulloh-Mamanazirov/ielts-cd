@@ -5,8 +5,11 @@ import { useCallback, useMemo, useState } from "react";
 import type { PlayableTest } from "@/lib/tests/access";
 import type { GradeResult } from "@/lib/tests/grade";
 import { questionNumbersInGroup } from "@/lib/tests/slots";
+import type { Annotations } from "@/lib/player/highlights";
 import { AudioBar } from "./AudioBar";
+import { Notepad } from "./Notepad";
 import { PassagePane, type Evidence } from "./PassagePane";
+import { useAnnotations } from "./useAnnotations";
 import { PlayerHeader, ReviewHeader } from "./PlayerChrome";
 import { QuestionGroupView, type ReviewInfo } from "./QuestionGroupView";
 import { QuestionNav, type NavPart } from "./QuestionNav";
@@ -24,6 +27,8 @@ export type AttemptSnapshot = {
   expiresAt: string | null;
   answers: Record<string, string>;
   flags: number[];
+  /** Highlights and notes. The server stores this without interpreting it. */
+  annotations: Annotations;
   /** Set when this attempt is one section of a full mock. */
   fullMockId: string | null;
 };
@@ -49,6 +54,12 @@ export function TestPlayer({
   const { queue, flush, status } = useAutosave(attempt.id);
   const { size, step, canDecrease, canIncrease } = useTextSize();
   const reviewMode = result !== null;
+
+  const saveAnnotations = useCallback(
+    (annotations: Annotations) => queue({ annotations }),
+    [queue],
+  );
+  const notes = useAnnotations(attempt.annotations ?? {}, saveAnnotations);
 
   const navParts: NavPart[] = useMemo(
     () =>
@@ -169,6 +180,11 @@ export function TestPlayer({
     .flatMap((part) => part.questions)
     .filter((question) => (answers[String(question)] ?? "").trim()).length;
 
+  // Back where the student came from: the skill they were browsing, or the mock
+  // they are part way through. Landing on the undifferentiated list after a
+  // reading test means finding the reading tests again by hand.
+  const exitHref = attempt.fullMockId ? "/full-mock" : `/tests?skill=${test.skill}`;
+
   // Part offsets are optional in the schema; without them the track just has no
   // markers on it.
   const audioMarkers = parts
@@ -225,6 +241,7 @@ export function TestPlayer({
         <PlayerHeader
           title={test.title}
           subtitle={`${attempt.mode === "MOCK" ? "Mock" : "Practice"} · ${test.totalQuestions} questions`}
+          exitHref={exitHref}
           remaining={remaining}
           totalSeconds={test.durationSeconds}
           saveStatus={status}
@@ -258,15 +275,27 @@ export function TestPlayer({
               instructionsHtml={currentPart.instructionsHtml}
               evidence={evidence}
               fontSize={size}
+              part={currentPart.number}
+              highlights={notes.highlights}
+              onAddHighlight={notes.addHighlight}
+              onRemoveHighlight={notes.removeHighlight}
+              onSetNote={notes.setNote}
             />
           }
           right={questionsPane}
         />
       ) : (
-        <div className="flex min-h-0 flex-1 p-3.5">
+        <div className="relative flex min-h-0 flex-1 p-3.5">
           <div className="flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl bg-white shadow-[0_1px_2px_rgba(11,17,32,.08)]">
             {questionsPane}
           </div>
+
+          {/* No passage to highlight, so the notes live in a pad instead. */}
+          <Notepad
+            value={notes.scratchpad}
+            onChange={notes.setScratchpad}
+            disabled={reviewMode}
+          />
         </div>
       )}
 

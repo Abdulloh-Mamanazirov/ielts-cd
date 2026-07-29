@@ -121,6 +121,7 @@ export function WritingPlayer({
       <PlayerHeader
         title={test.title}
         subtitle={`${attempt.mode === "MOCK" ? "Mock" : "Practice"} · ${tasks.length} task${tasks.length === 1 ? "" : "s"}`}
+        exitHref={attempt.fullMockId ? "/full-mock" : `/tests?skill=${test.skill}`}
         remaining={remaining}
         totalSeconds={test.durationSeconds}
         saveStatus={status}

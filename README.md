@@ -76,6 +76,7 @@ with real students.
 | Command | What it does |
 | --- | --- |
 | `npm run dev` | Dev server |
+| `npm run dev:clean` | Dev server after deleting `.next` — see "When routes 404" |
 | `npm test` | Unit tests (grader, validator, band tables, password hashing) |
 | `npm run typecheck` | `tsc --noEmit` |
 | `npm run lint` | ESLint |
@@ -83,6 +84,27 @@ with real students.
 | `npm run audio:upload` | Stores a listening test's audio and attaches it (see Media storage) |
 | `npm run db:migrate` | Prisma migration |
 | `npm run db:studio` | Browse the database |
+
+## When routes 404 for no reason
+
+If an API route starts returning **404 with an HTML body** — a submit that fails
+with "Could not submit", listening audio that reports "Audio unavailable", a
+full mock that will not start — the route is almost certainly fine and the dev
+server's route manifest is stale.
+
+```bash
+npm run dev:clean
+```
+
+The tell is the response body: a real handler answers with JSON, so an HTML 404
+means Next never registered the route at all. Confirm with `npm run build`,
+which compiles from scratch — it will list every route correctly while the dev
+server is still serving 404s.
+
+It happens most often after **running `next build` while `next dev` is
+running**, and after files move (a `git mv`, switching branches, pulling a
+change that adds routes). Restarting `next dev` on its own is not enough,
+because the stale output survives in `.next`.
 
 ## How a test is stored
 
@@ -179,9 +201,13 @@ not access control.
   students gave them. Accepting one writes the variant into the test's answer
   key for future sittings. Attempts already marked are deliberately left alone:
   silently changing a band a student has seen is worse than the original miss.
-- **Tests** — paste-in JSON import running the same validator as the conversion
-  scripts, and publish/archive controls. Imports always land as drafts, and a
-  listening test cannot be published without audio.
+- **Tests** — JSON import (file picker, drag-drop or paste) running the same
+  validator as the conversion scripts, and publish/archive controls. The screen
+  explains where the file comes from and shows the schema, because the person
+  using it is an instructor rather than a developer. Failures list every problem;
+  successes show a summary and any warnings, since a test can import cleanly and
+  still have a rubric promising a word limit it does not enforce. Imports always
+  land as drafts, and a listening test cannot be published without audio.
 - **Students** — premium grants, with a note recording why.
 
 ## Converting the legacy HTML mocks
@@ -290,6 +316,20 @@ student marks they had already earned.
 
 Submitting does not navigate away. The review panel opens in place, with the
 passage still beside the questions — that is the point of reviewing.
+
+Students can highlight the reading passage and attach a note to a highlight, and
+tests with no passage get a floating notepad instead — listening needs one,
+because answers arrive faster than they can be typed into the boxes. Both ride
+the `annotations` column and the existing autosave, so neither needed a
+migration or an API change.
+
+A highlight is stored as a character range over the passage's **text**, which
+survives a re-render, a font-size change and a review-mode evidence mark. The
+marks are woven into the HTML string before it is parsed rather than wrapped
+into the DOM afterwards: mutating React-owned nodes is what makes this kind of
+feature crash on the next render, and the passage HTML is not sanitised, so
+switching to `dangerouslySetInnerHTML` for an opaque subtree would have traded a
+rendering bug for an injection one. See `src/lib/player/highlights.ts`.
 
 Listening tests get an audio bar under the header. In a mock it enforces the
 exam: one press, no pause control, no seeking, no replay once it has finished.

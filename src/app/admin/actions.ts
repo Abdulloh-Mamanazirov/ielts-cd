@@ -18,6 +18,16 @@ import { validateTestImport } from "@/lib/tests/validate";
 
 export type ActionResult = { ok: true; message: string } | { ok: false; error: string };
 
+/** Import reports more than pass/fail: the instructor needs to see the warnings. */
+export type ImportResult =
+  | {
+      ok: true;
+      message: string;
+      summary: string;
+      warnings: string[];
+    }
+  | { ok: false; error: string; issues: string[] };
+
 async function assertAdmin(): Promise<{ id: string } | null> {
   const auth = await requireAdminApi();
   return auth.ok ? { id: auth.user.id } : null;
@@ -177,15 +187,19 @@ export async function setTestStatus(input: unknown): Promise<ActionResult> {
 }
 
 /** Pasted JSON, validated by the same checks the conversion scripts run. */
-export async function importTest(raw: string): Promise<ActionResult> {
+export async function importTest(raw: string): Promise<ImportResult> {
   const admin = await assertAdmin();
-  if (!admin) return { ok: false, error: "Not allowed" };
+  if (!admin) return { ok: false, error: "Not allowed", issues: [] };
 
   let parsedJson: unknown;
   try {
     parsedJson = JSON.parse(raw);
-  } catch {
-    return { ok: false, error: "That is not valid JSON." };
+  } catch (error) {
+    return {
+      ok: false,
+      error: "That is not valid JSON.",
+      issues: [(error as Error).message],
+    };
   }
 
   const report = validateTestImport(parsedJson);
@@ -193,12 +207,14 @@ export async function importTest(raw: string): Promise<ActionResult> {
     const errors = report.issues.filter((issue) => issue.level === "error");
     return {
       ok: false,
-      error: errors
-        .slice(0, 4)
-        .map((issue) => issue.message)
-        .join(" · "),
+      error: `${errors.length} problem${errors.length === 1 ? "" : "s"} stopped this import.`,
+      issues: errors.map((issue) => issue.message),
     };
   }
+
+  const warnings = report.issues
+    .filter((issue) => issue.level === "warning")
+    .map((issue) => issue.message);
 
   const { content, answerKey, slug, isPremium, audioSourceUrl } = report.parsed;
   const finalSlug =
@@ -227,17 +243,40 @@ export async function importTest(raw: string): Promise<ActionResult> {
     select: { id: true },
   });
 
+  const stats = report.stats;
+  const summary = [
+    content.skill,
+    stats?.totalQuestions
+      ? `${stats.totalQuestions} question${stats.totalQuestions === 1 ? "" : "s"}`
+      : null,
+    `${Math.round(content.durationSeconds / 60)} minutes`,
+    stats?.selfTestScore ? `answer key self-test ${stats.selfTestScore}` : null,
+    isPremium ? "premium" : "free",
+  ]
+    .filter(Boolean)
+    .join(" · ");
+
   if (existing) {
     // Never silently republish: an import that changes questions under a
     // published test should be reviewed before students see it.
     await prisma.test.update({ where: { id: existing.id }, data });
     revalidatePath("/admin/tests");
-    return { ok: true, message: `Updated "${content.title}". Its status is unchanged.` };
+    return {
+      ok: true,
+      message: `Updated "${content.title}". Its published status is unchanged.`,
+      summary,
+      warnings,
+    };
   }
 
   await prisma.test.create({ data: { ...data, slug: finalSlug, status: "DRAFT" } });
   revalidatePath("/admin/tests");
-  return { ok: true, message: `Imported "${content.title}" as a draft.` };
+  return {
+    ok: true,
+    message: `Imported "${content.title}" as a draft.`,
+    summary,
+    warnings,
+  };
 }
 
 const reviewSchema = z.object({

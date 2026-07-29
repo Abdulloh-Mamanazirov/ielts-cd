@@ -14,6 +14,7 @@ const DANGER_SECONDS = 5 * 60;
 export function PlayerHeader({
   title,
   subtitle,
+  exitHref,
   remaining,
   totalSeconds,
   saveStatus,
@@ -26,6 +27,8 @@ export function PlayerHeader({
 }: {
   title: string;
   subtitle: string;
+  /** Back to the list the student came from, not the undifferentiated one. */
+  exitHref: string;
   remaining: number | null;
   totalSeconds: number;
   saveStatus: SaveStatus;
@@ -40,7 +43,7 @@ export function PlayerHeader({
     <header className="flex h-[66px] flex-none items-center justify-between gap-6 border-b border-ink/[0.12] bg-white px-4 lg:px-[22px]">
       <div className="flex min-w-0 items-center gap-4">
         <Link
-          href="/tests"
+          href={exitHref}
           className="inline-flex items-center gap-2 rounded-[9px] bg-surface-alt px-3.5 py-2.5 text-[13px] font-bold text-ink-muted transition hover:bg-ink hover:text-white"
         >
           <ArrowLeft />
