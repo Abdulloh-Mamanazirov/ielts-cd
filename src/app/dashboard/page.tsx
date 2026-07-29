@@ -31,6 +31,7 @@ export default async function DashboardPage() {
         mode: true,
         rawScore: true,
         band: true,
+        reviewRequested: true,
         submittedAt: true,
         test: { select: { title: true, skill: true, totalQuestions: true } },
       },
@@ -218,7 +219,7 @@ export default async function DashboardPage() {
                         sets one, which is what makes null the right signal here. */}
                     {attempt.band === null ? (
                       <span className="rounded-full bg-surface-alt px-3 py-1 text-[11px] font-bold tracking-[0.04em] text-ink-subtle">
-                        AWAITING MARKING
+                        {attempt.reviewRequested ? "AWAITING MARKING" : "NOT SENT"}
                       </span>
                     ) : (
                       <span className="font-display text-xl tabular-nums text-ink">

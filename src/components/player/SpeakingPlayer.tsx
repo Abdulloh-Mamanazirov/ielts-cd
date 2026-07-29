@@ -30,9 +30,12 @@ type Saved = { id: string; durationSeconds: number | null };
 export function SpeakingPlayer({
   test,
   attempt,
+  canRequestReview,
 }: {
   test: PlayableTest;
   attempt: AttemptSnapshot;
+  /** Instructor marking is the paid part; free students still keep their work. */
+  canRequestReview: boolean;
 }) {
   const prompts = useMemo(() => test.content.prompts ?? [], [test.content.prompts]);
   const locked = attempt.mode === "MOCK";
@@ -149,12 +152,16 @@ export function SpeakingPlayer({
     [prompts, saved],
   );
 
-  const submit = useCallback(async () => {
+  const submit = useCallback(async (forReview: boolean) => {
     if (submitting || submitted) return;
     setSubmitting(true);
 
     try {
-      const response = await fetch(`/api/attempts/${attempt.id}/submit`, { method: "POST" });
+      const response = await fetch(`/api/attempts/${attempt.id}/submit`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ forReview }),
+      });
       if (!response.ok) {
         const data = await response.json().catch(() => ({}));
         window.alert(data?.error ?? "Could not submit. Please try again.");
@@ -169,7 +176,11 @@ export function SpeakingPlayer({
     }
   }, [attempt.fullMockId, attempt.id, submitted, submitting]);
 
-  const testRemaining = useCountdown(attempt.expiresAt, submitted, submit);
+  const autoSubmit = useCallback(() => {
+    void submit(canRequestReview);
+  }, [canRequestReview, submit]);
+
+  const testRemaining = useCountdown(attempt.expiresAt, submitted, autoSubmit);
   const answered = Object.keys(saved).length;
 
   if (!prompt) {
@@ -233,6 +244,11 @@ export function SpeakingPlayer({
                 onStop={() => void finishAnswer()}
                 onNext={() => openPrompt(index + 1)}
                 onFinish={() => setDialogOpen(true)}
+                onSkip={() => {
+                  setDeadline(null);
+                  if (isLast) setDialogOpen(true);
+                  else openPrompt(index + 1);
+                }}
               />
             </>
           )}
@@ -257,15 +273,19 @@ export function SpeakingPlayer({
             ? "Every question is recorded."
             : `${prompts.length - answered} question${prompts.length - answered === 1 ? "" : "s"} not recorded.`
         }
-        confirmLabel="Send for marking"
-        confirmingLabel="Sending…"
+        confirmLabel={canRequestReview ? "Send to my instructor" : "Finish and keep my answers"}
+        confirmingLabel="Finishing…"
+        cancelLabel="Keep going"
         submitting={submitting}
-        onConfirm={submit}
+        onConfirm={() => void submit(canRequestReview)}
         onCancel={() => setDialogOpen(false)}
+        secondaryLabel={canRequestReview ? "Finish without sending" : undefined}
+        onSecondary={canRequestReview ? () => void submit(false) : undefined}
       >
         <p className="mt-5 text-sm leading-relaxed text-ink-muted">
-          Your recordings go to your instructor. Speaking is not marked automatically, so there is
-          no band straight away — it appears on your dashboard once it has been reviewed.
+          {canRequestReview
+            ? "Speaking is marked by a person, so there is no band straight away. Send it and it appears on your dashboard once your instructor has listened — or finish without sending and keep the recordings to yourself."
+            : "Your recordings are saved to your dashboard either way. Marking by your instructor is part of premium; ask them to unlock it if you would like a band."}
         </p>
       </ConfirmDialog>
     </div>
@@ -407,6 +427,7 @@ function Controls({
   onStop,
   onNext,
   onFinish,
+  onSkip,
 }: {
   phase: Phase;
   locked: boolean;
@@ -422,6 +443,7 @@ function Controls({
   onStop: () => void;
   onNext: () => void;
   onFinish: () => void;
+  onSkip: () => void;
 }) {
   return (
     <section className="rounded-xl bg-white p-6 shadow-[0_1px_2px_rgba(11,17,32,.08)] lg:p-8">
@@ -439,6 +461,7 @@ function Controls({
           <p className="text-[12.5px] text-ink-subtle">
             Or wait for the preparation time to run out.
           </p>
+          <SkipButton onClick={onSkip} />
         </div>
       )}
 
@@ -455,6 +478,7 @@ function Controls({
           <p className="text-[12.5px] text-ink-subtle tabular-nums">
             You have {formatClock(speakSeconds)} to answer.
           </p>
+          <SkipButton onClick={onSkip} />
         </div>
       )}
 
@@ -533,6 +557,25 @@ function Controls({
 }
 
 /** Every question at a glance: done, current, still to come. */
+/**
+ * Moving on without answering.
+ *
+ * Practice is not the exam: a student working through Part 3 at their desk
+ * should be able to read a question, decide it is not the one they want to
+ * rehearse, and move on. Nothing is required before finishing.
+ */
+function SkipButton({ onClick }: { onClick: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className="ml-auto rounded-[9px] px-3.5 py-2 text-[12.5px] font-bold text-ink-subtle underline-offset-4 transition hover:text-ink hover:underline"
+    >
+      Skip this question →
+    </button>
+  );
+}
+
 function ProgressStrip({
   prompts,
   index,

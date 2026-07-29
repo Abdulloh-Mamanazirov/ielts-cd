@@ -12,6 +12,24 @@ type Draft = { start: number; end: number; text: string; x: number; y: number };
 type OpenNote = { id: string; x: number; y: number };
 
 /**
+ * Position of a viewport rect inside a scrolling container.
+ *
+ * The popovers are absolutely positioned children of the scroller, so their
+ * `top` is measured from its *content* box, which scrolls — leaving out
+ * scrollTop is what pinned them to the top of the passage however far down the
+ * student had read.
+ */
+function anchorIn(scroller: HTMLElement, box: DOMRect) {
+  const bounds = scroller.getBoundingClientRect();
+  return {
+    x: box.left - bounds.left + scroller.scrollLeft + box.width / 2,
+    y: box.top - bounds.top + scroller.scrollTop,
+    bottom: box.bottom - bounds.top + scroller.scrollTop,
+    left: box.left - bounds.left + scroller.scrollLeft,
+  };
+}
+
+/**
  * Reading passage, set in serif because exam prose is read at length.
  *
  * In review a student can ask where an answer came from; the snippet is wrapped
@@ -127,20 +145,17 @@ export function PassagePane({
       return;
     }
 
-    const box = range.getBoundingClientRect();
-    const bounds = scroller.current!.getBoundingClientRect();
-    setDraft({
-      start,
-      end,
-      text,
-      x: box.left - bounds.left + box.width / 2,
-      y: box.top - bounds.top,
-    });
+    setDraft({ start, end, text, ...anchorIn(scroller.current!, range.getBoundingClientRect()) });
     setOpenNote(null);
   }, [editable, offsetOf]);
 
+  /**
+   * Creates the highlight. `andWriteNote` opens the editor on it in the same
+   * gesture — asking the student to select, press Note, then hunt for the mark
+   * and click it again was three steps for one intention.
+   */
   const commit = useCallback(
-    (note?: string) => {
+    (andWriteNote = false) => {
       if (!draft || !onAddHighlight || part === undefined) return;
 
       const id =
@@ -154,10 +169,11 @@ export function PassagePane({
         start: draft.start,
         end: draft.end,
         text: draft.text.slice(0, 300),
-        note,
+        note: andWriteNote ? "" : undefined,
       });
 
       window.getSelection()?.removeAllRanges();
+      if (andWriteNote) setOpenNote({ id, x: draft.x - 140, y: draft.y + 22 });
       setDraft(null);
     },
     [draft, onAddHighlight, part],
@@ -173,9 +189,8 @@ export function PassagePane({
       const id = mark.getAttribute("data-hl");
       if (!id) return;
 
-      const box = mark.getBoundingClientRect();
-      const bounds = scroller.current!.getBoundingClientRect();
-      setOpenNote({ id, x: box.left - bounds.left, y: box.bottom - bounds.top });
+      const anchor = anchorIn(scroller.current!, mark.getBoundingClientRect());
+      setOpenNote({ id, x: anchor.left, y: anchor.bottom });
       setDraft(null);
     },
     [editable],
@@ -206,8 +221,8 @@ export function PassagePane({
         <SelectionToolbar
           x={draft.x}
           y={draft.y}
-          onHighlight={() => commit()}
-          onNote={() => commit("")}
+          onHighlight={() => commit(false)}
+          onNote={() => commit(true)}
           onDismiss={() => {
             window.getSelection()?.removeAllRanges();
             setDraft(null);

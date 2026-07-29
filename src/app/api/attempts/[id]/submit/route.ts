@@ -15,6 +15,8 @@ import { getAnswerKey } from "@/lib/tests/access";
 const submitSchema = z.object({
   /** Final answers from the client, merged over whatever was autosaved. */
   answers: z.record(z.string().regex(/^\d+$/), z.string()).optional(),
+  /** Writing and speaking only: send it to the instructor to be marked. */
+  forReview: z.boolean().optional(),
 });
 
 export async function POST(request: Request, context: { params: Promise<{ id: string }> }) {
@@ -69,10 +71,22 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
   // no band at all rather than a zero, which would drag down a band average
   // that the instructor has not even looked at yet.
   if (!isAutoGraded(loaded.content.skill)) {
-    await submitForReview(attempt.id, loaded.content, submission, attempt.startedAt);
+    // Marking is the paid part. A free student can still sit the test and keep
+    // their work; they just cannot put it in the instructor's queue.
+    const mayRequestReview = auth.user.isPremium || auth.user.role === "ADMIN";
+    const reviewRequested = Boolean(parsed.data.forReview) && mayRequestReview;
+
+    await submitForReview(
+      attempt.id,
+      loaded.content,
+      submission,
+      attempt.startedAt,
+      reviewRequested,
+    );
     if (attempt.fullMockId) await refreshFullMock(attempt.fullMockId);
+
     return Response.json({
-      awaitingReview: true,
+      awaitingReview: reviewRequested,
       skill: loaded.content.skill,
       lateSubmission,
       fullMockId: attempt.fullMockId,

@@ -19,6 +19,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
       where: {
         status: "SUBMITTED",
         band: null,
+        reviewRequested: true,
         test: { skill: { in: ["WRITING", "SPEAKING"] } },
       },
     }),

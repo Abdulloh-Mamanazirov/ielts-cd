@@ -201,13 +201,23 @@ not access control.
   students gave them. Accepting one writes the variant into the test's answer
   key for future sittings. Attempts already marked are deliberately left alone:
   silently changing a band a student has seen is worse than the original miss.
-- **Tests** — JSON import (file picker, drag-drop or paste) running the same
-  validator as the conversion scripts, and publish/archive controls. The screen
-  explains where the file comes from and shows the schema, because the person
-  using it is an instructor rather than a developer. Failures list every problem;
-  successes show a summary and any warnings, since a test can import cleanly and
-  still have a rubric promising a word limit it does not enforce. Imports always
-  land as drafts, and a listening test cannot be published without audio.
+- **Tests** — grouped by skill and filterable, with a preview link into the real
+  player. JSON import (file picker, drag-drop or paste) runs the same validator
+  as the conversion scripts, and the title, web address and premium flag are
+  editable on the form rather than buried in the file.
+
+  The screen leads with a **ready-made prompt per skill**
+  (`src/lib/admin/import-prompts.ts`): the instructor copies one, hands it to any
+  AI model with the PDF or an old HTML test, and pastes the reply back. Each
+  prompt states every rule the validator enforces and carries a complete worked
+  example, because a model given only a schema invents plausible key names that
+  fail on import. Those examples are unit tested against the real validator — a
+  prompt whose own example does not import is worse than no prompt.
+
+  Charts, maps and process diagrams are **not** part of the imported JSON. A
+  model reading a PDF cannot produce one, so the tests page shows an upload slot
+  for each Academic Task 1 and map-labelling group, and refuses to publish until
+  they are filled. Imports always land as drafts.
 - **Students** — premium grants, with a note recording why.
 
 ## Converting the legacy HTML mocks
@@ -316,6 +326,13 @@ student marks they had already earned.
 
 Submitting does not navigate away. The review panel opens in place, with the
 passage still beside the questions — that is the point of reviewing.
+
+Writing and speaking can be **finished without being sent** to the instructor,
+and sending is premium-only — `Attempt.reviewRequested` is what the marking
+queue filters on, so a free student can practise without filling it with work
+nobody asked to have marked. Speaking answers can be skipped: practice is not
+the exam, and a student should be able to read a Part 3 question, decide it is
+not the one they want to rehearse, and move on.
 
 Students can highlight the reading passage and attach a note to a highlight, and
 tests with no passage get a floating notepad instead — listening needs one,

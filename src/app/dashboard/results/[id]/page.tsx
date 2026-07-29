@@ -19,6 +19,7 @@ export default async function ResultPage({ params }: { params: Promise<{ id: str
       mode: true,
       rawScore: true,
       band: true,
+      reviewRequested: true,
       submittedAt: true,
       timeSpentSeconds: true,
       result: true,
@@ -82,12 +83,22 @@ export default async function ResultPage({ params }: { params: Promise<{ id: str
         />
       </div>
 
-      {attempt.band === null && (
+      {attempt.band === null && !autoGraded && (
         <p className="mt-5 rounded-xl bg-brand-blue-soft px-5 py-4 text-sm leading-relaxed text-ink-muted">
-          <strong className="font-bold text-ink">With your instructor.</strong>{" "}
-          {attempt.test.skill === "WRITING" ? "Writing" : "Speaking"} is marked by a person, not a
-          machine, so this has no band yet. It will appear here and on your dashboard once it has
-          been reviewed.
+          {attempt.reviewRequested ? (
+            <>
+              <strong className="font-bold text-ink">With your instructor.</strong>{" "}
+              {attempt.test.skill === "WRITING" ? "Writing" : "Speaking"} is marked by a person,
+              not a machine, so this has no band yet. It will appear here and on your dashboard
+              once it has been reviewed.
+            </>
+          ) : (
+            <>
+              <strong className="font-bold text-ink">Kept for you.</strong> This was not sent to
+              your instructor, so it has no band. Everything below is saved and stays on your
+              dashboard.
+            </>
+          )}
         </p>
       )}
 

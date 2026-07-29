@@ -49,11 +49,19 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
 
   // Three players, one lifecycle. Which one a student gets is decided here and
   // nowhere else.
+  // Marking is the paid part. A free student can sit either test and keep the
+  // work; they just cannot put it in the instructor's queue.
+  const canRequestReview = user.isPremium || user.role === "ADMIN";
+
   if (access.test.skill === "writing") {
-    return <WritingPlayer test={access.test} attempt={snapshot} />;
+    return (
+      <WritingPlayer test={access.test} attempt={snapshot} canRequestReview={canRequestReview} />
+    );
   }
   if (access.test.skill === "speaking") {
-    return <SpeakingPlayer test={access.test} attempt={snapshot} />;
+    return (
+      <SpeakingPlayer test={access.test} attempt={snapshot} canRequestReview={canRequestReview} />
+    );
   }
 
   return <TestPlayer test={access.test} attempt={snapshot} />;

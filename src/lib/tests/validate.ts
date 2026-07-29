@@ -480,13 +480,37 @@ function checkSpeakingPrompts(content: TestContent, issues: ValidationIssue[]) {
   const prompts = content.prompts ?? [];
 
   for (const [index, prompt] of prompts.entries()) {
-    if (stripHtml(prompt.promptHtml).length === 0) {
+    const text = stripHtml(prompt.promptHtml);
+
+    if (text.length === 0) {
       issues.push({
         level: "error",
         code: "empty_prompt",
         message: `Speaking prompt ${index + 1} (part ${prompt.part}) has an empty prompt`,
       });
+      continue;
     }
+
+    // The classic bad conversion: a model summarises the paper into topic
+    // headings — "Work", "Study", "Hometown" — instead of listing the actual
+    // questions. It imports cleanly and gives the student nothing to answer.
+    const words = text.split(/\s+/).filter(Boolean);
+    if (words.length <= 3 && !text.includes("?")) {
+      issues.push({
+        level: "warning",
+        code: "prompt_looks_like_a_topic",
+        message: `Speaking prompt ${index + 1} is just "${text}". That looks like a topic heading rather than a question the student can answer.`,
+      });
+    }
+  }
+
+  // A real interview is a dozen or more questions across three parts.
+  if (prompts.length > 0 && prompts.length < 8) {
+    issues.push({
+      level: "warning",
+      code: "too_few_prompts",
+      message: `Only ${prompts.length} prompt${prompts.length === 1 ? "" : "s"}. A full speaking test is usually 12-15 questions, so check the converter did not collapse each part into one entry.`,
+    });
   }
 
   // The long turn is the one prompt with a defined shape: a cue card, a minute

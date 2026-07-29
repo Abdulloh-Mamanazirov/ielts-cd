@@ -4,24 +4,36 @@ import { useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 
 import { importTest, type ImportResult } from "@/app/admin/actions";
+import { IMPORT_PROMPTS } from "@/lib/admin/import-prompts";
+import type { SkillSlug } from "@/lib/tests/schema";
+import { cn } from "@/lib/utils";
 
 /**
  * Bringing a test in.
  *
- * The instructor is not a developer, so the screen has to say where the JSON
- * comes from and what will happen to it. The same validator the conversion
- * scripts use runs here, and its warnings are shown on success too — a test can
- * import cleanly and still have a rubric that promises a word limit it does not
- * enforce.
+ * The hard part is not the upload, it is getting usable JSON out of a PDF. So
+ * the screen leads with a ready-made prompt per skill: the instructor copies
+ * one, hands it to any AI model along with the paper, and pastes the reply
+ * back. The prompts spell out every rule the validator enforces, because the
+ * alternative is a round trip through error messages the model cannot see.
  */
 export function ImportTest() {
   const router = useRouter();
   const [open, setOpen] = useState(false);
+  const [skill, setSkill] = useState<SkillSlug>("reading");
+  const [copied, setCopied] = useState(false);
+
   const [json, setJson] = useState("");
   const [filename, setFilename] = useState<string | null>(null);
+  const [title, setTitle] = useState("");
+  const [slug, setSlug] = useState("");
+  const [isPremium, setIsPremium] = useState(true);
+
   const [result, setResult] = useState<ImportResult | null>(null);
   const [pending, startTransition] = useTransition();
   const fileInput = useRef<HTMLInputElement>(null);
+
+  const active = IMPORT_PROMPTS.find((entry) => entry.skill === skill)!;
 
   const loadFile = async (file: File | undefined) => {
     if (!file) return;
@@ -30,14 +42,22 @@ export function ImportTest() {
     setJson(await file.text());
   };
 
+  const copyPrompt = async () => {
+    await navigator.clipboard.writeText(active.prompt);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   const submit = () => {
     setResult(null);
     startTransition(async () => {
-      const outcome = await importTest(json);
+      const outcome = await importTest(json, { title, slug, isPremium });
       setResult(outcome);
       if (outcome.ok) {
         setJson("");
         setFilename(null);
+        setTitle("");
+        setSlug("");
         router.refresh();
       }
     });
@@ -68,72 +88,67 @@ export function ImportTest() {
         </button>
       </div>
 
-      <h3 className="mt-2 font-display text-lg leading-tight text-ink">
-        Where the file comes from
+      {/* Step 1 — the prompt */}
+      <h3 className="mt-3 font-display text-lg leading-tight text-ink">
+        1. Turn your paper into JSON
       </h3>
+      <p className="mt-1.5 max-w-[72ch] text-[13px] leading-relaxed text-ink-muted">
+        Pick the skill, copy the prompt, and give it to any AI model together with the PDF, the
+        photos, or the old HTML test file. Paste its reply into the box below. The prompt already
+        contains every rule this importer checks, so a cheap model is enough.
+      </p>
 
-      <ol className="mt-3 max-w-[72ch] space-y-2.5 text-[13px] leading-relaxed text-ink-muted">
-        <Step n={1}>
-          Get the test as JSON. Either take a ready-made file from the{" "}
-          <code className="rounded bg-surface-alt px-1 py-0.5">content/tests/</code> folder, or
-          give a PDF or Word paper to an AI assistant and ask it to produce this project&apos;s
-          test JSON — the shape is below.
-        </Step>
-        <Step n={2}>
-          Drop the file in, or paste its contents. Nothing is saved until it passes every check.
-        </Step>
-        <Step n={3}>
-          It arrives as a <strong className="font-bold text-ink">draft</strong>. Students cannot
-          see it until you press <strong className="font-bold text-ink">PUBLISHED</strong> on its
-          row below — and a listening test needs its audio uploaded first.
-        </Step>
-      </ol>
+      <div className="mt-3 flex flex-wrap gap-1.5">
+        {IMPORT_PROMPTS.map((entry) => (
+          <button
+            key={entry.skill}
+            type="button"
+            onClick={() => setSkill(entry.skill)}
+            className={cn(
+              "rounded-[9px] px-3.5 py-2 text-[12.5px] font-bold transition",
+              entry.skill === skill
+                ? "bg-ink text-white"
+                : "bg-surface-alt text-ink-muted hover:bg-ink/10",
+            )}
+          >
+            {entry.label}
+          </button>
+        ))}
+      </div>
 
-      <details className="mt-4 max-w-[72ch] rounded-[10px] bg-surface-alt p-3.5">
-        <summary className="cursor-pointer text-[12.5px] font-bold text-ink">
-          What the JSON has to look like
-        </summary>
-        <p className="mt-2 text-[12.5px] leading-relaxed text-ink-muted">
-          Two documents in one file. <code className="rounded bg-white px-1">content</code> is what
-          the student sees; <code className="rounded bg-white px-1">answerKey</code> never leaves
-          the server. Question numbers must run 1..N with no gaps, and every one needs an entry in
-          the key — the checker grades the key against itself and refuses anything short of full
-          marks.
-        </p>
-        <pre className="mt-2 overflow-x-auto rounded-lg bg-white p-3 font-mono text-[11.5px] leading-relaxed text-ink">
-{`{
-  "slug": "cambridge-22-reading-test-1",
-  "isPremium": true,
-  "content": {
-    "schemaVersion": 1,
-    "skill": "reading",
-    "title": "Cambridge 22 Reading Test 1",
-    "totalQuestions": 40,
-    "durationSeconds": 3600,
-    "parts": [ … ]
-  },
-  "answerKey": {
-    "schemaVersion": 1,
-    "answers": { "1": { "accepted": ["camouflage"] } },
-    "sets": []
-  }
-}`}
-        </pre>
-        <p className="mt-2 text-[12.5px] leading-relaxed text-ink-muted">
-          Writing uses <code className="rounded bg-white px-1">tasks</code> and speaking uses{" "}
-          <code className="rounded bg-white px-1">prompts</code> instead of{" "}
-          <code className="rounded bg-white px-1">parts</code>, with{" "}
-          <code className="rounded bg-white px-1">totalQuestions: 0</code> and an empty answer key.
-          The files already in <code className="rounded bg-white px-1">content/tests/</code> are
-          the best examples to copy.
-        </p>
-      </details>
+      <div className="mt-3 rounded-[10px] bg-surface-alt p-3.5">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <p className="text-[12.5px] text-ink-muted">{active.hint}</p>
+          <button
+            type="button"
+            onClick={copyPrompt}
+            className={cn(
+              "rounded-[9px] px-4 py-2 text-[12.5px] font-bold transition",
+              copied ? "bg-ok text-white" : "bg-ink text-white hover:bg-ink/85",
+            )}
+          >
+            {copied ? "Copied ✓" : `Copy the ${active.label.toLowerCase()} prompt`}
+          </button>
+        </div>
 
-      <div className="mt-4 flex flex-wrap items-center gap-3">
+        <details className="mt-3">
+          <summary className="cursor-pointer text-[12px] font-bold text-ink-subtle">
+            Read it first
+          </summary>
+          <pre className="mt-2 max-h-[280px] overflow-auto rounded-lg bg-white p-3 font-mono text-[11px] leading-relaxed text-ink-muted">
+            {active.prompt}
+          </pre>
+        </details>
+      </div>
+
+      {/* Step 2 — the JSON */}
+      <h3 className="mt-6 font-display text-lg leading-tight text-ink">2. Paste the reply</h3>
+
+      <div className="mt-3 flex flex-wrap items-center gap-3">
         <input
           ref={fileInput}
           type="file"
-          accept="application/json,.json"
+          accept="application/json,.json,.txt"
           onChange={(event) => loadFile(event.target.files?.[0])}
           className="hidden"
         />
@@ -142,7 +157,7 @@ export function ImportTest() {
           onClick={() => fileInput.current?.click()}
           className="rounded-[9px] bg-surface-alt px-4 py-2.5 text-[13px] font-bold text-ink transition hover:bg-ink hover:text-white"
         >
-          Choose a .json file
+          Choose a file
         </button>
         {filename && (
           <span className="text-[12.5px] text-ink-subtle">
@@ -164,34 +179,97 @@ export function ImportTest() {
             await loadFile(file);
           }
         }}
-        rows={10}
+        rows={9}
         spellCheck={false}
         placeholder="…or paste the JSON here, or drag the file onto this box."
         className="mt-3 w-full resize-y rounded-[9px] bg-surface-alt px-3 py-2.5 font-mono text-[12px] leading-relaxed text-ink outline-none placeholder:font-sans placeholder:text-ink-faint focus:shadow-[inset_0_0_0_2px_#0154f8]"
       />
 
+      {/* Step 3 — how it appears */}
+      <h3 className="mt-6 font-display text-lg leading-tight text-ink">3. How it appears</h3>
+      <p className="mt-1.5 text-[13px] text-ink-muted">
+        Leave the name blank to keep whatever the file says.
+      </p>
+
+      <div className="mt-3 grid gap-3 sm:grid-cols-2">
+        <Field label="Name students see">
+          <input
+            value={title}
+            onChange={(event) => setTitle(event.target.value)}
+            placeholder="e.g. Cambridge 22 Reading Test 1"
+            className="w-full rounded-[9px] bg-surface-alt px-3 py-2.5 text-[13px] text-ink outline-none placeholder:text-ink-faint focus:shadow-[inset_0_0_0_2px_#0154f8]"
+          />
+        </Field>
+
+        <Field label="Web address (optional)">
+          <input
+            value={slug}
+            onChange={(event) => setSlug(event.target.value)}
+            placeholder="made from the name if left blank"
+            className="w-full rounded-[9px] bg-surface-alt px-3 py-2.5 font-mono text-[12.5px] text-ink outline-none placeholder:font-sans placeholder:text-ink-faint focus:shadow-[inset_0_0_0_2px_#0154f8]"
+          />
+        </Field>
+      </div>
+
+      <div className="mt-3 flex flex-wrap gap-1.5">
+        <Toggle active={isPremium} onClick={() => setIsPremium(true)}>
+          Premium — paying students only
+        </Toggle>
+        <Toggle active={!isPremium} onClick={() => setIsPremium(false)}>
+          Free — anyone signed in
+        </Toggle>
+      </div>
+
       <button
         type="button"
         onClick={submit}
         disabled={pending || json.trim().length === 0}
-        className="mt-3 rounded-[10px] bg-brand-red-cta px-5 py-3 text-sm font-bold text-white transition hover:bg-brand-red-dark disabled:opacity-50"
+        className="mt-5 rounded-[10px] bg-brand-red-cta px-5 py-3 text-sm font-bold text-white transition hover:bg-brand-red-dark disabled:opacity-50"
       >
         {pending ? "Checking…" : "Check and import"}
       </button>
+
+      <p className="mt-2 text-[12px] text-ink-subtle">
+        It arrives as a draft. Nothing is visible to students until you publish it.
+      </p>
 
       {result && <Outcome result={result} />}
     </section>
   );
 }
 
-function Step({ n, children }: { n: number; children: React.ReactNode }) {
+function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
-    <li className="flex gap-3">
-      <span className="mt-0.5 flex h-[19px] w-[19px] flex-none items-center justify-center rounded-full bg-ink text-[11px] font-bold text-white">
-        {n}
+    <label className="block">
+      <span className="text-[10px] font-bold tracking-[0.18em] text-ink-subtle">
+        {label.toUpperCase()}
       </span>
-      <span>{children}</span>
-    </li>
+      <div className="mt-1.5">{children}</div>
+    </label>
+  );
+}
+
+function Toggle({
+  active,
+  onClick,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={cn(
+        "rounded-[9px] px-3.5 py-2 text-[12.5px] font-bold transition",
+        active ? "bg-ink text-white" : "bg-surface-alt text-ink-muted hover:bg-ink/10",
+      )}
+    >
+      {children}
+    </button>
   );
 }
 
@@ -201,14 +279,21 @@ function Outcome({ result }: { result: ImportResult }) {
       <div className="mt-4 rounded-[10px] bg-bad-soft p-4">
         <p className="text-[13px] font-bold text-brand-red-cta">{result.error}</p>
         {result.issues.length > 0 && (
-          <ul className="mt-2 space-y-1 text-[12.5px] leading-relaxed text-ink-muted">
-            {result.issues.slice(0, 12).map((issue, index) => (
-              <li key={index}>• {issue}</li>
-            ))}
-            {result.issues.length > 12 && (
-              <li className="italic">…and {result.issues.length - 12} more.</li>
-            )}
-          </ul>
+          <>
+            <ul className="mt-2 space-y-1 text-[12.5px] leading-relaxed text-ink-muted">
+              {result.issues.slice(0, 12).map((issue, index) => (
+                <li key={index}>• {issue}</li>
+              ))}
+              {result.issues.length > 12 && (
+                <li className="italic">…and {result.issues.length - 12} more.</li>
+              )}
+            </ul>
+            <p className="mt-3 text-[12.5px] leading-relaxed text-ink-muted">
+              Paste this list back to the AI along with the prompt and ask it to fix them. If it
+              keeps failing, check it did not wrap the reply in{" "}
+              <code className="rounded bg-white px-1">```json</code> fences.
+            </p>
+          </>
         )}
       </div>
     );

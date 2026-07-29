@@ -18,6 +18,8 @@ export function ConfirmDialog({
   confirmLabel,
   confirmingLabel,
   cancelLabel = "Keep working",
+  secondaryLabel,
+  onSecondary,
   submitting,
   onConfirm,
   onCancel,
@@ -29,6 +31,9 @@ export function ConfirmDialog({
   confirmLabel: string;
   confirmingLabel: string;
   cancelLabel?: string;
+  /** A second way to finish, e.g. ending without sending work for marking. */
+  secondaryLabel?: string;
+  onSecondary?: () => void;
   submitting: boolean;
   onConfirm: () => void;
   onCancel: () => void;
@@ -90,6 +95,17 @@ export function ConfirmDialog({
             {cancelLabel}
           </button>
         </div>
+
+        {secondaryLabel && onSecondary && (
+          <button
+            type="button"
+            onClick={onSecondary}
+            disabled={submitting}
+            className="mt-3 w-full rounded-[10px] px-6 py-2.5 text-[13px] font-bold text-ink-subtle underline-offset-4 transition hover:text-ink hover:underline disabled:opacity-60"
+          >
+            {secondaryLabel}
+          </button>
+        )}
       </div>
     </div>
   );

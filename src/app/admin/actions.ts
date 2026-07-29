@@ -186,8 +186,31 @@ export async function setTestStatus(input: unknown): Promise<ActionResult> {
   return { ok: true, message: `Test is now ${status.toLowerCase()}.` };
 }
 
-/** Pasted JSON, validated by the same checks the conversion scripts run. */
-export async function importTest(raw: string): Promise<ImportResult> {
+/** Lowercase words joined by hyphens, matching the schema's slug rule. */
+function slugify(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+export type ImportOverrides = {
+  title?: string;
+  slug?: string;
+  isPremium?: boolean;
+};
+
+/**
+ * Pasted JSON, validated by the same checks the conversion scripts run.
+ *
+ * The overrides exist because a model's guess at a title and slug is rarely
+ * what the instructor wants on the shelf, and whether a test is premium is a
+ * commercial decision that has no business being inside the paper.
+ */
+export async function importTest(
+  raw: string,
+  overrides: ImportOverrides = {},
+): Promise<ImportResult> {
   const admin = await assertAdmin();
   if (!admin) return { ok: false, error: "Not allowed", issues: [] };
 
@@ -217,20 +240,24 @@ export async function importTest(raw: string): Promise<ImportResult> {
     .map((issue) => issue.message);
 
   const { content, answerKey, slug, isPremium, audioSourceUrl } = report.parsed;
-  const finalSlug =
-    slug ??
-    content.title
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-|-$/g, "");
+
+  const finalTitle = overrides.title?.trim() || content.title;
+  const finalPremium = overrides.isPremium ?? isPremium ?? false;
+  const finalSlug = slugify(overrides.slug?.trim() || slug || finalTitle);
+
+  if (!finalSlug) {
+    return { ok: false, error: "That title makes an empty web address.", issues: [] };
+  }
 
   const data = {
     skill: content.skill.toUpperCase() as "LISTENING" | "READING" | "WRITING" | "SPEAKING",
-    title: content.title,
+    title: finalTitle,
     description: content.description ?? null,
-    isPremium: isPremium ?? false,
+    isPremium: finalPremium,
     schemaVersion: content.schemaVersion,
-    content,
+    // The title lives in two places — the row the admin lists by, and the
+    // content the player renders — so an override has to reach both.
+    content: { ...content, title: finalTitle },
     answerKey,
     totalQuestions: content.totalQuestions,
     durationSeconds: content.durationSeconds,
@@ -251,7 +278,7 @@ export async function importTest(raw: string): Promise<ImportResult> {
       : null,
     `${Math.round(content.durationSeconds / 60)} minutes`,
     stats?.selfTestScore ? `answer key self-test ${stats.selfTestScore}` : null,
-    isPremium ? "premium" : "free",
+    finalPremium ? "premium" : "free",
   ]
     .filter(Boolean)
     .join(" · ");
@@ -263,7 +290,7 @@ export async function importTest(raw: string): Promise<ImportResult> {
     revalidatePath("/admin/tests");
     return {
       ok: true,
-      message: `Updated "${content.title}". Its published status is unchanged.`,
+      message: `Updated "${finalTitle}". Its published status is unchanged.`,
       summary,
       warnings,
     };
@@ -273,10 +300,76 @@ export async function importTest(raw: string): Promise<ImportResult> {
   revalidatePath("/admin/tests");
   return {
     ok: true,
-    message: `Imported "${content.title}" as a draft.`,
+    message: `Imported "${finalTitle}" as a draft.`,
     summary,
     warnings,
   };
+}
+
+const imageSchema = z.object({
+  testId: z.string().min(1),
+  /** Writing task number, or a question group id for a map or diagram. */
+  target: z.union([z.number().int().positive(), z.string().min(1)]),
+  // Relative path from the upload route, never an arbitrary URL: an offsite
+  // image would break the moment that host went down or changed the file.
+  url: z.string().regex(/^\/test-media\/[A-Za-z0-9._-]+$/, "That is not an uploaded image"),
+});
+
+/**
+ * Attaches artwork to a task or question group.
+ *
+ * The picture is deliberately not part of the imported JSON: a model reading a
+ * PDF cannot produce one, and asking an instructor to hand-edit a URL into a
+ * blob of JSON is how a chart ends up missing from a Task 1 nobody can answer.
+ */
+export async function setTestImage(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const parsed = imageSchema.safeParse(input);
+  if (!parsed.success) {
+    return { ok: false, error: parsed.error.issues[0]?.message ?? "Invalid request" };
+  }
+
+  const { testId, target, url } = parsed.data;
+
+  const test = await prisma.test.findUnique({
+    where: { id: testId },
+    select: { content: true },
+  });
+  if (!test) return { ok: false, error: "Test not found" };
+
+  const content = test.content as {
+    tasks?: Array<{ number: number; imageUrl?: string }>;
+    parts?: Array<{ groups: Array<{ id: string; imageUrl?: string }> }>;
+  };
+
+  let attached = false;
+
+  if (typeof target === "number") {
+    const task = content.tasks?.find((entry) => entry.number === target);
+    if (task) {
+      task.imageUrl = url;
+      attached = true;
+    }
+  } else {
+    for (const part of content.parts ?? []) {
+      const group = part.groups.find((entry) => entry.id === target);
+      if (group) {
+        group.imageUrl = url;
+        attached = true;
+        break;
+      }
+    }
+  }
+
+  if (!attached) return { ok: false, error: "Nothing in that test matches" };
+
+  await prisma.test.update({ where: { id: testId }, data: { content } });
+
+  revalidatePath("/admin/tests");
+  revalidatePath("/tests");
+  return { ok: true, message: "Image attached." };
 }
 
 const reviewSchema = z.object({

@@ -25,9 +25,12 @@ import type { AttemptSnapshot } from "./TestPlayer";
 export function WritingPlayer({
   test,
   attempt,
+  canRequestReview,
 }: {
   test: PlayableTest;
   attempt: AttemptSnapshot;
+  /** Instructor marking is the paid part; free students still keep their work. */
+  canRequestReview: boolean;
 }) {
   const tasks = useMemo(
     () => [...(test.content.tasks ?? [])].sort((a, b) => a.number - b.number),
@@ -51,7 +54,7 @@ export function WritingPlayer({
     [queue],
   );
 
-  const submit = useCallback(async () => {
+  const submit = useCallback(async (forReview: boolean) => {
     if (submitting || submitted) return;
 
     setSubmitting(true);
@@ -61,7 +64,7 @@ export function WritingPlayer({
       const response = await fetch(`/api/attempts/${attempt.id}/submit`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ answers: texts }),
+        body: JSON.stringify({ answers: texts, forReview }),
       });
 
       if (!response.ok) {
@@ -83,7 +86,13 @@ export function WritingPlayer({
     }
   }, [attempt.fullMockId, attempt.id, flush, submitted, submitting, texts]);
 
-  const remaining = useCountdown(attempt.expiresAt, submitted, submit);
+  const autoSubmit = useCallback(() => {
+    // Time running out finishes the attempt. Whether it also goes to the
+    // instructor follows the same rule as pressing the button would.
+    void submit(canRequestReview);
+  }, [canRequestReview, submit]);
+
+  const remaining = useCountdown(attempt.expiresAt, submitted, autoSubmit);
   const current = tasks.find((task) => task.number === activeTask) ?? tasks[0];
 
   const counts = tasks.map((task) => ({
@@ -222,11 +231,14 @@ export function WritingPlayer({
                 shortTasks.length === 1 ? "is" : "are"
               } under the minimum.`
         }
-        confirmLabel="Submit for marking"
-        confirmingLabel="Submitting…"
+        confirmLabel={canRequestReview ? "Send to my instructor" : "Finish and keep my work"}
+        confirmingLabel="Finishing…"
+        cancelLabel="Keep writing"
         submitting={submitting}
-        onConfirm={submit}
+        onConfirm={() => void submit(canRequestReview)}
         onCancel={() => setDialogOpen(false)}
+        secondaryLabel={canRequestReview ? "Finish without sending" : undefined}
+        onSecondary={canRequestReview ? () => void submit(false) : undefined}
       >
         <dl className="mt-5 flex gap-px overflow-hidden rounded-lg bg-rule">
           {counts.map(({ task, words }) => (
@@ -241,8 +253,9 @@ export function WritingPlayer({
         </dl>
 
         <p className="mt-5 text-sm leading-relaxed text-ink-muted">
-          Writing is marked by your instructor, not automatically, so there is no band straight
-          away. You will find it on your dashboard once it has been reviewed.
+          {canRequestReview
+            ? "Writing is marked by a person, so there is no band straight away. Send it and it appears on your dashboard once your instructor has read it — or finish without sending and keep it to yourself."
+            : "Your work is saved to your dashboard either way. Marking by your instructor is part of premium; ask them to unlock it if you would like a band."}
         </p>
       </ConfirmDialog>
     </div>

@@ -8,6 +8,9 @@ export default async function MarkingQueuePage() {
   const attempts = await prisma.attempt.findMany({
     where: {
       status: "SUBMITTED",
+      // Only work the student asked to have marked. Practice they finished on
+      // their own is theirs, not a job for the queue.
+      reviewRequested: true,
       test: { skill: { in: ["WRITING", "SPEAKING"] } },
     },
     // Unmarked first, then oldest first — a queue, not a feed.

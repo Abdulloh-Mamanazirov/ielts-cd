@@ -10,6 +10,7 @@ export default async function AdminOverviewPage() {
         where: {
           status: "SUBMITTED",
           band: null,
+          reviewRequested: true,
           test: { skill: { in: ["WRITING", "SPEAKING"] } },
         },
       }),

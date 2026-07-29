@@ -172,6 +172,10 @@ model Attempt {
 
   rawScore         Int?
   band             Float?
+  // Writing and speaking can be finished without being sent to the instructor.
+  // Only a requested review joins the marking queue, so free students can
+  // practise without filling it with work nobody has asked to be marked.
+  reviewRequested  Boolean   @default(false)
   startedAt        DateTime  @default(now())
   submittedAt      DateTime?
   timeSpentSeconds Int?

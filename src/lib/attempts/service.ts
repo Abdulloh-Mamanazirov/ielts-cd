@@ -80,6 +80,8 @@ export async function submitForReview(
   content: TestContent,
   answers: Record<string, string>,
   startedAt: Date,
+  /** False when the student finished but did not ask the instructor to mark it. */
+  reviewRequested: boolean,
 ) {
   const timeSpentSeconds = Math.max(0, Math.round((Date.now() - startedAt.getTime()) / 1000));
 
@@ -110,6 +112,7 @@ export async function submitForReview(
       answers,
       rawScore: null,
       band: null,
+      reviewRequested,
     },
   });
 

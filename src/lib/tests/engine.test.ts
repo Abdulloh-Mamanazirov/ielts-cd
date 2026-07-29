@@ -438,8 +438,13 @@ function speakingImport(): z.input<typeof testImportSchema> {
       title: "Sample Speaking",
       totalQuestions: 0,
       durationSeconds: 840,
+      // Eight prompts, because a realistically sized test is what the
+      // "too few prompts" check is calibrated against.
       prompts: [
         { part: 1, promptHtml: "<p>Where do you live?</p>", prepSeconds: 0, speakSeconds: 30 },
+        { part: 1, promptHtml: "<p>Do you like it there?</p>", prepSeconds: 0, speakSeconds: 30 },
+        { part: 1, promptHtml: "<p>How long have you lived there?</p>", prepSeconds: 0, speakSeconds: 30 },
+        { part: 1, promptHtml: "<p>Would you like to move away?</p>", prepSeconds: 0, speakSeconds: 30 },
         {
           part: 2,
           promptHtml: "<p>Describe something you own.</p>",
@@ -448,6 +453,8 @@ function speakingImport(): z.input<typeof testImportSchema> {
           speakSeconds: 120,
         },
         { part: 3, promptHtml: "<p>How have values changed?</p>", prepSeconds: 0, speakSeconds: 60 },
+        { part: 3, promptHtml: "<p>Do people own too much these days?</p>", prepSeconds: 0, speakSeconds: 60 },
+        { part: 3, promptHtml: "<p>Will that change in the future?</p>", prepSeconds: 0, speakSeconds: 60 },
       ],
     },
     answerKey: { schemaVersion: SCHEMA_VERSION, answers: {}, sets: [] },
@@ -456,6 +463,11 @@ function speakingImport(): z.input<typeof testImportSchema> {
 
 function promptsOf(input: z.input<typeof testImportSchema>) {
   return (input.content as { prompts: Array<Record<string, unknown>> }).prompts;
+}
+
+/** The cue card, found by shape rather than position so the fixture can grow. */
+function cueCardOf(input: z.input<typeof testImportSchema>) {
+  return promptsOf(input).find((prompt) => prompt.part === 2 && Number(prompt.prepSeconds) > 0)!;
 }
 
 describe("validateTestImport for speaking", () => {
@@ -468,7 +480,7 @@ describe("validateTestImport for speaking", () => {
 
   it("warns when Part 2 has no preparation time, so there is no long turn", () => {
     const rushed = speakingImport();
-    promptsOf(rushed)[1].prepSeconds = 0;
+    cueCardOf(rushed).prepSeconds = 0;
 
     const report = validateTestImport(rushed);
     assert.ok(report.issues.some((issue) => issue.code === "no_long_turn"));
@@ -476,15 +488,42 @@ describe("validateTestImport for speaking", () => {
 
   it("warns when the cue card has no bullets", () => {
     const bare = speakingImport();
-    delete promptsOf(bare)[1].bulletsHtml;
+    delete cueCardOf(bare).bulletsHtml;
 
     const report = validateTestImport(bare);
     assert.ok(report.issues.some((issue) => issue.code === "cue_card_without_bullets"));
   });
 
+  it("warns when a prompt is a topic heading rather than a question", () => {
+    // The exact bad conversion seen in the wild: "<h3>Work</h3>".
+    const topics = speakingImport();
+    promptsOf(topics)[0].promptHtml = "<h3>Work</h3>";
+
+    const report = validateTestImport(topics);
+    assert.ok(report.issues.some((issue) => issue.code === "prompt_looks_like_a_topic"));
+    // Suspicious, not fatal — a one-word question is legal, just unlikely.
+    assert.equal(report.ok, true);
+  });
+
+  it("does not mistake a short real question for a topic", () => {
+    const short = speakingImport();
+    promptsOf(short)[0].promptHtml = "<p>Do you work?</p>";
+
+    const report = validateTestImport(short);
+    assert.ok(!report.issues.some((issue) => issue.code === "prompt_looks_like_a_topic"));
+  });
+
+  it("warns when a test has too few prompts to be a real interview", () => {
+    const thin = speakingImport();
+    (thin.content as { prompts: unknown[] }).prompts = promptsOf(thin).slice(0, 3);
+
+    const report = validateTestImport(thin);
+    assert.ok(report.issues.some((issue) => issue.code === "too_few_prompts"));
+  });
+
   it("errors when speaking and preparation time overrun the test", () => {
     const overlong = speakingImport();
-    promptsOf(overlong)[1].speakSeconds = 900;
+    cueCardOf(overlong).speakSeconds = 900;
 
     const report = validateTestImport(overlong);
     assert.equal(report.ok, false);
