@@ -1,19 +1,25 @@
 import { prisma } from "@/lib/db";
 import { hashPassword } from "@/lib/auth/password";
-import { clientIp, userAgent } from "@/lib/auth/request";
+import { clientIp, readSubmittedBody, safeNext, userAgent } from "@/lib/auth/request";
 import { createSession } from "@/lib/auth/session";
 import { fieldErrors, signupSchema } from "@/lib/auth/validation";
 
 export async function POST(request: Request) {
-  let body: unknown;
-  try {
-    body = await request.json();
-  } catch {
-    return Response.json({ error: "Expected a JSON body" }, { status: 400 });
+  const submitted = await readSubmittedBody(request);
+  if (!submitted.ok) {
+    return Response.json({ error: "Expected a JSON or form body" }, { status: 400 });
   }
+
+  const { data: body, isFormPost } = submitted;
+  const next = safeNext(body.next);
 
   const parsed = signupSchema.safeParse(body);
   if (!parsed.success) {
+    // A native post cannot read a JSON reply, so only a flag goes back — never
+    // the name, email or password that was typed.
+    if (isFormPost) {
+      return Response.redirect(new URL("/signup?failed=invalid", request.url), 303);
+    }
     return Response.json({ errors: fieldErrors(parsed.error) }, { status: 422 });
   }
 
@@ -24,6 +30,9 @@ export async function POST(request: Request) {
     select: { id: true },
   });
   if (existing) {
+    if (isFormPost) {
+      return Response.redirect(new URL("/signup?failed=taken", request.url), 303);
+    }
     return Response.json(
       { errors: { email: "An account with this email already exists" } },
       { status: 409 },
@@ -44,6 +53,8 @@ export async function POST(request: Request) {
     userAgent: userAgent(request),
     ipAddress: clientIp(request),
   });
+
+  if (isFormPost) return Response.redirect(new URL(next, request.url), 303);
 
   return Response.json({ user }, { status: 201 });
 }

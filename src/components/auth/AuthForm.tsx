@@ -4,6 +4,14 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 
+/** Mirrors the reasons the auth routes redirect with. */
+const FALLBACK_ERRORS: Record<string, string> = {
+  invalid: "Enter your email and password.",
+  credentials: "Email or password is incorrect",
+  throttled: "Too many failed attempts. Try again in a few minutes.",
+  taken: "That email already has an account.",
+};
+
 export function AuthForm({ mode }: { mode: "login" | "signup" }) {
   const router = useRouter();
   const params = useSearchParams();
@@ -12,6 +20,11 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
   const [busy, setBusy] = useState(false);
   const [formError, setFormError] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
+
+  // A native form post cannot read a JSON reply, so the route sends back a flag
+  // instead. Only a reason travels in the URL, never what was typed.
+  const failed = params.get("failed");
+  const shown = formError ?? (failed ? FALLBACK_ERRORS[failed] ?? FALLBACK_ERRORS.invalid : null);
 
   const submit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -46,7 +59,21 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
   };
 
   return (
-    <form onSubmit={submit} className="space-y-4" noValidate>
+    /**
+     * `action` and `method` are the no-JavaScript path, and they are load
+     * bearing even when JavaScript works: if the page has not hydrated the
+     * browser submits natively, and a form with no method defaults to GET —
+     * which puts the password in the URL, the history and the server log.
+     * Posting to the route means an unhydrated page still signs in.
+     */
+    <form
+      onSubmit={submit}
+      action={`/api/auth/${mode}`}
+      method="post"
+      className="space-y-4"
+      noValidate
+    >
+      <input type="hidden" name="next" value={next} />
       {mode === "signup" && (
         <Field
           label="Full name"
@@ -74,9 +101,9 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
         hint={mode === "signup" ? "At least 8 characters." : undefined}
       />
 
-      {formError && (
+      {shown && (
         <p role="alert" className="rounded-lg bg-bad-soft px-4 py-3 text-sm text-bad">
-          {formError}
+          {shown}
         </p>
       )}
 

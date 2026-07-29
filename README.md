@@ -106,6 +106,27 @@ running**, and after files move (a `git mv`, switching branches, pulling a
 change that adds routes). Restarting `next dev` on its own is not enough,
 because the stale output survives in `.next`.
 
+## Sharing the dev server over a tunnel
+
+ngrok, Cloudflare Tunnel and friends work, but the config matters:
+
+```ts
+// next.config.ts — already set for ngrok, trycloudflare and localtunnel
+allowedDevOrigins: ["*.ngrok-free.app", …]
+```
+
+**Next blocks cross-origin requests to dev-only assets by default.** Without the
+host listed, the page still renders — it is server-rendered — but the client
+bundle never loads, so React never hydrates and every button silently does
+nothing. The giveaway is a failing `_next/webpack-hmr` WebSocket in the console.
+Adding a host needs a dev server restart; the config is read once at boot.
+
+Sign-in survives that failure anyway: the form carries a real `action` and
+`method="post"`, so an unhydrated page still signs in through the same route.
+That attribute is load bearing for a second reason — a form with no method
+defaults to **GET**, which puts the password in the query string, the browser
+history and the tunnel's request log.
+
 ## How a test is stored
 
 Each test is two JSON documents, deliberately kept apart:
