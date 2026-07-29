@@ -85,7 +85,19 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
   }
 
   const storageKey = `${RECORDING_PREFIX}/${attempt.id}/p${part}-${promptIndex}-${randomUUID()}${extension}`;
-  await writeMediaFile(storageKey, new Uint8Array(await audio.arrayBuffer()));
+
+  try {
+    await writeMediaFile(storageKey, new Uint8Array(await audio.arrayBuffer()));
+  } catch (error) {
+    // Almost always MEDIA_STORAGE_DIR: unset, pointing somewhere that does not
+    // exist, or not writable. The student cannot act on that, but whoever reads
+    // the log can, so the cause goes there rather than into a bare 500.
+    console.error(`Could not store a speaking recording at ${storageKey}:`, error);
+    return Response.json(
+      { error: "The server could not store that recording. Tell your instructor." },
+      { status: 500 },
+    );
+  }
 
   // Re-recording in practice replaces the previous take rather than stacking
   // them up, so the instructor is never guessing which one to mark.
