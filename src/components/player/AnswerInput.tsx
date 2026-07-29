@@ -62,8 +62,11 @@ export function AnswerInput({
             letterOnly ? "w-12 text-center uppercase" : "w-40 pr-7",
             isActive && !verdict && "shadow-[inset_0_0_0_2px_#0154f8]",
             verdict === "correct" && "bg-ok-soft shadow-[inset_0_0_0_1.5px_#0b7a52]",
+            // Wrong answers are outlined, never filled. A block of red behind a
+            // student's own handwriting reads as a telling-off; the ring, the
+            // strike-through and the correct answer beside it already say it.
             verdict === "incorrect" &&
-              "bg-bad-soft text-brand-red-cta line-through shadow-[inset_0_0_0_1.5px_#e10046]",
+              "text-brand-red-cta line-through shadow-[inset_0_0_0_1.5px_#e10046]",
             disabled && "cursor-default",
           )}
         />

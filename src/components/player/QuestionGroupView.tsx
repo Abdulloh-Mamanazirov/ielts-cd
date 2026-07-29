@@ -6,7 +6,11 @@ import type { QuestionGroup } from "@/lib/tests/schema";
 import { cn } from "@/lib/utils";
 import { AnswerInput } from "./AnswerInput";
 import { AnswerOption, type OptionMark } from "./AnswerOption";
+import { Explanation } from "./Explanation";
+import { MatchingBoard } from "./MatchingBoard";
 import { RichHtml, SlotHtml } from "./SlotHtml";
+
+export { Explanation };
 
 const FIXED_CHOICES: Record<string, string[]> = {
   tfng: ["TRUE", "FALSE", "NOT GIVEN"],
@@ -36,6 +40,23 @@ export type GroupViewProps = {
   onShowEvidence?: (evidence: { anchor?: string; snippet?: string }) => void;
 };
 
+/**
+ * A matching group is a drag-and-drop board — but only in the shape the board
+ * knows how to draw: numbered items, one letter each, chosen from a shared box.
+ * A matching group written as a summary with slots, or one asking for two
+ * letters per item, falls back to the list rendering rather than being forced
+ * into a layout that cannot express it.
+ */
+function isDragBoard(group: QuestionGroup): boolean {
+  return (
+    group.type === "matching" &&
+    group.selectCount === 1 &&
+    !group.bodyHtml &&
+    (group.wordBank?.length ?? 0) > 0 &&
+    (group.questions?.length ?? 0) > 0
+  );
+}
+
 export function QuestionGroupView(props: GroupViewProps) {
   const { group } = props;
 
@@ -51,6 +72,9 @@ export function QuestionGroupView(props: GroupViewProps) {
 
       {group.type === "map_labeling" ? (
         <MapLabelling {...props} />
+      ) : isDragBoard(group) ? (
+        // The board draws its own answer box, so no separate word bank above it.
+        <MatchingBoard {...props} />
       ) : (
         <>
           {group.wordBank && group.wordBank.length > 0 && <WordBank group={group} />}
@@ -391,44 +415,6 @@ function QuestionItem({
 
       {review && !review.correct && (
         <Explanation review={review} onShowEvidence={onShowEvidence} />
-      )}
-    </div>
-  );
-}
-
-/** Written like a teacher speaking: what was needed, and where the proof sits. */
-export function Explanation({
-  review,
-  onShowEvidence,
-}: {
-  review: ReviewInfo;
-  onShowEvidence?: (evidence: { anchor?: string; snippet?: string }) => void;
-}) {
-  return (
-    <div className="mt-3 rounded-[10px] bg-surface-alt p-4">
-      <p className="text-[10px] font-bold tracking-[0.18em] text-ink-subtle">WHY</p>
-      {review.overWordLimit && (
-        <p className="mt-2 text-sm font-semibold text-brand-red-cta">
-          Your answer had the right words but broke the word limit in the instructions.
-        </p>
-      )}
-      {review.explanation ? (
-        <p className="mt-2 text-sm leading-relaxed text-ink-muted">{review.explanation}</p>
-      ) : (
-        <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-          The expected answer was <strong className="text-ink">{review.expected}</strong>.
-        </p>
-      )}
-
-      {review.evidence?.snippet && onShowEvidence && (
-        <button
-          type="button"
-          onClick={() => onShowEvidence(review.evidence!)}
-          className="mt-3 inline-flex items-center gap-2 rounded-lg bg-white px-3 py-2 text-xs font-bold text-brand-blue shadow-[inset_0_0_0_1.5px_rgba(1,84,248,.3)] transition hover:bg-brand-blue hover:text-white"
-        >
-          Show me where
-          <span aria-hidden>→</span>
-        </button>
       )}
     </div>
   );
