@@ -4,7 +4,9 @@ Computer-delivered IELTS Academic practice and mock tests, plus a marketing site
 for Davronbek Nabiev.
 
 - **Stack**: Next.js 16 (App Router) · TypeScript · Tailwind v4 · PostgreSQL · Prisma 7
-- **Deploy target**: single VPS (Docker Compose + nginx)
+- **Deploy target**: single VPS — nginx, systemd, PostgreSQL, no containers.
+  Step by step in [`docs/DEPLOY.md`](docs/DEPLOY.md); the config files it
+  installs live in `deploy/`.
 - **Module**: Academic only
 
 ## Getting started
@@ -320,6 +322,11 @@ location /protected-media/ {
 with `MEDIA_INTERNAL_PREFIX="protected-media"` and `MEDIA_STORAGE_DIR` pointing
 at the same directory. The route still runs, so authentication and the premium
 check are enforced on every request; only the bytes are handed off.
+
+`deploy/nginx.conf` is the whole server block, ready to install. Note the
+permissions step in `docs/DEPLOY.md`: nginx runs as `www-data` and the files are
+written by the app user, so the media directory is setgid `www-data`. Without
+that the route authenticates, hands off, and nginx 404s a file that is there.
 
 ## Project layout
 

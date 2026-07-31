@@ -1,0 +1,5 @@
+# Shell scripts run on the Linux server. A CRLF checkout on Windows would be
+# committed with CRLF and then fail there with `bash\r: no such file`.
+*.sh text eol=lf
+deploy/*.service text eol=lf
+deploy/*.conf text eol=lf

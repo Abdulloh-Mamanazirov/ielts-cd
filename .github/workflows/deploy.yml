@@ -1,0 +1,109 @@
+name: CI and deploy
+
+# Every push and pull request is checked. Only a push to master that passes
+# every check is deployed, and only one deploy runs at a time.
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    name: Typecheck, lint, test, build
+    runs-on: ubuntu-latest
+
+    # `next build` prerenders the home page and /results, both of which read the
+    # database, so a build with no Postgres to talk to fails. A throwaway one
+    # per run is cheaper than making those pages dynamic just to please CI.
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: ielts_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/ielts_ci?schema=public
+      # Throwaway. The real one is generated on the server and never leaves it.
+      SESSION_SECRET: Q0ktb25seS1uZXZlci11c2VkLXRvLXNpZ24tYW55dGhpbmc9
+      MEDIA_STORAGE_DIR: ${{ github.workspace }}/.media
+      MEDIA_INTERNAL_PREFIX: ""
+      NEXT_PUBLIC_SITE_URL: http://localhost:3000
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci --no-audit --no-fund
+
+      # The client is generated into src/generated/prisma, which is gitignored,
+      # so typecheck fails without this.
+      - name: Generate the Prisma client
+        run: npx prisma generate
+
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+
+      # Running the migrations here means a migration that cannot be applied to
+      # an empty database is caught before it reaches the server.
+      - name: Apply migrations
+        run: npx prisma migrate deploy
+
+      - run: npm run build
+
+  deploy:
+    name: Deploy to the server
+    needs: check
+    # DEPLOY_ENABLED is a repository *variable*, not a secret: set it to true
+    # once the server exists and the four secrets below are in place. Until then
+    # this job is skipped rather than failing on every push.
+    if: github.event_name != 'pull_request' && vars.DEPLOY_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Load the deploy key
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          # Pinned host key. Without it this would need StrictHostKeyChecking=no,
+          # which accepts whatever answers on that address — including something
+          # that is not the server.
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Pull and rebuild
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes \
+            "$DEPLOY_USER@$DEPLOY_HOST" \
+            'set -euo pipefail
+             cd /srv/ielts
+             git fetch --prune origin
+             git reset --hard origin/master
+             bash scripts/deploy.sh'

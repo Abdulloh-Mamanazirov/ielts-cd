@@ -67,6 +67,13 @@ without re-deriving anything.
   middle of the screen on submit before the marked paper appears. Writing's
   task switcher moved to the bottom to match.
 
+- **Deployment** — `docs/DEPLOY.md` is the runbook for a fresh Ubuntu 24.04 VPS,
+  and `deploy/` holds the systemd unit, the nginx server block and the backup
+  script it installs. No containers: one Node process, one Postgres, nginx in
+  front. `.github/workflows/deploy.yml` runs typecheck, lint, tests and a real
+  build against a throwaway Postgres on every push, then deploys `master` over
+  SSH by pulling and running `scripts/deploy.sh`.
+
 ## Next, in priority order
 
 ### 1. Uzbek and Russian translations
@@ -122,8 +129,9 @@ offering Russian at all.
   ever counts towards anything.
 - `X-Accel-Redirect` is written but has only been exercised with
   `MEDIA_INTERNAL_PREFIX` empty, which is the Node-streaming path. The nginx
-  handoff needs verifying on the real server; the README has the `location`
-  block it expects.
+  handoff needs verifying on the real server; `deploy/nginx.conf` has the
+  `location` block it expects, and `docs/DEPLOY.md` step 11 is how to tell
+  whether it is really working rather than falling back.
 - `_source-tests/Listening Mock.mp3` is really an M4A. The uploader types files
   by their first bytes, so this is handled, but do not assume the extensions in
   that directory are honest.

@@ -1,0 +1,42 @@
+# /etc/systemd/system/ielts.service
+#
+#   sudo cp deploy/ielts.service /etc/systemd/system/ielts.service
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now ielts
+
+[Unit]
+Description=IELTS mock test platform (Next.js)
+Documentation=https://github.com/Abdulloh-Mamanazirov/ielts-cd
+After=network-online.target postgresql.service
+Wants=network-online.target postgresql.service
+
+[Service]
+Type=simple
+User=ielts
+Group=ielts
+WorkingDirectory=/srv/ielts
+
+# No EnvironmentFile: Next reads .env itself on `next start`, and systemd's
+# parser is stricter about quoting than dotenv's, so pointing it at the same
+# file only adds a way for the service to refuse to start.
+Environment=NODE_ENV=production
+Environment=PORT=3000
+Environment=HOSTNAME=127.0.0.1
+
+# Bound to loopback. Nothing reaches the app except through nginx, which is what
+# terminates TLS and what the firewall actually allows.
+ExecStart=/srv/ielts/node_modules/.bin/next start --hostname 127.0.0.1 --port 3000
+
+Restart=always
+RestartSec=5
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=read-only
+# The build output lives in the working directory; admin image uploads land in
+# public/test-media; audio and recordings go to the media directory.
+ReadWritePaths=/srv/ielts /var/lib/ielts/media
+
+[Install]
+WantedBy=multi-user.target
