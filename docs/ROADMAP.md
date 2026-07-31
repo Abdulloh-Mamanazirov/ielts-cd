@@ -95,6 +95,13 @@ Step 3 is the only remaining code, and it is deliberately not written yet:
 publishing a `/ru` route that serves English is worse for a reader than not
 offering Russian at all.
 
+`next-intl` was in `package.json` but imported nowhere — the dictionaries are
+hand-rolled and merge themselves. It was removed, because it dragged in
+`@swc/core` and twelve platform binaries, and `@swc/core`'s optional peer on
+`@swc/helpers` resolves differently on Windows and Linux, which broke `npm ci`
+on the server and in CI. Add it back deliberately when step 3 is written, if it
+turns out to be the right tool for the routing.
+
 ## Known gaps worth remembering
 
 - The admin panel has no audio upload form; `npm run audio:upload` is still the
