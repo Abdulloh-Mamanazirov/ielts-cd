@@ -56,8 +56,10 @@ next-env.d.ts
 /_source-tests/*.mp3
 /_source-tests/*.m4a
 /_source-tests/*.wav
-/_source-tests/Listening*.html
-/_source-tests/ListeningTest*.html
+# Any listening source, however it is named ("Listening Test 1", "IELTS_Listening_…",
+# "Real Exam Listening …") — some embed 15-40 MB of base64 audio, and the JSON the
+# converter writes (plus audioSourceUrl for the external ones) is the versioned truth.
+/_source-tests/*[Ll]istening*.html
 
 # Windows crash dumps
 *.stackdump

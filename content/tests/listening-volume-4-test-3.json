@@ -1,0 +1,666 @@
+{
+  "slug": "listening-volume-4-test-3",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-35m-36s-audio-joiner.com_202607/mix_35m36s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 4, Test 3",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–4</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>HOMECARE CLEANING AGENCY</div><p>House Details</p><ul><li><strong>Customer referred by:</strong> friend</li><li><strong>Location:</strong> in the {{1}}</li><li><strong>Type of cleaning:</strong> regular</li><li><strong>Rooms:</strong></li><li>• two {{2}} bedrooms (third bedroom used as {{3}})</li><li>• kitchen/diner</li><li>• {{4}}</li><li>• family room</li><li>• two bathrooms</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 5–7</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 5,
+                "textHtml": "&nbsp;Which extra service does the agency agree to provide?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "changing the bed linen"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "washing the windows"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "cleaning the fridge"
+                  }
+                ]
+              },
+              {
+                "number": 6,
+                "textHtml": "&nbsp;What will be cleaned more thoroughly every three months?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the children's room"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the carpet"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the bathroom"
+                  }
+                ]
+              },
+              {
+                "number": 7,
+                "textHtml": "&nbsp;The woman would like the cleaners to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "do the washing."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "iron the clothes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "put the clothes away."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-3",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 8–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>HOMECARE CLEANING AGENCY</div><p>Customer Details</p><ul><li><strong>Name:</strong> Rose Kelly</li><li><strong>Address:</strong> 48 {{8}} Road, Mount Eden</li><li><strong>Day of job:</strong> {{9}}</li><li><strong>Time:</strong> 9.30 am</li><li><strong>Cost per hour:</strong> $25</li><li><strong>Maximum length of job:</strong> {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What does the tour guide advise the visitors to do in the museum today?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "see the most popular exhibits first"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "pay a brief visit to each gallery"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "go to the photography gallery last"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;The museum was designed by William Craven, who also designed",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a textile factory"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the town hall"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the railway station"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;The museum won an award for the preservation of the",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "staircase"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "floor"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "windows"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;Most of the money for the project came from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the public"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the government"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "local businesses"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;Over the next five years, the museum will invest mainly in",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "restoring existing collections."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "developing educational programmes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "purchasing new objects for display."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;Visitors who are interested in learning more about the exhibits should",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "visit the museum's website"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "read the leaflets on display"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "attend the monthly lectures"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "has been shown in different museums"
+              },
+              {
+                "letter": "B",
+                "textHtml": "consists of work by a local resident"
+              },
+              {
+                "letter": "C",
+                "textHtml": "has exhibits from various countries"
+              },
+              {
+                "letter": "D",
+                "textHtml": "is only on temporary display"
+              },
+              {
+                "letter": "E",
+                "textHtml": "shows things that are no longer common"
+              },
+              {
+                "letter": "F",
+                "textHtml": "is on loan from a foreign museum"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "18th-century paintings"
+              },
+              {
+                "number": 18,
+                "textHtml": "Farnley collection"
+              },
+              {
+                "number": 19,
+                "textHtml": "kitchen appliances"
+              },
+              {
+                "number": 20,
+                "textHtml": "fashion gallery"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "it will save a lot of business time and effort"
+              },
+              {
+                "letter": "B",
+                "textHtml": "it is visualized"
+              },
+              {
+                "letter": "C",
+                "textHtml": "it does not fit our company"
+              },
+              {
+                "letter": "D",
+                "textHtml": "it will take too long"
+              },
+              {
+                "letter": "E",
+                "textHtml": "it is easy to use"
+              },
+              {
+                "letter": "F",
+                "textHtml": "it is difficult to apply"
+              },
+              {
+                "letter": "G",
+                "textHtml": "it is suitable to almost all sized companies"
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "PEST"
+              },
+              {
+                "number": 22,
+                "textHtml": "Drill Down"
+              },
+              {
+                "number": 23,
+                "textHtml": "PMI"
+              },
+              {
+                "number": 24,
+                "textHtml": "Pareto"
+              },
+              {
+                "number": 25,
+                "textHtml": "SWOT"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "&nbsp;What does Frances consider as the best strength of the company?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "reputation"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "experienced employees"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "management"
+                  }
+                ]
+              },
+              {
+                "number": 27,
+                "textHtml": "&nbsp;What factor did Sam overlook for the future growth of the company?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "seek for cheaper suppliers"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "set up an overseas office"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "compete with major competitors"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "&nbsp;Which of the following can be the threat to a company?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "increasing competition"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "outdated technology"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "new legislation"
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "&nbsp;What has Sam learned from the research?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "using better tools"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "cost of a success business"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "gap between reality and theory"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "&nbsp;What is the professor's suggestion for the report?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "give a final determination"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "reorganize a clear structure"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "add more detailed information"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Employment Survey on Graduates</div><p>Overview</p><ul><li>interviews from which subject: {{31}}</li><li>two research methods: email questionnaires and {{32}}</li></ul><p>Findings</p><ul><li>32% of students tended to acquire another {{33}}</li><li>only 4% were unemployed</li><li>most of the students work in the {{34}} sector</li><li>majority are happy with: {{35}}</li></ul><p>Feedback</p><p>Useful skills learned in college:</p><ul><li>working as a {{36}} member</li><li>personal organization</li><li>{{37}} ability</li></ul><p>Useless skills:</p><ul><li>{{38}} (lack of training)</li><li>advice on {{39}} (unnecessary)</li><li>advice on finding a {{40}} (not enough)</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "southeast",
+          "south-east",
+          "south east"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "double"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "an office",
+          "office"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "lounge"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "Amyes"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "Thursday"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "3 hours",
+          "three hours"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "business management"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "phone interviews",
+          "telephone interviews"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "qualifications",
+          "qualification"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "public"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "expectations",
+          "expectation"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "team"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "problem-solving",
+          "problem solving"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "presentations",
+          "presentation"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "essay writing"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "job"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

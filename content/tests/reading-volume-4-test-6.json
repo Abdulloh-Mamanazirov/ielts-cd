@@ -1,0 +1,632 @@
+{
+  "slug": "reading-volume-4-test-6",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 4, Test 6",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "BUILDING A CASTLE",
+        "passageHtml": "<p>Read the text and answer questions 1–13</p><p>Guédelon is no ordinary building site. There is no rumble of diggers or shriek of circular saws. All is peaceful and quiet, save for the continual tapping of the small army of stonemasons, the quacking of the ducks or the occasional crow of the cockerel. Slowly but surely, a brand new medieval castle is rising from the woods of Guédelon, Yonne, home to the Burgundy vineyards in the heart of France. The year is 1229 – that is, for the purposes of this project: to build a prince's 'château fort' using only the techniques and tools of the 13th century.</p><p>'The project has four main aims,' explains Macyline Martin, managing director for Guédelon. 'The first is experimental archaeology – to try and verify all the theories, based on documents of the time. There's also a social aim, because this region is very poor, with high unemployment: so it provides jobs. Then there's tourism: the project couldn't work without visitors because a lot of money is needed to pay people working here and to run the site. And finally, we want to open experimental archaeology to everybody – because in France, history and architecture are still very much oriented to academics.'</p><p>The idea for the project emerged about five years ago. It was the brainchild of Michel Guyot, who bought and renovated the nearby castle of Saint-Fargeau, which was built and rebuilt between the 10th and 18th centuries. Beneath his castle were the original foundations of the 13th-century building. Guyot thought it would be fun to construct a château to the same plans, but this proved too big to attempt. So Jacques Moulin, managing director for the local historical monuments, drew up plans for a smaller castle that would still be ambitious, but realistic. Five months later, having managed to get together 600,000 Euros in funding, they began looking for a site that would provide all the materials they needed: stone, water, sand, wood, iron and clay. They found it at Guédelon.</p><p>The only major cheat so far was early on when a mechanical earthmover was brought in to raise the castle floor. Archaeologists know how it was done in the 13th century: by backbreaking, tedious work. 'To do it by hand would have added ten years to the project,' says Franck, one of the site's guides. It's still a long, painstaking task. Next to the beginnings of the east wall is the quarry, where masons extract the ferruginous limestone to build the thick castle walls. They bore lines of holes into the rocks and then they hammer metal wedges into them until the rock splits along the line. It is then hewn into bricks, and cemented together with a mortar of chalk, sand and quicklime. Quicklime is made by heating limestone to 800°C – done off-site because of the poisonous gases that come from the process. Little wonder that 13th-century lime-burners had a life expectancy of only 25-30 years. 'The bricks are laid horizontally for the first metre of the wall, and vertically thereafter,' says Franck, 'because if there was a shock from, say, a catapult, and the stones were all laid in the same way, the shockwave would shatter the wall.'</p><p>The scientists and craftspeople alike are learning on the job, as they don't know exactly why or how things were done as the historical evidence suggests. One such discovery was the significance of the marks that masons carved into each finished stone. It was thought that these probably had superstitious meaning, but experience and archaeological research reveals three very practical uses: to establish how much each mason should be paid; to keep track of who made what, in case of any problems; and to specify where the stone should be placed in the castle reconstruction.</p><p>Guédelon has a scientific committee of archaeologists that discusses ideas and problems as they emerge, and will approve works and practices only when its members are sure that they are true to the 13th century. Reaching unanimity is not always easy. 'All the big plans for the castle itself are done but the details aren't settled,' says Martin. 'So, during the winter, the site manager and I visit other castles in the region. When we see something we want to do here, we draw a sketch, make plans and show this to the committee.'</p><p>The castle will take at least a decade longer to build than it would have in the 13th century. 'With the same number of workers it would have taken 15 years then,' says Franck. 'But we could do this too if we had only professional workers, if the site wasn't open to the public and if we worked harder – today it's illegal to work more than 8 hours a day, as they did at the time.'</p><p>Workers come and go but at any one time about 40 people are working on the site. Some are students, others have 'downshifted' from other careers, others are local unemployed people learning skills they might use elsewhere – say, in château restorations around France. They are trained on the site as the need arises, and in the winter they may be trained in modern techniques as part of Guédelon's social remit.</p><p>So, indeed, what will happen when Guédelon's magical-looking castle is complete? They might build houses around it; perhaps villages may develop, testing out 13th-century agricultural techniques. If they can build this castle, anything seems possible.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–4</h3>Do the following statements agree with the information given in Reading Passage 1? Choose TRUE, FALSE or NOT GIVEN.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "One of the reasons for building the castle is to make history more accessible to the general public."
+              },
+              {
+                "number": 2,
+                "textHtml": "Guyot was reluctant to abandon his original idea in favour of a more realistic project."
+              },
+              {
+                "number": 3,
+                "textHtml": "The lime-burners did not live long because their bodies were damaged by the extreme heat."
+              },
+              {
+                "number": 4,
+                "textHtml": "The bricks used to be laid in different ways to lessen the impact of an attack."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 5–7</h3>Choose <strong>THREE</strong> letters, A-H. The list below gives reasons why the castle may be taking a long time to build. Which THREE reasons are mentioned by the writer of the text?",
+            "selectCount": 3,
+            "questions": [
+              {
+                "number": 5,
+                "textHtml": "",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the reluctance of workers to commit themselves to the project"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the lengthy training programmes the workers have to do"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "having to abide by modern employment regulations"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the inability of committee members to reach any decisions"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "tourists who come and visit the site"
+                  },
+                  {
+                    "letter": "F",
+                    "textHtml": "the number of unskilled workers employed"
+                  },
+                  {
+                    "letter": "G",
+                    "textHtml": "having to do everything by hand"
+                  },
+                  {
+                    "letter": "H",
+                    "textHtml": "the difficulty of finding authentic raw materials"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 8–13</h3>Complete the flow-chart below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>How the limestone is extracted and used</div><div><div>The {{8}} drill rows of {{9}}</div><div>↓</div><div>{{10}} are used</div><div>↓</div><div>The result is that the rock eventually {{11}}</div><div>↓</div><div>Once extracted, the limestone</div><div><div>↙</div><div>↘</div></div><div><div>is made into {{12}}</div><div>or, through a {{13}} process, can be used to make quicklime.</div></div></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "A study of western celebrity",
+        "passageHtml": "<p>In our celebrity-obsessed culture, TV shows, internet blogs, and even newspapers are often full of the latest news, gossip and scandals about current celebrities · Read the text and answer questions 14–26</p><p><strong>A</strong>&nbsp;&nbsp; It seems that our current society cannot get enough information about the daily lives of celebrities. But how did celebrities become so much an important force in our culture? While people have always had shared a certain obsession for the fantastic and the famous, the notion of celebrity, as well as the types of people termed 'celebrities', has evolved greatly throughout the ages. The word 'celebrity' has its roots in the language of the ancient Roman civilization. The word we now know to mean 'a condition of being famous' or 'a famous person' is derived from the Latin word 'celeber', meaning 'frequented or populous'.</p><p><strong>B</strong>&nbsp;&nbsp; The celebrities of the ancient world were the powerful and awesome deities of Greece and Rome, and the citizens of these civilizations believed in a vast number of immortals who had a direct impact on their lives. It was, therefore, important to know about these figures' personal lives. This need to know led to the creation of myths, which personalized the gods and involved them in ancient celebrity scandals that thrilled and excited the common people.</p><p><strong>C</strong>&nbsp;&nbsp; During ancient times, amateur and professional athletes also began to make an impact on the celebrity culture. Victors in the ancient Olympic Games were treated as heroes and were often elevated to god-like status. In the ancient Roman civilization, gladiators – the equivalent of today's professional athletes – were also revered by the common people for their heroics and seemingly superhuman strength.</p><p><strong>D</strong>&nbsp;&nbsp; As Europe moved into the Dark Ages (the years spanning approximately 400-1300 AD) and a time when athletics and the arts were largely forgotten, monarchs and rulers continued to maintain celebrity status, while religious figures took on newfound fame. The miraculous lives and fascinating deaths of spiritual figures lent excitement to the lives of common people when there was often little else to be excited about, as they faced war, disease and food shortages.</p><p><strong>E</strong>&nbsp;&nbsp; During the period 1300-1600 AD, or the Renaissance period as it is known, interest in ruling figures faded. As Europe emerged from its long neglect of the arts, there was greater appreciation for portraits, statues and stone carvings. This period of appreciation for the arts lent a sense of celebrity to artists who were noted for their works and their personal achievements. It was a time when artists began to surpass political and religious individuals for supreme celebrity – a trend that would continue into later centuries.</p><p><strong>F</strong>&nbsp;&nbsp; While the figures of the ancient and early modern civilizations were able to achieve moderate and sometimes lasting celebrity within particular cultures, the global reach of their fame was limited. It was not until the 1700s, when technological advances made publishing commercially viable, that the extent of a person's fame could spread further. The increase in the availability of the written word was accompanied by a huge rise in the number of common people who could read, allowing a mass audience to find out about celebrities for the first time. Suddenly, the lives of authors, politicians, war heroes, and other celebrities could now be read about in newspapers around the world. These gave ordinary people the opportunity to become intimately knowledgeable about the figures they most admired.</p><p><strong>G</strong>&nbsp;&nbsp; In the modern age, particularly as radio and film took off in the 1900s, things really began to change. First, radio began to make its way into the average home in the 1920s and 1930s. Professional athletes also began to be regarded as stars, as their games and exploits could be broadcast over the air for an entirely new audience. Then, the rise of television in the 1950s only cemented the premier level of celebrity that film stars, athletes and television actors were beginning to share. This also meant a huge increase in the individual salaries of these celebrities. Even a few animals gained fame through children's TV shows. The emergence of reality television shows in the late 1990s allowed all kinds of people with little ability to enjoy a short burst of fame on the television screen. All you needed, it seemed, was an attractive appearance. Today, reality television programmers make it possible to be famous not for doing anything in particular, but simply for being, with the audience deciding whether someone deserves to become a celebrity or not. As the meaning of celebrity continues to evolve and redefine itself in a quickly changing world, there is no telling who will become of interest next.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–20</h3>Reading Passage 2 has seven paragraphs, A-G. Choose the correct heading for each paragraph from the list of headings below. Write the correct number, i-x.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Why it is necessary to explain the meaning of the word celebrity"
+              },
+              {
+                "letter": "B",
+                "textHtml": "The influence of non-human celebrities on societies"
+              },
+              {
+                "letter": "C",
+                "textHtml": "The impact of broadcasting on concepts of celebrity"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Creativity having greater value"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Admiration for physical achievement"
+              },
+              {
+                "letter": "F",
+                "textHtml": "The advantages of celebrity status in the ancient world"
+              },
+              {
+                "letter": "G",
+                "textHtml": "A result of hardship"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Literacy and widespread celebrity"
+              },
+              {
+                "letter": "I",
+                "textHtml": "Attitudes of celebrities towards the media"
+              },
+              {
+                "letter": "J",
+                "textHtml": "The original definition of celebrity"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              },
+              {
+                "number": 20,
+                "textHtml": "Paragraph <strong>G</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 21–23</h3>Look at the following statements (Questions 21-23) and the list of historical periods in Europe below. Match each statement with the correct historical period, A, B, C or D.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Ancient times"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Dark Ages"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Renaissance"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Modern era"
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "A wide variety of people achieve a brief period of fame."
+              },
+              {
+                "number": 22,
+                "textHtml": "Stories are invented about celebrities' lives."
+              },
+              {
+                "number": 23,
+                "textHtml": "The fame of rulers is starting to diminish."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 24–26</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><h3>Celebrities achieve a global status</h3><p>The development of the publishing industry in the 1700s signalled the beginning of international fame. A growing number of people could read, which meant they had the chance to become informed about their favourite figures by reading {{24}}. This exposure to celebrities expanded further when radio and television became popular, and it was mass media attention that resulted in higher status and fame for some celebrities. The recent rise of reality television has also meant that a person's {{25}} rather than their talent can bring fame. With this type of television programme, fame may be entirely dependent on the response of the {{26}}.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Some views on the use of headphones",
+        "passageHtml": "<p>Whether wearing headphones at work, or in other areas of everyday life, is a good thing or a bad thing has generated a lot of research and opinion · Read the text and answer questions 27–40</p><p>To visit a typical modern office today is to walk into a room with possibly a dozen songs playing simultaneously but to hear none of them. Up to half of younger workers listen to music on their headphones, and nearly all of them think it makes them better at their jobs. In survey after survey, people report with confidence that music makes them happier, better at concentrating, and more productive.</p><p>Scientists do not share this belief, they maintain that listening to music hurts people's ability to recall other things they should be doing, and any pop song, loud or soft, reduces overall performance for both extroverts and introverts. A Taiwanese study linked music that has lyrics to lower marks on concentration tests for college students, and other research has shown music with lyrics scrambles our brains' verbal-processing skills. 'As silence has the best overall performance, it would still be advisable that people work in silence,' another reporter dryly concluded.</p><p>The question is therefore: if headphones are so bad for productivity, why do so many people at work have them? One factor to consider is that countries like the USA have moved from a farming and manufacturing economy to a service economy, with an emphasis on jobs in offices that require higher levels of concentration, reflection and creativity. As an estimated 70 percent of office workers work in open-plan office spaces, it is more important to create one's own enclosing bubble of sound. Lending strength to the argument for headphones at work is evidence that music relaxes our muscles, improves our mood, and may even moderately reduce blood pressure, heart rate and anxiety.</p><p>The story of headphones began in 1910, when the US Navy received an odd letter written in purple ink on blue-and-pink paper. The letter writer, an eccentric inventor and repairman named Nathaniel Baldwin, from the USA state of Utah, made what at the time was an astonishing claim: he had built, in his kitchen, a new kind of headset that could amplify sound. This was an opportune invention for the Navy, who asked for a sound test and then enthusiastically adopted the headsets, later called headphones, and used them in World War I for naval radio communication.</p><p>The purpose of headphones is to concentrate a quiet and private sound in the ear of the listener, which is a radical departure from music's social purpose in history. 'Music, together with dance, co-evolved biologically and culturally to serve as a technology of social bonding,' Nills L Wallin and Bjorn Merker wrote in The Origins of Music. Songs don't leave behind fossils, but evidence of musical notation dates back to Sumeria, 3,500 years ago, and in 1995 archeologists discovered a bone flute in southern Europe estimated to be 44,000 years old. If music evolved as a social glue for the species, as a way to make groups and keep them together, headphones have done what writing and literacy did for language – they made music private.</p><p>Author and columnist Stephen Marche wrote that separation from other people is one of the first things ordinary Americans spend their money achieving. It is 'a by-product of a long-standing national appetite for independence,' he said. Americans are not alone in their desire for personal independence and privacy. Marche is right; wealth can buy – and modern technology can deliver – personal independence, and it is this that people have always sought.</p><p>Dr Michael Bull, an expert on personal music devices from the University of Sussex in the UK, has repeatedly made the larger point that personal music devices change how we relate to public spaces. Controlling our public spaces is more important now that more people are moving from the edges of cities to live in urban centers. 'With the urban space, the more it's inhabited, the safer you feel,' Bull says. 'You feel safe if you can feel people there, but you don't want to interact with them.' Headphones create shields for wearers, separating them from other people and their surroundings. Headphones have their own rules of good manners; they are like wearing a 'Do not disturb' sign. We assume that people wearing them are busy and we should respect their privacy, so now people wear them to appear busy. In fact, it is now becoming quite common for people not to listen to anything at all, but just to wear headphones.</p><p>However, as pointed out at the beginning of this piece, although scientists have stated that headphones are bad for productivity, people still wear them at work. It is not just that headphones create privacy out of public areas, but also that music causes people to relax and reflect and pause. The outcome of relaxation, reflection and pausing at work won't be captured in minute-to-minute productivity metrics. What must be considered is that in moments of extreme focus, our attention radiates outward, toward the problem, rather than inward, on how to solve the problem. However, with music 'When our minds are at ease, we're more likely to direct the spotlight of attention inward,' Jonah Lehrer wrote in his book Imagine: How Creativity Works. 'The answers have been there all along. We just weren't listening.' In a crowded world, real estate is the ultimate scarce resource, and a headphone is a small invisible fence around our minds – making space, creating separation, and helping us listen to ourselves.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 27–31</h3>Do the following statements agree with the claims of the writer in Reading Passage 3? Choose YES, NO or NOT GIVEN.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Young people are easily persuaded by surveys that listening to music is beneficial."
+              },
+              {
+                "number": 28,
+                "textHtml": "Different studies share the same conclusions about the desirability of working in silence."
+              },
+              {
+                "number": 29,
+                "textHtml": "Some doctors recommend wearing headphones to lower blood pressure."
+              },
+              {
+                "number": 30,
+                "textHtml": "Nathaniel Baldwin was a respected government researcher."
+              },
+              {
+                "number": 31,
+                "textHtml": "The effect of the invention of headphones is comparable to the effect of the invention of writing."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 32–36</h3>Choose the correct letter, A, B, C or D.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 32,
+                "textHtml": "What does the writer suggest about a service economy?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; The work is mentally demanding."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; It provides employment for younger workers."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; It is a small part of a country's economy."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Workers have to live in urban centres."
+                  }
+                ]
+              },
+              {
+                "number": 33,
+                "textHtml": "When the writer mentions the historical evidence for early music he is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; emphasizing the diversity of musical forms."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; expressing his frustration with the limited archaeological evidence uncovered."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; lending support to the view that music has been important in human history."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; creating a geographical map of the evolution of music."
+                  }
+                ]
+              },
+              {
+                "number": 34,
+                "textHtml": "What does the writer say about the social effects of listening to music through headphones?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; It has caused a reduction in the number of people who listen to music."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; It has increased people's participation in music events."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; It has reduced the global variation of music styles."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; It has changed the traditional role of music in society."
+                  }
+                ]
+              },
+              {
+                "number": 35,
+                "textHtml": "What does the writer say about personal independence?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Americans are unique in their desire for personal independence."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Personal independence is something that can be purchased."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Striving for personal independence is a recent phenomenon."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Personal independence destroys social connections."
+                  }
+                ]
+              },
+              {
+                "number": 36,
+                "textHtml": "Why does the writer quote Jonah Lehrer in the last paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; to support the writer's own view"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; to draw attention to an authoritative book about music"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; to raise awareness of people's loss of listening skills"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; to illustrate how music brings people closer to each other"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 37–40</h3>Complete the summary using the list of words, A-I, below.",
+            "selectCount": 1,
+            "bodyHtml": "<div><h3>Headphones and city living</h3><p>Dr Michael Bull believes that listening to music through headphones has changed the {{37}} the wearers of headphones have with public spaces. Living in the centre of cities is becoming popular, as people become less keen on living in the {{38}}. In densely populated city centres, headphones form {{39}} that isolate people from fellow citizens and from their environment. Wearers of headphones are treated with {{40}} that other people do not receive. This is because if we see someone wearing headphones, we believe they must be occupied in some way and should not be interrupted.</p></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "courtesy"
+              },
+              {
+                "letter": "B",
+                "textHtml": "relationship"
+              },
+              {
+                "letter": "C",
+                "textHtml": "difficulty"
+              },
+              {
+                "letter": "D",
+                "textHtml": "countryside"
+              },
+              {
+                "letter": "E",
+                "textHtml": "suburbs"
+              },
+              {
+                "letter": "F",
+                "textHtml": "language"
+              },
+              {
+                "letter": "G",
+                "textHtml": "barriers"
+              },
+              {
+                "letter": "H",
+                "textHtml": "obstacles"
+              },
+              {
+                "letter": "I",
+                "textHtml": "disapproval"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "masons"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "holes"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "metal wedges"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "splits"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "bricks"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "heating"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "J"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "newspapers"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "appearance"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "audience"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "NO"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "A"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          5,
+          6,
+          7
+        ],
+        "accepted": [
+          "C",
+          "E",
+          "F"
+        ]
+      }
+    ]
+  }
+}

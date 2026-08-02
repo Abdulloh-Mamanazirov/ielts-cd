@@ -1,0 +1,604 @@
+{
+  "slug": "listening-volume-4-test-10",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-37m-37s-audio-joiner.com/mix_37m37s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 4, Test 10",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Second-hand Cars</div><p><strong>Example</strong></p><p>Maximum price: <u>$4300</u></p><p>Cars Available</p><p><strong>Noda</strong> (silver)</p><ul><li>One {{1}} is broken</li></ul><p><strong>Comina</strong> (white)</p><ul><li>Used to belong to the {{2}}</li></ul><p><strong>Telsta</strong> (orange)</p><ul><li>It's an {{3}} model</li><li>Has got new {{4}}</li></ul><p><strong>Abrada</strong> (red)</p><ul><li>Only {{5}} years old</li></ul><p>Other Information</p><ul><li>Garage address: {{6}} Road, Mitchell</li><li>Day/Time: on {{7}} at 9:30am</li><li>Ask for: {{8}} Smith</li><li>Parking available: outside the {{9}}</li><li>What to bring: {{10}} (for a test drive)</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;Who founded the Middletown Urban Farming Scheme?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "university specialists"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "business people"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "town planners"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What was the original reason for starting the MUFS?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to encourage more efficient land use"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to help lessen CO2 emissions"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to improve people's eating habits"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;For the coming year, the MUFS will focus on recruiting members from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "schools."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "companies."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "community centres"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What kind of information is available from members of the MUFS committee?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "practical gardening tips"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "plant science"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "location of local garden sites"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What are provided by the MUFS for the physically disabled?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "soil and compost"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "containers for plants"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "gardening tools"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;According to school teachers, what has been an unexpected advantage of the MUFS?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "its usefulness as an aid for teaching science"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "its contribution to reducing costs of school meals"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "its help in encouraging community pride among students"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "fertilisers"
+              },
+              {
+                "letter": "B",
+                "textHtml": "cooking lessons"
+              },
+              {
+                "letter": "C",
+                "textHtml": "advice on soil"
+              },
+              {
+                "letter": "D",
+                "textHtml": "eat-to-keep-fit course"
+              },
+              {
+                "letter": "E",
+                "textHtml": "use of a greenhouse"
+              },
+              {
+                "letter": "F",
+                "textHtml": "market stalls"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "city hospital"
+              },
+              {
+                "number": 18,
+                "textHtml": "local government"
+              },
+              {
+                "number": 19,
+                "textHtml": "university"
+              },
+              {
+                "number": 20,
+                "textHtml": "supermarket"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Daniel mentions the research about walking and creativity to Katie because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "she has read it too."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "what she says reminds him of it."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "he thinks she might like to do similar research."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;In the experiments, researchers compared participants' creativity when walking and when",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "sitting."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "running."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "listening to music."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Daniel says that in each experiment, there was a different",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "type of control group."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "pattern of activities."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "way of selecting participants."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Daniel thinks the experiment with words is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "biased in favour of certain people."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a good indicator of creativity."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "open to personal interpretation."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;What is Katie and Daniel's attitude to the experiment on focused thinking?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "they are doubtful about its aims."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "they are confused by its methods."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "they are cautious about its conclusions."
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;Katie thinks that the best way forward is to consider",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "whether other types of exercise affect creativity."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the cause of the improvement in creativity."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how the results can be applied to creativity in real life."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "improved balance"
+              },
+              {
+                "letter": "B",
+                "textHtml": "greater stamina"
+              },
+              {
+                "letter": "C",
+                "textHtml": "better eyesight"
+              },
+              {
+                "letter": "D",
+                "textHtml": "lower blood pressure"
+              },
+              {
+                "letter": "E",
+                "textHtml": "regular sleeping pattern"
+              },
+              {
+                "letter": "F",
+                "textHtml": "stronger bones"
+              },
+              {
+                "letter": "G",
+                "textHtml": "weight reduction"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "walking with thin-soled footwear"
+              },
+              {
+                "number": 28,
+                "textHtml": "walking in the mountains"
+              },
+              {
+                "number": 29,
+                "textHtml": "walking for the elderly"
+              },
+              {
+                "number": 30,
+                "textHtml": "walking long distances"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Gamification</div><p>What is it?</p><ul><li>The use of gaming techniques in non-game situations</li><li>In business, it is frequently used for {{31}}</li><li>Uses people's desire to win a reward</li><li>Not a new idea, e.g. incentive schemes were first used by {{32}}</li></ul><p>Uses</p><ul><li>To get online {{33}} quickly</li><li>To persuade people to change their {{34}}</li><li>For training purposes, e.g. simulators used by {{35}} and town planners</li></ul><p>Successful examples</p><p>Official campaigns</p><ul><li>Australian government: to encourage people to {{36}} more</li><li>overseas local authority: to reward drivers for not speeding</li></ul><p>Health</p><ul><li>a staircase at a station that worked like a {{37}}</li><li>a game that helps recovery when old people hurt their {{38}} in a fall</li></ul><p>Things to consider</p><ul><li>It's important for gamification to be {{39}}</li><li>Need to think about the laws regarding {{40}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "light"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "manager"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "automatic"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "tires",
+          "tyres"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "8"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "Station"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "Thursday"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "GERALD"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "supermarket"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "Identification"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "marketing"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "airlines",
+          "airline"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "feedback"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "behaviour",
+          "behavior"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "pilots"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "exercise"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "piano"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "hand"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "fun"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "privacy"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

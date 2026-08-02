@@ -249,9 +249,11 @@ export function toSlotHtml<T extends AnyNode>($: Cheerio, root: cheerio.Cheerio<
     $(element).replaceWith(number ? `{{${number}}}` : "");
   });
 
-  // bekhruz listening: <input data-question="8">. bekhruz reading drag summary:
-  // <span class="dzone" data-q="37">. Either way the attribute holds the number.
-  root.find("[data-question]").each((_, element) => {
+  // bekhruz listening: <input data-question="8">, <select data-question="15">.
+  // Only a control becomes a slot — some reading summaries put data-question on
+  // the *paragraph* that holds several inputs, and replacing that would swallow
+  // the other blanks with it.
+  root.find("input[data-question], select[data-question]").each((_, element) => {
     const number = $(element).attr("data-question");
     $(element).replaceWith(/^\d+$/.test(number ?? "") ? `{{${number}}}` : "");
   });

@@ -1,0 +1,575 @@
+{
+  "slug": "reading-volume-4-test-2",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 4, Test 2",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "The last man who knew everything",
+        "passageHtml": "<p>In the 21st century, it would be quite impossible for even the most learned man to know everything. However, as recently as the 18th century, there were those whose knowledge encompassed most of the information available at that time. This is a review of a biography of one such man. · Read the text and answer questions 1–13</p><p>Thomas Young (1773–1829) contributed 63 articles to the great British encyclopaedia, <em>Encyclopaedia Britannica</em>, including 46 biographical entries (mostly on scientists and classical scholars), and substantial essays on 'Bridge' (a card game), 'Egypt', 'Languages' and 'Tides'. Was someone who could write authoritatively about so many subjects a genius, or a dilettante*? In an ambitious biography, Andrew Robinson argues that Young is a good contender to be described as 'the last man who knew everything'. Young has competition, however: the phrase which Robinson uses as the title of his biography of Young also serves as the subtitle of two other recent biographies: Leonard Warren's 1998 life of palaeontologist Joseph Leidy (1823–1891) and Paula Findlen's 2004 book on Athanasius Kircher (1602–1680).</p><p>Young, of course, did more than write encyclopaedia entries. He presented his first paper, on the human eye, to the prestigious academic institution, the Royal Society of London** at the age of 20 and was elected a Fellow of the Society shortly afterwards. In the paper, which seeks to explain how the eye focuses on objects at varying distances, Young hypothesised that this was achieved by changes in the shape of the lens. He also theorised that light travels in waves, and believed that, to be able to see in colour, there must be three receptors in the eye corresponding to the three 'principal colours' (red, green and violet) to which the retina could respond. All these hypotheses were subsequently proved to be correct. Later in his life, when he was in his forties, Young was instrumental in cracking the code that unlocked the unknown script on the Rosetta Stone, a tablet found in Egypt by the Napoleonic army in 1799. The stone has text in three alphabets: Greek, Egyptian hieroglyphs, and something originally unrecognisable. The unrecognisable script is now known as 'demotic' and, as Young deduced, is related directly to Egyptian hieroglyphs. His initial work on this appeared in the <em>Britannica</em> entry 'Egypt'. In another entry, Young coined the term 'Indo-European' to describe the family of languages spoken throughout most of Europe and northern India. These works are the landmark achievements of a man who was a child prodigy but who, unlike many remarkable children, did not fade into obscurity as an adult.</p><p>Born in 1773 in Somerset in England, Young lived with his maternal grandfather from an early age. He devoured books from the age of two, and excelled at Latin, Greek, mathematics and natural philosophy (the 18th-century term for science). After leaving school, he was greatly encouraged by Richard Brocklesby, a physician and Fellow of the Royal Society. Following Brocklesby's lead, Young decided to pursue a career in medicine. He studied in London and then moved on to more formal education in Edinburgh, Göttingen and Cambridge. After completing his medical training at the University of Cambridge in 1808, Young set up practice as a physician in London and a few years later was appointed physician at St. George's Hospital.</p><p>Young's skill as a physician, however, did not equal his talent as a scholar of natural philosophy or linguistics. In 1801, he had been appointed to a professorship of natural philosophy at the Royal Institution, where he delivered as many as 60 lectures a year. His opinions were requested by civic and national authorities on matters such as the introduction of gas lighting to London streets and methods of ship construction. From 1819, he was superintendent of the Nautical Almanac and secretary to the Board of Longitude. Between 1816 and 1825, he contributed many entries to the <em>Encyclopaedia Britannica</em>, and throughout his career he authored numerous other essays, papers and books.</p><p>Young is a perfect subject for a biography – perfect, but daunting. Few men contributed so much to so many technical fields. Robinson's aim is to introduce non-scientists to Young's work and life. He succeeds, providing clear expositions of the technical material (especially that on optics and Egyptian hieroglyphs). Some readers of this book will, like Robinson, find Young's accomplishments impressive; others will see him as some historians have – as a dilettante. Yet despite the rich material presented in this book, readers will not end up knowing Young personally. We catch glimpses of a playful Young, doodling Greek and Latin phrases in his notes on medical lectures and translating the verses that a young lady had written on the walls of a summerhouse into Greek elegiacs. Young was introduced into elite society, attended the theatre and learned to dance and play the flute. In addition, he was an accomplished horseman. However, his personal life looks pale next to his vibrant career and studies.</p><p>Young married Eliza Maxwell in 1804, and according to Robinson, 'their marriage was happy and she appreciated his work'. Almost all we know about her is that she sustained her husband through some rancorous disputes about optics and that she worried about money when his medical career was slow to take off. Little evidence survives concerning the complexities of Young's relationships with his mother and father. Robinson does not credit them with shaping Young's extraordinary mind. Despite the lack of details concerning Young's relationships, however, anyone interested in what it means to be a genius should read this book.</p><p>* dilettante: someone who is not serious about any one subject<br>** Royal Society of London: the oldest scientific society in Britain</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–7</h3>Do the following statements agree with the information given in the passage? Choose TRUE, FALSE or NOT GIVEN.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Other people have been referred to as 'the last man who knew everything'."
+              },
+              {
+                "number": 2,
+                "textHtml": "The fact that Young's childhood brilliance continued into adulthood was normal."
+              },
+              {
+                "number": 3,
+                "textHtml": "Young's talents as a doctor are described as surpassing his other skills."
+              },
+              {
+                "number": 4,
+                "textHtml": "Young's advice was sought by several bodies responsible for local and national matters."
+              },
+              {
+                "number": 5,
+                "textHtml": "All Young's written works were published in the <em>Encyclopaedia Britannica</em>."
+              },
+              {
+                "number": 6,
+                "textHtml": "Young was interested in a range of social pastimes."
+              },
+              {
+                "number": 7,
+                "textHtml": "Young suffered from poor health in his later years."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 8–13</h3>Answer the questions below. Choose <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p>8. How many life stories did Thomas Young write for the <em>Encyclopaedia Britannica</em>? {{8}}</p><p>9. What was the subject of Thomas Young's first academic paper? {{9}}</p><p>10. What name did Young give to a group of languages? {{10}}</p><p>11. Who inspired Young to enter the medical profession? {{11}}</p><p>12. At which place of higher learning did Young hold a teaching position? {{12}}</p><p>13. What was the improvement to London roads on which Young's ideas were sought? {{13}}</p></div>",
+            "maxWords": 4
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "The fashion industry",
+        "passageHtml": "<p>Read the text and answer questions 14–26</p><p><strong>A</strong>&nbsp;&nbsp; The fashion industry is a multibillion-dollar global enterprise devoted to the business of making and selling clothes. It encompasses all types of garments, from designer fashions to ordinary everyday clothing. Because data on the industry are typically reported for national economies, and expressed in terms of its many separate sectors, total figures for world production of textiles* and clothing are difficult to obtain. However, by any measure, the industry accounts for a significant share of world economic output.</p><p><strong>B</strong>&nbsp;&nbsp; The fashion industry is a product of the modern age. Prior to the mid-19th century, virtually all clothing was handmade for individuals, either as home production or on order from dressmakers and tailors. By the beginning of the 20th century, with the development of new technologies such as the sewing machine, the development of the factory system of production, and the growth of department stores and other retail outlets, clothing had increasingly come to be mass-produced in standard sizes, and sold at fixed prices. Although the fashion industry developed first in Europe, today it is highly globalised, with garments often designed in one country, manufactured in another, and sold in a third. For example, an American fashion company might source fabric in China and have the clothes manufactured in Vietnam, finished in Italy, and shipped to a warehouse in the United States for distribution to retail outlets internationally.</p><p><strong>C</strong>&nbsp;&nbsp; One of the first accomplishments of the Industrial Revolution in the 18th century was the partial automation of the spinning and weaving of wool, cotton, silk and other natural fibres. Today, these processes are highly automated and carried out by computer-controlled, high-speed machinery, and fabrics made from both natural fibres and synthetic fibres (such as nylon, acrylic, and polyester) are produced. A growing interest in sustainable fashion (or 'eco-fashion') has led to greater use of environmentally friendly fibres, such as hemp. In addition, high-tech synthetic fabrics confer such properties as moisture absorption, stain resistance, retention or dissipation of body heat, and protection against fire, weapons, cold, ultraviolet radiation, and other hazards. Fabrics are also produced with a wide range of visual effects through dyeing, weaving, printing, and other processes. Together with fashion forecasters, fabric manufacturers work well in advance of the clothing production cycle, to create fabrics with colours, textures, and other qualities that anticipate consumer demand.</p><p><strong>D</strong>&nbsp;&nbsp; Historically, very few fashion designers have become famous brands such as Coco Chanel or Calvin Klein, who have been responsible for prestigious high-fashion collections. These designers are influential in the fashion world, but, contrary to popular belief, they do not dictate new fashions; rather, they endeavour to design clothes that will meet consumer demand. The vast majority of designers work in anonymity for manufacturers, as part of design teams, adapting designs into marketable garments for average consumers. They draw inspiration from a wide range of sources, including film and television costumes, street clothing, and active sportswear.</p><p>The fashion industry's traditional design methods, such as paper sketches and the draping of fabric on mannequins, have been supplemented or replaced by computer-assisted design techniques. These allow designers to rapidly make changes to a proposed design, and instantaneously share the proposed changes with colleagues – whether they are in the next room or on another continent.</p><p><strong>E</strong>&nbsp;&nbsp; An important stage in garment production is the translation of the clothing design into templates, in a range of sizes, for cutting the cloth. Because the proportions of the human body change with increases or decreases in weight, templates cannot simply be scaled up or down. Template making was traditionally a highly skilled profession. Today, despite innovations in computer programming, designs in larger sizes are difficult to adjust for every body shape. Whatever the size, the template – whether drawn on paper or programmed as a set of computer instructions – determines how fabric is cut into the pieces that will be joined to make a garment. For all but the most expensive clothing, fabric cutting is accomplished by computer-guided knives or high-intensity lasers that can cut many layers of fabric at once.</p><p><strong>F</strong>&nbsp;&nbsp; The next stage of production is the assembly process. Some companies use their own production facilities for some or all of the manufacturing process, but the majority rely on separately owned manufacturing firms or contractors to produce garments to their specifications. In the field of women's clothing, manufacturers typically produce several product lines a year, which they deliver to retailers on predetermined dates. Technological innovation, including the development of computer-guided machinery, has resulted in the automation of some stages of assembly. Nevertheless, the fundamental process of sewing remains labour-intensive. In the late 20th century, China emerged as the world's largest producer of clothing because of its low labour costs and highly disciplined workforce.</p><p>Assembled items then go through various processes collectively known as 'finishing'. These include the addition of decorative elements, fasteners, brand-name labels, and other labels (often legally required) specifying fibre content, laundry instructions, and country of manufacture. Finished items are then pressed and packed for shipment.</p><p><strong>G</strong>&nbsp;&nbsp; For much of the period following World War II, trade in textiles and garments was strictly regulated by purchasing countries, which imposed quotas and tariffs. Since the 1980s, these protectionist measures, which were intended (ultimately without success) to prevent textile and clothing production from moving from high-wage to low-wage countries, have gradually been abandoned. They have been replaced by a free-trade approach, under the regulatory control of global organisations. The advent of metal shipping containers and relatively inexpensive air freight have also made it possible for production to be closely tied to market conditions, even across globe-spanning distances.</p><p>* textiles: varieties of cloth made from natural or man-made fibres</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14-20</h3>Reading Passage 2 has seven sections, A-G. Choose the correct heading for each section from the list of headings below. Write the correct number, i-viii.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "How new clothing styles are created"
+              },
+              {
+                "letter": "B",
+                "textHtml": "The rise of the fashion industry"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Joining the garment pieces together"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Producing materials with a range of features"
+              },
+              {
+                "letter": "E",
+                "textHtml": "The importance of the fashion industry"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Factors affecting international commerce"
+              },
+              {
+                "letter": "G",
+                "textHtml": "The attractions of becoming a fashion model"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Making patterns for people with different figures"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              },
+              {
+                "number": 20,
+                "textHtml": "Paragraph <strong>G</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 21-24</h3>Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><h3>The development of a modern fashion industry</h3><p>Up until the middle of the 19th century, people generally wore handmade clothes. After that the situation changed, and by the 20th century many clothes were mass produced. This development was partly due to inventions like the {{21}}. It was also the result of general changes in manufacturing systems, as well as the spread of shops like {{22}}. The changes also led to the standardisation of sizes and {{23}}. Today, despite the fact that the fashion industry originated in {{24}}, it has become a truly international enterprise.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 25 and 26</h3>Choose TWO letters, A-E. Which TWO of the following statements does the writer make about garment assembly?",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The majority of sewing is done by computer-operated machines."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Highly skilled workers are the most important requirement."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Most businesses use other companies to manufacture their products."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Fasteners and labels are attached after the clothes have been made up."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Manufacturers usually produce one range of women's clothing annually."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "How a prehistoric predator took to the skies",
+        "passageHtml": "<p>Is that a bird in the sky? A plane? No, it's a pterosaur. Kate Thomas meets Professor Matthew Wilkinson, who built a life-size model to find out how this prehistoric predator ever got off the ground · Read the text and answer questions 27–40</p><p>Pterosaurs existed from the Triassic period, 220 million years ago, to the end of the Cretaceous period, 65 million years ago, when South America pulled away from Africa and the South Atlantic was formed. They are among the least understood of all the extinct reptiles that once spent their lives in the skies while the dinosaurs dominated the land. Pterosaurs had no feathers, but at least part of their bodies was covered in hair, not unlike bats. Some believe this is an indication they were warm-blooded. Researchers also debate whether pterosaurs travelled on the ground by walking on their hind legs, like birds, or by using all fours, relying on their three-toed front feet as well as their four-toed rear feet.</p><p>Pterosaurs were vertebrates, meaning they were the first species possessing backbones to become airborne, but scientists have never quite understood their flight technique. How, they wondered, did such a heavy creature ever manage to take off? How could a wing that appears to have been supported by fine, hollow bones have carried one into the sky? Then came the discovery of a site in Brazil's Araripe basin. Here, not only were hundreds of fossils of amphibians* and other reptiles found, but archaeologists unearthed a number of very well-preserved pterosaurs. The anhanguera – a fish-eating sub-species of pterosaur that ruled the skies in the Cretaceous period – was among them. With a wingspan of up to 12 metres, they would have made an amazing sight in the sky – had any human been there to witness it. 'I've been studying pterosaurs for about eight years now,' says Dr Matthew Wilkinson, a professor of zoology at Cambridge University. With an anhanguera fossil as his model, Wilkinson began gradually reconstructing its skeletal structure in his Cambridge studio. The probability of finding three-dimensional pterosaur fossils anywhere is slim. 'That was quite a find,' he says. 'Their bones are usually crushed to dust.' Once the structure was complete, it inspired him to make a robot version as a way to understand the animal's locomotion. With a team of model-makers, he has built a remote-controlled pterosaur in his studio. 'Fossils show just how large these creatures were. I've always been interested in how they managed to launch themselves, so I thought the real test would be to actually build one and fly it.'</p><p>Wilkinson hasn't been alone in his desire to recreate a prehistoric beast. Swiss scientists recently announced they had built an amphibious robot that could walk on land and swim in water using the sort of backbone movements that must have been employed by the first creatures to crawl from the sea. But Wilkinson had the added complication of working out his beast's flight technique. Unlike those of bats or flying squirrels, pterosaur wings – soft, stretchy membranes of skin tissue – are thought to have reached from the chest right to the ankle, reinforced by fibres that stiffened the wing and prevented tearing. Smaller subspecies flapped their wings during takeoff. That may have explained the creatures' flexibility, but it did not answer the most pressing question: how did such heavy animals manage to launch themselves into the sky? Working with researchers in London and Berlin, Wilkinson began to piece together the puzzle.</p><p>It emerged that the anhanguera had an elongated limb called the pteroid. It had previously been thought the pteroid pointed towards the shoulder of the creature and supported a soft forewing in front of the arm. But if that were the case, the forewing would have been too small and ineffectual for flight. However, to the surprise of many scientists, fossils from the Araripe basin showed the pteroid possibly faced the opposite way, creating a much greater forewing that would have caught the air, working in the same way as the flaps on the wings of an aeroplane. So, with both feet on the ground, the anhanguera might have simply faced into the wind, spread its wings and risen up into the sky. Initial trials in wind tunnels proved the point – models of pterosaurs with forward-facing pteroids were not only adept at gliding, but were agile flyers in spite of their size. 'This high-lift capability would have significantly reduced the minimum flight speed, allowing even the largest forms to take off without difficulty,' Wilkinson says. 'It would have enabled them to glide very slowly and may have been instrumental in the evolution of large size by the pterosaurs.'</p><p>Resting in the grass at the test site near Cambridge, the robot-model's wings ripple in the wind. In flight, the flexible membrane, while much stiffer than the real thing, allows for a smooth takeoff and landing. But the model has been troubled by other mechanical problems. 'Unlike an aircraft, which is stabilised by the tail wing at the back, the model is stabilised by its head, which means it can start spinning around. That's the most problematic bit as far as we're concerned,' Wilkinson says. 'We've had to take it flying without the head so far.' When it flies with its head attached, Wilkinson will finally have proved his point.</p><p>So what's next for the zoologist – perhaps a full-size Tyrannosaurus rex? 'No,' he tells me: 'We're desperate to build really big pterosaurs. I'm talking creatures with even greater wingspans, weighing a quarter of a ton. But,' he adds, just as one begins to fear for the safety and stress levels of pilots landing nearby at Cambridge City Airport, 'it's more likely we'll start off with one of the smaller, flapping pterosaurs.' This is certainly more reassuring. Let's hope he is content to leave it at that.</p><p>* amphibians: animals that can live both in water and on land</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 27-32</h3>Complete the summary using the list of words, A-L, below.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p>Pterosaurs are believed to have existed until the end of the Cretaceous period. They are classed as {{27}} which were capable of flight, although, unlike modern species, they had some {{28}}, which is evidence of their having had warm blood. There are two theories as to how they moved on land: perhaps with all their feet or by using their {{29}} only. Another mystery has concerned the ability of the pterosaur to fly despite its immense {{30}}, and the fact that the bones making up the wing did not have great {{31}}. Thanks to reptile fossils found in Brazil, we now know that the subspecies known as anhanguera had wings that were 12 metres across and that it mainly survived on {{32}}.</p></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "front feet"
+              },
+              {
+                "letter": "B",
+                "textHtml": "fish"
+              },
+              {
+                "letter": "C",
+                "textHtml": "dinosaurs"
+              },
+              {
+                "letter": "D",
+                "textHtml": "reptiles"
+              },
+              {
+                "letter": "E",
+                "textHtml": "flexibility"
+              },
+              {
+                "letter": "F",
+                "textHtml": "hind legs"
+              },
+              {
+                "letter": "G",
+                "textHtml": "amphibians"
+              },
+              {
+                "letter": "H",
+                "textHtml": "birds"
+              },
+              {
+                "letter": "I",
+                "textHtml": "strength"
+              },
+              {
+                "letter": "J",
+                "textHtml": "weight"
+              },
+              {
+                "letter": "K",
+                "textHtml": "tail"
+              },
+              {
+                "letter": "L",
+                "textHtml": "hair"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 33-36</h3>Do the following statements agree with the claims of the writer in the passage? Choose YES, NO or NOT GIVEN.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 33,
+                "textHtml": "It is rare to find a fossil of a pterosaur that clearly shows its skeleton."
+              },
+              {
+                "number": 34,
+                "textHtml": "The reason for building the model was to prove pterosaurs flew for long distances."
+              },
+              {
+                "number": 35,
+                "textHtml": "It is possible that pterosaur species achieved their wing size as a result of the pteroid."
+              },
+              {
+                "number": 36,
+                "textHtml": "Wilkinson has made several unsuccessful replicas of the pterosaur's head."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 37-40</h3>Choose the correct letter, A, B, C or D.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "What was Professor Wilkinson's main problem, according to the third paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Early amphibians had a more complex structure than pterosaurs."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Pterosaur wings could easily be damaged while on the ground."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Flying squirrels and bats were better adapted to flying than pterosaurs."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Large pterosaurs were not able to take off like other flying animals."
+                  }
+                ]
+              },
+              {
+                "number": 38,
+                "textHtml": "What did Professor Wilkinson discover about a bone in pterosaurs called a pteroid?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; It was in an unexpected position."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; It existed only in large species of pterosaurs."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; It allowed pterosaurs to glide rather than fly."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; It increased the speed pterosaurs could reach in the air."
+                  }
+                ]
+              },
+              {
+                "number": 39,
+                "textHtml": "According to the writer, the main problem with the remote-controlled 'pterosaur' is that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; it has been unable to leave the ground so far."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; it cannot be controlled when its head is attached."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; its wing material is not flexible enough."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; the force of the wind may affect its test results."
+                  }
+                ]
+              },
+              {
+                "number": 40,
+                "textHtml": "What does 'it' in the last sentence refer to?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; the information the tests have revealed"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Wilkinson's sense of achievement"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Wilkinson's desire to build models"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; the comparison between types of models"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "46"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "the human eye"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "Indo-European"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "Richard Brocklesby"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "the Royal Institution"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "gas lighting"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "sewing machine"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "department stores"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "prices"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "Europe"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "L"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "J"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "NO"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "C"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          25,
+          26
+        ],
+        "accepted": [
+          "C",
+          "D"
+        ]
+      }
+    ]
+  }
+}

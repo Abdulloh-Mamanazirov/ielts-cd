@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Reading Test 4 (Volume 2) | bekhruzposts</title>
+<title>Reading Test 9 (Volume 3) | bekhruzposts</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;font-size:16px;line-height:1.6;background:#fff;color:#111827}
@@ -149,24 +149,6 @@ select.ai{height:32px;cursor:pointer}
 [data-theme=dark] .dzone.ok{background:#14532d!important;color:#bbf7d0!important}
 [data-theme=dark] .dzone.bad{background:#5a1d1d!important;color:#fecaca!important}
 
-/* ── MATCHING MATRIX ── */
-.matrix{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:calc(14px * var(--txtscale,1));color:var(--text)}
-.matrix th,.matrix td{border:1px solid var(--border);text-align:center}
-.matrix thead th{background:var(--phdr);font-weight:800;width:40px;height:34px}
-.matrix th.mx-corner{background:transparent;border-top:none;border-left:none}
-.matrix td.mx-stmt{text-align:left;padding:9px 12px;line-height:1.5;min-width:200px}
-.mx-num{font-weight:800;color:#DC2626;margin-right:7px}
-.mx-cell{display:flex;align-items:center;justify-content:center;height:46px;margin:0;cursor:pointer}
-.mx-cell input{accent-color:#2563eb;width:17px;height:17px;cursor:pointer;margin:0}
-.mx-cell:hover{background:var(--phdr)}
-.mx-cell:has(input:checked){background:#dbeafe}
-[data-theme=dark] .mx-cell:has(input:checked){background:#1e3a5f}
-[data-theme=night] .mx-cell:has(input:checked){background:#3a3320}
-.mx-cell.ok{background:#dcfce7!important}
-.mx-cell.bad{background:#fee2e2!important}
-[data-theme=dark] .mx-cell.ok{background:#14532d!important}
-[data-theme=dark] .mx-cell.bad{background:#5a1d1d!important}
-
 /* ── BOTTOM NAV ── */
 #nav{position:fixed;bottom:0;left:0;right:0;height:56px;background:var(--nav);border-top:1px solid var(--border);display:flex;align-items:center;padding:0 16px;gap:10px;z-index:200;transition:background .3s}
 .arr{width:34px;height:34px;border-radius:8px;border:1px solid var(--border);cursor:pointer;color:var(--text);background:var(--tbg);font-size:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .15s}
@@ -261,6 +243,23 @@ mark.uhl:hover{background:#FDE047}
 .rs-badge{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-size:12px;font-weight:800}
 .rs-badge.ok{background:#16a34a;color:#fff}
 .rs-badge.no{background:#dc2626;color:#fff}
+/* ── REAL-EXAM MATCHING MATRIX ── */
+.matrix{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:calc(14px * var(--txtscale,1));color:var(--text)}
+.matrix th,.matrix td{border:1px solid var(--border);text-align:center}
+.matrix thead th{background:var(--phdr);font-weight:800;width:40px;height:34px}
+.matrix th.mx-corner{background:transparent;border-top:none;border-left:none}
+.matrix td.mx-stmt{text-align:left;padding:9px 12px;line-height:1.5;min-width:200px}
+.mx-num{font-weight:800;color:#DC2626;margin-right:7px}
+.mx-cell{display:flex;align-items:center;justify-content:center;height:46px;margin:0;cursor:pointer}
+.mx-cell input{accent-color:#2563eb;width:17px;height:17px;cursor:pointer;margin:0}
+.mx-cell:hover{background:var(--phdr)}
+.mx-cell:has(input:checked){background:#dbeafe}
+[data-theme=dark] .mx-cell:has(input:checked){background:#1e3a5f}
+[data-theme=night] .mx-cell:has(input:checked){background:#3a3320}
+.mx-cell.ok{background:#dcfce7!important}
+.mx-cell.bad{background:#fee2e2!important}
+[data-theme=dark] .mx-cell.ok{background:#14532d!important}
+[data-theme=dark] .mx-cell.bad{background:#5a1d1d!important}
 .dzone.dz-sm{min-width:46px;width:46px;padding:0 4px}
 .se-row{display:flex;align-items:center;flex-wrap:wrap;gap:7px;padding:9px 0;border-bottom:1px solid var(--border);font-size:calc(15px * var(--txtscale,1));line-height:1.5}
 .se-row:last-child{border-bottom:none}
@@ -269,6 +268,9 @@ mark.uhl:hover{background:#FDE047}
 .se-bank-label{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.3px;color:var(--subtext);margin:16px 0 8px}
 .wbank.se-bank{flex-direction:column;gap:7px}
 .se-bank .dchip{width:100%;align-items:flex-start;white-space:normal;line-height:1.45;text-align:left}
+.mc2hid{display:none}
+.mc2 .cad{display:none}
+.mc2 .rlabel input{width:17px;height:17px}
 </style>
 </head>
 <body>
@@ -288,8 +290,7 @@ mark.uhl:hover{background:#FDE047}
       <span id="fsz-lbl">100%</span>
       <button class="fsz-btn" id="fsz-up" onclick="changeFontSize(1)" title="Larger text">A+</button>
     </div>
-    <span id="mode-badge" style="display:none;"></span>
-    <div id="timer">60:00</div>
+    <div id="timer">60:00</div><div id="mode-badge" style="display:none"></div>
     <button class="circ" id="fs-btn" onclick="toggleFullscreen()" title="Full screen">
       <svg id="fs-ico-enter" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
       <svg id="fs-ico-exit" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg>
@@ -309,46 +310,45 @@ mark.uhl:hover{background:#FDE047}
   <!-- LEFT -->
   <div id="left-pane">
     <div class="pcontent on" id="pc1">
-      <h2 class="ptitle">Jewels from the Sea</h2>
-      <p class="psub">Indigenous necklaces in Tasmania</p>
+      <h2 class="ptitle">How to find your way out of a food desert</h2>
+      <p class="psub">Ordinary citizens have been using the internet to draw attention to the lack of healthy eating options in inner cities.</p>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p>Necklace-making is the most significant cultural tradition of Tasmanian Aboriginal women. It is also one of the few traditions that have continued without interruption since before the Europeans settled in Tasmania, the island to the south of the mainland of Australia, in 1803. Whereas colonisation disrupted or destroyed so much of Tasmanian Aboriginal life and heritage, necklace-making has not only continued but also evolved in various ways.</p>
-      <p>The knowledge and skills of shell processing and stringing have been passed down through generations of women, particularly the women of the Furneaux Islands, off Tasmania's north-east coast. Necklace-making is an opportunity for women of all ages to get together and share stories, pass knowledge to younger generations and continue to affirm their culture. Aunty Dulcie Greeno, an elder of the Tasmanian Aboriginal community, has been making necklaces for more than 40 years, but first began practising as a child. 'My grandmother used to do shell necklaces and a couple of my aunties did too,' she said in an interview for Australian Museums and Galleries Online. 'We'd go round with them on the beach and collect shells with them.' Now her sister (Corrie Fullard), daughter (Betty Grace), daughter-in-law (Lola Greeno) and niece (Jeanette James) - all celebrated artists in their own right - make necklaces.</p>
-      <p>Shell necklaces were originally made as an adornment, as gifts and tokens of honour, and as objects to be exchanged with other groups for tools or for ochre, which could be used in important ceremonies. Archaeologist Rhys Jones found shells that had been pierced for a necklace dating back at least 2,000 years. After European colonisation, necklaces were also sold or exchanged for food, clothing and other essential supplies. Now, the artists are often commissioned to create necklaces for museums, galleries and private collectors.</p>
-      <p>Early European explorers remarked on the beauty of these treasures, and held them in high esteem. The French naturalist Jacques Labillardière, travelling with the d'Entrecasteaux expedition of 1791-94, observed women wearing 'strings of brilliant pearly blue spiral shells upon their bare heads'. 18th- and 19th-century images show Tasmanian Aboriginal people wearing necklaces, including a photograph taken around 1866 of the leader and spokeswoman Truganini.</p>
-      <p>Shell-stringing was, and remains, a painstaking process, requiring knowledge of coastal resources and a great deal of patience. Aunty Dulcie's daughter Patsy Cameron has explained how the women pierced each shell with a tool consisting of a jawbone and sharpened tooth of a kangaroo or wallaby. The shells were then threaded on string made from natural fibres, smoked over a fire, and rubbed in grass to remove their outer coating and reveal the pearly surface. The shells were later treated with penguin or muttonbird oil.</p>
-      <p>European colonisation introduced new tools and materials, including acidic liquids such as vinegar to clean the shells and steel punches to make holes in them. Needles and cotton or synthetic thread enabled the women to incorporate smaller shells into increasingly intricate designs.</p>
-      <p>Necklace-making is dependent on the availability of shells, and shell collection has its season. Aunty Dulcie regularly returns to the Furneaux Islands to replenish her supplies. 'We still walk for miles on the beach,' she said. 'We take our lunch and crawl along on our hands and knees to get the shells.'</p>
-      <p>Men often help women collect the shells, especially the maireeners (rainbow shells), which are found on kelp, a type of seaweed. These shells are best when picked directly from the sea. 'We don't use the ones we pick up on the beach because they are too brittle and they lose their colour,' said Aunty Dulcie.</p>
-      <p>After colonisation, women started making longer necklaces. In 1835, Benjamin Duterrau sketched Tanleboneyer, 'a native of the district of Oyster Bay', and Bruny Island man Woorraddy, Truganini's husband, with long strands looped around their necks. Wortabowigee, a woman from Port Dalrymple, who is featured in an 1837 portrait by Thomas Bock, wears five loops of what must have been a necklace of astonishing beauty. It is possible that the new European tools adopted by the women enabled them to make longer necklaces, but it also indicates the changing circumstances of Tasmanian Aboriginal people.</p>
-      <p>Historian Brian Plomley points out that long necklaces would have been impractical for women accustomed to a traditional lifestyle of diving for crabs, crayfish and abalone, digging for root vegetables, hunting seals or climbing trees to catch possums. Men tracking kangaroo, wallaby and emu through the bush would not have risked getting snagged by long necklaces - or risked damaging the valuable necklaces themselves.</p>
-      <p>The change in necklaces after colonisation also points to the Tasmanians' courageous assertion of their identity, and a continuation of their culture at a time when their world was being taken apart. The connection of shell necklaces with the distinct culture and story of the Tasmanian Aboriginal people and with the Tasmanian natural environment means they have iconic status in the wider Tasmanian community. In 2009, they were listed as a Tasmanian Heritage Icon by the National Trust of Australia. The cultural and aesthetic value of the necklaces is also demonstrated by their inclusion in many national and international museum, gallery and private collections.</p>
+      <p>Over the last few months, a survey has been carried out of over 200 greengrocers and convenience stores in Crown Heights, a neighbourhood in Brooklyn, New York. As researchers from the Brooklyn Food Association enter the details, colorful dots appear on their online map, which display the specific location of each of the food stores in a handful of central Brooklyn neighbourhoods. Clicking on a dot will show you the store's name and whether it carries fresh fruit and vegetables, wholegrain bread, low-fat dairy and other healthy options.</p>
+      <p>The researchers plan eventually to survey the entire borough of Brooklyn. 'We want to get to a more specific and detailed description of what that looks like', says Jeffrey Heehs, who leads the project. He hopes it will help residents find fresh food in urban areas where the stores sell mostly packaged snacks or fast food, areas otherwise known as food deserts. The aim of the project is also to assist government officials in assessing food availability, and in forming future policies about what kind of food should be sold and where.</p>
+      <p>In fact, the Brooklyn project represents the intersection of two growing trends: mapping fresh food markets in US cities, and private citizens creating online maps of local neighborhood features. According to Michael Goodchild, a geographer at the University of California at Santa Barbara, citizen map makers may make maps because there is no good government map, or to record problems such as burned-out traffic lights.</p>
+      <p>According to recent studies, people at higher risk of chronic disease and who receive minimal incomes for the work they do, frequently live in neighborhoods located in food deserts. But how did these food deserts arise? Linda Alwitt and Thomas Donley, marketing researchers at DePaul University in Chicago, found that supermarkets often can't afford the amount of land required for their stores in cities. City planning researcher Cliff Guy and colleagues at the University of Leeds in the UK found in 2004 that smaller urban groceries tend to close due to competition from suburban supermarkets.</p>
+      <p>As fresh food stores have left neighborhoods, residents find it harder to eat well and stay healthy. Food deserts are linked with lower local health outcomes, and they may be a driving force in the health disparities between lower-income and affluent people in the US. Until recently, the issue attracted little national attention, and received no ongoing funding for research.</p>
+      <p>Now, more US cities are becoming aware of their food landscapes. Last year, the United States Department of Agriculture launched a map of where food stores are located in all the US counties. Mari Gallagher, who runs a private consulting firm, says her researchers have mapped food stores and related them to health statistics for the cities of Detroit, Chicago, Cincinnati and Washington, D.C. These maps help cities identify where food deserts are and, occasionally, have documented that people living in food deserts have higher rates of diet-related diseases.</p>
+      <p>The Brooklyn project differs in that it is run by a local core of five volunteers who have worked on the project for the past year, rather than trained, academic researchers. To gather data, they simply go to individual stores with pre-printed surveys in hand, and once the storekeeper's permission has been obtained, check off boxes on their list against the products for sale in the store. Their approach to data collection and research has been made possible by technologies such as mapping software and GPS-related smart phones, Google Maps and OpenStreetMap, an open-source online map with a history of involvement in social issues. Like Brooklyn Food Association volunteers, many citizen online map makers use maps to bring local problems to official attention. Heehs, the mapping project leader, says that after his group gathers more data, it will compare neighborhoods, come up with solutions to address local needs, and then present them to New York City officials. Their website hasn't caught them much local or critical attention yet, however. It was launched only recently, but its creators haven't yet set up systems to see who's looking at it.</p>
+      <p>Experts who visited the Brooklyn group's site were optimistic but cautious. 'This kind of detailed information could be very useful' says Michele Ver Ploeg, an economist for the Department of Agriculture. To make the map more helpful to both residents and policy makers, she would like to see price data for healthy products, too. Karen Ansel, a registered dietician and a spokesperson for the American Dietetic Association, found the site confusing to navigate. 'That said, with this information in place the group has the tools to build a more user-friendly site that could be ... very helpful to consumers', she says. 'The group also should ensure their map is available to those who don't have internet access at home', she adds. In fact, a significant proportion of Brooklyn residents don't have internet access at home and 8 percent rely on dial-up service, instead of high-speed internet access, according to Gretchen Maneval, director of Brooklyn College's Center for the Study of Brooklyn. 'It's still very much a work in progress', Heehs says of the online map. They'll start advertising it online and by email to other community groups, such as urban food garden associations, next month. He also hopes warmer days in the spring will draw out fresh volunteers to spread awareness and to finish surveying, as they have about two-thirds of Brooklyn left to cover.</p>
     </div>
 
     <div class="pcontent" id="pc2">
-      <h2 class="ptitle">The Return of Monkey Life</h2>
-      <p class="psub">Rain forest trees growing anew on Central American farmland are helping scientists find ways for monkeys and agriculture to benefit one another</p>
+      <h2 class="ptitle">The dingo debate</h2>
+      <p class="psub">Graziers see them as pests, and poisoning is common, but some biologists think Australia's dingoes are the best weapon in a war against imported cats and foxes.</p>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p><span class="pl">A</span> Hacienda La Pacífica, a remote working cattle ranch in Guanacaste province of northern Costa Rica, has for decades been home to a community of mantled howler monkeys. Other native primates - white-faced capuchin monkeys and spider monkeys were once common in this area, too, but vanished after the Pan-American Highway was built nearby in the 1950s and most of the surrounding land was cleared for cattle raising. At Hacienda La Pacífica, however, an enlightened ranch owner chose to leave some strips of native trees growing. He used these as windbreaks to protect both cattle and their food crops from dry-season winds. In the process, the farmer unwittingly founded a unique laboratory for the study of monkeys.</p>
-      <p><span class="pl">B</span> Ken Glander, a primatologist from Duke University in the USA, is studying La Pacífica's monkeys in an effort to understand the relationship between howlers and regenerating forests at the edges of grazing lands. Studying such disturbed woodlands is increasingly important, because throughout much of the New World Tropics, these are the only forests left. In the 18th century, tropical dry forests covered most of Central America, but by the 1980s less than two percent remained undisturbed and less than one percent was protected.</p>
-      <p><span class="pl">C</span> Howlers persist at La Pacífica, Glander explains, because they are leaf-eaters. They eat fruit when it is available but, unlike capuchin and spider monkeys, do not depend on large areas of fruiting trees. Glander is particularly interested in howlers' ability to thrive on leaves loaded with toxins poisonous substances designed to protect the plants. For leaf-eaters, long-term exposure to a specific plant toxin can increase their ability to neutralize the poisonous substances and absorb the leaf nutrients. Watching generations of howlers at La Pacífica has shown Glander that the monkeys keep their systems primed by sampling a variety of plants and then focusing on a small number of the most nutritious food items. The leaves that grow in regenerating forests, like those at La Pacífica, are actually more howler-friendly than those produced by the centuries-old trees that survive farther south. In younger forests, trees put most of their limited energy into growing wood, leaves and fruit, so they produce much lower levels of toxin than do well-established, old-growth trees.</p>
-      <p><span class="pl">D</span> The value of maturing forests to primates is also a subject of study at Santa Rosa National Park, about 35 miles northwest of La Pacífica. Large areas of Santa Rosa's forests had at one time been burnt to make space for cattle ranching and coffee farming, thereby devastating local monkey habitat. But in 1971 the government protected the area by designating it a National Park, and species of indigenous trees which had been absent for decades began to invade the abandoned pastures. Capuchins were the first to begin using the reborn forests, followed by howlers. Eventually even spider monkeys, fruit-eaters that need large areas of continuous forest, returned. In the first 28 years following protection of the area, the capuchin population doubled, while the number of howlers increased sevenfold.</p>
-      <p><span class="pl">E</span> Some of the same traits that allow howlers to survive at La Pacífica also explain their population boom in Santa Rosa. Howler reproduction is faster than that of other native monkey species. They give birth for the first time at about 3.5 years of age, compared with seven years for capuchins, and eight or more for spider monkeys. Also, while a female spider monkey will have a baby about once every four years, well-fed howlers can produce an infant every two years. Another factor is diet. Howlers are very adaptable feeders, and only need a comparatively small home range. Spider monkeys, on the other hand, need to occupy a huge home range. Also crucial is the fact that the leaves howlers eat hold plenty of water, so the monkeys can survive away from open streams and water holes. This ability gives them a real advantage over capuchin and spider monkeys, which have suffered during the long, ongoing drought in the area.</p>
-      <p><span class="pl">F</span> Alejandro Estrada, an ecologist at Estación de Biología Los Tuxtlas in Veracruz, Mexico, has been studying the ecology of a group of howler monkeys that thrive in a habitat totally altered by humans: a cacao plantation in Tabasco state, Mexico. Cacao plants need shade to grow, so 40 years ago the owners of Cholula Cacao Farm planted fig, monkeypod and other tall trees to form a protective canopy over their crop. The howlers moved in about 25 years ago after nearby forests were cut. This strange habitat seems to support about as many monkeys as would a same-sized patch of wild forest. The howlers eat the leaves and fruit of the shade trees, leaving the valuable cacao pods alone.</p>
-      <p><span class="pl">G</span> Estrada believes the monkeys bring underappreciated benefits to such plantations, dispersing the seeds of fruits such as fig and other shade trees, and fertilizing the soil. Spider monkeys also forage for fruit here, though they need nearby areas of forest to survive in the long term. He hopes that farmers will begin to see wild monkeys, which could include potential ecotourism projects. 'Conservation is usually viewed as a conflict between farming practices and the need to preserve nature,' Estrada says. 'We're moving away from that vision and beginning to consider ways in which commercial activities may become a tool for the conservation of primates in human-modified landscapes.'</p>
+      <p><span class="pl">A</span> A plane flies a slow pattern over Carlton Hill station, a 3,600 square kilometre ranch in the Kimberley region in northwest Australia. As the plane circles, those aboard drop 1,000 small pieces of meat, one by one, onto the scrubland below, each piece laced with poison; this practice is known as baiting. Besides 50,000 head of cattle, Carlton Hill is home to the dingo, Australia's largest mammalian predator and the bane of a grazier's life. Stuart McKechnie, manager of Carlton Hill, complains that graziers' livelihoods are threatened when dingoes prey on cattle. But one man wants the baiting to end, and for dingoes to once again roam Australia's wide-open spaces. According to Chris Johnson of James Cook University, 'Australia needs more dingoes to protect our biodiversity'.</p>
+      <p><span class="pl">B</span> About 4,000 years ago, Asian sailors introduced dingoes to Australia. Throughout the ensuing millennia, these descendants of the wolf spread across the continent and, as the Tasmanian tiger disappeared completely from Australia, dingoes became Australia's top predators. As agricultural development took place, the European settlers found that they could not safely keep their livestock where dingoes roamed. So began one of the most sustained efforts at pest control in Australia's history. Over the last 150 years, dingoes have been shot and poisoned, and fences have been used in an attempt to keep them away from livestock. But at the same time, as the European settlers tried to eliminate one native pest from Australia, they introduced more of their own.</p>
+      <p><span class="pl">C</span> In 1860, the rabbit was unleashed on Australia by a wealthy landowner and by 1980 rabbits had covered most of the mainland. Rabbits provide huge prey base for two other introduced species: the feral (wild) cat and the red fox. The interaction between foxes, cats and rabbits is a huge problem for native mammals. In good years, rabbit numbers increase dramatically, and fox and cat populations grow quickly in response to the abundance of this prey. When bad seasons follow, rabbit numbers are significantly reduced - and the dwindling but still large fox and cat populations are left with little to eat besides native mammals.</p>
+      <p><span class="pl">D</span> Australian mammals generally reproduce much more slowly than rabbits, cats and foxes - and adapt to prevent overpopulation in the arid environment, where food can be scarce and unreliable - and populations decline because they can't grow fast enough to replace animals killed by the predators. Johnson says dingoes are the solution to this problem because they keep cat and fox populations under control. Besides regularly eating the smaller predators, dingoes will kill them simply to lessen competition. Dingo packs live in large, stable territories and generally have only one fertile female, which limits their rate of increase. In the 4,000 years that dingoes have been in Australia, they have contributed to few, if any, extinctions, Johnson says.</p>
+      <p><span class="pl">E</span> Reaching out from a desolate spot where three states meet, for 2,500 km in either direction, is the world's longest fence, two metres high and stretching from the coast in Queensland to the Great Australian Bight in South Australia; it is there to keep dingoes out of the southeast. The fence separates the main types of livestock found in Australia. To the northwest of the fence, cattle predominate; to the southwest, sheep fill the landscape. In fact, Australia is a land dominated by these animals - 25 million cattle, 100 million sheep and just over 20 million people.</p>
+      <p><span class="pl">F</span> While there is no argument that dingoes will prey on sheep if given the chance, they don't hunt cattle once the calves are much past two or three weeks old, according to McKechnie. And a study in Queensland suggests that dingoes don't even prey heavily on the newborn calves unless their staple prey disappears due to deteriorating conditions like drought. This study, co-authored by Lee Allen of the Robert Wicks Research Centre in Queensland, suggests that the aggressive baiting programs used against dingoes may actually be counter-productive for graziers. When dingoes are removed from an area by baiting, the area is recolonized by younger, more solitary dingoes. These animals aren't capable of going after the large prey like kangaroos, so they turn to calves. In their study, some of the highest rates of calf predation occurred in areas that had been baited.</p>
+      <p><span class="pl">G</span> Mark Clifford, general manager of a firm that manages over 200,000 head of cattle, is not convinced by Allen's assertion. Clifford says, 'It's obvious if we drop or loosen control on dingoes, we are going to lose more calves.' He doesn't believe that dingoes will go after kangaroos when calves are around. Nor is he persuaded of dingoes' supposed ecological benefits, saying he is not convinced that they manage to catch cats that often, believing they are more likely to catch small native animals instead.</p>
+      <p><span class="pl">H</span> McKechnie agrees that dingoes kill the wallabies (small native animals) that compete with his cattle for food, but points out that in parts of Western Australia, there are no foxes, and not very many cats. He doesn't see how relaxing controls on dingoes in his area will improve the ecological balance. Johnson sees a change in philosophy on the part of graziers. 'There might be a number of different ways of thinking through dingo management in cattle country,' he says. 'At the moment, though, that hasn't got through to graziers. There's still just one prescription, and that is to bait as widely as possible.'</p>
     </div>
 
     <div class="pcontent" id="pc3">
-      <h2 class="ptitle">Innovation in Business</h2>
+      <h2 class="ptitle">Pacific navigation and voyaging</h2>
+      <p class="psub">How people migrated to the Pacific islands</p>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p>Innovation describes the way that we develop new ideas, products and approaches, and it is one of the most vital human endeavours. Over the history of humanity, innovation has made life better in so many different ways. It is part of human nature to recognise the benefits of innovation; however, the majority of us have little comprehension of the processes that actually lead to innovation occurring. It is a frequent topic for discussion in journals and university lecture theatres. However, in company boardrooms across New Zealand, the term is heard far too frequently and more caution should be applied. Certainly, a recent international survey showed that the idea of innovation is so broad as to appear almost meaningless, with different sectors of the business world - or different divisions inside the same business - often defining innovation in their own way.</p>
-      <p>While there is an obvious attraction to the new, innovation is not always about large scale research and development projects or revolutionary business models; it can be on a small, highly localised scale and involve a step-by-step approach. The famous case study of the drinks company Lucozade shows it can be as simple as adding a screw top to a bottle. This carefully managed change in packaging shifted the public perception of the product from a medicine to a sports drink and Lucozade profited handsomely, clearly showing their approach was successful. So what steps can businesses take to keep ahead in the innovation game?</p>
-      <p>There seems to be a widespread belief that the world's best ideas are sudden and intuitive. Thomas Edison supposedly invented the light bulb with a sudden moment of clarity, but in fact the book Edison: His Life and Inventions shows that Edison's own inspiration usually resulted from laborious experimentation, rather than a moment of genius. Thus, business managers are at risk of overestimating the pace of development while underestimating the amount of perseverance needed. This is why we must reject the false assumption that innovation is just a moment of brilliance waiting to strike.</p>
-      <p>No exploration of innovation is complete without mention of Steve Jobs, the late chief executive officer (CEO) of Apple. No-one encapsulated the creative essence of Silicon Valley, the home of many global tech companies, better than Jobs, but he has also been accused of arrogance. Jobs' managerial approach often irritated his co-workers but, in part, it was the fuel for his visionary innovations. He felt it his duty to make society a better place, but his egotistical behaviour could have undesirable consequences, too. Jobs' former employees have suggested this type of demanding behaviour affects sickness rates and group morale, which in turn may squash creativity and innovation.</p>
-      <p>In his 2011 TED (Technology, Entertainment, Design) Talk, economist Tim Harford made this statement: 'Show me a successful complex system, and I will show you a system that has evolved through trial and error.' It sounds like common sense, and some commentators have claimed Harford's TED Talk was not persuasive, because it was stating the obvious. But he responds that a trial and error approach is not all that obvious, because society expects all problems to have a quick and simple solution. Harford is right to point out that both consumers and investors expect consistent and clear breakthroughs. But the value of step-by-step innovation is often underrated and failure may in fact be crucial to eventual success.</p>
-      <p>Former chief solutions officer at Yahoo, Tim Sanders, believes that innovation is only 'little ideas that combine with other little ideas that improve themselves into game-changing ideas'. This snowballing effect has similarities to the phenomenon that author and broadcaster Steven Johnson calls the 'hummingbird effect of innovation'. This points out that progress in a specific area or discipline can end up triggering small but significant developments elsewhere entirely. A good case to cite in support of this universal truth would be Gutenberg's printing press, which was revolutionary in itself for making books accessible to the masses. However, the press also affected an unrelated industry by causing a rise in demand for reading glasses. This highlights the wider idea of connectivity, which is an essential component of innovation.</p>
-      <p>When Kode Biotech won a recent innovation award, CEO Steve Henry had this to say: 'Most people think innovation is invention, but they don't understand that innovation is the conversion of invention into something useful.' This is particularly true when it comes to Kode's highly specialised use of nano-technology. Henry says that Kode cannot chase all the opportunities it has created. Instead, Kode's approach is to collaborate with similar nano-technology businesses, which take its innovations and develop them into commodities that can be sold in the marketplace.</p>
-      <p>Innovation can be hectic and disorganised, but that is the way that radical new ideas sometimes come about. But, for established businesses, the disorderly nature of innovation can seem discouraging. Previously Unavailable, a specialist innovation consultancy, says that while 84% of businesses consider innovation critical to their future, only 6% are satisfied with their innovation efforts. Previously Unavailable uses a process called Black Box, which was developed following a study at Harvard Business School. Black Box was formed to overcome the barriers that prevent innovation in larger organisations. Using this unique system, Previously Unavailable will lease a team of innovation experts on a short-term basis to client organisations to assist with conceiving, developing and launching new products and business innovation. It seems probable that this sort of innovation consultancy will become increasingly common, just as businesses already employ specialist consultants for legal, financial or marketing services.</p>
+      <p>The many tiny islands of the Pacific Ocean had no human population until ancestors of today's islanders sailed from Southeast Asia in ocean-going canoes approximately 2,000 years ago. At the present time, the debate continues about exactly how they migrated such vast distances across the ocean, without any of the modern technologies we take for granted.</p>
+      <p>Although the romantic vision of some early twentieth-century writers of fleets of heroic navigators simultaneously setting sail had come to be considered by later investigators to be exaggerated, no considered assessment of Pacific voyaging was forthcoming until 1956 when the American historian Andrew Sharp published his research. Sharp challenged the 'heroic vision' by asserting that the expertise of the navigators was limited, and that the settlement of the islands was not systematic, being more dependent on good fortune by drifting canoes. Sharp's theory was widely challenged, and deservedly so. If nothing else, however, it did spark renewed interest in the topic and precipitated valuable new research.</p>
+      <p>Since the 1960s a wealth of investigations has been conducted, and most of them, thankfully, have been of the 'non-armchair' variety. While it would be unfair to denigrate all 'armchair' research - that based on an examination of available published materials - it has turned out that so little progress had been made in the area of Pacific voyaging because most writers relied on the same old sources - travellers' journals or missionary narratives compiled by uninvolved observers. After Sharp, this began to change, and researchers conducted most of their investigations not in libraries, but in the field.</p>
+      <p>In 1965, David Lewis, a physician and experienced yachtsman, set to work using his own unique philosophy: he took the yacht he had owned for many years and navigated through the islands in order to contact those men who still find their way at sea using traditional methods. He then accompanied these men, in their traditional canoes, on test voyages from which all modern instruments were banished from sight, though Lewis secretly used them to confirm the navigator's calculations. His most famous such voyage was a return trip of around 1,000 nautical miles between two islands in mid-ocean. Far from drifting, as proposed by Sharp, Lewis found that ancient navigators would have known which course to steer by memorizing which stars rose and set in certain positions along the horizon, and this gave them fixed directions by which to steer their boats.</p>
+      <p>The geographer Edwin Doran followed a quite different approach. He was interested in obtaining exact data on canoe sailing performance, and to that end employed the latest electronic instrumentation. Doran traveled on board traditional sailing canoes in some of the most remote parts of the Pacific, all the while using his instruments to record canoe speeds in different wind strengths - from gales to calms - and the angle canoes could sail relative to the wind. In the process, he provided the first really precise attributes of traditional sailing canoes.</p>
+      <p>A further contribution was made by Steven Horvath. As a physiologist, Horvath's interest was not in navigation techniques or in canoes, but in the physical capabilities of the men themselves. By adapting standard physiological techniques, Horvath was able to calculate the energy expenditure required to paddle canoes of this sort at times when there was no wind to fill the sails, or when the wind was contrary. He concluded that paddles, or perhaps long oars, could indeed have propelled for long distances what were primarily sailing vessels.</p>
+      <p>Finally, a team led by P Wall Garrard conducted important research, in this case by making investigations while remaining safely in the laboratory. Wall Garrard's unusual method was to use the findings of linguists who had studied the languages of the Pacific islands, many of which are remarkably similar although the islands where they are spoken are sometimes thousands of kilometres apart. Clever adaptation of computer simulation techniques pioneered in other disciplines allowed him to produce convincing models suggesting the migrations were indeed systematic, but not simultaneous. Wall Garrard proposed the migrations should be seen not as a single journey made by a massed fleet of canoes, but as a series of ever more ambitious voyages, each pushing further into the unknown ocean.</p>
+      <p>What do we learn about Pacific navigation and voyaging from this research? Quite correctly, none of the researchers tried to use their findings to prove one theory or another; experiments such as these cannot categorically confirm or negate a hypothesis. The strength of this research lay in the range of methodologies employed. When we splice together these findings we can propose that traditional navigators used a variety of canoe types, sources of water and navigation techniques, and it was this adaptability was their greatest accomplishment. These navigators observed the conditions prevailing at sea at the time a voyage was made and altered their techniques accordingly. Furthermore, the canoes of the navigators were not drifting helplessly at sea but were most likely part of a systematic migration; as such, the Pacific peoples were able to view the ocean as an avenue, not a barrier, to communication before any other race on Earth. Finally, one unexpected but most welcome consequence of this research has been a renaissance in the practice of traditional voyaging. In some groups of islands in the Pacific today young people are resurrecting the skills of their ancestors, when a few decades ago it seemed they would be lost forever.</p>
     </div>
   </div>
 
@@ -358,196 +358,172 @@ mark.uhl:hover{background:#FDE047}
   <div id="right-pane">
     <div class="qsec on" id="qs1">
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 1–6</em></p>
-        <p class="qinst">Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong></p>
-        <div class="qitem"><p class="qprompt"><strong>1.</strong>&nbsp; After European settlement, Tasmanian Aboriginals stopped making necklaces for a short time.</p>
-          <div class="rgroup" id="rg1">
-            <label class="rlabel"><input type="radio" name="q1" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q1" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q1" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>2.</strong>&nbsp; Aboriginal women on the Furneaux Islands made the most beautiful necklaces.</p>
-          <div class="rgroup" id="rg2">
-            <label class="rlabel"><input type="radio" name="q2" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q2" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q2" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>3.</strong>&nbsp; An 1866 photograph of the leader Truganini shows her wearing a necklace she had made herself.</p>
-          <div class="rgroup" id="rg3">
-            <label class="rlabel"><input type="radio" name="q3" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q3" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q3" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>4.</strong>&nbsp; Men assist in gathering shells growing on sea plants.</p>
-          <div class="rgroup" id="rg4">
-            <label class="rlabel"><input type="radio" name="q4" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q4" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q4" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>5.</strong>&nbsp; Tasmanian Aboriginal men wore long necklaces when hunting.</p>
-          <div class="rgroup" id="rg5">
-            <label class="rlabel"><input type="radio" name="q5" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q5" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q5" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>6.</strong>&nbsp; Tasmanian Aboriginal necklaces are appreciated outside Australia.</p>
-          <div class="rgroup" id="rg6">
-            <label class="rlabel"><input type="radio" name="q6" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q6" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q6" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-      </div>
-      <div class="qblock">
-        <p class="qnum-head"><em>Questions 7–13</em></p>
-        <p class="qinst">Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>
-        <div class="qtitle">The process of shell-stringing</div>
+        <p class="qnum-head"><em>Questions 1&ndash;6</em></p>
+        <p class="qinst">Complete the notes below.<br>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>
+        <div class="qtitle">Data on food deserts and their effects on health</div>
         <div class="notesbox">
-          <ul class="nbul"><li>Shell-stringers must have patience and an understanding of resources available near the sea.</li></ul>
-          <span class="nbsec">The traditional procedure</span>
+          <span class="nbsec">The Brooklyn Food Association</span>
           <ul class="nbul">
-            <li>hole put in shell with an instrument made of animal's bone and <strong>7</strong>&nbsp;<input type="text" class="ai sm" id="q7" oninput="upd()"></li>
-            <li>shells strung on natural fibre and smoked</li>
-            <li>shells wiped with <strong>8</strong>&nbsp;<input type="text" class="ai sm" id="q8" oninput="upd()"> to achieve a pearly surface</li>
-            <li>animal <strong>9</strong>&nbsp;<input type="text" class="ai sm" id="q9" oninput="upd()"> applied</li>
+            <li>The online map provides users with a store's name, <strong>1</strong>&nbsp; <input type="text" class="ai sm" id="q1" oninput="upd()"> and details of its produce</li>
+            <li>One goal of the mapping project is to help develop new <strong>2</strong>&nbsp; <input type="text" class="ai sm" id="q2" oninput="upd()"> on food</li>
+            <li>Citizen maps are sometimes made when <strong>3</strong>&nbsp; <input type="text" class="ai sm" id="q3" oninput="upd()"> maps are unsatisfactory</li>
           </ul>
-          <span class="nbsec">Changes after the Europeans arrived</span>
+          <span class="nbsec">Reasons for the development of food deserts</span>
           <ul class="nbul">
-            <li>cleaning substances like <strong>10</strong>&nbsp;<input type="text" class="ai sm" id="q10" oninput="upd()"> were used</li>
-            <li>more complex designs achieved using needles as a tool</li>
-          </ul>
-          <span class="nbsec">Furneaux Islands</span>
-          <ul class="nbul">
-            <li>shells need to be gathered in the right <strong>11</strong>&nbsp;<input type="text" class="ai sm" id="q11" oninput="upd()"></li>
-            <li>shell collectors walk along the beach then <strong>12</strong>&nbsp;<input type="text" class="ai sm" id="q12" oninput="upd()"> in order to pick up shells</li>
-            <li>shells from beach not suitable as do not keep <strong>13</strong>&nbsp;<input type="text" class="ai sm" id="q13" oninput="upd()"> and break easily</li>
+            <li>New research suggests that people living in food deserts often have low <strong>4</strong>&nbsp; <input type="text" class="ai sm" id="q4" oninput="upd()"></li>
+            <li>Some supermarkets are unable to buy enough <strong>5</strong>&nbsp; <input type="text" class="ai sm" id="q5" oninput="upd()"> inside cities for their stores</li>
+            <li>Small grocery stores in cities often cannot cope with supermarket <strong>6</strong>&nbsp; <input type="text" class="ai sm" id="q6" oninput="upd()"></li>
           </ul>
         </div>
+      </div>
+      <div class="qblock">
+        <p class="qnum-head"><em>Questions 7&ndash;13</em></p>
+        <p class="qinst">Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong></p>
+        <div class="qitem"><p class="qprompt"><strong>7.</strong>&nbsp; A group of professional researchers are in charge of the Brooklyn project.</p>
+          <div class="rgroup" id="rg7">
+            <label class="rlabel"><input type="radio" name="q7" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q7" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q7" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>8.</strong>&nbsp; The Brooklyn project team carries out their assessment of stores without the owner's knowledge.</p>
+          <div class="rgroup" id="rg8">
+            <label class="rlabel"><input type="radio" name="q8" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q8" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q8" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>9.</strong>&nbsp; The Brooklyn project has experienced technical difficulties setting up the website.</p>
+          <div class="rgroup" id="rg9">
+            <label class="rlabel"><input type="radio" name="q9" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q9" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q9" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>10.</strong>&nbsp; The city government has taken a considerable interest in the Brooklyn project website.</p>
+          <div class="rgroup" id="rg10">
+            <label class="rlabel"><input type="radio" name="q10" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q10" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q10" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>11.</strong>&nbsp; Michele Ver Ploeg believes the Brooklyn project website should contain additional information.</p>
+          <div class="rgroup" id="rg11">
+            <label class="rlabel"><input type="radio" name="q11" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q11" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q11" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>12.</strong>&nbsp; The rate of internet use in Brooklyn is unlikely to increase in the near future.</p>
+          <div class="rgroup" id="rg12">
+            <label class="rlabel"><input type="radio" name="q12" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q12" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q12" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>13.</strong>&nbsp; Jeffrey Heehs would like more people to assist with the Brooklyn project research.</p>
+          <div class="rgroup" id="rg13">
+            <label class="rlabel"><input type="radio" name="q13" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q13" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q13" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
       </div>
     </div><!-- /qs1 -->
     <div class="qsec" id="qs2">
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 14–17</em></p>
-        <p class="qinst">Reading Passage 2 has seven paragraphs, <strong>A–G</strong>.<br>Which paragraph contains the following information? <em>NB You may use any letter more than once.</em></p>
-        <div style="overflow-x:auto"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th></tr></thead><tbody>
-        <tr><td class="mx-stmt"><span class="mx-num">14</span> a reason why newer forests provide howlers with better feeding opportunities than older forests</td><td><label class="mx-cell"><input type="radio" name="q14" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="G" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">15</span> a reference to a change in farmers' attitudes towards wildlife</td><td><label class="mx-cell"><input type="radio" name="q15" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="G" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">16</span> a description of the means by which howlers select the best available diet for themselves</td><td><label class="mx-cell"><input type="radio" name="q16" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="G" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">17</span> figures relating to the reduction of natural wildlife habitat over a period of time</td><td><label class="mx-cell"><input type="radio" name="q17" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="G" onchange="upd()"></label></td></tr>
-        </tbody></table></div>
+        <p class="qnum-head"><em>Questions 14&ndash;20</em></p>
+        <p class="qinst">Reading Passage 2 has eight sections, <strong>A&ndash;H</strong>.<br>Which section contains the following information?<br><em>NB You may use any letter more than once.</em></p>
+        <div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th></tr></thead><tbody><tr><td class="mx-stmt"><span class="mx-num">14</span> a description of a barrier designed to stop dingoes, which also divides two kinds of non-native animals</td><td><label class="mx-cell"><input type="radio" name="q14" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="H" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">15</span> how dingoes ensure that rival species do not dominate</td><td><label class="mx-cell"><input type="radio" name="q15" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="H" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">16</span> a reference to a widespread non-native species that other animals feed on</td><td><label class="mx-cell"><input type="radio" name="q16" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="H" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">17</span> a mention of the dingo's arrival in Australia</td><td><label class="mx-cell"><input type="radio" name="q17" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="H" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">18</span> research which has proved that dingoes have resorted to eating young livestock</td><td><label class="mx-cell"><input type="radio" name="q18" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="H" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">19</span> a description of a method used to kill dingoes</td><td><label class="mx-cell"><input type="radio" name="q19" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="H" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">20</span> the way that the structure of dingo groups affects how quickly their numbers grow</td><td><label class="mx-cell"><input type="radio" name="q20" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="H" onchange="upd()"></label></td></tr></tbody></table></div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 18–21</em></p>
-        <p class="qinst">Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>
+        <p class="qnum-head"><em>Questions 21&ndash;23</em></p>
+        <p class="qinst">Look at the following statements and the list of people below.<br>Match each statement with the correct person, <strong>A&ndash;D</strong>.</p>
+        <div class="fbox"><strong>List of People</strong>
+          <div class="frow"><span class="fkey">A</span> Stuart McKechnie</div>
+          <div class="frow"><span class="fkey">B</span> Chris Johnson</div>
+          <div class="frow"><span class="fkey">C</span> Lee Allen</div>
+          <div class="frow"><span class="fkey">D</span> Mark Clifford</div></div>
+        <div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th><th>D</th></tr></thead><tbody><tr><td class="mx-stmt"><span class="mx-num">21</span> Dingoes tend to hunt native animals rather than hunting other non-native predators.</td><td><label class="mx-cell"><input type="radio" name="q21" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q21" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q21" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q21" value="D" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">22</span> The presence of dingoes puts the income of some people at risk.</td><td><label class="mx-cell"><input type="radio" name="q22" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="D" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">23</span> Dingoes have had little impact on the dying out of animal species in Australia.</td><td><label class="mx-cell"><input type="radio" name="q23" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="D" onchange="upd()"></label></td></tr></tbody></table></div>
+      </div>
+      <div class="qblock">
+        <p class="qnum-head"><em>Questions 24&ndash;26</em></p>
+        <p class="qinst">Complete the sentences below.<br>Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>
         <div class="sbox">
-          <p><strong>Why do howlers have an advantage over other Central American monkeys?</strong></p>
-          <p>Howler monkeys have a more rapid rate of <strong>18</strong>&nbsp;<input type="text" class="ai sm" id="q18" oninput="upd()"> than either capuchin or spider monkeys. Unlike the other local monkey species, howlers can survive without eating <strong>19</strong>&nbsp;<input type="text" class="ai sm" id="q19" oninput="upd()">, and so can live inside a relatively small habitat area. Their diet is more flexible, and they are able to tolerate leaves with high levels of <strong>20</strong>&nbsp;<input type="text" class="ai sm" id="q20" oninput="upd()">. Howlers can also survive periods of <strong>21</strong>&nbsp;<input type="text" class="ai sm" id="q21" oninput="upd()"> better than the other monkey species can.</p>
+          <p><strong>24</strong>&nbsp; The dingo replaced the <input type="text" class="ai sm" id="q24" oninput="upd()"> as the main predatory animal in Australia.</p>
+          <p><strong>25</strong>&nbsp; Foxes and cats are more likely to hunt native animals when there are fewer <input type="text" class="ai sm" id="q25" oninput="upd()">.</p>
+          <p><strong>26</strong>&nbsp; Australian animals reproduce at a slow rate as a natural way of avoiding <input type="text" class="ai sm" id="q26" oninput="upd()">.</p>
         </div>
-      </div>
-      <div class="qblock">
-        <p class="qnum-head"><em>Questions 22–26</em></p>
-        <p class="qinst">Look at the following features and the list of locations below. Match each feature with the correct location, <strong>A–C</strong>. <em>NB You may use any letter more than once.</em></p>
-        <div class="fbox"><strong>List of Locations</strong>
-          <div class="frow"><span class="fkey">A</span> Hacienda La Pacífica</div>
-          <div class="frow"><span class="fkey">B</span> Santa Rosa National Park</div>
-          <div class="frow"><span class="fkey">C</span> Cholula Cacao Farm</div>
-        </div>
-        <div style="overflow-x:auto"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th></tr></thead><tbody>
-        <tr><td class="mx-stmt"><span class="mx-num">22</span> It has seen the return of native tree species.</td><td><label class="mx-cell"><input type="radio" name="q22" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="C" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">23</span> It supports only one species of native monkey.</td><td><label class="mx-cell"><input type="radio" name="q23" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="C" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">24</span> Its monkey population helps the agriculture of the area.</td><td><label class="mx-cell"><input type="radio" name="q24" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q24" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q24" value="C" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">25</span> It is home to populations of all three local monkey species.</td><td><label class="mx-cell"><input type="radio" name="q25" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q25" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q25" value="C" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">26</span> Its landscape was altered by the construction of a transport link.</td><td><label class="mx-cell"><input type="radio" name="q26" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q26" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q26" value="C" onchange="upd()"></label></td></tr>
-        </tbody></table></div>
       </div>
     </div><!-- /qs2 -->
     <div class="qsec" id="qs3">
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 27–30</em></p>
+        <p class="qnum-head"><em>Questions 27&ndash;31</em></p>
         <p class="qinst">Do the following statements agree with the claims of the writer in Reading Passage 3?<br>Write <strong>YES</strong> / <strong>NO</strong> / <strong>NOT GIVEN</strong></p>
-        <div class="qitem"><p class="qprompt"><strong>27.</strong>&nbsp; Most people naturally understand how innovation happens.</p>
+        <div class="qitem"><p class="qprompt"><strong>27.</strong>&nbsp; The Pacific islands were uninhabited when migrants arrived by sea from Southeast Asia.</p>
           <div class="rgroup" id="rg27">
             <label class="rlabel"><input type="radio" name="q27" value="YES" onchange="upd()"> YES</label>
             <label class="rlabel"><input type="radio" name="q27" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q27" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>28.</strong>&nbsp; The word 'innovation' is overused in business in New Zealand.</p>
+            <label class="rlabel"><input type="radio" name="q27" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>28.</strong>&nbsp; Andrew Sharp was the first person to write about the migrants to the islands.</p>
           <div class="rgroup" id="rg28">
             <label class="rlabel"><input type="radio" name="q28" value="YES" onchange="upd()"> YES</label>
             <label class="rlabel"><input type="radio" name="q28" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q28" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>29.</strong>&nbsp; There are many interpretations of what innovation means in business, according to one global study.</p>
+            <label class="rlabel"><input type="radio" name="q28" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>29.</strong>&nbsp; Andrew Sharp believed migratory voyages were based more on luck than skill.</p>
           <div class="rgroup" id="rg29">
             <label class="rlabel"><input type="radio" name="q29" value="YES" onchange="upd()"> YES</label>
             <label class="rlabel"><input type="radio" name="q29" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q29" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>30.</strong>&nbsp; Research and development projects have a higher priority today than in the past.</p>
+            <label class="rlabel"><input type="radio" name="q29" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>30.</strong>&nbsp; Despite being controversial, Andrew Sharp's research had positive results.</p>
           <div class="rgroup" id="rg30">
             <label class="rlabel"><input type="radio" name="q30" value="YES" onchange="upd()"> YES</label>
             <label class="rlabel"><input type="radio" name="q30" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q30" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-      </div>
-      <div class="qblock">
-        <p class="qnum-head"><em>Questions 31–35</em></p>
-        <p class="qinst">Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>
-        <div class="qitem"><p class="qprompt"><strong>31.</strong>&nbsp; What is the writer doing in the third paragraph?</p>
+            <label class="rlabel"><input type="radio" name="q30" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>31.</strong>&nbsp; Edwin Doran disagreed with the findings of Lewis's research.</p>
           <div class="rgroup" id="rg31">
-            <label class="rlabel"><input type="radio" name="q31" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; criticising the conclusions of one publication</label>
-            <label class="rlabel"><input type="radio" name="q31" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; praising the contribution of a famous inventor</label>
-            <label class="rlabel"><input type="radio" name="q31" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; dismissing one common idea about innovation</label>
-            <label class="rlabel"><input type="radio" name="q31" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; suggesting that innovation changes over time</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>32.</strong>&nbsp; What is the writer's main point in the fourth paragraph?</p>
-          <div class="rgroup" id="rg32">
-            <label class="rlabel"><input type="radio" name="q32" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; Each industry will innovate in its own way.</label>
-            <label class="rlabel"><input type="radio" name="q32" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; There are pros and cons to strong leaders.</label>
-            <label class="rlabel"><input type="radio" name="q32" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; Some individuals are more innovative than others.</label>
-            <label class="rlabel"><input type="radio" name="q32" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; Leadership requires building teams that work together.</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>33.</strong>&nbsp; The writer refers to Gutenberg's printing press in order to</p>
-          <div class="rgroup" id="rg33">
-            <label class="rlabel"><input type="radio" name="q33" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; compare how two different innovations developed.</label>
-            <label class="rlabel"><input type="radio" name="q33" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; illustrate an exception to his point about innovation.</label>
-            <label class="rlabel"><input type="radio" name="q33" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; show why one approach to innovation was controversial.</label>
-            <label class="rlabel"><input type="radio" name="q33" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; give an example of a general rule about innovation.</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>34.</strong>&nbsp; What is the writer's main point in the seventh paragraph?</p>
-          <div class="rgroup" id="rg34">
-            <label class="rlabel"><input type="radio" name="q34" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; Companies should cooperate to turn ideas into products.</label>
-            <label class="rlabel"><input type="radio" name="q34" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; A company tends to make profits from its own innovations.</label>
-            <label class="rlabel"><input type="radio" name="q34" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; Science and business can often have common goals.</label>
-            <label class="rlabel"><input type="radio" name="q34" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; Competition between businesses produces innovation.</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>35.</strong>&nbsp; According to the writer, companies like Previously Unavailable</p>
-          <div class="rgroup" id="rg35">
-            <label class="rlabel"><input type="radio" name="q35" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; have published valuable research about innovation.</label>
-            <label class="rlabel"><input type="radio" name="q35" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; help companies recruit people with skills in innovation.</label>
-            <label class="rlabel"><input type="radio" name="q35" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; run university courses teaching innovation skills.</label>
-            <label class="rlabel"><input type="radio" name="q35" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; can be hired to give businesses advice about innovation.</label>
-          </div></div>
+            <label class="rlabel"><input type="radio" name="q31" value="YES" onchange="upd()"> YES</label>
+            <label class="rlabel"><input type="radio" name="q31" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q31" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 36–40</em></p>
-        <p class="qinst">Complete each sentence with the correct ending, <strong>A–G</strong>, below.</p>
-<p class="dnd-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9l-3 3 3 3"/><path d="M9 5l3-3 3 3"/><path d="M15 19l-3 3-3-3"/><path d="M19 9l3 3-3 3"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/></svg>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p>
+        <p class="qnum-head"><em>Questions 32&ndash;36</em></p>
+        <p class="qinst">Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>
+        <div class="qitem"><p class="qprompt"><strong>32.</strong>&nbsp; David Lewis's research was different because</p>
+          <div class="rgroup" id="rg32">
+            <label class="rlabel"><input type="radio" name="q32" value="A" onchange="upd()"> <strong>A</strong>&nbsp; he observed traditional navigators at work.</label>
+            <label class="rlabel"><input type="radio" name="q32" value="B" onchange="upd()"> <strong>B</strong>&nbsp; he conducted test voyages using his own yacht.</label>
+            <label class="rlabel"><input type="radio" name="q32" value="C" onchange="upd()"> <strong>C</strong>&nbsp; he carried no modern instruments on test voyages.</label>
+            <label class="rlabel"><input type="radio" name="q32" value="D" onchange="upd()"> <strong>D</strong>&nbsp; he spoke the same language as the islanders he sailed with.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>33.</strong>&nbsp; What did David Lewis's research discover about traditional navigators?</p>
+          <div class="rgroup" id="rg33">
+            <label class="rlabel"><input type="radio" name="q33" value="A" onchange="upd()"> <strong>A</strong>&nbsp; They used the sun and moon to find their position.</label>
+            <label class="rlabel"><input type="radio" name="q33" value="B" onchange="upd()"> <strong>B</strong>&nbsp; They could not sail further than about 1,000 nautical miles.</label>
+            <label class="rlabel"><input type="radio" name="q33" value="C" onchange="upd()"> <strong>C</strong>&nbsp; They knew which direction they were sailing in.</label>
+            <label class="rlabel"><input type="radio" name="q33" value="D" onchange="upd()"> <strong>D</strong>&nbsp; They were able to drift for long distances.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>34.</strong>&nbsp; What are we told about Edwin Doran's research?</p>
+          <div class="rgroup" id="rg34">
+            <label class="rlabel"><input type="radio" name="q34" value="A" onchange="upd()"> <strong>A</strong>&nbsp; Data were collected after the canoes had returned to land.</label>
+            <label class="rlabel"><input type="radio" name="q34" value="B" onchange="upd()"> <strong>B</strong>&nbsp; Canoe characteristics were recorded using modern instruments.</label>
+            <label class="rlabel"><input type="radio" name="q34" value="C" onchange="upd()"> <strong>C</strong>&nbsp; Research was conducted in the most densely populated regions.</label>
+            <label class="rlabel"><input type="radio" name="q34" value="D" onchange="upd()"> <strong>D</strong>&nbsp; Navigators were not allowed to see the instruments Doran used.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>35.</strong>&nbsp; Which of the following did Steven Horvath discover during his research?</p>
+          <div class="rgroup" id="rg35">
+            <label class="rlabel"><input type="radio" name="q35" value="A" onchange="upd()"> <strong>A</strong>&nbsp; Canoe design was less important than human strength.</label>
+            <label class="rlabel"><input type="radio" name="q35" value="B" onchange="upd()"> <strong>B</strong>&nbsp; New research methods had to be developed for use in canoes.</label>
+            <label class="rlabel"><input type="radio" name="q35" value="C" onchange="upd()"> <strong>C</strong>&nbsp; Navigators became very tired on the longest voyages.</label>
+            <label class="rlabel"><input type="radio" name="q35" value="D" onchange="upd()"> <strong>D</strong>&nbsp; Human energy may have been used to assist sailing canoes.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>36.</strong>&nbsp; What is the writer's opinion of P Wall Garrard's research?</p>
+          <div class="rgroup" id="rg36">
+            <label class="rlabel"><input type="radio" name="q36" value="A" onchange="upd()"> <strong>A</strong>&nbsp; He is disappointed it was conducted in the laboratory.</label>
+            <label class="rlabel"><input type="radio" name="q36" value="B" onchange="upd()"> <strong>B</strong>&nbsp; He is impressed by the originality of the techniques used.</label>
+            <label class="rlabel"><input type="radio" name="q36" value="C" onchange="upd()"> <strong>C</strong>&nbsp; He is surprised it was used to help linguists with their research.</label>
+            <label class="rlabel"><input type="radio" name="q36" value="D" onchange="upd()"> <strong>D</strong>&nbsp; He is concerned that the islands studied are long distances apart.</label></div></div>
+      </div>
+      <div class="qblock">
+        <p class="qnum-head"><em>Questions 37&ndash;40</em></p>
+        <p class="qinst">Complete each sentence with the correct ending, <strong>A&ndash;F</strong>, below.</p>
+<p class="dnd-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9l-3 3 3 3"/><path d="M9 5l3-3 3 3"/><path d="M15 19l-3 3-3-3"/><path d="M19 9l3 3-3 3"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/></svg>Drag an ending into each gap (or tap an ending, then tap a gap). Tap &times; to clear.</p>
         <div class="se-list">
-          <div class="se-row"><span class="se-num">36</span><span class="se-stem">A book about the life and work of Thomas Edison suggests that</span><span class="dzone dz-sm" id="q36" data-q="36"></span></div>
-          <div class="se-row"><span class="se-num">37</span><span class="se-stem">People who have worked for CEOs like Steve Jobs claim that</span><span class="dzone dz-sm" id="q37" data-q="37"></span></div>
-          <div class="se-row"><span class="se-num">38</span><span class="se-stem">Critics of Tim Harford's 2011 TED Talk claimed that</span><span class="dzone dz-sm" id="q38" data-q="38"></span></div>
-          <div class="se-row"><span class="se-num">39</span><span class="se-stem">Steven Johnson's 'hummingbird effect' proposes that</span><span class="dzone dz-sm" id="q39" data-q="39"></span></div>
-          <div class="se-row"><span class="se-num">40</span><span class="se-stem">Kode Biotech CEO Steve Henry believes that</span><span class="dzone dz-sm" id="q40" data-q="40"></span></div>
+          <div class="se-row"><span class="se-num">37</span><span class="se-stem">One limitation in the information produced by all of this research is that it</span><span class="dzone dz-sm" id="q37" data-q="37"></span></div>
+          <div class="se-row"><span class="se-num">38</span><span class="se-stem">The best thing about this type of research</span><span class="dzone dz-sm" id="q38" data-q="38"></span></div>
+          <div class="se-row"><span class="se-num">39</span><span class="se-stem">The most important achievement of traditional navigators</span><span class="dzone dz-sm" id="q39" data-q="39"></span></div>
+          <div class="se-row"><span class="se-num">40</span><span class="se-stem">The migration of people from Asia to the Pacific</span><span class="dzone dz-sm" id="q40" data-q="40"></span></div>
         </div>
         <div class="se-bank-label">Endings</div>
-        <div class="wbank se-bank" id="wbank36" data-show="letter">
-          <div class="dchip" draggable="true" data-letter="A" data-word="innovators do not get enough credit for their own ideas."><span class="wk">A</span> innovators do not get enough credit for their own ideas.</div>
-          <div class="dchip" draggable="true" data-letter="B" data-word="innovation may influence a completely different field."><span class="wk">B</span> innovation may influence a completely different field.</div>
-          <div class="dchip" draggable="true" data-letter="C" data-word="expressing what everyone already knows is pointless."><span class="wk">C</span> expressing what everyone already knows is pointless.</div>
-          <div class="dchip" draggable="true" data-letter="D" data-word="innovation can be enhanced through collaboration with similar companies."><span class="wk">D</span> innovation can be enhanced through collaboration with similar companies.</div>
-          <div class="dchip" draggable="true" data-letter="E" data-word="innovation requires a great deal of hard work."><span class="wk">E</span> innovation requires a great deal of hard work.</div>
-          <div class="dchip" draggable="true" data-letter="F" data-word="copying ideas that already exist is not true innovation."><span class="wk">F</span> copying ideas that already exist is not true innovation.</div>
-          <div class="dchip" draggable="true" data-letter="G" data-word="certain personality types can limit innovation."><span class="wk">G</span> certain personality types can limit innovation.</div>
+        <div class="wbank se-bank" id="wbank37" data-show="letter">
+          <div class="dchip" draggable="true" data-letter="A" data-word="was the variety of experimental techniques used."><span class="wk">A</span> was the variety of experimental techniques used.</div>
+          <div class="dchip" draggable="true" data-letter="B" data-word="was not of interest to young islanders today."><span class="wk">B</span> was not of interest to young islanders today.</div>
+          <div class="dchip" draggable="true" data-letter="C" data-word="was not conclusive evidence in support of a single theory."><span class="wk">C</span> was not conclusive evidence in support of a single theory.</div>
+          <div class="dchip" draggable="true" data-letter="D" data-word="was being able to change their practices when necessary."><span class="wk">D</span> was being able to change their practices when necessary.</div>
+          <div class="dchip" draggable="true" data-letter="E" data-word="was the first time humans intentionally crossed an ocean."><span class="wk">E</span> was the first time humans intentionally crossed an ocean.</div>
+          <div class="dchip" draggable="true" data-letter="F" data-word="was the speed with which it was conducted."><span class="wk">F</span> was the speed with which it was conducted.</div>
         </div>
       </div>
     </div><!-- /qs3 -->
@@ -587,24 +563,24 @@ mark.uhl:hover{background:#FDE047}
 <script>
 // ── ANSWERS ──
 const CA = {
-  1:'FALSE', 2:'NOT GIVEN', 3:'NOT GIVEN', 4:'TRUE', 5:'FALSE', 6:'TRUE',
-  7:['tooth'], 8:['grass'], 9:['oil'], 10:['vinegar'], 11:['season'], 12:['crawl'], 13:['colour','color'],
-  14:'C', 15:'G', 16:'C', 17:'B',
-  18:['reproduction'], 19:['fruit'], 20:['toxins','poison'], 21:['drought'],
-  22:'B', 23:'A', 24:'C', 25:'B', 26:'A',
-  27:'NO', 28:'YES', 29:'YES', 30:'NOT GIVEN',
-  31:'C', 32:'B', 33:'D', 34:'A', 35:'D',
-  36:'E', 37:'G', 38:'C', 39:'B', 40:'D'
+  1:['location'], 2:['policies'], 3:['government'], 4:['incomes'], 5:['land'], 6:['suburban'],
+  7:'FALSE', 8:'TRUE', 9:'NOT GIVEN', 10:'FALSE', 11:'TRUE', 12:'NOT GIVEN', 13:'TRUE',
+  14:'B', 15:'D', 16:'C', 17:'B', 18:'F', 19:'A', 20:'D',
+  21:'D', 22:'A', 23:'B',
+  24:['Tasmanian tiger','tasmanian tiger'], 25:['rabbits'], 26:['overpopulation'],
+  27:'YES', 28:'NO', 29:'YES', 30:'YES', 31:'NOT GIVEN',
+  32:'A', 33:'C', 34:'B', 35:'D', 36:'B',
+  37:'C', 38:'A', 39:'D', 40:'E'
 };
 const CAL = {
-  1:'FALSE', 2:'NOT GIVEN', 3:'NOT GIVEN', 4:'TRUE', 5:'FALSE', 6:'TRUE',
-  7:'tooth', 8:'grass', 9:'oil', 10:'vinegar', 11:'season', 12:'crawl', 13:'colour',
-  14:'C', 15:'G', 16:'C', 17:'B',
-  18:'reproduction', 19:'fruit', 20:'toxins', 21:'drought',
-  22:'B', 23:'A', 24:'C', 25:'B', 26:'A',
-  27:'NO', 28:'YES', 29:'YES', 30:'NOT GIVEN',
-  31:'C', 32:'B', 33:'D', 34:'A', 35:'D',
-  36:'E', 37:'G', 38:'C', 39:'B', 40:'D'
+  1:'location', 2:'policies', 3:'government', 4:'incomes', 5:'land', 6:'suburban',
+  7:'FALSE', 8:'TRUE', 9:'NOT GIVEN', 10:'FALSE', 11:'TRUE', 12:'NOT GIVEN', 13:'TRUE',
+  14:'B', 15:'D', 16:'C', 17:'B', 18:'F', 19:'A', 20:'D',
+  21:'D', 22:'A', 23:'B',
+  24:'Tasmanian tiger', 25:'rabbits', 26:'overpopulation',
+  27:'YES', 28:'NO', 29:'YES', 30:'YES', 31:'NOT GIVEN',
+  32:'A', 33:'C', 34:'B', 35:'D', 36:'B',
+  37:'C', 38:'A', 39:'D', 40:'E'
 };
 
 // ── STATE ──
@@ -644,15 +620,15 @@ function showWelcomePopup() {
             <p style="margin:14px 0 6px;font-size:14px;opacity:0.96;">Prepared by <strong style="color:#fbbf24;">I. Bekhruz</strong></p>
             <p style="margin:0 0 18px;font-size:13px;opacity:0.82;">Follow for more authentic tests, tips &amp; daily practice 👇</p>
             <div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:12px 14px;margin-bottom:22px;text-align:left;">
-                <p style="margin:0;font-size:12.5px;line-height:1.5;opacity:0.95;">⚠️ <strong>Choose how you want to practise.</strong> <strong>Exam mode</strong> runs a 60-minute countdown that auto-submits at 0, just like the real IELTS test. <strong>Casual mode</strong> uses a count-up stopwatch, so you can finish whenever you like and still see how long you took.</p>
+                <p style="margin:0;font-size:12.5px;line-height:1.5;opacity:0.95;">🎯 <strong>Exam Mode</strong> runs a 60-minute countdown that auto-submits at zero — just like exam day. 🧘 <strong>Casual Mode</strong> counts your time up with no limit, so you can practise at your own pace.</p>
             </div>
-            <div style="display:flex;flex-direction:column;gap:10px;align-items:stretch;">
+            <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
                 <a href="https://t.me/bekhruzposts" target="_blank" style="display:inline-flex;align-items:center;gap:7px;background:#fff;color:#0f172a;text-decoration:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.3);">
                     <svg style="width:17px;height:17px;fill:#0f172a;" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
                     Join @bekhruzposts
                 </a>
-                <button id="examBtn" style="background:linear-gradient(90deg,#38bdf8,#0ea5e9);color:#052033;border:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;line-height:1.2;box-shadow:0 6px 18px rgba(0,0,0,0.25);">🎯 Exam mode<span style="font-weight:600;font-size:11px;opacity:.8;">60-minute timer &middot; auto-submit at 0</span></button>
-                <button id="casualBtn" style="background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(56,189,248,0.4);font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;line-height:1.2;">🧘 Casual mode<span style="font-weight:600;font-size:11px;opacity:.8;">stopwatch &middot; finish whenever you like</span></button>
+                <button id="examBtn" style="background:linear-gradient(90deg,#38bdf8,#0ea5e9);color:#052033;border:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;">🎯 Exam Mode</button>
+                <button id="casualBtn" style="background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(56,189,248,0.4);font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;">🧘 Casual Mode</button>
             </div>
         </div>`;
     overlay.appendChild(box);
@@ -753,38 +729,27 @@ function upd(){
   document.getElementById('cnt').textContent=tot+' of 40 answered';
 }
 
-// ── TIMER / STOPWATCH ──
-function fmt(s){const m=Math.floor(s/60),sec=s%60;return String(m).padStart(2,'0')+':'+String(sec).padStart(2,'0');}
-function startMode(m){
-  mode=m;
-  const badge=document.getElementById('mode-badge');
-  const d=document.getElementById('timer');
-  if(m==='exam'){
-    timerS=3600; elapsed=0;
-    d.textContent=fmt(timerS); d.title='Time remaining';
-    badge.textContent='⏳ Exam';
-    badge.style.cssText='display:inline-flex;align-items:center;font-size:11px;font-weight:700;padding:4px 10px;border-radius:9999px;background:#fee2e2;color:#b91c1c;border:1px solid #fecaca;';
-  } else {
-    timerS=3600; elapsed=0;
-    d.textContent=fmt(0); d.title='Time elapsed (stopwatch)'; d.classList.remove('warn');
-    badge.textContent='🧘 Casual';
-    badge.style.cssText='display:inline-flex;align-items:center;font-size:11px;font-weight:700;padding:4px 10px;border-radius:9999px;background:#0f172a;color:#fbbf24;border:1px solid #1e293b;';
-  }
-}
+// ── TIMER ──
 function toggleTimer(){
   if(!tRun){tRun=true;tInt=setInterval(tick,1000);}
+}
+function fmt(s){const m=Math.floor(s/60);s=s%60;return String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');}
+function startMode(m){
+  mode=m;
+  const d=document.getElementById('timer'), b=document.getElementById('mode-badge');
+  if(m==='casual'){ elapsed=0; d.textContent='00:00'; d.classList.remove('warn');
+    if(b){b.textContent='\uD83E\uDDD8 Casual'; b.style.cssText='display:inline-flex;align-items:center;gap:4px;margin-left:8px;background:#0f172a;color:#fbbf24;font-size:11px;font-weight:800;padding:3px 11px;border-radius:9999px;';} }
+  else { d.textContent=fmt(timerS);
+    if(b){b.textContent='\uD83C\uDFAF Exam'; b.style.cssText='display:inline-flex;align-items:center;gap:4px;margin-left:8px;background:#DC2626;color:#fff;font-size:11px;font-weight:800;padding:3px 11px;border-radius:9999px;';} }
 }
 function tick(){
   elapsed++;
   const d=document.getElementById('timer');
-  if(mode==='exam'){
-    timerS--; if(timerS<0)timerS=0;
-    d.textContent=fmt(timerS);
-    d.classList.toggle('warn',timerS<=300&&timerS>0);
-    if(timerS<=0){clearInterval(tInt);tRun=false;if(!checked){timeExpired=true;doCheck();}return;}
-  } else {
-    d.textContent=fmt(elapsed);
-  }
+  if(mode==='casual'){ d.textContent=fmt(elapsed); return; }
+  if(timerS<=0){clearInterval(tInt);tRun=false;if(!checked){timeExpired=true;doCheck();}return;}
+  timerS--;
+  d.textContent=fmt(timerS);
+  d.classList.toggle('warn',timerS<=300&&timerS>0);
 }
 // ── FULLSCREEN ──
 function toggleFullscreen(){
@@ -1028,10 +993,8 @@ function showResults(){
       </div>
       <div class="res-hero-info">
         <div class="res-title">${titleTxt}</div>
-        <div style="display:flex;gap:6px;flex-wrap:wrap;">
-          <div class="res-band">Band ${band(lastScore)}<em>estimated</em></div>
-          <div class="res-band">⏱ ${fmt(elapsed)}<em>${mode==='exam'?'time used':'your time'}</em></div>
-        </div>
+        <div class="res-band">Band ${band(lastScore)}<em>estimated</em></div>
+        <div class="res-band">⏱ ${fmt(elapsed)}<em>${mode==='exam'?'time used':'your time'}</em></div>
       </div>
     </div>
     <div class="res-parts">
@@ -1052,47 +1015,46 @@ function closeResults(){document.getElementById('res-ov').classList.remove('show
 
 // ── PASSAGE HIGHLIGHTS ──
 const P1H=[
-  {q:1,t:"it is also one of the few traditions that have continued without interruption since before the europeans settled"},
-  {q:4,t:"men often help women collect the shells"},
-  {q:5,t:"would not have risked getting snagged by long necklaces"},
-  {q:6,t:"demonstrated by their inclusion in many national and international museum, gallery and private collections"},
-  {q:7,t:"tool consisting of a jawbone and sharpened tooth of a kangaroo"},
-  {q:8,t:"rubbed in grass to remove their outer coating"},
-  {q:9,t:"later treated with penguin or muttonbird oil"},
-  {q:10,t:"acidic liquids such as vinegar to clean the shells"},
-  {q:11,t:"shell collection has its season"},
-  {q:12,t:"crawl along on our hands and knees to get the shells"},
-  {q:13,t:"too brittle and they lose their colour"}
+  {q:1,t:"the specific location of each of the food stores"},
+  {q:2,t:"in forming future policies about what kind of food should be sold"},
+  {q:3,t:"there is no good government map"},
+  {q:4,t:"who receive minimal incomes for the work they do"},
+  {q:5,t:"can't afford the amount of land required for their stores"},
+  {q:6,t:"competition from suburban supermarkets"},
+  {q:7,t:"run by a local core of five volunteers who have worked on the project"},
+  {q:10,t:"hasn't caught them much local or critical attention yet"},
+  {q:11,t:"she would like to see price data for healthy products"},
+  {q:13,t:"warmer days in the spring will draw out fresh volunteers"}
 ];
 const P2H=[
-  {q:14,t:"produce much lower levels of toxin than do well-established, old-growth trees"},
-  {q:15,t:"hopes that farmers will begin to see wild monkeys, which could include potential ecotourism projects"},
-  {q:16,t:"keep their systems primed by sampling a variety of plants and then focusing on a small number"},
-  {q:17,t:"tropical dry forests covered most of central america, but by the 1980s less than two percent remained undisturbed"},
-  {q:18,t:"howler reproduction is faster than that of other native monkey species"},
-  {q:19,t:"they eat fruit when it is available but, unlike capuchin and spider monkeys, do not depend on large areas"},
-  {q:20,t:"thrive on leaves loaded with toxins poisonous substances"},
-  {q:21,t:"which have suffered during the long, ongoing drought in the area"},
-  {q:22,t:"species of indigenous trees which had been absent for decades began to invade the abandoned pastures"},
-  {q:23,t:"white-faced capuchin monkeys and spider monkeys were once common in this area, too, but vanished"},
-  {q:24,t:"monkeys bring underappreciated benefits to such plantations, dispersing the seeds of fruits"},
-  {q:25,t:"capuchins were the first to begin using the reborn forests, followed by howlers"},
-  {q:26,t:"vanished after the pan-american highway was built nearby in the 1950s"}
+  {q:14,t:"fences have been used in an attempt to keep them away from livestock"},
+  {q:15,t:"dingoes will kill them simply to lessen competition"},
+  {q:16,t:"rabbits provide huge prey base for two other introduced species"},
+  {q:17,t:"asian sailors introduced dingoes to australia"},
+  {q:18,t:"some of the highest rates of calf predation occurred in areas that had been baited"},
+  {q:19,t:"each piece laced with poison; this practice is known as baiting"},
+  {q:20,t:"dingo packs live in large, stable territories and generally have only one fertile"},
+  {q:21,t:"more likely to catch small native animals instead"},
+  {q:22,t:"graziers' livelihoods are threatened when dingoes prey on cattle"},
+  {q:23,t:"they have contributed to few, if any, extinctions"},
+  {q:24,t:"as the tasmanian tiger disappeared completely from australia"},
+  {q:25,t:"rabbit numbers are significantly reduced"},
+  {q:26,t:"adapt to prevent overpopulation in the arid environment"}
 ];
 const P3H=[
-  {q:27,t:"the majority of us have little comprehension of the processes that actually lead to innovation"},
-  {q:28,t:"in company boardrooms across new zealand, the term is heard far too frequently"},
-  {q:29,t:"often defining innovation in their own way"},
-  {q:31,t:"reject the false assumption that innovation is just a moment of brilliance waiting to strike"},
-  {q:32,t:"his egotistical behaviour could have undesirable consequences"},
-  {q:33,t:"progress in a specific area or discipline can end up triggering small but significant developments elsewhere"},
-  {q:34,t:"collaborate with similar nano-technology businesses, which take its innovations and develop them into commodities"},
-  {q:35,t:"lease a team of innovation experts on a short-term basis to client organisations to assist with conceiving, developing"},
-  {q:36,t:"edison's own inspiration usually resulted from laborious experimentation"},
-  {q:37,t:"demanding behaviour affects sickness rates and group morale, which in turn may squash creativity"},
-  {q:38,t:"some commentators have claimed harford's ted talk was not persuasive, because it was stating the obvious"},
-  {q:39,t:"progress in a specific area or discipline can end up triggering small but significant developments elsewhere entirely"},
-  {q:40,t:"collaborate with similar nano-technology businesses, which take its innovations and develop them into commodities"}
+  {q:27,t:"had no human population until ancestors of today's islanders sailed from southeast asia"},
+  {q:28,t:"the romantic vision of some early twentieth-century writers"},
+  {q:29,t:"more dependent on good fortune by drifting canoes"},
+  {q:30,t:"it did spark renewed interest in the topic and precipitated valuable new research"},
+  {q:32,t:"to contact those men who still find their way at sea using traditional methods"},
+  {q:33,t:"would have known which course to steer by memorizing which stars rose and set"},
+  {q:34,t:"employed the latest electronic instrumentation"},
+  {q:35,t:"paddles, or perhaps long oars, could indeed have propelled"},
+  {q:36,t:"clever adaptation of computer simulation techniques pioneered in other disciplines"},
+  {q:37,t:"experiments such as these cannot categorically confirm or negate a hypothesis"},
+  {q:38,t:"the strength of this research lay in the range of methodologies employed"},
+  {q:39,t:"it was this adaptability was their greatest accomplishment"},
+  {q:40,t:"able to view the ocean as an avenue, not a barrier, to communication before any other race"}
 ];
 
 function applyHL2(pEl, items){
@@ -1196,6 +1158,27 @@ document.addEventListener('keydown',e=>{
   if(e.key==='ArrowLeft')prevQ();
   if(e.key==='ArrowRight')nextQ();
 });
+
+// ── CHOOSE-TWO multiple choice (q20/q21) ──
+function mc2upd(box){
+  var base=Number(box.dataset.base);
+  var boxes=[].slice.call(document.querySelectorAll('.mc2box[data-base="'+base+'"]'));
+  if(boxes.filter(function(b){return b.checked;}).length>2){ box.checked=false; return; }
+  var vals=boxes.filter(function(b){return b.checked;}).map(function(b){return b.value;});
+  document.getElementById('q'+base).value=vals[0]||'';
+  document.getElementById('q'+(base+1)).value=vals[1]||'';
+  upd();
+}
+function mc2review(){
+  document.querySelectorAll('.mc2box').forEach(function(b){
+    var base=Number(b.dataset.base);
+    var correct=[].concat(CA[base]).concat(CA[base+1]);
+    var lb=b.closest('label'); if(!lb)return;
+    if(correct.indexOf(b.value)>=0) lb.classList.add('ok');
+    else if(b.checked) lb.classList.add('bad');
+  });
+}
+(function(){ if(typeof doCheck==='function'){ var _d=doCheck; doCheck=function(){ _d.apply(this,arguments); try{mc2review();}catch(e){} }; } })();
 </script>
 </body>
 </html>

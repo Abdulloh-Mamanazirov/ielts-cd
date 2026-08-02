@@ -1,0 +1,455 @@
+{
+  "slug": "listening-volume-3-test-2",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/test-2_202606/test%202.m4a",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 3, Test 2",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Temporary Patient Record Form</div><p>Name: Peter Smith <em>(example)</em></p><p>Street address: {{1}}</p><p>Suburb: {{2}}</p><p>Phone number: {{3}}</p><p>Details of injury</p><p>Sport: Tennis &nbsp;·&nbsp; Type of injury: sprained {{4}}</p><p>Date of injury: {{5}}</p><p>Previous treatment and current problems</p><p>The patient's own doctor advised treatment with {{6}}. The patient is unable to {{7}} and is experiencing pain in his {{8}} at night, which is affecting his sleep.</p><p>Advice given</p><ul><li>Stop using the {{9}}.</li><li>Do regular {{10}} at home.</li></ul></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16 <span style=\"font-weight:400;\">(Gisborne, New Zealand)</span></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;The announcer says that the main topic of today's talk will be Gisborne's",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "economy"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "history"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "tourism"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;The Maori name for the Gisborne region signifies",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "dangerous journey"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "east coast"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "sailing boat"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;Early exports from Gisborne came from its",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "farms"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "fisheries"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "forests"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;According to the speaker, what does Gisborne export to Asia nowadays?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "oranges and lemons"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "red and white grapes"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "seafood and shellfish"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;The Gisborne Summer Concert takes place in",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "an opera house"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a vineyard"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a Maori meeting house"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;On wet days in Gisborne the announcer recommends",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a cultural display in the museum"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a fashion show in the town hall"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a photography exhibition in the art gallery"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "disabled people"
+              },
+              {
+                "letter": "B",
+                "textHtml": "elderly people"
+              },
+              {
+                "letter": "C",
+                "textHtml": "recently married couples"
+              },
+              {
+                "letter": "D",
+                "textHtml": "pregnant women"
+              },
+              {
+                "letter": "E",
+                "textHtml": "secondary school children"
+              },
+              {
+                "letter": "F",
+                "textHtml": "young school children"
+              },
+              {
+                "letter": "G",
+                "textHtml": "young adults"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Hot Springs Reserve"
+              },
+              {
+                "number": 18,
+                "textHtml": "Mahia Peninsula"
+              },
+              {
+                "number": 19,
+                "textHtml": "Motu River Rafting"
+              },
+              {
+                "number": 20,
+                "textHtml": "Eden Woodlands Park"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 21–30</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>SUVs (Sports Utility Vehicles)</div><ul><li>Originally made for off-road driving (e.g. in remote areas).</li><li>Now widely used in {{21}}.</li></ul><p>Advantages</p><ul><li>Useful for {{22}} purposes.</li><li>Larger {{23}} capacity.</li><li>Suitable for towing large loads.</li></ul><p>Why popular in a wider market?</p><ul><li>Because of their image.</li><li>Seen as {{24}} by mothers.</li><li>Larger seating capacity.</li><li>Drivers prefer the {{25}}.</li></ul><p>Disadvantages</p><ul><li>SUVs can be {{26}} in urban centres because of their {{27}}.</li><li>Bodywork doesn't crumple in an accident.</li><li>Liable to {{28}} easily.</li></ul><p>How to limit use of SUVs</p><ul><li>Limit use to those people who need them (e.g. {{29}}).</li><li>Raise cost of {{30}} paid by SUV drivers.</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>The Influence of Children on Adult Diet</div><p>Background</p><ul><li>Obesity — mainly caused by bad eating habits and lack of exercise.</li></ul><p>National survey conclusions:</p><ul><li>Food consumption rose between 1971 and 2000.</li><li>Americans in general eat above the recommended amounts.</li><li>The age group that eat most fat is {{31}}.</li></ul><p>Family members living together show {{32}} levels of fat in their diet.</p><p>Methods &amp; procedures — Who?</p><ul><li>Adults aged 17–65 with children under 17.</li><li>Other variables: age, education, race, {{33}} and whether born overseas.</li><li>{{34}} held at Mobile Examination Centres.</li></ul><p>Results</p><p>Adults living with children are more likely to:</p><ul><li>eat more fat;</li><li>eat convenience food;</li><li>{{35}}.</li></ul><p>Reasons</p><ul><li>Parents have little {{36}}.</li><li>Children's preference for certain foods.</li><li>Inconvenience of making separate meals.</li></ul><p>Limitations of study</p><p>The study did not consider the effects of:</p><ul><li>the {{37}} of children in each family;</li><li>the {{38}} between the adults and children.</li></ul><p>Influence may decrease with {{39}}.</p><p>Conclusions and recommendations</p><ul><li>More research needed into above areas.</li><li>Research needed into how our {{40}} affect our diet.</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "95 cross street"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "walkley"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "4689 5324",
+          "46895324"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "knee"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "18th june",
+          "18 june",
+          "june 18",
+          "june 18th"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "ice pack",
+          "an ice pack"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "go upstairs"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "back"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "stick",
+          "walking stick"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "exercises",
+          "exercise"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "cities",
+          "city"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "commercial"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "engine"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "safe"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "higher seats",
+          "higher seat"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "harmful"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "weight"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "roll over",
+          "rollover"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "farmers",
+          "farmer"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "insurance"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "teenagers"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "similar"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "income"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "surveys",
+          "survey"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "drink milk"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "time"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "number"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "relationship"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "age"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "friends"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "slug": "listening-volume-4-test-1",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-40m-50s-audio-joiner.com_202607/mix_40m50s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 4, Test 1",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 1–6</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": ","
+              },
+              {
+                "letter": "B",
+                "textHtml": ","
+              },
+              {
+                "letter": "C",
+                "textHtml": "or"
+              },
+              {
+                "letter": "D",
+                "textHtml": ", next to Questions 1–6."
+              }
+            ],
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "sea view"
+              },
+              {
+                "number": 2,
+                "textHtml": "disabled access"
+              },
+              {
+                "number": 3,
+                "textHtml": "indoor play area"
+              },
+              {
+                "number": 4,
+                "textHtml": "choice of food"
+              },
+              {
+                "number": 5,
+                "textHtml": "private dining room"
+              },
+              {
+                "number": 6,
+                "textHtml": "group discount"
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 7–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><p>Things to do immediately</p><ul><li>Send a {{7}} to the Winchester Hotel</li><li>Make the {{8}}</li></ul><p>Things to do later</p><ul><li>Find out who needs help with {{9}}</li><li>Tell people not to bring any {{10}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>The game of curling</div><ul><li><strong>11</strong> &nbsp;The four players on the team are called the {{11}}, the Second, the Third and the Skip.</li><li><strong>12</strong> &nbsp;The length of ice on which curling is played is called the {{12}}.</li><li><strong>13</strong> &nbsp;The target area is called the {{13}}.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;The main pieces of equipment used are stones and brushes.</li><li><strong>14</strong> &nbsp;Scottish brushes are usually made from {{14}}.</li><li><strong>15</strong> &nbsp;One shoe needs to have a sole made of {{15}}.</li><li><strong>16</strong> &nbsp;The captain of the team often carries a {{16}}.</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "&nbsp;Montreal Curling Club is famous as",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the champion club of the local league."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the oldest sports club in the region."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the most influential club in winter sports."
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;The Caledonian Curling Club was formed in order to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "attract interest in the sport."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "train young players."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "fix regulations for the game."
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;In the 16<sup>th</sup> century, curling avoided being banned because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it was already so popular."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it was good training for battle."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it was only played by children."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;Early curling games in Canada used implements made of",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "local material."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "imported stone."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "cast iron."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;What does Josh think about Jackson Pollock's paintings?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They are easy to copy."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They are complex."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They are childish."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;The $5 painting was considered to be a fake because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it lacked documentation."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it was too cheap."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it featured the wrong colours."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What made the International Foundation for Art Research reject the $5 painting?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "what was on the back of the painting"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the type of paint used"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how the paint was applied"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What do Josh and Emily agree about art evaluation?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Only an experienced critic can evaluate a painting's authenticity."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Modern scientific methods have replaced the traditional approach."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Experts from the science and art worlds should work together."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Seracini used 25 to help make a model of the building."
+              },
+              {
+                "number": 26,
+                "textHtml": "Seracini used 26 to reveal different materials in the walls. He found the original architecture."
+              },
+              {
+                "number": 27,
+                "textHtml": "Seracini guessed that Da Vinci painted his masterpiece on the east wall, in a space that used to hold 27 ."
+              },
+              {
+                "number": 28,
+                "textHtml": "Seracini analysed the wall using 28 and discovered a second wall behind it."
+              },
+              {
+                "number": 29,
+                "textHtml": "Seracini hypothesised that the Da Vinci painting is still there on the original 29 wall."
+              },
+              {
+                "number": 30,
+                "textHtml": "Seracini is using 30 to prove his theory."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Sustainability</div><ul><li>Sustainability: term first used in 1987 by writers of United Nations report</li><li>Lecture aim: analysis of the {{31}} surrounding sustainability</li><li>Sustainable development: development that will meet the needs of both present and future {{32}}</li></ul><p>Myth 1:</p><ul><li>no mention of the {{33}} in original definition</li><li>original focus: poorer nations should have the same {{34}} to natural resources as richer nations — this would help them achieve better {{35}} conditions</li></ul><p>Myth 2: 'Green' vs Sustainable</p><ul><li>key difference: unlike 'green', 'sustainable' is not always associated with things that are natural</li><li>for the sustainability lobby, the key problem is finding {{36}} to develop technology</li><li>sustainability lobby is prepared to {{37}} nuclear energy</li></ul><p>Myth 3: Role of technology</p><ul><li>introduction of battery stations on {{38}} is an example of new business thinking, not new technology</li><li>agriculture: some farmers plant crops like sunflowers which don't use much water, unlike {{39}}</li><li>greater use of water is a result of changes in our {{40}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "deposit"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "invitations",
+          "invitation"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "transport"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "presents",
+          "present"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "lead"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "sheet"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "house"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "horse hair"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "rubber"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "stop watch",
+          "stopwatch"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "confusion"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "generations",
+          "generation"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "environment"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "right",
+          "rights"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "living"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "time"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "accept"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "roads",
+          "road"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "corn"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "diet"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

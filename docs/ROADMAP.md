@@ -19,20 +19,23 @@ without re-deriving anything.
 - **Marketing site** — home page and `/results`, design direction 1a.
 - **App screens** — navy sidebar with per-skill nav, dashboard with band
   history, test list with per-row state.
-- **Content** — the instructor's "@bekhruzposts" Volumes 1 and 2: forty tests
-  (twenty reading, twenty listening), converted and validated from
+- **Content** — the instructor's "@bekhruzposts" Volumes (four so far): each a
+  set of ten reading and ten listening, converted and validated from
   `_source-tests/`, all published. Two adapters in `scripts/convert/`
   (`bekhruz-reading.ts`, `bekhruz-listening.ts`) parse the two self-contained
-  HTML player templates by structure — every IELTS group type, both
-  answer-object shapes (`CA`/`PICK`, `correctAnswers`/`pickGroups`), and
-  roman-numbered matching-headings mapped to letters. The runner reads the
-  Volume from each filename, so slugs never collide and the next Volume drops in
-  by adding files. Listening audio arrives two ways — embedded as a base64 data
-  URL (extracted to an .mp3) or hot-linked from an external host (recorded as
+  HTML player templates by structure — every IELTS group type across every
+  spelling seen so far (both `CA`/`PICK` and `.mc2box`/`data-base` "choose two",
+  both `<input>` and paragraph-level `data-question`, roman matching-headings
+  mapped to letters), and both answer-object shapes on the listening side
+  (`correctAnswers`/`pickGroups`). The runner reads the skill, number and Volume
+  from anywhere in each (inconsistently named) file — "Real Exam" is filed as
+  Volume 4 — so slugs never collide and the next Volume drops in by adding
+  files. Listening audio arrives two ways — embedded as a base64 data URL
+  (extracted to an .mp3) or hot-linked from an external host (recorded as
   `audioSourceUrl`); `npm run audio:upload -- --all --publish` ingests both,
-  extracting or downloading as needed. The earlier one-off
-  Cambridge/Safarov/mock adapters and their tests were removed. Writing and
-  speaking are unchanged (see below).
+  extracting or downloading as needed, and carries on past a dead external link
+  rather than abandoning the batch. The earlier one-off Cambridge/Safarov/mock
+  adapters and their tests were removed. Writing and speaking are unchanged.
 
 - **Test editing** — `/admin/tests` has an inline **Edit** on each row for a
   test's shelf details (title, premium, duration) without a re-import, alongside

@@ -1,0 +1,572 @@
+{
+  "slug": "listening-volume-3-test-6",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-38m-11s-audio-joiner.com/mix_38m11s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 3, Test 6",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Accommodation request</div><ul><li>Example</li><li>Name: <strong><em>Anna Black</em></strong></li><li>Type of accommodation: a house</li><li>Preferred location: the {{1}} of the town</li><li>Facilities required: furnished property — with a {{2}}</li><li>Period of time required: one year</li><li>Start date of rental period: {{3}}</li><li>Present address: 56, Stone Street</li><li>Phone number: (mobile) 07942 326584</li><li>Reference from: her {{4}}</li><li>Maximum rent: £ {{5}} per month</li><li>Applicant's job: {{6}}</li></ul><p>Documents to be supplied</p><ul><li>ID check: applicant's passport</li><li>Credit check: a {{7}}</li></ul><p>Viewing arrangements</p><ul><li>Address of property: 33, {{8}} Street</li><li>Viewing day and time: Saturday 4 p.m.</li><li>To check: Is there a {{9}} in the house?</li><li>&nbsp; Is there a {{10}} nearby?</li></ul></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–14</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;The company is having this meeting about fire procedures because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "employees did badly in the last annual fire drill."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "there have been changes in the building layout."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "new staff have joined the company."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;There has been a recent upgrade to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the sprinkler system."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the fire extinguishers."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the alarm system."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;During the minor fire in January, some staff working in the factory",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "were unable to read fire notices."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "left fire doors open."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "were unwilling to start the fire alarm."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;In the fire in January, the problem with office staff was that they",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "refused to leave personal items behind."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "moved too slowly during the evacuation."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "did not move far away enough from the building."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": ","
+              },
+              {
+                "letter": "B",
+                "textHtml": "or"
+              },
+              {
+                "letter": "C",
+                "textHtml": ", for each aspect."
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "ensuring there are no obstacles in fire escape routes"
+              },
+              {
+                "number": 16,
+                "textHtml": "checking that fire doors are easily opened"
+              },
+              {
+                "number": 17,
+                "textHtml": "showing staff how to look after each other"
+              },
+              {
+                "number": 18,
+                "textHtml": "training staff to use fire extinguishers correctly"
+              },
+              {
+                "number": 19,
+                "textHtml": "checking that staff are aware of evacuation points"
+              },
+              {
+                "number": 20,
+                "textHtml": "checking that flammable liquids are properly stored"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "eats meat"
+              },
+              {
+                "letter": "B",
+                "textHtml": "communicates with its wings"
+              },
+              {
+                "letter": "C",
+                "textHtml": "is found in a variety of locations"
+              },
+              {
+                "letter": "D",
+                "textHtml": "feeds on a particular type of plant"
+              },
+              {
+                "letter": "E",
+                "textHtml": "sings to attract a mate"
+              },
+              {
+                "letter": "F",
+                "textHtml": "is endangered"
+              },
+              {
+                "letter": "G",
+                "textHtml": "is brightly coloured"
+              },
+              {
+                "letter": "H",
+                "textHtml": "avoids the ground"
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Australian crested pigeon"
+              },
+              {
+                "number": 22,
+                "textHtml": "Rock pigeon"
+              },
+              {
+                "number": 23,
+                "textHtml": "Black-banded pigeon"
+              },
+              {
+                "number": 24,
+                "textHtml": "Galapagos pigeon"
+              },
+              {
+                "number": 25,
+                "textHtml": "Nicobar pigeon"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "&nbsp;When people feed city pigeons, it causes them to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "breed more successfully."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "become overweight."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "get sick."
+                  }
+                ]
+              },
+              {
+                "number": 27,
+                "textHtml": "&nbsp;The Melbourne city council are tackling their pigeon problem by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "removing the pigeons from the city."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "scaring away pigeons."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "providing homes for the pigeons."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "&nbsp;Jennifer and Adam agree the second stage of the council scheme is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "expensive."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "cruel."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "ineffective."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "&nbsp;What method of pigeon control was most successful in the city of Basel?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "trapping the pigeons"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "educating the public"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "building nesting sites"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "&nbsp;Adam and Jennifer decide to do some more research on how pigeons can",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "affect our health."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "damage buildings."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "cause local flooding."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>The Lontar Palm</div><p>The tree</p><ul><li>grows on Roti, an Indonesian island</li><li>is known as the 'tree of life'</li><li>produces delicious juice</li><li>has a fruit resembling a {{31}} (female trees only)</li></ul><p>People climbing the trees</p><ul><li>fix {{32}} to the tree trunks to help them climb</li><li>keep their tools attached to a {{33}}</li><li>often own particular trees</li><li>contribute to the upkeep of the communal fence</li></ul><p>Using the juice</p><ul><li>it quickly becomes {{34}} if left unprocessed</li><li>a concentrated form of it is drunk in the rainy season</li><li>it can be made into sugary {{35}}</li></ul><p>Using other parts of the tree</p><p>The leaf is used:</p><ul><li>to make containers, bags and roofing</li><li>as garden {{36}}</li><li>for brightly decorated hats worn at a {{37}}</li><li>for a musical instrument which sounds like a {{38}}</li></ul><ul><li>The stalk is used to make {{39}}</li><li>The trunk is used in the construction of {{40}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "southeast",
+          "south-east",
+          "south east"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "washing machine",
+          "a washing machine"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "15th may",
+          "15 may",
+          "may 15",
+          "15th of may",
+          "fifteenth of may"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "employer",
+          "her employer"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "675"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "translator",
+          "a translator"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "bank statement",
+          "a bank statement"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "ainsworth"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "telephone",
+          "a telephone",
+          "phone"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "bus stop",
+          "a bus stop"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "coconut"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "stones"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "belt",
+          "a belt"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "sour"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "biscuits",
+          "biscuit"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "fertiliser",
+          "fertilizer"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "celebration",
+          "a celebration"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "harp",
+          "a harp"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "ropes",
+          "rope",
+          "roads"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "houses",
+          "house"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

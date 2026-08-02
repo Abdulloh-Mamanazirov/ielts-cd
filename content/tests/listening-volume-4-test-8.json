@@ -1,0 +1,595 @@
+{
+  "slug": "listening-volume-4-test-8",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-36m-44s-audio-joiner.com_202607/mix_36m44s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 4, Test 8",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–8</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Post Office — Package Delivery Form</div><ul><li><strong>Country of destination:</strong> USA</li><li><strong>Package to reach destination by:</strong> {{1}} at latest</li><li><strong>Service selected:</strong> {{2}} Express</li><li><strong>Sender — Name:</strong> Peter White</li><li>Address: {{3}}</li><li>Suburb: Lakeview</li><li><strong>Delivery to — Name:</strong> Anna {{4}}</li><li>Address: Apartment 228, {{5}}</li><li>Upper {{6}}</li><li>New York</li><li><strong>Contents:</strong> {{7}}</li><li>{{8}}</li></ul></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 9 and 10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Answer the questions below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><ul><li><strong>9</strong> &nbsp;What is the total cost of sending the package? &nbsp; ${{9}}</li><li><strong>10</strong> &nbsp;What is required in order to find a lost package? &nbsp; {{10}}</li></ul></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;Rob says the hotel is exceptional because of",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "its easy access to the airport."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "its unpolluted setting."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "its quiet location."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What is the price range for a standard room?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "$80–$145"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "$145–$210"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "$210–$285"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;All the bedrooms in the deluxe suites have",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "windows on two sides."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "mountain views."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a balcony."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;The hotel encourages families to stay by offering",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "rooms with connecting doors"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "childcare facilities."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "discounts at certain times of the year"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What does Rob say visitors can do in the Grill Room?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "listen to live music"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "have a full meal or a snack"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "see their food being cooked"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "Barn for horses"
+              },
+              {
+                "number": 17,
+                "textHtml": "Tennis courts"
+              },
+              {
+                "number": 18,
+                "textHtml": "Swimming pool"
+              },
+              {
+                "number": 19,
+                "textHtml": "Golf course"
+              },
+              {
+                "number": 20,
+                "textHtml": "Outdoor Facilities Manager's office"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;What source did Mike use for his definition?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a history textbook"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "an academic article"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a lecture handout"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;According to Mike and his tutor, what is the most important contribution of the internet to oral history?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the permanent preservation of recordings"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "an increase in student interest"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "wide access to the interviews by the public"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Mike says he chose his particular topic because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "he is a football fan."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "his father loves football."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "his friends encouraged him"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What does Mike say was his best source of information about the team?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "doing research in the local newspaper archives"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "speaking to the team manager"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "looking at materials in the local library"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;How did Mike find the former players he has arranged to interview?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "on the internet"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "in the team records"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "in the phone book"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "too unreliable"
+              },
+              {
+                "letter": "B",
+                "textHtml": "too short"
+              },
+              {
+                "letter": "C",
+                "textHtml": "too noisy"
+              },
+              {
+                "letter": "D",
+                "textHtml": "too long"
+              },
+              {
+                "letter": "E",
+                "textHtml": "too formal"
+              },
+              {
+                "letter": "F",
+                "textHtml": "too factual"
+              },
+              {
+                "letter": "G",
+                "textHtml": "too complicated"
+              },
+              {
+                "letter": "H",
+                "textHtml": "too vague"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "Questions drafted"
+              },
+              {
+                "number": 27,
+                "textHtml": "Time allotted"
+              },
+              {
+                "number": 28,
+                "textHtml": "Recording equipment used"
+              },
+              {
+                "number": 29,
+                "textHtml": "Subjects chosen"
+              },
+              {
+                "number": 30,
+                "textHtml": "Proposed report"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Plant Behaviour</div><p>Changing ideas</p><ul><li>Scientists once thought of plants as being {{31}} organisms</li><li>Now there is evidence that this is not true</li></ul><p>Recent studies</p><p>Great Lakes sea rocket</p><ul><li>Found on {{32}}</li><li>When near other plants, it normally produces extra {{33}} to compete for nutrients.</li><li>However, it behaves differently if it is related to the other plants</li></ul><p>Sagebrush and thornapple</p><ul><li>Recognise surrounding plants by the type of {{34}} that they reflect</li><li>Identification is possible because all plants have a particular {{35}}</li></ul><p>Dodder plant</p><ul><li>Is unable to produce {{36}}</li><li>Needs to feed off another plant to survive</li><li>Affects farmers' crops, e.g. alfalfa, {{37}} and citrus</li><li>Identifies suitable 'hosts' by detecting the {{38}} they give off</li><li>Moves in a {{39}} to check the environment, then grows towards the most suitable host</li></ul><p>Plant science</p><ul><li>Use of modern {{40}} provides evidence of plant behaviour</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "Friday"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "International"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "14 Mountain Road"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "Hillman"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "North Building"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "Park Avenue"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "6 books",
+          "books"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "photographs"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "98"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "an ID code",
+          "ID code"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "passive"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "beaches"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "roots"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "light"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "signature"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "sugar"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "potatoes"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "chemicals"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "circle"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "equipment"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

@@ -1,0 +1,593 @@
+{
+  "slug": "listening-volume-3-test-5",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-38m-34s-audio-joiner.com_20260628/mix_38m34s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 3, Test 5",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 1–8</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "&nbsp;The centre has enough accommodation for",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "18 people"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "20 people"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "38 people"
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "textHtml": "&nbsp;The meeting room is currently",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "unavailable"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "flooded"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "booked"
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "textHtml": "&nbsp;Visitors must tell the centre in advance if they want to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "use the centre's kitchen."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "have meals cooked for them."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "eat at restaurants outside."
+                  }
+                ]
+              },
+              {
+                "number": 4,
+                "textHtml": "&nbsp;All visitors on the tour of the farm can",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "get information about organic farming."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "help to feed the animals."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "watch a tractor demonstration."
+                  }
+                ]
+              },
+              {
+                "number": 5,
+                "textHtml": "&nbsp;On the survival course people have to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "learn to use a map."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "find their own food."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "run through woodland."
+                  }
+                ]
+              },
+              {
+                "number": 6,
+                "textHtml": "&nbsp;From the centre it is easy to walk to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Exmoor National Park."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the beach."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a cycling route."
+                  }
+                ]
+              },
+              {
+                "number": 7,
+                "textHtml": "&nbsp;If the weather is bad visitors can go to a",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "cinema."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "theatre."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "museum."
+                  }
+                ]
+              },
+              {
+                "number": 8,
+                "textHtml": "&nbsp;Groups who wish to stay at the centre must pay",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "part of the cost in advance."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "all of the cost in advance."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "all of the cost on arrival."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 9 and 10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Address</div><ul><li>Winsham Farm</li><li>{{9}} Rd</li><li>Near Sherborne</li><li>Postcode: {{10}}</li></ul></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><table class=\"q-table\"><tbody><tr><th>Vacation job</th><th>Main advantage</th><th>Main disadvantage</th><th>Recommendation</th></tr><tr><td>Stocktaking</td><td>{{11}}</td><td>Tiring</td><td>{{12}}</td></tr><tr><td>Office work</td><td>Air-conditioning</td><td>{{13}}</td><td>Choose a {{14}}</td></tr><tr><td>Theme park attendant</td><td>{{15}}</td><td>Rude customers</td><td>{{16}}</td></tr></tbody></table></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "&nbsp;Peter learned about the job",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "from a college friend."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "on the computer."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "from a student job centre."
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;Peter mainly enjoyed the job because it was",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "easy."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "challenging."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "unusual."
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;The job's most interesting aspect was",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "learning about the environment."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "working with children."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "caring for the animals."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;Peter has decided that next vacation he",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "won't take a job."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "will work at the zoo."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "will work elsewhere."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 21 and 22</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div>Reasons for having Study Syndicates</div><ul><li>teaching one another is a good way to learn</li><li>it gives the opportunity to {{21}}</li><li>shared reading means fuller notes</li><li>you can do {{22}}</li></ul></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 23–25</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Plan for Study Syndicate</div><table class=\"q-table\"><tbody><tr><th>Date</th><th>Geology topic</th><th>Name of presenter</th></tr><tr><td>9th May</td><td>{{23}}</td><td>Bob</td></tr><tr><td>{{24}}</td><td>glaciated areas</td><td>Andy</td></tr><tr><td>23rd May</td><td>rock formation</td><td>Helen and John</td></tr><tr><td>{{25}}</td><td>volcanoes</td><td>John</td></tr></tbody></table></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><ul><li>Presentations should last for {{26}}</li><li>( plus time for {{27}} )</li></ul><p>Sources of information</p><ul><li>bibliography</li><li>library books</li><li>{{28}}</li><li>{{29}}</li></ul><p>For the presentations, use:</p><ul><li>overhead projector</li><li>whiteboard</li><li>{{30}}</li></ul></div>",
+            "maxWords": 4
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div>Health on the Night Shift</div><p>Background</p><ul><li>{{31}} in number of night workers because of 24-hour shopping / services</li><li>need to examine effects of changing work and sleep habits</li><li>US and British research found these lead to health problems</li></ul><p>Main causes</p><ul><li><strong>A)</strong> {{32}}</li><li>– regulates daily life</li><li>– connected to behavioural patterns and cycles of {{33}} and ......</li><li>– programmes us to be awake and asleep at certain times</li><li><strong>B)</strong> Sleep debt</li><li>– impossible to get enough sleep during daytime</li><li><strong>C)</strong> {{34}}</li><li>– different working / sleeping times → 'dislocation'</li></ul><p>Effects</p><ul><li><strong>A)</strong> Physical</li><li>– higher incidence of heart problems and {{35}} problems</li><li>– more minor illnesses, suggesting immunity of shift workers is affected</li><li><strong>B)</strong> Psychological</li><li>– most common: {{36}}</li><li>– {{37}} affected, e.g. decision-making, planning, which regulate our {{38}}</li><li><strong>C)</strong> Social</li><li>– destruction of {{39}} and other relationships, e.g. {{40}}</li><li>– eventually, for individuals: social isolation</li></ul></div>",
+            "maxWords": 4
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "cotehele"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "sh12 1lq",
+          "sh121lq",
+          "sh 12 1lq"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "travelling",
+          "traveling"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "get good shoes",
+          "good shoes"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "wearing formal clothes",
+          "formal clothes",
+          "wear formal clothes"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "large office",
+          "a large office"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "good pay",
+          "the pay"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "live nearby",
+          "living nearby",
+          "to live nearby"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "share ideas",
+          "sharing ideas",
+          "to share ideas",
+          "share their ideas"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "deeper research",
+          "much deeper research",
+          "do deeper research",
+          "more deeper research"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "mountain building"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "17th may",
+          "17 may",
+          "may 17",
+          "17th of may",
+          "17th"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "29th may",
+          "29 may",
+          "may 29",
+          "29th of may",
+          "29th"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "30-40 minutes",
+          "30 to 40 minutes",
+          "30 40 minutes",
+          "thirty to forty minutes",
+          "30-40 mins"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "questions and discussion",
+          "questions; discussion",
+          "questions, discussion",
+          "question and discussion",
+          "discussion and questions",
+          "discussion"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "articles",
+          "articles from journals",
+          "articles from journal",
+          "journal articles",
+          "journals",
+          "articles from the journals"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "internet",
+          "the internet"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "photocopy",
+          "photocopies",
+          "photocopy notes",
+          "make copies",
+          "copies"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "a huge increase",
+          "huge increase",
+          "an increase",
+          "a big increase",
+          "increase"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "internal clock",
+          "the internal clock"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "light and dark",
+          "dark and light",
+          "light; dark",
+          "light, dark",
+          "light dark"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "unsocial hours",
+          "antisocial hours",
+          "anti-social hours",
+          "unsociable hours"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "stomach",
+          "heart",
+          "stomach and heart",
+          "heart and stomach"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "depression"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "mental ability",
+          "mental abilities"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "performance"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "family life"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "peer group",
+          "friends",
+          "peer group/friends",
+          "peer group and friends",
+          "peers",
+          "peer group or friends"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

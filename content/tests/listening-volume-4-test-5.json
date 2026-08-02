@@ -1,0 +1,564 @@
+{
+  "slug": "listening-volume-4-test-5",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-36m-45s-audio-joiner.com_202607/mix_36m45s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 4, Test 5",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–4</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>School Art Competition — Arrangements for this year</div><table class=\"q-table\"><tbody><tr><th>Age group</th><th>Theme</th><th>Type of art</th><th>Prize</th></tr><tr><td>Junior students</td><td>{{1}}</td><td>a drawing</td><td>{{2}} tickets</td></tr><tr><td>Senior students</td><td>the {{3}}</td><td>a photograph</td><td>a {{4}} voucher</td></tr></tbody></table></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 5–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><p>Further details</p><p>Submitting the artwork</p><ul><li>When: no later than {{5}}</li><li>Where: at the {{6}}</li></ul><p>Competition judge</p><ul><li>Name: Rebecca {{7}}</li><li>Her phone number: {{8}}</li></ul><p>After the judging</p><ul><li>The display will be in the Bridge Street Gallery.</li><li>The artworks will appear in a {{9}}</li><li>The art exhibition will be followed by a {{10}} produced by the school.</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–14</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "picnic area"
+              },
+              {
+                "letter": "B",
+                "textHtml": "historic building"
+              },
+              {
+                "letter": "C",
+                "textHtml": "flat paths"
+              },
+              {
+                "letter": "D",
+                "textHtml": "seashore"
+              },
+              {
+                "letter": "E",
+                "textHtml": "art works"
+              },
+              {
+                "letter": "F",
+                "textHtml": "wildlife"
+              },
+              {
+                "letter": "G",
+                "textHtml": "views"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Boundary Walk"
+              },
+              {
+                "number": 12,
+                "textHtml": "Loop Track"
+              },
+              {
+                "number": 13,
+                "textHtml": "Puriri Walk"
+              },
+              {
+                "number": 14,
+                "textHtml": "North Head"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              },
+              {
+                "letter": "J",
+                "textHtml": "J"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Bird colony"
+              },
+              {
+                "number": 16,
+                "textHtml": "Safe swimming beach"
+              },
+              {
+                "number": 17,
+                "textHtml": "Old ship"
+              },
+              {
+                "number": 18,
+                "textHtml": "Stony Batter"
+              },
+              {
+                "number": 19,
+                "textHtml": "Settlers' Monument"
+              },
+              {
+                "number": 20,
+                "textHtml": "Kiosk"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21 and 22</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> points did students most frequently make about their musical background before starting a music degree?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They had already composed music."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They had several music qualifications."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They could play more than one instrument."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They had performed in public."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "They had had piano lessons."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 23 and 24</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Which <strong>TWO</strong> points did students most frequently make about music practice?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They prefer to practise alone."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They try to practise every day."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They are motivated to practise by fear."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They feel they don't do enough practice."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "They enjoy the challenge of a difficult piece."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 25 and 26</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Which <strong>TWO</strong> points were most frequently made by students about the pieces they select for assessed performances?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They like to hear others performing the same pieces."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They like to choose little-known pieces."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They like to play pieces from memory."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They like their tutor to choose their pieces."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "They like to choose technically demanding pieces."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-4",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "This is very beneficial."
+              },
+              {
+                "letter": "B",
+                "textHtml": "This is difficult but enjoyable."
+              },
+              {
+                "letter": "C",
+                "textHtml": "This can affect relationships"
+              },
+              {
+                "letter": "D",
+                "textHtml": "This makes them very nervous."
+              },
+              {
+                "letter": "E",
+                "textHtml": "This is time-consuming."
+              },
+              {
+                "letter": "F",
+                "textHtml": "This is easy."
+              },
+              {
+                "letter": "G",
+                "textHtml": "This happens infrequently."
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Performing solo"
+              },
+              {
+                "number": 28,
+                "textHtml": "Deciding which pieces to perform"
+              },
+              {
+                "number": 29,
+                "textHtml": "Performing with musicians from a different genre"
+              },
+              {
+                "number": 30,
+                "textHtml": "Performing with musicians who play the same instrument"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Gastropods (snails and slugs)</div><p>Evolution</p><ul><li>minerals in the bodies of gastropods are like those in the {{31}}</li><li>fossils date back 500 million years</li></ul><p>Physical features</p><ul><li>single, muscular foot</li><li>radula (used for feeding)</li><li>Shell (snails only)</li><li>size: British shells range from 1.5-50 mm</li><li>form: most shells coil to the {{32}}</li><li>some shells have ribs, spines or {{33}}</li><li>they have various colours and patterns</li></ul><p>Feeding habits</p><ul><li>mainly feed on rotting plants, fungi or algae</li><li>some eat live animals, e.g. shield slugs eat {{34}}</li></ul><p>Predators</p><ul><li>birds, frogs, flies</li><li>humans — snails were probably introduced to Britain as food in the {{35}}</li><li>many gastropods have particular types of {{36}} itself slippery, e.g. glutinous snail makes</li></ul><p>Habitats</p><ul><li>gastropods prefer dampness and shade</li><li>{{37}} conditions are worst</li><li>biggest variety is found in old, natural habitats, e.g. {{38}} and meadowland</li><li>highly specialised species live in unusual habitats, e.g. blind snail lives entirely below the {{39}}</li><li>good indicators of the quality of the {{40}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "animals"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "zoo"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "city"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "travel"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "18th May",
+          "18 May",
+          "May 18th",
+          "May 18",
+          "18(th) May"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "Library"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "Leigh"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "04076254633"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "magazine"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "dinner"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "J"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "sea"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "right"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "hair"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "worms"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "1st century",
+          "first century"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "defences",
+          "defenses"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "dry"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "forests"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "ground"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "environment"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "D",
+          "C"
+        ]
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "C",
+          "E"
+        ]
+      },
+      {
+        "questions": [
+          25,
+          26
+        ],
+        "accepted": [
+          "A",
+          "C"
+        ]
+      }
+    ]
+  }
+}

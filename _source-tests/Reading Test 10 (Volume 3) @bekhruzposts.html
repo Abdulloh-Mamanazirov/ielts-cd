@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Reading Test 5 (Volume 2) | bekhruzposts</title>
+<title>Reading Test 10 (Volume 3) | bekhruzposts</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;font-size:16px;line-height:1.6;background:#fff;color:#111827}
@@ -149,24 +149,6 @@ select.ai{height:32px;cursor:pointer}
 [data-theme=dark] .dzone.ok{background:#14532d!important;color:#bbf7d0!important}
 [data-theme=dark] .dzone.bad{background:#5a1d1d!important;color:#fecaca!important}
 
-/* ── MATCHING MATRIX ── */
-.matrix{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:calc(14px * var(--txtscale,1));color:var(--text)}
-.matrix th,.matrix td{border:1px solid var(--border);text-align:center}
-.matrix thead th{background:var(--phdr);font-weight:800;width:40px;height:34px}
-.matrix th.mx-corner{background:transparent;border-top:none;border-left:none}
-.matrix td.mx-stmt{text-align:left;padding:9px 12px;line-height:1.5;min-width:200px}
-.mx-num{font-weight:800;color:#DC2626;margin-right:7px}
-.mx-cell{display:flex;align-items:center;justify-content:center;height:46px;margin:0;cursor:pointer}
-.mx-cell input{accent-color:#2563eb;width:17px;height:17px;cursor:pointer;margin:0}
-.mx-cell:hover{background:var(--phdr)}
-.mx-cell:has(input:checked){background:#dbeafe}
-[data-theme=dark] .mx-cell:has(input:checked){background:#1e3a5f}
-[data-theme=night] .mx-cell:has(input:checked){background:#3a3320}
-.mx-cell.ok{background:#dcfce7!important}
-.mx-cell.bad{background:#fee2e2!important}
-[data-theme=dark] .mx-cell.ok{background:#14532d!important}
-[data-theme=dark] .mx-cell.bad{background:#5a1d1d!important}
-
 /* ── BOTTOM NAV ── */
 #nav{position:fixed;bottom:0;left:0;right:0;height:56px;background:var(--nav);border-top:1px solid var(--border);display:flex;align-items:center;padding:0 16px;gap:10px;z-index:200;transition:background .3s}
 .arr{width:34px;height:34px;border-radius:8px;border:1px solid var(--border);cursor:pointer;color:var(--text);background:var(--tbg);font-size:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .15s}
@@ -261,6 +243,34 @@ mark.uhl:hover{background:#FDE047}
 .rs-badge{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-size:12px;font-weight:800}
 .rs-badge.ok{background:#16a34a;color:#fff}
 .rs-badge.no{background:#dc2626;color:#fff}
+/* ── REAL-EXAM MATCHING MATRIX ── */
+.matrix{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:calc(14px * var(--txtscale,1));color:var(--text)}
+.matrix th,.matrix td{border:1px solid var(--border);text-align:center}
+.matrix thead th{background:var(--phdr);font-weight:800;width:40px;height:34px}
+.matrix th.mx-corner{background:transparent;border-top:none;border-left:none}
+.matrix td.mx-stmt{text-align:left;padding:9px 12px;line-height:1.5;min-width:200px}
+.mx-num{font-weight:800;color:#DC2626;margin-right:7px}
+.mx-cell{display:flex;align-items:center;justify-content:center;height:46px;margin:0;cursor:pointer}
+.mx-cell input{accent-color:#2563eb;width:17px;height:17px;cursor:pointer;margin:0}
+.mx-cell:hover{background:var(--phdr)}
+.mx-cell:has(input:checked){background:#dbeafe}
+[data-theme=dark] .mx-cell:has(input:checked){background:#1e3a5f}
+[data-theme=night] .mx-cell:has(input:checked){background:#3a3320}
+.mx-cell.ok{background:#dcfce7!important}
+.mx-cell.bad{background:#fee2e2!important}
+[data-theme=dark] .mx-cell.ok{background:#14532d!important}
+[data-theme=dark] .mx-cell.bad{background:#5a1d1d!important}
+.dzone.dz-sm{min-width:46px;width:46px;padding:0 4px}
+.se-row{display:flex;align-items:center;flex-wrap:wrap;gap:7px;padding:9px 0;border-bottom:1px solid var(--border);font-size:calc(15px * var(--txtscale,1));line-height:1.5}
+.se-row:last-child{border-bottom:none}
+.se-num{font-weight:800;color:#DC2626;min-width:22px}
+.se-stem{flex:1 1 auto}
+.se-bank-label{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.3px;color:var(--subtext);margin:16px 0 8px}
+.wbank.se-bank{flex-direction:column;gap:7px}
+.se-bank .dchip{width:100%;align-items:flex-start;white-space:normal;line-height:1.45;text-align:left}
+.mc2hid{display:none}
+.mc2 .cad{display:none}
+.mc2 .rlabel input{width:17px;height:17px}
 </style>
 </head>
 <body>
@@ -280,8 +290,7 @@ mark.uhl:hover{background:#FDE047}
       <span id="fsz-lbl">100%</span>
       <button class="fsz-btn" id="fsz-up" onclick="changeFontSize(1)" title="Larger text">A+</button>
     </div>
-    <span id="mode-badge" style="display:none;"></span>
-    <div id="timer">60:00</div>
+    <div id="timer">60:00</div><div id="mode-badge" style="display:none"></div>
     <button class="circ" id="fs-btn" onclick="toggleFullscreen()" title="Full screen">
       <svg id="fs-ico-enter" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
       <svg id="fs-ico-exit" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg>
@@ -301,51 +310,40 @@ mark.uhl:hover{background:#FDE047}
   <!-- LEFT -->
   <div id="left-pane">
     <div class="pcontent on" id="pc1">
-      <h2 class="ptitle">What Lucy Taught Us</h2>
-      <p class="psub">A scientific finding in east Africa has changed our understanding of how humans have developed</p>
+      <h2 class="ptitle">A Brief History of Humans and Food</h2>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p>On a Sunday morning in late November 1974, a team of scientists were digging in an isolated spot in the Afar region of Ethiopia. Surveying the area, palaeoanthropologist Donald Johanson spotted a small piece of bone. Straight away, he recognised it as coming from the elbow of a human ancestor. And there were plenty more. 'As I looked up the slopes to my left, I saw bits of the skull, a chunk of jaw, a couple of vertebrae,' says Johanson.</p>
-      <p>It was immediately obvious that the skeleton was a significant find, because the sediments at the site were known to be 3.5 million years old. 'I realised this was part of a skeleton that was older than three million years,' says Johanson. It was the most ancient early human ever found. Later it became apparent that it was also the most complete - 40% of the skeleton had been preserved.</p>
-      <p>At the group's campsite that night, Johanson played a Beatles song called 'Lucy in the Sky with Diamonds', and, as the feeling was that the skeleton was female due to its size, someone suggested calling it Lucy. The name stuck and Johanson says, 'All of a sudden, she became a person.'</p>
-      <p>But the morning after the discovery, the discussion was dominated by questions. How old was Lucy when she died? Did she have children? And might she be our direct ancestor? Nowadays, we're starting to get the answers to some of these questions.</p>
-      <p>According to Johanson, Lucy had an incredible combination of primitive and derived features, which had not been seen before. Her skull and jaws were more ape-like than those of other groups of early humans. Her braincase was also very small, no bigger than that of a chimp. She had a hefty jaw, a low forehead and long dangly arms.</p>
-      <p>For Johanson, it was immediately apparent that Lucy walked upright. That's because the shape and positioning of her pelvis reflected a fully upright gait. Lucy's knee and ankle were also preserved and seemed to reflect bipedal walking. Later studies of feet offer even more evidence. As an upright walker, Lucy strengthened the idea that walking was one of the selective pressures driving human evolution forwards.</p>
-      <p>Early humans did not need bigger brains to take defining steps away from apes. Extra brainpower only came over a million years later with the arrival of the species Homo erectus, meaning upright man. Though big brains would clearly be important later, walking remains one of the traits that makes us uniquely human.</p>
-      <p>She may have walked like a human, but Lucy spent at least some of her time up in the trees, as chimpanzees and orangutans still do today. It may be that upright walking evolved in the trees, as a way to walk along branches that would otherwise be too flexible. It's not clear why Lucy left the safety of the trees.</p>
-      <p>It is thought that savannahs were gradually opening up, so trees were spaced further apart. But hunting for food may have been the real reason for heading to the ground, says Chris Stringer of the Natural History Museum in London.</p>
-      <p>In line with this idea, recent evidence suggests that the diet of early humans was changing at that time. Studies of the remains of food trapped on preserved human teeth indicate that several species, including Lucy's, were expanding their diet around 3.5 million years ago. Instead of mostly eating fruit from trees, they began to include grasses and possibly meat. This change in diet may have allowed them to range more widely, and to travel around more efficiently in a changing environment. Fossilised crocodile and turtle eggs were found near her skeleton, suggesting that Lucy died while foraging for them in a nearby lake.</p>
-      <p>How did early humans process all these new foods? Later species, like Homo erectus, are known to have used simple stone tools, but no tools have ever been found from this far back. However, in 2010 archaeologists uncovered animal bones with scratches that seem to have been made by stone tools. This suggests that Lucy and her relatives used stone tools to eat meat.</p>
-      <p>There have since been heated debates over whether or not the marks were really made by tools. But if they were, it is not surprising, says Fred Spoor of the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany.</p>
-      <p>It also seems that Lucy's childhood was much briefer than ours and that she had to fend for herself from a young age. We know that Lucy was a full-grown adult because she had wisdom teeth and her bones had fused. But unlike modern humans, she seems to have grown to full size very quickly, and time of death was when she was around 12 years old. In line with that, a recent study of a 3-year-old early human suggested that their brains matured much earlier than ours do.</p>
+      <p>During the journey from our hunter-gatherer ancestors to the present day there have been three seismic changes that have had an impact on the food we eat: the discovery of cooking, the emergence of agriculture and the invention of methods of preserving food.</p>
+      <p>The 19th-century scientist Charles Darwin thought that cooking, after language, was the greatest discovery made by man. All of us eat some raw food, for instance fruit and vegetables, but the great majority of food we eat is cooked. Cooking can turn plants that are inedible into edible food by destroying toxic chemicals that plants often manufacture to protect themselves against attack by insects or other herbivorous animals. These toxic chemicals are referred to as 'plant secondary compounds', because they are not directly involved in the plant's normal growth, development and reproduction, and are produced purely as chemical defences. They give many of the plants we consume, such as coffee or brussels sprouts, their bitter taste.</p>
+      <p>Cooked food is often more digestible, because heat breaks down tough cellulose cell walls in plants or tough connective tissue in animals. Chewing raw turnip, a plate of uncooked rice, or a raw leg of lamb is much harder work than eating the cooked equivalent. The energy expended in chewing to break down the tough material is replaced by energy from the fuel that is used in cooking the food, so the ratio of energy gained to energy expended by the body is greater when food is cooked.</p>
+      <p>Until the development of agriculture, hunter-gatherers spent up to seven hours a day gathering food. This all began to change around 10,500 years ago with the advent of farming, which led to some dramatic changes in human societies. People began to create a variety of new tools to help with survival, and in turn populations increased in size. These changes led to the possibility of specialisation of different tasks within society. It was around this time that writing became more sophisticated and allowed people to maintain records of the harvest and taxes. Eventually, formalised structures of government were established as people settled in one area.</p>
+      <p>The arrival of agriculture meant that, for the first time, our ancestors had more food than they could eat immediately. This, combined with the seasonality of production, led them to discover methods of preserving food: smoking, drying, adding acid by fermentation or salting. These four methods all share one feature in common: they make the food a more hostile environment in which the microorganisms that cause decay cannot easily survive. They also tend to slow down any natural chemical reactions in the food that would cause decay.</p>
+      <p>Although foods today are still preserved in the ancient ways, two more recent methods of preserving food have become more common: canning and freezing. Canning was invented by a Frenchman, Nicholas Appert, in the early-19th century. He sealed food in bottles fabricated from glass and then heated them in boiling water to cook the contents. Appert's method had great advantages over other methods of food preservation: it could be applied to a wide range of foods, and the flavour of the food as well as the texture were similar to the freshly cooked product. His idea was soon copied by an Englishman, Peter Durand. Until this point containers had weighed too much to be widely used, but he produced the first ones which were light and resistant to damage. Two years later, in 1812, two Englishmen, Bryan Donkin and John Hall, started the commercial canning of food, although the real take-off in popularity of canning had to wait until the can opener was invented in 1855. Up to this time, cans were opened with a chisel which was used to break open the top when hit with a hammer. One can, which contained meat dating from 1824 was opened in 1939 and the contents were still in good condition.</p>
+      <p>In the 21st century, the dominance of canning as a method of food preservation has been overtaken by another technology: freezing. Chilling food to keep it fresh is an old idea. The earliest mentions of icehouses, thick-walled buildings half underground, date back to 1,700BC in northwest Iran. In early 16th-century Italy, water was mixed with chemicals to lower its freezing point to -18 degrees Celsius, and several centuries later frozen fish and other goods were transported by ship from Australia to England. But the modern frozen food industry was started in the 1920s by an American, Clarence Birdseye. While Birdseye was on a fishing trip with the Inuit in the Canadian Arctic, he observed that very rapid freezing creates smaller ice crystals and therefore causes less damage to food. This was something he had not expected. Nevertheless, the big growth in demand for frozen food came about with the arrival of freezers in the homes of ordinary people. The advantages of frozen over canned food include the fact that the flavour and consistency are often identical to the equivalent fresh product, and that freezing can be used to preserve a huge variety of foods.</p>
     </div>
 
     <div class="pcontent" id="pc2">
-      <h2 class="ptitle">The Gender Gap in New Zealand's High School Examination Results</h2>
-      <p class="psub">Results from New Zealand's new national examinations for secondary schools are giving that country some cause for concern</p>
+      <h2 class="ptitle">Why do we need the arts?</h2>
+      <p class="psub">Sometimes people question why we need 'the arts': what functions do art, music, dance and literature serve?</p>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p><span class="pl">A</span> The issue is the difference in pass rates between the sexes: at each level of the examination and across all school types, the difference is about 10 percentage points. Girls are doing better in every subject, and those in girls-only schools are taking top honours. The results are not a surprise: high school girls have been outperforming boys academically for more than a decade. It is an international phenomenon, and within Australia was the subject of much debate and controversy. Within New Zealand back in the 1980s, there was a concerted campaign, called 'Girls Can Do Anything', which was aimed at lifting girls' participation rates, achievement levels and aspirations. This was so successful that the pendulum has now swung to the other extreme. Views differ on how worried people should be. After all, for much of history, girls were excluded from any form of education, and this new phenomenon could be seen as a temporary over-correction before the balance is righted.</p>
-      <p><span class="pl">B</span> However the New Zealand State Ministry of Education says it is taking the issue seriously. It is working with a reference group on boys' education which has been set up, and it has commissioned an Australian academic to report on interventions that have been found to work for boys, drawing particularly on Australia's experience. But some, such as former prison manager Celia Lashlie, the author of a book for parents of teenage boys, believe there is still resistance within the Education Ministry towards doing anything about the problem.</p>
-      <p><span class="pl">C</span> Education Ministry learning policy manager Steve Benson says that the 'National Certificate in Educational Achievement', or NCEA, as New Zealand's high school exams are called, is useful to employers and to universities because it provides a fine-grained picture of pupils' performance in every aspect of a subject, rather than just a pass or fail in an overall area. 'In most parts of the curriculum, for example in maths, there isn't really a gender gap. But literacy is a different matter. Even boys who are good at writing tend not to write so much. There's actually a quantity issue.'</p>
-      <p><span class="pl">D</span> The discrepancy in reading and writing skills between males and females shows up as early as preschool, and the difference is clear by the time these children enter high school. Not being good at literacy was not such a problem in the old days when many students left school for manual jobs after Year 11. But nowadays many more stay on to higher education, and almost all jobs require literacy skills. Roger Moses, the headmaster of Wellington College, says that the written content of NCEA papers is more demanding than the previous system of secondary school qualifications in New Zealand, even in subjects such as statistics and accounting.</p>
-      <p><span class="pl">E</span> New Zealand 15-year-olds do well in international reading tests, but beneath this average lies a wide variance, with New Zealand European girls most represented at the top and New Zealand Pacific Island boys at the bottom. Yet some European girls drop out, and some Pacific Island boys excel. In other words, the range in performance within each gender group is much greater than the gender differences. Ethnic differences, and differences in socio-economic status, may be more significant than the simple boy/girl explanation.</p>
-      <p><span class="pl">F</span> This makes the Education Ministry nervous about pushing solutions that emphasise stereotyped gender differences, rather than looking at under-achievement as a whole. Rob Burroughs, principal of Linwood High School in Christchurch, agrees. For three years his school ran separate boys' classes to try to address the disparity in performance, before abandoning them. The research showed that the boys did better in their own class than in the co-educational environment. But when he looked at which teachers they had, and how well those teachers' other classes did, it became clear that the difference was, instead, to do with the quality of instruction.</p>
-      <p><span class="pl">G</span> At Onslow College, Dr Stuart Martin would do away with the NCEA Level 1 exam if he could. He says that in Year 11, aged 15, boys are simply not mature enough to cope. 'They tend to think that just passing is enough, and that it's not necessary to work hard for a Merit or an Excellence grade. Often they are busy with other activities and part-time jobs. Boys' competitive instinct tends to come out later in their schooling years, especially if there is money attached or other tangible rewards. By 17, boys are catching up academically with the girls, and by the end of Year 13, boys are again winning the top prizes.'</p>
-      <p><span class="pl">H</span> Boys in single-sex schools do better in NCEA across levels, something economist Brian Easton reported after analysing data from the first year of NCEA's implementation. He said the results were valid, even when socio-economic status was taken into account. Dr Paul Baker, head of Waitaki Boys' High School in Oamaru, agrees. He thinks that although it is possible for all schools to do more to boost boys' performance, it is easier in a boys' school, where activities cannot be 'captured by girls'.</p>
+      <p><span class="pl">A</span> Imagine a world in which people spend hours working in offices or factories, and then go home in the evening to sit down to dinner, after which they sleep until it's time to get up and work again. In this world, people do not read or watch TV, listen to music, play computer games or have pictures to decorate their homes. In fact, there are no pictures in this world - not even advertisements are illustrated, but all are words, and very plain ones at that, with no playfulness left in them. The buildings are completely functional without a single decorative feature anywhere, and there is no music to dance to and enjoy. Such a world is a world without the arts in any form.</p>
+      <p><span class="pl">B</span> To ask what the arts are good for is not exactly the same as asking what their purpose is. The arts do not have to have a purpose - they do not exist in order to teach, to make a moral point, to entertain, to distract, to amuse, to support a revolution, to disgust, to challenge, to stimulate or to cheer; they exist chiefly for their own sake. It is artists, not the arts as such, that may have an aim in mind, and their aim may be to do any of the things just listed. But equally, artists may just make a work of art because they feel compelled to. Because the work is its own justification, no aim or goal is necessarily required to explain or, still less, to justify its existence.</p>
+      <p><span class="pl">C</span> But to say that the arts are good for something beyond themselves, even though they may sometimes do so, is not to say that they are good for nothing. On the contrary, as such an important part of human experience, they are good for many things. The distinction here lies between things that are instrumental and things that are ends in themselves. An instrument exists for something beyond itself - namely, for what it can be used to do. We know that pictures are used as instruments in advertising, and the objective is always to persuade us to buy something. Similarly, music can be written chiefly to accompany dancing, or as a soundtrack to a movie. A play can be written to point out to the theatre audience a social injustice or other problems that should be dealt with. But even though the arts can sometimes be instrumental, that fact is not essential to their nature. What the arts are 'good for' arises from their being an end in themselves, or more accurately, representing many different things that are valuable for their own sakes - such as, for instance, the creation of beauty.</p>
+      <p><span class="pl">D</span> The phrase 'the arts' includes painting, sculpture, music, literature, dance and theatre performance, and whatever else (to quote the famous US artist Andy Warhol) anyone can get away with in calling their creation a contribution to 'the arts'. But the generalisation that the arts, whatever else they are, are always an end in themselves, applies to them all. The arts are one major form of response to the world. They are often an attempt to capture an aspect of the world, to draw attention to something about it, to comment on it, to present a surprising or fresh angle on it, to represent it for the sake of exploring something about it, or enjoying or celebrating it. They can help people to focus on, for example, the colour or shape of an object, its eccentricity or typicality, and the interest or perhaps disgust it provokes in them.</p>
+      <p><span class="pl">E</span> For a loose comparison, think of laughing at a joke. We do not laugh so that we can achieve a further goal - in order to be healthy or relaxed, say, even if we thereby succeed in being healthier or more relaxed - but simply because the joke has elicited that reaction. But although it is merely a reaction, laughing is, in fact, good for something nevertheless; it does make people feel better. The arts are a reaction in the same way. French artist Cezanne painted Mont Sainte-Victoire repeatedly because he was fascinated by it, not because he thought that painting it would say something about politics or society or human hopes. Being fascinated by something, attracted to it, repelled by it, keen to reveal an unusual aspect of it, are all responses to that thing; the making of the arts is one outstanding way of expressing such responses.</p>
+      <p><span class="pl">F</span> But the arts are a response not only to things in the world but also to experience of the world, which lies inside the artist himself. And they are also often an expression of what presses from within the artist without being elicited by externals. Music is a prime example. A symphony, unless it is devised to represent bird song, rain, the sea and the like, is an abstract expression of a composer's conception. We may be able to describe what the Russian composer Tchaikovsky is doing in his ballet music, but how can we describe what he is expressing in his piano concertos? Composers may experiment with melody and rhythm in very abstract, sometimes mathematical, ways.</p>
+      <p><span class="pl">G</span> When artists get to work responding to and expressing ideas, whether or not they also want to make a point, entertain, distract, support a revolution and the rest, they are producing something that someone else will react to in some way. They seek to connect with their audience and express an idea or emotion which has the capacity to enrich our experience of life itself.</p>
     </div>
 
     <div class="pcontent" id="pc3">
-      <h2 class="ptitle">The Strange World of Sight</h2>
-      <p class="psub">Seeing is believing, it is said. But, asks Richard Gregory, could it be the other way round?</p>
+      <h2 class="ptitle">The significant role of mother tongue language in education</h2>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p>Two of the great British men of the 17th century, the philosopher John Locke and the physicist Isaac Newton, were both aware that objects are not coloured, and that against all appearances light is not coloured either. This is still not generally recognised even now, 400 years later, because it seems so implausible. Yet it tells us something very important - that perceptions are not identical with what we perceive, and may be very different.</p>
-      <p>The most accurate historical account of perception is that of the 19th-century German scientist Hermann von Helmholtz. However, it was ridiculed at the time. Von Helmholtz thought that perceptions are unconscious inferences we make based on a combination of clues provided by the eyes and other senses, and knowledge of the world. This idea of unconscious inference for perception preceded, by several years, the psychoanalyst Freud's notion of the unconscious, which was also initially treated with derision because it undermined the notion of humans as pre-eminently rational beings who could be held responsible for their actions and awarded blame or praise accordingly.</p>
-      <p>Crucially, perception of the present depends on rich, though of course not always correct or appropriate, knowledge from the past. We interpret sense data (what we hear, touch, taste, see and smell) from the present according to what we already know. This raises the question: if we see the present through memory, why aren't past and present confused?</p>
-      <p>The pioneering Russian neurologist Alexander Luria described the case of Mr S, who had a remarkable memory. However, he was prone to just such confusions, for example mistaking seeing his clock for remembering it, and so failing to get up in the morning. This suggests that perhaps an important function of perception is to underline the present. Individual perceptions have a vividness that is rare for memories, which might be how we are able to separate them. Try this: look at something for a few seconds, and then shut your eyes and visualise it in memory. You will almost certainly find that the memory is pale by comparison with the perception. Perhaps this is why past and present are not normally confused. Luria's Mr S had exceptionally vivid memories, and rich synaesthesia (experiencing perceptions from another sense as well as the one being stimulated, such as musical notes experienced as colours), which may be why he confused seeing with having seen.</p>
-      <p>The complexity of processes involved in how we see first impressed itself on me 45 years ago. With my colleague Jean Wallace, I studied the rare case of Sydney Bradford, a man who had been born blind but, through a corneal graft at the age of 52, suddenly found himself able to see. Almost immediately after the operation he was able to 'see' but he could only see those things that he already knew about, having experienced them through touch. It was his touch memories that enabled him to perceive them with his eyes. When Bradford was first taken to the zoo, he proved utterly unable to see an elephant as he had no knowledge to make sense of his perceptions.</p>
-      <p>The more recent case in California of Mike May, who was also born blind, is similar. Since his operation, his sight has gradually improved as he learns to see, for example, by understanding how shadows represent depth and tell us about the shape of things. Some of the consequences of May's new-found vision were less happy. He had been a champion blind skier, but following the operation, he would have to shut his eyes while skiing to block out what he now found was a terrifying sight.</p>
-      <p>But acceptance of this intimate connection between memory and perception, even though it was first noticed in the 17th century, has been slow in brain science. Despite the fact that state-of-the-art brain imaging shows that perception animates parts of the brain associated with both present information and memory, most research on memory and perception is still undertaken as if these were separate processes. Seeing used to be thought of as taking place only in the eyes, and in quite specialised brain regions; but now it seems that half the brain is occupied with seeing, requiring a lot of energy. Perhaps this is why we shut our eyes for a rest.</p>
-      <p>It is not just extreme cases like Mike May, but also much more common errors of seeing - illusions - that can reveal the crucial role of memory in governing what we (think we) see. Perception depends on specific knowledge and probabilities. Our brains calculate the likelihood of what is out there, and when too far-fetched, perceptions are rejected.</p>
-      <p>A dramatic and discomforting example is looking at the two sides of a face-mask. From the front it is a convex shape with the nose sticking out. Then if the mask is rotated, the back of the mask will be seen as convex, though we know that it must be concave. It is almost, if not quite, impossible to sketch the back of a hollow mask to look as it is hollow. Science often learns from what does not happen: people not seeing a hollow face as hollow is the most revealing experiment on perception. The unsettling truth from brain science is that even people with no visual impairment see what, at some level, they expect to see, and often miss things as they really are.</p>
+      <p>One consequence of population mobility is an increasing diversity within schools. To illustrate, in the city of Toronto in Canada, 58% of kindergarten pupils come from homes where English is not the language of communication. Schools in Europe and North America have experienced this diversity for years, but educational policies and practices vary widely between countries and even within countries. Some political parties and groups search for ways to 'solve the problem' of diverse communities and their integration in schools and society. They see few positive consequences for the host society and worry that diversity threatens the identity of the host society. Consequently, they promote unfortunate educational policies that will make the 'problem' disappear. If students retain their culture and language, they are viewed as less capable of identifying with the mainstream culture and learning the mainstream language of the society.</p>
+      <p>The challenge for educators and policy-makers is to shape the evolution of national identity in such a way that the rights of all citizens (including school children) are respected, and the cultural, linguistic and economic resources of the nation are maximized. To waste the resources of the nation by discouraging children from developing their mother tongues is quite simply unintelligent from the point of view of national self-interest. A first step in providing an appropriate education for culturally and linguistically diverse children is to examine what the existing research says about the role of children's mother tongues in their educational development.</p>
+      <p>In fact, the research is very clear. When children continue to develop their abilities in two or more languages throughout primary school, they gain a deeper understanding of language and how to use it effectively. They have more practice in processing language, especially when they develop literacy in both. More than 150 research studies conducted during the past 35 years strongly support what Goethe, the famous eighteenth-century German philosopher, once said: that the person who knows only one language does not truly know that language. Research suggests that bilingual children may also develop more flexibility in their thinking as a result of processing information through two different languages.</p>
+      <p>Children who come to school with a solid foundation in their mother tongue develop stronger literacy abilities in the school language. When parents and other caregivers (e.g. grandparents) are able to spend time with their children and tell stories or discuss issues with them in a way that develops their mother tongue, children come to school well-prepared to learn the school language and succeed educationally. Children's knowledge and skills transfer across languages from the mother tongue to the school language. Transfer across languages can be two-way: both languages nurture each other when the educational environment permits children access to both languages.</p>
+      <p>Some educators and parents are suspicious of mother tongue-based teaching programs because they worry that they take time away from the majority language. For example, in a bilingual program where 50% of the time is spent teaching through children's home language and 50% through the majority language, surely children won't progress as far in the latter? One of the most strongly established findings of educational research, however, is that well-implemented bilingual programs can promote literacy and subject-matter knowledge in a minority language without any negative effects on children's development in the majority language. Within Europe, the Foyer program in Belgium, which develops children's speaking and literacy abilities in three languages (their mother tongue, Dutch and French), most clearly illustrates the benefits of bilingual and trilingual education (see Cummins, 2000).</p>
+      <p>It is easy to understand how this happens. When children are learning through a minority language, they are learning concepts and intellectual skills too. Pupils who know how to tell the time in their mother tongue understand the concept of telling time. In order to tell time in the majority language they do not need to re-learn the concept. Similarly, at more advanced stages, there is transfer across languages in other skills, such as knowing how to distinguish the main idea from the supporting details of a written passage or story, and distinguishing fact from opinion. Studies of secondary school pupils are providing interesting findings in this area, and it would be worth extending this research.</p>
+      <p>Many people marvel at how quickly bilingual children seem to 'pick up' conversational skills in the majority language at school (although it takes much longer for them to catch up with native speakers in academic language skills). However, educators are often much less aware of how quickly children can lose their ability to use their mother tongue, even in the home context. The extent and rapidity of language loss will vary according to the concentration of families from a particular linguistic group in the neighborhood. Where the mother tongue is used extensively in the community, then language loss among young children will be less. However, where language communities are not concentrated in particular neighborhoods, children can lose their ability to communicate in their mother tongue within two to three years of starting school. They may retain receptive skills in the language but they will use the majority language in speaking with their peers and siblings and in responding to their parents. By the time children become adolescents, the linguistic division between parents and children has become an emotional chasm. Pupils frequently become alienated from the cultures of both home and school, with predictable results.</p>
     </div>
   </div>
 
@@ -355,202 +353,173 @@ mark.uhl:hover{background:#FDE047}
   <div id="right-pane">
     <div class="qsec on" id="qs1">
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 1–5</em></p>
+        <p class="qnum-head"><em>Questions 1&ndash;5</em></p>
         <p class="qinst">Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong></p>
-        <div class="qitem"><p class="qprompt"><strong>1.</strong>&nbsp; Donald Johanson was uncertain about the nature of the elbow bone he found in Afar.</p>
+        <div class="qitem"><p class="qprompt"><strong>1.</strong>&nbsp; According to Darwin, cooking was the most significant development in human history.</p>
           <div class="rgroup" id="rg1">
             <label class="rlabel"><input type="radio" name="q1" value="TRUE" onchange="upd()"> TRUE</label>
             <label class="rlabel"><input type="radio" name="q1" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q1" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>2.</strong>&nbsp; Several bones were found by Donald Johanson at the same site in Afar.</p>
+            <label class="rlabel"><input type="radio" name="q1" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>2.</strong>&nbsp; The process of cooking gets rid of some plant poisons.</p>
           <div class="rgroup" id="rg2">
             <label class="rlabel"><input type="radio" name="q2" value="TRUE" onchange="upd()"> TRUE</label>
             <label class="rlabel"><input type="radio" name="q2" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q2" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>3.</strong>&nbsp; The experts realised the importance of the discovery at Afar.</p>
+            <label class="rlabel"><input type="radio" name="q2" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>3.</strong>&nbsp; Eating cooked food is more energy efficient than eating raw food.</p>
           <div class="rgroup" id="rg3">
             <label class="rlabel"><input type="radio" name="q3" value="TRUE" onchange="upd()"> TRUE</label>
             <label class="rlabel"><input type="radio" name="q3" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q3" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>4.</strong>&nbsp; It was the upper part of the skeleton that had suffered the least damage.</p>
+            <label class="rlabel"><input type="radio" name="q3" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>4.</strong>&nbsp; Clarence Birdseye had previously worked in the Australian food industry.</p>
           <div class="rgroup" id="rg4">
             <label class="rlabel"><input type="radio" name="q4" value="TRUE" onchange="upd()"> TRUE</label>
             <label class="rlabel"><input type="radio" name="q4" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q4" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>5.</strong>&nbsp; The skeleton's measurements helped Johanson's team to decide if it was male or female.</p>
+            <label class="rlabel"><input type="radio" name="q4" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>5.</strong>&nbsp; Birdseye's trip with the Inuit confirmed what he already believed about rapid freezing.</p>
           <div class="rgroup" id="rg5">
             <label class="rlabel"><input type="radio" name="q5" value="TRUE" onchange="upd()"> TRUE</label>
             <label class="rlabel"><input type="radio" name="q5" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q5" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
+            <label class="rlabel"><input type="radio" name="q5" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 6–13</em></p>
-        <p class="qinst">Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>
-        <div class="qtitle">Lucy</div>
+        <p class="qnum-head"><em>Questions 6&ndash;13</em></p>
+        <p class="qinst">Complete the notes below.<br>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>
+        <div class="qtitle">The development of agriculture and food preservation</div>
         <div class="notesbox">
-          <span class="nbsec">Physical features</span>
-          <ul class="nbul"><li>jaws and skull like those of an ape</li><li>braincase similar in size to that of a chimp</li><li>long arms</li></ul>
-          <span class="nbsec">Movement</span>
+          <span class="nbsec">The changes agriculture brought about were:</span>
           <ul class="nbul">
-            <li>the positioning and shape of her pelvis made it clear that she walked like a human</li>
-            <li>upright movement possibly started among the <strong>6</strong>&nbsp;<input type="text" class="ai sm" id="q6" oninput="upd()"></li>
-            <li>probably moved to the <strong>7</strong>&nbsp;<input type="text" class="ai sm" id="q7" oninput="upd()"> in search of food</li>
+            <li>the development of equipment and larger <strong>6</strong>&nbsp; <input type="text" class="ai sm" id="q6" oninput="upd()"></li>
+            <li>the ability to keep <strong>7</strong>&nbsp; <input type="text" class="ai sm" id="q7" oninput="upd()"> as writing developed</li>
+            <li>the setting up of organised government</li>
           </ul>
-          <span class="nbsec">Diet and eating habits</span>
+          <span class="nbsec">Food preservation</span>
           <ul class="nbul">
-            <li>analysis of food in the <strong>8</strong>&nbsp;<input type="text" class="ai sm" id="q8" oninput="upd()"> of the skeletons of early humans shows changes in their diet</li>
-            <li>it is likely that meat and grasses were substituted for <strong>9</strong>&nbsp;<input type="text" class="ai sm" id="q9" oninput="upd()"></li>
-            <li><strong>10</strong>&nbsp;<input type="text" class="ai sm" id="q10" oninput="upd()"> that were located close to Lucy suggest these were also part of her diet</li>
-            <li><strong>11</strong>&nbsp;<input type="text" class="ai sm" id="q11" oninput="upd()"> that were found had marks on them, possibly made by tools used for eating</li>
-          </ul>
-          <span class="nbsec">Comparisons with modern-day humans</span>
-          <ul class="nbul">
-            <li>modern-day humans have a longer <strong>12</strong>&nbsp;<input type="text" class="ai sm" id="q12" oninput="upd()"> than Lucy did</li>
-            <li>the <strong>13</strong>&nbsp;<input type="text" class="ai sm" id="q13" oninput="upd()"> of modern-day humans appear to develop later than Lucy's did</li>
+            <li>early methods of food preservation included smoking, drying and combining food with acid by <strong>8</strong>&nbsp; <input type="text" class="ai sm" id="q8" oninput="upd()"></li>
+            <li>Appert's method resulted in preserved food that had a similar taste and <strong>9</strong>&nbsp; <input type="text" class="ai sm" id="q9" oninput="upd()"> to fresh food</li>
+            <li>Peter Durand introduced cans which were lightweight and <strong>10</strong>&nbsp; <input type="text" class="ai sm" id="q10" oninput="upd()"> to damage</li>
+            <li>in 1855, the metal can opener replaced the <strong>11</strong>&nbsp; <input type="text" class="ai sm" id="q11" oninput="upd()"> which had been used with a hammer to open cans</li>
+            <li>some food was still found to be edible after more than a hundred years, e.g. an old can of <strong>12</strong>&nbsp; <input type="text" class="ai sm" id="q12" oninput="upd()"></li>
+            <li>freezing causes less <strong>13</strong>&nbsp; <input type="text" class="ai sm" id="q13" oninput="upd()"> to food</li>
           </ul>
         </div>
       </div>
     </div><!-- /qs1 -->
     <div class="qsec" id="qs2">
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 14–16</em></p>
-        <p class="qinst">Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>
+        <p class="qnum-head"><em>Questions 14&ndash;18</em></p>
+        <p class="qinst">Reading Passage 2 has seven paragraphs, <strong>A&ndash;G</strong>.<br>Which paragraph contains the following information?</p>
+        <div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th></tr></thead><tbody><tr><td class="mx-stmt"><span class="mx-num">14</span> a claim that artists may have no clear objective when creating a piece of art</td><td><label class="mx-cell"><input type="radio" name="q14" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="G" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">15</span> a description of how artists hope to benefit other people</td><td><label class="mx-cell"><input type="radio" name="q15" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="G" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">16</span> a comparison between the arts and things made to perform a particular function</td><td><label class="mx-cell"><input type="radio" name="q16" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="G" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">17</span> a claim that it's possible to convince the world that anything you have made is a work of art</td><td><label class="mx-cell"><input type="radio" name="q17" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="G" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">18</span> an example of something that has an unintentional benefit for us</td><td><label class="mx-cell"><input type="radio" name="q18" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="G" onchange="upd()"></label></td></tr></tbody></table></div>
+      </div>
+      <div class="qblock">
+        <p class="qnum-head"><em>Questions 19&ndash;22</em></p>
+        <p class="qinst">Complete the summary below.<br>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>
+        <div class="qtitle">The arts and human experience</div>
         <div class="sbox">
-          <p><strong>High school assessment in New Zealand</strong></p>
-          <p>New Zealanders are worried at the outcomes of their high school assessment system, because the <strong>14</strong>&nbsp;<input type="text" class="ai sm" id="q14" oninput="upd()"> of girls are higher than those of boys by 10%. A gender gap has been apparent for over a <strong>15</strong>&nbsp;<input type="text" class="ai sm" id="q15" oninput="upd()">. This situation is not unique to New Zealand, and has been noticed in <strong>16</strong>&nbsp;<input type="text" class="ai sm" id="q16" oninput="upd()"> also.</p>
+          <p>Some people may claim that the arts serve no useful purpose, that they achieve nothing measurable and help nobody. But there are many clear examples of their usefulness, such as the inter-dependent relationship between music and <strong>19</strong>&nbsp; <input type="text" class="ai sm" id="q19" oninput="upd()">, or between the visual arts and the <strong>20</strong>&nbsp; <input type="text" class="ai sm" id="q20" oninput="upd()"> business. A dramatist may use a <strong>21</strong>&nbsp; <input type="text" class="ai sm" id="q21" oninput="upd()"> to draw our attention to various issues in society, for example some kind of injustice which needs correcting. Apart from these obvious practical benefits, there are other benefits that we gain from things, such as the <strong>22</strong>&nbsp; <input type="text" class="ai sm" id="q22" oninput="upd()"> we find in an artist's work.</p>
         </div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 17–20</em></p>
-        <p class="qinst">Reading Passage 2 has eight paragraphs, <strong>A–H</strong>.<br>Which paragraph contains the following information?</p>
-        <div style="overflow-x:auto"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th></tr></thead><tbody>
-        <tr><td class="mx-stmt"><span class="mx-num">17</span> an advantage of New Zealand's secondary school tests</td><td><label class="mx-cell"><input type="radio" name="q17" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">18</span> a mention of current government initiatives to boost male achievement</td><td><label class="mx-cell"><input type="radio" name="q18" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">19</span> when gender difference in literacy skills first becomes evident</td><td><label class="mx-cell"><input type="radio" name="q19" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">20</span> findings that relate academic achievement to race</td><td><label class="mx-cell"><input type="radio" name="q20" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q20" value="H" onchange="upd()"></label></td></tr>
-        </tbody></table></div>
+        <p class="qnum-head"><em>Questions 23 and 24</em></p>
+        <p class="qinst">Choose <strong>TWO</strong> letters, <strong>A&ndash;E</strong>.<br>In paragraph <strong>D</strong>, which <strong>TWO</strong> of the following effects does the writer say the arts can have?</p>
+        <div class="rgroup" id="grpg1">
+          <label class="rlabel"><input type="checkbox" name="pg_g1" value="A" onchange="pickCap('g1',2,this)"> <strong>A</strong>&nbsp; They can interest people from all over the world.</label>
+          <label class="rlabel"><input type="checkbox" name="pg_g1" value="B" onchange="pickCap('g1',2,this)"> <strong>B</strong>&nbsp; They can make us see things from a different perspective.</label>
+          <label class="rlabel"><input type="checkbox" name="pg_g1" value="C" onchange="pickCap('g1',2,this)"> <strong>C</strong>&nbsp; They can inspire us to take up an artistic activity ourselves.</label>
+          <label class="rlabel"><input type="checkbox" name="pg_g1" value="D" onchange="pickCap('g1',2,this)"> <strong>D</strong>&nbsp; They can encourage us to think about our reactions to things around us.</label>
+          <label class="rlabel"><input type="checkbox" name="pg_g1" value="E" onchange="pickCap('g1',2,this)"> <strong>E</strong>&nbsp; They can draw our attention to serious global issues.</label>
+        </div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 21–26</em></p>
-        <p class="qinst">Look at the following people and the list of statements below. Match each person with the correct statement, <strong>A–H</strong>.</p>
-        <div class="fbox"><strong>List of Statements</strong>
-          <div class="frow"><span class="fkey">A</span> Boys gain lower marks on NCEA if they attend an all-boys' school.</div>
-          <div class="frow"><span class="fkey">B</span> Boys are disadvantaged by girls tending to take over at school.</div>
-          <div class="frow"><span class="fkey">C</span> Good teaching is more important than whether classrooms are single-sex or mixed.</div>
-          <div class="frow"><span class="fkey">D</span> Mathematical skills were not so important in the past.</div>
-          <div class="frow"><span class="fkey">E</span> The difference in achievement between school boys and girls is only evident in some subjects.</div>
-          <div class="frow"><span class="fkey">F</span> Older boys are more motivated to study than younger boys.</div>
-          <div class="frow"><span class="fkey">G</span> The NCEA exams have higher literacy standards than past exams did.</div>
-          <div class="frow"><span class="fkey">H</span> The New Zealand government is reluctant to take action on behalf of boys.</div>
+        <p class="qnum-head"><em>Questions 25 and 26</em></p>
+        <p class="qinst">Choose <strong>TWO</strong> letters, <strong>A&ndash;E</strong>.<br>Which <strong>TWO</strong> of the following statements about composers and music does the writer make?</p>
+        <div class="rgroup" id="grpg2">
+          <label class="rlabel"><input type="checkbox" name="pg_g2" value="A" onchange="pickCap('g2',2,this)"> <strong>A</strong>&nbsp; Music tends to spring from the composer's individual experiences.</label>
+          <label class="rlabel"><input type="checkbox" name="pg_g2" value="B" onchange="pickCap('g2',2,this)"> <strong>B</strong>&nbsp; Composers need to structure music very carefully.</label>
+          <label class="rlabel"><input type="checkbox" name="pg_g2" value="C" onchange="pickCap('g2',2,this)"> <strong>C</strong>&nbsp; Music can be quite unrelated to the natural world.</label>
+          <label class="rlabel"><input type="checkbox" name="pg_g2" value="D" onchange="pickCap('g2',2,this)"> <strong>D</strong>&nbsp; Music finds its best expression in a symphony.</label>
+          <label class="rlabel"><input type="checkbox" name="pg_g2" value="E" onchange="pickCap('g2',2,this)"> <strong>E</strong>&nbsp; Composers are good at depicting the world around us.</label>
         </div>
-        <div style="overflow-x:auto"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th></tr></thead><tbody>
-        <tr><td class="mx-stmt"><span class="mx-num">21</span> Celia Lashlie</td><td><label class="mx-cell"><input type="radio" name="q21" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q21" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q21" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q21" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q21" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q21" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q21" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q21" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">22</span> Steve Benson</td><td><label class="mx-cell"><input type="radio" name="q22" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q22" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">23</span> Roger Moses</td><td><label class="mx-cell"><input type="radio" name="q23" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q23" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">24</span> Rob Burroughs</td><td><label class="mx-cell"><input type="radio" name="q24" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q24" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q24" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q24" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q24" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q24" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q24" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q24" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">25</span> Stuart Martin</td><td><label class="mx-cell"><input type="radio" name="q25" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q25" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q25" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q25" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q25" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q25" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q25" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q25" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">26</span> Paul Baker</td><td><label class="mx-cell"><input type="radio" name="q26" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q26" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q26" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q26" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q26" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q26" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q26" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q26" value="H" onchange="upd()"></label></td></tr>
-        </tbody></table></div>
       </div>
     </div><!-- /qs2 -->
     <div class="qsec" id="qs3">
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 27–30</em></p>
+        <p class="qnum-head"><em>Questions 27&ndash;30</em></p>
         <p class="qinst">Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>
-        <div class="qitem"><p class="qprompt"><strong>27.</strong>&nbsp; Why does the writer refer to Locke and Newton in the first paragraph?</p>
+        <div class="qitem"><p class="qprompt"><strong>27.</strong>&nbsp; What point is the writer making in the second paragraph?</p>
           <div class="rgroup" id="rg27">
-            <label class="rlabel"><input type="radio" name="q27" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; to indicate that his article will cover several scientific fields</label>
-            <label class="rlabel"><input type="radio" name="q27" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; to stress how much physics has changed in 400 years</label>
-            <label class="rlabel"><input type="radio" name="q27" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; to persuade the reader to take him seriously</label>
-            <label class="rlabel"><input type="radio" name="q27" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; to point out that his notions are not new</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>28.</strong>&nbsp; According to the writer, why was Freud's theory of the unconscious mocked?</p>
+            <label class="rlabel"><input type="radio" name="q27" value="A" onchange="upd()"> <strong>A</strong>&nbsp; Some present studies on children's mother tongues are misleading.</label>
+            <label class="rlabel"><input type="radio" name="q27" value="B" onchange="upd()"> <strong>B</strong>&nbsp; A culturally rich education programme benefits some children more than others.</label>
+            <label class="rlabel"><input type="radio" name="q27" value="C" onchange="upd()"> <strong>C</strong>&nbsp; Bilingual children can make a valuable contribution to the wealth of a country.</label>
+            <label class="rlabel"><input type="radio" name="q27" value="D" onchange="upd()"> <strong>D</strong>&nbsp; The law on mother tongue use at school should be strengthened.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>28.</strong>&nbsp; Why does the writer refer to something that Goethe said?</p>
           <div class="rgroup" id="rg28">
-            <label class="rlabel"><input type="radio" name="q28" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; It was too complex for his contemporaries to understand.</label>
-            <label class="rlabel"><input type="radio" name="q28" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; It involved criticism of the way people behaved in society.</label>
-            <label class="rlabel"><input type="radio" name="q28" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; People felt that it devalued the accepted concept of humanity.</label>
-            <label class="rlabel"><input type="radio" name="q28" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; People assumed that it was intended as a joke.</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>29.</strong>&nbsp; The writer describes Mr S failing to get up in order to demonstrate</p>
+            <label class="rlabel"><input type="radio" name="q28" value="A" onchange="upd()"> <strong>A</strong>&nbsp; to lend weight to his argument</label>
+            <label class="rlabel"><input type="radio" name="q28" value="B" onchange="upd()"> <strong>B</strong>&nbsp; to contradict some research</label>
+            <label class="rlabel"><input type="radio" name="q28" value="C" onchange="upd()"> <strong>C</strong>&nbsp; to introduce a new concept</label>
+            <label class="rlabel"><input type="radio" name="q28" value="D" onchange="upd()"> <strong>D</strong>&nbsp; to update current thinking</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>29.</strong>&nbsp; The writer believes that when young children have a firm grasp of their mother tongue</p>
           <div class="rgroup" id="rg29">
-            <label class="rlabel"><input type="radio" name="q29" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; how realistic most people's memories are.</label>
-            <label class="rlabel"><input type="radio" name="q29" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; how hard it is to tell dreaming and waking apart.</label>
-            <label class="rlabel"><input type="radio" name="q29" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; how unusual it is to mistake a perception for a memory.</label>
-            <label class="rlabel"><input type="radio" name="q29" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; how valuable knowledge of the past can be.</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>30.</strong>&nbsp; What point is the writer making in the text as a whole?</p>
+            <label class="rlabel"><input type="radio" name="q29" value="A" onchange="upd()"> <strong>A</strong>&nbsp; they can teach older family members what they learn at school.</label>
+            <label class="rlabel"><input type="radio" name="q29" value="B" onchange="upd()"> <strong>B</strong>&nbsp; they go on to do much better throughout their time at school.</label>
+            <label class="rlabel"><input type="radio" name="q29" value="C" onchange="upd()"> <strong>C</strong>&nbsp; they can read stories about their cultural background.</label>
+            <label class="rlabel"><input type="radio" name="q29" value="D" onchange="upd()"> <strong>D</strong>&nbsp; they develop stronger relationships with their family than with their peers.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>30.</strong>&nbsp; Why are some people suspicious about mother tongue-based teaching programmes?</p>
           <div class="rgroup" id="rg30">
-            <label class="rlabel"><input type="radio" name="q30" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; Perception involves much more than the data collected by the eyes.</label>
-            <label class="rlabel"><input type="radio" name="q30" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; Learning to see as an adult can be a time-consuming process.</label>
-            <label class="rlabel"><input type="radio" name="q30" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; Science is failing to devote enough attention to sight.</label>
-            <label class="rlabel"><input type="radio" name="q30" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; Human perception is remarkably reliable.</label>
-          </div></div>
+            <label class="rlabel"><input type="radio" name="q30" value="A" onchange="upd()"> <strong>A</strong>&nbsp; They worry that children will be slow to learn to read in either language.</label>
+            <label class="rlabel"><input type="radio" name="q30" value="B" onchange="upd()"> <strong>B</strong>&nbsp; They think that children will confuse words in the two languages.</label>
+            <label class="rlabel"><input type="radio" name="q30" value="C" onchange="upd()"> <strong>C</strong>&nbsp; They believe that the programmes will make children less interested in their lessons.</label>
+            <label class="rlabel"><input type="radio" name="q30" value="D" onchange="upd()"> <strong>D</strong>&nbsp; They fear that the programmes will use up valuable time in the school day.</label></div></div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 31–36</em></p>
+        <p class="qnum-head"><em>Questions 31&ndash;35</em></p>
+        <p class="qinst">Complete the summary below using the list of words, <strong>A&ndash;J</strong>, below.</p>
+<p class="dnd-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9l-3 3 3 3"/><path d="M9 5l3-3 3 3"/><path d="M15 19l-3 3-3-3"/><path d="M19 9l3 3-3 3"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/></svg>Drag a word into each gap (or tap a word, then tap a gap). Tap &times; to clear.</p>
+        <div class="qtitle">Bilingual children</div>
+        <div class="sbox">
+          <p>It has often been noted that bilingual children acquire the <strong>31</strong>&nbsp; <span class="dzone" id="q31" data-q="31" data-bank="b2"></span> to converse in the majority language remarkably quickly. The fact that the mother tongue can disappear at a similar <strong>32</strong>&nbsp; <span class="dzone" id="q32" data-q="32" data-bank="b2"></span> is less well understood. This phenomenon depends to a certain extent on the proportion of people with the same linguistic background that have settled in a particular <strong>33</strong>&nbsp; <span class="dzone" id="q33" data-q="33" data-bank="b2"></span>. If this is limited, children are likely to lose the active use of their mother tongue, and thus no longer employ it even with <strong>34</strong>&nbsp; <span class="dzone" id="q34" data-q="34" data-bank="b2"></span>, although they may still understand it. It follows that teenage children in these circumstances experience a sense of <strong>35</strong>&nbsp; <span class="dzone" id="q35" data-q="35" data-bank="b2"></span> in relation to all aspects of their lives.</p>
+        </div>
+        <div class="se-bank-label">List of words</div>
+        <div class="wbank" id="wbank31" data-show="word" data-bank="b2">
+          <div class="dchip" draggable="true" data-letter="A" data-word="teachers"><span class="wk">A</span> teachers</div>
+          <div class="dchip" draggable="true" data-letter="B" data-word="school"><span class="wk">B</span> school</div>
+          <div class="dchip" draggable="true" data-letter="C" data-word="dislocation"><span class="wk">C</span> dislocation</div>
+          <div class="dchip" draggable="true" data-letter="D" data-word="rate"><span class="wk">D</span> rate</div>
+          <div class="dchip" draggable="true" data-letter="E" data-word="time"><span class="wk">E</span> time</div>
+          <div class="dchip" draggable="true" data-letter="F" data-word="family"><span class="wk">F</span> family</div>
+          <div class="dchip" draggable="true" data-letter="G" data-word="communication"><span class="wk">G</span> communication</div>
+          <div class="dchip" draggable="true" data-letter="H" data-word="type"><span class="wk">H</span> type</div>
+          <div class="dchip" draggable="true" data-letter="I" data-word="ability"><span class="wk">I</span> ability</div>
+          <div class="dchip" draggable="true" data-letter="J" data-word="area"><span class="wk">J</span> area</div>
+        </div>
+      </div>
+      <div class="qblock">
+        <p class="qnum-head"><em>Questions 36&ndash;40</em></p>
         <p class="qinst">Do the following statements agree with the views of the writer in Reading Passage 3?<br>Write <strong>YES</strong> / <strong>NO</strong> / <strong>NOT GIVEN</strong></p>
-        <div class="qitem"><p class="qprompt"><strong>31.</strong>&nbsp; Sydney Bradford relied on recollections of objects he had been told about to help him see after his operation.</p>
-          <div class="rgroup" id="rg31">
-            <label class="rlabel"><input type="radio" name="q31" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q31" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q31" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>32.</strong>&nbsp; People who only start to see as adults can learn to see as other people do in time.</p>
-          <div class="rgroup" id="rg32">
-            <label class="rlabel"><input type="radio" name="q32" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q32" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q32" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>33.</strong>&nbsp; People who have gained their sight as adults find certain activities harder to do than before.</p>
-          <div class="rgroup" id="rg33">
-            <label class="rlabel"><input type="radio" name="q33" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q33" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q33" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>34.</strong>&nbsp; It is evident now that sight involves the eyes and one particular area of the brain.</p>
-          <div class="rgroup" id="rg34">
-            <label class="rlabel"><input type="radio" name="q34" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q34" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q34" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>35.</strong>&nbsp; The mask experiment is particularly useful in training people who are regaining their sight.</p>
-          <div class="rgroup" id="rg35">
-            <label class="rlabel"><input type="radio" name="q35" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q35" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q35" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>36.</strong>&nbsp; People with perfect vision can fail to interpret objects correctly under certain circumstances.</p>
+        <div class="qitem"><p class="qprompt"><strong>36.</strong>&nbsp; Less than half the children who attend kindergarten in Toronto have English as their mother tongue.</p>
           <div class="rgroup" id="rg36">
             <label class="rlabel"><input type="radio" name="q36" value="YES" onchange="upd()"> YES</label>
             <label class="rlabel"><input type="radio" name="q36" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q36" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-      </div>
-      <div class="qblock">
-        <p class="qnum-head"><em>Questions 37–40</em></p>
-        <p class="qinst">Complete the summary using the list of words, <strong>A–J</strong>, below.</p>
-<p class="dnd-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9l-3 3 3 3"/><path d="M9 5l3-3 3 3"/><path d="M15 19l-3 3-3-3"/><path d="M19 9l3 3-3 3"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/></svg>Drag a word into each gap (or tap a word, then tap a gap). Tap × to clear.</p>
-        <div class="sbox">
-          <p><strong>The mask experiment</strong></p>
-          <p>In this experiment, having looked at the front of a simple face-mask, subjects look at the reverse. However, the subjects are convinced that they are still looking at a mask which is <span class="dzone" id="q37" data-q="37"></span> in shape. They believe that the <span class="dzone" id="q38" data-q="38"></span> is poking out in the normal manner because that is what they are used to seeing. Attempting to make a <span class="dzone" id="q39" data-q="39"></span> of the mask in this orientation leads to the same problem. The subjects fail to see a concave form because of the <span class="dzone" id="q40" data-q="40"></span> they have that the features of a face stick out.</p>
-        </div>
-        <div class="wbank" id="wbank37" data-show="word">
-          <div class="dchip" draggable="true" data-letter="A" data-word="back"><span class="wk">A</span> back</div>
-          <div class="dchip" draggable="true" data-letter="B" data-word="brain"><span class="wk">B</span> brain</div>
-          <div class="dchip" draggable="true" data-letter="C" data-word="view"><span class="wk">C</span> view</div>
-          <div class="dchip" draggable="true" data-letter="D" data-word="convex"><span class="wk">D</span> convex</div>
-          <div class="dchip" draggable="true" data-letter="E" data-word="sight"><span class="wk">E</span> sight</div>
-          <div class="dchip" draggable="true" data-letter="F" data-word="nose"><span class="wk">F</span> nose</div>
-          <div class="dchip" draggable="true" data-letter="G" data-word="ground"><span class="wk">G</span> ground</div>
-          <div class="dchip" draggable="true" data-letter="H" data-word="hollow"><span class="wk">H</span> hollow</div>
-          <div class="dchip" draggable="true" data-letter="I" data-word="drawing"><span class="wk">I</span> drawing</div>
-          <div class="dchip" draggable="true" data-letter="J" data-word="preconception"><span class="wk">J</span> preconception</div>
-        </div>
+            <label class="rlabel"><input type="radio" name="q36" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>37.</strong>&nbsp; Research proves that learning the host country language at school can have an adverse effect on a child's mother tongue.</p>
+          <div class="rgroup" id="rg37">
+            <label class="rlabel"><input type="radio" name="q37" value="YES" onchange="upd()"> YES</label>
+            <label class="rlabel"><input type="radio" name="q37" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q37" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>38.</strong>&nbsp; The Foyer programme is to be adopted by the French education system.</p>
+          <div class="rgroup" id="rg38">
+            <label class="rlabel"><input type="radio" name="q38" value="YES" onchange="upd()"> YES</label>
+            <label class="rlabel"><input type="radio" name="q38" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q38" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>39.</strong>&nbsp; Bilingual children are taught to tell the time earlier than monolingual children.</p>
+          <div class="rgroup" id="rg39">
+            <label class="rlabel"><input type="radio" name="q39" value="YES" onchange="upd()"> YES</label>
+            <label class="rlabel"><input type="radio" name="q39" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q39" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>40.</strong>&nbsp; Bilingual children can eventually apply reading comprehension strategies acquired in one language when reading in the other.</p>
+          <div class="rgroup" id="rg40">
+            <label class="rlabel"><input type="radio" name="q40" value="YES" onchange="upd()"> YES</label>
+            <label class="rlabel"><input type="radio" name="q40" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q40" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
       </div>
     </div><!-- /qs3 -->
   </div><!-- /right-pane -->
@@ -589,24 +558,24 @@ mark.uhl:hover{background:#FDE047}
 <script>
 // ── ANSWERS ──
 const CA = {
-  1:'FALSE', 2:'TRUE', 3:'TRUE', 4:'NOT GIVEN', 5:'TRUE',
-  6:['trees'], 7:['ground'], 8:['teeth'], 9:['fruit'], 10:['eggs'], 11:['bones'], 12:['childhood'], 13:['brains'],
-  14:['pass rates'], 15:['decade'], 16:['australia'],
-  17:'C', 18:'B', 19:'D', 20:'E',
-  21:'H', 22:'E', 23:'G', 24:'C', 25:'F', 26:'B',
-  27:'D', 28:'C', 29:'C', 30:'A',
-  31:'NO', 32:'NOT GIVEN', 33:'YES', 34:'NO', 35:'NOT GIVEN', 36:'YES',
-  37:'D', 38:'F', 39:'I', 40:'J'
+  1:'FALSE', 2:'TRUE', 3:'TRUE', 4:'NOT GIVEN', 5:'FALSE',
+  6:['populations'], 7:['records'], 8:['fermentation'], 9:['texture'], 10:['resistant'], 11:['chisel'], 12:['meat'], 13:['damage'],
+  14:'B', 15:'G', 16:'C', 17:'D', 18:'E',
+  19:['movie'], 20:['advertising'], 21:['play'], 22:['beauty'],
+  23:['B','D'], 24:['B','D'], 25:['A','C'], 26:['A','C'],
+  27:'C', 28:'A', 29:'B', 30:'D',
+  31:'I', 32:'D', 33:'J', 34:'F', 35:'C',
+  36:'YES', 37:'NOT GIVEN', 38:'NOT GIVEN', 39:'NOT GIVEN', 40:'YES'
 };
 const CAL = {
-  1:'FALSE', 2:'TRUE', 3:'TRUE', 4:'NOT GIVEN', 5:'TRUE',
-  6:'trees', 7:'ground', 8:'teeth', 9:'fruit', 10:'eggs', 11:'bones', 12:'childhood', 13:'brains',
-  14:'pass rates', 15:'decade', 16:'Australia',
-  17:'C', 18:'B', 19:'D', 20:'E',
-  21:'H', 22:'E', 23:'G', 24:'C', 25:'F', 26:'B',
-  27:'D', 28:'C', 29:'C', 30:'A',
-  31:'NO', 32:'NOT GIVEN', 33:'YES', 34:'NO', 35:'NOT GIVEN', 36:'YES',
-  37:'D (convex)', 38:'F (nose)', 39:'I (drawing)', 40:'J (preconception)'
+  1:'FALSE', 2:'TRUE', 3:'TRUE', 4:'NOT GIVEN', 5:'FALSE',
+  6:'populations', 7:'records', 8:'fermentation', 9:'texture', 10:'resistant', 11:'chisel', 12:'meat', 13:'damage',
+  14:'B', 15:'G', 16:'C', 17:'D', 18:'E',
+  19:'movie', 20:'advertising', 21:'play', 22:'beauty',
+  23:'B / D', 24:'B / D', 25:'A / C', 26:'A / C',
+  27:'C', 28:'A', 29:'B', 30:'D',
+  31:'I (ability)', 32:'D (rate)', 33:'J (area)', 34:'F (family)', 35:'C (dislocation)',
+  36:'YES', 37:'NOT GIVEN', 38:'NOT GIVEN', 39:'NOT GIVEN', 40:'YES'
 };
 
 // ── STATE ──
@@ -646,15 +615,15 @@ function showWelcomePopup() {
             <p style="margin:14px 0 6px;font-size:14px;opacity:0.96;">Prepared by <strong style="color:#fbbf24;">I. Bekhruz</strong></p>
             <p style="margin:0 0 18px;font-size:13px;opacity:0.82;">Follow for more authentic tests, tips &amp; daily practice 👇</p>
             <div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:12px 14px;margin-bottom:22px;text-align:left;">
-                <p style="margin:0;font-size:12.5px;line-height:1.5;opacity:0.95;">⚠️ <strong>Choose how you want to practise.</strong> <strong>Exam mode</strong> runs a 60-minute countdown that auto-submits at 0, just like the real IELTS test. <strong>Casual mode</strong> uses a count-up stopwatch, so you can finish whenever you like and still see how long you took.</p>
+                <p style="margin:0;font-size:12.5px;line-height:1.5;opacity:0.95;">🎯 <strong>Exam Mode</strong> runs a 60-minute countdown that auto-submits at zero — just like exam day. 🧘 <strong>Casual Mode</strong> counts your time up with no limit, so you can practise at your own pace.</p>
             </div>
-            <div style="display:flex;flex-direction:column;gap:10px;align-items:stretch;">
+            <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
                 <a href="https://t.me/bekhruzposts" target="_blank" style="display:inline-flex;align-items:center;gap:7px;background:#fff;color:#0f172a;text-decoration:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.3);">
                     <svg style="width:17px;height:17px;fill:#0f172a;" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
                     Join @bekhruzposts
                 </a>
-                <button id="examBtn" style="background:linear-gradient(90deg,#38bdf8,#0ea5e9);color:#052033;border:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;line-height:1.2;box-shadow:0 6px 18px rgba(0,0,0,0.25);">🎯 Exam mode<span style="font-weight:600;font-size:11px;opacity:.8;">60-minute timer &middot; auto-submit at 0</span></button>
-                <button id="casualBtn" style="background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(56,189,248,0.4);font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;line-height:1.2;">🧘 Casual mode<span style="font-weight:600;font-size:11px;opacity:.8;">stopwatch &middot; finish whenever you like</span></button>
+                <button id="examBtn" style="background:linear-gradient(90deg,#38bdf8,#0ea5e9);color:#052033;border:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;">🎯 Exam Mode</button>
+                <button id="casualBtn" style="background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(56,189,248,0.4);font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;">🧘 Casual Mode</button>
             </div>
         </div>`;
     overlay.appendChild(box);
@@ -728,12 +697,17 @@ function nextQ(){let n=Math.min(40,curQ+1);goQ(n);}
 function prevQ(){let n=Math.max(1,curQ-1);goQ(n);}
 
 function getQEl(n){
+  if(typeof PICK!=='undefined' && PICK[n]) return document.getElementById('grp'+PICK[n].g);
   return document.getElementById('q'+n)||
     document.querySelector('input[name="q'+n+'"]:first-of-type')||null;
 }
 
 // ── USER ANSWER ──
 function getAns(n){
+  if(typeof PICK!=='undefined' && PICK[n]){
+    const sel=[...document.querySelectorAll('input[name="pg_'+PICK[n].g+'"]:checked')].map(c=>c.value).sort();
+    return sel[PICK[n].qs.indexOf(n)]||'';
+  }
   const el=document.getElementById('q'+n);
   if(el&&el.classList&&el.classList.contains('dzone')) return el.dataset.val||'';
   if(el&&el.type==='text') return el.value.trim();
@@ -755,38 +729,27 @@ function upd(){
   document.getElementById('cnt').textContent=tot+' of 40 answered';
 }
 
-// ── TIMER / STOPWATCH ──
-function fmt(s){const m=Math.floor(s/60),sec=s%60;return String(m).padStart(2,'0')+':'+String(sec).padStart(2,'0');}
-function startMode(m){
-  mode=m;
-  const badge=document.getElementById('mode-badge');
-  const d=document.getElementById('timer');
-  if(m==='exam'){
-    timerS=3600; elapsed=0;
-    d.textContent=fmt(timerS); d.title='Time remaining';
-    badge.textContent='⏳ Exam';
-    badge.style.cssText='display:inline-flex;align-items:center;font-size:11px;font-weight:700;padding:4px 10px;border-radius:9999px;background:#fee2e2;color:#b91c1c;border:1px solid #fecaca;';
-  } else {
-    timerS=3600; elapsed=0;
-    d.textContent=fmt(0); d.title='Time elapsed (stopwatch)'; d.classList.remove('warn');
-    badge.textContent='🧘 Casual';
-    badge.style.cssText='display:inline-flex;align-items:center;font-size:11px;font-weight:700;padding:4px 10px;border-radius:9999px;background:#0f172a;color:#fbbf24;border:1px solid #1e293b;';
-  }
-}
+// ── TIMER ──
 function toggleTimer(){
   if(!tRun){tRun=true;tInt=setInterval(tick,1000);}
+}
+function fmt(s){const m=Math.floor(s/60);s=s%60;return String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');}
+function startMode(m){
+  mode=m;
+  const d=document.getElementById('timer'), b=document.getElementById('mode-badge');
+  if(m==='casual'){ elapsed=0; d.textContent='00:00'; d.classList.remove('warn');
+    if(b){b.textContent='\uD83E\uDDD8 Casual'; b.style.cssText='display:inline-flex;align-items:center;gap:4px;margin-left:8px;background:#0f172a;color:#fbbf24;font-size:11px;font-weight:800;padding:3px 11px;border-radius:9999px;';} }
+  else { d.textContent=fmt(timerS);
+    if(b){b.textContent='\uD83C\uDFAF Exam'; b.style.cssText='display:inline-flex;align-items:center;gap:4px;margin-left:8px;background:#DC2626;color:#fff;font-size:11px;font-weight:800;padding:3px 11px;border-radius:9999px;';} }
 }
 function tick(){
   elapsed++;
   const d=document.getElementById('timer');
-  if(mode==='exam'){
-    timerS--; if(timerS<0)timerS=0;
-    d.textContent=fmt(timerS);
-    d.classList.toggle('warn',timerS<=300&&timerS>0);
-    if(timerS<=0){clearInterval(tInt);tRun=false;if(!checked){timeExpired=true;doCheck();}return;}
-  } else {
-    d.textContent=fmt(elapsed);
-  }
+  if(mode==='casual'){ d.textContent=fmt(elapsed); return; }
+  if(timerS<=0){clearInterval(tInt);tRun=false;if(!checked){timeExpired=true;doCheck();}return;}
+  timerS--;
+  d.textContent=fmt(timerS);
+  d.classList.toggle('warn',timerS<=300&&timerS>0);
 }
 // ── FULLSCREEN ──
 function toggleFullscreen(){
@@ -836,14 +799,17 @@ function setupDrag(){
   document.addEventListener('mouseup',()=>{drag=false;d.classList.remove('on');document.body.style.cssText='';});
 }
 
-// ── DRAG & DROP (bank → gaps) ──
+// ── DRAG & DROP (multi-bank: each .wbank scopes its own chips+zones) ──
 function setupSummaryDnD(){
-  const chips=[...document.querySelectorAll('.dchip')];
-  const zones=[...document.querySelectorAll('.dzone')];
+  document.querySelectorAll('.wbank').forEach(setupOneBank);
+}
+function setupOneBank(bank){
+  const bankId=bank.dataset.bank||'';
+  const chips=[...bank.querySelectorAll('.dchip')];
+  const zones=[...document.querySelectorAll('.dzone')].filter(z=>(z.dataset.bank||'')===bankId);
   if(!chips.length||!zones.length)return;
-  const showMode=(document.querySelector('.wbank')?.dataset.show)||'word';
+  const showMode=bank.dataset.show||'word';
   let selChip=null;
-
   const wordOf=L=>{const c=chips.find(c=>c.dataset.letter===L);return c?c.dataset.word:'';};
   const dispOf=L=>showMode==='letter'?L:wordOf(L);
   function refreshUsed(){
@@ -855,7 +821,7 @@ function setupSummaryDnD(){
     if(checked||!letter)return;
     zones.forEach(z=>{ if(z.dataset.val===letter){z.dataset.val='';z.classList.remove('filled');z.innerHTML='';} });
     zone.dataset.val=letter;zone.classList.add('filled');
-    zone.innerHTML='<span class="dz-w">'+dispOf(letter)+'</span><span class="dz-x" title="Clear">×</span>';
+    zone.innerHTML='<span class="dz-w">'+dispOf(letter)+'</span><span class="dz-x" title="Clear">\u00d7</span>';
     clearSel();refreshUsed();upd();
   }
   function empty(zone){
@@ -863,7 +829,6 @@ function setupSummaryDnD(){
     zone.dataset.val='';zone.classList.remove('filled');zone.innerHTML='';
     refreshUsed();upd();
   }
-
   chips.forEach(chip=>{
     chip.addEventListener('dragstart',e=>{
       if(checked||chip.classList.contains('used')){e.preventDefault();return;}
@@ -892,8 +857,6 @@ function setupSummaryDnD(){
       if(selChip)fill(zone,selChip.dataset.letter);
     });
   });
-
-  // Mobile touch drag (ghost follows finger)
   let ghost=null,tChip=null;
   chips.forEach(chip=>{
     chip.addEventListener('touchstart',e=>{
@@ -908,18 +871,30 @@ function setupSummaryDnD(){
       ghost.style.left=t.clientX+'px';ghost.style.top=t.clientY+'px';
       const el=document.elementFromPoint(t.clientX,t.clientY);
       const z=el&&el.closest?el.closest('.dzone'):null;
-      zones.forEach(zz=>zz.classList.toggle('over',zz===z));
+      zones.forEach(zz=>zz.classList.toggle('over',zz===z&&(z.dataset.bank||'')===bankId));
     },{passive:false});
     chip.addEventListener('touchend',e=>{
       if(!ghost)return;const t=e.changedTouches[0];
       const el=document.elementFromPoint(t.clientX,t.clientY);
-      const z=el&&el.closest?el.closest('.dzone'):null;
+      let z=el&&el.closest?el.closest('.dzone'):null;
+      if(z&&(z.dataset.bank||'')!==bankId) z=null;
       zones.forEach(zz=>zz.classList.remove('over'));
       ghost.remove();ghost=null;
       if(z&&tChip)fill(z,tChip.dataset.letter);
       tChip=null;
     });
   });
+}
+
+// ── CHOOSE-TWO CHECKBOX GROUPS ──
+const PICK={
+  23:{g:'g1',qs:[23,24],set:['B','D']}, 24:{g:'g1',qs:[23,24],set:['B','D']},
+  25:{g:'g2',qs:[25,26],set:['A','C']}, 26:{g:'g2',qs:[25,26],set:['A','C']}
+};
+function pickCap(g,max,cb){
+  const ch=[...document.querySelectorAll('input[name="pg_'+g+'"]:checked')];
+  if(ch.length>max) cb.checked=false;
+  upd();
 }
 
 // ── NORMALIZE ──
@@ -961,6 +936,14 @@ function doCheck(){
 }
 
 function markQ(n,ok){
+  if(typeof PICK!=='undefined' && PICK[n]){
+    document.querySelectorAll('input[name="pg_'+PICK[n].g+'"]').forEach(cb=>{
+      const lb=cb.closest('label'); if(!lb)return;
+      if(PICK[n].set.includes(cb.value)) lb.classList.add('ok');
+      else if(cb.checked) lb.classList.add('bad');
+    });
+    return;
+  }
   const el=document.getElementById('q'+n);
   if(el&&el.classList&&el.classList.contains('dzone')){
     el.classList.add(ok?'ok':'bad');
@@ -1030,10 +1013,8 @@ function showResults(){
       </div>
       <div class="res-hero-info">
         <div class="res-title">${titleTxt}</div>
-        <div style="display:flex;gap:6px;flex-wrap:wrap;">
-          <div class="res-band">Band ${band(lastScore)}<em>estimated</em></div>
-          <div class="res-band">⏱ ${fmt(elapsed)}<em>${mode==='exam'?'time used':'your time'}</em></div>
-        </div>
+        <div class="res-band">Band ${band(lastScore)}<em>estimated</em></div>
+        <div class="res-band">⏱ ${fmt(elapsed)}<em>${mode==='exam'?'time used':'your time'}</em></div>
       </div>
     </div>
     <div class="res-parts">
@@ -1054,47 +1035,46 @@ function closeResults(){document.getElementById('res-ov').classList.remove('show
 
 // ── PASSAGE HIGHLIGHTS ──
 const P1H=[
-  {q:1,t:"straight away, he recognised it"},
-  {q:2,t:"bits of the skull, a chunk of jaw, a couple of vertebrae"},
-  {q:3,t:"immediately obvious that the skeleton was a significant find"},
-  {q:5,t:"feeling was that the skeleton was female due to its size"},
-  {q:6,t:"evolved in the trees"},
-  {q:7,t:"heading to the ground"},
-  {q:8,t:"trapped on preserved human teeth"},
-  {q:9,t:"instead of mostly eating fruit from trees"},
-  {q:10,t:"fossilised crocodile and turtle eggs were found near her"},
-  {q:11,t:"uncovered animal bones with scratches"},
-  {q:12,t:"lucy's childhood was much briefer than ours"},
-  {q:13,t:"their brains matured much earlier than ours do"}
+  {q:1,t:"thought that cooking, after language, was the greatest discovery made by man"},
+  {q:2,t:"edible food by destroying toxic chemicals"},
+  {q:3,t:"the ratio of energy gained to energy expended by the body is greater when food is cooked"},
+  {q:5,t:"this was something he had not expected"},
+  {q:6,t:"populations increased in size"},
+  {q:7,t:"allowed people to maintain records of the harvest and taxes"},
+  {q:8,t:"adding acid by fermentation"},
+  {q:9,t:"the flavour of the food as well as the texture were similar to the freshly cooked product"},
+  {q:10,t:"the first ones which were light and resistant to damage"},
+  {q:11,t:"cans were opened with a chisel which was used to break open the top"},
+  {q:12,t:"one can, which contained meat dating from 1824"},
+  {q:13,t:"very rapid freezing creates smaller ice crystals and therefore causes less damage to food"}
 ];
 const P2H=[
-  {q:14,t:"difference in pass rates between the sexes"},
-  {q:15,t:"outperforming boys academically for more than a decade"},
-  {q:16,t:"within australia was the subject of much debate"},
-  {q:17,t:"provides a fine-grained picture of pupils' performance"},
-  {q:18,t:"working with a reference group on boys' education"},
-  {q:19,t:"shows up as early as preschool"},
-  {q:20,t:"new zealand european girls most represented at the top and new zealand pacific island boys at the bottom"},
-  {q:21,t:"resistance within the education ministry towards doing anything"},
-  {q:22,t:"isn't really a gender gap. but literacy is a different matter"},
-  {q:23,t:"written content of ncea papers is more demanding"},
-  {q:24,t:"difference was, instead, to do with the quality of instruction"},
-  {q:25,t:"competitive instinct tends to come out later"},
-  {q:26,t:"easier in a boys' school, where activities cannot be 'captured by girls'"}
+  {q:14,t:"artists may just make a work of art because they feel compelled to"},
+  {q:15,t:"they seek to connect with their audience and express an idea or emotion which has the capacity to enrich"},
+  {q:16,t:"the distinction here lies between things that are instrumental and things that are ends in themselves"},
+  {q:17,t:"anyone can get away with in calling their creation a contribution to"},
+  {q:18,t:"laughing is, in fact, good for something nevertheless; it does make people feel better"},
+  {q:19,t:"a soundtrack to a movie"},
+  {q:20,t:"pictures are used as instruments in advertising"},
+  {q:21,t:"a play can be written to point out to the theatre audience a social injustice"},
+  {q:22,t:"such as, for instance, the creation of beauty"},
+  {q:23,t:"to present a surprising or fresh angle on it"},
+  {q:24,t:"the interest or perhaps disgust it provokes in them"},
+  {q:25,t:"experience of the world, which lies inside the artist himself"},
+  {q:26,t:"a symphony, unless it is devised to represent bird song, rain, the sea"}
 ];
 const P3H=[
-  {q:27,t:"still not generally recognised even now, 400 years later"},
-  {q:28,t:"undermined the notion of humans as pre-eminently rational beings"},
-  {q:29,t:"rare for memories, which might be how we are able to separate them"},
-  {q:30,t:"perception of the present depends on rich"},
-  {q:31,t:"already knew about, having experienced them through touch"},
-  {q:33,t:"shut his eyes while skiing to block out what he now found was a terrifying sight"},
-  {q:34,t:"half the brain is occupied with seeing"},
-  {q:36,t:"even people with no visual impairment see what"},
-  {q:37,t:"back of the mask will be seen as convex"},
-  {q:38,t:"with the nose sticking out"},
-  {q:39,t:"impossible to sketch the back of a hollow mask"},
-  {q:40,t:"expect to see, and often miss things as they really are"}
+  {q:27,t:"the cultural, linguistic and economic resources of the nation are maximized"},
+  {q:28,t:"the person who knows only one language does not truly know that language"},
+  {q:29,t:"develop stronger literacy abilities in the school language"},
+  {q:30,t:"they worry that they take time away from the majority language"},
+  {q:31,t:"conversational skills in the majority language at school"},
+  {q:32,t:"how quickly children can lose their ability to use their mother tongue"},
+  {q:33,t:"the concentration of families from a particular linguistic group in the neighborhood"},
+  {q:34,t:"in speaking with their peers and siblings and in responding to their parents"},
+  {q:35,t:"pupils frequently become alienated from the cultures of both home and school"},
+  {q:36,t:"58% of kindergarten pupils come from homes where english is not the language"},
+  {q:40,t:"knowing how to distinguish the main idea from the supporting details of a written passage"}
 ];
 
 function applyHL2(pEl, items){
@@ -1198,6 +1178,27 @@ document.addEventListener('keydown',e=>{
   if(e.key==='ArrowLeft')prevQ();
   if(e.key==='ArrowRight')nextQ();
 });
+
+// ── CHOOSE-TWO multiple choice (q20/q21) ──
+function mc2upd(box){
+  var base=Number(box.dataset.base);
+  var boxes=[].slice.call(document.querySelectorAll('.mc2box[data-base="'+base+'"]'));
+  if(boxes.filter(function(b){return b.checked;}).length>2){ box.checked=false; return; }
+  var vals=boxes.filter(function(b){return b.checked;}).map(function(b){return b.value;});
+  document.getElementById('q'+base).value=vals[0]||'';
+  document.getElementById('q'+(base+1)).value=vals[1]||'';
+  upd();
+}
+function mc2review(){
+  document.querySelectorAll('.mc2box').forEach(function(b){
+    var base=Number(b.dataset.base);
+    var correct=[].concat(CA[base]).concat(CA[base+1]);
+    var lb=b.closest('label'); if(!lb)return;
+    if(correct.indexOf(b.value)>=0) lb.classList.add('ok');
+    else if(b.checked) lb.classList.add('bad');
+  });
+}
+(function(){ if(typeof doCheck==='function'){ var _d=doCheck; doCheck=function(){ _d.apply(this,arguments); try{mc2review();}catch(e){} }; } })();
 </script>
 </body>
 </html>

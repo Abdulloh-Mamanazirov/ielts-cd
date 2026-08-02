@@ -1,0 +1,590 @@
+{
+  "slug": "listening-volume-3-test-10",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-37m-08s-audio-joiner.com/mix_37m08s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 3, Test 10",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Film Club</div><p>Membership information</p><ul><li>club meets every 2 weeks</li><li>no {{1}} limit</li><li>student membership costs £ {{2}} per season</li><li>members get: <ul><li>free entry to club films</li><li>£ {{3}} reduction on other films at cinema</li></ul></li><li>members are entitled to 3 hours' free {{4}}</li></ul><p>Films to be shown</p><p><strong>Oct 14: <em>Pablo</em></strong></p><ul><li>about a child in {{5}} who runs away from home and wins</li><li>a {{6}} competition on TV</li></ul><p><strong>Oct 28: <em>The Soldier</em></strong></p><ul><li>with live {{7}} accompaniment</li><li>made in the year {{8}}</li><li>type of film: a {{9}}</li></ul><p><strong>Nov 11: <em>Tiger</em></strong></p><ul><li>cartoon aimed at adults</li><li>followed by a {{10}} by the director</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;Stephen says the founders of extrahands.com originally needed help in",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "preparing their fields for planting."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "harvesting their organic crops."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "constructing their farm buildings."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;To remain an active member of extrahands.com, you must",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "update your form on the website every year."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "pay a subscription of $25 every year."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "use the scheme as a host or volunteer every year."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;Most extrahands.com volunteers search for jobs on the website according to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the type of work available."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the geographical location."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the length of time required."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;Stephen recommends that the host and volunteer should",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "confirm details of the arrangement in writing."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "draw up a formal written contract."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "meet each other before settling on terms."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;To deal with members' problems, extrahands.com have a system",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "for checking each new member online."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "for allowing online feedback."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "for inspecting work and accommodation."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "cook"
+              },
+              {
+                "letter": "B",
+                "textHtml": "gardener"
+              },
+              {
+                "letter": "C",
+                "textHtml": "construction worker"
+              },
+              {
+                "letter": "D",
+                "textHtml": "tour guide"
+              },
+              {
+                "letter": "E",
+                "textHtml": "farm labourer"
+              },
+              {
+                "letter": "F",
+                "textHtml": "editor"
+              },
+              {
+                "letter": "G",
+                "textHtml": "swimming pool cleaner"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "Portugal"
+              },
+              {
+                "number": 17,
+                "textHtml": "Australia"
+              },
+              {
+                "number": 18,
+                "textHtml": "South Korea"
+              },
+              {
+                "number": 19,
+                "textHtml": "USA"
+              },
+              {
+                "number": 20,
+                "textHtml": "Italy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;What problem is Lorna having with her report?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "listing the references"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "keeping to the word limit"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "writing the evaluation"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Why did Charles take the song-writing course?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to improve his job prospects"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to increase his self-confidence"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to develop his self-expression"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Which type of work did Lorna most enjoy?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "individual work"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "pair work"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "group work"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Which aspect of the course content did both students find interesting?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "song structure"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "writing a chorus"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "lyrical styles and forms"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;Lorna found writing a song",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "impossible."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "tiring."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "amusing."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "use of own memories"
+              },
+              {
+                "letter": "B",
+                "textHtml": "full use of the stage"
+              },
+              {
+                "letter": "C",
+                "textHtml": "relaxation techniques"
+              },
+              {
+                "letter": "D",
+                "textHtml": "physical expression of character"
+              },
+              {
+                "letter": "E",
+                "textHtml": "play readings"
+              },
+              {
+                "letter": "F",
+                "textHtml": "acting without preparation"
+              },
+              {
+                "letter": "G",
+                "textHtml": "using a range of accents"
+              },
+              {
+                "letter": "H",
+                "textHtml": "following instructions"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "Bob Lacey"
+              },
+              {
+                "number": 27,
+                "textHtml": "Evelyn Chance"
+              },
+              {
+                "number": 28,
+                "textHtml": "Ted Winter"
+              },
+              {
+                "number": 29,
+                "textHtml": "Kevin Gray"
+              },
+              {
+                "number": 30,
+                "textHtml": "Dorothy Thomas"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Office Design</div><p>Early 20th Century</p><ul><li>workers employed to do {{31}} were arranged in rows</li></ul><p>1960s to present</p><p>Variations in design of open-plan offices:</p><ul><li>first, workers had individual {{32}}</li><li>later, they had cubicles with high or low {{33}}</li><li>nowadays, workers may have to {{34}} a work area</li></ul><p>Survey results</p><p>Attitudes of employees to open-plan designs:</p><ul><li>there is a lack of {{35}} and {{36}}</li><li>they pose a risk to our {{37}} (staff records support this)</li></ul><p>Attitudes of employers to open-plan designs:</p><ul><li>they significantly reduce rent and {{38}} costs</li><li>they improve teamwork and communication</li><li>they can make {{39}} staff easier</li></ul><p>In reality, employees are unhappy and are often distracted by the {{40}} in the office.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "age"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "21.50",
+          "21.5"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "2",
+          "two"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "parking"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "argentina"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "singing",
+          "a singing"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "piano",
+          "a piano",
+          "the piano"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "1922"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "comedy",
+          "a comedy"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "talk",
+          "a talk"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "typing"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "desks",
+          "desk"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "screens",
+          "screen"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "share"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "privacy"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "security"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "health"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "energy"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "training"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "noise"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

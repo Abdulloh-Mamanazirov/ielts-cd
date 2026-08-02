@@ -1,0 +1,502 @@
+{
+  "slug": "reading-volume-3-test-5",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 3, Test 5",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Caral: An Ancient South American City",
+        "passageHtml": "<p>Huge earth and rock mounds rise out of the desert of the Supe Valley near the coast of Peru in South America. These immense mounds appear simply to be part of the geographical landscape in this arid region squeezed between the Pacific Ocean and the Andes mountains. But looks deceive. These are actually human-made pyramids. Strong evidence indicates they are the remains of a city known as Caral that flourished nearly 5,000 years ago. If true, it would be the oldest known urban center in the Americas and among the most ancient in the world.</p><p>Research undertaken by Peruvian archaeologist Ruth Shady suggests that the 150-acre complex of pyramids, plazas and residential buildings was a thriving metropolis when Egypt's great pyramids were still being built. Though discovered in 1905, for years Caral attracted little attention, largely because archaeologists believed the structures were fairly recent. But the monumental scale of the pyramids had long interested Shady, who began excavations at the site in 1996, about 22 kilometers from the coast and 190 kilometers north of Peru's capital city of Lima.</p><p>Shady and her crew searched for broken remains of the pots and containers that most such sites contain. Not finding any only made her more excited: it meant Caral could be what archaeologists term pre-ceramic, that is, existing before the advent in the area of pot-firing techniques. Shady's team undertook the task of excavating Piramide Mayor, the largest of the pyramids. After carefully clearing away many hundreds of years' worth of rubble and sand, they identified staircases, walls covered with remnants of colored plaster, and brickwork. In the foundations, they found the remains of grass-like reeds woven into bags. The original workers, she surmised, must have filled these bags with stones from a nearby quarry and laid them atop one another inside retaining walls, creating the pyramid's dense mass structure. Shady had samples of the reeds subjected to radiocarbon dating and found that the reeds were 4,600 years old. This evidence indicated that Caral was, in fact, more than 1,000 years older than what had previously been thought to be the oldest urban center in the Americas.</p><p>What amazed archaeologists was not just the age, but the complexity and scope of Caral. Piramide Mayor alone covers an area nearly the size of four football fields and is 18 meters tall. A nine-meter-wide staircase rises from a circular plaza at the foot of the pyramid, passing over three terraced levels until it reaches the top. Thousands of manual laborers would have been needed to build such a project, not counting the many architects, craftsmen, and managers. Shady's team found the remains of a large amphitheater, containing almost 70 musical instruments made of bird and deer bones. Clearly music played an important role in Caral's society. Around the perimeter of Caral are a series of smaller mounds and various buildings. These indicate a hierarchy of living arrangements: large, well-kept rooms atop pyramids for the elite, ground-level quarters for shabbier outlying dwellings for workers.</p><p>But why had Caral been built in the first place? Her excavations convinced Shady that Caral once served as a trade center for the region, which extends from the rainforests of the Amazon to the high forests of the Andes. Shady found evidence of a rich trading environment, including seeds of the cocoa bush and necklaces of shells, neither of which was native to the immediate Caral area. This environment gave rise to people who did not take part in the production of food, allowing them to become priests and planners, artisans and designers. Thus occupational specialization, elemental to an urban society, emerged.</p><p>But what sustained such a trading center and drew travelers to it? Was it food? Shady and her team found the bones of small edible fish, which must have come from the Pacific coast to the west, in the excavations. But they also found evidence of squash, sweet potatoes and beans having been grown locally. Shady theorized that Caral's early farmers diverted the area's rivers into canals, which still cross the Supe Valley today, to irrigate their fields. But because she found no traces of maize, which can be traded or stored and used in times of crop failure, she concluded that Caral's trade leverage was not based on stockpiling food supplies.</p><p>It was evidence of another crop in the excavations that gave Shady the best clue to Caral's success. In nearly every excavated building, her team discovered evidence of cotton - seeds, fibers and textiles. Her theory fell into place when a large fishing net made of those fibers, unearthed in an unrelated dig on Peru's coast, turned out to be from Caral. 'The farmers of Caral grew the cotton that the fishermen needed to make their nets,' Shady speculates. 'And the fishermen gave them shellfish and dried fish in exchange for these nets.' In essence, the people of Caral enabled fishermen to work with larger and more effective nets, which made the resources of the sea more readily available, and the fishermen probably used dried squash grown by the Caral people as flotation devices for their nets.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–6</h3>Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Caral was built at the same time as the construction of the Egyptian pyramids."
+              },
+              {
+                "number": 2,
+                "textHtml": "The absence of pottery at the archaeological dig gave Shady a significant clue to the age of the site."
+              },
+              {
+                "number": 3,
+                "textHtml": "The stones used to build Piramide Mayor came from a location far away."
+              },
+              {
+                "number": 4,
+                "textHtml": "The huge and complicated structures of Piramide Mayor suggest that its construction required an organised team of builders."
+              },
+              {
+                "number": 5,
+                "textHtml": "Archaeological evidence shows that the residents of Caral were highly skilled musicians."
+              },
+              {
+                "number": 6,
+                "textHtml": "The remains of housing areas at Caral suggest that there were no class distinctions in residential areas."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 7–13</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Caral as a trading centre</div><div> Items discovered at Caral but not naturally occurring in the area <ul><li>the <strong>7</strong>&nbsp;{{7}} of a certain plant</li><li><strong>8</strong>&nbsp;{{8}} used to make jewellery</li><li>the remains of certain food such as <strong>9</strong>&nbsp;{{9}}</li></ul> Clues to farming around Caral <ul><li><strong>10</strong>&nbsp;{{10}} still in existence today indicate water diverted from rivers</li><li>no evidence that <strong>11</strong>&nbsp;{{11}} was grown</li></ul> Evidence of relationship with fishing communities <ul><li>the excavation findings and fishing nets found on the coast suggest Caral farmers traded <strong>12</strong>&nbsp;{{12}}</li><li>dried squash may have been used to aid <strong>13</strong>&nbsp;{{13}} of fishing nets</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Should Space Be Explored by Robots or by Humans?",
+        "passageHtml": "<p><strong>A</strong>&nbsp;&nbsp; The advisability of humans participating directly in space travel continues to cause many debates. There is no doubt that the presence of people on board a space vehicle makes its design much more complex and challenging, and produces a large increase in costs, since safety requirements are greatly increased, and the technology providing necessities for human passengers such as oxygen, food and water must be guaranteed. Moreover, the systems required are bulky and costly, and their complexity increases for long-duration missions. Meanwhile, advances in electronics and computer science allow increasingly complex tasks to be entrusted to robots, and unmanned space probes are becoming lighter, smaller and more convenient.</p><p><strong>B</strong>&nbsp;&nbsp; However, experience has shown that the idea of humans in space is popular with the public. Humans can also be useful; there are many cases when only direct intervention by an astronaut or cosmonaut can correct the malfunction of an automatic device. Astronauts and cosmonauts have proved that they can adapt to conditions of weightlessness and work in space without encountering too many problems, as was seen in the operations to repair and to upgrade the Hubble Space Telescope. One human characteristic which is particularly precious in space missions, and which so far is lacking in robots, is the ability to perform a great variety of tasks. In addition, robots are not good at reacting to situations they have not been specifically prepared for. This is especially important in the case of deep space missions. While, in the case of the Moon, it is possible for someone on Earth to 'tele-operate' a robotic device such as a probe, as the two-way link time is only a couple of seconds, on Mars the two-way link time is several minutes, sending instructions from Earth is more difficult.</p><p><strong>C</strong>&nbsp;&nbsp; Many of the promises of artificial intelligence are still far from being fulfilled. The construction of machines simulating human logical reasoning moves towards ever more distant dates. The more the performance of computers improves, the more we realise how difficult it is to build machines which display logical abilities. In the past it was confidently predicted that we would soon have fully automated factories in which all operations were performed without any human intervention, and forecasts of the complete substitution of workers by robots in many production areas were made. Today, these perspectives are being revised. It seems that all machines, even the smartest ones, must cooperate with humans. Rather than replacing humans, the present need appears to be for an intelligent machine capable of helping a human operator without replacing him or her. The word 'cobot', from 'collaborative robot', has been invented to designate this type.</p><p><strong>D</strong>&nbsp;&nbsp; A similar trend is also apparent in the field of space exploration. Tasks which were in the past entrusted only to machines are now performed by human beings, sometimes with the aim of using simpler and less costly devices, sometimes to obtain better performance. In many cases, to involve a person in the control loop is a welcome simplification which may lower the cost of a mission without compromising safety. Many operations originally designed to be performed under completely automatic control can be performed more efficiently by astronauts, perhaps helped by their 'cobots'. The human-machine relationship must evolve towards a closer collaboration.</p><p><strong>E</strong>&nbsp;&nbsp; One way this could happen is by adopting the Mars Outposts approach, proposed by the Planetary Society. This would involve sending a number of robotic research stations to Mars, equipped with permanent communications and navigational systems. They would perform research, and establish the infrastructure needed to prepare future landing sites for the exploration of Mars by humans. It has also been suggested that in the most difficult environments, as on Venus or Jupiter, robots could be controlled by human beings located in spaceships which remain in orbit around the planet. In this case the link time for communication between humans and robots would be far less than it would be from Earth.</p><p><strong>F</strong>&nbsp;&nbsp; But if space is to be more than a place to build automatic laboratories or set up industrial enterprises in the vicinity of our planet, the presence of humans is essential. They must learn how to voyage through space towards destinations which will be not only scientific bases but also places to live. If space is a frontier, then humans must see the presence of people. So the aim for humankind in the future will be not just the exploration of space, but its colonisation. The result of exploring and living in space may be a deep change in the views which humankind has of itself. And this process is already under way. The images of Earth taken from the Moon in the Apollo programme have given humankind a new consciousness of its fragility, its smallness, and its unity. These impressions have triggered a realisation of the need to protect and preserve it, for it is the place in the solar system most suitable for us and above all it is the only place we have, at least for now.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–19</h3>Reading Passage 2 has six paragraphs, <strong>A–F</strong>.<br>Choose the correct heading for each paragraph from the list of headings below.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Robots on Earth – a re-evaluation"
+              },
+              {
+                "letter": "B",
+                "textHtml": "The barriers to cooperation in space exploration"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Some limitations of robots in space"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Reduced expectations for space exploration"
+              },
+              {
+                "letter": "E",
+                "textHtml": "A general reconsideration of human/robot responsibilities in space"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Problems in using humans for space exploration"
+              },
+              {
+                "letter": "G",
+                "textHtml": "The danger to humans of intelligent machines"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Space settlement and the development of greater self-awareness"
+              },
+              {
+                "letter": "I",
+                "textHtml": "Possible examples of cooperation in space"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 20 and 21</h3>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.<br>According to the writer, which TWO predictions about artificial intelligence have not yet been fulfilled?",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 20,
+                "textHtml": "",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Robots will work independently of humans."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Robots will begin to oppose human interests."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Robots will be used to help humans perform tasks more efficiently."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Robots will think in the same way as humans."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; Robots will become too costly to use on space missions."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 22–26</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Humans in space – the Mars Outposts approach and its implications</div><div><p>One way of exploring space would be through collaboration between humans and robots. For example, when exploring the planet Mars, robots could be used to set up <strong>22</strong>&nbsp;{{22}} and do initial research before humans arrive. In other cases, humans could stay in orbiting <strong>23</strong>&nbsp;{{23}} and give orders to robots working on the surface of the planet. This would increase the speed of <strong>24</strong>&nbsp;{{24}} with the robots.</p><p>In such ways, robots might be used to work in space in commercial enterprises or <strong>25</strong>&nbsp;{{25}}. However, the final aim of humankind may be the <strong>26</strong>&nbsp;{{26}} of space and this could in turn change people's attitudes towards Earth.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "The Dark Side of the Technological Boom",
+        "passageHtml": "<p>What are the effects on the individual of working in modern technological workplaces?</p><p>Changes in the way we work and how our offices are structured come at us faster and faster. Waves of state-of-the-art information technology and instant telecommunications let us reach anyone, anywhere, and speed is the key. Most of us are too busy struggling to keep pace with ongoing innovations to question the implications of our new electronic authority figures. According to a number of psychologists, however, the need to stay on top of the information flow and the degree to which we remain in touch with our offices exact a profound toll on us as individuals.</p><p>Mass exposure to technological innovations in the workplace has come too recently for psychologists to reach a consensus on its societal implications. Many agree, however, that one of the first signs of the struggle to adapt to the electronic office is what they call 'technostress', a cognitive shift that results from an over-identification with information systems. Psychologist Craig Brod says people become accustomed to the patterns set by electronic tools - accelerated time and yes/no logic - and internalize these patterns. When they leave the office or go home, Brod says, they need complete isolation to recover from the effects of the technology.</p><p>Brod warns that over-reliance on electronic tools could also have serious repercussions on our ability to think creatively and develop new ideas. Because we don't create in a vacuum, he points out, we need to avoid the temptation to replace informal gatherings for bouncing ideas off colleagues with electronic networking. It's also more difficult to spot errors or even evaluate the shape of a project displayed in a flat, two-dimensional way on a screen.</p><p>Electronically networked offices can also make it increasingly difficult to convince ourselves that we're doing an adequate job and accumulating enough information to make informed decisions. Philosopher Daniel Dennett points out that modern technology eliminates the possibility of unavoidable ignorance. As the opportunity to amass information grows larger, the obligation to make accurate predictions - the right decisions - becomes more onerous. The trouble is, when convincing ourselves that we're doing as good a job as we can, we are tormented by the knowledge that the world of information is limitless.</p><p>For executives near the top of the office pyramid, the benefits of the electronic revolution - like telecommuting and flexible scheduling - may outweigh the disadvantages of being continuously on call. But in Workplace 2000, authors Joseph Boyett and Henry Conn describe a future in which millions of people now charged with analyzing information and making routine decisions will be replaced by less skilled workers using 'intelligent' software to make decisions for them. They predict that a cult of performance excellence will engulf most businesses.</p><p>The millions of people on the bottom levels of electronic hierarchies are increasingly likely to spend their days in an isolated no-man's land, subservient to intelligent information systems that report their progress to unseen supervisors far away. Because computers measure quantity more easily than quality, such systems tend to reward employees who work faster more than those who work better.</p><p>Service people on the telephone or at a cash register curtly terminate attempts at idle conversation because their performance is being electronically monitored. Once judged on their ability to troubleshoot unexpected situations, they're now evaluated by the number of transactions they complete in a shift or the number of keystrokes required to draft a document. In these electronic 'sweatshops', the computers are running the people, not the other way around.</p><p>'I think people are going to feel an increased fragmentation of self. They won't be able to hold the pieces together,' human resources consultant Philip Nicholson says. 'How do you keep a coherent space if you're going in and out of spaces that don't exist?' He likens the psychic numbing of electronic information overload to symptoms of post-traumatic stress syndrome (a mental disorder following a horrific event). In office 'wars', people become overwhelmed by the sheer amount of information available, internalize the diversity of the world outside, and fear losing control of their own lives.</p><p>If we are to survive the challenges of information-driven, hardwired offices, says Nicholson, we need to provide psychological support systems. Although no one has yet measured the social cost of the workplace revolution, some psychologists are mobilizing efforts to pool information as it is derived. Nicholson started the Technostress International Information Network in Massachusetts to foster an exchange of data and ideas on the effects of computerization and information technology. Meanwhile, Brod wants to examine the parallels between electronic work environments and 'sealed-cabin ecologies' like space capsules or submarines, both totally automated artificial worlds in which people live in highly confined circumstances surrounded by technology that dictates the tenor of their days as well as their survival. He is petitioning the American Psychological Association to convince psychologists to form a specialized study group.</p><p>In addition, Brod suggests that we re-examine our value systems and that we make greater allowances for privacy in order to circumvent potential revolts against technology. 'We need to coevolve with technology,' he says. 'These are wonderful tools, but if we exploit them without imposing appropriate values on their use, they become alienating and dangerous.'</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 27–29</h3>Complete each sentence with the correct ending, <strong>A–E</strong>, below.",
+            "selectCount": 1,
+            "bodyHtml": "<p>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p><div><div>27The speed of technological changes{{27}}</div><div>28A dependency on technology and computers{{28}}</div><div>29A deterioration in personal service{{29}}</div></div><div>Endings</div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "requires more detailed study by psychologists."
+              },
+              {
+                "letter": "B",
+                "textHtml": "means people have no time to challenge the significance of the new technology."
+              },
+              {
+                "letter": "C",
+                "textHtml": "may reduce inventiveness and innovation."
+              },
+              {
+                "letter": "D",
+                "textHtml": "suggests computers will take over the workplace."
+              },
+              {
+                "letter": "E",
+                "textHtml": "results from increased electronic supervision."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 30–35</h3>Look at the following statements and the list of people below. Match each statement with the correct person, <strong>A–D</strong>. <em>NB You may use any letter more than once.</em>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Craig Brod"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Daniel Dennett"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Joseph Boyett and Henry Conn"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Philip Nicholson"
+              }
+            ],
+            "questions": [
+              {
+                "number": 30,
+                "textHtml": "Technology has placed greater expectations on workers not to make mistakes."
+              },
+              {
+                "number": 31,
+                "textHtml": "People will need time away from technology to reduce the frustrations caused by it."
+              },
+              {
+                "number": 32,
+                "textHtml": "Interacting with others at work contributes to creative thinking."
+              },
+              {
+                "number": 33,
+                "textHtml": "The psychological effect of working with technology is similar to the anxiety felt after surviving a major ordeal."
+              },
+              {
+                "number": 34,
+                "textHtml": "Technology will ultimately increase unemployment for more highly qualified personnel."
+              },
+              {
+                "number": 35,
+                "textHtml": "More counselling is required to help people cope with the demands of the modern workplace."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 36–40</h3>Do the following statements agree with the information given in Reading Passage 3?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 36,
+                "textHtml": "Our knowledge of the effects of technology on workers is still limited."
+              },
+              {
+                "number": 37,
+                "textHtml": "An early indicator of technological anxiety is a tendency to adopt machine-like thinking."
+              },
+              {
+                "number": 38,
+                "textHtml": "We have now started to doubt our ability to perform well at work."
+              },
+              {
+                "number": 39,
+                "textHtml": "Top level managers are more negatively affected by changes in the electronic workplace than junior workers."
+              },
+              {
+                "number": 40,
+                "textHtml": "Employees who learn to use new technology quickly will get promoted."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "seeds"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "shells"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "fish"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "canals"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "maize"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "cotton"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "flotation"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "infrastructure"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "spaceships"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "communication"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "laboratories"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "colonisation",
+          "colonization"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          20,
+          21
+        ],
+        "accepted": [
+          "A",
+          "D"
+        ]
+      }
+    ]
+  }
+}

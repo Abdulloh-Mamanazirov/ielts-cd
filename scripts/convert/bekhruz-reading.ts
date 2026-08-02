@@ -50,6 +50,32 @@ function readPickGroups($: CheerioAPI): Map<number, SetGroup> {
   return byFirst;
 }
 
+/**
+ * Some tests encode "choose TWO letters" not with `PICK` but as `.mc2box`
+ * checkboxes carrying `data-base="20"`, and store the set on the anchor number
+ * in CA (`20:['A','D']`, with 21 repeating it). Each distinct base is one set;
+ * its size is how many letters the answer holds.
+ */
+function readMc2Sets($: CheerioAPI, CA: Record<string, SourceAnswer>): Map<number, SetGroup> {
+  const bases = new Set<number>();
+  $("input.mc2box[data-base], input[type=checkbox][data-base]").each((_, el) => {
+    const base = Number($(el).attr("data-base"));
+    if (Number.isFinite(base)) bases.add(base);
+  });
+
+  const sets = new Map<number, SetGroup>();
+  for (const base of bases) {
+    const answer = CA[String(base)];
+    if (!Array.isArray(answer) || answer.length < 2) continue;
+    sets.set(base, {
+      first: base,
+      questions: answer.map((_, i) => base + i),
+      accepted: answer.map(String),
+    });
+  }
+  return sets;
+}
+
 /** Numbers that belong to a select-two pair but are not its anchor. */
 function coveredExtras(sets: Map<number, SetGroup>): Set<number> {
   const extra = new Set<number>();
@@ -161,11 +187,22 @@ function optionsFrom($: CheerioAPI, body: Cheerio<Element>) {
       const letter = (row.find("input").attr("value") ?? "").trim().toUpperCase();
       const clone = row.clone();
       clone.find("input, .mc-key").remove();
+      // Some options badge the letter as `<strong>A</strong>` rather than a
+      // `.mc-key`; drop that leading letter so it is not shown twice.
+      const firstStrong = clone.find("strong").first();
+      if (/^[A-Z]$/.test(firstStrong.text().trim())) firstStrong.remove();
       const textHtml = toCleanHtml($, clone).replace(/^[A-Z]\s+/, "").trim();
       return { letter, textHtml };
     })
     .get()
     .filter((o) => /^[A-Z]$/.test(o.letter));
+}
+
+/** The question number an item owns — from its radio name, else a leading "N.". */
+function itemNumber($: CheerioAPI, block: Cheerio<Element>): number {
+  const fromName = (block.find("input[name^='q']").first().attr("name") ?? "").replace(/^q/, "");
+  if (/^\d+$/.test(fromName)) return Number(fromName);
+  return Number((block.text().match(/^\s*(\d+)\s*[.)]/) ?? [])[1]);
 }
 
 function fixedChoiceQuestions($: CheerioAPI, body: Cheerio<Element>) {
@@ -188,7 +225,7 @@ function mcqQuestions($: CheerioAPI, body: Cheerio<Element>) {
     .find(".qitem")
     .map((_, item) => {
       const block = $(item);
-      const number = Number((block.text().match(/^\s*(\d+)\s*[.)]/) ?? [])[1]);
+      const number = itemNumber($, block);
       const stem = block.find(".qprompt").first().clone();
       stem.find(".rgroup, input, .mc-key").remove();
       const textHtml = stripLeadingNumber(toCleanHtml($, stem));
@@ -355,11 +392,16 @@ function buildGroup(
   if (body.find(".headings-box").length) return matchingHeadingsGroup($, seg, body, id, romanToLetter);
   if (body.find("table.matrix").length) return matchingGroup($, seg, body, id);
 
-  if (body.find("input[type=checkbox][name^='pg_']").length) {
+  const checkboxes = body.find(
+    "input[type=checkbox][name^='pg_'], input.mc2box[data-base], input[type=checkbox][data-base]",
+  );
+  if (checkboxes.length) {
     // "Choose TWO letters": one item, the options as an mcq, graded as a set.
-    // The number comes from the heading ("Questions 20–21"); the option rows
-    // that make up the body carry no number of their own.
-    const first = Number((seg.headText.match(/(\d+)/) ?? [])[1]);
+    // The anchor number is the checkbox's `data-base` where it has one, else the
+    // first number in the heading ("Questions 20–21"); the option rows that make
+    // up the body carry no number of their own.
+    const base = checkboxes.first().attr("data-base");
+    const first = base ? Number(base) : Number((seg.headText.match(/(\d+)/) ?? [])[1]);
     const set = [...sets.values()].find((s) => s.questions.includes(first)) ?? { first, questions: [first], accepted: [] };
     const stem = body.find(".qprompt").first().clone();
     stem.find(".rgroup, input").remove();
@@ -394,6 +436,7 @@ export function convertBekhruzReading(
   const $ = loadHtml(sourcePath);
   const CA = extractJsonConst<Record<string, SourceAnswer>>($, "CA");
   const sets = readPickGroups($);
+  for (const [base, set] of readMc2Sets($, CA)) if (!sets.has(base)) sets.set(base, set);
   const extras = coveredExtras(sets);
   const romanToLetter = romanLetterMap($, $(".headings-box").first());
 

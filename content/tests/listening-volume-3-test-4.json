@@ -1,0 +1,617 @@
+{
+  "slug": "listening-volume-3-test-4",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/test4_20260628/test4.m4a",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 3, Test 4",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Student Accommodation</div><table class=\"q-table\"><tbody><tr><th>Type</th><th>Cost</th><th>Contract</th></tr><tr><td><em>Example:</em> College — single room</td><td>Standard £3276/yr; en-suite £{{1}}/yr (meals not included)</td><td>36 weeks (rooms not available during the {{2}})</td></tr><tr><td>{{3}} — room with a family</td><td>£150/week — all inclusive</td><td>Arrangements are {{4}}</td></tr><tr><td>Private renting: room in a share house or a {{5}}</td><td>£275–£490/month. Extra costs: gas &amp; electricity ≈ £{{6}}/month; {{7}}: £9; {{8}}</td><td>6 months. Need: {{9}}; two {{10}}</td></tr></tbody></table></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–18 <span style=\"font-weight:400;\">(Global Museum audio guide)</span></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;The Heritage Clothes exhibition was put together by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "museum staff."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "local residents."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "clothing manufacturers."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;The photographs show the clothes worn by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "their owners."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "professional models."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "design students."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;The exhibition called Toys from the Past is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "displayed in a new gallery."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "on show for a limited time."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "aimed specially at children."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;Visitors to Toys from the Past are recommended to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "play with the toy trains."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "look at all the dolls."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "see the board games."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;The miniature toys have been",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "made by the museum."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "bought by the museum."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "borrowed by the museum."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;The biscuit factory made tins",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "for people all over the world."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "of different shapes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "for many famous people."
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "textHtml": "&nbsp;People's favourite biscuit used to be",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "an unsweetened one."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "one covered in chocolate."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "one filled with cream."
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;The hands-on activity allows people to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "make some biscuits."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "taste some of the biscuits."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "pack a biscuit tin."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 19 and 20</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><ul><li><strong>19</strong> &nbsp;The gift shop is located beside the {{19}} on the ground floor.</li><li><strong>20</strong> &nbsp;Free {{20}} are available for visitors' belongings.</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24 <span style=\"font-weight:400;\">(Pacific tapa cloth)</span></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Pacific tapa cloth is different from other types of tapa cloth because it is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the only tapa made today."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "better quality than others."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "put to a wider range of uses."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What does Helen say about the paper mulberry tree?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It is also a source of food."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It is not native to the Pacific."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It can grow in any environment."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Why did the Maori people of New Zealand stop making tapa?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They could not find the right trees in New Zealand."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They were introduced to other fabrics by the Europeans."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They found a better material for making fabric."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Large pieces of tapa are made from smaller pieces which are",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "stuck together."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "woven together."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "sewn together."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": ","
+              },
+              {
+                "letter": "B",
+                "textHtml": ","
+              },
+              {
+                "letter": "C",
+                "textHtml": "or"
+              },
+              {
+                "letter": "D",
+                "textHtml": "(you may use any letter more than once)."
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Samoa"
+              },
+              {
+                "number": 26,
+                "textHtml": "Tonga"
+              },
+              {
+                "number": 27,
+                "textHtml": "Cook Islands"
+              },
+              {
+                "number": 28,
+                "textHtml": "Fiji"
+              },
+              {
+                "number": 29,
+                "textHtml": "Tahiti"
+              },
+              {
+                "number": 30,
+                "textHtml": "Tikopia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 31 and 32 <span style=\"font-weight:400;\">(Learner Persistence study)</span></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 31,
+                "textHtml": "&nbsp;Participants in the learner Persistence study were all drawn from the same",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "age group."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "geographical area."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "socio-economic level."
+                  }
+                ]
+              },
+              {
+                "number": 32,
+                "textHtml": "&nbsp;The study showed that when starting their course, older students were most concerned about",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "effects on their home life."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "implications for their future career."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "financial constraints."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 33–37</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Research findings</div><table class=\"q-table\"><tbody><tr><th></th><th>Social &amp; Environmental Factors</th><th>Other Factors</th><th>Personal Characteristics</th></tr><tr><td>First level of importance</td><td>Effective support</td><td>Perceived success in study</td><td>Enjoyment of a {{33}}</td></tr><tr><td>Second level of importance</td><td>Positive experiences at {{34}}</td><td>Good {{35}}</td><td>Many {{36}} in daily life</td></tr><tr><td>Third level of importance</td><td>Good interaction with the {{37}}</td><td>No family problems</td><td>Capacity for multi-tasking</td></tr></tbody></table></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-4-group-3",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 38–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Recommendations</div><ul><li>Ask new students to complete questionnaires to gauge their level of {{38}}.</li><li>Train selected students to act as {{39}}.</li><li>Outside office hours, offer {{40}} help.</li><li>Follow up students who miss deadlines.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "3834"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "holidays",
+          "holiday"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "home welcome"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "flexible"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "studio"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "48"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "water"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "transportation",
+          "transport"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "deposit",
+          "a deposit"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "references",
+          "reference"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "information desk"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "lockers",
+          "locker"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "challenge"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "school"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "health"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "interests",
+          "interest"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "tutors",
+          "tutor"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "maturity"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "advisors",
+          "advisers",
+          "advisor",
+          "adviser"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "online"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

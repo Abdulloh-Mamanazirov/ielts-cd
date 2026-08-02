@@ -1,0 +1,569 @@
+{
+  "slug": "listening-volume-4-test-2",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-36m-47s-audio-joiner.com_202607/mix_36m47s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 4, Test 2",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–7</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below.</p><p>Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><p>Holiday on Jackson Island</p><div><table class=\"q-table\"><tbody><tr><th>Place</th><th>Anna's accommodation</th><th>Things Anna did</th><th>Anna's recommendation</th></tr><tr><td>Camford</td><td><em>Example</em><br>with <strong>cousin</strong></td><td>went shopping in the market</td><td>need to take <strong>1</strong> {{1}}</td></tr><tr><td>Newtown</td><td>&nbsp;</td><td>bus tour</td><td>visit the <strong>2</strong> {{2}}</td></tr><tr><td>Golden Beach</td><td>in a <strong>3</strong> {{3}}</td><td><strong>4</strong> {{4}}</td><td>Stay for at least <strong>5</strong> {{5}}</td></tr><tr><td><strong>6</strong> {{6}}</td><td>in a motel</td><td>went <strong>7</strong> {{7}}</td><td>book some lessons in advance</td></tr></tbody></table></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 8–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><p>More Advice</p><ul><li>Try the {{8}} at the cafe on the mountain.</li><li>Hire a {{9}}.</li><li>Buy a {{10}} before the holiday.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Bike sheds"
+              },
+              {
+                "number": 12,
+                "textHtml": "Snack shop"
+              },
+              {
+                "number": 13,
+                "textHtml": "Fitness rooms"
+              },
+              {
+                "number": 14,
+                "textHtml": "Family rooms"
+              },
+              {
+                "number": 15,
+                "textHtml": "TV room"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "&nbsp;The drama option takes place",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "in the theatre."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "in the sports hall."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "in the lecture rooms."
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "textHtml": "&nbsp;The photography option is reserved for",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "people new to photography."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "people with special equipment."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "parents and children."
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;The writing option will focus on",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "poetry techniques."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "short stories."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "starting a novel."
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;The music option involves",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "singing classes."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "going to a concert."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "giving a performance."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;What information is given about the creche?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It costs the same as last year."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Lunch costs extra."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Parents must pay in advance."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21 and 22</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> topics were the aims of the geography lesson related to?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "global inter-dependency"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "manufacturing methods"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the environmental impact of trade"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "transport systems"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the development of writing tools"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 23 and 24</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Which <strong>TWO</strong> problems do Dean and Hannah identify in their lesson?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the materials"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the student grouping"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the lesson structure"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the teacher coordination"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the timing"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "export routes"
+              },
+              {
+                "letter": "B",
+                "textHtml": "future"
+              },
+              {
+                "letter": "C",
+                "textHtml": "talk"
+              },
+              {
+                "letter": "D",
+                "textHtml": "homework"
+              },
+              {
+                "letter": "E",
+                "textHtml": "worksheet"
+              },
+              {
+                "letter": "F",
+                "textHtml": "history"
+              },
+              {
+                "letter": "G",
+                "textHtml": "producers"
+              },
+              {
+                "letter": "H",
+                "textHtml": "methods of transport"
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": ""
+              },
+              {
+                "number": 26,
+                "textHtml": ""
+              },
+              {
+                "number": 27,
+                "textHtml": ""
+              },
+              {
+                "number": 28,
+                "textHtml": ""
+              },
+              {
+                "number": 29,
+                "textHtml": ""
+              },
+              {
+                "number": 30,
+                "textHtml": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Biomass fuel</div><ul><li>Biomass is waste plant material, e.g. sawdust, straw.</li><li>Biomass briquettes can be used as domestic or industrial fuel.</li></ul><p>Benefits of biomass briquettes</p><ul><li>Financial: no {{31}} for materials</li><li>Convenience: clean and easy to handle and {{32}}</li></ul><p>Production by machine</p><ul><li>Biomass is first converted to a {{33}}. Then other substances are added.</li><li>The machine expels the mixture through {{34}} of different shapes.</li><li>N.B. Only a relatively small amount of {{35}} is needed to operate the machine.</li></ul><p>Production by hand</p><ul><li>Biomass is mixed with water and sticky material, e.g. {{36}}, and then pressed into shape.</li></ul><p>Current use</p><p>Europe and the USA</p><ul><li>Briquettes have been in use for some time for {{37}}</li><li>The use of briquettes made from wood has increased rapidly.</li></ul><p>India and China</p><ul><li>1990s: briquette manufacture began.</li><li>2002: China had about 600 {{38}}</li></ul><p>Uganda</p><ul><li>Customers are mainly public institutions or {{39}}</li></ul><p>Prospects for biomass fuel</p><ul><li>The {{40}} is likely to increase</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "cash"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "museum"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "caravan"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "sailing"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "four days"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "White Mountain"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "snowboarding"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "cakes"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "car"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "map"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "cost"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "store"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "powder"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "holes"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "electricity",
+          "energy"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "starch"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "agriculture"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "factories"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "businesses"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "demand"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "A",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "B",
+          "E"
+        ]
+      }
+    ]
+  }
+}

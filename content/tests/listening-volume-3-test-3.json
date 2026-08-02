@@ -1,0 +1,446 @@
+{
+  "slug": "listening-volume-3-test-3",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/test3_20260628/test3.m4a",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 3, Test 3",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Wildlife Conservation Society — Application for membership</div><p>Caller's name: Michael Jones</p><p>Heard of WCS from: {{1}}</p><p>Address: 21 Beale Street, Leeds</p><p>Postcode: {{2}}</p><p>Phone number: 0117358642</p><p>Email address: MJ@{{3}}</p><p>Length of membership: {{4}} years</p><p>Type of membership: {{5}}</p><p>Fee: £{{6}}</p><p>Payment details</p><p>Payment method: direct debit · Name of bank: {{7}}</p><p>Account number: 01059612 · Date of first payment: {{8}}</p><p>Reference number: {{9}}</p><p>Other requests: extra information pack, {{10}}</p></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 11–18</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Spring Festival</div><table class=\"q-table\"><tbody><tr><th>Event</th><th>Location</th><th>Date &amp; Time</th><th>Other Information</th></tr><tr><td>Firework display</td><td>Near the {{11}}</td><td>4 September, 9 p.m.</td><td>Pack a {{12}} and blanket</td></tr><tr><td>Display of {{13}}</td><td>Central Park</td><td>daily</td><td>Buses from town centre every {{14}} minutes</td></tr><tr><td>The {{15}} Show</td><td>Exhibition Centre</td><td>10–15 September, 9 a.m.–10 p.m.</td><td></td></tr><tr><td>'Grow Your Imagination'</td><td>in the {{16}}</td><td>11–19 September</td><td></td></tr><tr><td>'Swing in Spring'</td><td>in the {{17}}</td><td>17 &amp; 18 September</td><td>Saturday matinee at {{18}}</td></tr></tbody></table></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 19 and 20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "&nbsp;In the Spring Festival competition, you can win",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a family pass to 'Balloons Down Under'"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a cheque for $200"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a flight in a hot air balloon"
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;You can get an entry form for the competition from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the radio station"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the newspaper"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the Festival's website"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 21–30</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div>Archaeology Course</div><ul><li>Can be combined with any other subject except {{21}}.</li><li>Has three {{22}} modules in the first semester.</li></ul><p>Module 1</p><p>Title: {{23}} · Lecturer: Dr Morris</p><p>Learning method: Lectures and practical sessions</p><p>Content (based on processes): recording, {{24}}, interpretation, display</p><p>Assessment: By {{25}}</p><p>Module 2</p><p>Title: {{26}} · Lecturer: Prof. Elliot</p><p>Content: {{27}} and development of built environments</p><p>Assessment: By {{28}} examination</p><p>Module 3</p><p>Title: Method and Science · Lecturer: Dr Thompson</p><p>Content: Standard techniques in fieldwork and analysis</p><p>Learning method: 50% lab work, 50% {{29}}</p><p>Site survey at end of module (the {{30}} is to be announced later)</p></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 31–33 <span style=\"font-weight:400;\">(Digital technology &amp; young people)</span></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 31,
+                "textHtml": "&nbsp;What impact does Marc Prensky believe digital technology has had on young people?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It has altered their thinking patterns."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It has harmed their physical development."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It has limited their brain capacity."
+                  }
+                ]
+              },
+              {
+                "number": 32,
+                "textHtml": "&nbsp;'Digital immigrants' tend to access computers",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "using their native language."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "less efficiently than young people."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "for less important information."
+                  }
+                ]
+              },
+              {
+                "number": 33,
+                "textHtml": "&nbsp;What example is given of having a 'digital accent'?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "having less effective typing skills"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "doing things the old-fashioned way"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "being unable to understand instructions"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 34–40</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": ","
+              },
+              {
+                "letter": "B",
+                "textHtml": "or"
+              },
+              {
+                "letter": "C",
+                "textHtml": "(you may use any letter more than once)."
+              }
+            ],
+            "questions": [
+              {
+                "number": 34,
+                "textHtml": "Current teaching methods don't work."
+              },
+              {
+                "number": 35,
+                "textHtml": "Many students don't understand computers."
+              },
+              {
+                "number": 36,
+                "textHtml": "Computer technology doesn't interest all students."
+              },
+              {
+                "number": 37,
+                "textHtml": "Students can still learn the traditional way."
+              },
+              {
+                "number": 38,
+                "textHtml": "Students still need to learn research skills."
+              },
+              {
+                "number": 39,
+                "textHtml": "We should use computer games to teach."
+              },
+              {
+                "number": 40,
+                "textHtml": "Computers can't replace educators."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "radio program",
+          "a radio program",
+          "radio"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "ls14 2jw",
+          "ls142jw"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "hennings.co.uk"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "2",
+          "two"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "joint"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "49"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "the union bank",
+          "union bank"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "15 october",
+          "15th october",
+          "october 15",
+          "october 15th"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "jyz37"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "video"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "lake"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "picnic"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "flowers",
+          "flower"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "20",
+          "twenty"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "motor"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "art gallery"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "concert hall"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "2.30",
+          "2:30",
+          "2.30pm",
+          "2:30pm",
+          "230"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "classical history"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "compulsory"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "object matters"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "classification"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "coursework",
+          "course work"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "towns and cities"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "origins",
+          "the origins"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "oral"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "seminars",
+          "seminar"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "location"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "C"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

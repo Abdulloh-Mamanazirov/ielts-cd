@@ -1,0 +1,602 @@
+{
+  "slug": "listening-volume-4-test-9",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-38m-16s-audio-joiner.com_202607/mix_38m16s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 4, Test 9",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Getting a job with an airline</div><p><strong>Example</strong></p><p>Job: cabin crew <u>attendant</u></p><p>Duties include</p><ul><li>giving the safety demonstration</li><li>some responsibility for {{1}} from sales during the flight</li><li>serving food</li></ul><p>Requirements</p><ul><li>must be over age 19 and at least {{2}} cm tall</li><li>basic academic requirements: English and {{3}}</li><li>at least one other {{4}} is desirable</li><li>must be able to {{5}}</li></ul><p>Training will include</p><ul><li>what to do in case of {{6}} during a flight</li><li>awareness of different {{7}}</li></ul><p>Application</p><ul><li>the airline is called {{8}}</li><li>can download application form from website</li><li>mention experience of: <ul><li>dealing with questions from supermarket customers</li><li>working in a {{9}} (voluntary work)</li></ul></li></ul><p>Other information</p><ul><li>you don't have to buy a {{10}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11 and 12</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Which <strong>TWO</strong> kinds of people are the scholarships intended for?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "people working as temporary staff"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "people with management experience"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "people straight from college"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "people with at least three years’ experience"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "people with or without qualifications"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 13 and 14</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 13,
+                "textHtml": "Which <strong>TWO</strong> things does Marie say about the hospitality industry in Scotland?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It mainly attracts UK tourists."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It pays high wages."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It is very important for the Scottish economy."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "It is highly regarded by visitors."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "It is attracting a lot of investment."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "&nbsp;Why did Marie start working at the Rock Hotel?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It was the only job available."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "She needed a job with flexible working hours."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She wanted a job working with people."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;What did the scholarship application process involve?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "giving a presentation"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "writing a report about the Rock Hotel"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "researching the role of hotel manager"
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "textHtml": "&nbsp;What does Marie say about the other winners she met?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They were not as old as she expected."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They were doing a variety of jobs in the hotel sector."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Most of them had applied for scholarships before."
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;Marie says that at the Florida Beach Hotel, every member of staff",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "takes part in annual customer service training sessions."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "is responsible for providing an efficient service."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "is expected to interact with visitors."
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;What did Marie find out about people's attitude to visiting Scotland?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Most people would be interested in visiting it."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "People knew a surprising amount about it."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "People only wanted to see a limited number of places."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;What improvement has Marie introduced at the Rock Hotel?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "getting better feedback from customers"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "providing more information for customers"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "making contact with more customers"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "fresh air is removed"
+              },
+              {
+                "letter": "B",
+                "textHtml": "fresh air is pulled in"
+              },
+              {
+                "letter": "C",
+                "textHtml": "heat loss is reduced"
+              },
+              {
+                "letter": "D",
+                "textHtml": "rainwater is checked"
+              },
+              {
+                "letter": "E",
+                "textHtml": "rainwater is used"
+              },
+              {
+                "letter": "F",
+                "textHtml": "old air is removed"
+              },
+              {
+                "letter": "G",
+                "textHtml": "temperature is checked"
+              },
+              {
+                "letter": "H",
+                "textHtml": "water temperature is reduced"
+              },
+              {
+                "letter": "I",
+                "textHtml": "water is stored"
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Cooling Tower"
+              },
+              {
+                "number": 22,
+                "textHtml": "Weather Station"
+              },
+              {
+                "number": 23,
+                "textHtml": "Shower Tower"
+              },
+              {
+                "number": 24,
+                "textHtml": "Tank"
+              },
+              {
+                "number": 25,
+                "textHtml": "Balcony"
+              },
+              {
+                "number": 26,
+                "textHtml": "Windows"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "&nbsp;What do John and Debbie think will surprise visitors to the Education House building?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how high the building is"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "where the main entrance is"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "what is on the outside walls"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "&nbsp;What is their reaction to the findings on staff productivity in the building?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They think the findings are predictable."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They believe more research should be done."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They suggest the findings are reported in the media."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "&nbsp;What do they think about the ‘edge space’ in the building?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It might be unpopular with staff."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It is a surprising part of the design."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It is an area for managers."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "&nbsp;What could be a problem for the building's water system?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the reaction of the staff"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the completion date"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the possible health hazards"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Textiles with Business Studies</div><p>New development</p><p>Now possible to work with the {{31}} Faculty to widen learning opportunities</p><p>Aims of course</p><ul><li>To cover three areas of textiles — knitted, {{32}}, woven</li><li>To focus on related business operations</li><li>Work placement: focus on studio work in the context of the {{33}}</li></ul><p>Course content</p><p><strong>Year One: experimentation</strong></p><p>Visual research with {{34}} and suggestions for its application</p><p><strong>Year Two: relating skills to the real world</strong></p><p>Optional course: {{35}} design processes</p><p>Three- or four-year course? Students are offered {{36}} to help them make their decision.</p><p><strong>Year Three: consolidation</strong></p><p>Learning style: {{37}} practice</p><p>Students produce:</p><ul><li>a dissertation</li><li>a portfolio</li><li>a {{38}}</li></ul><p>Career opportunities</p><p>Within textile business — e.g. stylists, retail managers</p><p>Further opportunities — jobs in {{39}} and trend forecasting</p><p>If interested — come back tomorrow for a short {{40}}</p></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "money"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "168"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "maths",
+          "math"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "language"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "swim"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "illness"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "cultures",
+          "culture"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "EURONTAS"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "team"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "uniform"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "engineering"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "printed"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "global market"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "documentation"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "traditional"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "tutorials"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "reflective"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "business plan"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "journalism"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "interview"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          11,
+          12
+        ],
+        "accepted": [
+          "D",
+          "E"
+        ]
+      },
+      {
+        "questions": [
+          13,
+          14
+        ],
+        "accepted": [
+          "C",
+          "D"
+        ]
+      }
+    ]
+  }
+}

@@ -64,13 +64,23 @@ const SOURCE_DIR = "_source-tests";
 async function uploadAll(options: Options) {
   const tests = await prisma.test.findMany({
     where: { skill: "LISTENING" },
-    select: { slug: true, audioSourceUrl: true },
+    select: { slug: true, audioSourceUrl: true, audioAssetId: true },
     orderBy: { slug: "asc" },
   });
 
   let done = 0;
   let skipped = 0;
+  const failed: string[] = [];
   for (const test of tests) {
+    // Already has audio — leave it. This is what makes a re-run after a failed
+    // download cheap: it fetches only what is still missing, not the whole
+    // library again. To replace a test's audio deliberately, use
+    // `--test <slug> --file/--from-source`.
+    if (test.audioAssetId) {
+      skipped += 1;
+      continue;
+    }
+
     const file = resolvePath(SOURCE_DIR, `${test.slug}.mp3`);
     let hasFile = false;
     try {
@@ -80,19 +90,30 @@ async function uploadAll(options: Options) {
       hasFile = false;
     }
 
-    if (hasFile) {
-      await upload({ ...options, slug: test.slug, file, fromSource: false });
-    } else if (test.audioSourceUrl) {
-      await upload({ ...options, slug: test.slug, file: undefined, fromSource: true });
-    } else {
+    if (!hasFile && !test.audioSourceUrl) {
       console.log(`skip  ${test.slug} — no ${SOURCE_DIR}/${test.slug}.mp3 and no source URL`);
       skipped += 1;
       continue;
     }
-    console.log("");
-    done += 1;
+
+    // One dead external link must not abandon the rest of the batch — those
+    // hosts 500 and time out, and the run is safe to repeat for whatever failed.
+    try {
+      await upload({ ...options, slug: test.slug, file: hasFile ? file : undefined, fromSource: !hasFile });
+      console.log("");
+      done += 1;
+    } catch (error) {
+      console.log(`FAIL  ${test.slug} — ${(error as Error).message}\n`);
+      failed.push(test.slug);
+    }
   }
+
   console.log(`ok    attached ${done} listening test(s)${skipped ? `, skipped ${skipped}` : ""}.`);
+  if (failed.length) {
+    console.log(`FAIL  ${failed.length} did not attach: ${failed.join(", ")}`);
+    console.log("      re-run to retry them, or pass --file for a stubborn external link.");
+    process.exitCode = 1;
+  }
 }
 
 async function listTests() {

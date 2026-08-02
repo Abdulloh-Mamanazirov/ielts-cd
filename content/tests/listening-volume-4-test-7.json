@@ -1,0 +1,589 @@
+{
+  "slug": "listening-volume-4-test-7",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-31m-40s-audio-joiner.com_202607/mix_31m40s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 4, Test 7",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Holiday rental</div><p><em>Example</em> &nbsp; Owners' name: Carol and <strong>Dave</strong> Marriott</p><p>Aster cottage</p><ul><li>Available for week beginning {{1}}</li><li>Cost for the week: ${{2}}</li></ul><p>Periwinkle Cottage</p><ul><li>The same price as Aster Cottage last year</li><li>Part of a building that was first used as a {{3}}</li><li>The living room leads out to the {{4}}</li><li>View of the {{5}} from the bedroom</li><li>Bring our own {{6}}</li><li>Doesn't have a {{7}}</li></ul><p>The town</p><ul><li>The owner recommends the {{8}} restaurant</li><li>The town is well known for its antique shops</li></ul><p>Payment</p><ul><li>Deposit: ${{9}}</li><li>Deadline for final payment: final day of {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–14</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;On the day of the race the speaker recommends parking",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "in the sports ground."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "by the river."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "in the shopping centre."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;The timing chip should be attached to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the shirt or singlet."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a shoe."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the wristband."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;Which group will run first?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "yellow"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "red"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "purple"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;The race organisers still need to find volunteers to help with",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "giving first aid."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "handing out water."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "starting the race."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Stage"
+              },
+              {
+                "number": 16,
+                "textHtml": "T-shirt Stand"
+              },
+              {
+                "number": 17,
+                "textHtml": "Bag Collection Area"
+              },
+              {
+                "number": 18,
+                "textHtml": "Information Centre"
+              },
+              {
+                "number": 19,
+                "textHtml": "Prize Draw Box"
+              },
+              {
+                "number": 20,
+                "textHtml": "Water Station"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;What does Dr Owen advise Joel to include in the title of his project?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the location of the farms"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the number of farmers"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the types of farming"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Why has Joel decided to do face-to-face interviews?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to see the farmers' workplaces"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to limit the time he spends on the project"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to get fuller answers"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Joel agrees to investigate how farmers get information on new developments",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "by showing them a series of pictures."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "by asking them open questions."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "by sending them a checklist in advance."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Concerning government communication with farmers, the speakers agree that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "much of it is irrelevant."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it is often insufficient for farmers' needs."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the wording is sometimes unclear."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;According to Joel's reading about the cost of making changes, many British farmers",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "leave investment decisions to their accountants."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "have too little time to calculate the costs of new methods."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "are reluctant to spend money on improvements."
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;A survey of Australian sheep farmers found that most of them",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "are usually reluctant to make changes."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "make changes based on limited research."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "want plenty of evidence before they make changes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "It's badly organised."
+              },
+              {
+                "letter": "B",
+                "textHtml": "It's out of date."
+              },
+              {
+                "letter": "C",
+                "textHtml": "It's clear."
+              },
+              {
+                "letter": "D",
+                "textHtml": "It's essential reading."
+              },
+              {
+                "letter": "E",
+                "textHtml": "It's inaccurate."
+              },
+              {
+                "letter": "F",
+                "textHtml": "It's well illustrated."
+              },
+              {
+                "letter": "G",
+                "textHtml": "It's boring"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Contemporary Farming Manual"
+              },
+              {
+                "number": 28,
+                "textHtml": "Running a Small Farm"
+              },
+              {
+                "number": 29,
+                "textHtml": "Agriculture and Economics"
+              },
+              {
+                "number": 30,
+                "textHtml": "How to Survive in Farming"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Aboriginal Textile Design</div><p>Ernabella Arts Centre</p><ul><li>Artists produce craft and learn new techniques</li><li>Initially, artists produced rugs made from {{31}}</li><li>Later artists made batik and screen-printed fabrics</li></ul><p>Tiwi Designs</p><ul><li>Early designs included {{32}} images</li><li>Designs are linked to traditional beliefs, e.g. some designs are believed to bring {{33}}</li></ul><p>Jimmy Pike</p><ul><li>Inspired by the Australian landscape, especially the {{34}}</li><li>Started creating art when he was in {{35}}</li><li>His textiles were used to make {{36}}</li></ul><p>Bronwyn Bancroft</p><ul><li>Her work is a modern look at {{37}} and nature</li><li>1995 — painted a successful Aboriginal athlete's jeans with lizards and a {{38}}</li><li>2001 — designed a 'Journey of a Nation' parade outfit with part of a {{39}} on it</li></ul><p>Copyright Issues</p><ul><li>Exploiting Aboriginal imagery affects the artists and the cultural group, e.g. 'The {{40}} Case'</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "September 14th",
+          "September 14",
+          "14 September",
+          "14th September"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "835"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "school"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "deck"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "river"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "towel",
+          "towels"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "garage"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "Chinese"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "200"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "July"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "wool"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "bird"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "rain"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "desert"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "prison"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "clothing"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "family"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "rainbow"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "snake"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "Carpet"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

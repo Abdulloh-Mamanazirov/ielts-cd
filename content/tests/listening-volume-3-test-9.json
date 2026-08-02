@@ -1,0 +1,591 @@
+{
+  "slug": "listening-volume-3-test-9",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-26m-19s-audio-joiner.com_202606/mix_26m19s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 3, Test 9",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below.</p><div><div>Party Reservation</div><ul><li>Example: Number of guests at the party 60 people</li></ul><p>Questions 1–4: Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><ul><li>Starting time of the party: {{1}} pm</li><li>Menu options:</li><li>– the standard ($25)</li><li>– the {{2}} ($35)</li><li>– the gold ($50)</li><li>each course has a {{3}} option</li><li>one guest is allergic to {{4}}</li><li>other requests: desserts and {{5}}</li></ul><p>Questions 6–10: Write <strong>ONE WORD ONLY</strong> for each answer.</p><ul><li>entertainment: book a {{6}} after dinner</li><li>room decoration: pink {{7}}</li><li>special request: write '{{8}} Suzy' on the birthday cake</li><li>book a {{9}} to take guests to the Forest Hotel</li><li>phone number: {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;When did James Brown start collecting vacuum cleaners?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "at 4 years old"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "at 8 years old"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "at 30 years old"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;James can listen to a vacuum cleaner and identify",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "which company made it."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "what problem it might have."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the age of the battery life."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;Before the 1950s, vacuum cleaners cost",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the same price as an average car."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "almost a whole year's salary."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "about three months' wages."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;Why did James make a trip to the USA a few years ago?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to win an award in Texas"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to visit the Kirby factory"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to meet some vacuum collectors"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;On what day is the vacuum cleaner museum open late?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Tuesday to Saturday"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Monday"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Thursday"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "not available in shops"
+              },
+              {
+                "letter": "B",
+                "textHtml": "specially designed to be easy to move"
+              },
+              {
+                "letter": "C",
+                "textHtml": "as large as a horse"
+              },
+              {
+                "letter": "D",
+                "textHtml": "used two different sources of power"
+              },
+              {
+                "letter": "E",
+                "textHtml": "designed by a businessman"
+              },
+              {
+                "letter": "F",
+                "textHtml": "named after a person other than the inventor"
+              },
+              {
+                "letter": "G",
+                "textHtml": "associated with a style of building"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "Puffing Billy"
+              },
+              {
+                "number": 17,
+                "textHtml": "Hoover"
+              },
+              {
+                "number": 18,
+                "textHtml": "Electrolux Model V"
+              },
+              {
+                "number": 19,
+                "textHtml": "Electrolux Triple X"
+              },
+              {
+                "number": 20,
+                "textHtml": "Kirby"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;In the context of Lisa's research project, Dr Harris suggests she should",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "re-think the focus of her research."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "be prepared to be flexible."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "narrow the scope."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Which topic area does Dr Harris advise Lisa to avoid investigating?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "pre-schools"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "nurseries"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "child-minders"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;The main reason why Lisa wants to film very young children is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to watch how they play."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to look at their relationships."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to study their language."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;According to Dr Harris, how might the arrival of a new baby affect a family?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Other children may feel jealous."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Parents may be put under pressure."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Sufficient support may not be available."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;Dr Harris agrees with Lisa that she needs to find out about",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "legal constraints."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "family considerations."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "medical circumstances."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "global coverage but sometimes inaccurate"
+              },
+              {
+                "letter": "B",
+                "textHtml": "interesting but rather unrealistic"
+              },
+              {
+                "letter": "C",
+                "textHtml": "practical and full of thoughtful tips"
+              },
+              {
+                "letter": "D",
+                "textHtml": "up-to-date with an international approach"
+              },
+              {
+                "letter": "E",
+                "textHtml": "wide ranging but poorly organized"
+              },
+              {
+                "letter": "F",
+                "textHtml": "good value despite some omissions"
+              },
+              {
+                "letter": "G",
+                "textHtml": "extremely costly but comprehensive"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "Worldwide Healthcare Policies"
+              },
+              {
+                "number": 27,
+                "textHtml": "Supporting Vulnerable Families"
+              },
+              {
+                "number": 28,
+                "textHtml": "Health Visitors and Child Protection"
+              },
+              {
+                "number": 29,
+                "textHtml": "The Future of Health Visiting"
+              },
+              {
+                "number": 30,
+                "textHtml": "Resources for Health Visitors"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Course on the Sense of Smell</div><p>Background</p><ul><li>people's sense of smell is not as developed as that of some animals</li><li>the animal with the most accurate sense of smell is the {{31}}</li><li>there is a misconception that people's sense of smell is weak</li><li>in fact, subtle smells have great impacts on people's mood</li><li>people's noses cannot detect the {{32}} of the odour</li></ul><p>Practical examples of how smell affects us</p><ul><li>estate agents arrange the smell of newly made {{33}} to encourage clients to buy the property quickly</li><li>Dutch researchers found that the odour of {{34}} makes people enjoy clubs more</li><li>the smell of detergent makes students {{35}} the kitchen after using it</li><li>a recent study showed that people make decisions depending on their {{36}}</li></ul><p>Experiments on how smells tell us people's feelings</p><ul><li>scientists took sweat samples from people doing a sky dive</li><li>they also took samples from the same people working out in a {{37}}</li><li>people reacted more strongly to the sky-dive sweat</li><li>normally, angry faces pose a {{38}} and get more attention</li><li>some psychologists tested students on whether they could smell a trail of {{39}}</li><li>a chef lost her sense of smell but regained it by smelling {{40}} on a daily basis</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "7.45",
+          "7:45",
+          "745"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "3 courses",
+          "three courses",
+          "celebration",
+          "celebration menu",
+          "3 course"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "vegetarian"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "strawberries",
+          "strawberry"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "cheese"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "disco",
+          "a disco"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "flowers",
+          "flower"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "congratulations"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "taxi",
+          "a taxi"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "07749 132760",
+          "07749132760"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "bear"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "source"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "bread"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "oranges",
+          "orange"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "clean"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "emotions",
+          "emotion"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "gym"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "threat"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "chocolate"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "spices",
+          "spice"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

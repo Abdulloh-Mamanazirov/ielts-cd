@@ -1,0 +1,633 @@
+{
+  "slug": "reading-volume-3-test-8",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 3, Test 8",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Katherine Mansfield",
+        "passageHtml": "<p>Katherine Mansfield was a modernist writer of short fiction who was born and brought up in New Zealand.</p><p>Katherine Mansfield Beauchamp Murry was born in 1888, into a prominent family in Wellington, New Zealand. She became one of New Zealand's best-known writers, using the pen name of Katherine Mansfield. The daughter of a banker, and born into a middle-class family, she was also a first cousin of Countess Elizabeth von Arnim, a distinguished novelist in her time. Mansfield had two older sisters and a younger brother. Her father, Harold Beauchamp, went on to become the chairman of the Bank of New Zealand. In 1893, the Mansfield family moved to Karori, a suburb of Wellington, where Mansfield would spend the happiest years of her childhood; she later used her memories of this time as an inspiration for her <em>Prelude</em> story.</p><p>Her first published stories appeared in the <em>High School Reporter</em> and the Wellington Girls' High School magazine in 1898 and 1899. In 1902, she developed strong feelings for a musician who played the cello, Arnold Trowell, although her feelings were not, for the most part, returned. Mansfield herself was an accomplished cellist, having received lessons from Trowell's father. Mansfield wrote in her journals of feeling isolated to some extent in New Zealand, and, in general terms, of her interest in the Maori people (New Zealand's native people), who were often portrayed in a sympathetic light in her later stories, such as <em>How Pearl Button was Kidnapped</em>.</p><p>She moved to London in 1903, where she attended Queen's college, along with her two sisters. Mansfield recommenced playing the cello, an occupation that she believed, during her time at Queen's, she would take up professionally. She also began contributing to the college newspaper, with such a dedication to it that she eventually became its editor. She was particularly interested in the works of the French writers of this period and of the 19th-century British writer Oscar Wilde, and she was appreciated amongst fellow students at Queen's for her lively and charismatic approach to life and work. She met fellow writer Ida Baker, a South African, at the college, and the pair became lifelong friends. Mansfield did not actively support the suffragette movement in the UK. Women in New Zealand had gained the right to vote in 1893.</p><p>Mansfield first began journeying into the other parts of Europe in the period 1903-1906, mainly to Belgium and Germany. After finishing her schooling in England, she returned to her New Zealand home in 1906, only then beginning to write short stories in a serious way. She had several works published in Australia in a magazine called <em>Native Comparison</em>, which was her first paid writing work, and by this time she had her mind set on becoming a professional writer. It was also the first occasion on which she used the pseudonym 'K. Mansfield'.</p><p>Mansfield rapidly grew discontented with the provincial New Zealand lifestyle, and with her family. Two years later she headed again to London. Her father sent her an annual subsidy of £100 for the rest of her life. In later years, she would express both admiration and disdain for New Zealand in her journals.</p><p>In 1911, Mansfield met John Middleton Murry, the Oxford scholar and editor of the literary magazine <em>Rhythm</em>. They were later to marry in 1918. Mansfield became a co-editor of <em>Rhythm</em>, which was succeeded by <em>The Blue Review</em>, in which more of her works were published. She and Murry lived in various houses in England and briefly in Paris. <em>The Blue Review</em> failed to gain enough readers and was no longer published. Their attempt to set up as writers in Paris was cut short by Murry's bankruptcy, which resulted from the failure of this and other journals. Life back in England meant frequently changed addresses and very limited funds.</p><p>Between 1915 and 1918, Mansfield moved between England and Bandol, France. She and Murry developed close contact with other well-known writers of the time such as DH Lawrence, Bertrand Russell and Aldous Huxley. By October 1918 Mansfield had become seriously ill; she had been diagnosed with tuberculosis and was advised to enter a sanatorium. She could no longer spend winters in London. It was the publication of <em>Bliss and Other Stories</em> in 1920 that was to solidify Mansfield's reputation as a writer.</p><p>Mansfield also spent time in Menton, France, as the tenant of her father's cousin at 'The Villa Isola Bella'. There she wrote what she pronounced to be '...the only story that satisfies me to any extent'.</p><p>Mansfield produced a great deal of work in the final years of her life, and much of her prose and poetry remained unpublished at her death in 1923. After her death, her husband, Murry, took on the task of editing and publishing her works. His efforts resulted in two additional volumes of short stories, <em>The Doves' Nest</em> and <em>Something Childish</em>, published in 1923 and 1924 respectively, the publication of her <em>Poems</em>, as well as a collection of critical writings (<em>Novels and Novelists</em>) and a number of editions of Mansfield's previously unpublished letters and journals.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–6</h3>Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "The name Katherine Mansfield, that appears on the writer's books, was exactly the same as her original name."
+              },
+              {
+                "number": 2,
+                "textHtml": "Mansfield won a prize for a story she wrote for the <em>High School Reporter</em>."
+              },
+              {
+                "number": 3,
+                "textHtml": "<em>How Pearl Button was Kidnapped</em> portrayed Maori people in a favourable way."
+              },
+              {
+                "number": 4,
+                "textHtml": "When Mansfield was at Queen's college, she planned to be a professional writer."
+              },
+              {
+                "number": 5,
+                "textHtml": "Mansfield was unpopular with the other students at Queen's college."
+              },
+              {
+                "number": 6,
+                "textHtml": "In London, Mansfield showed little interest in politics."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 7–13</h3>Complete the notes below.<br>Choose <strong>ONE WORD AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Katherine Mansfield's adult years</div><div><strong>7</strong>&nbsp; {{7}} <ul><li>moved from England back to New Zealand</li><li>first paid writing work was in a publication based in <strong>8</strong>&nbsp; {{8}}</li><li>her <strong>9</strong>&nbsp; {{9}} and the New Zealand way of life made her feel dissatisfied</li></ul> 1908 <ul><li>returned to London</li></ul> 1911 – 1919 <ul><li>Met John Middleton Murry in 1911</li><li><strong>10</strong>&nbsp; {{10}} prevented Mansfield and Murry from staying together in Paris</li><li>spent time with distinguished <strong>11</strong>&nbsp; {{11}}</li><li>from 1916, tuberculosis restricted the time she spent in London</li></ul> 1920 <ul><li>her <strong>12</strong>&nbsp; {{12}} was consolidated when <em>Bliss and Other Stories</em> was published</li><li>wrote several stories at ‘Villa Isola Bella’</li></ul> 1923 – 1924 <ul><li>Mansfield's <strong>13</strong>&nbsp; {{13}} published more of her works after her death</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Australian parrots",
+        "passageHtml": "<p>and their adaptation to habitat change</p><p><strong>A</strong>&nbsp;&nbsp; Parrots are found across the tropics and in all southern hemisphere continents except Antarctica, but nowhere do they display such a richness of diversity and form as in Australia. One-sixth of the world's 345 parrot species are found there, and Australia has long been renowned for the number and variety of its parrots.</p><p><strong>B</strong>&nbsp;&nbsp; In the 16th century, the German cartographer Mercator made a world map that included a place, somewhere near present-day Australia, that he named Terra Psittacorum - the Land of Parrots - and the first European settlers in Australia often referred to the country as Parrot Land. In 1865, the celebrated British naturalist and wildlife artist John Gould said: 'No group of birds gives Australia so tropical and benign an air as the numerous species of this great family by which it is tenanted.'</p><p><strong>C</strong>&nbsp;&nbsp; Parrots are descendants of an ancient line. Due to their great diversity, and since most species inhabit Africa, Australia and South America, it seems almost certain that parrots originated millions of years ago on the ancient southern continent of Gondwana, before it broke up into the separate southern hemisphere continents we know today. Much of Gondwana comprised vast rainforests intersected by huge slow-flowing rivers and expansive lakes, but by eight million years ago, great changes were underway. The centre of the continent of Australia had begun to dry out, and the rainforests that once covered it gradually contracted to the continental margins, where, to a limited extent, they still exist today.</p><p><strong>D</strong>&nbsp;&nbsp; The creatures that remained in those shrinking rainforests had to adapt to the drier conditions or face extinction. Reacting to these desperate circumstances, the parrot family, typically found in jungles in other parts of the world, has populated some of Australia's harshest environments. The parrots spread from ancestral forests through eucalypt woodlands to colonies in the central deserts of Australia, and as a consequence they diversified into a wide range of species with adaptations that reflect the many changes animals and plants had to make to survive in these areas.</p><p><strong>E</strong>&nbsp;&nbsp; These evolutionary pressures helped mould keratin, the substance from which beaks are made, into a range of tools capable of gathering the new food types favoured by various species of parrot. The size of a parrot's beak and the length of that beak's curved upper section are related to the type of food each species eats. Some have comparatively long beaks that are perfect for extracting seeds from fruit; others have broader and stronger beaks that are designed for cracking hard seeds.</p><p><strong>F</strong>&nbsp;&nbsp; Differently shaped beaks are not the only adaptations that have been made during the developing relationship between parrots and their food plants. Like all of Australia's many honey-eating birds, the rainbow-coloured lorikeets and the flowers on which they feed have long co-evolved, with features such as the shape and colour of the flowers adapted to the bird's particular needs. For physical example, red is the most attractive colour to birds, and thus flowers which depend on birds for pollination are more often red, and lorikeets' tongues have bristles which help them to collect as much pollen as possible.</p><p><strong>G</strong>&nbsp;&nbsp; Today, most of Australia's parrots inhabit woodland and open forest, and their numbers decline towards both deserts and wetter areas. The majority are nomadic to some degree, moving around to take advantage of feeding and breeding places. Two of the dry country parrots, the pink and grey galah and the pink, white and yellow corella, have expanded their ranges in recent years. They are among the species that have adapted well to the changes brought about by European settlement, forest felling having created grasslands where galahs and corellas thrive.</p><p><strong>H</strong>&nbsp;&nbsp; But other parrot species did not fare so well when their environments were altered. The clearing of large areas of rainforest is probably responsible for the disappearance of the double-eyed fig parrot, and numbers of ground parrots declined when a great part of their habitat was destroyed by the draining of coastal swamps. Even some parrot species that benefited from forest clearing at first are now confronted by a shortage of nesting sites due to further man-made changes.</p><p><strong>I</strong>&nbsp;&nbsp; New conditions also sometimes favour an incoming species over one that originally inhabited the area. For example, after farmers cleared large areas of forest on Kangaroo Island off the coast of South Australia, the island was colonised by galahs. They were soon going down holes and destroying black cockatoo eggs in order to take the hole for their own use. Their success precipitated a partial collapse in the black cockatoo population when the latter lost the struggle for scarce nesting hollows.</p><p><strong>J</strong>&nbsp;&nbsp; There may be no final answer to ensuring an equitable balance between parrot species. Nest box programmes help ease the shortage of nesting sites in some places, but there are not enough, they are expensive and they are not an adequate substitute for large, old trees, such as those which they represent and the nectar, pollen and seeds they provide. Competition between parrots for nest sites is a result of the changes we humans have made to the Earth. We are the most widespread and dangerous competitors that parrots have ever had to face, but we also have the knowledge and skill to maintain the wonderfully rich diversity of Australia's parrots. All we need is the will to do so.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–19</h3>Reading Passage 2 has ten paragraphs, <strong>A–J</strong>.<br>Which paragraph contains the following information?<br><em>NB You may use any letter more than once.</em>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              },
+              {
+                "letter": "J",
+                "textHtml": "J"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "An example of how one parrot species may survive at the expense of another"
+              },
+              {
+                "number": 15,
+                "textHtml": "A description of how plants may adapt to attract birds"
+              },
+              {
+                "number": 16,
+                "textHtml": "Example of two parrot species which benefited from changes to the environment"
+              },
+              {
+                "number": 17,
+                "textHtml": "How the varied Australian landscape resulted in a great variety of parrot species"
+              },
+              {
+                "number": 18,
+                "textHtml": "A reason why most parrot species are native to the southern hemisphere"
+              },
+              {
+                "number": 19,
+                "textHtml": "An example of a parrot species which did not survive changes to its habitat"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 20–22</h3>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 20,
+                "textHtml": "The writer believes that most parrot species",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; moved from Africa and South America to Australia."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; had ancestors in either Africa, Australia or South America."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; had ancestors in a continent which later split up."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; came from a continent now covered by water."
+                  }
+                ]
+              },
+              {
+                "number": 21,
+                "textHtml": "What does the writer say about parrots' beaks?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; They are longer than those of other birds."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; They are made of a unique material."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; They are used more efficiently than those of other birds."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; They are specially adapted to suit the diet."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "Which of the following is <strong>NOT</strong> mentioned by the writer as a disadvantage of nesting boxes?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; They cost too much."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; They need to be maintained."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; They provide only shelter, not food."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; There are too few of them."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 23–26</h3>Complete the summary below.<br>Choose <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Parrots in Australia</div><div><p>There are 345 varieties of parrot in existence and, of these, <strong>23</strong>&nbsp; {{23}} live in Australia. As early as the <strong>24</strong>&nbsp; {{24}}, the mapmaker <strong>25</strong>&nbsp; {{25}} recognized that parrots lived in that part of the world. <strong>26</strong>&nbsp; {{26}}, the famous painter of animals and birds, commented on the size and beauty of the Australian parrot family.</p></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Yawning",
+        "passageHtml": "<p>How and why we yawn still presents problems for researchers in an area which has only recently been opened up to study.</p><p>When Robert R Provine began studying yawning in the 1960s, it was difficult for him to convince research students of the merits of 'yawning science'. Although it may appear quirky to some, Provine's decision to study yawning was a logical extension of his research in developmental neuroscience.</p><p>The verb 'to yawn' is derived from the Old English <em>ganien</em> or <em>ginian</em>, meaning to gape or open wide. But in addition to gaping jaws, yawning has significant features that are easy to observe and analyse. Provine 'collected' yawns to study by using a variation of the contagion response. He asked people to 'think about yawning' and, once they began to yawn, to depress a button that would record from the start of the yawn to the exhalation at its end.</p><p>Provine's early discoveries can be summarized as follows: the yawn is highly stereotyped but not invariant in its duration and form. It is an excellent example of the instinctive 'fixed action pattern' of classical animal-behavior study, or ethology. It is not a reflex (short-duration, rapid, proportional response to a simple stimulus), but, once started, a yawn progresses with the inevitability of a sneeze. The standard yawn runs its course over about six seconds on average, but its duration can range from about three seconds to much longer than the average. There are no half-yawns: this is an example of the typical intensity of fixed action patterns and a reason why you cannot stifle yawns. Just like a cough, yawns can come in bouts with a highly variable inter-yawn interval, which is generally about 68 seconds but rarely more than 70. There is no relation between yawn frequency and duration: producers of short or long yawns do not compensate by yawning more or less often. Furthermore, Provine's hypotheses about the form and function of yawning can be tested by three informative yawn variants which can be used to look at the roles of the nose, the mouth and the jaws.</p><p><strong>i) The closed nose yawn</strong><br>Subjects are asked to pinch their nose closed when they feel themselves start to yawn. Most subjects report being able to perform perfectly normal closed nose yawns. This indicates that the inhalation at the onset of a yawn, and the exhalation at its end, need not involve the nostrils - the mouth provides a sufficient airway.</p><p><strong>ii) The clenched teeth yawn</strong><br>Subjects are asked to clench their teeth when they feel themselves start to yawn but allow themselves to inhale normally through their open lips and clenched teeth. This variant gives one the sensation of being stuck mid-yawn. This shows that gaping of the jaws is an essential component of the fixed action pattern of the yawn, and unless it is accomplished, the program (or pattern) will not run to completion. The yawn is also shown to be more than a deep breath, because, unlike normal breathing, inhalation and exhalation cannot be performed so well through the clenched teeth as through the nose.</p><p><strong>iii) The nose yawn</strong><br>This variant tests the adequacy of the nasal airway to sustain a yawn. Unlike normal breathing, which can be performed equally well through mouth or nose, yawning is impossible via nasal inhalation alone. As with the clenched teeth yawn, the nose yawn provides the unfulfilling sensation of being stuck in mid-yawn. Exhalation, on the other hand, can be accomplished equally well through nose or mouth. Through this methodology Provine demonstrated that the oral airway and the gaping of jaws are necessary for normal yawns, and that yawning will not run to completion without feedback that these parts of the program have been accomplished.</p><p>But yawning is a powerful, generalized movement that involves much more than airway manoeuvres and jaw-gaping. When yawning you also stretch your facial muscles, tilt your head back, narrow or close your eyes, produce tears, salivate, open the Eustachian tubes of your middle ear and perform many other, yet unspecified, cardiovascular and respiratory acts. Perhaps the yawn shares components with other behaviour. For example, is the yawn a kind of 'slow sneeze' or is the sneeze a 'fast yawn'? Both share common respiratory and other features including jaw gaping, eye closing and head tilting.</p><p>Yawning and stretching share properties and may be performed together as parts of a global motor complex. Studies by J I P deVries et al. in the early 1980s, charting movement in the developing foetus using ultrasound, observed a link between yawning and stretching. The most interesting demonstration of the yawn-stretch linkage occurs in many people paralyzed on one side of their body because of brain damage caused by a stroke. The prominent British neurologist Sir Francis Walshe noted in 1923 that when these people yawn, they are startled and mystified to observe that their otherwise paralyzed arm rises and flexes automatically in what neurologists term an 'associated response'. Yawning apparently activates undamaged, unconsciously controlled connections between the brain and the motor system, causing the paralyzed limb to move. It is not known whether the associated response is a positive prognosis for recovery, nor whether yawning is therapeutic for prevention of muscular deterioration.</p><p>Provine speculated that, in general, yawning may have many functions, and selecting a single function from the available options may be an unrealistic goal. Yawning appears to be associated with a change of behavioural state, switching from one activity to another. Yawning is also a reminder that ancient and unconscious behaviour linking us to the animal world lurks beneath the veneer of culture, rationality and language.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 27–32</h3>Complete the summary below using the list of words, <strong>A–K</strong>, below.",
+            "selectCount": 1,
+            "bodyHtml": "<p>Drag a word into each gap (or tap a word, then tap a gap). Tap × to clear.</p><div>Provine's early findings on yawns</div><div><p>Through his observation of yawns, Provine was able to confirm that <strong>27</strong>&nbsp; {{27}} do not exist. Just like a <strong>28</strong>&nbsp; {{28}}, yawns cannot be interrupted after they have begun. This is because yawns occur as a <strong>29</strong>&nbsp; {{29}} rather than a stimulus response, as was previously thought.</p><p>In measuring the time taken to yawn, Provine found that a typical yawn lasts about <strong>30</strong>&nbsp; {{30}}. He also found that it is common for people to yawn a number of times in quick succession, with the yawns usually being around <strong>31</strong>&nbsp; {{31}} apart. When studying whether length and rate were connected, Provine concluded that people who yawn less do not necessarily produce <strong>32</strong>&nbsp; {{32}}.</p></div><div>List of words</div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "form and function"
+              },
+              {
+                "letter": "B",
+                "textHtml": "long yawns"
+              },
+              {
+                "letter": "C",
+                "textHtml": "3 seconds"
+              },
+              {
+                "letter": "D",
+                "textHtml": "fixed action pattern"
+              },
+              {
+                "letter": "E",
+                "textHtml": "68 seconds"
+              },
+              {
+                "letter": "F",
+                "textHtml": "short yawns"
+              },
+              {
+                "letter": "G",
+                "textHtml": "reflex"
+              },
+              {
+                "letter": "H",
+                "textHtml": "sneeze"
+              },
+              {
+                "letter": "I",
+                "textHtml": "short duration"
+              },
+              {
+                "letter": "J",
+                "textHtml": "6 seconds"
+              },
+              {
+                "letter": "K",
+                "textHtml": "half-yawns"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 33–37</h3>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 33,
+                "textHtml": "What did Provine conclude from his 'closed nose yawn' experiment?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Ending a yawn requires use of the nostrils."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; You can yawn without breathing through your nose."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Breathing through the nose produces a silent yawn."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; The role of the nose in yawning needs further investigation."
+                  }
+                ]
+              },
+              {
+                "number": 34,
+                "textHtml": "Provine's clenched teeth yawn experiment shows that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; yawning is unconnected with fatigue."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; a yawn is the equivalent of a deep intake of breath."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; you have to be able to open your mouth wide to yawn."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; breathing with the teeth together is as efficient as through the nose."
+                  }
+                ]
+              },
+              {
+                "number": 35,
+                "textHtml": "The nose yawn experiment was used to test whether yawning",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; can be stopped after it has started."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; is the result of motor programming."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; involves both inhalation and exhalation."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; can be accomplished only through the nose."
+                  }
+                ]
+              },
+              {
+                "number": 36,
+                "textHtml": "In people paralyzed on one side because of brain damage,",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; yawning may involve only one side of the face."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; the yawning response indicates that recovery is likely."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; movement in the paralysed arm is stimulated by yawning."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; yawning can be used as an example to prevent muscle wasting."
+                  }
+                ]
+              },
+              {
+                "number": 37,
+                "textHtml": "In the last paragraph, the writer concludes that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; yawning is a sign of boredom."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; we yawn in spite of the development of our species."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; yawning is a more passive activity than we imagine."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; we are stimulated to yawn when our brain activity is low."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 38–40</h3>Do the following statements agree with the claims of the writer in Reading Passage 3?<br>Write <strong>YES</strong> / <strong>NO</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 38,
+                "textHtml": "Research students were initially reluctant to appreciate the value of Provine's studies."
+              },
+              {
+                "number": 39,
+                "textHtml": "When foetuses yawn and stretch they are learning how to control movement."
+              },
+              {
+                "number": 40,
+                "textHtml": "According to Provine, referring to only one function is probably inadequate to explain why people yawn."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "1906"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "Australia"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "family"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "bankruptcy"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "writers"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "reputation"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "husband"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "one-sixth",
+          "one sixth",
+          "a sixth"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "16th century",
+          "sixteenth century",
+          "the 16th century"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "Mercator"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "John Gould",
+          "Gould"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "K"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "J"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "YES"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

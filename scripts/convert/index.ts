@@ -23,21 +23,38 @@ const SOURCE_DIR = "_source-tests";
 const OUTPUT_DIR = "content/tests";
 const MEDIA_DIR = "public/test-media";
 const MEDIA_URL_BASE = "/test-media";
-const SOURCE_LABEL = "@bekhruzposts, IELTS Volume 1";
+const SOURCE_LABEL = "@bekhruzposts";
 
 /**
- * Finds "Reading Test 7 (Volume 2) …" → { volume, n, path }. The volume defaults
- * to 1 when a file does not name one, so a single-volume drop still works and a
- * new Volume converts alongside the last rather than colliding with its slugs.
+ * The Volume a source file belongs to. The exports are named every which way —
+ * "(Volume 3)", "Vol_3", or the "Real Exam" series the instructor files as
+ * Volume 4 — so this reads all of those rather than one fixed spelling.
+ */
+function detectVolume(name: string): number | null {
+  if (/real\s*exam/i.test(name)) return 4;
+  const match = name.match(/vol(?:ume)?[\s_]*(\d+)/i);
+  return match ? Number(match[1]) : null;
+}
+
+/**
+ * Locates the tests of one skill by reading the skill, number and Volume from
+ * anywhere in each filename — "IELTS_Listening_Vol_3_Test_3", "Reading Test 7
+ * (Volume 4)", "Real Exam Listening Test 1" all resolve. A file whose Volume
+ * cannot be read is skipped rather than guessed, so nothing lands on a wrong or
+ * colliding slug.
  */
 function sourceFiles(kind: "Reading" | "Listening"): Array<{ volume: number; n: number; path: string }> {
+  const kindPattern = new RegExp(kind, "i");
+  const testPattern = /(?:^|[\s_])Test[\s_]*(\d+)/i;
+
   return readdirSync(resolve(SOURCE_DIR))
     .filter((name) => name.endsWith(".html"))
     .map((name) => {
-      const match = name.match(new RegExp(`^${kind}\\s*Test\\s*(\\d+)`, "i"));
-      if (!match) return null;
-      const volume = Number((name.match(/Volume\s*(\d+)/i) ?? [])[1] ?? 1);
-      return { volume, n: Number(match[1]), path: resolve(SOURCE_DIR, name) };
+      if (!kindPattern.test(name)) return null;
+      const test = name.match(testPattern);
+      const volume = detectVolume(name);
+      if (!test || volume === null) return null;
+      return { volume, n: Number(test[1]), path: resolve(SOURCE_DIR, name) };
     })
     .filter((entry): entry is { volume: number; n: number; path: string } => entry !== null)
     .sort((a, b) => a.volume - b.volume || a.n - b.n);

@@ -1,0 +1,613 @@
+{
+  "slug": "listening-volume-4-test-6",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-26m-21s-audio-joiner.com_202607/mix_26m21s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 4, Test 6",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Renting an apartment</div><p>Location</p><ul><li>in central Sydney</li></ul><p>Description</p><ul><li>a {{1}} apartment (for one or two people)</li><li>approximately 34 square metres</li><li>a shared {{2}}</li><li>on the fourteenth floor</li><li>views of the {{3}}</li><li>outdoor area: a {{4}}</li></ul><p>Tenants have</p><ul><li>a {{5}} (no charge for residents)</li><li>an indoor pool</li><li>two {{6}} (reduced charge for residents)</li><li>underground {{7}}</li><li>easy access to transport in the area</li></ul><p>Rent</p><ul><li>${{8}} per month</li><li>include {{9}}</li></ul><p>Other details</p><ul><li>available from {{10}} August</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "12 months' probation"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Circuit-based"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Provisional licence"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Renewable after one year"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Revision"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Road-based"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Road safety check"
+              },
+              {
+                "letter": "H",
+                "textHtml": "RTD test"
+              },
+              {
+                "letter": "I",
+                "textHtml": "Trial test"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": ""
+              },
+              {
+                "number": 12,
+                "textHtml": ""
+              },
+              {
+                "number": 13,
+                "textHtml": ""
+              },
+              {
+                "number": 14,
+                "textHtml": ""
+              },
+              {
+                "number": 15,
+                "textHtml": ""
+              },
+              {
+                "number": 16,
+                "textHtml": ""
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "&nbsp;If you want to do the theory course, you",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "have to reserve a place."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "can get details on the internet."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "must pay the whole cost in advance."
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;What does the woman say about the theory classes?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They are available in more than one language"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "All the necessary materials are provided."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Trainees stay together for the whole course."
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;What does the woman say about the practical course?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "You must attend a session every day."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "You are allowed to drive your own car"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "You can book at certain shops."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;There is no charge for a cancelled practical session if",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the instructor agrees to reschedule it."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the required amount of notice is given."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a medical certificate is produced"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Edward heard about a type of mosquito net from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "an administrator."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a doctor."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a friend."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Edward believes that mosquito nets were first used in",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "China."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Japan."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Egypt."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Chemical treatment of mosquito nets in the mid-twentieth century",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "was first developed by a soldier."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "made them potentially dangerous to users."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "was made possible by modern textiles."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;The owners of present-day nets",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "are likely to find they have an unpleasant smell."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "should avoid using them every night."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "may have difficulty obtaining the necessary chemical."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;According to Edward, Olyset nets are better than other nets because they",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "remain effective for longer."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "use a greater number of chemicals"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "give protection against more types of insects."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "workforce"
+              },
+              {
+                "letter": "B",
+                "textHtml": "sources of funding"
+              },
+              {
+                "letter": "C",
+                "textHtml": "investment opportunities"
+              },
+              {
+                "letter": "D",
+                "textHtml": "unique features of the product"
+              },
+              {
+                "letter": "E",
+                "textHtml": "future developments"
+              },
+              {
+                "letter": "F",
+                "textHtml": "production figures"
+              },
+              {
+                "letter": "G",
+                "textHtml": "national economies"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": ""
+              },
+              {
+                "number": 27,
+                "textHtml": ""
+              },
+              {
+                "number": 28,
+                "textHtml": ""
+              },
+              {
+                "number": 29,
+                "textHtml": ""
+              },
+              {
+                "number": 30,
+                "textHtml": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–36</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Earth-sheltered Housing</div><p>Advantages:</p><ul><li>has a {{31}} on the environment</li><li>increased use of energy-efficient {{32}} technologies</li><li>can have a very long {{33}}</li><li>easy to maintain</li><li>no noise from the {{34}} outside (big problem in many conventional homes)</li><li>health benefits from advanced methods of {{35}}</li></ul><p>Earth-sheltered housing in the UK:</p><ul><li>no longer difficult to get planning permission</li><li>more likely to get approval for development in {{36}} areas</li><li>may replace mobile homes on the coast</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 37–40</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Mole Manor"
+              },
+              {
+                "letter": "B",
+                "textHtml": "the Hockerton Project"
+              },
+              {
+                "letter": "C",
+                "textHtml": "both Mole Manor and the Hockerton Project"
+              }
+            ],
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "favourable reaction"
+              },
+              {
+                "number": 38,
+                "textHtml": "self-sufficiency in energy"
+              },
+              {
+                "number": 39,
+                "textHtml": "low building costs"
+              },
+              {
+                "number": 40,
+                "textHtml": "luxurious accommodation"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "studio"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "laundry"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "harbour",
+          "harbor"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "balcony"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "gym"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "cinemas",
+          "cinema"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "parking"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "580"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "electricity"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "13th",
+          "13(th)"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "low impact"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "alternative"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "life span",
+          "lifespan"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "traffic"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "ventilation"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "conservation"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "A"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

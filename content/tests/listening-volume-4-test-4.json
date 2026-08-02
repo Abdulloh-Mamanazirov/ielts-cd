@@ -1,0 +1,629 @@
+{
+  "slug": "listening-volume-4-test-4",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-36m-47s-audio-joiner.com-1_202607/mix_36m47s%20%28audio-joiner.com%29%20%281%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 4, Test 4",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Rooms to hire for parties</div><p>The Exchange Hotel</p><ul><li>number of seated guests possible: 45</li><li>room on the {{1}} floor</li><li>large, bright room with a good {{2}}</li><li>cost: £32 with buffet per person (minimum number of people: {{3}})</li><li>available any {{4}} in April</li></ul><p>The {{5}} Hotel</p><ul><li>large room (seats 75)</li><li>in the {{6}} area of the city</li><li>room on ground floor with a small {{7}} for guests to use</li><li>cost: £36 with buffet per person</li><li>available: 13th and 20th April</li></ul><p>Booking information</p><ul><li>Bookings held for a {{8}}</li><li>Final payment of {{9}} % required 10 days before booking</li><li>Need to confirm guests and menu 5 days in advance</li><li>To book, phone {{10}} on Monday</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–14</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Rocks"
+              },
+              {
+                "number": 12,
+                "textHtml": "Colleen Nature Reserve"
+              },
+              {
+                "number": 13,
+                "textHtml": "Ashington China Factory"
+              },
+              {
+                "number": 14,
+                "textHtml": "Langton forest"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What kind of warning does the speaker give to cyclists?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "there may be traffic jams"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "avoid wet cycle paths"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "there may be animals in the way"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;The starting point of Elmsden station is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "very busy"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "more modern"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "re-opened recently"
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "textHtml": "&nbsp;What can people do at the visitor's centre?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "rent a bike"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "buy refreshments"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "learn local history"
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;To commute between Langton and Elmston by train, you need to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "book in advance"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "go on weekends"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "pay additional charges"
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;What should you be aware of when visiting River Elm?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it takes a long time"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the waterfall is inaccessible"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "go by bike"
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;Where can you get the information if you want to join the local route?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the local newspaper"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the station website"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "national cycling network"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;What field is Willows currently focused on?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Specialising in one product"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "making a variety of products"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "adding a lot of retail outlets"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;How did the students find out about the software?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The professor contacted the company."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "An article was read in a newspaper"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "A student worked their part-time during the vacations."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;How did the student feel about the software?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It's not easy to predict."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It's slow for drawing designs"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It had a good interface."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;How did the students find out about the effects of the software on the company?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They went to the IT department."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They talked with the manager."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They inspected the accounts."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;The reason why the students have a face-to-face interview alone is that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "they could prepare for exams."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "there will be less disturbance."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it's less realistic."
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;How did the two students perform in the exam?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "very disappointing"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "significantly good"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "above the average"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27 and 28</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "In which <strong>TWO</strong> ways will the new system affect the company?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "gain more profit"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "employ more new staff"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "increase sales"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "reduce production time"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "cut labour costs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 29 and 30</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "Which <strong>TWO</strong> effects will the new system have on new clients?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "getting more involved in the design"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "obtaining more contacts"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "linking at home to do online work"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "wasting less time"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "decreasing labour costs"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Photic sneezing</div><p>Background</p><p>Some people react to sunlight by:</p><ul><li>a prickle in the nose</li><li>faster {{31}} &nbsp;(relieved by a sneeze)</li><li>watery eyes</li></ul><p>This 'photic' sneeze cannot be controlled and is a {{32}} reflex.</p><p>Sneezing in general</p><ul><li>A sneeze is caused by some kind of irritation in the nose.</li><li>Nerve endings in the {{33}} are stimulated, leading to an explosion of air.</li><li>It is co-ordinated by the same mechanism that controls the production of {{34}}</li></ul><p>Research into photic sneezing</p><p>The condition has been known for thousands of years.</p><ul><li>Aristotle: Why does the sun cause sneezing while a {{35}} does not?</li><li>Bacon showed the cause was light.</li><li>Everett found 80% of photic sneezers shared the habit with {{36}}</li></ul><p>Indicators</p><ul><li>Photic sneezers usually produce the same {{37}} of sneezes.</li><li>The reaction is caused by a {{38}} in brightness.</li><li>The sneeze takes {{39}} to recharge.</li></ul><p>Application</p><p>The condition was often ignored apart from some research on photic sneezing among {{40}}.</p><p>But studying it may result in breakthroughs for more serious conditions.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "fifth"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "view"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "35"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "Saturdays",
+          "Saturday"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "Limerick"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "business"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "garden"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "week"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "65"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "044298611"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "breathing"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "common"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "face"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "tears"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "fire"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "relatives"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "number"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "contrast"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "time"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "pilots"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          27,
+          28
+        ],
+        "accepted": [
+          "B",
+          "E"
+        ]
+      },
+      {
+        "questions": [
+          29,
+          30
+        ],
+        "accepted": [
+          "A",
+          "D"
+        ]
+      }
+    ]
+  }
+}

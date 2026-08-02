@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Reading Test 7 (Volume 2) | bekhruzposts</title>
+<title>Reading Test 3 (Volume 3) | bekhruzposts</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;font-size:16px;line-height:1.6;background:#fff;color:#111827}
@@ -149,24 +149,6 @@ select.ai{height:32px;cursor:pointer}
 [data-theme=dark] .dzone.ok{background:#14532d!important;color:#bbf7d0!important}
 [data-theme=dark] .dzone.bad{background:#5a1d1d!important;color:#fecaca!important}
 
-/* ── MATCHING MATRIX ── */
-.matrix{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:calc(14px * var(--txtscale,1));color:var(--text)}
-.matrix th,.matrix td{border:1px solid var(--border);text-align:center}
-.matrix thead th{background:var(--phdr);font-weight:800;width:40px;height:34px}
-.matrix th.mx-corner{background:transparent;border-top:none;border-left:none}
-.matrix td.mx-stmt{text-align:left;padding:9px 12px;line-height:1.5;min-width:200px}
-.mx-num{font-weight:800;color:#DC2626;margin-right:7px}
-.mx-cell{display:flex;align-items:center;justify-content:center;height:46px;margin:0;cursor:pointer}
-.mx-cell input{accent-color:#2563eb;width:17px;height:17px;cursor:pointer;margin:0}
-.mx-cell:hover{background:var(--phdr)}
-.mx-cell:has(input:checked){background:#dbeafe}
-[data-theme=dark] .mx-cell:has(input:checked){background:#1e3a5f}
-[data-theme=night] .mx-cell:has(input:checked){background:#3a3320}
-.mx-cell.ok{background:#dcfce7!important}
-.mx-cell.bad{background:#fee2e2!important}
-[data-theme=dark] .mx-cell.ok{background:#14532d!important}
-[data-theme=dark] .mx-cell.bad{background:#5a1d1d!important}
-
 /* ── BOTTOM NAV ── */
 #nav{position:fixed;bottom:0;left:0;right:0;height:56px;background:var(--nav);border-top:1px solid var(--border);display:flex;align-items:center;padding:0 16px;gap:10px;z-index:200;transition:background .3s}
 .arr{width:34px;height:34px;border-radius:8px;border:1px solid var(--border);cursor:pointer;color:var(--text);background:var(--tbg);font-size:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .15s}
@@ -261,6 +243,46 @@ mark.uhl:hover{background:#FDE047}
 .rs-badge{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-size:12px;font-weight:800}
 .rs-badge.ok{background:#16a34a;color:#fff}
 .rs-badge.no{background:#dc2626;color:#fff}
+/* ── REAL-EXAM MATCHING MATRIX ── */
+.matrix{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:calc(14px * var(--txtscale,1));color:var(--text)}
+.matrix th,.matrix td{border:1px solid var(--border);text-align:center}
+.matrix thead th{background:var(--phdr);font-weight:800;width:40px;height:34px}
+.matrix th.mx-corner{background:transparent;border-top:none;border-left:none}
+.matrix td.mx-stmt{text-align:left;padding:9px 12px;line-height:1.5;min-width:200px}
+.mx-num{font-weight:800;color:#DC2626;margin-right:7px}
+.mx-cell{display:flex;align-items:center;justify-content:center;height:46px;margin:0;cursor:pointer}
+.mx-cell input{accent-color:#2563eb;width:17px;height:17px;cursor:pointer;margin:0}
+.mx-cell:hover{background:var(--phdr)}
+.mx-cell:has(input:checked){background:#dbeafe}
+[data-theme=dark] .mx-cell:has(input:checked){background:#1e3a5f}
+[data-theme=night] .mx-cell:has(input:checked){background:#3a3320}
+.mx-cell.ok{background:#dcfce7!important}
+.mx-cell.bad{background:#fee2e2!important}
+[data-theme=dark] .mx-cell.ok{background:#14532d!important}
+[data-theme=dark] .mx-cell.bad{background:#5a1d1d!important}
+.flowbox{background:var(--phdr);border:1px solid var(--border);border-radius:10px;padding:15px 17px;margin-bottom:16px;font-size:calc(14.5px * var(--txtscale,1));color:var(--text)}
+.flowbox .flow-step{background:var(--inp);border:1px solid var(--border);border-radius:8px;padding:10px 13px;line-height:1.6}
+.flowbox .flow-arrow{text-align:center;font-size:20px;color:#DC2626;margin:7px 0}
+.flowbox .flow-step input.ai{margin:2px 0}
+
+/* ── MATCHING HEADINGS ── */
+.mh-slot-line{margin:0 0 6px 0!important}
+.mh-drop-slot{display:inline-flex;align-items:center;gap:2px;min-height:32px;min-width:200px;max-width:100%;padding:6px 11px;border:2px dashed var(--inpb);border-radius:7px;background:var(--inp);color:var(--text);font-size:calc(13px * var(--txtscale,1));font-weight:600;line-height:1.3;cursor:pointer;user-select:none;vertical-align:middle}
+.mh-drop-slot.empty{color:var(--subtext);justify-content:center}
+.mh-drop-slot.filled{border-style:solid;border-color:#DC2626;justify-content:flex-start;text-align:left}
+.mh-drop-slot.dragover{border-color:#DC2626;background:var(--phdr)}
+.mh-drop-slot.ok{border-style:solid;border-color:#22c55e!important;background:#f0fdf4!important;color:#15803d!important}
+.mh-drop-slot.bad{border-style:solid;border-color:#ef4444!important;background:#fef2f2!important;color:#b91c1c!important}
+[data-theme=dark] .mh-drop-slot.ok{background:#14532d!important;color:#bbf7d0!important}
+[data-theme=dark] .mh-drop-slot.bad{background:#5a1d1d!important;color:#fecaca!important}
+.mh-corr{display:block;margin:4px 0 10px;color:#15803d;font-weight:700;font-size:13px}
+[data-theme=dark] .mh-corr{color:#bbf7d0}
+.headings-box{background:var(--phdr);border:1px solid var(--border);border-radius:10px;padding:13px 15px;margin:4px 0 0}
+.mh-heading-card{background:var(--inp);border:1.5px solid var(--inpb);border-radius:8px;padding:9px 12px;margin-bottom:8px;font-size:calc(13.5px * var(--txtscale,1));color:var(--text);line-height:1.35;cursor:grab;user-select:none;transition:background .14s,border-color .14s,opacity .14s}
+.mh-heading-card:last-child{margin-bottom:0}
+.mh-heading-card:hover{border-color:#DC2626;background:var(--phdr)}
+.mh-heading-card.used{opacity:.4;cursor:not-allowed;pointer-events:none}
+.mh-heading-card.armed{border-color:#DC2626;background:var(--phdr);box-shadow:0 0 0 3px rgba(220,38,38,.15)}
 </style>
 </head>
 <body>
@@ -280,8 +302,7 @@ mark.uhl:hover{background:#FDE047}
       <span id="fsz-lbl">100%</span>
       <button class="fsz-btn" id="fsz-up" onclick="changeFontSize(1)" title="Larger text">A+</button>
     </div>
-    <span id="mode-badge" style="display:none;"></span>
-    <div id="timer">60:00</div>
+    <div id="timer">60:00</div><div id="mode-badge" style="display:none"></div>
     <button class="circ" id="fs-btn" onclick="toggleFullscreen()" title="Full screen">
       <svg id="fs-ico-enter" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
       <svg id="fs-ico-exit" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg>
@@ -301,41 +322,54 @@ mark.uhl:hover{background:#FDE047}
   <!-- LEFT -->
   <div id="left-pane">
     <div class="pcontent on" id="pc1">
-      <h2 class="ptitle">Book Review: Triumph of the City</h2>
+      <h2 class="ptitle">The Pesticide-free Village</h2>
+      <p class="psub">Gerry Marten and Dona Glee Williams report on the Indian village of Punukula, so nearly destroyed by reliance on pesticides</p>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p>Triumph of the City, by Edward Glaeser, is a thrilling and very readable hymn of praise to an invention so vast and so effective that it is generally taken for granted. More than half the global population already live in urban areas and, every month, five million more flood into the cities of the developed and developing worlds. The crowds and poverty of some of these modern cities may horrify us. They shouldn't, says Glaeser they are signs of growth, energy and aspiration. Cities are our best and brightest hope.</p>
-      <p>This idea has had more than two hundred years of resistance. Not long after the Industrial Revolution began in Britain, the Romantic poets turned away from the smoke and factories of their cities to celebrate the air and light of untouched nature. In 19th-century America, the writer Henry David Thoreau retreated to the wilderness of Walden Pond to live the solitary, simple life, and convinced generations of Americans that cities were bad and nature was good.</p>
-      <p>They had, Glaeser admits, a point. The early industrial cities were dirty, since they lacked efficient waste disposal systems, and disease spread rapidly among the population. But more importantly they were profitable, and there were enormous commercial incentives to make them work, as well as political ones. Their transformation could be achieved at a stroke: in the second half of the 19th century, the French Emperor Napoleon III gave Baron Haussmann unrestricted power to turn the slum-infested city of Paris into one of the wonders and delights of the modern world. Or the transformation could be done by trial and error. Glaeser gives a brilliant account of the stop-start progression of New York to its late 20th-century position as the cultural and economic centre of the world. Either way, Paris, New York and other cities developed because they were truly effective markets of ideas and innovation.</p>
-      <p>For these and many other reasons, we should not be so upset by the spectacle of urban poverty. The poor flock to cities in the hope of becoming richer (which, by and large, they do). They also reinvigorate the economy of the city. It is folly to drive them away by forcing property prices to soar with unreasonable planning regulations. Instead, cities should build more houses and thereby hold property prices in check.</p>
-      <p>It can go wrong, of course. In Glaeser's view, this is primarily because municipal authorities fail to understand the principal virtues of their cities. The heart of Paris, as many Parisians say, is turning into a museum because of the desire to preserve Baron Haussmann's 19th-century boulevards. Glaeser defends their preservation, but argues that in the 1950s the French made a mistake in establishing a huge high-rise commercial development - La Défense - on the outskirts of the city. Far better, he says, to have turned the central area of Montparnasse into a new commercial district. This would have revitalised much of the city centre without destroying its fabric. In India, Mumbai could save itself from ever-more inefficient sprawl over the surrounding area simply by relaxing the rules presently imposed on the height of new constructions.</p>
-      <p>In America, it is the suburbs that have proved to be the real disaster. Glaeser is repentant on this subject himself. He moved to the suburbs when he had children. His entirely legitimate excuse is that the government made him (and millions like him) do it. By under-taxing petrol and imposing tight planning restrictions on inner cities that drove up the cost of property, it made flight to the suburbs more or less inevitable for the middle classes. This is a disaster because nothing is more inefficient than a suburb. Suburbanites mingle less, and lose the face-to-face contact that makes being an urbanite so much more creative. Moreover, houses are costlier to heat and cool than flats, and suburbanites drive thousands more miles per year than city dwellers. Every aspect of life involves more consumption. This leads to the strongest and newest argument in favour of cities - they are good for the environment. To live in the country or the suburbs is to have a vastly larger carbon footprint than any urbanite.</p>
-      <p>Full of characters and accessible information, this is a tremendous book, not least because, like me, you will find yourself constantly seeking reasons to disagree. Like the poor in the city, this is a sign of success. If you hate the city and get moist-eyed at the thought of the country then, one way or another, Glaeser is the man you will have to take on.</p>
+      <p>Around 25 years ago, a handful of families migrated from the Guntur district of Andhra Pradesh, south-east India, into Punukula, a community of around 900 people farming plots of between two and ten acres. The outsiders from Guntur brought cotton culture with them, and this attracted resident farmers by promising to bring in more hard cash than the mixed crops they were already growing to eat and sell, such as millet, mung beans, chilli and rice. But growing cotton meant using pesticides and fertilisers - until then a mystery to the mostly illiterate farmers of the community.</p>
+      <p>Local agrochemical dealers obligingly filled the need for information and supplies. These 'middlemen' sold commercial seeds, fertilisers and insecticides on credit, and guaranteed purchase of the crop. They offered technical advice provided by the companies that supplied their products. The farmers depended on the dealers. If they wanted to grow cotton - and they did - it seemed they had no choice.</p>
+      <p>A quick 'high' of booming yields and incomes hooked growers during the early years of cotton in the region. Outlay on insecticides was fairly low because cotton pests hadn't moved in yet. Many farmers were so impressed with the chemicals that they started using them on their other crops as well. The immediate payoffs from chemically-dependent cotton agriculture obscured the fact that the fields had gone into a freefall of environmental degradation, dragged down by a chain of cause and effect.</p>
+      <p>Soon cotton-eaters, such as bollworms and aphids, plagued the fields. Repeated spraying killed off the most susceptible pests and left the strongest to reproduce and pass on their resistance to generations of ever-hardier offspring. As the bugs grew tougher and more abundant, farmers applied a greater variety and quantity of poisons, sometimes mixing 'cocktails' of as many as ten insecticides. At the same time, cotton was gobbling up the nutrients in the soil, leaving the growers no option but to invest in chemical fertilisers.</p>
+      <p>By the time some farmers tried to break free of their chemical dependence, insecticides had already decimated the birds, wasps, beetles, and other predators that had once provided natural control of crop pests. Without their balancing presence, pests ran riot if insecticide was cut back. As outlays for fertilisers and insecticides escalated, the cost of producing cotton outgrew the cash value of the crop, and farmers fell further and further into debt and poverty. Their farming cycle was only broken by the willingness of a prominent village elder to experiment with something different.</p>
+      <p>He had been among the first villagers to grow cotton, and he would be the first to try it without chemicals, as set out by a programme in Non-Pesticide Management (NPM). This had been devised for Punukula with the help of a Non-Government Organisation called SECURE that had become aware of the hardships caused by the pesticide trap.</p>
+      <p>It involved turning to neem, a fast-growing, broad-leaved evergreen tree related to mahogany. Neem protects itself against insects by producing a multitude of natural pesticides that have evolved specifically to defeat plant-eating insects. Thus they are generally harmless to humans and other animals, including birds and insects that eat pests.</p>
+      <p>The plant is native to India and Burma, where it has been used for centuries to control pests and to promote health. To protect cotton, neem seeds are simply ground into a powder, soaked overnight in water and sprayed onto the crop at least every 10 days. Neem cake applied to the soil kills pests and doubles as an organic fertiliser high in nitrogen. As neem grows locally and is easy to process, it is much less expensive than the chemical insecticides sold for profit by the dealers and their corporate suppliers.</p>
+      <p>Quick, short-term gains had once pushed Punukula into chemical-dependent agriculture. Now they found that similar immediate rewards were helping to speed change in the other direction: the harvest of the next 20 NPM farmers was as good as the harvest of farmers using insecticides, and they came out ahead because they weren't buying insecticides. Instead of investing cash (in short supply) in chemicals, they invested time and labour in NPM practices.</p>
+      <p>By the end of 2000, all the farmers in Punukula village were using NPM rather than chemicals for cotton, and they began to use it on other crops as well. The change gathered momentum as NPM became even more effective once everyone was using it. The status and economic opportunities of women improved - neem became a source of income for some of them, as they gathered seeds from the surrounding area and produced neem cakes to sell for NPM in other villages. The improved situation meant that families could afford to put more land under cultivation.</p>
+      <p>In 2004, the panchayat (village government) formally declared Punukula to be a pesticide-free village. And they have big plans for the future, such as water purification. The village now serves as a model for disseminating NPM to other communities, with around 2000 farmers visiting each year. What began as a few farmers desperate to find a way to farm without poisons has become a movement with the potential to pull an entire region back from ecological disaster.</p>
     </div>
 
     <div class="pcontent" id="pc2">
-      <h2 class="ptitle">Coral Reefs</h2>
+      <h2 class="ptitle">New Filter Promises Clean Water for Millions</h2>
+      <p class="psub">An ingenious invention is set to bring clean water to developing countries, and the materials are extremely down to earth</p>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p>Coral reefs are underwater structures made from calcium carbonate secreted by corals. Coral reefs are colonies of tiny living animals found in marine waters that contain few nutrients. Most coral reefs are built from stony corals, which in turn consist of polyps that cluster in groups.</p>
-      <p><span class="pl">A</span> Coral reefs are estimated to cover 284,300 km2 just under 0.1% of the oceans surface area, about half the area of France. The Indo-Pacific region accounts for 91.9% of this total area. Southeast Asia accounts for 32.3% of that figure, while the Pacific including Australia accounts for 40.8%. Atlantic and Caribbean coral reefs account for 7.6%. Yet often called "rainforests of the sea", coral reefs form some of the most diverse ecosystems on Earth. They provide a home for 25% of all marine species, including fish, mollusks worms, crustaceans, echinoderms, sponges, tunicates and other cnidarians. Paradoxically, coral reefs flourish even though they are surrounded by ocean waters that provide few nutrients. They are most commonly found at shallow depths in tropical waters, but deep water and cold water corals also exist on smaller scales in other areas. Although corals exist both in temperate and tropical waters, shallow-water reefs form only in a zone extending from 30°N to 30°S of the equator. Deep water coral can exist at greater depths and colder temperatures at much higher latitudes, as far north as Norway. Coral reefs are rare along the American and African west coasts. This is due primarily to upwelling and strong cold coastal currents that reduce water temperatures in these areas (respectively the Peru, Benguela and Canary streams). Corals are seldom found along the coastline of South Asia from the eastern tip of India (Madras) to the Bangladesh and Myanmar borders. They are also rare along the coast around northeastern South America and Bangladesh due to the freshwater released from the Amazon and Ganges Rivers, respectively.</p>
-      <p><span class="pl">B</span> Coral reefs deliver ecosystem services to tourism, fisheries and coastline protection. The global economic value of coral reefs has been estimated at as much as $US375 billion per year. Coral reefs protect shorelines by absorbing wave energy, and many small islands would not exist without their reef to protect them.</p>
-      <p><span class="pl">C</span> The value of reefs in biodiverse regions can be even higher. In parts of Indonesia and the Caribbean where tourism is the main use, reefs are estimated to be worth US$1 million per square kilometer, based on the cost of maintaining sandy beaches and the value of attracting snorkelers and scuba divers. Meanwhile, a recent study of the Great Barrier Reef in Australia found that the reef is worth more to the country as an intact ecosystem than an extractive reserve for fishing. Each year more than 1.8 million tourists visit the reef, spending an estimated AU$4.3 billion (Australian dollars) on reef-related industries from diving to boat rental to posh island resort stays. In the Caribbean, says UNEP, the net annual benefits from diver tourism was US$2 billion in 2000 with US$625 million spent directly on diving on reefs. Further, reef tourism is an important source of employment, especially for some of the world's poorest people. UNEP says that of the estimated 30 million small-scale fishers in the developing world, most are dependent to a greater or lesser extent on coral reefs. In the Philippines, for example, more than one million small-scale fishers depend directly on coral reefs for their livelihoods. The report estimates that reef fisheries were worth between $15,000 and $150,000 per square kilometer a year, while fish caught for aquariums were worth $500 a kilogram against $6 for fish caught as food. The aquarium fish export industry supports around 50,000 people and generates some US$5.5 million a year in Sri Lanka alone.</p>
-      <p><span class="pl">D</span> Unfortunately, coral reefs are dying around the world. In particular, coral mining, agricultural and urban runoff, pollution (organic and inorganic), disease, and the digging of canals and access into islands and bays are localized threats to coral ecosystems. Broader threats are sea temperature rise, sea level rise and pH changes from ocean acidification, all associated with greenhouse gas emissions. Some current fishing practices are destructive and unsustainable. These include cyanide fishing, overfishing and blast fishing. Although cyanide fishing supplies live reef fish for the tropical aquarium market, most fish caught using this method are sold in restaurants, primarily in Asia, where live fish are prized for their freshness. To catch fish with cyanide, fishers dive down to the reef and squirt cyanide in coral crevices and on the fast-moving fish, to stun the fish making them easy to catch. Overfishing is another leading cause for coral reef degradation. Often, too many fish are taken from one reef to sustain a population in that area. Poor fishing practices, such as banging on the reef with sticks (muro-ami), destroy coral formations that normally function as fish habitat. In some instances, people fish with explosives (blast fishing), which blast apart the surrounding coral.</p>
-      <p><span class="pl">E</span> Tourist resorts that empty their sewage directly into the water surrounding coral reefs contribute to coral reef degradation. Wastes kept in poorly maintained septic tanks can also leak into surrounding ground water, eventually seeping out to the reefs. Careless boating, diving, snorkeling and fishing can also damage coral reefs. Whenever people grab, kick, and walk on, or stir up sediment in the reefs, they contribute to coral reef destruction. Corals are also harmed or killed when people drop anchors on them or when people collect coral.</p>
-      <p><span class="pl">F</span> To find answers for these problems, scientists and researchers study the various factors that impact reefs. The list includes the ocean's role as a carbon dioxide sink, atmospheric changes, ultraviolet light, ocean acidification, viruses, impacts of dust storms carrying agents to far flung reefs, pollutants, algal blooms and others. Reefs are threatened well beyond coastal areas. General estimates show approximately 10% of the worlds coral reefs are dead. About 60% of the world's reefs are at risk due to destructive, human-related activities. The threat to the health of reefs is particularly strong in Southeast Asia, where 80% of reefs are endangered.</p>
-      <p><span class="pl">G</span> In Australia, the Great Barrier Reef is protected by the Great Barrier Reef Marine Park Authority, and is the subject of much legislation, including a biodiversity action plan. Inhabitants of Ahus Island, Manus Province, Papua New Guinea, have followed a generations-old practice of restricting fishing in six areas of their reef lagoon. Their cultural traditions allow line fishing, but not net or spear fishing. The result is both the biomass and individual fish sizes are significantly larger in these areas than in places where fishing is unrestricted.</p>
+      <p>A handful of clay, yesterday's coffee grounds and some cow manure are the ingredients that could bring clean, safe drinking water to many developing countries. The simple new technology, developed by Australian National University (ANU) materials scientist and potter Tony Flynn, allows water filters to be made from commonly available materials and fired (or baked) using cow manure as the source of heat, without the need for a kiln (an oven for baking or drying pottery). The filters have been tested and shown to remove common pathogens (disease-producing organisms) including E-coli.</p>
+      <p>The invention was born out of a project involving the Manatuto community in East Timor. A charity operating there wanted to help set up a small industrial site manufacturing water filters, but initial research found the local clay to be too fine - a problem solved by the addition of organic material. While the problems of producing a working ceramic filter in East Timor were overcome, the solution was kiln-based and particular to that community's materials and couldn't be applied elsewhere. Flynn's technique for manure firing, with no requirement for a kiln, has made this zero technology approach available anywhere it is needed.</p>
+      <p>Other commercial clay filters do exist, but, even if available, with prices starting at US$5 each, they are often outside the budgets of most people in the developing world. Unlike other water filtering devices, Flynn's filters are inexpensive and simple to produce. Take a handful of clay, mix it with a handful of organic material such as used tea leaves, coffee grounds or rice hulls, add water in a sufficient quantity to make a stiff mixture and form a cylindrical pot that has one end closed, then dry it in the sun. According to Flynn, used coffee grounds have given the best results to date. The walls of the filter can be measured using the width of an adult finger as the standard. Next, surround the pots with straw, put them in a mound of cow manure, light the straw and then top up the burning manure as required. The filters are finished in 45 to 60 minutes.</p>
+      <p>The properties of cow manure are vital, as the fuel can reach a temperature of 700 degrees in half an hour, and will be up to 950 degrees after another 20 to 30 minutes. The manure makes a good fuel because it is very high in organic material that burns readily and quickly. The manure has to be dry and is best used straight from the field; there is no need to break it up or process it any further. In contrast, a potter's kiln is an expensive item and can take up to four or five hours to get up to 800 degrees. It needs expensive, scarce fuel, such as gas or wood, to heat it, and experience to use it. With no technology, no insulation and nothing other than a pile of cow manure and a match, none of these requirements apply.</p>
+      <p>It is also helpful that, like clay and organic material, cow manure is freely available across the developing world. A cow is a natural fuel factory. Manure is a mixture of vegetable materials of different sizes, and cow manure as a fuel is much the same wherever it is found.</p>
+      <p>Just as using manure as a fuel for domestic use is not a new idea, the fact that liquid can pass through clay objects is something that potters have always known, and clay's porous nature is something that, as a former ceramics lecturer in the ANU School of Art, Flynn is well aware of. The difference is that, rather than viewing the porous nature of the material as a problem - after all, not many people want a pot that won't hold water - his filters capitalise on this property.</p>
+      <p>The filtration process is simple, but effective. The basic principle is that there are passages through the filter that are wide enough for water droplets to pass through, but too narrow for pathogens. Tests with the deadly E-coli bacterium have seen the filters remove 96.4 to 99.8 per cent of the pathogen - well within safe levels. The thickness of the clay container needs to be the same thickness as an adult finger for the process to be effective. If this is the case, using only one filter, a litre of water can be obtained in two hours.</p>
+      <p>The use of organic material, which burns away leaving cavities after firing, helps produce the structure in which pathogens will become trapped. It overcomes the potential problems of finer clays that may not let water through and also means that cracks are soon halted. And like clay and cow manure, organic material is universally available in the developing communities that need most assistance, as tea, coffee and rice are grown in these areas.</p>
+      <p>With all the components being widely available, Flynn says there is no reason the technology couldn't be applied throughout the developing world. He has no plans to exploit his idea financially by registering ownership through a patent. If he did, any commercial copying would legally entitle him to a share in any profits made. Without a patent, there will be no illegality in it being adopted in any community that needs it. 'Everyone has a right to clean water, and these filters have the potential to enable anyone in the world to drink water safely,' says Flynn.</p>
     </div>
 
     <div class="pcontent" id="pc3">
-      <h2 class="ptitle">Whale Culture</h2>
+      <h2 class="ptitle">Putting the Brakes on Climate Change</h2>
+      <p class="psub">Are hydrogen cars the answer?</p>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p><span class="pl">A</span> Most social scientists stubbornly resist the idea that animals have culture. Even such advanced cetacean mammals as whales and dolphins clearly don't have art, literature, or architecture. But patient observation over many years has begun to reveal behaviours that can only have been learnt from other whales. And that, say whale biologists, constitutes culture.</p>
-      <p><span class="pl">B</span> So far, humpback and killer whales provide the best evidence of culture in cetaceans, and the song of the male humpback is among the most striking examples. Humpback populations in different oceans sing different songs, but within the same ocean they all stick to the same one. However, during the breeding season the sounds change, as it appears that females are drawn to novel songs. One male might add an extra set of groans; another might drop a series of grunts. Soon all the other males have altered their own rendition to incorporate the changes until they are once again singing the same song. Since this occurs among thousands of whales spread across a vast part of the planet, the change cannot be in response to any factor in the animals' environment. The latest version of the song can be learnt only from other whales - almost certainly by imitation.</p>
-      <p><span class="pl">C</span> Culture plays an even bigger part in the life of killer whales. Nowhere is this more obvious than along the north-west coast of America, where killer whales are split into two distinct populations - 'residents' and 'transients'. They live in the same stretch of water, but they don't mingle. In effect, they belong to two quite separate cultures. Residents live in stable groups, or 'pods', made up of two or three mothers and their offspring - perhaps 20 whales in all. Calves stay with their mothers throughout adulthood, and in many years of observation no one has ever seen a whale switch pods. Transients travel in smaller, more changeable groups of between three and six.</p>
-      <p><span class="pl">D</span> One of the most obvious distinctions between the transient and resident societies is the way they impart information. Killer whales detect prey with a range of echo-locating clicks, but converse with a vocabulary of squeaks, whistles and whines. Transients have only a few such calls, and all transient societies share the same ones. Residents have a much more extensive repertoire, and each family group has its own unique and distinctive set of calls. Despite regular interaction between them, each resident pod sticks firmly to its own dialect. Research shows these dialects are maintained for at least 40 years.</p>
-      <p><span class="pl">E</span> To qualify as part of killer whale culture, dialects must be learnt from other members of the pod. Animals with different dialects share the same waters, so the variation can't be a product of the physical environment. 'And we can throw out the notion that the dialects are inherited,' says Lance Barrett-Lennard of the University of British Columbia. He has spent the past seven years analysing DNA from 270 whales. His paternity tests reveal that female killer whales invariably attract mates from outside their own pod - males with a very different dialect. If dialects were programmed by genetics, call patterns from both father and mother would be passed on to the calf. 'A calf uses the calls of its maternal pod very precisely. There's no input from the father,' says Barrett-Lennard.</p>
-      <p><span class="pl">F</span> The question still remains is this culture? It is, according to Frans de Waal of Emory University in Atlanta, who argues that culture is just another biological adaptation that has evolved in many creatures. One benefit of viewing culture in this way is that you can start to understand how and why it might have arisen in these creatures. Whales have several biological attributes that give them an advantage in social learning. Apart from their advanced mental abilities, they are adept at recognising sounds: ideal for communicating in the marine environment. Many species spend years rearing their offspring, and live in small, stable, multi-generational societies, a social system that provides ample opportunity for teaching and learning.</p>
-      <p><span class="pl">G</span> But why have cetaceans evolved the ability to learn from other group members? Experts in whale biology believe that ecological factors and the need to adapt to sudden changes in the environment played a large part in the emergence of culture. Although the ocean is a relatively stable habitat in many ways, it is highly changeable in one crucial respect the availability of food. One moment there might be a plentiful supply of fish, the next they've disappeared. When that happens, the past experience of the senior members of the group and the ability to share this knowledge is a huge asset. The dialects of killer whales allow members of the group to identify each other, enabling them to share information about food hot spots. Among resident killer whales, it also allows females to avoid inbreeding by picking out a mate with a strange dialect from outside their pod, says Barrett-Lennard.</p>
-      <p><span class="pl">H</span> The importance of sharing information seems to have led to biological changes in at least some species of whale. Female killer whales, like humans, are very unusual in that they live up to a quarter of a century after they have had their last offspring. This only makes sense if they have something useful to give their descendants. And what whale matriarchs offer is the most important thing of all - cultural knowledge, vital for the group's survival, passed directly from one generation to the next.</p>
+      <p class="mh-slot-line"><span class="mh-drop-slot empty" id="q27" data-q="27" draggable="false">27</span></p>
+      <p><span class="pl">A</span> It is tempting to think that the conservation of coral reefs and rainforests is a separate issue from traffic and air pollution. But it is not. Scientists are now confident that rapid changes in the Earth's climate are already disrupting and altering many wildlife habitats. Pollution from vehicles is a big part of the problem.</p>
+      <p class="mh-slot-line"><span class="mh-drop-slot empty" id="q28" data-q="28" draggable="false">28</span></p>
+      <p><span class="pl">B</span> The United Nation's Climate Change Panel has estimated that the global average temperature rise expected by the year 2100 could be as much as 6°C, causing forest fires and dieback on land and coral bleaching in the ocean. Few species, if any, will be immune from the changes in temperature, rainfall and sea levels. The panel believes that if such catastrophic temperature rises are to be avoided, the quantity of greenhouse gases, especially carbon dioxide, being released into the atmosphere must be reduced. That will depend on slowing the rate of deforestation and, more crucially, finding alternatives to coal, oil and gas as our principal energy sources.</p>
+      <p class="mh-slot-line"><span class="mh-drop-slot empty" id="q29" data-q="29" draggable="false">29</span></p>
+      <p><span class="pl">C</span> Technologies do exist to reduce or eliminate carbon dioxide as a waste product of our energy consumption. Wind power and solar power are both spreading fast, but what are we doing about traffic? Electric cars are one possible option, but their range and the time it takes to charge their batteries pose serious limitations. However, the technology that shows the most potential to make cars climate-friendly is fuel-cell technology. This was actually invented in the late nineteenth century, but because the world's motor industry put its effort into developing the combustion engine, it was never refined for mass production. One of the first prototype fuel-cell-powered vehicles has been built by the Ford Motor Company. It is like a conventional car, only with better acceleration and a smoother ride. Ford engineers expect to be able to produce a virtually silent vehicle in the future.</p>
+      <p class="mh-slot-line"><span class="mh-drop-slot empty" id="q30" data-q="30" draggable="false">30</span></p>
+      <p><span class="pl">D</span> So what's the process involved - and is there a catch? Hydrogen goes into the fuel tank, producing electricity. The only emission from the exhaust pipe is water. The fuel-cell is, in some ways, similar to a battery, but unlike a battery it does not run down. As long as hydrogen and oxygen are supplied to the cell, it will keep on generating electricity. Some cells work off methane and a few use liquid fuels such as methanol, but fuel-cells using hydrogen probably have the most potential. Furthermore, they need not be limited to transport. Fuel-cells can be made in a huge range of size, small enough for portable computers or large enough for power stations. They have no moving parts and therefore need no oil. They just need a supply of hydrogen. The big question, then, is where to get it from.</p>
+      <p class="mh-slot-line"><span class="mh-drop-slot empty" id="q31" data-q="31" draggable="false">31</span></p>
+      <p><span class="pl">E</span> One source of hydrogen is water. But to exploit the abundant resource, electricity is needed, and if the electricity is produced by a coal-fired power station or other fossil fuel, then the overall carbon reduction benefit of the fuel-cell disappears. Renewable sources, such as wind and solar power, do not produce enough energy for it to be economically viable to use them in the 'manufacture' of hydrogen as a transport fuel. Another source of hydrogen is, however, available and could provide a supply pending the development of more efficient and cheaper renewable energy technologies. By splitting natural gas (methane) into its constituent parts, hydrogen and carbon dioxide are produced. One way round the problem of what to do with the carbon dioxide could be to store it back below ground - so-called geological sequestration. Oil companies, such as Norway's Statoil, are experimenting with storing carbon dioxide below ground in oil and gas wells.</p>
+      <p class="mh-slot-line"><span class="mh-drop-slot empty" id="q32" data-q="32" draggable="false">32</span></p>
+      <p><span class="pl">F</span> With freak weather conditions, arguably caused by global warming, frequently in the headlines, the urgent need to get fuel-cell vehicles onto the market is obvious. Even now, fuel-cell buses are operating in the US, while in Germany a courier company is planning to take delivery of fuel-cell-powered vans in the near future. The fact that centrally-run fleets of buses and vans are the first fuel-cell vehicles identifies another challenge - fuel distribution. The refuelling facilities necessary to top up hydrogen-powered vehicles are available only in a very few places at present. Public transport and delivery firms are logical places to start, since their vehicles are operated from central depots.</p>
+      <p><span class="pl">G</span> Fuel-cell technology is being developed right across the automotive industry. This technology could have a major impact in slowing down climate change, but further investment is needed if the industry - and the world's wildlife - is to have a long-term future.</p>
     </div>
   </div>
 
@@ -345,184 +379,190 @@ mark.uhl:hover{background:#FDE047}
   <div id="right-pane">
     <div class="qsec on" id="qs1">
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 1–8</em></p>
-        <p class="qinst">Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>
-        <div class="qtitle">Cities</div>
+        <p class="qnum-head"><em>Questions 1–4</em></p>
+        <p class="qinst">Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong></p>
+        <div class="qitem"><p class="qprompt"><strong>1.</strong>&nbsp; Cotton growing was expected to raise more money than other crops.</p>
+          <div class="rgroup" id="rg1">
+            <label class="rlabel"><input type="radio" name="q1" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q1" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q1" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
+          </div></div>
+        <div class="qitem"><p class="qprompt"><strong>2.</strong>&nbsp; Some of the local agrochemical dealers had been farmers in the past.</p>
+          <div class="rgroup" id="rg2">
+            <label class="rlabel"><input type="radio" name="q2" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q2" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q2" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
+          </div></div>
+        <div class="qitem"><p class="qprompt"><strong>3.</strong>&nbsp; Initially the farmers' cotton yields were low.</p>
+          <div class="rgroup" id="rg3">
+            <label class="rlabel"><input type="radio" name="q3" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q3" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q3" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
+          </div></div>
+        <div class="qitem"><p class="qprompt"><strong>4.</strong>&nbsp; At first, the farmers failed to notice the negative effects on their fields of pesticide use.</p>
+          <div class="rgroup" id="rg4">
+            <label class="rlabel"><input type="radio" name="q4" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q4" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q4" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
+          </div></div>
+      </div>
+      <div class="qblock">
+        <p class="qnum-head"><em>Questions 5–10</em></p>
+        <p class="qinst">Complete the notes below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>
+        <div class="qtitle">Non-Pesticide-Management Programme</div>
         <div class="notesbox">
-          <span class="nbsec">problems with early cities:</span>
-          <ul class="nbul"><li>dirt</li><li><strong>1</strong>&nbsp;<input type="text" class="ai sm" id="q1" oninput="upd()"></li><li>but there were commercial and <strong>2</strong>&nbsp;<input type="text" class="ai sm" id="q2" oninput="upd()"> reasons for improving them</li></ul>
-          <span class="nbsec">urban poverty is not a major problem because poor people:</span>
-          <ul class="nbul"><li>generally get <strong>3</strong>&nbsp;<input type="text" class="ai sm" id="q3" oninput="upd()"></li><li>help to develop the urban <strong>4</strong>&nbsp;<input type="text" class="ai sm" id="q4" oninput="upd()"></li></ul>
-          <span class="nbsec">cities do have some problems &ndash; e.g:</span>
-          <ul class="nbul"><li>the centre of Paris is becoming a <strong>5</strong>&nbsp;<input type="text" class="ai sm" id="q5" oninput="upd()"></li><li>Mumbai is negatively affected by height restrictions on new buildings</li><li>in the US, the middle classes have moved to the suburbs due to:
-            <ul class="nbul"><li>cheap petrol</li><li>high <strong>6</strong>&nbsp;<input type="text" class="ai sm" id="q6" oninput="upd()"> prices in inner cities</li></ul></li></ul>
-          <span class="nbsec">disadvantages of suburbs:</span>
-          <ul class="nbul"><li>less personal <strong>7</strong>&nbsp;<input type="text" class="ai sm" id="q7" oninput="upd()"></li><li>increased <strong>8</strong>&nbsp;<input type="text" class="ai sm" id="q8" oninput="upd()"> of resources such as heating &ndash; which damages the environment</li></ul>
+          <ul class="nbul">
+            <li>Developed with the aid of SECURE</li>
+            <li>Based on use of an <strong>5</strong>&nbsp;<input type="text" class="ai sm" id="q5" oninput="upd()"> called neem</li>
+            <li>Neem contains many <strong>6</strong>&nbsp;<input type="text" class="ai sm" id="q6" oninput="upd()"> that target plant-eating predators</li>
+          </ul>
+          <span class="nbsec">Neem</span>
+          <p style="font-weight:700;margin:6px 0 2px">Used as a pesticide</p>
+          <ul class="nbul">
+            <li><strong>7</strong>&nbsp;<input type="text" class="ai sm" id="q7" oninput="upd()"> formed by grinding seeds</li>
+            <li>left <strong>8</strong>&nbsp;<input type="text" class="ai sm" id="q8" oninput="upd()"> to soak in water</li>
+            <li>sprayed regularly</li>
+          </ul>
+          <p style="font-weight:700;margin:6px 0 2px">Used as a pesticide and as a fertiliser</p>
+          <ul class="nbul">
+            <li>added in <strong>9</strong>&nbsp;<input type="text" class="ai sm" id="q9" oninput="upd()"> form to soil</li>
+            <li>contains a lot of <strong>10</strong>&nbsp;<input type="text" class="ai sm" id="q10" oninput="upd()"></li>
+          </ul>
         </div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 9–13</em></p>
-        <p class="qinst">Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong></p>
-        <div class="qitem"><p class="qprompt"><strong>9.</strong>&nbsp; Glaeser believes that congestion and poverty in some modern cities indicate serious problems.</p>
-          <div class="rgroup" id="rg9">
-            <label class="rlabel"><input type="radio" name="q9" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q9" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q9" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>10.</strong>&nbsp; The writer Henry David Thoreau discussed the ideas of the Romantic poets in his work.</p>
-          <div class="rgroup" id="rg10">
-            <label class="rlabel"><input type="radio" name="q10" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q10" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q10" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>11.</strong>&nbsp; Emperor Napoleon III was influenced by the complaints of poor people living in Paris.</p>
-          <div class="rgroup" id="rg11">
-            <label class="rlabel"><input type="radio" name="q11" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q11" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q11" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>12.</strong>&nbsp; Strict planning regulations may be beneficial for a city's development.</p>
-          <div class="rgroup" id="rg12">
-            <label class="rlabel"><input type="radio" name="q12" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q12" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q12" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>13.</strong>&nbsp; Glaeser argues that the location of a commercial development at La Défense was a bad idea.</p>
-          <div class="rgroup" id="rg13">
-            <label class="rlabel"><input type="radio" name="q13" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q13" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q13" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
+        <p class="qnum-head"><em>Questions 11–13</em></p>
+        <p class="qinst">Answer the questions below. Choose <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.</p>
+        <div class="qitem"><p class="qprompt"><strong>11.</strong>&nbsp; In which year did farmers finally stop using chemicals on cotton crops in Punukula?</p>
+          <input type="text" class="ai" id="q11" placeholder="…" oninput="upd()"></div>
+        <div class="qitem"><p class="qprompt"><strong>12.</strong>&nbsp; What did the women of Punukula produce and sell to make money?</p>
+          <input type="text" class="ai" id="q12" placeholder="…" oninput="upd()"></div>
+        <div class="qitem"><p class="qprompt"><strong>13.</strong>&nbsp; What project do the authorities in Punukula hope to set up in the future?</p>
+          <input type="text" class="ai" id="q13" placeholder="…" oninput="upd()"></div>
       </div>
     </div><!-- /qs1 -->
     <div class="qsec" id="qs2">
       <div class="qblock">
         <p class="qnum-head"><em>Questions 14–19</em></p>
-        <p class="qinst">Reading Passage 2 has seven paragraphs, <strong>A–G</strong>.<br>Which paragraph contains the following information?</p>
-        <div style="overflow-x:auto"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th></tr></thead><tbody>
-        <tr><td class="mx-stmt"><span class="mx-num">14</span> Geographical location of world's coral reef</td><td><label class="mx-cell"><input type="radio" name="q14" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="G" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">15</span> How does coral reef benefit economy locally</td><td><label class="mx-cell"><input type="radio" name="q15" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="G" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">16</span> The statistics of coral reefs economic significance</td><td><label class="mx-cell"><input type="radio" name="q16" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="G" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">17</span> The listed reasons for declining number of coral reef</td><td><label class="mx-cell"><input type="radio" name="q17" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="G" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">18</span> Physical approach to coral reef by people</td><td><label class="mx-cell"><input type="radio" name="q18" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="G" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">19</span> Unsustainable fishing methods are applied in regions of the world</td><td><label class="mx-cell"><input type="radio" name="q19" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="G" onchange="upd()"></label></td></tr>
-        </tbody></table></div>
+        <p class="qinst">Complete the flow-chart below. Choose <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.</p>
+        <div class="qtitle">Step-by-step guide to making Flynn's water filters</div>
+        <div class="flowbox">
+          <div class="flow-step">Make the mixture for the filter from organic material (e.g. tea, coffee, rice), <strong>14</strong>&nbsp;<input type="text" class="ai sm" id="q14" oninput="upd()"> and <strong>15</strong>&nbsp;<input type="text" class="ai sm" id="q15" oninput="upd()"></div>
+          <div class="flow-arrow">&#8595;</div>
+          <div class="flow-step">Shape into pots and place them in a fire made from <strong>16</strong>&nbsp;<input type="text" class="ai sm" id="q16" oninput="upd()"> and <strong>17</strong>&nbsp;<input type="text" class="ai sm" id="q17" oninput="upd()"></div>
+          <div class="flow-arrow">&#8595;</div>
+          <div class="flow-step">Fuel the fire to reach a maximum heat of <strong>18</strong>&nbsp;<input type="text" class="ai sm" id="q18" oninput="upd()"></div>
+          <div class="flow-arrow">&#8595;</div>
+          <div class="flow-step">Remove the filters from the fire</div>
+          <div class="flow-arrow">&#8595;</div>
+          <div class="flow-step">Bake the filters in the fire for a maximum period of <strong>19</strong>&nbsp;<input type="text" class="ai sm" id="q19" oninput="upd()"></div>
+        </div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 20–25</em></p>
-        <p class="qinst">Do the following statements agree with the information given in Reading Passage 2?<br>Write <strong>YES</strong> / <strong>NO</strong> / <strong>NOT GIVEN</strong></p>
-        <div class="qitem"><p class="qprompt"><strong>20.</strong>&nbsp; Coral reefs provide habitat to variety of marine life.</p>
+        <p class="qnum-head"><em>Questions 20–23</em></p>
+        <p class="qinst">Do the following statements agree with the information given in Reading Passage 2?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong></p>
+        <div class="qitem"><p class="qprompt"><strong>20.</strong>&nbsp; The clay in the Manatuto project was initially unsuitable for the project's purpose.</p>
           <div class="rgroup" id="rg20">
-            <label class="rlabel"><input type="radio" name="q20" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q20" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q20" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q20" value="FALSE" onchange="upd()"> FALSE</label>
             <label class="rlabel"><input type="radio" name="q20" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
           </div></div>
-        <div class="qitem"><p class="qprompt"><strong>21.</strong>&nbsp; Coral reef distribute around the ocean disproportionally.</p>
+        <div class="qitem"><p class="qprompt"><strong>21.</strong>&nbsp; Coffee grounds produce filters that are twice as efficient as those using other organic materials.</p>
           <div class="rgroup" id="rg21">
-            <label class="rlabel"><input type="radio" name="q21" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q21" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q21" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q21" value="FALSE" onchange="upd()"> FALSE</label>
             <label class="rlabel"><input type="radio" name="q21" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
           </div></div>
-        <div class="qitem"><p class="qprompt"><strong>22.</strong>&nbsp; Coral reef is increasingly important for scientific purpose.</p>
+        <div class="qitem"><p class="qprompt"><strong>22.</strong>&nbsp; It takes half an hour for a cow-manure fire to reach 950 degrees.</p>
           <div class="rgroup" id="rg22">
-            <label class="rlabel"><input type="radio" name="q22" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q22" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q22" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q22" value="FALSE" onchange="upd()"> FALSE</label>
             <label class="rlabel"><input type="radio" name="q22" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
           </div></div>
-        <div class="qitem"><p class="qprompt"><strong>23.</strong>&nbsp; Coral reefs are greatly exchanged among and exported to other counties.</p>
+        <div class="qitem"><p class="qprompt"><strong>23.</strong>&nbsp; E-coli is the most difficult bacterium to remove from water by filtration.</p>
           <div class="rgroup" id="rg23">
-            <label class="rlabel"><input type="radio" name="q23" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q23" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q23" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q23" value="FALSE" onchange="upd()"> FALSE</label>
             <label class="rlabel"><input type="radio" name="q23" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>24.</strong>&nbsp; Reef tourism is of economic essence generally for some poor people.</p>
-          <div class="rgroup" id="rg24">
-            <label class="rlabel"><input type="radio" name="q24" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q24" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q24" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>25.</strong>&nbsp; As with other fishing business, coral fishery is not suitable to women and children.</p>
-          <div class="rgroup" id="rg25">
-            <label class="rlabel"><input type="radio" name="q25" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q25" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q25" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
           </div></div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Question 26</em></p>
+        <p class="qnum-head"><em>Questions 24–26</em></p>
         <p class="qinst">Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>
-        <div class="qitem"><p class="qprompt"><strong>26.</strong>&nbsp; What is the main purpose of this passage?</p>
+        <div class="qitem"><p class="qprompt"><strong>24.</strong>&nbsp; The Manatuto project aimed to set up a</p>
+          <div class="rgroup" id="rg24">
+            <label class="rlabel"><input type="radio" name="q24" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; charitable trust.</label>
+            <label class="rlabel"><input type="radio" name="q24" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; filtration experiment.</label>
+            <label class="rlabel"><input type="radio" name="q24" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; water filter factory.</label>
+            <label class="rlabel"><input type="radio" name="q24" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; community kiln.</label>
+          </div></div>
+        <div class="qitem"><p class="qprompt"><strong>25.</strong>&nbsp; To be effective, the Flynn filters must</p>
+          <div class="rgroup" id="rg25">
+            <label class="rlabel"><input type="radio" name="q25" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; remove all dangerous pathogens.</label>
+            <label class="rlabel"><input type="radio" name="q25" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; be a particular thickness.</label>
+            <label class="rlabel"><input type="radio" name="q25" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; filter water as quickly as possible.</label>
+            <label class="rlabel"><input type="radio" name="q25" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; be made from 100 per cent clay.</label>
+          </div></div>
+        <div class="qitem"><p class="qprompt"><strong>26.</strong>&nbsp; Flynn does not intend to patent his filter because he</p>
           <div class="rgroup" id="rg26">
-            <label class="rlabel"><input type="radio" name="q26" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; Demonstrate how coral reef grow in the ocean</label>
-            <label class="rlabel"><input type="radio" name="q26" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; To tell that coral reef is widely used as a scientific project</label>
-            <label class="rlabel"><input type="radio" name="q26" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; Present the general benefits and an alarming situation of coral reef</label>
-            <label class="rlabel"><input type="radio" name="q26" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; To show the vital efforts made to protect coral reef in Australia</label>
+            <label class="rlabel"><input type="radio" name="q26" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; wants it to be freely available.</label>
+            <label class="rlabel"><input type="radio" name="q26" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; has produced a very simple design.</label>
+            <label class="rlabel"><input type="radio" name="q26" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; cannot make a profit in poor countries.</label>
+            <label class="rlabel"><input type="radio" name="q26" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; has already given the idea to a charity.</label>
           </div></div>
       </div>
     </div><!-- /qs2 -->
     <div class="qsec" id="qs3">
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 27–31</em></p>
+        <p class="qnum-head"><em>Questions 27–32</em></p>
+        <p class="qinst">Reading Passage 3 has seven paragraphs, <strong>A–G</strong>.<br>Choose the correct heading for paragraphs <strong>A–F</strong> from the list of headings below.</p>
+        <div class="headings-box" id="mhHeadings">
+          <div class="mh-heading-card" draggable="true" data-code="i" data-label="Action already taken by the United Nations"><strong>i</strong>&nbsp;&nbsp;Action already taken by the United Nations</div>
+          <div class="mh-heading-card" draggable="true" data-code="ii" data-label="Marketing the hydrogen car"><strong>ii</strong>&nbsp;&nbsp;Marketing the hydrogen car</div>
+          <div class="mh-heading-card" draggable="true" data-code="iii" data-label="Making the new technology available worldwide"><strong>iii</strong>&nbsp;&nbsp;Making the new technology available worldwide</div>
+          <div class="mh-heading-card" draggable="true" data-code="iv" data-label="Some negative predictions from one group of experts"><strong>iv</strong>&nbsp;&nbsp;Some negative predictions from one group of experts</div>
+          <div class="mh-heading-card" draggable="true" data-code="v" data-label="How the new vehicle technology works"><strong>v</strong>&nbsp;&nbsp;How the new vehicle technology works</div>
+          <div class="mh-heading-card" draggable="true" data-code="vi" data-label="The history of fuel-cell technology"><strong>vi</strong>&nbsp;&nbsp;The history of fuel-cell technology</div>
+          <div class="mh-heading-card" draggable="true" data-code="vii" data-label="A holistic view of climate change"><strong>vii</strong>&nbsp;&nbsp;A holistic view of climate change</div>
+          <div class="mh-heading-card" draggable="true" data-code="viii" data-label="Locating the essential ingredient"><strong>viii</strong>&nbsp;&nbsp;Locating the essential ingredient</div>
+          <div class="mh-heading-card" draggable="true" data-code="ix" data-label="Sustaining car manufacture"><strong>ix</strong>&nbsp;&nbsp;Sustaining car manufacture</div>
+        </div>
+      </div>
+      <div class="qblock">
+        <p class="qnum-head"><em>Questions 33–36</em></p>
+        <p class="qinst">Complete the sentences below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>
+        <div class="qitem"><p class="qprompt"><strong>33.</strong>&nbsp; In the late nineteenth century, the car industry invested in the development of the <input type="text" class="ai sm" id="q33" oninput="upd()"> rather than fuel-cell technology.</p></div>
+        <div class="qitem"><p class="qprompt"><strong>34.</strong>&nbsp; Ford engineers predict that they will eventually design an almost <input type="text" class="ai sm" id="q34" oninput="upd()"> car.</p></div>
+        <div class="qitem"><p class="qprompt"><strong>35.</strong>&nbsp; While a fuel-cell lasts longer, some aspects of it are comparable to a <input type="text" class="ai sm" id="q35" oninput="upd()"> .</p></div>
+        <div class="qitem"><p class="qprompt"><strong>36.</strong>&nbsp; Fuel-cells can come in many sizes and can be used in power stations and in <input type="text" class="ai sm" id="q36" oninput="upd()"> as well as in vehicles.</p></div>
+      </div>
+      <div class="qblock">
+        <p class="qnum-head"><em>Questions 37–40</em></p>
         <p class="qinst">Do the following statements agree with the information given in Reading Passage 3?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong></p>
-        <div class="qitem"><p class="qprompt"><strong>27.</strong>&nbsp; Resident killer whales appear to remain with their maternal group for life.</p>
-          <div class="rgroup" id="rg27">
-            <label class="rlabel"><input type="radio" name="q27" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q27" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q27" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
+        <div class="qitem"><p class="qprompt"><strong>37.</strong>&nbsp; Using electricity produced by burning fossil fuels to access sources of hydrogen may increase the positive effect of the fuel-cell.</p>
+          <div class="rgroup" id="rg37">
+            <label class="rlabel"><input type="radio" name="q37" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q37" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q37" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
           </div></div>
-        <div class="qitem"><p class="qprompt"><strong>28.</strong>&nbsp; Resident killer whales have a more restricted range of calls than transients.</p>
-          <div class="rgroup" id="rg28">
-            <label class="rlabel"><input type="radio" name="q28" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q28" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q28" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
+        <div class="qitem"><p class="qprompt"><strong>38.</strong>&nbsp; The oil company Statoil in Norway owns gas wells in other parts of the world.</p>
+          <div class="rgroup" id="rg38">
+            <label class="rlabel"><input type="radio" name="q38" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q38" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q38" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
           </div></div>
-        <div class="qitem"><p class="qprompt"><strong>29.</strong>&nbsp; There is a vocabulary of sounds which is common to all transient killer whales.</p>
-          <div class="rgroup" id="rg29">
-            <label class="rlabel"><input type="radio" name="q29" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q29" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q29" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
+        <div class="qitem"><p class="qprompt"><strong>39.</strong>&nbsp; Public transport is leading the way in the application of fuel-cell technology.</p>
+          <div class="rgroup" id="rg39">
+            <label class="rlabel"><input type="radio" name="q39" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q39" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q39" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
           </div></div>
-        <div class="qitem"><p class="qprompt"><strong>30.</strong>&nbsp; Resident killer whales share the dialects of other resident communities living in the same waters.</p>
-          <div class="rgroup" id="rg30">
-            <label class="rlabel"><input type="radio" name="q30" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q30" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q30" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
+        <div class="qitem"><p class="qprompt"><strong>40.</strong>&nbsp; More funding is necessary to ensure the success of the fuel-cell vehicle industry.</p>
+          <div class="rgroup" id="rg40">
+            <label class="rlabel"><input type="radio" name="q40" value="TRUE" onchange="upd()"> TRUE</label>
+            <label class="rlabel"><input type="radio" name="q40" value="FALSE" onchange="upd()"> FALSE</label>
+            <label class="rlabel"><input type="radio" name="q40" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
           </div></div>
-        <div class="qitem"><p class="qprompt"><strong>31.</strong>&nbsp; The dialects of transient killer whales remain constant over time.</p>
-          <div class="rgroup" id="rg31">
-            <label class="rlabel"><input type="radio" name="q31" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q31" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q31" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-      </div>
-      <div class="qblock">
-        <p class="qnum-head"><em>Questions 32–34</em></p>
-        <p class="qinst">Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>
-        <div class="sbox">
-          <p>It has been observed that resident killer whales invariably live in fixed family groups, known as <strong>32</strong>&nbsp;<input type="text" class="ai sm" id="q32" oninput="upd()">. Each of these has its own unique set of calls, despite close contact with other family groups. As the same areas of ocean contain many different groups with widely varying dialects, it is clear that these differences could not have emerged as a result of the whales' <strong>33</strong>&nbsp;<input type="text" class="ai sm" id="q33" oninput="upd()">.</p>
-          <p>According to tests conducted by Lance Barrett-Lennard, a calf communicates exclusively with the dialect of the group to which its <strong>34</strong>&nbsp;<input type="text" class="ai sm" id="q34" oninput="upd()"> belongs. Barrett-Lennard also rejects the idea that the call patterns are inherited.</p>
-        </div>
-      </div>
-      <div class="qblock">
-        <p class="qnum-head"><em>Questions 35–37</em></p>
-        <p class="qinst">Choose <strong>THREE</strong> letters, <strong>A–F</strong>.<br>Which THREE of the following features of whales are mentioned in the passage?</p>
-        <div class="rgroup" id="grpg3537">
-          <label class="rlabel"><input type="checkbox" name="pg_g3537" value="A" onchange="pickCap('g3537',3,this)"> <strong>A</strong>&nbsp; intelligence</label>
-          <label class="rlabel"><input type="checkbox" name="pg_g3537" value="B" onchange="pickCap('g3537',3,this)"> <strong>B</strong>&nbsp; physical strength</label>
-          <label class="rlabel"><input type="checkbox" name="pg_g3537" value="C" onchange="pickCap('g3537',3,this)"> <strong>C</strong>&nbsp; sensitivity to sound</label>
-          <label class="rlabel"><input type="checkbox" name="pg_g3537" value="D" onchange="pickCap('g3537',3,this)"> <strong>D</strong>&nbsp; prolonged life span</label>
-          <label class="rlabel"><input type="checkbox" name="pg_g3537" value="E" onchange="pickCap('g3537',3,this)"> <strong>E</strong>&nbsp; lengthy period of fertility</label>
-          <label class="rlabel"><input type="checkbox" name="pg_g3537" value="F" onchange="pickCap('g3537',3,this)"> <strong>F</strong>&nbsp; adaptability to a variety of foods</label>
-        </div>
-      </div>
-      <div class="qblock">
-        <p class="qnum-head"><em>Questions 38–40</em></p>
-        <p class="qinst">Reading Passage 3 has eight paragraphs, <strong>A–H</strong>.<br>Which paragraph contains the following information?</p>
-        <div style="overflow-x:auto"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th></tr></thead><tbody>
-        <tr><td class="mx-stmt"><span class="mx-num">38</span> an example of the kind of information passed by whales to each other</td><td><label class="mx-cell"><input type="radio" name="q38" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q38" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q38" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q38" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q38" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q38" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q38" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q38" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">39</span> a reference to variations in communication styles between different cultures within one species</td><td><label class="mx-cell"><input type="radio" name="q39" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q39" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q39" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q39" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q39" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q39" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q39" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q39" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">40</span> ways in which the skills of whales are favourable for the development of culture</td><td><label class="mx-cell"><input type="radio" name="q40" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q40" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q40" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q40" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q40" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q40" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q40" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q40" value="H" onchange="upd()"></label></td></tr>
-        </tbody></table></div>
       </div>
     </div><!-- /qs3 -->
   </div><!-- /right-pane -->
@@ -561,24 +601,24 @@ mark.uhl:hover{background:#FDE047}
 <script>
 // ── ANSWERS ──
 const CA = {
-  1:['disease'], 2:['political'], 3:['richer'], 4:['economy'], 5:['museum'], 6:['property'], 7:['contact'], 8:['consumption'],
-  9:'FALSE', 10:'NOT GIVEN', 11:'NOT GIVEN', 12:'FALSE', 13:'TRUE',
-  14:'A', 15:'C', 16:'C', 17:'D', 18:'E', 19:'D',
-  20:'YES', 21:'YES', 22:'NOT GIVEN', 23:'NOT GIVEN', 24:'YES', 25:'NOT GIVEN', 26:'C',
-  27:'TRUE', 28:'FALSE', 29:'TRUE', 30:'FALSE', 31:'NOT GIVEN',
-  32:['pods'], 33:['genetics'], 34:['mother','maternal pod'],
-  35:'A', 36:'C', 37:'D',
-  38:'G', 39:'D', 40:'F'
+  1:'TRUE', 2:'NOT GIVEN', 3:'FALSE', 4:'TRUE',
+  5:['evergreen tree','an evergreen tree'], 6:['natural pesticides','natural chemicals','pesticides'], 7:['a powder','powder'], 8:['overnight'], 9:['neem cake','a neem cake','cake'], 10:['nitrogen'],
+  11:['2000'], 12:['neem cakes','cakes','neem cake'], 13:['water purification'],
+  14:['clay'], 15:['water'], 16:['cow manure','manure'], 17:['straw'], 18:['950 degrees','950'], 19:['60 minutes','60'],
+  20:'TRUE', 21:'NOT GIVEN', 22:'FALSE', 23:'NOT GIVEN', 24:'C', 25:'B', 26:'A',
+  27:'vii', 28:'iv', 29:'vi', 30:'v', 31:'viii', 32:'iii',
+  33:['combustion engine','the combustion engine','combustion'], 34:['silent'], 35:['battery','a battery'], 36:['portable computers','portable computer'],
+  37:'FALSE', 38:'NOT GIVEN', 39:'TRUE', 40:'TRUE'
 };
 const CAL = {
-  1:'disease', 2:'political', 3:'richer', 4:'economy', 5:'museum', 6:'property', 7:'contact', 8:'consumption',
-  9:'FALSE', 10:'NOT GIVEN', 11:'NOT GIVEN', 12:'FALSE', 13:'TRUE',
-  14:'A', 15:'C', 16:'C', 17:'D', 18:'E', 19:'D',
-  20:'YES', 21:'YES', 22:'NOT GIVEN', 23:'NOT GIVEN', 24:'YES', 25:'NOT GIVEN', 26:'C',
-  27:'TRUE', 28:'FALSE', 29:'TRUE', 30:'FALSE', 31:'NOT GIVEN',
-  32:'pods', 33:'genetics', 34:'mother',
-  35:'A', 36:'C', 37:'D',
-  38:'G', 39:'D', 40:'F'
+  1:'TRUE', 2:'NOT GIVEN', 3:'FALSE', 4:'TRUE',
+  5:'evergreen tree', 6:'natural pesticides', 7:'a powder', 8:'overnight', 9:'neem cake', 10:'nitrogen',
+  11:'2000', 12:'(neem) cakes', 13:'water purification',
+  14:'clay', 15:'water', 16:'cow manure', 17:'straw', 18:'950 degrees', 19:'60 minutes',
+  20:'TRUE', 21:'NOT GIVEN', 22:'FALSE', 23:'NOT GIVEN', 24:'C', 25:'B', 26:'A',
+  27:'vii', 28:'iv', 29:'vi', 30:'v', 31:'viii', 32:'iii',
+  33:'combustion engine', 34:'silent', 35:'battery', 36:'portable computers',
+  37:'FALSE', 38:'NOT GIVEN', 39:'TRUE', 40:'TRUE'
 };
 
 // ── STATE ──
@@ -593,6 +633,7 @@ window.addEventListener('DOMContentLoaded',()=>{
   upd();
   setupDrag();
   setupSummaryDnD();
+  setupMatchingHeadings();
   setupHLToolbar();
   showWelcomePopup();
   document.getElementById('fsz-dn').disabled=fszIdx===0;
@@ -618,15 +659,15 @@ function showWelcomePopup() {
             <p style="margin:14px 0 6px;font-size:14px;opacity:0.96;">Prepared by <strong style="color:#fbbf24;">I. Bekhruz</strong></p>
             <p style="margin:0 0 18px;font-size:13px;opacity:0.82;">Follow for more authentic tests, tips &amp; daily practice 👇</p>
             <div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:12px 14px;margin-bottom:22px;text-align:left;">
-                <p style="margin:0;font-size:12.5px;line-height:1.5;opacity:0.95;">⚠️ <strong>Choose how you want to practise.</strong> <strong>Exam mode</strong> runs a 60-minute countdown that auto-submits at 0, just like the real IELTS test. <strong>Casual mode</strong> uses a count-up stopwatch, so you can finish whenever you like and still see how long you took.</p>
+                <p style="margin:0;font-size:12.5px;line-height:1.5;opacity:0.95;">🎯 <strong>Exam Mode</strong> runs a 60-minute countdown that auto-submits at zero — just like exam day. 🧘 <strong>Casual Mode</strong> counts your time up with no limit, so you can practise at your own pace.</p>
             </div>
-            <div style="display:flex;flex-direction:column;gap:10px;align-items:stretch;">
+            <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
                 <a href="https://t.me/bekhruzposts" target="_blank" style="display:inline-flex;align-items:center;gap:7px;background:#fff;color:#0f172a;text-decoration:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.3);">
                     <svg style="width:17px;height:17px;fill:#0f172a;" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
                     Join @bekhruzposts
                 </a>
-                <button id="examBtn" style="background:linear-gradient(90deg,#38bdf8,#0ea5e9);color:#052033;border:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;line-height:1.2;box-shadow:0 6px 18px rgba(0,0,0,0.25);">🎯 Exam mode<span style="font-weight:600;font-size:11px;opacity:.8;">60-minute timer &middot; auto-submit at 0</span></button>
-                <button id="casualBtn" style="background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(56,189,248,0.4);font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;line-height:1.2;">🧘 Casual mode<span style="font-weight:600;font-size:11px;opacity:.8;">stopwatch &middot; finish whenever you like</span></button>
+                <button id="examBtn" style="background:linear-gradient(90deg,#38bdf8,#0ea5e9);color:#052033;border:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;">🎯 Exam Mode</button>
+                <button id="casualBtn" style="background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(56,189,248,0.4);font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;">🧘 Casual Mode</button>
             </div>
         </div>`;
     overlay.appendChild(box);
@@ -700,19 +741,15 @@ function nextQ(){let n=Math.min(40,curQ+1);goQ(n);}
 function prevQ(){let n=Math.max(1,curQ-1);goQ(n);}
 
 function getQEl(n){
-  if(typeof PICK!=='undefined' && PICK[n]) return document.getElementById('grp'+PICK[n].g);
   return document.getElementById('q'+n)||
     document.querySelector('input[name="q'+n+'"]:first-of-type')||null;
 }
 
 // ── USER ANSWER ──
 function getAns(n){
-  if(typeof PICK!=='undefined' && PICK[n]){
-    const sel=[...document.querySelectorAll('input[name="pg_'+PICK[n].g+'"]:checked')].map(c=>c.value).sort();
-    return sel[PICK[n].qs.indexOf(n)]||'';
-  }
   const el=document.getElementById('q'+n);
   if(el&&el.classList&&el.classList.contains('dzone')) return el.dataset.val||'';
+  if(el&&el.classList&&el.classList.contains('mh-drop-slot')) return el.dataset.val||'';
   if(el&&el.type==='text') return el.value.trim();
   if(el&&el.tagName==='SELECT') return el.value;
   const r=document.querySelector('input[name="q'+n+'"]:checked');
@@ -732,38 +769,27 @@ function upd(){
   document.getElementById('cnt').textContent=tot+' of 40 answered';
 }
 
-// ── TIMER / STOPWATCH ──
-function fmt(s){const m=Math.floor(s/60),sec=s%60;return String(m).padStart(2,'0')+':'+String(sec).padStart(2,'0');}
-function startMode(m){
-  mode=m;
-  const badge=document.getElementById('mode-badge');
-  const d=document.getElementById('timer');
-  if(m==='exam'){
-    timerS=3600; elapsed=0;
-    d.textContent=fmt(timerS); d.title='Time remaining';
-    badge.textContent='⏳ Exam';
-    badge.style.cssText='display:inline-flex;align-items:center;font-size:11px;font-weight:700;padding:4px 10px;border-radius:9999px;background:#fee2e2;color:#b91c1c;border:1px solid #fecaca;';
-  } else {
-    timerS=3600; elapsed=0;
-    d.textContent=fmt(0); d.title='Time elapsed (stopwatch)'; d.classList.remove('warn');
-    badge.textContent='🧘 Casual';
-    badge.style.cssText='display:inline-flex;align-items:center;font-size:11px;font-weight:700;padding:4px 10px;border-radius:9999px;background:#0f172a;color:#fbbf24;border:1px solid #1e293b;';
-  }
-}
+// ── TIMER ──
 function toggleTimer(){
   if(!tRun){tRun=true;tInt=setInterval(tick,1000);}
+}
+function fmt(s){const m=Math.floor(s/60);s=s%60;return String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');}
+function startMode(m){
+  mode=m;
+  const d=document.getElementById('timer'), b=document.getElementById('mode-badge');
+  if(m==='casual'){ elapsed=0; d.textContent='00:00'; d.classList.remove('warn');
+    if(b){b.textContent='\uD83E\uDDD8 Casual'; b.style.cssText='display:inline-flex;align-items:center;gap:4px;margin-left:8px;background:#0f172a;color:#fbbf24;font-size:11px;font-weight:800;padding:3px 11px;border-radius:9999px;';} }
+  else { d.textContent=fmt(timerS);
+    if(b){b.textContent='\uD83C\uDFAF Exam'; b.style.cssText='display:inline-flex;align-items:center;gap:4px;margin-left:8px;background:#DC2626;color:#fff;font-size:11px;font-weight:800;padding:3px 11px;border-radius:9999px;';} }
 }
 function tick(){
   elapsed++;
   const d=document.getElementById('timer');
-  if(mode==='exam'){
-    timerS--; if(timerS<0)timerS=0;
-    d.textContent=fmt(timerS);
-    d.classList.toggle('warn',timerS<=300&&timerS>0);
-    if(timerS<=0){clearInterval(tInt);tRun=false;if(!checked){timeExpired=true;doCheck();}return;}
-  } else {
-    d.textContent=fmt(elapsed);
-  }
+  if(mode==='casual'){ d.textContent=fmt(elapsed); return; }
+  if(timerS<=0){clearInterval(tInt);tRun=false;if(!checked){timeExpired=true;doCheck();}return;}
+  timerS--;
+  d.textContent=fmt(timerS);
+  d.classList.toggle('warn',timerS<=300&&timerS>0);
 }
 // ── FULLSCREEN ──
 function toggleFullscreen(){
@@ -899,6 +925,46 @@ function setupSummaryDnD(){
   });
 }
 
+function setupMatchingHeadings(){
+  document.querySelectorAll('.headings-box').forEach(function(box){
+    var bank=box.dataset.bank||'';
+    var cards=[].slice.call(box.querySelectorAll('.mh-heading-card'));
+    var slots=[].slice.call(document.querySelectorAll('.mh-drop-slot')).filter(function(s){return (s.dataset.bank||'')===bank;});
+    if(!cards.length||!slots.length)return;
+    var armed=null;
+    function place(slot,code){
+      if(checked)return;
+      var card=cards.find(function(c){return c.dataset.code===code;}); if(!card)return;
+      slots.forEach(function(s){if(s!==slot&&s.dataset.val===code)clr(s);});
+      if(slot.dataset.val)clr(slot);
+      slot.dataset.val=code;slot.innerHTML='<strong>'+code+'</strong>&nbsp;&nbsp;'+card.dataset.label;
+      slot.classList.remove('empty');slot.classList.add('filled');slot.setAttribute('draggable','true');
+      card.classList.add('used');upd();
+    }
+    function clr(slot){
+      var old=slot.dataset.val;if(old){var c=cards.find(function(x){return x.dataset.code===old;});if(c)c.classList.remove('used');}
+      slot.dataset.val='';slot.textContent=slot.dataset.q;slot.classList.add('empty');slot.classList.remove('filled','ok','bad');slot.setAttribute('draggable','false');upd();
+    }
+    cards.forEach(function(card){
+      card.addEventListener('dragstart',function(e){if(checked||card.classList.contains('used')){e.preventDefault();return;}e.dataTransfer.setData('text/plain',card.dataset.code);});
+      card.addEventListener('click',function(){if(checked||card.classList.contains('used'))return;var on=card.classList.contains('armed');cards.forEach(function(c){c.classList.remove('armed');});armed=on?null:card.dataset.code;if(!on)card.classList.add('armed');});
+    });
+    slots.forEach(function(slot){
+      slot.addEventListener('dragstart',function(e){if(checked||!slot.dataset.val){e.preventDefault();return;}e.dataTransfer.setData('text/plain',slot.dataset.val);});
+      slot.addEventListener('dragover',function(e){if(checked)return;e.preventDefault();slot.classList.add('dragover');});
+      slot.addEventListener('dragleave',function(){slot.classList.remove('dragover');});
+      slot.addEventListener('drop',function(e){e.preventDefault();slot.classList.remove('dragover');var code=e.dataTransfer.getData('text/plain');if(code)place(slot,code);});
+      slot.addEventListener('click',function(){if(checked)return;if(armed){place(slot,armed);armed=null;cards.forEach(function(c){c.classList.remove('armed');});}else if(slot.dataset.val)clr(slot);});
+    });
+    var ghost=null,tCard=null;
+    cards.forEach(function(card){
+      card.addEventListener('touchstart',function(e){if(checked||card.classList.contains('used'))return;tCard=card;var t=e.touches[0];ghost=card.cloneNode(true);ghost.style.cssText='position:fixed;z-index:99999;pointer-events:none;opacity:.9;max-width:70%;left:'+t.clientX+'px;top:'+t.clientY+'px;transform:translate(-50%,-150%)';document.body.appendChild(ghost);},{passive:true});
+      card.addEventListener('touchmove',function(e){if(!ghost)return;e.preventDefault();var t=e.touches[0];ghost.style.left=t.clientX+'px';ghost.style.top=t.clientY+'px';var el=document.elementFromPoint(t.clientX,t.clientY);var s=el&&el.closest?el.closest('.mh-drop-slot'):null;slots.forEach(function(ss){ss.classList.toggle('dragover',ss===s);});},{passive:false});
+      card.addEventListener('touchend',function(e){if(!ghost)return;var t=e.changedTouches[0];var el=document.elementFromPoint(t.clientX,t.clientY);var s=el&&el.closest?el.closest('.mh-drop-slot'):null;slots.forEach(function(ss){ss.classList.remove('dragover');});ghost.remove();ghost=null;if(s&&tCard&&(s.dataset.bank||'')===bank)place(s,tCard.dataset.code);tCard=null;});
+    });
+  });
+}
+
 // ── NORMALIZE ──
 function norm(s){return s.toLowerCase().replace(/[^a-z0-9\s]/g,'').replace(/\s+/g,' ').trim();}
 function isCorrect(n){
@@ -917,6 +983,7 @@ function doCheck(){
   // disable inputs
   document.querySelectorAll('#right-pane input,#right-pane select').forEach(el=>el.disabled=true);
   document.querySelectorAll('.dchip').forEach(c=>{c.draggable=false;c.classList.add('used');});
+  document.querySelectorAll('.mh-heading-card').forEach(c=>{c.draggable=false;c.classList.add('used');});
 
   let sc=0,p1=0,p2=0,p3=0;
   for(let i=1;i<=40;i++){
@@ -937,28 +1004,22 @@ function doCheck(){
   highlightPassages();
 }
 
-const PICK={35:{g:'g3537',qs:[35,36,37],set:["A","C","D"]},36:{g:'g3537',qs:[35,36,37],set:["A","C","D"]},37:{g:'g3537',qs:[35,36,37],set:["A","C","D"]}};
-function pickCap(g,max,cb){
-  const ch=[...document.querySelectorAll('input[name="pg_'+g+'"]:checked')];
-  if(ch.length>max) cb.checked=false;
-  upd();
-}
-
 function markQ(n,ok){
-  if(typeof PICK!=='undefined' && PICK[n]){
-    document.querySelectorAll('input[name="pg_'+PICK[n].g+'"]').forEach(cb=>{
-      const lb=cb.closest('label'); if(!lb)return;
-      if(PICK[n].set.includes(cb.value)) lb.classList.add('ok');
-      else if(cb.checked) lb.classList.add('bad');
-    });
-    return;
-  }
   const el=document.getElementById('q'+n);
   if(el&&el.classList&&el.classList.contains('dzone')){
     el.classList.add(ok?'ok':'bad');
     if(!ok){
       const sp=document.createElement('span');
       sp.className='cad';sp.innerHTML=' ➜ <em>'+CAL[n]+'</em>';
+      el.insertAdjacentElement('afterend',sp);
+    }
+    return;
+  }
+  if(el&&el.classList&&el.classList.contains('mh-drop-slot')){
+    el.classList.add(ok?'ok':'bad');
+    if(!ok){
+      const sp=document.createElement('span');
+      sp.className='mh-corr';sp.innerHTML='➔ '+CAL[n];
       el.insertAdjacentElement('afterend',sp);
     }
     return;
@@ -1022,10 +1083,8 @@ function showResults(){
       </div>
       <div class="res-hero-info">
         <div class="res-title">${titleTxt}</div>
-        <div style="display:flex;gap:6px;flex-wrap:wrap;">
-          <div class="res-band">Band ${band(lastScore)}<em>estimated</em></div>
-          <div class="res-band">⏱ ${fmt(elapsed)}<em>${mode==='exam'?'time used':'your time'}</em></div>
-        </div>
+        <div class="res-band">Band ${band(lastScore)}<em>estimated</em></div>
+        <div class="res-band">⏱ ${fmt(elapsed)}<em>${mode==='exam'?'time used':'your time'}</em></div>
       </div>
     </div>
     <div class="res-parts">
@@ -1046,43 +1105,46 @@ function closeResults(){document.getElementById('res-ov').classList.remove('show
 
 // ── PASSAGE HIGHLIGHTS ──
 const P1H=[
-  {q:1,t:"disease spread rapidly among the population"},
-  {q:2,t:"commercial incentives to make them work, as well as political ones"},
-  {q:3,t:"poor flock to cities in the hope of becoming richer"},
-  {q:4,t:"they also reinvigorate the economy of the city"},
-  {q:5,t:"is turning into a museum"},
-  {q:6,t:"drove up the cost of property"},
-  {q:7,t:"lose the face-to-face contact that makes being an urbanite so much more creative"},
-  {q:8,t:"every aspect of life involves more consumption"},
-  {q:9,t:"they shouldn't, says glaeser they are signs of growth, energy and aspiration"},
-  {q:12,t:"folly to drive them away by forcing property prices to soar with unreasonable planning regulations"},
-  {q:13,t:"the french made a mistake in establishing a huge high-rise commercial development - la défense"}
+  {q:1,t:"a quick 'high' of booming yields and incomes hooked growers during the early years"},
+  {q:3,t:"a quick 'high' of booming yields and incomes hooked growers"},
+  {q:4,t:"by the time some farmers tried to break free of their chemical dependence"},
+  {q:5,t:"a fast-growing, broad-leaved evergreen tree related to mahogany"},
+  {q:6,t:"producing a multitude of natural pesticides that have evolved specifically to defeat plant-eating insects"},
+  {q:7,t:"neem seeds are simply ground into a powder"},
+  {q:8,t:"soaked overnight in water"},
+  {q:9,t:"neem cake applied to the soil kills pests"},
+  {q:10,t:"an organic fertiliser high in nitrogen"},
+  {q:11,t:"by the end of 2000, all the farmers in punukula village were using npm"},
+  {q:12,t:"gathered seeds from the surrounding area and produced neem cakes to sell"},
+  {q:13,t:"big plans for the future, such as water purification"}
 ];
 const P2H=[
-  {q:14,t:"coral reefs are estimated to cover 284,300 km2"},
-  {q:15,t:"reef tourism is an important source of employment, especially for some of the world's poorest people"},
-  {q:16,t:"net annual benefits from diver tourism was us$2 billion in 2000"},
-  {q:17,t:"coral mining, agricultural and urban runoff"},
-  {q:18,t:"whenever people grab, kick, and walk on, or stir up sediment in the reefs"},
-  {q:19,t:"some current fishing practices are destructive and unsustainable. these include cyanide fishing"},
-  {q:20,t:"provide a home for 25% of all marine species"},
-  {q:21,t:"indo-pacific region accounts for 91.9%"},
-  {q:24,t:"reef tourism is an important source of employment, especially for some of the world's poorest people"},
-  {q:26,t:"deliver ecosystem services to tourism, fisheries and coastline protection"}
+  {q:14,t:"take a handful of clay, mix it with a handful of organic material"},
+  {q:15,t:"add water in a sufficient quantity to make a stiff mixture"},
+  {q:16,t:"put them in a mound of cow manure"},
+  {q:17,t:"next, surround the pots with straw"},
+  {q:18,t:"will be up to 950 degrees after another 20 to 30 minutes"},
+  {q:19,t:"the filters are finished in 45 to 60 minutes"},
+  {q:20,t:"initial research found the local clay to be too fine"},
+  {q:22,t:"can reach a temperature of 700 degrees in half an hour"},
+  {q:24,t:"wanted to help set up a small industrial site manufacturing water filters"},
+  {q:25,t:"needs to be the same thickness as an adult finger for the process to be effective"},
+  {q:26,t:"everyone has a right to clean water"}
 ];
 const P3H=[
-  {q:27,t:"calves stay with their mothers throughout adulthood, and in many years of observation no one has ever seen a whale switch pods"},
-  {q:28,t:"transients have only a few such calls"},
-  {q:29,t:"all transient societies share the same ones"},
-  {q:30,t:"despite regular interaction between them, each resident pod sticks firmly to its own dialect"},
-  {q:32,t:"residents live in stable groups, or 'pods'"},
-  {q:33,t:"if dialects were programmed by genetics, call patterns from both father and mother would be passed on"},
-  {q:34,t:"calf uses the calls of its maternal pod very precisely"},
-  {q:35,t:"advanced mental abilities, they are adept at recognising sounds"},
-  {q:36,t:"live up to a quarter of a century after they have had their last offspring"},
-  {q:38,t:"share information about food hot spots"},
-  {q:39,t:"distinctions between the transient and resident societies is the way they impart information"},
-  {q:40,t:"whales have several biological attributes that give them an advantage in social learning"}
+  {q:27,t:"the conservation of coral reefs and rainforests is a separate issue from traffic and air pollution"},
+  {q:28,t:"the global average temperature rise expected by the year 2100 could be as much as 6"},
+  {q:29,t:"this was actually invented in the late nineteenth century"},
+  {q:30,t:"hydrogen goes into the fuel tank, producing electricity"},
+  {q:31,t:"one source of hydrogen is water"},
+  {q:32,t:"fuel-cell buses are operating in the us"},
+  {q:33,t:"the world's motor industry put its effort into developing the combustion engine"},
+  {q:34,t:"produce a virtually silent vehicle in the future"},
+  {q:35,t:"the fuel-cell is, in some ways, similar to a battery"},
+  {q:36,t:"small enough for portable computers or large enough for power stations"},
+  {q:37,t:"the overall carbon reduction benefit of the fuel-cell disappears"},
+  {q:39,t:"public transport and delivery firms are logical places to start"},
+  {q:40,t:"further investment is needed if the industry"}
 ];
 
 function applyHL2(pEl, items){

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Reading Test 10 (Volume 2) | bekhruzposts</title>
+<title>Reading Test 8 (Volume 3) | bekhruzposts</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;font-size:16px;line-height:1.6;background:#fff;color:#111827}
@@ -149,24 +149,6 @@ select.ai{height:32px;cursor:pointer}
 [data-theme=dark] .dzone.ok{background:#14532d!important;color:#bbf7d0!important}
 [data-theme=dark] .dzone.bad{background:#5a1d1d!important;color:#fecaca!important}
 
-/* ── MATCHING MATRIX ── */
-.matrix{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:calc(14px * var(--txtscale,1));color:var(--text)}
-.matrix th,.matrix td{border:1px solid var(--border);text-align:center}
-.matrix thead th{background:var(--phdr);font-weight:800;width:40px;height:34px}
-.matrix th.mx-corner{background:transparent;border-top:none;border-left:none}
-.matrix td.mx-stmt{text-align:left;padding:9px 12px;line-height:1.5;min-width:200px}
-.mx-num{font-weight:800;color:#DC2626;margin-right:7px}
-.mx-cell{display:flex;align-items:center;justify-content:center;height:46px;margin:0;cursor:pointer}
-.mx-cell input{accent-color:#2563eb;width:17px;height:17px;cursor:pointer;margin:0}
-.mx-cell:hover{background:var(--phdr)}
-.mx-cell:has(input:checked){background:#dbeafe}
-[data-theme=dark] .mx-cell:has(input:checked){background:#1e3a5f}
-[data-theme=night] .mx-cell:has(input:checked){background:#3a3320}
-.mx-cell.ok{background:#dcfce7!important}
-.mx-cell.bad{background:#fee2e2!important}
-[data-theme=dark] .mx-cell.ok{background:#14532d!important}
-[data-theme=dark] .mx-cell.bad{background:#5a1d1d!important}
-
 /* ── BOTTOM NAV ── */
 #nav{position:fixed;bottom:0;left:0;right:0;height:56px;background:var(--nav);border-top:1px solid var(--border);display:flex;align-items:center;padding:0 16px;gap:10px;z-index:200;transition:background .3s}
 .arr{width:34px;height:34px;border-radius:8px;border:1px solid var(--border);cursor:pointer;color:var(--text);background:var(--tbg);font-size:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .15s}
@@ -261,6 +243,34 @@ mark.uhl:hover{background:#FDE047}
 .rs-badge{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-size:12px;font-weight:800}
 .rs-badge.ok{background:#16a34a;color:#fff}
 .rs-badge.no{background:#dc2626;color:#fff}
+/* ── REAL-EXAM MATCHING MATRIX ── */
+.matrix{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:calc(14px * var(--txtscale,1));color:var(--text)}
+.matrix th,.matrix td{border:1px solid var(--border);text-align:center}
+.matrix thead th{background:var(--phdr);font-weight:800;width:40px;height:34px}
+.matrix th.mx-corner{background:transparent;border-top:none;border-left:none}
+.matrix td.mx-stmt{text-align:left;padding:9px 12px;line-height:1.5;min-width:200px}
+.mx-num{font-weight:800;color:#DC2626;margin-right:7px}
+.mx-cell{display:flex;align-items:center;justify-content:center;height:46px;margin:0;cursor:pointer}
+.mx-cell input{accent-color:#2563eb;width:17px;height:17px;cursor:pointer;margin:0}
+.mx-cell:hover{background:var(--phdr)}
+.mx-cell:has(input:checked){background:#dbeafe}
+[data-theme=dark] .mx-cell:has(input:checked){background:#1e3a5f}
+[data-theme=night] .mx-cell:has(input:checked){background:#3a3320}
+.mx-cell.ok{background:#dcfce7!important}
+.mx-cell.bad{background:#fee2e2!important}
+[data-theme=dark] .mx-cell.ok{background:#14532d!important}
+[data-theme=dark] .mx-cell.bad{background:#5a1d1d!important}
+.dzone.dz-sm{min-width:46px;width:46px;padding:0 4px}
+.se-row{display:flex;align-items:center;flex-wrap:wrap;gap:7px;padding:9px 0;border-bottom:1px solid var(--border);font-size:calc(15px * var(--txtscale,1));line-height:1.5}
+.se-row:last-child{border-bottom:none}
+.se-num{font-weight:800;color:#DC2626;min-width:22px}
+.se-stem{flex:1 1 auto}
+.se-bank-label{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.3px;color:var(--subtext);margin:16px 0 8px}
+.wbank.se-bank{flex-direction:column;gap:7px}
+.se-bank .dchip{width:100%;align-items:flex-start;white-space:normal;line-height:1.45;text-align:left}
+.mc2hid{display:none}
+.mc2 .cad{display:none}
+.mc2 .rlabel input{width:17px;height:17px}
 </style>
 </head>
 <body>
@@ -280,8 +290,7 @@ mark.uhl:hover{background:#FDE047}
       <span id="fsz-lbl">100%</span>
       <button class="fsz-btn" id="fsz-up" onclick="changeFontSize(1)" title="Larger text">A+</button>
     </div>
-    <span id="mode-badge" style="display:none;"></span>
-    <div id="timer">60:00</div>
+    <div id="timer">60:00</div><div id="mode-badge" style="display:none"></div>
     <button class="circ" id="fs-btn" onclick="toggleFullscreen()" title="Full screen">
       <svg id="fs-ico-enter" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
       <svg id="fs-ico-exit" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg>
@@ -301,41 +310,49 @@ mark.uhl:hover{background:#FDE047}
   <!-- LEFT -->
   <div id="left-pane">
     <div class="pcontent on" id="pc1">
-      <h2 class="ptitle">Dirty River But Clean Water</h2>
+      <h2 class="ptitle">Katherine Mansfield</h2>
+      <p class="psub">Katherine Mansfield was a modernist writer of short fiction who was born and brought up in New Zealand.</p>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p>Floods can occur in rivers when the flow rate exceeds the capacity of the river channel, particularly at bends or meanders in the waterway. Floods often cause damage to homes and businesses if they are in the natural flood plains of rivers. While riverine flood damage can be eliminated by moving away from rivers and other bodies of water, people have traditionally lived and worked by rivers because the land is usually flat and fertile and because rivers provide easy travel and access to commerce and industry.</p>
-      <p><span class="pl">A</span> Fire and flood are two of humanity's worst nightmares. People have, therefore, always sought to control them. Forest fires are snuffed out quickly. The flow of rivers is regulated by weirs and dams. At least, that is how it used to be. But foresters have learned that forests need fires to clear out the brash and even to get seeds to germinate. And a similar revelation is now dawning on hydrologists. Rivers - and the ecosystems they support - need floods. That is why a man-made torrent has been surging down the Grand Canyon. By Thursday March 6th it was running at full throttle, which was expected to be sustained for 60 hours.</p>
-      <p><span class="pl">B</span> Floods once raged through the canyon every year. Spring Snow from as far away as Wyoming would melt and swell the Colorado river to a flow that averaged around 1,500 cubic metres (50,000 cubic feet) a second. Every eight years or so, that figure rose to almost 3,000 cubic metres. These floods infused the river with sediment, carved its beaches and built its sandbars.</p>
-      <p><span class="pl">C</span> However, in the four decades since the building of the Glen Canyon dam, just upstream of the Grand Canyon, the only sediment that it has collected has come from tiny, undammed tributaries. Even that has not been much use as those tributaries are not powerful enough to distribute the sediment in an ecologically valuable way.</p>
-      <p><span class="pl">D</span> This lack of flooding has harmed local wildlife. The humpback chub, for example, thrived in the rust-red waters of the Colorado. Recently, though, its population has crashed. At first sight, it looked as if the reason was that the chub were being eaten by trout introduced for sport fishing in the mid-20th century. But trout and chub co-existed until the Glen Canyon dam was built, so something else is going on. Steve Gloss, of the United States' Geological Survey (USGS), reckons that the chub's decline is the result of their losing their most valuable natural defense, the Colorado's rusty sediment. The chub were well adapted to the poor visibility created by the thick, red water which gave the river its name, and depended on it to hide from predators. Without the cloudy water the chub became vulnerable.</p>
-      <p><span class="pl">E</span> And the chub are not alone. In the years since the Glen Canyon dam was built, several species have vanished altogether. These include the Colorado pike-minnow, the razorback sucker and the round-tail chub. Meanwhile, aliens including fathead minnows, channel catfish and common carp, which would have been hard put to survive in the savage waters of the undammed canyon, have moved in.</p>
-      <p><span class="pl">F</span> So flooding is the obvious answer. Unfortunately, it is easier said than done. Floods were sent down the Grand Canyon in 1996 and 2004 and the results were mixed. In 1996 the flood was allowed to go on too long. To start with, all seemed well. The floodwaters built up sandbanks and infused the river with sediment. Eventually, however, the continued flow washed most of the sediment out of the canyon. This problem was avoided in 2004, but unfortunately, on that occasion, the volume of sand available behind the dam was too low to rebuild the sandbanks. This time, the USGS is convinced that things will be better. The amount of sediment available is three times greater than it was in 2004. So if a flood is going to do some good, this is the time to unleash one.</p>
-      <p><span class="pl">G</span> Even so, it may turn out to be an empty gesture. At less than 1,200 cubic metres a second, this flood is smaller than even an average spring flood, let alone one of the mightier deluges of the past. Those glorious inundations moved massive quantities of sediment through the Grand Canyon, wiping the slate dirty, and making a muddy mess of silt and muck that would make modern river rafters cringe.</p>
+      <p>Katherine Mansfield Beauchamp Murry was born in 1888, into a prominent family in Wellington, New Zealand. She became one of New Zealand's best-known writers, using the pen name of Katherine Mansfield. The daughter of a banker, and born into a middle-class family, she was also a first cousin of Countess Elizabeth von Arnim, a distinguished novelist in her time. Mansfield had two older sisters and a younger brother. Her father, Harold Beauchamp, went on to become the chairman of the Bank of New Zealand. In 1893, the Mansfield family moved to Karori, a suburb of Wellington, where Mansfield would spend the happiest years of her childhood; she later used her memories of this time as an inspiration for her <em>Prelude</em> story.</p>
+      <p>Her first published stories appeared in the <em>High School Reporter</em> and the Wellington Girls' High School magazine in 1898 and 1899. In 1902, she developed strong feelings for a musician who played the cello, Arnold Trowell, although her feelings were not, for the most part, returned. Mansfield herself was an accomplished cellist, having received lessons from Trowell's father. Mansfield wrote in her journals of feeling isolated to some extent in New Zealand, and, in general terms, of her interest in the Maori people (New Zealand's native people), who were often portrayed in a sympathetic light in her later stories, such as <em>How Pearl Button was Kidnapped</em>.</p>
+      <p>She moved to London in 1903, where she attended Queen's college, along with her two sisters. Mansfield recommenced playing the cello, an occupation that she believed, during her time at Queen's, she would take up professionally. She also began contributing to the college newspaper, with such a dedication to it that she eventually became its editor. She was particularly interested in the works of the French writers of this period and of the 19th-century British writer Oscar Wilde, and she was appreciated amongst fellow students at Queen's for her lively and charismatic approach to life and work. She met fellow writer Ida Baker, a South African, at the college, and the pair became lifelong friends. Mansfield did not actively support the suffragette movement in the UK. Women in New Zealand had gained the right to vote in 1893.</p>
+      <p>Mansfield first began journeying into the other parts of Europe in the period 1903-1906, mainly to Belgium and Germany. After finishing her schooling in England, she returned to her New Zealand home in 1906, only then beginning to write short stories in a serious way. She had several works published in Australia in a magazine called <em>Native Comparison</em>, which was her first paid writing work, and by this time she had her mind set on becoming a professional writer. It was also the first occasion on which she used the pseudonym 'K. Mansfield'.</p>
+      <p>Mansfield rapidly grew discontented with the provincial New Zealand lifestyle, and with her family. Two years later she headed again to London. Her father sent her an annual subsidy of &pound;100 for the rest of her life. In later years, she would express both admiration and disdain for New Zealand in her journals.</p>
+      <p>In 1911, Mansfield met John Middleton Murry, the Oxford scholar and editor of the literary magazine <em>Rhythm</em>. They were later to marry in 1918. Mansfield became a co-editor of <em>Rhythm</em>, which was succeeded by <em>The Blue Review</em>, in which more of her works were published. She and Murry lived in various houses in England and briefly in Paris. <em>The Blue Review</em> failed to gain enough readers and was no longer published. Their attempt to set up as writers in Paris was cut short by Murry's bankruptcy, which resulted from the failure of this and other journals. Life back in England meant frequently changed addresses and very limited funds.</p>
+      <p>Between 1915 and 1918, Mansfield moved between England and Bandol, France. She and Murry developed close contact with other well-known writers of the time such as DH Lawrence, Bertrand Russell and Aldous Huxley. By October 1918 Mansfield had become seriously ill; she had been diagnosed with tuberculosis and was advised to enter a sanatorium. She could no longer spend winters in London. It was the publication of <em>Bliss and Other Stories</em> in 1920 that was to solidify Mansfield's reputation as a writer.</p>
+      <p>Mansfield also spent time in Menton, France, as the tenant of her father's cousin at 'The Villa Isola Bella'. There she wrote what she pronounced to be '...the only story that satisfies me to any extent'.</p>
+      <p>Mansfield produced a great deal of work in the final years of her life, and much of her prose and poetry remained unpublished at her death in 1923. After her death, her husband, Murry, took on the task of editing and publishing her works. His efforts resulted in two additional volumes of short stories, <em>The Doves' Nest</em> and <em>Something Childish</em>, published in 1923 and 1924 respectively, the publication of her <em>Poems</em>, as well as a collection of critical writings (<em>Novels and Novelists</em>) and a number of editions of Mansfield's previously unpublished letters and journals.</p>
     </div>
 
     <div class="pcontent" id="pc2">
-      <h2 class="ptitle">We Have Star Performers!</h2>
+      <h2 class="ptitle">Australian parrots</h2>
+      <p class="psub">and their adaptation to habitat change</p>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p><span class="pl">A</span> The difference between companies is people. With capital and technology in plentiful supply, the critical resource for companies in the knowledge era will be human talent. Companies full of achievers will, by definition, outperform organisations of plodders. Ergo, compete ferociously for the best people. Poach and pamper stars; ruthlessly weed out second-raters. This, in essence, has been the recruitment strategy of the ambitious company of the past decade. The 'talent mindset' was given definitive form in two reports by the consultancy McKinsey famously entitled The War for Talent. Although the intensity of the warfare subsequently subsided along with the air in the internet bubble, it has been warming up again as the economy tightens: labour shortages, for example, are the reason the government has laid out the welcome mat for immigrants from the new Europe.</p>
-      <p><span class="pl">B</span> Yet while the diagnosis - people are important - is evident to the point of platitude, the apparently logical prescription - hire the best - like so much in management is not only not obvious: it is in fact profoundly wrong. The first suspicions dawned with the crash to earth of the dotcom meteors, which showed that dumb is dumb whatever the IQ of those who perpetrate it. The point was illuminated in brilliant relief by Enron, whose leaders, as a New Yorker article called 'The Talent Myth' entertainingly related, were so convinced of their own cleverness that they never twigged that collective intelligence is not the sum of a lot of individual intelligence. In fact, in a profound sense, the two are opposites. Enron believed in stars, noted author Malcolm Gladwell, because they didn't believe in systems. But companies don't just create: 'they execute and compete and coordinate the efforts of many people, and the organizations that are most successful at that task are the ones where the system is the star'. The truth is that you can't win the talent wars by hiring stars - only lose it. New light on why this should be so is thrown by an analysis of star behaviour in this months' Harvard Business Review. In a study of the careers of 1,000 star-stock analysts in the 1990s, the researchers found that when a company recruited a star performer, three things happened.</p>
-      <p><span class="pl">C</span> First, stardom doesn't easily transfer from one organisation to another. In many cases, performance dropped sharply when high performers switched employers and in some instances never recovered. More of success than commonly supposed is due to the working environment - systems, processes, leadership, accumulated embedded learning that are absent in and can't be transported to the new firm. Moreover, precisely because of their past stellar performance, stars were unwilling to learn new tricks and antagonized those (on whom they now unwittingly depended) who could teach them. So they moved, upping their salary as they did - 36 per cent moved on within three years, fast even for Wall Street. Second, group performance suffered as a result of tensions and resentment by rivals within the team. One respondent likened hiring a star to an organ transplant. The new organ can damage others by hogging the blood supply, other organs can start aching or threaten to stop working or the body can reject the transplants altogether, he said. 'You should think about it very carefully before you do a transplant to a healthy body.' Third, investors punished the offender by selling its stock. This is ironic since the motive for importing stars was often a suffering share price in the first place. Shareholders evidently believe that the company is overpaying, the hiree is cashing in on a glorious past rather than preparing for a glowing present, and a spending spree is in the offing.</p>
-      <p><span class="pl">D</span> The result of mass star hirings as well as individual ones seems to confirm such doubts. Look at County NatWest and Barclays de Zoete Wedd, both of which hired teams of stars with loud fanfare to do great things in investment banking in the 1990s. Both failed dismally. Everyone accepts the cliche that people make the organisation - but much more does the organisation make the people. When researchers studied the performance of fund managers in the 1990s, they discovered that just 30 per cent of the variation in fund performance was due to the individual, compared to 70 per cent to the company-specific setting.</p>
-      <p><span class="pl">E</span> That will be no surprise to those familiar with systems thinking. W Edwards Deming used to say that there was no point in beating up on people when 90 per cent of performance variation was down to the system within which they worked. Consistent improvement, he said, is a matter not of raising the level of individual intelligence, but of the learning of the organisation as a whole. The star system is glamorous - for the few. But it rarely benefits the company that thinks it is working it. And the knock-on consequences indirectly affect everyone else too. As one internet response to Gladwell's New Yorker article put it: after Enron, 'the rest of corporate America is stuck with overpaid, arrogant, underachieving, and relatively useless talent.'</p>
-      <p><span class="pl">F</span> Football is another illustration of the star vs systems strategic choice. As with investment banks and stockbrokers, it seems obvious that success should ultimately be down to money. Great players are scarce and expensive. So the club that can afford more of them than anyone else will win. But the performance of Arsenal and Manchester United on one hand and Chelsea and Real Madrid on the other proves that it's not as easy as that. While Chelsea and Real have the funds to be compulsive star collectors - as with Juan Sebastian Veron - they are less successful than Arsenal and United which, like Liverpool before them, have put much more emphasis on developing a setting within which stars-in-the-making can flourish. Significantly, Thierry Henry, Patrick Veira and Robert Pires are much bigger stars than when Arsenal bought them, their value (in all senses) enhanced by the Arsenal system. At Chelsea, by contrast, the only context is the stars themselves - managers with different outlooks come and go every couple of seasons. There is no settled system for the stars to blend into. The Chelsea context has not only not added value, but it has also subtracted it. The side is less than the sum of its exorbitantly expensive parts. Even Real Madrid's galacticos, the most extravagantly gifted on the planet, are being outperformed by less talented but better-integrated Spanish sides. In football, too, stars are trumped by systems.</p>
-      <p><span class="pl">G</span> So if not by hiring stars, how do you compete in the war for talent? You grow your own. This worked for investment analysts, where some companies were not only better at creating stars but also at retaining them. Because they had a much more sophisticated view of the interdependent relationship between star and system, they kept them longer without resorting to the exorbitant salaries that were so destructive to rivals.</p>
+      <p><span class="pl">A</span> Parrots are found across the tropics and in all southern hemisphere continents except Antarctica, but nowhere do they display such a richness of diversity and form as in Australia. One-sixth of the world's 345 parrot species are found there, and Australia has long been renowned for the number and variety of its parrots.</p>
+      <p><span class="pl">B</span> In the 16th century, the German cartographer Mercator made a world map that included a place, somewhere near present-day Australia, that he named Terra Psittacorum - the Land of Parrots - and the first European settlers in Australia often referred to the country as Parrot Land. In 1865, the celebrated British naturalist and wildlife artist John Gould said: 'No group of birds gives Australia so tropical and benign an air as the numerous species of this great family by which it is tenanted.'</p>
+      <p><span class="pl">C</span> Parrots are descendants of an ancient line. Due to their great diversity, and since most species inhabit Africa, Australia and South America, it seems almost certain that parrots originated millions of years ago on the ancient southern continent of Gondwana, before it broke up into the separate southern hemisphere continents we know today. Much of Gondwana comprised vast rainforests intersected by huge slow-flowing rivers and expansive lakes, but by eight million years ago, great changes were underway. The centre of the continent of Australia had begun to dry out, and the rainforests that once covered it gradually contracted to the continental margins, where, to a limited extent, they still exist today.</p>
+      <p><span class="pl">D</span> The creatures that remained in those shrinking rainforests had to adapt to the drier conditions or face extinction. Reacting to these desperate circumstances, the parrot family, typically found in jungles in other parts of the world, has populated some of Australia's harshest environments. The parrots spread from ancestral forests through eucalypt woodlands to colonies in the central deserts of Australia, and as a consequence they diversified into a wide range of species with adaptations that reflect the many changes animals and plants had to make to survive in these areas.</p>
+      <p><span class="pl">E</span> These evolutionary pressures helped mould keratin, the substance from which beaks are made, into a range of tools capable of gathering the new food types favoured by various species of parrot. The size of a parrot's beak and the length of that beak's curved upper section are related to the type of food each species eats. Some have comparatively long beaks that are perfect for extracting seeds from fruit; others have broader and stronger beaks that are designed for cracking hard seeds.</p>
+      <p><span class="pl">F</span> Differently shaped beaks are not the only adaptations that have been made during the developing relationship between parrots and their food plants. Like all of Australia's many honey-eating birds, the rainbow-coloured lorikeets and the flowers on which they feed have long co-evolved, with features such as the shape and colour of the flowers adapted to the bird's particular needs. For physical example, red is the most attractive colour to birds, and thus flowers which depend on birds for pollination are more often red, and lorikeets' tongues have bristles which help them to collect as much pollen as possible.</p>
+      <p><span class="pl">G</span> Today, most of Australia's parrots inhabit woodland and open forest, and their numbers decline towards both deserts and wetter areas. The majority are nomadic to some degree, moving around to take advantage of feeding and breeding places. Two of the dry country parrots, the pink and grey galah and the pink, white and yellow corella, have expanded their ranges in recent years. They are among the species that have adapted well to the changes brought about by European settlement, forest felling having created grasslands where galahs and corellas thrive.</p>
+      <p><span class="pl">H</span> But other parrot species did not fare so well when their environments were altered. The clearing of large areas of rainforest is probably responsible for the disappearance of the double-eyed fig parrot, and numbers of ground parrots declined when a great part of their habitat was destroyed by the draining of coastal swamps. Even some parrot species that benefited from forest clearing at first are now confronted by a shortage of nesting sites due to further man-made changes.</p>
+      <p><span class="pl">I</span> New conditions also sometimes favour an incoming species over one that originally inhabited the area. For example, after farmers cleared large areas of forest on Kangaroo Island off the coast of South Australia, the island was colonised by galahs. They were soon going down holes and destroying black cockatoo eggs in order to take the hole for their own use. Their success precipitated a partial collapse in the black cockatoo population when the latter lost the struggle for scarce nesting hollows.</p>
+      <p><span class="pl">J</span> There may be no final answer to ensuring an equitable balance between parrot species. Nest box programmes help ease the shortage of nesting sites in some places, but there are not enough, they are expensive and they are not an adequate substitute for large, old trees, such as those which they represent and the nectar, pollen and seeds they provide. Competition between parrots for nest sites is a result of the changes we humans have made to the Earth. We are the most widespread and dangerous competitors that parrots have ever had to face, but we also have the knowledge and skill to maintain the wonderfully rich diversity of Australia's parrots. All we need is the will to do so.</p>
     </div>
 
     <div class="pcontent" id="pc3">
-      <h2 class="ptitle">Toddlers Bond With Robot</h2>
+      <h2 class="ptitle">Yawning</h2>
+      <p class="psub">How and why we yawn still presents problems for researchers in an area which has only recently been opened up to study.</p>
       <div class="hl-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9,12l2,2 4,-4"></path></svg>Select text to highlight, tap on it to clear</div>
-      <p><span class="pl">A</span> Will the robot revolution begin in nursery school? Researchers introduced a state-of-the-art social robot into a classroom of 18- to 24-month-olds for five months as a way of studying human-robot interactions. The children not only came to accept the robot, but treated it as they would a human buddy - hugging it and helping it - a new study says. "The results imply that current robot technology is surprisingly close to achieving autonomous bonding and socialization with human toddlers," said Fumihide Tanaka, a researcher at the University of California, San Diego.</p>
-      <p><span class="pl">B</span> The development of robots that interact socially with people has been difficult to achieve, experts say, partly because such interactions are hard to study. "To my knowledge, this is the first long-term study of this sort," said Ronald Arkin, a roboticist at the Georgia Institute of Technology, who was not involved with the study. "It is groundbreaking and helps to forward human-robot interaction studies significantly," he said.</p>
-      <p><span class="pl">C</span> The most successful robots so far have been storytellers, but they have only been able to hold human interest for a limited time. For the new study, researchers introduced a toddler-size humanoid robot into a classroom at a UCSD childhood education center. Initially the researchers wanted to use a 22-inch-tall model, but later they decided to use another robot of the QRIO series, the 23-inch-tall (58-centimeter-tall) machine was originally developed by Sony. Children of toddler age were chosen because they have no preconceived notions of robots, said Tanaka, the lead researcher, who also works for Sony. The researchers sent instructions about every two minutes to the robot to do things like giggle, dance, sit down, or walk in a certain direction. The 45 sessions were videotaped, and interactions between toddlers and the robot were later analyzed.</p>
-      <p><span class="pl">D</span> The results showed that the quality of those interactions improved steadily over 27 sessions. The tots began to increasingly interact with the robot and treat it more like a peer than an object during the first 11 sessions. The level of social activity increased dramatically when researchers added a new behavior to QRIO's repertoire: If a child touched the humanoid on its head, it would make a giggling noise. The interactions deteriorated quickly over the next 15 sessions, when the robot was reprogrammed to behave in a more limited, predictable manner. Finally, the human-robot relations improved in the last three sessions, after the robot had been reprogrammed to display its full range of behaviors. "Initially the children treated the robot very differently than the way they treated each other," Tanaka said. "But by the end they treated the robot as a peer rather than a toy."</p>
-      <p><span class="pl">E</span> Early in the study some children cried when QRIO fell. But a month into the study, the toddlers helped QRIO stand up by pushing its back or pulling its hands. 'The most important aspect of interaction was touch', Tanaka said. 'At first the toddlers would touch the robot on its face, but later on they would touch only on its hands and arms, like they would with other humans'. Another robotlike toy named Robby, which resembled QRIO but did not move, was used as a control toy in the study. While hugging of QRIO increased, hugging of Robby decreased throughout the study. Furthermore, when QRIO laid down on the floor as its batteries ran down, a toddler would put a blanket over his silver-colored "friend" and say "night-night."</p>
-      <p><span class="pl">F</span> "Our work suggests that touch integrated on the time-scale of a few minutes is a surprisingly effective index of social connectedness," Tanaka says. "Something akin to this index may be used by the human brain to evaluate its own sense of social well-being." He adds that social robots like QRIO could greatly enrich classrooms and assist teachers in early learning programs. Hiroshi Ishiguro - robotics expert at Osaka University in Japan - says, "I think this study has clearly reported the possibilities of small, almost autonomous humanoid robots for toddlers. Nowadays robots can perform a variety of functions that were thought to be incident to people only - in short time we'll have electronic baby-sitters and peer-robots in every kindergarten," said Ishiguro, who was not involved with the study but has collaborated with its authors on other projects.</p>
-      <p><span class="pl">G</span> Now this study has taken a new direction - the researchers are now developing autonomous robots for the toddler classroom. "I cannot avoid underlining how great potential it could have in educational settings assisting teachers and enriching the classroom environment," Tanaka said. However, some scientists don't share his opinion.</p>
-      <p><span class="pl">H</span> Arkin, the Georgia Tech roboticist, said he was not surprised by the affection showed by the toddlers toward the robot. "Humans have a tremendous propensity to bond with artifacts with any or all sort, whether it be a car, a doll, or a robot," he said. But he also cautioned that researchers don't yet understand the consequences of increased human-robot interaction. "Just studying how robots and humans work together can give us insight into whether this is a good thing or a bad thing for society," Akrin said. "What are the consequences of introducing a robot artifact into a cadre of children? How will that enhance, or potentially interfere with, their social development? It might make life easier for the teacher, but we really don't understand the long-term impact of having a robot as a childhood friend, do we?"</p>
+      <p>When Robert R Provine began studying yawning in the 1960s, it was difficult for him to convince research students of the merits of 'yawning science'. Although it may appear quirky to some, Provine's decision to study yawning was a logical extension of his research in developmental neuroscience.</p>
+      <p>The verb 'to yawn' is derived from the Old English <em>ganien</em> or <em>ginian</em>, meaning to gape or open wide. But in addition to gaping jaws, yawning has significant features that are easy to observe and analyse. Provine 'collected' yawns to study by using a variation of the contagion response. He asked people to 'think about yawning' and, once they began to yawn, to depress a button that would record from the start of the yawn to the exhalation at its end.</p>
+      <p>Provine's early discoveries can be summarized as follows: the yawn is highly stereotyped but not invariant in its duration and form. It is an excellent example of the instinctive 'fixed action pattern' of classical animal-behavior study, or ethology. It is not a reflex (short-duration, rapid, proportional response to a simple stimulus), but, once started, a yawn progresses with the inevitability of a sneeze. The standard yawn runs its course over about six seconds on average, but its duration can range from about three seconds to much longer than the average. There are no half-yawns: this is an example of the typical intensity of fixed action patterns and a reason why you cannot stifle yawns. Just like a cough, yawns can come in bouts with a highly variable inter-yawn interval, which is generally about 68 seconds but rarely more than 70. There is no relation between yawn frequency and duration: producers of short or long yawns do not compensate by yawning more or less often. Furthermore, Provine's hypotheses about the form and function of yawning can be tested by three informative yawn variants which can be used to look at the roles of the nose, the mouth and the jaws.</p>
+      <p><strong>i) The closed nose yawn</strong><br>Subjects are asked to pinch their nose closed when they feel themselves start to yawn. Most subjects report being able to perform perfectly normal closed nose yawns. This indicates that the inhalation at the onset of a yawn, and the exhalation at its end, need not involve the nostrils - the mouth provides a sufficient airway.</p>
+      <p><strong>ii) The clenched teeth yawn</strong><br>Subjects are asked to clench their teeth when they feel themselves start to yawn but allow themselves to inhale normally through their open lips and clenched teeth. This variant gives one the sensation of being stuck mid-yawn. This shows that gaping of the jaws is an essential component of the fixed action pattern of the yawn, and unless it is accomplished, the program (or pattern) will not run to completion. The yawn is also shown to be more than a deep breath, because, unlike normal breathing, inhalation and exhalation cannot be performed so well through the clenched teeth as through the nose.</p>
+      <p><strong>iii) The nose yawn</strong><br>This variant tests the adequacy of the nasal airway to sustain a yawn. Unlike normal breathing, which can be performed equally well through mouth or nose, yawning is impossible via nasal inhalation alone. As with the clenched teeth yawn, the nose yawn provides the unfulfilling sensation of being stuck in mid-yawn. Exhalation, on the other hand, can be accomplished equally well through nose or mouth. Through this methodology Provine demonstrated that the oral airway and the gaping of jaws are necessary for normal yawns, and that yawning will not run to completion without feedback that these parts of the program have been accomplished.</p>
+      <p>But yawning is a powerful, generalized movement that involves much more than airway manoeuvres and jaw-gaping. When yawning you also stretch your facial muscles, tilt your head back, narrow or close your eyes, produce tears, salivate, open the Eustachian tubes of your middle ear and perform many other, yet unspecified, cardiovascular and respiratory acts. Perhaps the yawn shares components with other behaviour. For example, is the yawn a kind of 'slow sneeze' or is the sneeze a 'fast yawn'? Both share common respiratory and other features including jaw gaping, eye closing and head tilting.</p>
+      <p>Yawning and stretching share properties and may be performed together as parts of a global motor complex. Studies by J I P deVries et al. in the early 1980s, charting movement in the developing foetus using ultrasound, observed a link between yawning and stretching. The most interesting demonstration of the yawn-stretch linkage occurs in many people paralyzed on one side of their body because of brain damage caused by a stroke. The prominent British neurologist Sir Francis Walshe noted in 1923 that when these people yawn, they are startled and mystified to observe that their otherwise paralyzed arm rises and flexes automatically in what neurologists term an 'associated response'. Yawning apparently activates undamaged, unconsciously controlled connections between the brain and the motor system, causing the paralyzed limb to move. It is not known whether the associated response is a positive prognosis for recovery, nor whether yawning is therapeutic for prevention of muscular deterioration.</p>
+      <p>Provine speculated that, in general, yawning may have many functions, and selecting a single function from the available options may be an unrealistic goal. Yawning appears to be associated with a change of behavioural state, switching from one activity to another. Yawning is also a reminder that ancient and unconscious behaviour linking us to the animal world lurks beneath the veneer of culture, rationality and language.</p>
     </div>
   </div>
 
@@ -345,161 +362,183 @@ mark.uhl:hover{background:#FDE047}
   <div id="right-pane">
     <div class="qsec on" id="qs1">
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 1–7</em></p>
+        <p class="qnum-head"><em>Questions 1&ndash;6</em></p>
         <p class="qinst">Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong></p>
-        <div class="qitem"><p class="qprompt"><strong>1.</strong>&nbsp; Damage caused by fire is worse than that caused by flood.</p>
+        <div class="qitem"><p class="qprompt"><strong>1.</strong>&nbsp; The name Katherine Mansfield, that appears on the writer's books, was exactly the same as her original name.</p>
           <div class="rgroup" id="rg1">
             <label class="rlabel"><input type="radio" name="q1" value="TRUE" onchange="upd()"> TRUE</label>
             <label class="rlabel"><input type="radio" name="q1" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q1" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>2.</strong>&nbsp; The flood peaks at almost 1500 cubic metres every eight years.</p>
+            <label class="rlabel"><input type="radio" name="q1" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>2.</strong>&nbsp; Mansfield won a prize for a story she wrote for the <em>High School Reporter</em>.</p>
           <div class="rgroup" id="rg2">
             <label class="rlabel"><input type="radio" name="q2" value="TRUE" onchange="upd()"> TRUE</label>
             <label class="rlabel"><input type="radio" name="q2" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q2" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>3.</strong>&nbsp; Contribution of sediments delivered by tributaries has little impact.</p>
+            <label class="rlabel"><input type="radio" name="q2" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>3.</strong>&nbsp; <em>How Pearl Button was Kidnapped</em> portrayed Maori people in a favourable way.</p>
           <div class="rgroup" id="rg3">
             <label class="rlabel"><input type="radio" name="q3" value="TRUE" onchange="upd()"> TRUE</label>
             <label class="rlabel"><input type="radio" name="q3" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q3" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>4.</strong>&nbsp; The decreasing number of chubs is always caused by the introduction of trout since the mid 20th century.</p>
+            <label class="rlabel"><input type="radio" name="q3" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>4.</strong>&nbsp; When Mansfield was at Queen's college, she planned to be a professional writer.</p>
           <div class="rgroup" id="rg4">
             <label class="rlabel"><input type="radio" name="q4" value="TRUE" onchange="upd()"> TRUE</label>
             <label class="rlabel"><input type="radio" name="q4" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q4" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>5.</strong>&nbsp; It seemed that the artificial flood in 1996 had achieved success partly at the very beginning.</p>
+            <label class="rlabel"><input type="radio" name="q4" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>5.</strong>&nbsp; Mansfield was unpopular with the other students at Queen's college.</p>
           <div class="rgroup" id="rg5">
             <label class="rlabel"><input type="radio" name="q5" value="TRUE" onchange="upd()"> TRUE</label>
             <label class="rlabel"><input type="radio" name="q5" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q5" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>6.</strong>&nbsp; In fact, the yield of artificial flood water is smaller than an average natural flood at present.</p>
+            <label class="rlabel"><input type="radio" name="q5" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>6.</strong>&nbsp; In London, Mansfield showed little interest in politics.</p>
           <div class="rgroup" id="rg6">
             <label class="rlabel"><input type="radio" name="q6" value="TRUE" onchange="upd()"> TRUE</label>
             <label class="rlabel"><input type="radio" name="q6" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q6" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>7.</strong>&nbsp; Mighty floods drove fast moving flows with clean and high quality water.</p>
-          <div class="rgroup" id="rg7">
-            <label class="rlabel"><input type="radio" name="q7" value="TRUE" onchange="upd()"> TRUE</label>
-            <label class="rlabel"><input type="radio" name="q7" value="FALSE" onchange="upd()"> FALSE</label>
-            <label class="rlabel"><input type="radio" name="q7" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
+            <label class="rlabel"><input type="radio" name="q6" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 8–13</em></p>
-        <p class="qinst">Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>
-        <div class="qtitle">The eco-impact of the Canyon Dam</div>
-        <div class="sbox">
-          <p>Floods are people's nightmare. In the past, the canyon was raged by flood every year. The snow from far Wyoming would melt in the season of <strong>8</strong>&nbsp;<input type="text" class="ai sm" id="q8" oninput="upd()"> and caused a flood flow peak in the Colorado river. In the four decades after people built the Glen Canyon dam, it only could gather <strong>9</strong>&nbsp;<input type="text" class="ai sm" id="q9" oninput="upd()"> together from tiny, undammed tributaries.</p>
-          <p>Humpback chub population reduced, why? Then, several species disappeared including Colorado pike-minnow, <strong>10</strong>&nbsp;<input type="text" class="ai sm" id="q10" oninput="upd()"> and the round-tail chub. Meanwhile, some moved in such as fathead minnows, channel catfish and <strong>11</strong>&nbsp;<input type="text" class="ai sm" id="q11" oninput="upd()">. The non-stopped flow led to the washing away of the sediment out of the canyon, which poses great threat to the chubs because it has poor <strong>12</strong>&nbsp;<input type="text" class="ai sm" id="q12" oninput="upd()"> away from predators. In addition, the volume of <strong>13</strong>&nbsp;<input type="text" class="ai sm" id="q13" oninput="upd()"> available behind the dam was too low to rebuild the bars and flooding became more serious.</p>
+        <p class="qnum-head"><em>Questions 7&ndash;13</em></p>
+        <p class="qinst">Complete the notes below.<br>Choose <strong>ONE WORD AND/OR A NUMBER</strong> from the passage for each answer.</p>
+        <div class="qtitle">Katherine Mansfield's adult years</div>
+        <div class="notesbox">
+          <span class="nbsec"><strong>7</strong>&nbsp; <input type="text" class="ai sm" id="q7" oninput="upd()"></span>
+          <ul class="nbul">
+            <li>moved from England back to New Zealand</li>
+            <li>first paid writing work was in a publication based in <strong>8</strong>&nbsp; <input type="text" class="ai sm" id="q8" oninput="upd()"></li>
+            <li>her <strong>9</strong>&nbsp; <input type="text" class="ai sm" id="q9" oninput="upd()"> and the New Zealand way of life made her feel dissatisfied</li>
+          </ul>
+          <span class="nbsec">1908</span>
+          <ul class="nbul"><li>returned to London</li></ul>
+          <span class="nbsec">1911 &ndash; 1919</span>
+          <ul class="nbul">
+            <li>Met John Middleton Murry in 1911</li>
+            <li><strong>10</strong>&nbsp; <input type="text" class="ai sm" id="q10" oninput="upd()"> prevented Mansfield and Murry from staying together in Paris</li>
+            <li>spent time with distinguished <strong>11</strong>&nbsp; <input type="text" class="ai sm" id="q11" oninput="upd()"></li>
+            <li>from 1916, tuberculosis restricted the time she spent in London</li>
+          </ul>
+          <span class="nbsec">1920</span>
+          <ul class="nbul">
+            <li>her <strong>12</strong>&nbsp; <input type="text" class="ai sm" id="q12" oninput="upd()"> was consolidated when <em>Bliss and Other Stories</em> was published</li>
+            <li>wrote several stories at &lsquo;Villa Isola Bella&rsquo;</li>
+          </ul>
+          <span class="nbsec">1923 &ndash; 1924</span>
+          <ul class="nbul"><li>Mansfield's <strong>13</strong>&nbsp; <input type="text" class="ai sm" id="q13" oninput="upd()"> published more of her works after her death</li></ul>
         </div>
       </div>
     </div><!-- /qs1 -->
     <div class="qsec" id="qs2">
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 14–17</em></p>
-        <p class="qinst">Reading Passage 2 has seven paragraphs, <strong>A–G</strong>.<br>Which paragraph contains the following information? <em>NB You may use any letter more than once.</em></p>
-        <div style="overflow-x:auto"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th></tr></thead><tbody>
-        <tr><td class="mx-stmt"><span class="mx-num">14</span> One example from non-commerce/business settings that better systems win bigger stars</td><td><label class="mx-cell"><input type="radio" name="q14" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="G" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">15</span> One failed company that believes in stars rather than the system</td><td><label class="mx-cell"><input type="radio" name="q15" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="G" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">16</span> One suggestion that the author made about how to acquire employees nowadays</td><td><label class="mx-cell"><input type="radio" name="q16" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="G" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">17</span> One metaphor to human medical anatomy that illustrates the problems of hiring stars</td><td><label class="mx-cell"><input type="radio" name="q17" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="G" onchange="upd()"></label></td></tr>
-        </tbody></table></div>
+        <p class="qnum-head"><em>Questions 14&ndash;19</em></p>
+        <p class="qinst">Reading Passage 2 has ten paragraphs, <strong>A&ndash;J</strong>.<br>Which paragraph contains the following information?<br><em>NB You may use any letter more than once.</em></p>
+        <div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>I</th><th>J</th></tr></thead><tbody><tr><td class="mx-stmt"><span class="mx-num">14</span> An example of how one parrot species may survive at the expense of another</td><td><label class="mx-cell"><input type="radio" name="q14" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="H" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="I" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q14" value="J" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">15</span> A description of how plants may adapt to attract birds</td><td><label class="mx-cell"><input type="radio" name="q15" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="H" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="I" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q15" value="J" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">16</span> Example of two parrot species which benefited from changes to the environment</td><td><label class="mx-cell"><input type="radio" name="q16" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="H" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="I" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q16" value="J" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">17</span> How the varied Australian landscape resulted in a great variety of parrot species</td><td><label class="mx-cell"><input type="radio" name="q17" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="H" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="I" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q17" value="J" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">18</span> A reason why most parrot species are native to the southern hemisphere</td><td><label class="mx-cell"><input type="radio" name="q18" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="H" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="I" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q18" value="J" onchange="upd()"></label></td></tr><tr><td class="mx-stmt"><span class="mx-num">19</span> An example of a parrot species which did not survive changes to its habitat</td><td><label class="mx-cell"><input type="radio" name="q19" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="H" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="I" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q19" value="J" onchange="upd()"></label></td></tr></tbody></table></div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 18–21</em></p>
-        <p class="qinst">Do the following statements agree with the information given in Reading Passage 2?<br>Write <strong>YES</strong> / <strong>NO</strong> / <strong>NOT GIVEN</strong></p>
-        <div class="qitem"><p class="qprompt"><strong>18.</strong>&nbsp; McKinsey, who wrote The War for Talent, had not expected the huge influence made by this book.</p>
-          <div class="rgroup" id="rg18">
-            <label class="rlabel"><input type="radio" name="q18" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q18" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q18" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>19.</strong>&nbsp; Economic condition becomes one of the factors which decide whether or not a country would prefer to hire foreign employees.</p>
-          <div class="rgroup" id="rg19">
-            <label class="rlabel"><input type="radio" name="q19" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q19" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q19" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>20.</strong>&nbsp; The collapse of Enron is caused totally by an unfortunate incident instead of the company's management mistake.</p>
+        <p class="qnum-head"><em>Questions 20&ndash;22</em></p>
+        <p class="qinst">Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>
+        <div class="qitem"><p class="qprompt"><strong>20.</strong>&nbsp; The writer believes that most parrot species</p>
           <div class="rgroup" id="rg20">
-            <label class="rlabel"><input type="radio" name="q20" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q20" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q20" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>21.</strong>&nbsp; Football clubs that focus on making stars in the setting are better than those simply collecting stars.</p>
+            <label class="rlabel"><input type="radio" name="q20" value="A" onchange="upd()"> <strong>A</strong>&nbsp; moved from Africa and South America to Australia.</label>
+            <label class="rlabel"><input type="radio" name="q20" value="B" onchange="upd()"> <strong>B</strong>&nbsp; had ancestors in either Africa, Australia or South America.</label>
+            <label class="rlabel"><input type="radio" name="q20" value="C" onchange="upd()"> <strong>C</strong>&nbsp; had ancestors in a continent which later split up.</label>
+            <label class="rlabel"><input type="radio" name="q20" value="D" onchange="upd()"> <strong>D</strong>&nbsp; came from a continent now covered by water.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>21.</strong>&nbsp; What does the writer say about parrots' beaks?</p>
           <div class="rgroup" id="rg21">
-            <label class="rlabel"><input type="radio" name="q21" value="YES" onchange="upd()"> YES</label>
-            <label class="rlabel"><input type="radio" name="q21" value="NO" onchange="upd()"> NO</label>
-            <label class="rlabel"><input type="radio" name="q21" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label>
-          </div></div>
+            <label class="rlabel"><input type="radio" name="q21" value="A" onchange="upd()"> <strong>A</strong>&nbsp; They are longer than those of other birds.</label>
+            <label class="rlabel"><input type="radio" name="q21" value="B" onchange="upd()"> <strong>B</strong>&nbsp; They are made of a unique material.</label>
+            <label class="rlabel"><input type="radio" name="q21" value="C" onchange="upd()"> <strong>C</strong>&nbsp; They are used more efficiently than those of other birds.</label>
+            <label class="rlabel"><input type="radio" name="q21" value="D" onchange="upd()"> <strong>D</strong>&nbsp; They are specially adapted to suit the diet.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>22.</strong>&nbsp; Which of the following is <strong>NOT</strong> mentioned by the writer as a disadvantage of nesting boxes?</p>
+          <div class="rgroup" id="rg22">
+            <label class="rlabel"><input type="radio" name="q22" value="A" onchange="upd()"> <strong>A</strong>&nbsp; They cost too much.</label>
+            <label class="rlabel"><input type="radio" name="q22" value="B" onchange="upd()"> <strong>B</strong>&nbsp; They need to be maintained.</label>
+            <label class="rlabel"><input type="radio" name="q22" value="C" onchange="upd()"> <strong>C</strong>&nbsp; They provide only shelter, not food.</label>
+            <label class="rlabel"><input type="radio" name="q22" value="D" onchange="upd()"> <strong>D</strong>&nbsp; There are too few of them.</label></div></div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 22–26</em></p>
-        <p class="qinst">Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>
+        <p class="qnum-head"><em>Questions 23&ndash;26</em></p>
+        <p class="qinst">Complete the summary below.<br>Choose <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.</p>
+        <div class="qtitle">Parrots in Australia</div>
         <div class="sbox">
-          <p>An investigation carried out on 1000 <strong>22</strong>&nbsp;<input type="text" class="ai sm" id="q22" oninput="upd()"> participants of a survey by Harvard Business Review found that when a company hires a <strong>23</strong>&nbsp;<input type="text" class="ai sm" id="q23" oninput="upd()"> it has negative effects. For instance, they behave considerably worse in a new team than in the <strong>24</strong>&nbsp;<input type="text" class="ai sm" id="q24" oninput="upd()"> that they used to be in. They move faster than Wall Street and increase their <strong>25</strong>&nbsp;<input type="text" class="ai sm" id="q25" oninput="upd()">. Secondly, they faced rejection or refusal from those <strong>26</strong>&nbsp;<input type="text" class="ai sm" id="q26" oninput="upd()"> within the team. Lastly, the one who made mistakes had been punished by selling his/her stock share.</p>
+          <p>There are 345 varieties of parrot in existence and, of these, <strong>23</strong>&nbsp; <input type="text" class="ai sm" id="q23" oninput="upd()"> live in Australia. As early as the <strong>24</strong>&nbsp; <input type="text" class="ai sm" id="q24" oninput="upd()">, the mapmaker <strong>25</strong>&nbsp; <input type="text" class="ai sm" id="q25" oninput="upd()"> recognized that parrots lived in that part of the world. <strong>26</strong>&nbsp; <input type="text" class="ai sm" id="q26" oninput="upd()">, the famous painter of animals and birds, commented on the size and beauty of the Australian parrot family.</p>
         </div>
       </div>
     </div><!-- /qs2 -->
     <div class="qsec" id="qs3">
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 27–33</em></p>
-        <p class="qinst">Reading Passage 3 has eight paragraphs, <strong>A–H</strong>.<br>Which paragraph contains the following information? <em>NB You may use any letter more than once.</em></p>
-        <div style="overflow-x:auto"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th></tr></thead><tbody>
-        <tr><td class="mx-stmt"><span class="mx-num">27</span> Changes in toddler-robot interaction quality</td><td><label class="mx-cell"><input type="radio" name="q27" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q27" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q27" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q27" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q27" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q27" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q27" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q27" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">28</span> Comparison of two different robots</td><td><label class="mx-cell"><input type="radio" name="q28" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q28" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q28" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q28" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q28" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q28" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q28" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q28" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">29</span> The fact that previous robots could maintain people's interest only for a short time</td><td><label class="mx-cell"><input type="radio" name="q29" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q29" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q29" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q29" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q29" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q29" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q29" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q29" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">30</span> The importance of touch</td><td><label class="mx-cell"><input type="radio" name="q30" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q30" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q30" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q30" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q30" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q30" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q30" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q30" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">31</span> The new direction of the study</td><td><label class="mx-cell"><input type="radio" name="q31" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q31" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q31" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q31" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q31" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q31" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q31" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q31" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">32</span> Technical parameters of the introduced robot</td><td><label class="mx-cell"><input type="radio" name="q32" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q32" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q32" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q32" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q32" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q32" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q32" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q32" value="H" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">33</span> The significance and novelty of the conducted study</td><td><label class="mx-cell"><input type="radio" name="q33" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q33" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q33" value="C" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q33" value="D" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q33" value="E" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q33" value="F" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q33" value="G" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q33" value="H" onchange="upd()"></label></td></tr>
-        </tbody></table></div>
-      </div>
-      <div class="qblock">
-        <p class="qnum-head"><em>Questions 34–37</em></p>
-        <p class="qinst">Match each statement below with the correct scientist, <strong>A–C</strong>. <em>NB You may use any letter more than once.</em></p>
-        <div class="fbox"><strong>List of Scientists</strong>
-          <div class="frow"><span class="fkey">A</span> Fumihide Tanaka</div>
-          <div class="frow"><span class="fkey">B</span> Ronald Arkin</div>
-          <div class="frow"><span class="fkey">C</span> Hiroshi Ishiguro</div>
+        <p class="qnum-head"><em>Questions 27&ndash;32</em></p>
+        <p class="qinst">Complete the summary below using the list of words, <strong>A&ndash;K</strong>, below.</p>
+<p class="dnd-tip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9l-3 3 3 3"/><path d="M9 5l3-3 3 3"/><path d="M15 19l-3 3-3-3"/><path d="M19 9l3 3-3 3"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/></svg>Drag a word into each gap (or tap a word, then tap a gap). Tap &times; to clear.</p>
+        <div class="qtitle">Provine's early findings on yawns</div>
+        <div class="sbox">
+          <p>Through his observation of yawns, Provine was able to confirm that <strong>27</strong>&nbsp; <span class="dzone" id="q27" data-q="27"></span> do not exist. Just like a <strong>28</strong>&nbsp; <span class="dzone" id="q28" data-q="28"></span>, yawns cannot be interrupted after they have begun. This is because yawns occur as a <strong>29</strong>&nbsp; <span class="dzone" id="q29" data-q="29"></span> rather than a stimulus response, as was previously thought.</p>
+          <p>In measuring the time taken to yawn, Provine found that a typical yawn lasts about <strong>30</strong>&nbsp; <span class="dzone" id="q30" data-q="30"></span>. He also found that it is common for people to yawn a number of times in quick succession, with the yawns usually being around <strong>31</strong>&nbsp; <span class="dzone" id="q31" data-q="31"></span> apart. When studying whether length and rate were connected, Provine concluded that people who yawn less do not necessarily produce <strong>32</strong>&nbsp; <span class="dzone" id="q32" data-q="32"></span>.</p>
         </div>
-        <div style="overflow-x:auto"><table class="matrix"><thead><tr><th class="mx-corner"></th><th>A</th><th>B</th><th>C</th></tr></thead><tbody>
-        <tr><td class="mx-stmt"><span class="mx-num">34</span> Robots will perform the duties of baby-sitters in the nearest future.</td><td><label class="mx-cell"><input type="radio" name="q34" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q34" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q34" value="C" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">35</span> By the end of the study children treated the robot as a living creature rather than a toy.</td><td><label class="mx-cell"><input type="radio" name="q35" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q35" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q35" value="C" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">36</span> The conducted study is the first major study of this sort.</td><td><label class="mx-cell"><input type="radio" name="q36" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q36" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q36" value="C" onchange="upd()"></label></td></tr>
-        <tr><td class="mx-stmt"><span class="mx-num">37</span> Robots can be used in classrooms and assist teachers.</td><td><label class="mx-cell"><input type="radio" name="q37" value="A" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q37" value="B" onchange="upd()"></label></td><td><label class="mx-cell"><input type="radio" name="q37" value="C" onchange="upd()"></label></td></tr>
-        </tbody></table></div>
+        <div class="se-bank-label">List of words</div>
+        <div class="wbank" id="wbank27" data-show="word">
+          <div class="dchip" draggable="true" data-letter="A" data-word="form and function"><span class="wk">A</span> form and function</div>
+          <div class="dchip" draggable="true" data-letter="B" data-word="long yawns"><span class="wk">B</span> long yawns</div>
+          <div class="dchip" draggable="true" data-letter="C" data-word="3 seconds"><span class="wk">C</span> 3 seconds</div>
+          <div class="dchip" draggable="true" data-letter="D" data-word="fixed action pattern"><span class="wk">D</span> fixed action pattern</div>
+          <div class="dchip" draggable="true" data-letter="E" data-word="68 seconds"><span class="wk">E</span> 68 seconds</div>
+          <div class="dchip" draggable="true" data-letter="F" data-word="short yawns"><span class="wk">F</span> short yawns</div>
+          <div class="dchip" draggable="true" data-letter="G" data-word="reflex"><span class="wk">G</span> reflex</div>
+          <div class="dchip" draggable="true" data-letter="H" data-word="sneeze"><span class="wk">H</span> sneeze</div>
+          <div class="dchip" draggable="true" data-letter="I" data-word="short duration"><span class="wk">I</span> short duration</div>
+          <div class="dchip" draggable="true" data-letter="J" data-word="6 seconds"><span class="wk">J</span> 6 seconds</div>
+          <div class="dchip" draggable="true" data-letter="K" data-word="half-yawns"><span class="wk">K</span> half-yawns</div>
+        </div>
       </div>
       <div class="qblock">
-        <p class="qnum-head"><em>Questions 38–40</em></p>
+        <p class="qnum-head"><em>Questions 33&ndash;37</em></p>
         <p class="qinst">Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>
-        <div class="qitem"><p class="qprompt"><strong>38.</strong>&nbsp; In the study, researchers introduced a toddler-size humanoid robot that was</p>
+        <div class="qitem"><p class="qprompt"><strong>33.</strong>&nbsp; What did Provine conclude from his 'closed nose yawn' experiment?</p>
+          <div class="rgroup" id="rg33">
+            <label class="rlabel"><input type="radio" name="q33" value="A" onchange="upd()"> <strong>A</strong>&nbsp; Ending a yawn requires use of the nostrils.</label>
+            <label class="rlabel"><input type="radio" name="q33" value="B" onchange="upd()"> <strong>B</strong>&nbsp; You can yawn without breathing through your nose.</label>
+            <label class="rlabel"><input type="radio" name="q33" value="C" onchange="upd()"> <strong>C</strong>&nbsp; Breathing through the nose produces a silent yawn.</label>
+            <label class="rlabel"><input type="radio" name="q33" value="D" onchange="upd()"> <strong>D</strong>&nbsp; The role of the nose in yawning needs further investigation.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>34.</strong>&nbsp; Provine's clenched teeth yawn experiment shows that</p>
+          <div class="rgroup" id="rg34">
+            <label class="rlabel"><input type="radio" name="q34" value="A" onchange="upd()"> <strong>A</strong>&nbsp; yawning is unconnected with fatigue.</label>
+            <label class="rlabel"><input type="radio" name="q34" value="B" onchange="upd()"> <strong>B</strong>&nbsp; a yawn is the equivalent of a deep intake of breath.</label>
+            <label class="rlabel"><input type="radio" name="q34" value="C" onchange="upd()"> <strong>C</strong>&nbsp; you have to be able to open your mouth wide to yawn.</label>
+            <label class="rlabel"><input type="radio" name="q34" value="D" onchange="upd()"> <strong>D</strong>&nbsp; breathing with the teeth together is as efficient as through the nose.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>35.</strong>&nbsp; The nose yawn experiment was used to test whether yawning</p>
+          <div class="rgroup" id="rg35">
+            <label class="rlabel"><input type="radio" name="q35" value="A" onchange="upd()"> <strong>A</strong>&nbsp; can be stopped after it has started.</label>
+            <label class="rlabel"><input type="radio" name="q35" value="B" onchange="upd()"> <strong>B</strong>&nbsp; is the result of motor programming.</label>
+            <label class="rlabel"><input type="radio" name="q35" value="C" onchange="upd()"> <strong>C</strong>&nbsp; involves both inhalation and exhalation.</label>
+            <label class="rlabel"><input type="radio" name="q35" value="D" onchange="upd()"> <strong>D</strong>&nbsp; can be accomplished only through the nose.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>36.</strong>&nbsp; In people paralyzed on one side because of brain damage,</p>
+          <div class="rgroup" id="rg36">
+            <label class="rlabel"><input type="radio" name="q36" value="A" onchange="upd()"> <strong>A</strong>&nbsp; yawning may involve only one side of the face.</label>
+            <label class="rlabel"><input type="radio" name="q36" value="B" onchange="upd()"> <strong>B</strong>&nbsp; the yawning response indicates that recovery is likely.</label>
+            <label class="rlabel"><input type="radio" name="q36" value="C" onchange="upd()"> <strong>C</strong>&nbsp; movement in the paralysed arm is stimulated by yawning.</label>
+            <label class="rlabel"><input type="radio" name="q36" value="D" onchange="upd()"> <strong>D</strong>&nbsp; yawning can be used as an example to prevent muscle wasting.</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>37.</strong>&nbsp; In the last paragraph, the writer concludes that</p>
+          <div class="rgroup" id="rg37">
+            <label class="rlabel"><input type="radio" name="q37" value="A" onchange="upd()"> <strong>A</strong>&nbsp; yawning is a sign of boredom.</label>
+            <label class="rlabel"><input type="radio" name="q37" value="B" onchange="upd()"> <strong>B</strong>&nbsp; we yawn in spite of the development of our species.</label>
+            <label class="rlabel"><input type="radio" name="q37" value="C" onchange="upd()"> <strong>C</strong>&nbsp; yawning is a more passive activity than we imagine.</label>
+            <label class="rlabel"><input type="radio" name="q37" value="D" onchange="upd()"> <strong>D</strong>&nbsp; we are stimulated to yawn when our brain activity is low.</label></div></div>
+      </div>
+      <div class="qblock">
+        <p class="qnum-head"><em>Questions 38&ndash;40</em></p>
+        <p class="qinst">Do the following statements agree with the claims of the writer in Reading Passage 3?<br>Write <strong>YES</strong> / <strong>NO</strong> / <strong>NOT GIVEN</strong></p>
+        <div class="qitem"><p class="qprompt"><strong>38.</strong>&nbsp; Research students were initially reluctant to appreciate the value of Provine's studies.</p>
           <div class="rgroup" id="rg38">
-            <label class="rlabel"><input type="radio" name="q38" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; 58-inch-tall</label>
-            <label class="rlabel"><input type="radio" name="q38" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; 22-inch-tall</label>
-            <label class="rlabel"><input type="radio" name="q38" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; 23-inch-tall</label>
-            <label class="rlabel"><input type="radio" name="q38" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; 45-inch-tall</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>39.</strong>&nbsp; The researchers sent instructions to the robot to perform different actions EXCEPT</p>
+            <label class="rlabel"><input type="radio" name="q38" value="YES" onchange="upd()"> YES</label>
+            <label class="rlabel"><input type="radio" name="q38" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q38" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>39.</strong>&nbsp; When foetuses yawn and stretch they are learning how to control movement.</p>
           <div class="rgroup" id="rg39">
-            <label class="rlabel"><input type="radio" name="q39" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; laugh</label>
-            <label class="rlabel"><input type="radio" name="q39" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; dance</label>
-            <label class="rlabel"><input type="radio" name="q39" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; sit down</label>
-            <label class="rlabel"><input type="radio" name="q39" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; crawl</label>
-          </div></div>
-        <div class="qitem"><p class="qprompt"><strong>40.</strong>&nbsp; The toddlers began to increasingly interact with the robot during</p>
+            <label class="rlabel"><input type="radio" name="q39" value="YES" onchange="upd()"> YES</label>
+            <label class="rlabel"><input type="radio" name="q39" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q39" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
+        <div class="qitem"><p class="qprompt"><strong>40.</strong>&nbsp; According to Provine, referring to only one function is probably inadequate to explain why people yawn.</p>
           <div class="rgroup" id="rg40">
-            <label class="rlabel"><input type="radio" name="q40" value="A" onchange="upd()"><span class="mc-key">A</span>&nbsp; the first 11 sessions</label>
-            <label class="rlabel"><input type="radio" name="q40" value="B" onchange="upd()"><span class="mc-key">B</span>&nbsp; the next 15 sessions</label>
-            <label class="rlabel"><input type="radio" name="q40" value="C" onchange="upd()"><span class="mc-key">C</span>&nbsp; the first 27 sessions</label>
-            <label class="rlabel"><input type="radio" name="q40" value="D" onchange="upd()"><span class="mc-key">D</span>&nbsp; the last 15 sessions</label>
-          </div></div>
+            <label class="rlabel"><input type="radio" name="q40" value="YES" onchange="upd()"> YES</label>
+            <label class="rlabel"><input type="radio" name="q40" value="NO" onchange="upd()"> NO</label>
+            <label class="rlabel"><input type="radio" name="q40" value="NOT GIVEN" onchange="upd()"> NOT GIVEN</label></div></div>
       </div>
     </div><!-- /qs3 -->
   </div><!-- /right-pane -->
@@ -538,22 +577,24 @@ mark.uhl:hover{background:#FDE047}
 <script>
 // ── ANSWERS ──
 const CA = {
-  1:'NOT GIVEN', 2:'FALSE', 3:'TRUE', 4:'FALSE', 5:'TRUE', 6:'TRUE', 7:'NOT GIVEN',
-  8:['spring'], 9:['sediment'], 10:['razorback sucker'], 11:['common carp'], 12:['visibility'], 13:['sand'],
-  14:'F', 15:'B', 16:'G', 17:'C', 18:'NOT GIVEN', 19:'YES', 20:'NO', 21:'YES',
-  22:['analysts','star-stock analysts'], 23:['performance star','star performer','star'], 24:['working environment'], 25:['salary'], 26:['rivals'],
-  27:'D', 28:'E', 29:'C', 30:'E', 31:'G', 32:'C', 33:'B',
-  34:'C', 35:'A', 36:'B', 37:'A',
-  38:'C', 39:'D', 40:'A'
+  1:'FALSE', 2:'NOT GIVEN', 3:'TRUE', 4:'FALSE', 5:'FALSE', 6:'TRUE',
+  7:['1906'], 8:['Australia'], 9:['family'], 10:['bankruptcy'], 11:['writers'], 12:['reputation'], 13:['husband'],
+  14:'I', 15:'F', 16:'G', 17:'D', 18:'C', 19:'H',
+  20:'C', 21:'D', 22:'B',
+  23:['one-sixth','one sixth','a sixth'], 24:['16th century','sixteenth century','the 16th century'], 25:['Mercator'], 26:['John Gould','Gould'],
+  27:'K', 28:'H', 29:'D', 30:'J', 31:'E', 32:'B',
+  33:'B', 34:'C', 35:'D', 36:'C', 37:'B',
+  38:'YES', 39:'NOT GIVEN', 40:'YES'
 };
 const CAL = {
-  1:'NOT GIVEN', 2:'FALSE', 3:'TRUE', 4:'FALSE', 5:'TRUE', 6:'TRUE', 7:'NOT GIVEN',
-  8:'spring', 9:'sediment', 10:'razorback sucker', 11:'common carp', 12:'visibility', 13:'sand',
-  14:'F', 15:'B', 16:'G', 17:'C', 18:'NOT GIVEN', 19:'YES', 20:'NO', 21:'YES',
-  22:'analysts', 23:'star performer', 24:'working environment', 25:'salary', 26:'rivals',
-  27:'D', 28:'E', 29:'C', 30:'E', 31:'G', 32:'C', 33:'B',
-  34:'C', 35:'A', 36:'B', 37:'A',
-  38:'C', 39:'D', 40:'A'
+  1:'FALSE', 2:'NOT GIVEN', 3:'TRUE', 4:'FALSE', 5:'FALSE', 6:'TRUE',
+  7:'1906', 8:'Australia', 9:'family', 10:'bankruptcy', 11:'writers', 12:'reputation', 13:'husband',
+  14:'I', 15:'F', 16:'G', 17:'D', 18:'C', 19:'H',
+  20:'C', 21:'D', 22:'B',
+  23:'one-sixth', 24:'16th century', 25:'Mercator', 26:'John Gould',
+  27:'K (half-yawns)', 28:'H (sneeze)', 29:'D (fixed action pattern)', 30:'J (6 seconds)', 31:'E (68 seconds)', 32:'B (long yawns)',
+  33:'B', 34:'C', 35:'D', 36:'C', 37:'B',
+  38:'YES', 39:'NOT GIVEN', 40:'YES'
 };
 
 // ── STATE ──
@@ -593,15 +634,15 @@ function showWelcomePopup() {
             <p style="margin:14px 0 6px;font-size:14px;opacity:0.96;">Prepared by <strong style="color:#fbbf24;">I. Bekhruz</strong></p>
             <p style="margin:0 0 18px;font-size:13px;opacity:0.82;">Follow for more authentic tests, tips &amp; daily practice 👇</p>
             <div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:12px 14px;margin-bottom:22px;text-align:left;">
-                <p style="margin:0;font-size:12.5px;line-height:1.5;opacity:0.95;">⚠️ <strong>Choose how you want to practise.</strong> <strong>Exam mode</strong> runs a 60-minute countdown that auto-submits at 0, just like the real IELTS test. <strong>Casual mode</strong> uses a count-up stopwatch, so you can finish whenever you like and still see how long you took.</p>
+                <p style="margin:0;font-size:12.5px;line-height:1.5;opacity:0.95;">🎯 <strong>Exam Mode</strong> runs a 60-minute countdown that auto-submits at zero — just like exam day. 🧘 <strong>Casual Mode</strong> counts your time up with no limit, so you can practise at your own pace.</p>
             </div>
-            <div style="display:flex;flex-direction:column;gap:10px;align-items:stretch;">
+            <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
                 <a href="https://t.me/bekhruzposts" target="_blank" style="display:inline-flex;align-items:center;gap:7px;background:#fff;color:#0f172a;text-decoration:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.3);">
                     <svg style="width:17px;height:17px;fill:#0f172a;" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
                     Join @bekhruzposts
                 </a>
-                <button id="examBtn" style="background:linear-gradient(90deg,#38bdf8,#0ea5e9);color:#052033;border:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;line-height:1.2;box-shadow:0 6px 18px rgba(0,0,0,0.25);">🎯 Exam mode<span style="font-weight:600;font-size:11px;opacity:.8;">60-minute timer &middot; auto-submit at 0</span></button>
-                <button id="casualBtn" style="background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(56,189,248,0.4);font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;line-height:1.2;">🧘 Casual mode<span style="font-weight:600;font-size:11px;opacity:.8;">stopwatch &middot; finish whenever you like</span></button>
+                <button id="examBtn" style="background:linear-gradient(90deg,#38bdf8,#0ea5e9);color:#052033;border:none;font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;">🎯 Exam Mode</button>
+                <button id="casualBtn" style="background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(56,189,248,0.4);font-weight:800;font-size:15px;padding:13px 22px;border-radius:12px;cursor:pointer;">🧘 Casual Mode</button>
             </div>
         </div>`;
     overlay.appendChild(box);
@@ -702,38 +743,27 @@ function upd(){
   document.getElementById('cnt').textContent=tot+' of 40 answered';
 }
 
-// ── TIMER / STOPWATCH ──
-function fmt(s){const m=Math.floor(s/60),sec=s%60;return String(m).padStart(2,'0')+':'+String(sec).padStart(2,'0');}
-function startMode(m){
-  mode=m;
-  const badge=document.getElementById('mode-badge');
-  const d=document.getElementById('timer');
-  if(m==='exam'){
-    timerS=3600; elapsed=0;
-    d.textContent=fmt(timerS); d.title='Time remaining';
-    badge.textContent='⏳ Exam';
-    badge.style.cssText='display:inline-flex;align-items:center;font-size:11px;font-weight:700;padding:4px 10px;border-radius:9999px;background:#fee2e2;color:#b91c1c;border:1px solid #fecaca;';
-  } else {
-    timerS=3600; elapsed=0;
-    d.textContent=fmt(0); d.title='Time elapsed (stopwatch)'; d.classList.remove('warn');
-    badge.textContent='🧘 Casual';
-    badge.style.cssText='display:inline-flex;align-items:center;font-size:11px;font-weight:700;padding:4px 10px;border-radius:9999px;background:#0f172a;color:#fbbf24;border:1px solid #1e293b;';
-  }
-}
+// ── TIMER ──
 function toggleTimer(){
   if(!tRun){tRun=true;tInt=setInterval(tick,1000);}
+}
+function fmt(s){const m=Math.floor(s/60);s=s%60;return String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');}
+function startMode(m){
+  mode=m;
+  const d=document.getElementById('timer'), b=document.getElementById('mode-badge');
+  if(m==='casual'){ elapsed=0; d.textContent='00:00'; d.classList.remove('warn');
+    if(b){b.textContent='\uD83E\uDDD8 Casual'; b.style.cssText='display:inline-flex;align-items:center;gap:4px;margin-left:8px;background:#0f172a;color:#fbbf24;font-size:11px;font-weight:800;padding:3px 11px;border-radius:9999px;';} }
+  else { d.textContent=fmt(timerS);
+    if(b){b.textContent='\uD83C\uDFAF Exam'; b.style.cssText='display:inline-flex;align-items:center;gap:4px;margin-left:8px;background:#DC2626;color:#fff;font-size:11px;font-weight:800;padding:3px 11px;border-radius:9999px;';} }
 }
 function tick(){
   elapsed++;
   const d=document.getElementById('timer');
-  if(mode==='exam'){
-    timerS--; if(timerS<0)timerS=0;
-    d.textContent=fmt(timerS);
-    d.classList.toggle('warn',timerS<=300&&timerS>0);
-    if(timerS<=0){clearInterval(tInt);tRun=false;if(!checked){timeExpired=true;doCheck();}return;}
-  } else {
-    d.textContent=fmt(elapsed);
-  }
+  if(mode==='casual'){ d.textContent=fmt(elapsed); return; }
+  if(timerS<=0){clearInterval(tInt);tRun=false;if(!checked){timeExpired=true;doCheck();}return;}
+  timerS--;
+  d.textContent=fmt(timerS);
+  d.classList.toggle('warn',timerS<=300&&timerS>0);
 }
 // ── FULLSCREEN ──
 function toggleFullscreen(){
@@ -977,10 +1007,8 @@ function showResults(){
       </div>
       <div class="res-hero-info">
         <div class="res-title">${titleTxt}</div>
-        <div style="display:flex;gap:6px;flex-wrap:wrap;">
-          <div class="res-band">Band ${band(lastScore)}<em>estimated</em></div>
-          <div class="res-band">⏱ ${fmt(elapsed)}<em>${mode==='exam'?'time used':'your time'}</em></div>
-        </div>
+        <div class="res-band">Band ${band(lastScore)}<em>estimated</em></div>
+        <div class="res-band">⏱ ${fmt(elapsed)}<em>${mode==='exam'?'time used':'your time'}</em></div>
       </div>
     </div>
     <div class="res-parts">
@@ -1001,47 +1029,48 @@ function closeResults(){document.getElementById('res-ov').classList.remove('show
 
 // ── PASSAGE HIGHLIGHTS ──
 const P1H=[
-  {q:2,t:"every eight years or so, that figure rose to almost 3,000 cubic metres"},
-  {q:3,t:"those tributaries are not powerful enough to distribute the sediment in an ecologically valuable way"},
-  {q:4,t:"but trout and chub co-existed until the glen canyon dam was built, so something else is going on"},
-  {q:5,t:"to start with, all seemed well"},
-  {q:6,t:"this flood is smaller than even an average spring flood"},
-  {q:8,t:"spring snow from as far away as wyoming would melt"},
-  {q:9,t:"the only sediment that it has collected has come from tiny, undammed tributaries"},
-  {q:10,t:"the colorado pike-minnow, the razorback sucker and the round-tail chub"},
-  {q:11,t:"fathead minnows, channel catfish and common carp"},
-  {q:12,t:"the chub were well adapted to the poor visibility"},
-  {q:13,t:"the volume of sand available behind the dam was too low to rebuild the sandbanks"}
+  {q:1,t:"using the pen name of katherine mansfield"},
+  {q:3,t:"portrayed in a sympathetic light in her later stories"},
+  {q:4,t:"during her time at queen's, she would take up professionally"},
+  {q:5,t:"she was appreciated amongst fellow students at queen's"},
+  {q:6,t:"did not actively support the suffragette movement"},
+  {q:7,t:"she returned to her new zealand home in 1906"},
+  {q:8,t:"several works published in australia in a magazine called"},
+  {q:9,t:"grew discontented with the provincial new zealand lifestyle, and with her family"},
+  {q:10,t:"cut short by murry's bankruptcy"},
+  {q:11,t:"close contact with other well-known writers of the time"},
+  {q:12,t:"to solidify mansfield's reputation as a writer"},
+  {q:13,t:"her husband, murry, took on the task of editing and publishing"}
 ];
 const P2H=[
-  {q:14,t:"football is another illustration of the star vs systems strategic choice"},
-  {q:15,t:"enron believed in stars, noted author malcolm gladwell, because they didn't believe in systems"},
-  {q:16,t:"how do you compete in the war for talent? you grow your own"},
-  {q:17,t:"one respondent likened hiring a star to an organ transplant"},
-  {q:19,t:"the reason the government has laid out the welcome mat for immigrants from the new europe"},
-  {q:20,t:"so convinced of their own cleverness that they never twigged that collective intelligence is not the sum"},
-  {q:21,t:"put much more emphasis on developing a setting within which stars-in-the-making can flourish"},
-  {q:22,t:"in a study of the careers of 1,000 star-stock analysts"},
-  {q:23,t:"when a company recruited a star performer"},
-  {q:24,t:"more of success than commonly supposed is due to the working environment"},
-  {q:25,t:"so they moved, upping their salary as they did"},
-  {q:26,t:"tensions and resentment by rivals within the team"}
+  {q:14,t:"destroying black cockatoo eggs in order to take the hole for their own use"},
+  {q:15,t:"flowers which depend on birds for pollination are more often red"},
+  {q:16,t:"the pink and grey galah and the pink, white and yellow corella, have expanded their ranges"},
+  {q:17,t:"diversified into a wide range of species with adaptations"},
+  {q:18,t:"parrots originated millions of years ago on the ancient southern continent of gondwana"},
+  {q:19,t:"responsible for the disappearance of the double-eyed fig parrot"},
+  {q:20,t:"before it broke up into the separate southern hemisphere continents"},
+  {q:21,t:"related to the type of food each species eats"},
+  {q:22,t:"there are not enough, they are expensive"},
+  {q:23,t:"one-sixth of the world's 345 parrot species are found there"},
+  {q:24,t:"in the 16th century"},
+  {q:25,t:"the german cartographer mercator made a world map"},
+  {q:26,t:"the celebrated british naturalist and wildlife artist john gould"}
 ];
 const P3H=[
-  {q:27,t:"the quality of those interactions improved steadily over 27 sessions"},
-  {q:28,t:"another robotlike toy named robby, which resembled qrio but did not move"},
-  {q:29,t:"they have only been able to hold human interest for a limited time"},
-  {q:30,t:"the most important aspect of interaction was touch"},
-  {q:31,t:"now this study has taken a new direction"},
-  {q:32,t:"the 23-inch-tall (58-centimeter-tall) machine was originally developed by sony"},
-  {q:33,t:"this is the first long-term study of this sort"},
-  {q:34,t:"in short time we'll have electronic baby-sitters and peer-robots in every kindergarten"},
-  {q:35,t:"by the end they treated the robot as a peer rather than a toy"},
-  {q:36,t:"it is groundbreaking and helps to forward human-robot interaction studies"},
-  {q:37,t:"social robots like qrio could greatly enrich classrooms and assist teachers"},
-  {q:38,t:"the 23-inch-tall (58-centimeter-tall) machine"},
-  {q:39,t:"do things like giggle, dance, sit down, or walk in a certain direction"},
-  {q:40,t:"treat it more like a peer than an object during the first 11 sessions"}
+  {q:27,t:"there are no half-yawns"},
+  {q:28,t:"a yawn progresses with the inevitability of a sneeze"},
+  {q:29,t:"it is not a reflex"},
+  {q:30,t:"runs its course over about six seconds on average"},
+  {q:31,t:"highly variable inter-yawn interval, which is generally about 68 seconds"},
+  {q:32,t:"producers of short or long yawns do not compensate"},
+  {q:33,t:"the mouth provides a sufficient airway"},
+  {q:34,t:"gaping of the jaws is an essential component"},
+  {q:35,t:"yawning is impossible via nasal inhalation alone"},
+  {q:36,t:"their otherwise paralyzed arm rises and flexes automatically"},
+  {q:37,t:"beneath the veneer of culture, rationality and language"},
+  {q:38,t:"it was difficult for him to convince research students of the merits"},
+  {q:40,t:"selecting a single function from the available options may be an unrealistic goal"}
 ];
 
 function applyHL2(pEl, items){
@@ -1145,6 +1174,27 @@ document.addEventListener('keydown',e=>{
   if(e.key==='ArrowLeft')prevQ();
   if(e.key==='ArrowRight')nextQ();
 });
+
+// ── CHOOSE-TWO multiple choice (q20/q21) ──
+function mc2upd(box){
+  var base=Number(box.dataset.base);
+  var boxes=[].slice.call(document.querySelectorAll('.mc2box[data-base="'+base+'"]'));
+  if(boxes.filter(function(b){return b.checked;}).length>2){ box.checked=false; return; }
+  var vals=boxes.filter(function(b){return b.checked;}).map(function(b){return b.value;});
+  document.getElementById('q'+base).value=vals[0]||'';
+  document.getElementById('q'+(base+1)).value=vals[1]||'';
+  upd();
+}
+function mc2review(){
+  document.querySelectorAll('.mc2box').forEach(function(b){
+    var base=Number(b.dataset.base);
+    var correct=[].concat(CA[base]).concat(CA[base+1]);
+    var lb=b.closest('label'); if(!lb)return;
+    if(correct.indexOf(b.value)>=0) lb.classList.add('ok');
+    else if(b.checked) lb.classList.add('bad');
+  });
+}
+(function(){ if(typeof doCheck==='function'){ var _d=doCheck; doCheck=function(){ _d.apply(this,arguments); try{mc2review();}catch(e){} }; } })();
 </script>
 </body>
 </html>

@@ -1,0 +1,588 @@
+{
+  "slug": "reading-volume-4-test-4",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 4, Test 4",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Multiple intelligences",
+        "passageHtml": "<p>The implications of multiple intelligence theory for teachers · Read the text and answer questions 1–13</p><p>The first intelligence test was developed in France by Alfred Binet early in the 20th century. By the 1920s and 1930s, intelligence tests and their product, an individual's IQ (Intelligence Quotient), had become widely used in many societies around the world. Tests of this type, however, have now fallen into disrepute. All they test is linguistic and logical-mathematical intelligence and this traditional definition of intelligence is now regarded as too narrow. We now know that 75% of teachers are sequential, analytical presenters but 70% of students do not actually learn this way. A number of investigators now believe that the mind consists of several independent modules or intelligences. The educational psychologist most responsible for this change of attitude is Howard Gardner, professor of education at Harvard University in the United States and the creator of the Multiple Intelligence theory.</p><p>Multiple Intelligence theory, according to Gardner, is an endorsement of three key propositions: we are not all the same, we do not all have the same kinds of minds, and education works most effectively if these differences are taken into account. Gardner argues that there are at least eight kinds of intelligence that are important to fuller human development and that are available for almost everyone to develop. These intelligences are:</p><p>1. Linguistic intelligence<br>2. Logical-mathematical intelligence<br>3. Musical intelligence<br>4. Spatial intelligence<br>5. Bodily-kinesthetic intelligence<br>6. Interpersonal intelligence<br>7. Intrapersonal intelligence<br>8. Naturalist intelligence</p><p>Gardner also speculates on the possibility of there being both a spiritual intelligence and an existential intelligence but comes to no definite conclusions.</p><p>Following are some characteristics of the different intelligences, along with ways to exercise and develop them:</p><p><strong>Linguistic intelligence:</strong> Involves reading, writing, speaking, and conversing in one's own or foreign languages. It may be exercised through reading interesting books, listening to recordings, using various kinds of computer technology, and actively participating in discussions.</p><p><strong>Logical-mathematical intelligence:</strong> Involves number and computing skills, developing an awareness of patterns, and the ability to solve different kinds of problems through logic. It may be exercised through playing number and logic games, and solving various kinds of puzzles.</p><p><strong>Musical intelligence:</strong> Involves understanding and expressing oneself through music and rhythmic movements or dance. It may be exercised through exposure to a variety of recordings, engaging in rhythmic activities, and singing, dancing, or playing various instruments.</p><p><strong>Spatial intelligence:</strong> Involves the ability to create and manipulate mental images, and the orientation of the body in space. It may be developed through sharpening observation skills, solving mazes and other spatial tasks, and using imagery and active imagination.</p><p><strong>Bodily-kinesthetic intelligence:</strong> Involves understanding how to communicate with and understand other people and how to work collaboratively. It may be exercised through cooperative games, group projects and discussions, and dramatic activities or role-playing.</p><p><strong>Intrapersonal intelligence:</strong> Involves comprehending our emotions, and growing in the ability to control and work with them consciously. It may be exercised through participating in independent projects, journal-writing, and finding quiet places for reflection.</p><p><strong>Applying Multiple Intelligence theory to the classroom</strong></p><p>Gardner proposes that the eight intelligences he has identified are independent, in that they develop at different times and to different degrees in different individuals. They are, however, closely related, and many teachers and parents are finding that when an individual develops proficiency in one area, the whole constellation of intelligences may be enhanced.</p><p>Gardner refers to intelligences as potentials that will or will not be activated, depending upon the values of a particular society, and the personal decisions made by individuals and/or their families. A student who believes that intelligence can be developed is likely to be persistent and adventurous. However, learner who thinks they have no control over their ability level is more likely to get upset when faced with failure, as it can only be constructed as evidence of inadequate ability. The fluid theory of intelligence advocated by Gardner encourages students to stretch themselves.</p><p>Does the fact that we each have a unique profile mean that teachers should plan individual lessons for every student in the class to take this into account? Clearly, this would be impractical and the solution lies in including classroom activities designed to appeal to each of the intelligence types.</p><p>Gardner suggests that the challenge of the coming decades is to stop treating everyone in a uniform way. He proposes individually configured education – an education that takes individual differences seriously and creates practices that serve different kinds of minds equally well.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–4</h3>Do the following statements agree with the information given in Reading Passage 1? Choose TRUE, FALSE or NOT GIVEN.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Intelligence tests became popular worldwide in the early 20th century."
+              },
+              {
+                "number": 2,
+                "textHtml": "Traditional intelligence tests focused on assessing language and mathematical ability."
+              },
+              {
+                "number": 3,
+                "textHtml": "New types of intelligence tests have now been developed to assess the potential of schoolchildren."
+              },
+              {
+                "number": 4,
+                "textHtml": "Research has shown that the majority of students benefit when information is taught in a sequential manner."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 5–10</h3>Complete the table below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<table class=\"q-table\"><thead><tr><th>Intelligence type</th><th>Characteristics</th><th>Examples of ways to develop the intelligence</th></tr></thead><tbody><tr><td>Linguistic</td><td>Language ability</td><td>Taking part in {{5}}; Reading</td></tr><tr><td>Logical-mathematical</td><td>Numeracy / logic skills</td><td>Number games; Solving puzzles</td></tr><tr><td>Musical</td><td>Expression through music and dance</td><td>Playing musical instruments; Performing; Listening to different {{6}}</td></tr><tr><td>Spatial</td><td>Manipulation of mental images of objects in space</td><td>Tasks requiring imagination; Improving {{7}}</td></tr><tr><td>Bodily-kinesthetic</td><td>Physical skills</td><td>Working with {{8}}; Playing sports</td></tr><tr><td>Interpersonal</td><td>Communication skills</td><td>Group work; Drama</td></tr><tr><td>Intrapersonal</td><td>Understanding and controlling {{9}}</td><td>Working alone; Reflection</td></tr><tr><td>Naturalist</td><td>Understanding nature</td><td>Exploration of nature; Organizing {{10}} of items</td></tr></tbody></table>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 11–13</h3>Complete the sentences below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p>11. In the experience of teachers and parents, when {{11}} in one intelligence is improved, other areas may also develop.</p><p>12. If a learner feels their level of intelligence is fixed, they may not cope with {{12}} as well as a learner who believes intelligences is flexible.</p><p>13. Gardner believes that in the future educational programmes need to cater for the {{13}} between students.</p></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "A unique golden textile",
+        "passageHtml": "<p>A two-man project to use spider silk is achieved after 4 years · Read the text and answer questions 14–26</p><p><strong>A</strong>&nbsp;&nbsp; A rare textile made from the silk of more than a million wild spiders has been on display at the American Museum of Natural History in New York City. To produce this golden cloth, 70 people spent four years collecting golden orb spiders from telephone poles in Madagascar, while another dozen workers carefully extracted about 80 feet of silk filament from each of the arachnids. The resulting 11-foot by 4-foot textile is the only large piece of cloth made from natural spider silk existing in the world today.</p><p><strong>B</strong>&nbsp;&nbsp; Spider silk is very elastic and strong compared with steel or Kevlar, said textile expert Simon Peers, who co-led the project. Kevlar is a lightweight synthetic fabric which is chemically related to nylon. It is very tough and durable and used in bullet-proof vests. Kevlar is also resistant to wear, tear, and heat and has absolutely no melting point. But the tensile strength of spider silk is even greater than Kevlar's aramid filaments, and greater than that of high-grade steel. Most importantly, spider silk is extremely lightweight: a strand of spider silk long enough to circle the Earth would weigh less than 500 grams (18 oz). Spider silk is also especially ductile, able to stretch up to 140 per cent of its length without breaking. It can hold its strength below -40C. This gives it a very high toughness, which equals that of commercial fibers.</p><p><strong>C</strong>&nbsp;&nbsp; Researchers have long been intrigued by the unique properties of spider silk. Unfortunately, spider silk is extremely hard to mass produce. Unlike silk worms, which are easy to raise in captivity, spiders have a habit of chomping off each other's heads when housed together. According to Peers, there's scientific research going on all over the world right now trying to replicate the tensile properties of spider silk and apply it to all sorts of areas in medicine and industry, but no one up until now has succeeded in replicating 100 per cent of the properties of natural spider silk.</p><p><strong>D</strong>&nbsp;&nbsp; Peers came up with the idea of weaving spider silk after learning about the French missionary Jacob Paul Camboue, who worked with spiders in Madagascar during the 1880s and 1890s. Camboue built a small, hand-driven machine to extract silk from up to 24 spiders at once, without harming them. The spiders were temporarily restrained, their silk extracted, and then let go. Peers managed to build a replica of this 24-spider silking machine that was used at the turn of the century, said Nicholas Godley, who co-led the project with Peers. As an experiment, the pair collected an initial batch of about 20 spiders. 'When we stuck them in the machine and started turning it, lo and behold, this beautiful gold-colored silk started coming out', Godley said.</p><p><strong>E</strong>&nbsp;&nbsp; But to make a textile of any significant size, the silk experts had to drastically scale up their plan. Fourteen thousand spiders yield about an ounce of silk, Godley said, and the textile weighs about 2.6 pounds. The numbers are overwhelming. To get as much silk as they needed, Godley and Peers began hiring dozens of spider handlers to collect wild arachnids and carefully harness them to the silk-extraction machine. 'We had to find people who were willing to work with spiders,' Godley said, 'because they bite.' By the end of the project, Godley and Peers extracted silk from more than 1 million female golden orb spiders, which are abundant throughout Madagascar and known for the rich golden color of their silk. Because the spiders only produce silk during the rainy season, workers collected all the spiders between October and June. Then an additional 12 people used hand-powered machines to extract the silk and weave it into 96-filament thread. Once the spiders had been silked, they were released back into the wild, where Godley said it takes them about a week to regenerate their silk. 'We can go back and re-silk the same spiders,' he said. 'It's like the gift that never stops giving.'</p><p><strong>F</strong>&nbsp;&nbsp; Of course, spending four years to produce a single textile of spider silk isn't very practical for scientists trying to study the properties of spider silk, or companies that want to manufacture the fabric for the use as a biomedical product, or an alternative to Kevlar armor. Several groups have tried inserting spider genes into bacteria or even cows and goats to produce silk, but so far, the attempts have been only moderately successful. Part of the reason it's so hard to generate spider silk in the lab is that it starts out as a liquid protein that's produced by a special gland in the spider's abdomen. Using their spinneret, spiders apply force to rearrange the protein's molecular structure and transform it into solid silk. When we talk about a spider spinning silk, we're talking about how the spider applies forces to produce a transformation from liquid to solid, said spider silk expert Todd Blackledge of the University of Akron, Ohio, US, who was not involved in creating the textile. Scientists simply can't replicate the efficiency with which a spider produces silk. Every year we're getting closer and closer to being able to mass-produce it, but we're not there yet. For now, it seems we'll have to be content with one incredibly beautiful cloth, graciously provided by more than a million spiders.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–19</h3>Reading Passage 2 has six paragraphs, A-F. Choose the correct heading for each paragraph from the list of headings below. Write the correct number, i-ix.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Experimenting with an old idea"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Life cycle of Madagascar spiders"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Advances in the textile industry"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Resources needed to meet the project's demands"
+              },
+              {
+                "letter": "E",
+                "textHtml": "The physical properties of spider silk"
+              },
+              {
+                "letter": "F",
+                "textHtml": "A scientific analysis of spider silk"
+              },
+              {
+                "letter": "G",
+                "textHtml": "A unique work of art"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Importance of the silk textile market"
+              },
+              {
+                "letter": "I",
+                "textHtml": "Difficulties of raising spiders in captivity"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 20–23</h3>Look at the following statements and the list of researchers below. Match each statement with the correct researcher, A, B or C.<em>NB You may use any letter more than once.</em>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Simon Peers"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Nicholas Godley"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Todd Blackledge"
+              }
+            ],
+            "questions": [
+              {
+                "number": 20,
+                "textHtml": "It takes a tremendous number of spiders to make a small amount of silk"
+              },
+              {
+                "number": 21,
+                "textHtml": "Scientists want to use the qualities of spider silk for medical purposes"
+              },
+              {
+                "number": 22,
+                "textHtml": "Scientists are making some progress in their efforts to manufacture spider silk"
+              },
+              {
+                "number": 23,
+                "textHtml": "Spider silk compares favourably to materials known for their strength"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 24–26</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><h3>Producing spider silk in the lab</h3><p>Both scientists and manufacturers are interested in producing silk for many different purposes. Some researchers have tried to grow silk by introducing genetic material into {{24}} and some animals. But these experiments have been somewhat disappointing.</p><p>It is difficult to make spider silk in a lab setting because the silk comes from a liquid protein made in a {{25}} inside the spider's body. When a spider spins silk, it causes a {{26}} that turns this liquid into solid silk. Scientists cannot replicate this yet.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "The power of persuasion",
+        "passageHtml": "<p>A New Zealand restaurateur assesses some recent research from the USA · Read the text and answer questions 27–40</p><p>Some scientists peer at things through high-powered telescopes, others tempt rats through mazes, or mix bubbling fluids in glass beakers. Then there is Robert Cialdini, whose unorthodox research involves such mundane items as towels and chocolates. Nonetheless, Cialdini believes he is discovering important insights into how society works, because he is conducting research into why some people are more persuasive than others.</p><p>Cialdini hopes that, by applying a little science, we should all be able to get our own way more often. This is in part a personal quest with its origins in his own experience: Cialdini claims that for his whole life he has been easy prey for salespeople and fundraisers who have managed to persuade him to buy things he did not want or give to charities he had never heard of.</p><p>Experiments on the psychology of persuasion were telling only a part of the story, Cialdini began to probe influence in the real world, enrolling in sales-training programmes. In this way, he believes he learned firsthand a great deal about how to sell automobiles from a car lot, insurance from an office, and even encyclopaedias door to door. Most recently his research has involved the now famous experiments with towels. Many hotels leave a little card in each bathroom asking guests to reuse towels and thus conserve water and reduce pollution. Cialdini and his colleagues wanted to test the relative effectiveness of different text on those cards. Could hotels best motivate their guests to co-operate simply because it would help save the planet, or were other factors more compelling?</p><p>To test this, the researchers redesigned the cards, replacing the environmental message with the simple (and truthful) statement that the majority of guests at the hotel had reused their towel at least once. Those guests who received this message were found to be 26% more likely to reuse their towel than those given the original message, and 74% more likely than those receiving no message at all.</p><p>This was just one study that has enabled Cialdini to identify his Six Principles of Persuasion. The phenomenon revealed by the towel experiment he calls 'social proof': the idea that our decisions are influenced by what other people like us are doing. More perniciously, social proof is the force underpinning some people's anxiety not to be left behind by their neighbours, thus the desire for a bigger house or a faster car. A further principle, which he names 'reciprocity', was tested in a restaurant by measuring how patrons would respond to after-dinner chocolates. When the chocolates were dropped individually in front of each diner, tips went up 14%. This is reciprocity in action: we want to return favours done to us, often without bothering to accurately calculate whether what we are giving is proportionate to what we have received.</p><p>Cialdini's research has established four more such principles. 'Scarcity' is the idea that people want more of things they can have less of, a notion that advertisers ruthlessly exploit – limit of four per customer. Parents can also make use of scarcity by telling their little ones that this is a very unusual chance so they should seize it immediately. The principle of 'authority' states that we trust people who know what they are talking about. Cialdini maintains that many professionals don't display their credentials, fearing it is boastful or arrogant to publicise their expertise. The principle he labels 'consistency' suggests that we want to act in ways that are consistent with undertakings we have already made. For example, if you are soliciting charitable donations, first ask colleagues if they think they will sponsor you. Later, return with a sponsorship form to those who said yes and remind them of their earlier undertaking. The final principle is 'likeness': we are more easily persuaded by those who seem similar to ourselves. In one study, people were sent survey forms and asked to return them to a named researcher. When the researcher falsely identified herself (e.g. Cynthia Johnson is sent a survey by Cindy Johansen), surveys were twice as likely to be completed.</p><p>Many of Cialdini's claims about persuasion are just that – highly persuasive – and I can readily see evidence for some of them in my own workplace. But Cialdini's experiments were conducted in the United States and I wonder how well all of his findings can be applied here in New Zealand or elsewhere around the world. For instance, I do understand the general principle of 'reciprocity' but cannot imagine New Zealand waiting staff using his cynical chocolate trick in their restaurants because the culture of tipping in this country is so different. But it is true that the way to a diner's heart is to give them something they are not expecting in the way of service and in this country reciprocation would more likely take the form of a return visit to the restaurant and not a tip. It may be that age is also a factor and that different generations would react differently to say, the 'consistency' principle. I suspect that younger people in this country would respond quite positively to this sort of approach, whereas their parents might be put off by any hint of a hard sell. Perhaps in the end we must accept that some of us are simply born with more persuasion skills than others and that we have less control over such matters than Cialdini might like to think.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–31</h3>Choose the correct letter, A, B, C or D.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "What point is the writer making about Robert Cialdini in the first paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; He wants to change the way society operates."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; He uses a wide variety of research techniques."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; He has an unconventional approach to his work."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; He refuses to make use of animals in his experiments."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "What is the writer doing in the second paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; identifying a motivation for the research"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; assessing an aspect of Cialdini's character"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; questioning Cialdini's scientific research techniques"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; applauding researchers who examine their own experience"
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "What are we told about Cialdini's research methodology?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; it was conducted in a laboratory"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; it involved him taking courses of study"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; it was focused on one particular product"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; it was based on interviews with salespeople"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "What was Cialdini's research question for the towel experiment?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Is it more effective not to use a card?"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Does the message make any difference?"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Why is the threat of pollution so persuasive?"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Can hotels be persuaded to provide more towels?"
+                  }
+                ]
+              },
+              {
+                "number": 31,
+                "textHtml": "The results of the towel experiment suggest that guests",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; were disinclined to tell the truth about towel use"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; preferred not to receive a message with their towels"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; were more receptive to messages about other guests"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; responded more positively to an environmental message"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 32–36</h3>Complete the summary using the list of phrases, A-J, below.",
+            "selectCount": 1,
+            "bodyHtml": "<div><h3>The six principles of persuasion</h3><p>Cialdini's towel experiment demonstrated the principle he named 'social proof', which can result in competitive materialism. His research using chocolates suggests that people don't always assess the {{32}} of a transaction. A further principle recommends that advertisers and parents should claim that something is a {{33}} in order to be more persuasive. The authority principle is often ignored when some professionals are concerned their actions might be considered {{34}}. He similarly suggests that people will give more to charity if they can be reminded of {{35}}.</p><p>Lastly, even something like a {{36}} has been shown to result in more surveys being completed.</p></div><div>Phrases</div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "rare opportunity"
+              },
+              {
+                "letter": "B",
+                "textHtml": "previous commitments"
+              },
+              {
+                "letter": "C",
+                "textHtml": "generous response"
+              },
+              {
+                "letter": "D",
+                "textHtml": "true qualification"
+              },
+              {
+                "letter": "E",
+                "textHtml": "similar name"
+              },
+              {
+                "letter": "F",
+                "textHtml": "ruthless exploitation"
+              },
+              {
+                "letter": "G",
+                "textHtml": "social obligation"
+              },
+              {
+                "letter": "H",
+                "textHtml": "relative value"
+              },
+              {
+                "letter": "I",
+                "textHtml": "bad behavior"
+              },
+              {
+                "letter": "J",
+                "textHtml": "small favor"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 37–40</h3>Do the following statements agree with the views of the writer in Reading Passage 3? Choose YES, NO or NOT GIVEN.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "The writer sees evidence of the reciprocity principle in his own family."
+              },
+              {
+                "number": 38,
+                "textHtml": "Persuasion may operate in different ways in different countries."
+              },
+              {
+                "number": 39,
+                "textHtml": "New Zealand diners are likely to leave tips if they are given chocolate."
+              },
+              {
+                "number": 40,
+                "textHtml": "Older New Zealanders would be more attracted to consistency."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "discussions"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "recordings"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "observation skills"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "other people"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "our emotions"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "collections"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "proficiency"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "failure"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "individual differences"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "bacteria"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "gland"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "force"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "NO"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "NO"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

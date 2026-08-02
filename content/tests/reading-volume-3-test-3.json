@@ -1,0 +1,504 @@
+{
+  "slug": "reading-volume-3-test-3",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 3, Test 3",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "The Pesticide-free Village",
+        "passageHtml": "<p>Gerry Marten and Dona Glee Williams report on the Indian village of Punukula, so nearly destroyed by reliance on pesticides</p><p>Around 25 years ago, a handful of families migrated from the Guntur district of Andhra Pradesh, south-east India, into Punukula, a community of around 900 people farming plots of between two and ten acres. The outsiders from Guntur brought cotton culture with them, and this attracted resident farmers by promising to bring in more hard cash than the mixed crops they were already growing to eat and sell, such as millet, mung beans, chilli and rice. But growing cotton meant using pesticides and fertilisers - until then a mystery to the mostly illiterate farmers of the community.</p><p>Local agrochemical dealers obligingly filled the need for information and supplies. These 'middlemen' sold commercial seeds, fertilisers and insecticides on credit, and guaranteed purchase of the crop. They offered technical advice provided by the companies that supplied their products. The farmers depended on the dealers. If they wanted to grow cotton - and they did - it seemed they had no choice.</p><p>A quick 'high' of booming yields and incomes hooked growers during the early years of cotton in the region. Outlay on insecticides was fairly low because cotton pests hadn't moved in yet. Many farmers were so impressed with the chemicals that they started using them on their other crops as well. The immediate payoffs from chemically-dependent cotton agriculture obscured the fact that the fields had gone into a freefall of environmental degradation, dragged down by a chain of cause and effect.</p><p>Soon cotton-eaters, such as bollworms and aphids, plagued the fields. Repeated spraying killed off the most susceptible pests and left the strongest to reproduce and pass on their resistance to generations of ever-hardier offspring. As the bugs grew tougher and more abundant, farmers applied a greater variety and quantity of poisons, sometimes mixing 'cocktails' of as many as ten insecticides. At the same time, cotton was gobbling up the nutrients in the soil, leaving the growers no option but to invest in chemical fertilisers.</p><p>By the time some farmers tried to break free of their chemical dependence, insecticides had already decimated the birds, wasps, beetles, and other predators that had once provided natural control of crop pests. Without their balancing presence, pests ran riot if insecticide was cut back. As outlays for fertilisers and insecticides escalated, the cost of producing cotton outgrew the cash value of the crop, and farmers fell further and further into debt and poverty. Their farming cycle was only broken by the willingness of a prominent village elder to experiment with something different.</p><p>He had been among the first villagers to grow cotton, and he would be the first to try it without chemicals, as set out by a programme in Non-Pesticide Management (NPM). This had been devised for Punukula with the help of a Non-Government Organisation called SECURE that had become aware of the hardships caused by the pesticide trap.</p><p>It involved turning to neem, a fast-growing, broad-leaved evergreen tree related to mahogany. Neem protects itself against insects by producing a multitude of natural pesticides that have evolved specifically to defeat plant-eating insects. Thus they are generally harmless to humans and other animals, including birds and insects that eat pests.</p><p>The plant is native to India and Burma, where it has been used for centuries to control pests and to promote health. To protect cotton, neem seeds are simply ground into a powder, soaked overnight in water and sprayed onto the crop at least every 10 days. Neem cake applied to the soil kills pests and doubles as an organic fertiliser high in nitrogen. As neem grows locally and is easy to process, it is much less expensive than the chemical insecticides sold for profit by the dealers and their corporate suppliers.</p><p>Quick, short-term gains had once pushed Punukula into chemical-dependent agriculture. Now they found that similar immediate rewards were helping to speed change in the other direction: the harvest of the next 20 NPM farmers was as good as the harvest of farmers using insecticides, and they came out ahead because they weren't buying insecticides. Instead of investing cash (in short supply) in chemicals, they invested time and labour in NPM practices.</p><p>By the end of 2000, all the farmers in Punukula village were using NPM rather than chemicals for cotton, and they began to use it on other crops as well. The change gathered momentum as NPM became even more effective once everyone was using it. The status and economic opportunities of women improved - neem became a source of income for some of them, as they gathered seeds from the surrounding area and produced neem cakes to sell for NPM in other villages. The improved situation meant that families could afford to put more land under cultivation.</p><p>In 2004, the panchayat (village government) formally declared Punukula to be a pesticide-free village. And they have big plans for the future, such as water purification. The village now serves as a model for disseminating NPM to other communities, with around 2000 farmers visiting each year. What began as a few farmers desperate to find a way to farm without poisons has become a movement with the potential to pull an entire region back from ecological disaster.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–4</h3>Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Cotton growing was expected to raise more money than other crops."
+              },
+              {
+                "number": 2,
+                "textHtml": "Some of the local agrochemical dealers had been farmers in the past."
+              },
+              {
+                "number": 3,
+                "textHtml": "Initially the farmers' cotton yields were low."
+              },
+              {
+                "number": 4,
+                "textHtml": "At first, the farmers failed to notice the negative effects on their fields of pesticide use."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 5–10</h3>Complete the notes below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Non-Pesticide-Management Programme</div><div><ul><li>Developed with the aid of SECURE</li><li>Based on use of an <strong>5</strong>&nbsp;{{5}} called neem</li><li>Neem contains many <strong>6</strong>&nbsp;{{6}} that target plant-eating predators</li></ul> Neem <p>Used as a pesticide</p><ul><li><strong>7</strong>&nbsp;{{7}} formed by grinding seeds</li><li>left <strong>8</strong>&nbsp;{{8}} to soak in water</li><li>sprayed regularly</li></ul><p>Used as a pesticide and as a fertiliser</p><ul><li>added in <strong>9</strong>&nbsp;{{9}} form to soil</li><li>contains a lot of <strong>10</strong>&nbsp;{{10}}</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 11–13</h3>Answer the questions below. Choose <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>11.</strong>&nbsp; In which year did farmers finally stop using chemicals on cotton crops in Punukula?</p> {{11}}</div><div><p><strong>12.</strong>&nbsp; What did the women of Punukula produce and sell to make money?</p> {{12}}</div><div><p><strong>13.</strong>&nbsp; What project do the authorities in Punukula hope to set up in the future?</p> {{13}}</div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "New Filter Promises Clean Water for Millions",
+        "passageHtml": "<p>An ingenious invention is set to bring clean water to developing countries, and the materials are extremely down to earth</p><p>A handful of clay, yesterday's coffee grounds and some cow manure are the ingredients that could bring clean, safe drinking water to many developing countries. The simple new technology, developed by Australian National University (ANU) materials scientist and potter Tony Flynn, allows water filters to be made from commonly available materials and fired (or baked) using cow manure as the source of heat, without the need for a kiln (an oven for baking or drying pottery). The filters have been tested and shown to remove common pathogens (disease-producing organisms) including E-coli.</p><p>The invention was born out of a project involving the Manatuto community in East Timor. A charity operating there wanted to help set up a small industrial site manufacturing water filters, but initial research found the local clay to be too fine - a problem solved by the addition of organic material. While the problems of producing a working ceramic filter in East Timor were overcome, the solution was kiln-based and particular to that community's materials and couldn't be applied elsewhere. Flynn's technique for manure firing, with no requirement for a kiln, has made this zero technology approach available anywhere it is needed.</p><p>Other commercial clay filters do exist, but, even if available, with prices starting at US$5 each, they are often outside the budgets of most people in the developing world. Unlike other water filtering devices, Flynn's filters are inexpensive and simple to produce. Take a handful of clay, mix it with a handful of organic material such as used tea leaves, coffee grounds or rice hulls, add water in a sufficient quantity to make a stiff mixture and form a cylindrical pot that has one end closed, then dry it in the sun. According to Flynn, used coffee grounds have given the best results to date. The walls of the filter can be measured using the width of an adult finger as the standard. Next, surround the pots with straw, put them in a mound of cow manure, light the straw and then top up the burning manure as required. The filters are finished in 45 to 60 minutes.</p><p>The properties of cow manure are vital, as the fuel can reach a temperature of 700 degrees in half an hour, and will be up to 950 degrees after another 20 to 30 minutes. The manure makes a good fuel because it is very high in organic material that burns readily and quickly. The manure has to be dry and is best used straight from the field; there is no need to break it up or process it any further. In contrast, a potter's kiln is an expensive item and can take up to four or five hours to get up to 800 degrees. It needs expensive, scarce fuel, such as gas or wood, to heat it, and experience to use it. With no technology, no insulation and nothing other than a pile of cow manure and a match, none of these requirements apply.</p><p>It is also helpful that, like clay and organic material, cow manure is freely available across the developing world. A cow is a natural fuel factory. Manure is a mixture of vegetable materials of different sizes, and cow manure as a fuel is much the same wherever it is found.</p><p>Just as using manure as a fuel for domestic use is not a new idea, the fact that liquid can pass through clay objects is something that potters have always known, and clay's porous nature is something that, as a former ceramics lecturer in the ANU School of Art, Flynn is well aware of. The difference is that, rather than viewing the porous nature of the material as a problem - after all, not many people want a pot that won't hold water - his filters capitalise on this property.</p><p>The filtration process is simple, but effective. The basic principle is that there are passages through the filter that are wide enough for water droplets to pass through, but too narrow for pathogens. Tests with the deadly E-coli bacterium have seen the filters remove 96.4 to 99.8 per cent of the pathogen - well within safe levels. The thickness of the clay container needs to be the same thickness as an adult finger for the process to be effective. If this is the case, using only one filter, a litre of water can be obtained in two hours.</p><p>The use of organic material, which burns away leaving cavities after firing, helps produce the structure in which pathogens will become trapped. It overcomes the potential problems of finer clays that may not let water through and also means that cracks are soon halted. And like clay and cow manure, organic material is universally available in the developing communities that need most assistance, as tea, coffee and rice are grown in these areas.</p><p>With all the components being widely available, Flynn says there is no reason the technology couldn't be applied throughout the developing world. He has no plans to exploit his idea financially by registering ownership through a patent. If he did, any commercial copying would legally entitle him to a share in any profits made. Without a patent, there will be no illegality in it being adopted in any community that needs it. 'Everyone has a right to clean water, and these filters have the potential to enable anyone in the world to drink water safely,' says Flynn.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 14–19</h3>Complete the flow-chart below. Choose <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Step-by-step guide to making Flynn's water filters</div><div><div>Make the mixture for the filter from organic material (e.g. tea, coffee, rice), <strong>14</strong>&nbsp;{{14}} and <strong>15</strong>&nbsp;{{15}}</div><div class=\"flow-arrow\">↓</div><div>Shape into pots and place them in a fire made from <strong>16</strong>&nbsp;{{16}} and <strong>17</strong>&nbsp;{{17}}</div><div class=\"flow-arrow\">↓</div><div>Fuel the fire to reach a maximum heat of <strong>18</strong>&nbsp;{{18}}</div><div class=\"flow-arrow\">↓</div><div>Remove the filters from the fire</div><div class=\"flow-arrow\">↓</div><div>Bake the filters in the fire for a maximum period of <strong>19</strong>&nbsp;{{19}}</div></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 20–23</h3>Do the following statements agree with the information given in Reading Passage 2?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 20,
+                "textHtml": "The clay in the Manatuto project was initially unsuitable for the project's purpose."
+              },
+              {
+                "number": 21,
+                "textHtml": "Coffee grounds produce filters that are twice as efficient as those using other organic materials."
+              },
+              {
+                "number": 22,
+                "textHtml": "It takes half an hour for a cow-manure fire to reach 950 degrees."
+              },
+              {
+                "number": 23,
+                "textHtml": "E-coli is the most difficult bacterium to remove from water by filtration."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 24–26</h3>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 24,
+                "textHtml": "The Manatuto project aimed to set up a",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; charitable trust."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; filtration experiment."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; water filter factory."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; community kiln."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "To be effective, the Flynn filters must",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; remove all dangerous pathogens."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; be a particular thickness."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; filter water as quickly as possible."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; be made from 100 per cent clay."
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "Flynn does not intend to patent his filter because he",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; wants it to be freely available."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; has produced a very simple design."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; cannot make a profit in poor countries."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; has already given the idea to a charity."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Putting the Brakes on Climate Change",
+        "passageHtml": "<p>Are hydrogen cars the answer?</p><p><strong>A</strong>&nbsp;&nbsp; It is tempting to think that the conservation of coral reefs and rainforests is a separate issue from traffic and air pollution. But it is not. Scientists are now confident that rapid changes in the Earth's climate are already disrupting and altering many wildlife habitats. Pollution from vehicles is a big part of the problem.</p><p><strong>B</strong>&nbsp;&nbsp; The United Nation's Climate Change Panel has estimated that the global average temperature rise expected by the year 2100 could be as much as 6°C, causing forest fires and dieback on land and coral bleaching in the ocean. Few species, if any, will be immune from the changes in temperature, rainfall and sea levels. The panel believes that if such catastrophic temperature rises are to be avoided, the quantity of greenhouse gases, especially carbon dioxide, being released into the atmosphere must be reduced. That will depend on slowing the rate of deforestation and, more crucially, finding alternatives to coal, oil and gas as our principal energy sources.</p><p><strong>C</strong>&nbsp;&nbsp; Technologies do exist to reduce or eliminate carbon dioxide as a waste product of our energy consumption. Wind power and solar power are both spreading fast, but what are we doing about traffic? Electric cars are one possible option, but their range and the time it takes to charge their batteries pose serious limitations. However, the technology that shows the most potential to make cars climate-friendly is fuel-cell technology. This was actually invented in the late nineteenth century, but because the world's motor industry put its effort into developing the combustion engine, it was never refined for mass production. One of the first prototype fuel-cell-powered vehicles has been built by the Ford Motor Company. It is like a conventional car, only with better acceleration and a smoother ride. Ford engineers expect to be able to produce a virtually silent vehicle in the future.</p><p><strong>D</strong>&nbsp;&nbsp; So what's the process involved - and is there a catch? Hydrogen goes into the fuel tank, producing electricity. The only emission from the exhaust pipe is water. The fuel-cell is, in some ways, similar to a battery, but unlike a battery it does not run down. As long as hydrogen and oxygen are supplied to the cell, it will keep on generating electricity. Some cells work off methane and a few use liquid fuels such as methanol, but fuel-cells using hydrogen probably have the most potential. Furthermore, they need not be limited to transport. Fuel-cells can be made in a huge range of size, small enough for portable computers or large enough for power stations. They have no moving parts and therefore need no oil. They just need a supply of hydrogen. The big question, then, is where to get it from.</p><p><strong>E</strong>&nbsp;&nbsp; One source of hydrogen is water. But to exploit the abundant resource, electricity is needed, and if the electricity is produced by a coal-fired power station or other fossil fuel, then the overall carbon reduction benefit of the fuel-cell disappears. Renewable sources, such as wind and solar power, do not produce enough energy for it to be economically viable to use them in the 'manufacture' of hydrogen as a transport fuel. Another source of hydrogen is, however, available and could provide a supply pending the development of more efficient and cheaper renewable energy technologies. By splitting natural gas (methane) into its constituent parts, hydrogen and carbon dioxide are produced. One way round the problem of what to do with the carbon dioxide could be to store it back below ground - so-called geological sequestration. Oil companies, such as Norway's Statoil, are experimenting with storing carbon dioxide below ground in oil and gas wells.</p><p><strong>F</strong>&nbsp;&nbsp; With freak weather conditions, arguably caused by global warming, frequently in the headlines, the urgent need to get fuel-cell vehicles onto the market is obvious. Even now, fuel-cell buses are operating in the US, while in Germany a courier company is planning to take delivery of fuel-cell-powered vans in the near future. The fact that centrally-run fleets of buses and vans are the first fuel-cell vehicles identifies another challenge - fuel distribution. The refuelling facilities necessary to top up hydrogen-powered vehicles are available only in a very few places at present. Public transport and delivery firms are logical places to start, since their vehicles are operated from central depots.</p><p><strong>G</strong>&nbsp;&nbsp; Fuel-cell technology is being developed right across the automotive industry. This technology could have a major impact in slowing down climate change, but further investment is needed if the industry - and the world's wildlife - is to have a long-term future.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 27–32</h3>Reading Passage 3 has seven paragraphs, <strong>A–G</strong>.<br>Choose the correct heading for paragraphs <strong>A–F</strong> from the list of headings below.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Action already taken by the United Nations"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Marketing the hydrogen car"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Making the new technology available worldwide"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Some negative predictions from one group of experts"
+              },
+              {
+                "letter": "E",
+                "textHtml": "How the new vehicle technology works"
+              },
+              {
+                "letter": "F",
+                "textHtml": "The history of fuel-cell technology"
+              },
+              {
+                "letter": "G",
+                "textHtml": "A holistic view of climate change"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Locating the essential ingredient"
+              },
+              {
+                "letter": "I",
+                "textHtml": "Sustaining car manufacture"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 28,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 29,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 30,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 31,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 32,
+                "textHtml": "Paragraph <strong>F</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 33–36</h3>Complete the sentences below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>33.</strong>&nbsp; In the late nineteenth century, the car industry invested in the development of the {{33}} rather than fuel-cell technology.</p></div><div><p><strong>34.</strong>&nbsp; Ford engineers predict that they will eventually design an almost {{34}} car.</p></div><div><p><strong>35.</strong>&nbsp; While a fuel-cell lasts longer, some aspects of it are comparable to a {{35}} .</p></div><div><p><strong>36.</strong>&nbsp; Fuel-cells can come in many sizes and can be used in power stations and in {{36}} as well as in vehicles.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 37–40</h3>Do the following statements agree with the information given in Reading Passage 3?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "Using electricity produced by burning fossil fuels to access sources of hydrogen may increase the positive effect of the fuel-cell."
+              },
+              {
+                "number": 38,
+                "textHtml": "The oil company Statoil in Norway owns gas wells in other parts of the world."
+              },
+              {
+                "number": 39,
+                "textHtml": "Public transport is leading the way in the application of fuel-cell technology."
+              },
+              {
+                "number": 40,
+                "textHtml": "More funding is necessary to ensure the success of the fuel-cell vehicle industry."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "evergreen tree",
+          "an evergreen tree"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "natural pesticides",
+          "natural chemicals",
+          "pesticides"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "a powder",
+          "powder"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "overnight"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "neem cake",
+          "a neem cake",
+          "cake"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "nitrogen"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "2000"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "neem cakes",
+          "cakes",
+          "neem cake"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "water purification"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "clay"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "water"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "cow manure",
+          "manure"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "straw"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "950 degrees",
+          "950"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "60 minutes",
+          "60"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "combustion engine",
+          "the combustion engine",
+          "combustion"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "silent"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "battery",
+          "a battery"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "portable computers",
+          "portable computer"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "TRUE"
+        ]
+      }
+    },
+    "sets": []
+  }
+}
