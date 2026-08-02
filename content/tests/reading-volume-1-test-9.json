@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 1, Test 9",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -405,7 +405,8 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 38–40 — Word Box Completion</h3>Complete each of the following statements with words taken from the box below.",
             "selectCount": 1,
-            "bodyHtml": "<div><p><strong>38.</strong>&nbsp; When suspended, the eggs of the cane toad resemble {{38}}.</p></div><div><p><strong>39.</strong>&nbsp; Cane toads were introduced into Australia in order to stop beetle young eating sugar cane {{39}}.</p></div><div><p><strong>40.</strong>&nbsp; The text says that dogs affected by cane toad poisoning may have problems with {{40}}.</p></div>"
+            "bodyHtml": "<div><p><strong>38.</strong>&nbsp; When suspended, the eggs of the cane toad resemble {{38}}.</p></div><div><p><strong>39.</strong>&nbsp; Cane toads were introduced into Australia in order to stop beetle young eating sugar cane {{39}}.</p></div><div><p><strong>40.</strong>&nbsp; The text says that dogs affected by cane toad poisoning may have problems with {{40}}.</p></div>",
+            "maxWords": 1
           }
         ]
       }
@@ -417,12 +418,18 @@
       "1": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Although the tuatara species appear similar, they have genetic differences"
+        }
       },
       "2": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Where dated, they are usually a few hundred to 5,000 years old"
+        }
       },
       "3": {
         "accepted": [
@@ -432,53 +439,83 @@
       "4": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the female usually lays 6-10 eggs the following spring, in a shallow nest at ground level"
+        }
       },
       "5": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "It is said that it is more likely for warmer eggs to produce male tuatara, and cooler eggs to produce females"
+        }
       },
       "6": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The hatchlings receive no parental care and need to find their own food"
+        }
       },
       "7": {
         "accepted": [
           "80"
-        ]
+        ],
+        "evidence": {
+          "snippet": "many tuatara have reached 80 years still looking vigorous and healthy"
+        }
       },
       "8": {
         "accepted": [
           "teeth"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Teeth are their main weapons, and a bite can cause serious injury"
+        }
       },
       "9": {
         "accepted": [
           "seabirds",
           "seabird"
-        ]
+        ],
+        "evidence": {
+          "snippet": "eating invertebrates, lizards and the baby seabirds with which they often share burrows"
+        }
       },
       "10": {
         "accepted": [
           "polynesian"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they brought with them Pacific rats which killed tuatara"
+        }
       },
       "11": {
         "accepted": [
           "mainland"
-        ]
+        ],
+        "evidence": {
+          "snippet": "tuatara were almost extinct on the New Zealand mainland"
+        }
       },
       "12": {
         "accepted": [
           "common"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The common tuatara lives on islands off the north-eastern coast of New Zealand"
+        }
       },
       "13": {
         "accepted": [
           "2500"
-        ]
+        ],
+        "evidence": {
+          "snippet": "as many as 2,500 per hectare in some places"
+        }
       },
       "14": {
         "accepted": [
@@ -488,123 +525,195 @@
       "15": {
         "accepted": [
           "australia"
-        ]
+        ],
+        "evidence": {
+          "snippet": "many types of thylacine roamed across Australia"
+        }
       },
       "16": {
         "accepted": [
           "12 million years",
           "12 million"
-        ]
+        ],
+        "evidence": {
+          "snippet": "when a period of climate change cooled Australia about 12 million years ago"
+        }
       },
       "17": {
         "accepted": [
           "tasmania"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Tasmania was then the last remaining place where thylacines existed"
+        }
       },
       "18": {
         "accepted": [
           "europeans"
-        ]
+        ],
+        "evidence": {
+          "snippet": "until Europeans with sheep, dogs, and a great indifference to native flora and fauna"
+        }
       },
       "19": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Take it from me, the tiger is gone"
+        }
       },
       "20": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "If there are thylacines out there, they are better off right where they are"
+        }
       },
       "21": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "It is a blind optimism that something is, rather than a something isn't"
+        }
       },
       "22": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "despite scientific thinking that a relatively large number of animals is required to sustain a population"
+        }
       },
       "23": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "including four or five from Japan, and others from the United Kingdom, Germany, New Zealand and South America"
+        }
       },
       "24": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "amount to one of the most convincing cases for the species"
+        }
       },
       "25": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Government and private search parties combed the region"
+        }
       },
       "26": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "was thought to have died out with the dinosaurs 700 million years ago until a specimen was dragged"
+        }
       },
       "27": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The cane toad was introduced into Australia in 1935 to control sugar cane pests in Queensland"
+        }
       },
       "28": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Cane toads are large heavily-built amphibians with dry, warty skin"
+        }
       },
       "29": {
         "accepted": [
           "I"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The natural range of cane toads extends from the southern United States to tropical South America"
+        }
       },
       "30": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Cane toads tolerate a broad range of environmental and climatic conditions"
+        }
       },
       "31": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Cane toads eat almost anything they can swallow, including pet food, carrion and household scraps"
+        }
       },
       "32": {
         "accepted": [
           "J"
-        ]
+        ],
+        "evidence": {
+          "snippet": "cane toads compete for the resources of native animals, like food, which affects native populations"
+        }
       },
       "33": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "All stages of the cane toad's life-cycle are poisonous"
+        }
       },
       "34": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "During the breeding season males develop dark lumps"
+        }
       },
       "35": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Cane toad spawn is exclusive in Australia"
+        }
       },
       "36": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "some naturalists and scientists warned of the dangers of liberating cane toads in Australia"
+        }
       },
       "37": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "overseas, people have died after eating toads and even soup made from boiled toad eggs"
+        }
       },
       "38": {
         "accepted": [
           "10"
-        ]
+        ],
+        "evidence": {
+          "snippet": "hangs in ropy strands if picked up"
+        }
       },
       "39": {
         "accepted": [
@@ -614,7 +723,10 @@
       "40": {
         "accepted": [
           "4"
-        ]
+        ],
+        "evidence": {
+          "snippet": "collapse of the hind limbs"
+        }
       }
     },
     "sets": []

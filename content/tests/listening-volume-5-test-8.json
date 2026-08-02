@@ -1,0 +1,626 @@
+{
+  "slug": "listening-volume-5-test-8",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-28m-48s-audio-joiner.com/mix_28m48s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 5, Test 8",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–5</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the note below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Eco-farm Tour</div><ul><li><strong>Dates offered:</strong> 6–20 June</li><li><strong>Name:</strong> Helen {{1}}</li><li><strong>Email address:</strong> helen123@ {{2}} .com</li><li><strong>Home address:</strong> {{3}} Road, Sheffield</li><li><strong>Source of information:</strong> {{4}}</li><li><strong>Membership number:</strong> {{5}}</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 6–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><table class=\"q-table\"><thead><tr><th></th><th>Recommendations</th><th>Customer preferences</th></tr></thead><tbody><tr><td><strong>Age</strong></td><td>From 16 to 62</td><td>Children: 6 and 4</td></tr><tr><td><strong>Accommodation type</strong></td><td>lodges</td><td>a {{6}}</td></tr><tr><td><strong>Accommodation location</strong></td><td>Lakeside</td><td>Near the farm or in the {{7}}</td></tr><tr><td><strong>Food</strong></td><td>A wide range of food</td><td>Meat, seafood, and {{8}} food</td></tr><tr><td><strong>Transport</strong></td><td>Train or {{9}}</td><td>Ferry and van</td></tr><tr><td><strong>Courses</strong></td><td>Flower planting courses</td><td>Active courses (e.g. a {{10}} course)</td></tr></tbody></table></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;How much should visitors tip taxi drivers on the island?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "as much as they feel right"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "no tip at all"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "10% tip"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What is mentioned about the medical service on the island?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It will be charged."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Visitors should contact their insurance company."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Visitors have to find the hotel doctor."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;The tour guide says the tap water",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "contains no mineral."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "is unsafe."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "has an unusual taste."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What point is made about bottled water?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It is expensive."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The bottle is not always sealed."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It isn't sold everywhere."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What feature is mentioned about the bus on the island?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "frequent"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "not punctual"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "not comfortable"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;How can visitors know the destination of the bus on the island?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "find it in front of the bus"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "check it with the driver"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "find it at the bus stop"
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "textHtml": "&nbsp;What does the tour guide advise visitors to do before renting a car?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "find a taxi company"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "go to the hotel reception"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "compare the price in advance"
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;When they rent a car, it's important for visitors to know",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the mileage is limited."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "what is included in the price."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "fuel is included in the price."
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;How can visitors find a taxi easily?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "call the taxi company"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "look for a taxi in advance"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "stop a taxi on the street"
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;What is suggested by the tour guide about the taxi fee?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "make sure no extra money is asked"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "check what is included in the fee"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "agree the price with the driver in advance"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;What is the topic of the research?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the effect of music on consumers"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the effect of music on eating"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the effect of music on the price of food"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;The research finds out in the restaurant",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the music is played everywhere."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the music is played at a uniform volume level."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the music is played at a certain time."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;The first few questions in the questionnaire are",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to understand people's taste in music."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to clarify the research aim."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to disguise the purpose of the survey."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;The questions in the questionnaire came from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a previous study."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a professional dictionary."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the student herself."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 25 and 26</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Which <strong>TWO</strong> are the main reasons given for choosing a restaurant?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "competitors nearby"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "environment"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "transport facilities"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "service"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "seat capacity"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "People will spend more money in the restaurant."
+              },
+              {
+                "letter": "B",
+                "textHtml": "People don't even notice the music."
+              },
+              {
+                "letter": "C",
+                "textHtml": "People will come back again."
+              },
+              {
+                "letter": "D",
+                "textHtml": "People don't think the restaurant is worth the price."
+              },
+              {
+                "letter": "E",
+                "textHtml": "People will leave the restaurant right after eating."
+              },
+              {
+                "letter": "F",
+                "textHtml": "People don't like the restaurant at all."
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "no music"
+              },
+              {
+                "number": 28,
+                "textHtml": "jazz"
+              },
+              {
+                "number": 29,
+                "textHtml": "classical music"
+              },
+              {
+                "number": 30,
+                "textHtml": "pop music"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Life on the International Space Station</div><p>Background</p><ul><li>Station was occupied by international teams of scientists over several months.</li><li>Research was done on living conditions.</li></ul><p>Early impressions</p><ul><li>The air smelt {{31}}</li><li>The temperature was easy to adjust.</li><li>The food had enough {{32}}</li><li>{{33}} was efficient</li></ul><p>Problems</p><ul><li>Difficulties with air filters caused lack of {{34}}</li><li>It was difficult to keep cabin objects secure.</li><li>Systems were incompatible — e.g. there were problems when mixing {{35}} because of the preservatives</li><li>The {{36}} available were not always suitable for their purpose</li><li>It was difficult to access the {{37}} for equipment maintenance</li></ul><p>Suggested improvements</p><ul><li>Systems and equipment should undergo more extensive {{38}}</li><li>In language training, astronauts needed practice in understanding the controller's {{39}}</li><li>There should be less emphasis on {{40}} and more on other issues</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "Pennington"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "greenfield"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "66 Lake"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "Radio"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "UK765024EG"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "flat"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "forest"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "organic"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "bike"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "dance"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "fresh"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "variety"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "communication"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "sleep"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "water"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "tools"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "instructions"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "testing"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "accent"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "safety"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          25,
+          26
+        ],
+        "accepted": [
+          "A",
+          "E"
+        ]
+      }
+    ]
+  }
+}

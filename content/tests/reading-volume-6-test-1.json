@@ -1,0 +1,800 @@
+{
+  "slug": "reading-volume-6-test-1",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 6, Test 1",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Mungo Lady and Mungo Man",
+        "passageHtml": "<p>Controversies in Australian Prehistory · Read the text and answer questions 1–13</p><p>Fifty thousand years ago, a lush landscape greeted the first Australians moving towards the south-east of the continent. Temperatures were cooler than now. Megafauna – giant prehistoric animals such as marsupial lions and the rhinoceros-sized diprotodon – were abundant. Freshwater lakes in areas of western New South Wales (NSW) were brimming with fish. But change was coming. By 40,000 years ago, water levels had started to drop.</p><p>A study of the sediments and graves of Lake Mungo, a dry lake bed in western NSW, has uncovered the muddy layers deposited as the lake began to dry up. Forty thousand years ago, families took refuge at the lake from the encroaching desert, leaving artefacts such as stone tools, which researchers used to determine that the first wanderers came to the area between 46,000 and 50,000 years ago. By 20,000 years ago, the lake had become the dry, dusty hole it is today. This area was first examined by the University of Melbourne geologist Professor Jim Bowler in 1969. He was searching for ancient lakes and came across the remains of a woman who had been buried with some ceremony; she was given the name Mungo Lady. In 1974, he found a second set of remains, Mungo Man, buried 300 metres away. Bowler's comprehensive study of different sediment layers has concluded that both graves are 40,000 years old.</p><p>This is much younger than the 62,000 years Mungo Man was attributed with in 1999 by a team led by Professor Alan Thorne, of the Australian National University. Thorne is the country's leading opponent of the 'Out of Africa' theory – that modern humans spread around the globe from Africa about 100,000 years ago. The revision of Mungo Man's age has refocused attention on academic disputes about mankind's origins.</p><p>The arrival date of these early Australians is linked to another vexed question: the reason for the disappearance of the megafauna. Dr Tim Flannery, a proponent of the controversial theory that these animals were wiped out by the extreme hunting practices of humans, claims that the new Mungo dates support this view. For Bowler, however, these debates are speculative distractions. At 40,000 years old, he argues, Mungo Man and Mungo Lady remain Australia's oldest human burials and the earliest evidence on Earth of cultural sophistication. 'At Lake Mungo, we have a cameo of people reacting to environmental change. It is one of the great stories of the people of the world.'</p><p>Two rival groups of researchers have each attacked the techniques used by the other to ascertain the date of Mungo Man. In the 1999 study, Thorne's team used three techniques to date Mungo Man – bone, tooth enamel and sand. Bowler has strongly challenged the results ever since. Dating human bones is 'notoriously unreliable', he says. In addition, the sand sample used by Thorne's group was taken hundreds of metres from the burial site. Bowler has stated that it is not difficult 'to realise that the age of sand is not the same as the age of the grave'. He says his team's results are based on careful fieldwork, crosschecked between four laboratories, while Thorne's team misinterpreted the evidence, 'locked in a laboratory in Canberra'. Thorne counters that Bowler's team used one dating technique, while his used three. Best practice is to have at least two methods producing the same result. A Thorne team member, Professor Rainer Grün, says the fact that the latest results were consistent between laboratories doesn't mean they are correct. 'We now have two data sets that are contradictory. I do not have a plausible explanation.'</p><p>Thorne recently made headlines with a study of Mungo Man's DNA, which he claimed supported his idea that modern humans developed from archaic humans in several places around the world, rather than emerging from Africa a relatively short time ago. Now, however, Thorne says the age of Mungo Man is irrelevant. Recent fossil finds show that modern humans were in China 110,000 years ago. 'So he has a long time to arrive in Australia. It doesn't matter if he is 40,000 or 60,000 years old.'</p><p>In 2001, a member of Bowler's team, Dr Richard Roberts of Wollongong University, along with Flannery, Director of the South Australian Museum, published research on the extinction of the megafauna. They dated 28 sites across the continent, arguing that their analysis showed that the megafauna died out suddenly 46,600 years ago. This conclusion has been challenged by other scientists, including Dr Judith Field of the University of Sydney and Dr Richard Fullager of the Australian Museum, who point to the presence of megafauna fossils at the 36,000-year-old Cuddie Springs site in NSW.</p><p>Flannery praises the Bowler team's research as thorough and rigorous. He says the finding that humans arrived at Lake Mungo between 46,000 and 50,000 years ago supports the idea that that was a critical time in Australia's history. There is no evidence of a dramatic climate change at that time, he says. 'It's my view that humans arrived and megafauna extinction took place in almost the same geological instant.' Bowler, however, is sceptical of Flannery's theory about the disappearance of the giant animals. He argues that climate change 40,000 years ago was more intense than has been previously realised and could have played an important role in their extinction.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 1–8</h3>Look at the following theories (Questions 1–8) and the list of researchers below. Match each theory with the correct researcher(s), <strong>A–F</strong>.<strong>NB</strong>&nbsp; You may use any letter more than once.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Jim Bowler"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Alan Thorne"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Tim Flannery"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Rainer Grün"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Richard Roberts and Tim Flannery"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Judith Field and Richard Fullager"
+              }
+            ],
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Our human ancestors did not originate in only one area."
+              },
+              {
+                "number": 2,
+                "textHtml": "The extinction of the megafauna happened within a brief period."
+              },
+              {
+                "number": 3,
+                "textHtml": "The megafauna died out as a result of human activity."
+              },
+              {
+                "number": 4,
+                "textHtml": "The similarity of results does not always guarantee their validity."
+              },
+              {
+                "number": 5,
+                "textHtml": "How old Mungo Man is, is unimportant."
+              },
+              {
+                "number": 6,
+                "textHtml": "There is evidence to disprove the theory of mass megafauna extinction."
+              },
+              {
+                "number": 7,
+                "textHtml": "An extreme environmental change occurred at the time that humans first moved into the Lake Mungo area."
+              },
+              {
+                "number": 8,
+                "textHtml": "The earliest evidence of advanced human culture is found in Australia."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 9–13</h3>Do the following statements agree with the information given in Reading Passage 1? In boxes 9–13, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 9,
+                "textHtml": "Objects found in the Lake Mungo area were used to date the arrival of humans."
+              },
+              {
+                "number": 10,
+                "textHtml": "Ancient weapons were found in the Lake Mungo area."
+              },
+              {
+                "number": 11,
+                "textHtml": "Scientists agree about the age of Mungo Man."
+              },
+              {
+                "number": 12,
+                "textHtml": "Thorne's research involved analysing more than one material."
+              },
+              {
+                "number": 13,
+                "textHtml": "Bowler has criticised the research methods used by Thorne."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "The Attraction of Video Games",
+        "passageHtml": "<p>The world's love of video games has much to do with people's desires and motives · Read the text and answer questions 14–26</p><p><strong>A</strong></p><p>Video games, it is often claimed, are about wasting time. It is a misunderstanding that players and game makers have been trying to correct for many years. While movies and television are endlessly analysed in the media, games are often dismissed as irresponsible, unimportant by-products of the broader digital revolution.</p><p>But a growing number of experts disagree. This is, after all, an entertainment medium that worldwide makes $50b a year. Using ideas from psychology and sociology, theorists and designers suggest that our love of video games may actually have important things to tell us about our most basic desires and motivations.</p><p>Game design has become big business and has led to the creation of a multitude of companies. The industry attitude toward training has changed radically, says prominent game researcher Jesper Juul. \"I recall hearing professionals claim that game design was a strange and unteachable art, but now this attitude has mostly faded. Designing video games is increasingly recognised as a valid field of university study throughout the world.\"</p><p><strong>B</strong></p><p>Central to an understanding of games is the theory that games are fun because they teach us in a way that our brains prefer, that is, through systems and puzzles. Raph Koster, designer of multiplayer fantasy games, points out that an effective learning environment is one in which failure is acceptable, even welcomed. Accordingly, Koster says that in games, the player enters into a situation where the rules of the real world don't apply, and where being judged on success and failure isn't as significant a part of the experience.</p><p>When gaming, people feel free to try things and to learn, and not worry about what might happen.</p><p>Consistently, Koster says, the best games are the ones that provide us with interesting tools such as weapons or magic, and allow us to experiment with them. For example, in one early game, players are given the ability to jump, and can practise this for as long as they like, but to get to the next stage they need to master this ability so they can leap over an enemy and onto a platform. 'Games allow us to create these little systems where learning is controlled really brilliantly,' says Margaret Robertson, director at a London-based game design company. 'Something we don't talk about is that, actually, one of the strengths of games is the vague sense of disapproval that still surrounds them – they feel like something that's forbidden!' And that can, of course, be very exciting.</p><p><strong>C</strong></p><p>Another important element in the popularity of games is the player's ability to determine what happens. Games tap into our need to have direction; this is very obvious in games where we shape the lives of virtual humans, but it's becoming a vital element of action adventures too.</p><p>'Games are increasingly complex systems,' says Dan Pinchbeck, an experimental game designer. 'There's an emphasis on the pleasure of choosing and planning. We've moved quite dramatically away from the very first video games.' These games mostly involved the player merely reacting to events. But games then became more about approaching a situation and making a plan depending on your preferred play style.</p><p><strong>D</strong></p><p>Many studios design their games around reward systems. 'A good game will have progression at the end of each level, but it will also provide surprise rewards halfway through,' says Ben Weedon, a games studio consultant. 'In a game, you're essentially pressing the same buttons and doing the same things over and over again, so you need those occasional surprises to stay motivated.'</p><p><strong>E</strong></p><p>Games have constantly evolved over the years and continue to do so right up to the present. Now, incorporating a narrative structure into a game is becoming increasingly important. Many games have adopted Hollywood's three-act structure, which is designed to maintain our loyalty to a particular game. As in many films, a short final act is often used to give a sense of acceleration towards a preferably startling climax. Opening levels of games are also short, because this flatters us into thinking we're making good progress, whereas the middle levels are more extensive.</p><p><strong>F</strong></p><p>Games even tap into our friendships. The rise of multiplayer gaming means that gaming increasingly involves social interaction. And other businesses are taking notice and using this as an element in advertising their brands. Then there's the new concept of 'gamification', in which websites and smartphone apps are being designed like games, with high scores and achievement points to keep customers entertained. Research estimates that businesses spent more than $100m worldwide on gamification projects last year, a figure predicted to rise to $1.6b in the next four years.</p><p><strong>G</strong></p><p>So, in fact, games aren't just an insignificant fad, as some people might suggest. They fulfil intrinsic human needs, whether we are conscious of it or not. The loop of learning, control and rewards is at the heart of something very important, and very attractive.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–19</h3>Reading Passage 2 has six sections, <strong>A–F</strong>. Choose the correct heading for each section from the list of headings below. Write the correct number, <strong>i–vii</strong>, in boxes 14–19 on your answer sheet.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Being able to experiment without consequences"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Why stories are included in games"
+              },
+              {
+                "letter": "C",
+                "textHtml": "The key role of the unexpected for game players"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Transferring features of games to other types of products"
+              },
+              {
+                "letter": "E",
+                "textHtml": "The age group that games most appeal to"
+              },
+              {
+                "letter": "F",
+                "textHtml": "The development of the video game design industry"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Players' ability to control what occurs in games"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 20–23</h3>Look at the following statements (Questions 20–23) and the list of experts below. Match each statement with the correct expert, <strong>A–E</strong>.<strong>NB</strong>&nbsp; You may use any letter more than once.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Jesper Juul"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Raph Koster"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Margaret Robertson"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Dan Pinchbeck"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Ben Weedon"
+              }
+            ],
+            "questions": [
+              {
+                "number": 20,
+                "textHtml": "Players' involvement in games often includes thinking ahead."
+              },
+              {
+                "number": 21,
+                "textHtml": "The inclusion of unanticipated elements keeps players interested."
+              },
+              {
+                "number": 22,
+                "textHtml": "It's now accepted that creating video games is a skill that can be learned."
+              },
+              {
+                "number": 23,
+                "textHtml": "Early games were much simpler than more recent ones."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 24–26</h3>Complete the sentences below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>24.</strong>&nbsp; Koster believes that games remove people's fear of {{24}}.</p></div><div><p><strong>25.</strong>&nbsp; Robertson's view is that games feel exciting partly because of the {{25}} that is associated with them.</p></div><div><p><strong>26.</strong>&nbsp; Narrative games are often structured so that the first and last part are {{26}}.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Blind to Change",
+        "passageHtml": "<p>How much of the world around you do you really see? · Read the text and answer questions 27–40</p><p>Picture the following and prepare to be amazed. You're walking across a college campus when a stranger asks you for directions. While you're talking to him, two men pass between you carrying a wooden door. You feel a moment's irritation, but you carry on describing the route. When you've finished, you're told you've just taken part in a psychology experiment. \"Did you notice anything after the two men passed with the door?\" the stranger asks. \"No,\" you reply uneasily. He explains that the man who initially approached you walked off behind the door leaving him in his place. The first man now rejoins you. Comparing them, you notice that they are of different height and build and are dressed very differently.</p><p>Daniel Simons of Harvard University found that 50% of participants missed the substitution because of what is called change blindness. When considered with a large number of recent experimental results, this phenomenon suggests we see far less than we think we do. Rather than logging every detail of the visual scene, says Simons, we are actually highly selective. Our impression of seeing everything is just that. In fact, we extract a few details and rely on memory, or even our imagination, for the rest.</p><p>Until recently, researchers thought that seeing involved making pictures in the brain. By building detailed internal representations of the world, and comparing them over time, we could spot any changes. Then in Consciousness Explained, the philosopher Daniel Dennett claimed that our brains hold only a few salient details about the world – and that is why we are able to operate successfully. In 1996, researcher John Grimes provided early experimental support for this view, showing that people often fail to notice significant changes made to a scene during a saccade, the rapid eye movement that occurs when the eyes jump from one fixation point to another. This phenomenon, known as change blindness, demonstrates that we don't actually see as much of the world as we believe. While it might seem that our eyes capture every detail of a scene, our brains often only register a fraction of it, relying heavily on memory and inference to fill in the gaps. This selective attention has broader implications than we might expect, extending into many aspects of our daily lives.</p><p>The simple act of driving. How many times have you missed a traffic signal change because your attention was momentarily diverted? This is not just a matter of distraction but a failure of our visual system to detect changes that do not seem immediately relevant. Researchers have even demonstrated that people can miss significant alterations in visual scenes, such as the appearance or disappearance of large objects, especially when their attention is focused elsewhere. One famous experiment involved showing participants a video of a basketball game. They were instructed to count the number of passes made by one team. In the middle of the game, a man in a gorilla suit walked through the scene, yet many participants failed to notice him.</p><p>This experiment highlights how attention can be so narrowly focused on a specific task that we become blind to other, seemingly obvious, changes around us.</p><p>Simons' work on change blindness reveals how our brain constructs a coherent reality out of fragments. The brain's ability to focus on what's deemed important at the time can lead to significant gaps in our perception. We may believe that we are aware of everything happening around us, but in reality, we only see what we need to see at that moment.</p><p>The implications of change blindness extend beyond simple experiments. In real-world situations, such as witnessing a crime or driving, our selective attention can have serious consequences. Eyewitness testimonies, for instance, may be unreliable because individuals often do not register all the details of an event, especially if their attention was focused elsewhere. This raises important questions about how much we can trust our perceptions and memories. Psychologist Christopher Chabris, who worked with Simons on the gorilla experiment, argues that understanding the limitations of our perception can help us better understand how the brain works. Rather than assuming that we see the world as it is, we must recognize that our experience of reality is shaped by our expectations, prior knowledge, and the limited capacity of our visual system.</p><p>The phenomenon of change blindness underscores the complexity of human perception. Our brains, while powerful, are not perfect recording devices. They prioritize information, often missing or altering details in the process. This selective attention allows us to function in a complex world but also leaves us vulnerable to mistakes and misinterpretations. As we continue to explore the intricacies of perception, it becomes increasingly clear that what we see is not always what is there.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–33</h3>Choose the correct letter, <strong>A, B, C or D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "What is the main topic of the passage?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; The impact of selective attention on driving"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; The limitations of human perception and attention"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; The history of psychological experiments"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; The effectiveness of memory in recognising changes"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "What does Daniel Simons' experiment demonstrate?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; That people notice changes if they are significant"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; That people are always aware of their surroundings"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; That change blindness is a common phenomenon"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; That visual memory is accurate and reliable"
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "What was the result of the basketball game experiment?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; Most participants noticed the man in the gorilla suit"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; Only a few participants counted the passes correctly"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; Many participants failed to notice the man in the gorilla suit"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; Participants were distracted by the game and missed all changes"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "What did participants fail to notice in Simons' experiment?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; The change in the direction they were walking"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; The substitution of the person asking for directions"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; The presence of a wooden door between them"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; The sudden disappearance of the stranger"
+                  }
+                ]
+              },
+              {
+                "number": 31,
+                "textHtml": "What does the phenomenon of change blindness suggest?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; People can remember every detail they see"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; People often miss significant changes in their environment"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; Visual scenes are accurately captured by the brain"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; Our brains create detailed images of the world"
+                  }
+                ]
+              },
+              {
+                "number": 32,
+                "textHtml": "What did the basketball game experiment reveal about attention?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; Participants were more focused on the gorilla than the game"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; People are always aware of their surroundings"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; Attention to one task can lead to missing obvious changes"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; Visual distractions do not affect attention"
+                  }
+                ]
+              },
+              {
+                "number": 33,
+                "textHtml": "Why might eyewitness testimonies be unreliable, according to the passage?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; People tend to exaggerate what they see"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; Visual memories are often incomplete and selective"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; Witnesses are easily distracted during important events"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; Everyone perceives reality in the same way"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 34–36</h3>Do the following statements agree with the information given in Reading Passage 3? In boxes 34–36, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 34,
+                "textHtml": "Researchers have always believed that our brains capture every detail of a visual scene."
+              },
+              {
+                "number": 35,
+                "textHtml": "Daniel Dennett's theory suggested that our brains store detailed pictures of the world."
+              },
+              {
+                "number": 36,
+                "textHtml": "Eyewitness testimonies are completely reliable according to the passage."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 37–40</h3>Look at the following researchers (Questions 37–40) and the list of statements below. Match each researcher with the correct statement, <strong>A–F</strong>.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Suggested that the brain holds only a few details at a time"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Conducted the basketball game and gorilla suit experiment"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Demonstrated change blindness during eye movements"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Found that 50% of participants did not notice a change in a person"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Showed that people notice all changes if they are significant"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Studied the effects of long-term memory on perception"
+              }
+            ],
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "Daniel Simons"
+              },
+              {
+                "number": 38,
+                "textHtml": "Daniel Dennett"
+              },
+              {
+                "number": 39,
+                "textHtml": "Christopher Chabris"
+              },
+              {
+                "number": 40,
+                "textHtml": "John Grimes"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "developed from archaic humans in several places around the world"
+        }
+      },
+      "2": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "megafauna died out suddenly 46,600 years ago"
+        }
+      },
+      "3": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "wiped out by the extreme hunting practices of humans"
+        }
+      },
+      "4": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "doesn't mean they are correct"
+        }
+      },
+      "5": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "the age of Mungo Man is irrelevant"
+        }
+      },
+      "6": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "point to the presence of megafauna fossils at the 36,000-year-old Cuddie Springs site"
+        }
+      },
+      "7": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "climate change 40,000 years ago was more intense than has been previously realised"
+        }
+      },
+      "8": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "earliest evidence on Earth of cultural sophistication"
+        }
+      },
+      "9": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "leaving artefacts such as stone tools, which researchers used to determine"
+        }
+      },
+      "10": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "much younger than the 62,000 years Mungo Man was attributed with"
+        }
+      },
+      "12": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "Thorne's team used three techniques to date Mungo Man"
+        }
+      },
+      "13": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "Bowler has strongly challenged the results ever since"
+        }
+      },
+      "14": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "recognised as a valid field of university study"
+        }
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "an effective learning environment is one in which failure is acceptable"
+        }
+      },
+      "16": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "the player's ability to determine what happens"
+        }
+      },
+      "17": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "surprise rewards halfway through"
+        }
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "incorporating a narrative structure into a game is becoming increasingly important"
+        }
+      },
+      "19": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "gamification"
+        }
+      },
+      "20": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "the pleasure of choosing and planning"
+        }
+      },
+      "21": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "occasional surprises to stay motivated"
+        }
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "this attitude has mostly faded"
+        }
+      },
+      "23": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "These games mostly involved the player merely reacting to events"
+        }
+      },
+      "24": {
+        "accepted": [
+          "failure"
+        ],
+        "evidence": {
+          "snippet": "an effective learning environment is one in which failure is acceptable"
+        }
+      },
+      "25": {
+        "accepted": [
+          "disapproval"
+        ],
+        "evidence": {
+          "snippet": "the vague sense of disapproval that still surrounds them"
+        }
+      },
+      "26": {
+        "accepted": [
+          "short"
+        ],
+        "evidence": {
+          "snippet": "a short final act is often used"
+        }
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "understanding the limitations of our perception can help us better understand how the brain works"
+        }
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "this phenomenon suggests we see far less than we think we do"
+        }
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "many participants failed to notice him"
+        }
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "walked off behind the door leaving him in his place"
+        }
+      },
+      "31": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "we don't actually see as much of the world as we believe"
+        }
+      },
+      "32": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "attention can be so narrowly focused on a specific task"
+        }
+      },
+      "33": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "individuals often do not register all the details of an event"
+        }
+      },
+      "34": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "Until recently, researchers thought that seeing involved making pictures in the brain"
+        }
+      },
+      "35": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "the philosopher Daniel Dennett claimed"
+        }
+      },
+      "36": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "Eyewitness testimonies, for instance, may be unreliable"
+        }
+      },
+      "37": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "found that 50% of participants missed the substitution"
+        }
+      },
+      "38": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "our brains hold only a few salient details about the world"
+        }
+      },
+      "39": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "who worked with Simons on the gorilla experiment"
+        }
+      },
+      "40": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "during a saccade, the rapid eye movement"
+        }
+      }
+    },
+    "sets": []
+  }
+}

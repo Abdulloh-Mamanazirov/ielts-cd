@@ -1,0 +1,544 @@
+{
+  "slug": "listening-volume-8-test-3",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/vol-8-test-3-listening_202607/VOL%208%20TEST%203%20LISTENING.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 8, Test 3",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Beach Heads Travel — Customer Request Sheet</div><ul><li>Name: Duncan White</li><li>Group details: three adults and two children</li><li>Date of arrival: {{1}} <em>(staying for 2 weeks)</em></li></ul><p>Week One</p><p><strong>Accommodation:</strong></p><ul><li>book a {{2}} on the beach</li><li>budget is around ${{3}} a night</li></ul><p><strong>Activities:</strong></p><ul><li>the children want to go {{4}}</li><li>arrange for them to have a {{5}}</li><li>book a time for Susan and Jenny to play {{6}}</li><li>Duncan wants to go {{7}}</li></ul><p>Week Two</p><p><strong>Accommodation:</strong></p><ul><li>National Park — book a {{8}} ($100 per night)</li></ul><p><strong>Activities:</strong></p><ul><li>arrange a {{9}} for Jenny</li><li>send Duncan a {{10}} for Marco's</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "button"
+              },
+              {
+                "letter": "B",
+                "textHtml": "website"
+              },
+              {
+                "letter": "C",
+                "textHtml": "helmet"
+              },
+              {
+                "letter": "D",
+                "textHtml": "light"
+              },
+              {
+                "letter": "E",
+                "textHtml": "locker"
+              },
+              {
+                "letter": "F",
+                "textHtml": "password"
+              },
+              {
+                "letter": "G",
+                "textHtml": "rack"
+              },
+              {
+                "letter": "H",
+                "textHtml": "screen"
+              },
+              {
+                "letter": "I",
+                "textHtml": "sound"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Select a bike by using the 11"
+              },
+              {
+                "number": 12,
+                "textHtml": "Release the bike by using the 12 of your chosen bike"
+              },
+              {
+                "number": 13,
+                "textHtml": "Remove the bike from the 13 (you have ten seconds)"
+              },
+              {
+                "number": 14,
+                "textHtml": "Make sure you have a 14 before setting off"
+              },
+              {
+                "number": 15,
+                "textHtml": "At the end of your journey, return the bike to a station and secure it in place(a 15 will tell you the bike is locked correctly)"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "Coffee cart"
+              },
+              {
+                "number": 17,
+                "textHtml": "Workshop"
+              },
+              {
+                "number": 18,
+                "textHtml": "Lockers"
+              },
+              {
+                "number": 19,
+                "textHtml": "Showers"
+              },
+              {
+                "number": 20,
+                "textHtml": "Towel"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 21–23</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Products using renewable energy sources</div><p><strong>a) Kites produced by German company</strong></p><ul><li>are attached to ships by long cables</li><li>can use wind power in any {{21}}</li><li>could reduce toxic emissions by 50%</li></ul><p><strong>b) Sports car produced by US company</strong></p><ul><li>uses {{22}} as a power source</li><li>will have zero emissions</li></ul><p><strong>c) Ethanol stoves produced in South Africa</strong></p><ul><li>are safer than paraffin stoves</li><li>less likely to {{23}}</li></ul></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 24 and 25</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 24,
+                "textHtml": "<strong>24 &amp; 25</strong> &nbsp;Who will Sylvia and Greg ask to take part in the survey?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "companies"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "lecturers"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "local residents"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "schoolchildren"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "university students"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "&nbsp;What does Sylvia say about people's knowledge of renewable energy?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Many people know little about it."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "People understand it because it has been in the news recently."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "People are eager to find out more about it."
+                  }
+                ]
+              },
+              {
+                "number": 27,
+                "textHtml": "&nbsp;What do Sylvia and Greg decide to ask about traditional energy consumption?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the best way of preventing pollution"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "possible future developments"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how expensive people find it"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "&nbsp;What does Greg say about nuclear power?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It is not important for their survey."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "People today have a positive attitude towards it."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Some people think it is unsafe."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "&nbsp;What do Sylvia and Greg agree about the cost of renewable energy?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Prices will drop in the future."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "People won't pay the high price."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The benefits outweigh the high cost."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "&nbsp;Sylvia and Greg agree that modern windmills",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "are the most efficient way of harnessing energy."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "should be put in carefully selected locations."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "make the landscape look unattractive."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Absence from work</div><p>Absence may be frequent or occasional.</p><p>Main factors involved</p><ul><li>the {{31}} of employees (e.g. females are likely to have responsibility for children)</li><li>employees' {{32}} (but the evidence is inconclusive)</li><li>the {{33}} of the organization (absenteeism may be acceptable)</li><li>the type of work (higher absence among employees in {{34}})</li><li>the {{35}} of an employee's work group</li></ul><p>Public sector versus private sector</p><ul><li>public sector has higher absence levels</li><li>possible explanation — the public sector is less {{36}}</li><li>systems may be more bureaucratic because of {{37}} factors (e.g. state controls)</li><li>more recent literature suggests public sector organisations usually: <ul><li>— have a {{38}} workforce</li><li>— have more female and more older employees</li><li>— provide {{39}} for longer, with fewer restrictions</li><li>— are less likely to {{40}} employees</li></ul></li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "october 15",
+          "15 october",
+          "15th october",
+          "october 15th",
+          "15th",
+          "15"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "hotel"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "175"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "sailing"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "class",
+          "a class"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "golf"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "fishing"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "caravan"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "massage",
+          "a massage"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "menu",
+          "a menu"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "weather"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "electricity"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "explode"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "gender"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "attitude",
+          "attitudes"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "culture"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "industry"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "size"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "efficient"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "external"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "larger"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "benefits",
+          "benefit"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "dismiss"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          24,
+          25
+        ],
+        "accepted": [
+          "A",
+          "E"
+        ]
+      }
+    ]
+  }
+}

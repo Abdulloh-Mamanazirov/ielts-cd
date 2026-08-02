@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 1, Test 2",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -385,17 +385,26 @@
       "1": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the company was rarely in a hurry to transport its merchandise"
+        }
       },
       "2": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "its priority was to minimise costs by carrying as much as possible on each ship"
+        }
       },
       "3": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the round trip lasted almost two years"
+        }
       },
       "4": {
         "accepted": [
@@ -405,22 +414,34 @@
       "5": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "many were bought by merchants or their captains, who continued to plough the seas between Britain and China"
+        }
       },
       "6": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the fresher and earlier-picked the tea, the better the resulting drink"
+        }
       },
       "7": {
         "accepted": [
           "sails"
-        ]
+        ],
+        "evidence": {
+          "snippet": "masses of sails on tall masts"
+        }
       },
       "8": {
         "accepted": [
           "storms"
-        ]
+        ],
+        "evidence": {
+          "snippet": "making them less powerful during storms"
+        }
       },
       "9": {
         "accepted": [
@@ -430,37 +451,58 @@
       "10": {
         "accepted": [
           "ports"
-        ]
+        ],
+        "evidence": {
+          "snippet": "new ports were opened up for trade in China"
+        }
       },
       "11": {
         "accepted": [
           "paperwork"
-        ]
+        ],
+        "evidence": {
+          "snippet": "sometimes not even taking time to fill out the official paperwork"
+        }
       },
       "12": {
         "accepted": [
           "tugs"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they would be towed by tugs"
+        }
       },
       "13": {
         "accepted": [
           "money"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The cargo of the winning ship could earn a premium"
+        }
       },
       "14": {
         "accepted": [
           "visual memory"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Such birds possess a highly developed visual memory"
+        }
       },
       "15": {
         "accepted": [
           "migration direction"
-        ]
+        ],
+        "evidence": {
+          "snippet": "They appear to choose their normal migration direction"
+        }
       },
       "16": {
         "accepted": [
           "destination"
-        ]
+        ],
+        "evidence": {
+          "snippet": "fly west of their destination, and so fail to arrive"
+        }
       },
       "17": {
         "accepted": [
@@ -471,17 +513,26 @@
         "accepted": [
           "albatross",
           "laysan albatross"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a laysan albatross returned to its nesting area on Midway Island"
+        }
       },
       "19": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "If the birds are transported 800 kilometres from their nest"
+        }
       },
       "20": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Birds are caught at a time when they show an attachment to their territory"
+        }
       },
       "21": {
         "accepted": [
@@ -491,42 +542,66 @@
       "22": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Schuz caught first year European storks and released them later"
+        }
       },
       "23": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Domestic pigeons have been trained to peck at a certain point on an aerial photograph"
+        }
       },
       "24": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "seven out of nine alpine swifts were recaptured at their nests"
+        }
       },
       "25": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the birds unanimously headed south-west"
+        }
       },
       "26": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The adults, in full possession of their gift for orientation, found their wintering area by modifying their direction"
+        }
       },
       "27": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they were surprised to discover that this time the rollers created flat flakes"
+        }
       },
       "28": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "conveys an impression of directedness and planning which does not at all coincide with the actual sequence of events"
+        }
       },
       "29": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Louis Daguerre, for instance, discovered the technique that gave us photography"
+        }
       },
       "30": {
         "accepted": [
@@ -541,27 +616,42 @@
       "32": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "In these sorts of environments, accidents are called failures and are discouraged"
+        }
       },
       "33": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "companies that were skilled at innovation were usually not that skilled when it came to commercialisation"
+        }
       },
       "34": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Microsoft is a prime instance of this"
+        }
       },
       "35": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Accidents, they say, come from unlikely mental associations such as memories and vague connections"
+        }
       },
       "36": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "It means throwing together groups from diverse backgrounds"
+        }
       },
       "37": {
         "accepted": [
@@ -571,17 +661,26 @@
       "38": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Instead of wiping the unsuccessful product launch, Fosters used this lesson learned"
+        }
       },
       "39": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "there has been almost no promotion and its sales are generated more by word of mouth"
+        }
       },
       "40": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "convincing employees and shareholders to tolerate failure and not play it safe is a big thing to ask"
+        }
       }
     },
     "sets": []

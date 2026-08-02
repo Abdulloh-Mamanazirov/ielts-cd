@@ -1,0 +1,526 @@
+{
+  "slug": "listening-volume-7-test-3",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 7, Test 3",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Planning a party</div><p><em>Example</em> &nbsp; Reason for event: wife's <strong><u>promotion</u></strong></p><p>Event details</p><ul><li>Event option: large surprise party</li><li>Number of people: {{1}}</li><li>Date: {{2}}</li><li>Day of week: Friday</li><li>Time: 6 – 10 p.m.</li><li>Location: the {{3}} Room</li><li>Type of music: {{4}}</li></ul><p>Food</p><ul><li>Service option: {{5}}</li><li>Flavour of cake: {{6}}</li><li>Message on cake: {{7}}</li></ul><p>Payment</p><ul><li>Reservation fee paid: $100</li><li>Credit card type: Mastercard</li><li>Credit card number: {{8}}</li><li>Name: Brian {{9}} Troy</li><li>Additional fees: extra charge for {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11 and 12</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;Joan normally gets up at",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "5.30 a.m."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "6.30 a.m."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "7.30 a.m."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;Joan's first task of the day is to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "clean the horses."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "organise her son."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "do farm work."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 13 and 14</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the summary below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><p>Joan's official title in Riding for the Disabled (RDA) is chairperson. In her local district there are at present twenty-two riders and {{13}} helpers on the volunteer list, out of whom {{14}} come regularly.</p></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 15–18</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": ","
+              },
+              {
+                "letter": "B",
+                "textHtml": "or"
+              },
+              {
+                "letter": "C",
+                "textHtml": ", next to questions 15–18."
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "correspondence"
+              },
+              {
+                "number": 16,
+                "textHtml": "fund-raising"
+              },
+              {
+                "number": 17,
+                "textHtml": "calling riders"
+              },
+              {
+                "number": 18,
+                "textHtml": "organising accounts"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-4",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 19 and 20</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Joan says the <strong>TWO</strong> ways the RDA needs to improve are by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "giving special training."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "making fund-raising more effective."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "opening more RDA centres."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "providing more helpers."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "recognising difficulties of disabled riders."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21 and 22</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> topics were the aims of the geography lesson related to?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "global interdependency"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "manufacturing method"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the environmental impact of trade"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "transport systems"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the development of writing tools"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 23 and 24</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Which <strong>TWO</strong> problems do Dean and Hannah identify in their lesson?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the materials"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the student grouping"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the lesson structure"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the teacher coordination"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the timing"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "export routes"
+              },
+              {
+                "letter": "B",
+                "textHtml": "future"
+              },
+              {
+                "letter": "C",
+                "textHtml": "talk"
+              },
+              {
+                "letter": "D",
+                "textHtml": "homework"
+              },
+              {
+                "letter": "E",
+                "textHtml": "worksheet"
+              },
+              {
+                "letter": "F",
+                "textHtml": "history"
+              },
+              {
+                "letter": "G",
+                "textHtml": "producers"
+              },
+              {
+                "letter": "H",
+                "textHtml": "methods of transport"
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": ""
+              },
+              {
+                "number": 26,
+                "textHtml": ""
+              },
+              {
+                "number": 27,
+                "textHtml": ""
+              },
+              {
+                "number": 28,
+                "textHtml": ""
+              },
+              {
+                "number": 29,
+                "textHtml": ""
+              },
+              {
+                "number": 30,
+                "textHtml": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>The world's oldest mechanical computer: the Antikythera mechanism</div><p>Discovery</p><ul><li>It was part of a ship's {{31}}, found in the sea near Antikythera, in Greece.</li><li>It was wrongly thought to be a piece of {{32}}.</li><li>It was later found to be a mechanism that had broken into pieces.</li></ul><p>Equipment used for analysis of the mechanism</p><ul><li>“Dome” — produces photographs which make the {{33}} clearer</li><li>“BladeRunner” — produces X-rays</li><li>originally used to identify {{34}} in engines</li></ul><p>Description</p><p>The mechanism consisted of:</p><ul><li>30 or more gear wheels made of {{35}}</li><li>models of the sun, moon and planets</li><li>a framework made of {{36}}</li></ul><p>How the mechanism was used</p><ul><li>The operator turned a {{37}} to move the gear wheels.</li><li>The sun, moon and planets could be moved into their correct positions for any date.</li><li>Most surprisingly, the mechanism could calculate when an {{38}} would occur.</li><li>It may have been used as a {{39}} when planning festivals.</li></ul><p>Later use of similar technology</p><ul><li>13th – 14th centuries: used for making {{40}} in Western Europe.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "80"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "26 september",
+          "26th september",
+          "september 26",
+          "september 26th"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "king"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "jazz"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "table"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "lemon"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "congratulations"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "5544120043268887"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "sebastian"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "service"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "40"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "25"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "cargo"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "rock"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "inscriptions"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "cracks"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "metal"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "wood"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "handle"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "eclipse"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "calendar"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "clocks"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "B",
+          "E"
+        ]
+      },
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "A",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "B",
+          "E"
+        ]
+      }
+    ]
+  }
+}

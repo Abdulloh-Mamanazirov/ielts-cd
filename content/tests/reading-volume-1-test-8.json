@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 1, Test 8",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -366,67 +366,106 @@
       "1": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Dried leaves from a nearby bush fell into the boiling water"
+        }
       },
       "2": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "first definitive book was written on tea, a book clearly reflecting Zen Buddhist philosophy"
+        }
       },
       "3": {
         "accepted": [
           "I"
-        ]
+        ],
+        "evidence": {
+          "snippet": "elevated to an art form in the Japanese tea ceremony"
+        }
       },
       "4": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "first European to personally encounter tea and write about it was Portuguese"
+        }
       },
       "5": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "immediately made it the domain of the wealthy"
+        }
       },
       "6": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "doctors and university authorities in Holland argued as to its benefits or drawbacks"
+        }
       },
       "7": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "craze for all things oriental swept through Europe"
+        }
       },
       "8": {
         "accepted": [
           "J"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the journey was not easy"
+        }
       },
       "9": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "public largely ignored the scholarly debate and continued to enjoy their new beverage"
+        }
       },
       "10": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Tea remained popular in France for only about fifty years, being replaced"
+        }
       },
       "11": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "particular form of architecture for tea house"
+        }
       },
       "12": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "average caravan consisted of 200 to 300 camels"
+        }
       },
       "13": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Emperor Shen Nung was a skilled ruler, creative scientist"
+        }
       },
       "14": {
         "accepted": [
@@ -453,95 +492,149 @@
           "950 degrees",
           "950 degress",
           "950"
-        ]
+        ],
+        "evidence": {
+          "snippet": "up to 950 degrees after another 20 to 30 minutes"
+        }
       },
       "19": {
         "accepted": [
           "60 minutes",
           "60 mins",
           "60"
-        ]
+        ],
+        "evidence": {
+          "snippet": "In less than 60 minutes the filters are finished"
+        }
       },
       "20": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "initial research found the local clay to be too fine"
+        }
       },
       "21": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "used coffee grounds have given the best results to date"
+        }
       },
       "22": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the fuel can reach a temperature of 700 degrees in half an hour"
+        }
       },
       "23": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "remove common pathogens (disease-producing organisms) including E-coli"
+        }
       },
       "24": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "charity wanted to help set up a small industry manufacturing water filters"
+        }
       },
       "25": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "passages through the filter that are wide enough for water droplets to pass through, but too narrow for pathogens"
+        }
       },
       "26": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "no plans to patent his idea, there will be no legal obstacles"
+        }
       },
       "27": {
         "accepted": [
           "sound laws"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Such regular changes are often called sound laws"
+        }
       },
       "28": {
         "accepted": [
           "fashion"
-        ]
+        ],
+        "evidence": {
+          "snippet": "It is also possible that fashion plays a part"
+        }
       },
       "29": {
         "accepted": [
           "imperfect"
-        ]
+        ],
+        "evidence": {
+          "snippet": "imitation of children is imperfect"
+        }
       },
       "30": {
         "accepted": [
           "principle of ease",
           "minimization of effort"
-        ]
+        ],
+        "evidence": {
+          "snippet": "One such force which is often invoked is the principle of ease"
+        }
       },
       "31": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "various sources of evidence for the pronunciations of earlier times"
+        }
       },
       "32": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "great social changes of the period: the increased power and wealth of the middle classes"
+        }
       },
       "33": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "it is also true that such deviations from adult speech are usually corrected"
+        }
       },
       "34": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "if they are merely random deviations they will cancel one another out and there will be no net change"
+        }
       },
       "35": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Greater efficiency has hereby been achieved, because /n/ and /t/ are articulated in the same place"
+        }
       },
       "36": {
         "accepted": [
@@ -551,22 +644,34 @@
       "37": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "temporary, which in Britain is often pronounced as if it were tempory"
+        }
       },
       "38": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "all the [b] consonants in a certain position"
+        }
       },
       "39": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "word scant was once skamt, but the /m/ has been changed to /n/"
+        }
       },
       "40": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "At one time there was a [t] in words like castle and Christmas"
+        }
       }
     },
     "sets": []

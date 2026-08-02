@@ -1,0 +1,665 @@
+{
+  "slug": "reading-volume-9-test-3",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 9, Test 3",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "New Understanding of Giraffes in the Wild",
+        "passageHtml": "<p>Read the text and answer questions 1–13</p><p>Even as the tallest animals on Earth, giraffes can be easy to overlook. Despite being a favorite in zoos, until recently almost nobody studied giraffes in the wild. 'When I first became interested in giraffes in 2008 and started looking through the scientific literature, I was really surprised to see how little had been done,' said Megan Strauss, an animal researcher at the University of Minnesota, USA. All that is changing fast, as a growing number of researchers seek to understand the biology and complex behavior of this graceful giant in its native habitat.</p><p>Giraffes, found throughout sub-Saharan Africa, are currently classified as a single species with up to nine varieties that differ by features like head shape and whether the fur on their legs is plain or patterned. The giraffe is not listed as endangered, but researchers point to evidence that in the past 15 years, the population has fallen some 40 percent.</p><p>Recent studies have allowed researchers new insights into giraffes' social structures. Groups of female giraffes, for example, have been found to form close friendships that can last for years. 'We're just at the beginnings of trying to understand this kind of behavior,' Dr Strauss said. Female giraffes can live 20 years or more, and it makes sense they might rely on each other for clues to the best feeding grounds, help with taking care of their young, or the reduction of stress, by staying in groups.</p><p>Mother giraffes have displayed signs of grief after losing their young, known as calves, to lions. Dr Strauss described one case in which a mother spent four days at the place where a lion had eaten her calf, refusing food, and often in the company of two other adult females. Giraffe calves are extremely vulnerable to predators, and though mothers will fight valiantly to keep their young alive - kicking forward and backward - half of all calves are killed in their first year of life.</p><p>Male giraffes, known as bulls, generally become more important with age, and older bulls display that dominance physically and behaviorally: as their neck muscles grow, the male's posture becomes prouder and more vertical. Recent observations show young bulls, when left on their own, mimicking their elders: head held high and neck puffed out. But should a dominant older bull come into view, the younger males instantly try to make themselves look small and innocent.</p><p>The younger bulls have reason to fear their elders. Clashes have been witnessed between adults when each bull repeatedly 'necks' the other, using his massive neck to slam his head against his rival. One bull somehow survived with a broken neck.</p><h5>Physical features of giraffes: study findings</h5><p>The skin of a giraffe is mostly gray. The coat has dark patches separated by light hair, which serves as camouflage, allowing them to blend in with the light and shade patterns of the acacia trees from which they feed. Grazing giraffes are hard to see even a few meters away.</p><p>Research indicates that giraffes also have excellent sight, can see in color and over great distances, which helps them to spot lions and keep track of each other. In addition, a giraffe's extraordinary mouth has lips and tongue that can together grasp a branch and then pluck away the leaves while avoiding thorns, almost as humans would grab with their hands. Each day, a giraffe consumes about 30 kilograms of leaves, shoots and vines, all digested in its four-chambered stomach.</p><p>A giraffe can stand more than six meters tall, with its neck accounting for roughly a third of its height and its legs the same. The giraffe's long neck is due to the length of the vertebrae, not the number of vertebrae. The growth of the neck largely takes place during early childhood, as giraffe mothers would have a difficult time giving birth to young with longer necks. The giraffe's head and neck are held up by large muscles attached to the lower spine.</p><p>Recent studies show that the greatest challenge to the giraffe's cardiovascular system is how to both pump blood very high and retrieve it from far below. The outside of a giraffe's veins are extremely thick, to prevent blood leaking into surrounding tissue. Other adaptations in the cardiovascular system allow the giraffe to bend over for a drink of water, and then raise its head again quickly without fainting.</p><p>Researchers were also surprised to find that a giraffe does not have an unusually large heart. It is half a percent of body mass, the same as in a mouse. Moreover, the amount of blood pumped into circulation is modest, proportionally lower than it is in humans. That could help explain why giraffes rarely run for very long: enough oxygen cannot be delivered to their muscles fast enough for them to keep running. Or maybe the giraffes are worried about tripping over their own feet. This is because signals from the nerves travel at about the same speed in giraffes as in rats or other mammals. Given the greater distance they have to travel in the giraffe to reach the brain, it is possible the giraffe faces real challenges in reacting quickly to a rock beneath its hoof or a bite to its ankle.</p><p>New understanding of this wonderful animal sheds light on both its physiology and its behavior. Researchers hope to use this knowledge to increase their ability to work with preservation, as its habitat is reduced and the giraffe becomes scarcer.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–7</h3>Choose <strong>TRUE</strong> if the statement agrees with the information, <strong>FALSE</strong> if it contradicts the information, or <strong>NOT GIVEN</strong> if there is no information on this.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "The amount of research on giraffes in their natural environment has increased lately."
+              },
+              {
+                "number": 2,
+                "textHtml": "Megan Strauss disapproves of keeping giraffes in zoos."
+              },
+              {
+                "number": 3,
+                "textHtml": "The number of giraffes in Africa has nearly doubled."
+              },
+              {
+                "number": 4,
+                "textHtml": "Female giraffes tend to live longer than males."
+              },
+              {
+                "number": 5,
+                "textHtml": "Mother giraffes sometimes use their legs to defend their young."
+              },
+              {
+                "number": 6,
+                "textHtml": "Younger bulls hold their necks higher in the presence of more powerful males."
+              },
+              {
+                "number": 7,
+                "textHtml": "Male giraffes have been observed fighting."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 8–13</h3>Complete the table below. Write <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<table class=\"q-table\"><thead><tr><th>Physical feature</th><th>Study finding</th></tr></thead><tbody><tr><td>Skin / Coat</td><td>Provides {{8}} when standing near trees</td></tr><tr><td>Eyes</td><td>Let them look out for lions</td></tr><tr><td>Mouth</td><td>Can be used like {{9}} to get leaves</td></tr><tr><td>Neck</td><td>About equal in length to the legs; length develops in childhood to provide an easier {{10}} for mothers</td></tr><tr><td rowspan=\"2\">Cardiovascular system</td><td>Extra-strong {{11}} keep blood from spilling into other tissue</td></tr><tr><td>{{12}} normal size for such a large animal</td></tr><tr><td>Nerves</td><td>Slower reaction time because {{13}} need to go farther to the brain</td></tr></tbody></table>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Healthy Buildings, Productive People",
+        "passageHtml": "<p>Read the text and answer questions 14–26</p><p> Have you felt tired at your desk lately? According to new research, some often overlooked environmental factors within buildings - the degree or type of ventilation, airborne contaminants, lighting and noise levels, for example - can play a surprisingly large role in how good or bad you feel, and even how well you think. It is estimated that we spend more than 90 percent of our time inside, but builders in general have paid little attention to the health aspects of indoor spaces, instead focusing on superficial design features and on meeting minimum environmental standards to keep costs down.</p><p> Researchers at Harvard University in the US looked at the effects of indoor air quality on workers' cognitive performance - important both for health and for companies' bottom lines, says Joseph Allen, assistant professor of environmental health and principal investigator of the studies. 'The true cost of running our buildings should take into account the health and productivity of people in those buildings,' Allen says. In fact, an analysis by the team showed that the cost of making alterations that could boost cognitive performance significantly was minuscule compared with the related increase in productivity - about $40 per person, per year, compared with a $6,500 increase in employee productivity.</p><p> The team's first study, published in Environmental Health Perspectives, was conducted at the Syracuse Center of Excellence, a US research organization devoted to studying and developing sustainability. The center houses a laboratory that allows researchers to test a wide range of indoor air quality factors using sophisticated ventilation. Each day, the indoor environment was controlled with a ventilation system which included small amounts of carbon dioxide and volatile organic compounds, or VOCs - the toxic by-products of office supplies commonly found in the workplace. The office workers were blinded to the conditions. For six days over two weeks, 24 office workers with administrative, technical, professional or managerial jobs came to the lab and performed their regular work under minimal supervision, as well as participating in an hour and a half of cognitive testing at the end of the day. The cognitive tasks used in the study had participants respond to online scenarios that mimic real-life situations, such as running a city as a mayor. The findings are remarkable for showing in a well-controlled study, that indoor air quality can significantly lower cognitive performance in buildings that would otherwise meet current building standards, notes environmental psychologist Craig Zimring, director of Georgia Tech University's SimTigrate Design Lab in the US. 'If these findings are replicated in other labs and in real-world work environments,' he says, 'they could lead to designs that provide much more outside air through mechanical ventilation or operable windows, for example' - in turn, promoting better health and performance.</p><p> In a second study, reported in Building and Environment, the Harvard-Syracuse team moved from the lab to the real world. Using the same methodology, they compared test scores of 109 people working in 10 buildings - about 12 people per site - in two buildings in each of five cities. When the team examined the buildings for differences, they found that certified buildings had lower humidity levels and brighter light than the non-certified buildings. That said, the differences in humidity and lighting didn't entirely explain the differing cognitive function scores of people on the job. This has led researchers to believe that other factors, such as how someone feels about their working environment, may also play a part, notes Harvard research fellow Piers MacNaughton, who led the study.</p><p> A recently constructed building on the Washington University campus in St. Louis, US, is providing another opportunity to examine how green building design can affect health and behavior. Hillman Hall was designed with the highest environmental and energy standards available, as well as design elements intended to foster more collaboration and physical activity, says Amy Eyler, associate professor and assistant dean for public health at the Brown School at Washington University. The design includes easy access to stairways, plenty of natural light, generous spaces for collaboration, desks that allow people to sit or stand up, and inviting places to walk. Unlike traditional hallways designed as long corridors with private offices to either side, for example, these hallways include classrooms, offices and spaces to sit, so they are multi-use - 'you have many reasons to walk them,' says Eyler. To test how the building might affect people's behavior, Eyler conducted a pre-test before people moved in, and a post-test one year later. Her team collected data on the three main features the designers were attempting to foster: physical activity, collaboration and sustainable practices. Results showed that people were more likely to take part in spontaneous collaborations in the new space than in the older ones, and to be physically active.</p><p> Like other researchers in this growing field, Eyler sees multidisciplinary collaboration as the key to success. Administrators, public health faculty and architects worked together to create a building that captured the university's vision for a space that fosters collegial work and health for faculty, staff and students - a shared goal evidenced by the fact that the architecture firm that designed the building also funded part of the research. 'Complex projects like this one need teams of people with varied backgrounds and expertise in order to solve them,' Eyler says.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14-19</h3>Choose the correct heading for each paragraph. Drag each heading into the box above the correct paragraph in the passage on the left (or tap a heading, then tap the box).",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "The effects of a new environmentally friendly building on the people who work there"
+              },
+              {
+                "letter": "B",
+                "textHtml": "The ability of well-designed workplaces to attract the best staff"
+              },
+              {
+                "letter": "C",
+                "textHtml": "The assessment of workplaces in several locations"
+              },
+              {
+                "letter": "D",
+                "textHtml": "The low priority given to making buildings healthy for users"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Achieving design efficiency by involving a range of specialists"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Workers were assessed outside of their usual workplace"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Workplace changes based on worker feedback"
+              },
+              {
+                "letter": "H",
+                "textHtml": "The financial benefits of efficient workplaces"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 20-23</h3>Match each statement with the correct researcher.<em>N.B. You may use any letter more than once.</em>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Joseph Allen"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Craig Zimring"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Piers MacNaughton"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Amy Eyler"
+              }
+            ],
+            "questions": [
+              {
+                "number": 20,
+                "textHtml": "Further investigations will result in improved wellbeing and efficiency."
+              },
+              {
+                "number": 21,
+                "textHtml": "A person's opinion of their workspace may influence how well they perform at work."
+              },
+              {
+                "number": 22,
+                "textHtml": "The design of a workplace can have an impact on how much staff work with their colleagues."
+              },
+              {
+                "number": 23,
+                "textHtml": "A worker's mental capacity may be considerably reduced due to their working environment."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 24–26</h3>Complete the summary below. Write <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div> Allen's first study was done at the Syracuse Center, which focuses on researching 24{{24}}. In this study, a complex ventilation system was used to control the airflow in the simulated workplace. All staff carried out normal duties during the day without much 25{{25}}. Later in the day participants were assessed as they performed tasks which required them to play a role, for example acting as 26{{26}} while dealing with practical problems. </div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Child's Play in Medieval England",
+        "passageHtml": "<p>Professor Nicholas Orme investigates childhood in the Middle Ages</p><p><strong>A</strong>&nbsp;&nbsp; 'Play up! Play up! And play the game!' The ringing chorus of Sir Henry Newbolt's celebrated cricket poem Vitai Lampada (1908) sums up views about play in 19th- and early 20th-century Britain. Children's play was important, and adults should regulate and direct it. Games promoted endurance, self-discipline and team spirit - qualities needed for the health of society and government. Newbolt was one in a long line of people who thought in this way. The notion that children's play should be used for educational and social purposes goes back at least to the ancient Greeks and the toys and games of medieval England tell us much about how adults then saw childhood. But they also reveal a good deal about children themselves, and cast light on what has recently become a controversial issue.</p><p><strong>B</strong>&nbsp;&nbsp; Forty years ago, the French historian Philippe Aries argued, in Centuries of Childhood, that childhood in the Middle Ages did not exist in its modern sense. Children were regarded by adults with relatively little affection and followed a way of life not very different from that of their elders. More recent historians have disputed this, pointing to plentiful signs of parental affection and arguing that childhood, by its very nature, must always have been much the same.</p><p><strong>C</strong>&nbsp;&nbsp; In this debate play is crucial. Did adults encourage it? If so, did they see it as recreational (by providing toys, for example) or as educational (making children play in particular ways)? Did children play as their elders told them, or did they invent their own games, away from adults and even against their wishes? These questions can be answered from a rich body of evidence including actual toys of the period, pictures of children's activities in contemporary manuscripts and literary sources such as religious works and dictionaries. We know not only how medieval English children played but what their elders thought on the subject.</p><p><strong>D</strong>&nbsp;&nbsp; We know, for example, that adults gave children toys from infancy onwards. In 1398 the writer John Trevisa describes babies playing with 'a child's brooch', an object similar in function to the bright plastic toys given to babies today to bite and handle. William Horman, 16th-century author of a Latin textbook, talks of buying a rattle to stop a baby crying. Indeed, by 1300 it appears there was a toy industry in England. Boys' toys often took military forms, such as the two metal soldiers of that date, found in London, and made from a mould. Girls had dolls, known before the 17th century as 'poppets' or puppets, commercially manufactured, imported and, in 1582, taxed at a halfpenny each. Not that children were by any means dependent on things that were bought for them. Gerald of Wales recalls how he and his brothers built towns, palaces, churches and monasteries from sand at Manorbier Castle in about 1150 (perhaps on the nearby beach).</p><p><strong>E</strong>&nbsp;&nbsp; Active games were universal. In his English-to-Latin dictionary of 1440, a mysterious recluse known as Geoffrey mentions children playing 'tennis' and swinging on what he calls a 'totter' or 'merrytotter'. Children chased each other, swam and played ball games. Boys in the later Middle Ages shot arrows with bows and archery is an example of a sport encouraged by adults, who wanted boys to grow up to play their part in what was, for most men, a warrior society.</p><p><strong>F</strong>&nbsp;&nbsp; However, by no means all children's military activity was directed by adults. In 1400, six months after King Richard II had been overthrown by Henry IV, the children of London gathered together and chose themselves kings. Adam of Usk tells us they congregated 'in thousands ... and made war upon each other ... whereby many died'. The new king had to order their parents and masters to stop them.</p><p><strong>G</strong>&nbsp;&nbsp; This willingness of children to take the initiative in play, not just to wait for adults to direct them, is evident in the way they observed the calendar. Medieval life was regulated by light, weather, crops and the Church's cycle of fasts and festivals. Children shared in the adult round of religious festivals, but had their own observances as well, semi-detached from their elders. In the 1200s, the priest Thomas Docking remarked that in spring a child 'follows the ploughman; in autumn he accompanies the grape-gatherers'. In 1518, the poet Alexander Barclay records children playing with tops in March, looking for fruit in summer and making footballs by filling pigs' bladders with dried peas in autumn.</p><p><strong>H</strong>&nbsp;&nbsp; It is clear from this evidence that the relationship between adults and children in medieval society was, in major respects, a modern one. Parents took an indulgent interest in their children, providing them with toys and giving them time to play. Children played in a wide variety of ways - imaginatively, skilfully, athletically and violently - developing their minds, bodies and social skills. Adults tried at times to direct play - partly to keep children in order, partly to give them skills for adult life - but children gravitated to one another and formed a culture of their own. We can answer Aries's thesis, then, with a resounding 'No!'. Childhood has always been much the same.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 27-31</h3>Which paragraph contains the following information?<em>N.B. You may use any letter more than once.</em>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "economic evidence for play in medieval England"
+              },
+              {
+                "number": 28,
+                "textHtml": "an example of how children created their own toys"
+              },
+              {
+                "number": 29,
+                "textHtml": "an example of warlike play approved by grown-ups"
+              },
+              {
+                "number": 30,
+                "textHtml": "a political event mirrored in children's play"
+              },
+              {
+                "number": 31,
+                "textHtml": "the origin of an academic debate about medieval life"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 32-35</h3>Match each date with the correct event.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "invention of cricket"
+              },
+              {
+                "letter": "B",
+                "textHtml": "children picking grapes"
+              },
+              {
+                "letter": "C",
+                "textHtml": "poem about value of games"
+              },
+              {
+                "letter": "D",
+                "textHtml": "early toy manufacturing in England"
+              },
+              {
+                "letter": "E",
+                "textHtml": "puppets first imported into England"
+              },
+              {
+                "letter": "F",
+                "textHtml": "dolls taxed in England"
+              },
+              {
+                "letter": "G",
+                "textHtml": "death of Adam of Usk"
+              },
+              {
+                "letter": "H",
+                "textHtml": "children playing tennis"
+              },
+              {
+                "letter": "I",
+                "textHtml": "children's gang warfare"
+              },
+              {
+                "letter": "J",
+                "textHtml": "a description of seasonal activities"
+              }
+            ],
+            "questions": [
+              {
+                "number": 32,
+                "textHtml": "1400"
+              },
+              {
+                "number": 33,
+                "textHtml": "1518"
+              },
+              {
+                "number": 34,
+                "textHtml": "1582"
+              },
+              {
+                "number": 35,
+                "textHtml": "1908"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 36–40</h3>Choose <strong>YES</strong> if the statement agrees with the claims of the writer, <strong>NO</strong> if it contradicts the claims, or <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 36,
+                "textHtml": "Little is known about adult attitudes to children's play in the Middle Ages."
+              },
+              {
+                "number": 37,
+                "textHtml": "Most toys were imported into England before 1300."
+              },
+              {
+                "number": 38,
+                "textHtml": "Medieval children celebrated the seasons in their own ways."
+              },
+              {
+                "number": 39,
+                "textHtml": "Medieval children made presents for their parents on special occasions."
+              },
+              {
+                "number": 40,
+                "textHtml": "Parents and children in the Middle Ages behaved much as they do today."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "All that is changing fast, as a growing number of researchers seek to understand"
+        }
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "the population has fallen some 40 percent"
+        }
+      },
+      "4": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "kicking forward and backward"
+        }
+      },
+      "6": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "the younger males instantly try to make themselves look small and innocent"
+        }
+      },
+      "7": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "Clashes have been witnessed between adults"
+        }
+      },
+      "8": {
+        "accepted": [
+          "camouflage"
+        ],
+        "evidence": {
+          "snippet": "which serves as camouflage"
+        }
+      },
+      "9": {
+        "accepted": [
+          "hands"
+        ],
+        "evidence": {
+          "snippet": "almost as humans would grab with their hands"
+        }
+      },
+      "10": {
+        "accepted": [
+          "birth"
+        ],
+        "evidence": {
+          "snippet": "giving birth to young with longer necks"
+        }
+      },
+      "11": {
+        "accepted": [
+          "veins"
+        ],
+        "evidence": {
+          "snippet": "The outside of a giraffe's veins are extremely thick"
+        }
+      },
+      "12": {
+        "accepted": [
+          "heart"
+        ],
+        "evidence": {
+          "snippet": "a giraffe does not have an unusually large heart"
+        }
+      },
+      "13": {
+        "accepted": [
+          "signals"
+        ],
+        "evidence": {
+          "snippet": "signals from the nerves travel"
+        }
+      },
+      "14": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "builders in general have paid little attention to the health aspects of indoor spaces"
+        }
+      },
+      "15": {
+        "accepted": [
+          "H"
+        ],
+        "evidence": {
+          "snippet": "compared with a $6,500 increase in employee productivity"
+        }
+      },
+      "16": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "24 office workers with administrative, technical, professional or managerial jobs came to the lab"
+        }
+      },
+      "17": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "109 people working in 10 buildings"
+        }
+      },
+      "18": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "how green building design can affect health and behavior"
+        }
+      },
+      "19": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "teams of people with varied backgrounds and expertise"
+        }
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "they could lead to designs that provide much more outside air"
+        }
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "how someone feels about their working environment"
+        }
+      },
+      "22": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "people were more likely to take part in spontaneous collaborations"
+        }
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "indoor air quality can significantly lower cognitive performance"
+        }
+      },
+      "24": {
+        "accepted": [
+          "sustainability"
+        ],
+        "evidence": {
+          "snippet": "devoted to studying and developing sustainability"
+        }
+      },
+      "25": {
+        "accepted": [
+          "supervision"
+        ],
+        "evidence": {
+          "snippet": "performed their regular work under minimal supervision"
+        }
+      },
+      "26": {
+        "accepted": [
+          "mayor"
+        ],
+        "evidence": {
+          "snippet": "such as running a city as a mayor"
+        }
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "by 1300 it appears there was a toy industry in England"
+        }
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "built towns, palaces, churches and monasteries from sand"
+        }
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "archery is an example of a sport encouraged by adults"
+        }
+      },
+      "30": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "six months after King Richard II had been overthrown by Henry IV"
+        }
+      },
+      "31": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "the French historian Philippe Aries argued"
+        }
+      },
+      "32": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "In 1400, six months after King Richard II"
+        }
+      },
+      "33": {
+        "accepted": [
+          "J"
+        ],
+        "evidence": {
+          "snippet": "In 1518, the poet Alexander Barclay records"
+        }
+      },
+      "34": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "in 1582, taxed at a halfpenny each"
+        }
+      },
+      "35": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "Vitai Lampada (1908)"
+        }
+      },
+      "36": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "We know not only how medieval English children played but what their elders thought"
+        }
+      },
+      "37": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "had their own observances as well"
+        }
+      },
+      "39": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "the relationship between adults and children in medieval society was, in major respects, a modern one"
+        }
+      }
+    },
+    "sets": []
+  }
+}

@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 2, Test 3",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -357,12 +357,18 @@
       "1": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Everybody knows that the dinosaurs became extinct as a result of a large asteroid"
+        }
       },
       "2": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "turned into the monsters realistically depicted in modern books and movies"
+        }
       },
       "3": {
         "accepted": [
@@ -372,157 +378,250 @@
       "4": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Dinosaur skeletons are rare. Dinosaur footprints are, however, surprisingly abundant"
+        }
       },
       "5": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "cannot be matched precisely within the species of animal that left them"
+        }
       },
       "6": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "four march confidently across the boundary into the Jurassic"
+        }
       },
       "7": {
         "accepted": [
           "ecological release"
-        ]
+        ],
+        "evidence": {
+          "snippet": "phenomenon called ecological release"
+        }
       },
       "8": {
         "accepted": [
           "dragons"
-        ]
+        ],
+        "evidence": {
+          "snippet": "referred to as dragons"
+        }
       },
       "9": {
         "accepted": [
           "competitors"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they face no competitors"
+        }
       },
       "10": {
         "accepted": [
           "overlooked"
-        ]
+        ],
+        "evidence": {
+          "snippet": "It may, of course, have been overlooked"
+        }
       },
       "11": {
         "accepted": [
           "vanished"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Alternatively, it may have vanished"
+        }
       },
       "12": {
         "accepted": [
           "tectonic processes"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the tectonic processes that bring about continental drift"
+        }
       },
       "13": {
         "accepted": [
           "misdated"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the crater is known, but has been misdated"
+        }
       },
       "14": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "getting germ-beating genes back into heirlooms won't harm the desirable aspects of the fruit. Modern breeding has resuscitated grocery store tomatoes with an influx of wild genes"
+        }
       },
       "15": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the myth about the heirloom's diversity is wrong"
+        }
       },
       "16": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "heirlooms' taste may have less to do with their genes than with the productivity of the plant and the growing environment"
+        }
       },
       "17": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "found a gene that increases fruit size by 50 percent. It was probably the most important event in domestication"
+        }
       },
       "18": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "took a gene from one heirloom tomato and inserted it into a wild relative. She observed that, as a result, the tiny fruits became shaped like pears"
+        }
       },
       "19": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "heirlooms' taste may have less to do with their genes than with the productivity of the plant and the growing environment"
+        }
       },
       "20": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "created a new multi-colored tomato less prone to cracking and also endowed with 12 disease-resistant genes"
+        }
       },
       "21": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "diversity of heirlooms can be accounted for by a handful of genes"
+        }
       },
       "22": {
         "accepted": [
           "archaeological"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a wealth of archaeological evidence on early farming practices"
+        }
       },
       "23": {
         "accepted": [
           "andes"
-        ]
+        ],
+        "evidence": {
+          "snippet": "its origins in the Andes in South America"
+        }
       },
       "24": {
         "accepted": [
           "currant"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The closest relative is the currant tomato"
+        }
       },
       "25": {
         "accepted": [
           "mutation"
-        ]
+        ],
+        "evidence": {
+          "snippet": "this mutation, which enlarges tomatoes by producing compartments known as locules"
+        }
       },
       "26": {
         "accepted": [
           "infections"
-        ]
+        ],
+        "evidence": {
+          "snippet": "They often suffer from infections that cause the fruit to crack"
+        }
       },
       "27": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the situation is much worse when architects work on municipal buildings"
+        }
       },
       "28": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The major challenge of the gallery renovation project was that it involved two parts. The first was to restore the heritage building"
+        }
       },
       "29": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "certain groups are intimidated from entering certain spaces by their off-putting atmosphere"
+        }
       },
       "30": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "gallery was fatally out of step at a time when New Zealand's national museum"
+        }
       },
       "31": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "ensuring the gallery emphasised Maori beliefs"
+        }
       },
       "32": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "an old building that served a limited range of patrons with highbrow interests"
+        }
       },
       "33": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "King's misconceptions sum up the prejudice that surrounded the project"
+        }
       },
       "34": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "project's relationship with parkland is one of the most successful outcomes"
+        }
       },
       "35": {
         "accepted": [
@@ -532,27 +631,42 @@
       "36": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a far cry from both 'white cube' galleries worldwide"
+        }
       },
       "37": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Edwardian decoration had been stripped out or walled away in previous renovations"
+        }
       },
       "38": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the Mackelvie space has been reconstructed from two old photos"
+        }
       },
       "39": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the problem of multiple floor levels was so serious that scaffolding had to be erected"
+        }
       },
       "40": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the lowest level visible under glass embedded in the new floor, the building itself as artwork"
+        }
       }
     },
     "sets": []

@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 2, Test 2",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -395,27 +395,42 @@
       "3": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "eight out of the top ten were found there"
+        }
       },
       "4": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "An even bigger nugget was found ten years later, when on 5th February 1869 the Welcome Stranger nugget was discovered"
+        }
       },
       "5": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Such sports were called duffer claims because they were thought to be useless. However, in this case the plan backfired"
+        }
       },
       "6": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Only the top of the specimen remains, cut off by Holtermann as a souvenir"
+        }
       },
       "7": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "This second monster was broken up below ground"
+        }
       },
       "8": {
         "accepted": [
@@ -423,151 +438,238 @@
           "3 centimetres",
           "three centimeters",
           "3 centimeters"
-        ]
+        ],
+        "evidence": {
+          "snippet": "digging only three centimetres"
+        }
       },
       "9": {
         "accepted": [
           "stone monument",
           "a stone monument"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A Stone monument marks where it was found"
+        }
       },
       "10": {
         "accepted": [
           "gold commissioner"
-        ]
+        ],
+        "evidence": {
+          "snippet": "named after a gold commissioner called Mr Heron"
+        }
       },
       "11": {
         "accepted": [
           "primary school",
           "a primary school"
-        ]
+        ],
+        "evidence": {
+          "snippet": "behind a primary school in the state of Victoria"
+        }
       },
       "12": {
         "accepted": [
           "casino",
           "a casino",
           "las vegas casino"
-        ]
+        ],
+        "evidence": {
+          "snippet": "on display at a casino in Las Vegas"
+        }
       },
       "13": {
         "accepted": [
           "quartz"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The specimen also had quartz in it"
+        }
       },
       "14": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "it creates an armor 3000 times harder than chalk"
+        }
       },
       "15": {
         "accepted": [
-          "I"
-        ]
+          "A"
+        ],
+        "evidence": {
+          "snippet": "bio- inspiration has led to surprisingly few mass- produced products"
+        }
       },
       "16": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "had trouble removing a plant's prickle which was stuck to his god's fur, so he studied it under a microscope"
+        }
       },
       "17": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Glowworms produce a cool light with almost zero energy loss"
+        }
       },
       "18": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "45- million-year-old fly trapped in amber"
+        }
       },
       "19": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "deployed in places where people would be too conspicuous bored to tears, or killed"
+        }
       },
       "20": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "To parker, every species, even those that have become extinct, is a success story"
+        }
       },
       "21": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Some things are just too mysterious and complex to be able to replicate"
+        }
       },
       "22": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "considers a biomimetics project a success only if it has the potential to make a useful tool"
+        }
       },
       "23": {
         "accepted": [
           "cosmetics"
-        ]
+        ],
+        "evidence": {
+          "snippet": "working to make cosmetics that mimic the natural sheen of diatoms"
+        }
       },
       "24": {
         "accepted": [
           "birds"
-        ]
+        ],
+        "evidence": {
+          "snippet": "dazzling colors of certain birds derive not from pigments but from neatly spaced microstructures"
+        }
       },
       "25": {
         "accepted": [
           "chemicals"
-        ]
+        ],
+        "evidence": {
+          "snippet": "combustion chamber in their posterior that heats chemicals and fires them at would- be predators"
+        }
       },
       "26": {
         "accepted": [
           "fly"
-        ]
+        ],
+        "evidence": {
+          "snippet": "create a miniature robotic fly that is swift, small, and maneuverable enough for use in surveillance or search- and- rescue"
+        }
       },
       "27": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "addressing a group of young psychiatrists in training when he was asked a question"
+        }
       },
       "28": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "As part of his research, he had already filmed a series of 12- minutes interview"
+        }
       },
       "29": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "facial muscles triggered by those seven basic emotions are, he has shown, essentially standard, regardless of language and culture"
+        }
       },
       "30": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Of the 15000 Ekman has tested, only 50 people"
+        }
       },
       "31": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "called in by the FBI and CIA (among countless more law- enforcement and other agencies around the world), not just to solve cases, but to teach them"
+        }
       },
       "32": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "inaccurate impression among audiences that criminals could no longer hope to get away with lying"
+        }
       },
       "33": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "concerned about unfair convictions, that one day someone not properly trained in his techniques might be sitting on a jury and wrongly find someone guilty"
+        }
       },
       "34": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "first time, as far as Ekman is aware, that a commercial TV drama has been based on the work of just one scientist"
+        }
       },
       "35": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "impressed with the producer's manifestly serious and well- intentioned reasons for making the programme"
+        }
       },
       "36": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "believes probably 80-90 per cent of the show is based on fact and that's good enough"
+        }
       },
       "37": {
         "accepted": [
@@ -577,17 +679,26 @@
       "38": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "ability to detect a lie and the ability to lie successfully are completely unrelated"
+        }
       },
       "39": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "an actor or a poker player isn't a true liar"
+        }
       },
       "40": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "prefers to focus on the kinds of lies where the liar would be on grave trouble if they were found out"
+        }
       }
     },
     "sets": []

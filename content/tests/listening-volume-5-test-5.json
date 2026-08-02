@@ -1,0 +1,479 @@
+{
+  "slug": "listening-volume-5-test-5",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-30m-00s-audio-joiner.com_202607/mix_30m00s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 5, Test 5",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Swimming Lessons</div><p>Classes available</p><p><u><strong>Water Babies</strong></u></p><ul><li>For babies of three months upwards</li><li><strong>Focus</strong> — water familiarisation using {{1}}</li><li><strong>Cost</strong> — £3.80 per lesson</li></ul><p>Beginners</p><ul><li>For people with no experience of swimming</li><li><strong>Focus</strong> — {{2}} techniques</li><li>opening the eyes underwater</li><li>swimming five metres</li></ul><p>Intermediate</p><ul><li><strong>Focus</strong> — learning main swimming strokes</li><li>introduction to {{3}}</li><li>swimming underwater</li><li>{{4}} in the water</li><li><strong>Cost</strong> — £61 per course</li><li><strong>Other information:</strong> maximum of 12 pupils per class; class is for {{5}}</li></ul><p>Advanced</p><ul><li><strong>Focus:</strong> more efficient techniques — improving {{6}} — competitions</li></ul><p>Other information</p><ul><li>Date when Intermediate course begins: Tuesday {{7}} (need to register soon)</li><li>Time: 7.30 p.m.</li><li>Participants will be provided with a swimming {{8}}</li><li>Bring change for the {{9}}</li></ul><p>Benefits of swimming</p><ul><li>Health benefits</li><li>Improvement in {{10}}</li><li>Could save a life</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Student Centre"
+              },
+              {
+                "number": 12,
+                "textHtml": "Health Centre"
+              },
+              {
+                "number": 13,
+                "textHtml": "Internet Unit"
+              },
+              {
+                "number": 14,
+                "textHtml": "Complaint Office"
+              },
+              {
+                "number": 15,
+                "textHtml": "Café"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><ul><li><strong>16</strong> &nbsp;Students in a room don't need to share a {{16}} with ones in other rooms.</li><li><strong>17</strong> &nbsp;Everyone has to write down his name on the {{17}}.</li><li><strong>18</strong> &nbsp;All the students use a {{18}} to enter the door.</li><li><strong>19</strong> &nbsp;If you want to wash your clothes, go to the laundry room which is located in the {{19}}.</li><li><strong>20</strong> &nbsp;The dormitory closes at {{20}} every night.</li></ul>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;What skills does Peter want to learn?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how to organise ideas"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "how to handle data"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how to write a business proposal"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What is Peter's main strength?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "he is a good leader"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "he can work long hours"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "he can communicate well with many people"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What will the careers officer help Peter with?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "CV"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "personal statement"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "school application form"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Why did Peter choose the IT business?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to update his knowledge in the area"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to be good at presentations"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to prepare himself for lectures"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;What will Peter do for the next term?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "continue with the same language"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "change to another language"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "discontinue the language course"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "make business contacts"
+              },
+              {
+                "letter": "B",
+                "textHtml": "understand customer relations"
+              },
+              {
+                "letter": "C",
+                "textHtml": "learn time management"
+              },
+              {
+                "letter": "D",
+                "textHtml": "use a foreign language"
+              },
+              {
+                "letter": "E",
+                "textHtml": "travel to another country"
+              },
+              {
+                "letter": "F",
+                "textHtml": "receive financial training"
+              },
+              {
+                "letter": "G",
+                "textHtml": "learn project management"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "SAIC"
+              },
+              {
+                "number": 27,
+                "textHtml": "Gemini Technologies"
+              },
+              {
+                "number": 28,
+                "textHtml": "Deloitte"
+              },
+              {
+                "number": 29,
+                "textHtml": "Kearney"
+              },
+              {
+                "number": 30,
+                "textHtml": "Vortex"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Economics and Trust</div><ul><li>Trust relies on the stranger's {{31}}</li><li>The understanding of trust can reduce {{32}}</li></ul><p>How to measure trust</p><ul><li>People's ability of recognizing a person's {{33}}</li><li>Oxytocin will be released when {{34}} occurs</li></ul><p>Experiments: two participants</p><ul><li>The first participant decides whether to lend the money or not.</li><li>The second participant has no {{35}} to return the money</li><li>Trust involves a {{36}} — so it is conditional.</li><li>If animals have {{37}} they will be seen to have oxytocin</li></ul><p>Nash equilibrium</p><ul><li>Participants have no {{38}} that the other person would change his or her decision.</li><li>People under stress have {{39}} levels of oxytocin.</li><li>Oxytocin is a social {{40}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "toys"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "breathing"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "diving"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "safety"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "adults"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "speed"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "13th January"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "hat"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "locker"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "confidence"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "bathroom"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "food containers"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "code"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "basement"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "11:30"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "kindness"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "poverty"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "face"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "interaction"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "obligation"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "process"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "cooperation"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "expectation"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "higher"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "glue"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

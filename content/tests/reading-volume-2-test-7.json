@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 2, Test 7",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -236,27 +236,27 @@
                 "options": [
                   {
                     "letter": "A",
-                    "textHtml": "<strong>A</strong>&nbsp; intelligence"
+                    "textHtml": "&nbsp; intelligence"
                   },
                   {
                     "letter": "B",
-                    "textHtml": "<strong>B</strong>&nbsp; physical strength"
+                    "textHtml": "&nbsp; physical strength"
                   },
                   {
                     "letter": "C",
-                    "textHtml": "<strong>C</strong>&nbsp; sensitivity to sound"
+                    "textHtml": "&nbsp; sensitivity to sound"
                   },
                   {
                     "letter": "D",
-                    "textHtml": "<strong>D</strong>&nbsp; prolonged life span"
+                    "textHtml": "&nbsp; prolonged life span"
                   },
                   {
                     "letter": "E",
-                    "textHtml": "<strong>E</strong>&nbsp; lengthy period of fertility"
+                    "textHtml": "&nbsp; lengthy period of fertility"
                   },
                   {
                     "letter": "F",
-                    "textHtml": "<strong>F</strong>&nbsp; adaptability to a variety of foods"
+                    "textHtml": "&nbsp; adaptability to a variety of foods"
                   }
                 ]
               }
@@ -326,47 +326,74 @@
       "1": {
         "accepted": [
           "disease"
-        ]
+        ],
+        "evidence": {
+          "snippet": "disease spread rapidly among the population"
+        }
       },
       "2": {
         "accepted": [
           "political"
-        ]
+        ],
+        "evidence": {
+          "snippet": "commercial incentives to make them work, as well as political ones"
+        }
       },
       "3": {
         "accepted": [
           "richer"
-        ]
+        ],
+        "evidence": {
+          "snippet": "poor flock to cities in the hope of becoming richer"
+        }
       },
       "4": {
         "accepted": [
           "economy"
-        ]
+        ],
+        "evidence": {
+          "snippet": "They also reinvigorate the economy of the city"
+        }
       },
       "5": {
         "accepted": [
           "museum"
-        ]
+        ],
+        "evidence": {
+          "snippet": "is turning into a museum"
+        }
       },
       "6": {
         "accepted": [
           "property"
-        ]
+        ],
+        "evidence": {
+          "snippet": "drove up the cost of property"
+        }
       },
       "7": {
         "accepted": [
           "contact"
-        ]
+        ],
+        "evidence": {
+          "snippet": "lose the face-to-face contact that makes being an urbanite so much more creative"
+        }
       },
       "8": {
         "accepted": [
           "consumption"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Every aspect of life involves more consumption"
+        }
       },
       "9": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "They shouldn't, says Glaeser they are signs of growth, energy and aspiration"
+        }
       },
       "10": {
         "accepted": [
@@ -381,52 +408,82 @@
       "12": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "folly to drive them away by forcing property prices to soar with unreasonable planning regulations"
+        }
       },
       "13": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the French made a mistake in establishing a huge high-rise commercial development - La Défense"
+        }
       },
       "14": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Coral reefs are estimated to cover 284,300 km2"
+        }
       },
       "15": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "reef tourism is an important source of employment, especially for some of the world's poorest people"
+        }
       },
       "16": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "net annual benefits from diver tourism was US$2 billion in 2000"
+        }
       },
       "17": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "coral mining, agricultural and urban runoff"
+        }
       },
       "18": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Whenever people grab, kick, and walk on, or stir up sediment in the reefs"
+        }
       },
       "19": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Some current fishing practices are destructive and unsustainable. These include cyanide fishing"
+        }
       },
       "20": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "provide a home for 25% of all marine species"
+        }
       },
       "21": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Indo-Pacific region accounts for 91.9%"
+        }
       },
       "22": {
         "accepted": [
@@ -441,7 +498,10 @@
       "24": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "reef tourism is an important source of employment, especially for some of the world's poorest people"
+        }
       },
       "25": {
         "accepted": [
@@ -451,27 +511,42 @@
       "26": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "deliver ecosystem services to tourism, fisheries and coastline protection"
+        }
       },
       "27": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Calves stay with their mothers throughout adulthood, and in many years of observation no one has ever seen a whale switch pods"
+        }
       },
       "28": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Transients have only a few such calls"
+        }
       },
       "29": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "all transient societies share the same ones"
+        }
       },
       "30": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Despite regular interaction between them, each resident pod sticks firmly to its own dialect"
+        }
       },
       "31": {
         "accepted": [
@@ -481,33 +556,51 @@
       "32": {
         "accepted": [
           "pods"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Residents live in stable groups, or 'pods'"
+        }
       },
       "33": {
         "accepted": [
           "genetics"
-        ]
+        ],
+        "evidence": {
+          "snippet": "If dialects were programmed by genetics, call patterns from both father and mother would be passed on"
+        }
       },
       "34": {
         "accepted": [
           "mother",
           "maternal pod"
-        ]
+        ],
+        "evidence": {
+          "snippet": "calf uses the calls of its maternal pod very precisely"
+        }
       },
       "38": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "share information about food hot spots"
+        }
       },
       "39": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "distinctions between the transient and resident societies is the way they impart information"
+        }
       },
       "40": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Whales have several biological attributes that give them an advantage in social learning"
+        }
       }
     },
     "sets": [
@@ -521,7 +614,10 @@
           "A",
           "C",
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "advanced mental abilities, they are adept at recognising sounds"
+        }
       }
     ]
   }

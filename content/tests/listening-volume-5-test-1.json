@@ -1,0 +1,604 @@
+{
+  "slug": "listening-volume-5-test-1",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-37m-03s-audio-joiner.com/mix_37m03s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 5, Test 1",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Campsites</div><p><strong>Westerly Campsite</strong></p><ul><li>Campsite for families with children under 12</li><li>Location: near the {{1}}</li><li>Special attraction for children: the {{2}}</li><li>A local farmer sells {{3}}</li><li>Campers are allowed to have a {{4}}</li><li>Cost per night: £{{5}} for a family</li></ul><p><strong>Snetton Forest Campsite</strong></p><ul><li>Cost per night: £5 per adult (children free)</li><li>Recommended for people who like {{6}}</li><li>Campers can hire a {{7}}</li><li>Activity organised for children: {{8}}</li></ul><p><strong>Trent Valley Campsite</strong></p><ul><li>Better month for families to go: {{9}}</li><li>Has an outdoor {{10}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What is the most important attitude towards making mistakes according to Arthur?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Mistakes are inevitable."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Mistakes can be a chance to learn."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Mistakes can cause serious consequences."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What's true about self-confidence according to Arthur?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "self-confidence sometimes leads to failure"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It means being ambitious with what you do"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Self-confidence can be gained through reading"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;What advice does Arthur give to new business leaders?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Read business journals"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "try new things"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Keep their aims"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;How does Arthur deal with difficult problems?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Ask for advice from friends"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Seek help from experts"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Try to get advice from books"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What's the common quality of leaders?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Have good public speaking skills"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Solve all problems skillfully"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "be respected by the workforce"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;How should companies take risks?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "deal with them carefully"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "be financially advantageous"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "think in the long run"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 17 and 18</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which <strong>TWO</strong> factors are important when starting a business?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "fix realistic prices"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "create products better than the competitors'"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "be committed"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "pay attention to detail"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "apply complete strategy"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 19 and 20</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> kinds of support are important for Arthur?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "family support"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "good business advice with new ideas"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "support of the bank loan"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "friends' support"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "governmental funding"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;What is the students' purpose in mentioning the way dolphins make sounds?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to show comparison with human speech"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to show the unusual anatomy of a dolphin's head"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to show recent developments in understanding the meaning of the sounds"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;According to Fran, Hector's dolphins are unaffected by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "tourist numbers."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the threat from fishing nets."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "their slow breeding rate."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;The New Zealand Government set up a marine sanctuary",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "because of public pressure."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "as a result of scientific research."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to protect a dolphin feeding ground."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Where is the largest population of Hector's dolphins in New Zealand?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the east coast"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Southland"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the west coast"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "swim along behind boats"
+              },
+              {
+                "letter": "B",
+                "textHtml": "swim in unusually large groups"
+              },
+              {
+                "letter": "C",
+                "textHtml": "live along New Zealand's entire coastline"
+              },
+              {
+                "letter": "D",
+                "textHtml": "swim beneath slow-moving boats"
+              },
+              {
+                "letter": "E",
+                "textHtml": "tend to be solitary"
+              },
+              {
+                "letter": "F",
+                "textHtml": "live only off New Zealand's northwest coast"
+              },
+              {
+                "letter": "G",
+                "textHtml": "are the second largest dolphin species in New Zealand"
+              },
+              {
+                "letter": "H",
+                "textHtml": "are seen mostly in Kaikoura"
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Common dolphins"
+              },
+              {
+                "number": 26,
+                "textHtml": "Dusky dolphins"
+              },
+              {
+                "number": 27,
+                "textHtml": "Hector's dolphins"
+              },
+              {
+                "number": 28,
+                "textHtml": "Maui's dolphins"
+              },
+              {
+                "number": 29,
+                "textHtml": "Orcas"
+              },
+              {
+                "number": 30,
+                "textHtml": "Bottle-nose dolphins"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–34</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Recycling Tyres in Australia</div><p>Background</p><ul><li>More than 1.5 million tyres dumped in Australia per {{31}}</li></ul><p>Previous recycling attempts failed because:</p><ul><li>there were pollution problems — smoke from burning</li><li>recycling companies didn't make any {{32}}</li></ul><p>Advantages of Molectra's process</p><ul><li>More economical because smaller machines are used</li><li>Less maintenance — tyres softened before shredding</li><li>No limit on the {{33}} of tyres recycled</li></ul><p>The Future</p><ul><li>Ten more factories being built</li><li>Plans to spend 5% of income each year on {{34}}</li></ul></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 35–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the flow-chart below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Recycling Tyres</div><div><p>Process</p><p>Possible Uses</p><div>Removal of steel {{35}} from tyre rim</div><div>Steel pellets used in industry</div><div>↓</div><div></div><div>Chemicals applied to get rid of {{36}} and soften rubber</div><div></div><div>↓</div><div></div><div>Fibres, e.g. nylon, removed</div><div>• Strengthening concrete<br>• Sheets made of {{37}}</div><div>↓</div><div></div><div>Tyres cut up into crumb rubber</div><div>• Asphalt for roads<br>• Insulation<br>• {{38}} tiles</div><div>↓</div><div></div><div>The MolectraVac machine microwaves rubber into hydrocarbon</div><div> i) Used for activated carbon<br> • {{39}} treatment<br> • air filtration<br> ii) Used for carbon black<br> • batteries<br> • {{40}}<br> iii) Oil used for electricity </div></div></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "sea"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "animals"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "eggs"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "fire"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "15.75"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "fishing"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "bike"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "football"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "July"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "pool"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "month"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "profit"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "size"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "research"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "wires"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "dirt"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "plastic"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "floor"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "water"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "ink"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "C",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "A",
+          "C"
+        ]
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 1, Test 1",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -375,42 +375,66 @@
       "1": {
         "accepted": [
           "white"
-        ]
+        ],
+        "evidence": {
+          "snippet": "worn a robe of white silk"
+        }
       },
       "2": {
         "accepted": [
           "paper"
-        ]
+        ],
+        "evidence": {
+          "snippet": "first luxury paper"
+        }
       },
       "3": {
         "accepted": [
           "taxes"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Farmers paid their taxes in grain and silk"
+        }
       },
       "4": {
         "accepted": [
           "gold"
-        ]
+        ],
+        "evidence": {
+          "snippet": "calculated in weight of gold"
+        }
       },
       "5": {
         "accepted": [
           "foreign"
-        ]
+        ],
+        "evidence": {
+          "snippet": "currency used in trade with foreign countries"
+        }
       },
       "6": {
         "accepted": [
           "mummy"
-        ]
+        ],
+        "evidence": {
+          "snippet": "An Egyptian mummy with a silk thread in her hair"
+        }
       },
       "7": {
         "accepted": [
           "caves"
-        ]
+        ],
+        "evidence": {
+          "snippet": "sealed more than ten thousand manuscripts and silk paintings, silk banners and textiles in caves"
+        }
       },
       "8": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the Roman soldiers were so startled by the bright silken banners of the enemy that they fled in panic"
+        }
       },
       "9": {
         "accepted": [
@@ -420,108 +444,171 @@
       "10": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "with silkworm eggs which they had obtained secretly"
+        }
       },
       "11": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "high quality silk textiles, woven in China especially for the Middle Eastern market, continued to achieve high prices in the West"
+        }
       },
       "12": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Around 550 AD silk production reached the Middle East"
+        }
       },
       "13": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "World silk production has approximately doubled during the last 30 years"
+        }
       },
       "14": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "his analysis of tusks from Wrangel Island, off the coast of Siberia, suggests the same conclusion"
+        }
       },
       "15": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they used their bones and tusks to make weapons, tools, and even dwellings"
+        }
       },
       "16": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Fisher saw it as a possible explanation for the dent above her trunk"
+        }
       },
       "17": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "this persuaded him the corpse was a baby mammoth"
+        }
       },
       "18": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Fisher and Buigues had examined other specimens together, including infants, but these had been in a relatively poor state"
+        }
       },
       "19": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "We have strong evidence that the temperature rise played a significant part in their extinction"
+        }
       },
       "20": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "dental research is useful for evaluating health and thus key to investigating the causes of mammoth extinction"
+        }
       },
       "21": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "According to Tikhonov, Khudi had rescued"
+        }
       },
       "22": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Khudi realised the find might be significant"
+        }
       },
       "23": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "His samples frequently came from animals that had died in the autumn, when they should have been at their peak after summer grazing"
+        }
       },
       "24": {
         "accepted": [
           "vegetation"
-        ]
+        ],
+        "evidence": {
+          "snippet": "sharp rise in temperature, which dramatically altered the vegetation"
+        }
       },
       "25": {
         "accepted": [
           "human hunting"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the tusks often revealed telltale evidence of human hunting"
+        }
       },
       "26": {
         "accepted": [
           "north america",
           "north american"
-        ]
+        ],
+        "evidence": {
+          "snippet": "another population migrating to Siberia from North America would take their place"
+        }
       },
       "27": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "identifiable by trained people who can recognize its existence before a person has achieved exceptional levels of performance"
+        }
       },
       "28": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "not clear if it starts out larger in people who eventually acquire AP, or if the acquisition of AP makes the planum increase in size"
+        }
       },
       "29": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "increases in size as a result of practice"
+        }
       },
       "30": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "suggesting that practice does not merely correlate with achievement, but causes it"
+        }
       },
       "31": {
         "accepted": [
@@ -531,7 +618,10 @@
       "32": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "In study after study, of composers, ice skaters, concert pianists, chess players and master criminals, this number comes up again and again"
+        }
       },
       "33": {
         "accepted": [
@@ -541,37 +631,58 @@
       "34": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "this does not address why some people do not seem to get anywhere when they practice"
+        }
       },
       "35": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "no-one has yet found a case in which true world-class expertise was accomplished in less time"
+        }
       },
       "36": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The ten-thousand-hour theory is consistent with what we know about how the brain learns"
+        }
       },
       "37": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Mozart had an expert teacher in his father"
+        }
       },
       "38": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Mozart did not write it until he was eight"
+        }
       },
       "39": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "this early work received little acclaim and was not performed very often"
+        }
       },
       "40": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "but that inborn traits may not be the only cause"
+        }
       }
     },
     "sets": []

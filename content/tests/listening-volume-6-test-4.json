@@ -1,0 +1,563 @@
+{
+  "slug": "listening-volume-6-test-4",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-37m-41s-audio-joiner.com/mix_37m41s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 6, Test 4",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Coxhead Motorhomes</div><p><strong>Representative:</strong> Dave Sparrow</p><p><strong>Model of motorhome recommended:</strong> 'Two berth end kitchen'</p><p><strong>Cost</strong> £545 – £755 per week</p><ul><li>Damage deposit: £{{1}} (for drivers of 21–25)</li><li>No charge for an {{2}} driver</li><li>An {{3}} driving licence is acceptable</li><li>All vehicles are under 30 months old</li><li>All motorhomes have {{4}} gearboxes</li><li>Customers' {{5}} are allowed</li></ul><p>Facilities</p><ul><li>All cooking facilities including a {{6}} and a microwave</li><li>A {{7}} (new this year)</li><li>Satellite navigation system</li><li>A {{8}} rack</li><li>Electricity: mains hook-up or can hire a {{9}}</li></ul><p>Collection</p><ul><li>Nearest station: {{10}} (customers can be picked up from there)</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "adapted from a film"
+              },
+              {
+                "letter": "B",
+                "textHtml": "audience are invited on stage"
+              },
+              {
+                "letter": "C",
+                "textHtml": "enjoyed by young children"
+              },
+              {
+                "letter": "D",
+                "textHtml": "features a local actor"
+              },
+              {
+                "letter": "E",
+                "textHtml": "fully booked"
+              },
+              {
+                "letter": "F",
+                "textHtml": "not suitable for everyone"
+              },
+              {
+                "letter": "G",
+                "textHtml": "recently performed abroad"
+              },
+              {
+                "letter": "H",
+                "textHtml": "very few tickets available"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Comedy Shop"
+              },
+              {
+                "number": 12,
+                "textHtml": "Seekers"
+              },
+              {
+                "number": 13,
+                "textHtml": "The Hidden Box"
+              },
+              {
+                "number": 14,
+                "textHtml": "Night Shift"
+              },
+              {
+                "number": 15,
+                "textHtml": "John Dory"
+              },
+              {
+                "number": 16,
+                "textHtml": "Vital Signs"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "&nbsp;When will the programme for the Youth Arts Festival be finalised?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the middle of March"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the end of April"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the beginning of August"
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;An application to put on a performance at the festival must include",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a DVD of the performance."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a short summary of the performance."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "details of costumes and music used in the performance."
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;The winner of the play-writing competition will be offered the chance to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "take part in their own play"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "have their play shown on TV"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "direct their play at the festival."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;What is unusual about the production of 'Calcamon'?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Actors use invented language."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There is no script."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The actors change roles in the performance."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;The tutor points out to Lara that in different markets, a brand of chocolate",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "has different proportions of the ingredients."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "uses different methods of advertising."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "is sold at different prices."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Which aim of global marketing has Lara explained very clearly?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "making profit"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "maximising sales"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "expanding production"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;The tutor gives the example of the supermarket chain to show how companies",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "can use new advertising methods to bring new business."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "may fail to take local values into consideration."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "need time to build up their reputation."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Lara believes that some multinational companies can be criticised for",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "offering poor working conditions locally."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "failing to improve machinery."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "replacing local managers."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;Which aspect of distribution does Lara want to read about?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "delivery times"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "stock control"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "centralisation"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "bargaining power"
+              },
+              {
+                "letter": "B",
+                "textHtml": "changing suppliers"
+              },
+              {
+                "letter": "C",
+                "textHtml": "location of head office"
+              },
+              {
+                "letter": "D",
+                "textHtml": "mergers"
+              },
+              {
+                "letter": "E",
+                "textHtml": "size of workforce"
+              },
+              {
+                "letter": "F",
+                "textHtml": "timing of going global"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "Drummonds"
+              },
+              {
+                "number": 27,
+                "textHtml": "Multiplan"
+              },
+              {
+                "number": 28,
+                "textHtml": "Elbeys"
+              },
+              {
+                "number": 29,
+                "textHtml": "Babbis"
+              },
+              {
+                "number": 30,
+                "textHtml": "Emerson"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Soundscapes</div><p>Soundscape – the sound environment</p><ul><li>the term was first used by a Canadian, Murray Schafer, a well-known {{31}}</li><li>the soundscape is not just noise, but has {{32}} which can be interpreted</li><li>divisions of the soundscape <ul><li>biophony – created by living organisms, e.g. {{33}}</li><li>geophony – caused by non-biological forces, e.g. {{34}}</li><li>anthrophony – made by humans</li></ul></li></ul><p>Conclusions of Bernie Krause</p><ul><li>every sound in nature has a unique {{35}}</li><li>the sounds of nature are harmonious in {{36}} and frequency</li></ul><p>Soundscape changes can be</p><ul><li>an indication of a change in the {{37}} of an environment</li><li>a warning of the presence of different types of {{38}}, e.g. insecticides</li></ul><p>Equipment used in the study of soundscapes</p><ul><li>acoustic recorders – data are used to create {{39}} in 3-D</li></ul><p>Most common query</p><p>What is the noisiest creature?</p><p>Answer: probably a particular kind of {{40}} which lives in the ocean</p></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "460"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "extra"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "international"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "manual"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "pets"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "fridge"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "television"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "bicycle"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "generator"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "grateley"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "composer"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "meaning"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "frogs"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "rain"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "signature"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "loudness"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "climate"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "pollution"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "maps"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "shrimp"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

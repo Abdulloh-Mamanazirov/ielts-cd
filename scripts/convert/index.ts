@@ -1,5 +1,5 @@
-import { readdirSync } from "node:fs";
-import { resolve } from "node:path";
+import { closeSync, openSync, readdirSync, readSync } from "node:fs";
+import { basename, dirname, resolve } from "node:path";
 
 import type { TestImport } from "../../src/lib/tests/schema";
 import { formatValidationReport, validateTestImport } from "../../src/lib/tests/validate";
@@ -8,15 +8,18 @@ import { convertBekhruzListening } from "./bekhruz-listening";
 import { writeJson } from "./lib";
 
 /**
- * Converts the instructor's "@bekhruzposts" Volume 1 mocks — ten reading and
- * ten listening, each a self-contained HTML player — into canonical JSON, and
- * extracts each listening test's embedded base64 audio to an .mp3 the upload
- * pipeline can ingest.
+ * Converts the instructor's "@bekhruzposts" mocks — self-contained HTML players,
+ * one Volume at a time — into canonical JSON, and extracts any embedded base64
+ * listening audio to an .mp3 the upload pipeline can ingest.
  *
  *   npm run convert
  *
- * The two adapters parse structure rather than a hand-identified layout, so a
- * new Volume drops in by adding files and letting the numbers below grow.
+ * Sources land in `_source-tests/`, loose or in per-Volume subfolders, and are
+ * named every which way. Discovery reads the skill, test number and Volume from
+ * each filename AND its <title>, falling back to the subfolder name for the
+ * Volume — so "Vol 8 Test 1" (whose name says neither skill nor a clean Volume)
+ * and "IELTS Reading Test 9" (in a `vol9/` folder) both resolve. The adapters
+ * parse structure, not a fixed layout, so a new Volume drops in by adding files.
  */
 
 const SOURCE_DIR = "_source-tests";
@@ -25,65 +28,97 @@ const MEDIA_DIR = "public/test-media";
 const MEDIA_URL_BASE = "/test-media";
 const SOURCE_LABEL = "@bekhruzposts";
 
-/**
- * The Volume a source file belongs to. The exports are named every which way —
- * "(Volume 3)", "Vol_3", or the "Real Exam" series the instructor files as
- * Volume 4 — so this reads all of those rather than one fixed spelling.
- */
-function detectVolume(name: string): number | null {
-  if (/real\s*exam/i.test(name)) return 4;
-  const match = name.match(/vol(?:ume)?[\s_]*(\d+)/i);
-  return match ? Number(match[1]) : null;
+/** Every .html under the source directory, however deeply nested. */
+function htmlFiles(dir: string): string[] {
+  const out: string[] = [];
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const full = resolve(dir, entry.name);
+    if (entry.isDirectory()) out.push(...htmlFiles(full));
+    else if (entry.name.endsWith(".html")) out.push(full);
+  }
+  return out;
+}
+
+/** The `<title>` from a file's head, without reading a 40 MB base64 body. */
+function readTitle(path: string): string {
+  const fd = openSync(path, "r");
+  try {
+    const buffer = Buffer.alloc(8192);
+    const bytes = readSync(fd, buffer, 0, buffer.length, 0);
+    return buffer.toString("utf8", 0, bytes).match(/<title>([^<]*)<\/title>/i)?.[1] ?? "";
+  } finally {
+    closeSync(fd);
+  }
 }
 
 /**
- * Locates the tests of one skill by reading the skill, number and Volume from
- * anywhere in each filename — "IELTS_Listening_Vol_3_Test_3", "Reading Test 7
- * (Volume 4)", "Real Exam Listening Test 1" all resolve. A file whose Volume
- * cannot be read is skipped rather than guessed, so nothing lands on a wrong or
- * colliding slug.
+ * The Volume named in text — "(Volume 3)", "Vol 8", "Vol_3" — or, historically,
+ * the "Real Exam" listening series the instructor files as Volume 4.
  */
-function sourceFiles(kind: "Reading" | "Listening"): Array<{ volume: number; n: number; path: string }> {
-  const kindPattern = new RegExp(kind, "i");
-  const testPattern = /(?:^|[\s_])Test[\s_]*(\d+)/i;
+function namedVolume(text: string): number | null {
+  if (/real\s*exam/i.test(text)) return 4;
+  const match = text.match(/vol(?:ume)?[\s_]*(\d+)/i);
+  return match ? Number(match[1]) : null;
+}
 
-  return readdirSync(resolve(SOURCE_DIR))
-    .filter((name) => name.endsWith(".html"))
-    .map((name) => {
-      if (!kindPattern.test(name)) return null;
-      const test = name.match(testPattern);
-      const volume = detectVolume(name);
-      if (!test || volume === null) return null;
-      return { volume, n: Number(test[1]), path: resolve(SOURCE_DIR, name) };
-    })
-    .filter((entry): entry is { volume: number; n: number; path: string } => entry !== null)
-    .sort((a, b) => a.volume - b.volume || a.n - b.n);
+type Found = { skill: "reading" | "listening"; volume: number; n: number; path: string; slug: string };
+
+/**
+ * Resolves every source file to a skill, Volume and test number. Skill and
+ * number come from the filename or the title; the Volume from either, else the
+ * enclosing `volN` folder. Anything that cannot be placed, or would collide with
+ * a slug already taken, is skipped with a note rather than guessed.
+ */
+function discover(): Found[] {
+  const seen = new Set<string>();
+  const found: Found[] = [];
+
+  for (const path of htmlFiles(resolve(SOURCE_DIR))) {
+    const hay = `${basename(path)} ${readTitle(path)}`;
+    const skill = /listening/i.test(hay) ? "listening" : /reading/i.test(hay) ? "reading" : null;
+    const test = hay.match(/(?:^|[\s_(])Test[\s_]*(\d+)/i);
+    const volume = namedVolume(hay) ?? namedVolume(basename(dirname(path)));
+    if (!skill || !test || volume === null) {
+      console.warn(`skip  ${basename(path)} — could not read skill/volume/number`);
+      continue;
+    }
+
+    const n = Number(test[1]);
+    const slug = `${skill}-volume-${volume}-test-${n}`;
+    if (seen.has(slug)) {
+      console.warn(`skip  ${basename(path)} — ${slug} already taken`);
+      continue;
+    }
+    seen.add(slug);
+    found.push({ skill, volume, n, path, slug });
+  }
+
+  return found.sort((a, b) => a.skill.localeCompare(b.skill) || a.volume - b.volume || a.n - b.n);
 }
 
 type Job = { label: string; outputName: string; run: () => TestImport };
 
-const jobs: Job[] = [];
+const jobs: Job[] = discover().map((test) => {
+  const { skill, volume, n, path, slug } = test;
+  const label = `${skill === "reading" ? "Reading" : "Listening"} — Volume ${volume}, Test ${n}`;
 
-for (const { volume, n, path } of sourceFiles("Reading")) {
-  const slug = `reading-volume-${volume}-test-${n}`;
-  jobs.push({
-    label: `Reading — Volume ${volume}, Test ${n}`,
-    outputName: `${slug}.json`,
-    run: () =>
-      convertBekhruzReading(path, {
-        title: `IELTS Reading — Volume ${volume}, Test ${n}`,
-        slug,
-        source: SOURCE_LABEL,
-        durationSeconds: 3600,
-        isPremium: false,
-      }),
-  });
-}
+  if (skill === "reading") {
+    return {
+      label,
+      outputName: `${slug}.json`,
+      run: () =>
+        convertBekhruzReading(path, {
+          title: `IELTS Reading — Volume ${volume}, Test ${n}`,
+          slug,
+          source: SOURCE_LABEL,
+          durationSeconds: 3600,
+          isPremium: false,
+        }),
+    };
+  }
 
-for (const { volume, n, path } of sourceFiles("Listening")) {
-  const slug = `listening-volume-${volume}-test-${n}`;
-  jobs.push({
-    label: `Listening — Volume ${volume}, Test ${n}`,
+  return {
+    label,
     outputName: `${slug}.json`,
     run: () =>
       convertBekhruzListening(
@@ -97,8 +132,8 @@ for (const { volume, n, path } of sourceFiles("Listening")) {
         },
         { audioPath: resolve(SOURCE_DIR, `${slug}.mp3`), mediaDir: MEDIA_DIR, mediaUrlBase: MEDIA_URL_BASE },
       ),
-  });
-}
+  };
+});
 
 let failures = 0;
 

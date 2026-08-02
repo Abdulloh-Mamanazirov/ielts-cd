@@ -1,0 +1,579 @@
+{
+  "slug": "listening-volume-6-test-2",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-37m-13s-audio-joiner.com/mix_37m13s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 6, Test 2",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Booking a residential workshop</div><ul><li><strong>Course required:</strong> drama workshop</li><li><strong>Full name of participant:</strong> Jan {{1}}</li><li><strong>Previous course attended:</strong> Writing for the {{2}}</li><li><strong>Address:</strong> 20, Gregory {{3}}</li><li><strong>Current occupation:</strong> {{4}}</li><li><strong>Date chosen course begins:</strong> {{5}}</li><li><strong>Estimated arrival time:</strong> {{6}} pm</li><li><strong>Special dietary requests:</strong> no {{7}} products</li><li><strong>Preferred afternoon course:</strong> {{8}} work</li><li><strong>First source of course information:</strong> {{9}}</li><li><strong>Pre-course material requested:</strong> the {{10}} mentioned in the publicity</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What does the manager say about accommodation?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The backpackers' hostel is full."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The motel is close to the farm."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The campground is cheap."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;The weather this summer has been",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "perfect for growing fruit."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "worse than last year."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "hard to predict accurately."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;The manager says that tractor drivers",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "require an appropriate licence."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "need previous orchard experience."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "must be over 18 years old."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;Working inside the shed",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "may be rather hot."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "can be noisy at times."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "will often be dirty."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What final advice does the manager give?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Eat and drink regularly."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Try not to damage the trees."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Leave your phones in a secure location."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "Workshop"
+              },
+              {
+                "number": 17,
+                "textHtml": "Lunchroom"
+              },
+              {
+                "number": 18,
+                "textHtml": "Farm Office"
+              },
+              {
+                "number": 19,
+                "textHtml": "First Aid Room"
+              },
+              {
+                "number": 20,
+                "textHtml": "Store Shed"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;According to Liz, Stone Point played a key role in local history because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it was used for defence or attack purposes."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it was the landing point for the first Maori settlers."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it was developed as a commercial port."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Scott and Liz agree that Maori originally chose to inhabit Stone Point because of",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "its rich soil."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the supply of fish."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "available building materials."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Scott and Liz agree that using Maori terminology in their presentation",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "will be of interest to international students."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "is required as a component of their research."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "would be best avoided."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;When Scott mentions the engines at Stone Point, Liz advises him to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "focus on the human aspect instead."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "check the accuracy of specific dates."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "explain complex technical language."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "provide further description"
+              },
+              {
+                "letter": "B",
+                "textHtml": "find images"
+              },
+              {
+                "letter": "C",
+                "textHtml": "set up an interview"
+              },
+              {
+                "letter": "D",
+                "textHtml": "check authors' details"
+              },
+              {
+                "letter": "E",
+                "textHtml": "check the exact location"
+              },
+              {
+                "letter": "F",
+                "textHtml": "obtain official permission"
+              },
+              {
+                "letter": "G",
+                "textHtml": "be more objective"
+              },
+              {
+                "letter": "H",
+                "textHtml": "reduce it in length"
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Early Maori inhabitation of Stone Point"
+              },
+              {
+                "number": 26,
+                "textHtml": "The use of Stone Point as a lookout point"
+              },
+              {
+                "number": 27,
+                "textHtml": "The reconstruction of the fort"
+              },
+              {
+                "number": 28,
+                "textHtml": "Modernisation of the fort in the 1930s–40s"
+              },
+              {
+                "number": 29,
+                "textHtml": "Uses of Stone Point from 1950s to the present day"
+              },
+              {
+                "number": 30,
+                "textHtml": "The use of Stone Point as a public park"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Jatropha: a new biofuel</div><p>Plant facts</p><p>The plant jatropha</p><ul><li>is originally from Central America</li><li>can grow in poor {{31}}</li><li>can survive {{32}} for several years</li><li>can stop {{33}} of land</li></ul><p>Its seeds</p><ul><li>can be used to produce diesel oil</li><li>produce far more fuel than soybean or {{34}}</li><li>leave a residue after processing – used to make electricity</li><li>produce energy which is renewable, unlike fossil fuels</li></ul><p>Uses of jatropha in Africa</p><ul><li>for water pumps and fridges</li><li>made into {{35}}</li><li>used as fencing</li><li>the {{36}} are boiled and used to treat malaria</li><li>for problems with {{37}}</li></ul><p>European companies' claims about jatropha</p><ul><li>It could help stop poverty among rural populations</li><li>It could be used in current diesel engines</li><li>The plants use up lots of {{38}}</li></ul><p>Problems with jatropha</p><ul><li>some seeds are toxic to people and animals</li><li>unreliable oil productivity</li></ul><p>Other criticisms of biofuels</p><p>Widespread production of biofuels could result in</p><ul><li>high food prices in poor countries</li><li>environmental damage caused by loss of rainforest and {{39}}</li><li>adding to the problem of {{40}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "creswick"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "theatre",
+          "theater"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "place"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "waitress"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "13th june",
+          "13 june",
+          "june 13"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "5.30",
+          "5:30"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "milk"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "comic"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "internet"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "leaflet"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "soil"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "drought"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "erosion"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "corn"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "candles"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "leaves"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "digestion"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "carbon dioxide"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "wildlife"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "global warming"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

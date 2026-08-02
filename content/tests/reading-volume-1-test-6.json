@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 1, Test 6",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -19,7 +19,8 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 1–7</h3>Complete the sentences below with words taken from Reading Passage 1.<br>Use <strong>ONE WORD</strong> for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><p><strong>1.</strong>&nbsp; Researchers believed the tea containers detected in {{1}} from the Han Dynasty was the first evidence of the use of tea.</p></div><div><p><strong>2.</strong>&nbsp; Lu Yu wrote a {{2}} about tea before anyone else in the eighth century.</p></div><div><p><strong>3.</strong>&nbsp; It was {{3}} from Japan who brought tea to their native country from China.</p></div><div><p><strong>4.</strong>&nbsp; Tea was carried from China to Europe actually by the {{4}}</p></div><div><p><strong>5.</strong>&nbsp; The British government had to cut down the taxation on tea due to the serious crime of {{5}}</p></div><div><p><strong>6.</strong>&nbsp; Tea was planted in {{6}} besides China in the 19th century.</p></div><div><p><strong>7.</strong>&nbsp; In order to compete in shipping speed, traders used {{7}} for the race.</p></div>"
+            "bodyHtml": "<div><p><strong>1.</strong>&nbsp; Researchers believed the tea containers detected in {{1}} from the Han Dynasty was the first evidence of the use of tea.</p></div><div><p><strong>2.</strong>&nbsp; Lu Yu wrote a {{2}} about tea before anyone else in the eighth century.</p></div><div><p><strong>3.</strong>&nbsp; It was {{3}} from Japan who brought tea to their native country from China.</p></div><div><p><strong>4.</strong>&nbsp; Tea was carried from China to Europe actually by the {{4}}</p></div><div><p><strong>5.</strong>&nbsp; The British government had to cut down the taxation on tea due to the serious crime of {{5}}</p></div><div><p><strong>6.</strong>&nbsp; Tea was planted in {{6}} besides China in the 19th century.</p></div><div><p><strong>7.</strong>&nbsp; In order to compete in shipping speed, traders used {{7}} for the race.</p></div>",
+            "maxWords": 1
           },
           {
             "id": "part-1-group-2",
@@ -233,23 +234,23 @@
                 "options": [
                   {
                     "letter": "A",
-                    "textHtml": "<strong>A</strong>&nbsp; It takes in moisture of skin"
+                    "textHtml": "&nbsp; It takes in moisture of skin"
                   },
                   {
                     "letter": "B",
-                    "textHtml": "<strong>B</strong>&nbsp; It is waterproof"
+                    "textHtml": "&nbsp; It is waterproof"
                   },
                   {
                     "letter": "C",
-                    "textHtml": "<strong>C</strong>&nbsp; comfortable sportswear"
+                    "textHtml": "&nbsp; comfortable sportswear"
                   },
                   {
                     "letter": "D",
-                    "textHtml": "<strong>D</strong>&nbsp; It's fading under the sun"
+                    "textHtml": "&nbsp; It's fading under the sun"
                   },
                   {
                     "letter": "E",
-                    "textHtml": "<strong>E</strong>&nbsp; It is only made in deep color"
+                    "textHtml": "&nbsp; It is only made in deep color"
                   }
                 ]
               }
@@ -267,23 +268,23 @@
                 "options": [
                   {
                     "letter": "A",
-                    "textHtml": "<strong>A</strong>&nbsp; It is made of renewable raw materials"
+                    "textHtml": "&nbsp; It is made of renewable raw materials"
                   },
                   {
                     "letter": "B",
-                    "textHtml": "<strong>B</strong>&nbsp; It involves the removal of carbon dioxide"
+                    "textHtml": "&nbsp; It involves the removal of carbon dioxide"
                   },
                   {
                     "letter": "C",
-                    "textHtml": "<strong>C</strong>&nbsp; It is no use of fossil fuel product"
+                    "textHtml": "&nbsp; It is no use of fossil fuel product"
                   },
                   {
                     "letter": "D",
-                    "textHtml": "<strong>D</strong>&nbsp; It uses renewable raw resources"
+                    "textHtml": "&nbsp; It uses renewable raw resources"
                   },
                   {
                     "letter": "E",
-                    "textHtml": "<strong>E</strong>&nbsp; It is sustenance which can absorb the CO2 in the atmosphere"
+                    "textHtml": "&nbsp; It is sustenance which can absorb the CO2 in the atmosphere"
                   }
                 ]
               }
@@ -299,42 +300,66 @@
       "1": {
         "accepted": [
           "tombs"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Containers for tea have been found in tombs"
+        }
       },
       "2": {
         "accepted": [
           "book"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Lu Yu wrote the first book entirely about tea"
+        }
       },
       "3": {
         "accepted": [
           "monks"
-        ]
+        ],
+        "evidence": {
+          "snippet": "tea was first introduced to Japan, by Japanese Buddhist monks"
+        }
       },
       "4": {
         "accepted": [
           "dutch"
-        ]
+        ],
+        "evidence": {
+          "snippet": "This was done by the Dutch"
+        }
       },
       "5": {
         "accepted": [
           "smuggling"
-        ]
+        ],
+        "evidence": {
+          "snippet": "One unforeseen consequence of the taxation of tea was the growth of methods to avoid taxation—smuggling"
+        }
       },
       "6": {
         "accepted": [
           "india"
-        ]
+        ],
+        "evidence": {
+          "snippet": "which led to the increased cultivation of tea in India"
+        }
       },
       "7": {
         "accepted": [
           "clippers"
-        ]
+        ],
+        "evidence": {
+          "snippet": "using fast new clippers which had sleek lines, tall masts and huge sails"
+        }
       },
       "8": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Britain, always a little suspicious of continental trends"
+        }
       },
       "9": {
         "accepted": [
@@ -344,17 +369,26 @@
       "10": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "women drank tea in their own homes, and as yet tea was still too expensive to be widespread among the working classes"
+        }
       },
       "11": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "By 1784, the government realised that enough was enough"
+        }
       },
       "12": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "There were a few false starts, including the destruction by cattle of one of the earliest tea nurseries"
+        }
       },
       "13": {
         "accepted": [
@@ -364,27 +398,42 @@
       "14": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "biodiversity comprises every form of life, from the smallest microbe to the largest animal or plant"
+        }
       },
       "15": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The resources are simply not available"
+        }
       },
       "16": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "necessary to observe every single type of organism in an area"
+        }
       },
       "17": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "In the media, it is usually large, charismatic animals such as pandas, elephants, tigers and whales"
+        }
       },
       "18": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "where they are devastating the native cactus populations of Florida"
+        }
       },
       "19": {
         "accepted": [
@@ -400,86 +449,134 @@
         "accepted": [
           "keystone",
           "keystone species"
-        ]
+        ],
+        "evidence": {
+          "snippet": "animals or plants far lower down the food chain are often the ones vital for preserving habitats"
+        }
       },
       "22": {
         "accepted": [
           "fig family",
           "fig"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the members of the fig family are the staple food for hundreds of different species"
+        }
       },
       "23": {
         "accepted": [
           "sea urchins",
           "urchins"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the sea urchin population grows unchecked"
+        }
       },
       "24": {
         "accepted": [
           "cactus moth",
           "cactus"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The cactus moth, whose caterpillar is a voracious eater of prickly pear was introduced to Australia"
+        }
       },
       "25": {
         "accepted": [
           "australia"
-        ]
+        ],
+        "evidence": {
+          "snippet": "was introduced to Australia to control the rampant cacti"
+        }
       },
       "26": {
         "accepted": [
           "public education",
           "education"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Action at a national level often means investing in public education and awareness"
+        }
       },
       "27": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "scientists at Cargill got the idea of converting lactic acid made from corn into plastic"
+        }
       },
       "28": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The company needed a partner with access to plastics markets"
+        }
       },
       "29": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Packaging applications include packaging films and food and beverage containers"
+        }
       },
       "30": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Ingeo is a family of polymers for fibers"
+        }
       },
       "31": {
         "accepted": [
           "starch"
-        ]
+        ],
+        "evidence": {
+          "snippet": "separating starch from the raw material"
+        }
       },
       "32": {
         "accepted": [
           "fermentation"
-        ]
+        ],
+        "evidence": {
+          "snippet": "using a fermentation process similar to that used by beer and wine producers"
+        }
       },
       "33": {
         "accepted": [
           "condensation"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Through a special condensation process, a lactide is formed"
+        }
       },
       "34": {
         "accepted": [
           "polymer"
-        ]
+        ],
+        "evidence": {
+          "snippet": "becomes a polymer (the base for NatureWorks PLA)"
+        }
       },
       "35": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Nature Works PLA polymers are more oil- and grease-resistant and provide a better flavor and aroma barrier"
+        }
       },
       "36": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "grocery retailers are increasingly using this packaging for their fresh foods"
+        }
       }
     },
     "sets": [
@@ -491,7 +588,10 @@
         "accepted": [
           "A",
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "it has an inherent ability to take moisture away from the skin"
+        }
       },
       {
         "questions": [
@@ -501,7 +601,10 @@
         "accepted": [
           "A",
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "using such renewable feedstock presents several environmental benefits"
+        }
       }
     ]
   }

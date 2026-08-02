@@ -1,0 +1,659 @@
+{
+  "slug": "reading-volume-5-test-4",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 5, Test 4",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "The history of the Pencil",
+        "passageHtml": "<p>Read the text and answer questions 1–13</p><p>The history of the Pencil</p><p>The history of the pencil started with a violent thunderstorm. When some particularly ferocious weather struck the Lake District in North West England in the sixteenth century, locals in the village of Borrowdale discovered a large uprooted tree. Underneath the tree lay an unknown black substance which, we now know, was slightly shiny and smooth to the touch. And it left a black smear on the hands of all who touched it.</p><p>Initially, the local farmers used the newly discovered material as a handy way to identify their sheep. However, others quickly realised the potential for using this intriguing substance to write on paper. When it was untreated the material was very soft, which meant that it was messy to handle. To make it fit for use with paper, people enclosed a thin core of the substance in stiff sheep hides or rope. At this time chemistry was still in its infancy. People searched for a word to describe this increasingly useful substance and came up with plumbago which, in Latin, means acts or writes like lead. Later the name was changed to graphite. But because words have remarkable staying power, we still call graphite the lead of a pencil even though it is now known that there is no trace of real lead in graphite.</p><p>Graphite has a very high melting point at around 3,500 degrees Celsius. This made it invaluable to the British army and navy as a secret ingredient in the manufacture of cannon balls. The Royal Ordnance, or weaponry section of the British armed forces, used graphite as a lining inside the moulds for cannon balls, which as a result the British could turn out faster and more cheaply than their European rivals. In addition to its value to the armed forces, the government quickly realised the commercial potential of the graphite at Borrowdale, and assumed control of all the mines there during the sixteenth century. Armed guards accompanied the precious graphite all the way down to the metal foundries by the naval shipyards in the south of England. The graphite was so valuable that the locals, who called it wadd, started to steal it. As a deterrent, an act of parliament in 1752 made this offence punishable by time in prison.</p><p>The Italians originally invented the wooden casing to hold a thin rod of plumbago firmly in place for ease of writing. Italian craftsmen hollowed out two small sections of cedar wood, into one of which they laid the lead. They then glued the other section over the top and left the two halves to set. When dry, the whole apparatus formed what today we know as a pencil. The Germans took this technique and developed it further by applying mass-production techniques to pencils. At the same time Nicolas-Jacques Conte, a French officer in Napoleon Bonaparte's army during the late 1700s, developed a method of mixing powdered graphite and clay together for firming in a kiln. Adding more clay to the mixture helped make the pencil harder, sharper, and more precise in its mark. More graphite helped make a pencil mark that was softer, thicker and darker.</p><p>The varying quality of pencil leads eventually gave rise to a system for categorizing the fineness of the pencil mark. Pencil manufactures all over the world still use this so-called HB grading system today. The H stands for the Hardness of the pencil while the B stands for its Blackness. An HB pencil is a standard pencil and a variety of letters and numbers are used to designate different types of lead.</p><p>Significant seams of graphite exist in parts of China, which now produces most of the world's pencils. Interestingly, the Borrowdale mine in the Lake District remains the only significant source of graphite in its near-pure form in the world. Nowadays the highest grade of graphite at Borrowdale is totally exhausted, although other grades can still be found, and England's pencil industry continues to thrive in the nearby town of Keswick.</p><p>The pencil has turned out to be a remarkably resilient and valuable tool whose use has survived well into our high-tech times, as a well-known story shows. It is sometimes said that the American space programme spent millions of dollars to invent a pen capable of writing in the zero gravity of space. The Russians, by contrast, simply equipped their astronauts with good old-fashioned pencils that never let them down. It should be pointed out though, that the popular myth about Americans overlooking the practical advantages of pencils in zero gravity is merely fiction. In actual fact, both American and Russian astronauts were equipped with pencils in their respective country's first space flights. A private company later developed pens for writing in zero gravity. In fact, astronauts of every nation now use pens. But no matter - pencils remain in use in every classroom, every planning, building and drawing office, and in every art studio in the world. And there is nothing to suggest that we are likely to invent anything better than graphite to use in our pencils.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–6</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The early history of graphite in Britain</div><div><ul><li>Graphite was first found below a {{1}} blown down in a storm.</li><li>The first use of graphite was to make marks on {{2}}.</li><li>The characteristics of raw graphite:<ul><li>dirty to use because it is so {{3}}</li><li>originally wrapped in {{4}} or animal skin to make it useable as a pencil.</li></ul></li><li>Graphite came to the notice of the government for military and commercial purposes.<ul><li>The government completely took over the {{5}} at Borrowdale.</li><li>They employed guards to protect the graphite on its journey south.</li></ul></li><li>Local people began to {{6}} graphite for the money involved.<ul><li>The government passed a law to protect the graphite industry.</li></ul></li></ul></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 7–13</h3>Do the following statements agree with the information given in Reading Passage 1? In boxes 7-13, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 7,
+                "textHtml": "The Italians were the first to make pencils out of wood."
+              },
+              {
+                "number": 8,
+                "textHtml": "The Germans used different types of wood to produce pencils."
+              },
+              {
+                "number": 9,
+                "textHtml": "More clay in a pencil makes it write more darkly."
+              },
+              {
+                "number": 10,
+                "textHtml": "After the HB code was introduced, it very quickly became used by all manufacturers."
+              },
+              {
+                "number": 11,
+                "textHtml": "English pencil factories have now all closed down."
+              },
+              {
+                "number": 12,
+                "textHtml": "American astronauts used pencils on their early journeys into space."
+              },
+              {
+                "number": 13,
+                "textHtml": "The use of graphite pencils is unlikely to continue into the future."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "What is an unfair advantage in sport?",
+        "passageHtml": "<p>Read the text and answer questions 14–26</p><p>Olympic athletes increasingly depend on technology to help them win - but is that fair?</p><p><strong>A</strong>&nbsp; What happened to the Australian athlete Ron Clarke in the 10,000 metres at the Mexico City Olympics of 1968 is now virtually forgotten, though at the time it was headline news. Clarke was the greatest distance runner in history; he'd broken more world records than anybody else. But in front of 55,000 horrified spectators, the event went disastrously wrong. In the third lap, one runner keeled over and with six laps to go, two more were carried away. Yet the race was being conducted at a relatively leisurely speed: the halfway time was the slowest since the Paris Olympics of 1924. With two laps to go, Clarke was in the leading pack. 'I'd never felt better in a race,' he says. But suddenly he too began to struggle, and as the frontrunners moved up a gear, a gap opened up. Clarke remembers nothing of his last lap which he ran in 90 seconds. 'Normally I would run it in 64,' he explains. He stumbled across the line in sixth place and collapsed. He was administered oxygen and stretchered off the track.</p><p><strong>B</strong>&nbsp; Mexico City is surrounded by mountains and is over 2,240 metres above sea level. That the altitude would have an impact on the Games was predicted; Clarke had raised the issue himself, but had been told by the Australian sports authorities that complaining was regarded as bad sportsmanship. As it turned out, he had good reason to do so. Clearly, the link between athletic performance and altitude needed further investigation.</p><p><strong>C</strong>&nbsp; Although there were few standout performances in distance running at the Mexico Games, they marked a turning point: the start of an astonishing record of success by east Africans. While Clarke lay crumpled in a heap, runners from Kenya and Ethiopia were celebrating their gold and silver medals. The record books confirm how entrenched this pattern has become. The names of the seven fastest men in history over 5,000 metres are Bekele, Gebrselassie, Komen, Kipchoge, Sihine, Songkok and Chereno. They are all from either Kenya or Ethiopia. Between 1997 and 2011 the 10,000 metres men's world record was smashed five times, dropping from 26:31.32 to 26:17.53. Each time, the record was broken by a Kenyan or an Ethiopian. While there is a complex mix of economic, political, social and cultural explanations for the pre-eminence of east Africans, one factor is surely that many of these athletes have lived most of their lives in thin air.</p><p><strong>D</strong>&nbsp; At high altitudes, a number of physiological alterations occur, most importantly, more red blood cells and haemoglobin are produced. This, in turn, increases the capacity of the blood to carry oxygen, which feeds the muscles and which gives an advantage to the athletes when they return to sea level. However, it is impossible to train with the same level of intensity in the mountains - aerobic capacity and cardio-respiratory function both suffer at altitude. As a result, the consensus is that the optimum approach to athletic preparation is: Live High, Train Low (LHTL). Yet that has obvious practical drawbacks. Not many people live in the mountains and those who do would prefer not to spend several hours each day driving up and down winding treacherous roads.</p><p><strong>E</strong>&nbsp; That's where the altitude tent - sometimes called the hypoxic tent - comes in. Around two decades ago, two different scientists had the same exciting thought. If they could artificially control the atmosphere within a confined space, they could simulate the effects of high altitude and save an athlete at sea-level from the time and expense of travelling to higher ground. Altitude tents have improved over the years: they're not as hot or as noisy as the early prototypes, and are much cheaper too. They are also perfectly lawful. Five years ago, when the tents were investigated by Wada (the World Anti-Doping Agency), it was ruled that they did not violate the spirit of distance running. It is now routine for athletes to sleep in them in preparation for an event.</p><p><strong>F</strong>&nbsp; However, it is not the case that all new technologies gain approval. In 2008, a staggering 105 world records were broken in swimming, the vast majority achieved by competitors wearing the new Speedo LZR Racer suit. These suits use a high-tech fabric tested in Nasa's wind tunnels, which reduces drag and improves buoyancy. The LZR was initially sanctioned by Fina, the international swimming body. But as better suits were produced by Speedo and other manufacturers, and more records were broken, they became increasingly controversial. In a 2009 ruling, Fina changed its mind, banning all suits made with this high-tech fabric.</p><p><strong>G</strong>&nbsp; Going faster, higher, stronger is integral to the logic of athletics in general, and the Olympics in particular. Athletes believe they need records all the time, and the only way to prove this is through minute changes of 0.0001 of a second. But when a new technology is invented, the relevant sports authority has to consider whether to embrace or reject it: in some cases, athletes are granted permission to use the technology; in others, it is banned. But whatever the outcome, rulings should not appear arbitrary: arguments have to be examined and weighed and the rules of logic ought to apply in every case.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–20</h3>Reading Passage 2 has seven paragraphs, <strong>A-G</strong>. Choose the correct heading for each paragraph from the list of headings below. Write the correct number, <strong>i-ix</strong>, in boxes 14-20 on your answer sheet.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Early research into athletes' physiology"
+              },
+              {
+                "letter": "B",
+                "textHtml": "A convenient method of acclimatization"
+              },
+              {
+                "letter": "C",
+                "textHtml": "The need for a rational approach"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Changes in the body"
+              },
+              {
+                "letter": "E",
+                "textHtml": "The athletes who break the rules"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Well-founded concerns"
+              },
+              {
+                "letter": "G",
+                "textHtml": "The surprising outcome of a race"
+              },
+              {
+                "letter": "H",
+                "textHtml": "The reversal of a decision"
+              },
+              {
+                "letter": "I",
+                "textHtml": "The runners who dominate"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              },
+              {
+                "number": 20,
+                "textHtml": "Paragraph <strong>G</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 21 and 22</h3>Choose <strong>TWO</strong> letters, <strong>A-E</strong>. Which <strong>TWO</strong> of the following statements about Ron Clarke are made in the passage?",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Clarke was not performing well immediately prior to the Mexico Games."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; The worries Clarke had before the Mexico Games were not taken into account."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Clarke's experiences at the Mexico Games are widely talked about today."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; At one stage of the Mexico Games 10,000 metres, Clarke was near the front."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; Clarke was the only runner at the Mexico Games who appeared to be affected by the altitude."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 23–26</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Do all new technologies gain approval?</div><div><p>Some people may be puzzled by attitudes towards performance-enhancing technologies in sport. For example, why is the altitude tent considered acceptable, but not the LZR Racer suit? For distance running, Wada concluded that the altitude tent was not contrary to the {{23}} of the sport. However, the LZR swimsuit, which is made from a special fabric that aids buoyancy and cuts down {{24}}, was banned.</p><p>Athletes think they have to continually set fresh {{25}}. This is made possible by better {{26}} and training, as well as improved clothing and equipment. However, when sports authorities have to decide whether to give permission for a new performance-enhancing technology to be used, it is important that their decisions are not seen as arbitrary.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Theories of planet formation questioned",
+        "passageHtml": "<p>Read the text and answer questions 27–40</p><p>Theories of planet formation questioned</p><p><strong>A</strong>&nbsp; The traditional view of astronomy has been that planets form slowly as material congeals within the disk of gas, dust and ice known to surround young stars. First, gravity gathers together bits of dust that merge to form boulder-sized bodies, which themselves coalesce into bigger and bigger objects. In about a million years, these form rocky planets like Earth and Mars. Over the next few million years, gas from the disk settles around some of these solid bodies and they grow far larger, becoming giants like gaseous Saturn and Jupiter. This theory of planet formation is known as the core-accretion model. However, several astronomers now say that this model for making planets may not be entirely correct.</p><p><strong>B</strong>&nbsp; These astronomers have devised an alternative theory in which planets as massive as Jupiter, whether orbiting our sun or a distant star, would form completely within a few hundred years, rather than millions of years as previously believed. Both theories for planet formation start with the same reservoir of planet-making materials: the spinning cloud of gas, dust and ice rapidly fattens into disk-like shapes known as proto-planetary disks; and, as time goes by, gravity causes material in these disks to clump into planet-sized objects. However it is the speed of the clustering, and the size of the initial clumps, that provide the disparity in the two models for planet formation.</p><p><strong>C</strong>&nbsp; According to the core-accretion model, the making of Jupiter required the initial formation of a solid core five to ten times Earth's mass. It would have taken about a million years to achieve this. Most astronomers believe that the large core then had enough gravity to attract a huge amount of gas from the proto-planetary disk to create a planet of the massive proportions of Jupiter. In this core-accretion model, these 'gas giants' may take as long as ten million years to form.</p><p><strong>D</strong>&nbsp; That is several million years too long in the opinion of Lucio Mayer of Zurich University. Direct telescope sightings suggest that the proto-planetary disks do not last more than about seven million years, and studies of the environment in which stars form suggest that many disks may evaporate in much less time. Mayer asserts that most stars in the Milky Way form in dense clouds of gas, dust and ice. Their temperatures are very intense and the ultraviolet light they send into space can evaporate a proto-planetary disk in less than 100,000 years. In the core-accretion model, that is not enough time for a Jupiter-like planet to form.</p><p><strong>E</strong>&nbsp; Recent computer simulations show that when individual stars form, the gravitational pull between them can result in the outer gaseous parts of the proto-planetary disks being destroyed in 100,000 years or less. Thus, Thomas Quinn of the University of Washington concludes that if a 'gas giant' planet cannot form quickly, it will probably never form. He also asserts that if the core-accretion model is correct, gas giant planets like Jupiter should be rare. However, since 1995, astronomers have found more than one hundred planets as large as Jupiter outside our solar system.</p><p><strong>F</strong>&nbsp; Quinn and his colleagues recently analysed the standard core-accretion model of planet formation and investigated whether or not giant planets could form quickly. They looked at the work of Gerard Kuiper who, in the 1950s, proposed that they could. Alan P Boss of the Carnegie Institute did more extensive work on the subject in the late 1980s. Using computer simulations, he was surprised to find that gravity could cause a proto-planetary disk, after a few orbits of its parent star, to break into clumps as big as an average-sized planet. The clumps would continue to pull in gas, ice and dust. This is called the gravitational-instability model of planet formation.</p><p><strong>G</strong>&nbsp; Recent calculations have suggested that many of the solid bodies that might be the rocky core for Jupiter-size planets in the traditional theory would fall into the parent star before the massive planet could form. Moreover, further analysis has shown that other effects could also cause a proto-planetary disk to become unstable and split into large fragments. For instance, within the disk, electrically charged material might accumulate, leading to fragmentation of the disk. Or a powerful gravitational disturbance, such as the pull of a star passing nearby, could produce instability in the proto-planetary disk.</p><p><strong>H</strong>&nbsp; Nevertheless, the gravitational-instability model has problems of its own, as it is mathematically complicated and requires sophisticated computer use. Therefore, no one has studied the simulations long enough to establish conclusively that the model allows for the formation of massive planets.</p><p><strong>I</strong>&nbsp; In response, Mayer says that he and his team have described the results of an extensive simulation based on the gravitational-instability model. They spent two years refining calculations to track what would happen to a proto-planetary disk over one thousand years, which is more than any other simulation had done. In addition, over a decade previously Mayer and his team had made simulations of the formation and evolution of galaxies. In doing this, they had already developed a fast computer code that could run in parallel on machines with hundreds of processors, and this knowledge assisted them in investigating their gravitational-instability theory.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 27–32</h3>Reading Passage 3 has nine paragraphs, <strong>A-I</strong>. Which paragraph contains the following information? Write the correct letter, A-I, in boxes 27-32 on your answer sheet.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "the significance of recent discoveries of a large number of massive planets"
+              },
+              {
+                "number": 28,
+                "textHtml": "an explanation of the difference between the theories of planet creation"
+              },
+              {
+                "number": 29,
+                "textHtml": "the difficulties of proving that the more recent theory of planet creation is correct"
+              },
+              {
+                "number": 30,
+                "textHtml": "reasons why Mayer claims he was able to develop his theory"
+              },
+              {
+                "number": 31,
+                "textHtml": "a detailed explanation of the long-held theory of planet creation"
+              },
+              {
+                "number": 32,
+                "textHtml": "description of the destructive effect of heat in space"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 33–37</h3>Complete each sentence with the correct ending, <strong>A-G</strong>, below.",
+            "selectCount": 1,
+            "bodyHtml": "<div>33Traditionally astronomers have believed that{{33}}</div><div>34Lucio Mayer physically observed that{{34}}</div><div>35Thomas Quinn believes that{{35}}</div><div>36Gerard Kuiper was the first to suggest that{{36}}</div><div>37Alan P Boss discovered that{{37}}</div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "gaseous planets form before smaller rocky planets."
+              },
+              {
+                "letter": "B",
+                "textHtml": "large planets take millions of years to form."
+              },
+              {
+                "letter": "C",
+                "textHtml": "large planets must form fast or not at all."
+              },
+              {
+                "letter": "D",
+                "textHtml": "large planets had the potential to develop relatively fast."
+              },
+              {
+                "letter": "E",
+                "textHtml": "gravity could cause planet-sized pieces to break off quickly."
+              },
+              {
+                "letter": "F",
+                "textHtml": "hot clumps of gas, dust and ice were destroyed relatively quickly."
+              },
+              {
+                "letter": "G",
+                "textHtml": "computer studies of planets are too mathematically complex."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 38–40</h3>Complete the summary using the list of words, <strong>A-F</strong>, below.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The core-accretion model</div><div><p>A hard centre becomes larger and this produces enough gravity to draw gas from the {{38}} around it.</p></div><div>The gravitational-instability model</div><div><p>Stars can break up the outer gaseous parts which surround objects in the sky because the attraction of the {{39}} from stars is very powerful. Heat caused by {{40}} can also destroy the material surrounding the objects in a relatively short time. Planet-sized segments may split away from the main body following several orbits of the parent star.</p></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "gravitational pull"
+              },
+              {
+                "letter": "B",
+                "textHtml": "ice"
+              },
+              {
+                "letter": "C",
+                "textHtml": "solid core"
+              },
+              {
+                "letter": "D",
+                "textHtml": "ultraviolet light"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Milky Way"
+              },
+              {
+                "letter": "F",
+                "textHtml": "disk"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "tree"
+        ],
+        "evidence": {
+          "snippet": "locals in the village of Borrowdale discovered a large uprooted tree"
+        }
+      },
+      "2": {
+        "accepted": [
+          "sheep"
+        ],
+        "evidence": {
+          "snippet": "the local farmers used the newly discovered material as a handy way to identify their sheep"
+        }
+      },
+      "3": {
+        "accepted": [
+          "soft"
+        ],
+        "evidence": {
+          "snippet": "the material was very soft, which meant that it was messy to handle"
+        }
+      },
+      "4": {
+        "accepted": [
+          "rope"
+        ],
+        "evidence": {
+          "snippet": "people enclosed a thin core of the substance in stiff sheep hides or rope"
+        }
+      },
+      "5": {
+        "accepted": [
+          "mines"
+        ],
+        "evidence": {
+          "snippet": "assumed control of all the mines there during the sixteenth century"
+        }
+      },
+      "6": {
+        "accepted": [
+          "steal"
+        ],
+        "evidence": {
+          "snippet": "the locals, who called it wadd, started to steal it"
+        }
+      },
+      "7": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "The Italians originally invented the wooden casing to hold a thin rod of plumbago"
+        }
+      },
+      "8": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "The Germans took this technique and developed it further by applying mass-production techniques"
+        }
+      },
+      "9": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "More graphite helped make a pencil mark that was softer, thicker and darker"
+        }
+      },
+      "10": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "Pencil manufactures all over the world still use this so-called HB grading system today"
+        }
+      },
+      "11": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "England's pencil industry continues to thrive in the nearby town of Keswick"
+        }
+      },
+      "12": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "both American and Russian astronauts were equipped with pencils in their respective country's first space flights"
+        }
+      },
+      "13": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "there is nothing to suggest that we are likely to invent anything better than graphite"
+        }
+      },
+      "14": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "He stumbled across the line in sixth place and collapsed"
+        }
+      },
+      "15": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "had been told by the Australian sports authorities that complaining was regarded as bad sportsmanship"
+        }
+      },
+      "16": {
+        "accepted": [
+          "I"
+        ],
+        "evidence": {
+          "snippet": "The names of the seven fastest men in history over 5,000 metres"
+        }
+      },
+      "17": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "more red blood cells and haemoglobin are produced"
+        }
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "they could simulate the effects of high altitude and save an athlete at sea-level"
+        }
+      },
+      "19": {
+        "accepted": [
+          "H"
+        ],
+        "evidence": {
+          "snippet": "In a 2009 ruling, Fina changed its mind, banning all suits made with this high-tech fabric"
+        }
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "rulings should not appear arbitrary"
+        }
+      },
+      "23": {
+        "accepted": [
+          "spirit"
+        ],
+        "evidence": {
+          "snippet": "they did not violate the spirit of distance running"
+        }
+      },
+      "24": {
+        "accepted": [
+          "drag"
+        ],
+        "evidence": {
+          "snippet": "which reduces drag and improves buoyancy"
+        }
+      },
+      "25": {
+        "accepted": [
+          "records"
+        ],
+        "evidence": {
+          "snippet": "Athletes believe they need records all the time"
+        }
+      },
+      "26": {
+        "accepted": [
+          "technology"
+        ],
+        "evidence": {
+          "snippet": "the relevant sports authority has to consider whether to embrace or reject it"
+        }
+      },
+      "27": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "astronomers have found more than one hundred planets as large as Jupiter outside our solar system"
+        }
+      },
+      "28": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "it is the speed of the clustering, and the size of the initial clumps, that provide the disparity"
+        }
+      },
+      "29": {
+        "accepted": [
+          "H"
+        ],
+        "evidence": {
+          "snippet": "no one has studied the simulations long enough to establish conclusively that the model allows for the formation of massive planets"
+        }
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "this knowledge assisted them in investigating their gravitational-instability theory"
+        }
+      },
+      "31": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "planets form slowly as material congeals within the disk of gas, dust and ice known to surround young stars"
+        }
+      },
+      "32": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "Their temperatures are very intense and the ultraviolet light they send into space"
+        }
+      },
+      "33": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "gas from the disk settles around some of these solid bodies and they grow far larger"
+        }
+      },
+      "34": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "the proto-planetary disks do not last more than about seven million years"
+        }
+      },
+      "35": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "planet cannot form quickly, it will probably never form"
+        }
+      },
+      "36": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "Gerard Kuiper who, in the 1950s, proposed that they could"
+        }
+      },
+      "37": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "he was surprised to find that gravity could cause a proto-planetary disk"
+        }
+      },
+      "38": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "attract a huge amount of gas from the proto-planetary disk"
+        }
+      },
+      "39": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "the gravitational pull between them can result in the outer gaseous parts"
+        }
+      },
+      "40": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "can evaporate a proto-planetary disk in less than 100,000 years"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "B",
+          "D"
+        ],
+        "evidence": {
+          "snippet": "With two laps to go, Clarke was in the leading pack"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "slug": "listening-volume-6-test-1",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-39m-56s-audio-joiner.com/mix_39m56s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 6, Test 1",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Sailing Courses</div><p><em>Example:</em> There will be a Taster Day on <strong>22nd June</strong></p><p>Two-day course</p><ul><li>This covers basic techniques.</li><li>Children are always accompanied by their {{1}}</li><li>Cost: £{{2}}</li></ul><p>Five-day course</p><ul><li>Cost: £125</li><li>Children can sail alone from the third day onwards.</li><li>Children learn how to sail in different kinds of weather.</li><li>Children receive a {{3}} on the last day.</li></ul><p>Clothing</p><ul><li>Children should wear warm clothes.</li><li>Children must wear {{4}}</li><li>Children are recommended to bring extra trousers which are {{5}}</li><li>Children are not allowed to wear {{6}}</li></ul><p>Additional information</p><ul><li>Visitors can buy a {{7}} in the Marina Stores.</li><li>There is a free car park next to the {{8}}</li><li>Send the registration form two weeks before the course.</li><li>Remember to include the name of Jacob's {{9}}</li><li>There is an optional form giving permission to take {{10}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What does Mark say first attracts people to working for Johnson Jones?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the pay"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the staff discount"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the working hours"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;Mark says the company is one of the country’s most successful retailers because it",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "is focused on long term planning."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "provides excellent customer service."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "offers value for money."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;Mark says that because Johnson Jones is a partnership, the staff",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "are better trained."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "have better job security."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "are given more responsibility."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What is the typical annual bonus that partners receive?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "8%"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "15%"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "20%"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;To qualify for the leisure and holiday facilities, partners must have worked for the company for",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "one year."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "six months."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "three months."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "available for celebrations and parties"
+              },
+              {
+                "letter": "B",
+                "textHtml": "suitable for families with children"
+              },
+              {
+                "letter": "C",
+                "textHtml": "regularly used by senior management"
+              },
+              {
+                "letter": "D",
+                "textHtml": "also supplies food to the company's supermarkets"
+              },
+              {
+                "letter": "E",
+                "textHtml": "spa facilities available"
+              },
+              {
+                "letter": "F",
+                "textHtml": "similar to being in someone's home"
+              },
+              {
+                "letter": "G",
+                "textHtml": "good for short breaks"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "The Grange"
+              },
+              {
+                "number": 17,
+                "textHtml": "Meadow House"
+              },
+              {
+                "number": 18,
+                "textHtml": "Coombe Manor"
+              },
+              {
+                "number": 19,
+                "textHtml": "The Barn"
+              },
+              {
+                "number": 20,
+                "textHtml": "The Stable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Why is Fiona keen to organise a debate?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "She has attended debates in other departments."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "She organised debates while at secondary school."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She has talked about debating with a friend."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Fiona says that an advantage of debating is that it can",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "help students to form opinions."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "improve students' listening skills."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "develop students' self-confidence."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;How will the debate topic be selected?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Daniel and Fiona will ask the lecturer to choose one from a list."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The other students will select one of Daniel and Fiona's suggestions."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Daniel and Fiona will collect suggestions from the other students."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Daniel and Fiona think one key to a successful debate is for students to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "have a topic that really involves them."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "plan their speech carefully."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "be given positions to defend."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;Daniel thinks it would be good for the students to be in two teams because it would",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "give everyone a chance to speak."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "help students with less confidence."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "share out the preparation required."
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;What does the lecturer agree to do after the debate?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "make comments on students' written work."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "help Daniel and Fiona to write a report."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "set the students an essay on a different topic."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "ask for suggestion"
+              },
+              {
+                "letter": "B",
+                "textHtml": "give a handout of key points"
+              },
+              {
+                "letter": "C",
+                "textHtml": "write on the board"
+              },
+              {
+                "letter": "D",
+                "textHtml": "provide a photocopy of an article"
+              },
+              {
+                "letter": "E",
+                "textHtml": "recommend a textbook"
+              },
+              {
+                "letter": "F",
+                "textHtml": "give a demonstration"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "understanding debating procedures"
+              },
+              {
+                "number": 28,
+                "textHtml": "using body language"
+              },
+              {
+                "number": 29,
+                "textHtml": "accessing resources"
+              },
+              {
+                "number": 30,
+                "textHtml": "asking and answering questions"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the tables below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Crisis Communication Theory</div><p>Why do we need theory?</p><ul><li>Some people think using {{31}} is better than theory</li><li>But a lot of advice is simply a {{32}}</li></ul><p>Types of crisis</p><ul><li>The organisation can be a victim — e.g. due to a {{33}}</li><li>Crisis can be accidental — caused by external factors</li><li>Crisis can be preventable — resulting from a {{34}} in the organization</li></ul><p>Suggested response for all crises</p><ul><li>Give information to prevent any more damage</li><li>Communicate what {{35}} is to be taken</li></ul><p>Strategies to influence people's thinking</p><ul><li>Diminish the crisis — provide {{36}} that the crisis is not so bad</li><li>Give excuses for the crisis — highlight that it was not intentional</li></ul><p>Protecting the organisation's reputation</p><ul><li>Initial objective is to lessen {{37}} opinions</li><li>Rebuild strategies are important when there is a serious {{38}} to the organisation's reputation</li><li>Things can be improved by providing an {{39}}</li><li>In serious cases, {{40}} is usually offered</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "instructor"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "65"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "certificate"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "shoes"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "waterproof"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "jeans"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "snack"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "bridge"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "doctor"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "photographs"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "logic"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "guess"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "rumor",
+          "rumour"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "mistake"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "action"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "proof"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "negative"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "threat"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "apology"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "compensation"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

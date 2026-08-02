@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 2, Test 1",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -451,47 +451,74 @@
       "1": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "there's a formula for sustainable cane production and Mossman has nearly reached it"
+        }
       },
       "2": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "there's more to life than money"
+        }
       },
       "3": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "I'm less worried about the effect of cane on the environment than I am about other agriculture"
+        }
       },
       "4": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "most people now employed by the industry would have to leave the area to find work"
+        }
       },
       "5": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "For two years the mill used by all the farms has been close to bankruptcy"
+        }
       },
       "6": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "allowing those remaining to buy the vacated land and improve their economies of scale"
+        }
       },
       "7": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the hardest was slashing the mill workforce"
+        }
       },
       "8": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "I've been looking at alternative crops"
+        }
       },
       "9": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "about $232 a tonne. Although figures vary widely across farms and regions, that was about what it cost to grow a tonne"
+        }
       },
       "10": {
         "accepted": [
@@ -501,7 +528,10 @@
       "11": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "most radical but preferred alternative is to create a future for the mill as a food factory"
+        }
       },
       "12": {
         "accepted": [
@@ -511,17 +541,26 @@
       "13": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "none of these costly initiatives has helped him get better cane prices"
+        }
       },
       "14": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "average temperature for the summer months was 3.78°C higher"
+        }
       },
       "15": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "extreme temperatures may be directly attributed to global warming caused by human actions"
+        }
       },
       "16": {
         "accepted": [
@@ -531,12 +570,18 @@
       "17": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "It was the warmest summer in the last 500 years and probably way beyond that. It was enormously exceptional"
+        }
       },
       "18": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "warming had been manifesting itself mainly in winters that were less cold rather than in summers that were much hotter"
+        }
       },
       "19": {
         "accepted": [
@@ -549,34 +594,52 @@
           "1976, 1995",
           "1995 and 1976",
           "1976 1995"
-        ]
+        ],
+        "evidence": {
+          "snippet": "comes behind 1976 and 1995"
+        }
       },
       "21": {
         "accepted": [
           "2000 floods",
           "the 2000 floods",
           "floods"
-        ]
+        ],
+        "evidence": {
+          "snippet": "2000 floods revolutionised the way the Government is thinking about flooding"
+        }
       },
       "22": {
         "accepted": [
           "1856"
-        ]
+        ],
+        "evidence": {
+          "snippet": "global temperature record (which goes back to 1856)"
+        }
       },
       "23": {
         "accepted": [
           "1990"
-        ]
+        ],
+        "evidence": {
+          "snippet": "ten hottest years in the record have occurred since 1990"
+        }
       },
       "24": {
         "accepted": [
           "500"
-        ]
+        ],
+        "evidence": {
+          "snippet": "warmest summer in the last 500 years"
+        }
       },
       "25": {
         "accepted": [
           "france"
-        ]
+        ],
+        "evidence": {
+          "snippet": "15,000 extra deaths in France during August"
+        }
       },
       "26": {
         "accepted": [
@@ -586,72 +649,114 @@
       "27": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "older people may have the same level of strength as a child"
+        }
       },
       "28": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "not known how much visually impaired patients will benefit nor how much the reading of visually able patients will be impaired"
+        }
       },
       "29": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "70% of children admitted to hospital with suspected poisoning have swallowed medicines, and although child-resistant lids have helped, they are not yet fully effective"
+        }
       },
       "30": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a parent giving a cough medicine to a child in the middle of the night; packaging should be designed for moments such as these"
+        }
       },
       "31": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "They do not look at the use of packaging in a practical context they only see one box at a time and not several together as pharmacists would do"
+        }
       },
       "32": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "why are company details towards the beginning of a leaflet when what might be more vital for the patient is that the medicine should not be taken with alcohol"
+        }
       },
       "33": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "marketing team prepares the initial brief"
+        }
       },
       "34": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "usually commissioned from an external design team"
+        }
       },
       "35": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Two or three of these are then tested on a consumer group"
+        }
       },
       "36": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "designs for prescription-only products are created in-house"
+        }
       },
       "37": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "handing it over to design engineers"
+        }
       },
       "38": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "poor choice of typescript used on the drug container"
+        }
       },
       "39": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "if all packaging was white with black lettering, people would have no choice but to read every box carefully"
+        }
       },
       "40": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "On a positive note, a recent innovation exhibition revealed several new designs"
+        }
       }
     },
     "sets": []

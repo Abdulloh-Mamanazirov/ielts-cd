@@ -207,10 +207,10 @@ function bodySelection($: CheerioAPI, seg: Segment): Cheerio<Element> {
   return wrap as unknown as Cheerio<Element>;
 }
 
-/** Options from a `.rgroup` of radio/checkbox labels: value is the letter. */
+/** Options from radio/checkbox labels (`.rlabel` or `.checkbox-option`): value is the letter. */
 function optionsFrom($: CheerioAPI, body: Cheerio<Element>) {
   return body
-    .find(".rlabel")
+    .find(".rlabel, .checkbox-option")
     .map((_, label) => {
       const row = $(label);
       const letter = (row.find("input").attr("value") ?? "").trim().toUpperCase();
@@ -331,17 +331,27 @@ function matchingGroup(
 
 /**
  * "Choose the correct heading" — the source drags roman-numbered heading cards
- * onto slots in the passage. The schema's letters are A–Z, so the headings are
- * renumbered i→A, ii→B in the order they are listed, and the CA answers (which
- * are roman) are mapped through the same table.
+ * onto slots in the passage. The schema's letters are A–Z, so a heading's roman
+ * code is mapped to the letter of the same ordinal — i→A, ii→B, … x→J — and the
+ * CA answers (also roman) go through the same map. Keying off the numeral's
+ * value, not the card order, keeps a test with two heading lists of different
+ * lengths correct.
  */
-function romanLetterMap($: CheerioAPI, box: Cheerio<Element>): Map<string, string> {
-  const map = new Map<string, string>();
-  box.find(".mh-heading-card").each((i, card) => {
-    const code = ($(card).attr("data-code") ?? "").trim().toLowerCase();
-    if (code) map.set(code, String.fromCharCode(65 + i));
-  });
-  return map;
+function romanToLetter(code: string | undefined): string | null {
+  const roman = (code ?? "").trim().toLowerCase();
+  if (!/^[ivxl]+$/.test(roman)) return null;
+  const digits: Record<string, number> = { i: 1, v: 5, x: 10, l: 50 };
+  let total = 0;
+  let prev = 0;
+  for (let i = roman.length - 1; i >= 0; i -= 1) {
+    const value = digits[roman[i]];
+    if (value < prev) total -= value;
+    else {
+      total += value;
+      prev = value;
+    }
+  }
+  return total >= 1 && total <= 26 ? String.fromCharCode(64 + total) : null;
 }
 
 function matchingHeadingsGroup(
@@ -349,13 +359,12 @@ function matchingHeadingsGroup(
   seg: Segment,
   body: Cheerio<Element>,
   id: string,
-  romanToLetter: Map<string, string>,
 ): QuestionGroup {
   const box = body.find(".headings-box").first();
   const wordBank: Option[] = box
     .find(".mh-heading-card")
     .map((_, card) => ({
-      letter: romanToLetter.get(($(card).attr("data-code") ?? "").toLowerCase()) ?? "",
+      letter: romanToLetter($(card).attr("data-code")) ?? "",
       textHtml: ($(card).attr("data-label") ?? $(card).text()).trim(),
     }))
     .get()
@@ -378,10 +387,12 @@ function completionGroup(
 ): QuestionGroup {
   const rubricText = seg.rubricNodes.map((n) => textOf($, $(n).clone())).join(" ");
 
-  // A drag-word summary carries its options as `.dchip` chips; the answer is a
-  // letter, so it becomes a lettered word bank rather than a typed blank.
+  // A summary whose answers are letters carries a word list, so it becomes a
+  // lettered word bank rather than typed blanks: drag `.dchip` chips, or a
+  // "List of words" `.fbox` filled in through <select id="qN"> gaps.
   const chips = body.find(".dchip");
-  let wordBank: Array<{ letter: string; textHtml: string }> | undefined;
+  const fbox = body.find(".fbox").first();
+  let wordBank: Option[] | undefined;
   if (chips.length) {
     wordBank = chips
       .map((_, chip) => {
@@ -392,6 +403,9 @@ function completionGroup(
       .get()
       .filter((o) => /^[A-Z]$/.test(o.letter));
     body.find(".dchip").parent().remove();
+  } else if (fbox.length) {
+    wordBank = parseListBox($, fbox);
+    body.find(".fbox").remove();
   }
 
   const bodyHtml = toSlotHtml($, body.clone());
@@ -410,7 +424,6 @@ function buildGroup(
   $: CheerioAPI,
   seg: Segment,
   sets: Map<number, SetGroup>,
-  romanToLetter: Map<string, string>,
   partNumber: number,
   index: number,
 ): QuestionGroup {
@@ -418,7 +431,7 @@ function buildGroup(
   const id = `part-${partNumber}-group-${index + 1}`;
   const values = radioValues($, body);
 
-  if (body.find(".headings-box").length) return matchingHeadingsGroup($, seg, body, id, romanToLetter);
+  if (body.find(".headings-box").length) return matchingHeadingsGroup($, seg, body, id);
   if (body.find("table.matrix").length) return matchingGroup($, seg, body, id);
 
   const checkboxes = body.find(
@@ -467,7 +480,6 @@ export function convertBekhruzReading(
   const sets = readPickGroups($);
   for (const [base, set] of readMc2Sets($, CA)) if (!sets.has(base)) sets.set(base, set);
   const extras = coveredExtras(sets);
-  const romanToLetter = romanLetterMap($, $(".headings-box").first());
 
   const passages = $("#left-pane .pcontent, .pcontent")
     .map((_, el) => {
@@ -492,7 +504,7 @@ export function convertBekhruzReading(
       const partNumber = el + 1;
       const qsec = $(node);
       const passage = passages[el] ?? { title: undefined, passageHtml: "" };
-      const groups = segmentQsec($, qsec).map((seg, i) => buildGroup($, seg, sets, romanToLetter, partNumber, i));
+      const groups = segmentQsec($, qsec).map((seg, i) => buildGroup($, seg, sets, partNumber, i));
       return {
         number: partNumber,
         title: passage.title,
@@ -527,7 +539,7 @@ export function convertBekhruzReading(
       (Array.isArray(raw) ? raw : [raw])
         .map((s) => String(s).trim())
         // A heading answer is a roman code; the word bank renumbered it to a letter.
-        .map((s) => romanToLetter.get(s.toLowerCase()) ?? s)
+        .map((s) => romanToLetter(s) ?? s)
         .filter(Boolean),
     );
     answers[String(number)] = { accepted, ...evidenceFor(number) };
@@ -536,6 +548,22 @@ export function convertBekhruzReading(
   const answerSets = [...sets.values()]
     .sort((a, b) => a.first - b.first)
     .map((s) => ({ questions: s.questions, accepted: s.accepted, ...evidenceFor(s.first) }));
+
+  // A few source rubrics state a tighter limit than their own key respects — a
+  // "ONE WORD ONLY" gap answered "sea level". Widen the cap to the longest
+  // accepted answer rather than reject the instructor's own answer.
+  for (const part of parts) {
+    for (const group of part.groups) {
+      if (group.type !== "completion" || !group.bodyHtml || group.wordBank) continue;
+      let longest = 0;
+      for (const m of group.bodyHtml.matchAll(/\{\{(\d+)\}\}/g)) {
+        for (const a of answers[m[1]]?.accepted ?? []) {
+          longest = Math.max(longest, a.trim().split(/\s+/).length);
+        }
+      }
+      if (longest > (group.maxWords ?? 0)) group.maxWords = longest;
+    }
+  }
 
   return {
     slug: options.slug ?? slugify(options.title),

@@ -1,0 +1,687 @@
+{
+  "slug": "reading-volume-9-test-6",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 9, Test 6",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Health in the Wild",
+        "passageHtml": "<p>Many animals seem able to treat their illnesses themselves. Humans may have a thing or two to learn from them.</p><p>For the past decade, Dr Cindy Engel, a lecturer in Environmental Sciences at Britain's Open University, has been collating examples of self-medicating behaviour in wild animals. In a recent talk, she explained that the idea that animals can treat themselves has been generally regarded with some scepticism by other animal behaviourists. But a growing number of them now think that wild animals can and do deal with their own medical needs.</p><p>Dr William Karesh of the Wildlife Conservation Society in New York, for example, has studied the health of a wide range of wild animals, including anaconda snakes, macaws, penguins, impala and buffalo. The animals were mostly in good physical condition, which is not surprising since the weak quickly die in the wild. But blood tests showed that many had encountered unpleasant viral and bacterial diseases in the past - including diseases that are often fatal in captive animals, even when treated by vets. Moreover, if healthy wild animals are brought into captivity, their health often deteriorates unless great care is taken over their living conditions. Such observations suggest that wild animals can do something to keep themselves healthy that captive animals cannot.</p><p>One example of self-medication was discovered in 1987. Dr Michael Huffman and Mohamedi Seifu, working in the Mahale Mountains National Park in Tanzania, noticed that local chimpanzees suffering from intestinal worms would dose themselves with the pith (the white substance between the skin and the flesh) of a plant called Vernonia. This plant produces poisonous chemicals called terpenes. Its pith contains a strong enough concentration to kill gut parasites, but not so strong as to kill chimps (nor people for that matter; locals use the pith for the same purpose).</p><p>Since the Vernonia-eating chimps were discovered, more evidence has emerged suggesting that animals often eat things for medical rather than nutritional reasons. Many species, for example, consume dirt - a behaviour known as geophagy. Historically, the preferred explanation was that soil supplies minerals such as salt. But geophagy occurs in areas where the earth is not a useful source of minerals, and also in places where minerals can be more easily obtained from certain plants that are known to be rich in them. Clearly, the animals must be getting something else out of eating the earth.</p><p>The current belief is that soil - and particularly the clay in it - helps to detoxify the defensive poisons that some plants produce in an attempt to prevent themselves from being eaten. Evidence for the detoxifying nature of clay came in 1999 from an experiment carried out on macaws by Dr James Gilardi and his colleagues at the University of California, Davis. Macaws eat seeds containing alkaloids, a group of chemicals that has some notoriously toxic members, such as strychnine. In the wild, the birds are frequently seen perched on eroding riverbanks eating clay. Dr Gilardi fed one group of macaws a mixture of harmless alkaloid and clay, and a second group just the alkaloid. Several hours later, the macaws that had eaten the clay had 60% less alkaloid in their bloodstreams than those that had not, suggesting that the current hypothesis is correct.</p><p>A third instance of animals' self-medication is the use of mechanical scours to get rid of gut parasites. In 1972, Dr Richard Wrangham, a researcher at the Gombe Stream Reserve in Tanzania, noticed that chimpanzees were eating the leaves of a tree called Aspilia. The chimps chose the leaves carefully by testing them in their mouths. Having chosen a leaf, a chimp would fold it into a fan and swallow it. Some of the chimps were noticed wrinkling their noses as they swallowed these leaves, suggesting the experience was unpleasant. Later, undigested leaves were found on the forest floor.</p><p>Dr Wrangham rightly guessed that the leaves had a medicinal purpose - this was, indeed, one of the earliest interpretations of a behaviour pattern known as self-medication. However, he guessed wrong about what the mechanism was. His (and everybody else's) assumption was that Aspilia released a drug, and this sparked more than two decades of phytochemical research to try to find out what chemical the chimps were after. But by the 1990s, chimps across Africa had been seen swallowing the leaves of 19 different Aspilia species that seemed to have few suitable chemicals in common. The drug hypothesis was looking more and more dubious.</p><p>It was Dr Huffman who got to the root of the problem. He did so by watching what came out of the chimps, rather than concentrating on what went in. He found that the egested leaves were full of intestinal worms. The factor common to all 19 species of leaves swallowed by the chimps was that they were covered with microscopic hooks. These caught the worms and dragged them from their lodgings.</p><p>Dr Engel is now particularly excited about how knowledge of the way that animals look after themselves could be used to improve the health of livestock. People might also be able to learn a thing or two - and may, indeed, already have done so. Geophagy, for example, is a common behaviour in many parts of the world. The medical stalls in African markets frequently sell tablets made of different sorts of clays, appropriate to different medical conditions.</p><p>Africans brought to the Americas as slaves continued this tradition, which gave their owners one more excuse to affect to despise them. Yet, as Dr Engel points out, Rwandan mountain gorillas eat a type of clay rather similar to kaolinite - the main ingredient of many patent medicines sold over the counter in the West for digestive complaints. Dirt can sometimes be good for you, and to be 'as sick as a parrot' may, after all, be a state to be desired.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–4</h3>Choose TRUE, FALSE or NOT GIVEN.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Dr Engel has spent ten years gathering evidence for the notion that animals treat their own illnesses."
+              },
+              {
+                "number": 2,
+                "textHtml": "Animal behaviourists have always believed that animals know how to heal themselves."
+              },
+              {
+                "number": 3,
+                "textHtml": "Dr Karesh enlisted the help of a medical team during his research."
+              },
+              {
+                "number": 4,
+                "textHtml": "Wild animals taken into captivity tend to experience a decline in health."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 5–9</h3>Complete the table below. Write <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<table class=\"q-table\"><thead><tr><th>Researchers</th><th>Subjects</th><th>Self-treatment</th><th>Findings</th><th>Other observations</th></tr></thead><tbody><tr><td>Michael Huffman &amp; Mohamedi Seifu, 1987</td><td>Chimps with worms</td><td>Eat {{5}} of Vernonia plant</td><td>Plant contains toxins known as {{6}} that kill parasites.</td><td>Remedy also used by people</td></tr><tr><td>James Gilardi, 1999</td><td>Macaws that consume poison-bearing seeds</td><td>Eat clay</td><td>Clay leads to reduction in level of {{7}} in blood</td><td></td></tr><tr><td>Richard Wrangham</td><td>Chimps with gut parasites</td><td>Eat Aspilia leaves</td><td>Undigested leaves wrongly believed to contain a {{8}}</td><td>Chimps indicate leaves have an {{9}} taste</td></tr></tbody></table>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-1-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 10–13</h3>Complete the summary below. Write <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><h3>Soil as Medication</h3>The consumption of soil for medicinal reasons is called {{10}}. Initially, people believed that animals ate dirt to get {{11}} and other minerals. They then realised that the soil eaten in some areas did not contain a lot of minerals, and that in other areas plants were a better mineral source. Many people believe that the clay in soil can {{12}} poisons. Indeed, clay-based {{13}} are sold in African markets to treat a range of illnesses.</div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Speaking of Nothing",
+        "passageHtml": "<p>Why we talk about the weather and other trivia</p><p> Some workers are happier in their jobs than others, but it's not only to do with the work itself. For example, security guards, truck drivers and salespeople: year after year, these jobs appear on lists of the unhappiest careers. It's true that many factors can make a job cheerless, including unusual hours, low pay and a lack of chances for advancement. However, these three types of work stand out for another reason: they're characterised by a lack of conversation or by meaningless small talk, which unfortunately represents an obligatory part of the job. Examples of such small talk include comments about the weather, holiday destinations and food. Psychologists have long said that connecting with others through meaningful exchanges is central to well-being, but just how much conversation we require is under investigation.</p><p> Matthias R. Mehl and Simine Vazire of the University of Arizona in the United States wanted to investigate the types of conversations people have. The team used a device to periodically record short verbal exchanges while participants went about their daily tasks. In the study, the researchers eavesdropped on undergraduates for four days, then catalogued each overheard conversation as either 'small talk' or 'substantive'. They found that people who had more substantive conversations were more likely to say they were feeling happy and fulfilled overall. In fact, the happiest students had roughly twice as many substantive talks as the unhappiest ones. Small talk, meanwhile, made up only 10 per cent of their conversation, versus almost 30 per cent of conversation among the least content students.</p><p> However, small talk still has a role to play. Rather than convey information, scientists believe that it can promote bonding. Ipek Kulahci and her team of researchers at University College Cork in Ireland tested the relationship between vocal exchanges and grooming in lemurs. The researchers reported that the animals reserve their call-and-response conversations, equivalent to human chitchat, for the animals they groom the most - suggesting that small talk maintains closeness with loved ones, and isn't merely for awkward exchanges with strangers. It appears that, even among animals, vocal exchanges indicate strong social bonds between the group members.</p><p> Connecting with others seems to increase happiness, but strangers in close proximity routinely ignore each other. To examine the experience of connecting to strangers, psychologists Nicholas Epley and Juliana Schroeder from the University of Chicago in the United States gave volunteers varying directions about whether to talk with other commuters who usually took the same train to work every day - something they typically avoided. Those told to chat with others reported a more pleasant journey than those told to 'enjoy your solitude' or do whatever they normally would. All of the volunteers in the study who initiated conversations reported a positive reaction from the people they spoke to. Participants had predicted precisely the opposite outcome. They expected that the others on the train would have preferred to be left alone.</p><p> When we buy a cup of coffee at a cafe, we sometimes chat with the service staff, but on other occasions we say as little as possible so as not to waste time. Every day we have opportunities to transform potentially impersonal exchanges into genuine social interactions; in other words, treating a service provider like we would an acquaintance might make us happier. In a study by Gillian Sandstrom and Elizabeth Dunn, people who had a social interaction with a server in a coffee shop felt better emotionally than people who were in a rush to get everything done. As well as feeling happier, the first group had a stronger sense of belonging. In similar studies, when volunteers broke the silence at a gallery to chat with other visitors, the visitors felt happier and more connected to the paintings than those who were not approached. The pleasure of connection seems contagious; in a laboratory waiting room, participants who were talked to had equally positive experiences as those instructed to talk to them.</p><p> Of course, some of us are better than others at small talk. In a study by Todd Kashdan and his team from George Mason University in the United States, people who were rated by the researchers as 'less curious about all aspects of life' had trouble getting a conversation going on their own. However, they had greater luck building closeness with others when they were supplied with topics that encouraged people to open up about themselves and their lives. But people who were deemed 'curious' needed no help transforming conversations about ordinary things like favourite holidays into other areas of conversation that allowed for intimate exchanges. In an experiment by William Fleeson at Wake Forest University in the United States, participants were divided into two groups - those who were naturally outgoing, and those who were more reserved in social situations. They were then instructed to behave in the opposite manner to their usual nature. Participants reported more positive feelings when instructed to act extroverted than when instructed to act introverted. The overall conclusion, therefore, is that everyone can benefit from more conversation; the more meaningful, the better.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14-19</h3>Choose the correct heading for each paragraph. Drag each heading into the box above the correct paragraph in the passage on the left (or tap a heading, then tap the box).",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "How sounds and physical contact strengthen social connections"
+              },
+              {
+                "letter": "B",
+                "textHtml": "A cross-cultural study of superficial interaction"
+              },
+              {
+                "letter": "C",
+                "textHtml": "An experiment that led to surprising results"
+              },
+              {
+                "letter": "D",
+                "textHtml": "A study that categorised types of spoken exchanges"
+              },
+              {
+                "letter": "E",
+                "textHtml": "The personality types that find small talk more difficult"
+              },
+              {
+                "letter": "F",
+                "textHtml": "The effect of social media on conversation skills"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Some occupations involve little or no interesting conversation"
+              },
+              {
+                "letter": "H",
+                "textHtml": "A campaign to improve interaction in the workplace"
+              },
+              {
+                "letter": "I",
+                "textHtml": "A range of common situations that were enhanced by small talk"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 20-23</h3>Match each statement with the correct researcher.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Matthias R. Mehl and Simine Vazire"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Ipek Kulahci"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Nicholas Epley and Juliana Schroeder"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Gillian Sandstrom and Elizabeth Dunn"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Todd Kashdan"
+              }
+            ],
+            "questions": [
+              {
+                "number": 20,
+                "textHtml": "Interacting socially is preferable to hurrying through a transaction."
+              },
+              {
+                "number": 21,
+                "textHtml": "People whose conversations are mainly of a personal and meaningful nature are more satisfied with their lives."
+              },
+              {
+                "number": 22,
+                "textHtml": "There is more than one species whose members communicate for social reasons."
+              },
+              {
+                "number": 23,
+                "textHtml": "Some people find it easier than others to change the subject of a conversation."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 24–26</h3>Complete the sentences below. Write <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p> In a study that took place on a train, volunteers approached people who were regular {{24}}.</p><p> In an experiment in an art gallery, people related more to the {{25}} when they were drawn into a conversation.</p><p> Introverted people found it helpful to be given {{26}} which they could use to start a conversation.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Changes to the Soviet Union's Working Week",
+        "passageHtml": "<p>Read the text and answer Questions 27–40.</p><p> The Soviet Union's first Five Year Plan was intended to turn the weak and undeveloped country into a powerful, modern, industrial nation. Following its introduction in 1928, production of coal, iron and steel increased at a fantastic rate, and new industrial cities sprang up. Everyone's life was affected, as collectivised farming drove millions from the land to swell the industrial proletariat. Private enterprise disappeared in city and country, leaving the state supreme under the leadership of Stalin. Unlimited enthusiasm was the mood of the day, with the Communists believing that iron will and hard-working manpower alone would bring about a new world.</p><p> Not even time itself was immune to efforts to make the state a huge, efficient machine, where not a moment would be wasted, especially in the workplace. Stalin's predecessor Lenin had already been intrigued by the ideas of Taylor, the American management expert whose time and motion studies had discovered ways of streamlining effort so that every worker could produce the maximum. The Communists were also great admirers of Ford's assembly line mass production and of his tractors that were imported in their thousands. Emulating and surpassing such capitalist models formed part of the training of the new Soviet Man.</p><p> The goals of Communism had always included improving the lives of the proletariat. One major step in that direction was the announcement in 1927 that reduced the working day from eight to seven hours. In January 1929, all industries were ordered to adopt the shorter day by the end of the Plan. However, the state took away more than it gave, for this was part of a scheme to increase production by establishing a three-shift system, for six days a week. That meant that the factories were open day and night, and many people had to work at highly undesirable hours.</p><p> Hardly had that policy been announced, though, than the economist Larin came up with an idea for even greater efficiency. Workers were free and plants were closed on Sundays. Why not abolish that wasted day by instituting a continuous working week so that the machines could operate to their full capacity every day of the week? Stalin approved, and the continuous working week was introduced in August 1929 with immediate effect. This was during the height of enthusiasm for the Plan, whose goals the new schedule seemed guaranteed to forward.</p><p> The idea turned out to be very complicated in practice. Obviously, the workers couldn't be made to work seven days a week, nor should their total work hours be increased. The solution was ingenious: a new five-day week would have the workers on the job for four days, with the fifth day free. Staggering the rest days between groups of workers meant that each worker would spend the same number of hours on the job, but the factories would be working a full 360 days a year instead of 300. Workers in each establishment were divided into five groups, each assigned a colour which appeared on the new calendars distributed all over the country. This colour-coding was a valuable device, since without it workers might have trouble remembering what their day off was going to be, as it would change every week.</p><p> Official propaganda stressed the material and cultural benefits of the new scheme. Workers would get more rest; production and employment would increase; the standard of living would improve. Shopping and leisure activities would no longer have to be crammed into a weekend, so facilities would be far less crowded. The only objection concerned the family, where normally more than one member was working: the government insisted that the narrow family was far less important than the vast common good and, besides, arrangements could be made for husband and wife to share a common schedule.</p><p> The continuous working week spread fast, reaching its peak in October 1930, when it affected nearly three quarters of workers. In fact, many managers simply claimed that their factories had gone over to the new week, without actually applying it. By then, though, problems were becoming obvious. The workers hated it. Coordination of family schedules was virtually impossible, so husbands and wives only saw each other before or after work. Confusion reigned: the new plan was implemented haphazardly, with some factories operating five-, six- and seven-day weeks at the same time, and the workers often not getting their rest days at all.</p><p> Furthermore, the new week was far from having the vaunted effect on production. With the complicated rotation system, the work teams found themselves doing different kinds of work in successive weeks. Machines, no longer consistently in the hands of people who knew how to tend them, were often poorly maintained. Workers lost a sense of responsibility for the tasks they had normally performed. As a result, the new week started to lose ground.</p><p> In November 1931, the government ordered the widespread adoption of a new six-day week, including one day off, which had its own calendar. By July 1935, only a quarter of workers still followed the continuous schedule, and the six-day week too was soon on its way out. Both were finally abandoned in 1940, as part of the general reversion to more traditional methods, and Sunday returned as the universal day of rest. The experiment had failed.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 27-34</h3>Choose the correct heading for each paragraph. Drag each heading into the box above the correct paragraph in the passage on the left (or tap a heading, then tap the box).<em>Example: Paragraph 29 - iii</em>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A decision for factories to operate seven days a week"
+              },
+              {
+                "letter": "B",
+                "textHtml": "The end of two short-lived schemes"
+              },
+              {
+                "letter": "C",
+                "textHtml": "An attempt to create better working conditions?"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Not consistently introduced everywhere"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Success in replacing foreign goods"
+              },
+              {
+                "letter": "F",
+                "textHtml": "How the continuous working week was organised"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Inspiration from abroad"
+              },
+              {
+                "letter": "H",
+                "textHtml": "A proposal by factory workers"
+              },
+              {
+                "letter": "I",
+                "textHtml": "Optimism about transforming the country"
+              },
+              {
+                "letter": "J",
+                "textHtml": "The failure of factories to achieve expected improvements"
+              },
+              {
+                "letter": "K",
+                "textHtml": "Pros and cons of the continuous working week"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 28,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 29,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 30,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 31,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 32,
+                "textHtml": "Paragraph <strong>F</strong>"
+              },
+              {
+                "number": 33,
+                "textHtml": "Paragraph <strong>G</strong>"
+              },
+              {
+                "number": 34,
+                "textHtml": "Paragraph <strong>H</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 35–37</h3>Choose the correct answer.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 35,
+                "textHtml": "Which aspect of American business was admired?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; the high level of employment"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; the variety of products available"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; the methods of increasing productivity"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; the quality of the goods that were produced"
+                  }
+                ]
+              },
+              {
+                "number": 36,
+                "textHtml": "The continuous working week was intended to ensure that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; each worker's productivity increased."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; machinery was in continuous use."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; workers had more days off."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; factories could afford to buy efficient machines."
+                  }
+                ]
+              },
+              {
+                "number": 37,
+                "textHtml": "Which of the following was thought unlikely to improve as a result of the continuous working week?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; family life"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; leisure facilities"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; employment levels"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; shopping opportunities"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 38–40</h3>Answer the questions below. Write <strong>NO MORE THAN THREE WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p> What was the name of the person whose theories inspired efforts to increase efficiency? {{38}}</p><p> What was the name of the person who proposed the continuous working week? {{39}}</p><p> In calendars of the continuous working week, what system was used to identify different groups of workers? {{40}}</p></div>",
+            "maxWords": 3
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "For the past decade"
+        }
+      },
+      "2": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "generally regarded with some scepticism"
+        }
+      },
+      "3": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "their health often deteriorates"
+        }
+      },
+      "5": {
+        "accepted": [
+          "pith"
+        ],
+        "evidence": {
+          "snippet": "dose themselves with the pith"
+        }
+      },
+      "6": {
+        "accepted": [
+          "terpenes"
+        ],
+        "evidence": {
+          "snippet": "poisonous chemicals called terpenes"
+        }
+      },
+      "7": {
+        "accepted": [
+          "alkaloid"
+        ],
+        "evidence": {
+          "snippet": "60% less alkaloid"
+        }
+      },
+      "8": {
+        "accepted": [
+          "drug"
+        ],
+        "evidence": {
+          "snippet": "Aspilia released a drug"
+        }
+      },
+      "9": {
+        "accepted": [
+          "unpleasant"
+        ],
+        "evidence": {
+          "snippet": "the experience was unpleasant"
+        }
+      },
+      "10": {
+        "accepted": [
+          "geophagy"
+        ],
+        "evidence": {
+          "snippet": "a behaviour known as geophagy"
+        }
+      },
+      "11": {
+        "accepted": [
+          "salt"
+        ],
+        "evidence": {
+          "snippet": "minerals such as salt"
+        }
+      },
+      "12": {
+        "accepted": [
+          "detoxify"
+        ],
+        "evidence": {
+          "snippet": "helps to detoxify"
+        }
+      },
+      "13": {
+        "accepted": [
+          "tablets"
+        ],
+        "evidence": {
+          "snippet": "sell tablets made of different sorts of clays"
+        }
+      },
+      "14": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "characterised by a lack of conversation"
+        }
+      },
+      "15": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "catalogued each overheard conversation"
+        }
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "vocal exchanges and grooming"
+        }
+      },
+      "17": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "Participants had predicted precisely the opposite outcome"
+        }
+      },
+      "18": {
+        "accepted": [
+          "I"
+        ],
+        "evidence": {
+          "snippet": "felt happier and more connected to the paintings"
+        }
+      },
+      "19": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "less curious about all aspects of life"
+        }
+      },
+      "20": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "social interaction with a server"
+        }
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "substantive conversations were more likely"
+        }
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "even among animals, vocal exchanges"
+        }
+      },
+      "23": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "commuters"
+        ],
+        "evidence": {
+          "snippet": "other commuters who usually took the same train"
+        }
+      },
+      "25": {
+        "accepted": [
+          "paintings"
+        ],
+        "evidence": {
+          "snippet": "more connected to the paintings"
+        }
+      },
+      "26": {
+        "accepted": [
+          "topics"
+        ],
+        "evidence": {
+          "snippet": "supplied with topics"
+        }
+      },
+      "27": {
+        "accepted": [
+          "I"
+        ],
+        "evidence": {
+          "snippet": "Unlimited enthusiasm was the mood of the day"
+        }
+      },
+      "28": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "ideas of Taylor"
+        }
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "reduced the working day from eight to seven hours"
+        }
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "K"
+        ],
+        "evidence": {
+          "snippet": "material and cultural benefits"
+        }
+      },
+      "32": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "without actually applying it"
+        }
+      },
+      "33": {
+        "accepted": [
+          "J"
+        ],
+        "evidence": {
+          "snippet": "far from having the vaunted effect on production"
+        }
+      },
+      "34": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "Both were finally abandoned in 1940"
+        }
+      },
+      "35": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "streamlining effort"
+        }
+      },
+      "36": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "machines could operate to their full capacity"
+        }
+      },
+      "37": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "The only objection concerned the family"
+        }
+      },
+      "38": {
+        "accepted": [
+          "Taylor"
+        ],
+        "evidence": {
+          "snippet": "ideas of Taylor"
+        }
+      },
+      "39": {
+        "accepted": [
+          "Larin"
+        ],
+        "evidence": {
+          "snippet": "the economist Larin"
+        }
+      },
+      "40": {
+        "accepted": [
+          "colour-coding",
+          "color-coding",
+          "colour coding",
+          "color coding"
+        ],
+        "evidence": {
+          "snippet": "This colour-coding was a valuable device"
+        }
+      }
+    },
+    "sets": []
+  }
+}

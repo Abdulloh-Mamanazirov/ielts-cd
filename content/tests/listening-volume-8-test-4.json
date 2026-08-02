@@ -1,0 +1,631 @@
+{
+  "slug": "listening-volume-8-test-4",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/vol-8-test-4-listening/VOL%208%20TEST%204%20LISTENING.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 8, Test 4",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>AA Property Rentals</div><ul><li>Where property required: Birmingham</li></ul><p>Personal details</p><ul><li>Name: Kevin Walker</li><li>Address: {{1}} Road, West Bromwich</li><li>Phone: {{2}}</li><li>Occupation: {{3}}</li></ul><p>Details of property wanted</p><ul><li>A two-bedroom {{4}} apartment to rent</li><li>Maximum rent: £650 a month</li><li>The bedrooms must be {{5}}</li><li>Date required: {{6}}</li></ul><p><strong>If possible, the apartment should:</strong></p><ul><li>have a {{7}} or a {{8}}</li><li>be near a {{9}}</li><li>have a large {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;Compared to last year's storm, this year",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "more houses in the area were affected."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the water levels rose much higher."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "there was more severe damage to trees."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;According to the speaker, what should you do if your home has been flooded?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "switch off the electricity"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "try to drain the water"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "wait for a few days"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;What does the speaker advise residents to do with their garden waste?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "put it in a special bin"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "take it to the council rubbish centre"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "pile it next to the road"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;People who cannot cook food should",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "pick up vouchers from the council office."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "get a meal in the community centre."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "arrange for food to be brought to their home."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;People who want to help out are asked to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "contact their local council office."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "come to the community centre in the morning."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "bring their tools to the council office."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;What problem should residents report to the council?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "an increased number of mosquitoes"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "native animals found in unusual places"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "contaminated water"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "It can't be reached by car."
+              },
+              {
+                "letter": "B",
+                "textHtml": "Repairs are now finished."
+              },
+              {
+                "letter": "C",
+                "textHtml": "Planned work has been cancelled."
+              },
+              {
+                "letter": "D",
+                "textHtml": "Help is needed to move furniture."
+              },
+              {
+                "letter": "E",
+                "textHtml": "New equipment will be bought."
+              },
+              {
+                "letter": "F",
+                "textHtml": "Part of the building is damaged."
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "The school"
+              },
+              {
+                "number": 18,
+                "textHtml": "The hospital"
+              },
+              {
+                "number": 19,
+                "textHtml": "The High Street"
+              },
+              {
+                "number": 20,
+                "textHtml": "The bikeway"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 21–30</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Possible Course Change</div><ul><li><strong>Name of student:</strong> Sally Layman</li><li><strong>Current course:</strong> {{21}}</li><li><strong>Date started:</strong> {{22}}</li></ul><p><strong>Courses interested in:</strong></p><ul><li>1st choice: {{23}}</li><li>2nd choice: {{24}}</li></ul><table class=\"q-table\"><tbody><tr><th>Problem</th><th>Strategies tried</th><th>Further strategies suggested</th></tr><tr><td>finds {{25}}</td><td>recording them</td><td>join other students in a {{26}}</td></tr><tr><td>{{27}}</td><td>talking to tutor</td><td>arrange meetings in advance</td></tr><tr><td>bad assignment</td><td>more background reading</td><td>{{28}}</td></tr></tbody></table><ul><li><strong>Date for next meeting:</strong> {{29}} at 3.30 p.m.</li><li><strong>With:</strong> {{30}}</li></ul></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 31,
+                "textHtml": "&nbsp;The museum started displaying perfume ornaments when",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a collection was donated."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the public showed an interest in them."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "an expert decided some of them were valuable."
+                  }
+                ]
+              },
+              {
+                "number": 32,
+                "textHtml": "&nbsp;People needed to wear perfume in the 11th century because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "washing was considered dangerous."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "soap was not generally available."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "water shortages were common."
+                  }
+                ]
+              },
+              {
+                "number": 33,
+                "textHtml": "&nbsp;The perfume ornament known as a 'pomander' took its name from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the substance it was made of."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the liquid inside it."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the person who invented it."
+                  }
+                ]
+              },
+              {
+                "number": 34,
+                "textHtml": "&nbsp;In medieval times, it was thought that wearing perfume made people",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "more wealthy."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "more attractive."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "more cheerful."
+                  }
+                ]
+              },
+              {
+                "number": 35,
+                "textHtml": "&nbsp;Craftsmen found ways of preventing liquid perfume from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "being spilled."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "drying up."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "losing its scent."
+                  }
+                ]
+              },
+              {
+                "number": 36,
+                "textHtml": "&nbsp;The perfume in a vinaigrette was",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "preserved in solid form."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "absorbed by a sponge."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "heated over a flame."
+                  }
+                ]
+              },
+              {
+                "number": 37,
+                "textHtml": "&nbsp;Which part of the vinaigrette was made of gold?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the inside"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the outside"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the lid"
+                  }
+                ]
+              },
+              {
+                "number": 38,
+                "textHtml": "&nbsp;Perfume bottles used in the mid-19th century",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "were imports from outside Europe."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "could be bought by large numbers of people."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "were usually made of horn."
+                  }
+                ]
+              },
+              {
+                "number": 39,
+                "textHtml": "&nbsp;Tiffany bottles",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "were produced by a number of companies."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "could only be bought from catalogues."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "showed skilled use of crystal."
+                  }
+                ]
+              },
+              {
+                "number": 40,
+                "textHtml": "&nbsp;The 'Vanity' was",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "used for storing cosmetics."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the smallest perfume ornament ever made."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "developed in the 1950s."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "354 forest"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "07817983602"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "dentist"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "unfurnished"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "doubles",
+          "double"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "november 1",
+          "1 november",
+          "1st november",
+          "nov 1"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "balcony"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "garden"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "station",
+          "a station"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "kitchen"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "economic history"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "last september"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "politics"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "philosophy"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "difficult",
+          "it difficult",
+          "them difficult"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "discussion group",
+          "a discussion group"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "not enough tutorials"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "visiting student services"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "17 february",
+          "17th february",
+          "feb 17",
+          "february 17"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "senior advisor",
+          "the senior advisor"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "A"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

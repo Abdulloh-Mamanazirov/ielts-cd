@@ -249,21 +249,31 @@ not access control.
 
 ## Converting the HTML mocks
 
-`_source-tests/` holds the instructor's "@bekhruzposts" Volume 1 tests: ten
-reading and ten listening, each a self-contained HTML player. Two adapters under
-`scripts/convert/` — `bekhruz-reading.ts` and `bekhruz-listening.ts` — parse the
-two templates, sharing one cleaning and validation pipeline. `npm run convert`
-writes validated JSON to `content/tests/` and extracts each listening test's
-audio (see below).
+`_source-tests/` is where the instructor's "@bekhruzposts" HTML mocks land to be
+converted — **nothing there is versioned except a README**; the converted JSON
+in `content/tests/` is the source of truth, and the sources (large, oddly named,
+some with 40 MB of embedded audio) are re-added locally as needed. Two adapters
+under `scripts/convert/` — `bekhruz-reading.ts` and `bekhruz-listening.ts` —
+parse the two templates, sharing one cleaning and validation pipeline. `npm run
+convert` writes validated JSON to `content/tests/` and extracts any embedded
+listening audio (see below).
 
-Unlike the earlier one-off adapters, these parse by **structure**, not a
-hand-identified layout, so a whole Volume converts at once and the next drops in
-by adding files. Between them they handle every IELTS group type, both source
-answer-object shapes (reading's `CA` + `PICK`, listening's `correctAnswers` +
-`pickGroups`), two matching UIs (a `<select>` box and drag-and-drop tiles), and
-matching-headings — whose roman-numbered options (i, ii, …) are renumbered to
-the schema's A–Z letters in the order they are listed, with the answer key
-mapped through the same table.
+Discovery is forgiving about the mess. It walks the folder recursively, and
+reads each file's skill, test number and Volume from the filename *and* its
+`<title>`, falling back to the enclosing `volN/` folder for the Volume — so
+`Vol 8 Test 1.html` (whose name says neither skill nor a clean Volume) and an
+`IELTS Reading Test 9` sitting in `vol9/` both resolve. A file it cannot place,
+or that fails validation, is reported and skipped; the rest still convert.
+
+The adapters parse by **structure**, not a hand-identified layout, so a whole
+Volume converts at once. Between them they handle every IELTS group type across
+every spelling seen so far: both `CA`/`PICK` and `.mc2box`/`data-base` "choose
+two"; `.rlabel` and `.checkbox-option` option rows; gaps as `<input>`,
+`<select id="qN">`, or paragraph-level `data-question`; word-bank summaries from
+`.dchip` chips or an `.fbox` list; matching over a `<select>` box or drag-tiles;
+and matching-headings, whose roman codes (i, ii, … x) map to the letter of the
+same ordinal (A, B, … J). Listening answers come in both object shapes
+(`correctAnswers` + `pickGroups`).
 
 Word limits are read from the rubric by `maxWordsFromRubric`. Its phrase list is
 duplicated in `src/lib/tests/validate.ts`; keep the two in step, and note that
@@ -278,19 +288,15 @@ read with a small hand-written parser rather than `eval` or `node:vm`, because
 the source HTML is downloaded from third parties and must never be executed.
 
 Listening audio arrives one of two ways, and both are handled. Some tests embed
-it as a base64 `data:audio/mpeg` URL — 15–40 MB per file, which is why the
-listening HTML sources are gitignored rather than versioned (the reading HTML,
-being small, is kept); `npm run convert` decodes it to `_source-tests/<slug>.mp3`.
-Others hot-link it from an external host, which the converter records as
-`audioSourceUrl` in the JSON. Either way, `npm run audio:upload -- --all
---publish` releases the whole library — it ingests a local `<slug>.mp3` where
-one exists and downloads from the recorded URL where it does not. A listening
-test cannot be published without an uploaded audio file. Maps embedded as base64
-are written into `public/test-media/` and referenced by the test's JSON.
-
-`npm run convert` reads the Volume from each filename ("… (Volume 2) …"), so a
-new Volume converts alongside the last — slugs are `reading-volume-2-test-7`,
-never a collision — rather than overwriting it.
+it as a base64 `data:audio/mpeg` URL — 15–40 MB per file — which `npm run
+convert` decodes to `_source-tests/<slug>.mp3`. Others hot-link it from an
+external host, which the converter records as `audioSourceUrl` in the JSON.
+Either way, `npm run audio:upload -- --all --publish` releases the whole library:
+it attaches a test that has no audio yet, ingesting a local `<slug>.mp3` where
+one exists and downloading from the recorded URL where it does not, and carries
+on past a dead link rather than abandoning the batch. A listening test cannot be
+published without an uploaded audio file. Maps embedded as base64 are written
+into `public/test-media/` and referenced by the test's JSON.
 
 The writing and speaking tests have no adapter: they come from the official IELTS
 sample PDFs in `_source-tests/`, hand-authored into `content/tests/` the way the

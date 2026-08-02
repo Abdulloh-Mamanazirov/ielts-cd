@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 2, Test 9",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -20,7 +20,7 @@
             "rubricHtml": "<h3>Questions 1–5</h3>Complete the flow-chart below. Choose <strong>NO MORE THAN THREE WORDS</strong> from the passage for each answer.",
             "selectCount": 1,
             "bodyHtml": "<div><div>Novice: needs to study <strong>1</strong>&nbsp;{{1}} under the guidance of a <strong>2</strong>&nbsp;{{2}}</div><div class=\"flow-arrow\">↓</div><div><strong>3</strong>&nbsp;{{3}} : starts to identify <strong>4</strong>&nbsp;{{4}} for cases within or between study; more <strong>5</strong>&nbsp;{{5}} ways of doing things create new knowledge</div><div class=\"flow-arrow\">↓</div><div>Expert: performs task independently</div></div>",
-            "maxWords": 3
+            "maxWords": 4
           },
           {
             "id": "part-1-group-2",
@@ -299,7 +299,8 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 32–35</h3>Answer the questions below. Choose <strong>NO MORE THAN FOUR WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><p><strong>32.</strong>&nbsp; What were carved in the experimental dials when doing Ronalds' experiment in his garden?</p> {{32}}</div><div><p><strong>33.</strong>&nbsp; What were enclosed with the buried telegram wires when Ronalds did the improved experiment?</p> {{33}}</div><div><p><strong>34.</strong>&nbsp; What is the greatest distance Ronalds believed his telegram can send?</p> {{34}}</div><div><p><strong>35.</strong>&nbsp; What kind of power supplied the keeping of the wire charged continuously?</p> {{35}}</div>"
+            "bodyHtml": "<div><p><strong>32.</strong>&nbsp; What were carved in the experimental dials when doing Ronalds' experiment in his garden?</p> {{32}}</div><div><p><strong>33.</strong>&nbsp; What were enclosed with the buried telegram wires when Ronalds did the improved experiment?</p> {{33}}</div><div><p><strong>34.</strong>&nbsp; What is the greatest distance Ronalds believed his telegram can send?</p> {{34}}</div><div><p><strong>35.</strong>&nbsp; What kind of power supplied the keeping of the wire charged continuously?</p> {{35}}</div>",
+            "maxWords": 6
           },
           {
             "id": "part-3-group-3",
@@ -378,36 +379,54 @@
         "accepted": [
           "principles and rules",
           "guiding principles and rules"
-        ]
+        ],
+        "evidence": {
+          "snippet": "guiding principles and rules"
+        }
       },
       "2": {
         "accepted": [
           "mentor",
           "a mentor"
-        ]
+        ],
+        "evidence": {
+          "snippet": "find a mentor to guide her"
+        }
       },
       "3": {
         "accepted": [
           "journeyman",
           "a journeyman"
-        ]
+        ],
+        "evidence": {
+          "snippet": "becomes a journeyman"
+        }
       },
       "4": {
         "accepted": [
           "patterns of behavior",
           "patterns"
-        ]
+        ],
+        "evidence": {
+          "snippet": "recognize patterns of behavior"
+        }
       },
       "5": {
         "accepted": [
           "complex",
           "increasingly complex"
-        ]
+        ],
+        "evidence": {
+          "snippet": "increasingly complex cases"
+        }
       },
       "6": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "novice, for example, might group objects together by color or size, whereas an expert would group the same objects according to their function"
+        }
       },
       "7": {
         "accepted": [
@@ -417,144 +436,225 @@
       "8": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "novices, who immediately seek to find a solution"
+        }
       },
       "9": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "experts are less accurate forecasters than statistical models"
+        }
       },
       "10": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Experts check their solutions more often than novices and recognize when they are missing information"
+        }
       },
       "11": {
         "accepted": [
           "models"
-        ]
+        ],
+        "evidence": {
+          "snippet": "inconsistent when using mental models to make predictions"
+        }
       },
       "12": {
         "accepted": [
           "human biases",
           "biases"
-        ]
+        ],
+        "evidence": {
+          "snippet": "point to human biases to explain unreliable expert predictions"
+        }
       },
       "13": {
         "accepted": [
           "consensus"
-        ]
+        ],
+        "evidence": {
+          "snippet": "literature shows little consensus regarding the causes"
+        }
       },
       "14": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "combination of sonar and radar produces charts of the seafloor"
+        }
       },
       "15": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "at the click of a button, a print-out of the map appears"
+        }
       },
       "16": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "create maps to scale. Distance on today's maps is expressed as a fraction or ratio"
+        }
       },
       "17": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "took their production away from monks, who had tended to illustrate theology rather than geography"
+        }
       },
       "18": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "its objective is, and always has been, to communicate a sense of 'here' in relation to 'there'"
+        }
       },
       "19": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "He calculated the Earth's circumference as 25,200 miles, which was remarkably accurate"
+        }
       },
       "20": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "map showing roads, rivers, canals, towns, abbeys, vineyards, lakes and even windmills"
+        }
       },
       "21": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "basis for the width of modern time zones"
+        }
       },
       "22": {
         "accepted": [
           "egypt"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Alexandrian Library in Egypt in the third century BC"
+        }
       },
       "23": {
         "accepted": [
           "monks"
-        ]
+        ],
+        "evidence": {
+          "snippet": "took their production away from monks"
+        }
       },
       "24": {
         "accepted": [
           "ptolemy"
-        ]
+        ],
+        "evidence": {
+          "snippet": "rediscovered Ptolemy, whose writing had been preserved"
+        }
       },
       "25": {
         "accepted": [
           "satellites",
           "navigation satellites"
-        ]
+        ],
+        "evidence": {
+          "snippet": "linked to navigation satellites"
+        }
       },
       "26": {
         "accepted": [
           "cars",
           "some cars"
-        ]
+        ],
+        "evidence": {
+          "snippet": "electronic map displays available in some cars"
+        }
       },
       "27": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "successfully transmitted and received letters over 150 meters of wire"
+        }
       },
       "28": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Since 1753, when the first proposal for an electric telegraph worked by statical electricity"
+        }
       },
       "29": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "In 1825 he invented and patented a perspective tracing instrument"
+        }
       },
       "30": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "small pamphlet published in 1823, Ronalds described his invention and listed some of its possible uses"
+        }
       },
       "31": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Early in 1843 Ronalds was made honorary director"
+        }
       },
       "32": {
         "accepted": [
           "letters and numbers",
           "alphabet and numbers",
           "letters of the alphabet and numbers"
-        ]
+        ],
+        "evidence": {
+          "snippet": "engraved with letters of the alphabet and numbers"
+        }
       },
       "33": {
         "accepted": [
           "glass tubes",
           "glass"
-        ]
+        ],
+        "evidence": {
+          "snippet": "wires were enclosed in glass tubes buried in the ground"
+        }
       },
       "34": {
         "accepted": [
           "800km",
           "800 km"
-        ]
+        ],
+        "evidence": {
+          "snippet": "work over distances of 800km"
+        }
       },
       "35": {
         "accepted": [
@@ -562,32 +662,50 @@
           "frictional electricity machine",
           "a frictional-electricity machine",
           "frictional-electricity"
-        ]
+        ],
+        "evidence": {
+          "snippet": "frictional-electricity machine kept the wire continuously charged"
+        }
       },
       "36": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "used publicly and commercially in England"
+        }
       },
       "37": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Under the influence of Jean Andre de Luc"
+        }
       },
       "38": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "told that the semaphore was sufficient for the country"
+        }
       },
       "39": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The only defect in his invention was the comparative slowness"
+        }
       },
       "40": {
         "accepted": [
-          "I"
-        ]
+          "A"
+        ],
+        "evidence": {
+          "snippet": "early and remarkable labors in telegraphic investigations"
+        }
       }
     },
     "sets": []

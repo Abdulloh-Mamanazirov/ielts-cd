@@ -1,0 +1,667 @@
+{
+  "slug": "reading-volume-7-test-5",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 7, Test 5",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Rubber",
+        "passageHtml": "T and W Musgrove discuss the origins and early uses of rubber <p>The plants that produce rubber are spread right across the globe, and grow in many different habitats. One might think it likely, therefore, that humankind has known about rubber for thousands of years. Yet, unlike other crops of economic importance, rubber led a relatively anonymous life until the last 150 years or so. The Indians of South America appear to be the first people to have understood the properties of rubber, and the Aztecs of what is now Mexico were the first to be recorded using the substance; a wall painting dating back to the sixth century depicts a scene of a tributary offering of crude rubber. With the arrival of Columbus in the Americas and the resulting Spanish influx, further evidence starts to appear concerning the Native American use of rubber. Antonio de Herrera y Tordesillas describes a ritual game played with a rubber ball at the court of the Aztec Emperor Montezuma II, and the Mayan and Toltec people are known to have taken part in similar activities. Rubber was also used to make raincoats, shoes, jars, torches and musical instruments, all of which must have been made from the indigenous Castilla elastica, as the Para plant now favoured for rubber cultivation does not grow in the Mexican region.</p><p>The first description of latex (liquid rubber) extraction is made by Juan de Torquemada, who noted that if a receptacle was not at hand the Native Americans would place the latex on their bodies to allow it to solidify. However, no real interest in rubber was shown by any European until Charles de la Condamine, a French mathematician, published an account of his journey to South America in 1735. The journey was undertaken on behalf of the Paris Academy of Sciences to measure an arc of the meridian line on the equator, but the journey home was to turn out to be more significant than the true purpose of the trip. Condamine explored Brazil and Peru and discovered how the local people used one single piece of coagulated latex to make boots. The boots were impervious to water and, when smoked, looked like real leather. In 1747 the first description of the rubber tree and latex tapping was made by a military engineer and amateur botanist, François Fresneau, who was posted to French Guiana. The publications of Condamine and Fresneau created considerable excitement among French scientists, and an attempt was made to discover a solvent that could turn the crude rubber into a substance for commercial exploitation.</p><p>In 1818 a British medical student named James Syme first used rubber to make waterproof cloth. Another early use of the substance was as an eraser of pencil marks, hence the name 'rubber'. This was complemented by balloons, rubber bands, braces, boots for the army and other ideas that met with varying degrees of success. In 1820 Thomas Hancock, an English manufacturer of rubber goods such as driving belts, industrial rollers and rubber hoses, invented a machine he called the 'pickle', which chewed up waste strips for re-use. It was discovered that the masticated rubber was more malleable, while maintaining much of its elasticity. In Scotland at the same time Charles Mackintosh had discovered a way of using rubber as waterproofing material, by a process he patented in 1823. Hancock and Mackintosh joined forces in 1834, and three years later Hancock invented a machine for spreading rubber onto material.</p><p>Despite their beneficial qualities, such as waterproofing, rubber goods were still not particularly popular as they had some major flaws, including the fact that they dissolved malodorously. They also became pliant when warm and rigid when cold. Then in 1839 the American Charles Goodyear discovered that it was possible to stabilise rubber by mixing it with sulphur while exposing it to heat - a process he called vulcanisation - and the full versatility of this extraordinary substance became apparent.</p><p>Rubber goods could now be manufactured which had all the beneficial qualities of the material, such as durability, elasticity and variability, but which were not sticky, soluble or governed by the vagaries of the weather. The economic potential of rubber was now clearly evident. It played an important role in the Industrial Revolution, being employed in the steam engines found in factories, mills, mines and railways. It made a triumphant entrance as a new and innovative material at the Great Exhibition of 1851, where shoes, airbeds, furniture and clothing made out of newly improved rubber were proudly displayed.</p><p>One of the most important rubber inventions was made in 1888, when an Irishman called John Boyd Dunlop produced the first pneumatic tyre. Solid rubber tyres had been used for the previous 18 years, but Dunlop's new design, which he updated in 1890, immediately became popular. In 1895 Dunlop's tyres were first used in motor cars, and with the mass production of cars just over the horizon the rubber industry had never looked healthier. The import levels of rubber over the nineteenth century bear witness to its irrepressible rise. In 1830 Britain had imported just 211 kg of crude rubber. This had risen to 10,000kg in 1857, and by 1874 levels were just under six times as much again.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–6</h3>Choose <strong>TRUE</strong> if the statement agrees with the information given in the text, choose <strong>FALSE</strong> if the statement contradicts the information, or choose <strong>NOT GIVEN</strong> if there is no information on this.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Rubber plants grow only in certain regions of the world."
+              },
+              {
+                "number": 2,
+                "textHtml": "Rubber was extracted in Mexico as early as the sixth century."
+              },
+              {
+                "number": 3,
+                "textHtml": "Rubber from the Castilla elastica plant is of poorer quality than that from the Para plant."
+              },
+              {
+                "number": 4,
+                "textHtml": "A French mathematician inspired real interest in rubber amongst Europeans."
+              },
+              {
+                "number": 5,
+                "textHtml": "The process of vulcanisation was discovered by accident."
+              },
+              {
+                "number": 6,
+                "textHtml": "Imports of crude rubber into Britain fell during the nineteenth century."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 7–13</h3>Complete the summary below. Write <strong>NO MORE THAN THREE WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The Commercial Development of Rubber</div><div><p>Early European travellers gave accounts of various rubber objects in use in Central and South America, and these accounts created interest in the commercial exploitation of rubber. In 1818, <strong>7.</strong>&nbsp;{{7}} was produced using rubber, and in 1820 a machine was invented for recycling <strong>8.</strong>&nbsp;{{8}} of rubber. Over the next few years, other attempts were made to improve rubber, but some problems remained. For example, rubber products smelt bad when they were dissolved, and could turn either soft or <strong>9.</strong>&nbsp;{{9}} depending on the temperature. However, in 1839 a new process to <strong>10.</strong>&nbsp;{{10}} the substance greatly increased its potential. For example, rubber was used in the creation of the <strong>11.</strong>&nbsp;{{11}} industry during the Industrial Revolution. Then in 1888 the <strong>12.</strong>&nbsp;{{12}} was developed, and a few years later the <strong>13.</strong>&nbsp;{{13}} of the motor car began.</p></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "The Myth of the Eight-hour Sleep",
+        "passageHtml": "We often worry about lying awake in the middle of the night – but it could be good for you <p>Indications from both science and history suggest that the eight-hour sleep may not be a natural or inborn pattern for humans. In the early 1990s, psychiatrist Thomas Wehr conducted research which implies just that. Wehr kept a group of people in a darkened room for 14 hours a day for a month. It took some time for their sleep to regulate, but by the fourth week the subjects had settled into a very distinct sleeping pattern. Firstly, they slept four hours, then woke for one or two hours before falling into a second four-hour sleep. Though sleep scientists were impressed by the implications of the study, the idea that we must sleep for eight consecutive hours persists amongst the general public.</p><p>In 2001, historian Roger Ekirch of Virginia Tech University in the US published a paper drawn from 16 years of research, revealing historical evidence that humans used to sleep in two distinct periods of time each night. Ekirch's research found more than 500 references to a segmented sleeping pattern – in diaries, court recorders, medical books and literature, from the ancient Greeks to tribes in Nigeria. Much like Wehr's findings, these references describe a first sleep which began not long following sunset. Then there was a waking period of one or two hours and after that a second sleep. During the waking period, people could be quite active. They sometimes got up and moved around the house, although most people stayed in bed, and perhaps read or wrote if they had enough money for candles. In many historic accounts, Ekirch found that people used the time that they were awake between periods of sleep to think about and attempt to analyse their dreams.</p><p>In his book, Evening's Empire, historian Craig Koslofsky suggested an explanation for this divided sleep pattern in Europe. 'Associations with night before the 17th century were not good,' he writes. He goes on to explain that the streets of cities and towns at night were often populated by thieves or worse. The streets at night consequently scared many people. Even the wealthy, who could afford to light their way, had better things to spend their money on. There was no prestige or social value with going out or staying up late at night.</p><p>Ekirch found that references to the first and second sleep started to disappear during the late 17th century. The pattern began to alter first among the urban upper classes changing amongst the rest of Western society. By the 1920s, the idea of a first and second sleep had receded entirely from our social consciousness. Ekirch attributes the initial shift to improvements in street and home lighting. As the night became a time for all kinds of activity, the length of time people used for rest declined. In 1667, Paris became the first city in the world to light its streets, using wax candles in glass lamps. It was followed by another French city, Lille, in the same year and by Amsterdam in Holland two years later, where a much more efficient oil-powered lamp was developed. London didn't light its streets until 1684, but by the end of the 17th century, more than 50 of Europe's major towns and cities were lit at night. Coffee houses emerged as a fashionable phenomenon and many were open virtually around the clock. Going out at night became commonplace, and spending hours lying in bed was considered a waste of time. 'People were becoming increasingly time-conscious and sensitive to efficiency, certainly before the 19th century,' says Ekirch. 'But the Industrial Revolution intensified that attitude considerably.' Strong evidence of this shifting attitude is contained in a medical journal from 1829 which urged parents to force their children out of the pattern of first and second sleep.</p><p>Today, most people seem to have adapted quite well to the eight-hour sleep, but Ekirch believes many sleeping problems may have roots in the human body's natural preference for divided sleep, as well as in difficulties caused by extended exposure to artificial light in the modern world. This could be the cause of a condition called sleep maintenance insomnia, where people wake during the night and have trouble getting back to sleep. The condition first appears in literature at the end of the 19th century, at the same time as accounts of interrupted sleep disappear. Sleep psychologist, Gregg Jacobs, says that the idea that we must sleep for an extended period of time could be changing. If it makes people who wake up in the night anxious, as this anxiety can itself discourage sleep and is likely to affect waking life too. Jacobs suggests that the waking period between sleeping, when people simply rested and relaxed, could have played an important part in the human capacity to regulate stress naturally. Russell Foster, a professor of circadian (body clock) neuroscience at Oxford University in the UK, shares this point of view. 'Over 30% of the medical problems that doctors are faced with stem directly or indirectly from sleep. But sleep has been ignored in medical training, and there are very few countries where sleep is studied,' Foster says. He feels this needs to change.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–18</h3>Reading Passage 2 has five sections. Choose the correct heading for each section from the list of headings below. Choose the correct number, <strong>i–vii</strong>, in boxes 14–18.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "historical reasons why interrupted sleep became uncommon"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Brain structures involved in sleep patterns"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Potential health issues related to sleep"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Famous cases in literature of sleep"
+              },
+              {
+                "letter": "E",
+                "textHtml": "An analysis of old documents to discover sleep patterns"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Biological and environmental factors preventing people from falling asleep again"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Scientific evidence that divided sleep is a natural phenomenon"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 19–23</h3>Match each statement with the correct researcher, A–E. You may use any letter more than once.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Thomas Wehr"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Roger Ekirch"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Craig Koslofsky"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Gregg Jacobs"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Russell Foster"
+              }
+            ],
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "In certain historical periods, the threat of criminal danger led to segmented sleep."
+              },
+              {
+                "number": 20,
+                "textHtml": "Physicians should learn more about treating people with sleeping difficulties."
+              },
+              {
+                "number": 21,
+                "textHtml": "Historically, when people experienced interrupted sleep, they used the waking period at night for different activities."
+              },
+              {
+                "number": 22,
+                "textHtml": "Technological changes in Europe made people more likely to sleep throughout the night."
+              },
+              {
+                "number": 23,
+                "textHtml": "The belief that humans should have a long continuous sleep can be psychologically harmful."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 24–26</h3>Complete the summary below. Write <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Historical patterns of interrupted sleep</div><div><p>Historical evidence seems to show that humans had common sleep patterns which were quite unlike today's eight hours of unbroken sleep each night. People habitually went to bed early, soon after <strong>24.</strong>&nbsp;{{24}}, slept for a while, then woke up for a few hours of activity or perhaps to consider, for example, the meaning of <strong>25.</strong>&nbsp;{{25}}. There was little else to do at home in the dark, since what little means of lighting they had, such as using candles, was costly. In 16th-century Europe, people tended to stay at home at night because they feared <strong>26.</strong>&nbsp;{{26}} on large unlit city streets.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Living Dunes",
+        "passageHtml": "Things don't come much stranger than heaps of sand that can move and sing of their own accord. Sally Palmer investigates <p>Armies of giant sand dunes are advancing across the world's deserts, engulfing anything that crosses their path. They are tens of metres tall and hundreds of metres long. Fortunately, they aren't going very fast. Even the smallest, speediest dunes only travel about 100 metres over the course of a year, while the bigger ones, which weigh something in the order of 10,000 tonnes, barely move one metre in that time. However, their insidious creep can have serious consequences if there is an oil installation or a railway line in their path.</p><p>About 47% of the world's land mass, including Antarctica, most of Australia and large areas of Africa, is classified as arid or semi-arid desert. Only around 20% of that is sand-covered, however, and over half of that is classified as 'linear' sand dunes. These form in a long curving wave, as a result of wind blowing strongly from several quarters, flipping them from side to side. Although linear dunes are static, sand blowing off them can cause problems for desert villages, burying crops and buildings.</p><p>Moving dunes make up just a small percentage of the rest, but they are of the most interest to scientists. They are known as 'barchans': heavy, crescent-shaped sand piles with a ridged crest and two elongated arms, one curving away to either side. 'Barchan dunes only tend to form where you have one-directional winds on the edge of sandy deserts near coastal areas,' says Giles Wiggs, a geomorphologist at Oxford University, who has been studying the formation and movement of sand dunes for more than a decade.</p><p>But even with strong winds, how can entire barchans move while retaining their form? That question was first answered in the mid-20th century by British explorer Ralph Alger Bagnold, and his answer hinges on the fact that dunes aren't solid, but granular. Bagnold figured out how barchan dunes are able to move grain by grain. Imagine a single grain of sand being blown up the back of a dune by the wind and deposited on the top. More grains follow the same pattern, until the accumulated weight of piled-up sand finally pushes the top down the dune face. The grain tumbles, then stops on the face until subsequent mini-avalanches bury it. Eventually, it reappears at the back of the dune, ready to repeat the process. As this happens to every grain of sand in the dune, the whole thing creeps in the direction of the prevailing wind.</p><p>The relationship between the wind and barchan dunes is complex. As a dune grows, it modifies the speed and course of the wind, which in turn alters how that dune and its neighbours evolve. 'Interestingly, the dune can regulate its own shape, and maintain it as it moves,' says Dr Stéphane Douady, a physicist at Ecole Normale Supérieure (ENS) in France. 'Even when two dunes collide, they quickly take on their distinctive shapes again. It's like a living organism.'</p><p>Douady and his colleagues have also been studying an even odder phenomenon than moving dunes: some barchans actually sing. Local legends attributed the sounds to dangerous spirits which were trying to trap unwary travellers. Douady is more pragmatic. 'It's a strong booming noise with a low frequency,' he explains, making a noise like a foghorn to demonstrate. 'It can last for a long time - up to several minutes. It's a very loud sound and you don't understand where it's coming from when you first hear it.' There are about 50 dunes distributed across 35 deserts round the world that are known to sing. Douady says the sound is caused by the way sand avalanches down the faces of particular dunes. Rather than tumbling randomly, the sand grains flow in synchrony and set each other vibrating like the membrane on a gigantic loudspeaker. The synchronisation causes the air to move in and out between the grains, creating a powerful sound wave.</p><p>What really surprised the scientists, however, was that they were able to take samples of the singing sand back to France and replicate the sound at ENS, proving that it's the sand, not the dune shape, that causes the sound. Their studies show the grains are a uniform shape, well-rounded from years of striking each other, and that the variations in size affect the tone. Crucially, the grains are coated with a special veneer, which Douady calls 'desert glaze', made from a precise combination of minerals from surrounding rocks including iron, aluminium, manganese, silicon and calcium. The team found that after a month or so, the veneer wore off and the grains lost their 'voice'. 'We managed to reproduce the desert glaze and then the grains started to sing again,' says Douady. 'We tried putting the coating onto different grains, but they weren't round enough and it didn't work. But some American colleagues made some artificial grains and managed to make them sing, after covering them in desert glaze.' Douady has now made recordings of dunesong from all over the world which are to be made into a CD.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 27–33</h3>Reading Passage 3 has seven paragraphs. Choose the correct heading for each paragraph from the list of headings below.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Moving rapidly across the desert"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Recreating the process in a laboratory"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Strange music created by human movement"
+              },
+              {
+                "letter": "D",
+                "textHtml": "A potential threat to industry and communications"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Dunes coming together and re-forming"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Needing a specific combination of conditions"
+              },
+              {
+                "letter": "G",
+                "textHtml": "A continuous cycle"
+              },
+              {
+                "letter": "H",
+                "textHtml": "The commonest type of dune"
+              },
+              {
+                "letter": "I",
+                "textHtml": "Old superstitions demystified"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 28,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 29,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 30,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 31,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 32,
+                "textHtml": "Paragraph <strong>F</strong>"
+              },
+              {
+                "number": 33,
+                "textHtml": "Paragraph <strong>G</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 34–36</h3>Choose the correct answer.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 34,
+                "textHtml": "What are we told about linear dunes?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; They are formed by strong winds blowing from one direction."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; They can move up to 100 metres in a twelve-month period."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; They develop in a recognisable shape."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; They make up about 20% of the world's deserts."
+                  }
+                ]
+              },
+              {
+                "number": 35,
+                "textHtml": "Bagnold discovered that movement in barchans was caused by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; the long straight shape of the dunes."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; the particular composition of the dunes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; the exceptionally heavy nature of the sand grains."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; the unusual strength of the wind in certain seasons."
+                  }
+                ]
+              },
+              {
+                "number": 36,
+                "textHtml": "Why does Dr Douady compare a barchan dune to a living organism?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; It starts small and then increases in size."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; It has an effect on its immediate surroundings."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Its relations with desert organisms are quite developed."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Its outline stays the same even after a period of movement."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 37–40</h3>Complete the summary below. Write <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Singing dunes</div><div><p>Singing dunes, which belong to the type of dunes known as <strong>37.</strong>&nbsp;{{37}}, produce a very loud sound which is transmitted at a low frequency. Researchers have worked out that sand grains fall down the dune and start vibrating against other grains, forming a sound wave. Research proves that the individual grains have a similar <strong>38.</strong>&nbsp;{{38}}, but the differences in dimensions alter the <strong>39.</strong>&nbsp;{{39}} of the 'song'. Each grain is covered with a mixture of different <strong>40.</strong>&nbsp;{{40}} and this is vital to the sound production.</p></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "are spread right across the globe, and grow in many different habitats"
+        }
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "no real interest in rubber was shown by any European until Charles de la Condamine"
+        }
+      },
+      "5": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "In 1830 Britain had imported just 211 kg of crude rubber. This had risen to 10,000kg in 1857"
+        }
+      },
+      "7": {
+        "accepted": [
+          "waterproof cloth"
+        ],
+        "evidence": {
+          "snippet": "first used rubber to make waterproof cloth"
+        }
+      },
+      "8": {
+        "accepted": [
+          "waste strips"
+        ],
+        "evidence": {
+          "snippet": "chewed up waste strips for re-use"
+        }
+      },
+      "9": {
+        "accepted": [
+          "rigid"
+        ],
+        "evidence": {
+          "snippet": "became pliant when warm and rigid when cold"
+        }
+      },
+      "10": {
+        "accepted": [
+          "stabilise",
+          "stabilize"
+        ],
+        "evidence": {
+          "snippet": "it was possible to stabilise rubber by mixing it with sulphur"
+        }
+      },
+      "11": {
+        "accepted": [
+          "steam engines"
+        ],
+        "evidence": {
+          "snippet": "being employed in the steam engines found in factories"
+        }
+      },
+      "12": {
+        "accepted": [
+          "pneumatic tyre",
+          "pneumatic tire"
+        ],
+        "evidence": {
+          "snippet": "produced the first pneumatic tyre"
+        }
+      },
+      "13": {
+        "accepted": [
+          "mass production"
+        ],
+        "evidence": {
+          "snippet": "with the mass production of cars just over the horizon"
+        }
+      },
+      "14": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "Wehr kept a group of people in a darkened room for 14 hours a day for a month"
+        }
+      },
+      "15": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "Ekirch's research found more than 500 references to a segmented sleeping pattern"
+        }
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "streets of cities and towns at night were often populated by thieves"
+        }
+      },
+      "17": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "Paris became the first city in the world to light its streets"
+        }
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "sleep maintenance insomnia, where people wake during the night and have trouble getting back to sleep"
+        }
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "streets of cities and towns at night were often populated by thieves or worse"
+        }
+      },
+      "20": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "sleep has been ignored in medical training"
+        }
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "people used the time that they were awake between periods of sleep to think about"
+        }
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "Ekirch attributes the initial shift to improvements in street and home lighting"
+        }
+      },
+      "23": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "the idea that we must sleep for an extended period of time could be changing"
+        }
+      },
+      "24": {
+        "accepted": [
+          "sunset"
+        ],
+        "evidence": {
+          "snippet": "first sleep which began not long following sunset"
+        }
+      },
+      "25": {
+        "accepted": [
+          "dreams"
+        ],
+        "evidence": {
+          "snippet": "attempt to analyse their dreams"
+        }
+      },
+      "26": {
+        "accepted": [
+          "thieves"
+        ],
+        "evidence": {
+          "snippet": "populated by thieves or worse"
+        }
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "serious consequences if there is an oil installation or a railway line in their path"
+        }
+      },
+      "28": {
+        "accepted": [
+          "H"
+        ],
+        "evidence": {
+          "snippet": "over half of that is classified as 'linear' sand dunes"
+        }
+      },
+      "29": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "Barchan dunes only tend to form where you have one-directional winds"
+        }
+      },
+      "30": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "Eventually, it reappears at the back of the dune, ready to repeat the process"
+        }
+      },
+      "31": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "Even when two dunes collide, they quickly take on their distinctive shapes again"
+        }
+      },
+      "32": {
+        "accepted": [
+          "I"
+        ],
+        "evidence": {
+          "snippet": "Local legends attributed the sounds to dangerous spirits"
+        }
+      },
+      "33": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "they were able to take samples of the singing sand back to France and replicate the sound"
+        }
+      },
+      "34": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "These form in a long curving wave"
+        }
+      },
+      "35": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "dunes aren't solid, but granular"
+        }
+      },
+      "36": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "Even when two dunes collide, they quickly take on their distinctive shapes again. It's like a living organism"
+        }
+      },
+      "37": {
+        "accepted": [
+          "barchans",
+          "barchan dunes"
+        ],
+        "evidence": {
+          "snippet": "They are known as 'barchans'"
+        }
+      },
+      "38": {
+        "accepted": [
+          "shape"
+        ],
+        "evidence": {
+          "snippet": "the grains are a uniform shape"
+        }
+      },
+      "39": {
+        "accepted": [
+          "tone"
+        ],
+        "evidence": {
+          "snippet": "variations in size affect the tone"
+        }
+      },
+      "40": {
+        "accepted": [
+          "minerals"
+        ],
+        "evidence": {
+          "snippet": "grains are coated with a special veneer"
+        }
+      }
+    },
+    "sets": []
+  }
+}

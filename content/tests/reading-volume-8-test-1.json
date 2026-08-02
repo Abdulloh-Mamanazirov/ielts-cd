@@ -1,0 +1,661 @@
+{
+  "slug": "reading-volume-8-test-1",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 8, Test 1",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Steam across the water",
+        "passageHtml": "<p>A look at the early history of boats powered by steam</p><p>During the 1600s, very early in the development of steam engines, inventive spirits like the Frenchman Denis Papin dreamed of – and experimented with – boats driven by steam, rather than by the wind or human effort, but many decades passed before those visions became reality.</p><p>Englishman Jonathan Hulls took out patents on a steamboat in 1736, but it was to be driven by a Newcomen engine, which was heavy and therefore inefficient, and would never be a success. In 1763, William Henry, an American, put a Watt steam engine in a boat, but it sank. Nearly 20 years later, in the 1780s, a steam-powered paddle-wheeler managed to last fifteen minutes against the current on the River Saone in France, but lacked the endurance for longer trips. Developments elsewhere included a boat driven by a steam-powered water-jet and able to do six kilometres per hour. However, all these steamboats were either too slow or too expensive to run.</p><p>For example, American John Fitch successfully trialled his first steamboat in 1787, but although he tried a number of designs and solved many technical challenges – one of his boats could even travel at 13 km/h – he could never convince sceptics that steamboats would pay.</p><p>The 19th century came before real success could be claimed. In Scotland in 1802, Lord Dundas launched the steamboat Charlotte Dundas, which was driven by a paddle wheel and had an improved engine designed by William Symington. Barges, some weighing as much as 70 tonnes, were towed by this steamboat 30 kilometres along the Forth and Clyde Canal to Glasgow, Scotland's second city.</p><p>Soon after, success came to American Robert Fulton, whose countrymen called him 'the father of the steamboat'. Inspired by news of the Charlotte Dundas, Fulton ran steamboat trials on the River Seine, in an attempt to attract French support for his submarine Nautilus. He later imported a Boulton-Watt steam engine and built a boat to use it in. In 1807, the Clermont began a scheduled passenger steamboat service between New York and Albany, 250 kilometres up the Hudson River, taking 30 hours for the trip. Within a few years, steamers were running on the St Lawrence River in Canada and soon appeared on other rivers and lakes, including the Mississippi River.</p><p>Back in Scotland, Fulton's ideas inspired Henry Bell, who launched his <em>Comet</em> in 1812 on the Clyde between Glasgow and Greenock. Within a decade, dozens of steamboats were operating on the rivers, lochs and canals of Scotland, carrying cargo and occasionally passengers. The age of steamboats had arrived.</p><p>Once steamboats were carrying passengers and industrial goods along inland waterways and sheltered coastlines, the challenge became to send them across the open ocean. Engines needed to use less coal so ships could remain at sea for several weeks. Paddle wheels also had to be replaced by power sources less affected by rolling seas.</p><p>Despite this, the first Atlantic crossings using both steam and sail began in 1819 with the American ship Savannah. A regular service followed two decades later with the establishment of the Cunard Line in 1840, offering guaranteed sailing dates. Cunard's early ships used both sail and steam, but the era of steam-only passenger liners soon followed.</p><p>British engineer Isambard Kingdom Brunel led ship design innovation. His Great Western, launched in 1838, crossed the Atlantic in fifteen days. His Great Britain (1853) was the first iron ocean-going steamship and the first to use a screw propeller instead of paddle wheels. The largest paddle steamer ever built was Brunel's Great Eastern, later used to lay the first submarine telegraph cable.</p><p>Modern ships now use steam turbines, diesel engines or fuel oil. Atlantic crossings can be completed in four days, but today's vessels are still descendants of the early visions of Papin and Fulton.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–6</h3>Complete the table below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The development of steamboats</div><table class=\"q-table\"><thead><tr><th>Date</th><th>Event</th></tr></thead><tbody><tr><td>1600s</td><td>Early inventors like Papin started to develop boats that relied on steam instead of manpower or wind.</td></tr><tr><td>1730s</td><td>The engine of Jonathan Hulls' steamboat was {{1}} due to its weight.</td></tr><tr><td>1780s</td><td>A French paddle steamer did not have the {{2}} to keep going for more than a quarter of an hour.<br><br>John Fitch overcame a number of {{3}} problems with his steamboat designs.</td></tr><tr><td>Early 1800s</td><td>The Charlotte Dundas pulled barges to Glasgow.<br><br>In France, Fulton used a steamboat to try to raise interest in a {{4}}<br><br>Passengers in the US began to be carried regularly by a steamboat called the {{5}}</td></tr><tr><td>1812 onwards</td><td>In Scotland, steamboats transported some passengers, but mostly {{6}}</td></tr></tbody></table>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 7–13</h3>Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 7,
+                "textHtml": "For steamboats to cross the Atlantic Ocean, engines which used fuel economically were needed."
+              },
+              {
+                "number": 8,
+                "textHtml": "Using paddle wheels guaranteed reliability on ocean crossings."
+              },
+              {
+                "number": 9,
+                "textHtml": "The Savannah was much faster than a regular paddle steamer."
+              },
+              {
+                "number": 10,
+                "textHtml": "Brunel preferred designing railways to steamships."
+              },
+              {
+                "number": 11,
+                "textHtml": "The Great Britain had more than one innovative feature."
+              },
+              {
+                "number": 12,
+                "textHtml": "The design of the riverboat Archimedes was widely admired."
+              },
+              {
+                "number": 13,
+                "textHtml": "Modern ships that cross the Atlantic use the same energy source as the early steamships."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "IQ Scores",
+        "passageHtml": "<p>How they are changing and what the changes mean</p><p><strong>A</strong>&nbsp;&nbsp;Studies from numerous countries suggest that IQ scores have been rising fast since at least the 1950s – enough to mean that someone with an IQ classed as average at that time could be labelled as having low intelligence today. However, psychologists disagree about what the upward trend in scores really means. Some researchers argue that people are not getting more intelligent overall, but just getting better at a particular sort of problem solving. Others say they have found echoes of rising IQ scores in 'real world' measures of intelligence. To confuse things still more, there are hints that the trend may be about to grind to a halt.</p><p><strong>B</strong>&nbsp;&nbsp;James Flynn, a professor of political science, first showed that IQ scores were rising in the mid-1980s, and became famous after others dubbed the pattern he had observed the 'Flynn effect'. In a landmark paper he made detailed comparisons across fourteen countries of trends in the results of tests that measure reasoning power. Overall, these showed a real growth in scores of up to 25 points in a generation. To find out more, Flynn went on to look at scores for each type of reasoning that IQ tests set out to measure, such as verbal, numerical and visuo-spatial. This last test category usually includes 'Raven's matrices' – sequential patterns with one piece missing. The candidate has to choose, from a set of alternatives, which shape to put in the empty space. When Flynn took a closer look at the scores, the pattern was clear. The strongest gains in almost every case were on Raven's matrices and similar tests, while verbal and arithmetical scores showed more modest rises. Since presenting his original paper, Flynn has looked at data from further countries and found the same upward trend, with the same skills responsible for most of the increase.</p><p><strong>C</strong>&nbsp;&nbsp;Flynn feels that his eponymous effect is meaningful, but does not interpret it as evidence that people are becoming cleverer. Our grandparents were not retarded and we are not geniuses, he says. More likely we have simply developed the skills and habits of mind that make us better at solving abstract problems, and – just as importantly – we take such problems seriously. Flynn believes that demands of visuo-spatial abilities have grown because of TV, computers and cars, and also that in societies where intelligence has become something people focus on excessively, abstract problem-solving skills develop faster than other skills.</p><p><strong>D</strong>&nbsp;&nbsp;Others have different views about what might account for the increase in IQ scores. John Rust of the University of London suggests that it is not just an increase in visuo-spatial activities that is pushing up IQ scores. He believes that there are several factors, including the fact that, in more complex societies, people have to think harder to find solutions to problems they face. He also points out that if just one mind grasps a new concept, such as Einstein and the theory of relativity, it may then be easier for society in general to think in a more complex way. Others, such as experimental psychologist Robert Howard, argue that overall intelligence really has risen, helped by better nutrition, smaller families, wider access to education and other environmental changes.</p><p><strong>E</strong>&nbsp;&nbsp;Howard's latest research has sent him on a different line of enquiry. Controversially, he now believes that the rise in IQ scores might have peaked in industrialised countries. To support this view, he cites data from Denmark. The Danish military still summons virtually all young men before a draft board to identify who is suitable to do military service. Since 1957, all 17-year-olds there have taken exactly the same qualifying IQ tests – including ones similar to Raven's matrices. Candidates must also be able to answer verbal questions such as 'Sun is to day as Moon is to ?', and number-series questions such as '2, 3, 5, 8, ?'. Results in these tests have been carefully analysed by Thomas Teasdale, a neuropsychologist. He found that during the 1960s and '70s, scores showed gains on a scale similar to those of other countries, but by the 1990s the rate of improvement had slowed right down to about one IQ point over the decade. Furthermore, the scores were improving only on the visuo-spatial questions; verbal and numerical performance was flattening out. Most intriguingly, however, scores from 1999 onwards show an overall downturn. One explanation might be that there is some absolute ceiling to people's abilities to perform these tasks, no matter how much the prevailing culture encourages them. However, as Teasdale points out, if such a ceiling had been reached, the test results should show scores pushing against it rather than actually falling.</p><p><strong>F</strong>&nbsp;&nbsp;Flynn is keeping a close eye on the findings, but is not jumping to conclusions until data from other countries is available. However, he does wonder whether the conditions leading to dramatic improvements in mental ability disappear as societies become more prosperous. He points out that in human history, prosperity often led to decadence, and argues that the case of ancient Rome can be viewed as an illustration of this.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–18</h3>Look at the following statements and the list of people below.<br>Match each statement with the correct person, <strong>A–D</strong>.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "James Flynn"
+              },
+              {
+                "letter": "B",
+                "textHtml": "John Rust"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Robert Howard"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Thomas Teasdale"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Modern technology has influenced some aspects of intelligence."
+              },
+              {
+                "number": 15,
+                "textHtml": "IQ scores may not yet have reached a natural limit."
+              },
+              {
+                "number": 16,
+                "textHtml": "Improved diet has a positive effect on mental powers."
+              },
+              {
+                "number": 17,
+                "textHtml": "Exceptional individuals can have an impact on collective intelligence."
+              },
+              {
+                "number": 18,
+                "textHtml": "As societies become more sophisticated the need for problem-solving skills increases."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 19–22</h3>Reading Passage 2 has six paragraphs, <strong>A–F</strong>.<br>Which paragraph contains the following information?",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              }
+            ],
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "An account of a selection procedure involving a particular group of people."
+              },
+              {
+                "number": 20,
+                "textHtml": "A description of one component of a visuo-spatial test."
+              },
+              {
+                "number": 21,
+                "textHtml": "An overview of the different interpretations of IQ score trends."
+              },
+              {
+                "number": 22,
+                "textHtml": "An example of the negative effect affluence may have on IQ trends."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 23–26</h3>Complete the summary below.<br>Choose <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>James Flynn</div><div><p>During the {{23}}, James Flynn conducted research showing that IQ scores were increasing. Flynn then analyzed specific kinds of reasoning ability separately. He found that tests called {{24}}, which measured visuo-spatial skills, accounted for the biggest score increases, whereas scores in numerical and {{25}} components rose less steeply. Results from research in other {{26}}, which Flynn has examined more recently, are consistent with his earlier findings.</p></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Practical Learning in the Classroom",
+        "passageHtml": "<p>A teacher describes a case study involving middle school students and traditional earthen architecture</p><p><strong>A</strong>&nbsp;&nbsp;The way we think about architecture in schools has come a long way. Once, studying architecture in the art class meant learning to appreciate great buildings art-history style, through slide presentations. In recent years, though, the American Institute of Architects has fostered the idea that the process of architectural design, not just the appreciation of architecture, is a beneficial aspect of the art curriculum.</p><p><strong>B</strong>&nbsp;&nbsp;The value of architectural design is that it is the concrete training ground for a broadly applicable creative process. Architectural training can help people design structures to meet needs. It can help farmers design crop rotations to meet needs. Furthermore, it provides hands-on experiences that reinforce learning in various other subjects, from math to social studies.</p><p><strong>C</strong>&nbsp;&nbsp;In the ongoing dialogue about architecture in the middle school art curriculum, many believe students should actually build the structures they design in their courses. Although the technology and expertise required of modern architecture can prohibit students from actually realizing their designs, traditional architectural materials and methods remain quite accessible to the art classroom. Traditional architectural materials, such as earth, clay and straw, are cheap, easy to work with and readily available. Further, when students participate in the construction or preservation of a traditional earthen structure in their local community, they engage in a form of experiential learning and they are motivated to invest in the project. This is evident in a case study of an adobe conservation project with middle school students in the town of Zuni, New Mexico, in the Southwestern United States.</p><p><strong>D</strong>&nbsp;&nbsp;Traditional architecture reaches back to preindustrial America, when local resources and cultures produced structures in styles unique to each region. In New Mexico, examples of hand-built earthen structures still abound. The region has seen some decline in traditional architecture as industrialization has brought new building codes and materials; however, the traditional, non-industrial home, either preserved from earlier generations or newly built, remains in use. Traditional building materials and the land that supplies them are so accessible that handcrafting a house still remains feasible.</p><p><strong>E</strong>&nbsp;&nbsp;Thus, with no technical expertise and little cost, middle school students can participate in the construction or preservation of a traditional earthen structure. During the project, a student will get to know the materials, understand the chemistry, solve problems, work with classmates, and exercise muscles. The student can apply knowledge of design principles and the creative process while participating in a cooperative effort. But most significantly, this type of project-based activity motivates students to invest intellectually and emotionally in the outcome.</p><p><strong>F</strong>&nbsp;&nbsp;The town of Zuni, where I taught art, was surrounded by adobe construction, new and old. Behind our main high school building there was a one-room adobe structure which was once used for teaching. Now it served as a place where old furniture could be kept. I sent my class home with the oral history assignment to ask their family, friends and neighbors questions to find out about that building. From their research we compiled a sketchy history: it began as a kindergarten classroom; it later became an art classroom; now it was full of broken desks.</p><p><strong>G</strong>&nbsp;&nbsp;The building's design kept it relatively warm in the winter, even without heating, due to its broad south face, and it stayed cool in the summer due to its spacious, ventilated attic and massive earthen walls. Because of this, my students agreed it was worth preserving and were enthusiastic about helping. Preservationist Shalie Gasper arrived in the fall to help with an assessment of the building's needs. She recommended replacing the stucco that encased the original adobe walls with a traditional mud plaster. She showed us where to find local supplies of sand and clay soil for the plaster mix. We began work on the stucco removal in late fall. The next spring the students were ready to replaster. To teach the traditional skills, Gasper and other local specialists joined us. They gave my class three full mornings of intensive workshops on history and preservation as well as mud-plastering technique, and the building got a new coat of traditional mud plaster.</p><p><strong>H</strong>&nbsp;&nbsp;Small design-and-build projects such as this can be seen through to the finish when working with earth in the art curriculum. A simple landscape feature such as a wall, entryway, or arch can draw students into important aspects of design that involve the structure's interaction with people, the surrounding landscape, and natural elements. The same project may provide an opportunity to focus on the chemistry of soil or the structural dynamics of construction. Design goals might guide students to involve traditional forms, consider formal aspects, or integrate math skills of measuring and estimating.</p><p><strong>I</strong>&nbsp;&nbsp;During our traditional architecture unit, the students realized that something old and almost forgotten is valuable and worth preserving. Many others in the community and around the country share this renewal of interest in traditional earthen technologies. It is the connection to a cultural heritage that interests some; the quality of living within massive, natural walls that attracts others; or for others, the sustainability of the process and the minimal energy spent in construction. The value of adobe in general is becoming more and more known, but little has been said about its value in the art curriculum until now. This experiment in adobe conservation with middle school students convinced me that traditional architecture deserves a place in the regular curriculum.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–31</h3>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "What education initiative does the American Institute of Architects currently promote?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; multimedia presentation of information in classrooms"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; the study of monumental buildings throughout history"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; the practice of designing architectural structures"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; processes to add more art classes in schools"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "In the third paragraph, what problem with teaching architecture on art courses does the writer note?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Technology-based courses are unavailable."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Students cannot always construct their designs."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; The curriculum is too traditional."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Students lack motivation."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "What is the greatest benefit for students that the writer sees in a traditional architecture project?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; personal connection to the end result"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; participation in a cooperative project"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; building of problem-solving skills"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; conservation of a traditional building"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "What is the purpose of the eighth paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; to explain why it is important that projects be small"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; to outline the multiple skills involved in one project"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; to discuss strategies for connecting content areas"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; to propose suggestions for traditional earth projects"
+                  }
+                ]
+              },
+              {
+                "number": 31,
+                "textHtml": "What does the writer say about traditional building and the general population?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Earthen architecture is becoming a profitable business."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Earthen architecture is less feasible in some areas of the country."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Interest in earthen architecture varies from region to region."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; People are attracted to earthen architecture for different reasons."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 32–36</h3>Complete the summary using the list of words, <strong>A–H</strong>, below.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p>The students in Zuni chose to renovate an old building which was being used for {{32}}. They came to an agreement that the building was worthy of rehabilitation based on its functional {{33}}. At the beginning of the project, students were given the task of discovering the history of the building through interviews with local residents. During the course of the project, they learned where to locate {{34}} for the project. They also worked closely with a number of {{35}} on each step of the project. During the project, students were also given {{36}} to build useful skills.</p></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Experts"
+              },
+              {
+                "letter": "B",
+                "textHtml": "location"
+              },
+              {
+                "letter": "C",
+                "textHtml": "design"
+              },
+              {
+                "letter": "D",
+                "textHtml": "storage"
+              },
+              {
+                "letter": "E",
+                "textHtml": "students"
+              },
+              {
+                "letter": "F",
+                "textHtml": "resources"
+              },
+              {
+                "letter": "G",
+                "textHtml": "training"
+              },
+              {
+                "letter": "H",
+                "textHtml": "businesses"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 37–40</h3>Do the following statements agree with the claims of the writer in Reading Passage 3?<br>Write <strong>YES</strong> / <strong>NO</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "The price of materials is one drawback to using traditional architecture."
+              },
+              {
+                "number": 38,
+                "textHtml": "Earthen structures can easily be built in all regions of the U.S."
+              },
+              {
+                "number": 39,
+                "textHtml": "Working with a traditional earthen structure can have physical benefits."
+              },
+              {
+                "number": 40,
+                "textHtml": "A traditional architecture curriculum is best suited to middle school level students."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "inefficient"
+        ],
+        "evidence": {
+          "snippet": "which was heavy and therefore inefficient"
+        }
+      },
+      "2": {
+        "accepted": [
+          "endurance"
+        ],
+        "evidence": {
+          "snippet": "but lacked the endurance for longer trips"
+        }
+      },
+      "3": {
+        "accepted": [
+          "technical"
+        ],
+        "evidence": {
+          "snippet": "solved many technical challenges"
+        }
+      },
+      "4": {
+        "accepted": [
+          "submarine"
+        ],
+        "evidence": {
+          "snippet": "attract French support for his submarine"
+        }
+      },
+      "5": {
+        "accepted": [
+          "Clermont"
+        ],
+        "evidence": {
+          "snippet": "the Clermont began a scheduled passenger steamboat service"
+        }
+      },
+      "6": {
+        "accepted": [
+          "cargo"
+        ],
+        "evidence": {
+          "snippet": "carrying cargo and occasionally passengers"
+        }
+      },
+      "7": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "Engines needed to use less coal so ships could remain at sea"
+        }
+      },
+      "8": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "Paddle wheels also had to be replaced by power sources less affected by rolling seas"
+        }
+      },
+      "9": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "was the first iron ocean-going steamship and the first to use a screw propeller"
+        }
+      },
+      "12": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "Modern ships now use steam turbines, diesel engines or fuel oil"
+        }
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "demands of visuo-spatial abilities have grown because of TV, computers and cars"
+        }
+      },
+      "15": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "if such a ceiling had been reached, the test results should show scores pushing against it rather than actually falling"
+        }
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "helped by better nutrition"
+        }
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "if just one mind grasps a new concept, such as Einstein"
+        }
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "in more complex societies, people have to think harder to find solutions"
+        }
+      },
+      "19": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "The Danish military still summons virtually all young men before a draft board"
+        }
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "psychologists disagree about what the upward trend in scores really means"
+        }
+      },
+      "22": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "in human history, prosperity often led to decadence"
+        }
+      },
+      "23": {
+        "accepted": [
+          "mid-1980s",
+          "mid 1980s"
+        ],
+        "evidence": {
+          "snippet": "first showed that IQ scores were rising in the mid-1980s"
+        }
+      },
+      "24": {
+        "accepted": [
+          "Raven's matrices",
+          "Ravens matrices"
+        ],
+        "evidence": {
+          "snippet": "Raven's matrices and similar tests"
+        }
+      },
+      "25": {
+        "accepted": [
+          "verbal"
+        ],
+        "evidence": {
+          "snippet": "while verbal and arithmetical scores showed more modest rises"
+        }
+      },
+      "26": {
+        "accepted": [
+          "countries"
+        ],
+        "evidence": {
+          "snippet": "Flynn has looked at data from further countries"
+        }
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "the process of architectural design, not just the appreciation of architecture, is a beneficial aspect"
+        }
+      },
+      "28": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "can prohibit students from actually realizing their designs"
+        }
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "motivates students to invest intellectually and emotionally in the outcome"
+        }
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "A simple landscape feature such as a wall, entryway, or arch can draw students into important aspects of design"
+        }
+      },
+      "31": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "It is the connection to a cultural heritage that interests some; the quality of living within massive, natural walls that attracts others"
+        }
+      },
+      "32": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "Traditional architectural materials, such as earth, clay and straw, are cheap"
+        }
+      },
+      "38": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "a student will get to know the materials, understand the chemistry, solve problems, work with classmates, and exercise muscles"
+        }
+      },
+      "40": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

@@ -1,0 +1,615 @@
+{
+  "slug": "listening-volume-6-test-6",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-21m-50s-audio-joiner.com/mix_21m50s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 6, Test 6",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–5</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>A Residence Survey</div><p><em>Example:</em> Age of the interviewee: <strong><u>19</u></strong></p><ul><li>Current occupation: {{1}}</li><li>Length of living in the north: {{2}}</li><li>Exact living area: {{3}}</li><li>Type of accommodation: a shared {{4}}</li><li>Means of transport:</li><li>private: walking and bicycles</li><li>public: {{5}} and taxi</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 6–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><ul><li>Frequency of eating out: {{6}}</li><li>Places for entertainment: {{7}}</li><li>Other free time activity: go to the {{8}}</li><li>Preferred exercises:</li><li>go swimming</li><li>go to the gym</li><li>go {{9}}</li><li>Parttime course: {{10}}</li></ul></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–14</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Rocks"
+              },
+              {
+                "number": 12,
+                "textHtml": "Colleen Nature Reserve"
+              },
+              {
+                "number": 13,
+                "textHtml": "Ashington China Factory"
+              },
+              {
+                "number": 14,
+                "textHtml": "Langton forest"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What kind of warning does the speaker give to cyclists?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "there may be traffic jams"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "avoid wet cycle paths"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "there may be animals in the way"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;The starting point of Elmsden station is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "very busy"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "more modern"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "re-opened recently"
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "textHtml": "&nbsp;What can people do at the visitor's centre?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "rent a bike"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "buy refreshments"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "learn local history"
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;To commute between Langton and Elmston by train, you need to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "book in advance"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "go on weekends"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "pay additional charges"
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;What should you be aware of when visiting River Elm?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it takes a long time"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the waterfall is inaccessible"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "go by bike"
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;Where can you get the information if you want to join the local route?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the local newspaper"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the station website"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "national cycling network"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;How did Tomas and May both feel about parts of their studies before going on the excavations?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They lacked motivation."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They were enthusiastic."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They were confused."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What surprised Tomas and May most when they were excavating?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how important photography was"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "how careful you had to be with your records"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how many rules there were to follow"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What did May find that was particularly interesting?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "some fabric"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "some pieces of pots"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "some jewellery"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What did Tomas and May both find surprising about the people they were studying?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The food they ate was very varied."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Their main activity was fishing."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They were not as tall as people today"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;What do Tomas and May both say about the people they worked with?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They came from a variety of countries."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They worked really hard."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They were young and enthusiastic."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "some soil samples"
+              },
+              {
+                "letter": "B",
+                "textHtml": "some photographs"
+              },
+              {
+                "letter": "C",
+                "textHtml": "objects to team leader"
+              },
+              {
+                "letter": "D",
+                "textHtml": "labels on objects"
+              },
+              {
+                "letter": "E",
+                "textHtml": "a record sheet"
+              },
+              {
+                "letter": "F",
+                "textHtml": "a unit number"
+              },
+              {
+                "letter": "G",
+                "textHtml": "further analysis of objects"
+              },
+              {
+                "letter": "H",
+                "textHtml": "tools from the site hut"
+              },
+              {
+                "letter": "I",
+                "textHtml": "a comprehensive plan"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": ""
+              },
+              {
+                "number": 27,
+                "textHtml": ""
+              },
+              {
+                "number": 28,
+                "textHtml": ""
+              },
+              {
+                "number": 29,
+                "textHtml": ""
+              },
+              {
+                "number": 30,
+                "textHtml": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Crocodile Study</div><p>Background</p><ul><li>Type of crocodile studied: crocodiles found in salt water</li><li>Location of study: Northern Territory, Australia</li><li>Significance of study: unique because it was the first time a {{31}} had been used to track crocodiles</li></ul><p>Previous studies</p><ul><li>done using {{32}}</li><li>stressful method, also unreliable due to loss of the {{33}}</li></ul><p>Reasons for study</p><p>the management of crocodiles by the government may not be effective</p><p>Research questions</p><ul><li>How far can crocodiles travel?</li><li>How easily can crocodiles {{34}}?</li></ul><p>Challenge</p><p>crocodiles are difficult to observe because they avoid {{35}}</p><p>Details of study</p><ul><li>number of crocodiles involved: three</li><li>method: crocodiles were measured and tagged then relocated using a {{36}}</li><li>monitoring: scientists got data from a transmitter located on the crocodile's {{37}}</li></ul><p>Results of study</p><ul><li>Each crocodile first stayed at the site for a few weeks, moving in a random way</li><li>then took the most {{38}} way home</li></ul><p>Conclusions</p><ul><li>a change in policy is needed</li><li>when travelling long distances, crocodiles may use: <ul><li>i) their own senses and the position of the {{39}}</li><li>ii) a similar system to {{40}}</li></ul></li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "salesman"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "9 years"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "spring park"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "apartment"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "train"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "once a month"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "clubs"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "cinema"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "sailing"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "japanese"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "satellite"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "radio"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "signal"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "navigate"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "people"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "helicopter"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "head"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "direct"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "sun"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "birds"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

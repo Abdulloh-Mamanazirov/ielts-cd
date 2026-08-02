@@ -1,0 +1,626 @@
+{
+  "slug": "listening-volume-8-test-2",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/vol-8-test-2-listening/VOL%208%20TEST%202%20LISTENING.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 8, Test 2",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Fearnley Sports Centre — Lifeguard Application Form</div><p>Personal details</p><ul><li>Name: Peter Smith</li><li>Home address: 130 South Main Street, Lake {{1}}</li><li>Contact number: {{2}} <em>(cell phone)</em></li></ul><p>Present occupation:</p><ul><li>has temporary job as a part-time {{3}}</li><li>is studying PE</li><li>wants to be a high school {{4}}</li></ul><p>Qualifications</p><ul><li>Already holds: water safety certificate</li><li>Certificate expires in: {{5}}</li></ul><p>Relevant work experience</p><ul><li>Lifeguard at: the {{6}}</li><li>Additional relevant skills: {{7}}</li></ul><p>Other information</p><p>Is happy to:</p><ul><li>coach in Fearnley</li><li>work on {{8}}</li><li>start at {{9}} o'clock mornings</li></ul><ul><li>How did the applicant find out about this job? On the {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;Arthur feels that when starting a business, mistakes should be",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "seen as an opportunity to learn."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "predicted and minimised."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "avoided at all costs."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;Recent American studies found that confidence will",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "sometimes reduce people's chances of success."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "be increased by reading self-help books."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "ensure good results on business courses."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;The American studies recommended that new entrepreneurs",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "listen to their colleagues' advice."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "get professional help when things go wrong."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "remain concentrated on their aims."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What does Arthur say about his own experience of marketing?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He relied on what he already knew."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He hired an expert to take care of it."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He realised its importance too late."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What does Arthur think is an important quality shared by good leaders?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They are ambitious for their company."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They can deal with difficult people."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They earn the respect of their workforce."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;What does Arthur say about taking risks?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He advises being cautious."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He favours a long-term view."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He believes it is financially advantageous."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 17 and 18</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "<strong>17 &amp; 18</strong> &nbsp;Which <strong>TWO</strong> things does Arthur say people should focus on when developing their business idea?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "making sure the idea is original"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "offering a better deal than competitors"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "being committed to it"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "paying attention to detail"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "fixing realistic prices"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 19 and 20</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "<strong>19 &amp; 20</strong> &nbsp;Which <strong>TWO</strong> things does Arthur say helped him get his business started?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "family support"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "getting a loan from a bank"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "good business advice"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "a favourable economic climate"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "an effective approach to business"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Gina chose to study performance arts at this university because the course",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "has a very good reputation."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "has links with various theatres."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "has an international flavour."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Which of the options they chose have Gina and Charlie both found useful?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Movement Analysis"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Dance and Drama"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The Body in Dance"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What did Charlie do during his work experience?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He worked in a costume department."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He performed with a ballet company."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He helped out at a dance school for children."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What does Gina say she learnt from her work experience?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how to organise her time better"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "how to work better in a team"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how to cope when under pressure"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;What does Charlie say about his dissertation topic?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He wanted it to be different from those of other students."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He had already done an assignment in this area."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He was inspired to choose it by a performance he saw."
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;Which aspect of writing a dissertation is Gina worried about?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "finding enough to say"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "doing the background reading"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "presenting it in an appropriate way"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "The pay can be low"
+              },
+              {
+                "letter": "B",
+                "textHtml": "There is a lot of competition"
+              },
+              {
+                "letter": "C",
+                "textHtml": "An additional qualification is required"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Good communication skills are required"
+              },
+              {
+                "letter": "E",
+                "textHtml": "People with experience feel very positive about it"
+              },
+              {
+                "letter": "F",
+                "textHtml": "It is a relatively unpopular choice"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Performance"
+              },
+              {
+                "number": 28,
+                "textHtml": "Education"
+              },
+              {
+                "number": 29,
+                "textHtml": "Theatre management"
+              },
+              {
+                "number": 30,
+                "textHtml": "Marketing"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Sea Lion Tracking Study (Western Australia)</div><p>Reason for the study</p><ul><li>the Australian sea lion is an endangered species</li><li>until 1892, numbers were affected by hunting</li><li>sea lions are now affected by nets used to control {{31}}</li></ul><p>Animal tracking systems</p><ul><li>considerations when choosing a tracking method include {{32}} and ease of use</li><li>plastic tags: the animal must be easy to {{33}}</li><li>GPS tracking will not work in the {{34}}</li><li>in isolated regions, some animals are tracked by {{35}} (e.g. the polar bear)</li><li>some animals are identified by markings (e.g. dolphins are identified by scars)</li></ul><p>Challenges of tracking sea lions</p><ul><li>Perth study: sea lions lost their tags (they rubbed against {{36}} to remove them)</li><li>Californian researchers used {{37}} to identify sea lions (this was unreliable due to regular loss of fur)</li></ul><p>Our study</p><p><strong>Aims:</strong></p><ul><li>to find out if sea lions' whiskers can be used to identify them</li><li>to create a {{38}} to use as a guide</li></ul><p><strong>Methods:</strong></p><ul><li>contacting {{39}} in Australia for photographs</li><li>asking the {{40}} to get involved</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "elsinore"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "077896245"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "waiter"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "baseball"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "october"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "beach",
+          "the beach"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "diving"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "saturday",
+          "saturdays"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "six",
+          "6"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "radio",
+          "the radio"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "sharks",
+          "shark"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "cost"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "catch"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "water",
+          "ocean"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "satellites",
+          "satellite"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "rocks",
+          "rock"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "paint"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "diagram"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "zoos",
+          "zoo"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "public",
+          "the public"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "B",
+          "C"
+        ]
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "A",
+          "E"
+        ]
+      }
+    ]
+  }
+}

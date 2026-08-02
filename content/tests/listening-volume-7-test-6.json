@@ -1,0 +1,558 @@
+{
+  "slug": "listening-volume-7-test-6",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 7, Test 6",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>The London Relocation Services</div><p><strong>Customer's name:</strong> Anna Woods</p><p>Customer's personal details</p><ul><li>Customer address: 118 {{1}} Park, Ballysillan</li><li>Postcode: BT14 9BJ</li><li>Phone no: {{2}} (mobile)</li></ul><p>Other information</p><ul><li>Anna is hoping to find work as a {{3}}</li><li>She needs to find a {{4}} school for her son.</li></ul><p>Requirements for the new property</p><p><strong>Location</strong></p><ul><li>Her preferred location is in the {{5}} of the city.</li><li>Her husband would like to be near a {{6}}</li><li>Her son would prefer to be close to a {{7}}</li></ul><p><strong>Property details</strong></p><ul><li>She would like to live in a {{8}}</li><li>She would prefer {{9}} bedrooms.</li><li>A small {{10}} is also desirable.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–14</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;The supervisor starts her talk by explaining that employees have to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "be aware of the importance of teamwork."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "be flexible in terms of their availability."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "be capable of lifting heavy loads."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;The supervisor says that when the supermarket is very busy, employees must",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "decide for themselves what needs doing."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "postpone their scheduled break."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "report minor accidents quickly."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;The supervisor explains that when employees have a positive attitude, it",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "helps everyone in the supermarket to relax."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "encourages customers to spend more."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "improves work effectiveness."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;The supervisor says it is essential to stay calm when a customer",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "reports an employee to the manager."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "delays other shoppers."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "refuses to wait their turn."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              },
+              {
+                "letter": "J",
+                "textHtml": "J"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Staff entrance"
+              },
+              {
+                "number": 16,
+                "textHtml": "Manager's office"
+              },
+              {
+                "number": 17,
+                "textHtml": "Storage and unpacking"
+              },
+              {
+                "number": 18,
+                "textHtml": "Kitchen"
+              },
+              {
+                "number": 19,
+                "textHtml": "Cleaning equipment"
+              },
+              {
+                "number": 20,
+                "textHtml": "Staff relaxation area"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "The pictures show changing times of day."
+              },
+              {
+                "letter": "B",
+                "textHtml": "The words are fun to say out loud."
+              },
+              {
+                "letter": "C",
+                "textHtml": "It has an uncommon plot structure."
+              },
+              {
+                "letter": "D",
+                "textHtml": "The text can easily be turned into song."
+              },
+              {
+                "letter": "E",
+                "textHtml": "The pictures were done by a famous illustrator."
+              },
+              {
+                "letter": "F",
+                "textHtml": "There is a surprise at the end of the story."
+              },
+              {
+                "letter": "G",
+                "textHtml": "The pictures are simple line drawings."
+              },
+              {
+                "letter": "H",
+                "textHtml": "It was published very recently."
+              },
+              {
+                "letter": "I",
+                "textHtml": "It features well-known characters."
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Spy Friends"
+              },
+              {
+                "number": 22,
+                "textHtml": "Goodnight Little Rabbit"
+              },
+              {
+                "number": 23,
+                "textHtml": "The Boat Party"
+              },
+              {
+                "number": 24,
+                "textHtml": "Puppy and Friends"
+              },
+              {
+                "number": 25,
+                "textHtml": "Hats and Socks"
+              },
+              {
+                "number": 26,
+                "textHtml": "A Family Adventure"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27 and 28</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Which <strong>TWO</strong> points from Smith's article about picture books did both speakers find surprising?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "their standard length / how recent the genre is"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the argument that they are not literature"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the lack of research about this age group"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the popularity of books from overseas"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the variety of versions"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 29 and 30</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "Which <strong>TWO</strong> aspects of picture books do the speakers agree to talk about in their presentation?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the material they are made from"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "common characters in them"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the variety of roles in them"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "cultural elements in them"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the future of the genre"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Geography – 331 Field Trip</div><p>The James Bay Road</p><ul><li>At the starting point of the road, everyone must stop for {{31}}</li><li>For safety reasons, there are {{32}} on the highway.</li></ul><p>Radisson Research Centre</p><ul><li>The Centre works with other institutes to research the region's {{33}}</li><li>Security is the responsibility of Hydro Quebec.</li><li>Lectures will discuss the effect of {{34}} on the land.</li><li>Outpost stations gather and publish research related to variations in the {{35}}</li></ul><p>The Trans-Taiga Road</p><ul><li>The road is unpaved.</li><li>Breakdowns are serious as car {{36}} are expensive.</li><li>At hydro stations, engineers will discuss hydro production and the impact of rainfall.</li></ul><p>The Taiga</p><ul><li>There are not many types of {{37}}, but a good range of wildlife.</li><li>The area known as Muskeg is dangerous as it has hidden {{38}}</li><li>Photographs of birds should be taken for future {{39}}</li><li>Water samples will be checked for {{40}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "fordyce"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "07840051963"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "nurse"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "primary"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "south"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "station"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "park"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "house"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "3",
+          "three"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "office"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "registration"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "telephones"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "ecology"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "insects"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "climate"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "repairs"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "plant"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "pools"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "documentation"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "pollution"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          27,
+          28
+        ],
+        "accepted": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "questions": [
+          29,
+          30
+        ],
+        "accepted": [
+          "A",
+          "D"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "slug": "listening-volume-5-test-9",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-26m-50s-audio-joiner.com_202607/mix_26m50s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 5, Test 9",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Enquiries on Hot Air Balloon Trip</div><ul><li>The lowest price: £{{1}} per person</li><li>Each participant will be given a free {{2}} at the end of the flight</li><li>The exact date can only be booked {{3}}</li><li>The balloon can fly a maximum height of {{4}} metres</li><li>There are no flights at {{5}}</li><li>The best time of year to go is in {{6}}</li><li>Flights may be cancelled because of bad weather, e.g., {{7}}</li><li>It is advised to wear a jacket and a {{8}}</li><li>There is no {{9}} restriction for adults</li><li>Participants must be able to {{10}} throughout the flight</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–14</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What is the main aim of the school’s new theatre?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to gain an international reputation"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to give local people access to good performances"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to provide support for talented amateur actors"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;The first season’s theatre programme will include",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "plays by modern writers"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "displays by Chinese acrobats"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "concerts performed by schoolchildren"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;Most of the theatre’s funding will come from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "sponsors"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "government grants"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "ticket sales"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;Which facility at the school is open to the public on a limited basis only?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the sports hall"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the museum"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the cafeteria"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              },
+              {
+                "letter": "J",
+                "textHtml": "J"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Theatre"
+              },
+              {
+                "number": 16,
+                "textHtml": "New car park"
+              },
+              {
+                "number": 17,
+                "textHtml": "Bus stop"
+              },
+              {
+                "number": 18,
+                "textHtml": "Sports hall"
+              },
+              {
+                "number": 19,
+                "textHtml": "Cafeteria"
+              },
+              {
+                "number": 20,
+                "textHtml": "Museum"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": ","
+              },
+              {
+                "letter": "B",
+                "textHtml": ", or"
+              },
+              {
+                "letter": "C",
+                "textHtml": ", next to questions 21–26."
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "It brings teaching problems when based on old methods."
+              },
+              {
+                "number": 22,
+                "textHtml": "Students should be cautious about applying for an online course."
+              },
+              {
+                "number": 23,
+                "textHtml": "Computers can be applied to certain courses."
+              },
+              {
+                "number": 24,
+                "textHtml": "The opinion about personal contact is not helpful."
+              },
+              {
+                "number": 25,
+                "textHtml": "Online courses come with technological development."
+              },
+              {
+                "number": 26,
+                "textHtml": "Online courses should have more time flexibility."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "&nbsp;What does Professor Smith think of the usage of the Internet on campus?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The students depend heavily on the internet."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Schools could make better use of computers."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Teachers should encourage students to use computers."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "&nbsp;What’s the meaning of Professor Smith’s term “divided”?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Students tend to avoid using the computer."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Students don’t have access to the computer."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Students are encouraged to use other useful resources."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "&nbsp;What kind of help does Professor Smith think students should get?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "classmates’ help"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "online help"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "teachers’ help"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "&nbsp;What is Professor Smith’s view on the purpose of introducing the computers in school?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "for computer companies selling computers more easily"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "for cutting other fees"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a simple way to make profit"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Technology and Education</div><ul><li>Some people believed {{31}} failed to help students interact with teachers</li><li>IT in education develops a tight {{32}} with local economy</li><li>Computers are commonly used to develop teaching {{33}}</li></ul><p>The new mode in the IT school of Westbrook University</p><ul><li>Students enjoy the {{34}} with teachers.</li><li>New technology builds up greater {{35}} for students</li><li>Compared with traditional teaching, the new way is more {{36}}</li><li>It offers students quality {{37}}</li><li>It is seen as new solutions to new {{38}}</li><li>It nurtures {{39}} management skills</li><li>It also provides students a source of {{40}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "125"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "certificate"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "online"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "1800"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "night"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "autumn"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "thunderstorm"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "helmet"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "age"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "stand"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "email"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "relationship"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "methods"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "communication"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "confidence"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "flexible"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "materials"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "problems"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "time"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "income"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

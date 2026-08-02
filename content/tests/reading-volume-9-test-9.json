@@ -1,0 +1,675 @@
+{
+  "slug": "reading-volume-9-test-9",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 9, Test 9",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Cranberry Fruit",
+        "passageHtml": "<p>The story of a unique North American crop</p><p>Cranberries are among the few fruits native to North America that have been grown commercially for centuries. These small, crimson berries thrive only in very unique environmental conditions, particularly in soil that is both sandy and acidic. Such terrain lets water pass through easily while still retaining enough moisture for the plants' shallow roots. Since ordinary farmland cannot provide this delicate balance, cranberries are generally cultivated in low-lying areas called bogs. These natural basins, bordered by gentle ridges, allow growers to regulate water levels accurately. This setup creates a growing environment quite different from that required by most other fruit crops.</p><p>Many bogs now used for cranberry farming were formed thousands of years ago when retreating glaciers carved deep hollows known as kettle ponds. Over time, these basins became lined with layers of sand and clay, producing a natural filtration system that keeps many pollutants out of the water. The clay bottom acts as a protective barrier, preventing harmful substances from entering the pond and preserving the clean water essential for healthy vines. Such geological conditions, combined with deliberate human control of water, have made kettle-pond sites especially well suited to this crop.</p><p>Long before the arrival of European settlers, the Wampanoag people made practical use of the berry in several ways. The fruit's sharp taste lent itself to preservation techniques; communities developed methods of drying and combining cranberries with other foods to extend their usefulness during months when fresh plants were scarce. These practices resulted in compact foodstuffs intended for consumption in colder seasons. In addition to dietary uses, the Wampanoag also employed the berry in first-aid traditions: crushed fruit was applied to sores and minor wounds, reflecting a practical knowledge of its cleansing properties.</p><p>When Europeans first arrived in the seventeenth century, they found cranberries in many coastal hollows and quickly took note of their usefulness. Rather than attempting to transplant European varieties, the newcomers adopted the native species already adapted to regional conditions. Colonists used the fruit in preserves and beverages and valued it for its nutritional contributions during winter voyages and inland shortages. Over time, cranberries were assimilated into colonial cookery and later became associated with holiday traditions in North America. In the early nineteenth century, the shift from gathering wild berries to planned cultivation accelerated thanks to local experimentation. One Massachusetts grower, Captain Henry Hall, observed that windblown sand reaching his beds improved fruit quality and yield. He began deliberately applying sand to his plots and found that the practice changed both soil texture and pest incidence for the better. Hall's practice of controlling the land and surface materials was an important step toward systematic cranberry farming.</p><p>Cranberry cultivation follows a seasonal routine that links each operation to weather patterns. In winter farmers often choose to flood the bogs, forming a protective layer that freezes and insulates the vines from extreme cold and drying winds. On the frozen surface, sand is sometimes scattered so that, when thawed, the particles work into the bed and improve overall drainage, encouraging fresh shoots to establish. To reduce disease risk and improve crop vigour, farmers also remove trees and scrub beside the bogs so that air can move through the site more freely and humidity is kept low.</p><p>With the coming of spring, the frozen cover is managed and water levels are adjusted; controlled water applications may be used at vulnerable times to shield budding shoots from sudden frosts. During this phase growers perform routine maintenance on channels, pumps and irrigation lines and take steps to reduce pest pressure before the plants enter full growth. By early summer the vines are active and the focus shifts toward ensuring the fruit matures evenly. Farmers inspect beds for any sign of weed emergence that would compete with the crop for nutrients and light, removing intruders promptly to protect potential yields.</p><p>As autumn nears, ripening fruit signals the approach of harvest. In many operations the bogs are flooded again so that the buoyant berries float and can be separated from the vines, easing collection. Although mechanical aids and modern equipment have changed some details of the work, the overall system continues to depend on balancing soil, water and human management. From the Wampanoag's early practical uses to the innovations of later growers, cranberry culture remains rooted in seasonal attention and careful control of a unique landscape.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–7</h3>Do the following statements agree with the information given in Reading Passage 1?Write <b>TRUE</b> if the statement agrees, <b>FALSE</b> if it contradicts, <b>NOT GIVEN</b> if there is no information.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "The cranberry requires a specific soil type to enable it to grow successfully."
+              },
+              {
+                "number": 2,
+                "textHtml": "A layer of clay protects kettle ponds from harmful substances which could affect the water quality."
+              },
+              {
+                "number": 3,
+                "textHtml": "In the past, the Wampanoag people had to consume most cranberries shortly after picking them."
+              },
+              {
+                "number": 4,
+                "textHtml": "The Wampanoag people took advantage of the medicinal properties of cranberries."
+              },
+              {
+                "number": 5,
+                "textHtml": "The first settlers in North America brought European varieties of cranberry with them when they arrived."
+              },
+              {
+                "number": 6,
+                "textHtml": "Captain Hall tried growing other fruit crops before cultivating cranberries."
+              },
+              {
+                "number": 7,
+                "textHtml": "It took a long time for Captain Hall's methods of cultivation to become popular among other cranberry producers."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 8–13</h3>Complete the notes below. Write <b>ONE WORD ONLY</b> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>The Cycle of Cranberry Production</div><h5>Winter</h5><div>• Growers {{8}} the bogs to protect vines. </div><div>• Sand is put on bogs to increase {{9}} and encourage growth. </div><div>• Trees are removed to promote the movement of {{10}}. </div><h5>Spring</h5><div>• {{11}} is supplied to protect against frost. </div><div>• {{12}} is done to control pests. </div><h5>Summer</h5><div>• Growers check for {{13}} growth. </div></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Dark Chocolate's Health-giving Benefits",
+        "passageHtml": "<p>Researchers are investigating whether taking dark chocolate daily can reduce the risk of heart disease and stroke</p><p><strong>A</strong>&nbsp;&nbsp;Dark chocolate is gaining a reputation as a heart-healthy food, and research suggests that there might be some substance behind those claims. Ginger Hultin, owner of Champagne Nutrition in Seattle and a spokesperson for the Academy of Nutrition and Dietetics says 'Cocoa contains antioxidants in addition to magnesium, potassium, zinc, and iron. Plus, studies have shown that there could be some benefit to consuming chocolate or cocoa for the cardiovascular system, including potentially lowering blood pressure.'</p><p><strong>B</strong>&nbsp;&nbsp;Dark chocolate's health benefits come from its cocoa – specifically its cocoa flavanols. Flavanols are a type of polyphenol, and polyphenols are one group of phytochemicals. Many fruits and vegetables contain flavanols, but they are especially rich in tea, wine, and cocoa. During digestion, cocoa is broken down into smaller chemical compounds. Some research suggests that these compounds have anti-inflammatory and antioxidant properties and may help protect against cardiovascular disease, which affects both the heart and brain. For example, research has found that even two weeks of eating dark chocolate or other flavanol-rich cocoa products is better than a placebo for lowering blood pressure in people who already have high blood pressure, although not to normal levels. In 2013, the European Food Safety Authority approved the claim that cocoa flavanols help maintain normal blood pressure, which means that the cost involved in future medical treatment may be less than scientists previously predicted.</p><p><strong>C</strong>&nbsp;&nbsp;Researchers have also pointed out that people may digest cocoa differently. Variations in gut bacteria can influence how flavanols are processed and absorbed in the body. As a result, the health effects of cocoa may differ from person to person, depending on individual digestive systems and dietary habits.</p><p><strong>D</strong>&nbsp;&nbsp;Data from the long-running Physicians' Health Study suggests that chocolate intake is associated with a reduced risk of developing Type 2 diabetes in younger and normal-weight men. However, take those findings with a grain of salt, because they were based on a single question about average yearly intake of chocolate that didn't ask what type of chocolate — white, milk, or dark — says Howard Sesso, an associate professor of preventive medicine at Brigham and Woman's Hospital in Boston. 'If we assume that any benefits from cocoa are attributable to its flavanol content, then dark chocolate should in theory confer greater benefits than milk chocolate.' Sesso and other researchers are investigating whether taking daily supplements of 600 mg of cocoa flavanols — not chocolate itself — reduces the risk for developing heart disease and stroke, as well as cancer. However, they have yet to determine how much people need to consume to reap benefits.</p><p><strong>E</strong>&nbsp;&nbsp;What does that mean for the average person who enjoys chocolate and hopes they're getting some health benefit from it? Sadly, results from the large European Prospective Investigation of Cancer, EPIC-Norfolk study suggest that the amount of flavanols that the average person in Europe or the United States consumes is unlikely to do much to reduce risk of cardiovascular disease compared with taking medicine. The research also suggested that certain groups, particularly overweight individuals, may not receive the same protective effects from chocolate consumption as younger and normal-weight men.</p><p><strong>F</strong>&nbsp;&nbsp;Even though cocoa is a key ingredient in milk and dark chocolate, you can't really be sure how many flavanols you're getting. 'Product packaging does not specify amounts of cocoa flavanols, only percent cacao,' Sesso says. 'Variable processing of the cocoa bean makes it difficult to equate percent cacao with cocoa flavanol content.' White chocolate contains no cocoa solids, milk chocolate contains relatively small amounts of cocoa, while dark chocolate contains a much higher percentage of cocoa. Cocoa may also appear in the form of cocoa powder, cocoa butter, or concentrated cocoa extracts.</p><p><strong>G</strong>&nbsp;&nbsp;In the meantime, remember that chocolate products are typically high in calories and fats; therefore, Sesso says it's best not to think of dark chocolate as a health food. 'Moderation is key; if someone enjoys eating chocolate, it should be done in moderation along with other foods.' So for now, it's best not to put all your flavanol eggs in a dark chocolate basket. 'We get different phytochemicals and antioxidants from a wide variety of foods,' Hultin says. 'Including different colors of fruits, vegetables, whole grains and beans is the best way to gain access to fiber that could support health.' That said, she does recommend enjoying a bit of chocolate or cocoa. 'I put cocoa powder in my smoothies for an added boost of flavor, nutrients and antioxidants.'</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–18</h3>Reading Passage 2 has seven paragraphs, <b>A–G</b>. Which paragraph contains the following information? Write the correct letter, <b>A–G</b>.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "a description of different kinds of cocoa used in chocolate production"
+              },
+              {
+                "number": 15,
+                "textHtml": "an explanation that chemicals produced during cocoa digestion may reduce the risks of diseases"
+              },
+              {
+                "number": 16,
+                "textHtml": "a reference to a group of people who may not benefit from eating chocolate"
+              },
+              {
+                "number": 17,
+                "textHtml": "an example of a specific way cocoa can be added into beverage"
+              },
+              {
+                "number": 18,
+                "textHtml": "information about differences in the way people digest cocoa"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 19–22</h3>Match each statement with the correct person or organization, <b>A–D</b>.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Ginger Hultin"
+              },
+              {
+                "letter": "B",
+                "textHtml": "European Food Safety Authority"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Howard Sesso"
+              },
+              {
+                "letter": "D",
+                "textHtml": "EPIC-Norfolk"
+              }
+            ],
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Eating cocoa together with dietary fiber may improve health."
+              },
+              {
+                "number": 20,
+                "textHtml": "Dark chocolate consumption could reduce medical spending in the future."
+              },
+              {
+                "number": 21,
+                "textHtml": "Dark chocolate should not be considered a replacement for medicine."
+              },
+              {
+                "number": 22,
+                "textHtml": "The amount of cocoa required for health benefits remains uncertain."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 23–26</h3>Complete the sentences below. Write <b>ONE WORD ONLY</b> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>23.</strong>&nbsp; The digestive process turns cocoa into less complex chemical {{23}}. ⚠ max 1 word</p></div><div><p><strong>24.</strong>&nbsp; The {{24}} would vary according to chocolate type with dark chocolate outperforming milk chocolate. ⚠ max 1 word</p></div><div><p><strong>25.</strong>&nbsp; Dark chocolate should not be regarded as healthy due to its richness of calories and {{25}}. ⚠ max 1 word</p></div><div><p><strong>26.</strong>&nbsp; In Hultin's view, dietary diversity is the best strategy for acquiring {{26}}. ⚠ max 1 word</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "All in the family",
+        "passageHtml": "<p>A person's brothers and sisters can have a powerful effect on their adult behaviour</p><p>We can choose our friends, the saying goes, but we cannot choose our family of origin. Our parents provide the genetic material and make powerful early role models, but even more influential in determining what kind of adult we will become are our brothers and sisters — our siblings. They occupy a position of unique intimacy in our lives and cast a longer shadow than many recognize or are prepared to acknowledge. By turns enraging and lovable, familiar and mysterious, our brothers and sisters are the human beings who people our first social relationships. And a sibling relationship is the most enduring relationship many of us will ever have, less emotionally intense than the bonds we form with our spouses and our own children if only because they started when we were so young.</p><p>Surprising new research by Dr Gene Brody found that having older children who do well in school and are well liked by other children leads to parental 'basking' — increasing mothers' self-esteem. It is clear that in turn this is associated with more positive parenting of younger children, who display fewer behavioural problems as a result. Conversely, parents who get a difficult first child may in turn experience a negative spiral of household tension.</p><p>International sports star Piri Weepu is a rugby hard man, but at least some of his tough temperament was forged long ago in the family home. His older brother Billy started rugby-tackling little Piri when he was just four — to 'harden him up'. It seemed to work: Piri followed his brother in playing for the under-sevens league before he even started school. There are as many such stories as there are families: in the formative hothouse of the family, siblings interact in complex ways with the powerful force fields of parents, genetics and personality already at work. It starts with birth order, which determines play roles: the firstborn leader, the middle-child mediator and the rebellious youngest. These are roles that can stick for life.</p><p>Clinical psychologist Claire Cartwright says she has clients who believe, and it might not have been true, that they were treated differently from their siblings, that one child in the family was preferred over others. They are quite convinced that the parental judgments on them all those years ago were harsher, and that they were the ones who always got into trouble. Later, in the workplace, such a person might be particularly defensive, and so behave in a way more prone to attracting harsh judgements.</p><p>However, the research shows that being Mummy or Daddy's favourite has its own traps. If you were the easy-going, co-operative child at home, you probably excelled at pleasing parents and, later, bosses. But you might, as an adult, find it hard to be assertive with authority figures and lack direction. On the other hand, the sibling who is disruptive and annoying as a child may be able to reinterpret that role later, turning those attention-seeking characteristics into strengths like determination and leadership.</p><p>How is it that full siblings, despite sharing DNA, can turn out so differently? One answer is that, in fact, each sibling grows up in a different family, a unique micro-culture. For example, the firstborn is, for a while, an only child, and therefore has a completely different experience of the parents than those born later. The parents themselves are growing up too, weathering hardship or good fortune, so one sibling might experience stability and closeness while another might be raised in the midst of crisis.</p><p>Of course, there are many positive aspects of sibling relationships. Annette Henderson, a lecturer in psychology, says firstborn children learn vocabulary more quickly than their siblings because they are not competing to spend one-on-one time with parents. But younger children in turn benefit from unintentional instruction from their bigger brothers and sisters, acquiring entire phrases and an understanding of social concepts such as politeness. Similarly, a Cambridge University study of 140 children found that even when there is a great deal of conflict, siblings will still create a rich world of play and make-believe that extends them developmentally. Love-hate relationships were common among the children, but even those who fought the most had as many positive interactions as the other sibling pairs. It is also true that children compete for parental attention by making themselves different from their brothers and sisters, particularly if they are close in age. A 2003 research paper studied adolescents from 185 families over two years, finding that those who changed, to differentiate themselves from their siblings, increased the amount of warmth they gained from parents, and also developed stronger personalities and a better sense of their own identity.</p><p>Another consideration is that many families today are smaller and more intimate than their historical counterparts. This may be advantageous because siblings tend to know each other better and remain lifelong friends compared to children from bigger or more widely spaced families, who perhaps lose touch with one another after leaving home. Then there was a 2010 American study which found that having a sister, whether younger or older, meant that 10- to 14-year-olds were less likely to feel lonely, unloved, self-conscious or fearful. The same study found that having a loving sibling of either gender promoted good deeds, such as helping a neighbor around the house or helping other children at school.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 27–30</h3>Do the following statements agree with the views of the writer in Reading Passage 3?Write <b>YES</b>, <b>NO</b>, or <b>NOT GIVEN</b>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Parents and siblings play equal roles in shaping people's adult personalities."
+              },
+              {
+                "number": 28,
+                "textHtml": "People's first social relationships tend to be with siblings of their own gender."
+              },
+              {
+                "number": 29,
+                "textHtml": "People's relationships with their siblings tend to receive less attention when they marry."
+              },
+              {
+                "number": 30,
+                "textHtml": "Parental 'basking' is advantageous for later siblings."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 31–34</h3>Choose the correct letter, <b>A</b>, <b>B</b>, <b>C</b> or <b>D</b>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 31,
+                "textHtml": "What point does the writer make about birth order in the third paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Its role is underestimated by parents."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; It may shape the characteristics of adults."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Its importance decreases as children grow up."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; It has more influence on personality than genetics."
+                  }
+                ]
+              },
+              {
+                "number": 32,
+                "textHtml": "What are we told about some of Claire Cartwright's clients?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Their parents treated them fairly."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; They were treated harshly by their siblings."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Their perceptions of childhood may be inaccurate."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; They have closer relations with their siblings as adults."
+                  }
+                ]
+              },
+              {
+                "number": 33,
+                "textHtml": "What is the writer's main point about siblings in the fifth paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Parents tend to repeat their own parents' mistakes."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Favored children are likely to make good leaders as adults."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Negative characteristics in children can become positive in adults."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Attention-seeking children are unlikely to please bosses in later life."
+                  }
+                ]
+              },
+              {
+                "number": 34,
+                "textHtml": "Which of the following best summarises the writer's argument in the sixth paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Many children have a favourite parent."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Parenting skills improve with later children."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Siblings are born with different personalities."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; The family environment may change over time."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 35–40</h3>Complete the summary using the list of words, <b>A–K</b>, below. Drag and drop the correct letter into each box. You can click a filled box to remove the answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The positive aspects of sibling relationships</div><div><p>Annette Henderson suggests that young children's interactions with older siblings involve {{35}}. Also, a Cambridge study found that siblings still enjoy {{36}} even when they have a tendency to fight. Research conducted in 2003 suggests that children develop {{37}} as a result of seeking attention. Another factor is the trend for smaller families, which may mean that today's siblings enjoy {{38}} as adults. A 2010 American study linked having a sister with {{39}} among children aged 10–14. Finally, having a sibling may promote {{40}} according to the same study.</p></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "parental love"
+              },
+              {
+                "letter": "B",
+                "textHtml": "imaginative games"
+              },
+              {
+                "letter": "C",
+                "textHtml": "physical development"
+              },
+              {
+                "letter": "D",
+                "textHtml": "generous behaviour"
+              },
+              {
+                "letter": "E",
+                "textHtml": "strong marriages"
+              },
+              {
+                "letter": "F",
+                "textHtml": "greater individuality"
+              },
+              {
+                "letter": "G",
+                "textHtml": "learning experiences"
+              },
+              {
+                "letter": "H",
+                "textHtml": "career success"
+              },
+              {
+                "letter": "I",
+                "textHtml": "closer relationships"
+              },
+              {
+                "letter": "J",
+                "textHtml": "healthy competition"
+              },
+              {
+                "letter": "K",
+                "textHtml": "mental well-being"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "soil that is both sandy and acidic"
+        }
+      },
+      "2": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "The clay bottom acts as a protective barrier, preventing harmful substances"
+        }
+      },
+      "3": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "drying and combining cranberries with other foods to extend their usefulness"
+        }
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "crushed fruit was applied to sores and minor wounds"
+        }
+      },
+      "5": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "Rather than attempting to transplant European varieties, the newcomers adopted the native species"
+        }
+      },
+      "6": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "flood"
+        ],
+        "evidence": {
+          "snippet": "farmers often choose to flood the bogs"
+        }
+      },
+      "9": {
+        "accepted": [
+          "drainage"
+        ],
+        "evidence": {
+          "snippet": "improve overall drainage"
+        }
+      },
+      "10": {
+        "accepted": [
+          "air"
+        ],
+        "evidence": {
+          "snippet": "air can move through the site more freely"
+        }
+      },
+      "11": {
+        "accepted": [
+          "water"
+        ],
+        "evidence": {
+          "snippet": "shield budding shoots from sudden frosts"
+        }
+      },
+      "12": {
+        "accepted": [
+          "maintenance"
+        ],
+        "evidence": {
+          "snippet": "perform routine maintenance"
+        }
+      },
+      "13": {
+        "accepted": [
+          "weed"
+        ],
+        "evidence": {
+          "snippet": "any sign of weed emergence"
+        }
+      },
+      "14": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "White chocolate contains no cocoa solids, milk chocolate contains relatively small amounts of cocoa"
+        }
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "these compounds have anti-inflammatory and antioxidant properties and may help protect against cardiovascular disease"
+        }
+      },
+      "16": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "certain groups, particularly overweight individuals, may not receive the same"
+        }
+      },
+      "17": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "I put cocoa powder in my smoothies"
+        }
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "Variations in gut bacteria can influence how flavanols are processed"
+        }
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "gain access to fiber that could support health"
+        }
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "the cost involved in future medical treatment may be less"
+        }
+      },
+      "21": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "unlikely to do much to reduce risk of cardiovascular disease compared with taking medicine"
+        }
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "they have yet to determine how much people need to consume"
+        }
+      },
+      "23": {
+        "accepted": [
+          "compounds"
+        ],
+        "evidence": {
+          "snippet": "cocoa is broken down into smaller chemical compounds"
+        }
+      },
+      "24": {
+        "accepted": [
+          "benefits"
+        ],
+        "evidence": {
+          "snippet": "dark chocolate should in theory confer greater benefits than milk chocolate"
+        }
+      },
+      "25": {
+        "accepted": [
+          "fats"
+        ],
+        "evidence": {
+          "snippet": "chocolate products are typically high in calories and fats"
+        }
+      },
+      "26": {
+        "accepted": [
+          "fiber",
+          "fibre"
+        ],
+        "evidence": {
+          "snippet": "Including different colors of fruits, vegetables, whole grains and beans"
+        }
+      },
+      "27": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "even more influential in determining what kind of adult we will become are our brothers and sisters"
+        }
+      },
+      "28": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "who display fewer behavioural problems as a result"
+        }
+      },
+      "31": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "It starts with birth order, which determines play roles"
+        }
+      },
+      "32": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "clients who believe, and it might not have been true, that they were treated differently"
+        }
+      },
+      "33": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "turning those attention-seeking characteristics into strengths like determination and leadership"
+        }
+      },
+      "34": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "each sibling grows up in a different family, a unique micro-culture"
+        }
+      },
+      "35": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "acquiring entire phrases and an understanding of social concepts"
+        }
+      },
+      "36": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "siblings will still create a rich world of play and make-believe"
+        }
+      },
+      "37": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "developed stronger personalities and a better sense of their own identity"
+        }
+      },
+      "38": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "remain lifelong friends compared to children from bigger"
+        }
+      },
+      "39": {
+        "accepted": [
+          "K"
+        ],
+        "evidence": {
+          "snippet": "less likely to feel lonely, unloved, self-conscious or fearful"
+        }
+      },
+      "40": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "promoted good deeds, such as helping a neighbor"
+        }
+      }
+    },
+    "sets": []
+  }
+}

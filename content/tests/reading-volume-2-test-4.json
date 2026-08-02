@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 2, Test 4",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -361,7 +361,10 @@
       "1": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "It is also one of the few traditions that have continued without interruption since before the Europeans settled"
+        }
       },
       "2": {
         "accepted": [
@@ -376,134 +379,212 @@
       "4": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Men often help women collect the shells"
+        }
       },
       "5": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "would not have risked getting snagged by long necklaces"
+        }
       },
       "6": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "demonstrated by their inclusion in many national and international museum, gallery and private collections"
+        }
       },
       "7": {
         "accepted": [
           "tooth"
-        ]
+        ],
+        "evidence": {
+          "snippet": "tool consisting of a jawbone and sharpened tooth of a kangaroo"
+        }
       },
       "8": {
         "accepted": [
           "grass"
-        ]
+        ],
+        "evidence": {
+          "snippet": "rubbed in grass to remove their outer coating"
+        }
       },
       "9": {
         "accepted": [
           "oil"
-        ]
+        ],
+        "evidence": {
+          "snippet": "later treated with penguin or muttonbird oil"
+        }
       },
       "10": {
         "accepted": [
           "vinegar"
-        ]
+        ],
+        "evidence": {
+          "snippet": "acidic liquids such as vinegar to clean the shells"
+        }
       },
       "11": {
         "accepted": [
           "season"
-        ]
+        ],
+        "evidence": {
+          "snippet": "shell collection has its season"
+        }
       },
       "12": {
         "accepted": [
           "crawl"
-        ]
+        ],
+        "evidence": {
+          "snippet": "crawl along on our hands and knees to get the shells"
+        }
       },
       "13": {
         "accepted": [
           "colour",
           "color"
-        ]
+        ],
+        "evidence": {
+          "snippet": "too brittle and they lose their colour"
+        }
       },
       "14": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "produce much lower levels of toxin than do well-established, old-growth trees"
+        }
       },
       "15": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "hopes that farmers will begin to see wild monkeys, which could include potential ecotourism projects"
+        }
       },
       "16": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "keep their systems primed by sampling a variety of plants and then focusing on a small number"
+        }
       },
       "17": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "tropical dry forests covered most of Central America, but by the 1980s less than two percent remained undisturbed"
+        }
       },
       "18": {
         "accepted": [
           "reproduction"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Howler reproduction is faster than that of other native monkey species"
+        }
       },
       "19": {
         "accepted": [
           "fruit"
-        ]
+        ],
+        "evidence": {
+          "snippet": "They eat fruit when it is available but, unlike capuchin and spider monkeys, do not depend on large areas"
+        }
       },
       "20": {
         "accepted": [
           "toxins",
           "poison"
-        ]
+        ],
+        "evidence": {
+          "snippet": "thrive on leaves loaded with toxins poisonous substances"
+        }
       },
       "21": {
         "accepted": [
           "drought"
-        ]
+        ],
+        "evidence": {
+          "snippet": "which have suffered during the long, ongoing drought in the area"
+        }
       },
       "22": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "species of indigenous trees which had been absent for decades began to invade the abandoned pastures"
+        }
       },
       "23": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "white-faced capuchin monkeys and spider monkeys were once common in this area, too, but vanished"
+        }
       },
       "24": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "monkeys bring underappreciated benefits to such plantations, dispersing the seeds of fruits"
+        }
       },
       "25": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Capuchins were the first to begin using the reborn forests, followed by howlers"
+        }
       },
       "26": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "vanished after the Pan-American Highway was built nearby in the 1950s"
+        }
       },
       "27": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the majority of us have little comprehension of the processes that actually lead to innovation"
+        }
       },
       "28": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "in company boardrooms across New Zealand, the term is heard far too frequently"
+        }
       },
       "29": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "often defining innovation in their own way"
+        }
       },
       "30": {
         "accepted": [
@@ -513,52 +594,82 @@
       "31": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "reject the false assumption that innovation is just a moment of brilliance waiting to strike"
+        }
       },
       "32": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "his egotistical behaviour could have undesirable consequences"
+        }
       },
       "33": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "progress in a specific area or discipline can end up triggering small but significant developments elsewhere"
+        }
       },
       "34": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "collaborate with similar nano-technology businesses, which take its innovations and develop them into commodities"
+        }
       },
       "35": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "lease a team of innovation experts on a short-term basis to client organisations to assist with conceiving, developing"
+        }
       },
       "36": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Edison's own inspiration usually resulted from laborious experimentation"
+        }
       },
       "37": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "demanding behaviour affects sickness rates and group morale, which in turn may squash creativity"
+        }
       },
       "38": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "some commentators have claimed Harford's TED Talk was not persuasive, because it was stating the obvious"
+        }
       },
       "39": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "progress in a specific area or discipline can end up triggering small but significant developments elsewhere entirely"
+        }
       },
       "40": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "collaborate with similar nano-technology businesses, which take its innovations and develop them into commodities"
+        }
       }
     },
     "sets": []

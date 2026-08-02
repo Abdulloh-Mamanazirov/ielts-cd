@@ -1,0 +1,703 @@
+{
+  "slug": "reading-volume-7-test-2",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 7, Test 2",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Wood: a valuable resource in New Zealand's economy",
+        "passageHtml": "<p>During the settlement of New Zealand by European immigrants, natural timbers played a major role. Wood was easily accessible and relatively cheap. A tradition of wooden houses arose, supported by the recognition that they were less likely to collapse suddenly during earthquakes, a not infrequent event in this part of the world. But in addition to demand from the domestic market, there was also a demand for forest products from overseas.</p><p>Early explorers recognised the suitability of the tall, straight trunks of the kauri for constructing sailing vessels. The kauri is a species of coniferous tree found only in small areas of the southern hemisphere. So from the early 1800s, huge amounts of this type of wood were sold to Australia and the UK for that purpose. For a period, the forestry industry was the country's major export earner, but the rate of harvest was unsustainable and, by the beginning of the 20th century, indigenous timber exports were rapidly declining.</p><p>From the 1940s, newly established plantations of an imported species of tree called radiata pine supplied timber and other wood products in increasing quantities. By the 1960s, plantation-grown timber was providing most of the country's sawn timber needs, especially for construction. Today, less than two percent of timber is cut from indigenous forests, and almost all of that is used for higher-value end uses, such as furniture and fittings. As the pine industry developed, it became apparent that this type of wood was also well suited for many uses. It makes excellent pulp, and is frequently used for posts, poles, furnishings and mouldings, particleboard, fibreboard, and for plywood and 'engineered' wood products. Pine by-products are used in the chemical and pharmaceutical industries and residues are consumed for fuel. This amazing versatility has encouraged the development of an integrated forest-products industry which is almost unique in the world.</p><p>Exporters of wood products have largely targeted the rapidly growing markets of South and East Asia and Australia — 80 percent of exports by value go to only five markets: Japan, Korea, China, the United States and Australia. The product mix remains heavily based on raw materials, with logs, sawn wood, pulp and paper comprising 75 percent of export value. However, finished wood products such as panels and furniture components are exported to more than 50 countries.</p><p>In New Zealand itself, the construction industry is the principal user of solid wood products, servicing around 20,000 new house starts annually. However, the small size of New Zealand's population (just over four million), plus its small manufacturing and remanufacturing base, limit the forestry industry's domestic opportunities. For the last few years local wood consumption has been around only four million cubic metres. Accordingly, the development of the export market is the key to the industry's growth and contribution to the national economy in decades to come.</p><p>In 2004, forestry export receipts were about 11 percent of the country's total export income, their value having increased steadily for ten years, until affected by the exchange fluctuations and shipping costs of recent years. The forestry industry is New Zealand's third largest export sector, generating around $3.3 billion annually from logs and processed wood products. But it is generally agreed that it is operating well below its capacity and, with the domestic market already at its peak, almost all of the extra wood produced in future will have to be marketed overseas. That presents a major marketing challenge for the industry.</p><p>Although the export of logs will continue to provide valuable earnings for forest owners, there is broad acceptance that the industry must be based on value-added products in future. So the industry is investigating various processing, infrastructure and investment strategies with a view to increasing the level of local manufacturing before export. The keys to future success will depend on a variety of factors: better international marketing, product innovation, internationally competitive processing, better infrastructure and a suitable political, regulatory and investment environment. The industry claims that, given the right conditions, by 2025 the forestry sector could be the country's biggest export earner, generating $20 billion a year and employing 60,000 people.</p><p>One competitive advantage that New Zealand has is its ability to source large quantities of softwood from renewable forests. Consumers in several key wood markets are becoming more worried about sustainability, and the industry is supporting the development of national standards as well as the recognition of these internationally. However, New Zealand is not the only country with a plantation-style forestry industry. Chile, Brazil, Argentina, South Africa and Australia all have extensive plantings of fast-growing species (hardwood and softwood), and in the northern hemisphere, Scandinavian countries have all expanded their forests or controlled their use in the interests of future production.</p><p>Finally, in addition to competition from other wood producers, New Zealand faces competition from goods such as wood substitutes. These include steel framing for houses. This further underlines the necessity for globally competitive production and marketing strategies.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–6</h3>Choose <strong>TRUE</strong> if the statement agrees with the information given in the text, choose <strong>FALSE</strong> if the statement contradicts the information, or choose <strong>NOT GIVEN</strong> if there is no information on this.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Settlers realised that wooden houses were more dangerous than other types of structure."
+              },
+              {
+                "number": 2,
+                "textHtml": "During the 1800s, New Zealand exported wood for use in boat-building."
+              },
+              {
+                "number": 3,
+                "textHtml": "Plantation-grown wood is generally better for construction than native forest wood."
+              },
+              {
+                "number": 4,
+                "textHtml": "Compared to other types of wood, pine has a narrow range of uses."
+              },
+              {
+                "number": 5,
+                "textHtml": "Demand for housing in New Zealand is predicted to fall in the next few years."
+              },
+              {
+                "number": 6,
+                "textHtml": "In future, the expansion of New Zealand's wood industry will depend on its exports."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 7–13</h3>Answer the questions below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>7.</strong>&nbsp; Apart from exchange rates, which factor has had a negative impact on New Zealand's forestry exports?</p>{{7}}</div><div><p><strong>8.</strong>&nbsp; Which part of New Zealand's economy does the forestry industry rank third in?</p>{{8}}</div><div><p><strong>9.</strong>&nbsp; According to the New Zealand forestry industry, what could be the size of its workforce by 2025?</p>{{9}}</div><div><p><strong>10.</strong>&nbsp; What kind of timber product is available in large amounts from renewable forests in New Zealand?</p>{{10}}</div><div><p><strong>11.</strong>&nbsp; Which aspect of timber production are New Zealand's main customers increasingly concerned about?</p>{{11}}</div><div><p><strong>12.</strong>&nbsp; Outside the southern hemisphere, who are New Zealand forestry's main competitors?</p>{{12}}</div><div><p><strong>13.</strong>&nbsp; Which group of products is New Zealand's forestry industry now having to compete with?</p>{{13}}</div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Intelligent behaviour in birds",
+        "passageHtml": "<p>Many people are aware of the intelligence of chimpanzees and other mammals. However, birds also demonstrate intelligent behaviour.</p><!-- Paragraph 1 (Q14) --><p>For centuries, many scholars maintained that humans were the only intelligent organism on Earth. Many traits were considered to be exclusively human examples of acumen – for example, language, tool use, deception, awareness of self and others. However, exciting new research on a number of animals, particularly birds, has called into question the uniqueness of these traits, forcing us to reconsider this opinion. In 1964, people were amazed when naturalist Jane Goodall first discovered chimpanzees making and using tools. But ornithologists, people who study birds, were not overly surprised. Almost 20 years earlier, a renowned ornithologist had shown that tool use was commonplace in populations of woodpecker finches residing on the Galápagos Islands. These tiny birds routinely used twigs to extract grubs from under bark.</p><!-- Paragraph 2 (Q15) --><p>Since then, the catalogue of tool-using animals has grown. At least three Australian bird species make tools similar to those of the woodpecker finch, and when white-winged choughs come across shellfish they have been known to use rocks as hammers to crack open the recalcitrant shells. Other birds show a more sophisticated level of insight. For example, black kites have been reported dropping bait into lakes to bring fish to the surface of the water, thereby making them easier to catch. A kite may also pick up a smouldering stick from an area recently burned by a bushfire and drop the stick on a patch of unburned grass. The bird then feasts on the small animals that flee from the subsequent fire.</p><!-- Paragraph 3 (Q16) --><p>Most tool-using behaviours are a means of extracting food, which may provide a clue as to how the mental abilities needed for tool use evolved. The predominant explanation is based on the proverb that 'necessity is the mother of invention'. Essentially, brain tissue is energetically expensive, so animals should have evolved only the necessary intellectual capabilities required to overcome the challenges they face in their environment. Consider a hypothetical duck grazing on a seemingly endless supply of grass. Being particularly intelligent will not help the duck eat more grass. In contrast, other species, such as birds of prey, live in a more challenging environment, where food may be distributed erratically, hidden from view or highly mobile. The food itself may be quite intelligent. So, if there are not enough resources to feed all individuals, then only the smartest in each generation will live and reproduce.</p><!-- Paragraph 4 (Q17) --><p>New Caledonian crows boast many different tools in their tool kit. They use a hooked tool made by removing all but one of the side branches from a twig. They fashion serrated rakes (using their beaks as scissors) from stiff, leathery pandanus leaves. They also make probes by modifying their own moulted feathers. Each tool is used in slightly different ways to pull grubs from deep within tree trunks. The crows carry their favourite tool from one foraging site to the next. They also store their tools for later re-use in a secure place on their perch. Problem-solving abilities have traditionally been thought to be beyond the reach of animals. Nevertheless, birds are coming up with innovative solutions all the time. Recently, New Caledonian crows were observed moulding a piece of wire, something they had never seen before, into a hook and then using it to retrieve food.</p><!-- Paragraph 5 (Q18) --><p>Literally hundreds of such reports have accumulated in back copies of scientific journals. Recently, a team of biologists from McGill University in Canada collated them and compared the frequency and size of innovations with the size of the birds' forebrain (the brain-area responsible for higher-order information processing) relative to the hindbrain. The team uncovered a clear relationship: birds with relatively large forebrains are able to invent fresh solutions to ecological challenges, and to exploit the discoveries and inventions of others, more often than birds with relatively small forebrains.</p><!-- Paragraph 6 (Q19) --><p>Intelligence in birds may also arise as a result of selection to overcome the dynamic challenges of communal living. Since this involves competition between group members, to be successful, a social animal may need to be able to reflect on its own intentions, as well as those of others. The consequence of being part of a community may be the evolution of a distinctly 'political' brain.</p><!-- Paragraph 7 (Q20) --><p>What better way to exercise a political brain than to be deceitful! Perhaps the best example of deception among birds comes from the white-winged choughs. Choughs are cooperative breeders – that is, they form a communal group consisting of one breeding-pair and up to 15 non-breeding 'helpers'. However, because young choughs have so little enthusiasm for foraging, or gathering food, they are often too hungry to help. And because it is socially unacceptable to be part of a group and provide little help, young choughs often act deceptively. For example, when an adult is watching, a young chough will place some food in the mouth of a hungry chick – but it does not release the food. Instead, it waits until the adult departs and then eats it. A chough can also help the group by preening the chicks. Interestingly, it is more likely to preen the chicks if another bird can see it do so. A chough that has been sitting totally still on the nest while the rest of the group is foraging out of sight will comically spring up and frantically start to preen the chicks as soon as some of its group members come into view. It is likely that these young choughs are only motivated to help when others are watching because they are concerned about their social status. Choughs need other choughs to like them as they cannot breed without them.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–20</h3>Reading Passage 2 has seven paragraphs. Choose the correct heading for each paragraph from the list of headings below. <strong>Drag</strong> a heading card onto the corresponding paragraph slot in the passage (or click to arm, then click the slot).",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "The theory linking capacity for tool use in birds and survival"
+              },
+              {
+                "letter": "B",
+                "textHtml": "The influence of humans on tool use"
+              },
+              {
+                "letter": "C",
+                "textHtml": "The theory linking cognitive ability and living in a society"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Reviewing long-held beliefs"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Intelligence helps birds to remember"
+              },
+              {
+                "letter": "F",
+                "textHtml": "How some birds trick each other"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Physiological evidence of birds' intelligence"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Several examples of birds who use tools"
+              },
+              {
+                "letter": "I",
+                "textHtml": "One species' multiple tool-using techniques"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              },
+              {
+                "number": 20,
+                "textHtml": "Paragraph <strong>G</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 21–26</h3>Look at the following characteristics (Questions 21–26) and the list of birds below. Match each characteristic with the correct bird, A, B, or C.You may use any letter more than once.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "White-winged choughs"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Black kites"
+              },
+              {
+                "letter": "C",
+                "textHtml": "New Caledonian crows"
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "keeping tools that they like to use"
+              },
+              {
+                "number": 22,
+                "textHtml": "drawing out their prey by frightening it"
+              },
+              {
+                "number": 23,
+                "textHtml": "the use of tools to remove the outer covering from food"
+              },
+              {
+                "number": 24,
+                "textHtml": "using food to attract their prey"
+              },
+              {
+                "number": 25,
+                "textHtml": "the use of unfamiliar materials to make tools"
+              },
+              {
+                "number": 26,
+                "textHtml": "engaging in certain activities for the benefit of observers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Jean Piaget 1896–1980",
+        "passageHtml": "<p>Seymour Papert looks at the work of pioneering Swiss philosopher and psychologist</p><p>Jean Piaget spent much of his professional life listening to children, watching children and poring over reports of researchers around the world who were doing the same. He found, to put it most succinctly, that children don't think like grown-ups. After thousands of interactions with young people often barely old enough to talk, Piaget began to suspect that behind their cute and seemingly irrational utterances were thought processes that had their own kind of order and their own special logic. Einstein called it a discovery 'so simple that only a genius could have thought of it.'</p><p>Although not an educational reformer, Piaget championed a way of thinking about children that provided the foundation for today's education-reform movements. It was a shift comparable to the way modern anthropology displaced stories of primitive tribes being 'noble savages' and 'cannibals'. One might say that Piaget was the first to take children's thinking seriously.</p><p>He has been revered by generations of teachers inspired by the belief that children are not empty vessels to be filled with knowledge (as traditional pedagogical theory had it) but active builders of knowledge – little scientists who are constantly creating and testing their own hypotheses about the world. And though he may not be as famous as Sigmund Freud or even B F Skinner, his influence on psychology may be longer lasting. In 1920, while doing research in a child-psychology laboratory in Paris, Piaget noticed that children of the same age made similar errors on intelligence tests. Fascinated by their reasoning processes, he began to suspect that the key to human knowledge might be discovered by observing how the child's mind develops.</p><p>On his return to Switzerland he began watching children play, scrupulously recording their words and actions as their minds raced to find reasons for why things are the way they are. In one of his most famous experiments, Piaget asked children, 'What makes the wind?'. A typical dialogue would be:<br><br><em>Piaget: What makes the wind?<br> Julia: The trees.<br> Piaget: How do you know?<br> Julia: I saw them waving their arms.<br> Piaget: How does that make the wind?<br> Julia: (waving her hand in front of his face): Like this. Only they are bigger. And there are lots of trees.</em></p><p>Piaget recognised that five-year-old Julia's beliefs, while not correct by any adult criterion, are not 'incorrect' either. They are entirely sensible and coherent within the framework of the child's way of knowing. Classifying them as 'true' or 'false' misses the point and shows a lack of respect for the child. What Piaget was after was a theory that the wind dialogue demonstrated coherence, ingenuity and the practice of a kind of explanatory principle (in this case by referring to body actions) that stands young children in very good stead when they don't know enough or don't have enough skill to handle the kind of explanation that grown-ups prefer.</p><p>Piaget was not an educator and never laid down rules about how to intervene in such situations. But his work strongly suggests that the automatic reaction of putting the child right may well be counter-productive. If their theories are always greeted by 'Nice try, but this is how it really is…' they might give up after a while on making theories. As Piaget put it, 'children have real understanding only of that which they invent themselves, and each time that we try to teach them something too quickly, we keep them from inventing it themselves.'</p><p>Disciples of Piaget have tolerance for – indeed a fascination with – children's primitive laws of physics: that things disappear when they are out of sight; that the moon and the sun follow you around; that big things float and small things sink. Einstein was intrigued by Piaget's finding, especially by the idea that seven-year-olds insist that going faster can take more time – perhaps because this, like Einstein's own theories of relativity, runs so contrary to common sense.</p><p>Although every teacher in training still memorises Piaget's successive stages of childhood development, the greater part of Piaget's work is less well known, perhaps because schools of education regard it as 'too deep' for teachers. Piaget never thought of himself as a child psychologist. His real interest was epistemology – the theory of knowledge – which, like physics, was considered a branch of philosophy until Piaget came along and made it a science.</p><p>Through epistemology, Piaget explored multiple ways of knowing. He acknowledged them and examined them non-judgementally, yet with a philosopher's analytic rigour. Since Piaget, the territory has been widely colonised by those who write about women's ways of knowing, Afrocentric ways of knowing, even the computer's ways of knowing. Indeed, artificial intelligence and the information-processing model of the mind owe more to Piaget than its proponents may realise.</p><p>The core of Piaget is his belief that looking carefully at how knowledge develops in children will elucidate the nature of knowledge in general. Whether this has in fact led to deeper understanding remains, like everything about Piaget, controversial. In the past decade, Piaget has been vigorously challenged by the current fashion of viewing knowledge as an intrinsic property of the brain. Ingenious experiments have demonstrated that newborn infants already have some of the knowledge that Piaget believed children constructed. But for those, like me, who still see Piaget as the giant in the field of cognitive theory, the difference between what the baby brings and what the adult has is so immense that the new discoveries do not significantly reduce the gap, but only increase the mystery.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–31</h3>Choose the correct answer.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "In the second paragraph the writer mentions the example of modern anthropology to illustrate",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; the universality of Piaget's insights into the workings of the mind."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; the similarity between children's thought processing in different cultures."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; how Piaget's work represents a crucial turning-point in our approach to education."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; how Piaget's work has aided our understanding of man's evolution from primitive origins."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "According to the writer, what point is illustrated by the dialogue about the wind?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; The factual accuracy of what children say is of minor significance."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Children want to learn about scientific principles."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Children's reasoning processes can be amusing to adults."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Children often pretend that they know the answers to questions."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "Piaget believed in the importance of",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; preventing children from making false assumptions."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; giving children honest feedback on their hypotheses."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; showing children how to formulate their own ideas about the world."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; maintaining children's confidence in their ability to interpret the world."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "What does the writer suggest in the seventh paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Children's sense of their surroundings changes as they get older."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Children are able to grasp certain complex ideas as well as adults are."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Even apparently irrational ideas can be worthy of interest."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Sometimes the simplest explanations are the best."
+                  }
+                ]
+              },
+              {
+                "number": 31,
+                "textHtml": "The writer's main purpose is to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; outline Piaget's contribution to a range of scientific fields."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; summarise how education has benefited from Piaget's findings."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; discuss Piaget's role in the development of 20th-century psychology."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; express doubts about a number of Piaget's theories."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 32–36</h3>Complete the summary using the list of words, A–I, below.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>Piaget's Theories on Children's Cognitive Development</strong><br><br> Piaget maintained that children's mental processes were far more {{32}} than they might appear. He encouraged the view that a child was not a 'blank slate' waiting to be filled with information, but rather a systematic builder of knowledge who regularly tries out his or her own {{33}} about the world. Piaget's impact on the area of {{34}} could well outlast that of more celebrated pioneers of this discipline. Despite doubts cast over his ideas by the current view associating knowledge exclusively with the {{35}} , the effects of his work are still strong today. His principles are still widely used in the professional development of {{36}}.</p></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "correct &nbsp;"
+              },
+              {
+                "letter": "B",
+                "textHtml": "theories &nbsp;"
+              },
+              {
+                "letter": "C",
+                "textHtml": "brain &nbsp;"
+              },
+              {
+                "letter": "D",
+                "textHtml": "simple &nbsp;"
+              },
+              {
+                "letter": "E",
+                "textHtml": "teachers &nbsp;"
+              },
+              {
+                "letter": "F",
+                "textHtml": "psychology &nbsp;"
+              },
+              {
+                "letter": "G",
+                "textHtml": "logical &nbsp;"
+              },
+              {
+                "letter": "H",
+                "textHtml": "thought &nbsp;"
+              },
+              {
+                "letter": "I",
+                "textHtml": "philosophers"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 37–40</h3>Choose <strong>YES</strong> if the statement agrees with the claims of the writer, choose <strong>NO</strong> if the statement contradicts the claims of the writer, or <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "Piaget's early work in Paris involved innovative research techniques."
+              },
+              {
+                "number": 38,
+                "textHtml": "Piaget gave clear guidelines as to how adults should give information to children."
+              },
+              {
+                "number": 39,
+                "textHtml": "Piaget made a significant contribution to the field of epistemology."
+              },
+              {
+                "number": 40,
+                "textHtml": "We still have much to learn about the nature of knowledge."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "less likely to collapse suddenly during earthquakes"
+        }
+      },
+      "2": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "huge amounts of this type of wood were sold to Australia and the UK"
+        }
+      },
+      "3": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "This amazing versatility has encouraged the development of an integrated forest-products industry"
+        }
+      },
+      "5": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "the development of the export market is the key to the industry's growth"
+        }
+      },
+      "7": {
+        "accepted": [
+          "shipping costs",
+          "shipping cost"
+        ],
+        "evidence": {
+          "snippet": "exchange fluctuations and shipping costs of recent years"
+        }
+      },
+      "8": {
+        "accepted": [
+          "export sector"
+        ],
+        "evidence": {
+          "snippet": "New Zealand's third largest export sector"
+        }
+      },
+      "9": {
+        "accepted": [
+          "60,000",
+          "60000"
+        ],
+        "evidence": {
+          "snippet": "generating $20 billion a year and employing 60,000 people"
+        }
+      },
+      "10": {
+        "accepted": [
+          "softwood"
+        ],
+        "evidence": {
+          "snippet": "source large quantities of softwood from renewable forests"
+        }
+      },
+      "11": {
+        "accepted": [
+          "sustainability"
+        ],
+        "evidence": {
+          "snippet": "Consumers in several key wood markets are becoming more worried about sustainability"
+        }
+      },
+      "12": {
+        "accepted": [
+          "scandinavian countries",
+          "scandinavian country"
+        ],
+        "evidence": {
+          "snippet": "Scandinavian countries have all expanded their forests"
+        }
+      },
+      "13": {
+        "accepted": [
+          "wood substitutes",
+          "wood substitute"
+        ],
+        "evidence": {
+          "snippet": "competition from goods such as wood substitutes"
+        }
+      },
+      "14": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "forcing us to reconsider this opinion"
+        }
+      },
+      "15": {
+        "accepted": [
+          "H"
+        ],
+        "evidence": {
+          "snippet": "At least three Australian bird species make tools similar to those of the woodpecker finch"
+        }
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "necessity is the mother of invention"
+        }
+      },
+      "17": {
+        "accepted": [
+          "I"
+        ],
+        "evidence": {
+          "snippet": "New Caledonian crows boast many different tools in their tool kit"
+        }
+      },
+      "18": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "birds with relatively large forebrains are able to invent fresh solutions"
+        }
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "The consequence of being part of a community may be the evolution of a distinctly 'political' brain"
+        }
+      },
+      "20": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "young choughs often act deceptively"
+        }
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "The crows carry their favourite tool from one foraging site to the next"
+        }
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "feasts on the small animals that flee from the subsequent fire"
+        }
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "use rocks as hammers to crack open the recalcitrant shells"
+        }
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "black kites have been reported dropping bait into lakes to bring fish to the surface"
+        }
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "moulding a piece of wire, something they had never seen before, into a hook"
+        }
+      },
+      "26": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "it is more likely to preen the chicks if another bird can see it do so"
+        }
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "a shift comparable to the way modern anthropology displaced stories of primitive tribes"
+        }
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "Classifying them as 'true' or 'false' misses the point"
+        }
+      },
+      "29": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "children have real understanding only of that which they invent themselves"
+        }
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "Einstein was intrigued by Piaget's finding, especially by the idea that seven-year-olds"
+        }
+      },
+      "31": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "his influence on psychology may be longer lasting"
+        }
+      },
+      "32": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "behind their cute and seemingly irrational utterances were thought processes that had their own kind of order and their own special logic"
+        }
+      },
+      "33": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "active builders of knowledge – little scientists who are constantly creating and testing their own hypotheses"
+        }
+      },
+      "34": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "his influence on psychology may be longer lasting"
+        }
+      },
+      "35": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "viewing knowledge as an intrinsic property of the brain"
+        }
+      },
+      "36": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "every teacher in training still memorises Piaget's successive stages"
+        }
+      },
+      "37": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "Piaget was not an educator and never laid down rules about how to intervene"
+        }
+      },
+      "39": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "His real interest was epistemology – the theory of knowledge"
+        }
+      },
+      "40": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "the new discoveries do not significantly reduce the gap, but only increase the mystery"
+        }
+      }
+    },
+    "sets": []
+  }
+}

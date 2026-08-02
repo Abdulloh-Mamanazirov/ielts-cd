@@ -19,7 +19,7 @@ without re-deriving anything.
 - **Marketing site** — home page and `/results`, design direction 1a.
 - **App screens** — navy sidebar with per-skill nav, dashboard with band
   history, test list with per-row state.
-- **Content** — the instructor's "@bekhruzposts" Volumes (four so far): each a
+- **Content** — the instructor's "@bekhruzposts" Volumes (1–9, some partial): each a
   set of ten reading and ten listening, converted and validated from
   `_source-tests/`, all published. Two adapters in `scripts/convert/`
   (`bekhruz-reading.ts`, `bekhruz-listening.ts`) parse the two self-contained

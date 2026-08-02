@@ -1,0 +1,542 @@
+{
+  "slug": "listening-volume-7-test-2",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 7, Test 2",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Holiday Job</div><ul><li>Location {{1}} Island</li><li>Start date {{2}}</li></ul><p>Available jobs</p><p><strong>Vacancy 1: Calypso Bistro</strong></p><ul><li>working as a {{3}}</li><li>no experience needed</li></ul><p><strong>Vacancy 2: Guest Liaison</strong></p><ul><li>must be able to {{4}}</li></ul><p><strong>Vacancy 3: Activities staff</strong></p><ul><li>help with games and water sports</li><li>need experience with {{5}}</li></ul><p><strong>Vacancy 4: In reception</strong></p><ul><li>as a porter</li><li>must be able to {{6}}</li></ul><p>Benefits</p><p>For all jobs,</p><ul><li>there is free {{7}}</li><li>{{8}} are provided</li></ul><p>Interview</p><ul><li>to be held on {{9}} at 2pm</li><li>bring a CV and a {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;The walk is organised specifically for",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "extremely fit people."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "parents with their children."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "tourists unfamiliar with the local area."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;The maximum number of people on the walk will be",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "220."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "250."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "280."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;The organisers will stop walkers taking part if they",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "arrive without a waterproof coat."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "are causing a lot of trouble."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "are unable to answer basic safety questions."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;The walk was cancelled two years previously because of",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "illness in the organising team."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "very stormy weather."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "problems getting people to help."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;Badges can be obtained",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "only when they have been ordered before the walk."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "immediately people have completed the whole walk."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "one week after the walk has finished."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": ","
+              },
+              {
+                "letter": "B",
+                "textHtml": "or"
+              },
+              {
+                "letter": "C",
+                "textHtml": ", next to questions 16–20."
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "a pair of thick trousers"
+              },
+              {
+                "number": 17,
+                "textHtml": "a mobile phone"
+              },
+              {
+                "number": 18,
+                "textHtml": "a torch"
+              },
+              {
+                "number": 19,
+                "textHtml": "something to drink"
+              },
+              {
+                "number": 20,
+                "textHtml": "a rucksack"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Information is not freely accessible"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Too detailed for their purposes"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Contains a useful tool for users"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Convenient format"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Up-to-date information"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Easy to compare data"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Missing information"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Historical information"
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "National Geographic"
+              },
+              {
+                "number": 22,
+                "textHtml": "United Nations"
+              },
+              {
+                "number": 23,
+                "textHtml": "Energy Information Administration"
+              },
+              {
+                "number": 24,
+                "textHtml": "British Petroleum"
+              },
+              {
+                "number": 25,
+                "textHtml": "Central Intelligence Agency"
+              },
+              {
+                "number": 26,
+                "textHtml": "World Energy Council"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27 and 28</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Which <strong>TWO</strong> decisions do the students reach about the subject matter of their assignment?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They will keep the assessment criteria in mind."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They will limit the scale of their investigation."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They will select countries from all over the world."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They will collect data about two groups of countries."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "They will find figures for wind and nuclear power."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 29 and 30</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "Which <strong>TWO</strong> tasks will Charley be responsible for?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "reviewing the final draft"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "collecting basic figures"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "producing the graphics"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "processing the raw data"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "drafting the written sections"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Public Monument Assignment</div><p>Section one</p><p>First, identify the monument and justify your choice</p><ul><li>Comment on the {{31}} of the monument</li></ul><p>Add information about its:</p><ul><li>geographical location</li><li>{{32}} significance</li><li>historical context</li></ul><p>Illustrate assignment with:</p><ul><li>{{33}}</li><li>photos (with captions)</li></ul><p>End with: record of architect's achievements</p><p>Section two: Design and construction</p><p>Include information about</p><ul><li>The {{34}} of any particular style on the design</li><li>The {{35}} used in construction</li><li>Specialist {{36}} required</li></ul><p>Section three: Assessment of design</p><p>Content should include: personal assessment, results of your survey</p><p>Use personal assessment and survey to consider:</p><ul><li>the {{37}} for building the monument</li><li>the monument's {{38}} effect on members of the public</li><li>how well the monument suits its {{39}}</li></ul><p>Remember!</p><ul><li>Credit given for good {{40}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "jamieson"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "11 july",
+          "11th july",
+          "july 11",
+          "july 11th"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "waiter"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "sing"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "children"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "drive"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "transport"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "meals"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "thursday"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "photo"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "success"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "social"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "plans"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "influence"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "materials"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "skills"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "reason"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "emotional"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "environment"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "analysis"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          27,
+          28
+        ],
+        "accepted": [
+          "B",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          29,
+          30
+        ],
+        "accepted": [
+          "B",
+          "E"
+        ]
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 1, Test 4",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -131,23 +131,23 @@
                 "options": [
                   {
                     "letter": "A",
-                    "textHtml": "<strong>A</strong>&nbsp; It aims to slow the movement of water to the sea."
+                    "textHtml": "&nbsp; It aims to slow the movement of water to the sea."
                   },
                   {
                     "letter": "B",
-                    "textHtml": "<strong>B</strong>&nbsp; It aims to channel water more directly into rivers."
+                    "textHtml": "&nbsp; It aims to channel water more directly into rivers."
                   },
                   {
                     "letter": "C",
-                    "textHtml": "<strong>C</strong>&nbsp; It will cost more than twice as much as former measures."
+                    "textHtml": "&nbsp; It will cost more than twice as much as former measures."
                   },
                   {
                     "letter": "D",
-                    "textHtml": "<strong>D</strong>&nbsp; It will involve the loss of some areas of land."
+                    "textHtml": "&nbsp; It will involve the loss of some areas of land."
                   },
                   {
                     "letter": "E",
-                    "textHtml": "<strong>E</strong>&nbsp; It has been tested only in The Netherlands."
+                    "textHtml": "&nbsp; It has been tested only in The Netherlands."
                   }
                 ]
               }
@@ -365,12 +365,18 @@
       "1": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "target consumers aged 60+ with devices and gadgets specifically designed to assist them with the problems associated with ageing"
+        }
       },
       "2": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "market research proved to be very positive, showing strong consumer support for the products"
+        }
       },
       "3": {
         "accepted": [
@@ -385,110 +391,173 @@
       "5": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Customers complained that the new stores felt like a senior center"
+        }
       },
       "6": {
         "accepted": [
           "surface"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Tibal and his executives looked only at surface attitudes"
+        }
       },
       "7": {
         "accepted": [
           "weight loss"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a drug to aid weight loss"
+        }
       },
       "8": {
         "accepted": [
           "name"
-        ]
+        ],
+        "evidence": {
+          "snippet": "we came up with a name that sounds like a helpful partner"
+        }
       },
       "9": {
         "accepted": [
           "container"
-        ]
+        ],
+        "evidence": {
+          "snippet": "make the container both beautiful and functional"
+        }
       },
       "10": {
         "accepted": [
           "behavior",
           "behaviour"
-        ]
+        ],
+        "evidence": {
+          "snippet": "examine their behaviour, can provide valuable data"
+        }
       },
       "11": {
         "accepted": [
           "focus groups"
-        ]
+        ],
+        "evidence": {
+          "snippet": "We conducted what are known as focus groups"
+        }
       },
       "12": {
         "accepted": [
           "surveys",
           "simple surveys"
-        ]
+        ],
+        "evidence": {
+          "snippet": "we have conducted simple surveys in the lobby"
+        }
       },
       "13": {
         "accepted": [
           "instincts"
-        ]
+        ],
+        "evidence": {
+          "snippet": "own instincts"
+        }
       },
       "14": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Tough new rules for new developments mean that drains will be prevented from becoming overloaded"
+        }
       },
       "15": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The aim was partly to improve navigation, and partly to speed floodwaters out of Alps and down to the North Sea"
+        }
       },
       "16": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "floodwaters lost force and volume while meandering across flood plains and inland deltas"
+        }
       },
       "17": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "protecting towns not only in Austria, but as far downstream as Slovenia and Croatia"
+        }
       },
       "18": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "have broken one of their most enduring national stereotypes by allowing engineers to punch holes in dykes"
+        }
       },
       "19": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "how much is spent trying to drain cities and protect areas from flooding"
+        }
       },
       "22": {
         "accepted": [
           "europe",
           "central europe"
-        ]
+        ],
+        "evidence": {
+          "snippet": "winter floods on the rivers of central Europe have been among the worst for 600 to 700 years"
+        }
       },
       "23": {
         "accepted": [
           "mississippi"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The same thing has happened in the US on the Mississippi river"
+        }
       },
       "24": {
         "accepted": [
           "london"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Nearer to London, it has spent"
+        }
       },
       "25": {
         "accepted": [
           "soft engineers"
-        ]
+        ],
+        "evidence": {
+          "snippet": "wants cities to be porous, Berlin is one place where this is being done"
+        }
       },
       "26": {
         "accepted": [
           "los angeles"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Los Angeles has recently launched a new scheme to utilise floodwater in the Sun Valley section of the city"
+        }
       },
       "27": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "claim that it provides unequivocal evidence of a long overlap of humans and megafauna"
+        }
       },
       "28": {
         "accepted": [
@@ -498,62 +567,98 @@
       "29": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The dating of these layers is accurate"
+        }
       },
       "30": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "some of the stones show surface features indicating their use for processing plants"
+        }
       },
       "31": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "we estimate there are more than 3 tonnes of charcoal and more than 300 tonnes of stone buried there"
+        }
       },
       "32": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "hard to reconcile with a site that was only available for occupation when the lake was dry"
+        }
       },
       "33": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "no cultural features such as oven pits have been discovered"
+        }
       },
       "34": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "sand in the two upper levels is considerably younger than charcoal from the same levels"
+        }
       },
       "35": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a deep drill core made a mere 60 metres from the site recovered no stone artefact or fossil bones"
+        }
       },
       "36": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "These points suggest strongly that the sediments have been moved about and some of the old charcoal has been re-deposited in younger layers"
+        }
       },
       "37": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "We propose that the archaeologists have actually been sampling the debris carried by ancient flood channels beneath the site"
+        }
       },
       "38": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "lining the surface with small stones collected from further afield, including prehistoric quarries"
+        }
       },
       "39": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a group of 10 people killing only one juvenile Diprotodon each year would be sufficient to bring about the extinction of that species within 1,000 years"
+        }
       },
       "40": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "our analysis revealed a number of inconsistencies"
+        }
       }
     },
     "sets": [
@@ -565,7 +670,10 @@
         "accepted": [
           "A",
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "They are reviving river bends and marshes to curb the flow"
+        }
       }
     ]
   }

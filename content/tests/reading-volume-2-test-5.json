@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 2, Test 5",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -383,17 +383,26 @@
       "1": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Straight away, he recognised it"
+        }
       },
       "2": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "bits of the skull, a chunk of jaw, a couple of vertebrae"
+        }
       },
       "3": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "immediately obvious that the skeleton was a significant find"
+        }
       },
       "4": {
         "accepted": [
@@ -403,137 +412,218 @@
       "5": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "feeling was that the skeleton was female due to its size"
+        }
       },
       "6": {
         "accepted": [
           "trees"
-        ]
+        ],
+        "evidence": {
+          "snippet": "evolved in the trees"
+        }
       },
       "7": {
         "accepted": [
           "ground"
-        ]
+        ],
+        "evidence": {
+          "snippet": "heading to the ground"
+        }
       },
       "8": {
         "accepted": [
           "teeth"
-        ]
+        ],
+        "evidence": {
+          "snippet": "trapped on preserved human teeth"
+        }
       },
       "9": {
         "accepted": [
           "fruit"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Instead of mostly eating fruit from trees"
+        }
       },
       "10": {
         "accepted": [
           "eggs"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Fossilised crocodile and turtle eggs were found near her"
+        }
       },
       "11": {
         "accepted": [
           "bones"
-        ]
+        ],
+        "evidence": {
+          "snippet": "uncovered animal bones with scratches"
+        }
       },
       "12": {
         "accepted": [
           "childhood"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Lucy's childhood was much briefer than ours"
+        }
       },
       "13": {
         "accepted": [
           "brains"
-        ]
+        ],
+        "evidence": {
+          "snippet": "their brains matured much earlier than ours do"
+        }
       },
       "14": {
         "accepted": [
           "pass rates"
-        ]
+        ],
+        "evidence": {
+          "snippet": "difference in pass rates between the sexes"
+        }
       },
       "15": {
         "accepted": [
           "decade"
-        ]
+        ],
+        "evidence": {
+          "snippet": "outperforming boys academically for more than a decade"
+        }
       },
       "16": {
         "accepted": [
           "australia"
-        ]
+        ],
+        "evidence": {
+          "snippet": "within Australia was the subject of much debate"
+        }
       },
       "17": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "provides a fine-grained picture of pupils' performance"
+        }
       },
       "18": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "working with a reference group on boys' education"
+        }
       },
       "19": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "shows up as early as preschool"
+        }
       },
       "20": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "New Zealand European girls most represented at the top and New Zealand Pacific Island boys at the bottom"
+        }
       },
       "21": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "resistance within the Education Ministry towards doing anything"
+        }
       },
       "22": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "isn't really a gender gap. But literacy is a different matter"
+        }
       },
       "23": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "written content of NCEA papers is more demanding"
+        }
       },
       "24": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "difference was, instead, to do with the quality of instruction"
+        }
       },
       "25": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "competitive instinct tends to come out later"
+        }
       },
       "26": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "easier in a boys' school, where activities cannot be 'captured by girls'"
+        }
       },
       "27": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "still not generally recognised even now, 400 years later"
+        }
       },
       "28": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "undermined the notion of humans as pre-eminently rational beings"
+        }
       },
       "29": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "rare for memories, which might be how we are able to separate them"
+        }
       },
       "30": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "perception of the present depends on rich"
+        }
       },
       "31": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "already knew about, having experienced them through touch"
+        }
       },
       "32": {
         "accepted": [
@@ -543,12 +633,18 @@
       "33": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "shut his eyes while skiing to block out what he now found was a terrifying sight"
+        }
       },
       "34": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "half the brain is occupied with seeing"
+        }
       },
       "35": {
         "accepted": [
@@ -558,27 +654,42 @@
       "36": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "even people with no visual impairment see what"
+        }
       },
       "37": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "back of the mask will be seen as convex"
+        }
       },
       "38": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "with the nose sticking out"
+        }
       },
       "39": {
         "accepted": [
-          "I"
-        ]
+          "A"
+        ],
+        "evidence": {
+          "snippet": "impossible to sketch the back of a hollow mask"
+        }
       },
       "40": {
         "accepted": [
           "J"
-        ]
+        ],
+        "evidence": {
+          "snippet": "expect to see, and often miss things as they really are"
+        }
       }
     },
     "sets": []

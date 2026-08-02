@@ -1,0 +1,589 @@
+{
+  "slug": "reading-volume-6-test-3",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 6, Test 3",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "The Growth of Agriculture",
+        "passageHtml": "<p>Some developments in Western agriculture from prehistory to the nineteenth century · Read the text and answer questions 1–13</p><p>Agriculture is the art and science of cultivating the soil, growing crops and raising livestock. It includes the preparation of plant and animal products for people to use and their distribution to markets.</p><p>Before agriculture became widespread, prehistoric people spent most of their lives as nomadic people searching for food, following animal migrations and gathering wild plants. Then about 11,500 years ago, people gradually learned how to cultivate plants for food use and settled down to a life based on farming. Scholars are unsure why this shift to farming took place, but it may have occurred because of climate change. The earliest crop was most likely to have been rice, corn, or similar types of cereals. At around the same time, people also began herding and breeding animals. Sheep and goats were probably domesticated first, followed by cattle and pigs. Eventually, people started keeping animals such as oxen for ploughing and transportation.</p><p>Agriculture enabled people to produce a surplus of food which could be eaten when crops failed or swapped for other goods. This exchange of goods was how trade began, and this in turn allowed people to work at other tasks unrelated to farming. Agriculture also kept formerly nomadic people near their fields and led to the establishment of permanent villages which became linked through trade. This development was so successful in some areas that cities emerged, and eventually civilisations arose. The earliest of these developed near the Tigris and Euphrates rivers in Mesopotamia – now Iraq – and along the River Nile in Egypt, eventually spreading to Europe, Asia and beyond. For thousands of years, agricultural development was very slow. Farmers cultivated small plots of land by hand, using axes to clear away trees and sticks to break up and till the soil. However, over time, improved farming tools of bone, stone, bronze, and iron were developed. Around 7,500 years ago, farmers in Mesopotamia developed simple irrigation systems. By channelling water from streams onto their fields, farmers were able to settle in areas once thought to be unsuited to agriculture. In Mesopotamia and later in Egypt, people organised themselves and worked together to build these irrigation systems. Then, as the Roman empire expanded, the Romans adapted the best agricultural methods of the people they conquered. They even wrote manuals about the farming techniques they observed in Africa, Asia, and Europe. By 2,000 years ago, much of the Earth's population was reliant on agriculture.</p><p>In medieval times, European farmers adapted an open-field system of planting in which one field would be planted in spring, another in autumn, and one would be left unplanted, or fallow. This system preserved nutrients in the soil, increasing crop production. Later, in the 15th and 16th centuries, explorers travelling to Africa, Asia and the Americas began to introduce new varieties of plants into Europe. From the Americas, for example, they brought back agricultural products such as potatoes, tomatoes, maize and beans, which eventually became staple crops and an integral part of the European diet.</p><p>A period of major agricultural development began in the early 1700s for Great Britain and northern Europe. One of the most important of these developments was the horse-drawn seed drill, invented in England by Jethro Tull. Until that time, farmers sowed seeds by hand. Tull's invention made rows of holes for the seeds and dropped them into the holes, thus greatly improving the speed and efficiency of the process. By the end of the 18th century, seed drilling was widely practiced in many countries across Europe.</p><p>Although new machines were being introduced, there were also several other important advances in farming methods. By selectively breeding their livestock – deliberately breeding animals with a certain combination of desirable qualities from chosen parent animals – farmers increased both the size of their herds and the productivity of their livestock. An early example of this is the Leicester sheep, an animal selectively bred in England for its quality meat and long, coarse wool. Then, in Austria in 1866, a monk and science teacher by the name of Gregor Mendel published his studies of heredity, which were the first to show how traits are passed from one generation of plants to the next. Mendel is widely recognised as the founder of the science of genetics, and his experiments paved the way for the selective breeding of plants and the improvement of crops through genetics.</p><p>Another major agricultural breakthrough came from the field of chemistry. For thousands of years, farmers had relied on natural fertiliser – materials such as animal or bird waste, wood ash, or ground bones – to replenish or increase nutrients in the soil. Then, in the early 1800s, scientists discovered which elements were most essential to plant growth: nitrogen, phosphorus, and potassium. This led to the manufacture of chemical fertilisers based on nitrates and phosphates, which greatly increased crop yields. With the population of Europe doubling during the 1800s – from around 200 million at the beginning of the century to around 400 million mouths to feed at its end – farming had finally become big business.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–7</h3>Complete the notes below. Choose <strong>ONE WORD AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Farming in the ancient world</div><div><p>Prehistoric times – people collected wild plants, and {{1}} to get meat</p><ul><li>11,500 years ago – people began growing crops, probably {{2}}, e.g. rice or corn – people started to domesticate various types of animals</li><li>Creation of a {{3}} led to the exchange of goods and the beginnings of trade, which resulted in the emergence of cities and the growth of {{4}}</li><li>Farmers gradually began using better {{5}} made from different materials</li><li>Systems of providing a supply of {{6}} were invented in Mesopotamia</li><li>{{7}} years ago, a large proportion of people worldwide had become dependent on farming</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 8–13</h3>Do the following statements agree with the information given in Reading Passage 1? In boxes 8–13, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 8,
+                "textHtml": "The Romans adapted their own farming methods for use in Africa and Asia."
+              },
+              {
+                "number": 9,
+                "textHtml": "The medieval open-field system increased food production by allowing European farmers to have crops growing continually in all their fields."
+              },
+              {
+                "number": 10,
+                "textHtml": "European eating habits changed as a result of international exploration in the 15th and 16th centuries."
+              },
+              {
+                "number": 11,
+                "textHtml": "During the 18th century many European countries created their own versions of the seed drill."
+              },
+              {
+                "number": 12,
+                "textHtml": "Selective breeding methods helped European farmers to produce more animals."
+              },
+              {
+                "number": 13,
+                "textHtml": "Many farmers continued to use natural methods of fertilising their land, even after the development of chemical fertilisers."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "The Aerofoil",
+        "passageHtml": "<p>The shape of an aeroplane's wing plays a key role in the achievement of flight · Read the text and answer questions 14–26</p><p><strong>A</strong></p><p>The magic of flight lies in the interaction between the wings of a plane and the air. If the shape of the wing – the aerofoil – is right and the plane is moving fast enough, the wing is pushed into the air as it slices through it. It seems like magic because our all-too-literal brains tell us that because air is invisible it must be insubstantial too. But air is not nothing; air is a substance completely comprised of gases. If you think of a wing slicing through water rather than air, you can begin to imagine how air might provide the upward push that aeronautical scientists call lift. The key to the aerofoil is the flow of air around it. Air flows around an aerofoil because the aerofoil is moving. Just as the bow of a boat creates a flow in still water, what matters is the way the curved shape of the aerofoil diverts the flow around it.</p><p><strong>B</strong></p><p>To really see why, it is worth carrying out an experiment with knives and spoons under a running tap. Hold the blade of a knife vertically in a stream of water and the water flows straight and undisturbed past the blade. Twist the blade slightly at an angle to the stream and you can see how it begins to block and split the flow, breaking it into turbulent eddies – and you may see the turbulence increase as you increase the angle of the knife. Hold the convex side of a spoon under the stream instead, however, and something different happens. The spoon diverts the water but does not disrupt it. You have to twist the spoon at a much steeper angle before it disrupts the flow. Like the curvature of the spoon, the curvature of the aerofoil ensures the flow of the air around it is diverted but not broken up.</p><p><strong>C</strong></p><p>The curvature of the spoon, like that of the aerofoil, is crucial. Far above or below the aerofoil the airflow is undisturbed, but the closer the air is to the aerofoil the more the flow is bent to follow the aerofoil's shape. As the air changes direction, it begins to push in a different direction too, and the more it bends, the greater the change. Right on top and underneath the aerofoil, the airflow is turned effectively at right angles, pushing the aerofoil upwards and creating lift. Since it is the way that the airflow is distorted that creates lift, it is evident that the pattern of the airflow distortion is critical. This depends on the angle that the aerofoil moves through the air – its angle of attack. The steeper the angle, the greater the lift.</p><p><strong>D</strong></p><p>The overall shape of the aerofoil is also crucial. Hang-gliders and microlights have a gentle, thin curve to their wings, and birds' wings bend into a similar shape, which gives excellent lift for a light aircraft or a bird. But it is hard to make a wing of this shape strong enough for a large aircraft. So, to support their far greater weight, the wings of most large planes are, in profile, the shape of a narrow teardrop, which is why the wings have to be so huge to still generate enough lift. This shape does not waste the extra room, however: the fuel needed to power a flight is stored inside each wing. At the ends of the wings are flaps, which can be swung up or down to alter the aerofoil's curvature and its effective angle of attack, and so allow the aircraft to climb or descend.</p><p><strong>E</strong></p><p>Of course the wings of birds were the original inspiration for the aerofoil. Countless thinkers in the distant past must have marvelled at birds gliding through the sky and guessed that they were held aloft by their outstretched wings. And perhaps it was the early Greek philosophers who were said to have built a mechanical bird that flew. Brave pioneers like the 9th-century Cordoban inventor, Abbas Ibn-Firnas, were even bold enough to strap artificial wings to their arms and leap from high places. Ibn-Firnas was lucky enough to glide through the air for ten minutes before crash-landing and almost breaking his neck.</p><p><strong>F</strong></p><p>Yet the first person who really began to explore the shape of wings methodically was the British engineer Sir George Cayley (1773–1857), and it is to Cayley that we owe the idea of the curved aerofoil. Cayley was an extraordinary and inventive man, and he is credited with developing self-righting lifeboats, wire-spoked wheels, seatbelts and even an internal combustion engine. But it is mostly as the father of aviation that he is remembered, and it is he who pioneered much of the theory of flight. He carried out numerous experiments to establish what shapes and angles produced the greatest lift. In his analyses, he developed the names of the key forces involved in flight – lift, drag and thrust – which still play an important role today. Flight involves a balance between these four forces, but for a successful aeroplane you need both power and control, which is why it took another half-century before Orville and Wilbur Wright made their historic flight at Kittyhawk in the USA on 17th December 1903.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–19</h3>Reading Passage 2 has six paragraphs, <strong>A–F</strong>. Choose the correct heading for each paragraph from the list of headings below. Write the correct number, <strong>i–vii</strong>, in boxes 14–19 on your answer sheet.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "The earliest attempts to achieve human flight"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Public reaction to the pioneers of flight"
+              },
+              {
+                "letter": "C",
+                "textHtml": "A practical demonstration of an aeronautical principle"
+              },
+              {
+                "letter": "D",
+                "textHtml": "The importance of angles in achieving lift"
+              },
+              {
+                "letter": "E",
+                "textHtml": "A misunderstanding about the nature of air"
+              },
+              {
+                "letter": "F",
+                "textHtml": "The discovery of several key factors affecting wing design"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Additional wing features that help control flight"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 20–24</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>Designing aeroplane wings</strong></p><p>Hang-gliders, microlights, small planes and birds share the same wing shape – a curve which provides the maximum amount of {{20}}. But while these wings can support an individual person, they cannot support the weight of a huge aircraft. In fact, the enormous wings of a modern plane look like a thin {{21}} when viewed from the side. Space is not wasted because the {{22}} needed to power a flight is kept inside each wing. The pilot can adjust the {{23}} which are located at the {{24}} of the wings. This changes the aerofoil's curvature as well as the angle of attack and causes the plane to rise or descend.</p></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 25–26</h3>Choose <strong>TWO LETTERS, A–E</strong>. Which <strong>TWO</strong> things does the writer state about George Cayley?",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; He made a lot of money from his inventions"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; He understood how to design aeroplane engines 50 years before Orville and Wilbur Wright"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; His studies included how to achieve the maximum lift"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; He worked closely with other scientists"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "E&nbsp; He reached his conclusions by conducting a series of tests"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Looking for Inspiration",
+        "passageHtml": "<p>Helen Phillips asks what makes one person more creative than another · Read the text and answer questions 27–40</p><p>People have speculated about their own creativity for centuries – perhaps ever since we became able to think about thinking. Whatever creativity is, it is thinking at its highest level; creativity is a way of coming up with new ideas and new ways of doing things. The only bit of the creative process we actually know about is the moment of insight, yet creative ideas and projects may incubate beyond our awareness for months. Not surprising, then, that creativity has long eluded scientific study.</p><p>In the early 1900s, it was still seen as a type of intelligence. But when more subtle tests of IQ and creative skills were developed in the 1970s, particularly by the father of creative testing, Paul Torrance, it became clear that the link was not so simple. Creative people are intelligent, in terms of IQ tests at least, but only averagely or just above. While it depends on the discipline, in general, having beyond a certain level of IQ does not help boost creativity.</p><p>Because of the difficulty of studying the actual process, most early attempts to study creativity concentrated on personality. According to creativity specialist Mark Runco at California State University, the creative personality tends to place a high value on aesthetic qualities and have broad interests, providing lots of resources to draw on and knowledge to recombine into novel solutions. 'Creatives have an attraction to complexity and an ability to handle conflict. They are also highly self-motivated, perhaps even a little obsessive, when it comes to realising their ambitions.'</p><p>But there may be a price to pay for having a creative personality. For centuries, a link has been made between creativity and mental illness. Psychiatrist and author Kay Redfield Jamison of Johns Hopkins University, who herself has bipolar disorder, found that established artists are significantly more likely to have mood disorders. But she also suggests that a switch of mood state might be the key to triggering a creative event, rather than the negative mood itself.</p><p>Jordan Peterson, a psychologist at the University of Toronto, has carried out work that suggests that the brains of creative people are more open to incoming stimuli than less creative types. Our senses are continually feeding a mass of data into our brains, which have to block most of it to save us from being snowed under. Peterson calls this process latent inhibition and argues that people who have less of it, and who have a reasonably high IQ, can juggle more of the data, and so may be open to more ideas.</p><p>But what of the creative act itself? One of the first studies of the creative brain at work was by Colin Martindale, a psychologist from the University of Maine. Back in 1978, he used a network of scalp electrodes to record the pattern of brain waves as people made up stories. Creativity, he showed, has two stages: inspiration and elaboration, each characterized by very different states of mind. While people were dreaming up their stories, he found their brains were surprisingly quiet. The dominant activity was alpha waves, which is the same sort of brain activity as in some stages of dreaming or rest. This could explain why sleep and relaxation can help people be creative.</p><p>However, when these quiet-minded people were asked to work on their stories, the alpha wave activity dropped off and the brain became busier, revealing increased cortical arousal, and more organised thinking. Strikingly, it was the people who showed the biggest difference in brain activity between the two stages who produced the most creative storylines. Nothing in their background brain activity marked them as creative or uncreative. 'It's as if the less creative person can't move up a gear,' says Guy Claxton, a psychologist at the University of Bristol. 'Creativity requires different kinds of thinking. Very creative people move between these states intuitively.'</p><p>Researchers are now trying to identify some of the specific anatomy of creativity. Brain studies of people with particular types of creative skill show, perhaps not surprisingly, that active areas are determined by the specialist knowledge being used. Imagery, spatial awareness, language and so on – whatever the skill, it is limited to some extent to a particular brain part or parts. But it's not just these specialist areas that are active. Using information creatively needs coordination. 'Creative synthesis requires a new pattern, to put the brain in a state where many areas are simultaneously active,' says Claxton. When we concentrate in a less creative way, such as when reading the gas bill, there are fewer active centres and less synthesis.</p><p>But to be truly creative needs more than just the right personality and the right brain areas and networks. It's about using them efficiently. Skills, situations and resources we are born with shape our creativity just as dramatically as the way we manage our own daily rhythms. Creative people often organise their time carefully, using the mornings, the evenings, the weekends and the holidays to help alter focus and brain state. They may spend two hours at their desk, then go for a walk, because they know that pattern works for them.</p><p>Another often forgotten aspect of creativity is social. Vera John-Steiner of the University of New Mexico says that to be really creative you need strong social networks and trusting relationships, not just active neural networks. One vital characteristic of a 'creative', she says, is that they have at least one other person in their life who doesn't think they are completely mad!</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 27–32</h3>Look at the following statements (Questions 27–32) and the list of people below. Match each statement with the correct person, <strong>A–G</strong>.<strong>NB</strong>&nbsp; You may use any letter more than once.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Paul Torrance"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Mark Runco"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Kay Redfield Jamison"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Jordan Peterson"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Colin Martindale"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Guy Claxton"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Vera John-Steiner"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Creative people are receptive to the immense amounts of information that the brain has to deal with."
+              },
+              {
+                "number": 28,
+                "textHtml": "Creativity requires numerous parts of the brain to be active at the same time."
+              },
+              {
+                "number": 29,
+                "textHtml": "Creative people engage in, and are well informed about, a wide range of subjects."
+              },
+              {
+                "number": 30,
+                "textHtml": "Creative people may have unstable personalities."
+              },
+              {
+                "number": 31,
+                "textHtml": "Creative people are driven to achieve the goals they set themselves."
+              },
+              {
+                "number": 32,
+                "textHtml": "Creative people need support from others."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 33–36</h3>Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p>Colin Martindale carried out research into the creative brain at work. For his study, volunteers had a series of {{33}} placed on their heads which were used to monitor brain activity while they made up stories. Martindale demonstrated that creativity consisted of {{34}} and elaboration phases. In the first of these, the brain was mostly inactive except for {{35}}, and this corresponds to what takes place during dreaming or relaxation. In the second phase, when the volunteers worked on their stories, however, their brains became a lot busier. Interestingly, the most creative stories were produced by those volunteers with the greatest {{36}} in brain activity between the two phases.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 37–40</h3>Do the following statements agree with the information given in Reading Passage 3? In boxes 37–40, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "People with very high IQs are more likely to be creative than those with average IQs."
+              },
+              {
+                "number": 38,
+                "textHtml": "Society tends to value aesthetic skills highly."
+              },
+              {
+                "number": 39,
+                "textHtml": "There can be disadvantages to having a creative personality."
+              },
+              {
+                "number": 40,
+                "textHtml": "Language skills are more important than spatial awareness in any form of creativity."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "following"
+        ],
+        "evidence": {
+          "snippet": "following animal migrations and gathering wild plants"
+        }
+      },
+      "2": {
+        "accepted": [
+          "cereals"
+        ],
+        "evidence": {
+          "snippet": "The earliest crop was most likely to have been rice, corn, or similar types of cereals"
+        }
+      },
+      "3": {
+        "accepted": [
+          "surplus"
+        ],
+        "evidence": {
+          "snippet": "enabled people to produce a surplus of food"
+        }
+      },
+      "4": {
+        "accepted": [
+          "civilizations"
+        ],
+        "evidence": {
+          "snippet": "cities emerged, and eventually civilisations arose"
+        }
+      },
+      "5": {
+        "accepted": [
+          "tools"
+        ],
+        "evidence": {
+          "snippet": "improved farming tools of bone, stone, bronze, and iron were developed"
+        }
+      },
+      "6": {
+        "accepted": [
+          "water"
+        ],
+        "evidence": {
+          "snippet": "farmers in Mesopotamia developed simple irrigation systems"
+        }
+      },
+      "7": {
+        "accepted": [
+          "2000"
+        ],
+        "evidence": {
+          "snippet": "By 2,000 years ago, much of the Earth's population was reliant on agriculture"
+        }
+      },
+      "8": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "the Romans adapted the best agricultural methods of the people they conquered"
+        }
+      },
+      "9": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "one field would be planted in spring, another in autumn, and one would be left unplanted, or fallow"
+        }
+      },
+      "10": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "which eventually became staple crops and an integral part of the European diet"
+        }
+      },
+      "11": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "By the end of the 18th century, seed drilling was widely practiced in many countries"
+        }
+      },
+      "12": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "farmers increased both the size of their herds and the productivity of their livestock"
+        }
+      },
+      "13": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "scientists discovered which elements were most essential to plant growth"
+        }
+      },
+      "14": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "because air is invisible it must be insubstantial too"
+        }
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "it is worth carrying out an experiment with knives and spoons under a running tap"
+        }
+      },
+      "16": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "The steeper the angle, the greater the lift"
+        }
+      },
+      "17": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "At the ends of the wings are flaps"
+        }
+      },
+      "18": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "the wings of birds were the original inspiration for the aerofoil"
+        }
+      },
+      "19": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "he is credited with developing self-righting lifeboats"
+        }
+      },
+      "20": {
+        "accepted": [
+          "lift"
+        ],
+        "evidence": {
+          "snippet": "which gives excellent lift for a light aircraft or a bird"
+        }
+      },
+      "21": {
+        "accepted": [
+          "teardrop"
+        ],
+        "evidence": {
+          "snippet": "the shape of a narrow teardrop"
+        }
+      },
+      "22": {
+        "accepted": [
+          "fuel"
+        ],
+        "evidence": {
+          "snippet": "the fuel needed to power a flight is stored inside each wing"
+        }
+      },
+      "23": {
+        "accepted": [
+          "flaps"
+        ],
+        "evidence": {
+          "snippet": "At the ends of the wings are flaps"
+        }
+      },
+      "24": {
+        "accepted": [
+          "ends"
+        ],
+        "evidence": {
+          "snippet": "At the ends of the wings are flaps"
+        }
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "the brains of creative people are more open to incoming stimuli"
+        }
+      },
+      "28": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "Creative synthesis requires a new pattern, to put the brain in a state where many areas are simultaneously active"
+        }
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "have broad interests, providing lots of resources to draw on"
+        }
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "found that established artists are significantly more likely to have mood disorders"
+        }
+      },
+      "31": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "highly self-motivated, perhaps even a little obsessive, when it comes to realising their ambitions"
+        }
+      },
+      "32": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "you need strong social networks and trusting relationships"
+        }
+      },
+      "33": {
+        "accepted": [
+          "electrodes"
+        ],
+        "evidence": {
+          "snippet": "he used a network of scalp electrodes"
+        }
+      },
+      "34": {
+        "accepted": [
+          "inspiration",
+          "elaboration"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "alpha waves"
+        ],
+        "evidence": {
+          "snippet": "The dominant activity was alpha waves"
+        }
+      },
+      "36": {
+        "accepted": [
+          "difference"
+        ],
+        "evidence": {
+          "snippet": "the biggest difference in brain activity between the two stages"
+        }
+      },
+      "37": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "having beyond a certain level of IQ does not help boost creativity"
+        }
+      },
+      "38": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "there may be a price to pay for having a creative personality"
+        }
+      },
+      "40": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "whatever the skill, it is limited to some extent to a particular brain part"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          25,
+          26
+        ],
+        "accepted": [
+          "C",
+          "E"
+        ]
+      }
+    ]
+  }
+}

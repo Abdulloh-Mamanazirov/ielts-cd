@@ -1,0 +1,711 @@
+{
+  "slug": "reading-volume-6-test-2",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 6, Test 2",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "The World's First Cities",
+        "passageHtml": "<p>The creation of Mesopotamian cities · Read the text and answer questions 1–13</p><p>The inhabitants of Mesopotamia – which now forms part of eastern Syria, southeastern Turkey and Iraq – lived for thousands of years on individual farms and in small, isolated communities, working relentlessly just to meet their basic needs. But then, about 6,000 years ago, something remarkable happened. The people left the security of their family homes and villages and came together with others to create something far more complex and difficult: the world's first city, called Uruk.</p><p>There is not much left now of Uruk, which is about 250 kilometres south of Iraq's capital Baghdad, but enough does remain to show that this initial experiment in urban living was extraordinarily successful. At its height, around 5,000 years ago, Uruk was home to more than 40,000 people. The outlines of the city walls indicate an enclosed area of about 600 hectares.</p><p>The archaeological record of Uruk reveals the intensive building and rebuilding which went on for four or five centuries after the city's initial establishment. In that period the people of Uruk built a dozen or so large public buildings. They would carefully level what had stood before, and then build another structure on top, often trying out a different building material or an innovative technique. They seemed to be searching for ways in which architecture could express the revolutionary new social structures that had come into being there.</p><p>Soon Uruk was not the only Mesopotamian city. People all across the flat plains of southern Mesopotamia were enjoying many of the benefits of city life. By about 4,500 years ago, 80 per cent of the Mesopotamian population lived in cities over 40 hectares in size, with populations of between 15,000 and 30,000 people. The emergence of these thriving communities, made up mostly of individuals and groups with no blood ties, was unprecedented in human history. Why did these extraordinary advances happen?</p><p>Reasons for the creation of cities in Mesopotamia</p><p>Smaller communities in Mesopotamia sometimes decided to come together to make it easier to defend themselves from their enemies. But the underlying reason for the creation of cities can be found in the harshness of this particular environment. The area was a place of extremes, where narrow strips of fertile river valleys were bounded by thousands of kilometres of desert and unproductive wetlands. As the small amount of rainfall in the region was incapable of sustaining anything but very limited agriculture, it was only through sophisticated irrigation that isolated pieces of land were kept fertile. The Tigris and the Euphrates rivers provided water for irrigation, and were also the basis of a communication system that led to the spread of the latest concepts in farming.</p><p>In such a region, the only way for humans to prosper was by forming groups that could work together. The threat of famine, which could be caused by a prolonged drought or the sudden change in the course of a river, forced people to look outside their families, and work with their neighbours to create an elaborate system of dams, channels and canals to manage water. These projects needed specific skills and labour from outside the farmer's family, and this established more firmly the patterns of dependence that are at the heart of civilisation.</p><p>Changes in the organisation of farming</p><p>The intensive farming that came about in Mesopotamia was more efficient and productive and therefore generated a surplus of food, allowing crops in years of good harvests to be stored as protection against future less successful years. It also allowed more land for the production of a wider range of crops. It created a world where there was a need for traders and for skilled craftsmen: in short, it was the beginning of industry and consumerism. The concept of specialisation emerged within the population with increasing numbers of soldiers, builders, musicians, doctors, fortune tellers all supported directly or indirectly by agriculture. At the same time, this increased the control that powerful institutions, gradually emerging in the early cities, had over the urban population. Although large numbers of people were freed from the struggle of subsistence farming, they were now totally dependent on the institutions that employed them for their daily sustenance.</p><p>The role of the temples</p><p>The earliest and most powerful of these institutions was centred on the religious temple. Ever more temple structures were erected in the form of massive pyramids which had enormous storerooms for the output from the farming estates. Over time, the temples acquired these farms for themselves, and appointed a large number of staff to administer them and to deal with the storage of produce. The temples' greatest advantage was that each citizen was expected to give up some time to work for the temples. This meant that temples could easily store huge amounts of agricultural produce which could be used to buy yet more land. In addition, the revenues generated allowed the temples to serve as primitive kinds of banks, making loans to people in difficult economic times.</p><p>The emergence of writing</p><p>We know a surprising amount about these times thanks to the development of an important new technology: writing. In Mesopotamia basic records were inscribed in wet clay, unlike the fragile papyrus used in ancient Egypt and Greece. These first writings were largely lists of people and things, simple bookkeeping. But within several hundred years, writing systems had become more advanced, capable of recording concepts as well as lists. The clay tablets used for writing were tough, and the fires that often burnt down the archives where they were stored usually merely baked them for future generations.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–6</h3>Do the following statements agree with the information given in Reading Passage 1? In boxes 1–6, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Some physical evidence of Uruk still exists in Iraq."
+              },
+              {
+                "number": 2,
+                "textHtml": "The people of Uruk lived in large apartment buildings."
+              },
+              {
+                "number": 3,
+                "textHtml": "Builders in Uruk frequently experimented with new construction methods."
+              },
+              {
+                "number": 4,
+                "textHtml": "Urban settlements were unusual in Mesopotamia 4,500 years ago."
+              },
+              {
+                "number": 5,
+                "textHtml": "The Tigris and the Euphrates rivers were important for the interchange of ideas."
+              },
+              {
+                "number": 6,
+                "textHtml": "When there were food shortages, farmers relied mainly on the help of their relatives."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 7–13</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Early changes in Mesopotamia</div><div> Changes in organisation of farming <p>Improved agricultural methods led to:</p><ul><li>a food {{7}} being used as insurance</li><li>a wider range of crops being grown</li><li>the development of industry and consumerism</li><li>increased specialisation amongst workers</li><li>greater control by institutions</li></ul> Temples <ul><li>were built in the shape of large {{8}}</li><li>had large {{9}} where produce was kept</li><li>many needed {{10}} to manage the farms</li><li>acted as {{11}} in hard economic periods</li></ul> The development of writing <ul><li>people wrote on surfaces made of {{12}}</li><li>written records remained undamaged after {{13}} in archives they were kept in</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Australia's Camouflaged Creatures",
+        "passageHtml": "<p>Many species of animal in Australia protect themselves by using camouflage – a way of 'hiding' by blending into the surroundings · Read the text and answer questions 14–26</p><p><strong>A</strong>&nbsp; Most species use camouflage to some extent. If they are convincing, they survive to pass their genes on to future generations. After generations of natural selection, animals can develop astonishingly complex camouflage techniques, manipulating shape, colour and movement. 'The principle of camouflage is to make it economically unviable for a predator to pursue a particular species of prey,' explains Professor Mark Elgar, of the University of Melbourne. 'Camouflage increases the search time and, as a consequence, the predator will simply target another species, either because it doesn't see the camouflaged individual or it just finds something more obvious to do.'</p><p><strong>B</strong>&nbsp; The easiest way for an animal to disguise itself is to be invisible in its surroundings; to that end, stick and leaf insects have evolved complex camouflage to hide themselves from predators. Many have the texture of sticks or dry leaves, while others imitate living foliage, even the veins in a leaf. Some insects develop blemishes to match the spots caused by disease. A convincing appearance only works if its owner also acts the part, so during the day the creature using this type of camouflage keeps motionless, or sways like a dead leaf in the breeze. If disturbed, it falls to the ground and stays still. Entomologist Paul Zborowski, who has spent decades photographing inconspicuous creatures, rates the desert insects of Central Australia as the most convincingly disguised creatures he's seen. 'It's an incredibly old habitat so the creatures have had a long time to adapt,' Zborowski explains. Most of them behave like stones and don't move all day, feeding only at night.</p><p><strong>C</strong>&nbsp; A tawny frogmouth sitting motionless on a stump also illustrates the importance of pairing a persuasive costume with behaviour. Professor Gisela Kaplan of the University of New England, in Australia, says the frogmouth's skill at camouflaging is learned behaviour. While adopting a pose may be a reflex of the bird, and can be observed in a hatchling's first week, the ability to choose a backdrop which matches its colouration does not develop for 4–6 months. When the chicks land they are usually highly conspicuous, and their parents try to signal to them to move to a safe location.</p><p><strong>D</strong>&nbsp; Fixed camouflage is only good against a relatively unchanging environment, so some animals, such as the cuttlefish, have evolved an adaptable disguise. The cuttlefish can almost instantly change its colour, pattern and texture to match its surroundings, using specialised cells and muscles. On Queensland's reefs, scientists have been studying another ocean dweller that uses colour change, although not to blend into the surroundings. Dr Karen Cheney, from the University of Queensland, says the bluestriped fangblenny alters its colouration to mimic other species of fish, allowing it to travel with them and benefit from safety in numbers.</p><p>Its most impressive impersonation is of the black-with-neon-blue striped cleaner wrasse, which eats the parasites on larger fish. Not only does the fangblenny benefit from the reduced predation that comes with the wrasse's beneficial relationships with other fish, but the disguise also lets it get closer to prey. It darts out from the safety of the wrasse's cleaning station to nip at unsuspecting fish passing by, but doesn't attack those coming to be cleaned.</p><p><strong>E</strong>&nbsp; The most famous form of mimicry, however, is for defence, not attack. Batesian mimicry refers to animals that gain protection from predators by imitating a dangerous organism, often using conspicuous colours. The nineteenth-century naturalist Henry Bates first suggested this camouflage technique after noticing that several Amazonian butterfly species looked the same. The technique was later named after him.</p><p>In Australian waters, the harmless harlequin snake eel sports the same black and white bandings as the highly toxic, yellow-lipped sea krait, ensuring no predator will attack. However, the success of Batesian mimicry depends on the ratio of mimics to originals. 'If a predator encounters too many that are edible, it will just assume none of the animals with those markings are dangerous,' explains Martyn Robinson, an educational naturalist with the Australian Museum.</p><p><strong>F</strong>&nbsp; An imitation of a more dangerous creature needn't be exact, just enough to make potential predators hesitate. The hawk moth caterpillar has markings resembling a snake's eyes on its abdomen. When confronted, the caterpillar pulls its head in and the 'eyes' flash open. Whether the potential predator thinks it has seen a snake, or is simply startled is unclear, but the outcome is that the caterpillar lives to see another day.</p><p><strong>G</strong>&nbsp; In Queensland's tablelands, the chameleon gecko has another way of making predators hesitate. Its body is brown, but its tail is banded in black and white. Robinson explains that if attacked, the chameleon gecko will drop off its tail, which will wriggle around on the ground. Many lizards do this, but in the case of the chameleon gecko the tail bones actually rub against one another, so it squeaks. 'The predator is, of course, thoroughly absorbed by this black-and-white-striped, wriggling, squeaking thing on the ground, and the gecko can sneak away,' Robinson says. 'It's a one-time-only trick: the regrown tail is brown, the same as the gecko's body.' Such precise disguise and elaborate trickery illustrate the limitless possibilities of nature. But, as Robinson points out, only the most successful illusionists are here to tell the tale.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–18</h3>Reading Passage 2 has seven sections, <strong>A–G</strong>. Which section contains the following information? Write the correct letter, <strong>A–G</strong>, in boxes 14–18 on your answer sheet.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "a species that indicates to its young to move to a place where they are less visible"
+              },
+              {
+                "number": 15,
+                "textHtml": "an instance where sound is used to help an animal escape"
+              },
+              {
+                "number": 16,
+                "textHtml": "a creature that can use camouflage to match a range of different backgrounds"
+              },
+              {
+                "number": 17,
+                "textHtml": "a claim that the majority of animals disguise themselves in some way"
+              },
+              {
+                "number": 18,
+                "textHtml": "examples of animals that use camouflage to look like plants"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 19–23</h3>Look at the following statements (Questions 19–23) and the list of people below. Match each statement with the correct person, <strong>A–F</strong>.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Professor Mark Elgar"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Paul Zborowski"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Professor Gisela Kaplan"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Dr Karen Cheney"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Henry Bates"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Martyn Robinson"
+              }
+            ],
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "One species has a camouflage tactic that is not present from birth."
+              },
+              {
+                "number": 20,
+                "textHtml": "Species that live in an ancient environment have become very effective at camouflaging themselves."
+              },
+              {
+                "number": 21,
+                "textHtml": "Part of an animal is left behind to distract predators."
+              },
+              {
+                "number": 22,
+                "textHtml": "If it takes too long to find one kind of prey, animals will look for an alternative source of food."
+              },
+              {
+                "number": 23,
+                "textHtml": "Camouflage can involve copying a threatening type of animal."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 24–26</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>The bluestriped fangblenny</strong></p><p>Dr Karen Cheney studies the bluestriped fangblenny on {{24}} off Queensland's coast. She found that the fangblenny was able to make itself resemble other fish by adjusting its colouration. The fangblenny impersonates the striped cleaner wrasse, a fish that is welcomed by other species as it gets rid of their {{25}}. The fangblenny can approach its {{26}} without drawing the attention of predators or disturbing the work of the striped cleaner.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "The Effectiveness of an Online Course",
+        "passageHtml": "<p>Read the text and answer questions 27–40</p><p>As access to the internet has continued to grow, web-based learning has continued to expand. With approximately half of the households in the United States (or 150 million people) connected to the Internet, an estimated 2 million students are taking post-secondary courses that are fully delivered online. Millions of other students at all educational levels (primary, secondary, post-secondary) participate in online courses. However, the effectiveness of online courses, particularly in relation to individual student needs, perceptions, and student outcomes, is sometimes questioned.</p><p>Common elements for learning in a typical classroom environment are the social and communicative interactions between student and teacher, and student and student. The ability to ask a question, to share an opinion with a fellow student, or to disagree with the point of view in a reading assignment are all fundamental learning activities. However, effective web-based learning requires adjustments on the part of students and teachers for successful interactions to occur. Many online courses provide students and faculty, and students and students, with the ability to interact with each other via an electronic bulletin or discussion board.</p><p>While most studies show a link between interaction and satisfaction in web-based courses, some observers have cautioned that this is not always the case. Ruberg, Taylor and Moore, for example, observe that in order to interact successfully, students must adjust to the nonlinear nature of web-based learning. Web-based learning sessions can have multiple threads with several discussions and interactions progressing simultaneously. Students respond to a teacher but also to other students, depending on the interest and points of view.</p><p>Sproull and Kiesler caution about discussions based on misinformation that continue because an instructor cannot necessarily immediately correct or clarify a comment. As a result, students need to have the experience and knowledge base to sift through the discussion for misinformation. In online learning, the amount of student interaction and the number of comments can easily lead to what is described as information overload. Furthermore, comments in online discussions tend to be lengthier than in face-to-face situations. With more information from many sources, students need to be more attentive to both the who and what of a discussion. Herbert Simon, an economist, cautions that 'a wealth of information creates a poverty of attention.'</p><p>In examinations of interaction, the concept of 'presence', or a sense of being in a place and belonging to a group, has received attention. It is generally assumed that when a student is physically present in a face-to-face course, he or she has a sense of belonging to the class or group enrolled in the course, and this sense of belonging is greater than that experienced in an online course. He or she listens to and may choose to raise a hand to comment, answer or ask a question. Furthermore, this same student may develop a relationship with other students in the class during a break. However, this is an assumption and not always true. For various reasons, some students can also feel alienated in a face-to-face class and not feel part of a group.</p><p>The idea of presence has been redefined in relation to an online course. The simplest definition of presence for an online course refers to a student's sense of being registered and belonging in a course, and the ability to interact with other students and an instructor even though physical contact is not available. However, as this concept is studied, the definition is expanding and being refined to include telepresence, cognitive presence, social presence, teaching presence, and other forms of presence. The term 'community' is related to presence, and refers to a group of individuals who belong to a social unit, such as students in a class. In an online course, however, terms such as communities of inquiry, communities of learners, and knowledge-building communities have evolved.</p><p>As the definition of presence has expanded and evolved, a distinction has been made between interaction and presence, emphasizing that they are not the same. Interaction may indicate presence, but it is also possible for a student to interact by posting a message on an electronic bulletin board, while not necessarily feeling that he or she is part of a group or a class.</p><p>A study conducted by Professor Anthony Picciano used questionnaires to determine students' attitudes in relation to their interactions and sense of purpose in online courses. An attempt was made to go beyond student perceptions to include performance and perceptions of social presence, as well as actual participation in class activities. In addition, data was collected on performance measures that related specifically to course objectives. While much of the research, including this study, supports the strong relationship between students' perception of interaction and perceived learning, the results of the study indicated that the relationship of actual measures of interaction and performance is mixed.</p><p>The success of many online courses is dependent upon the nature of student-to-student and student-to-faculty interaction. However, how interaction affects learning outcomes, and what the relationship between the two is, is in need of further study.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–31</h3>Choose the correct letter, <strong>A, B, C or D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Which of the following is mentioned in the article in relation to classroom-based learning?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; the development of academic skills"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; the documenting of information"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; the completion of assignments"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; the exchange of ideas"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "Ruberg, Taylor and Moore point out that web-based learning requires learners to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; think sequentially"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; research different points of view"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; limit their responses to other students"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; follow more than one discussion at a time"
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "What problem did Sproull and Kiesler identify with online discussions?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; Online discussions demand less attention than face-to-face ones."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; Teachers have difficulty monitoring the length of comments."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; Face-to-face interactions between students are lost."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; There is a delay in giving feedback to students."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "The writer refers to the concept of online presence as",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; listening to a discussion"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; a feeling of being part of a group"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; posting ideas on an electronic bulletin board"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; having a good relationship with other students"
+                  }
+                ]
+              },
+              {
+                "number": 31,
+                "textHtml": "What was a focus of Anthony Picciano's study?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; to examine the relationship between presence and course outcomes"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; to analyse the differences between online and class-based courses"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; to examine the importance of being present in a classroom"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; to demonstrate that online courses are not generally effective"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 32–36</h3>Do the following statements agree with the claims of the writer in Reading Passage 3? In boxes 32–36, write<strong>YES</strong>&nbsp; if the statement agrees with the claims of the writer<br><strong>NO</strong>&nbsp; if the statement contradicts the claims of the writer<br><strong>NOT GIVEN</strong>&nbsp; if it is impossible to say what the writer thinks about this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 32,
+                "textHtml": "The ability of online courses to meet an individual participant's needs is unclear."
+              },
+              {
+                "number": 33,
+                "textHtml": "Researchers caution against building strong online relationships."
+              },
+              {
+                "number": 34,
+                "textHtml": "Common assumptions about the benefits of face-to-face courses have proved to be correct."
+              },
+              {
+                "number": 35,
+                "textHtml": "The meaning of presence is still being clarified."
+              },
+              {
+                "number": 36,
+                "textHtml": "Research on the impacts of interaction on learning outcomes has produced consistent results."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 37–40</h3>Complete each sentence with the correct ending, <strong>A–F</strong>, below.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "is dependent on adapting to unfamiliar interaction formats."
+              },
+              {
+                "letter": "B",
+                "textHtml": "is key in determining whether a student has a sense of belonging in a course."
+              },
+              {
+                "letter": "C",
+                "textHtml": "is a subject that the writer believes will require more study."
+              },
+              {
+                "letter": "D",
+                "textHtml": "is essential to excel in study and scholarship."
+              },
+              {
+                "letter": "E",
+                "textHtml": "is key in determining whether a student feels they have learned something from a course."
+              },
+              {
+                "letter": "F",
+                "textHtml": "is important for determining their validity."
+              }
+            ],
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "The ability to succeed in an online course..."
+              },
+              {
+                "number": 38,
+                "textHtml": "The need to be mindful of the source of comments in an online discussion..."
+              },
+              {
+                "number": 39,
+                "textHtml": "In online courses, it is presence, rather than interaction, that..."
+              },
+              {
+                "number": 40,
+                "textHtml": "The relationship between interaction and learning achievement..."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "but enough does remain to show that this initial experiment in urban living was extraordinarily successful"
+        }
+      },
+      "2": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "often trying out a different building material or an innovative technique"
+        }
+      },
+      "4": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "80 per cent of the Mesopotamian population lived in cities"
+        }
+      },
+      "5": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "were also the basis of a communication system that led to the spread of the latest concepts in farming"
+        }
+      },
+      "6": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "forced people to look outside their families, and work with their neighbours"
+        }
+      },
+      "7": {
+        "accepted": [
+          "surplus"
+        ],
+        "evidence": {
+          "snippet": "generated a surplus of food, allowing crops in years of good harvests to be stored"
+        }
+      },
+      "8": {
+        "accepted": [
+          "pyramids"
+        ],
+        "evidence": {
+          "snippet": "temple structures were erected in the form of massive pyramids"
+        }
+      },
+      "9": {
+        "accepted": [
+          "storerooms"
+        ],
+        "evidence": {
+          "snippet": "enormous storerooms for the output from the farming estates"
+        }
+      },
+      "10": {
+        "accepted": [
+          "staff"
+        ],
+        "evidence": {
+          "snippet": "appointed a large number of staff to administer them"
+        }
+      },
+      "11": {
+        "accepted": [
+          "banks"
+        ],
+        "evidence": {
+          "snippet": "allowed the temples to serve as primitive kinds of banks"
+        }
+      },
+      "12": {
+        "accepted": [
+          "clay"
+        ],
+        "evidence": {
+          "snippet": "basic records were inscribed in wet clay"
+        }
+      },
+      "13": {
+        "accepted": [
+          "fires"
+        ],
+        "evidence": {
+          "snippet": "the fires that often burnt down the archives"
+        }
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "their parents try to signal to them to move to a safe location"
+        }
+      },
+      "15": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "the tail bones actually rub against one another, so it squeaks"
+        }
+      },
+      "16": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "can almost instantly change its colour, pattern and texture to match its surroundings"
+        }
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "Most species use camouflage to some extent"
+        }
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "stick and leaf insects have evolved complex camouflage to hide themselves"
+        }
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "does not develop for 4"
+        }
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "It's an incredibly old habitat so the creatures have had a long time to adapt"
+        }
+      },
+      "21": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "the chameleon gecko will drop off its tail"
+        }
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "the predator will simply target another species"
+        }
+      },
+      "23": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "animals that gain protection from predators by imitating a dangerous organism"
+        }
+      },
+      "24": {
+        "accepted": [
+          "reefs"
+        ],
+        "evidence": {
+          "snippet": "On Queensland's reefs, scientists have been studying"
+        }
+      },
+      "25": {
+        "accepted": [
+          "parasites"
+        ],
+        "evidence": {
+          "snippet": "which eats the parasites on larger fish"
+        }
+      },
+      "26": {
+        "accepted": [
+          "prey"
+        ],
+        "evidence": {
+          "snippet": "the disguise also lets it get closer to prey"
+        }
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "to disagree with the point of view in a reading assignment"
+        }
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "Web-based learning sessions can have multiple threads with several discussions"
+        }
+      },
+      "29": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "an instructor cannot necessarily immediately correct or clarify a comment"
+        }
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "or a sense of being in a place and belonging to a group"
+        }
+      },
+      "31": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "An attempt was made to go beyond student perceptions to include performance"
+        }
+      },
+      "32": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "is sometimes questioned"
+        }
+      },
+      "33": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "However, this is an assumption and not always true"
+        }
+      },
+      "35": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "as this concept is studied, the definition is expanding and being refined"
+        }
+      },
+      "36": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "the relationship of actual measures of interaction and performance is mixed"
+        }
+      },
+      "37": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "students must adjust to the nonlinear nature of web-based learning"
+        }
+      },
+      "38": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "students need to be more attentive to both the who and what of a discussion"
+        }
+      },
+      "39": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "a student's sense of being registered and belonging in a course"
+        }
+      },
+      "40": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "how interaction affects learning outcomes, and what the relationship between the two is, is in need of further study"
+        }
+      }
+    },
+    "sets": []
+  }
+}

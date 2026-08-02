@@ -1,0 +1,570 @@
+{
+  "slug": "listening-volume-9-test-4",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/vol-9-test-4-audio/VOL%209%20TEST%204%20AUDIO.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 9, Test 4",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Weekend Course Booking Form</div><ul><li>Booking for: a guitar workshop</li><li>Start date: {{1}}</li><li>Course code: {{2}}</li><li>Previous course attended: Editing {{3}}</li><li>Name: Nick {{4}}</li><li>Address: 27 Hawthorn {{5}}, Bristol, BS4 2QG</li><li>Contact number: 07707 438 297</li><li>Age: 26</li><li>Occupation: {{6}}</li><li>Dietary requests: no {{7}}</li><li>One-to-one lesson selected: {{8}} guitar</li><li>First heard about us from: a {{9}}</li><li>Additional request: would like {{10}} if possible</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "talks about gardening"
+              },
+              {
+                "letter": "B",
+                "textHtml": "live music"
+              },
+              {
+                "letter": "C",
+                "textHtml": "an art exhibition"
+              },
+              {
+                "letter": "D",
+                "textHtml": "a children's playground"
+              },
+              {
+                "letter": "E",
+                "textHtml": "evening entertainment"
+              },
+              {
+                "letter": "F",
+                "textHtml": "a competition for adults"
+              },
+              {
+                "letter": "G",
+                "textHtml": "vegetable market"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Bridge Street"
+              },
+              {
+                "number": 12,
+                "textHtml": "King's Park"
+              },
+              {
+                "number": 13,
+                "textHtml": "Oakvale School"
+              },
+              {
+                "number": 14,
+                "textHtml": "Green Road"
+              },
+              {
+                "number": 15,
+                "textHtml": "Sun Lane"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "&nbsp;What does Sam say about the festival tickets?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They allow you to get into all the festival events."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They are more expensive to buy on the day."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They have nearly all been sold."
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "textHtml": "&nbsp;On the last night of the festival, visitors will be able to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "take part in a dance."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "go to a theatre performance."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "watch some fireworks."
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;What will be provided for international visitors?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "discounts on accommodation"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "tours of the local area"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a guide written in different languages"
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;What information is given about car park A?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It is bigger than car park B."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It is closer to town than car park B."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It will close earlier than car park B."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;What change have the organisers made to the programme this year?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "replacing the programme with an app"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "reducing the number of programmes printed"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "introducing a charge for the programmes"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 21–23</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Action Research Course for Practising Teachers</div><p>Course Notes</p><ul><li>course leader: Alan Cumner (get his recent book called '{{21}}')</li></ul><p>Course objectives — to develop skills in:</p><ul><li>using different research techniques</li><li>researching as part of a {{22}}</li><li>{{23}} (in a collaborative culture)</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 24–27</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><table class=\"q-table\"><tbody><tr><th>Observational Techniques</th><th>Additional Information</th></tr><tr><td>Using observation checklists</td><td>to record aspects of a lesson, e.g. {{24}} of pupils</td></tr><tr><td>Writing a {{25}}</td><td>used to improve the skill of reflection</td></tr><tr><td>{{26}}</td><td>try out on fellow students (in classroom {{27}})</td></tr></tbody></table></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 28–30</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><table class=\"q-table\"><tbody><tr><th>Non-Observational Techniques</th><th>Additional Information</th></tr><tr><td>Analysing {{28}}</td><td>use statistics based on own students</td></tr><tr><td>Using questionnaires</td><td>use the {{29}} to find respondents</td></tr><tr><td>Using {{30}}</td><td>own choice of respondents</td></tr></tbody></table></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 31–33</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 31,
+                "textHtml": "&nbsp;What impact does Marc Prensky believe that digital technology has had on young people?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It has altered their thinking patterns."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It has harmed their physical development."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It has limited their brain capacity."
+                  }
+                ]
+              },
+              {
+                "number": 32,
+                "textHtml": "&nbsp;Digital immigrants tend to access computers",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "using their native language."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "less efficiently than young people."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "for less important information."
+                  }
+                ]
+              },
+              {
+                "number": 33,
+                "textHtml": "&nbsp;What example is given of having a 'digital accent'?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "having less effective typing skills"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "doing things the old-fashioned way"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "being unable to understand instructions"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 34–40</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": ","
+              },
+              {
+                "letter": "B",
+                "textHtml": "or"
+              },
+              {
+                "letter": "C",
+                "textHtml": "for each point. You may choose any letter more than once."
+              }
+            ],
+            "questions": [
+              {
+                "number": 34,
+                "textHtml": ""
+              },
+              {
+                "number": 35,
+                "textHtml": ""
+              },
+              {
+                "number": 36,
+                "textHtml": ""
+              },
+              {
+                "number": 37,
+                "textHtml": ""
+              },
+              {
+                "number": 38,
+                "textHtml": ""
+              },
+              {
+                "number": 39,
+                "textHtml": ""
+              },
+              {
+                "number": 40,
+                "textHtml": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "18 july",
+          "18th july",
+          "july 18",
+          "july 18th"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "q1632"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "photographs",
+          "photograph",
+          "photos"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "poskitt"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "way"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "engineer",
+          "an engineer"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "fish"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "blues"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "magazine",
+          "a magazine"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "parking"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "professional learning"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "team",
+          "a team"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "presenting results",
+          "presenting result",
+          "presenting"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "behaviour",
+          "behavior"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "diary",
+          "a diary"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "video recording",
+          "video",
+          "a video recording",
+          "video recordings"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "simulation",
+          "simulations",
+          "a simulation"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "test results",
+          "test result",
+          "tests results"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "internet",
+          "the internet"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "interviews",
+          "interview"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "C"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

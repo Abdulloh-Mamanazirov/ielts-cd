@@ -46,20 +46,14 @@ next-env.d.ts
 
 /src/generated/prisma
 
-# Source test media. The reading HTML originals are versioned because they are
-# small and are what the converters parse; the audio — and the listening HTML
-# exports, which embed ~190 MB of it as base64 data URLs — is kept on disk and
-# re-hosted to the media directory rather than living in git history forever.
-# `npm run convert` extracts the audio to _source-tests/*.mp3; the listening
-# JSON it writes is versioned, so the server needs only the audio (by scp), not
-# these sources. See docs/DEPLOY.md.
-/_source-tests/*.mp3
-/_source-tests/*.m4a
-/_source-tests/*.wav
-# Any listening source, however it is named ("Listening Test 1", "IELTS_Listening_…",
-# "Real Exam Listening …") — some embed 15-40 MB of base64 audio, and the JSON the
-# converter writes (plus audioSourceUrl for the external ones) is the versioned truth.
-/_source-tests/*[Ll]istening*.html
+# Source test material is not versioned. The converted JSON in content/tests/ is
+# the source of truth; the HTML/PDF/audio sources are re-uploaded locally as
+# needed (they arrive in ad-hoc folders under ever-changing names, and some
+# listening exports embed 40 MB of base64 audio). `npm run convert` reads
+# whatever is here and writes the JSON, which is what the server and seed use.
+# Only the note explaining the folder is tracked. See docs/DEPLOY.md.
+/_source-tests/*
+!/_source-tests/README.md
 
 # Windows crash dumps
 *.stackdump

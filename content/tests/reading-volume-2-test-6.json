@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 2, Test 6",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -222,23 +222,23 @@
                 "options": [
                   {
                     "letter": "A",
-                    "textHtml": "<strong>A</strong>&nbsp; the altitude at which a tree is grown"
+                    "textHtml": "&nbsp; the altitude at which a tree is grown"
                   },
                   {
                     "letter": "B",
-                    "textHtml": "<strong>B</strong>&nbsp; the stage of a tree's growth at which it is cut down"
+                    "textHtml": "&nbsp; the stage of a tree's growth at which it is cut down"
                   },
                   {
                     "letter": "C",
-                    "textHtml": "<strong>C</strong>&nbsp; the steepness of the mountains where a tree is grown"
+                    "textHtml": "&nbsp; the steepness of the mountains where a tree is grown"
                   },
                   {
                     "letter": "D",
-                    "textHtml": "<strong>D</strong>&nbsp; the lack of rain during a tree's growing period"
+                    "textHtml": "&nbsp; the lack of rain during a tree's growing period"
                   },
                   {
                     "letter": "E",
-                    "textHtml": "<strong>E</strong>&nbsp; the nutritional composition of the earth in which a tree is grown"
+                    "textHtml": "&nbsp; the nutritional composition of the earth in which a tree is grown"
                   }
                 ]
               }
@@ -375,126 +375,198 @@
       "1": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "capable of the whole range of behaviour from cruelty to kindness"
+        }
       },
       "2": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "improve our judgment, so that we make better choices"
+        }
       },
       "3": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "tool we have for making sense of the reality we experience"
+        }
       },
       "4": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "people need models to imitate"
+        }
       },
       "5": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "saw history as a dynamic process, one in which nothing is static"
+        }
       },
       "6": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "leading towards greater freedom"
+        }
       },
       "7": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "flowering and deterioration, a rise inevitably leading to a fall"
+        }
       },
       "8": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "need to know who they are, and where they belong"
+        }
       },
       "9": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "attitude towards other present-day countries and cultures"
+        }
       },
       "10": {
         "accepted": [
           "conflict"
-        ]
+        ],
+        "evidence": {
+          "snippet": "without coming into conflict with the community"
+        }
       },
       "11": {
         "accepted": [
           "individuals"
-        ]
+        ],
+        "evidence": {
+          "snippet": "societies, like individuals, need to know"
+        }
       },
       "12": {
         "accepted": [
           "amnesia"
-        ]
+        ],
+        "evidence": {
+          "snippet": "like an individual with amnesia"
+        }
       },
       "13": {
         "accepted": [
           "evidence"
-        ]
+        ],
+        "evidence": {
+          "snippet": "critically examining and evaluating evidence"
+        }
       },
       "14": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "is still fuelling discussion"
+        }
       },
       "15": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "no basis has been found for these possible explanations"
+        }
       },
       "16": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Maple wood (Acer spp.) is preferred for the back, ribs, and neck of the instrument while spruce"
+        }
       },
       "17": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "famous \"Forest of the Violins\" in the Parco Naturale"
+        }
       },
       "18": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "These were questions that required more thorough research"
+        }
       },
       "19": {
         "accepted": [
           "I"
-        ]
+        ],
+        "evidence": {
+          "snippet": "period characterized by a scarcity of sunspots and a reduction in overall solar activity. It coincided with a sharp dip in temperatures"
+        }
       },
       "20": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "conjunction of elevation, topography, soil properties and a deterioration in climate was temporally unique"
+        }
       },
       "21": {
         "accepted": [
           "skills",
           "skill"
-        ]
+        ],
+        "evidence": {
+          "snippet": "skills of these Cremonese artisans"
+        }
       },
       "22": {
         "accepted": [
           "castles",
           "castle"
-        ]
+        ],
+        "evidence": {
+          "snippet": "re-use of old wood taken from castles"
+        }
       },
       "23": {
         "accepted": [
           "ovens",
           "oven"
-        ]
+        ],
+        "evidence": {
+          "snippet": "drying the wood in ovens"
+        }
       },
       "24": {
         "accepted": [
           "chemicals",
           "chemical"
-        ]
+        ],
+        "evidence": {
+          "snippet": "get rid of supposedly harmful chemicals"
+        }
       },
       "27": {
         "accepted": [
@@ -504,17 +576,26 @@
       "28": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "enduring rules of good management. The company that follows these is the company that is in the strongest position"
+        }
       },
       "29": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "ideas have value only if people share and develop them in ways that increase revenue"
+        }
       },
       "30": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "senior staff set careful rules to filter and structure it"
+        }
       },
       "31": {
         "accepted": [
@@ -524,47 +605,74 @@
       "32": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Big-bang decisions are generally best avoided"
+        }
       },
       "33": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "offer their most profitable customers special deals"
+        }
       },
       "34": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "keep those activities it does better than its competitors"
+        }
       },
       "35": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Effective collaboration calls for trust and shared understanding"
+        }
       },
       "36": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "common practices in areas such as purchasing and information technology"
+        }
       },
       "37": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "hire the talents of 'free agents'"
+        }
       },
       "38": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "keep those activities it does better than its competitors"
+        }
       },
       "39": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "allow their suppliers and customers 'inside the machine,'"
+        }
       },
       "40": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "build loyalty by providing reliability and good service"
+        }
       }
     },
     "sets": [
@@ -576,7 +684,10 @@
         "accepted": [
           "A",
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "grown in thin, poor soils at higher elevations"
+        }
       }
     ]
   }

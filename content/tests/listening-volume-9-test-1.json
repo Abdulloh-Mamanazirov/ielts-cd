@@ -1,0 +1,530 @@
+{
+  "slug": "listening-volume-9-test-1",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/vol-9-test-1-audio/VOL%209%20TEST%201%20AUDIO.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 9, Test 1",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Jim's accommodation arrangement</div><ul><li><strong>1</strong> &nbsp;Jim's weekly rent will be $ {{1}}</li><li><strong>2</strong> &nbsp;Jim can park his car in the {{2}}</li><li><strong>3</strong> &nbsp;The telephone is in the {{3}}</li><li><strong>4</strong> &nbsp;Jim will bring a {{4}} for his bedroom.</li><li><strong>5</strong> &nbsp;Peter would like Jim to bring a {{5}}</li><li><strong>6</strong> &nbsp;Peter and Jim will probably watch TV on {{6}}</li><li><strong>7</strong> &nbsp;Jim works in a {{7}} twice a week.</li><li><strong>8</strong> &nbsp;Peter will share the cost of {{8}} with Jim.</li><li><strong>9</strong> &nbsp;Peter wants Jim to move in by 1st of {{9}}</li><li><strong>10</strong> &nbsp;Jim agrees to move in after his {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 11–17</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Spring Down Junior School</div><ul><li><strong>11</strong> &nbsp;The school day starts at {{11}} with registration, and finishes at 4 p.m.</li><li><strong>12</strong> &nbsp;The school canteen offers a {{12}} for lunch.</li><li><strong>13</strong> &nbsp;The morning and afternoon breaks each last for {{13}}</li><li><strong>14</strong> &nbsp;On Thursday afternoons all children must take part in {{14}}</li><li><strong>15</strong> &nbsp;Every term the children do a special {{15}}</li><li><strong>16</strong> &nbsp;The children are given tests each {{16}}</li><li><strong>17</strong> &nbsp;The children can go to {{17}} after school to learn new skills such as music.</li></ul></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 18–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Music room"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Assembly hall"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Computer room"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Cloakroom"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Head's office"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Gym"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Reception"
+              }
+            ],
+            "questions": [
+              {
+                "number": 18,
+                "textHtml": "Label 18"
+              },
+              {
+                "number": 19,
+                "textHtml": "Label 19"
+              },
+              {
+                "number": 20,
+                "textHtml": "Label 20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;What do the students agree about defining forensic linguistics?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The dictionary definition was not very useful."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They could provide an example of the kind of work involved."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They should read about the subject to see how it is described."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Jen thinks it will be difficult to analyse the voice recording because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it is not of good quality."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the accent is difficult to understand."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "she doesn't know if the speaker is male or female."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Why does Jen think that the 'suspect' might vary their voice patterns?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "because they're being recorded"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "because they've been told to"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "because they feel uncomfortable about their accent"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What does Rob think about Jen's approach to study?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "She worries too much about her ability."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "She often ignores the most important issues."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She has trouble getting started."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 25 and 26</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "<strong>25 &amp; 26</strong> &nbsp;Which <strong>TWO</strong> books do Jen and Rob decide to get from the library?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Voice Identification"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Modern Forensic Techniques"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Language and Crime"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Forensics Today"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Research Methods in Forensic Linguistics"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27 and 28</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "<strong>27 &amp; 28</strong> &nbsp;Which <strong>TWO</strong> practical considerations are both Jen and Rob concerned about?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how much time they have for writing up the project"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "being able to do enough research"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "only speaking to the 'suspect' once"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "using recording equipment"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "how easy it will be to contact the 'suspect'"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-4",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 29 and 30</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "<strong>29 &amp; 30</strong> &nbsp;Which <strong>TWO</strong> sections of the project will Rob write alone?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Methodology"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Literature review"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Introduction"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Analysis"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Discussion and conclusions"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Dormancy</div><p>Organisms enter a state of dormancy, or inactivity, to:</p><ul><li>save available {{31}}</li><li>reduce demands on their environment</li></ul><p>Value of dormancy — organisms which become dormant:</p><ul><li>can live in conditions which are environmentally {{32}}</li><li>can live in a wider range of places</li><li>have less {{33}} from other animals</li></ul><p>Causes of dormancy</p><ul><li>changes in temperature and {{34}}</li><li>availability of food, water, oxygen</li></ul><p>Dormancy in insects</p><ul><li>there may be a {{35}} in their metabolism (diapause)</li><li>diapause occurs during extreme conditions, or as part of the life cycle</li></ul><p>The African lungfish</p><ul><li>it buries itself in the {{36}} and creates a slimy cocoon</li><li>two dangers: {{37}} and desiccation</li></ul><p>Snails</p><ul><li>some close their shells with a membrane during dormancy</li><li>light-coloured shells reflect sunlight and limit {{38}}</li></ul><p>Hibernation</p><ul><li>only warm-blooded animals hibernate</li></ul><p>The Arctic ground squirrel</p><ul><li>it hibernates in an insulated, underground {{39}}</li><li>it loses 40% of its weight during hibernation</li><li>when it wakes up, the first part of the body to heat up is the {{40}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "80",
+          "$80"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "garage"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "kitchen"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "heater",
+          "a heater"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "toaster",
+          "a toaster"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "friday evening",
+          "friday"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "supermarket",
+          "a supermarket"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "petrol",
+          "gas"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "june"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "exam",
+          "exams",
+          "the exam"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "8:55",
+          "8.55",
+          "8 55",
+          "08:55"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "hot meal",
+          "a hot meal",
+          "hot meals"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "15 minutes",
+          "fifteen minutes",
+          "15 mins"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "sports",
+          "sport"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "poster",
+          "a poster"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "month",
+          "a month",
+          "every month"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "clubs",
+          "club"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "resources",
+          "resource"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "stressful"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "competition"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "light"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "reduction",
+          "a reduction"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "mud"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "starvation"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "evaporation"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "nest",
+          "a nest"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "heart",
+          "the heart"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          25,
+          26
+        ],
+        "accepted": [
+          "B",
+          "E"
+        ]
+      },
+      {
+        "questions": [
+          27,
+          28
+        ],
+        "accepted": [
+          "A",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          29,
+          30
+        ],
+        "accepted": [
+          "C",
+          "E"
+        ]
+      }
+    ]
+  }
+}

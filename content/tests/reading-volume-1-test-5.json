@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 1, Test 5",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -370,7 +370,10 @@
       "1": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "greeted him in a familiar tongue"
+        }
       },
       "2": {
         "accepted": [
@@ -390,17 +393,26 @@
       "5": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "pioneers making their first voyages into the remote reaches"
+        }
       },
       "6": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "human bones enshrined inside what is unmistakably a Lapita urn"
+        }
       },
       "7": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "peculiar style of pottery decoration"
+        }
       },
       "8": {
         "accepted": [
@@ -410,40 +422,61 @@
       "9": {
         "accepted": [
           "teeth"
-        ]
+        ],
+        "evidence": {
+          "snippet": "chemical tests on the teeth of several skeletons"
+        }
       },
       "10": {
         "accepted": [
           "descendants"
-        ]
+        ],
+        "evidence": {
+          "snippet": "who their closest descendants are today"
+        }
       },
       "11": {
         "accepted": [
           "canoes"
-        ]
+        ],
+        "evidence": {
+          "snippet": "canoes that were capable of ocean voyages"
+        }
       },
       "12": {
         "accepted": [
           "trade winds",
           "trade wind"
-        ]
+        ],
+        "evidence": {
+          "snippet": "catch a swift ride home on the trade winds"
+        }
       },
       "13": {
         "accepted": [
           "seabirds and turtles",
           "seabirds",
           "turtles"
-        ]
+        ],
+        "evidence": {
+          "snippet": "seabirds and turtles"
+        }
       },
       "14": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "housewife would have to stop her activities to answer it"
+        }
       },
       "15": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "This raises the occurrence of multitasking in our day to day life"
+        }
       },
       "16": {
         "accepted": [
@@ -453,47 +486,74 @@
       "17": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the size of this cortex varies between species"
+        }
       },
       "18": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the tasks took more time than if the person focused on a single task"
+        }
       },
       "19": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "brain neurons only lit up in singular areas one at a time"
+        }
       },
       "20": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "despite the fact that they are faster, it does not mean they are more efficient"
+        }
       },
       "21": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "people never really do multiple things simultaneously"
+        }
       },
       "22": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "losing a lot of efficiency in the workplace due to multitasking, outside distractions"
+        }
       },
       "23": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "changes made to the workplace do not have to be dramatic"
+        }
       },
       "24": {
         "accepted": [
           "email voice"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Lehman called this phenomenon"
+        }
       },
       "25": {
         "accepted": [
           "prefrontal cortex"
-        ]
+        ],
+        "evidence": {
+          "snippet": "studied the prefrontal cortex, which controls the brain while a person is multitasking"
+        }
       },
       "26": {
         "accepted": [
@@ -503,7 +563,10 @@
       "27": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Such lasting fame would have shocked the humble Grimms"
+        }
       },
       "28": {
         "accepted": [
@@ -513,7 +576,10 @@
       "29": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Even today some protective parents shy from the Grimms"
+        }
       },
       "30": {
         "accepted": [
@@ -523,12 +589,18 @@
       "31": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "parents keep reading because they approve of the finger-wagging lessons"
+        }
       },
       "32": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Among her treasure was"
+        }
       },
       "33": {
         "accepted": [
@@ -538,7 +610,10 @@
       "34": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "cruel mothers became nasty stepmothers"
+        }
       },
       "35": {
         "accepted": [
@@ -548,27 +623,42 @@
       "36": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "rustic simplicity, creative energy"
+        }
       },
       "37": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "reflected the law-and-order system of the old times"
+        }
       },
       "38": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "It makes the stories timeless and placeless"
+        }
       },
       "39": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "striving for happiness that none of us knows but that we sense is possible"
+        }
       },
       "40": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "children find they can master their anxieties"
+        }
       }
     },
     "sets": []

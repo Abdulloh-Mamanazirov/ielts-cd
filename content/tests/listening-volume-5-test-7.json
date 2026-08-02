@@ -1,0 +1,630 @@
+{
+  "slug": "listening-volume-5-test-7",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-24m-59s-audio-joiner.com/mix_24m59s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 5, Test 7",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>The London Relocation Services</div><p><strong>Customer's name:</strong> Anna Woods</p><p>Customer's personal details</p><ul><li>Current address: 118 {{1}} Park, Ballysillan</li><li>Postcode: BT149BJ</li><li>Phone No: {{2}} (Mobile)</li></ul><p>Other information</p><ul><li>Anna is hoping to find work as a {{3}}</li><li>She needs to find a {{4}} school for her son.</li></ul><p>Requirements for the new property</p><p><strong>Location</strong></p><ul><li>Her preferred location is in the {{5}} of the city.</li><li>Her husband would like to be near a {{6}}.</li><li>Her son would prefer to be close to a {{7}}.</li></ul><p><strong>Property details</strong></p><ul><li>She would like to live in a {{8}}</li><li>She would prefer {{9}} bedrooms</li><li>A small {{10}} is also desirable</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What reason does the manager give for moving to a new office building?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to have more space"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to pay less rent"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "be in a central location"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What is best about the new office building?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the air-conditioning system"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the amount of natural light"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the low level of noise"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;When will the office move take place?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "after the sales conference"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "after the end of the tax year"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "after the annual holiday period"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What information about the new location is already on the company website?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "where to park"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "places to eat"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "public transport"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What practical thing must staff do now?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "give details of damaged furniture"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "throw away unnecessary papers"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "take home personal items"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;Staff will need to put folders containing confidential details",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "into packing boxes"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "into grey plastic bags"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "into new filing cabinets"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 17 and 18</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which <strong>TWO</strong> things do people often forget when lifting heavy things?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "keep your head up"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "don't bend your back"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "don't lean to one side"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "use handles"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "stand with feet apart"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 19 and 20</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> things should staff do when moving papers?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "wear a face mask"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "open windows"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "wear gloves"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "take frequent breaks"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "drink plenty of water"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Mona's presentation topic is about",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "design development from 1800s"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "design development and social advancement"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "design development and art movement"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Mona doesn't want to just talk about one topic because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "She is afraid of her tutor's response"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "She wants to give a complete talk."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She thinks it would be too simple."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What does Ted say about Mona's topic?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Very detailed"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Too old"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Too broad"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What is Mona's viewpoint on computers?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They have improved work efficiency."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They have influenced traditional media."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They have changed people's sense of style."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;Why does Ted think of 'purism'?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It's important for architecture"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It saves a lot of effort"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He admires it in arts"
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;What does Ted suggest Mona?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "meet one of his friends"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "read more books"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "visit a museum"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "text handouts"
+              },
+              {
+                "letter": "B",
+                "textHtml": "questions"
+              },
+              {
+                "letter": "C",
+                "textHtml": "an outline"
+              },
+              {
+                "letter": "D",
+                "textHtml": "an introduction"
+              },
+              {
+                "letter": "E",
+                "textHtml": "statement"
+              },
+              {
+                "letter": "F",
+                "textHtml": "explain"
+              },
+              {
+                "letter": "G",
+                "textHtml": "research"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": ""
+              },
+              {
+                "number": 28,
+                "textHtml": ""
+              },
+              {
+                "number": 29,
+                "textHtml": ""
+              },
+              {
+                "number": 30,
+                "textHtml": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–36</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>GRAPHICAL SYMBOL</div><p>'Graphical symbol'</p><ul><li>includes the logographs in Egyptian hieroglyphic writing and ancient Chinese pictograms</li><li>found in Africa, the Americas, and Oceania</li><li>still has something to do with {{31}} use today</li></ul><p>Ancient graphic writing systems</p><ul><li>Researchers obtain a wide range of {{32}} about past civilisations.</li><li>Rosetta Stone was found in 1799 when members of Napoleon's expedition got to Egypt.</li><li>Frenchman Jean-Francois Champollion determined the phonetic values of the symbols in 1822.</li><li>In those symbols, {{33}} are used to depict various meanings.</li></ul><p>Camera obscura</p><ul><li>{{34}} helps people understand history better.</li><li>Some charities will {{35}} many endangered species.</li><li>A camera was tied to one {{36}} of a bird.</li></ul></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 37–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><ul><li><strong>37</strong> &nbsp;More {{37}} will be included in the future with the development of photography.</li><li><strong>38</strong> &nbsp;Companies would like to invest a lot to advertise in {{38}}.</li><li><strong>39</strong> &nbsp;Designing appealing {{39}} is used as a way of effective branding.</li><li><strong>40</strong> &nbsp;Graphic writing systems are of great importance in the subject of {{40}}.</li></ul>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "Fordyce"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "07840051963"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "nurse"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "primary"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "south"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "station"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "park"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "house"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "2"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "office"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "commercial"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "knowledge"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "lines"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "Photography"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "advertise"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "foot"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "objects"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "newspapers"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "packaging"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "mathematics",
+          "math",
+          "maths"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "C",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "C",
+          "E"
+        ]
+      }
+    ]
+  }
+}

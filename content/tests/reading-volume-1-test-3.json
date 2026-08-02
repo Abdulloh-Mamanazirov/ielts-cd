@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 1, Test 3",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -393,22 +393,34 @@
       "1": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "larger tablets or cylinders were used"
+        }
       },
       "2": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Sumerian writers would impress these lines into the wet clay"
+        }
       },
       "3": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the signs were often almost too small to see with the naked eye"
+        }
       },
       "4": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Cuneiform signs were used for the writing of at least a dozen languages"
+        }
       },
       "5": {
         "accepted": [
@@ -418,152 +430,242 @@
       "6": {
         "accepted": [
           "stones"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they might take small stones and use them as tokens"
+        }
       },
       "7": {
         "accepted": [
           "cloth"
-        ]
+        ],
+        "evidence": {
+          "snippet": "placed in a cloth container"
+        }
       },
       "8": {
         "accepted": [
           "receipt"
-        ]
+        ],
+        "evidence": {
+          "snippet": "provided to a buyer as a receipt for a transaction"
+        }
       },
       "9": {
         "accepted": [
           "envelope"
-        ]
+        ],
+        "evidence": {
+          "snippet": "container resembling an envelope"
+        }
       },
       "10": {
         "accepted": [
           "sheep"
-        ]
+        ],
+        "evidence": {
+          "snippet": "an image which resembled the drawing of a sheep"
+        }
       },
       "11": {
         "accepted": [
           "triangles"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the signs took the form of triangles"
+        }
       },
       "12": {
         "accepted": [
           "accounting"
-        ]
+        ],
+        "evidence": {
+          "snippet": "cuneiform developed primarily as a tool for accounting"
+        }
       },
       "13": {
         "accepted": [
           "paper"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Rawlinson made impressions of the marks on large pieces of paper"
+        }
       },
       "14": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "with the diffusion of cable television and satellite technologies"
+        }
       },
       "15": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Approximately 80% of all advertising targeted at children falls within four product categories"
+        }
       },
       "16": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "restricted in the US by the Federal Communications Commission"
+        }
       },
       "17": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "introducing unique sound effects and rapidly moving images"
+        }
       },
       "18": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "leaves many children with the misimpression that cereal alone is sufficient"
+        }
       },
       "19": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "associate the product with playfulness and happiness"
+        }
       },
       "20": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "relegated to time slots unpopular with their parents, such as Saturday mornings"
+        }
       },
       "21": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "children aged 14 years and under make $24 billion in direct purchases and influence $190 billion"
+        }
       },
       "22": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "use of child-friendly language such as"
+        }
       },
       "23": {
         "accepted": [
           "scene"
-        ]
+        ],
+        "evidence": {
+          "snippet": "frequently explaining them as if they were a scene in the program itself"
+        }
       },
       "24": {
         "accepted": [
           "separators"
-        ]
+        ],
+        "evidence": {
+          "snippet": "many separators feature characters that appear in the same show"
+        }
       },
       "25": {
         "accepted": [
           "host-selling"
-        ]
+        ],
+        "evidence": {
+          "snippet": "this is known as host-selling"
+        }
       },
       "26": {
         "accepted": [
           "funnier"
-        ]
+        ],
+        "evidence": {
+          "snippet": "commercials are funnier than TV programs"
+        }
       },
       "27": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Part travelogue, part historical record of the Caribbean pirates, part scientific treatise"
+        }
       },
       "28": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the writers Swift and Defoe were inspired to create two of the most famous books"
+        }
       },
       "29": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "he promptly elected to leave and head north out of dislike for the cold"
+        }
       },
       "30": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "he was able to endure a never-ending plague of discomforts and ailments"
+        }
       },
       "31": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the boy having shown very early inclinations to"
+        }
       },
       "32": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "findings regarding meteorology and natural history, even though they broke new ground"
+        }
       },
       "33": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "other evidence exists to suggest that he was assisted by an unknown source"
+        }
       },
       "34": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "his observations about nature are sometimes roughly dropped into the narrative"
+        }
       },
       "35": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "we should therefore hold James Knapton responsible"
+        }
       },
       "36": {
         "accepted": [
@@ -573,12 +675,18 @@
       "37": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Dampier was not blessed in the art of wealth accumulation"
+        }
       },
       "38": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "hot-tempered and a weak leader of men"
+        }
       },
       "39": {
         "accepted": [
@@ -588,7 +696,10 @@
       "40": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a neighbour offered Dampier a position overseeing his plantation in Jamaica"
+        }
       }
     },
     "sets": []

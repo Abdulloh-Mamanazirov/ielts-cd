@@ -1,0 +1,572 @@
+{
+  "slug": "listening-volume-5-test-2",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-37m-15s-audio-joiner.com/mix_37m15s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 5, Test 2",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Oz Housesitters — Home Owner Registration Form</div><ul><li><strong>Name:</strong> Jenny Hall</li><li><strong>Address:</strong> 14 {{1}} St, Greenfield</li><li><strong>Mobile no:</strong> {{2}}</li><li><strong>Date required from:</strong> {{3}}</li><li><strong>Length of time required:</strong> {{4}} weeks</li></ul><p>House features</p><ul><li>it has a new {{5}}</li><li>it is near a station</li><li>there is room for the housesitter's {{6}}</li></ul><p>Special duties required</p><ul><li>water the {{7}} tree</li></ul><p>Housesitter requirements</p><ul><li>the house is large so a {{8}} is preferred</li><li>no {{9}} allowed</li><li>would like a check carried out by the {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;Arthur feels that when starting a business, mistakes should be",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "seen as an opportunity to learn."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "predicted and minimised."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "avoided at all costs"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;Recent American studies found that confidence will",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "sometimes reduce people's chances of success."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "be increased by reading self-help books."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "ensure good results on business courses."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;The American studies recommended that new entrepreneurs",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "listen to their colleagues' advice."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "get professional help when things go wrong."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "remain concentrated on their aims."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What does Arthur say about his own experience of marketing?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He relied on what he already knew."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He hired an expert to take care of it."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He realised its importance too late."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What does Arthur think is an important quality shared by good leaders?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They are ambitious for their company."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They can deal with difficult people."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They earn the respect of their workforce."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;What does Arthur say about taking risks?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He advises being cautious."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He favours a long-term view."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He believes it is financially advantageous."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 17 and 18</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which <strong>TWO</strong> things does Arthur say people should focus on when developing their business idea?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "making sure the idea is original"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "offering a better deal than competitors"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "being committed to it"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "paying attention to detail"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "fixing realistic prices"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 19 and 20</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> things does Arthur say helped him get his business started?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "family support"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "getting a loan from a bank"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "good business advice"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "a favourable economic climate"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "an effective approach to business"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "very boring"
+              },
+              {
+                "letter": "B",
+                "textHtml": "too difficult"
+              },
+              {
+                "letter": "C",
+                "textHtml": "specialised equipment needed"
+              },
+              {
+                "letter": "D",
+                "textHtml": "very expensive"
+              },
+              {
+                "letter": "E",
+                "textHtml": "immediate results"
+              },
+              {
+                "letter": "F",
+                "textHtml": "useful practice for maths"
+              },
+              {
+                "letter": "G",
+                "textHtml": "cheap to do"
+              },
+              {
+                "letter": "H",
+                "textHtml": "takes longer than usual to do"
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Steam engine"
+              },
+              {
+                "number": 22,
+                "textHtml": "Breakfast cereals"
+              },
+              {
+                "number": 23,
+                "textHtml": "Bouncing balls"
+              },
+              {
+                "number": 24,
+                "textHtml": "Making paper"
+              },
+              {
+                "number": 25,
+                "textHtml": "Tie-dyeing"
+              },
+              {
+                "number": 26,
+                "textHtml": "Glue from milk"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Metal container"
+              },
+              {
+                "number": 28,
+                "textHtml": "Integral strainer"
+              },
+              {
+                "number": 29,
+                "textHtml": "Drip tip"
+              },
+              {
+                "number": 30,
+                "textHtml": "Pottery container"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Office Design</div><p>Early 20th Century</p><ul><li>workers employed to do {{31}} were arranged in rows</li></ul><p>1960s to present</p><p>Variations in design of open-plan offices:</p><ul><li>first, workers had individual {{32}}</li><li>later, they had cubicles with high or low {{33}}</li><li>nowadays, workers may have to {{34}} a work area</li></ul><p>Survey results</p><p>Attitudes of employees to open-plan designs:</p><ul><li>there is a lack of {{35}} and {{36}}</li><li>they pose a risk to our {{37}} (staff records support this)</li></ul><p>Attitudes of employers to open-plan designs:</p><ul><li>they significantly reduce rent and {{38}} costs</li><li>they improve teamwork and communication</li><li>they can make {{39}} staff easier</li></ul><p>In reality, employees are unhappy and they are often distracted by the {{40}} the office.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "Gray"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "0491577248"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "29th September",
+          "29 September"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "3",
+          "three"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "pool"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "car"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "lemon"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "couple"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "smoking"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "police"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "typing"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "desks"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "screens"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "share"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "privacy"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "security"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "health"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "energy"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "training"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "noise"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "B",
+          "C"
+        ]
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "A",
+          "E"
+        ]
+      }
+    ]
+  }
+}

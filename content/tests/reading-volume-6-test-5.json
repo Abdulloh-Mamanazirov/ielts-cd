@@ -1,0 +1,631 @@
+{
+  "slug": "reading-volume-6-test-5",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 6, Test 5",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Studies in the History of Art and Visual Culture",
+        "passageHtml": "<p>Read the text and answer questions 1–13</p><p>General Information</p><p>The Department of the History of Art, which operates within the Faculty of History, offers a one-year postgraduate course in the History of Art and Visual Culture. We welcome applicants from a broad range of backgrounds and do not require students to have a first degree in art history. In addition to a compulsory course on Theory and Methods, students take two one-term optional courses, and write a 15,000-word dissertation on a topic of their choice. The course aims to redefine art history and includes a broader range of objects and visual media than other art history courses. Images and objects produced in many contexts – ranging from the scientific to the popular – have been brought together to show how visual styles at different periods and in different places can be understood in relation to the aesthetic, intellectual and social facets of various cultures.</p><p>Theory and Methods</p><p>This core course provides an advanced introduction to the major methodological issues and traditions of art history. The course is organised around a series of issues that relate to the production of art and people's responses to it. Students will discuss these issues and assigned readings in small weekly classes. In lectures, the tutors will consider works of art from a variety of cultures in order to demonstrate that context and artistic method are important aspects of art history.</p><p>Choosing Courses</p><p>The optional courses listed below are not available every year and prospective students are advised to check on the availability of specific courses. Students should also note there may be some restrictions on combining particular courses within their degree programme. Students wishing to take a course that does not appear in the list but is offered by the Faculty of History will need to get permission from the relevant Course Tutor. An application should then be made by the candidate's supervisor.</p><p>Authenticity and Replication</p><p>The course is designed to give students exposure to a central issue of the visual arts in an explicitly inter-disciplinary and cross-cultural framework. It will use a series of case studies to explore the idea of 'the real' or 'the authentic' in both images and objects. The historical and geographical contexts to be addressed will range widely, from ancient Greece and Rome, to early modern China and to contemporary art, including works seen as genuine as well as works regarded as fraudulent. The course will make particularly extensive use of trips to museums to view actual objects and images.</p><p>French Painting 1880–1912</p><p>The course examines the development of Post-Impressionist painting between 1880 and 1912, at which point Cubism began to have a major impact on the thinking of French artists. Rather than tracing a history of styles or individuals, we consider how artistic practices were closely linked to contemporary developments. The rise of new forms of image distribution, including cinema, will be addressed, as well as the changing role of painting in the public sphere. The writings of artists and their contemporaries will be examined alongside recent art-historical work.</p><p>Medieval European Art</p><p>This course addresses two problems central to the history of art: the roots of artistic invention, and suitable methods for instructing on technique. During this period, young, would-be artists acted as assistants to a master painter in his workshop. With this type of training, what was the scope for originality, and how was stylistic change encouraged? These issues are brought into sharp focus by the changing visual culture of late-medieval Europe, between the twelfth and the fifteenth centuries. The available literature on these themes is rich, yet inconsistent: the course therefore addresses questions that are very much open.</p><p>Reception of Classical European Art</p><p>From the fourteenth century the discovery of classical antiquities inspired contemporary artists, some copied closely, some restored the ancient in a contemporary style, while others reinterpreted freely. The course focuses on sculpture, painting and architecture in Britain, with a selection of other European works. Sculpture is examined in life-size marble statues, and in miniature with porcelain figurines. Painting is studied through the designs painted on vases, particularly Athenian and South Italian. Architecture is examined through the ancient Greek temples that were excavated in the nineteenth century and also replicated in miniature for sale to travelers.</p><p>Women, Art and Culture in Early Modern Europe</p><p>This course will explore the various roles played by women in the production and reception of art and architecture in fifteenth- to seventeenth-century Europe. After many decades of relative neglect, the significance of the way women contributed to the art and culture of Early Modern Europe has come to light. By drawing on this wealth of new research, the course will examine the careers of professional women artists working in Northern and Southern Europe. We also consider how famous women patrons, such as Isabella d'Este and Catherine de Medici, influenced the careers of artists and wider perceptions about art. Another topic that will be addressed is the representation of women in the visual arts, for example as sitters for state portraits and marriage paintings.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–6</h3>Do the following statements agree with the information given in Reading Passage 1? In boxes 1–6, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Applicants to the department must have previously studied art history."
+              },
+              {
+                "number": 2,
+                "textHtml": "Students can choose two optional courses instead of the Theory and Methods course."
+              },
+              {
+                "number": 3,
+                "textHtml": "The course organisers had more problems collecting art objects from some historical periods than others."
+              },
+              {
+                "number": 4,
+                "textHtml": "The Theory and Methods course focuses on the way art is made and perceived."
+              },
+              {
+                "number": 5,
+                "textHtml": "Students will be able to do any of the optional courses that are listed."
+              },
+              {
+                "number": 6,
+                "textHtml": "Students may be able to take an unlisted course if they get the appropriate approval."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 7–13</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Optional courses</div><div> Authenticity and Replication <ul><li>genuine art is studied in addition to that considered {{7}}</li><li>art objects are studied in {{8}}</li></ul> French Painting 1880–1912 <ul><li>the course covers the period up to when {{9}} started to be prominent</li><li>the course looks at the connections between art and new developments such as {{10}}</li></ul> Medieval European Art <ul><li>the course looks at two issues: artistic creativity and processes for teaching technique</li><li>the course considers how artists could be original when taught by an expert in a {{11}}</li></ul> Reception of Classical European Art <ul><li>life-sized and miniature sculpture is examined</li><li>painting is examined by looking at the decoration of {{12}}</li><li>architecture is assessed by studying 19th century models bought by {{13}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Sleep – Who Needs It?",
+        "passageHtml": "<p>It appears that some animals can survive on remarkably little sleep – could this also be the case for humans? · Read the text and answer questions 14–26</p><p>As any new parent knows, the first months of an infant's life mean little sleep for the family. But humans have it easy compared to orcas, also known as killer whales. University of California, Los Angeles, neuroscientist Jerome Siegel and post-doctorate fellow Oleg Lyamin have found that for the first month after giving birth, killer whale mothers and their calves do not experience normal sleep at all, and neither stops moving for more than a few minutes at a time. 'These sleep patterns contrast with those of most other mammals, which need extra sleep during infancy and gradually sleep less as they age, while orcas are never as active as in the first months of life,' Siegel says. The young orcas' movement and wakefulness help them keep their body temperature constant until mass and blubber insulation develop and allow for frequent respiration. Meanwhile the mothers of newborn orcas must constantly look out for sharks, while teaching the calves to breathe.</p><p>According to Siegel, the results of his orca study fundamentally change our view of sleep. 'It has often been said that sleep is necessary for an animal's primary development, particularly that of the brain,' Siegel says. 'But here we have a creature which grows one of the largest brains in the animal kingdom, and yet it is doing this without sleep.' All mammals and birds appear to need sleep, but scientists are unsure if reptiles and fish do. 'When you come downstairs at three in the morning, the goldfish isn't lying on the bottom of the bowl, it's swimming around,' Siegel says. But other scientists believe fish do enter a restful dormant state that is at least similar to sleep.</p><p>Some animals die without proper sleep, and experiments have shown that sleep deprivation can cause death more quickly than food deprivation. Two weeks without sleep can kill laboratory rats. Sleep is clearly important, but what determines how much we sleep, and when? Siegel thinks that the sleep an animal needs is dictated less by biological functions than by the animal's environmental niche. Availability of food is a major factor. The long rest typical of bats, for example, helps the animals to economize on energy. 'If a bat eats insects for only three hours in the evening, then maybe the best thing is to go hang in a cave upside down for the rest of the day,' Siegel says.</p><p>Sleep is not the same for all creatures. In dolphins, half the brain may rest while the other half stays vigilantly awake, and the animal carries on everyday activities. Dolphins sleep literally with one eye closed – the eye on the opposite side of the body to the dozing brain hemisphere, since the right brain hemisphere works the left eye and vice versa. However, for unknown reasons, closed eyes seem to be a virtually universal prerequisite for sleep.</p><p>Neuroscientist Clifford Saper of the Harvard Medical School has located a small area at the base of the brain called the ventrolateral preoptic nucleus that sends chemical signals to other parts of the brain during sleep to slow those brain parts down and determines the best sleep budget for the animal. It is flexible, able to reverse the normal nocturnal habits of a rodent to make it sleep at night, if day is the only time the rodent can find what it needs to eat. According to Saper, evidence suggests that for restoring tired muscles or any other body system, sleep is no more effective than a comparable period of wakeful resting – except for one critical organ, the brain. The human brain apparently cannot do without sleep. Studies show that prolonged wakefulness leads to degradation of memory, alertness, coordination and judgment.</p><p>Nevertheless, studies of species exhibiting 'natural models of sleep deprivation,' as psychologist Verner Bingman of Ohio's Bowling Green State University calls them, may allow researchers to provide us with new methods for adapting to limited sleep without losing effectiveness. 'We could live 20-hour lives instead of 12- or 14-hour lives,' says Bingman, who is studying the behavior of the migratory birds Swainson's thrushes, which for migration purposes, go from a normal night's sleep of 10 to 12 hours down to about 2.5 hours so they can fly at night. To handle the energy output of the long journey they must nearly double the amount of fat in their bodies. They have to switch from a diet of seeds to one of fruits and insects, which they must search for during the day, so further limiting their sleep time.</p><p>Bingman and doctoral student Thomas Fuchs have discovered that during morning and midday hours the thrushes enter phases of drowsiness, during which they take as many as 50 micro naps per hour, most of them lasting about 10 seconds. When brain waves are measured, these napping behaviors look very much like normal sleep. Says Bingman, 'The trick would be to develop techniques or drugs that could recreate a similar brain pattern in humans.' Saper, however, disagrees. 'The effect of 20 hours of wakefulness on driving is the equivalent of two shots of whiskey,' he warns. 'Sleep deprivation is unfortunately a major cause of death in the US in young adults, who have a very high crash rate between 3 and 6 am.' He thinks we are dreaming if we think we're ever going to get by on as little sleep as newborn orcas or migrating thrushes.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–17</h3>Look at the following findings (Questions 14–17) and the list of researchers below. Match each finding with the correct researcher, <strong>A, B or C</strong>.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Jerome Siegel"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Clifford Saper"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Verner Bingman"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Discovered a specific area of the brain that sends signals to help regulate an animal's sleep."
+              },
+              {
+                "number": 15,
+                "textHtml": "Found that newborn animals of a certain species do not sleep normally for weeks after birth."
+              },
+              {
+                "number": 16,
+                "textHtml": "Questioned the belief that sleep is essential for developing a large brain."
+              },
+              {
+                "number": 17,
+                "textHtml": "Studied a species of bird that drastically reduces its sleep time for a particular purpose."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 18–23</h3>Complete the summary below. Choose <strong>ONE OR TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p>Newborn orcas move almost constantly in their first weeks of life, which helps them regulate their {{18}} before they develop enough blubber for insulation. During this period, orca mothers must remain alert to the danger of {{19}}. Sleep deprivation can be fatal: in laboratory studies, {{20}} have died after being kept awake for two weeks. Despite the many differences between species, having {{21}} appears to be a near-universal requirement for sleep. According to Saper, sleep may be essential only for the {{22}}, rather than for restoring other parts of the body. Migratory birds such as Swainson's thrushes drastically cut their sleep time in order to complete their {{23}}.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 24–26</h3>Do the following statements agree with the information given in Reading Passage 2? In boxes 24–26, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 24,
+                "textHtml": "According to Siegel, young orcas sleep less than most other newborn mammals."
+              },
+              {
+                "number": 25,
+                "textHtml": "Scientists are certain that fish experience genuine sleep."
+              },
+              {
+                "number": 26,
+                "textHtml": "Saper's research suggests that sleep is essential for restoring muscle tissue."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Looking at Daily Life in Ancient Rome",
+        "passageHtml": "<p>In this preface to a history, the writer explains the factors affecting the scope of his study · Read the text and answer questions 27–40</p><p>If our ideas on Roman life are not to become lost in confusion, we must study it within a strictly defined time. Nothing changes more rapidly than human customs. Looking at our own more familiar world, apart from the great scientific discoveries of recent centuries which have turned it upside down – steam, electricity, railways, motor cars, and aeroplanes, for example – it is clear that the elementary forms of everyday life have been subject to increasing change.</p><p>Potatoes, for example, were not introduced into Europe until the sixteenth century, coffee was first drunk there in the late sixteenth or early seventeenth, and the banana was used in desserts in Europe at the beginning of the twentieth. The law of change was not less operative in antiquity. It was a commonplace of Roman rhetoric to contrast the crude simplicity of the Republic (509 BC–27 BC) with the luxury and refinement of the imperial times which followed. There is no common measure, whether of home, or house, or furniture, between ages which are so different.</p><p>Since a choice of time must necessarily be made, this history will confine itself to studying the generation which was born about the middle of the first century AD, toward the end of the reign of Claudius (41–54 AD) or the beginning of the reign of Nero (54–68 AD), and which lived on into the reign of Trajan (98–117 AD) and of Hadrian (117–138 AD). This generation saw the Roman Empire at its most powerful and prosperous. It was witness to the last conquests of the Caesars: the conquest of Dacia, in modern-day Eastern Europe, which brought vast mineral wealth into the Empire, and the conquest of Arabia, which helped to bring the riches of India and East Asia flooding into Rome. In the material domain, this generation attained the pinnacle of ancient civilization.</p><p>By a fortunate coincidence – all the more fortunate in that Latin literature was soon to run nearly dry – this generation is the one whose records combine to offer us the most complete picture of Roman life that we possess. We have a profusion of vivid and picturesque descriptions, precise and colourful, in such works as the Epigrams of Martial, the Satires of Juvenal, and the Letters of Pliny.</p><p>In addition, the Forum of Trajan in Rome itself and the ruins of Herculaneum and Pompeii, the two prosperous resorts buried by the eruption of Mount Vesuvius in 79 AD, supply an immense fund of archaeological evidence. Later excavations have also restored to us the ruins of the city of Ostia, which date in the main from the time when the Emperor Hadrian created this great commercial city as a realization of his town planning ideas. Fortune has favoured the historian of this time.</p><p>It is not enough to focus our study of Roman life only on a fixed time. It would lack foundation and consistency if we did not also focus it in space – in the country or in the town. Even today, when the facilities for communication bring something of the city into the smallest and most isolated country cottage, there remains a significant difference between rural existence and the excitement of city life: a much greater gulf separated the peasant from the townsman of antiquity.</p><p>So large was the inequality between them that, according to the historian Rostovtzeff, it pitted one against the other in a fierce and silent struggle which pierced the wall protecting the Roman privileged classes from the barbarian flood from the north. When the barbarian forces began to invade Roman territory, the peasants decided to fight alongside them.</p><p>The townsman, in fact, enjoyed all the goods and resources of the earth. The peasant knew nothing but unending labour without profit and was unable to enjoy the activities available in even the poorest of cities: the liveliness of the sports field, the warmth of the public baths, and the magnificence of public spectacles.</p><p>In a work on the history of everyday life, we must give up any attempt to blend two such dissimilar pictures into one and must choose between them. The time which we have chosen to describe day by day is that of those Roman subjects who spent their time exclusively in the town, or rather in The City, Rome, which they regarded as the hub and centre of the universe, proud and wealthy ruler of a world which seemed at that time to have been pacified forever.</p><p>To perform our task well, we must first try to form an adequate picture of the surroundings in which our subjects lived and by which their lives were coloured, freeing ourselves from any misconceptions concerning it. We must seek to reconstruct the physical nature of the great city and the social milieu of the various classes of the hierarchy by which it was governed. We must also investigate the moral background of thought and sentiment which can help explain both its strength and its weaknesses.</p><p>The way in which the Romans of Rome employed their time can only be studied satisfactorily after we have plotted out the main lines of the framework within which they lived and outside of which the routine of their daily life would be more or less unintelligible.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–30</h3>Choose the correct letter, <strong>A, B, C or D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "What does the writer say about the period mentioned in the second paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; There was a high level of immigration into Rome."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; The export of minerals made Rome rich."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; Rome sent armies to control trade with India and East Asia."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; The Roman standard of living reached its highest level."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "Ostia is mentioned as:",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; a city which often features in literature."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; an important area for archaeological research."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; the birthplace of a Roman Emperor."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; a city whose layout was similar to that of Rome."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "The statement that 'Fortune has favoured the historian of this time' refers to the fact that:",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; historians of this period have become wealthy as a result of their discoveries."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; works on this period are popular among the reading public."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; a wide range of sources is available for this period."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; this period has been less studied than many others."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "In comparing urban and rural life in the Roman Empire, the writer states that:",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A&nbsp; rural Romans were largely illiterate."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "B&nbsp; rural life and urban life had little in common."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "C&nbsp; little information is available concerning rural life."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "D&nbsp; most readers of history are more interested in city life."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 31–36</h3>Do the following statements agree with the claims of the writer in Reading Passage 3? In boxes 31–36, write<strong>YES</strong>&nbsp; if the statement agrees with the claims of the writer<br><strong>NO</strong>&nbsp; if the statement contradicts the claims of the writer<br><strong>NOT GIVEN</strong>&nbsp; if it is impossible to say what the writer thinks about this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 31,
+                "textHtml": "Rome's conquest of Arabia resulted in large-scale immigration from the east into Rome."
+              },
+              {
+                "number": 32,
+                "textHtml": "More can be learned about Roman life from the literature of the period studied in this book than from later Latin literature."
+              },
+              {
+                "number": 33,
+                "textHtml": "Discoveries at Herculaneum and Pompeii showed that certain beliefs about Roman life were wrong."
+              },
+              {
+                "number": 34,
+                "textHtml": "Roman peasants provided assistance to the Empire when it was attacked."
+              },
+              {
+                "number": 35,
+                "textHtml": "Rural inhabitants of the Roman Empire had a difficult life."
+              },
+              {
+                "number": 36,
+                "textHtml": "Entertainment facilities were limited to the city of Rome itself."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 37–40</h3>Complete the summary using the list of words, <strong>A–I</strong>, below.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>The scope of the writer's study</strong></p><p>It was important for the writer to limit several aspects of his {{37}}. He decided to focus on a limited {{38}} in Roman history and to concentrate on the section of the population who were {{39}}. The writer was interested in the physical environment, the people that ruled the country, and the {{40}} that contributed both to Rome's strength and to its weaknesses.</p></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "emperors"
+              },
+              {
+                "letter": "B",
+                "textHtml": "setting"
+              },
+              {
+                "letter": "C",
+                "textHtml": "values"
+              },
+              {
+                "letter": "D",
+                "textHtml": "peasants"
+              },
+              {
+                "letter": "E",
+                "textHtml": "city-dwellers"
+              },
+              {
+                "letter": "F",
+                "textHtml": "social classes"
+              },
+              {
+                "letter": "G",
+                "textHtml": "myths"
+              },
+              {
+                "letter": "H",
+                "textHtml": "period"
+              },
+              {
+                "letter": "I",
+                "textHtml": "investigation"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "do not require students to have a first degree in art history"
+        }
+      },
+      "2": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "In addition to a compulsory course on Theory and Methods"
+        }
+      },
+      "3": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "relate to the production of art and people's responses to it"
+        }
+      },
+      "5": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "The optional courses listed below are not available every year"
+        }
+      },
+      "6": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "will need to get permission from the relevant Course Tutor"
+        }
+      },
+      "7": {
+        "accepted": [
+          "fraudulent"
+        ],
+        "evidence": {
+          "snippet": "including works seen as genuine as well as works regarded as fraudulent"
+        }
+      },
+      "8": {
+        "accepted": [
+          "museums"
+        ],
+        "evidence": {
+          "snippet": "extensive use of trips to museums"
+        }
+      },
+      "9": {
+        "accepted": [
+          "Cubism"
+        ],
+        "evidence": {
+          "snippet": "at which point Cubism began to have a major impact"
+        }
+      },
+      "10": {
+        "accepted": [
+          "cinema"
+        ],
+        "evidence": {
+          "snippet": "The rise of new forms of image distribution, including cinema"
+        }
+      },
+      "11": {
+        "accepted": [
+          "workshop"
+        ],
+        "evidence": {
+          "snippet": "acted as assistants to a master painter in his workshop"
+        }
+      },
+      "12": {
+        "accepted": [
+          "vases"
+        ],
+        "evidence": {
+          "snippet": "Painting is studied through the designs painted on vases"
+        }
+      },
+      "13": {
+        "accepted": [
+          "travelers"
+        ],
+        "evidence": {
+          "snippet": "replicated in miniature for sale to travelers"
+        }
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "Clifford Saper of the Harvard Medical School has located a small area at the base of the brain"
+        }
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "killer whale mothers and their calves do not experience normal sleep at all"
+        }
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "here we have a creature which grows one of the largest brains in the animal kingdom"
+        }
+      },
+      "17": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "studying the behavior of the migratory birds Swainson's thrushes"
+        }
+      },
+      "18": {
+        "accepted": [
+          "body temperature"
+        ],
+        "evidence": {
+          "snippet": "help them keep their body temperature constant"
+        }
+      },
+      "19": {
+        "accepted": [
+          "sharks"
+        ],
+        "evidence": {
+          "snippet": "must constantly look out for sharks"
+        }
+      },
+      "20": {
+        "accepted": [
+          "rats"
+        ],
+        "evidence": {
+          "snippet": "Two weeks without sleep can kill laboratory rats"
+        }
+      },
+      "21": {
+        "accepted": [
+          "closed eyes"
+        ],
+        "evidence": {
+          "snippet": "closed eyes seem to be a virtually universal prerequisite for sleep"
+        }
+      },
+      "22": {
+        "accepted": [
+          "brain"
+        ],
+        "evidence": {
+          "snippet": "except for one critical organ, the brain"
+        }
+      },
+      "23": {
+        "accepted": [
+          "migration"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "while orcas are never as active as in the first months of life"
+        }
+      },
+      "25": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "scientists are unsure if reptiles and fish do"
+        }
+      },
+      "26": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "sleep is no more effective than a comparable period of wakeful resting"
+        }
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "this generation attained the pinnacle of ancient civilization"
+        }
+      },
+      "28": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "Later excavations have also restored to us the ruins of the city of Ostia"
+        }
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "this generation is the one whose records combine to offer us the most complete picture of Roman life"
+        }
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "a much greater gulf separated the peasant from the townsman of antiquity"
+        }
+      },
+      "31": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "the conquest of Arabia, which helped to bring the riches of India and East Asia flooding into Rome"
+        }
+      },
+      "32": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "all the more fortunate in that Latin literature was soon to run nearly dry"
+        }
+      },
+      "33": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "the peasants decided to fight alongside them"
+        }
+      },
+      "35": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "The peasant knew nothing but unending labour without profit"
+        }
+      },
+      "36": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "was unable to enjoy the activities available in even the poorest of cities"
+        }
+      },
+      "37": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "If our ideas on Roman life are not to become lost in confusion"
+        }
+      },
+      "38": {
+        "accepted": [
+          "H"
+        ],
+        "evidence": {
+          "snippet": "this history will confine itself to studying the generation"
+        }
+      },
+      "39": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "those Roman subjects who spent their time exclusively in the town"
+        }
+      },
+      "40": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "the moral background of thought and sentiment which can help explain both its strength and its weaknesses"
+        }
+      }
+    },
+    "sets": []
+  }
+}

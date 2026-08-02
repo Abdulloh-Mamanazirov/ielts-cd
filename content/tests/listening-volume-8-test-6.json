@@ -1,0 +1,598 @@
+{
+  "slug": "listening-volume-8-test-6",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-37m-59s-audio-joiner.com_202607/mix_37m59s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 8, Test 6",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Shipping of personal belongings</div><p>The company will transport:</p><ul><li>some electrical goods, e.g. a computer</li><li>a {{1}}</li></ul><p>The company will not transport:</p><ul><li>any single item weighing more than {{2}} kg</li><li>any {{3}} (for security reasons) or foods</li><li>anything in containers made of {{4}}</li></ul><p>Additional services:</p><ul><li>special deliveries</li><li>delivery on {{5}}</li><li>express delivery</li><li>organisation of {{6}}</li></ul><p>Example of price:</p><ul><li>for fifteen boxes and one violin sent from the UK to {{7}}</li><li>the cost would be about £ {{8}}</li></ul><p>Payment options:</p><ul><li>on the phone by debit or credit card, or in cash to the {{9}}</li></ul><p>Documentation needed:</p><ul><li>photocopy of {{10}}</li><li>insurance papers</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "cook with one particular ingredient"
+              },
+              {
+                "letter": "B",
+                "textHtml": "learn about food history"
+              },
+              {
+                "letter": "C",
+                "textHtml": "have individual cooking lessons"
+              },
+              {
+                "letter": "D",
+                "textHtml": "make meals for college students"
+              },
+              {
+                "letter": "E",
+                "textHtml": "prepare healthy meals"
+              },
+              {
+                "letter": "F",
+                "textHtml": "go on a guided walking tour"
+              },
+              {
+                "letter": "G",
+                "textHtml": "make time-saving meals"
+              },
+              {
+                "letter": "H",
+                "textHtml": "go on an afternoon bus tour"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Northern California"
+              },
+              {
+                "number": 12,
+                "textHtml": "Italy"
+              },
+              {
+                "number": 13,
+                "textHtml": "New Orleans"
+              },
+              {
+                "number": 14,
+                "textHtml": "Budget Feasts"
+              },
+              {
+                "number": 15,
+                "textHtml": "Cooking for Two"
+              },
+              {
+                "number": 16,
+                "textHtml": "Variations on a Theme"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              },
+              {
+                "letter": "J",
+                "textHtml": "J"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Oven"
+              },
+              {
+                "number": 18,
+                "textHtml": "Refrigerator"
+              },
+              {
+                "number": 19,
+                "textHtml": "Demonstration kitchen"
+              },
+              {
+                "number": 20,
+                "textHtml": "Utensil cabinet"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Adele read the article about Bitublocks because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it'll help her write an assignment."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "she has to present it at a seminar."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it's on her dissertation topic."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What does Adele think is the most innovative aspect of the manufacture of Bitublocks?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It uses entirely recycled materials."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It does not involve a chemical reaction."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It is such a simple process."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Ray was surprised to read that the Bitublocks are so",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "stable."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "light."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "absorbent."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What do both Adele and Ray say about the manufacture of Bitublocks?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Existing methods are used."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Cheap materials are used."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Only local materials are used."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;What insight did Ray get from reading about the hospital building?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how quickly UK building projects are growing"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "how poor UK construction materials are"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how much material the UK construction industry uses"
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;Adele thinks the research into the hospital was included in the article to show",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how much recycled material is currently used."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "ways to improve the levels of recycling."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "problems caused when using recycled materials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27 and 28</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "<strong>27 &amp; 28</strong> &nbsp;Which <strong>TWO</strong> things make Veggieblocks different from Bitublocks?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They are cheaper to produce."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They have a more acceptable colour."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They are simpler to manufacture."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They have problems with their smell."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "They can be more easily covered."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 29 and 30</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "<strong>29 &amp; 30</strong> &nbsp;Which <strong>TWO</strong> things about the future of the construction industry do Adele and Ray agree on?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Architects will be willing to use new materials."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Bitublocks will have a major impact."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The industry will change very fast."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Veggieblocks will become very popular."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Financial incentives will be an important influence."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–36</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>The archaeological site of Trimera</div><p>Location</p><ul><li>southern Europe</li><li>mountainous region overlooking a plain</li></ul><p>History</p><ul><li>12,000 years ago: hunter-gatherers lived in area</li><li>5,000 years ago: farmers lived on banks of the rivers</li><li>2,500 years ago: became a trade centre</li><li>300 BC: invaded by Greeks</li><li>100 BC: invaded by Romans — trade in grain, olives and {{31}}</li><li>518 AD: city abandoned following earthquake</li></ul><p>Rediscovery of site</p><ul><li>1706: French explorer believed the site was the remains of a {{32}}</li><li>19th century: a map was made of the site</li><li>1982: a complete {{33}} was made</li></ul><p>Excavation</p><ul><li>the {{34}} was the first place to be excavated</li><li>a number of {{35}} were discovered</li><li>evidence of a {{36}} industry was found</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 37–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><table class=\"q-table\"><tbody><tr><th colspan=\"3\">Important buildings</th></tr><tr><th>Building</th><th>Where</th><th>Notes</th></tr><tr><td>Doric House</td><td>Eastern area</td><td>inhabitants came here to collect {{37}}</td></tr><tr><td>Theatre</td><td>next to a stone {{38}}</td><td>capacity of 5,000</td></tr><tr><td>Stairway</td><td>south-western area</td><td>has sculptures of {{39}}</td></tr><tr><td>Roman Baths</td><td>central area</td><td>a statue of a Roman {{40}} was found</td></tr></tbody></table></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "bicycle"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "40",
+          "forty"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "liquids",
+          "liquid"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "plastic"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "saturdays",
+          "saturday"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "storage"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "sweden"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "575"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "driver",
+          "the driver"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "passport"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "pottery"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "castle"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "survey",
+          "a survey"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "market",
+          "the market"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "silver coins",
+          "silver coin"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "textile"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "water"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "bridge"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "lions",
+          "lion"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "emperor"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          27,
+          28
+        ],
+        "accepted": [
+          "B",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          29,
+          30
+        ],
+        "accepted": [
+          "A",
+          "E"
+        ]
+      }
+    ]
+  }
+}

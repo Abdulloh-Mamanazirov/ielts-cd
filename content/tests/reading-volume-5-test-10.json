@@ -1,0 +1,547 @@
+{
+  "slug": "reading-volume-5-test-10",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 5, Test 10",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Sorry – who are you?",
+        "passageHtml": "<p>Read the text and answer questions 1–13</p><p>Prosopagnosia is a medical condition that stops people from recognising people’s faces,</p><p>But how common is it and why does it happen?</p><p>It was Jacob Hodes’ first day at college. He can still recall spending an enjoyable afternoon being shown around campus by a second year student named Daniel Byrne, who happened to be from his home town. Jacob then spent the rest of the year ignoring him. “I never saw him again,” he says. “Well, I’m sure I walked past him plenty of times, but I just didn’t see him.” This behaviour wasn’t intentional. Jacob just couldn’t recollect what his fellow student looked like. He had had the same trouble all his life. Friends and relatives would greet him and he would have no idea who they were.</p><p>It wasn’t until five years ago that it all made sense. That was when Hodes was diagnosed with prosopagnosia, a condition that means he is unable to recognise faces. According to researchers, he is far from alone. In fact the condition is not that uncommon, but until a few years ago only a few dozen cases had ever been described, and all of these had been caused by brain injury. Recently, though, researchers identified a second form of face blindness, developmental prosopagnosia, which is either present from birth or develops very early in life.</p><p>In May, a team from Harvard University in the US and University College London (UCL) announced the results of a web survey of 1,600 people, suggesting that up to 2 per cent of people have some degree of face blindness. Then in August, Martina Gruter and colleagues at the Institute for Human Genetics in Munster, Germany, similarly reported that 2.5 per cent of 700 secondary school pupils they had tested had trouble recognising faces. The results of the survey took everyone by surprise.</p><p>It seems that if you have never known what it is to recognise a face, you don’t necessarily know that you are supposed to be able to. Prosopagnosics almost always know that they have trouble recognising people, but they often don’t realise that other people have better recognition skills than they do, says Brad Duchaine, a researcher at UCL.</p><p>Despite these issues, the majority of developmental prosopagnosics possess strategies that allow them to get around their difficulty, for instance, by recognising hair, clothing or a person’s way of speaking. So, unless they see a familiar person out of context, with a new hairstyle or in different clothes, they can recognise people just fine. Even so, the discovery of developmental prosopagnosia has attracted attention from neuroscientists keen to discover what is different about the brain of face-blind people. This difference, they believe, could help solve the problem of how the brain deals with information in general: not just visual data. In other words, it may show whether the brain has specialised parts for specific tasks or is more of a general-purpose information processor.</p><p>One issue, however, that will present challenges for researchers is that no two prosopagnosics are the same. Some have problems only with faces, while others have trouble with ordinary everyday objects and, so it turns out, animals which would normally be familiar as well. Some prosopagnosics can train themselves to recognise specific faces; others can’t even recognise their own in a mirror. When some have been tested they could identify the emotion which was conveyed on another’s face, even though the face itself seemed unfamiliar, while for other subjects this was an impossibility. Some cannot recognise the faces of old friends or fellow students but have no trouble telling whether a particular face from such groups would be attractive to most people. Because of this diversity, working out the cause of prosopagnosia will not be easy.</p><p>In Martina Gruter’s study, the prosopagnosics who agreed to have their parents and relatives tested reported at least one relative with the condition. Having looked at 38 cases in seven families, the German team believe they have good evidence that a single gene could be responsible. Duchaine also has some evidence that face blindness could be inherited, but thinks other factors might be more significant. He refers to studies of babies born with a condition which means the eye’s lens is not clear, and when it’s the left one, being unable to see through this eye during the first two months of life is a major risk factor for prosopagnosia.</p><p>Whatever the cause, what most prosopagnosics want to know is whether they can do anything to improve their face recognition skills. Joseph Degutis, a graduate student at the University of California, recently reported successfully training a severe developmental prosopagnosic to recognise faces during tests carried out in the laboratory. The subject also reported that recognising faces in everyday life became easier due to the training. Duchaine now plans to attempt to train sufferers to recognise the five people that they most need to know, maybe their immediate family, for example, and essential colleagues. Thomas Gruter, Martina Gruter’s husband, who also works on her team, however, is not convinced it will work. ‘I don’t know how you can have more training than you have already had,’ he says. ‘Humans already spend all day looking at faces.’ He also points out that cheating is a possibility during tests and provides an example. One person we studied said that when she was doing the face-recognition test, she memorised the distance between nose and upper lip. She wasn’t the only one. So you can perform well in the test and not do so well in real life.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–7</h3>Do the following statements agree with the information given in Reading Passage 1? In boxes 1-7, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Before attending college Jacob was capable of recognising people he knew well."
+              },
+              {
+                "number": 2,
+                "textHtml": "Researchers believe that prosopagnosia may be a growing problem."
+              },
+              {
+                "number": 3,
+                "textHtml": "It is harder to identify developmental prosopagnosia in babies than in young children."
+              },
+              {
+                "number": 4,
+                "textHtml": "A German study seems to support the Harvard and UCL research findings."
+              },
+              {
+                "number": 5,
+                "textHtml": "In general, prosopagnosics are aware that other people can recognise faces more easily than they can."
+              },
+              {
+                "number": 6,
+                "textHtml": "In most cases, prosopagnosics have developed ways to deal with their problem."
+              },
+              {
+                "number": 7,
+                "textHtml": "The study of prosopagnosia may help neuroscientists to treat different kinds of brain injury."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 8–13</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The challenges for prosopagnosia researchers</div><div>Differences in prosopagnosics<p>As well as being unable to recognise facial features, prosopagnosics may also have problems recognising:</p><ul><li>commonly seen {{8}} and objects</li><li>the {{9}} on someone else's face</li></ul><p>Some prosopagnosics can recognise that people are regarded as attractive by others.</p>Causes of prosopagnosia<p>Prosopagnosia may be caused by:</p><ul><li>just one {{10}} according to Martina Gruter</li><li>a defect in the {{11}} eye according to Brad Duchaine</li></ul>Treatment for prosopagnosia<p>Joseph Degutis' patient proved he had been successfully trained to recognise faces inside the {{12}} and in the outside world.</p><p>Duchaine's training may allow prosopagnosics to recognise faces belonging to family and workmates.</p><p>Thomas Gruter doubts that the training will work and mentions that {{13}} by some subjects can affect research results.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Mammoth Kill",
+        "passageHtml": "<p>Read the text and answer questions 14–26</p><p>What led to the disappearance of the giant mammals? Kate Wong examines the theories</p><p>Although it’s hard to imagine in this age of urban sprawl and automobiles, North America once belonged to huge, elephant-like mammoths, camels, bear-sized beavers and other giant beasts, collectively known as ‘megafauna’. Some 11,000 years ago, however, these large-bodied mammals - about 70 species in all - disappeared. Their demise coincided roughly with the arrival of humans in this continent and dramatic climate change - factors that have inspired several theories about the die off. Yet despite decades of scientific investigation, the exact cause remains a mystery. Now new findings offer support to one of these controversial hypotheses: that human hunting drove these huge ‘megafauna species’ to extinction.</p><p>This belief resulted in the overkill model which emerged in the 1960s, when it was put forth by Paul S Martin of the University of Arizona. Since then, critics have charged that no archaeological remains exist to support the idea that the first Americans hunted to the extent necessary to cause these extinctions. But at the annual meeting of the Society of Vertebrate Paleontology in Mexico City in October 1999, specialist John Alroy of the University of California at Santa Barbara argued that in fact, hunting-driven extinction is not only plausible, it was unavoidable. He has determined, using a computer simulation, that even a very modest amount of hunting would have wiped out these animals.</p><p>Assuming an initial human population of 100 people that grew no more than two per cent annually, Alroy determined that, if each band of, say, 50 people killed 15 to 20 large animals a year, humans could have eliminated the animal populations within 1,000 years. Large mammals in particular would have been vulnerable to the pressure because they have longer gestation periods than smaller mammals and their young require extended care.</p><p>However, not everyone agrees with Alroy’s assessment. For one thing, the results depend on population size estimates for the extinct animals - estimates that are not necessarily reliable. But a more specific criticism comes from mammal expert Ross D E Macphee of the American Museum of Natural History in New York City, who points out that the relevant archaeological record contains barely a dozen examples of stone points embedded in mammoth bones (and none, it should be noted, are known from other megafaunal remains) - hardly what one might expect if hunting drove these animals to extinction. Furthermore, some of these species had a vast range, covering the whole continent - the Jefferson’s Ground Sloth, for example, lived as far north as the Yukon and as far south as Mexico - which would have made hunting them in numbers sufficient to cause their extinction rather unlikely, he says.</p><p>Macphee agrees that humans most likely brought about these extinctions (as well as others around the world that coincided with human arrival), but not directly. Rather than through hunting, he suggests that people may have introduced a deadly disease, perhaps through their dogs or accompanying vermin, which then spread wildly among the native species because of their low resistance to the new introductions. Repeated outbreaks of a deadly disease could thus quickly drive them to the point of no return. So far, Macphee does not have empirical evidence for this theory, and it will not be easy to come by: such disease would kill far too quickly to leave its signature on the bones themselves. But he hopes that analyses of tissue and DNA from the most recent animal remains will eventually reveal the microbes responsible.</p><p>The third explanation for what brought on this North American extinction does not involve human beings. Instead, its proponents blame the loss on the climate. The Pleistocene epoch in question witnessed considerable climate instability, explains Russell W Graham of the Denver Museum of Nature and Science. As a result, their regular habitats disappeared, and species that had once formed communities split apart. For some animals, this brought opportunity. For much of the megafauna, however, the increasingly uniform terrain left them with shrinking geographical ranges - a death sentence for large animals, which need correspondingly large ranges. Although these creatures managed to maintain viable populations through most of the Pleistocene period, the final major climate fluctuation pushed them over the edge, Graham says.</p><p>For his part, Alroy is still convinced that human hunters were the destroyers of the giant animals. The overkill model explains everything the disease and climate scenarios explain, he asserts, and in addition makes accurate predictions about which species would eventually become extinct.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 14–20</h3>Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p>Three theories have been put forward to explain the disappearance of the different species of large mammals that inhabited {{14}} 11,000 years ago. The {{15}}, proposed around fifty years ago by Paul S Martin, blames {{16}} by people for mass extinction. Computer calculations seem to support this explanation, but critics question the reliability of the figures they are based on. The second theory suggests that humans introduced a {{17}} which wiped out the large mammals. However, so far this theory also lacks any {{18}}. The final theory suggests that this period experienced significant {{19}} which eventually led to the loss of habitat and to the division of the {{20}} that some of the large mammals had organized.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 21–26</h3>Look at the following statements (Questions 21-26) and the list of people below. Match each statement with the correct person, <strong>A, B or C</strong>.<strong>NB</strong>&nbsp; You may use any letter more than once.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "John Alroy"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Ross D E Macphee"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Russell W Graham"
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Too little evidence exists to support the hunting theory."
+              },
+              {
+                "number": 22,
+                "textHtml": "The bigger the animal, the bigger the territory it requires for survival."
+              },
+              {
+                "number": 23,
+                "textHtml": "Globally, humans have been indirectly responsible for the elimination of many species."
+              },
+              {
+                "number": 24,
+                "textHtml": "Population estimates can be used to understand how large mammals become extinct."
+              },
+              {
+                "number": 25,
+                "textHtml": "Scientific examination of fossil remains may provide some proof for one of the theories."
+              },
+              {
+                "number": 26,
+                "textHtml": "Environmental changes negatively affected the social groupings of some large species."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Keeping the fun in funfairs",
+        "passageHtml": "<p>Read the text and answer questions 27–40</p><p><strong>A</strong>&nbsp; <em>(Example: vii)</em>&nbsp; Fun is becoming a tricky issue for ride designers. In order to increase excitement, they have been ramping up the accelerations to create the most dizzying forces possible. But getting it right is far from easy. Err on the side of caution and people won’t bother with a second ride. Go too far, however, and they may not be able to. Experts realise we are now at the limit of how much acceleration a human body can take, and designers are finding it hard to think up ways of keeping the public coming back for more. The problem is that true innovation has been lacking for a while, and fairground rides have become more about survival than actual enjoyment. So if our thrill-seeking bodies can really take no more, what’s going to keep dragging us back to amusement parks? Creating something new and exciting, yet safe, is going to take some careful thought.</p><p><strong>B</strong>&nbsp; When the Disney Corporation asked German designer Walter Stengel to design a giant loop ride for them in the 1970s, he went to NASA, the aeronautics and space foundation, to discover the effects of sustained acceleration on the pilots. NASA’s research suggests that the maximum level we can endure is 9 g, g being the standard unit of acceleration due to gravity. Go much beyond that and pilots pass out. Go further still and they suffer serious internal damage. So Stengel decided that the maximum vertical acceleration for the public should be 6, and then only for a second or so. What’s more, he put firm restrictions on the rate at which acceleration can increase - you’ll never go down a 45 degree ramp into a tight circular loop, for instance.</p><p><strong>C</strong>&nbsp; But stricter safety limits only intensify the need to search for novel ways to thrill customers. Part of the problem is that no matter how exciting an attraction is, after a few goes the passengers will have some idea of what to expect. The next stage in designing rides, however, could throw predictability out of the window. This step has already been taken in the most recent waltzers, or tea-cup rides. Ride a waltzer and you sit in a car that spins on its own axis. The car is on a huge platform that also rotates. In the past you could take comfort from the fact that the spin was tightly controlled by gears that turned your car at a rate determined by the rotation speed of the whole ride. But the latest generation of waltzer cars spin freely, at a rate determined by the weight and position of the people in them. So you never have the same experience twice. “People seem to like these ‘chaotic rides’,” says Stengel.</p><p><strong>D</strong>&nbsp; Although seemingly a passport to endless thrills, chaos does have one rather obvious drawback: it’s unpredictable. Despite complex calculations, designers can never be completely sure that something odd won’t happen, especially since freely turning systems occasionally hit a resonance frequency. For example, if pushed at a particular frequency, a child on a swing would go over the top of the swing’s frame. Similarly, if you drive a revolving waltzer car at its resonance frequency it could speed up uncontrollably. This could be very hazardous, according to Stengel. Hence, a ride is subjected to unforeseen stresses, no one can guarantee that it will be able to cope.</p><p><strong>E</strong>&nbsp; No one even knows what the safe limits of rotational force are, let alone its effect on the human body. Stengel has worked with the German Air Force, rotating volunteers head over heels while also making them cartwheel or pirouette like a ballet dancer. It emerged that if the pilots were turned on all three axes simultaneously, they became so nauseous they almost blacked out, and when they got off they couldn’t walk. But what Stengel found particularly puzzling was that they also developed headaches and other problems about two days later. Since these effects aren’t understood, he tries to limit how people on his rides are rotated. “We want to provide fun, not pain.”</p><p><strong>F</strong>&nbsp; With that goal in mind, Stengel feels that flinging people around in ever more chaotic machines is no longer the way forward. He believes that the sequence of accelerations, not their size, is what counts, and that the way to make rides more fun is to put people through a carefully designed succession of relatively small accelerations. Other experts in this field agree, and it seems likely that designers could formulate profiles even for existing attractions that would lead to higher amusement value. Recent experiments testing the tolerances of Dutch military pilots to a range of accelerations have shown that tumbling around in machines doesn’t have to be unpleasant. When the force is kept low, the subjects actually enjoy the experience.</p><p><strong>G</strong>&nbsp; The fun seems to come from the unforeseen, particularly when an effect called the Coriolis Illusion comes into play. This is an agreeable tumbling feeling which occurs, for example, when the head is suddenly tilted while the subject is spinning with eyes closed. It appears that a roll which includes, for instance, an unexpected change of acceleration from a small negative g - a feeling of weightlessness - to a small positive g - a slight crushing sensation - has an extraordinary effect on people. If the theories of Stengel and other experts really do work, fairground fun might one day be measured in smiles, not screams.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 27–32</h3>Reading Passage 3 has seven paragraphs, <strong>A-G</strong>. Choose the correct heading for paragraphs B-G from the list of headings below. Write the correct number, <strong>i-viii</strong>, in boxes 27-32 on your answer sheet.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Less is more"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Research can't guarantee safety"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Unexplained symptoms"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Setting the limits of acceleration"
+              },
+              {
+                "letter": "E",
+                "textHtml": "The irresistible appeal of speed"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Gentle surprises"
+              },
+              {
+                "letter": "G",
+                "textHtml": "A difficult task"
+              },
+              {
+                "letter": "H",
+                "textHtml": "A different ride every time"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 28,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 29,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 30,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 31,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 32,
+                "textHtml": "Paragraph <strong>F</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 33–37</h3>Complete the sentences below. Choose <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>33.</strong>&nbsp; Some attractions, such as the new type of waltzers, depend on both the {{33}} of their passengers in order to create a variety of ride experiences.</p></div><div><p><strong>34.</strong>&nbsp; Designers need to be aware that a “chaotic” ride could accelerate at a violent rate if it reaches its {{34}}.</p></div><div><p><strong>35.</strong>&nbsp; Research has shown that people will begin to feel ill if they are subjected to movement on all {{35}} at the same time.</p></div><div><p><strong>36.</strong>&nbsp; Volunteers in Stengel's rotation tests suffered delayed reactions such as {{36}}.</p></div><div><p><strong>37.</strong>&nbsp; A phenomenon known as the {{37}} produced a pleasurable sensation in test subjects.</p></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 38–40</h3>Do the following statements agree with the claims of the writer in Reading Passage 3? In boxes 38-40, write<strong>YES</strong>&nbsp; if the statement agrees with the claims of the writer<br><strong>NO</strong>&nbsp; if the statement contradicts the claims of the writer<br><strong>NOT GIVEN</strong>&nbsp; if it is impossible to say what the writer thinks about this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 38,
+                "textHtml": "There is still a lot to be learnt about the rates of acceleration which people can withstand."
+              },
+              {
+                "number": 39,
+                "textHtml": "Children enjoy funfairs more than adults."
+              },
+              {
+                "number": 40,
+                "textHtml": "Current rides could probably be adapted to become more enjoyable."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "He had had the same trouble all his life"
+        }
+      },
+      "2": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "The results of the survey took everyone by surprise"
+        }
+      },
+      "3": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "similarly reported that 2.5 per cent of 700 secondary school pupils they had tested had trouble recognising faces"
+        }
+      },
+      "5": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "Prosopagnosics almost always know that they have trouble recognising people"
+        }
+      },
+      "6": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "the majority of developmental prosopagnosics possess strategies that allow them to get around their difficulty"
+        }
+      },
+      "7": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "could help solve the problem of how the brain deals with information in general"
+        }
+      },
+      "8": {
+        "accepted": [
+          "animals"
+        ],
+        "evidence": {
+          "snippet": "have trouble with ordinary everyday objects and, so it turns out, animals which would normally be familiar as well"
+        }
+      },
+      "9": {
+        "accepted": [
+          "emotion"
+        ],
+        "evidence": {
+          "snippet": "When some have been tested they could identify the emotion which was conveyed on"
+        }
+      },
+      "10": {
+        "accepted": [
+          "gene"
+        ],
+        "evidence": {
+          "snippet": "the German team believe they have good evidence that a single gene could be responsible"
+        }
+      },
+      "11": {
+        "accepted": [
+          "left"
+        ],
+        "evidence": {
+          "snippet": "being unable to see through this eye during the first two months of life is a major risk factor for prosopagnosia"
+        }
+      },
+      "12": {
+        "accepted": [
+          "laboratory"
+        ],
+        "evidence": {
+          "snippet": "recently reported successfully training a severe developmental prosopagnosic to recognise faces during tests carried out in the laboratory"
+        }
+      },
+      "13": {
+        "accepted": [
+          "cheating"
+        ],
+        "evidence": {
+          "snippet": "He also points out that cheating is a possibility during tests and provides an example"
+        }
+      },
+      "14": {
+        "accepted": [
+          "North America"
+        ],
+        "evidence": {
+          "snippet": "North America once belonged to huge, elephant-like mammoths, camels, bear-sized beavers and other giant beasts"
+        }
+      },
+      "15": {
+        "accepted": [
+          "overkill model"
+        ],
+        "evidence": {
+          "snippet": "This belief resulted in the overkill model which emerged in the 1960s, when it was put forth by Paul S Martin of the University of Arizona"
+        }
+      },
+      "16": {
+        "accepted": [
+          "hunting"
+        ],
+        "evidence": {
+          "snippet": "that human hunting drove these huge"
+        }
+      },
+      "17": {
+        "accepted": [
+          "deadly disease"
+        ],
+        "evidence": {
+          "snippet": "Rather than through hunting, he suggests that people may have introduced a deadly disease"
+        }
+      },
+      "18": {
+        "accepted": [
+          "empirical evidence"
+        ],
+        "evidence": {
+          "snippet": "So far, Macphee does not have empirical evidence for this theory"
+        }
+      },
+      "19": {
+        "accepted": [
+          "climate instability"
+        ],
+        "evidence": {
+          "snippet": "The Pleistocene epoch in question witnessed considerable climate instability"
+        }
+      },
+      "20": {
+        "accepted": [
+          "communities"
+        ],
+        "evidence": {
+          "snippet": "species that had once formed communities split apart"
+        }
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "the relevant archaeological record contains barely a dozen examples of stone points embedded in mammoth bones"
+        }
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "large animals, which need correspondingly large ranges"
+        }
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "Macphee agrees that humans most likely brought about these extinctions"
+        }
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "Alroy determined that, if each band of, say, 50 people killed 15 to 20 large animals a year, humans could have eliminated the animal populations within 1,000 years"
+        }
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "he hopes that analyses of tissue and DNA from the most recent animal remains will eventually reveal the microbes responsible"
+        }
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "As a result, their regular habitats disappeared"
+        }
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "So Stengel decided that the maximum vertical acceleration for the public should be 6, and then only for a second or so"
+        }
+      },
+      "28": {
+        "accepted": [
+          "H"
+        ],
+        "evidence": {
+          "snippet": "So you never have the same experience twice"
+        }
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "Although seemingly a passport to endless thrills, chaos does have one rather obvious drawback"
+        }
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "No one even knows what the safe limits of rotational force are, let alone its effect on the human body"
+        }
+      },
+      "31": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "the way to make rides more fun is to put people through a carefully designed succession of relatively small accelerations"
+        }
+      },
+      "32": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "fairground fun might one day be measured in smiles, not screams"
+        }
+      },
+      "33": {
+        "accepted": [
+          "weight and position"
+        ],
+        "evidence": {
+          "snippet": "spin freely, at a rate determined by the weight and position of the people in them"
+        }
+      },
+      "34": {
+        "accepted": [
+          "resonance frequency"
+        ],
+        "evidence": {
+          "snippet": "if you drive a revolving waltzer car at its resonance frequency it could speed up uncontrollably"
+        }
+      },
+      "35": {
+        "accepted": [
+          "three axes"
+        ],
+        "evidence": {
+          "snippet": "if the pilots were turned on all three axes simultaneously, they became so nauseous they almost blacked out"
+        }
+      },
+      "36": {
+        "accepted": [
+          "headaches"
+        ],
+        "evidence": {
+          "snippet": "they also developed headaches and other problems about two days later"
+        }
+      },
+      "37": {
+        "accepted": [
+          "Coriolis Illusion"
+        ],
+        "evidence": {
+          "snippet": "The fun seems to come from the unforeseen, particularly when an effect called the Coriolis Illusion comes into play"
+        }
+      },
+      "38": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "he went to NASA, the aeronautics and space foundation, to discover the effects of sustained acceleration on the pilots"
+        }
+      },
+      "39": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "it seems likely that designers could formulate profiles even for existing attractions that would lead to higher amusement value"
+        }
+      }
+    },
+    "sets": []
+  }
+}

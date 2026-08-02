@@ -1,0 +1,583 @@
+{
+  "slug": "listening-volume-9-test-6",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/vol-9-test-6-audio/VOL%209%20TEST%206%20AUDIO.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 9, Test 6",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Kiwi Air Customer Complaint Form</div><p>Booking Details</p><ul><li>Name: Janet {{1}}</li><li>Ticket details: one adult and three children (Wellington to Christchurch) — four {{2}} tickets</li><li>Flight details: November 10th–15th</li><li>Time: departing at {{3}} am</li></ul><p>Details of the Problem</p><ul><li>the website changes the rate for one child</li><li>the website keeps giving the customer {{4}} messages</li></ul><p>Customer informed that Kiwi Air policy:</p><ul><li>allows no more than {{5}} child fares per adult (domestic flights only)</li></ul><p>Customer's Reasons for Complaint</p><ul><li>none of her children are {{6}} years old or older</li><li>child passengers require less {{7}}</li><li>the rule is unfair for large families and {{8}} groups</li></ul><p>Customer Invited to Send Written Complaint</p><ul><li>letter to go to the {{9}}</li><li>reply predicted within a week</li></ul><ul><li>Reference number: {{10}}</li></ul></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–14</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;When was the first apartment complex completed?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "1 year ago"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "3 years ago"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "5 years ago"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What does the manager say he enjoys most about the job?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "resolving problems between residents"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "dealing with financial matters"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "organizing building maintenance"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;Regarding restrictions in the complex, the manager says",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "only some types of flowers can be planted"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "only the interiors of apartments can be painted"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "only certain colors can be used on the walls"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What does the manager ask residents to do for the welcome party?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "bring food"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "prepare name tags"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "decorate the hall"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              },
+              {
+                "letter": "J",
+                "textHtml": "J"
+              },
+              {
+                "letter": "K",
+                "textHtml": "K"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Shop"
+              },
+              {
+                "number": 16,
+                "textHtml": "Barbecue area"
+              },
+              {
+                "number": 17,
+                "textHtml": "Childcare centre"
+              },
+              {
+                "number": 18,
+                "textHtml": "Laundry"
+              },
+              {
+                "number": 19,
+                "textHtml": "Recreation room"
+              },
+              {
+                "number": 20,
+                "textHtml": "Hall"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Izzy believes the 'safety bicycle' is significant because it was",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "specifically made for children to use."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the first bicycle to be similar to modern bicycles."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "designed to travel at higher speeds than previous models."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What effect of bicycles on the 19th-century working classes does Max want to highlight?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how people spent their free time"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "where people were employed"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the way people found romantic partners"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What will Max and Izzy stress about attitudes to bicycles in the 20th century?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The popularity of cars reduced the status of bicycles in the 1950s."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "New designs led to an increase in sales of bicycles in the 1960s."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "An interest in fitness promoted demand for bicycles in the 1980s."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What does Max say about a scheme to provide free bikes to school pupils?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He wants to see more evidence of its benefits."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He thinks it could cost the government a lot of money."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He questions whether all parents would support it."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Cycling is a convenient way to travel."
+              },
+              {
+                "letter": "B",
+                "textHtml": "Bikes are environmentally friendly."
+              },
+              {
+                "letter": "C",
+                "textHtml": "Riding a bike can be a social activity."
+              },
+              {
+                "letter": "D",
+                "textHtml": "Bikes are a cheap form of transport."
+              },
+              {
+                "letter": "E",
+                "textHtml": "Cycling is a way to spend time outdoors."
+              },
+              {
+                "letter": "F",
+                "textHtml": "Riding a bike is good for mental health."
+              },
+              {
+                "letter": "G",
+                "textHtml": "Riding a bike is good exercise."
+              },
+              {
+                "letter": "H",
+                "textHtml": "Cycling can be done by all ages."
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "David"
+              },
+              {
+                "number": 26,
+                "textHtml": "Marlene"
+              },
+              {
+                "number": 27,
+                "textHtml": "Annabelle"
+              },
+              {
+                "number": 28,
+                "textHtml": "Rashid"
+              },
+              {
+                "number": 29,
+                "textHtml": "Sai"
+              },
+              {
+                "number": 30,
+                "textHtml": "Giovanni"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>The Patagon People of South America</div><p>Clothing</p><ul><li>one type of coat is culturally important</li><li>young guanaco were used to make the coats because of their {{31}} skin</li><li>men hunted the guanaco</li><li>women sewed the skins together into coats</li><li>scrapers made from {{32}} are today displayed in museums</li><li>colours from natural {{33}} were used</li></ul><p>The Arrival of the Spanish</p><ul><li>more guanaco were caught because of the use of the {{34}} for hunting</li><li>coats played a {{35}} role rather than just being for personal use</li><li>new materials such as {{36}} improved the scraping process</li></ul><p>Conclusions</p><ul><li>coat designs date from pre-historic times — similar designs are found inside {{37}}</li><li>coat designs may have been a link with people's {{38}}</li><li>large Patagon settlements were not built on the {{39}}</li><li>shepherds still make {{40}} using similar techniques</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "quigley"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "return"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "11:45",
+          "11.45",
+          "eleven forty five"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "error",
+          "error message",
+          "error messages"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "2",
+          "two"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "12",
+          "twelve"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "food"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "school",
+          "school groups"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "manager",
+          "the manager"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "gbk8422"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "soft"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "stones",
+          "stone"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "minerals",
+          "mineral"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "horse",
+          "horses"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "commercial"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "glass"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "caves",
+          "cave"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "ancestors",
+          "ancestor"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "coast"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "blankets",
+          "blanket"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

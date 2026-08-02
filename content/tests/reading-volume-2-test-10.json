@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 2, Test 10",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -355,27 +355,42 @@
       "2": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Every eight years or so, that figure rose to almost 3,000 cubic metres"
+        }
       },
       "3": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "those tributaries are not powerful enough to distribute the sediment in an ecologically valuable way"
+        }
       },
       "4": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "But trout and chub co-existed until the Glen Canyon dam was built, so something else is going on"
+        }
       },
       "5": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "To start with, all seemed well"
+        }
       },
       "6": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "this flood is smaller than even an average spring flood"
+        }
       },
       "7": {
         "accepted": [
@@ -385,52 +400,82 @@
       "8": {
         "accepted": [
           "spring"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Spring Snow from as far away as Wyoming would melt"
+        }
       },
       "9": {
         "accepted": [
           "sediment"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the only sediment that it has collected has come from tiny, undammed tributaries"
+        }
       },
       "10": {
         "accepted": [
           "razorback sucker"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the Colorado pike-minnow, the razorback sucker and the round-tail chub"
+        }
       },
       "11": {
         "accepted": [
           "common carp"
-        ]
+        ],
+        "evidence": {
+          "snippet": "fathead minnows, channel catfish and common carp"
+        }
       },
       "12": {
         "accepted": [
           "visibility"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The chub were well adapted to the poor visibility"
+        }
       },
       "13": {
         "accepted": [
           "sand"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the volume of sand available behind the dam was too low to rebuild the sandbanks"
+        }
       },
       "14": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Football is another illustration of the star vs systems strategic choice"
+        }
       },
       "15": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Enron believed in stars, noted author Malcolm Gladwell, because they didn't believe in systems"
+        }
       },
       "16": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "how do you compete in the war for talent? You grow your own"
+        }
       },
       "17": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "One respondent likened hiring a star to an organ transplant"
+        }
       },
       "18": {
         "accepted": [
@@ -440,115 +485,181 @@
       "19": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the reason the government has laid out the welcome mat for immigrants from the new Europe"
+        }
       },
       "20": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "so convinced of their own cleverness that they never twigged that collective intelligence is not the sum"
+        }
       },
       "21": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "put much more emphasis on developing a setting within which stars-in-the-making can flourish"
+        }
       },
       "22": {
         "accepted": [
           "analysts",
           "star-stock analysts"
-        ]
+        ],
+        "evidence": {
+          "snippet": "In a study of the careers of 1,000 star-stock analysts"
+        }
       },
       "23": {
         "accepted": [
           "performance star",
           "star performer",
           "star"
-        ]
+        ],
+        "evidence": {
+          "snippet": "when a company recruited a star performer"
+        }
       },
       "24": {
         "accepted": [
           "working environment"
-        ]
+        ],
+        "evidence": {
+          "snippet": "More of success than commonly supposed is due to the working environment"
+        }
       },
       "25": {
         "accepted": [
           "salary"
-        ]
+        ],
+        "evidence": {
+          "snippet": "So they moved, upping their salary as they did"
+        }
       },
       "26": {
         "accepted": [
           "rivals"
-        ]
+        ],
+        "evidence": {
+          "snippet": "tensions and resentment by rivals within the team"
+        }
       },
       "27": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the quality of those interactions improved steadily over 27 sessions"
+        }
       },
       "28": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Another robotlike toy named Robby, which resembled QRIO but did not move"
+        }
       },
       "29": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they have only been able to hold human interest for a limited time"
+        }
       },
       "30": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The most important aspect of interaction was touch"
+        }
       },
       "31": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Now this study has taken a new direction"
+        }
       },
       "32": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the 23-inch-tall (58-centimeter-tall) machine was originally developed by Sony"
+        }
       },
       "33": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "this is the first long-term study of this sort"
+        }
       },
       "34": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "in short time we'll have electronic baby-sitters and peer-robots in every kindergarten"
+        }
       },
       "35": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "by the end they treated the robot as a peer rather than a toy"
+        }
       },
       "36": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "It is groundbreaking and helps to forward human-robot interaction studies"
+        }
       },
       "37": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "social robots like QRIO could greatly enrich classrooms and assist teachers"
+        }
       },
       "38": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the 23-inch-tall (58-centimeter-tall) machine"
+        }
       },
       "39": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "do things like giggle, dance, sit down, or walk in a certain direction"
+        }
       },
       "40": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "treat it more like a peer than an object during the first 11 sessions"
+        }
       }
     },
     "sets": []

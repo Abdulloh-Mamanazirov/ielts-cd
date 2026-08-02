@@ -1,0 +1,561 @@
+{
+  "slug": "listening-volume-7-test-1",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 7, Test 1",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Wedding arrangements — Clarence House Hotel</div><p>Available date: 1st June</p><p>The Oxford Suite has:</p><ul><li>a dining room with a good view of the {{1}}</li><li>a private garden for {{2}} and for the wedding ceremony</li><li>an area suitable for dancing</li></ul><p>The wedding package includes:</p><ul><li>use of the Oxford Suite</li><li>a three-course meal</li><li>room arranged with {{3}} tables</li><li>table {{4}} included</li><li>white tablecloths and chairs</li><li>personalised printed {{5}}</li><li>a late-evening buffet with a choice of {{6}} and hot drinks</li></ul><p>Music: hotel will organise a band (not included in price)</p><p>Total cost of package: £ {{7}}</p><p>Can also recommend a {{8}} supplier (new company)</p><p>Wedding coordinator: Sarah {{9}}</p><p>Date arranged for visit: {{10}} at 11.30 a.m.</p></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "pure"
+              },
+              {
+                "letter": "B",
+                "textHtml": "expensive"
+              },
+              {
+                "letter": "C",
+                "textHtml": "perfumed"
+              },
+              {
+                "letter": "D",
+                "textHtml": "best value for money"
+              },
+              {
+                "letter": "E",
+                "textHtml": "imported"
+              },
+              {
+                "letter": "F",
+                "textHtml": "made in the village"
+              },
+              {
+                "letter": "G",
+                "textHtml": "popular overseas"
+              },
+              {
+                "letter": "H",
+                "textHtml": "prize-winning"
+              },
+              {
+                "letter": "I",
+                "textHtml": "coloured"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "hand cream"
+              },
+              {
+                "number": 12,
+                "textHtml": "jam"
+              },
+              {
+                "number": 13,
+                "textHtml": "soaps"
+              },
+              {
+                "number": 14,
+                "textHtml": "candles"
+              },
+              {
+                "number": 15,
+                "textHtml": "ice cream"
+              },
+              {
+                "number": 16,
+                "textHtml": "shampoo"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Wood"
+              },
+              {
+                "number": 18,
+                "textHtml": "China"
+              },
+              {
+                "number": 19,
+                "textHtml": "Wool"
+              },
+              {
+                "number": 20,
+                "textHtml": "Drinks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Jen states that Irene has recently",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "finished planting the experiment."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "taken an extended break."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "spent a lot of time in the laboratory."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What is Bill's attitude toward Kim?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He is grateful for her contribution."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He thinks she is stylish."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He resents her avoiding lab work."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Jen believes that their project",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "would be easier for boys good at maths."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "would fail without Kim and Irene's input."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "is almost done because Kim has finished the data analysis."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Bill and Jen are irritated with Linda because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "she is always late with her work."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "she fails to keep in touch enough."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "she thinks the project is an easy grade."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;Jen was asked to join the team because she",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "is popular with everyone on the team."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "always reads all of her assignments."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "enjoys talking to Professor Cooper."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Abstract"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Acknowledgements"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Bibliography"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Discussion"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Literature review"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Methodology"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Results"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "Irene"
+              },
+              {
+                "number": 27,
+                "textHtml": "Kim"
+              },
+              {
+                "number": 28,
+                "textHtml": "Jen"
+              },
+              {
+                "number": 29,
+                "textHtml": "Bill"
+              },
+              {
+                "number": 30,
+                "textHtml": "Linda"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Impact of cars in Australia (1940s – 1990s)</div><p>1940s</p><ul><li>one person in eight owned a car</li><li>{{31}} transport was used for 60% of journeys</li><li>buses: problems — crowded and {{32}}</li><li>advantage — affordable</li><li>cars were associated with {{33}}</li><li>problems of car ownership: <ul><li>cost</li><li>many spare parts were imported</li><li>result of pressure from motorists — new {{34}} in Australia in 1949</li></ul></li></ul><p>1960s</p><ul><li>cars were cheaper and more reliable</li><li>more people had restrictions on fuel <ul><li>high {{35}} on cars</li></ul></li><li>lived in the suburbs</li><li>main streets were congested and {{36}} (and usually straight)</li><li>new streets were built with curves to make drivers slow down</li></ul><p>1970s</p><ul><li>roads had more {{37}}</li><li>more commuters</li><li>car use affected the {{38}} between people</li><li>new types of {{39}} were designed to attract motorists</li></ul><p>1980s and 1990s</p><ul><li>less business in town centres because of introduction of {{40}}</li><li>introduction of drive-in facilities, e.g. restaurants</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "city"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "photos",
+          "photo"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "round"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "decorations",
+          "decoration"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "menu",
+          "menus"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "sandwiches",
+          "sandwich"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "5995"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "cake"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "izard"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "15 october",
+          "15th october",
+          "october 15",
+          "october 15th"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "public"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "uncomfortable"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "freedom"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "taxes",
+          "tax"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "government"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "polluted"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "lanes",
+          "lane"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "relationships",
+          "relationship"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "advertisements",
+          "advertisement",
+          "adverts"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "shopping malls",
+          "shopping mall"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

@@ -1,0 +1,763 @@
+{
+  "slug": "reading-volume-5-test-3",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 5, Test 3",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Listening to the Ocean",
+        "passageHtml": "<p>Read the text and answer questions 1–13</p><p>The results of some recent research answer some long-standing questions</p><p><strong>A</strong>&nbsp; The oceans cover more than 70 per cent of the planet's surface, yet until quite recently we knew less about their depths than about the surface of the Moon. The Moon has been far more accessible to study because astronomers have long been able to look at its surface, first with the naked eye and then with the telescope, both instruments that focus light. Until the twentieth century, however, no instruments were available for the study of Earth's oceans: light, which can travel trillions of kilometers through the vast vacuum of space, cannot penetrate very far in seawater.</p><p><strong>B</strong>&nbsp; It turns out that for penetrating water the best instrument is sound. Curious investigators have long been fascinated by sound and the way it travels in water. As early as 1490, the artist and scientist Leonardo da Vinci observed: 'If you cause your ship to stop and place the head of a long tube in the water and place the outer extremity to your ear, you will hear ships at a great distance from you.' It was not until 1826 that two scientists, Colladon and Sturm, accurately measured the speed of sound in water. Using a long tube to listen under water (as da Vinci had suggested), they recorded how fast the sound of a submerged bell traveled across Lake Geneva in Switzerland. What these investigators demonstrated was that water is an excellent medium for sound, transmitting it almost five times faster than its speed in air.</p><p><strong>C</strong>&nbsp; A number of factors influence how far sound travels under water and how long it lasts, including particles, salinity, temperature and pressure. Particles in seawater can reflect, scatter and absorb certain frequencies of sound, just as certain wavelengths of light may be reflected, scattered and absorbed by specific types of particles in the atmosphere. In 1943, Maurice Ewing and J L Worzel conducted an experiment to test the theory that low-frequency waves, which are less vulnerable than higher frequencies to scattering and absorption, should be able to travel great distances, if the sound source is placed correctly. The researchers set off an underwater explosion and learned that it was detected easily by receivers 3,200 kilometers away. In analyzing the results of this test, they discovered a kind of sound 'pipeline', known as the 'deep sound channel'. Sound introduced into this channel of water could travel thousands of kilometers with minimal loss of signal.</p><p><strong>D</strong>&nbsp; The US Navy was quick to appreciate the usefulness of low-frequency sound and the deep sound channel. They developed the Sound Surveillance System (SOSUS), which involved underwater microphones, called hydrophones, that were placed on the ocean bottom and connected by cables to onshore processing centers. It was Christopher Clark of Cornell University who soon realised that SOSUS could be used to listen to whales. Using a SOSUS receiver in the West Indies, he could hear whales that were 1,770 kilometers away.</p><p><strong>E</strong>&nbsp; Whales are the biggest of Earth's creatures, yet these animals are also remarkably elusive. Scientists wishing to observe blue whales must simply wait in their ships for the whales to surface. A few whales have been tracked briefly in the wild in this way but not for very great distances, and much about them remains unknown. But by using SOSUS, scientists can track the whales and position them on a map. Moreover, they can track not just one whale at a time, but many creatures simultaneously. They can also learn to distinguish whale calls; researchers have detected changes in the calls of finback whales as the seasons change, and have found that blue whales in different regions of the Pacific Ocean have different calls.</p><p><strong>F</strong>&nbsp; SOSUS has also proved instrumental in obtaining information crucial to our understanding of climate. The system has enabled researchers to begin making ocean temperature measurements on a global scale, measurements that are key to understanding the workings of heat transfer between the ocean and the atmosphere. The ocean plays an enormous role in determining air temperature - the heat capacity in only the upper few meters of ocean is thought to be equal to all of the heat in the entire atmosphere. For sound waves traveling horizontally in the ocean, speed is largely a function of temperature. Thus, the travel time of a wave of sound between two points is a sensitive indicator of the average temperature along its path. Transmitting sound in numerous directions through the deep sound channel can give scientists measurements spanning vast areas of the globe. Thousands of sound paths in the ocean can be pieced together into a map of global ocean temperatures, and by repeating measurements along the same paths over time, scientists can track changes in temperature over months or years.</p><p><strong>G</strong>&nbsp; Researchers are also using other acoustic techniques to monitor climate. Oceanographer Jeff Nystuen, for example, has explored the use of sound to measure rainfall over the ocean. Monitoring changing global rainfall patterns will contribute to understanding major climate change as well as the weather phenomenon known as El Nino. Since 1985, Nystuen has used hydrophones to listen to rain over the ocean, acoustically measuring not only the rainfall rate but also the rainfall type, ranging from drizzle to thunderstorms. By using the sound of rain under water as a 'natural' rain gauge, the measurement of rainfall over the oceans will become available to climatologists. In this way, modern society continues to benefit from the investigations of those who, like Leonardo da Vinci, pursued the answers to some basic questions of nature.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–4</h3>Do the following statements agree with the information given in Reading Passage 1? In boxes 1-4, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "In the past, it was easier for scientists to study the Moon than the oceans."
+              },
+              {
+                "number": 2,
+                "textHtml": "Techniques for investigating the Moon are the same as techniques for researching the ocean."
+              },
+              {
+                "number": 3,
+                "textHtml": "Measuring temperature changes in the ocean using sound is more time-consuming than other methods."
+              },
+              {
+                "number": 4,
+                "textHtml": "Hydrophones can distinguish different kinds of rain."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 5–8</h3>Reading Passage 1 has seven paragraphs, <strong>A-G</strong>. Which paragraph contains the following information? Write the correct letter, A-G, in boxes 5-8 on your answer sheet. <em>NB You may use any letter more than once.</em>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              }
+            ],
+            "questions": [
+              {
+                "number": 5,
+                "textHtml": "examples of things that affect the distance sound can travel in water"
+              },
+              {
+                "number": 6,
+                "textHtml": "details of the connection between ocean temperatures and climate"
+              },
+              {
+                "number": 7,
+                "textHtml": "details of ways in which light and sound are similar"
+              },
+              {
+                "number": 8,
+                "textHtml": "reference to a long-term study of different types of weather"
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 9–13</h3>Choose the correct letter, <strong>A, B, C</strong> or <strong>D</strong>. Write the correct letter in boxes 9-13 on your answer sheet.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 9,
+                "textHtml": "According to the passage, who conducted research into the rate at which sound travels in water?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Leonardo da Vinci"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Colladon and Sturm"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Ewing and Worzel"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Jeff Nystuen"
+                  }
+                ]
+              },
+              {
+                "number": 10,
+                "textHtml": "According to the passage, who conducted research into the distances certain types of sound waves travel in water?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Leonardo da Vinci"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Colladon and Sturm"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Ewing and Worzel"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Christopher Clark"
+                  }
+                ]
+              },
+              {
+                "number": 11,
+                "textHtml": "SOSUS allows whale researchers to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; follow a number of whales at the same time."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; protect whales as they migrate."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; imitate whale calls of different species."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; change the whales' direction of travel."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "Finback whale calls change",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; when scientists track them."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; at different times of year."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; when whales communicate with other species."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; when whales come to the surface."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "SOSUS allows scientists to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; make accurate maps of the ocean floor."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; measure water level changes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; investigate ocean currents."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; measure variations in temperature."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Boring buildings",
+        "passageHtml": "<p>Read the text and answer questions 14–26</p><p>There could be more than an economic or nostalgic price to impersonal retail and high-rise construction; boring architecture may take an emotional toll on the people forced to live with it.</p><p><strong>A</strong>&nbsp; A growing body of research in cognitive science illuminates the physical and mental toll bland cityscapes take on residents. Generally, these researchers argue that humans are healthier when they live surrounded by variety or work in well-designed, unique spaces, rather than unattractive, generic ones. Urban policy professor Justin Hollander and architect Ann Sussman review scientific data to help architects and urban planners understand how, exactly, people respond to their built surroundings, particularly at work. People, they argue, function best in intricate settings, not 'big, blank, boxy offices'.</p><p><strong>B</strong>&nbsp; Indeed, that's what Colin Nellard, a neuroscientist at the University of Waterloo in Canada, has found in his work. Five years ago, Nellard became interested in a certain building - the gigantic Whole Foods Market 'plopped into' a notoriously textured part of lower Manhattan in New York. Nellard partnered with the Guggenheim Museum to analyze what happens when someone walks out of a tiny neighborhood restaurant and encounters a full city block with nothing but 'the long, blank facade of the Whole Foods Market' building. In 2011, Nellard led small groups on Lower East Side walks to measure the effect of the urban environment on them. Participants recorded their response to questions at each stopping point and wore sensors that measured skin conductance, a response to emotional excitement. Passing the monolithic Whole Foods Market, people's state of arousal plummeted. Physiologically, Nellard explained, they were bored. To describe this place, they used words like 'bland' and 'passionless'. In contrast, one block east at the other test site - a 'lively sea of restaurants with lots of open doors and windows' - people measured high levels of excitement, and they listed words like 'lively', and 'socializing'. Nellard explains that the main objective of urban design should be to produce some kind of novelty or change every few seconds; otherwise, we become cognitively disengaged.</p><p><strong>C</strong>&nbsp; The trick, it seems, is to design a world that excites but doesn't overload our faculties with a constant barrage of information. 'We are, as animals, programmed to respond to thrill,' said professor Brendan Walker. In Walker's 'thrill laboratory' at the University of Nottingham in the UK, devices measure heart rate and skin conductance to see how people respond to adrenaline-producing experiences such as a roller-coaster ride. A thrilling encounter moves us quickly from a state of equilibrium to a desirable 'disorientation'. 'Humans want a certain element of turmoil or confusion,' he said. 'Complexity is thrilling whether in an amusement park or architecture.'</p><p><strong>D</strong>&nbsp; Psychologists have found that awe-inspiring moments can potentially improve our well-being. One study conducted by Melanie Rudd, Kathleen Vohs and Jennifer Aaker of Stanford University in the US showed that the feeling of 'awe' can make people more patient and less materialistic. In an experiment, the researchers showed students 60-second clips of waterfalls, whales, or astronauts in space. After only a minute of virtual images, those who said they were awed also felt less pressed for time. And in another variation, people made hypothetical choices between physical and experiential goods of equal monetary value. Those who had just 'felt awe' were more likely to choose an experience over a possession, a choice that is linked with greater satisfaction in the long run. In other words, a visual buzz - whether architectural or natural - might have the ability to change our frame of mind, making modern-day life more satisfying and interactive.</p><p><strong>E</strong>&nbsp; It's important to note, however, that architectural boredom isn't about how pristine a street is. People often confuse successful architecture with whether an area looks pleasant. On the contrary, when it comes to city buildings, people often focus too narrowly on aesthetics, said Charles Montgomery, author of Happy City: Transforming Our Lives Through Urban Design. Some of the happiest blocks in New York City, he argues, are 'kind of ugly and messy'. In 2014, Montgomery's Happy City lab conducted an experiment in which he found a strong correlation between messier blocks and pro-social behavior. Montgomery sent researchers, posing as lost tourists, to places he coded as either 'active' or 'inactive' facades. He concluded that the former had a high level of interest, that is they were messy, while the latter had no special features such as long warehouse blocks. Pedestrians at active sites were nearly five times more likely to offer assistance than at inactive ones. Of those who assisted, seven times as many at the active site offered use of their phone.</p><p><strong>F</strong>&nbsp; Fortunately, it's not necessarily a dichotomy - new architecture can achieve the optimal level of cacophony and beauty. Take the 2006 Hearst Tower in midtown Manhattan. Designed by architect Norman Foster, Hearst Tower is a glass-and-steel skyscraper, 40 stories of which are designed in a triangular pattern, differing in style from the 1920s Art Deco base. From the outside, the facade jolts city dwellers from their daily commutes, while energizing employees who enter it each morning. For many who walk by, Hearst Tower's design may not be the easiest to understand; it's both sleek and old. The top looks like it traveled from the future. Inside, workers travel upon diagonal escalators, up a three-story water sculpture, through the tower's historic atrium, flooded with light. Few New Yorkers who pass by would find this building boring. And they're likely to be happier - maybe even nicer to each other - because of it.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–18</h3>Reading Passage 2 has six sections, <strong>A-F</strong>. Which section contains the following information? Write the correct letter, A-F, in boxes 14-18 on your answer sheet.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "a description of a building that has a positive effect"
+              },
+              {
+                "number": 15,
+                "textHtml": "a reference to architecture affecting people's performance in their jobs"
+              },
+              {
+                "number": 16,
+                "textHtml": "examples of the intensity of people's reactions in two urban settings"
+              },
+              {
+                "number": 17,
+                "textHtml": "details of a study where seeing certain pictures reduced people's stress"
+              },
+              {
+                "number": 18,
+                "textHtml": "a claim about feelings experienced in response to both architecture and leisure settings"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 19–23</h3>Look at the following statements (Questions 19-23) and the list of researchers below. Match each statement with the correct researcher, <strong>A, B, C</strong> or <strong>D</strong>. Write the correct letter, A, B, C or D, in boxes 19-23 on your answer sheet. <em>NB You may use any letter more than once.</em>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Colin N Nellard"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Brendan Walker"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Rudd, Vohs and Aaker"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Charles Montgomery"
+              }
+            ],
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "The aim of good city planning is to provide variety in architecture."
+              },
+              {
+                "number": 20,
+                "textHtml": "People in untidy areas were more helpful."
+              },
+              {
+                "number": 21,
+                "textHtml": "People who had recently felt amazed, placed less importance on material goods."
+              },
+              {
+                "number": 22,
+                "textHtml": "'Attractive' places are not necessarily the most enjoyable places to be."
+              },
+              {
+                "number": 23,
+                "textHtml": "One particular building failed to provide visual stimulation."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 24–26</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Hearst Tower</div><div><p>Norman Foster's Hearst Tower was built in 2006. The 40-storey modern triangular-patterned building is made of glass and steel, contrasting with the base which is in the style of the 1920s. The sight of the building's {{24}} has a striking impact on commuters and employees. Some passers-by may find the building's design confusing, as it mixes old and new elements. Inside the tower {{25}} carry employees up past a large water sculpture in the light-filled {{26}}.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Marketing and the information age",
+        "passageHtml": "<p>Read the text and answer questions 27–40</p><p>Marketing and the information age</p><p><strong>A</strong>&nbsp; For the early practitioners of marketing in the late 19th and early 20th centuries, the business of selling was simply a matter of continually finding new customers. By contrast, marketing managers in the current era recognise the importance of gathering information about the market and about potential customers. They recognise that if companies are to be profitable, customers must gain and retain their perceptions of value from the brands they buy over a long time frame, rather than from a single transaction. This also means that customers must see value in returning continually to the stores where they shop, as well as to the service providers they deal with.</p><p><strong>B</strong>&nbsp; Marketing practitioners and marketing scientists have never worked more closely than they currently do. There are many reasons for this, including the fact that this is the information age where convergence in telecommunications, media and technology is causing old ways to be challenged, and new methods and tools to be tested. Customer expectations have risen as new technologies allow new approaches. For instance, the subscriber-TV music channel Channel [V], encourages its viewers to sign up for text messages and email alerts that tell them when their favourite artists and songs are about to be broadcast. Competitive advantage lies in being able to recognise which customers can be given greater attention, not just because they demand it but because it makes commercial sense to provide high levels of product quality and service.</p><p><strong>C</strong>&nbsp; Modern marketing information systems rely on information technology to enable marketing intelligence to be gathered and to store and analyse marketing research information. While some of the information used is gathered by government bodies such as the Australian Bureau of Statistics and Statistics New Zealand, most of it is purposefully gathered by marketing organisations for client companies. In the process, computer technology is used to manipulate the data and then to present the information in such a way that executives can readily identify any problems or issues, and quickly arrive at solutions.</p><p><strong>D</strong>&nbsp; In order to produce superior value and satisfaction for customers, marketing managers need information at almost every turn. They need information about customers - end-users and resellers - as well as competitors and governmental and other forces in the marketplace. One marketing executive put it this way: \"To manage a business well is to manage its future; and to manage the future is to manage information.\" Increasingly, marketers are viewing information not just as an input for making better decisions but also as an important strategic asset and marketing tool. As household incomes increase, choice widens and buyers become better discriminating, so sellers need information about how buyers respond to different products and advertising campaigns.</p><p><strong>E</strong>&nbsp; The supply of information has also increased greatly. It has been suggested by the futurist and best selling author John Naisbitt that the United States and, by observation, developed countries such as Australia, New Zealand and Singapore are moving from industrial to information-based economies. These post-industrial economies earn 70-80% of their Gross Domestic Product from services, and have entered what some commentators have termed the 'Information Age' or the 'Information Technology Era'.</p><p><strong>F</strong>&nbsp; One study found that with all the information now available through supermarket scanners, a packaged goods product controller is bombarded with one million to one billion new numbers each week. As Naisbitt points out: 'Running out of information is not a problem, but drowning in it is.' Yet marketers frequently complain that they lack information of the right kind but have plenty of the wrong kind, or they claim that marketing information is so widely spread throughout the organisation that it takes great effort to locate even simple facts. In addition, subordinates may withhold information they believe will reflect badly on their performance and important information often arrives too late to be useful, or on-time information is not accurate. So marketing managers need better information. Although marketing organisations have greater capacity to provide managers with information, they often do not use it well. As a result, many marketing organisations are now studying their managers' information needs and designing information systems specifically to meet those needs.</p><p><strong>G</strong>&nbsp; One solution is to use a Marketing Information System (MIS). This consists of people, equipment and procedures which, when put together, are able to gather, analyse, evaluate and distribute needed, timely and accurate information to marketing decision-makers. The MIS begins and ends with marketing managers. First, it interacts with these managers to assess the information needs they have. Next, it develops the needed information from internal records, marketing intelligence activities and the research process. The analysis unit processes the data to make it more useful and, finally, the MIS distributes it to managers in the right form and at the right time to help them make better marketing decisions.</p><p><strong>H</strong>&nbsp; However, the costs of obtaining, processing, storing and delivering information can mount quickly. In some cases additional information will do little to change or improve a manager's decision, or the costs of the information will exceed the returns from the improved decision. For example, if an organisation estimates that launching a new product without any further information will yield a profit of $500,000, then it would be foolish to spend $30,000 for additional information that would increase the profit to only $525,000. By itself information is valueless - its value comes from its use.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 27–31</h3>Reading Passage 3 has eight paragraphs, <strong>A-H</strong>. Which paragraph contains the following information? Write the correct letter, A-H, in boxes 27-31 on your answer sheet.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "the fact that there may be too much information to cope with"
+              },
+              {
+                "number": 28,
+                "textHtml": "the relevance of generating repeat business"
+              },
+              {
+                "number": 29,
+                "textHtml": "an example of personalised marketing"
+              },
+              {
+                "number": 30,
+                "textHtml": "an illustration of a situation where commissioning new information research might not be advisable"
+              },
+              {
+                "number": 31,
+                "textHtml": "how the greater wealth of customers enables them to select from a broader range of products"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 32–36</h3>Do the following statements agree with the claims of the writer in Reading Passage 3? In boxes 32-36, write<strong>YES</strong>&nbsp; if the statement agrees with the claims of the writer<br><strong>NO</strong>&nbsp; if the statement contradicts the claims of the writer<br><strong>NOT GIVEN</strong>&nbsp; if it is impossible to say what the writer thinks about this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 32,
+                "textHtml": "The majority of marketing statistics are gathered by government agencies."
+              },
+              {
+                "number": 33,
+                "textHtml": "The move from an industrial to an information-based economy has happened more quickly in New Zealand than in Australia."
+              },
+              {
+                "number": 34,
+                "textHtml": "Employees sometimes hide information that gives a poor impression of them."
+              },
+              {
+                "number": 35,
+                "textHtml": "Managers frequently fail to make good use of the information they receive."
+              },
+              {
+                "number": 36,
+                "textHtml": "Marketing information has to be used to be valuable."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 37–40</h3>Complete the flow-chart below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The Marketing Information System (MIS)</div><div>Step 1<ul><li>{{37}}</li></ul>Step 2<ul><li>Find out their {{38}}</li></ul>Step 3 – Developed through<ul><li>{{39}}</li><li>marketing intelligence activities</li><li>research process</li></ul>Step 4<ul><li>Processed by the {{40}}</li></ul>Step 5<ul><li>Timely and accurate data distribution</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "The Moon has been far more accessible to study"
+        }
+      },
+      "2": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "It turns out that for penetrating water the best instrument is sound"
+        }
+      },
+      "3": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "scientists can track changes in temperature over months or years"
+        }
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "the rainfall type, ranging from drizzle to thunderstorms"
+        }
+      },
+      "5": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "A number of factors influence how far sound travels under water and how long it lasts, including particles, salinity, temperature and pressure"
+        }
+      },
+      "6": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "The ocean plays an enormous role in determining air temperature"
+        }
+      },
+      "7": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "just as certain wavelengths of light may be reflected, scattered and absorbed by specific types of particles in the atmosphere"
+        }
+      },
+      "8": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "Since 1985, Nystuen has used hydrophones to listen to rain over the ocean"
+        }
+      },
+      "9": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "It was not until 1826 that two scientists, Colladon and Sturm, accurately measured the speed of sound in water"
+        }
+      },
+      "10": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "Maurice Ewing and J L Worzel conducted an experiment to test the theory that low-frequency waves"
+        }
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "they can track not just one whale at a time, but many creatures simultaneously"
+        }
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "researchers have detected changes in the calls of finback whales as the seasons change"
+        }
+      },
+      "13": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "sound paths in the ocean can be pieced together into a map of global ocean temperatures"
+        }
+      },
+      "14": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "Few New Yorkers who pass by would find this building boring"
+        }
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "people respond to their built surroundings, particularly at work"
+        }
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "Passing the monolithic Whole Foods Market, people's state of arousal plummeted"
+        }
+      },
+      "17": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "After only a minute of virtual images, those who said they were awed also felt less pressed for time"
+        }
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "Complexity is thrilling whether in an amusement park or architecture"
+        }
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "the main objective of urban design should be to produce some kind of novelty or change every few seconds"
+        }
+      },
+      "20": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "Pedestrians at active sites were nearly five times more likely to offer assistance than at inactive ones"
+        }
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "can make people more patient and less materialistic"
+        }
+      },
+      "22": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "people often focus too narrowly on aesthetics"
+        }
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "Physiologically, Nellard explained, they were bored"
+        }
+      },
+      "24": {
+        "accepted": [
+          "facade"
+        ],
+        "evidence": {
+          "snippet": "From the outside, the facade jolts city dwellers from their daily commutes"
+        }
+      },
+      "25": {
+        "accepted": [
+          "escalators"
+        ],
+        "evidence": {
+          "snippet": "workers travel upon diagonal escalators, up a three-story water sculpture"
+        }
+      },
+      "26": {
+        "accepted": [
+          "atrium"
+        ],
+        "evidence": {
+          "snippet": "through the tower's historic atrium, flooded with light"
+        }
+      },
+      "27": {
+        "accepted": [
+          "F"
+        ],
+        "evidence": {
+          "snippet": "a packaged goods product controller is bombarded with one million to one billion new numbers each week"
+        }
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "customers must see value in returning continually to the stores where they shop"
+        }
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "sign up for text messages and email alerts that tell them when their favourite artists and songs are about to be broadcast"
+        }
+      },
+      "30": {
+        "accepted": [
+          "H"
+        ],
+        "evidence": {
+          "snippet": "it would be foolish to spend $30,000 for additional information that would increase the profit to only $525,000"
+        }
+      },
+      "31": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "As household incomes increase, choice widens and buyers become better discriminating"
+        }
+      },
+      "32": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "most of it is purposefully gathered by marketing organisations for client companies"
+        }
+      },
+      "33": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "developed countries such as Australia, New Zealand and Singapore are moving from industrial to information-based economies"
+        }
+      },
+      "34": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "subordinates may withhold information they believe will reflect badly on their performance"
+        }
+      },
+      "35": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "Although marketing organisations have greater capacity to provide managers with information, they often do not use it well"
+        }
+      },
+      "36": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "By itself information is valueless"
+        }
+      },
+      "37": {
+        "accepted": [
+          "marketing managers"
+        ],
+        "evidence": {
+          "snippet": "The MIS begins and ends with marketing managers"
+        }
+      },
+      "38": {
+        "accepted": [
+          "information needs"
+        ],
+        "evidence": {
+          "snippet": "it interacts with these managers to assess the information needs they have"
+        }
+      },
+      "39": {
+        "accepted": [
+          "internal records"
+        ],
+        "evidence": {
+          "snippet": "it develops the needed information from internal records, marketing intelligence activities and the research process"
+        }
+      },
+      "40": {
+        "accepted": [
+          "analysis unit"
+        ],
+        "evidence": {
+          "snippet": "The analysis unit processes the data to make it more useful"
+        }
+      }
+    },
+    "sets": []
+  }
+}

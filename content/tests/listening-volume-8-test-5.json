@@ -1,0 +1,502 @@
+{
+  "slug": "listening-volume-8-test-5",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/vol-8-test-5-listening/VOL%208%20TEST%205%20LISTENING.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 8, Test 5",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Arizona — travel advice</div><p><em>Example: the temperature will probably be about 40 degrees centigrade during the day</em></p><ul><li>pack a {{1}}</li><li>drive from Tucson along the {{2}} trails</li><li>go to the {{3}} (highly recommended)</li><li>there is the possibility of playing {{4}}</li></ul><p>Visit Susie's parents</p><ul><li>Susie's parents live in a town called Williams</li><li>Address: 6073 {{5}} Drive</li><li>Town history: named after a local hunter</li><li>destroyed by fire in {{6}} (rebuilt later)</li><li>Susie's parents will be at home after 2nd July</li><li>4th July — Independence Day: there will be {{7}} in the evening</li><li>Susie's parents' phone number: {{8}}</li></ul><p>Grand Canyon</p><ul><li>tour by {{9}} (1½ hrs; 7 trips a day)</li><li>canoe (all day; important to take {{10}})</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Biographies"
+              },
+              {
+                "number": 12,
+                "textHtml": "Gardening Books"
+              },
+              {
+                "number": 13,
+                "textHtml": "History Books"
+              },
+              {
+                "number": 14,
+                "textHtml": "Children's books"
+              },
+              {
+                "number": 15,
+                "textHtml": "Reading area"
+              },
+              {
+                "number": 16,
+                "textHtml": "Self-help Books"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "a first time author"
+              },
+              {
+                "letter": "B",
+                "textHtml": "an award-winning book"
+              },
+              {
+                "letter": "C",
+                "textHtml": "a true story"
+              },
+              {
+                "letter": "D",
+                "textHtml": "has a sad ending"
+              },
+              {
+                "letter": "E",
+                "textHtml": "has good illustrations"
+              },
+              {
+                "letter": "F",
+                "textHtml": "part of a series"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Penny Pinchers"
+              },
+              {
+                "number": 18,
+                "textHtml": "The Running Boy"
+              },
+              {
+                "number": 19,
+                "textHtml": "The Hidden Code"
+              },
+              {
+                "number": 20,
+                "textHtml": "The Orange Moon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Katy thinks it might be inappropriate for academic essays to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "give both sides of an argument."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "express personal opinions."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "present a range of views."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;The tutor says that in one type of conclusion students should",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "withhold their own views."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "avoid too much repetition."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "refer to the title."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What does the tutor say about the bibliography?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "There is a standard format for references."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Presentation is not assessed at this level."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Book titles should be underlined."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What advice does the tutor give about quotations?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They provide evidence of how widely a student has read."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They are useful for defining difficult concepts."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "There is a tendency to use too few of them."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;John suggests that the writer of the first essay should have",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "done more thorough research."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "analysed his data more carefully."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "given his views more clearly."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><ul><li>the tutor says that the most basic requirement of an essay is relevance</li><li>Katy thinks the writer separates different {{26}} very clearly</li><li>John feels that bullet points and sub-headings might be more appropriate for {{27}} than for essays</li><li>the tutor thinks that paragraphs should be used to structure essays</li><li>John particularly admires the way the writer backs up his statements with {{28}}</li><li>Katy likes the writer's use of language to link his {{29}}</li><li>the tutor thinks that wide {{30}} helps to develop writing ability</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Inventing a Universal Language</div><p>Introduction</p><ul><li>most languages were not invented — they evolved</li><li>early invented languages were used for religious purposes or for {{31}}</li><li>we know of about 900 invented languages, but many have been lost</li></ul><p>William Spencer</p><ul><li>he wrote books about {{32}} so he needed an accurate language</li><li>at first he tried to base his language on {{33}}</li><li>later he classified words in the same way that was used for plants</li></ul><p>Ludwig Zamenhof</p><ul><li>he mixed together existing European languages</li><li>he wrote {{34}} to help develop his new language</li><li>he wanted simplicity, e.g. one prefix to make words {{35}}</li><li>he sent a {{36}} to his friends to publicise his language</li><li>he created the most successful invented language</li></ul><p>Bruce Goldie</p><ul><li>each word of his language was based on a {{37}}</li><li>his language did not get academic recognition at first</li><li>children in a Canadian {{38}} learned to read using his language</li></ul><p>Conclusion: why have invented languages failed?</p><ul><li>they cannot express {{39}}</li><li>English became the global language</li><li>they are now invented by {{40}}, just for entertainment</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "jacket"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "desert"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "space museum"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "golf"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "fearnleigh"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "1901"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "fireworks"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "9286352271"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "helicopter"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "sun cream",
+          "suncream"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "subtopics",
+          "sub-topics"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "reports",
+          "report"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "examples",
+          "example"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "ideas",
+          "idea"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "reading"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "trade"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "science"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "numbers",
+          "number"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "songs",
+          "song"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "negative"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "letter",
+          "a letter"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "picture",
+          "a picture"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "hospital"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "emotions",
+          "emotion"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "writers",
+          "writer"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

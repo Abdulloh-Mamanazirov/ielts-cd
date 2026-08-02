@@ -1,0 +1,524 @@
+{
+  "slug": "listening-volume-5-test-3",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-25m-08s-audio-joiner.com_202607/mix_25m08s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 5, Test 3",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Sailing Courses</div><p>Example: There will be a Taster Day on <u>22nd June</u></p><p>Two-day course</p><ul><li>This covers basic techniques.</li><li>Children are always accompanied by their {{1}}</li><li>Cost: £{{2}}</li></ul><p>Five-day course</p><ul><li>Cost: £125</li><li>Children can sail alone from the third day onwards.</li><li>Children learn how to sail in different kinds of weather.</li><li>Children receive a {{3}} on the last day.</li></ul><p>Clothing</p><ul><li>Children should wear warm clothes.</li><li>Children must wear {{4}}</li><li>Children are recommended to bring extra trousers which are {{5}}</li><li>Children are not allowed to wear {{6}}</li></ul><p>Additional information</p><ul><li>Visitors can buy a {{7}} in the Marina Stores.</li><li>There is a free car park next to the {{8}}</li><li>Send the registration form two weeks before the course.</li><li>Remember to include the name of Jacob's {{9}}</li><li>There is an optional form giving permission to take {{10}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Question 11</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;At the present time, Stanley Island can be reached by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "hovercraft."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "plane."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "ferry."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 12–15</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": ","
+              },
+              {
+                "letter": "B",
+                "textHtml": "or"
+              },
+              {
+                "letter": "C",
+                "textHtml": ", next to questions 12–15."
+              }
+            ],
+            "questions": [
+              {
+                "number": 12,
+                "textHtml": "golf courses"
+              },
+              {
+                "number": 13,
+                "textHtml": "family hotels"
+              },
+              {
+                "number": 14,
+                "textHtml": "self-catering flats"
+              },
+              {
+                "number": 15,
+                "textHtml": "nature walks"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Advice to Visitors</div><ul><li>Bring your own {{16}} and insect spray</li><li>It may not be possible to use your {{17}} in the western area.</li><li>Don't drink water from {{18}}</li><li>Be careful of the {{19}} as they bite</li><li>Try the local {{20}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Laura chose Burcock Engineering for her research because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "she was contacted by the managing director."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "she knew several people who worked there."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "she had already done a work placement there."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What does Laura agree to do regarding the central theme of her research?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "check it is relevant"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "broaden the focus"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "be more specific in her aims"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What does Laura expect to find from her research?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Absence rates are related to the type of work done."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "A lot of worker absence is actually unnecessary."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Employee absence rates are increasing."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What employee information does the tutor think Laura will be able to obtain from company records?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "dates of birth"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "details of employment"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "individual records of absence"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 25 and 26</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Which <strong>TWO</strong> recommendations does the tutor make about Laura's questionnaire?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Leave a space for contact details."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Specify a completion date."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Provide a mixture of question types."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Keep the length to a minimum."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Trial it on someone before finalising it."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27 and 28</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Which <strong>TWO</strong> things will Laura explain in her covering letter to participants?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "when the questionnaire should be completed"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the fact that participation in the survey is voluntary"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how long the questionnaire is likely to take"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the purpose of the survey"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the benefits of participation in the survey"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-4",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 29 and 30</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "Which <strong>TWO</strong> activities does Laura already have definite dates for?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "completion of her finished assignment"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "questionnaire distribution"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "collection of completed questionnaires"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the next meeting with her tutor"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "analysis of figures from the company's database"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Transhumance</div><p>Two Types of Transhumance</p><ul><li>fixed: mainly in countries with predictable seasons, e.g. Switzerland</li><li>nomadic: in areas with unpredictable climatic conditions, e.g. Somalia</li></ul><p>Study on the Movement of Pastoralists</p><ul><li>for fixed transhumance, the pattern of movement is described as {{31}}</li><li>while for nomadic transhumance, the pattern is more complex and varied</li></ul><p>Differences in terms of Homes</p><ul><li>fixed transhumance live in a semi-permanent shelter on high ground such as {{32}}</li><li>nomadic transhumance always stay in portable shelters, e.g. homes of the Gabra people carried on {{33}}</li></ul><p>Number of People Involved</p><ul><li>for fixed transhumance, only {{34}} pastoralists make the journey</li><li>however, all nomadic transhumance migrate with their livestock</li></ul><p>Diet and Goods</p><ul><li>people who do not leave the valleys may become {{35}}</li><li>exchange animals with other communities for {{36}}</li><li>herds provide all needs — food and {{37}}</li></ul><p>Research in Algeria in North Africa</p><ul><li>they traditionally arrive in time to help local residents with the {{38}}</li><li>their homes are {{39}} which are temporary shelters</li><li>a better term to describe this type of transhumance might be {{40}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "instructor"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "65"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "certificate"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "shoes"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "waterproof"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "jeans"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "snack"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "bridge"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "doctor"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "photographs"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "medication"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "mobile phone",
+          "mobile",
+          "phone"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "river",
+          "rivers"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "monkeys"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "seafood"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "vertical"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "cabin"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "camel"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "young"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "farmer",
+          "farmers"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "grain"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "clothing"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "harvest"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "tents"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "intermediate"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          25,
+          26
+        ],
+        "accepted": [
+          "C",
+          "E"
+        ]
+      },
+      {
+        "questions": [
+          27,
+          28
+        ],
+        "accepted": [
+          "C",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          29,
+          30
+        ],
+        "accepted": [
+          "A",
+          "D"
+        ]
+      }
+    ]
+  }
+}

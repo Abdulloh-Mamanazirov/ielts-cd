@@ -1,0 +1,597 @@
+{
+  "slug": "reading-volume-5-test-2",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 5, Test 2",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "A survivor's story",
+        "passageHtml": "<p>Read the text and answer questions 1–13</p><p>One native bird in New Zealand that has managed to survive the introduction of non-native species</p><p>As an island country with a fauna dominated by birds, New Zealand was once home to an owl species which is now extinct, the laughing owl, named for its distinctive cry. This bird was widespread throughout the islands when European settlers arrived in the middle of the 19th century and it remained in good numbers for some years thereafter. Where other native birds suffered from predation by the Polynesian rat, the laughing owl turned the tables and adapted its diet to include the rodent. It was also capable of catching and killing the other New Zealand owl, the morepork, and even larger birds, such as the weka. However, the laughing owl was wiped out around the beginning of the 20th century. Its demise was caused by specimen collectors, habitat changes, and non-native predators including cats and stoats. Surprisingly, it is the smaller owl, the morepork, that has managed to survive until this day.</p><p>Speckled dark brown, with yellow eyes and long tails, they are around 29 centimeters long from head to tail and 175 grams in weight. Moreporks have fringes on the edge of their feathers, so they can fly almost silently and not alert potential prey. They have acute hearing and their large eyes are very sensitive to light.</p><p>Moreporks nest in tree hollows, in clumps of plants, or in cavities among rocks and roots. In the wild, moreporks usually start nesting in October, although zoo specimens have been recorded nesting in midwinter, possibly stimulated by an ample food supply. The female lays up to three white eggs, which she incubates for 20 to 30 days. During this time, she rarely hunts, and the male brings food to her. Once the chicks hatch, she stays mainly on the nest until the young owls are fully feathered. When hatched, chicks are covered in light grey down, and have their eyes closed. The eyes do not open until the eighth day after hatching. They can fly at around 35 days.</p><p>By day, moreporks sleep in roosts. By night, they hunt a variety of animals, mainly large invertebrates including scarab and huhu beetles, moths, caterpillars and spiders. They also take small birds and mice. They can find suitable food in pine forests as well as native forest. A morepork uses its sharp talons to catch or stun its prey, which it then carries away in its bill. Moreporks are clever hunters, and birds such as robins, grey warblers and fantails can end up as their prey. In the day, these small birds sometimes mob drowsy moreporks and chase them away from their roosts. They force the sleepy predators to search for a more peaceful spot.</p><p>Moreporks have proved to be ungracious hosts. Scientists trying to establish a population of plovers on Motuora island in New Zealand's Hauraki Gulf were mystified as to why only two birds survived out of 75 placed there. The culprits turned out to be five pairs of moreporks that ate or chased away the new arrivals.</p><p>Although moreporks are still considered to be relatively common, it is likely that numbers are in gradual decline due to predation and loss of habitat. As the female is a hole-nester, she is vulnerable to predators such as stoats and possums during the breeding season, and eggs and chicks will also be at risk from rats. The use of pesticides is another possible threat to the owls though not a direct one. As moreporks are at the top of the food chain, they could be affected by an accumulative poison by consuming prey that has ingested poison.</p><p>The New Zealand Department of Conservation is taking steps to ensure the preservation of New Zealand's only native owl. The department is involved in measuring the population of moreporks and has put transmitters on a number of birds to determine survival and mortality. As well as being New Zealand's only native owl, the morepork has symbolic and spiritual importance, so in monitoring the birds it is hoped that the morepork will continue to survive and thrive.</p><p>At dusk, the melancholy sound of the morepork can be heard in forests and parks as it calls to other moreporks and claims territory. Its Maori name (ruru) echoes its two-part cry. In the tradition of the Maori people of New Zealand, the morepork, or ruru, was often seen as a careful guardian. A number of sayings referred to the bird's alertness. As a bird of the night, it was associated with the spirit world. Moreporks were believed to act as messengers to the gods in the heavens, flying along spiritual paths in the sky. They were the mediums used to communicate with the gods. The occasional high, piercing call of the morepork signified bad news, but the lower-pitched and more common 'ruru' call heralded good news.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–7</h3>Do the following statements agree with the information given in Reading Passage 1? In boxes 1-7, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Early European settlers made detailed studies of the morepork."
+              },
+              {
+                "number": 2,
+                "textHtml": "The Polynesian rat had a negative effect on the number of laughing owls."
+              },
+              {
+                "number": 3,
+                "textHtml": "The laughing owl was larger than the morepork."
+              },
+              {
+                "number": 4,
+                "textHtml": "Rats pose a risk to young moreporks."
+              },
+              {
+                "number": 5,
+                "textHtml": "The New Zealand Department of Conservation is hoping to limit the population of moreporks."
+              },
+              {
+                "number": 6,
+                "textHtml": "Other bird species are frightened away when they hear the morepork's cry."
+              },
+              {
+                "number": 7,
+                "textHtml": "In Maori tradition, the low call of the morepork had negative associations."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 8–13</h3>Complete the notes below. Choose <strong>ONE WORD AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The Morepork</div><div>Appearance<ul><li>approximately {{8}} in length</li><li>large yellow eyes</li><li>feathers with fringes to enable quiet flight</li></ul>Nesting<ul><li>nests in trees, plants or spaces in roots and {{9}}</li><li>after about 35 days, baby moreporks are capable of leaving the nest</li></ul>Hunting<ul><li>transports its prey using its {{10}}</li><li>can be chased away by other birds during the {{11}}</li><li>attacked {{12}} that had been introduced to Motuora island</li></ul>Threats<ul><li>may be exposed to {{13}} in their prey</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Ideal Homes",
+        "passageHtml": "<p>Read the text and answer questions 14–26</p><p>New ideas and some old ones</p><p><strong>A</strong>&nbsp; The traditional kampung houses of Malaysia do not need air-conditioning. Built on stilts and with steep roofs, they have year-round ventilation. The raised structure ensures a cooling breeze comes up through the floorboards, while the high roof acts as a chimney to release hot air. The airtight, concrete boxes of modern city construction, in contrast, are heat traps, says Muhammad Peter Davis of University Putra Malaysia. He has calculated that typical modern Malaysian houses are 5'C hotter than the air outside. The builders of kampung houses 'had no knowledge of modern science or engineering but they came up with the perfect design,' says Davis.</p><p><strong>B</strong>&nbsp; This story of ancient architectural sophistication and modern insanity is repeated around the world. In the name of modernism, people have thrown away architecture designed to cope with the environment in which they live, and adopted house designs originating from cold, northern environments, where the idea is to keep heat in.</p><p><strong>C</strong>&nbsp; Once, the aim of architectural modernists was to build structures that kept nature out and to replace it with air-conditioning. Now they are learning that they cannot do that effectively. Slowly, they are seeing the benefit of working with nature, rather than against it. In California, they probably use more power for air-conditioning than anywhere else on Earth. According to Arthur Rosenfeld from the University of California, what California needs is white paint. If Los Angeles painted its roofs white, planted trees to shade buildings, and chose lighter-colored paving, it could reduce city temperatures by 3'C and cut the annual air-conditioning bill by US$170 million a year.</p><p><strong>D</strong>&nbsp; Modern buildings are greedy in their use of energy. Much is made of the contribution of transportation to global warming, through its emissions of greenhouse gases. But, globally, transportation is responsible for just 22 per cent of carbon dioxide emissions. The building sector is responsible for 31 per cent, mostly the result of heating and air-conditioning systems. In developing countries, where demand for electricity for buildings is rising by 5 per cent a year, the biggest demand is for air-conditioning in modern buildings which are often designed to cope with every different climatic condition.</p><p><strong>E</strong>&nbsp; Before air-conditioning, much of the Arab world kept cool through thoughtful building design. Many buildings were built according to the principles of the wind tower, a tall structure with vertical vents at the top that open in all directions to catch any passing breeze. Typically, these wind-tower buildings were made of local materials such as stone, mud brick, wood and palm-tree fronds. The buildings were inward-looking, which served the dual function of focusing attention on the courtyard, where family members spend time together, and protecting living areas from the rays of the sun.</p><p><strong>F</strong>&nbsp; Throughout the Middle East today, wind towers are often little more than museum pieces. But there are exceptions, Jordan has won awards for the architecture of a village on the shores of the Red Sea, which is designed to conserve energy. Made of rough, local stone in a traditional style, it combines the ventilation system of the wind towers for summer coolness with up-to-date heating and floor insulation to protect against the desert cold in winter.</p><p><strong>G</strong>&nbsp; Traditional building materials, like traditional building designs, are being rediscovered by those looking for low-energy solutions to the current construction needs. Clay is one such material: As the Dutch housing contractor R van der Ley has argued in promoting a series of clay housing projects in developing countries, clay has many benefits over its industrialized version, brick. Clay blocks cost only half as much as ordinary bricks. Clay also generates work because people can find it, mould it, bake it and work it themselves. Two hundred clay bricks can be made with the fuel oil that makes just one ordinary brick. Moreover, clay is an excellent insulator against both cold and heat outside, and can easily be recycled.</p><p><strong>H</strong>&nbsp; But although traditional methods and materials can be revived in appropriate settings, new green, low-energy technologies are needed, especially in urban environments. The thermal insulation of homes in cold countries is an example. In 1983, Sweden adopted a national standard, requiring the country's homes to use no more than 60 kilowatt-hours per square metre over the year. To meet that standard, windows were double-glazed, and walls and roofs insulated. Every home became a fortress against the cold air outside. Unfortunately, the rest of Europe has not followed the lead.</p><p><strong>I</strong>&nbsp; In the United States, Amory Lovins has promoted a range of low-energy technologies: 'superwindows', for example, which let in invisible light but can be 'tuned' to either allow in, or reflect away, infrared solar radiation, the stuff that heats. Buildings with large expanses of window (and big energy bills) can be designed to achieve optimum temperatures.</p><p><strong>J</strong>&nbsp; As well as more efficient use of energy, the world also needs new sources of renewable power. Solar energy is being tried out in the developing world, in villages often far from electricity grids. The world's biggest solar power installation got underway in the Philippines, in 2001, where a project commenced to install solar panels for 400,000 people in 150 villages. Such projects are demonstrating that countries, whether developing or developed, no longer need huge national grids to supply electricity. Every home can do its own thing with the help of a solar panel and a storage battery.</p><p><strong>K</strong>&nbsp; Houses, of course, are more than machines for living in. They are social and psychological spaces, too. Future houses may not look exactly like kampungs or wind towers or any other traditional models. But to work for us and for our environment, they will have to suit us as well as these traditional forms did.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–18</h3>Reading Passage 2 has eleven paragraphs, <strong>A-K</strong>. Which paragraph contains the following information? Write the correct letter, A-K, in boxes 14-18 on your answer sheet.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              },
+              {
+                "letter": "J",
+                "textHtml": "J"
+              },
+              {
+                "letter": "K",
+                "textHtml": "K"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "reasons why a particular construction material is advantageous"
+              },
+              {
+                "number": 15,
+                "textHtml": "an example of a construction design which benefits domestic interaction"
+              },
+              {
+                "number": 16,
+                "textHtml": "a description of a house that is ventilated from below"
+              },
+              {
+                "number": 17,
+                "textHtml": "an example of self-sufficient energy supply"
+              },
+              {
+                "number": 18,
+                "textHtml": "suggested methods of reducing temperatures in a city"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 19–22</h3>Look at the following people (Questions 19-22) and the list of ideas below. Match each person with the correct idea, <strong>A-G</strong>. Write the correct letter, A-G, in boxes 19-22 on your answer sheet.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "The choice of a certain construction material can have a socio-economic impact"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Throughout the world, people are rejecting traditional housing design in order to appear modern."
+              },
+              {
+                "letter": "C",
+                "textHtml": "Houses should not only meet people's physical needs but also their social and psychological needs."
+              },
+              {
+                "letter": "D",
+                "textHtml": "Traditional knowledge can be superior to modern knowledge."
+              },
+              {
+                "letter": "E",
+                "textHtml": "There is an innovation that can save costs on both air-conditioning and heating."
+              },
+              {
+                "letter": "F",
+                "textHtml": "Solar energy can meet the energy needs of people living in villages in developing countries."
+              },
+              {
+                "letter": "G",
+                "textHtml": "There is a very simple solution that can save on the cost of air-conditioning"
+              }
+            ],
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Muhammad Peter Davis"
+              },
+              {
+                "number": 20,
+                "textHtml": "Arthur Rosenfeld"
+              },
+              {
+                "number": 21,
+                "textHtml": "R van der Ley"
+              },
+              {
+                "number": 22,
+                "textHtml": "Amory Lovins"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 23–26</h3>Do the following statements agree with the information given in Reading Passage 2? In boxes 23-26, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "The air temperature in modern Malaysian houses is lower than the air temperature outside."
+              },
+              {
+                "number": 24,
+                "textHtml": "The construction industry is more to blame than transport for global warming."
+              },
+              {
+                "number": 25,
+                "textHtml": "The use of wind towers for cooling is widespread in the Middle East today."
+              },
+              {
+                "number": 26,
+                "textHtml": "The 'super-windows' promoted by Amory Lovins can be installed at low cost."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Conformity",
+        "passageHtml": "<p>Read the text and answer questions 27–40</p><p>A review of conformity and some of the studies that have been done on it</p><p>During your childhood, there will have been some kind of craze which affected all the people in your school. It may have been to do with a particular toy or possibly a must-have item of clothing. It may have been something as simple as a type of pen or as expensive as an electronic games console. Fashion designers, toy manufacturers and anyone else involved in the retail trade love conformity. Set up a craze, especially in the young and everyone will go for it. In fact, it's an ideal way to sell huge quantities of merchandise. The levels of conformity in consumerism are phenomenal. When you actually stand back and consider how easily we are persuaded that having certain items is the only way we can ensure peace of mind, you see what an important concept conformity is.</p><p>Conformity has been described as 'yielding to group pressure' (Crutchfield 1962). However, this implies that other people put pressure on us to make us conform and this is not always the case. A better definition is given by Aronson (1976) who said it was a 'change in a person's behaviour or opinions as a result of real or imagined pressure from a person or group of people.' This would make more sense, as often the pressure we feel is imagined. The person or group he refers to would have to be important to us at the time, regardless of their status.</p><p>There has been considerable research on conformity. One of the first studies looked at the answers people gave when asked to estimate the number of beans in a bottle (Jennes, 1932). If you have ever entered a 'guess the number' competition, you probably looked at the previous estimates made and based your judgment on what other people had guessed. This is more or less what happened in the Jennes study. First of all, he asked the respondents to give their own estimates, and then he asked them to decide a group estimate. Finally, he asked them alone again and discovered that they had stayed with the group answer.</p><p>Probably the most famous study on conformity was undertaken by Asch (1951) when he created a situation where many of his subjects gave answers which were blatantly untrue, rather than contradict the people they were with. He did this by getting his subject to sit round a table with six stooges (colleagues of the experimenter) so that the subject was second to last. He showed them all a large card which had three lines of different lengths drawn on it, labelled A, B and C. He then gave them a card with a single line and asked them to match this in terms of length to one of the lines A, B or C.</p><p>The stooges gave untrue responses in a number of the trials and the subjects were left in the situation where they either reported what they saw with their own eyes or conformed to the norm of the group. When the results were assessed, Asch found that in one out of every three trials where the wrong answer was given, the subject gave the same wrong answer as the stooges. This led to an average level of conformity of 32 per cent. Asch interviewed his subjects after the trials to try to find out why they conformed to an answer which was so obviously wrong. Most of them said that they did not want to cause problems within the group, although they admitted that when they did give wrong answers it made them anxious. (Asch found that when there was just one other person present who did not go along with the majority, no matter how many others there were, it was sufficient to make the subject give the right answer.)</p><p>Kelman (1953) outlined three processes which can explain social conformity. The first is compliance where subjects go along with the crowd to prevent any in-group hostility or bad feeling and to maintain group harmony. However, they do not change their own private belief. If we look back to the Asch study, we can see that the subjects were simply complying with the demands of the experimental situation but hadn't actually internalized the group's norms. They agreed in public, but dissented in private. In a process known as internalization, however, subjects do actually see the view of the group as the more valid one. They may be able to do this, for example, by convincing themselves that their eyesight is poor. Sometimes, however, subjects actually seem to change their beliefs because they want to become more like their heroes. If they really want to become part of an in-group, they will start to identify with that group and take on the group's values and beliefs, even if they are different to their own. Kelman calls this identification. It frequently happens with teenagers who want to become more like a peer group in order to be accepted, and suddenly seem to go against all the values and beliefs of their parents.</p><p>So why is it that we have to conform? Some people feel confident most of the time, have high self-esteem and do not have to go along with the majority. For most of us, though, how confident we feel varies from day to day, depending on the situation we are in, and this can influence behaviour.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 27–30</h3>Do the following statements agree with the claims of the writer in Reading Passage 3? In boxes 27-30, write<strong>YES</strong>&nbsp; if the statement agrees with the claims of the writer<br><strong>NO</strong>&nbsp; if the statement contradicts the claims of the writer<br><strong>NOT GIVEN</strong>&nbsp; if it is impossible to say what the writer thinks about this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Childhood crazes can center on items of any value."
+              },
+              {
+                "number": 28,
+                "textHtml": "Children are more vulnerable to crazes now than they used to be."
+              },
+              {
+                "number": 29,
+                "textHtml": "Consumers make too many quick decisions in shops."
+              },
+              {
+                "number": 30,
+                "textHtml": "Crutchfield's definition of conformity is the most reliable."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–35</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Studies on conformity</div><div><p>In the Jennes study, people had to guess how many {{31}} were in a container. Jennes found that, in most cases, people opted for an estimate given by a {{32}}.</p><p>Asch asked his subjects to {{33}} line lengths. To test the extent to which people would conform, he placed his subjects with colleagues who gave {{34}} responses. He found that his subjects agreed with his colleagues 32% of the time, although they admitted to feeling {{35}} about giving their answer.</p></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 36–40</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Kelman's processes of social conformity</div><div>Compliance<ul><li>people support the majority view despite their own ideas</li><li>social harmony is maintained</li><li>illustrated by the results of the research conducted by {{36}}</li></ul>{{37}}<ul><li>majority view is considered most {{38}} view</li><li>people persuade themselves despite their own ideas</li></ul>{{39}}<ul><li>people change their ideas to those of the majority</li><li>typical of {{40}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "This bird was widespread throughout the islands when European settlers arrived"
+        }
+      },
+      "2": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "the laughing owl turned the tables and adapted its diet to include the rodent"
+        }
+      },
+      "3": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "Surprisingly, it is the smaller owl, the morepork, that has managed to survive until this day"
+        }
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "eggs and chicks will also be at risk from rats"
+        }
+      },
+      "5": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "taking steps to ensure the preservation of New Zealand"
+        }
+      },
+      "6": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "as it calls to other moreporks and claims territory"
+        }
+      },
+      "7": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "the lower-pitched and more common"
+        }
+      },
+      "8": {
+        "accepted": [
+          "29 centimeters"
+        ],
+        "evidence": {
+          "snippet": "around 29 centimeters long from head to tail"
+        }
+      },
+      "9": {
+        "accepted": [
+          "rocks"
+        ],
+        "evidence": {
+          "snippet": "in cavities among rocks and roots"
+        }
+      },
+      "10": {
+        "accepted": [
+          "bill"
+        ],
+        "evidence": {
+          "snippet": "which it then carries away in its bill"
+        }
+      },
+      "11": {
+        "accepted": [
+          "day"
+        ],
+        "evidence": {
+          "snippet": "In the day, these small birds sometimes mob drowsy moreporks"
+        }
+      },
+      "12": {
+        "accepted": [
+          "plovers"
+        ],
+        "evidence": {
+          "snippet": "to establish a population of plovers on Motuora island"
+        }
+      },
+      "13": {
+        "accepted": [
+          "poison"
+        ],
+        "evidence": {
+          "snippet": "an accumulative poison by consuming prey that has ingested poison"
+        }
+      },
+      "14": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "clay has many benefits over its industrialized version"
+        }
+      },
+      "15": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "where family members spend time together"
+        }
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "The raised structure ensures a cooling breeze comes up through the floorboards"
+        }
+      },
+      "17": {
+        "accepted": [
+          "J"
+        ],
+        "evidence": {
+          "snippet": "no longer need huge national grids to supply electricity"
+        }
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "planted trees to shade buildings, and chose lighter-colored paving"
+        }
+      },
+      "19": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "had no knowledge of modern science or engineering but they came up with the perfect design"
+        }
+      },
+      "20": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "If Los Angeles painted its roofs white"
+        }
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "Clay blocks cost only half as much as ordinary bricks"
+        }
+      },
+      "22": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "to either allow in, or reflect away, infrared solar radiation"
+        }
+      },
+      "23": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "typical modern Malaysian houses are 5"
+        }
+      },
+      "24": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "The building sector is responsible for 31 per cent"
+        }
+      },
+      "25": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "wind towers are often little more than museum pieces"
+        }
+      },
+      "26": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "Buildings with large expanses of window"
+        }
+      },
+      "27": {
+        "accepted": [
+          "YES"
+        ],
+        "evidence": {
+          "snippet": "something as simple as a type of pen or as expensive as an electronic games console"
+        }
+      },
+      "28": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "Set up a craze, especially in the young and everyone will go for it"
+        }
+      },
+      "29": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "how easily we are persuaded that having certain items is the only way we can ensure peace of mind"
+        }
+      },
+      "30": {
+        "accepted": [
+          "NO"
+        ],
+        "evidence": {
+          "snippet": "A better definition is given by Aronson"
+        }
+      },
+      "31": {
+        "accepted": [
+          "beans"
+        ],
+        "evidence": {
+          "snippet": "looked at the answers people gave when asked to estimate the number of beans in a bottle"
+        }
+      },
+      "32": {
+        "accepted": [
+          "group"
+        ],
+        "evidence": {
+          "snippet": "discovered that they had stayed with the group answer"
+        }
+      },
+      "33": {
+        "accepted": [
+          "match"
+        ],
+        "evidence": {
+          "snippet": "asked them to match this in terms of length to one of the lines"
+        }
+      },
+      "34": {
+        "accepted": [
+          "untrue"
+        ],
+        "evidence": {
+          "snippet": "The stooges gave untrue responses in a number of the trials"
+        }
+      },
+      "35": {
+        "accepted": [
+          "anxious"
+        ],
+        "evidence": {
+          "snippet": "when they did give wrong answers it made them anxious"
+        }
+      },
+      "36": {
+        "accepted": [
+          "Asch"
+        ],
+        "evidence": {
+          "snippet": "If we look back to the Asch study"
+        }
+      },
+      "37": {
+        "accepted": [
+          "Internalisation"
+        ],
+        "evidence": {
+          "snippet": "In a process known as internalization"
+        }
+      },
+      "38": {
+        "accepted": [
+          "valid"
+        ],
+        "evidence": {
+          "snippet": "subjects do actually see the view of the group as the more valid one"
+        }
+      },
+      "39": {
+        "accepted": [
+          "Identification"
+        ],
+        "evidence": {
+          "snippet": "Kelman calls this identification"
+        }
+      },
+      "40": {
+        "accepted": [
+          "teenagers"
+        ],
+        "evidence": {
+          "snippet": "It frequently happens with teenagers who want to become more like a peer group"
+        }
+      }
+    },
+    "sets": []
+  }
+}

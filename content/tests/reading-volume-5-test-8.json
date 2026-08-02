@@ -1,0 +1,683 @@
+{
+  "slug": "reading-volume-5-test-8",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 5, Test 8",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "The Origin of Paper",
+        "passageHtml": "<p>Read the text and answer questions 1–13</p><p>The word paper derives from the Greek term for the ancient Egyptian writing material called papyrus. In about 2400 BC, the Egyptians discovered how to make a writing surface out of papyrus, a type of reed that grows along waterways in southern Europe and North Africa. The Egyptians cut the plant into strips which they softened in water. Papyrus was cross-woven into a mat and then pounded into a hard thin sheet.</p><p>As the papyrus plant requires subtropical conditions to grow, papyrus was not much used in Europe at that time; instead, the main material used for writing was parchment. This was made from animal skin and was extremely expensive. In fact, it has been estimated that a single book written on parchment required the skins of 300 sheep. The skins had to be specifically prepared by drying them and they were then stretched on a special frame. It is not known when parchment was first introduced, but it was the main writing material in Europe for hundreds of years.</p><p>Paper, which is made from pulp, rags, and fibers of plants, seems to have been invented in China and is considered to be one of the Four Great Inventions of Ancient China. In 105 AD, under the Han Dynasty emperor Ho-Ti, a government official in China named Ts'ai Lun was the first to start a papermaking industry. Ts'ai Lun seems to have made his paper by mixing finely chopped mulberry bark and hemp rags with water, mashing the mixture flat with a stone mortar, and then pressing out the water and letting it dry in the sun. He may have based his idea on bark cloth, which was very common in China and also made from mulberry.</p><p>Previously, during the Shang (1600-1050 BC) and Zhou (1050-256 BC) dynasties of Ancient China, documents were ordinarily written on bone or bamboo (on tablets or on bamboo strips sewn and rolled together into scrolls), making them very heavy and awkward to transport. The light material of silk was sometimes used, but was normally too expensive to consider. When it was first invented, paper was used for purposes of wrapping or padding protection for delicate bronze mirrors. Although paper used for writing became popular by the 3rd century AD, it continued to be used for wrapping and other purposes.</p><p>During the Tang Dynasty (618-907 AD) paper was folded and sewn into square bags to preserve the flavor of tea. During the same period, according to a written account, tea was served from baskets with multi-colored paper cups and paper napkins of different sizes and shapes. During the Chinese Song Dynasty (960-1279 AD) not only did the government produce the world's first known printed paper money, or banknote, but paper money bestowed as gifts was wrapped in special paper envelopes.</p><p>Paper spread slowly outside of China; other Asian cultures, even after seeing paper, could not make it themselves. Instruction in the manufacturing process was required, and the Chinese were reluctant to share their secrets. It made its true push westward in 751 AD when the Tang Dynasty was at war with the Islamic world. During a battle on the banks of the Tarus river, a Chinese caravan was captured which happened to include several papermakers. They were taken away to Samarkand, which was a good place to make paper because it had an abundant supply of hemp and flax.</p><p>Samarkanders changed the technology of manufacturing paper. They began to prepare it in stone mills and Samarkand became an important papermaking center.</p><p>The rudimentary and laborious process of papermaking was refined and bulk manufacturing of paper began in Iran, where they invented a method to make a thicker sheet of paper, which helped transform papermaking from an art into an important business.</p><p>Gradually papermakers made their way further west through the Arab world - to Baghdad, Damascus and Cairo. Finally, when the Moors from North Africa invaded Spain and Portugal they brought the technology with them and so it was that papermaking entered Europe in the 12th century.</p><p>In Europe, the preferred medium for the artists and literati of the time was still the smooth and lustrous parchment. The notion of paper being used as a practical everyday item did not occur until the 15th century when Johannes Gutenberg perfected movable type printing, which included the use of metal molds and alloys, a special press, and oil-based inks, allowing the mass production of printed books. The birth of the modern paper and printing industry is commonly marked from this date.</p><p>Printing technology rapidly developed and created an ever-increasing demand for paper. The early European papers were made from recycled cotton and linen - and a huge trade quickly developed around the trading of old rags. It is said that the disease known as 'the Black Death' entered England from Europe on these old rags. Yet soon this source became insufficient and some curious attempts were made to find new materials. Experiments with fibers such as straw, cabbage, wasp nests and finally wood, resulted in inexpensive - and replaceable - materials for papermaking. Today, the long soft fibers of softwoods such as spruce have become the most suitable source of pulp for the mass production of paper.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–7</h3>Do the following statements agree with the information given in Reading Passage 1? In boxes 1-7, write<strong>TRUE</strong>&nbsp; if the statement agrees with the information<br><strong>FALSE</strong>&nbsp; if the statement contradicts the information<br><strong>NOT GIVEN</strong>&nbsp; if there is no information on this",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "In Ancient China, writing was occasionally done on silk."
+              },
+              {
+                "number": 2,
+                "textHtml": "Coloured paper was invented during the Tang Dynasty."
+              },
+              {
+                "number": 3,
+                "textHtml": "Papermakers from Samarkand were captured by the Chinese."
+              },
+              {
+                "number": 4,
+                "textHtml": "Papermaking as a large-scale industry originated in Iran."
+              },
+              {
+                "number": 5,
+                "textHtml": "Papermaking skills were brought to Europe via North Africa."
+              },
+              {
+                "number": 6,
+                "textHtml": "When Gutenberg invented movable type, paper materials were very expensive."
+              },
+              {
+                "number": 7,
+                "textHtml": "The end of the trade in rags was brought about by the difficulty of transporting them."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 8–13</h3>Complete the table below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The development of paper</div><div><table class=\"q-table\"><thead><tr><th>Place</th><th>Date of introduction</th><th>Materials used</th><th>Method of production</th></tr></thead><tbody><tr><td>Egypt</td><td>about 2400 BC</td><td>a plant called papyrus</td><td>{{8}} of the plant were softened in water, woven and pounded</td></tr><tr><td>Europe</td><td>unknown</td><td>parchment made from the skin of animals such as {{9}}</td><td>skin was dried and {{10}}</td></tr><tr><td>China</td><td>105 AD</td><td>{{11}} of a mulberry tree and hemp rags</td><td>ingredients were mixed with water, pressed and put outside in the sun</td></tr><tr><td>{{12}}</td><td>751 AD</td><td>flax and hemp</td><td>mills made of {{13}} used were</td></tr></tbody></table></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "A new look for Talbot Park",
+        "passageHtml": "<p>Read the text and answer questions 14–26</p><p>Talbot Park, a housing project in Auckland, New Zealand, was once described as a ghetto, troubled by high rates of crime and vandalism. However, it has just been rebuilt at a cost of $48m and the project reflects some new thinking about urban design</p><p><strong>A</strong>&nbsp; The new Talbot Park is immediately eye-catching because the buildings look quite different to other state housing* projects in Auckland. 'There is no reason why state housing should look cheap in my view,' says architect Neil Cotton, one of the design team. 'In fact, I was anticipating a backlash by those who objected to the quality of what is provided with government money.' The tidy brick and wood apartments and townhouses would not look out of place in some of the city's most affluent suburbs and this is a central theme of the Talbot Park philosophy.</p><p><strong>B</strong>&nbsp; Talbot Park is a triangle of government-owned land, which in the early 1960s was developed for state housing built around a linear garden that ran through the middle. Initially, there was a strong sense of neighbourliness. Former residents recall how the garden played a big part in their childhoods - a place where kids came together to play softball, cricket and bullrush. 'We had respect for our neighbours and addressed them by title - Mr and Mrs so-and-so,' recalls Georgie Thompson, who grew up there in the 1960s.</p><p><strong>C</strong>&nbsp; Exactly what went wrong with Talbot Park is unclear. The community began to change in the late 1970s as more immigrants moved in. The new arrivals didn't always integrate with the community and a 'them and us' mentality developed. In the process, standards dropped and the neighbourhood began to look shabbier. The buildings themselves were also deteriorating and becoming run down, petty crime was on the rise and the garden was considered unsafe. In 2002, Housing New Zealand decided the properties needed upgrading. The question was, how to avoid repeating the mistakes of the past?</p><p><strong>D</strong>&nbsp; One controversial aspect of the upgrade is that the new development has actually made the density of housing in Talbot Park greater, putting 52 more homes on the same site. Doing this required a fresh approach that can be summed up as 'mix and match'. The first priority was to mix up the housing by employing a variety of plans by different architects: some of the accommodation is free-standing houses, some semi-detached, some low level, multi-apartment blocks. By doing this, the development avoids the uniform appearance of so many state housing projects, which residents complain denies them any sense of individual identity. The next goal was to prevent overspending by using efficient designs to maximise the sense of space from minimum room sizes. There was also a no-frills, industrial approach to kitchens, bathrooms and flooring, to optimise durability and ensure the project did not go over budget. Architecturally, the buildings are relatively conservative: fairly plain houses standing in a small garden. There's a slight reflection of the traditional Pacific beach house (a fale) but it's not overplayed. 'It seems to us that low-cost housing is about getting as much amenity as you can for the money,' says architect Michael Thompson. Another key aspect of the 'mix and match' approach is openness: one that not only lets residents see what is going on but also lets them know they are seen. The plan ensures there are no cul-de-sacs or properties hidden from view, that the gardens are not enclosed by trees and that most boundary fences are see-through - a community contained but without walls.</p><p><strong>E</strong>&nbsp; The population today is cosmopolitan: 50% Pacific Islanders, 20% Maori, 15% Asian, 10% New Zealand European and the rest composed of immigrants from Russia, Ukraine and Iran. 'It was important that the buildings were sufficiently flexible to cater for the needs of people from a wide variety of cultural backgrounds,' explains designer James Lundy.</p><p><strong>F</strong>&nbsp; Despite the quality of the buildings, however, there should be no doubt that Talbot Park and its surrounding suburb of Tamaki are low socio-economic areas. Of the 5,000 houses there, 55% are state houses, 28% privately owned (compared to about 65% nationally) and 17% private rental. The area has a high density of households with incomes in the $5,000 to $15,000 range and very few with an income over $70,000. That's in sharp contrast to the more affluent suburbs in Auckland.</p><p><strong>G</strong>&nbsp; Another important part of the new development is what Housing New Zealand calls 'intensive tenancy management'. Opponents of the project call it social control. 'The focus is on frequent inspections and setting clear guidelines and boundaries regarding the sort of behaviour we expect from tenants,' says Graham Bodman, Housing New Zealand's regional manager. The result is a code of sometimes strict rules: no loud parties after 10pm; no washing hung over balcony rails and a requirement to mow lawns and keep the property tidy. The Tenancy Manager walks the site every day, knows everyone by name and deals with problems quickly. 'It's all based on the intensification,' says project manager Stuart Bracey. 'We acknowledge that if you are going to ask people to live in these quite tightly-packed communities, you have to actually help them to get to know each other by organising morning teas and street barbecues.' So far it seems to be working and many involved in the project believe Talbot Park represents the way forward for state housing.</p><p>* state housing: government subsidised accommodation for people who cannot pay market rents</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–20</h3>Reading Passage 2 has seven paragraphs, <strong>A-G</strong>. Choose the correct heading for each paragraph from the list of headings below. Write the correct number, <strong>i-x</strong>, in boxes 14-20 on your answer sheet.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Some of the problems that developed at Talbot Park"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Where the residents lived while the work was being completed"
+              },
+              {
+                "letter": "C",
+                "textHtml": "The ethnic makeup of the new Talbot Park"
+              },
+              {
+                "letter": "D",
+                "textHtml": "The unexpectedly high standard of the housing"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Financial hardship in Talbot Park and a neighbouring community"
+              },
+              {
+                "letter": "F",
+                "textHtml": "The experiences of one family living at Talbot Park today"
+              },
+              {
+                "letter": "G",
+                "textHtml": "How to co-ordinate and assist the people who live at Talbot Park"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Raising the money to pay for the makeover"
+              },
+              {
+                "letter": "I",
+                "textHtml": "A close community in the original Talbot Park development"
+              },
+              {
+                "letter": "J",
+                "textHtml": "Details of the style of buildings used in the makeover"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              },
+              {
+                "number": 20,
+                "textHtml": "Paragraph <strong>G</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 21–23</h3>Look at the following people (Questions 21-23) and the list of ideas below. Match each person with the correct idea, <strong>A-F</strong>.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Good tenant management involves supervision and regulation."
+              },
+              {
+                "letter": "B",
+                "textHtml": "State housing must be built at minimum expense to the public."
+              },
+              {
+                "letter": "C",
+                "textHtml": "Organising social events helps tenants to live close together."
+              },
+              {
+                "letter": "D",
+                "textHtml": "Mixed-race communities require adaptable and responsive designs."
+              },
+              {
+                "letter": "E",
+                "textHtml": "Complaints were expected about the high standard of the development."
+              },
+              {
+                "letter": "F",
+                "textHtml": "Too many rules and regulations will cause resentment from tenants."
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "James Lundy"
+              },
+              {
+                "number": 22,
+                "textHtml": "Graham Bodman"
+              },
+              {
+                "number": 23,
+                "textHtml": "Stuart Bracey"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 24–26</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The 'mix and match' strategy</div><div><p>One aspect of the Talbot Park project that some critics are concerned about is that the higher {{24}} of accommodation would lead to the old social problems returning. To prevent this, a team of various {{25}} worked on the project to ensure the buildings were not uniform. Further, they created pleasant, functional interiors that could still be built within their {{26}}. Finally, the absence of walls means Talbot Park is characterised by openness, making it easier to regulate behaviour within the community.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "The Analysis of Fear",
+        "passageHtml": "<p>Read the text and answer questions 27–40</p><p>Researchers are investigating the processes in the brain that give rise to fear in animals. The results may lead to new ways to treat human anxiety</p><p>Over the years, the majority of people acquire a range of skills for coping with frightening situations. They will attempt to placate a vexed teacher or boss and will shout and run when chased by a hostile stranger. But some individuals become overwhelmed in circumstances others would consider only minimally stressful: fear of ridicule might cause them to shake uncontrollably when called on to speak in a group, or terror of strangers might lead them to hide at home, unable to work or shop for groceries. Why do certain people fall prey to excessive fear?</p><p>Ned H. Kalin and Steven E. Shelton at the University of Wisconsin-Madison are addressing this problem by identifying specific brain processes that regulate fear and its associated behaviors. Despite the availability of non-invasive computer imaging techniques, such information is still extremely difficult to obtain in humans. Hence, they have turned their attention to another primate, the rhesus monkey. These animals undergo many of the same physiological and psychological developmental stages that humans do, but in a more compressed time span. As we gain more insight into the nature and operation of neural circuits that modulate fear in monkeys, it should be possible to pinpoint the brain processes that cause inordinate anxiety in people, and to devise new therapies to counteract it. Effective interventions would be particularly valuable if they were applied at an early age, as growing evidence suggests overly fearful youngsters are at high risk of later emotional distress.</p><p>When they began their studies two decades ago, Kalin and Shelton knew that they would first have to find cues that elicit fear and identify behaviors that reflect different types of anxiety. With such information in hand, they could then proceed to determine the age at which monkeys begin to match defensive behaviors selectively to specific cues. Finally, by determining the parts of the brain that reach maturity during the same time span, they could gain clues to the regions that underlie the regulation of fear and fear-related behavior.</p><p>The experiments were carried out at the University of Wisconsin-Madison. Kalin and Shelton discerned varied behaviors by exposing monkeys between six and 12 months old to three related situations. In the alone condition, an animal was separated from its mother and left by itself in a cage for ten minutes. In the no-eye-contact condition, a person stood motionless outside the cage and avoided looking at the solitary infant. In the stare condition, a person was again present and motionless but, assuming a neutral expression, peered directly at the animal. These positions are no more frightening than those that primates encounter frequently in the wild, or those that human infants encounter every time they are left at a day-care center.</p><p>In the alone condition, most monkeys became very active and emitted frequent gentle 'coo' calls made with pursed lips. More than 40 years ago it was deduced that when an infant monkey is separated from its mother, it yearns to regain the closeness and security provided by nearness to the parent. These responses help to draw the mother's attention. In contrast, in the more frightening no-eye-contact situation, the monkeys reduced their activity greatly and sometimes froze for extended periods of time. When an infant spots a potential predator, its goal shifts from attracting the mother to becoming inconspicuous. Inhibiting motion and freezing are common attempts to achieve this in many species. If the infant perceives that it has been detected, its aim shifts to warding off an attack. So the stare condition evoked a third set of responses. The monkeys made several hostile gestures: barking (forcing air from the abdomen through the vocal cords to emit a harsh, growl-like sound) and staring back. Sometimes the animals mixed the threatening displays with submissive ones, such as fear grimaces, which look something like wary grins, or grinding of teeth.</p><p>Having identified three categories of defensive behaviors, Kalin and Shelton set about determining when infant monkeys first begin to apply them effectively. Several lines of work had led them to surmise that the ability to make such choices emerges when an infant is around two months old. To establish the critical period of development, they examined four groups of infant monkeys ranging in age up to 12 weeks old. The babies were separated from their mothers, left to acclimatize to a cage, and then exposed to the alone, no-eye-contact and stare conditions. All sessions were videotaped for analysis. They found that the infants in the youngest group (no more than two weeks old) engaged in defensive behaviors. But they lacked some motor control and seemed to act randomly, as if they had not noticed the human beings that were present. Babies in the two intermediate-age groups had good motor control, but their actions seemed unrelated to the test condition. Only animals in the oldest group (nine- to 12-week olds) conducted themselves differently in each situation, and their reactions were both appropriate and identical to those of mature monkeys. This finding meant motor control was not the prime determinant of selective responding and that nine to 12 weeks is the critical age for the appearance of a monkeys ability to adaptively modulate its defensive activity to meet changing demands.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–30</h3>Choose the correct letter, <strong>A, B, C or D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "In the first paragraph, the writer points out that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; fear and stress are different feelings"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; most humans develop strategies for dealing with fear."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; business situations cause more fear than others."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; some people never experience fear."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "When discussing the use of rhesus monkeys as experimental subjects, the writer notes that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; they react more quickly to fear than humans."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; they are more influenced by fear than humans."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; their mental growth resembles that of humans."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; their brains work more slowly than those of humans."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "Which of the following did Kalin and Shelton outline as the second stage in their research project?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; the identification of expressions of anxiety in monkeys"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; the identification of situations that arouse stress in monkeys"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; an analysis of brain development in monkeys"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; the study of reactions to fear in monkeys of different ages"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "In the fourth paragraph, the writer notes that the three related situations",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; reflect common experiences for infant humans and monkeys."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; highlight the similarities between monkey and human infant care."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; were predicted to cause monkeys more distress than human infants."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; were graded in terms of their potential effect on young monkeys."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 31–35</h3>Look at the following responses of monkeys (Questions 31-35) and the list of conditions below. Match each response with the correct condition, <strong>A, B or C</strong>.<strong>NB</strong>&nbsp; You may use any letter more than once.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "the alone condition"
+              },
+              {
+                "letter": "B",
+                "textHtml": "the no-eye-contact condition"
+              },
+              {
+                "letter": "C",
+                "textHtml": "the stare condition"
+              }
+            ],
+            "questions": [
+              {
+                "number": 31,
+                "textHtml": "aggressive facial expressions"
+              },
+              {
+                "number": 32,
+                "textHtml": "prolonged stillness"
+              },
+              {
+                "number": 33,
+                "textHtml": "a combination of contradictory signals"
+              },
+              {
+                "number": 34,
+                "textHtml": "appeals for maternal protection"
+              },
+              {
+                "number": 35,
+                "textHtml": "the production of soft sounds"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 36–40</h3>Complete the summary below. Choose <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p>Once they had identified three types of defensive behaviour, Kalin and Shelton grouped the monkeys according to their {{36}}, in order to discover precisely when they were able to respond appropriately to different fear-related cues. They videotaped their results and found that monkeys as young as {{37}} reacted to the cues but in a haphazard fashion. The researchers noted that they seemed to be unaware of the {{38}} who were around them. Despite demonstrating {{39}}, the monkeys in the middle groups failed to react in ways corresponding to the experimental situation. The oldest group, however, reacted in the same way as {{40}} and the researchers concluded that monkeys are capable of selective responding between nine and 12 weeks old.</p></div>",
+            "maxWords": 4
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "The light material of silk was sometimes used, but was normally too expensive to consider"
+        }
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "tea was served from baskets with multi-colored paper cups and paper napkins of different sizes and shapes"
+        }
+      },
+      "3": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "a Chinese caravan was captured which happened to include several papermakers"
+        }
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "bulk manufacturing of paper began in Iran"
+        }
+      },
+      "5": {
+        "accepted": [
+          "TRUE"
+        ],
+        "evidence": {
+          "snippet": "when the Moors from North Africa invaded Spain and Portugal they brought the technology with them"
+        }
+      },
+      "6": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "evidence": {
+          "snippet": "The notion of paper being used as a practical everyday item did not occur until the 15th century"
+        }
+      },
+      "7": {
+        "accepted": [
+          "FALSE"
+        ],
+        "evidence": {
+          "snippet": "Yet soon this source became insufficient and some curious attempts were made to find new materials"
+        }
+      },
+      "8": {
+        "accepted": [
+          "Strips"
+        ],
+        "evidence": {
+          "snippet": "The Egyptians cut the plant into strips which they softened in water"
+        }
+      },
+      "9": {
+        "accepted": [
+          "sheep"
+        ],
+        "evidence": {
+          "snippet": "it has been estimated that a single book written on parchment required the skins of 300 sheep"
+        }
+      },
+      "10": {
+        "accepted": [
+          "stretched"
+        ],
+        "evidence": {
+          "snippet": "The skins had to be specifically prepared by drying them and they were then stretched on a special frame"
+        }
+      },
+      "11": {
+        "accepted": [
+          "Bark"
+        ],
+        "evidence": {
+          "snippet": "seems to have made his paper by mixing finely chopped mulberry bark and hemp rags with water"
+        }
+      },
+      "12": {
+        "accepted": [
+          "Samarkand"
+        ],
+        "evidence": {
+          "snippet": "They were taken away to Samarkand, which was a good place to make paper because it had an abundant supply of hemp and flax"
+        }
+      },
+      "13": {
+        "accepted": [
+          "stone"
+        ],
+        "evidence": {
+          "snippet": "They began to prepare it in stone mills and Samarkand became an important papermaking center"
+        }
+      },
+      "14": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "this is a central theme of the Talbot Park philosophy"
+        }
+      },
+      "15": {
+        "accepted": [
+          "I"
+        ],
+        "evidence": {
+          "snippet": "Initially, there was a strong sense of neighbourliness"
+        }
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "In the process, standards dropped and the neighbourhood began to look shabbier"
+        }
+      },
+      "17": {
+        "accepted": [
+          "J"
+        ],
+        "evidence": {
+          "snippet": "Architecturally, the buildings are relatively conservative: fairly plain houses standing in a small garden"
+        }
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "The population today is cosmopolitan: 50% Pacific Islanders, 20% Maori, 15% Asian, 10% New Zealand European"
+        }
+      },
+      "19": {
+        "accepted": [
+          "E"
+        ],
+        "evidence": {
+          "snippet": "The area has a high density of households with incomes in the $5,000 to $15,000 range and very few with an income over $70,000"
+        }
+      },
+      "20": {
+        "accepted": [
+          "G"
+        ],
+        "evidence": {
+          "snippet": "Opponents of the project call it social control"
+        }
+      },
+      "21": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "It was important that the buildings were sufficiently flexible to cater for the needs of people from a wide variety of cultural backgrounds"
+        }
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "The focus is on frequent inspections and setting clear guidelines and boundaries regarding the sort of behaviour we expect from tenants"
+        }
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "We acknowledge that if you are going to ask people to live in these quite tightly-packed communities, you have to actually help them to get to know each other by organising morning teas and street barbecues"
+        }
+      },
+      "24": {
+        "accepted": [
+          "density"
+        ],
+        "evidence": {
+          "snippet": "the new development has actually made the density of housing in Talbot Park greater"
+        }
+      },
+      "25": {
+        "accepted": [
+          "architects"
+        ],
+        "evidence": {
+          "snippet": "The first priority was to mix up the housing by employing a variety of plans by different architects"
+        }
+      },
+      "26": {
+        "accepted": [
+          "budget"
+        ],
+        "evidence": {
+          "snippet": "to optimise durability and ensure the project did not go over budget"
+        }
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "Over the years, the majority of people acquire a range of skills for coping with frightening situations"
+        }
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "These animals undergo many of the same physiological and psychological developmental stages that humans do, but in a more compressed time span"
+        }
+      },
+      "29": {
+        "accepted": [
+          "D"
+        ],
+        "evidence": {
+          "snippet": "With such information in hand, they could then proceed to determine the age at which monkeys begin to match defensive behaviors selectively to specific cues"
+        }
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "These positions are no more frightening than those that primates encounter frequently in the wild, or those that human infants encounter every time they are left at a day-care center"
+        }
+      },
+      "31": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "The monkeys made several hostile gestures: barking (forcing air from the abdomen through the vocal cords to emit a harsh, growl-like sound) and staring back"
+        }
+      },
+      "32": {
+        "accepted": [
+          "B"
+        ],
+        "evidence": {
+          "snippet": "In contrast, in the more frightening no-eye-contact situation, the monkeys reduced their activity greatly and sometimes froze for extended periods of time"
+        }
+      },
+      "33": {
+        "accepted": [
+          "C"
+        ],
+        "evidence": {
+          "snippet": "Sometimes the animals mixed the threatening displays with submissive ones, such as fear grimaces, which look something like wary grins, or grinding of teeth"
+        }
+      },
+      "34": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "More than 40 years ago it was deduced that when an infant monkey is separated from its mother, it yearns to regain the closeness and security provided by nearness to the parent"
+        }
+      },
+      "35": {
+        "accepted": [
+          "A"
+        ],
+        "evidence": {
+          "snippet": "In the alone condition, most monkeys became very active and emitted frequent gentle"
+        }
+      },
+      "36": {
+        "accepted": [
+          "age"
+        ],
+        "evidence": {
+          "snippet": "To establish the critical period of development, they examined four groups of infant monkeys ranging in age up to 12 weeks old"
+        }
+      },
+      "37": {
+        "accepted": [
+          "two weeks old"
+        ],
+        "evidence": {
+          "snippet": "They found that the infants in the youngest group (no more than two weeks old) engaged in defensive behaviors"
+        }
+      },
+      "38": {
+        "accepted": [
+          "human beings"
+        ],
+        "evidence": {
+          "snippet": "But they lacked some motor control and seemed to act randomly, as if they had not noticed the human beings that were present"
+        }
+      },
+      "39": {
+        "accepted": [
+          "good motor control"
+        ],
+        "evidence": {
+          "snippet": "Babies in the two intermediate-age groups had good motor control, but their actions seemed unrelated to the test condition"
+        }
+      },
+      "40": {
+        "accepted": [
+          "mature monkeys"
+        ],
+        "evidence": {
+          "snippet": "Only animals in the oldest group (nine- to 12-week olds) conducted themselves differently in each situation, and their reactions were both appropriate and identical to those of mature monkeys"
+        }
+      }
+    },
+    "sets": []
+  }
+}

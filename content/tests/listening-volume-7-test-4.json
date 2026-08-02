@@ -1,0 +1,570 @@
+{
+  "slug": "listening-volume-7-test-4",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 7, Test 4",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Superior Home Appliances — Customer Complaint Form</div><p><em>Example</em> &nbsp; Type of appliance: <strong><u>fridge</u></strong></p><ul><li>Name: Jessica Brown</li><li>Tel: 5823 2210</li><li>Under warranty: yes</li><li>Model type: a {{1}} mount</li><li>Model number: S 654 391 X</li><li>Colour: {{2}}</li><li>Date of purchase: {{3}}</li></ul><p>Problems</p><ul><li>the {{4}} in the fridge sounded</li><li>freezer temperature is {{5}} degrees</li><li>main fridge not working.</li></ul><ul><li>Nearest service centre: Ken's Appliances (near the {{6}})</li></ul><p>Comments</p><ul><li>customer needs the fridge to store food for her {{7}} shop</li><li>value of food in fridge: ${{8}}</li></ul><p>To do</p><ul><li>get the {{9}} to call her today</li><li>replace damaged {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–14</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;People who act as hosts for Connections",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "are given a little money."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "do not receive payment."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "can apply for expenses."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;Connections is for people from other countries who",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "have difficulty making friends."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "are looking for temporary work."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "can offer language support."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;According to the speaker, what can a guest expect to do during their stay?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "cook food for their host family"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "explain their own family traditions."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "discuss matters of personal interest."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;According to the speaker, a long-term benefit of the Connections scheme could be",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "an increased understanding between cultures."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a programme of weekly visits."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "more involvement from people of different communities."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Acknowledgement"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Decision"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Identity"
+              },
+              {
+                "letter": "D",
+                "textHtml": "An interview"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Legal status"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Records"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Rejection"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Vetting"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": ""
+              },
+              {
+                "number": 16,
+                "textHtml": ""
+              },
+              {
+                "number": 17,
+                "textHtml": ""
+              },
+              {
+                "number": 18,
+                "textHtml": ""
+              },
+              {
+                "number": 19,
+                "textHtml": ""
+              },
+              {
+                "number": 20,
+                "textHtml": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Why is Beth unconvinced that allergies are linked to vitamin D deficiency?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "because people's diets have improved since the 1950s"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "because most people get enough vitamin D"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "because the evidence only applies in Britain"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Eliot explains that rising CO2 levels",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "will mean distribution of pollen over a wider area."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "are having less impact on pollen than milder winters."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "are responsible for higher quantities of pollen."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What does Beth say about seasonal changes?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "There is no clear short-term trend for the arrival of spring."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "In general, spring is likely to continue arriving early."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Springs are becoming milder and longer."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What point is made about the plant ragweed?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it is spreading to more countries."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it is the most widespread cause of allergies globally."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it causes the most severe type of allergy."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;Why is tree pollen a more serious problem in cities?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Trees produce more pollen there."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There is less to absorb the tree pollen."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "There is not enough control over tree-planting."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "greatest change recorded for oak pollen"
+              },
+              {
+                "letter": "B",
+                "textHtml": "changes identified for two pollen types only"
+              },
+              {
+                "letter": "C",
+                "textHtml": "a longer season for grass pollen"
+              },
+              {
+                "letter": "D",
+                "textHtml": "earlier start dates for all pollen types"
+              },
+              {
+                "letter": "E",
+                "textHtml": "significant change in start date of birch pollen"
+              },
+              {
+                "letter": "F",
+                "textHtml": "little difference in start dates"
+              },
+              {
+                "letter": "G",
+                "textHtml": "information only available for birch pollen"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "Austria"
+              },
+              {
+                "number": 27,
+                "textHtml": "France"
+              },
+              {
+                "number": 28,
+                "textHtml": "The Netherlands"
+              },
+              {
+                "number": 29,
+                "textHtml": "Switzerland"
+              },
+              {
+                "number": 30,
+                "textHtml": "UK"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Saffron</div><p>Saffron: a spice which comes from the crocus flower</p><p>Cultivation and production</p><ul><li>Harvested in October</li><li>Number of stigmas needed for 50 grams: {{31}}</li><li>Method of preservation: {{32}}</li><li>Taste and aroma: like honey</li><li>Forms in which sold: as whole stigmas and as a {{33}}</li></ul><p>Uses of saffron today</p><p>To colour and flavour food in many countries especially for making {{34}} dishes</p><p>In medicine</p><ul><li>as a drug in treatment of problems affecting the {{35}}</li><li>experiments with rats as protection from exposure to some types of {{36}}</li></ul><p>History of saffron use</p><ul><li>Ancient Crete as a dye for {{37}}</li><li>Roman Empire <ul><li>in oil used for the production of {{38}}</li><li>as a {{39}} in public baths</li></ul></li><li>Persia (Iran) as a dye used in the making of {{40}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "top"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "silver"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "12 january",
+          "12th january",
+          "january 12",
+          "january 12th"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "alarm"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "10"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "station"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "sandwich"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "180"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "manager"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "door"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "14000",
+          "14,000"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "drying"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "powder"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "rice"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "eye"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "lights"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "clothes"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "cosmetics"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "perfume"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "carpets"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

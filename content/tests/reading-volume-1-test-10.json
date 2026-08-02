@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 1, Test 10",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -377,7 +377,10 @@
       "1": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "this attracted resident farmers by promising to bring in more hard cash than the mixed crops"
+        }
       },
       "2": {
         "accepted": [
@@ -387,158 +390,248 @@
       "3": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "booming yields and incomes hooked growers during the early years of cotton"
+        }
       },
       "4": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The immediate payoffs from chemically-dependent cotton agriculture both ensured and obscured the fact"
+        }
       },
       "5": {
         "accepted": [
           "evergreen tree",
           "evergreen"
-        ]
+        ],
+        "evidence": {
+          "snippet": "neem, a fast-growing, broad-leaved evergreen tree related to mahogany"
+        }
       },
       "6": {
         "accepted": [
           "natural pesticides",
           "pesticides"
-        ]
+        ],
+        "evidence": {
+          "snippet": "producing a multitude of natural pesticides that have evolved specifically to defeat plant-eating insects"
+        }
       },
       "7": {
         "accepted": [
           "a powder",
           "powder"
-        ]
+        ],
+        "evidence": {
+          "snippet": "neem seeds are simply ground into a powder"
+        }
       },
       "8": {
         "accepted": [
           "overnight"
-        ]
+        ],
+        "evidence": {
+          "snippet": "soaked overnight in water"
+        }
       },
       "9": {
         "accepted": [
           "cake"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Neem cake applied to the soil"
+        }
       },
       "10": {
         "accepted": [
           "nitrogen"
-        ]
+        ],
+        "evidence": {
+          "snippet": "organic fertiliser high in nitrogen"
+        }
       },
       "11": {
         "accepted": [
           "2000"
-        ]
+        ],
+        "evidence": {
+          "snippet": "By the end of 2000, all the farmers in Punukula village were using NPM rather than chemicals for cotton"
+        }
       },
       "12": {
         "accepted": [
           "neem seeds",
           "seeds"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they gathered seeds from the surrounding area to sell for NPM in other villages"
+        }
       },
       "13": {
         "accepted": [
           "water purification",
           "purification"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they have big plans for the future, such as water purification"
+        }
       },
       "14": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "new land for agriculture is becoming ever more sparse"
+        }
       },
       "15": {
         "accepted": [
           "I"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The global population is expected to exceed nine billion by 2050"
+        }
       },
       "16": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A single 20-storey vertical farm could theoretically feed 50,000 people"
+        }
       },
       "17": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Tokyo-based mushroom producer Hokuto Corporation is a model example of how a vertical farm can be profitable"
+        }
       },
       "18": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Developing an emergency-response system for crop production inside specially constructed modular and highly transportable greenhouses would allow for humanitarian interventions"
+        }
       },
       "19": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "vertical farms could help to enrich biodiversity"
+        }
       },
       "20": {
         "accepted": [
           "erosion"
-        ]
+        ],
+        "evidence": {
+          "snippet": "human-induced soil degradation particularly through erosion"
+        }
       },
       "21": {
         "accepted": [
           "operating costs",
           "costs"
-        ]
+        ],
+        "evidence": {
+          "snippet": "initial investment and operating costs that are too great"
+        }
       },
       "22": {
         "accepted": [
           "helicopters"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they could become mobile units that could be picked up by helicopters and dropped into the middle of a crisis zone"
+        }
       },
       "23": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Yamanoko goes on to highlight the relative cost-effectiveness of his organisation"
+        }
       },
       "24": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Despommier is concerned about the harm which farming has done to the world"
+        }
       },
       "25": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "vertical farming could boost crop yields many times over"
+        }
       },
       "26": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "this can, in turn, help to improve the productivity of conventional farms"
+        }
       },
       "27": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "our olfactory system is targeted by variations of vanilla and citrus perfumes aimed at enticing us to linger in a retail outlet"
+        }
       },
       "28": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "In the case of bottled water, we are swayed by advertising into paying for something that we can obtain for free"
+        }
       },
       "29": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "our rat will now show a preference for the same type as the other rat was eating"
+        }
       },
       "30": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Learning by observation can be an extraordinarily valuable brain feature"
+        }
       },
       "31": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "advertisements are disproportionately populated with attractive, successful looking individuals"
+        }
       },
       "32": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the objective was to promote diamonds as the symbol of everlasting love"
+        }
       },
       "33": {
         "accepted": [
@@ -553,32 +646,50 @@
       "35": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Although not all researchers are convinced by the findings"
+        }
       },
       "36": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "success did not depend on these products"
+        }
       },
       "37": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Potato washing then spread from monkey to monkey"
+        }
       },
       "38": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "He noted that in one particular group the dominant male was hurt and was limping"
+        }
       },
       "39": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "imitators obviously copied his jumping style, not his brand of sports shoes"
+        }
       },
       "40": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "companies engage in stealth marketing campaigns in which people are paid to frequent bars or websites to covertly promote certain products"
+        }
       }
     },
     "sets": []

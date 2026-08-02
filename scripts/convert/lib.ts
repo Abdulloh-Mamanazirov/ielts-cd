@@ -268,9 +268,14 @@ export function toSlotHtml<T extends AnyNode>($: Cheerio, root: cheerio.Cheerio<
     $(element).replaceWith(/^\d+$/.test(number) ? `{{${number}}}` : "");
   });
 
-  root.find("input[id]").each((_, element) => {
-    const id = $(element).attr("id") ?? "";
-    $(element).replaceWith(/^q\d+$/.test(id) ? `{{${id.slice(1)}}}` : "");
+  // A gap is sometimes a <select id="q32"> (a word-bank summary) rather than an
+  // <input>; a select whose id is not a question number is left in place, since
+  // removing it would drop a real control.
+  root.find("input[id], select[id]").each((_, element) => {
+    const el = $(element);
+    const id = el.attr("id") ?? "";
+    if (/^q\d+$/.test(id)) el.replaceWith(`{{${id.slice(1)}}}`);
+    else if ((element as unknown as { tagName?: string }).tagName === "input") el.replaceWith("");
   });
 
   root.find(DROP_SELECTOR).remove();

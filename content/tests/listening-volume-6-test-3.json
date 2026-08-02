@@ -1,0 +1,566 @@
+{
+  "slug": "listening-volume-6-test-3",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-39m-06s-audio-joiner.com_202607/mix_39m06s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 6, Test 3",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–5</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Get Away Tours</div><ul><li>Office hours: 10am to 7pm</li><li>Cost of cheapest tour per person is ${{1}} (this month only)</li><li>Price includes accommodation and meals</li><li>The number of bicycle trips to choose from is {{2}}</li><li>Most tours last a {{3}}</li><li>This company offers {{4}} holidays as well as bicycling</li><li>Travellers start their trips on {{5}}</li></ul></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 6–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Overview of Bicycling Tours</div><table class=\"q-table\"><tbody><tr><th></th><th>Number of nights</th><th>Terrain</th><th>Other attractions</th><th>Accommodation</th></tr><tr><td><strong>Eastern United States</strong></td><td>{{6}}</td><td>Riverside and {{7}} trails</td><td>Beautiful homes and {{8}}</td><td>Hotels</td></tr><tr><td><strong>Southern California</strong></td><td>Ten</td><td>Mountain trail and {{9}} roads</td><td>Inviting food and good weather</td><td>Hotels and a {{10}}</td></tr></tbody></table></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–14</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;The school is looking for new team coaches and managers because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the overall interest in sport has grown."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "certain parents have given up these roles."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "new types of sport are being introduced."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What does the speaker say is the most important thing a coach needs?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "confidence about the rules of a particular sport"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the ability to make children enthusiastic about a sport"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "commitment to training the team for a full season"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;For parents who would like to coach rugby, one requirement is that they",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "attend an upcoming registration event."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "can commit to two coaching sessions per week."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "have their own child in the team."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;In order to get a netball uniform, parents will need to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "pay a deposit at school."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "ask the team manager for one."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "visit the recommended local sports store."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Drinks station"
+              },
+              {
+                "number": 16,
+                "textHtml": "Crossing point"
+              },
+              {
+                "number": 17,
+                "textHtml": "Halfway point"
+              },
+              {
+                "number": 18,
+                "textHtml": "First aid"
+              },
+              {
+                "number": 19,
+                "textHtml": "Rest area"
+              },
+              {
+                "number": 20,
+                "textHtml": "Filming area"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Why did buildings made of plastic fail to please the public in the 1960s?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "People didn't think they were good for the environment."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "People didn't want to live in them."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "People didn't find them visually appealing."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;In the 1960s and 1970s, engineers were unable to overcome the problem of",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "damage caused in the production process."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the effects of light and water."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the potential danger of wind."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Luke and Millie agree to try to get more information about present-day plastics from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "journals."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a PhD student."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "websites."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What do Luke and Millie agree about the article by Peterson?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It provided useful examples."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It was easy to understand."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It was a good introduction to the topic."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "easy to transport"
+              },
+              {
+                "letter": "B",
+                "textHtml": "not much room inside"
+              },
+              {
+                "letter": "C",
+                "textHtml": "made from recycled materials"
+              },
+              {
+                "letter": "D",
+                "textHtml": "designed to promote technology"
+              },
+              {
+                "letter": "E",
+                "textHtml": "never actually built"
+              },
+              {
+                "letter": "F",
+                "textHtml": "easy to keep clean"
+              },
+              {
+                "letter": "G",
+                "textHtml": "very strong construction"
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "the 'house of the future' (1957)"
+              },
+              {
+                "number": 26,
+                "textHtml": "the 'wonderhouse' (1964)"
+              },
+              {
+                "number": 27,
+                "textHtml": "spaceship houses (1968-78)"
+              },
+              {
+                "number": 28,
+                "textHtml": "foam houses (1979-83)"
+              },
+              {
+                "number": 29,
+                "textHtml": "plastic exhibition hall"
+              },
+              {
+                "number": 30,
+                "textHtml": "New Zealand house"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Calotype photography in Britain and France</div><p>From Daguerreotype to Calotype</p><ul><li>Daguerreotype was the first commercial photographic process.</li><li>Daguerreotype had a problem: the use of copper made it {{31}}</li><li>William Talbot began looking for an alternative approach in the 1840s.</li><li>Talbot was not originally a photographer but an artist who specialised in {{32}}</li><li>Talbot used paper instead of copper.</li><li>These calotype photographs were more {{33}} because they weren't so sharp.</li></ul><p>French Calotype</p><ul><li>In 1851, the first society for photographers was created</li><li>Gustave Le Gray became fascinated by calotype photography.</li><li>He carried out experiments and produced the first {{34}} using a camera.</li><li>He developed equipment that was easier to use outside the {{35}}</li><li>Calotype became famous because Le Gray produced {{36}} about it.</li><li>People thought photography was more reliable than drawing.</li><li>It was used to record the work done on old {{37}}</li><li>Photography was not 'art', according to {{38}}</li></ul><p>Summary</p><ul><li>Photography was thought of as a {{39}} so reflected the culture of the 1850s.</li><li>The use of new materials, particularly {{40}}, led to new techniques.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "1100"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "36"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "week"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "walking"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "tuesday"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "6",
+          "six"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "forest"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "gardens"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "coastal"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "farm"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "expensive"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "painting"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "realistic"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "enlargement"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "studio"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "books"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "buildings"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "critics"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "science"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "glass"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

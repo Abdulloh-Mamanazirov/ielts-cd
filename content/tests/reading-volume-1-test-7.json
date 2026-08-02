@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 1, Test 7",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -290,32 +290,50 @@
       "1": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "four turtles have washed up along Irish coasts"
+        }
       },
       "2": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "to return to their nesting regions and sometimes exact locations from hundreds of miles away"
+        }
       },
       "3": {
         "accepted": [
           "I"
-        ]
+        ],
+        "evidence": {
+          "snippet": "takes them from America, across to Europe"
+        }
       },
       "4": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Once in cool waters, the body of a loggerhead begins to shut down"
+        }
       },
       "5": {
         "accepted": [
           "J"
-        ]
+        ],
+        "evidence": {
+          "snippet": "danger of extinction. A critical factor"
+        }
       },
       "6": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Leatherback may play an important role in the recovery of diminishing fish populations"
+        }
       },
       "7": {
         "accepted": [
@@ -323,13 +341,19 @@
           "35000",
           "about 35,000",
           "about 35000"
-        ]
+        ],
+        "evidence": {
+          "snippet": "only about 35,000 Leatherback turtles in the world"
+        }
       },
       "8": {
         "accepted": [
           "bony carapace",
           "the bony carapace"
-        ]
+        ],
+        "evidence": {
+          "snippet": "lacks the bony carapace"
+        }
       },
       "9": {
         "accepted": [
@@ -337,7 +361,10 @@
           "cold temperature",
           "temperature",
           "cooler waters"
-        ]
+        ],
+        "evidence": {
+          "snippet": "cooler waters of the North East Atlantic are too cold"
+        }
       },
       "10": {
         "accepted": [
@@ -345,26 +372,38 @@
           "america",
           "north america",
           "florida, america"
-        ]
+        ],
+        "evidence": {
+          "snippet": "originated from Florida, America"
+        }
       },
       "11": {
         "accepted": [
           "magnetic fields",
           "earth's magnetic fields",
           "detecting magnetic fields"
-        ]
+        ],
+        "evidence": {
+          "snippet": "sea turtles can detect the angle and intensity of the"
+        }
       },
       "12": {
         "accepted": [
           "meat",
           "its meat"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Green Sea turtle, is not often killed for its meat"
+        }
       },
       "13": {
         "accepted": [
           "jellyfish",
           "the jellyfish"
-        ]
+        ],
+        "evidence": {
+          "snippet": "helps to keep Jellyfish populations in check"
+        }
       },
       "14": {
         "accepted": [
@@ -374,22 +413,34 @@
       "15": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "We just endure the consequences"
+        }
       },
       "16": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Microsoft has been running extensive in-house tests"
+        }
       },
       "17": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "as busy as they think they are, which is why we can usually tolerate"
+        }
       },
       "18": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "spend more than 65 percent of their day in a state of low attention"
+        }
       },
       "19": {
         "accepted": [
@@ -399,118 +450,181 @@
       "20": {
         "accepted": [
           "clues"
-        ]
+        ],
+        "evidence": {
+          "snippet": "to find clues about what they are up to"
+        }
       },
       "21": {
         "accepted": [
           "relationship"
-        ]
+        ],
+        "evidence": {
+          "snippet": "tries to deduce their relationship"
+        }
       },
       "22": {
         "accepted": [
           "message"
-        ]
+        ],
+        "evidence": {
+          "snippet": "message on their computer that he is in a meeting"
+        }
       },
       "23": {
         "accepted": [
           "reschedule"
-        ]
+        ],
+        "evidence": {
+          "snippet": "offers to reschedule the call"
+        }
       },
       "24": {
         "accepted": [
           "voice mail",
           "voicemail"
-        ]
+        ],
+        "evidence": {
+          "snippet": "others leave voice mail"
+        }
       },
       "25": {
         "accepted": [
           "cellphone",
           "cell phone"
-        ]
+        ],
+        "evidence": {
+          "snippet": "forward selected callers to his cellphone"
+        }
       },
       "26": {
         "accepted": [
           "meeting"
-        ]
+        ],
+        "evidence": {
+          "snippet": "suggest that he is in a meeting"
+        }
       },
       "27": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Hunting by humans has often been put forward"
+        }
       },
       "28": {
         "accepted": [
           "10,500 years ago",
           "10500 years ago"
-        ]
+        ],
+        "evidence": {
+          "snippet": "died out around the end of the last ice age, some 10,500 years ago"
+        }
       },
       "29": {
         "accepted": [
           "400,000 years ago",
           "400000 years ago"
-        ]
+        ],
+        "evidence": {
+          "snippet": "first appeared about 400,000 years ago in Europe"
+        }
       },
       "30": {
         "accepted": [
           "8,000 years ago",
           "8000 years ago"
-        ]
+        ],
+        "evidence": {
+          "snippet": "densely forested about 8,000 years ago, which could have pushed them on to the plain"
+        }
       },
       "31": {
         "accepted": [
           "7,000 years ago",
           "7000 years ago"
-        ]
+        ],
+        "evidence": {
+          "snippet": "just hunting 7,000 years ago-this was also about the time"
+        }
       },
       "32": {
         "accepted": [
           "wooded interglacials",
           "interglacials"
-        ]
+        ],
+        "evidence": {
+          "snippet": "survived perfectly well through wooded interglacials"
+        }
       },
       "33": {
         "accepted": [
           "habitat destruction"
-        ]
+        ],
+        "evidence": {
+          "snippet": "additional human-made problem-habitat destruction"
+        }
       },
       "34": {
         "accepted": [
           "huge antlers",
           "male's huge antlers",
           "antlers"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Some scientists have suggested this exaggerated feature-the result of females preferring stags with the largest antlers"
+        }
       },
       "35": {
         "accepted": [
           "minerals",
           "calcium and phosphate",
           "calcium"
-        ]
+        ],
+        "evidence": {
+          "snippet": "amounts of calcium and phosphate compounds are required"
+        }
       },
       "36": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "survived not only 10 000 years of Aboriginal hunting"
+        }
       },
       "37": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Africa escaped major faunal extinction"
+        }
       },
       "38": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "combination of the climatic change and the presence of advanced Paleolithic humans"
+        }
       },
       "39": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "transformation of a vast area of north Africa into the"
+        }
       },
       "40": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "no obvious coincidence between the arrival of humans or climatic change alone"
+        }
       }
     },
     "sets": []

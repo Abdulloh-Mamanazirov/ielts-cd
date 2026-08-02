@@ -1,0 +1,576 @@
+{
+  "slug": "listening-volume-9-test-5",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/vol-9-test-5-audio/VOL%209%20TEST%205%20AUDIO.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 9, Test 5",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>How to Become a Tea Taster</div><ul><li>a trainee tea taster mainly works in the company's {{1}}</li></ul><p>He/she learns how to:</p><ul><li>— taste the tea using a {{2}}</li><li>— give a {{3}} to samples of tea according to their quality</li><li>— select the right size of leaves for teabags</li><li>— remember the {{4}} of different kinds of tea</li></ul><ul><li>he/she only qualifies after {{5}} of training</li></ul><p>What the tea company is looking for in new staff:</p><ul><li>a degree ({{6}} is an advantage)</li><li>able to do {{7}} quickly</li><li>ability to distinguish different kinds of {{8}} accurately</li><li>effective {{9}} skills in different situations</li><li>being prepared to {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–14</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;When did Pioneer Historical Village open to the public?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "1962"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "1970"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "1980"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;How much will each adult in the group pay for a ticket?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "$11.00"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "$12.50"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "$16.00"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;What sort of demonstration will the visitors be able to watch?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "an unusual approach to baking bread"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a quick way of making candles"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a traditional method of making sweets"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What kind of experience with animals can visitors have at Pioneer Village?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "gathering eggs"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "milking cows"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "feeding goats"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 15–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              },
+              {
+                "letter": "J",
+                "textHtml": "J"
+              },
+              {
+                "letter": "K",
+                "textHtml": "K"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Schoolhouse"
+              },
+              {
+                "number": 16,
+                "textHtml": "Mill"
+              },
+              {
+                "number": 17,
+                "textHtml": "Stables"
+              },
+              {
+                "number": 18,
+                "textHtml": "Doctor's Office"
+              },
+              {
+                "number": 19,
+                "textHtml": "Hotel"
+              },
+              {
+                "number": 20,
+                "textHtml": "Workshop"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21 and 22</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "<strong>21 &amp; 22</strong> &nbsp;Which <strong>TWO</strong> things do Annie and Ryan agree are surprising about people's behaviour and attitudes to waste disposal?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "People like to be reminded about what to recycle."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "People often forget what is dangerous."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "People are prepared to pay more for safer products."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "People recycle cheap items less often than expensive ones."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "People think waste disposal is boring."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 23 and 24</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "<strong>23 &amp; 24</strong> &nbsp;Which <strong>TWO</strong> things does Ryan think will improve recycling rates in the local area?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "giving people financial rewards for recycling"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "giving a fine to households which don't recycle"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "involving children in more schemes"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "passing laws which require local councils to recycle more"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "having more research on people's current habits"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "should be disposed of more regularly"
+              },
+              {
+                "letter": "B",
+                "textHtml": "some medicines should have better labelling"
+              },
+              {
+                "letter": "C",
+                "textHtml": "should normally be used up completely"
+              },
+              {
+                "letter": "D",
+                "textHtml": "should be saved for later disposal"
+              },
+              {
+                "letter": "E",
+                "textHtml": "should be made available for others' use"
+              },
+              {
+                "letter": "F",
+                "textHtml": "should be repaired rather than thrown away"
+              },
+              {
+                "letter": "G",
+                "textHtml": "should be further modified to be made less harmful"
+              },
+              {
+                "letter": "H",
+                "textHtml": "should be retained and used for different purposes"
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Paint"
+              },
+              {
+                "number": 26,
+                "textHtml": "Batteries"
+              },
+              {
+                "number": 27,
+                "textHtml": "Medicines"
+              },
+              {
+                "number": 28,
+                "textHtml": "Pesticides"
+              },
+              {
+                "number": 29,
+                "textHtml": "Tyres"
+              },
+              {
+                "number": 30,
+                "textHtml": "Fridge"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Whale Shark Conservation Field Trip</div><p>Background</p><ul><li>whale sharks are the world's biggest fish</li><li>comparison with whales: <ul><li>similarities: they're large and feed on plankton and krill</li><li>differences: they stay near the {{31}} and they lack any actual {{32}}</li></ul></li><li>a large number head to the waters off Ningaloo, Western Australia, each year</li><li>the coral reef, where the whale sharks feed, is unusually close to the {{33}}</li></ul><p>Research Centre Activities</p><p>Existing methods of monitoring whale sharks are imperfect:</p><ul><li>tracking devices attached to the whale shark's {{34}} (expensive and unreliable)</li><li>from a {{35}} (imprecise)</li></ul><p>New research project on whale shark feeding habits:</p><ul><li>analysis of plankton shows different amounts of {{36}} varieties</li><li>researchers are comparing plankton data using special maps</li></ul><ul><li>study on the impact of humans on whale shark behaviour: noise caused whale sharks to {{37}}</li></ul><p>Community outreach programme — the whale shark race:</p><ul><li>a mature whale shark is tagged and assigned to a {{38}} to follow</li><li>results are displayed on the research centre website</li></ul><p>Conservation and Management</p><ul><li>record any {{39}} to whale sharks in photo-identification libraries</li><li>ban scuba activities as whale sharks are affected by the {{40}} the activities produce</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "lab"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "spoon",
+          "a spoon"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "grade",
+          "a grade"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "names",
+          "name"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "5 years",
+          "five years",
+          "5"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "science"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "maths",
+          "math",
+          "mathematics"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "colour",
+          "color",
+          "colours",
+          "colors"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "communication"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "travel",
+          "travelling",
+          "to travel"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "J"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "surface"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "bones",
+          "bone"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "shore"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "fin",
+          "fins"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "drone",
+          "a drone"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "carbon"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "dive"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "school",
+          "a school"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "injuries",
+          "injury"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "bubbles",
+          "bubble"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "B",
+          "E"
+        ]
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "B",
+          "C"
+        ]
+      }
+    ]
+  }
+}

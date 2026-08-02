@@ -1,0 +1,594 @@
+{
+  "slug": "listening-volume-9-test-8",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/vol-9-test-8-audio/VOL%209%20TEST%208%20AUDIO.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 9, Test 8",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Call Record Card</div><p><em>Example</em><br>Caller's phone number: 03786 439251</p><ul><li>Caller's name: Robert {{1}}</li><li>Address: 27 {{2}}<br>Moortown</li><li>Postcode: DP17 5HJ</li><li>Date of birth: {{3}}, 1975</li><li>Doctor's name: Dr Craven</li><li>Doctor's address: Moortown Health Centre</li><li>Reason for call: pain in his {{4}} back</li><li>Previous history: similar back problem in June last year</li></ul><p>Details of present problem:</p><ul><li>started {{5}} ago</li><li>got worse this {{6}}</li><li>no abdominal pain</li></ul><ul><li>Possible cause: lifting up a heavy {{7}}</li></ul><p>Treatment already applied:</p><ul><li>has applied heat</li><li>has taken {{8}}</li></ul><p>Advice given:</p><ul><li>try using {{9}}</li><li>go to doctor tomorrow</li><li>ask for information about {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;A trip to the outdoor education centre will help the children",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "create good relationships"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "manage without adult supervision"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "react positively to new challenges"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;To prepare their children for the trip, parents should",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "let them try sleeping in a tent at home"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "make sure they get enough sleep before they leave"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "tell them that they will be in a tent with their friends"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;What do parents need to put in their children's backpack?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "plastic bags"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "snacks and biscuits"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a small amount of money"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What are children allowed to bring on the trip?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "electronic games"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "cell phones"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "penknives"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;How are parents selected to attend the trip?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The first ten parents to sign up will be able to go"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Parents' names will be chosen from a box"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Preference will be given to parents with camping skills"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;Payment for the trip",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "must be handed to the child's teacher"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "can be left at the school office"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "should be made directly to the outdoor education centre"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Woodcarving studio"
+              },
+              {
+                "number": 18,
+                "textHtml": "Emergency meeting point"
+              },
+              {
+                "number": 19,
+                "textHtml": "Conservation centre"
+              },
+              {
+                "number": 20,
+                "textHtml": "Arts and crafts room"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;According to Liz, Stone Point played a key role in local history because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it was used for defence or attack purposes."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it was the landing point for the first Maori settlers."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it was developed as a commercial port."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Scott and Liz agree Maori originally chose to inhabit Stone Point because of",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "its rich soil."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the supply of fish."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "available building materials."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Scott and Liz agree that using Maori terminology in their presentation",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "will be of interest to international students."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "is required as a component of their research."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "would be best avoided."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;When Scott mentions the engines at Stone Point, Liz advises him to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "focus on the human aspect instead."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "check the accuracy of specific dates."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "explain complex technical language."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "provide further description"
+              },
+              {
+                "letter": "B",
+                "textHtml": "find images"
+              },
+              {
+                "letter": "C",
+                "textHtml": "set up an interview"
+              },
+              {
+                "letter": "D",
+                "textHtml": "check author's details"
+              },
+              {
+                "letter": "E",
+                "textHtml": "check the exact location"
+              },
+              {
+                "letter": "F",
+                "textHtml": "obtain official permission"
+              },
+              {
+                "letter": "G",
+                "textHtml": "be more objective"
+              },
+              {
+                "letter": "H",
+                "textHtml": "reduce it in length"
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Early Maori inhabitation of Stone Point"
+              },
+              {
+                "number": 26,
+                "textHtml": "The use of Stone Point as a lookout point"
+              },
+              {
+                "number": 27,
+                "textHtml": "The reconstruction of the fort"
+              },
+              {
+                "number": 28,
+                "textHtml": "Modernisation of the fort in the 1930s–40s"
+              },
+              {
+                "number": 29,
+                "textHtml": "Uses of Stone Point from 1950s to the present day"
+              },
+              {
+                "number": 30,
+                "textHtml": "The use of Stone Point as a public park"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Rural Development — The Berbers</div><p>The Berbers</p><ul><li>lived in various countries in North Africa</li><li>were driven from their homes during the 12th century</li><li>began to lead a nomadic life, moving across {{31}} and mountains</li></ul><p>Different Berber Lifestyles</p><ul><li>some Berbers, known as {{32}} nomads, moved twice a year</li><li>some Berbers were completely nomadic</li><li>some Berbers settled by oases, producing fruit, vegetables, and {{33}} to cook with</li><li>people and belongings were carried by {{34}}</li><li>settled Berbers lived in houses</li><li>nomadic Berbers used tents</li><li>settled communities organised themselves by holding regular meetings in the {{35}} of the village</li></ul><p>The Tuaregs</p><ul><li>if goatskins were unavailable, tents were made from {{36}} or palm-leaf mats</li><li>Tuareg labourers were the descendants of {{37}}</li><li>adult men always wore a {{38}} veil</li><li>some Tuaregs moved to Burkina Faso with their {{39}}</li></ul><p>Tuaregs and Timbuktu</p><ul><li>Timbuktu was settled by Tuaregs around 1000 years ago</li><li>the city built wealth on the salt and gold trades</li><li>some Tuaregs now work as {{40}} for the Malian Department of Tourism</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "ridyard"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "station road"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "25 february",
+          "25th february",
+          "february 25",
+          "february 25th"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "lower"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "3 days",
+          "three days"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "afternoon"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "box",
+          "a box"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "painkillers",
+          "painkiller"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "ice"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "exercise",
+          "exercises"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "deserts",
+          "desert"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "seasonal"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "olive oil"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "camels",
+          "camel"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "square",
+          "the square"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "grass"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "slaves",
+          "slave"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "dark blue"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "herds",
+          "herd"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "guides",
+          "guide"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

@@ -5,7 +5,7 @@
     "schemaVersion": 1,
     "skill": "reading",
     "title": "IELTS Reading — Volume 2, Test 8",
-    "source": "@bekhruzposts, IELTS Volume 1",
+    "source": "@bekhruzposts",
     "totalQuestions": 40,
     "durationSeconds": 3600,
     "parts": [
@@ -209,27 +209,27 @@
                 "options": [
                   {
                     "letter": "A",
-                    "textHtml": "<strong>A</strong>&nbsp; Sense"
+                    "textHtml": "&nbsp; Sense"
                   },
                   {
                     "letter": "B",
-                    "textHtml": "<strong>B</strong>&nbsp; Cancer"
+                    "textHtml": "&nbsp; Cancer"
                   },
                   {
                     "letter": "C",
-                    "textHtml": "<strong>C</strong>&nbsp; Be allergic to Vitamin D"
+                    "textHtml": "&nbsp; Be allergic to Vitamin D"
                   },
                   {
                     "letter": "D",
-                    "textHtml": "<strong>D</strong>&nbsp; Mole heredity"
+                    "textHtml": "&nbsp; Mole heredity"
                   },
                   {
                     "letter": "E",
-                    "textHtml": "<strong>E</strong>&nbsp; Sound"
+                    "textHtml": "&nbsp; Sound"
                   },
                   {
                     "letter": "F",
-                    "textHtml": "<strong>F</strong>&nbsp; Boldness of men"
+                    "textHtml": "&nbsp; Boldness of men"
                   }
                 ]
               }
@@ -247,27 +247,27 @@
                 "options": [
                   {
                     "letter": "A",
-                    "textHtml": "<strong>A</strong>&nbsp; Non-identical twins come from different eggs"
+                    "textHtml": "&nbsp; Non-identical twins come from different eggs"
                   },
                   {
                     "letter": "B",
-                    "textHtml": "<strong>B</strong>&nbsp; Genetic relation between identical twins is closer than non-identical ones."
+                    "textHtml": "&nbsp; Genetic relation between identical twins is closer than non-identical ones."
                   },
                   {
                     "letter": "C",
-                    "textHtml": "<strong>C</strong>&nbsp; Vitamin C has evident effect on a cold."
+                    "textHtml": "&nbsp; Vitamin C has evident effect on a cold."
                   },
                   {
                     "letter": "D",
-                    "textHtml": "<strong>D</strong>&nbsp; Genetic influence to smoking is superior to environment's"
+                    "textHtml": "&nbsp; Genetic influence to smoking is superior to environment's"
                   },
                   {
                     "letter": "E",
-                    "textHtml": "<strong>E</strong>&nbsp; If a pregnant woman eats too much sweet would lead to skin disease."
+                    "textHtml": "&nbsp; If a pregnant woman eats too much sweet would lead to skin disease."
                   },
                   {
                     "letter": "F",
-                    "textHtml": "<strong>F</strong>&nbsp; Hair loss has been found to be connected with skin problem."
+                    "textHtml": "&nbsp; Hair loss has been found to be connected with skin problem."
                   }
                 ]
               }
@@ -501,32 +501,50 @@
       "1": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "probably set off on his final journey from this very area"
+        }
       },
       "2": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a clot of stems found in the Iceman's possession suggests"
+        }
       },
       "3": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Oeggl has also found traces of pine pollen"
+        }
       },
       "4": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "discovered his mummified corpse in 1991 in a rocky hollow"
+        }
       },
       "5": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "suffered three episodes of significant disease during the last six months"
+        }
       },
       "6": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "oldest intact member of the human family"
+        }
       },
       "7": {
         "accepted": [
@@ -536,138 +554,219 @@
       "8": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "we now know that he was murdered, and died very quickly"
+        }
       },
       "9": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "isotopes in one of the Iceman's teeth"
+        }
       },
       "10": {
         "accepted": [
           "refrigerated high-tech",
           "refrigerated, high-tech"
-        ]
+        ],
+        "evidence": {
+          "snippet": "resided in a refrigerated, high-tech chamber"
+        }
       },
       "11": {
         "accepted": [
           "stomach distress"
-        ]
+        ],
+        "evidence": {
+          "snippet": "eggs of the whipworm parasite, so he may well have suffered from stomach distress"
+        }
       },
       "12": {
         "accepted": [
           "neckera complanata"
-        ]
+        ],
+        "evidence": {
+          "snippet": "most prominent moss, Neckera complanata, still grows"
+        }
       },
       "13": {
         "accepted": [
           "straight"
-        ]
+        ],
+        "evidence": {
+          "snippet": "may not have been a straight hike into the mountains"
+        }
       },
       "14": {
         "accepted": [
           "J"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Peter Miraldi, of Kent State University in Ohio"
+        }
       },
       "15": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "twins can be used, within ethical limits, for medical experiments"
+        }
       },
       "16": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "preserved them from the gas-chambers for a series of brutal experiments"
+        }
       },
       "17": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "statistical correlation of skin-mole counts between identical twins was 0.4"
+        }
       },
       "18": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "tainted twin research with results that appear, in retrospect, to have been rather too good"
+        }
       },
       "19": {
         "accepted": [
           "francis galton"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Francis Galton, an early geneticist, realized that they came in two varieties"
+        }
       },
       "20": {
         "accepted": [
           "1924"
-        ]
+        ],
+        "evidence": {
+          "snippet": "used to formulate what is known as the twin rule of pathology"
+        }
       },
       "27": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "smiled at the absurdity of a letter which the recipient would not have been able to read"
+        }
       },
       "28": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "seemed to understand writing's transforming function"
+        }
       },
       "29": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "no fully satisfying answers to the questions of how and why writing developed"
+        }
       },
       "30": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "emphasize that pictorial representation and writing evolved together"
+        }
       },
       "31": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "show me a single sign of writing you can trace back to a pot it doesn't exist"
+        }
       },
       "32": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "adapt to specific characteristics of the sounds of the language to be represented"
+        }
       },
       "33": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "also became a new instrument of power"
+        }
       },
       "34": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "did not, for example, match the structure of spoken language"
+        }
       },
       "35": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "argument with her evidence for a link between tokens and signs"
+        }
       },
       "36": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "used almost solely for recording economic information, and after that its uses multiplied and broadened"
+        }
       },
       "37": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "lived in Mesopotamia, in what is now southern Iraq"
+        }
       },
       "38": {
         "accepted": [
           "L"
-        ]
+        ],
+        "evidence": {
+          "snippet": "baked clay tablets bore such images"
+        }
       },
       "39": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "early form of cuneiform, a script written by pressing"
+        }
       },
       "40": {
         "accepted": [
-          "I"
-        ]
+          "A"
+        ],
+        "evidence": {
+          "snippet": "gradually evolved from the pictorial to the abstract"
+        }
       }
     },
     "sets": [
@@ -681,7 +780,10 @@
           "A",
           "E",
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Kent State University in Ohio"
+        }
       },
       {
         "questions": [
@@ -693,7 +795,10 @@
           "A",
           "B",
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "non-identical twins that had come from two"
+        }
       }
     ]
   }

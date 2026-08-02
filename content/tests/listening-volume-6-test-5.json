@@ -1,0 +1,615 @@
+{
+  "slug": "listening-volume-6-test-5",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-37m-51s-audio-joiner.com_202607/mix_37m51s%20%28audio-joiner.com%29.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 6, Test 5",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Campsite Reservation Form</div><ul><li><strong>Name:</strong> Sandra Kemp</li><li><strong>Park region:</strong> {{1}} California</li><li><strong>Campground name:</strong> {{2}} Campground</li><li><strong>Type of site:</strong> {{3}}</li><li><strong>Type of vehicle:</strong> will be driving a {{4}}</li><li><strong>Licence plate number:</strong> {{5}}</li><li><strong>Number of nights:</strong> two</li><li><strong>Departure date:</strong> {{6}}</li></ul><ul><li><strong>Bear-proof food container:</strong> size required: {{7}}</li><li><strong>Type of nature walk booked:</strong> the {{8}} walk</li><li><strong>Type of park pass:</strong> the {{9}} pass</li><li><strong>Donation programme selection:</strong> the {{10}} programme</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;Why has the manager arrived late at this meeting?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He had to complete a report."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He had to speak to head office."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He had to take a guest to hospital."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What is the main thing the manager is looking for in his staff?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Experience"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Enthusiasm"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "good qualifications"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;When did the Ocean Edge Hotel first open?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "in the 18th century"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "in the 19th century"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "in the 20th century"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;How long do staff generally remain at the hotel?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "three years"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "five years"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "ten years"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;Which group of guests is growing fastest?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "tourists visiting local attractions"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "people staying for one or two nights on business"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "people working locally who go home at weekends"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "Office"
+              },
+              {
+                "number": 17,
+                "textHtml": "Function room"
+              },
+              {
+                "number": 18,
+                "textHtml": "Main conference room"
+              },
+              {
+                "number": 19,
+                "textHtml": "Meeting room"
+              },
+              {
+                "number": 20,
+                "textHtml": "Restaurant"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;What first attracted Terence to the topic of Ife sculptures?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He read several journal articles."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He attended an exhibition."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He spent some time in Nigeria."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;In his presentation Terence will focus on sculptures featuring",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "abstract designs."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "fish and wild animals."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "people."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;How did Terence finance his trip to Ife?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He received money from an arts organisation."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "His mother and father paid for him."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He wrote about the trip for a newspaper."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What was most memorable for Terence about his trip?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "helping at an archaeological site"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the professor he met"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the artists he got to know"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 25 and 26</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Which <strong>TWO</strong> additions will Terence make to the part of the presentation on the sculptures?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "enlarged pictures of the sculptures"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "more material about the subjects"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "more about his personal opinion of the art works"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "extra information about the techniques used"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "additional information about the artists"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27 and 28</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Which <strong>TWO</strong> additions will Terence make to the section on history?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "data about the kings in the Ife area"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "extra information about the surrounding region"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "examination of the beliefs of the Ife people"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "an explanation of the development of modern Ife"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "more details of past activities of the Ife people"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-4",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 29 and 30</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "Which <strong>TWO</strong> features of his research in Nigeria will Terence discuss in his presentation?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the influence of the sculptures on western artists"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the uncertainty over who made the sculptures"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the sources of the materials used for the sculptures"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the problems he faced in collecting information"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the original discovery of the sculptures"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Reasons for and against urban migration</div><p>Cities today</p><ul><li>account for 3% of our planet's land area</li><li>produce less {{31}} than non-urban areas</li></ul><p>The advantages of more people moving to the city</p><ul><li>some {{32}} would recover</li><li>more energy efficient for services like electricity and water</li><li>{{33}} in the city is more environmentally friendly</li><li>Recycling: energy could be generated from the methane gas from {{34}}</li><li>Population: urban women <ul><li>start a family much later</li><li>are more likely to gain {{35}} at work</li></ul></li></ul><p>The downsides of living in the city</p><ul><li>possible loss of {{36}} amongst some migrants</li><li>the higher {{37}} rate among the population</li><li>the poor quality of the {{38}}</li><li>Economic factors: increased {{39}} in a population leads to more energy consumption</li><li>citizens may find the quantity of daily {{40}} stressful</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "southern"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "mountain"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "tent"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "truck"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "qy0918"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "april 12",
+          "12 april",
+          "12th april"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "small"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "flower"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "one-year",
+          "one year"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "youth"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "carbon"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "forests"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "transport"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "rubbish"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "promotion"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "culture"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "crime"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "air"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "wealth"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "traffic"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          25,
+          26
+        ],
+        "accepted": [
+          "A",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          27,
+          28
+        ],
+        "accepted": [
+          "B",
+          "C"
+        ]
+      },
+      {
+        "questions": [
+          29,
+          30
+        ],
+        "accepted": [
+          "B",
+          "E"
+        ]
+      }
+    ]
+  }
+}
