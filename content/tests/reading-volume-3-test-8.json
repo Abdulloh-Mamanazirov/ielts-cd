@@ -425,7 +425,10 @@
       "1": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "using the pen name of Katherine Mansfield"
+        }
       },
       "2": {
         "accepted": [
@@ -435,187 +438,295 @@
       "3": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "portrayed in a sympathetic light in her later stories"
+        }
       },
       "4": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "during her time at Queen's, she would take up professionally"
+        }
       },
       "5": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "she was appreciated amongst fellow students at Queen's"
+        }
       },
       "6": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "did not actively support the suffragette movement"
+        }
       },
       "7": {
         "accepted": [
           "1906"
-        ]
+        ],
+        "evidence": {
+          "snippet": "she returned to her New Zealand home in 1906"
+        }
       },
       "8": {
         "accepted": [
           "Australia"
-        ]
+        ],
+        "evidence": {
+          "snippet": "several works published in Australia in a magazine called"
+        }
       },
       "9": {
         "accepted": [
           "family"
-        ]
+        ],
+        "evidence": {
+          "snippet": "grew discontented with the provincial New Zealand lifestyle, and with her family"
+        }
       },
       "10": {
         "accepted": [
           "bankruptcy"
-        ]
+        ],
+        "evidence": {
+          "snippet": "cut short by Murry's bankruptcy"
+        }
       },
       "11": {
         "accepted": [
           "writers"
-        ]
+        ],
+        "evidence": {
+          "snippet": "close contact with other well-known writers of the time"
+        }
       },
       "12": {
         "accepted": [
           "reputation"
-        ]
+        ],
+        "evidence": {
+          "snippet": "to solidify Mansfield's reputation as a writer"
+        }
       },
       "13": {
         "accepted": [
           "husband"
-        ]
+        ],
+        "evidence": {
+          "snippet": "her husband, Murry, took on the task of editing and publishing"
+        }
       },
       "14": {
         "accepted": [
           "I"
-        ]
+        ],
+        "evidence": {
+          "snippet": "destroying black cockatoo eggs in order to take the hole for their own use"
+        }
       },
       "15": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "flowers which depend on birds for pollination are more often red"
+        }
       },
       "16": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the pink and grey galah and the pink, white and yellow corella, have expanded their ranges"
+        }
       },
       "17": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "diversified into a wide range of species with adaptations"
+        }
       },
       "18": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "parrots originated millions of years ago on the ancient southern continent of Gondwana"
+        }
       },
       "19": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "responsible for the disappearance of the double-eyed fig parrot"
+        }
       },
       "20": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "before it broke up into the separate southern hemisphere continents"
+        }
       },
       "21": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "related to the type of food each species eats"
+        }
       },
       "22": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "there are not enough, they are expensive"
+        }
       },
       "23": {
         "accepted": [
           "one-sixth",
           "one sixth",
           "a sixth"
-        ]
+        ],
+        "evidence": {
+          "snippet": "One-sixth of the world's 345 parrot species are found there"
+        }
       },
       "24": {
         "accepted": [
           "16th century",
           "sixteenth century",
           "the 16th century"
-        ]
+        ],
+        "evidence": {
+          "snippet": "In the 16th century"
+        }
       },
       "25": {
         "accepted": [
           "Mercator"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the German cartographer Mercator made a world map"
+        }
       },
       "26": {
         "accepted": [
           "John Gould",
           "Gould"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the celebrated British naturalist and wildlife artist John Gould"
+        }
       },
       "27": {
         "accepted": [
           "K"
-        ]
+        ],
+        "evidence": {
+          "snippet": "There are no half-yawns"
+        }
       },
       "28": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a yawn progresses with the inevitability of a sneeze"
+        }
       },
       "29": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "It is not a reflex"
+        }
       },
       "30": {
         "accepted": [
           "J"
-        ]
+        ],
+        "evidence": {
+          "snippet": "runs its course over about six seconds on average"
+        }
       },
       "31": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "highly variable inter-yawn interval, which is generally about 68 seconds"
+        }
       },
       "32": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "producers of short or long yawns do not compensate"
+        }
       },
       "33": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the mouth provides a sufficient airway"
+        }
       },
       "34": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "gaping of the jaws is an essential component"
+        }
       },
       "35": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "yawning is impossible via nasal inhalation alone"
+        }
       },
       "36": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "their otherwise paralyzed arm rises and flexes automatically"
+        }
       },
       "37": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "beneath the veneer of culture, rationality and language"
+        }
       },
       "38": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "it was difficult for him to convince research students of the merits"
+        }
       },
       "39": {
         "accepted": [
@@ -625,7 +736,10 @@
       "40": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "selecting a single function from the available options may be an unrealistic goal"
+        }
       }
     },
     "sets": []

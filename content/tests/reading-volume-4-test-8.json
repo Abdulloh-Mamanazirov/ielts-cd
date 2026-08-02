@@ -403,182 +403,290 @@
       "1": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "passed down through the generations orally"
+        }
       },
       "2": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the average age of death for Maori adults was around 30"
+        }
       },
       "3": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "illnesses were divided into diseases of the gods"
+        }
       },
       "4": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "chew the leaves of this same tree"
+        }
       },
       "5": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "many Maori accepted this explanation and turned to Christianity"
+        }
       },
       "6": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "no standard system of diagnosis or widespread agreement about treatments"
+        }
       },
       "7": {
         "accepted": [
           "rule"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the person had broken a religious rule"
+        }
       },
       "8": {
         "accepted": [
           "river"
-        ]
+        ],
+        "evidence": {
+          "snippet": "took food from a river where someone had died"
+        }
       },
       "9": {
         "accepted": [
           "confidence"
-        ]
+        ],
+        "evidence": {
+          "snippet": "strongly affected Maori confidence in their healers"
+        }
       },
       "10": {
         "accepted": [
           "schools"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the schools of higher learning which had trained healers"
+        }
       },
       "11": {
         "accepted": [
           "statistics"
-        ]
+        ],
+        "evidence": {
+          "snippet": "statistics from the 1970s came out revealing"
+        }
       },
       "12": {
         "accepted": [
           "clinics"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Many modern healers work in urban clinics"
+        }
       },
       "13": {
         "accepted": [
           "language"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The Maori language is also seen as important"
+        }
       },
       "14": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "does not usually occur in a society dominated by the basic material demands"
+        }
       },
       "15": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "concert going became a public activity for anyone who cared to buy a ticket"
+        }
       },
       "16": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the invention and dissemination of recording technologies"
+        }
       },
       "17": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the only music that was heard tended to be composition by recent or living musicians"
+        }
       },
       "18": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "floats free of any specific occasion or venue"
+        }
       },
       "19": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "grew out of the possibilities of musical notation"
+        }
       },
       "24": {
         "accepted": [
           "audience"
-        ]
+        ],
+        "evidence": {
+          "snippet": "no longer restricted to a particular audience"
+        }
       },
       "25": {
         "accepted": [
           "halls"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a performance defined by concert halls and opera houses"
+        }
       },
       "26": {
         "accepted": [
           "soundtrack"
-        ]
+        ],
+        "evidence": {
+          "snippet": "for activities such as commuting, exercising or shopping"
+        }
       },
       "27": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "We are visual creatures and we rely on sight"
+        }
       },
       "28": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "it can be hurt or appeased by how others treat me"
+        }
       },
       "29": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "beautifully rendered three-dimensional computer images"
+        }
       },
       "30": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "natural bias towards perceiving and learning information visually"
+        }
       },
       "31": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the book is not an exact map or reference guide"
+        }
       },
       "32": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "allowing people to draw their own conclusions"
+        }
       },
       "33": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "her background as a journalist to keep the reader engaged"
+        }
       },
       "34": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "familiar situations, like suppressing anger when we feel we have been insulted"
+        }
       },
       "35": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "an audience that is often forgotten: the general reader"
+        }
       },
       "36": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "always searching for ways to make information relevant to the reader"
+        }
       },
       "37": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "serves as a sort of kiosk map saying"
+        }
       },
       "38": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "would probably put most readers to sleep"
+        }
       },
       "39": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "translates to a place we can point to on our skulls"
+        }
       },
       "40": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the participation of research scientists in the writing"
+        }
       }
     },
     "sets": [
@@ -590,7 +698,10 @@
         "accepted": [
           "C",
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "just a decade later, the digital MP3 file was already displacing the CD"
+        }
       },
       {
         "questions": [
@@ -600,7 +711,10 @@
         "accepted": [
           "B",
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a music that has remained viable over the years because it was written down"
+        }
       }
     ]
   }

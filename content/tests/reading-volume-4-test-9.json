@@ -377,182 +377,290 @@
       "1": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "whose system for classifying plants is still in use today"
+        }
       },
       "2": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "probably used the ancient Greek name for black pepper, Peperi, as the basis for the group"
+        }
       },
       "3": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "are picked by hand when they are ready for harvesting"
+        }
       },
       "4": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "white pepper is picked later, when the berries have turned from green to red"
+        }
       },
       "5": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Unshaded plants which are exposed too long to the sun will not yield many berries"
+        }
       },
       "6": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "these are more fragile and are therefore more costly than other kinds"
+        }
       },
       "7": {
         "accepted": [
           "pain"
-        ]
+        ],
+        "evidence": {
+          "snippet": "pepper was employed to relieve the pain that was a common consequence"
+        }
       },
       "8": {
         "accepted": [
           "liquid"
-        ]
+        ],
+        "evidence": {
+          "snippet": "to be given a liquid that had some pepper in it"
+        }
       },
       "9": {
         "accepted": [
           "poison"
-        ]
+        ],
+        "evidence": {
+          "snippet": "meaning an ability to get rid of poison"
+        }
       },
       "10": {
         "accepted": [
           "teeth"
-        ]
+        ],
+        "evidence": {
+          "snippet": "reduce the effects of decay in teeth"
+        }
       },
       "11": {
         "accepted": [
           "wardrobes"
-        ]
+        ],
+        "evidence": {
+          "snippet": "kept in the private wardrobes of the rich"
+        }
       },
       "12": {
         "accepted": [
           "recipes"
-        ]
+        ],
+        "evidence": {
+          "snippet": "many of the recipes from the period called for substantial quantities of pepper"
+        }
       },
       "13": {
         "accepted": [
           "pockets"
-        ]
+        ],
+        "evidence": {
+          "snippet": "were not allowed to have pockets in their jackets or trousers"
+        }
       },
       "14": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a protein from horseshoe crab blood that is under investigation as an antibiotic"
+        }
       },
       "15": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Horseshoe crabs use it to flip over if they happen to be pushed onto their backs"
+        }
       },
       "16": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Their diet consists mainly of worms and clams"
+        }
       },
       "17": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "female horseshoe crabs create nests by digging holes in the sand and laying between 60,000 and 120,000 eggs"
+        }
       },
       "18": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The juvenile horseshoe crabs will slowly grow over a period of about ten years"
+        }
       },
       "23": {
         "accepted": [
           "decline"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A widespread decline in their abundance in the last 20 years"
+        }
       },
       "24": {
         "accepted": [
           "eggs"
-        ]
+        ],
+        "evidence": {
+          "snippet": "species that feed on the animal and its eggs"
+        }
       },
       "25": {
         "accepted": [
           "biodiversity"
-        ]
+        ],
+        "evidence": {
+          "snippet": "would decrease the biodiversity of the lagoon"
+        }
       },
       "26": {
         "accepted": [
           "bait"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the use of horseshoe crabs as bait to catch fish"
+        }
       },
       "27": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "have not found a single agreed framework to define and measure this human trait"
+        }
       },
       "28": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "nine-dimensional framework for describing children's temperament across a wide age range, from infancy to adolescence"
+        }
       },
       "29": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "children with the difficult style were at increased risk of later behavioural problems"
+        }
       },
       "30": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "sought to identify traits that showed early emergence and strong genetic influence"
+        }
       },
       "31": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "not simply a consequence of recent stresses and upsets"
+        }
       },
       "32": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "very specific sites in the brain, which regulate emotional behaviour and long-term memory, are responsible for differences in behavioural style"
+        }
       },
       "33": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "measures such as heart rate, heart rate variability and pupil dilation"
+        }
       },
       "34": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "related to differences in the quality of the interaction between the mother and the older child"
+        }
       },
       "35": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "if any two factors are highly correlated, this implies that a single factor could be used instead"
+        }
       },
       "36": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the concept of the difficult temperament type has been the subject of much controversy"
+        }
       },
       "37": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "mothers' future ratings of temperament could be reliably identified before the child was born"
+        }
       },
       "38": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "experimental laboratory studies and analyses of questionnaire data"
+        }
       },
       "39": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "15 per cent or so of children aged 2-3 years are very shy and timid"
+        }
       },
       "40": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Dunn and Kendrick (1982) have offered an alternative model for the nature of temperamental differences"
+        }
       }
     },
     "sets": [
@@ -564,7 +672,10 @@
         "accepted": [
           "B",
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "possess the rare ability to regrow lost limbs"
+        }
       },
       {
         "questions": [
@@ -574,7 +685,10 @@
         "accepted": [
           "A",
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they do not have hemoglobin (a protein that contains the mineral iron)"
+        }
       }
     ]
   }

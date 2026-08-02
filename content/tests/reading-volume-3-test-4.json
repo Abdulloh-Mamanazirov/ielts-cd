@@ -396,78 +396,123 @@
       "1": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "has revealed just how profound our ignorance of global bamboo resources is"
+        }
       },
       "2": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "But bamboo can take care of itself - it's strong enough to survive if left alone"
+        }
       },
       "3": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "bamboo's most immediate significance lies in its economic value"
+        }
       },
       "4": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "large areas of bamboo forest have been cleared to make way for commercial plantations"
+        }
       },
       "5": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "only 38 'priority species' identified for their commercial value have been the subject of any real scientific research"
+        }
       },
       "6": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Modern processing techniques mean it can be used in a variety of ways, for example as flooring and laminates"
+        }
       },
       "7": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Patchiness helps to preserve diversity because certain plant species do better during the early stages of regeneration"
+        }
       },
       "8": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a lot of bamboo species are very invasive if they've been introduced"
+        }
       },
       "9": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Without it, says Ian Redmond, chairman of the Ape Alliance, their chances of survival would be reduced significantly"
+        }
       },
       "10": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the science of assessing the conservation status of plants is still in its infancy"
+        }
       },
       "11": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "What is under threat is its habitat. When forest goes, it's converted into something else"
+        }
       },
       "12": {
         "accepted": [
           "soil erosion",
           "erosion"
-        ]
+        ],
+        "evidence": {
+          "snippet": "are crucial in preventing soil erosion"
+        }
       },
       "13": {
         "accepted": [
           "paper"
-        ]
+        ],
+        "evidence": {
+          "snippet": "one of the fastest growing bamboo products is paper"
+        }
       },
       "14": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Australia has the second cheapest electricity in the world, and this makes it difficult for renewables to compete"
+        }
       },
       "15": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the system needs some additional features if it is to be environmentally friendly"
+        }
       },
       "16": {
         "accepted": [
@@ -477,112 +522,178 @@
       "17": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the Australian source is so large it could supply the entire country's needs for thousands of years"
+        }
       },
       "18": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "increased revenue from tourism and use of power for telecommunications"
+        }
       },
       "19": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "who rather surprisingly rejected it. Dr Devine responded by establishing Wavetech"
+        }
       },
       "20": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "We should really be at the forefront, but the reality is we are a long way behind"
+        }
       },
       "21": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the steam will bring with it radon gas, which must be passed through a heat exchanger and then sent back underground"
+        }
       },
       "22": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the flowing water column pushes air back and forth through a turbine"
+        }
       },
       "23": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "nowhere near the global cutting edge, mostly just replicating European designs"
+        }
       },
       "24": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "increased revenue from tourism and use of power for telecommunications"
+        }
       },
       "25": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "is proposing to pump water 3.5 kilometres into the earth"
+        }
       },
       "26": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "will require a substantially larger collecting area than was previously thought"
+        }
       },
       "27": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Watching sports brings people together"
+        }
       },
       "28": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the skill of casting a smooth arc with a top-side metal stick is virtually impossible"
+        }
       },
       "29": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "we map the visual representation of the observed action onto our motor representation of the same action"
+        }
       },
       "30": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Humans have an even more elaborate mirror neuron system"
+        }
       },
       "31": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "first discovered in 1954, when two French physiologists, Gastaut and Berf"
+        }
       },
       "32": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "watching a great golfer makes us better golfers, and watching a fast runner can actually make us run faster"
+        }
       },
       "33": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "These networks of cells are the bodily 'sentences' we use every day"
+        }
       },
       "34": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the motor action has become memorized, and the movements are embedded in the neurons"
+        }
       },
       "35": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Our consolation comes in watching"
+        }
       },
       "36": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "most novices swing with their consciousness"
+        }
       },
       "37": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Humans have an even more elaborate mirror neuron system"
+        }
       },
       "38": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "If we are staring at a photograph, a fixed image of a runner mid-stride, our mirror neurons are totally silent"
+        }
       },
       "39": {
         "accepted": [
@@ -592,7 +703,10 @@
       "40": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "It is active when our bodies are still, but disappears whenever we do something active"
+        }
       }
     },
     "sets": []

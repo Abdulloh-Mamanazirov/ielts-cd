@@ -431,187 +431,298 @@
       "1": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "open experimental archaeology to everybody"
+        }
       },
       "2": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "proved too big to attempt"
+        }
       },
       "3": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "poisonous gases that come from the process"
+        }
       },
       "4": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "shockwave would shatter the wall"
+        }
       },
       "8": {
         "accepted": [
           "masons"
-        ]
+        ],
+        "evidence": {
+          "snippet": "masons extract the ferruginous limestone"
+        }
       },
       "9": {
         "accepted": [
           "holes"
-        ]
+        ],
+        "evidence": {
+          "snippet": "bore lines of holes into the rocks"
+        }
       },
       "10": {
         "accepted": [
           "metal wedges"
-        ]
+        ],
+        "evidence": {
+          "snippet": "hammer metal wedges into them"
+        }
       },
       "11": {
         "accepted": [
           "splits"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the rock splits along the line"
+        }
       },
       "12": {
         "accepted": [
           "bricks"
-        ]
+        ],
+        "evidence": {
+          "snippet": "hewn into bricks"
+        }
       },
       "13": {
         "accepted": [
           "heating"
-        ]
+        ],
+        "evidence": {
+          "snippet": "heating limestone to 800"
+        }
       },
       "14": {
         "accepted": [
           "J"
-        ]
+        ],
+        "evidence": {
+          "snippet": "derived from the Latin word"
+        }
       },
       "15": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The celebrities of the ancient world were the powerful and awesome deities"
+        }
       },
       "16": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Victors in the ancient Olympic Games were treated as heroes"
+        }
       },
       "17": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "as they faced war, disease and food shortages"
+        }
       },
       "18": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "artists began to surpass political and religious individuals"
+        }
       },
       "19": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a mass audience to find out about celebrities for the first time"
+        }
       },
       "20": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The emergence of reality television shows in the late 1990s"
+        }
       },
       "21": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "all kinds of people with little ability"
+        }
       },
       "22": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the creation of myths, which personalized the gods"
+        }
       },
       "23": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "interest in ruling figures faded"
+        }
       },
       "24": {
         "accepted": [
           "newspapers"
-        ]
+        ],
+        "evidence": {
+          "snippet": "could now be read about in newspapers around the world"
+        }
       },
       "25": {
         "accepted": [
           "appearance"
-        ]
+        ],
+        "evidence": {
+          "snippet": "an attractive appearance"
+        }
       },
       "26": {
         "accepted": [
           "audience"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the audience deciding whether someone deserves to become a celebrity"
+        }
       },
       "27": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "nearly all of them think it makes them better at their jobs"
+        }
       },
       "28": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "As silence has the best overall performance"
+        }
       },
       "29": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "may even moderately reduce blood pressure"
+        }
       },
       "30": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "an eccentric inventor and repairman named Nathaniel Baldwin"
+        }
       },
       "31": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "headphones have done what writing and literacy did for language"
+        }
       },
       "32": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a service economy, with an emphasis on jobs in offices that require higher levels of concentration"
+        }
       },
       "33": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "evidence of musical notation dates back to Sumeria"
+        }
       },
       "34": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they made music private"
+        }
       },
       "35": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "wealth can buy"
+        }
       },
       "36": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "we're more likely to direct the spotlight of attention inward"
+        }
       },
       "37": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "personal music devices change how we relate to public spaces"
+        }
       },
       "38": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "moving from the edges of cities to live in urban centers"
+        }
       },
       "39": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Headphones create shields for wearers, separating them from other people"
+        }
       },
       "40": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they are like wearing a"
+        }
       }
     },
     "sets": [
@@ -625,7 +736,10 @@
           "C",
           "E",
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "illegal to work more than 8 hours a day"
+        }
       }
     ]
   }

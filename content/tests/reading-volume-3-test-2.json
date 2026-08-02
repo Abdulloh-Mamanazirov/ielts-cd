@@ -403,129 +403,201 @@
       "1": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "by far the most numerous and diverse in the latter"
+        }
       },
       "2": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the majority of species favour open grassland, scrub or desert"
+        }
       },
       "3": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "All species are ruminants, which means that they retain undigested food in their stomachs"
+        }
       },
       "4": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Barbary and bighorn sheep have adapted to arid deserts"
+        }
       },
       "5": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The sub-family Bovinae comprises most of the larger bovids"
+        }
       },
       "6": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "some duikers - unlike most other bovids - are believed to eat insects"
+        }
       },
       "7": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Antelopes are typically long-legged, fast-running species"
+        }
       },
       "8": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Unlike most other bovids they are all non-territorial"
+        }
       },
       "9": {
         "accepted": [
           "the royal antelope",
           "royal antelope"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the royal antelope of West Africa, which stands a mere 25 cm at the shoulder"
+        }
       },
       "10": {
         "accepted": [
           "the auroch",
           "auroch"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the ancestor of the domestic cattle of Europe, the auroch, is extinct"
+        }
       },
       "11": {
         "accepted": [
           "long, splayed hooves",
           "long splayed hooves",
           "splayed hooves"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the sitatunga has long, splayed hooves that enable it to walk freely on swampy ground"
+        }
       },
       "12": {
         "accepted": [
           "arid deserts",
           "arid desert",
           "deserts"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Barbary and bighorn sheep have adapted to arid deserts"
+        }
       },
       "13": {
         "accepted": [
           "the pronghorn",
           "pronghorn"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The pronghorn is the sole survivor of a New World sub-family"
+        }
       },
       "14": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "air-conditioning loads for offices and factories are large but heating loads for homes are small"
+        }
       },
       "15": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A large residential test station was installed on Rokko Island beginning in 1986"
+        }
       },
       "16": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The use of fossil fuels to generate electricity is not only costly in financial terms"
+        }
       },
       "17": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Figure 1 illustrates the system"
+        }
       },
       "18": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "governments will develop building codes that attempt to constrain the energy demands"
+        }
       },
       "19": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "500,000 in Europe and 500,000 in the developing world, to be subsidised by the Commission"
+        }
       },
       "20": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "no storage is required on-site, only a box of electronics"
+        }
       },
       "21": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A change in US government priorities in the early 1980s halted this program"
+        }
       },
       "22": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "This installation consists of 18 'dummy' homes"
+        }
       },
       "23": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "539 systems were installed with a government subsidy of 50 percent"
+        }
       },
       "24": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "have announced their own targets for residential photovoltaics"
+        }
       },
       "25": {
         "accepted": [
@@ -535,47 +607,74 @@
       "26": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Approvals for building renovations may also be conditional upon taking such energy-saving measures"
+        }
       },
       "27": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Three general approaches have been tried"
+        }
       },
       "28": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "many linguists and psychologists objected strongly to the abandonment of phonics"
+        }
       },
       "29": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a number of experiments have been carried out, firstly with college students"
+        }
       },
       "30": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the controversy is enmeshed in the philosophical differences between traditional and progressive"
+        }
       },
       "31": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the combination of literature-based instruction and phonics is more powerful than either method"
+        }
       },
       "32": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "children are taught how to use their knowledge of the alphabet to sound out words"
+        }
       },
       "33": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Many teachers adopted the whole-language approach because of its intuitive appeal"
+        }
       },
       "34": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "most believe that reading is typically a process of rapidly sounding out words mentally"
+        }
       },
       "35": {
         "accepted": [
@@ -585,27 +684,42 @@
       "36": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "This study found that the first group scored higher at year's end"
+        }
       },
       "37": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The progressives challenge the results of laboratory tests and classroom studies"
+        }
       },
       "38": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "these very admirable educational values are equally consistent with the teaching of phonics"
+        }
       },
       "39": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "would-be reading teachers learned something about the vast research in linguistics and psychology"
+        }
       },
       "40": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Using whole-language activities to supplement phonics instruction certainly helps to make reading fun"
+        }
       }
     },
     "sets": []

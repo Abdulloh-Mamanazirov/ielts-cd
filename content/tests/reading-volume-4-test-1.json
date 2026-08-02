@@ -344,42 +344,66 @@
       "1": {
         "accepted": [
           "timetable"
-        ]
+        ],
+        "evidence": {
+          "snippet": "combined with a timetable and many descriptions of scenery"
+        }
       },
       "2": {
         "accepted": [
           "surface"
-        ]
+        ],
+        "evidence": {
+          "snippet": "type of surface riders could expect to find"
+        }
       },
       "3": {
         "accepted": [
           "accommodation"
-        ]
+        ],
+        "evidence": {
+          "snippet": "reasonably priced accommodation"
+        }
       },
       "4": {
         "accepted": [
           "restaurant"
-        ]
+        ],
+        "evidence": {
+          "snippet": "which was the best restaurant to go to"
+        }
       },
       "5": {
         "accepted": [
           "region"
-        ]
+        ],
+        "evidence": {
+          "snippet": "focussed in detail on a different region"
+        }
       },
       "6": {
         "accepted": [
           "numbers"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they were allocated numbers instead"
+        }
       },
       "7": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "assembled individually for the traveller"
+        }
       },
       "8": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the rising costs of oil and subsequent falling consumption"
+        }
       },
       "9": {
         "accepted": [
@@ -389,7 +413,10 @@
       "10": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the maps were confusing because the stations in central London were so crowded together"
+        }
       },
       "11": {
         "accepted": [
@@ -399,7 +426,10 @@
       "12": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "initially rejected as too radical"
+        }
       },
       "13": {
         "accepted": [
@@ -409,117 +439,186 @@
       "14": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "not precious enough to be taken home on the return voyages"
+        }
       },
       "15": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "partnered with Google to offer Street View walkthroughs"
+        }
       },
       "16": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "described the hut at Cape Evans on Ross Island that was the base for his 1910"
+        }
       },
       "17": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "interviewed for numerous television documentaries and radio reports"
+        }
       },
       "18": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "we were in great danger of losing them"
+        }
       },
       "19": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "washing to remove harmful acids and salts"
+        }
       },
       "24": {
         "accepted": [
           "sheltered"
-        ]
+        ],
+        "evidence": {
+          "snippet": "which are relatively sheltered"
+        }
       },
       "25": {
         "accepted": [
           "penguins"
-        ]
+        ],
+        "evidence": {
+          "snippet": "on an exposed spit of land"
+        }
       },
       "26": {
         "accepted": [
           "permit"
-        ]
+        ],
+        "evidence": {
+          "snippet": "need a permit to visit any of these"
+        }
       },
       "27": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "To offer condolence to those who are grieving"
+        }
       },
       "28": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "willing to answer questions concerning their social circle and intimate conversations"
+        }
       },
       "29": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "brought a significant affiliation among people who had never previously met"
+        }
       },
       "30": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "gave spontaneous hugs and kisses"
+        }
       },
       "31": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the flaw in this argument is that"
+        }
       },
       "32": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "these preferences have long been separated from their primary evolutionary use"
+        }
       },
       "33": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "using you just as much as you are using them"
+        }
       },
       "34": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "more likely to smile, to stand closer and to initiate conversation"
+        }
       },
       "35": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "were unaware that the study was about the effect of the flowers on their emotions"
+        }
       },
       "36": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "improvements in other measures of cognitive function"
+        }
       },
       "37": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Contrary to predictions regarding gender differences"
+        }
       },
       "38": {
         "accepted": [
           "food"
-        ]
+        ],
+        "evidence": {
+          "snippet": "difference between starvation and survival"
+        }
       },
       "39": {
         "accepted": [
           "children"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a better place to rear children"
+        }
       },
       "40": {
         "accepted": [
           "edible"
-        ]
+        ],
+        "evidence": {
+          "snippet": "yield no edible products"
+        }
       }
     },
     "sets": [
@@ -531,7 +630,10 @@
         "accepted": [
           "A",
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "preserved marine specimens as part of his search for new species"
+        }
       },
       {
         "questions": [
@@ -541,7 +643,10 @@
         "accepted": [
           "B",
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "spending a whole summer on-site"
+        }
       }
     ]
   }

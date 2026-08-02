@@ -381,17 +381,26 @@
       "1": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "thought that cooking, after language, was the greatest discovery made by man"
+        }
       },
       "2": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "edible food by destroying toxic chemicals"
+        }
       },
       "3": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the ratio of energy gained to energy expended by the body is greater when food is cooked"
+        }
       },
       "4": {
         "accepted": [
@@ -401,142 +410,226 @@
       "5": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "This was something he had not expected"
+        }
       },
       "6": {
         "accepted": [
           "populations"
-        ]
+        ],
+        "evidence": {
+          "snippet": "populations increased in size"
+        }
       },
       "7": {
         "accepted": [
           "records"
-        ]
+        ],
+        "evidence": {
+          "snippet": "allowed people to maintain records of the harvest and taxes"
+        }
       },
       "8": {
         "accepted": [
           "fermentation"
-        ]
+        ],
+        "evidence": {
+          "snippet": "adding acid by fermentation"
+        }
       },
       "9": {
         "accepted": [
           "texture"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the flavour of the food as well as the texture were similar to the freshly cooked product"
+        }
       },
       "10": {
         "accepted": [
           "resistant"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the first ones which were light and resistant to damage"
+        }
       },
       "11": {
         "accepted": [
           "chisel"
-        ]
+        ],
+        "evidence": {
+          "snippet": "cans were opened with a chisel which was used to break open the top"
+        }
       },
       "12": {
         "accepted": [
           "meat"
-        ]
+        ],
+        "evidence": {
+          "snippet": "One can, which contained meat dating from 1824"
+        }
       },
       "13": {
         "accepted": [
           "damage"
-        ]
+        ],
+        "evidence": {
+          "snippet": "very rapid freezing creates smaller ice crystals and therefore causes less damage to food"
+        }
       },
       "14": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "artists may just make a work of art because they feel compelled to"
+        }
       },
       "15": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "They seek to connect with their audience and express an idea or emotion which has the capacity to enrich"
+        }
       },
       "16": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The distinction here lies between things that are instrumental and things that are ends in themselves"
+        }
       },
       "17": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "anyone can get away with in calling their creation a contribution to"
+        }
       },
       "18": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "laughing is, in fact, good for something nevertheless; it does make people feel better"
+        }
       },
       "19": {
         "accepted": [
           "movie"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a soundtrack to a movie"
+        }
       },
       "20": {
         "accepted": [
           "advertising"
-        ]
+        ],
+        "evidence": {
+          "snippet": "pictures are used as instruments in advertising"
+        }
       },
       "21": {
         "accepted": [
           "play"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A play can be written to point out to the theatre audience a social injustice"
+        }
       },
       "22": {
         "accepted": [
           "beauty"
-        ]
+        ],
+        "evidence": {
+          "snippet": "such as, for instance, the creation of beauty"
+        }
       },
       "27": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the cultural, linguistic and economic resources of the nation are maximized"
+        }
       },
       "28": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the person who knows only one language does not truly know that language"
+        }
       },
       "29": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "develop stronger literacy abilities in the school language"
+        }
       },
       "30": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they worry that they take time away from the majority language"
+        }
       },
       "31": {
         "accepted": [
           "I"
-        ]
+        ],
+        "evidence": {
+          "snippet": "conversational skills in the majority language at school"
+        }
       },
       "32": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "how quickly children can lose their ability to use their mother tongue"
+        }
       },
       "33": {
         "accepted": [
           "J"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the concentration of families from a particular linguistic group in the neighborhood"
+        }
       },
       "34": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "in speaking with their peers and siblings and in responding to their parents"
+        }
       },
       "35": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Pupils frequently become alienated from the cultures of both home and school"
+        }
       },
       "36": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "58% of kindergarten pupils come from homes where English is not the language"
+        }
       },
       "37": {
         "accepted": [
@@ -556,7 +649,10 @@
       "40": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "knowing how to distinguish the main idea from the supporting details of a written passage"
+        }
       }
     },
     "sets": [
@@ -568,7 +664,10 @@
         "accepted": [
           "B",
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "to present a surprising or fresh angle on it"
+        }
       },
       {
         "questions": [
@@ -578,7 +677,10 @@
         "accepted": [
           "A",
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "experience of the world, which lies inside the artist himself"
+        }
       }
     ]
   }

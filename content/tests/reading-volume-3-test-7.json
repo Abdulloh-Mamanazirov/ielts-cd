@@ -483,62 +483,98 @@
       "1": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "it is too expensive to adapt existing plants to capture carbon dioxide"
+        }
       },
       "2": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "alter the chemical balance in the ocean, with potentially harmful consequences for marine life"
+        }
       },
       "3": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the cheapest and most plentiful energy source available"
+        }
       },
       "4": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "developed nations will have to provide assistance"
+        }
       },
       "5": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "airborne carbon dioxide concentrations have risen by nearly a third"
+        }
       },
       "6": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "people become asphyxiated"
+        }
       },
       "7": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A few promising attempts at underground carbon sequestration are currently under way"
+        }
       },
       "8": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "including carbonating soft drinks"
+        }
       },
       "9": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the cause of rising temperatures and sea levels around the world"
+        }
       },
       "10": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "delegates from fourteen industrialised and developing countries agreed to engage in cooperative research"
+        }
       },
       "11": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "increased energy consumption is a key to economic growth"
+        }
       },
       "12": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "there are no power plants ready for full carbon capture"
+        }
       },
       "13": {
         "accepted": [
@@ -548,52 +584,82 @@
       "14": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "have reputedly changed hands for over a million pounds"
+        }
       },
       "15": {
         "accepted": [
           "I"
-        ]
+        ],
+        "evidence": {
+          "snippet": "skilfully carve the plates out of the solid wood"
+        }
       },
       "16": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a more overtly scientific approach to violin making"
+        }
       },
       "17": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "tuned the resonant modes of the individual plates"
+        }
       },
       "18": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The age of the wood may therefore automatically contribute to the improved quality of older instruments"
+        }
       },
       "19": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the nature of the varnish used to protect the instrument"
+        }
       },
       "20": {
         "accepted": [
           "K"
-        ]
+        ],
+        "evidence": {
+          "snippet": "secret was to soak the timber in water"
+        }
       },
       "21": {
         "accepted": [
           "J"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the foremost soloists - and, not surprisingly, violin dealers"
+        }
       },
       "22": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Individual notes on a single instrument sound different each time they are played"
+        }
       },
       "23": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a system has yet to be developed which can match the brain"
+        }
       },
       "24": {
         "accepted": [
@@ -603,42 +669,66 @@
       "25": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the quality of a modern instrument appears to improve in its first few years"
+        }
       },
       "26": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "remain utterly unconvinced"
+        }
       },
       "27": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "unable to discriminate between tones or recognize familiar melodies"
+        }
       },
       "28": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "As would be expected, amusics perform significantly worse"
+        }
       },
       "29": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "are often still able to sing, despite being unable to communicate through speech"
+        }
       },
       "30": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "successful most of the time at detecting the mood of a melody"
+        }
       },
       "31": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Recent work has been focused on locating the part of the brain that is responsible for amusia"
+        }
       },
       "32": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "As a student of neurobiology, however, I am skeptical"
+        }
       },
       "33": {
         "accepted": [
@@ -648,7 +738,10 @@
       "34": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the lack of it is abnormal"
+        }
       },
       "35": {
         "accepted": [
@@ -658,27 +751,42 @@
       "36": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "research has been undertaken in an attempt to discover the cause of congenital amusia"
+        }
       },
       "37": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "tapping a rhythm along with a melody than do non-amusics"
+        }
       },
       "38": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The linguistic cues inherent in speech make discrimination of meaning much easier"
+        }
       },
       "39": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "their brains overreact, showing twice as much activity on the right side"
+        }
       },
       "40": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Musical ability is culturally valued"
+        }
       }
     },
     "sets": []

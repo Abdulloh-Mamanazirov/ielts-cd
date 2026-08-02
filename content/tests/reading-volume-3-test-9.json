@@ -377,37 +377,58 @@
       "1": {
         "accepted": [
           "location"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the specific location of each of the food stores"
+        }
       },
       "2": {
         "accepted": [
           "policies"
-        ]
+        ],
+        "evidence": {
+          "snippet": "in forming future policies about what kind of food should be sold"
+        }
       },
       "3": {
         "accepted": [
           "government"
-        ]
+        ],
+        "evidence": {
+          "snippet": "there is no good government map"
+        }
       },
       "4": {
         "accepted": [
           "incomes"
-        ]
+        ],
+        "evidence": {
+          "snippet": "who receive minimal incomes for the work they do"
+        }
       },
       "5": {
         "accepted": [
           "land"
-        ]
+        ],
+        "evidence": {
+          "snippet": "can't afford the amount of land required for their stores"
+        }
       },
       "6": {
         "accepted": [
           "suburban"
-        ]
+        ],
+        "evidence": {
+          "snippet": "competition from suburban supermarkets"
+        }
       },
       "7": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "run by a local core of five volunteers who have worked on the project"
+        }
       },
       "8": {
         "accepted": [
@@ -422,12 +443,18 @@
       "10": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "hasn't caught them much local or critical attention yet"
+        }
       },
       "11": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "she would like to see price data for healthy products"
+        }
       },
       "12": {
         "accepted": [
@@ -437,92 +464,146 @@
       "13": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "warmer days in the spring will draw out fresh volunteers"
+        }
       },
       "14": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "fences have been used in an attempt to keep them away from livestock"
+        }
       },
       "15": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "dingoes will kill them simply to lessen competition"
+        }
       },
       "16": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Rabbits provide huge prey base for two other introduced species"
+        }
       },
       "17": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Asian sailors introduced dingoes to Australia"
+        }
       },
       "18": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "some of the highest rates of calf predation occurred in areas that had been baited"
+        }
       },
       "19": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "each piece laced with poison; this practice is known as baiting"
+        }
       },
       "20": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Dingo packs live in large, stable territories and generally have only one fertile"
+        }
       },
       "21": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "more likely to catch small native animals instead"
+        }
       },
       "22": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "graziers' livelihoods are threatened when dingoes prey on cattle"
+        }
       },
       "23": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they have contributed to few, if any, extinctions"
+        }
       },
       "24": {
         "accepted": [
           "Tasmanian tiger"
-        ]
+        ],
+        "evidence": {
+          "snippet": "as the Tasmanian tiger disappeared completely from Australia"
+        }
       },
       "25": {
         "accepted": [
           "rabbits"
-        ]
+        ],
+        "evidence": {
+          "snippet": "rabbit numbers are significantly reduced"
+        }
       },
       "26": {
         "accepted": [
           "overpopulation"
-        ]
+        ],
+        "evidence": {
+          "snippet": "adapt to prevent overpopulation in the arid environment"
+        }
       },
       "27": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "had no human population until ancestors of today's islanders sailed from Southeast Asia"
+        }
       },
       "28": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the romantic vision of some early twentieth-century writers"
+        }
       },
       "29": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "more dependent on good fortune by drifting canoes"
+        }
       },
       "30": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "it did spark renewed interest in the topic and precipitated valuable new research"
+        }
       },
       "31": {
         "accepted": [
@@ -532,47 +613,74 @@
       "32": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "to contact those men who still find their way at sea using traditional methods"
+        }
       },
       "33": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "would have known which course to steer by memorizing which stars rose and set"
+        }
       },
       "34": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "employed the latest electronic instrumentation"
+        }
       },
       "35": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "paddles, or perhaps long oars, could indeed have propelled"
+        }
       },
       "36": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Clever adaptation of computer simulation techniques pioneered in other disciplines"
+        }
       },
       "37": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "experiments such as these cannot categorically confirm or negate a hypothesis"
+        }
       },
       "38": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The strength of this research lay in the range of methodologies employed"
+        }
       },
       "39": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "it was this adaptability was their greatest accomplishment"
+        }
       },
       "40": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "able to view the ocean as an avenue, not a barrier, to communication before any other race"
+        }
       }
     },
     "sets": []

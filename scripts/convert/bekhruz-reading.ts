@@ -83,6 +83,35 @@ function coveredExtras(sets: Map<number, SetGroup>): Set<number> {
   return extra;
 }
 
+/**
+ * `P1H`/`P2H`/`P3H` — one array per passage of `{ q, t }`, where `t` is the
+ * passage text that answers question `q`. The source player highlights these in
+ * review; we turn each into an `evidence.snippet` so the platform can too.
+ */
+function readPassageHighlights($: CheerioAPI): Array<Array<{ q: number; t: string }>> {
+  return ["P1H", "P2H", "P3H"].map((name) => {
+    try {
+      return extractJsonConst<Array<{ q: number; t: string }>>($, name);
+    } catch {
+      return [];
+    }
+  });
+}
+
+/**
+ * The exact substring of the (already whitespace-collapsed) passage HTML that a
+ * snippet points at. The source stores its snippets lower-cased and matches
+ * case-insensitively, so we search that way and return the real cased text — the
+ * player marks it with a plain first-occurrence find, which needs the true form.
+ */
+function locateSnippet(passageHtml: string, raw: string): string | null {
+  const needle = raw.replace(/\s+/g, " ").trim().toLowerCase();
+  if (needle.length < 3) return null;
+  const index = passageHtml.toLowerCase().indexOf(needle);
+  if (index === -1) return null;
+  return passageHtml.slice(index, index + needle.length);
+}
+
 /** Drops case-only duplicates, keeping the first spelling as canonical. */
 function dedupe(values: string[]): string[] {
   const seen = new Set<string>();
@@ -473,6 +502,20 @@ export function convertBekhruzReading(
     })
     .get();
 
+  // Where in each passage the answer to a question sits, matched against that
+  // passage so a snippet is only kept when the player will actually find it.
+  const evidenceByQ = new Map<number, string>();
+  readPassageHighlights($).forEach((list, partIndex) => {
+    const passageHtml = parts[partIndex]?.passageHtml ?? "";
+    for (const { q, t } of list) {
+      if (evidenceByQ.has(q) || typeof t !== "string") continue;
+      const found = locateSnippet(passageHtml, t);
+      if (found) evidenceByQ.set(q, found);
+    }
+  });
+  const evidenceFor = (n: number) =>
+    evidenceByQ.has(n) ? { evidence: { snippet: evidenceByQ.get(n)! } } : {};
+
   const numbers = Object.keys(CA).map(Number).filter((n) => Number.isFinite(n));
   const totalQuestions = numbers.length ? Math.max(...numbers) : 0;
 
@@ -487,12 +530,12 @@ export function convertBekhruzReading(
         .map((s) => romanToLetter.get(s.toLowerCase()) ?? s)
         .filter(Boolean),
     );
-    answers[String(number)] = { accepted };
+    answers[String(number)] = { accepted, ...evidenceFor(number) };
   }
 
   const answerSets = [...sets.values()]
     .sort((a, b) => a.first - b.first)
-    .map((s) => ({ questions: s.questions, accepted: s.accepted }));
+    .map((s) => ({ questions: s.questions, accepted: s.accepted, ...evidenceFor(s.first) }));
 
   return {
     slug: options.slug ?? slugify(options.title),

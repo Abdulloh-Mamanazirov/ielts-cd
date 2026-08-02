@@ -369,7 +369,10 @@
       "1": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "drawn to this bottle over the others on the shelf"
+        }
       },
       "2": {
         "accepted": [
@@ -379,12 +382,18 @@
       "3": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "conventional advertising has ceased to work"
+        }
       },
       "4": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "most of the advertisements made no impression at all"
+        }
       },
       "5": {
         "accepted": [
@@ -399,162 +408,258 @@
       "7": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Raymond has found that this doesn't necessarily work in their favor"
+        }
       },
       "8": {
         "accepted": [
           "regular commuters"
-        ]
+        ],
+        "evidence": {
+          "snippet": "in particular regular commuters"
+        }
       },
       "9": {
         "accepted": [
           "visual processing"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Her move from research in visual processing"
+        }
       },
       "10": {
         "accepted": [
           "the secondary images"
-        ]
+        ],
+        "evidence": {
+          "snippet": "fail to pick up on the secondary images"
+        }
       },
       "11": {
         "accepted": [
           "the emotional value"
-        ]
+        ],
+        "evidence": {
+          "snippet": "hugely interested in the emotional value of their brand"
+        }
       },
       "12": {
         "accepted": [
           "intrusive product placement"
-        ]
+        ],
+        "evidence": {
+          "snippet": "watching a film with intrusive product placement"
+        }
       },
       "13": {
         "accepted": [
           "the holiday season"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the most dangerous time, says Raymond, is the holiday season"
+        }
       },
       "14": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "For each zone, one of about 50 fertilizer formulas is recommended"
+        }
       },
       "15": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the amount of monitored farmland will increase as weather patters change"
+        }
       },
       "16": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "declining productivity in the province of Saskatchewan"
+        }
       },
       "17": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "across farmland in a number of countries in Africa"
+        }
       },
       "18": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "France is the pioneer in this sort of surveillance"
+        }
       },
       "19": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "More research will be necessary to realise the full potential of the Red-Edge band"
+        }
       },
       "20": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The service usually costs less than US $15 per hectare"
+        }
       },
       "23": {
         "accepted": [
           "electron-magnetic radiation"
-        ]
+        ],
+        "evidence": {
+          "snippet": "electron-magnetic radiation reflected from agricultural land"
+        }
       },
       "24": {
         "accepted": [
           "Henri Douche"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Henri Douche, head of Infoterra"
+        }
       },
       "25": {
         "accepted": [
           "crop failure"
-        ]
+        ],
+        "evidence": {
+          "snippet": "threatened by crop failure"
+        }
       },
       "26": {
         "accepted": [
           "nutrients"
-        ]
+        ],
+        "evidence": {
+          "snippet": "badly depleted of nutrients"
+        }
       },
       "27": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "depending on the regional temperature and hence the amount of water"
+        }
       },
       "28": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "an infringement on individual rights because it is compulsory medication"
+        }
       },
       "29": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "can include social factors"
+        }
       },
       "30": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "found that each showed significant methodological shortcomings"
+        }
       },
       "31": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "ought to be considered the final word"
+        }
       },
       "32": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "social values may also be involved"
+        }
       },
       "33": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "sociologists have also downplayed an important part of the debate"
+        }
       },
       "34": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "not cited in a single analysis of the fluoridation issue by any sociologist"
+        }
       },
       "35": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "is a legitimate difference in values"
+        }
       },
       "36": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "objectively applied by members of a scientific community"
+        }
       },
       "37": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "inevitably linked to the values of the relevant parties"
+        }
       },
       "38": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "something for interpretation, discussion between scientists"
+        }
       },
       "39": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "I think the likely benefits outweigh the possible dangers"
+        }
       },
       "40": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "favor the voluntary use of fluoride tablets"
+        }
       }
     },
     "sets": [
@@ -566,7 +671,10 @@
         "accepted": [
           "B",
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "largest provider of such information, supplying data to companies such as Sevepi"
+        }
       }
     ]
   }

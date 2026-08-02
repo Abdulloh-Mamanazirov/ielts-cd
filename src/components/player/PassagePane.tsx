@@ -7,6 +7,8 @@ import { cn } from "@/lib/utils";
 import { RichHtml } from "./SlotHtml";
 
 export type Evidence = { anchor?: string; snippet?: string };
+/** One answer's location in the passage, for the review "where did this come from" marks. */
+export type EvidenceMark = { n: number; snippet: string; correct: boolean };
 
 type Draft = { start: number; end: number; text: string; x: number; y: number };
 type OpenNote = { id: string; x: number; y: number };
@@ -30,6 +32,40 @@ function anchorIn(scroller: HTMLElement, box: DOMRect) {
 }
 
 /**
+ * Weaves an answer-location mark, badged with its question number, around every
+ * snippet found in the passage. Only snippets belonging to the passage on screen
+ * match, so all parts' marks can be passed at once. Overlapping runs keep the
+ * earliest; each is a plain first-occurrence find, the same tolerance the single
+ * evidence mark uses — a snippet split by a student highlight is simply skipped.
+ */
+function markEvidenceRuns(html: string, marks: EvidenceMark[]): string {
+  const hits = marks
+    .map((mark) => ({ ...mark, start: mark.snippet ? html.indexOf(mark.snippet) : -1 }))
+    .filter((hit) => hit.start >= 0)
+    .map((hit) => ({ ...hit, end: hit.start + hit.snippet.length }))
+    .sort((a, b) => a.start - b.start);
+
+  const kept: typeof hits = [];
+  let lastEnd = 0;
+  for (const hit of hits) {
+    if (hit.start >= lastEnd) {
+      kept.push(hit);
+      lastEnd = hit.end;
+    }
+  }
+
+  // Right to left, so an earlier insertion never shifts a later index.
+  let out = html;
+  for (let i = kept.length - 1; i >= 0; i -= 1) {
+    const hit = kept[i];
+    const open = `<mark data-evidence="1" data-qnum="${hit.n}"${hit.correct ? "" : ' data-ev-wrong="1"'}>`;
+    const badge = `<sup data-ev-badge="1">${hit.n}</sup>`;
+    out = out.slice(0, hit.start) + open + hit.snippet + badge + "</mark>" + out.slice(hit.end);
+  }
+  return out;
+}
+
+/**
  * Reading passage, set in serif because exam prose is read at length.
  *
  * In review a student can ask where an answer came from; the snippet is wrapped
@@ -43,6 +79,8 @@ function anchorIn(scroller: HTMLElement, box: DOMRect) {
 export function PassagePane({
   html,
   evidence,
+  evidenceMarks,
+  focusQuestion,
   fontSize,
   part,
   highlights = [],
@@ -52,6 +90,10 @@ export function PassagePane({
 }: {
   html: string;
   evidence?: Evidence | null;
+  /** Review: every answer's location in this passage, badged with its number. */
+  evidenceMarks?: EvidenceMark[];
+  /** The question whose mark to scroll to as the student steps through review. */
+  focusQuestion?: number | null;
   fontSize: number;
   part?: number;
   highlights?: Highlight[];
@@ -62,6 +104,7 @@ export function PassagePane({
   const scroller = useRef<HTMLDivElement>(null);
   const article = useRef<HTMLElement>(null);
   const snippet = evidence?.snippet;
+  const showAllMarks = (evidenceMarks?.length ?? 0) > 0;
 
   const [draft, setDraft] = useState<Draft | null>(null);
   const [openNote, setOpenNote] = useState<OpenNote | null>(null);
@@ -74,6 +117,10 @@ export function PassagePane({
 
   const marked = useMemo(() => {
     const withHighlights = mine.length > 0 ? applyHighlightMarks(html, mine) : html;
+
+    // Review: every answer's location at once, each badged with its number.
+    if (showAllMarks) return markEvidenceRuns(withHighlights, evidenceMarks!);
+
     if (!snippet) return withHighlights;
 
     // The snippet comes verbatim from the source, so a plain first-occurrence
@@ -87,19 +134,24 @@ export function PassagePane({
       `<mark data-evidence="1">${snippet}</mark>` +
       withHighlights.slice(index + snippet.length)
     );
-  }, [html, mine, snippet]);
+  }, [html, mine, snippet, showAllMarks, evidenceMarks]);
 
   useEffect(() => {
-    if (!evidence) return;
     const root = scroller.current;
     if (!root) return;
 
-    const target =
-      root.querySelector("[data-evidence]") ??
-      (evidence.anchor ? root.querySelector(`#${CSS.escape(evidence.anchor)}`) : null);
-
+    // As the student steps through review, bring the current question's mark
+    // into view; otherwise fall back to the single focused snippet or anchor.
+    let target: Element | null = null;
+    if (showAllMarks && focusQuestion != null) {
+      target = root.querySelector(`[data-qnum="${focusQuestion}"]`);
+    } else if (evidence) {
+      target =
+        root.querySelector("[data-evidence]") ??
+        (evidence.anchor ? root.querySelector(`#${CSS.escape(evidence.anchor)}`) : null);
+    }
     target?.scrollIntoView({ behavior: "smooth", block: "center" });
-  }, [evidence, marked]);
+  }, [evidence, focusQuestion, showAllMarks, marked]);
 
   /** Character offset of a DOM position within the passage's text. */
   const offsetOf = useCallback((node: Node, offset: number): number => {
@@ -203,7 +255,7 @@ export function PassagePane({
         style={{ fontSize }}
         onMouseUp={readSelection}
         onClick={onArticleClick}
-        className="font-serif leading-[1.75] text-ink [&_.para-label]:font-bold [&_[data-evidence]]:rounded [&_[data-evidence]]:bg-brand-blue/15 [&_[data-evidence]]:px-0.5 [&_[data-evidence]]:text-ink [&_[data-evidence]]:shadow-[inset_0_-2px_0_#0154f8] [&_[data-hl]]:cursor-pointer [&_[data-hl]]:rounded-sm [&_[data-hl]]:bg-[#ffe89a] [&_[data-hl]]:text-ink [&_[data-note]]:shadow-[inset_0_-2px_0_#e10046] [&_h1]:mb-4 [&_h1]:font-sans [&_h1]:text-xl [&_h1]:font-bold [&_h4]:mb-3 [&_h4]:font-sans [&_h4]:font-bold [&_h5]:mb-2 [&_h5]:mt-5 [&_h5]:font-sans [&_h5]:font-bold [&_p]:mb-4"
+        className="font-serif leading-[1.75] text-ink [&_.para-label]:font-bold [&_[data-ev-badge]]:ml-0.5 [&_[data-ev-badge]]:rounded [&_[data-ev-badge]]:bg-brand-blue [&_[data-ev-badge]]:px-1 [&_[data-ev-badge]]:py-px [&_[data-ev-badge]]:align-super [&_[data-ev-badge]]:font-sans [&_[data-ev-badge]]:text-[9px] [&_[data-ev-badge]]:font-bold [&_[data-ev-badge]]:leading-none [&_[data-ev-badge]]:text-white [&_[data-ev-wrong]]:bg-brand-red-cta/[0.12] [&_[data-ev-wrong]]:shadow-[inset_0_-2px_0_#e10046] [&_[data-ev-wrong]_[data-ev-badge]]:bg-brand-red-cta [&_[data-evidence]]:rounded [&_[data-evidence]]:bg-brand-blue/15 [&_[data-evidence]]:px-0.5 [&_[data-evidence]]:text-ink [&_[data-evidence]]:shadow-[inset_0_-2px_0_#0154f8] [&_[data-hl]]:cursor-pointer [&_[data-hl]]:rounded-sm [&_[data-hl]]:bg-[#ffe89a] [&_[data-hl]]:text-ink [&_[data-note]]:shadow-[inset_0_-2px_0_#e10046] [&_h1]:mb-4 [&_h1]:font-sans [&_h1]:text-xl [&_h1]:font-bold [&_h4]:mb-3 [&_h4]:font-sans [&_h4]:font-bold [&_h5]:mb-2 [&_h5]:mt-5 [&_h5]:font-sans [&_h5]:font-bold [&_p]:mb-4"
       >
         <RichHtml html={marked} />
       </article>

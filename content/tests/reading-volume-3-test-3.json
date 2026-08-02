@@ -286,7 +286,10 @@
       "1": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A quick 'high' of booming yields and incomes hooked growers during the early years"
+        }
       },
       "2": {
         "accepted": [
@@ -296,103 +299,157 @@
       "3": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A quick 'high' of booming yields and incomes hooked growers"
+        }
       },
       "4": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "By the time some farmers tried to break free of their chemical dependence"
+        }
       },
       "5": {
         "accepted": [
           "evergreen tree",
           "an evergreen tree"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a fast-growing, broad-leaved evergreen tree related to mahogany"
+        }
       },
       "6": {
         "accepted": [
           "natural pesticides",
           "natural chemicals",
           "pesticides"
-        ]
+        ],
+        "evidence": {
+          "snippet": "producing a multitude of natural pesticides that have evolved specifically to defeat plant-eating insects"
+        }
       },
       "7": {
         "accepted": [
           "a powder",
           "powder"
-        ]
+        ],
+        "evidence": {
+          "snippet": "neem seeds are simply ground into a powder"
+        }
       },
       "8": {
         "accepted": [
           "overnight"
-        ]
+        ],
+        "evidence": {
+          "snippet": "soaked overnight in water"
+        }
       },
       "9": {
         "accepted": [
           "neem cake",
           "a neem cake",
           "cake"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Neem cake applied to the soil kills pests"
+        }
       },
       "10": {
         "accepted": [
           "nitrogen"
-        ]
+        ],
+        "evidence": {
+          "snippet": "an organic fertiliser high in nitrogen"
+        }
       },
       "11": {
         "accepted": [
           "2000"
-        ]
+        ],
+        "evidence": {
+          "snippet": "By the end of 2000, all the farmers in Punukula village were using NPM"
+        }
       },
       "12": {
         "accepted": [
           "neem cakes",
           "cakes",
           "neem cake"
-        ]
+        ],
+        "evidence": {
+          "snippet": "gathered seeds from the surrounding area and produced neem cakes to sell"
+        }
       },
       "13": {
         "accepted": [
           "water purification"
-        ]
+        ],
+        "evidence": {
+          "snippet": "big plans for the future, such as water purification"
+        }
       },
       "14": {
         "accepted": [
           "clay"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Take a handful of clay, mix it with a handful of organic material"
+        }
       },
       "15": {
         "accepted": [
           "water"
-        ]
+        ],
+        "evidence": {
+          "snippet": "add water in a sufficient quantity to make a stiff mixture"
+        }
       },
       "16": {
         "accepted": [
           "cow manure",
           "manure"
-        ]
+        ],
+        "evidence": {
+          "snippet": "put them in a mound of cow manure"
+        }
       },
       "17": {
         "accepted": [
           "straw"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Next, surround the pots with straw"
+        }
       },
       "18": {
         "accepted": [
           "950 degrees",
           "950"
-        ]
+        ],
+        "evidence": {
+          "snippet": "will be up to 950 degrees after another 20 to 30 minutes"
+        }
       },
       "19": {
         "accepted": [
           "60 minutes",
           "60"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The filters are finished in 45 to 60 minutes"
+        }
       },
       "20": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "initial research found the local clay to be too fine"
+        }
       },
       "21": {
         "accepted": [
@@ -402,7 +459,10 @@
       "22": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "can reach a temperature of 700 degrees in half an hour"
+        }
       },
       "23": {
         "accepted": [
@@ -412,76 +472,118 @@
       "24": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "wanted to help set up a small industrial site manufacturing water filters"
+        }
       },
       "25": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "needs to be the same thickness as an adult finger for the process to be effective"
+        }
       },
       "26": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Everyone has a right to clean water"
+        }
       },
       "27": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the conservation of coral reefs and rainforests is a separate issue from traffic and air pollution"
+        }
       },
       "28": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the global average temperature rise expected by the year 2100 could be as much as 6"
+        }
       },
       "29": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "This was actually invented in the late nineteenth century"
+        }
       },
       "30": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Hydrogen goes into the fuel tank, producing electricity"
+        }
       },
       "31": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "One source of hydrogen is water"
+        }
       },
       "32": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "fuel-cell buses are operating in the US"
+        }
       },
       "33": {
         "accepted": [
           "combustion engine",
           "the combustion engine",
           "combustion"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the world's motor industry put its effort into developing the combustion engine"
+        }
       },
       "34": {
         "accepted": [
           "silent"
-        ]
+        ],
+        "evidence": {
+          "snippet": "produce a virtually silent vehicle in the future"
+        }
       },
       "35": {
         "accepted": [
           "battery",
           "a battery"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The fuel-cell is, in some ways, similar to a battery"
+        }
       },
       "36": {
         "accepted": [
           "portable computers",
           "portable computer"
-        ]
+        ],
+        "evidence": {
+          "snippet": "small enough for portable computers or large enough for power stations"
+        }
       },
       "37": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the overall carbon reduction benefit of the fuel-cell disappears"
+        }
       },
       "38": {
         "accepted": [
@@ -491,12 +593,18 @@
       "39": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Public transport and delivery firms are logical places to start"
+        }
       },
       "40": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "further investment is needed if the industry"
+        }
       }
     },
     "sets": []

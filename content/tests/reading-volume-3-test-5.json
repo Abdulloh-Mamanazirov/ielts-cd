@@ -297,168 +297,267 @@
       "1": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "was a thriving metropolis when Egypt's great pyramids were still being built"
+        }
       },
       "2": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "it meant Caral could be what archaeologists term pre-ceramic"
+        }
       },
       "3": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "filled these bags with stones from a nearby quarry"
+        }
       },
       "4": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Thousands of manual laborers would have been needed to build such a project"
+        }
       },
       "5": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "almost 70 musical instruments made of bird and deer bones"
+        }
       },
       "6": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "large, well-kept rooms atop pyramids for the elite, ground-level quarters for shabbier outlying dwellings"
+        }
       },
       "7": {
         "accepted": [
           "seeds"
-        ]
+        ],
+        "evidence": {
+          "snippet": "including seeds of the cocoa bush and necklaces of shells"
+        }
       },
       "8": {
         "accepted": [
           "shells"
-        ]
+        ],
+        "evidence": {
+          "snippet": "necklaces of shells, neither of which was native to the immediate Caral area"
+        }
       },
       "9": {
         "accepted": [
           "fish"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the bones of small edible fish, which must have come from the Pacific coast"
+        }
       },
       "10": {
         "accepted": [
           "canals"
-        ]
+        ],
+        "evidence": {
+          "snippet": "diverted the area's rivers into canals, which still cross the Supe Valley today"
+        }
       },
       "11": {
         "accepted": [
           "maize"
-        ]
+        ],
+        "evidence": {
+          "snippet": "she found no traces of maize"
+        }
       },
       "12": {
         "accepted": [
           "cotton"
-        ]
+        ],
+        "evidence": {
+          "snippet": "her team discovered evidence of cotton - seeds, fibers and textiles"
+        }
       },
       "13": {
         "accepted": [
           "flotation"
-        ]
+        ],
+        "evidence": {
+          "snippet": "used dried squash grown by the Caral people as flotation devices for their nets"
+        }
       },
       "14": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the presence of people on board a space vehicle makes its design much more complex"
+        }
       },
       "15": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "robots are not good at reacting to situations they have not been specifically prepared for"
+        }
       },
       "16": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The construction of machines simulating human logical reasoning moves towards ever more distant dates"
+        }
       },
       "17": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The human-machine relationship must evolve towards a closer collaboration"
+        }
       },
       "18": {
         "accepted": [
           "I"
-        ]
+        ],
+        "evidence": {
+          "snippet": "robots could be controlled by human beings located in spaceships which remain in orbit"
+        }
       },
       "19": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the aim for humankind in the future will be not just the exploration of space, but its colonisation"
+        }
       },
       "22": {
         "accepted": [
           "infrastructure"
-        ]
+        ],
+        "evidence": {
+          "snippet": "establish the infrastructure needed to prepare future landing sites"
+        }
       },
       "23": {
         "accepted": [
           "spaceships"
-        ]
+        ],
+        "evidence": {
+          "snippet": "located in spaceships which remain in orbit around the planet"
+        }
       },
       "24": {
         "accepted": [
           "communication"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the link time for communication between humans and robots would be far less"
+        }
       },
       "25": {
         "accepted": [
           "laboratories"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a place to build automatic laboratories or set up industrial enterprises"
+        }
       },
       "26": {
         "accepted": [
           "colonisation",
           "colonization"
-        ]
+        ],
+        "evidence": {
+          "snippet": "not just the exploration of space, but its colonisation"
+        }
       },
       "27": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "too busy struggling to keep pace with ongoing innovations to question the implications"
+        }
       },
       "28": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "serious repercussions on our ability to think creatively and develop new ideas"
+        }
       },
       "29": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "their performance is being electronically monitored"
+        }
       },
       "30": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the obligation to make accurate predictions - the right decisions - becomes more onerous"
+        }
       },
       "31": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they need complete isolation to recover from the effects of the technology"
+        }
       },
       "32": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "replace informal gatherings for bouncing ideas off colleagues with electronic networking"
+        }
       },
       "33": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the psychic numbing of electronic information overload to symptoms of post-traumatic stress syndrome"
+        }
       },
       "34": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "will be replaced by less skilled workers using 'intelligent' software"
+        }
       },
       "35": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "we need to provide psychological support systems"
+        }
       },
       "36": {
         "accepted": [
@@ -468,17 +567,26 @@
       "37": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "accelerated time and yes/no logic - and internalize these patterns"
+        }
       },
       "38": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "difficult to convince ourselves that we're doing an adequate job"
+        }
       },
       "39": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The millions of people on the bottom levels of electronic hierarchies are increasingly likely to spend their days in an isolated no-man's land"
+        }
       },
       "40": {
         "accepted": [
@@ -495,7 +603,10 @@
         "accepted": [
           "A",
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "forecasts of the complete substitution of workers by robots in many production areas were made"
+        }
       }
     ]
   }

@@ -358,27 +358,42 @@
       "1": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "on the site of Roman army grain stores"
+        }
       },
       "2": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "There were extensive alterations in the 2nd and 3rd centuries"
+        }
       },
       "3": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "would have been approximately equivalent to some of the great Roman palaces of Italy"
+        }
       },
       "4": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "are involved in an ongoing archaeological excavation on the site"
+        }
       },
       "5": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "With regard to who lived in Fishbourne Palace, there are a number of theories"
+        }
       },
       "6": {
         "accepted": [
@@ -390,148 +405,232 @@
           "roman army",
           "the roman army",
           "army"
-        ]
+        ],
+        "evidence": {
+          "snippet": "on the site of Roman army grain stores"
+        }
       },
       "8": {
         "accepted": [
           "gardens",
           "formal gardens"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The rectangular palace was built around formal gardens"
+        }
       },
       "9": {
         "accepted": [
           "floors",
           "mosaic floors"
-        ]
+        ],
+        "evidence": {
+          "snippet": "mosaic floors being overlaid with more sophisticated coloured ones"
+        }
       },
       "10": {
         "accepted": [
           "wall",
           "a wall"
-        ]
+        ],
+        "evidence": {
+          "snippet": "workmen had accidentally uncovered a wall"
+        }
       },
       "11": {
         "accepted": [
           "93"
-        ]
+        ],
+        "evidence": {
+          "snippet": "his execution by the Emperor Domitian in or shortly after 93 AD"
+        }
       },
       "12": {
         "accepted": [
           "gold ring",
           "a gold ring"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the recent discovery of a gold ring belonging to him"
+        }
       },
       "13": {
         "accepted": [
           "modern museum",
           "a modern museum",
           "museum"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A modern museum has been built by the Sussex Archaeological Society"
+        }
       },
       "14": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the probability of a correct decision increases with the size of the jury"
+        }
       },
       "15": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a characteristic body movement known as a 'waggle dance' to indicate to the other bees"
+        }
       },
       "16": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "used a computer-generated model of the decision-making process"
+        }
       },
       "17": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "used robotic cockroaches to subvert the behaviour of living cockroaches"
+        }
       },
       "18": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "If the ants' existing nest becomes suddenly threatened"
+        }
       },
       "19": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the chosen ants begin to lead others"
+        }
       },
       "20": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Halloy was able to persuade the living cockroaches to choose an inappropriate shelter"
+        }
       },
       "21": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "their independence in confirming this information for themselves"
+        }
       },
       "22": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the probability of a correct decision increases with the size of the jury"
+        }
       },
       "23": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the bees choosing the best site even when there are only small differences between alternative sites"
+        }
       },
       "24": {
         "accepted": [
           "threatened"
-        ]
+        ],
+        "evidence": {
+          "snippet": "If the ants' existing nest becomes suddenly threatened"
+        }
       },
       "25": {
         "accepted": [
           "scouts"
-        ]
+        ],
+        "evidence": {
+          "snippet": "choose certain ants to act as scouts to find a new nest"
+        }
       },
       "26": {
         "accepted": [
           "leaders"
-        ]
+        ],
+        "evidence": {
+          "snippet": "of having active leaders in order to execute decisions successfully"
+        }
       },
       "27": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "offer their most creative people extra rewards, freedom and resources"
+        }
       },
       "28": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "receive advice from 'virtual' versions of personalities regarded as experts"
+        }
       },
       "29": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a fortune is spent nowadays on identifying and protecting intellectual property"
+        }
       },
       "30": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "innovators such as Amazon (the internet bookstore) and Wal-Mart"
+        }
       },
       "31": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "entrepreneurs can conduct profitable, early-stage research, selling out to the big firms"
+        }
       },
       "32": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Many people assume that it is the job of product designers to look first to the technology"
+        }
       },
       "33": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "buying up and integrating scores of small companies"
+        }
       },
       "34": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Umagic Systems is a young firm"
+        }
       },
       "35": {
         "accepted": [
@@ -541,27 +640,42 @@
       "36": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "offer their most creative people extra rewards, freedom and resources"
+        }
       },
       "37": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "he tried to sell his 'virtual experts' idea to firms such as IBM"
+        }
       },
       "38": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "intellectual property rose from $15 billion in 1990 to $100 billion in 1998"
+        }
       },
       "39": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "One person managing 20 movies is never going to be as involved as one doing five movies"
+        }
       },
       "40": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "innovation - unlike diet, fitness and parenting - is one area where a computer cannot tell you what to do"
+        }
       }
     },
     "sets": []

@@ -8,7 +8,7 @@ import { questionNumbersInGroup } from "@/lib/tests/slots";
 import type { Annotations } from "@/lib/player/highlights";
 import { AudioBar } from "./AudioBar";
 import { Notepad } from "./Notepad";
-import { PassagePane, type Evidence } from "./PassagePane";
+import { PassagePane, type Evidence, type EvidenceMark } from "./PassagePane";
 import { useAnnotations } from "./useAnnotations";
 import { PlayerHeader, ReviewHeader } from "./PlayerChrome";
 import { QuestionGroupView, type ReviewInfo } from "./QuestionGroupView";
@@ -100,6 +100,22 @@ export function TestPlayer({
     },
     [reviewFor],
   );
+
+  // In review, every answer's location, so the passage can badge them all at
+  // once — a wrong answer's badge is red, which is the "where I went wrong" part.
+  const evidenceMarks = useMemo<EvidenceMark[] | undefined>(() => {
+    if (!reviewMode) return undefined;
+    const marks: EvidenceMark[] = [];
+    for (const part of navParts) {
+      for (const number of part.questions) {
+        const info = reviewFor(number);
+        if (info?.evidence?.snippet) {
+          marks.push({ n: number, snippet: info.evidence.snippet, correct: info.correct });
+        }
+      }
+    }
+    return marks;
+  }, [reviewMode, navParts, reviewFor]);
 
   const handleAnswer = useCallback(
     (questionNumber: number, value: string) => {
@@ -284,6 +300,8 @@ export function TestPlayer({
             <PassagePane
               html={currentPart.passageHtml}
               evidence={evidence}
+              evidenceMarks={evidenceMarks}
+              focusQuestion={reviewMode ? activeQuestion : null}
               fontSize={size}
               part={currentPart.number}
               highlights={notes.highlights}

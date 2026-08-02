@@ -385,47 +385,74 @@
       "1": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "had become widely used in many societies around the world"
+        }
       },
       "2": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "All they test is linguistic and logical-mathematical intelligence"
+        }
       },
       "3": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the mind consists of several independent modules or intelligences"
+        }
       },
       "4": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "70% of students do not actually learn this way"
+        }
       },
       "5": {
         "accepted": [
           "discussions"
-        ]
+        ],
+        "evidence": {
+          "snippet": "actively participating in discussions"
+        }
       },
       "6": {
         "accepted": [
           "recordings"
-        ]
+        ],
+        "evidence": {
+          "snippet": "exposure to a variety of recordings"
+        }
       },
       "7": {
         "accepted": [
           "observation skills"
-        ]
+        ],
+        "evidence": {
+          "snippet": "sharpening observation skills"
+        }
       },
       "8": {
         "accepted": [
           "other people"
-        ]
+        ],
+        "evidence": {
+          "snippet": "communicate with and understand other people"
+        }
       },
       "9": {
         "accepted": [
           "our emotions"
-        ]
+        ],
+        "evidence": {
+          "snippet": "comprehending our emotions"
+        }
       },
       "10": {
         "accepted": [
@@ -435,152 +462,242 @@
       "11": {
         "accepted": [
           "proficiency"
-        ]
+        ],
+        "evidence": {
+          "snippet": "develops proficiency in one area, the whole constellation"
+        }
       },
       "12": {
         "accepted": [
           "failure"
-        ]
+        ],
+        "evidence": {
+          "snippet": "more likely to get upset when faced with failure"
+        }
       },
       "13": {
         "accepted": [
           "individual differences"
-        ]
+        ],
+        "evidence": {
+          "snippet": "takes individual differences seriously"
+        }
       },
       "14": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A rare textile made from the silk of more than a million wild spiders"
+        }
       },
       "15": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the tensile strength of spider silk is even greater than Kevlar's aramid filaments"
+        }
       },
       "16": {
         "accepted": [
           "I"
-        ]
+        ],
+        "evidence": {
+          "snippet": "spiders have a habit of chomping off each other's heads when housed together"
+        }
       },
       "17": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Camboue built a small, hand-driven machine to extract silk from up to 24 spiders"
+        }
       },
       "18": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Fourteen thousand spiders yield about an ounce of silk"
+        }
       },
       "19": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "scientists trying to study the properties of spider silk"
+        }
       },
       "20": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Fourteen thousand spiders yield about an ounce of silk"
+        }
       },
       "21": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "for the use as a biomedical product"
+        }
       },
       "22": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Every year we're getting closer and closer to being able to mass-produce it"
+        }
       },
       "23": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "very elastic and strong compared with steel or Kevlar"
+        }
       },
       "24": {
         "accepted": [
           "bacteria"
-        ]
+        ],
+        "evidence": {
+          "snippet": "inserting spider genes into bacteria"
+        }
       },
       "25": {
         "accepted": [
           "gland"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a special gland in the spider's abdomen"
+        }
       },
       "26": {
         "accepted": [
           "force"
-        ]
+        ],
+        "evidence": {
+          "snippet": "apply force to rearrange the protein's molecular structure"
+        }
       },
       "27": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "whose unorthodox research involves such mundane items as towels and chocolates"
+        }
       },
       "28": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "This is in part a personal quest with its origins in his own experience"
+        }
       },
       "29": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "enrolling in sales-training programmes"
+        }
       },
       "30": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "test the relative effectiveness of different text on those cards"
+        }
       },
       "31": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "26% more likely to reuse their towel than those given the original message"
+        }
       },
       "32": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "often without bothering to accurately calculate whether what we are giving is proportionate"
+        }
       },
       "33": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "telling their little ones that this is a very unusual chance"
+        }
       },
       "34": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "fearing it is boastful or arrogant to publicise their expertise"
+        }
       },
       "35": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "remind them of their earlier undertaking"
+        }
       },
       "36": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "When the researcher falsely identified herself"
+        }
       },
       "37": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "I can readily see evidence for some of them in my own workplace"
+        }
       },
       "38": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "I wonder how well all of his findings can be applied here in New Zealand"
+        }
       },
       "39": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "reciprocation would more likely take the form of a return visit to the restaurant and not a tip"
+        }
       },
       "40": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "whereas their parents might be put off by any hint of a hard sell"
+        }
       }
     },
     "sets": []

@@ -335,183 +335,288 @@
       "1": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "their concerns are directed towards their opposite-sexed peers"
+        }
       },
       "2": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "what their adult vocational goals are"
+        }
       },
       "3": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a period of intense conformity to peers"
+        }
       },
       "4": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "to establish themselves as separate individuals"
+        }
       },
       "5": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the need for peer approval has diminished"
+        }
       },
       "6": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "risk-taking may be a normal developmental process of middle adolescence"
+        }
       },
       "7": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "can also be seen as elements of the overall sense of self"
+        }
       },
       "8": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "more abstract, demanding material"
+        }
       },
       "9": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "not all adolescents make the intellectual transition at the same rate"
+        }
       },
       "10": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "adopt an integrated set of values and morals"
+        }
       },
       "11": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "thinking is dominated by a concrete example"
+        }
       },
       "12": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "adolescents may appear less competent than they really are"
+        }
       },
       "13": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a major indicator of how well the adolescent will adjust"
+        }
       },
       "14": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "hunting wasps of a certain type became bees by adopting a vegetarian diet"
+        }
       },
       "15": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the annual value of agricultural crops dependent on the pollination services of bees"
+        }
       },
       "16": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "remarkably like the ideas of the 18th-century economist Adam Smith"
+        }
       },
       "17": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "in a given acre there may only be one or two individuals of any one species"
+        }
       },
       "18": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "We need to know much more about these and their relationships with plants"
+        }
       },
       "19": {
         "accepted": [
           "insects"
-        ]
+        ],
+        "evidence": {
+          "snippet": "as an alternative to insects"
+        }
       },
       "20": {
         "accepted": [
           "nectar"
-        ]
+        ],
+        "evidence": {
+          "snippet": "another source of nutrition, nectar"
+        }
       },
       "21": {
         "accepted": [
           "one third",
           "one-third",
           "a third"
-        ]
+        ],
+        "evidence": {
+          "snippet": "around one third of our food is directly or indirectly dependent"
+        }
       },
       "22": {
         "accepted": [
           "cross-pollination",
           "cross pollination"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a species which depends on cross-pollination is on a knife-edge"
+        }
       },
       "23": {
         "accepted": [
           "energy costs",
           "energy cost"
-        ]
+        ],
+        "evidence": {
+          "snippet": "juggle its energy costs so that it makes a calorific profit"
+        }
       },
       "24": {
         "accepted": [
           "tree species"
-        ]
+        ],
+        "evidence": {
+          "snippet": "there is a high diversity of tree species"
+        }
       },
       "25": {
         "accepted": [
           "trap-lining",
           "trap lining",
           "traplining"
-        ]
+        ],
+        "evidence": {
+          "snippet": "forage regularly along the same routes"
+        }
       },
       "26": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Bees, then, are vital to our survival"
+        }
       },
       "27": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "began with the transition from oral to literate culture"
+        }
       },
       "28": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the profession is structured around the medium of the written word"
+        }
       },
       "29": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "oral communication is not limited to words"
+        }
       },
       "30": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "film of events of fifty or a hundred years old"
+        }
       },
       "31": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "many schools, too, produce video yearbooks"
+        }
       },
       "32": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The many benefits of using moving images as historical evidence easily outweigh worries about cost"
+        }
       },
       "33": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "does not even have a commonly agreed name"
+        }
       },
       "34": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the viewer becomes involved in the process of interpreting and understanding history"
+        }
       },
       "35": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the training, the institutions, the motivations and the professional structures"
+        }
       },
       "36": {
         "accepted": [
@@ -521,17 +626,26 @@
       "37": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "leading to a growing gap between the practice of professional historians"
+        }
       },
       "38": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "professional historians have tended to avoid involvement in television programmes"
+        }
       },
       "39": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Journals such as American History Review have played a significant role"
+        }
       },
       "40": {
         "accepted": [

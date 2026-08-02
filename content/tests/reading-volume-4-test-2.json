@@ -371,32 +371,50 @@
       "1": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "also serves as the subtitle of two other recent biographies"
+        }
       },
       "2": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "unlike many remarkable children, did not fade into obscurity as an adult"
+        }
       },
       "3": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "did not equal his talent as a scholar of natural philosophy or linguistics"
+        }
       },
       "4": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "opinions were requested by civic and national authorities"
+        }
       },
       "5": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "throughout his career he authored numerous other essays, papers and books"
+        }
       },
       "6": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "attended the theatre and learned to dance and play the flute"
+        }
       },
       "7": {
         "accepted": [
@@ -406,157 +424,250 @@
       "8": {
         "accepted": [
           "46"
-        ]
+        ],
+        "evidence": {
+          "snippet": "including 46 biographical entries"
+        }
       },
       "9": {
         "accepted": [
           "the human eye"
-        ]
+        ],
+        "evidence": {
+          "snippet": "He presented his first paper, on the human eye"
+        }
       },
       "10": {
         "accepted": [
           "Indo-European"
-        ]
+        ],
+        "evidence": {
+          "snippet": "coined the term"
+        }
       },
       "11": {
         "accepted": [
           "Richard Brocklesby"
-        ]
+        ],
+        "evidence": {
+          "snippet": "greatly encouraged by Richard Brocklesby"
+        }
       },
       "12": {
         "accepted": [
           "the Royal Institution"
-        ]
+        ],
+        "evidence": {
+          "snippet": "appointed to a professorship of natural philosophy at the Royal Institution"
+        }
       },
       "13": {
         "accepted": [
           "gas lighting"
-        ]
+        ],
+        "evidence": {
+          "snippet": "introduction of gas lighting to London streets"
+        }
       },
       "14": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "accounts for a significant share of world economic output"
+        }
       },
       "15": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "product of the modern age"
+        }
       },
       "16": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "wide range of visual effects"
+        }
       },
       "17": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "endeavour to design clothes that will meet consumer demand"
+        }
       },
       "18": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "difficult to adjust for every body shape"
+        }
       },
       "19": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "fundamental process of sewing remains labour-intensive"
+        }
       },
       "20": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "closely tied to market conditions, even across globe-spanning distances"
+        }
       },
       "21": {
         "accepted": [
           "sewing machine"
-        ]
+        ],
+        "evidence": {
+          "snippet": "development of new technologies such as the sewing machine"
+        }
       },
       "22": {
         "accepted": [
           "department stores"
-        ]
+        ],
+        "evidence": {
+          "snippet": "growth of department stores and other retail outlets"
+        }
       },
       "23": {
         "accepted": [
           "prices"
-        ]
+        ],
+        "evidence": {
+          "snippet": "come to be mass-produced in standard sizes, and sold at fixed prices"
+        }
       },
       "24": {
         "accepted": [
           "Europe"
-        ]
+        ],
+        "evidence": {
+          "snippet": "fashion industry developed first in Europe"
+        }
       },
       "27": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "least understood of all the extinct reptiles"
+        }
       },
       "28": {
         "accepted": [
           "L"
-        ]
+        ],
+        "evidence": {
+          "snippet": "at least part of their bodies was covered in hair"
+        }
       },
       "29": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "walking on their hind legs, like birds"
+        }
       },
       "30": {
         "accepted": [
           "J"
-        ]
+        ],
+        "evidence": {
+          "snippet": "did such a heavy creature ever manage to take off"
+        }
       },
       "31": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "supported by fine, hollow bones"
+        }
       },
       "32": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "fish-eating sub-species of pterosaur"
+        }
       },
       "33": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "probability of finding three-dimensional pterosaur fossils anywhere is slim"
+        }
       },
       "34": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "inspired him to make a robot version"
+        }
       },
       "35": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "may have been instrumental in the evolution of large size"
+        }
       },
       "36": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "take it flying without the head so far"
+        }
       },
       "37": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "did not answer the most pressing question"
+        }
       },
       "38": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "showed the pteroid possibly faced the opposite way"
+        }
       },
       "39": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "stabilised by its head, which means it can start spinning around"
+        }
       },
       "40": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "content to leave it at that"
+        }
       }
     },
     "sets": [
@@ -568,7 +679,10 @@
         "accepted": [
           "C",
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "majority rely on separately owned manufacturing firms or contractors"
+        }
       }
     ]
   }

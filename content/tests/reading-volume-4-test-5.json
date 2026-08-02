@@ -372,7 +372,10 @@
       "1": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "no marked economic differences or disparities in status"
+        }
       },
       "2": {
         "accepted": [
@@ -382,22 +385,34 @@
       "3": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "no one settlement dominates any of the others in the region"
+        }
       },
       "4": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Prestige and rank are determined by how closely related one is to the chief"
+        }
       },
       "5": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "there is local specialisation in craft products"
+        }
       },
       "6": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "has explicit authority to establish laws and also to enforce them by the use of a standing army"
+        }
       },
       "7": {
         "accepted": [
@@ -407,169 +422,268 @@
       "8": {
         "accepted": [
           "tools"
-        ]
+        ],
+        "evidence": {
+          "snippet": "work sites, where tools are made"
+        }
       },
       "9": {
         "accepted": [
           "nomadic"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they may be nomadic with a very different"
+        }
       },
       "10": {
         "accepted": [
           "grouped together",
           "grouped"
-        ]
+        ],
+        "evidence": {
+          "snippet": "clusters of buildings grouped together"
+        }
       },
       "11": {
         "accepted": [
           "foodstuffs"
-        ]
+        ],
+        "evidence": {
+          "snippet": "of foodstuffs are periodically paid as an obligation to the chief"
+        }
       },
       "12": {
         "accepted": [
           "20,000",
           "20,000 persons"
-        ]
+        ],
+        "evidence": {
+          "snippet": "between about 5000 and 20,000 persons"
+        }
       },
       "13": {
         "accepted": [
           "craft specialists"
-        ]
+        ],
+        "evidence": {
+          "snippet": "with the craft specialists above, and the priests"
+        }
       },
       "14": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The notion of license to operate derives from the fact"
+        }
       },
       "15": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "At the same time, a healthy society needs successful companies"
+        }
       },
       "16": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Without a careful process for identifying evolving social effects of tomorrow"
+        }
       },
       "17": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The essential test that should guide CSR is not whether a cause is worthy"
+        }
       },
       "18": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Their effect is inherently limited, however"
+        }
       },
       "19": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The shortage of information technology workers is a significant constraint"
+        }
       },
       "20": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "nearly every aspect of the company's value chain reinforces the social dimensions"
+        }
       },
       "21": {
         "accepted": [
           "equal opportunity"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Education, health care, and equal opportunity are essential to a productive workforce"
+        }
       },
       "22": {
         "accepted": [
           "internal costs"
-        ]
+        ],
+        "evidence": {
+          "snippet": "but lower the internal costs of accidents"
+        }
       },
       "23": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Spoiled produce and biodegradable waste are trucked to regional centers for composting"
+        }
       },
       "24": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "sourcing emphasizes purchases from local farmers"
+        }
       },
       "25": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A good example is General Electronics's program to adopt under-performing public high schools"
+        }
       },
       "26": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "keep faculty up to date"
+        }
       },
       "27": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "proving invaluable to ecologists interested in the timing of biological events, or phenology"
+        }
       },
       "28": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Sparks first became aware of the army of"
+        }
       },
       "29": {
         "accepted": [
           "H"
-        ]
+        ],
+        "evidence": {
+          "snippet": "People are thrilled to think that the data they've been collecting as a hobby"
+        }
       },
       "30": {
         "accepted": [
           "G"
-        ]
+        ],
+        "evidence": {
+          "snippet": "very difficult to collect data on a large geographical scale without enlisting an army of observers"
+        }
       },
       "31": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The data can also hint at how nature will change in the future"
+        }
       },
       "32": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a betting contest in which participants attempt to guess the exact time"
+        }
       },
       "33": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Successive Marshams continued compiling these notes for 211 years"
+        }
       },
       "34": {
         "accepted": [
           "bee-keeping"
-        ]
+        ],
+        "evidence": {
+          "snippet": "contain bee-keeping notes made between 1941 and 1969"
+        }
       },
       "35": {
         "accepted": [
           "life cycles"
-        ]
+        ],
+        "evidence": {
+          "snippet": "began recording the life cycles of plants and animals on his estate"
+        }
       },
       "36": {
         "accepted": [
           "droughts"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the increased droughts that the models predict could halve the breeding populations"
+        }
       },
       "37": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "A lot of scientists won't touch them, they say they're too full of problems"
+        }
       },
       "38": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "We need to know pretty precisely what a person's been observing"
+        }
       },
       "39": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "is developing statistical techniques to account for the uncertainty"
+        }
       },
       "40": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Because the public understand these records, they accept them"
+        }
       }
     },
     "sets": []

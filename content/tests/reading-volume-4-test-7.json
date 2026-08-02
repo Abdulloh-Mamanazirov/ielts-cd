@@ -377,202 +377,322 @@
       "1": {
         "accepted": [
           "location"
-        ]
+        ],
+        "evidence": {
+          "snippet": "specific location of each of the food stores"
+        }
       },
       "2": {
         "accepted": [
           "policies"
-        ]
+        ],
+        "evidence": {
+          "snippet": "forming future policies about what kind of food"
+        }
       },
       "3": {
         "accepted": [
           "government"
-        ]
+        ],
+        "evidence": {
+          "snippet": "there is no good government map"
+        }
       },
       "4": {
         "accepted": [
           "incomes"
-        ]
+        ],
+        "evidence": {
+          "snippet": "who receive minimal incomes for the work they do"
+        }
       },
       "5": {
         "accepted": [
           "land"
-        ]
+        ],
+        "evidence": {
+          "snippet": "can't afford the amount of land required"
+        }
       },
       "6": {
         "accepted": [
           "competition"
-        ]
+        ],
+        "evidence": {
+          "snippet": "tend to close due to competition from suburban supermarkets"
+        }
       },
       "7": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "run by a local core of five volunteers"
+        }
       },
       "8": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "once the storekeeper's permission has been obtained"
+        }
       },
       "9": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "haven't yet set up systems to see who's looking at it"
+        }
       },
       "10": {
         "accepted": [
           "FALSE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Their website hasn't caught them much local or official attention yet"
+        }
       },
       "11": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "she would like to see price data for healthy products"
+        }
       },
       "12": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "a significant proportion of Brooklyn residents don't have internet access at home"
+        }
       },
       "13": {
         "accepted": [
           "TRUE"
-        ]
+        ],
+        "evidence": {
+          "snippet": "He also hopes warmer days in the spring will draw out fresh volunteers"
+        }
       },
       "14": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the world's longest fence"
+        }
       },
       "15": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "dingoes will kill them simply to lessen competition"
+        }
       },
       "16": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Rabbits provide a huge prey base for two other introduced species"
+        }
       },
       "17": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Asian sailors introduced dingoes to Australia"
+        }
       },
       "18": {
         "accepted": [
           "F"
-        ]
+        ],
+        "evidence": {
+          "snippet": "dingoes don't even prey heavily on the newborn calves"
+        }
       },
       "19": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "this practice is known as baiting"
+        }
       },
       "20": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "only one fertile female, which limits their rate of increase"
+        }
       },
       "21": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "believing they are more likely to catch small native animals instead"
+        }
       },
       "22": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "graziers' livelihoods are threatened when dingoes prey on cattle"
+        }
       },
       "23": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "they have contributed to few, if any, extinctions"
+        }
       },
       "24": {
         "accepted": [
           "Tasmanian tiger"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the Tasmanian tiger disappeared completely from Australia"
+        }
       },
       "25": {
         "accepted": [
           "rabbit numbers"
-        ]
+        ],
+        "evidence": {
+          "snippet": "rabbit numbers are significantly reduced"
+        }
       },
       "26": {
         "accepted": [
           "overpopulation"
-        ]
+        ],
+        "evidence": {
+          "snippet": "adaption to prevent overpopulation"
+        }
       },
       "27": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "had no human population until ancestors of today's islanders sailed from Southeast Asia"
+        }
       },
       "28": {
         "accepted": [
           "NO"
-        ]
+        ],
+        "evidence": {
+          "snippet": "the romantic vision of some early twentieth-century writers of fleets of heroic navigators"
+        }
       },
       "29": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "asserting that the expertise of the navigators was limited"
+        }
       },
       "30": {
         "accepted": [
           "YES"
-        ]
+        ],
+        "evidence": {
+          "snippet": "it did spark renewed interest in the topic and precipitated valuable new research"
+        }
       },
       "31": {
         "accepted": [
           "NOT GIVEN"
-        ]
+        ],
+        "evidence": {
+          "snippet": "followed a quite different approach"
+        }
       },
       "32": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "He then accompanied these men, in their traditional canoes, on test voyages"
+        }
       },
       "33": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "ancient navigators would have known which course to steer"
+        }
       },
       "34": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "employed the latest electronic instrumentation"
+        }
       },
       "35": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "could indeed have propelled for long distances what were primarily sailing vessels"
+        }
       },
       "36": {
         "accepted": [
           "B"
-        ]
+        ],
+        "evidence": {
+          "snippet": "Wall Garrard's unusual method"
+        }
       },
       "37": {
         "accepted": [
           "C"
-        ]
+        ],
+        "evidence": {
+          "snippet": "experiments such as these cannot categorically confirm or negate a hypothesis"
+        }
       },
       "38": {
         "accepted": [
           "A"
-        ]
+        ],
+        "evidence": {
+          "snippet": "The strength of this research lay in the range of methodologies employed"
+        }
       },
       "39": {
         "accepted": [
           "D"
-        ]
+        ],
+        "evidence": {
+          "snippet": "it was this adaptability which was their greatest accomplishment"
+        }
       },
       "40": {
         "accepted": [
           "E"
-        ]
+        ],
+        "evidence": {
+          "snippet": "before any other race on Earth"
+        }
       }
     },
     "sets": []
