@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { AdminPage, EmptyState } from "@/components/admin/AdminPage";
 import { ImportTest } from "@/components/admin/ImportTest";
+import { TestDetails } from "@/components/admin/TestDetails";
 import { TestImageUpload } from "@/components/admin/TestImageUpload";
 import { TestStatusControl } from "@/components/admin/TestStatusControl";
 import { SkillIcon } from "@/components/SkillIcon";
@@ -165,6 +166,13 @@ export default async function AdminTestsPage({
                       >
                         Preview →
                       </Link>
+
+                      <TestDetails
+                        testId={test.id}
+                        title={test.title}
+                        isPremium={test.isPremium}
+                        durationSeconds={test.durationSeconds}
+                      />
 
                       <TestStatusControl
                         testId={test.id}

@@ -19,16 +19,25 @@ without re-deriving anything.
 - **Marketing site** — home page and `/results`, design direction 1a.
 - **App screens** — navy sidebar with per-skill nav, dashboard with band
   history, test list with per-row state.
-- **Content** — the instructor's "@bekhruzposts" Volume 1: ten reading and ten
-  listening, converted and validated from `_source-tests/`, all twenty
-  published. Two adapters in `scripts/convert/` (`bekhruz-reading.ts`,
-  `bekhruz-listening.ts`) parse the two self-contained HTML player templates by
-  structure — every IELTS group type, both answer-object shapes (`CA`/`PICK`,
-  `correctAnswers`/`pickGroups`), and roman-numbered matching-headings mapped to
-  letters. Each listening test's audio is a base64 data URL the converter
-  extracts to an .mp3; `npm run audio:upload -- --all --publish` ingests the
-  lot. The earlier one-off Cambridge/Safarov/mock adapters and their tests were
-  removed. Writing and speaking are unchanged (see below).
+- **Content** — the instructor's "@bekhruzposts" Volumes 1 and 2: forty tests
+  (twenty reading, twenty listening), converted and validated from
+  `_source-tests/`, all published. Two adapters in `scripts/convert/`
+  (`bekhruz-reading.ts`, `bekhruz-listening.ts`) parse the two self-contained
+  HTML player templates by structure — every IELTS group type, both
+  answer-object shapes (`CA`/`PICK`, `correctAnswers`/`pickGroups`), and
+  roman-numbered matching-headings mapped to letters. The runner reads the
+  Volume from each filename, so slugs never collide and the next Volume drops in
+  by adding files. Listening audio arrives two ways — embedded as a base64 data
+  URL (extracted to an .mp3) or hot-linked from an external host (recorded as
+  `audioSourceUrl`); `npm run audio:upload -- --all --publish` ingests both,
+  extracting or downloading as needed. The earlier one-off
+  Cambridge/Safarov/mock adapters and their tests were removed. Writing and
+  speaking are unchanged (see below).
+
+- **Test editing** — `/admin/tests` has an inline **Edit** on each row for a
+  test's shelf details (title, premium, duration) without a re-import, alongside
+  the existing publish/archive control and image uploads. Content and answers
+  still come from importing JSON.
 - **Listening audio** — `src/lib/media/`: storage with path-traversal guards,
   range parsing, and container/duration probing. Authenticated streaming route
   at `/api/tests/[id]/audio` with 206/416 handling and an `X-Accel-Redirect`

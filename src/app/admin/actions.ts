@@ -187,6 +187,47 @@ export async function setTestStatus(input: unknown): Promise<ActionResult> {
   return { ok: true, message: `Test is now ${status.toLowerCase()}.` };
 }
 
+const detailsSchema = z.object({
+  testId: z.string().min(1),
+  title: z.string().trim().min(1, "A title is required").max(200),
+  isPremium: z.boolean(),
+  durationMinutes: z.number().int().min(1, "Give it at least a minute").max(240),
+});
+
+/**
+ * Edits the shelf-facing details of a test that is already in the library —
+ * its title, whether it is premium, and how long it runs — without a re-import.
+ * Content and answers are untouched; those still come from importing new JSON.
+ */
+export async function updateTestDetails(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const parsed = detailsSchema.safeParse(input);
+  if (!parsed.success) return { ok: false, error: parsed.error.issues[0]?.message ?? "Invalid request" };
+
+  const { testId, title, isPremium, durationMinutes } = parsed.data;
+  const durationSeconds = durationMinutes * 60;
+
+  const test = await prisma.test.findUnique({ where: { id: testId }, select: { content: true } });
+  if (!test) return { ok: false, error: "Test not found" };
+
+  // Title and duration each live in two places — the row the admin lists by and
+  // the paper's own content — so both are kept in step; a re-import would
+  // otherwise silently disagree with the edit.
+  const content = { ...(test.content as Record<string, unknown>), title, durationSeconds };
+
+  await prisma.test.update({
+    where: { id: testId },
+    data: { title, isPremium, durationSeconds, content },
+  });
+
+  revalidatePath("/admin/tests");
+  revalidatePath("/tests");
+  revalidatePath("/");
+  return { ok: true, message: "Saved." };
+}
+
 /** Lowercase words joined by hyphens, matching the schema's slug rule. */
 function slugify(value: string): string {
   return value

@@ -25,30 +25,36 @@ const MEDIA_DIR = "public/test-media";
 const MEDIA_URL_BASE = "/test-media";
 const SOURCE_LABEL = "@bekhruzposts, IELTS Volume 1";
 
-/** Finds "Reading Test 7 (...)" or "ListeningTest 2 (...)" → { n, path }. */
-function sourceFiles(kind: "Reading" | "Listening"): Array<{ n: number; path: string }> {
+/**
+ * Finds "Reading Test 7 (Volume 2) …" → { volume, n, path }. The volume defaults
+ * to 1 when a file does not name one, so a single-volume drop still works and a
+ * new Volume converts alongside the last rather than colliding with its slugs.
+ */
+function sourceFiles(kind: "Reading" | "Listening"): Array<{ volume: number; n: number; path: string }> {
   return readdirSync(resolve(SOURCE_DIR))
     .filter((name) => name.endsWith(".html"))
     .map((name) => {
       const match = name.match(new RegExp(`^${kind}\\s*Test\\s*(\\d+)`, "i"));
-      return match ? { n: Number(match[1]), path: resolve(SOURCE_DIR, name) } : null;
+      if (!match) return null;
+      const volume = Number((name.match(/Volume\s*(\d+)/i) ?? [])[1] ?? 1);
+      return { volume, n: Number(match[1]), path: resolve(SOURCE_DIR, name) };
     })
-    .filter((entry): entry is { n: number; path: string } => entry !== null)
-    .sort((a, b) => a.n - b.n);
+    .filter((entry): entry is { volume: number; n: number; path: string } => entry !== null)
+    .sort((a, b) => a.volume - b.volume || a.n - b.n);
 }
 
 type Job = { label: string; outputName: string; run: () => TestImport };
 
 const jobs: Job[] = [];
 
-for (const { n, path } of sourceFiles("Reading")) {
-  const slug = `reading-volume-1-test-${n}`;
+for (const { volume, n, path } of sourceFiles("Reading")) {
+  const slug = `reading-volume-${volume}-test-${n}`;
   jobs.push({
-    label: `Reading — Volume 1, Test ${n}`,
+    label: `Reading — Volume ${volume}, Test ${n}`,
     outputName: `${slug}.json`,
     run: () =>
       convertBekhruzReading(path, {
-        title: `IELTS Reading — Volume 1, Test ${n}`,
+        title: `IELTS Reading — Volume ${volume}, Test ${n}`,
         slug,
         source: SOURCE_LABEL,
         durationSeconds: 3600,
@@ -57,16 +63,16 @@ for (const { n, path } of sourceFiles("Reading")) {
   });
 }
 
-for (const { n, path } of sourceFiles("Listening")) {
-  const slug = `listening-volume-1-test-${n}`;
+for (const { volume, n, path } of sourceFiles("Listening")) {
+  const slug = `listening-volume-${volume}-test-${n}`;
   jobs.push({
-    label: `Listening — Volume 1, Test ${n}`,
+    label: `Listening — Volume ${volume}, Test ${n}`,
     outputName: `${slug}.json`,
     run: () =>
       convertBekhruzListening(
         path,
         {
-          title: `IELTS Listening — Volume 1, Test ${n}`,
+          title: `IELTS Listening — Volume ${volume}, Test ${n}`,
           slug,
           source: SOURCE_LABEL,
           durationSeconds: 1800,

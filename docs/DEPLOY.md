@@ -369,30 +369,31 @@ history:
 Pick it in a password manager. Do not reuse `ChangeMe123!` from development — it
 went through a URL during the tunnel work and should be considered public.
 
-The seed also loads all the tests — the ten reading tests publish immediately;
-the ten listening tests land as drafts until they have audio — and, because the
-database is empty, the placeholder home page results and reviews. Those are
-placeholders with a stock certificate image: replace them with real students in
-`/admin/showcase` before you tell anyone the address.
+The seed also loads all the tests — the twenty reading tests publish
+immediately; the twenty listening tests land as drafts until they have audio —
+and, because the database is empty, the placeholder home page results and
+reviews. Those are placeholders with a stock certificate image: replace them
+with real students in `/admin/showcase` before you tell anyone the address.
 
-Now the audio. Each listening test's recording is embedded in its source HTML as
-base64, which `npm run convert` extracts to `_source-tests/<slug>.mp3`. Those
-mp3s — and the 190 MB of listening HTML they come from — are **not in git**, so
-they have to travel by scp. From PowerShell in the project directory on your own
-machine:
+Now the audio. It comes from two places. Most listening tests hot-link their
+recording from an external host, which the JSON records as `audioSourceUrl` and
+the uploader **downloads** — nothing to move. A handful embed it as base64,
+which `npm run convert` extracts to `_source-tests/<slug>.mp3`; those mp3s — and
+the listening HTML they come from — are **not in git**, so they travel by scp.
+From PowerShell in the project directory on your own machine:
 
 ```powershell
-scp _source-tests/listening-volume-1-test-*.mp3 abdulloh@SERVER_IP:/srv/ielts/_source-tests/
+scp _source-tests/*.mp3 abdulloh@SERVER_IP:/srv/ielts/_source-tests/
 ```
 
-If the `_source-tests` directory does not exist on the server yet:
+If the `_source-tests` directory does not exist on the server yet, make it
+first (`sudo -u ielts mkdir -p /srv/ielts/_source-tests`). If that `scp` matches
+no files, none of the tests were base64 — everything downloads, and you can skip
+straight to the upload.
 
-```bash
-sudo -u ielts mkdir -p /srv/ielts/_source-tests
-```
-
-Then attach and publish all ten at once — the uploader looks for a
-`_source-tests/<slug>.mp3` beside each listening test:
+Then attach and publish the whole library at once — the uploader uses a local
+`_source-tests/<slug>.mp3` where one exists and downloads from `audioSourceUrl`
+where it does not:
 
 ```bash
 sudo -u ielts bash -c 'cd /srv/ielts && npm run audio:upload -- --all --publish'
@@ -407,7 +408,8 @@ sudo -u ielts bash -c 'cd /srv/ielts && npm run audio:upload -- --list'
 Re-running the uploader is safe: the storage key ends in a hash of the file, so
 the same audio lands in the same place and a replaced file has its predecessor
 cleaned up. You can delete the scp'd mp3s from `/srv/ielts/_source-tests/`
-afterwards — the bytes now live in the media directory.
+afterwards — the bytes now live in the media directory. If an external download
+fails (those are other people's servers), send that one file by scp and re-run.
 
 ## 11. Smoke tests
 

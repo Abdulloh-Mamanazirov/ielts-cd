@@ -1,0 +1,548 @@
+{
+  "slug": "listening-volume-2-test-1",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 2, Test 1",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Consultation — Patient Information</div><ul><li>Name: Anu {{1}}</li><li>Post code: {{2}}</li><li>Current address: {{3}} Avenue</li><li>Birthday: October 1st {{4}}</li><li>Phone number: 875934</li></ul><p>Health Condition</p><ul><li>Illness has lasted for {{5}} days</li><li>Symptom: sees {{6}} lights</li><li>Possible cause: the room was too {{7}}</li><li>Previous hospital: {{8}} Hospital</li></ul><p>Suggestions</p><ul><li>Have a good rest after staring at a {{9}} for a long time</li><li>Use some medicine to ease eye {{10}}</li></ul></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–13</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;Where is the information board?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "At the reception"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Inside the cottage"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "On the beach"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;Which sport do customers have to book in advance?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Beach soccer"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Water-skiing"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Scuba diving"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;What does the cave tour ticket price include?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "shoes"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a map of the cave"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a safety helmet"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 14–17</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><ul><li><strong>14</strong> &nbsp;Davison Wildlife Park is a great place for {{14}}.</li><li><strong>15</strong> &nbsp;Children are allowed to {{15}}.</li><li><strong>16</strong> &nbsp;Red kangaroos are larger than {{16}}.</li><li><strong>17</strong> &nbsp;Crocodiles can live for at least {{17}}.</li></ul></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 18–20</p>",
+            "selectCount": 3,
+            "questions": [
+              {
+                "number": 18,
+                "textHtml": "Which <strong>THREE</strong> activities are popular now for tourists in the inland region?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "hill hiking"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "barbecue and bonfire"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "buying souvenirs"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "visiting the EMU farm"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "visiting the cheese factory"
+                  },
+                  {
+                    "letter": "F",
+                    "textHtml": "following nature trails"
+                  },
+                  {
+                    "letter": "G",
+                    "textHtml": "fruit picking"
+                  },
+                  {
+                    "letter": "H",
+                    "textHtml": "meeting the staff"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Why did they do the project as a team?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They needed to do a lot of research."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They had worked together before."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The research was very complicated."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Who will be the interviewees at the first stage?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "manufacturers"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "shoppers"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "managers"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What is the manufacturers' top priority on the labels?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the weight"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the ingredients"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the price"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What result surprised them?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "There are a lot of additives in food."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The cost of food is much higher than before."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Fast food is popular among customers."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;What does Jack worry about most regarding the project?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They don't have enough respondents."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There is not enough time."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Some important data is not available."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "do it with a partner"
+              },
+              {
+                "letter": "B",
+                "textHtml": "not worthy of doing"
+              },
+              {
+                "letter": "C",
+                "textHtml": "leave it to others"
+              },
+              {
+                "letter": "D",
+                "textHtml": "do it later"
+              },
+              {
+                "letter": "E",
+                "textHtml": "need special training beforehand"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "sort out recorded content"
+              },
+              {
+                "number": 27,
+                "textHtml": "collect and analyse some specific data"
+              },
+              {
+                "number": 28,
+                "textHtml": "do research on the ingredients of well-done beef"
+              },
+              {
+                "number": 29,
+                "textHtml": "interview customers when they shop"
+              },
+              {
+                "number": 30,
+                "textHtml": "decide on the format of the presentation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–36</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Study of Fossil Park</div><p>Types of fossils:</p><ul><li>transitional fossils: rare, show evidence of evolutionary change</li><li>{{31}} fossils: more common, actual fossilised remains</li><li>{{32}} fossils: indirect evidence of animals, such as footprints or tunnels</li></ul><p>Fossilisation processes:</p><ul><li>Organism trapped in volcanic ash</li><li>Petrifaction:</li><li>An animal is {{33}} in the mud after death</li><li>Mud dries and hardens</li><li>{{34}} replace the bones, leaving a stone shape</li></ul><p>Purchasing fossils:</p><ul><li>Site: shop outside the park, or from the park's {{35}}</li><li>Prices: generally {{36}}</li></ul></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 37–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><table class=\"q-table\"><tbody><tr><th>Tool</th><th>Function or purpose</th></tr><tr><td>A tape measure</td><td>Record the {{37}} of each fossil</td></tr><tr><td>A notebook</td><td>Record the types of {{38}}</td></tr><tr><td>A camera</td><td>Record the {{39}} of each fossil</td></tr><tr><td>A compass</td><td>Detect {{40}} to locate the fossils</td></tr></tbody></table></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "atkinson"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "el14 2bf",
+          "el142bf",
+          "el14 2 bf"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "queens"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "1986"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "5",
+          "five"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "flashing"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "bright"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "central"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "screen"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "strain"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "family",
+          "families"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "feed the animals",
+          "feed animals"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "adults",
+          "adult"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "50 years",
+          "50",
+          "fifty years"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "preserved"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "trace"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "buried"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "mineral",
+          "minerals"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "exhibitions",
+          "exhibition"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "affordable"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "dimension",
+          "dimensions"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "rocks",
+          "rock"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "images",
+          "image"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "sediments",
+          "sediment"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          18,
+          19,
+          20
+        ],
+        "accepted": [
+          "C",
+          "E",
+          "G"
+        ]
+      }
+    ]
+  }
+}

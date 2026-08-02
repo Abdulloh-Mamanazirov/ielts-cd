@@ -1,0 +1,701 @@
+{
+  "slug": "listening-volume-2-test-2",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/v-2-t-2/V2%20T2%20.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 2, Test 2",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–6</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Travel Insurance</div><ul><li>Type: {{1}}</li></ul><p>Comprehensive — Section 1: Baggage &amp; Personal Effects</p><ul><li>single {{2}}: $1,500</li><li>cameras and portable electronic {{3}}</li><li>money: ${{4}}</li></ul><p>Section 2: Disrupted Travel</p><ul><li>reasonable {{5}}: $2,500</li><li>missed connections or early return (as verified by the {{6}})</li></ul></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 7–8</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 7,
+                "textHtml": "&nbsp;The woman will buy",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a new motorbike."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "an old car."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a new car."
+                  }
+                ]
+              },
+              {
+                "number": 8,
+                "textHtml": "&nbsp;The woman does not want to insure her vehicle with a Multi-saver policy",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "because it has too many conditions."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "because it is rather expensive."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "because it benefits homeowners."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 9–10</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 9,
+                "textHtml": "Which <strong>TWO</strong> of the following relate to the Top Cover policy?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it includes an agreement on the value of a holder's vehicle"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it covers vehicles of any age"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "there is a stand-down period before it takes effect"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "it covers storm damage"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "it is cheaper than many other policies"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;When was Eyesaver founded?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "15 years ago"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "30 years ago"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "60 years ago"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What was the original aim of the program?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to offer common equipment"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to offer medication to children with eye diseases"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to offer operational help to people who had eye problems"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;The main funding comes from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "monthly donation."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "donation from rich people."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "money collected on the street."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What does the speaker expect listeners to provide?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "glasses for the patients"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "money donation"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "voluntary work"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What is the main purpose of this program?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to show people their donation can make a difference"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to show people how easily eye problems can be cured"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to educate people about common eye diseases"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;Eyesaver advertises for the program through",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "computers."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "recordings."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "training."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "gain more donation"
+              },
+              {
+                "letter": "B",
+                "textHtml": "involve more children in need"
+              },
+              {
+                "letter": "C",
+                "textHtml": "earn support from colleges"
+              },
+              {
+                "letter": "D",
+                "textHtml": "help look for equipment manufacturers"
+              },
+              {
+                "letter": "E",
+                "textHtml": "take the reputation to a higher level"
+              },
+              {
+                "letter": "F",
+                "textHtml": "recruit and support staff"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "National Vision Funding Group"
+              },
+              {
+                "number": 18,
+                "textHtml": "Eye for the Future"
+              },
+              {
+                "number": 19,
+                "textHtml": "Sam's Eyecare Institution"
+              },
+              {
+                "number": 20,
+                "textHtml": "Youth Health"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–30</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;What was the Professor attending in Massachusetts and New York?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Physics Conferences"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Physics Class"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Mechanics Conferences"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What mark did Rangi receive for Classical Mechanics?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "C plus"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "A plus"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "B plus"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Which degree has Rangi decided to abandon?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Math and Physics"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Science"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Arts"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What did the Professor think about the Science Faculty?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "quick response to students' queries"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "has an unclear timetable for students"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "has a comprehensive website"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;A benefit of Rangi's decision is that he will",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "finish his degree earlier."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "receive higher marks."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "improve his writing style."
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;The Professor thinks the claims of some lecturers are",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "critical."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "doubtful."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "boastful."
+                  }
+                ]
+              },
+              {
+                "number": 27,
+                "textHtml": "&nbsp;Rangi is disappointed because he",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "will have to work in a bar again."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "cannot afford to study abroad."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "will not be going to Europe."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "&nbsp;The Professor offers Rangi",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a part-time job in his lab."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "supervision of his master's degree."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "help with his laser experiments."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "&nbsp;In the Professor's opinion, Rangi is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "quite likely to win a scholarship."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "not so likely to win a scholarship."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "highly likely to win a scholarship."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "&nbsp;What did Rangi feel by the end of the conversation?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "thrilled but nervous"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "relieved and grateful"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a little apprehensive"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Leatherback Turtles</div><p>Background</p><ul><li><strong>31</strong> &nbsp;Their advantageous {{31}} makes them swim more efficiently than others.</li><li><strong>32</strong> &nbsp;It is one of the deepest-{{32}} reptiles.</li><li><strong>33</strong> &nbsp;The shell is {{33}}, not bony, to withstand high pressure.</li><li><strong>34</strong> &nbsp;Leatherbacks can {{34}} in the water for several hours due to the size of their lungs.</li><li><strong>35</strong> &nbsp;Their main food, jellyfish, contains a high proportion of {{35}} and minerals.</li></ul><p>Research methods</p><ul><li><strong>36</strong> &nbsp;Scientists can learn their {{36}} pattern in the Atlantic Ocean.</li><li><strong>37</strong> &nbsp;Scientists can start tracking when the turtle reaches the {{37}} of the sea.</li><li><strong>38</strong> &nbsp;The huge front flippers can produce {{38}} from strong muscles.</li><li><strong>39</strong> &nbsp;A new recorder can monitor not only their location but also the {{39}} in the sea.</li><li><strong>40</strong> &nbsp;Leatherback turtles are found to use more {{40}} to search for food.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "individual"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "item"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "equipment"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "700"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "costs",
+          "cost"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "airline"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "shape"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "dives",
+          "dive",
+          "diving"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "soft"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "sleep"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "protein"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "migration"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "surface"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "power"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "depth"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "energy"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          9,
+          10
+        ],
+        "accepted": [
+          "C",
+          "D"
+        ]
+      }
+    ]
+  }
+}

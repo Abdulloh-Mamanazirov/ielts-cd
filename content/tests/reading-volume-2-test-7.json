@@ -1,0 +1,528 @@
+{
+  "slug": "reading-volume-2-test-7",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 2, Test 7",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Book Review: Triumph of the City",
+        "passageHtml": "<p>Triumph of the City, by Edward Glaeser, is a thrilling and very readable hymn of praise to an invention so vast and so effective that it is generally taken for granted. More than half the global population already live in urban areas and, every month, five million more flood into the cities of the developed and developing worlds. The crowds and poverty of some of these modern cities may horrify us. They shouldn't, says Glaeser they are signs of growth, energy and aspiration. Cities are our best and brightest hope.</p><p>This idea has had more than two hundred years of resistance. Not long after the Industrial Revolution began in Britain, the Romantic poets turned away from the smoke and factories of their cities to celebrate the air and light of untouched nature. In 19th-century America, the writer Henry David Thoreau retreated to the wilderness of Walden Pond to live the solitary, simple life, and convinced generations of Americans that cities were bad and nature was good.</p><p>They had, Glaeser admits, a point. The early industrial cities were dirty, since they lacked efficient waste disposal systems, and disease spread rapidly among the population. But more importantly they were profitable, and there were enormous commercial incentives to make them work, as well as political ones. Their transformation could be achieved at a stroke: in the second half of the 19th century, the French Emperor Napoleon III gave Baron Haussmann unrestricted power to turn the slum-infested city of Paris into one of the wonders and delights of the modern world. Or the transformation could be done by trial and error. Glaeser gives a brilliant account of the stop-start progression of New York to its late 20th-century position as the cultural and economic centre of the world. Either way, Paris, New York and other cities developed because they were truly effective markets of ideas and innovation.</p><p>For these and many other reasons, we should not be so upset by the spectacle of urban poverty. The poor flock to cities in the hope of becoming richer (which, by and large, they do). They also reinvigorate the economy of the city. It is folly to drive them away by forcing property prices to soar with unreasonable planning regulations. Instead, cities should build more houses and thereby hold property prices in check.</p><p>It can go wrong, of course. In Glaeser's view, this is primarily because municipal authorities fail to understand the principal virtues of their cities. The heart of Paris, as many Parisians say, is turning into a museum because of the desire to preserve Baron Haussmann's 19th-century boulevards. Glaeser defends their preservation, but argues that in the 1950s the French made a mistake in establishing a huge high-rise commercial development - La Défense - on the outskirts of the city. Far better, he says, to have turned the central area of Montparnasse into a new commercial district. This would have revitalised much of the city centre without destroying its fabric. In India, Mumbai could save itself from ever-more inefficient sprawl over the surrounding area simply by relaxing the rules presently imposed on the height of new constructions.</p><p>In America, it is the suburbs that have proved to be the real disaster. Glaeser is repentant on this subject himself. He moved to the suburbs when he had children. His entirely legitimate excuse is that the government made him (and millions like him) do it. By under-taxing petrol and imposing tight planning restrictions on inner cities that drove up the cost of property, it made flight to the suburbs more or less inevitable for the middle classes. This is a disaster because nothing is more inefficient than a suburb. Suburbanites mingle less, and lose the face-to-face contact that makes being an urbanite so much more creative. Moreover, houses are costlier to heat and cool than flats, and suburbanites drive thousands more miles per year than city dwellers. Every aspect of life involves more consumption. This leads to the strongest and newest argument in favour of cities - they are good for the environment. To live in the country or the suburbs is to have a vastly larger carbon footprint than any urbanite.</p><p>Full of characters and accessible information, this is a tremendous book, not least because, like me, you will find yourself constantly seeking reasons to disagree. Like the poor in the city, this is a sign of success. If you hate the city and get moist-eyed at the thought of the country then, one way or another, Glaeser is the man you will have to take on.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–8</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>Cities</div><div> problems with early cities: <ul><li>dirt</li><li><strong>1</strong>&nbsp;{{1}}</li><li>but there were commercial and <strong>2</strong>&nbsp;{{2}} reasons for improving them</li></ul> urban poverty is not a major problem because poor people: <ul><li>generally get <strong>3</strong>&nbsp;{{3}}</li><li>help to develop the urban <strong>4</strong>&nbsp;{{4}}</li></ul> cities do have some problems – e.g: <ul><li>the centre of Paris is becoming a <strong>5</strong>&nbsp;{{5}}</li><li>Mumbai is negatively affected by height restrictions on new buildings</li><li>in the US, the middle classes have moved to the suburbs due to: <ul><li>cheap petrol</li><li>high <strong>6</strong>&nbsp;{{6}} prices in inner cities</li></ul></li></ul> disadvantages of suburbs: <ul><li>less personal <strong>7</strong>&nbsp;{{7}}</li><li>increased <strong>8</strong>&nbsp;{{8}} of resources such as heating – which damages the environment</li></ul></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 9–13</h3>Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 9,
+                "textHtml": "Glaeser believes that congestion and poverty in some modern cities indicate serious problems."
+              },
+              {
+                "number": 10,
+                "textHtml": "The writer Henry David Thoreau discussed the ideas of the Romantic poets in his work."
+              },
+              {
+                "number": 11,
+                "textHtml": "Emperor Napoleon III was influenced by the complaints of poor people living in Paris."
+              },
+              {
+                "number": 12,
+                "textHtml": "Strict planning regulations may be beneficial for a city's development."
+              },
+              {
+                "number": 13,
+                "textHtml": "Glaeser argues that the location of a commercial development at La Défense was a bad idea."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Coral Reefs",
+        "passageHtml": "<p>Coral reefs are underwater structures made from calcium carbonate secreted by corals. Coral reefs are colonies of tiny living animals found in marine waters that contain few nutrients. Most coral reefs are built from stony corals, which in turn consist of polyps that cluster in groups.</p><p><strong>A</strong>&nbsp;&nbsp; Coral reefs are estimated to cover 284,300 km2 just under 0.1% of the oceans surface area, about half the area of France. The Indo-Pacific region accounts for 91.9% of this total area. Southeast Asia accounts for 32.3% of that figure, while the Pacific including Australia accounts for 40.8%. Atlantic and Caribbean coral reefs account for 7.6%. Yet often called \"rainforests of the sea\", coral reefs form some of the most diverse ecosystems on Earth. They provide a home for 25% of all marine species, including fish, mollusks worms, crustaceans, echinoderms, sponges, tunicates and other cnidarians. Paradoxically, coral reefs flourish even though they are surrounded by ocean waters that provide few nutrients. They are most commonly found at shallow depths in tropical waters, but deep water and cold water corals also exist on smaller scales in other areas. Although corals exist both in temperate and tropical waters, shallow-water reefs form only in a zone extending from 30°N to 30°S of the equator. Deep water coral can exist at greater depths and colder temperatures at much higher latitudes, as far north as Norway. Coral reefs are rare along the American and African west coasts. This is due primarily to upwelling and strong cold coastal currents that reduce water temperatures in these areas (respectively the Peru, Benguela and Canary streams). Corals are seldom found along the coastline of South Asia from the eastern tip of India (Madras) to the Bangladesh and Myanmar borders. They are also rare along the coast around northeastern South America and Bangladesh due to the freshwater released from the Amazon and Ganges Rivers, respectively.</p><p><strong>B</strong>&nbsp;&nbsp; Coral reefs deliver ecosystem services to tourism, fisheries and coastline protection. The global economic value of coral reefs has been estimated at as much as $US375 billion per year. Coral reefs protect shorelines by absorbing wave energy, and many small islands would not exist without their reef to protect them.</p><p><strong>C</strong>&nbsp;&nbsp; The value of reefs in biodiverse regions can be even higher. In parts of Indonesia and the Caribbean where tourism is the main use, reefs are estimated to be worth US$1 million per square kilometer, based on the cost of maintaining sandy beaches and the value of attracting snorkelers and scuba divers. Meanwhile, a recent study of the Great Barrier Reef in Australia found that the reef is worth more to the country as an intact ecosystem than an extractive reserve for fishing. Each year more than 1.8 million tourists visit the reef, spending an estimated AU$4.3 billion (Australian dollars) on reef-related industries from diving to boat rental to posh island resort stays. In the Caribbean, says UNEP, the net annual benefits from diver tourism was US$2 billion in 2000 with US$625 million spent directly on diving on reefs. Further, reef tourism is an important source of employment, especially for some of the world's poorest people. UNEP says that of the estimated 30 million small-scale fishers in the developing world, most are dependent to a greater or lesser extent on coral reefs. In the Philippines, for example, more than one million small-scale fishers depend directly on coral reefs for their livelihoods. The report estimates that reef fisheries were worth between $15,000 and $150,000 per square kilometer a year, while fish caught for aquariums were worth $500 a kilogram against $6 for fish caught as food. The aquarium fish export industry supports around 50,000 people and generates some US$5.5 million a year in Sri Lanka alone.</p><p><strong>D</strong>&nbsp;&nbsp; Unfortunately, coral reefs are dying around the world. In particular, coral mining, agricultural and urban runoff, pollution (organic and inorganic), disease, and the digging of canals and access into islands and bays are localized threats to coral ecosystems. Broader threats are sea temperature rise, sea level rise and pH changes from ocean acidification, all associated with greenhouse gas emissions. Some current fishing practices are destructive and unsustainable. These include cyanide fishing, overfishing and blast fishing. Although cyanide fishing supplies live reef fish for the tropical aquarium market, most fish caught using this method are sold in restaurants, primarily in Asia, where live fish are prized for their freshness. To catch fish with cyanide, fishers dive down to the reef and squirt cyanide in coral crevices and on the fast-moving fish, to stun the fish making them easy to catch. Overfishing is another leading cause for coral reef degradation. Often, too many fish are taken from one reef to sustain a population in that area. Poor fishing practices, such as banging on the reef with sticks (muro-ami), destroy coral formations that normally function as fish habitat. In some instances, people fish with explosives (blast fishing), which blast apart the surrounding coral.</p><p><strong>E</strong>&nbsp;&nbsp; Tourist resorts that empty their sewage directly into the water surrounding coral reefs contribute to coral reef degradation. Wastes kept in poorly maintained septic tanks can also leak into surrounding ground water, eventually seeping out to the reefs. Careless boating, diving, snorkeling and fishing can also damage coral reefs. Whenever people grab, kick, and walk on, or stir up sediment in the reefs, they contribute to coral reef destruction. Corals are also harmed or killed when people drop anchors on them or when people collect coral.</p><p><strong>F</strong>&nbsp;&nbsp; To find answers for these problems, scientists and researchers study the various factors that impact reefs. The list includes the ocean's role as a carbon dioxide sink, atmospheric changes, ultraviolet light, ocean acidification, viruses, impacts of dust storms carrying agents to far flung reefs, pollutants, algal blooms and others. Reefs are threatened well beyond coastal areas. General estimates show approximately 10% of the worlds coral reefs are dead. About 60% of the world's reefs are at risk due to destructive, human-related activities. The threat to the health of reefs is particularly strong in Southeast Asia, where 80% of reefs are endangered.</p><p><strong>G</strong>&nbsp;&nbsp; In Australia, the Great Barrier Reef is protected by the Great Barrier Reef Marine Park Authority, and is the subject of much legislation, including a biodiversity action plan. Inhabitants of Ahus Island, Manus Province, Papua New Guinea, have followed a generations-old practice of restricting fishing in six areas of their reef lagoon. Their cultural traditions allow line fishing, but not net or spear fishing. The result is both the biomass and individual fish sizes are significantly larger in these areas than in places where fishing is unrestricted.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–19</h3>Reading Passage 2 has seven paragraphs, <strong>A–G</strong>.<br>Which paragraph contains the following information?",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Geographical location of world's coral reef"
+              },
+              {
+                "number": 15,
+                "textHtml": "How does coral reef benefit economy locally"
+              },
+              {
+                "number": 16,
+                "textHtml": "The statistics of coral reefs economic significance"
+              },
+              {
+                "number": 17,
+                "textHtml": "The listed reasons for declining number of coral reef"
+              },
+              {
+                "number": 18,
+                "textHtml": "Physical approach to coral reef by people"
+              },
+              {
+                "number": 19,
+                "textHtml": "Unsustainable fishing methods are applied in regions of the world"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 20–25</h3>Do the following statements agree with the information given in Reading Passage 2?<br>Write <strong>YES</strong> / <strong>NO</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 20,
+                "textHtml": "Coral reefs provide habitat to variety of marine life."
+              },
+              {
+                "number": 21,
+                "textHtml": "Coral reef distribute around the ocean disproportionally."
+              },
+              {
+                "number": 22,
+                "textHtml": "Coral reef is increasingly important for scientific purpose."
+              },
+              {
+                "number": 23,
+                "textHtml": "Coral reefs are greatly exchanged among and exported to other counties."
+              },
+              {
+                "number": 24,
+                "textHtml": "Reef tourism is of economic essence generally for some poor people."
+              },
+              {
+                "number": 25,
+                "textHtml": "As with other fishing business, coral fishery is not suitable to women and children."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Question 26</h3>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "What is the main purpose of this passage?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Demonstrate how coral reef grow in the ocean"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; To tell that coral reef is widely used as a scientific project"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Present the general benefits and an alarming situation of coral reef"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; To show the vital efforts made to protect coral reef in Australia"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Whale Culture",
+        "passageHtml": "<p><strong>A</strong>&nbsp;&nbsp; Most social scientists stubbornly resist the idea that animals have culture. Even such advanced cetacean mammals as whales and dolphins clearly don't have art, literature, or architecture. But patient observation over many years has begun to reveal behaviours that can only have been learnt from other whales. And that, say whale biologists, constitutes culture.</p><p><strong>B</strong>&nbsp;&nbsp; So far, humpback and killer whales provide the best evidence of culture in cetaceans, and the song of the male humpback is among the most striking examples. Humpback populations in different oceans sing different songs, but within the same ocean they all stick to the same one. However, during the breeding season the sounds change, as it appears that females are drawn to novel songs. One male might add an extra set of groans; another might drop a series of grunts. Soon all the other males have altered their own rendition to incorporate the changes until they are once again singing the same song. Since this occurs among thousands of whales spread across a vast part of the planet, the change cannot be in response to any factor in the animals' environment. The latest version of the song can be learnt only from other whales - almost certainly by imitation.</p><p><strong>C</strong>&nbsp;&nbsp; Culture plays an even bigger part in the life of killer whales. Nowhere is this more obvious than along the north-west coast of America, where killer whales are split into two distinct populations - 'residents' and 'transients'. They live in the same stretch of water, but they don't mingle. In effect, they belong to two quite separate cultures. Residents live in stable groups, or 'pods', made up of two or three mothers and their offspring - perhaps 20 whales in all. Calves stay with their mothers throughout adulthood, and in many years of observation no one has ever seen a whale switch pods. Transients travel in smaller, more changeable groups of between three and six.</p><p><strong>D</strong>&nbsp;&nbsp; One of the most obvious distinctions between the transient and resident societies is the way they impart information. Killer whales detect prey with a range of echo-locating clicks, but converse with a vocabulary of squeaks, whistles and whines. Transients have only a few such calls, and all transient societies share the same ones. Residents have a much more extensive repertoire, and each family group has its own unique and distinctive set of calls. Despite regular interaction between them, each resident pod sticks firmly to its own dialect. Research shows these dialects are maintained for at least 40 years.</p><p><strong>E</strong>&nbsp;&nbsp; To qualify as part of killer whale culture, dialects must be learnt from other members of the pod. Animals with different dialects share the same waters, so the variation can't be a product of the physical environment. 'And we can throw out the notion that the dialects are inherited,' says Lance Barrett-Lennard of the University of British Columbia. He has spent the past seven years analysing DNA from 270 whales. His paternity tests reveal that female killer whales invariably attract mates from outside their own pod - males with a very different dialect. If dialects were programmed by genetics, call patterns from both father and mother would be passed on to the calf. 'A calf uses the calls of its maternal pod very precisely. There's no input from the father,' says Barrett-Lennard.</p><p><strong>F</strong>&nbsp;&nbsp; The question still remains is this culture? It is, according to Frans de Waal of Emory University in Atlanta, who argues that culture is just another biological adaptation that has evolved in many creatures. One benefit of viewing culture in this way is that you can start to understand how and why it might have arisen in these creatures. Whales have several biological attributes that give them an advantage in social learning. Apart from their advanced mental abilities, they are adept at recognising sounds: ideal for communicating in the marine environment. Many species spend years rearing their offspring, and live in small, stable, multi-generational societies, a social system that provides ample opportunity for teaching and learning.</p><p><strong>G</strong>&nbsp;&nbsp; But why have cetaceans evolved the ability to learn from other group members? Experts in whale biology believe that ecological factors and the need to adapt to sudden changes in the environment played a large part in the emergence of culture. Although the ocean is a relatively stable habitat in many ways, it is highly changeable in one crucial respect the availability of food. One moment there might be a plentiful supply of fish, the next they've disappeared. When that happens, the past experience of the senior members of the group and the ability to share this knowledge is a huge asset. The dialects of killer whales allow members of the group to identify each other, enabling them to share information about food hot spots. Among resident killer whales, it also allows females to avoid inbreeding by picking out a mate with a strange dialect from outside their pod, says Barrett-Lennard.</p><p><strong>H</strong>&nbsp;&nbsp; The importance of sharing information seems to have led to biological changes in at least some species of whale. Female killer whales, like humans, are very unusual in that they live up to a quarter of a century after they have had their last offspring. This only makes sense if they have something useful to give their descendants. And what whale matriarchs offer is the most important thing of all - cultural knowledge, vital for the group's survival, passed directly from one generation to the next.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 27–31</h3>Do the following statements agree with the information given in Reading Passage 3?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Resident killer whales appear to remain with their maternal group for life."
+              },
+              {
+                "number": 28,
+                "textHtml": "Resident killer whales have a more restricted range of calls than transients."
+              },
+              {
+                "number": 29,
+                "textHtml": "There is a vocabulary of sounds which is common to all transient killer whales."
+              },
+              {
+                "number": 30,
+                "textHtml": "Resident killer whales share the dialects of other resident communities living in the same waters."
+              },
+              {
+                "number": 31,
+                "textHtml": "The dialects of transient killer whales remain constant over time."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 32–34</h3>Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p>It has been observed that resident killer whales invariably live in fixed family groups, known as <strong>32</strong>&nbsp;{{32}}. Each of these has its own unique set of calls, despite close contact with other family groups. As the same areas of ocean contain many different groups with widely varying dialects, it is clear that these differences could not have emerged as a result of the whales' <strong>33</strong>&nbsp;{{33}}.</p><p>According to tests conducted by Lance Barrett-Lennard, a calf communicates exclusively with the dialect of the group to which its <strong>34</strong>&nbsp;{{34}} belongs. Barrett-Lennard also rejects the idea that the call patterns are inherited.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 35–37</h3>Choose <strong>THREE</strong> letters, <strong>A–F</strong>.<br>Which THREE of the following features of whales are mentioned in the passage?",
+            "selectCount": 3,
+            "questions": [
+              {
+                "number": 35,
+                "textHtml": "",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "<strong>A</strong>&nbsp; intelligence"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "<strong>B</strong>&nbsp; physical strength"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "<strong>C</strong>&nbsp; sensitivity to sound"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "<strong>D</strong>&nbsp; prolonged life span"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "<strong>E</strong>&nbsp; lengthy period of fertility"
+                  },
+                  {
+                    "letter": "F",
+                    "textHtml": "<strong>F</strong>&nbsp; adaptability to a variety of foods"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-4",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 38–40</h3>Reading Passage 3 has eight paragraphs, <strong>A–H</strong>.<br>Which paragraph contains the following information?",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 38,
+                "textHtml": "an example of the kind of information passed by whales to each other"
+              },
+              {
+                "number": 39,
+                "textHtml": "a reference to variations in communication styles between different cultures within one species"
+              },
+              {
+                "number": 40,
+                "textHtml": "ways in which the skills of whales are favourable for the development of culture"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "disease"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "political"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "richer"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "economy"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "museum"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "property"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "contact"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "consumption"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "pods"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "genetics"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "mother",
+          "maternal pod"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "F"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          35,
+          36,
+          37
+        ],
+        "accepted": [
+          "A",
+          "C",
+          "D"
+        ]
+      }
+    ]
+  }
+}

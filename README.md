@@ -277,13 +277,20 @@ Answer keys inside those files are JavaScript object literals, not JSON. They ar
 read with a small hand-written parser rather than `eval` or `node:vm`, because
 the source HTML is downloaded from third parties and must never be executed.
 
-Listening audio is embedded as a base64 `data:audio/mpeg` URL — 15–25 MB per
-file, which is why the listening HTML sources are gitignored rather than
-versioned (the reading HTML, being small, is kept). `npm run convert` decodes it
-to `_source-tests/<slug>.mp3`, and `npm run audio:upload -- --all --publish`
-ingests every extracted file and releases the tests. A listening test cannot be
-published without an uploaded audio file. Maps embedded the same way are written
-into `public/test-media/` and referenced by the test's JSON.
+Listening audio arrives one of two ways, and both are handled. Some tests embed
+it as a base64 `data:audio/mpeg` URL — 15–40 MB per file, which is why the
+listening HTML sources are gitignored rather than versioned (the reading HTML,
+being small, is kept); `npm run convert` decodes it to `_source-tests/<slug>.mp3`.
+Others hot-link it from an external host, which the converter records as
+`audioSourceUrl` in the JSON. Either way, `npm run audio:upload -- --all
+--publish` releases the whole library — it ingests a local `<slug>.mp3` where
+one exists and downloads from the recorded URL where it does not. A listening
+test cannot be published without an uploaded audio file. Maps embedded as base64
+are written into `public/test-media/` and referenced by the test's JSON.
+
+`npm run convert` reads the Volume from each filename ("… (Volume 2) …"), so a
+new Volume converts alongside the last — slugs are `reading-volume-2-test-7`,
+never a collision — rather than overwriting it.
 
 The writing and speaking tests have no adapter: they come from the official IELTS
 sample PDFs in `_source-tests/`, hand-authored into `content/tests/` the way the

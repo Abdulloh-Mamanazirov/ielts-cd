@@ -1,0 +1,700 @@
+{
+  "slug": "reading-volume-2-test-8",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 2, Test 8",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "The Iceman",
+        "passageHtml": "<p><strong>A</strong>&nbsp;&nbsp; It was late spring or early summer. The man hurried through a forest he knew well, wincing from the pain in his injured right hand and pausing occasionally to listen for sounds that he was being pursued. As he fled up the slope, the yellow pollen of the hornbeam blossoms fell like an invisible rain, salting the water and food he consumed when he stopped to rest. Five thousand years later, the Neolithic hunter we call the Iceman would still bear traces of this ancient dusting inside his body-a microscopic record of the time of year it was when he passed through this forest and into the nearby mountains, where fate would finally catch up with him.</p><p><strong>B</strong>&nbsp;&nbsp; Since hikers discovered his mummified corpse in 1991 in a rocky hollow high in the Otztal Alps on Italy's border with Austria, scientists have used ever more sophisticated tools and intellectual cunning to reconstruct the life and times of the Iceman, the oldest intact member of the human family. We know that he was a small, sinewy, and, for his times, rather elderly man in his mid-40s. Judging from the precious, copper-bladed ax found with him, we suspect that he was a person of considerable social significance. He set off on his journey wearing three layers of garments and sturdy shoes with bearskin soles. He was well equipped with a flint-tipped dagger, a little fire-starting kit, and a birchbark container holding embers wrapped in maple leaves. Yet he also headed into a harsh wilderness curiously under-armed: The arrows in his deerskin quiver were only half finished, as if he had recently fired all his munitions and was in the process of hastily replenishing them. And he was traveling with a long, roughly shaped stalk of yew-an unfinished longbow, yet to be notched and strung. Why?</p><p><strong>C</strong>&nbsp;&nbsp; When it comes to the Iceman, there has never been a shortage of questions, or theories to answer them. During the 16 years that scientists have poked, prodded, incised, and x-rayed his body, they have dressed him up in speculations that have not worn nearly as well as his rustic garments. At one time or another, he has been mistakenly described as a lost shepherd, a shaman, a victim of ritual sacrifice, and even a vegan. But all these theories fade in the face of the most startling new fact scientists have learned about the Iceman. Although we still don't know exactly what happened up there on that alpine ridge, we now know that he was murdered, and died very quickly, in the rocky hollow where his body was found.</p><p><strong>D</strong>&nbsp;&nbsp; \"Even five years ago, the story was that he fled up there and walked around in the snow and probably died of exposure,\" said Klaus Oeggl, an archaeobotanist at the University of Innsbruck. \"Now it's all changed. It's more like a paleo crime scene.\"</p><p><strong>E</strong>&nbsp;&nbsp; The object of all this intense scientific attention is a freeze-dried slab of human jerky, which since 1998 has resided in a refrigerated, high-tech chamber in the South Tyrol Museum of Archaeology in Bolzano, Italy. The temptation to conduct fresh experiments on the body rises with every new twist of technology, each revealing uncannily precise details about his life. Using a sophisticated analysis of isotopes in one of the Iceman's teeth, for example, scientists led by Wolfgang Muller (now at the Royal Holloway, University of London) have shown that he probably grew up in the Valle Isarco, an extensive north-south valley that includes the modern-day town of Bressanone. Isotope levels in his bones, meanwhile, match those in the soil and water of two alpine valleys farther west, the Val Senales and the Val Venosta. Muller's team has also analyzed microscopic chips of mica recovered from the Iceman's intestines, which were probably ingested accidentally in food made from stone-ground grain; geologic ages of the mica best match a small area limited to the lower Val Venosta. The Iceman probably set off on his final journey from this very area, near where the modern-day Adige and Senales Rivers meet.</p><p><strong>F</strong>&nbsp;&nbsp; We also know that he was not in good health when he headed up into the mountains. The one surviving fingernail recovered from his remains suggests that he suffered three episodes of significant disease during the last six months of life, the last bout only two months prior to his death. Doctors inspecting the contents of his intestines have found eggs of the whipworm parasite, so he may well have suffered from stomach distress. But he was not too sick to eat. In 2002, Franco Rollo and colleagues at the University of Camerino in Italy analyzed tiny amounts of food residue from the mummy's intestines. A day or two before his death, the Iceman had eaten a piece of wild goat and some plant food.</p><p><strong>G</strong>&nbsp;&nbsp; Archaeobotanists have used equally clever analyses of pollen and plant fragments to plot the Iceman's last movements. James Dickson of the University of Glasgow has identified no less than 80 distinct species of mosses and liverworts in, on, or near the Iceman's body. The most prominent moss, Neckera complanata, still grows at several sites in the valleys to the south, in some cases quite near known prehistoric sites. According to Dickson, a clot of stems found in the Iceman's possession suggests he was probably using the moss to wrap food, although other ancient peoples used similar mosses as toilet paper.</p><p><strong>H</strong>&nbsp;&nbsp; Taken together, the evidence strongly indicates that the Iceman's last journey began in the low-altitude deciduous forests to the south, in the springtime when the hop hornbeams were in bloom. But it may not have been a straight hike into the mountains. Oeggl has also found traces of pine pollen in the Iceman's digestive tract, both above and below the hornbeam pollen. This suggests that he may have climbed to a higher altitude where pine trees grow in mixed coniferous forests, then descended to the lower altitude of the hop hornbeams, and finally ascended again into the pine forests in his last day or two. Why? No one knows. But perhaps he wanted to avoid the steep, thickly wooded gorge of the lower Val Senales-especially if he was in a hurry.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 1–5</h3>Reading Passage 1 has eight paragraphs, <strong>A–H</strong>.<br>Which paragraph contains the following information?",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "the last area in which the iceman might live and stay."
+              },
+              {
+                "number": 2,
+                "textHtml": "a mass of special plant was discovered and used to analyze the iceman's movements."
+              },
+              {
+                "number": 3,
+                "textHtml": "a scientist analyzes the iceman's last hike depending on pollen."
+              },
+              {
+                "number": 4,
+                "textHtml": "the time and area the iceman was found."
+              },
+              {
+                "number": 5,
+                "textHtml": "the iceman's body had been out of condition for months before his death."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 6–9</h3>Do the following statements agree with the information in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 6,
+                "textHtml": "According to the author, there must be another complete human corpse older than the iceman."
+              },
+              {
+                "number": 7,
+                "textHtml": "The iceman might be the leader of his society, and he was very rich."
+              },
+              {
+                "number": 8,
+                "textHtml": "Scientists guessed the iceman's information perfectly, and finally got the real cause of his death."
+              },
+              {
+                "number": 9,
+                "textHtml": "By testing the iceman's body, we know where he came from."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 10–13</h3>Complete the sentences below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>10.</strong>&nbsp; The iceman has been placed in a <strong>10</strong>&nbsp;{{10}} room since 1998.</p><p><strong>11.</strong>&nbsp; The iceman might get <strong>11</strong>&nbsp;{{11}} for eggs of the whipworm parasite were found in his gut.</p><p><strong>12.</strong>&nbsp; There are a variety of mosses and liverworts found around the iceman such as <strong>12</strong>&nbsp;{{12}}.</p><p><strong>13.</strong>&nbsp; The route of the iceman's last movement might not be <strong>13</strong>&nbsp;{{13}}.</p></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Twin Study: Two of a Kind",
+        "passageHtml": "<p><strong>A</strong>&nbsp;&nbsp; THE scientific study of twins goes back to the late 19th century, when Francis Galton, an early geneticist, realized that they came in two varieties: identical twins born from one egg and non-identical twins that had come from two. That insight turned out to be key, although it was not until 1924 that it was used to formulate what is known as the twin rule of pathology, and twin studies really got going.</p><p><strong>B</strong>&nbsp;&nbsp; The twin rule of pathology states that any heritable disease will be more concordant (that is, more likely to be jointly present or absent) in identical twins than in non-identical twins-and, in turn, will be more concordant in non-identical twins than in non-siblings. Early work, for example, showed that the statistical correlation of skin-mole counts between identical twins was 0.4, while non-identical twins had a correlation of only 0.2. (A score of 1.0 implies perfect correlation, while a score of zero implies no correlation.) This result suggests that moles are heritable, but it also implies that there is an environmental component to the development of moles, otherwise the correlation in identical twins would be close to 1.0.</p><p><strong>C</strong>&nbsp;&nbsp; Twin research has shown that whether or not someone takes up smoking is determined mainly by environmental factors, but once he does so, how much he smokes is largely down to his genes. And while a person's religion is clearly a cultural attribute, there is a strong genetic component to religious fundamentalism. Twin studies are also unraveling the heritability of various aspects of human personality. Traits from neuroticism and anxiety to thrill- and novelty-seeking all have large genetic components. Parenting matters, but it does not determine personality in the way that some had thought.</p><p><strong>D</strong>&nbsp;&nbsp; More importantly, perhaps, twin studies are helping the understanding of diseases such as cancer, asthma, osteoporosis, arthritis and immune disorders. And twins can be used, within ethical limits, for medical experiments. A study that administered vitamin C to one twin and a placebo to the other found that it had no effect on the common cold. The lesson from all today's twin studies is that most human traits are at least partially influenced by genes. However, for the most part, the age-old dichotomy between nature and nurture is not very useful. Many genetic programs are open to input from the environment, and genes are frequently switched on or off by environmental signals. It is also possible that genes themselves influence their environment. Some humans have an innate preference for participation in sports. Others are drawn to novelty. Might people also be drawn to certain kinds of friends and types of experience? In this way, a person's genes might shape the environment they act in as much as the environment shapes the actions of the genes.</p><p><strong>E</strong>&nbsp;&nbsp; In the past, such research has been controversial. Josef Mengele, a Nazi doctor working at the Auschwitz extermination camp during the second world war, was fascinated by twins. He sought them out among arrivals at the camp and preserved them from the gas-chambers for a series of brutal experiments. After the war, Cyril Burt, a British psychologist who worked on the heredity of intelligence, tainted twin research with results that appear, in retrospect, to have been rather too good. Some of his data on identical twins who had been reared apart were probably faked. In any case, the prevailing ideology in the social sciences after the war was Marxist, and disliked suggestions that differences in human potential might have underlying genetic causes. Twin studies were thus viewed with suspicion.</p><p><strong>F</strong>&nbsp;&nbsp; The ideological pendulum has swung back; however, as the human genome project and its aftermath have turned genes from abstract concepts to real pieces of DNA. The role of genes in sensitive areas such as intelligence is acknowledged by all but a few die-hards. The interesting questions now concern how nature and nurture interact to produce particular bits of biology, rather than which of the two is more important. Twin studies, which are a good way to ask these questions, are back in fashion, and many twins are enthusiastic participants in this research.</p><p><strong>G</strong>&nbsp;&nbsp; Research at the Twinsburg festival began in a small way, with a single stand in 1979. Gradually, news spread, and more scientists began turning up. This year, half a dozen groups of researchers were lodged in a specially pitched research tent. In one corner of this tent, Paul Breslin, who works at the Monell Institute in Philadelphia, watched over several tables where twins sat sipping clear liquids from cups and making notes. It was the team's third year at Twinsburg. Dr. Breslin and his colleagues want to find out how genes influence human perception, particularly the senses of smell and taste and those (warmth, cold, pain, tingle, itch and so on) that result from stimulation of the skin. Perception is an example of something that is probably influenced by both genes and experience. Even before birth, people are exposed to flavors such as chocolate, garlic, mint and vanilla that pass intact into the bloodstream, and thus to the fetus. Though it is not yet clear whether such pre-natal exposure shapes taste-perception, there is evidence that it shapes preferences for foods encountered later in life.</p><p><strong>H</strong>&nbsp;&nbsp; However, there are clearly genetic influences at work, as well-for example in the ability to taste quinine. Some people experience this as intensely bitter, even when it is present at very low levels. Others, whose genetic endowment is different, are less bothered by it. Twin studies make this extremely clear. Within a pair of identical twins, either both, or neither, will find quinine hard to swallow. Non-identical twins will agree less frequently.</p><p><strong>I</strong>&nbsp;&nbsp; On the other side of the tent Dennis Drayna, from the National Institute on Deafness and Other Communication Disorders, in Maryland, was studying hearing. He wants to know what happens to sounds after they reach the ear. It is not clear, he says, whether sound is processed into sensation mostly in the ear or in the brain. Dr. Drayna has already been involved in a twin study which revealed that the perception of musical pitch is highly heritable. At Twinsburg, he is playing different words, or parts of words, into the left and right ears of his twinned volunteers. The composite of the two sounds that an individual reports hearing depends on how he processes this diverse information and that, Dr. Drayna believes, may well be influenced by genetics.</p><p><strong>J</strong>&nbsp;&nbsp; Elsewhere in the marquee, Peter Miraldi, of Kent State University in Ohio, was trying to find out whether genes affect an individual's motivation to communicate with others. A number of twin studies have shown that personality and sociability are heritable, so he thinks this is fertile ground. And next to Mr. Miraldi was a team of dermatologists from Case Western Reserve University in Cleveland. They are looking at the development of skin diseases and male-pattern baldness. The goal of the latter piece of research is to find the genes responsible for making men's hair fall out.</p><p><strong>K</strong>&nbsp;&nbsp; The busiest part of the tent, however, was the queue for forensic science research into fingerprints. The origins of this study are shrouded in mystery. For many months, the festival's organizers have been convinced that the Secret Service-the American government agency responsible for, among other things, the safety of the president-is behind it. When The Economist contacted the Secret Service for more information, we were referred to Steve Nash, who is chairman of the International Association for Identification (IAI), and is also a detective in the scientific investigations section of the Marin County Sheriff's Office in California. The IAI, based in Minnesota, is an organization of forensic scientists from around the world. Among other things, it publishes the Journal of Forensic Identification.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–18</h3>Reading Passage 2 has eleven paragraphs, <strong>A–K</strong>.<br>Which paragraph contains the following information?",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              },
+              {
+                "letter": "J",
+                "textHtml": "J"
+              },
+              {
+                "letter": "K",
+                "textHtml": "K"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Mentioned research conducted in Ohio"
+              },
+              {
+                "number": 15,
+                "textHtml": "Medical contribution to the researches for twins."
+              },
+              {
+                "number": 16,
+                "textHtml": "Research situation under life threatening conditions"
+              },
+              {
+                "number": 17,
+                "textHtml": "Data of similarities of identical twins"
+              },
+              {
+                "number": 18,
+                "textHtml": "Reasons that make one study unconvincing"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 19 and 20</h3>Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p>The first one that conducted research on twins is called <strong>19</strong>&nbsp;{{19}}. He separated twins into two categories: non-identical and identical twins. The twin research was used in medical application in as early as the year of <strong>20</strong>&nbsp;{{20}}.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 21–23</h3>Choose <strong>THREE</strong> research fields that had been carried out in Ohio, Maryland and Twinsburgh.",
+            "selectCount": 3,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "<strong>A</strong>&nbsp; Sense"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "<strong>B</strong>&nbsp; Cancer"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "<strong>C</strong>&nbsp; Be allergic to Vitamin D"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "<strong>D</strong>&nbsp; Mole heredity"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "<strong>E</strong>&nbsp; Sound"
+                  },
+                  {
+                    "letter": "F",
+                    "textHtml": "<strong>F</strong>&nbsp; Boldness of men"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-4",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 24–26</h3>Choose <strong>THREE</strong> results that had been verified in this passage.",
+            "selectCount": 3,
+            "questions": [
+              {
+                "number": 24,
+                "textHtml": "",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "<strong>A</strong>&nbsp; Non-identical twins come from different eggs"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "<strong>B</strong>&nbsp; Genetic relation between identical twins is closer than non-identical ones."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "<strong>C</strong>&nbsp; Vitamin C has evident effect on a cold."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "<strong>D</strong>&nbsp; Genetic influence to smoking is superior to environment's"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "<strong>E</strong>&nbsp; If a pregnant woman eats too much sweet would lead to skin disease."
+                  },
+                  {
+                    "letter": "F",
+                    "textHtml": "<strong>F</strong>&nbsp; Hair loss has been found to be connected with skin problem."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "The Origin of Ancient Writing",
+        "passageHtml": "<p><strong>A</strong>&nbsp;&nbsp; The Sumerians, an ancient people of the Middle East, had a story explaining the invention of writing more than 5,000 years ago. It seems a messenger of the King of Uruk arrived at the court of a distant ruler so exhausted that he was unable to deliver the oracle message. So the king set down the words of his next messages on a clay tablet. A charming story, whose retelling at a recent symposium at the University of Pennsylvania amused scholar. They smiled at the absurdity of a letter which the recipient would not have been able to read.</p><p><strong>B</strong>&nbsp;&nbsp; They also doubted that the earliest writing was a direct rendering of speech. Writing more likely began as a separate, symbolic system of communication and only later merged with spoken language.</p><p><strong>C</strong>&nbsp;&nbsp; Yet in the story the Sumerians, who lived in Mesopotamia, in what is now southern Iraq, seemed to understand writing's transforming function. As Dr. Holly Pittman, director of the University's Center for Ancient Studies, observed, writing 'arose out of the need to store and transmit information ...over time and space'.</p><p><strong>D</strong>&nbsp;&nbsp; In exchanging interpretations and information, the scholars acknowledged that they still had no fully satisfying answers to the questions of how and why writing developed. Many favored an explanation of writing's origins in the visual arts, pictures becoming increasingly abstract and eventually representing spoken words. Their views clashed with a widely held theory among archaeologists that writing developed from the pieces of clay that Sumerian accountants used as tokens to keep track of goods.</p><p><strong>E</strong>&nbsp;&nbsp; Archaeologists generally concede that they have no definitive answer to the question of whether writing was invented only once, or arose independently in several places, such as Egypt, the Indus Valley, China, Mexico and Central America. The preponderance of archaeological data shows that the urbanizing Sumerians were the first to develop writing, in 3,200 or 3,300 BC. These are the dates for many clay tablets in an early form of cuneiform, a script written by pressing the end of a sharpened stick into wet clay, found at the site of the ancient city of Uruk. The baked clay tablets bore such images as pictorial symbols of the names of people, places and things connected with government and commerce. The Sumerian script gradually evolved from the pictorial to the abstract, but did not at first represent recorded spoken language.</p><p><strong>F</strong>&nbsp;&nbsp; Dr. Peter Damerow, a specialist in Sumerian cuneiform at the Max Planck Institute for the History of Science in Berlin, said, 'It is likely that there were mutual influences of writing systems around the world. However, their great variety now shows that the development of writing, once initiated, attains a considerable degree of independence and flexibility to adapt to specific characteristics of the sounds of the language to be represented. Not that he accepts the conventional view that writing started as a representation of words by pictures. New studies of early Sumerian writing, he said, challenge this interpretation. The structures of this earliest writing did not, for example, match the structure of spoken language, dealing mainly in lists and categories rather than in sentences and narrative.</p><p><strong>G</strong>&nbsp;&nbsp; For at least two decades, Dr. Denise Schmandt-Besserat, a University of Texas archaeologist, has argued that the first writing grew directly out of a system practised by Sumerian accountants. They used clay tokens, each one shaped to represent a jar of oil, a container of grain or a particular kind of livestock. These tokens were sealed inside clay spheres, and then the number and type of tokens inside was recorded on the outside using impressions resembling the tokens. Eventually, the token impressions were replaced with inscribed signs, and writing had been invented.</p><p><strong>H</strong>&nbsp;&nbsp; Though Dr. Schmandt-Besserat has won much support, some linguists question her thesis, and others, like Dr. Pittman, think it too narrow. They emphasize that pictorial representation and writing evolved together. 'There's no question that the token system is a forerunner of writing', Dr. Pittman said, 'but I have an argument with her evidence for a link between tokens and signs, and she doesn't open up the process to include picture making.</p><p><strong>I</strong>&nbsp;&nbsp; Dr. Schmandt-Besserat vigorously defended her ideas. 'My colleagues say that pictures were the beginning of writing' she said, 'but show me a single picture that becomes a sign in writing. They say that designs on pottery were the beginning of writing, but show me a single sign of writing you can trace back to a pot it doesn't exist'. In its first 500 years, she asserted, cuneiform writing was used almost solely for recording economic information, and after that its uses multiplied and broadened.</p><p><strong>J</strong>&nbsp;&nbsp; Yet other scholars have advanced different ideas. Dr. Piotr Michalowski, Professor of Near East Civilizations at the University of Michigan, said that the proto-writing of Sumerian Uruk was 'so radically different as to be a complete break with the past'. It no doubt served, he said, to store and communicate information, but also became a new instrument of power. Some scholars noted that the origins of writing may not always have been in economics. In Egypt, most early writing is high on monuments or deep in tombs. In this case, said Dr. Pascal Vernus from a university in Paris, early writing was less administrative than sacred. It seems that the only certainty in this field is that many questions remain to be answered.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–30</h3>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "The researchers at the symposium regarded the story of the King of Uruk as ridiculous because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; writing probably developed independently of speech."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; clay tablets had not been invented at that time."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; the distant ruler would have spoken another language."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; evidence of writing has been discovered from an earlier period."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "According to the writer, the story of the King of Uruk",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; is a probable explanation of the origins of writing."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; proves that early writing had a different function to writing today."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; provides an example of symbolic writing."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; shows some awareness amongst Sumerians of the purpose of writing."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "There was disagreement among the researchers at the symposium about",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; the area where writing began."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; the nature of early writing materials."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; the way writing began."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; the meaning of certain abstract images."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "The opponents of the theory that writing developed from tokens believe that it",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; grew out of accountancy."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; evolved from pictures."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; was initially intended as decoration."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; was unlikely to have been connected with commerce."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 31–36</h3>Look at the following statements (Questions 31–36) and the list of people below. Match each statement with the correct person, <strong>A–E</strong>.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Dr. Holly Pittman"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Dr. Peter Damerow"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Dr. Denise Schmandt-Besserat"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Dr. Piotr Michalowski"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Dr. Pascal Vernus"
+              }
+            ],
+            "questions": [
+              {
+                "number": 31,
+                "textHtml": "There is no proof that early writing is connected to decorated household objects."
+              },
+              {
+                "number": 32,
+                "textHtml": "As writing developed, it came to represent speech."
+              },
+              {
+                "number": 33,
+                "textHtml": "Sumerian writing developed into a means of political control."
+              },
+              {
+                "number": 34,
+                "textHtml": "Early writing did not represent the grammatical features of speech."
+              },
+              {
+                "number": 35,
+                "textHtml": "There is no convincing proof that tokens and signs are connected."
+              },
+              {
+                "number": 36,
+                "textHtml": "The uses of cuneiform writing were narrow at first, and later widened."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 37–40</h3>Complete the summary using the list of words, <strong>A–M</strong>, below.",
+            "selectCount": 1,
+            "bodyHtml": "<p>Drag a word into each gap (or tap a word, then tap a gap). Tap × to clear.</p><div><p><strong>The earliest form of writing</strong></p><p>Most archaeological evidence shows that the people of {{37}} invented writing in around 3,300 BC. Their script was written on {{38}} and was called {{39}}. Their script originally showed images related to political power and business, and later developed to become more {{40}}.</p></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "cuneiform"
+              },
+              {
+                "letter": "B",
+                "textHtml": "pictorial"
+              },
+              {
+                "letter": "C",
+                "textHtml": "tomb walls"
+              },
+              {
+                "letter": "D",
+                "textHtml": "urban"
+              },
+              {
+                "letter": "E",
+                "textHtml": "legible"
+              },
+              {
+                "letter": "F",
+                "textHtml": "stone blocks"
+              },
+              {
+                "letter": "G",
+                "textHtml": "simple"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Mesopotamia"
+              },
+              {
+                "letter": "I",
+                "textHtml": "abstract"
+              },
+              {
+                "letter": "J",
+                "textHtml": "papyrus sheets"
+              },
+              {
+                "letter": "K",
+                "textHtml": "decorative"
+              },
+              {
+                "letter": "L",
+                "textHtml": "clay tablets"
+              },
+              {
+                "letter": "M",
+                "textHtml": "Egypt"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "refrigerated high-tech",
+          "refrigerated, high-tech"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "stomach distress"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "neckera complanata"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "straight"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "J"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "francis galton"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "1924"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "L"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "I"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22,
+          23
+        ],
+        "accepted": [
+          "A",
+          "E",
+          "F"
+        ]
+      },
+      {
+        "questions": [
+          24,
+          25,
+          26
+        ],
+        "accepted": [
+          "A",
+          "B",
+          "D"
+        ]
+      }
+    ]
+  }
+}

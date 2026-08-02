@@ -1,0 +1,631 @@
+{
+  "slug": "listening-volume-2-test-8",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-22m-22s-audio-joiner.com-1/mix_22m22s%20(audio-joiner.com)%20(1).mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 2, Test 8",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Wildlife Conservation Society — Application for membership</div><p>Caller's name: Michael Jones</p><p>Heard of WCS from: {{1}}</p><p>Address: 21 Beale Street, Leeds</p><p>Postcode: {{2}}</p><p>Phone number: 0117358642</p><p>Email address: {{3}}</p><p>Length of membership: {{4}} years</p><p>Type of membership: {{5}}</p><p>Fee: £{{6}}</p><p>Payment details</p><p>Payment method: direct debit</p><p>Name of bank: {{7}}</p><p>Account name: Michael Jones &nbsp;·&nbsp; Account number: 01059612</p><p>Date of first payment: {{8}}</p><p>Reference number: {{9}}</p><p>Other requests: extra information pack, {{10}}</p></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16 <span style=\"font-weight:400;\">(Moving Office)</span></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What reason does the manager give for moving to a new office building?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to have more space"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to pay less rent"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to be in a central location"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What is best about the new office building?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the air-conditioning system"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the amount of natural light"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the low level of noise"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;When will the office move take place?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "after the sales conference"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "after the end of the tax year"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "after the annual holiday period"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What information about the new location is already on the company website?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "where to park"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "places to eat"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "public transport"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What practical thing must staff do now?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "give details of damaged furniture"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "throw away unnecessary papers"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "take home personal items"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;Staff will need to put folders containing confidential details",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "into packing boxes"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "into grey plastic bags"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "into new filing cabinets"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 17 and 18</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which <strong>TWO</strong> things do people often forget when lifting heavy things?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "keep your head up"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "do not bend your back"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "do not lean to one side"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "use handles"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "stand with feet apart"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 19 and 20</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> things should staff do when moving papers?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "wear a face mask"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "open windows"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "wear gloves"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "take frequent breaks"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "drink plenty of water"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25 <span style=\"font-weight:400;\">(The artist Samuel Prout)</span></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;According to Jack, why did Samuel Prout never become very famous?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "His output was very limited"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He was seen as old-fashioned."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "His work never had a major exhibition"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Dr Rubin and Jack agree that many of Prout's problems were caused by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "poor health"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "jealous colleagues"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "an unhappy marriage"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;How did Prout learn to paint?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "His father taught him."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He went to art school."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He copied pictures."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What point does Jack make about Prout's style?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Prout used different styles simultaneously"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Many other artists had a similar style"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Prout's style developed throughout his career"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;What did John Ruskin admire about Prout's paintings?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "their realism"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "their representation of buildings"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "their wide range of subject matter"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "one of several paintings of the same view"
+              },
+              {
+                "letter": "B",
+                "textHtml": "probably an inaccurate title"
+              },
+              {
+                "letter": "C",
+                "textHtml": "may not be genuine"
+              },
+              {
+                "letter": "D",
+                "textHtml": "was never finished"
+              },
+              {
+                "letter": "E",
+                "textHtml": "typical subject matter for Prout"
+              },
+              {
+                "letter": "F",
+                "textHtml": "skilful painting of light and dark"
+              },
+              {
+                "letter": "G",
+                "textHtml": "shows an event that never took place"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "A view in Germany: at Würzburg"
+              },
+              {
+                "number": 27,
+                "textHtml": "Bridge on the Ouse, near York"
+              },
+              {
+                "number": 28,
+                "textHtml": "Woodland Scene"
+              },
+              {
+                "number": 29,
+                "textHtml": "Venice"
+              },
+              {
+                "number": 30,
+                "textHtml": "Entrance to a harbour"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–36</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Solar water purifier (SW40)</div><ul><li><strong>31</strong> &nbsp;High levels of {{31}} make bore water unsafe to drink.</li><li><strong>32</strong> &nbsp;The SW40 produces water so pure it can be used in {{32}}.</li><li><strong>33</strong> &nbsp;One problem with the present production method is that it is quite {{33}}.</li><li><strong>34</strong> &nbsp;The speaker hopes to get financial support from an agency called {{34}}.</li><li><strong>35</strong> &nbsp;The SW40 has a maximum output of {{35}}.</li><li><strong>36</strong> &nbsp;Each SW40 produces enough water for a {{36}} on a sunny day.</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 37–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Label the diagram below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Cross-section of the SW40 solar water purifier</div><ul><li>lid made of {{37}}</li><li>best inclined at an angle of {{38}}</li><li>UV light destroys {{39}}</li><li>water {{40}} containing pure water</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "radio"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "ls142jw",
+          "ls14 2jw"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "hennings.co.uk"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "2",
+          "two"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "joint"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "49",
+          "forty nine",
+          "forty-nine"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "the union bank",
+          "union bank"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "15 october",
+          "15th october",
+          "october 15",
+          "october 15th",
+          "15th of october"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "jyz37"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "video"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "salts",
+          "salt"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "hospitals",
+          "hospital"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "slow"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "health international"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "9 litres",
+          "9 liters",
+          "9",
+          "nine litres",
+          "nine liters"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "family"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "glass"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "12.5",
+          "12.5 degrees"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "germs",
+          "germ"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "collection tank"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "C",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "C",
+          "E"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,639 @@
+{
+  "slug": "listening-volume-2-test-4",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/v-2-t-4/V2%20T4%20.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 2, Test 4",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–4</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Apartments in Arillas</div><table class=\"q-table\"><tbody><tr><th>Apartments</th><th>Parking</th><th>Additional information</th></tr><tr><td>Rose Garden Apartments</td><td><em>Example:</em> free parking lot</td><td>a large {{1}}</td></tr><tr><td>Blue Bay</td><td>no parking lot</td><td>man-made lake, no {{2}}</td></tr><tr><td>Sunshade Apartments</td><td>huge parking lot</td><td>no {{3}} in the room</td></tr><tr><td>Grand Apartments</td><td>no charge on street</td><td>most guests are {{4}}</td></tr></tbody></table></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 5–7</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><ul><li><strong>5</strong> &nbsp;What colour is the bus that the woman should take? &nbsp;{{5}}</li><li><strong>6</strong> &nbsp;How long is the ferry boat trip? &nbsp;{{6}}</li><li><strong>7</strong> &nbsp;Where is the Bike Hire? &nbsp;{{7}}</li></ul></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-1-group-3",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 8–10</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Earth science"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Astronomy science"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Modern industrial history"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Decoration and art"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Soft drink manufacturing"
+              }
+            ],
+            "questions": [
+              {
+                "number": 8,
+                "textHtml": "Museum 1"
+              },
+              {
+                "number": 9,
+                "textHtml": "Museum 2"
+              },
+              {
+                "number": 10,
+                "textHtml": "Museum 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What is the speaker's profession?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a travel agent"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "an actor"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a journalist"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;Why does he love travelling?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He watched documentaries as a child."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He is influenced by his parents' passion."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "His parents are geographers."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;When was the first British ski resort established?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "1920s"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "1930s"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "1960s"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;Which activity is offered by a school in the other town?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "skydiving"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "playing golf"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "visiting a brewery"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What does the speaker recommend in the Edimore region?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a hot spring"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a museum"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a local market"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;What programme will be available soon?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Landscape of the UK"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Mountain Walking in Europe"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Wildlife around the World"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 17–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A well-known ski school"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Suitable for beginners"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Olympics champion training location"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Would-be Olympics rink"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Good ski facilities"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Popular for many years"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Childcare provided"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Lakeside"
+              },
+              {
+                "number": 18,
+                "textHtml": "Petersburg"
+              },
+              {
+                "number": 19,
+                "textHtml": "Winterton"
+              },
+              {
+                "number": 20,
+                "textHtml": "Al slops"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;How old are the students of the nursing programme?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "they are teenagers."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "they are in their twenties."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "they belong to different age groups."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What does the speaker say about the group project?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it helps to improve relationships among classmates."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it helps to develop problem-solving skills."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it provides a supportive learning environment."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Which part of the programme surprised Paul?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "there is a number of essays to write."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "there is a lot of practical work."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "there is an internship provided."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What do they feel about learning law?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it is essential training."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it is too theoretical."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it takes up too much time."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "get feedback from teaching staff"
+              },
+              {
+                "letter": "B",
+                "textHtml": "do more reading"
+              },
+              {
+                "letter": "C",
+                "textHtml": "get help from school supporting staff"
+              },
+              {
+                "letter": "D",
+                "textHtml": "get help for a nursing problem"
+              },
+              {
+                "letter": "E",
+                "textHtml": "manage time properly"
+              },
+              {
+                "letter": "F",
+                "textHtml": "be well prepared"
+              },
+              {
+                "letter": "G",
+                "textHtml": "review the notes regularly"
+              },
+              {
+                "letter": "H",
+                "textHtml": "don't set unrealistic goals"
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Essays"
+              },
+              {
+                "number": 26,
+                "textHtml": "Lectures"
+              },
+              {
+                "number": 27,
+                "textHtml": "Research"
+              },
+              {
+                "number": 28,
+                "textHtml": "Online forum"
+              },
+              {
+                "number": 29,
+                "textHtml": "Placement tests"
+              },
+              {
+                "number": 30,
+                "textHtml": "Freshmen"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>How Dinner Affects the Environment</div><p>Food industry</p><ul><li><strong>31</strong> &nbsp;The CO₂ from producing our daily meals is about the same as that from {{31}}.</li><li><strong>32</strong> &nbsp;Making 100 g of {{32}} beans can result in 140 g of CO₂.</li><li><strong>33</strong> &nbsp;The {{33}} production process contributes to climate-warming emissions.</li><li><strong>34</strong> &nbsp;Scientists are working on reducing the impact of the {{34}} process.</li><li><strong>35</strong> &nbsp;Packaging needs {{35}}, as well as water and other resources, to produce.</li><li><strong>36</strong> &nbsp;Long-distance {{36}} leads to more pollution.</li><li><strong>37</strong> &nbsp;Due to the damage of {{37}}, the total amount of CO₂ increases greatly.</li></ul><p>Agriculture</p><ul><li><strong>38</strong> &nbsp;Livestock are kept on farms or on a {{38}} in different parts of the world.</li><li><strong>39</strong> &nbsp;In animal agriculture, {{39}} is required constantly.</li><li><strong>40</strong> &nbsp;Some agricultural activities, like {{40}}, are unlikely to be changed.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "swimming pool",
+          "pool"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "lift",
+          "elevator"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "kitchen"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "children",
+          "kids"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "green"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "50 minutes",
+          "fifty minutes",
+          "50"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "behind the mall",
+          "behind mall"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "driving"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "coffee"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "meat"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "cooking"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "energy"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "transportation",
+          "transport"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "forests",
+          "forest"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "mountain"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "food"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "fishing"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

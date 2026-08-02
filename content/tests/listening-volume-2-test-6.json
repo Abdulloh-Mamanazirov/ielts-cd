@@ -1,0 +1,597 @@
+{
+  "slug": "listening-volume-2-test-6",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-23m-41s-audio-joiner.com_202606/mix_23m41s%20(audio-joiner.com).mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 2, Test 6",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 1–4</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "&nbsp;Why does she call this doctor?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He is popular among overseas students."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The advertisement says he is excellent."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She heard that he was a good doctor."
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "textHtml": "&nbsp;How does the sickness affect the woman?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It interrupts work."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It keeps her awake at night."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It makes her feel anxious."
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "textHtml": "&nbsp;What does the doctor want to know?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how long she has suffered from the problem"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "whether she has suffered headaches before"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "what caused the headache"
+                  }
+                ]
+              },
+              {
+                "number": 4,
+                "textHtml": "&nbsp;What does the doctor suggest doing first?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "taking some medicine"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "having an optic examination"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "wearing glasses when using a computer"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 5 and 6</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><p>In order to get to the optic examination centre, she should:</p><ul><li><strong>5</strong> &nbsp;Take a turn at the {{5}}.</li><li><strong>6</strong> &nbsp;Then turn left at the {{6}} crossroad.</li></ul></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-1-group-3",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 7–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Personal information</div><p>Name: Anu Bhatt</p><p>Address: {{7}} Road</p><p>Postcode: {{8}}</p><p>Family medical history</p><p>Both of her parents have {{9}}</p><p>Other information</p><p>Medicine allergy: {{10}}</p></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Student service office"
+              },
+              {
+                "number": 12,
+                "textHtml": "Stadium"
+              },
+              {
+                "number": 13,
+                "textHtml": "Health centre"
+              },
+              {
+                "number": 14,
+                "textHtml": "International student office"
+              },
+              {
+                "number": 15,
+                "textHtml": "Accommodation office"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer. (On-campus Accommodation)</p><div><ul><li><strong>16</strong> &nbsp;Each student has his or her own {{16}}.</li><li><strong>17</strong> &nbsp;Laundry facilities are situated in the {{17}} of each dormitory.</li><li><strong>18</strong> &nbsp;Most {{18}} are named.</li><li><strong>19</strong> &nbsp;An {{19}} is needed to go into the dormitory.</li><li><strong>20</strong> &nbsp;Electric appliances should be turned off after {{20}}.</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Why did Natasha decide to write the report?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to get extra credits"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to help her decide on a course"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to practise report-writing"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;How does Mr White advise Natasha to improve her report?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "She should include some more details."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "She should take advantage of report templates."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She should revise the introduction."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;How did Natasha choose the field trip site?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "She chose a difficult place to get to."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "She selected one that was recommended."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She chose one at random."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Natasha's main aim in going on the field trip was to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "apply some of the techniques she learned in class."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "measure the density of grasses in the area."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "analyse the soil content of sand dunes."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;Why did Natasha include data from other students?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to make her result more reliable"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to compare her data with other data"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to make her report more complete"
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;How did Natasha produce such a detailed map?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "She made careful observations."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "She took some photographs first."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She copied relevant material."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "inadequately developed"
+              },
+              {
+                "letter": "B",
+                "textHtml": "time-consuming"
+              },
+              {
+                "letter": "C",
+                "textHtml": "redundant"
+              },
+              {
+                "letter": "D",
+                "textHtml": "poorly organised"
+              },
+              {
+                "letter": "E",
+                "textHtml": "too complicated"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "The test kit"
+              },
+              {
+                "number": 28,
+                "textHtml": "Data collecting sheet"
+              },
+              {
+                "number": 29,
+                "textHtml": "Literature Review"
+              },
+              {
+                "number": 30,
+                "textHtml": "Interviews"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>How Surtsey was formed</div><ul><li>In 1963 the activity from an underwater {{31}} started to form an island.</li><li>Fishermen saw {{32}} coming up out of the sea.</li></ul><p>What scientists found in the early days</p><ul><li>The first plant life was a type of {{33}}.</li><li>The first sign of animal life found was a fly.</li><li>Scientists were surprised by the widespread growth of {{34}}.</li></ul><p>Later findings</p><ul><li>In the 1960s, birds brought seeds to the island.</li><li>In the 1970s, {{35}} were probably carried to the island.</li><li>The first green vegetation (marchantia) formed a thick {{36}} on Surtsey.</li></ul><p>Contrast</p><ul><li>Surtsey is an island only 39 years old. The {{37}} were obtained as early as 5 years after the eruption.</li><li>However, {{38}} observations suggest that the volcano is very energetic.</li></ul><p>Climate and future</p><ul><li>The enormous waves of winter {{39}}.</li><li>An assessment assumes that the island will survive for many {{40}}.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "third"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "first traffic light"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "21 eagle",
+          "21 eagle road"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "al2 1dy",
+          "al21dy"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "toothache",
+          "toothaches"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "none"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "shower"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "basement"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "food containers",
+          "food container"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "access code"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "11.30 pm",
+          "11:30 pm",
+          "11.30pm",
+          "11:30pm",
+          "11.30",
+          "11:30"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "volcano"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "smoke"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "flower"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "grass"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "bacteria"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "carpet"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "fossils",
+          "fossil"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "radio"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "storm",
+          "storms"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "century",
+          "centuries"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

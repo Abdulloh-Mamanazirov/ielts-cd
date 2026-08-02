@@ -1,0 +1,626 @@
+{
+  "slug": "listening-volume-2-test-5",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-27m-08s-audio-joiner.com_202606/mix_27m08s%20(audio-joiner.com).mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 2, Test 5",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><p><strong>Name of the hotel:</strong> {{1}}</p><p>Major changes</p><ul><li>signboard: the {{2}} needs to be bigger</li><li>swimming pool: to be relocated from the {{3}} to the {{4}}</li><li>resting area: turn the {{5}} room into reception</li></ul><p>Notice board</p><ul><li>translation needed: {{6}}</li></ul><p>Price board</p><ul><li>current colour: {{7}}</li></ul><p><strong>Construction:</strong> starts before {{8}}</p><p><strong>Manager's name:</strong> {{9}} Barron</p><p><strong>Telephone number:</strong> {{10}}</p></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What is the new activity in the zoo in November?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "evening tours"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "bonfire nights for adults"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "various parties"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What is the most popular species in the zoo?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "kangaroo"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "koala"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "sheepdog"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;What is the key to feeding kangaroos?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "feeding more than one at a time"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "gently touching the baby kangaroos"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "standing up straight when feeding"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;Why is the wild dog area closed?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The wild dogs are unwell."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The enclosure is under repair."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The dogs have not arrived."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;Where can visitors get discount tickets this year?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "at the café"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "on the official website"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "at the gift shop"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "Arena"
+              },
+              {
+                "number": 17,
+                "textHtml": "Educational hall"
+              },
+              {
+                "number": 18,
+                "textHtml": "Picnic spot"
+              },
+              {
+                "number": 19,
+                "textHtml": "Photo printing shop"
+              },
+              {
+                "number": 20,
+                "textHtml": "Gift shop"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Amy and Mike agree that the greenstone tikis",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "take great skill to produce."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "are fascinating curved shapes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "have interesting stories behind them."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;According to Amy, why are so few genuine old tikis found on archaeological dig sites?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Not many people know about them."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They tend to be stolen by treasure hunters."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The majority become inherited items."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;The Maori people considered tikis to be",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "decorative items."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "religious objects."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "tribal symbols."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Tikis are classified into one type or the other by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "where they originated."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the materials used."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the position of the body."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;How can modern reproductions be easily distinguished from genuine Maori carvings?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The materials differ."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They are too regular in shape."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They are of different sizes."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Sandstone block"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Plant glue"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Stone scoring tool"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Bone point"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Stick drill"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "creating a blank"
+              },
+              {
+                "number": 27,
+                "textHtml": "smoothing the surface"
+              },
+              {
+                "number": 28,
+                "textHtml": "carving details"
+              },
+              {
+                "number": 29,
+                "textHtml": "making holes"
+              },
+              {
+                "number": 30,
+                "textHtml": "fixing coloured decorations"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–36</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Suburbs</div><p>People living in the suburbs</p><ul><li>labour workers, {{31}}</li></ul><p>Advantages of living in the suburbs</p><ul><li>Tax and the prices of {{32}} are low.</li><li>It is easy to start a {{33}}.</li><li>Building {{34}} housing areas to meet the demand of a growing population.</li><li>People have more {{35}} because of wider roads.</li></ul><p>Problem</p><ul><li>lack of space for {{36}} in the suburbs</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 37–40</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "People there are friendlier"
+              },
+              {
+                "letter": "B",
+                "textHtml": "People there are healthier"
+              },
+              {
+                "letter": "C",
+                "textHtml": "It is less crowded"
+              },
+              {
+                "letter": "D",
+                "textHtml": "It is more convenient"
+              },
+              {
+                "letter": "E",
+                "textHtml": "People there are happier"
+              },
+              {
+                "letter": "F",
+                "textHtml": "There are some similarities"
+              }
+            ],
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "Jack Simons"
+              },
+              {
+                "number": 38,
+                "textHtml": "Ellen Simpson"
+              },
+              {
+                "number": 39,
+                "textHtml": "Robert Gregory"
+              },
+              {
+                "number": 40,
+                "textHtml": "Sarah Godfrey"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "central"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "address"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "basement"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "roof"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "lounge"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "spanish"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "red"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "july"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "cliffton",
+          "clifton"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "093036602",
+          "093036 602"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "wealthy residents",
+          "wealthy resident",
+          "residents"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "food"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "business"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "large-scale",
+          "large scale",
+          "largescale"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "mobility"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "trade",
+          "trade activities"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "E"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

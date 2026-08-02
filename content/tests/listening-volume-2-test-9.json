@@ -1,0 +1,606 @@
+{
+  "slug": "listening-volume-2-test-9",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-27m-47s-audio-joiner.com-1_202606/mix_27m47s%20(audio-joiner.com)%20(1).mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 2, Test 9",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Newspaper Photo Reprint Request Form</div><p>Newspaper date: March 10th</p><p>Newspaper page: the {{1}} page</p><p>Newspaper story: Student Athlete of the {{2}}</p><p>Photo subject: James {{3}}</p><p>Photo use: {{4}}</p><p>Image type: {{5}}</p><p>Size: Regular &nbsp;·&nbsp; Quantity: Three</p><p>Price: ${{6}}</p><p>Processing option: {{7}}</p><p>Payment type: {{8}}</p><p>Delivery method: {{9}}</p><p>Reading frequency: every {{10}}</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–15 <span style=\"font-weight:400;\">(Training courses for hospitality workers)</span></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What has the speaker enjoyed most about working in hospitality?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the range of jobs available"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the range of countries he has visited"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the range of people he has worked with"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What point does the speaker make about kitchen assistants?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the long hours will not suit everyone"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "their work is sometimes quite boring"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the pay is not particularly good"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;According to the speaker, which job is sometimes undervalued?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "porter"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "cleaner"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "dishwasher"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;Experience in reception may help employees",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to learn foreign languages"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to manage difficult situations successfully"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to get a better job eventually"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;The speaker says that interview skills",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "are particularly important in hospitality"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "are easy to learn if you have some practice"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "are understood better now than in the past"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              },
+              {
+                "letter": "J",
+                "textHtml": "J"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "Restaurant Service"
+              },
+              {
+                "number": 17,
+                "textHtml": "Kitchen Hands"
+              },
+              {
+                "number": 18,
+                "textHtml": "Porters, Cleaners, Dishwashers"
+              },
+              {
+                "number": 19,
+                "textHtml": "Receptionists"
+              },
+              {
+                "number": 20,
+                "textHtml": "Interview Skills"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26 <span style=\"font-weight:400;\">(Battery-powered motorbikes)</span></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;The students are preparing the presentation",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "as part of their final assessment"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to attract potential future students"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to share their work with their classmates"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What do the students say about the battery-powered motorbike in their project?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it is more efficient than ordinary motorbikes"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it is faster than ordinary motorbikes"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it is more complex than ordinary motorbikes"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;The students agree the presentation will be difficult because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "they have a lot to cover in 15 minutes"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "several different people are involved"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "they do not have long to prepare it"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;The students decide to deal with the presentation by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "each giving part of the talk"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "opening with a short video clip"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "allowing most of the time for questions"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;What do the students agree to use in their slides?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "photos of their project at its different stages"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "keywords reflecting the characteristics of the project"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "diagrams illustrating the process of the project"
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;What do the students decide to do that afternoon?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "talk to a student in a different year"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "prepare a first draft of their slides"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "discuss their outline with a tutor"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "It took longer than expected."
+              },
+              {
+                "letter": "B",
+                "textHtml": "It was unexpectedly enjoyable."
+              },
+              {
+                "letter": "C",
+                "textHtml": "A member of staff was surprisingly helpful."
+              },
+              {
+                "letter": "D",
+                "textHtml": "They benefited from a relative's help."
+              },
+              {
+                "letter": "E",
+                "textHtml": "A member of staff identified one serious problem."
+              },
+              {
+                "letter": "F",
+                "textHtml": "A different student made a careless mistake."
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Writing the report"
+              },
+              {
+                "number": 28,
+                "textHtml": "Keeping a log book"
+              },
+              {
+                "number": 29,
+                "textHtml": "Doing the sketches"
+              },
+              {
+                "number": 30,
+                "textHtml": "Finding sponsors"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>The development of the telescope</div><p>Roger Bacon (1200s)</p><ul><li>His invention assisted {{31}} who had sight problems when reading.</li></ul><p>Lippershey</p><ul><li>1608: he put concave and convex lenses together to create the telescope.</li><li>The small telescope was first used in the {{32}}.</li></ul><p>Galileo</p><ul><li>1609: he tried out different lenses to improve the telescope.</li><li>He started {{33}} of the lenses he needed.</li><li>The Venetian government hoped to use this instrument for the {{34}}.</li></ul><p>Galileo's astronomical discoveries — The Moon</p><ul><li>he discovered its surface was mountainous;</li><li>he worked out the height of the mountains by identifying spots that were {{35}};</li><li>he created {{36}} of the moon's surface.</li></ul><p>Jupiter</p><ul><li>he realised that the bodies orbiting Jupiter were not {{37}} but moons.</li></ul><p>Further development</p><ul><li>Scientists discovered that increasing the telescope's {{38}} improved its power.</li><li>1670: Hevelius built a telescope 43 metres long.</li><li>Poor results: the telescope would move with the {{39}}.</li><li>The problem was solved by attaching it to a {{40}}.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "front"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "week"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "parkhurst"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "personal"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "colour",
+          "color"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "80",
+          "eighty"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "normal"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "cheque",
+          "check"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "mail"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "day"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "J"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "researchers",
+          "researcher"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "theatre",
+          "theater"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "production"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "army"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "bright"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "charts",
+          "chart"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "stars",
+          "star"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "length"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "wind"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "building"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

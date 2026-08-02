@@ -1,0 +1,578 @@
+{
+  "slug": "listening-volume-2-test-10",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/mix-22m-44s-audio-joiner.com-3/mix_22m44s%20(audio-joiner.com)%20(3).mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 2, Test 10",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Theatre booking</div><p><em>Example:</em> Booking for <em>Pirates</em> · Date: 8th December (afternoon)</p><p>Name: Fenella {{1}} &nbsp;·&nbsp; Contact number: 07796892326</p><p>Booking details</p><ul><li>Type of booking: {{2}} (with discount)</li><li>3 adults at {{3}} pounds each</li><li>Children under 16 at {{4}} pounds each</li><li>Requires seats on the {{5}} row of the circle</li><li>One person uses a {{6}}</li><li>Needs good access to the {{7}}</li><li>Will collect the tickets from the {{8}}</li></ul><p>Meals</p><ul><li>Several people are {{9}} (cheese and tomato)</li><li>Food: {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": ","
+              },
+              {
+                "letter": "B",
+                "textHtml": "or"
+              },
+              {
+                "letter": "C",
+                "textHtml": "(you may use any letter more than once)."
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "They specialise in a particular type of music"
+              },
+              {
+                "number": 12,
+                "textHtml": "They organise social events"
+              },
+              {
+                "number": 13,
+                "textHtml": "They have recently won a competition"
+              },
+              {
+                "number": 14,
+                "textHtml": "They participate in charity events"
+              },
+              {
+                "number": 15,
+                "textHtml": "They have recently recorded their first CD"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "&nbsp;Elizabeth Arnold thinks people join a choir at work because it gives them a chance to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "have a break from work."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "improve their singing."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "make business contacts."
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "textHtml": "&nbsp;How does a company benefit from setting up a choir?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "improved relationships between co-workers"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "less sick leave taken by employees"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "increased commitment to the company"
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;How many members does the John White choir have?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "5"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "12"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "19"
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;When do the choir have their rehearsals?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "before work"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "at lunch-time"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "after work"
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;How does the company support the choir?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "by providing concert clothes"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "by funding social events"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "by paying for singing classes"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26 <span style=\"font-weight:400;\">(Tourism research)</span></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Mike suggests they use the word 'area' to mean",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "geographical location."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "tourist site."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "research field."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;According to Eva, most people believe that culture",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "refers to long-established events and places."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "includes modern forms of art and entertainment."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "is becoming less linked to particular regions."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Why should they carry out about 200 surveys?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to provide information about a range of events"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to be able to meet the deadline"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to get valid results"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;Which groups of people do they decide to interview?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "domestic tourists and local residents"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "local residents and international tourists"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "international and domestic tourists"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;Mike expresses concern at having to ask about",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the amount of money a person has spent"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a person's age"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a person's occupation"
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;Which form will their results be presented in?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a table"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a pie chart"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a graph"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "ancient buildings"
+              },
+              {
+                "letter": "B",
+                "textHtml": "contemporary art gallery"
+              },
+              {
+                "letter": "C",
+                "textHtml": "food festival"
+              },
+              {
+                "letter": "D",
+                "textHtml": "museums displaying traditional objects"
+              },
+              {
+                "letter": "E",
+                "textHtml": "national parks"
+              },
+              {
+                "letter": "F",
+                "textHtml": "theatre performances"
+              },
+              {
+                "letter": "G",
+                "textHtml": "traditional dances"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Mexico"
+              },
+              {
+                "number": 28,
+                "textHtml": "Greece"
+              },
+              {
+                "number": 29,
+                "textHtml": "Britain"
+              },
+              {
+                "number": 30,
+                "textHtml": "India"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Working as a Patent Attorney</div><p>Getting a patent</p><ul><li>Nowadays most patents are applied for by a {{31}}.</li><li>The invention has to be {{32}} in order to be patented.</li><li>A detailed {{33}} of the invention is required.</li></ul><p>Requirements</p><ul><li>Academic qualifications, e.g. Chemistry or {{34}}.</li><li>People with very good {{35}} (skills).</li><li>Knowledge of a different {{36}} (desirable).</li></ul><p>Advantages of the job</p><ul><li>Interesting — uses a range of expertise.</li><li>Good {{37}}.</li></ul><p>Disadvantages of the job</p><ul><li>Sometimes quite {{38}}.</li><li>Location is inflexible.</li></ul><p>Possible places of work</p><ul><li>Large {{39}} organisations.</li><li>Private practices.</li><li>{{40}} departments.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "bittens"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "group"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "23"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "12.50",
+          "12.5"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "back"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "wheelchair",
+          "wheel chair"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "lift"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "library"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "vegetarian"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "pizza",
+          "pizzas"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "company"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "original"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "description"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "engineering"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "communication"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "language"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "salary"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "lonely"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "industrial"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "government"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

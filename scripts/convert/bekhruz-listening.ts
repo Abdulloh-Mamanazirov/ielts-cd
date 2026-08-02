@@ -44,12 +44,21 @@ function dedupe(values: string[]): string[] {
   return out;
 }
 
-/** Pulls the base64 audio out of the raw HTML, returning bytes and the rest. */
-function extractAudio(html: string): { bytes: Buffer | null; ext: string; html: string } {
-  const m = html.match(/src="data:audio\/([a-z0-9]+);base64,([A-Za-z0-9+/=]+)"/);
-  if (!m) return { bytes: null, ext: "mp3", html };
-  const ext = m[1] === "mpeg" ? "mp3" : m[1] === "mp4" ? "m4a" : m[1];
-  return { bytes: Buffer.from(m[2], "base64"), ext, html: html.replace(m[0], 'src=""') };
+/**
+ * The audio arrives one of two ways: embedded as a base64 data URL, or
+ * hot-linked from an external host. base64 is decoded to bytes for extraction;
+ * an external URL is passed back as `audioSourceUrl` so `audio:upload
+ * --from-source` can re-host it. Either way the giant string is dropped before
+ * cheerio parses the rest.
+ */
+function extractAudio(html: string): { bytes: Buffer | null; audioSourceUrl?: string; html: string } {
+  const b64 = html.match(/src="data:audio\/[a-z0-9]+;base64,([A-Za-z0-9+/=]+)"/);
+  if (b64) return { bytes: Buffer.from(b64[1], "base64"), html: html.replace(b64[0], 'src=""') };
+
+  const ext = html.match(/<audio[^>]*\ssrc="(https?:\/\/[^"]+)"/i);
+  if (ext) return { bytes: null, audioSourceUrl: ext[1].replace(/&amp;/g, "&"), html };
+
+  return { bytes: null, html };
 }
 
 function isLeader($: CheerioAPI, node: Element): boolean {
@@ -339,7 +348,7 @@ export function convertBekhruzListening(
   assets: ListeningAssets | null,
 ): TestImport {
   const raw = readFileSync(sourcePath, "utf8");
-  const { bytes, html } = extractAudio(raw);
+  const { bytes, audioSourceUrl, html } = extractAudio(raw);
   if (bytes && assets) {
     mkdirSync(resolve(assets.audioPath, ".."), { recursive: true });
     writeFileSync(resolve(assets.audioPath), bytes);
@@ -419,6 +428,9 @@ export function convertBekhruzListening(
   return {
     slug,
     isPremium: options.isPremium ?? false,
+    // An externally hosted recording is recorded so the uploader can re-host it;
+    // an embedded one was already extracted to disk and needs no URL.
+    ...(audioSourceUrl ? { audioSourceUrl } : {}),
     content: {
       schemaVersion: SCHEMA_VERSION,
       skill: "listening",

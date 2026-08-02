@@ -56,14 +56,15 @@ function parseArgs(argv: string[]): Options {
 const SOURCE_DIR = "_source-tests";
 
 /**
- * Attaches every listening test that has a matching `_source-tests/<slug>.mp3`,
- * which is where `npm run convert` extracts the base64 audio to. One command to
- * ingest a whole Volume after converting, rather than ten by hand.
+ * Attaches every listening test that has audio to ingest — an extracted
+ * `_source-tests/<slug>.mp3` (from a base64 source) when one is present, and
+ * otherwise a download from its recorded `audioSourceUrl` (an externally hosted
+ * source). One command to release a whole Volume after converting.
  */
 async function uploadAll(options: Options) {
   const tests = await prisma.test.findMany({
     where: { skill: "LISTENING" },
-    select: { slug: true },
+    select: { slug: true, audioSourceUrl: true },
     orderBy: { slug: "asc" },
   });
 
@@ -71,14 +72,23 @@ async function uploadAll(options: Options) {
   let skipped = 0;
   for (const test of tests) {
     const file = resolvePath(SOURCE_DIR, `${test.slug}.mp3`);
+    let hasFile = false;
     try {
       await stat(file);
+      hasFile = true;
     } catch {
-      console.log(`skip  ${test.slug} — no ${SOURCE_DIR}/${test.slug}.mp3`);
+      hasFile = false;
+    }
+
+    if (hasFile) {
+      await upload({ ...options, slug: test.slug, file, fromSource: false });
+    } else if (test.audioSourceUrl) {
+      await upload({ ...options, slug: test.slug, file: undefined, fromSource: true });
+    } else {
+      console.log(`skip  ${test.slug} — no ${SOURCE_DIR}/${test.slug}.mp3 and no source URL`);
       skipped += 1;
       continue;
     }
-    await upload({ ...options, slug: test.slug, file });
     console.log("");
     done += 1;
   }

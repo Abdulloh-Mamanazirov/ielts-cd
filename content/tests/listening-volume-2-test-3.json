@@ -1,0 +1,633 @@
+{
+  "slug": "listening-volume-2-test-3",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/v-2-t-3/V2%20T3%20.mp3",
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 2, Test 3",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–7</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>International Club</div><table class=\"q-table\"><tbody><tr><th>Event / Venue</th><th>Time / Dates</th><th>Fees</th><th>Notes</th></tr><tr><td>Library</td><td><em>Example:</em> 11:00 am – 6 pm</td><td>Deposit: ${{1}}</td><td>Returned if no damage</td></tr><tr><td>{{2}} centre</td><td>Open on {{3}}</td><td>$3</td><td>Bring one guest free</td></tr><tr><td>Swimming</td><td>Starts on {{4}}</td><td>${{5}}</td><td>Bring your own swimming suit</td></tr><tr><td>Dance class</td><td>Open all day</td><td>$5 ({{6}} included)</td><td>Bring water and food</td></tr><tr><td>{{7}}</td><td>10:30 am – 3:30 pm (weekdays)</td><td>$3</td><td>Replacement for the Grand Hotel visit</td></tr></tbody></table></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 8–10</p>",
+            "selectCount": 3,
+            "questions": [
+              {
+                "number": 8,
+                "textHtml": "Which <strong>THREE</strong> events are held every month by the club?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Lecture"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Film"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Saturday excursion"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Sunday excursion"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Culture evening"
+                  },
+                  {
+                    "letter": "F",
+                    "textHtml": "Night tour"
+                  },
+                  {
+                    "letter": "G",
+                    "textHtml": "Yoga classes"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–15</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "bike racks"
+              },
+              {
+                "number": 12,
+                "textHtml": "luggage lockers"
+              },
+              {
+                "number": 13,
+                "textHtml": "chemist's"
+              },
+              {
+                "number": 14,
+                "textHtml": "toilet"
+              },
+              {
+                "number": 15,
+                "textHtml": "news agency"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 16–20</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "&nbsp;Where could the passengers see the exhibition?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "in the town library"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "in Fitchton College"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "in the station"
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "textHtml": "&nbsp;What is the best gift for passengers to buy and bring home?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "local food"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "clothing"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "jewellery"
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;Where can passengers buy souvenir postcards?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "in the museum"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "in the shop"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "in the college"
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;What will the old cinema be converted to?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a housing area"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a new theatre"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a shop"
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;Who is the statue in the train station modelled after?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a poet"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "an engineer"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a politician"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–25</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Students may fail the exams if they",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "do not collect primary statistics"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "copy other people's work"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "do not follow the instructions"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;Why does the man think they should avoid the pictures of the first volcano?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "they are not attractive"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the time is limited"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "people have never heard of it"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;About Mount Fago, a volcano in Mexico or the USA, the man thinks",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "they should not use inaccurate information"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "they should use another example"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it does not matter where the volcano is"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;The woman thinks they should mention Mount Etna since",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it covers most of the important points"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it was formed a long time ago"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it has stunning views"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;They agree to leave out Mount Herten as",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "other students have used it before"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it is irrelevant to their topic"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "there is nothing special about this volcano"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 26–30</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "make a short film"
+              },
+              {
+                "letter": "B",
+                "textHtml": "lacked his/her own points"
+              },
+              {
+                "letter": "C",
+                "textHtml": "neglect the positive aspect"
+              },
+              {
+                "letter": "D",
+                "textHtml": "watch some documentaries"
+              },
+              {
+                "letter": "E",
+                "textHtml": "did not prepare beforehand"
+              },
+              {
+                "letter": "F",
+                "textHtml": "identify the differences between them"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "The woman's last presentation was criticized because it…"
+              },
+              {
+                "number": 27,
+                "textHtml": "The tutor suggests that for the next presentation the woman should…"
+              },
+              {
+                "number": 28,
+                "textHtml": "People do not know enough about volcanoes, so they…"
+              },
+              {
+                "number": 29,
+                "textHtml": "The reason the man felt very nervous is that he…"
+              },
+              {
+                "number": 30,
+                "textHtml": "They are researching active and extinct volcanoes to…"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Tracking Australian Crocodiles</div><p>Research methods</p><ul><li><strong>31</strong> &nbsp;This research is world-leading because {{31}} is used in the study.</li><li><strong>32</strong> &nbsp;In previous studies, the tests were done with {{32}}.</li><li><strong>33</strong> &nbsp;Problem of the old device: always losing {{33}}.</li><li><strong>34</strong> &nbsp;The crocodiles are hard to capture, as they are cautious and avoid being followed by {{34}}.</li><li><strong>35</strong> &nbsp;A tracking device is attached to the {{35}} of the crocodile.</li></ul><p>Relocation of crocodiles</p><ul><li><strong>36</strong> &nbsp;Scientists relocate the crocodiles using a {{36}}.</li><li><strong>37</strong> &nbsp;Relocated crocodiles follow the most {{37}} route home.</li><li><strong>38</strong> &nbsp;Crocodiles can find their way because they have the ability to {{38}}.</li></ul><p>Conclusions</p><ul><li><strong>39</strong> &nbsp;The crocodiles find their direction by using their senses towards the {{39}}.</li><li><strong>40</strong> &nbsp;Crocodiles have the same migration system as {{40}}.</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "ice skating",
+          "ice-skating"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "sunday",
+          "sundays"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "16th october",
+          "16 october",
+          "october 16",
+          "october 16th"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "3",
+          "three"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "free drinks"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "museum",
+          "local museum"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "satellite"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "radio"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "signals",
+          "signal"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "human",
+          "humans",
+          "human beings"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "head"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "helicopter"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "direct"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "navigate"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "sun"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "birds",
+          "bird"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          8,
+          9,
+          10
+        ],
+        "accepted": [
+          "A",
+          "C",
+          "E"
+        ]
+      }
+    ]
+  }
+}

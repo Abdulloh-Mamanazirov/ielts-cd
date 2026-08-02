@@ -1,0 +1,595 @@
+{
+  "slug": "reading-volume-2-test-2",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 2, Test 2",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Good Nuggets of Australia",
+        "passageHtml": "<p>Australia was, and is, home to some of the most amazing discoveries of gold the world has seen. This is mainly due to the fact that found on the surface. Some finds changed the nation entirely, such as those in Ballarat in Victoria and Bathurst in New South Wales. Gold nuggets are naturally occurring lumps of gold. These are recovered either by placer mining (mining the gold in deposit where the veins (thin layers of gold contained in rock) are weathered.</p><p>A single, small- to- medium sized gold nugget could turn a poor miner into a rich man and nugget discoveries could turn under- worked fields or empty farmland into thriving tent village with thousands of miners looking to locate the next \"big one\". Some of these places where gold was found over 150 years ago are towns today. Many of the largest gold nuggets ever formed on Earth were found in Australia. In fact, eight out of the top ten were found there.</p><p>The welcome nugget was by far the largest nugget ever found when it was discovered. It was found when it was discovered. It was found in June 1856 by a team of approximately 20 miners at Bakery Hill, Ballarat. It was dug out of a tunnel at a depth of 55 metres. The welcome nugget weighed 69.98 kilograms, and it was melted down a litter over a year later, in 1859. Despite its size, the Welcome's fame short lived.</p><p>An even bigger nugget was found ten years later, when on 5th February 1869 the Welcome Stranger nugget was discovered in a small town named Moliagul. A miner named Deason was digging at Bulldog Gully when he first thought e had truck a large stone just under the surface. However after digging only three centimetres, he was delighted to see the twinkle of gold. With the help of his companion, Oates, Deason was able to free the monster from the roots of a native Australian tree. This discovery was the world's largest ever recorded gold nugget. There are some differing reports on the exact weight of the welcome stranger nugget, but the most well-known ounce rating was 2284 troy ounces (71 kilograms). It measured 60 by 30 centimetres and could not be weighed in the district as they did not have scales large enough. At today's gold exchange rate, the Welcome Stranger would be worth over $2.000.000. A Stone monument marks where it was found.</p><p>In 1985 at the Mount Alexander goldfield in Victoria, a group of inexperienced miners were sent by other miners to a site in Golden Gully that was believed to be empty of gold. Such sports were called duffer claims because they were thought to be useless. However, in this case the plan backfired. On their second day of digging the miners unearthed a 1008 ounce (28.5 kilograms) gold nugget which would be change their lives forever. The nuggets was named after a gold commissioner called Mr Heron. The Heron nugget was the seventh largest nugget in the world when discovered.</p><p>More recently, the hand of Faith was found behind a primary school in the state of Victoria by an amateur metal- collector named Hillter. The nugget was in the vertical position only about 15 centimestres below the surface. It measures 47 by 20 centimetres, and is still on display at a casino in Las Vegas, named The Golden Nugget, which bought it for US $1,000,000. Interestingly, the school where it was found is only approximately 30 miles from where the Welcome Stranger nugget was found in 1869. The nugget Hillier found in 1980 was, and is, the largest known nugget found anywhere in the world by a metal detector. It weighs 27.21 kilograms, making it also the largest still in existence. As noted above, much larger nuggets were discovered in the 1850s, but these were melted down to decrease the chances of theft and to change the gold into a form that would be easily sold</p><p>While the largest nugget of gold ever found is the Welcome Stranger, it is not the largest mass of gold ever found. The Holtermann 'nugget' is not technically a nugget: in 1872 it was cut from an incredibly rich vein at Hill End, New South Wales, by a prospecting company in which Holtermann was a partner. The specimen also had quartz in it and whopping 286 kilograms. It was estimated that 3,000 ounces (85 kilograms) of gold were extracted when the giant was crushed. Only the top of the specimen remains, cut off by Holtermann as a souvenir.</p><p>Amazingly, this was not the only gigantic piece of gold cut from Hill End's mine; an even larger specimen was drilled from the same vein some months later. This second monster was broken up below ground as there seemed no point struggling with it up to the surface only to have it crushed. Its estimated weight was around 318 kilograms and it yielded approximately 5,000 ounces (142 kilograms) of gold.</p><p>Gold has been a major part of Australia's development and continues to have huge effects on the nation. It is possible that even larger nuggets and gold deposits still exist, although as years and technology progress, it is not very likely.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–7</h3>Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Placer mining involves searching for gold near a present or past source of water."
+              },
+              {
+                "number": 2,
+                "textHtml": "The locations of former tent villages still attract gold diggers today."
+              },
+              {
+                "number": 3,
+                "textHtml": "A small minority of the ten largest gold nuggets in the world were found in Australia."
+              },
+              {
+                "number": 4,
+                "textHtml": "The Welcome Stranger nugget was smaller than the Welcome nugget."
+              },
+              {
+                "number": 5,
+                "textHtml": "The people who found the Heron nugget were sent to the site by people who were trying to trick them."
+              },
+              {
+                "number": 6,
+                "textHtml": "Holtermann kept a piece of the gold his company had found."
+              },
+              {
+                "number": 7,
+                "textHtml": "A more significant specimen of gold that was found at the same site as the Holtermann 'nugget' was cut into pieces as soon as it was brought above ground."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 8–13</h3>Complete the table below. Choose <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<table class=\"q-table\"><thead><tr><th>Name of nugget</th><th>When found</th><th>Where found</th><th>Notes</th></tr></thead><tbody><tr><td>Welcome nugget</td><td>1858</td><td>55 m beneath ground in a tunnel</td><td>found by team of 20 miners<br>weighed 69.98 kg</td></tr><tr><td>Welcome Stranger nugget</td><td>1869</td><td>just <strong>8</strong>&nbsp;{{8}} beneath ground, among roots of tree</td><td>area unequipped to weigh the nugget<br>point of discovery now indicated by a <strong>9</strong>&nbsp;{{9}}</td></tr><tr><td>Heron nugget</td><td>1855</td><td>Mount Alexander</td><td>nugget given the name of a <strong>10</strong>&nbsp;{{10}} at that time</td></tr><tr><td>Hand of Faith nugget</td><td>1980</td><td>at the back of a <strong>11</strong>&nbsp;{{11}}, 15 cm beneath ground</td><td>discovered by using a metal detector<br>can now be seen at a <strong>12</strong>&nbsp;{{12}}</td></tr><tr><td>Holtermann 'nugget'</td><td>1872</td><td>Hill End, New South Wales</td><td>gold was found in a mass that also contained <strong>13</strong>&nbsp;{{13}}<br>yielded 85 kg of gold</td></tr></tbody></table>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Nature's Useful Designs",
+        "passageHtml": "<p><strong>A</strong>&nbsp;&nbsp; What has fins like a whale, skin like a lizard, and eyes like a moth? The future of engineering. Almost all living organisms are uniquely adapted to the environment in a which they live, some so well that scientists study them in the hope of replicating their natural designs in technology. This process, called biomimetics, is the crossroads where nature and engineering meet.</p><p><strong>B</strong>&nbsp;&nbsp; Perhaps the best example of biomimetics is Velcro. In 1948 a Swiss scientist, George de Mestral, had trouble removing a plant's prickle which was stuck to his god's fur, so he studied it under a microscope. Impresses by the stickiness of the prickle's hooks, he copied the design, engineering a fastener made of two pieces. One piece has stiff hooks like the prickly, while the other has soft loops that allow the hooks to stick. De Mestral named his invention Velcro- a combination of words \"velour\" and \"crochet\"</p><p><strong>C</strong>&nbsp;&nbsp; Andrew Parker, a research fellow at the natural History Museum in London and at the University of Sydney, is a leading proponent of biomimetics- applying designs from nature to problems in engineering, materials science, medicine, and other fields. He has investigated iridescence in butterflies and beetles and antireflective coatings in month eyes- studies that have led to brighter screens for cellular phones and an anticounterfeiting technique so secret he cannot say which company is behind it. He is working to make cosmetics that mimic the natural sheen of diatoms (a type of algae) and, with the British Ministry of Defense to emulate the water- repellent properties of these same creatures. He even draws inspiration from nature's past: on the eye of a 45- million-year-old fly trapped in amber that he studies in a museum in Poland, Parker noticed microscopic corrugations that reduced light reflection. This feature is now being built into solar panels.</p><p><strong>D</strong>&nbsp;&nbsp; To parker, every species, even those that have become extinct, is a success story, optimized by millions of years of natural selection. He asks: why not learn from this? Parker explained how the metallic sheen and dazzling colors of certain birds derive not from pigments but from neatly spaced microstructures that reflect specific wavelengths of light. Such structural color, fade- proof and more brilliant than pigment, is of great interest to people who manufacture paint and holograms on credit cards. Glowworms produce a cool light with almost zero energy loss (a normal light build wastes 98 percent of its energy as heat) and bombardier beetles have a highly effective combustion chamber in their posterior that heats chemicals and fires them at would- be predators.</p><p><strong>E</strong>&nbsp;&nbsp; For all nature's sophistication, many of its clever devices are made from sample substances like keratin, calcium, carbonate, and silica, which are manipulated into structures of fantastic complexity and toughness. The abalone, for example, makes its shell out calcium carbonate, the same stuff as soft chalk. Yet by coaxing this substance into walks of staggered, nanoscale bricks through a subtle play of proteins, it creates an armor 3000 times harder than chalk. Understanding the microscale and nanoscale structures responsible for a living materials exceptional properties is critical to re-creating it synthetically.</p><p><strong>F</strong>&nbsp;&nbsp; Though impressed by biological structures, Robert Cohen, an engineer at MIT in the United States, consider biology merely a starting point for innovation. You don't have to reproduce a lizard skin to make a water- collection device or a moth eye to make an antireflective coating \"Cohen says. The biological structure provides a clue to what is useful. But maybe you can do it better. Ultimately, he considers a biomimetics project a success only if it has the potential to make a useful tool for people. \"Looking at pretty structures in nature is not sufficient say Cohen\" what I want to know is, can we actually transform these structures into something with true utility in the real world?</p><p><strong>G</strong>&nbsp;&nbsp; This, of course, is the tricky bit. Potentially one of the most useful embodiments of natural design is the bio- inspired robot, which could be deployed in places where people would be too conspicuous bored to tears, or killed. But such robots are notoriously hard to build. Ronald Fearing, a professor of electrical engineering at the University of California, Berkeley, has taken on one of the biggest, challenges of all: to create a miniature robotic fly that is swift, small, and maneuverable enough for use in surveillance or search- and- rescue operations.</p><p><strong>H</strong>&nbsp;&nbsp; The key to making his micromechanical flying insect (MFI) work, Fearing says, is not to attempt to copy the fly, but to isolate the structures crucial to its feats of flying. The fly's wing is driven by 20 muscles, some of which only fire every fifth wing beat, and all you can do is wonder, \"what on earth just happened there?\" says Fearing Some things are just too mysterious and complex to be able to replicate.</p><p><strong>I</strong>&nbsp;&nbsp; For all the power of the biomimetics paradigm, and the brilliant people who practice it, bio- inspiration has led to surprisingly few mass- produced products, and arguably only one household word- Velcro. Some biomimetists blame industry, whose short-term expectations about how soon project should be completed and become profitable clash with the time- consuming nature of biomimetics research. Others lament the difficulty in coordinating joint work among diverse academic and industrial disciplines, which is required to understand natural structures and mimic what they do. But the main reason biomimetics has not yet come of age is that from an engineering standpoint reproduce such intricate nanopuzzles. Nonetheless, the gap with nature is gradually closing.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–19</h3>Reading Passage 2 has nine paragraphs, <strong>A–I</strong>.<br>Which paragraph contains the following information?",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "how an organism turns a basic material into something incredibly strong"
+              },
+              {
+                "number": 15,
+                "textHtml": "a claim that biomimetics has had limited commercial impact so far"
+              },
+              {
+                "number": 16,
+                "textHtml": "a difficulty that led to a researcher's accidental discovery"
+              },
+              {
+                "number": 17,
+                "textHtml": "an example of nature being far more efficient than a common household object"
+              },
+              {
+                "number": 18,
+                "textHtml": "an ancient specimen that inspired a modern innovation"
+              },
+              {
+                "number": 19,
+                "textHtml": "situations where it is preferable to replace a human with a machine"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 20–22</h3>Look at the following statements and the list of people below. Match each statement with the correct person, <strong>A–D</strong>.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "George de Mestral"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Andrew Parker"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Robert Cohen"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Ronald Fearing"
+              }
+            ],
+            "questions": [
+              {
+                "number": 20,
+                "textHtml": "All living things provide something useful for humans to discover."
+              },
+              {
+                "number": 21,
+                "textHtml": "Natural designs are sometimes impossible for people to copy."
+              },
+              {
+                "number": 22,
+                "textHtml": "Biomimetics achieves nothing unless it has a practical application."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 23–26</h3>Complete the sentences below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>23.</strong>&nbsp; Andrew Parker is studying the shiny surface of diatoms in order to develop {{23}}.</p></div><div><p><strong>24.</strong>&nbsp; Paint companies are interested in the way some {{24}}get their colour.</p></div><div><p><strong>25.</strong>&nbsp; Bombardier beetles protect themselves by shooting hot {{25}}at their enemies.</p></div><div><p><strong>26.</strong>&nbsp; One scientist is studying the {{26}}to build a tiny robot that can help people in danger.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "The Art of Deception",
+        "passageHtml": "<p>Do tiny changes of facial expression show whether someone is telling lies?</p><p>Forty years ago, the research psychologist Dr Paul Ekman was addressing a group of young psychiatrists in training when he was asked a question, the answer to which has kept him busy ever since. Suppose the group wanted to know, a particular patient swears they are telling the truth. They look and sound since. So here is the question is there any way you can be sure they are telling the truth? Ekman did not know the answer then, but wanted to find out</p><p>As part of his research, he had already filmed a series of 12- minutes interview with psychiatric patients. In a subsequent conversation, one of the patients sold him that she had lied to him. So, Ekman sat and looked at the film but saw nothing noteworthy. Then he slowed it down and looked again. Then he slowed it even further. And suddenly, there, across just two frames of the film, he saw it: an intense expression of extreme anguish. It lasted less than a 15th of a second, but once he had spotted the first expression, he soon found three more examples in that same interview. He termed his discovery \"micro- expression: very rapid intense demonstrations of emotion that the subject intended to be concealed.</p><p>Over the course of the next four-decade Ekman successfully demonstrated a proposition first suggested by Charles Darwin: that the ways in which we express rage, disgust, contempt, fear, surprise, happiness and sadness are universal. The facial muscles triggered by those seven basic emotions are, he has shown, essentially standard, regardless of language and culture, from the US to Japan and Brazil to Papua New Guinea. What is more, expressions of emotion are impossible to suppress and, particularly when we are lying, micro- expressions of powerfully felt emotions will inevitably flit across our face before we get the chance to stop them.</p><p>Fortunately for liars, most people will fail to spot these fleeting signals of inner torment. Of the 15000 Ekman has tested, only 50 people, whom he calls \"naturals\", have been able to do it. But given a little more training. Ekman says, almost anyone can develop the skill. He should know, since these tests were completed in the mid-1980s and the first publication of his research, he has been called in by the FBI and CIA (among countless more law- enforcement and other agencies around the world), not just to solve cases, but to teach them how to use his technique for themselves. He has held workshops for defense and prosecution lawyers, health professionals, even jealous spouses, all of them wanting to know exactly when someone is not being 100 per cent candid.</p><p>Most recently, Ekman's research has resulted in a new television series about the exploits of the fictional Dr Cal Lightman, a scientist who studies involuntary body language to discover not only if you are lying. But why you might have been motivated to do so. According to the publicity blurb, Lightman is a human lie detector, even more accurate than a polygraph test. Ekman concedes has was skeptical when the producer first approached him with the idea of turning his life's work into a TV series, and initially would have stopped the project if he could. In particular, he was fearful that the show would exaggerate the effectiveness of his techniques and create the quite inaccurate impression among audiences that criminals could no longer hope to get away with lying. In the worst-case scenario, he was concerned about unfair convictions, that one day someone not properly trained in his techniques might be sitting on a jury and wrongly find someone guilty of a crime simply on the basis of a television programme.</p><p>In the end though, he was won over because the series is unusual in several respects. It is the first time, as far as Ekman is aware, that a commercial TV drama has been based on the work of just one scientist. That scientist is also deeply involved in the project, talking through plot ideas and checking five successive drafts of each script to ensure details are correct. He was also impressed with the producer's manifestly serious and well- intentioned reasons for making the programme. Now that the first series has been completed, he believes probably 80-90 per cent of the show is based on fact and that's good enough for what is. After all, a drama, not a documentary.</p><p>Ekman, incidentally, professes to have been a terrible liar ever since he was a small boy and observes that ability to detect a lie and the ability to lie successfully are completely unrelated. He has been asked by people running for high office if he could teach them to become\" more credible with the public but has always refused to use his skills in that way on ethical grounds. He also insists that there are various kinds of lies. A \"true\" lie can be identified by having two essential characteristics there must be a deliberate intent to mislead and there must be no notification that this is what is occurring. This means that an actor or a poker player isn't a true liar. They' are supposed to deceiving you, it's part of the game, and the same is true of flattery. He prefers to focus on the kinds of lies where the liar would be on grave trouble if they were found out, and where the target would feel properly aggrieved if they knew.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–31</h3>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "According to the writer, Ekman became interested in lying after a question from his",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; peers"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; patients"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; students"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; teachers"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "The writer refers to the 12-minute interviews in order to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; illustrate how frequently patients lie"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; describe the origins of Ekman's theories"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; compare Ekman's research to previous studies"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; show how patients' behaviour is affected by filming"
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "What is the writer's point in the third paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; micro-expressions are common to all people"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; recent research has refuted an old idea"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; with practice we can learn to control our micro-expressions"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; human society is too complex to allow for generalisations."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "What are we told about Ekman's conclusions from his tests?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; it's natural for people to lie"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Few untrained people can detect lying"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; most liars suffer from periods of depression."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; all of his subjects were trained to identify micro-expressions."
+                  }
+                ]
+              },
+              {
+                "number": 31,
+                "textHtml": "What point does the writer make about Ekman's techniques in the fourth paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; they take decades to teach"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; they have been in great demand"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; they have aroused the suspicions of some agencies"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; they can be used by a limited range of occupations."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 32–36</h3>Complete the summary using the list of words, <strong>A–I</strong>, below.",
+            "selectCount": 1,
+            "bodyHtml": "<p>Drag a word into each gap (or tap a word, then tap a gap). Tap × to clear.</p><div><p><strong>The television series based on Ekman's work</strong></p><p>A new TV series based on Ekman's work features a hero named Lightman, who detects lies. Initially, Ekman was unenthusiastic about the TV project because he feared the possibility of encouraging viewers {{32}}. For example, he was worried that one day the programme could result in {{33}} not being carried out. Ultimately though, he has given the show his blessing because he is not aware of any other comparable programme based on a single person's {{34}}. The {{35}} of the show's producer have been another pleasant surprise and, considering the genre of the programme, Ekman is happy with the show's overall {{36}}.</p></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "consequences"
+              },
+              {
+                "letter": "B",
+                "textHtml": "crimes"
+              },
+              {
+                "letter": "C",
+                "textHtml": "false beliefs"
+              },
+              {
+                "letter": "D",
+                "textHtml": "motives"
+              },
+              {
+                "letter": "E",
+                "textHtml": "justice"
+              },
+              {
+                "letter": "F",
+                "textHtml": "accuracy"
+              },
+              {
+                "letter": "G",
+                "textHtml": "acting"
+              },
+              {
+                "letter": "H",
+                "textHtml": "research"
+              },
+              {
+                "letter": "I",
+                "textHtml": "ratings"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 37–40</h3>Do the following statements agree with the claims of the writer in Reading Passage 3?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "Ekman regrets the lies he told as a child."
+              },
+              {
+                "number": 38,
+                "textHtml": "People who are good at lying tend to be good at detecting lies."
+              },
+              {
+                "number": 39,
+                "textHtml": "Ekman has worked with poker players to help them lie more convincingly."
+              },
+              {
+                "number": 40,
+                "textHtml": "Ekman is more interested in the types of lies with serious consequences."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "three centimetres",
+          "3 centimetres",
+          "three centimeters",
+          "3 centimeters"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "stone monument",
+          "a stone monument"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "gold commissioner"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "primary school",
+          "a primary school"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "casino",
+          "a casino",
+          "las vegas casino"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "quartz"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "cosmetics"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "birds"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "chemicals"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "fly"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "TRUE"
+        ]
+      }
+    },
+    "sets": []
+  }
+}
