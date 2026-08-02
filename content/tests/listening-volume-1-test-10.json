@@ -1,0 +1,469 @@
+{
+  "slug": "listening-volume-1-test-10",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 1, Test 10",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10: Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Damaged Fridge Report</div><p><strong>Warranty:</strong> 3 years</p><p><strong>Model:</strong> {{1}} Mount</p><p><strong>Colour:</strong> {{2}}</p><p><strong>Date of purchase:</strong> {{3}}</p><p>Problems:</p><ul><li>The non-stop {{4}}</li><li>{{5}} degrees</li></ul><p><strong>The repair shop:</strong> Ken's appliance (near to the {{6}})</p><p>The customer needs to store food for her {{7}} shop.</p><p><strong>Total value of loss:</strong> ${{8}}</p><p>Things to do:</p><ul><li>Ask the {{9}} to call back</li><li>Replace the damaged {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 11–16: What tourist attraction does each of the following locations have? Choose <strong>SIX</strong> answers from the box and write the correct letter, A–I, next to questions 11–16.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+              },
+              {
+                "number": 12,
+                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+              },
+              {
+                "number": 13,
+                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+              },
+              {
+                "number": 14,
+                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+              },
+              {
+                "number": 15,
+                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+              },
+              {
+                "number": 16,
+                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 17 and 18: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which <strong>TWO</strong> types of accommodation are available on a weekly basis?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; lighthouse"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; hostel"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; castle"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; cottages"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; farm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 19 and 20: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> activities are recommended by the tour guide?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; walking"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; cycling"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; swimming"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; fishing"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; riding"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 21–30: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Sports Utility Vehicles (SUVs)</div><ul><li>SUVs are mainly used in {{21}}</li><li>They are heavily advertised through {{22}} campaigns.</li><li>They have a very powerful {{23}}</li><li>People feel {{24}} when driving them.</li><li>Drivers like the {{25}}</li><li>They are {{26}} to the environment.</li><li>Because of their heavy {{27}}, they absorb impact energy.</li><li>They are liable to {{28}}</li></ul><p>How to limit the use of SUVs</p><ul><li>Limit use to those people who need them (e.g. {{29}})</li><li>Raise cost of {{30}} for drivers</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 31 and 32: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 31,
+                "textHtml": "&nbsp;Participants in the learner persistence study were all drawn from the same",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; age"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; geographical area"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; socio-economic level"
+                  }
+                ]
+              },
+              {
+                "number": 32,
+                "textHtml": "&nbsp;The study showed that when starting their course, older students were worried about",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; effects on their home life"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; implications for their future career"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; financial constraints"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 33–37: Complete the table below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Research findings</p><table class=\"q-table\"><thead><tr><th></th><th>Social and Environmental Factors</th><th>Other Factors</th><th>Personal Characteristics</th></tr></thead><tbody><tr><td>First level of importance</td><td>Effective support</td><td>Perceived success in study</td><td>Enjoyment of a {{33}}</td></tr><tr><td>Second level of importance</td><td>Positive experience at {{34}}</td><td>Good {{35}}</td><td>Many {{36}} in daily life</td></tr><tr><td>Third level of importance</td><td>Good interaction with the {{37}}</td><td>No family problems</td><td>Capacity for multi-tasking</td></tr></tbody></table>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-4-group-3",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 38–40: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Recommendations</div><ul><li>Ask new students to complete questionnaires to gauge their level of {{38}}</li><li>Encourage them to play the role of {{39}}</li><li>Provide {{40}} services</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "top"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "silver"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "january 12th",
+          "january 12",
+          "12th january",
+          "12 january"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "alarm"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "10",
+          "ten"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "station"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "sandwich"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "180"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "manager"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "door"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "cities"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "commercial"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "engine"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "safe"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "higher seats",
+          "higher seat"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "harmful"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "weight"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "roll over",
+          "rollover"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "farmers"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "insurance"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "challenge"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "school"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "health"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "interests"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "tutors"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "maturity"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "advisors"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "online"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "B",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "B",
+          "D"
+        ]
+      }
+    ]
+  }
+}

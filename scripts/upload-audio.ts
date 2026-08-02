@@ -29,6 +29,7 @@ import {
 
 type Options = {
   list: boolean;
+  all: boolean;
   slug?: string;
   file?: string;
   fromSource: boolean;
@@ -36,11 +37,12 @@ type Options = {
 };
 
 function parseArgs(argv: string[]): Options {
-  const options: Options = { list: false, fromSource: false, publish: false };
+  const options: Options = { list: false, all: false, fromSource: false, publish: false };
 
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     if (arg === "--list") options.list = true;
+    else if (arg === "--all") options.all = true;
     else if (arg === "--from-source") options.fromSource = true;
     else if (arg === "--publish") options.publish = true;
     else if (arg === "--test") options.slug = argv[++i];
@@ -49,6 +51,38 @@ function parseArgs(argv: string[]): Options {
   }
 
   return options;
+}
+
+const SOURCE_DIR = "_source-tests";
+
+/**
+ * Attaches every listening test that has a matching `_source-tests/<slug>.mp3`,
+ * which is where `npm run convert` extracts the base64 audio to. One command to
+ * ingest a whole Volume after converting, rather than ten by hand.
+ */
+async function uploadAll(options: Options) {
+  const tests = await prisma.test.findMany({
+    where: { skill: "LISTENING" },
+    select: { slug: true },
+    orderBy: { slug: "asc" },
+  });
+
+  let done = 0;
+  let skipped = 0;
+  for (const test of tests) {
+    const file = resolvePath(SOURCE_DIR, `${test.slug}.mp3`);
+    try {
+      await stat(file);
+    } catch {
+      console.log(`skip  ${test.slug} — no ${SOURCE_DIR}/${test.slug}.mp3`);
+      skipped += 1;
+      continue;
+    }
+    await upload({ ...options, slug: test.slug, file });
+    console.log("");
+    done += 1;
+  }
+  console.log(`ok    attached ${done} listening test(s)${skipped ? `, skipped ${skipped}` : ""}.`);
 }
 
 async function listTests() {
@@ -285,6 +319,7 @@ async function upload(options: Options) {
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   if (options.list) return listTests();
+  if (options.all) return uploadAll(options);
   return upload(options);
 }
 

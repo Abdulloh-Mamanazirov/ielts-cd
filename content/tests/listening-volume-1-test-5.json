@@ -1,0 +1,550 @@
+{
+  "slug": "listening-volume-1-test-5",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 1, Test 5",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–4: Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>1</strong> &nbsp;The Eastern side of the island of New Guinea, Papua New Guinea, became an {{1}} in 1975.</p><p><strong>2</strong> &nbsp;Only 18% of the inhabitants of Papua New Guinea reside in {{2}}.</p><p><strong>3</strong> &nbsp;Papua New Guinea tribes should be seen as separate {{3}}.</p><p><strong>4</strong> &nbsp;There are a small number of tribes who have had {{4}} with neighbouring groups and the world beyond.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 5–10: Complete the notes below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Tribes of Papua New Guinea</div><p>Huli-Wigmen</p><ul><li>40,000 members</li><li>decorate their faces with {{5}}</li><li>have belts of pigtails, apron of leaves, wigs made of own hair</li><li>do dances which imitate local birds</li></ul><p>Asaro mud men</p><ul><li>cover their bodies in mud to resemble {{6}} in order to frighten off other tribes</li><li>have very long fingernails</li><li>put on {{7}} to make themselves look fiercer</li></ul><p>Chimbu skeleton dancers</p><ul><li>Men and women used to live in separate houses.</li><li>Now families live together.</li><li>Now perform dances for the benefit of {{8}}</li></ul><p>Mount Hagan Sing-Sing</p><ul><li>Over 50 tribes take part.</li><li>Begun by {{9}} in 1961 to bring together tribes in peace.</li><li>Tribespeople wear headdresses made of flowers, shells and feathers.</li><li>Some loss of authenticity, such as the {{10}} dyes on their wonderful costumes with artificial ones.</li></ul></div>",
+            "maxWords": 4
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–15: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What does Darren now think about the Latin name of the red squirrel?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; it is suitable for this species"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; it is meaningless"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; it is an amusing description"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;The number of red squirrels is reduced due to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; the invasion of an exotic species"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; a disease brought by the exotic species"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; the declining food supply"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;Darren differentiates red squirrels from rats by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; their food category"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; how the food was eaten"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; the way they stored food"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What was the restriction for Darren's photography?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; he could only take photos of one species at a time"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; he could only use one camera"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; he could only take photographs in a certain location"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;Why is Darren confident about his photographs?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; he practiced a lot"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; his teacher prepared him well"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; he had high-quality equipment"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 16–20: Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>16</strong> &nbsp;the photos will be exhibited in a {{16}}</p><p><strong>17</strong> &nbsp;Darren's photos once won a competition held by a {{17}}</p><p>Ways to improve photography skills:</p><p><strong>18</strong> &nbsp;some pictures need a so-called {{18}} in the scene</p><p><strong>19</strong> &nbsp;Darren thinks the lighting is best late in the {{19}}</p><p><strong>20</strong> &nbsp;To take better photos, photographers should make {{20}}</p></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21 and 22: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> problems are caused by water hyacinth?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; plants and fish are poisoned"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; farmers cannot fish"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; the dam's structure is damaged"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; electricity production is affected (option D)"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; electricity production is affected (option E)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 23–26: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "&nbsp;Where was water hyacinth originally from?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Latin America"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Africa"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Europe"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What is the primary cause of the decrease in nutrients from the soil?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; soil erosion"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; a change of rainfall"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; loss of trees"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;When will the biological solution bring risks to the environment?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; immediately"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; 6 months later"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; many years later"
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;What does John say about the mechanical solution?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; ineffective"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; dangerous"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; expensive"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 27–30: Choose <strong>FOUR</strong> answers from the box and write the correct letter, A–F, next to Questions 27–30.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "can reduce the effect of global warming"
+              },
+              {
+                "letter": "B",
+                "textHtml": "can be used as an alternative energy resource"
+              },
+              {
+                "letter": "C",
+                "textHtml": "can make quick profits"
+              },
+              {
+                "letter": "D",
+                "textHtml": "can produce materials for plants to grow in"
+              },
+              {
+                "letter": "E",
+                "textHtml": "can be good for human health"
+              },
+              {
+                "letter": "F",
+                "textHtml": "can produce fertiliser"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "dried water hyacinth"
+              },
+              {
+                "number": 28,
+                "textHtml": "mushroom farmers"
+              },
+              {
+                "number": 29,
+                "textHtml": "oyster and straw mushrooms"
+              },
+              {
+                "number": 30,
+                "textHtml": "cows"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>About Nanotechnology</div><p>Nanotechnology and Its Applications</p><p>It is a study on the scale of nanometre</p><ul><li>The development in nanotechnology is the result of a new type of {{31}}</li><li>People are worried that nanotech products are {{32}}</li></ul><p>Food and household</p><ul><li>The availability of {{33}} in our diet (e.g. in potatoes) is greatly improved</li><li>The packaging cost {{34}} is particularly reduced</li><li>Nanotechnology can increase the {{35}} of food.</li><li>Nanotechnology can be used to make new types of furniture.</li></ul><p>Agriculture</p><ul><li>The efficiency of {{36}} is increased</li></ul><p>Health and medicine</p><ul><li>Nanotubes allow more {{37}} to enter veins</li><li>As the most popular material, {{38}} is used to kill bacteria</li><li>Nanotechnology is also helpful in {{39}} loss program</li></ul><p>Cosmetic</p><ul><li>Nanoparticles protect skin from the {{40}} and help to improve the ability against aging</li><li>Nanotechnology helps to deliver effective elements to the skin.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "independent country"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "urban areas",
+          "urban area"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "social groups"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "no contact"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "yellow paint"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "river spirits"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "terrifying masks"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "tourists",
+          "tourist"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "government"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "natural",
+          "natural dyes",
+          "replacement of natural dyes"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "local museum"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "national newspaper"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "secondary object"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "afternoon"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "detailed notes"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "microscope"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "unnatural"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "iron"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "chocolate"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "flavour",
+          "flavor"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "fertilisers",
+          "fertilizers"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "drugs"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "silver",
+          "sliver"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "weight"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "sun"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "B",
+          "E"
+        ]
+      }
+    ]
+  }
+}

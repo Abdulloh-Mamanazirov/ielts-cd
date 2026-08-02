@@ -1,0 +1,476 @@
+{
+  "slug": "listening-volume-1-test-6",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 1, Test 6",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10: Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Tour Booking Enquiry</div><p><strong>Type of holiday:</strong> {{1}}</p><p>Hotel:</p><ul><li>Meal: including {{2}}</li><li>Facilities: a pool, a nightclub and a {{3}}</li><li>Prices: reduce from £{{4}} to £315</li></ul><p><strong>Self-catering Apartment:</strong> Stay in a {{5}} room</p><p><strong>Equipment Rental:</strong> Rental for one week: £{{6}}</p><p>Types of Insurance:</p><ul><li>{{7}} Cover: £30</li><li>Premier cover: £{{8}}</li></ul><p><strong>Transport:</strong> The cheapest way of going to airport: by {{9}}</p><p><strong>Payment method:</strong> Pay by {{10}} : no extra fee</p></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11 and 12: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Which <strong>TWO</strong> items will participants receive when they check in?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; a class list"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; a face towel"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; a name tag"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; a shoe bag"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; a water bottle"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 13 and 14: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 13,
+                "textHtml": "Which <strong>TWO</strong> activities will be hosted in the first afternoon and evening?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; costume making"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; a musical show"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; an informal dance"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; a talk on dance history"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; a dance test"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "map_labeling",
+            "rubricHtml": "<p>Questions 15–20: Label the map below. Write the correct letter, A–J, next to questions 15–20.</p>",
+            "selectCount": 1,
+            "imageUrl": "/test-media/listening-volume-1-test-6-map-1.jpg",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              },
+              {
+                "letter": "J",
+                "textHtml": "J"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "shower room"
+              },
+              {
+                "number": 16,
+                "textHtml": "bunkroom"
+              },
+              {
+                "number": 17,
+                "textHtml": "games room"
+              },
+              {
+                "number": 18,
+                "textHtml": "reception"
+              },
+              {
+                "number": 19,
+                "textHtml": "medical centre"
+              },
+              {
+                "number": 20,
+                "textHtml": "store"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 21–22: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Things that need to be done</div><ul><li>Hand in book reports with the next assignment</li><li>Check accuracy of the {{21}} in the last section</li><li>Give more {{22}}</li><li>Expand ideas to improve the grade</li></ul></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 23–27: Answer the questions below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>23</strong> &nbsp;When will Karen give her presentation? {{23}}</p><p><strong>24</strong> &nbsp;What must she do during the presentation? {{24}}</p><p><strong>25</strong> &nbsp;By which date does she have to submit an abstract? {{25}}</p><p><strong>26</strong> &nbsp;Where will the presentation take place? {{26}}</p><p><strong>27</strong> &nbsp;Who will grade her presentation? {{27}}</p></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 28–30: Choose <strong>THREE</strong> letters, A–H.</p>",
+            "selectCount": 3,
+            "questions": [
+              {
+                "number": 28,
+                "textHtml": "Which <strong>THREE</strong> modules will Karen study next year?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Communication Skills"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Data collection"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Discourse Analysis"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Language and Society"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; Phonology"
+                  },
+                  {
+                    "letter": "F",
+                    "textHtml": "&nbsp; Psycholinguistics"
+                  },
+                  {
+                    "letter": "G",
+                    "textHtml": "&nbsp; Research Methodology"
+                  },
+                  {
+                    "letter": "H",
+                    "textHtml": "&nbsp; Social interaction"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Research on birds in Australia</div><p>The study by Cunningham in 1995</p><ul><li>It aimed to study birds which were {{31}} in cities</li></ul><p>Methodology</p><ul><li>Researchers were able to {{32}} rather than count the number of birds by some methods, such as random sampling.</li><li>Researchers studied birds' companionship habits using a {{33}} system.</li><li>Researchers attached tags to birds' legs to identify their {{34}} over time.</li></ul><p>Findings</p><ul><li>Birds tended to choose the same nesting site in which they were raised</li><li>Human activities such as {{35}} had a negative effect on the reproduction of birds</li></ul><p>Measures taken by local organisation</p><ul><li>To increase birds' rate of {{36}} in various ways</li><li>To reduce the dangers caused by {{37}} farms, e.g. colliding with turbines</li></ul><p>The study by Conway in 2006</p><ul><li>Researchers monitored the {{38}} of birds' nocturnal callings during flight</li><li>{{39}} were taken to listen to birds' sounds</li><li>Data could be collected through noise detection devices placed at a great {{40}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "surfing"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "breakfast"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "gym"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "360"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "shared"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "75"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "basic"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "42.5",
+          "42.50"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "taxi"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "cheque",
+          "check"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "references"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "examples"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "next seminar",
+          "the next seminar"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "explain the experiment",
+          "explain experiment"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "26th november",
+          "november 26th",
+          "26th of november",
+          "26 november"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "the chemistry lab",
+          "chemistry lab"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "the professor",
+          "professor"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "protected"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "estimate"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "mapping"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "trends"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "pollution"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "survival"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "wind"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "frequency"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "recordings"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "distance"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          11,
+          12
+        ],
+        "accepted": [
+          "A",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          13,
+          14
+        ],
+        "accepted": [
+          "C",
+          "D"
+        ]
+      },
+      {
+        "questions": [
+          28,
+          29,
+          30
+        ],
+        "accepted": [
+          "A",
+          "C",
+          "F"
+        ]
+      }
+    ]
+  }
+}

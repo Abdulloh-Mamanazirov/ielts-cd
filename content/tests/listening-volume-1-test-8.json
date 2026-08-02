@@ -1,0 +1,568 @@
+{
+  "slug": "listening-volume-1-test-8",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 1, Test 8",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10: Complete the table below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Washing Machine Warranty</div><p>Personal details</p><p><strong>Name:</strong> Judie Smith</p><p><strong>Reference number:</strong> {{1}}</p><p><strong>Time of purchase:</strong> {{2}}</p><p><strong>Current address:</strong> {{3}}, Oxford</p><p><strong>Postcode:</strong> {{4}}</p><p>Problems</p><ul><li>The floor was wet because of the {{5}}</li><li>The washing machine was out of control and the woman {{6}} immediately</li><li>The floor is made of {{7}}</li></ul><p>Arrangement for the repair work</p><ul><li>Ask a {{8}} to repair the washing machine</li><li>The repairman is available {{9}}</li><li>The woman's house is opposite the {{10}}</li></ul></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–15: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;What is the basic requirement for applying for a UK driving licence?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; a medical report"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; a valid licence from another country"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; current residency in the UK"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;What is true about the translation of original licences?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Applicants need to go to a recognised organisation."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; It is not always necessary for foreigners when applying for a UK licence."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Applicants need to pay an extra fee for translation services."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;When applying for a UK licence, which type of photo will NOT be approved?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; photos in which the applicant is wearing glasses"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; photos with a cream background"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; photos that are undersized"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What does the speaker think of the licence checking service?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; The process is too slow."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; The application form is confusing."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Some of the steps are unnecessary."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What does the speaker recommend about making an application?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; choosing a quiet location"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; visiting the nearest branch"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; completing the forms online"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 16–20: What is the current feature of traffic management in each of the following cities? Write the correct letter, A–H, next to questions 16–20.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "good signage"
+              },
+              {
+                "letter": "B",
+                "textHtml": "multiple access roads"
+              },
+              {
+                "letter": "C",
+                "textHtml": "police control points"
+              },
+              {
+                "letter": "D",
+                "textHtml": "ring roads"
+              },
+              {
+                "letter": "E",
+                "textHtml": "one-way streets"
+              },
+              {
+                "letter": "F",
+                "textHtml": "effective traffic lights"
+              },
+              {
+                "letter": "G",
+                "textHtml": "additional lanes"
+              },
+              {
+                "letter": "H",
+                "textHtml": "pedestrianised areas"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "London"
+              },
+              {
+                "number": 17,
+                "textHtml": "Edinburgh"
+              },
+              {
+                "number": 18,
+                "textHtml": "Cardiff"
+              },
+              {
+                "number": 19,
+                "textHtml": "Manchester"
+              },
+              {
+                "number": 20,
+                "textHtml": "Oxford"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 21–26: What problem does Mona point out about each part of the hotel where she interned? Write the correct letter, A–F, next to questions 21–26.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "it lacks patience"
+              },
+              {
+                "letter": "B",
+                "textHtml": "it is very strict"
+              },
+              {
+                "letter": "C",
+                "textHtml": "it is a daily routine"
+              },
+              {
+                "letter": "D",
+                "textHtml": "it lacks sufficient staff"
+              },
+              {
+                "letter": "E",
+                "textHtml": "it is noisy"
+              },
+              {
+                "letter": "F",
+                "textHtml": "it is very tiring"
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "reception"
+              },
+              {
+                "number": 22,
+                "textHtml": "restaurant"
+              },
+              {
+                "number": 23,
+                "textHtml": "coffee bar"
+              },
+              {
+                "number": 24,
+                "textHtml": "shop"
+              },
+              {
+                "number": 25,
+                "textHtml": "personal office"
+              },
+              {
+                "number": 26,
+                "textHtml": "cleaning"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27–30: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "&nbsp;How does the experience benefit Mona?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; It is good for her future job."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; It is good for her dissertation."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; It can let her know something about the specific job."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "&nbsp;Why does the tutor want Mona to do the presentation?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Because she can do it skilfully."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Because she wants to do it herself."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Because she can show other students how to do a presentation."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "&nbsp;What does Mona suggest Tom do?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; talk to the university's career centre"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; talk to his tutor"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; contact the hotel manager"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "&nbsp;What is Tom's plan for his own essay?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; to study the rise of five-star hotels"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; to use a video approach"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; to do research into how the hotel industry works"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>The Early History of Salt</div><p>Introduction</p><ul><li>Salt is essential for human {{31}}</li></ul><p>Ancient Rome</p><ul><li>The word {{32}} comes from the Latin words \"solarium argentum,\" which was used to describe the payment to Roman soldiers.</li></ul><p>Ancient Sweden</p><ul><li>Animals were kept in the local {{33}} at the right time of year.</li><li>Fresh meat was only available in {{34}}.</li><li>Salt has been used widely: we can tell from the diet of the {{35}} in Sweden.</li><li>{{36}} consumption increased rapidly because the food was much too salty.</li></ul><p>Salt source</p><ul><li>People mainly extract salt from oceans and {{37}} in the basins.</li><li>Salt from spring water is more {{38}} and purer compared to that from sea water.</li></ul><p>Salt distribution</p><p>In ancient Sweden</p><ul><li>Locals needed to protect the {{39}} by which they imported salt.</li></ul><p>In other ancient countries</p><ul><li>People carrying salt around were seen as a natural means of {{40}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "cwx576884"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "9 months",
+          "nine months",
+          "9 month",
+          "nine moth"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "middle street"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "go194ke",
+          "g0194ke"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "water"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "switched off"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "wood"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "client engineer"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "next tuesday"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "post office"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "health"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "salary"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "forest",
+          "forests"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "october"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "king"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "beer"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "deserts",
+          "desert"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "concentrated"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "shipping"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "transport"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

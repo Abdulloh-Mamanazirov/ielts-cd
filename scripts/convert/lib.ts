@@ -45,6 +45,9 @@ const DROP_SELECTOR = [
   // The source printed the question number beside each input; the slot marker
   // now carries it, so keeping both would render it twice.
   ".qnum", ".dz-num", ".help-btn", ".help-text",
+  // bekhruz reading/listening: the number badge beside a gap, and the
+  // select-to-highlight hint the source players show above a passage.
+  ".inline-qno", ".hl-tip", ".highlight-tip",
 ].join(",");
 
 export function loadHtml(path: string): Cheerio {
@@ -244,6 +247,18 @@ export function toSlotHtml<T extends AnyNode>($: Cheerio, root: cheerio.Cheerio<
   root.find("input.gap, input[data-q]").each((_, element) => {
     const number = $(element).attr("data-q");
     $(element).replaceWith(number ? `{{${number}}}` : "");
+  });
+
+  // bekhruz listening: <input data-question="8">. bekhruz reading drag summary:
+  // <span class="dzone" data-q="37">. Either way the attribute holds the number.
+  root.find("[data-question]").each((_, element) => {
+    const number = $(element).attr("data-question");
+    $(element).replaceWith(/^\d+$/.test(number ?? "") ? `{{${number}}}` : "");
+  });
+
+  root.find("span[data-q], .dzone[data-q]").each((_, element) => {
+    const number = $(element).attr("data-q");
+    $(element).replaceWith(/^\d+$/.test(number ?? "") ? `{{${number}}}` : "");
   });
 
   root.find("input[name^='q']").each((_, element) => {

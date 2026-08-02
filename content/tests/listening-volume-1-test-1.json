@@ -1,0 +1,533 @@
+{
+  "slug": "listening-volume-1-test-1",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 1, Test 1",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–6: Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<p>Riverside Festival — Programme of Events</p><table class=\"q-table\"><thead><tr><th>Date</th><th>Time</th><th>Event</th><th>Location</th><th>Comments</th></tr></thead><tbody><tr><td>June 19th</td><td>7 p.m.</td><td><em>Example</em><br>Concert</td><td>the {{1}}</td><td></td></tr><tr><td>June 20th</td><td>{{2}} p.m.</td><td>tour</td><td>meet at the {{3}}</td><td>includes a visit to an old flour mill</td></tr><tr><td>June 21st</td><td>all day</td><td>children's {{4}} competition</td><td>Beechen Community Centre</td><td>bring a {{5}}</td></tr><tr><td>June 21st</td><td>evening</td><td>fireworks</td><td>by the {{6}}</td><td></td></tr></tbody></table>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 7–10: Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Additional Information</div><ul><li>This year, activities end by {{7}} p.m.</li><li>There won't be any {{8}} in the town centre this year.</li><li>The festival's web address is www.{{9}}.com</li><li>Festival organisers would like to receive {{10}} online.</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–14: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;Approximately how many passengers does the ferry hold?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; 160"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; 600"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; 2000"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;Which items should the tourists pack in a separate bag?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; food"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; reading material"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; medicines"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;The hostel in La Vega de Liebana has",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; good washing facilities."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; a games room."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; a number of single bedrooms."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;Residents at the hostel are not allowed to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; take furniture out of the hostel building."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; enter the hostel after a certain time."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; smoke in the hostel gardens."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 15–17: Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Clothes and Equipment</div><p>Bring:</p><ul><li>boots with thick soles</li><li>spare {{15}}</li><li>light waterproofs</li><li>suncream: strength — {{16}}</li><li>a {{17}} folder for map, etc.</li></ul></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 18–20: Choose <strong>THREE</strong> letters, A–G.</p>",
+            "selectCount": 3,
+            "questions": [
+              {
+                "number": 18,
+                "textHtml": "Which <strong>THREE</strong> features of the area in Spain does the speaker talk about?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; altitude"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; coastline"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; economy"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; landscape"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; temperatures"
+                  },
+                  {
+                    "letter": "F",
+                    "textHtml": "&nbsp; vegetation"
+                  },
+                  {
+                    "letter": "G",
+                    "textHtml": "&nbsp; wildlife"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–24: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;Sally says many students see peer assessment as",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; a way for tutors to save time."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; a useful learning tool."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; a valuable form of assessment."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What do Steve and Sally agree is an advantage of peer assessment?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; It's more reliable than self-assessment."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; It increases students' self-awareness."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; It builds rapport between students."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;If the peer assessment marks seem incorrect,",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; students should mark the assignments again."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; the tutor should check those assignments."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; the marking criteria should be rewritten."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;How were the presentations in the research project marked?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Students and lecturers marked all the presentations."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Students chose which presentations they wanted to mark."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Lecturers marked a selection of presentations."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 25–30: Write the correct letter, A, B or C, next to questions 25–30.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "They gave higher marks."
+              },
+              {
+                "letter": "B",
+                "textHtml": "They gave lower marks."
+              },
+              {
+                "letter": "C",
+                "textHtml": "Their marks were not significantly different."
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "male students marking female presenters"
+              },
+              {
+                "number": 26,
+                "textHtml": "female students marking male presenters"
+              },
+              {
+                "number": 27,
+                "textHtml": "female students marking female presenters"
+              },
+              {
+                "number": 28,
+                "textHtml": "younger students marking older presenters"
+              },
+              {
+                "number": 29,
+                "textHtml": "students marking presenters from a different university"
+              },
+              {
+                "number": 30,
+                "textHtml": "students who had helped set criteria"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–40: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Languages in Vanuatu</div><p>Local languages:</p><ul><li>Actively spoken languages: 81</li><li>Declining languages: 17</li><li>{{31}} languages: 8</li><li>Total: 106</li></ul><p>Foreign languages:</p><ul><li>English is used in the {{32}} system</li></ul><div>Bislama</div><ul><li>Spoken by 90% of the population today.</li><li>In the past this language was described as {{33}}.</li></ul><div>History of Bislama</div><ul><li>Around 1800 it was used as a common language on many ships.</li><li>After 1860 Vanuatu people worked in Australian {{34}}.</li><li>After 1950 people moved to the {{35}}.</li></ul><div>Description of Bislama</div><p>General</p><ul><li>Bislama should be called a {{36}} pidgin.</li></ul><p>Vocabulary</p><ul><li>Most words come from English.</li><li>Words such as \"from\" may have more {{37}} in Bislama.</li><li>Less than 10% of words are of {{38}} origin.</li><li>Pacific words describe the natural world and also local {{39}}.</li></ul><p>Grammar</p><ul><li>It is based on Vanuatu languages.</li><li>The word \"long\" acts as an important {{40}} in Bislama.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "theatre"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "4.30",
+          "4:30",
+          "4"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "station"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "cooking"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "plate"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "river"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "11.15",
+          "11:15",
+          "11"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "parking",
+          "car park"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "events"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "feedback"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "socks"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "total block",
+          "factor 40"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "plastic"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "extinct"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "education"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "broken"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "plantation",
+          "plantations"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "city"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "developed"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "meanings"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "French"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "culture"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "preposition"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          18,
+          19,
+          20
+        ],
+        "accepted": [
+          "A",
+          "F",
+          "G"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "slug": "reading-volume-1-test-3",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 1, Test 3",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "An important language development",
+        "passageHtml": "<p>Read the text and answer questions 1–13</p><p>Cuneiform, the world's first known system of handwriting, originated some 6,000 years ago in Sumer in what is now southern Iraq. It was most often inscribed on palm-sized, rectangular clay tablets measuring several centimetres across, although occasionally, larger tablets or cylinders were used. Clay was an excellent medium for writing. Other surfaces which have been employed – for example, parchment, papyrus and paper – are not long-lasting and are easily destroyed by fire and water. But clay has proved to be resistant to those particular kinds of damage.</p><p>The word 'cuneiform' actually refers to the marks or signs inscribed in the clay. The original cuneiform signs consisted of a series of lines – triangular, vertical, diagonal and horizontal. Sumerian writers would impress these lines into the wet clay with a stylus – a long, thin, pointed instrument which looked somewhat like a pen. Oddly, the signs were often almost too small to see with the naked eye. Cuneiform signs were used for the writing of at least a dozen languages. This is similar to how the Latin alphabet is used today for writing English, French, Spanish and German for example.</p><p>Before the development of cuneiform, tokens were used by the Sumerians to record certain information. For example, they might take small stones and use them as tokens or representations of something else, like a goat. A number of tokens, then, might mean a herd of goat. These tokens might then be placed in a cloth container and provided to a buyer as a receipt for a transaction, perhaps five tokens for five animals. It was not that different from what we do today when we buy some bread and the clerk gives us back a piece of paper with numbers on it to confirm the exchange.</p><p>By the 4th century BCE, the Sumerians had adapted this system to a form of writing. They began putting tokens in a container resembling an envelope, and now made of clay instead of cloth. They then stamped the outside to indicate the number and type of tokens inside. A person could then 'read' what was stamped on the container and know what was inside.</p><p>Gradually, Sumerians developed symbols for words. When first developed, each symbol looked like the concrete thing it represented. For example, an image which resembled the drawing of a sheep meant just that. Then another level of abstraction was introduced when symbols were developed for intangible ideas such as 'female' or 'hot' or 'God'. Cuneiform, in other words, evolved from a way used primarily to track and store information into a way to represent the world symbolically. Over the centuries, the marks became ever more abstract, finally evolving into signs that looked nothing like what they referred to, just as the letters 'h-o-u-s-e' have no visual connection to the place we live in. At this last stage in the evolution of cuneiform, the signs took the form of triangles, which became common cuneiform signs.</p><p>As the marks became more abstract, the system became more efficient because there were fewer marks a 'reader' needed to learn. But cuneiform also became more complex because society itself was becoming more complex, so there were more ideas and concepts that needed to be expressed. However, most linguists and historians agree cuneiform developed primarily as a tool for accounting. Of the cuneiform tablets that have been discovered, excavated and translated, about 75 percent contain this type of practical information, rather than artistic or imaginative work.</p><p>Cuneiform writing was used for thousands of years, but it eventually ceased to be used in everyday life. In fact, it died out and remained unintelligible for almost 2,000 years. In the late 19th century, a British army officer, Henry Rawlinson, discovered cuneiform inscriptions which had been carved in the surface of rocks in the Behistun mountains in what is present-day Iran. Rawlinson made impressions of the marks on large pieces of paper, as he balanced dangerously on the surrounding rocks.</p><p>Rawlinson took his copies home to Britain and studied them for years to determine what each line stood for, and what each group of symbols meant. He found that in the writing on those particular rocks every word was repeated three times in three languages: Old Persian, Elamite and Babylonian. Since the meanings in these languages were already known to linguists, he could thus translate the cuneiform. Eventually, he fully decoded the cuneiform marks and he discovered that they described the life of Darius, a king of the Persian Empire in the 5th century BCE.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–5</h3>Do the following statements agree with the information given in Reading Passage 1?<br>Write <strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Cuneiform tablets were produced in different shapes and sizes."
+              },
+              {
+                "number": 2,
+                "textHtml": "When Sumerian writers marked on the clay tablets, the tablets were dry."
+              },
+              {
+                "number": 3,
+                "textHtml": "Cuneiform was often difficult to read because of its size."
+              },
+              {
+                "number": 4,
+                "textHtml": "A number of languages adopted cuneiform."
+              },
+              {
+                "number": 5,
+                "textHtml": "Cuneiform signs can be found in some modern alphabets."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 6–13</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The development and translation of cuneiform</div><div> Before cuneiform <ul><li>tokens, for example, {{6}} were often used</li><li>the first tokens were kept in containers made of {{7}}</li><li>tokens were used as a {{8}} to give when selling something</li></ul> By 4th century BCE <ul><li>tokens were put in a container that looked like a clay {{9}}</li></ul> Complex, abstract symbols developed <ul><li>at first, signs looked like what they indicated, e.g. {{10}}</li><li>then signs became more abstract</li><li>eventually, cuneiform signs shaped like {{11}} were developed</li><li>according to experts, cuneiform was mainly used for {{12}}</li></ul> 19th-century translation of cuneiform by Henry Rawlinson <ul><li>Rawlinson found cuneiform inscriptions in the Behistun mountains</li><li>Rawlinson copied inscriptions onto {{13}}</li><li>Rawlinson realised that each word of the inscriptions appeared in different languages</li><li>When translated, Rawlinson found the writings were about a 5th-century BCE king</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Children's comprehension of television advertising",
+        "passageHtml": "<p>Read the text and answer questions 14–26</p><p><strong>A</strong>&nbsp;&nbsp;In 1874, long before the advent of television, the English Parliament passed a law to protect children 'from their own lack of experience and from the wiles of pushing tradesmen and moneylenders' (James, 1965). The act is one of the earliest governmental policies to address children's vulnerability to commercial exploitation and was produced before major corporations earned huge profits by marketing products directly to children. Yet the issues underlying this 19th-century policy remain much the same in the 21st century.</p><p><strong>B</strong>&nbsp;&nbsp;Television has long been the predominant medium that advertisers have chosen for marketing products to children. It is estimated that the average child sees more than 40,000 television commercials a year, most of which are 15 to 30 seconds in length (Kunkel, 2001). According to another estimate, children aged 14 years and under make $24 billion in direct purchases and influence $190 billion in family purchases, underscoring the high stakes involved (McNeal, 1987).</p><p><strong>C</strong>&nbsp;&nbsp;A number of factors have contributed to an unprecedented growth in both the amount and type of advertising directed at children. First and foremost among these are changes in the media environment. In decades past, television programming targeted at children was limited and relegated to time slots unpopular with their parents, such as Saturday mornings (Turow, 1981). Today, the number of channels received in the average US home has escalated with the diffusion of cable television and satellite technologies. In this new multi-channel era, there are numerous national program services devoted exclusively to children. Naturally, these channels deliver significant amounts of child-oriented marketing messages. Although parent may be pleased that their youngsters can now watch children's programming at any hour of the day, they may not recognize that such viewing opportunities entail much greater exposure to advertising than any previous generation of youth has experienced.</p><p><strong>D</strong>&nbsp;&nbsp;Approximately 80% of all advertising targeted at children falls within four product categories: toys, cereals, candies, and fast-food restaurants (Kunkel et al, 1992). Commercials are highly effective at employing specific features designed to attract children's attention. For example, they use the strategy of introducing unique sound effects and rapidly moving images (Greer et al, 1982). The other most common persuasive strategy employed in advertising to children is to associate the product with playfulness and happiness, rather than to provide any actual product-related information (Kunkel et al, 1992). For example, a commercial featuring Ronald McDonald dancing, singing, and smiling in McDonald's restaurants without any mention of the actual food products available reflects a playful or happy theme. This strategy is also found frequently with cereal ads, which often include cartoon characters to help children identify the product. In contrast, most commercials fail to mention even the major grain used in each cereal.</p><p><strong>E</strong>&nbsp;&nbsp;Another common feature of advertising to children is the use of product disclosures such as 'batteries not included' or 'each part sold separately'. Studies make clear that young children do not comprehend the intended meaning of these disclaimers. For example, fewer than one in four kindergarten through second grade children could grasp the meaning of 'some assembly required' in a commercial. In contrast, the use of child-friendly language such as 'you have to put it together' more than doubled the proportion of children who understood the qualifying message (Liebert et al, 1977). The phrase 'part of a balanced breakfast' is also a frequent disclosure included in most cereal ads to combat the concern that sugared cereal holds little nutritional value for children. Research shows that most children below age 7 years have no idea what the term 'balanced breakfast' means (Palmer &amp; McDowell, 1981). Rather than informing young viewers about the importance of a nutritious breakfast, this common disclaimer actually leaves many children with the misimpression that cereal alone is sufficient for a meal. This pattern of employing creative terminology in advertising content so as to obscure certain information that might be unhelpful to the sponsor is a long-standing practice that often misleads the consumer (Geis, 1982).</p><p><strong>F</strong>&nbsp;&nbsp;Very young children do not recognize that there are two fundamentally different categories of television content: programs and commercials. Most children below the age of 4 or 6 exhibit low awareness of the concept of commercials, frequently explaining them as if they were a scene in the program itself. Once this confusion diminishes, children first recognize the difference between programs and commercials based on either affective ('commercials are funnier than TV programs') or perceptual ('commercials are short and programs are long') cues (Blatt et al, 1972).</p><p><strong>G</strong>&nbsp;&nbsp;Although most children's programs indicate that a commercial break is coming (e.g. by saying 'We'll be right back after these messages'), research reveals that these 'separators' generally do not help children to recognize advertising content (Palmer &amp; McDowell, 1979). This likely occurs because they are not perceptually distinct from the adjacent programming that surrounds them; in fact, many separators feature characters that appear in the same show that the commercial has just interrupted. When an ad includes one of the characters featured in a program, this is known as host-selling. This type of advertising makes the task of discriminating between program and commercial content particularly difficult for young children (Kunkel, 1988) and is thus restricted in the US by the Federal Communications Commission during children's programs.</p><p><strong>H</strong>&nbsp;&nbsp;In sum, because young children lack the cognitive skills and abilities of older children and adults, they do not comprehend commercial messages in the same way as more mature audiences, and are therefore uniquely susceptible to advertising influence.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–18</h3>Reading Passage 2 has eight paragraphs, <strong>A–H</strong>. Which paragraph contains the following information?<br><em>NB: You may use any letter more than once.</em>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "A description of recent innovations in TV broadcasting."
+              },
+              {
+                "number": 15,
+                "textHtml": "A mention of the main goods and services advertised to children."
+              },
+              {
+                "number": 16,
+                "textHtml": "A reference to a current limitation on television advertising aimed at children."
+              },
+              {
+                "number": 17,
+                "textHtml": "Two techniques used to encourage children to watch TV commercials."
+              },
+              {
+                "number": 18,
+                "textHtml": "A type of advertisement that may make children believe the opposite of what is true."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 19–22</h3>Match each statement with the correct researcher(s), <strong>A–H</strong>.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Kunkel"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Kunkel et al"
+              },
+              {
+                "letter": "C",
+                "textHtml": "McNeal"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Turow"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Greer et al"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Liebert et al"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Palmer &amp; McDowell"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Geis"
+              }
+            ],
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Ads often aim to teach children that a brand is fun rather than telling them about what is being sold."
+              },
+              {
+                "number": 20,
+                "textHtml": "Originally, children's programmes were only broadcast when adults rarely watched TV."
+              },
+              {
+                "number": 21,
+                "textHtml": "Children have a significant impact on what adults buy."
+              },
+              {
+                "number": 22,
+                "textHtml": "Tests showed that children can follow information if simple words are used."
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 23–26</h3>Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div>How very young children perceive commercials</div><div><p>Children below the age of 4 or 6 do not understand the difference between television programmes and commercials. In fact, these children often mistake an advertisement for a {{23}} from the programme they are watching. This is despite the fact that children's TV programmes usually include announcements called {{24}} to show that there is going to be a commercial break. The problem is made more difficult because of a technique called {{25}}, whereby a person or cartoon figure from the programme is used to sell a product during the commercial break. From the age of 4 or 6, children begin to realise that commercials are different from TV programmes; for example, they may recognise that advertisements are {{26}} than actual TV.</p></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "A New Voyage Round the World",
+        "passageHtml": "<p>Read the text and answer questions 27–40</p><p>A very old travel book that holds an unusual place in English literature</p><p>Part travelogue, part historical record of the Caribbean pirates, part scientific treatise, <em>A New Voyage Round the World</em> was William Dampier's account of his twelve-year series of journeys around the globe from 1679 to 1691. The wealth and novelty of Dampier's descriptions, combined with the highly colourful accounts of his comrades' escapades, proved so popular with a public hungry for tales of discovery and adventure that <em>A New Voyage</em> went into its third reprint within a year of publication. So ground-breaking was Dampier's account that the writers Swift and Defoe were inspired to create two of the most famous books in the English language, <em>Gulliver's Travels</em> and <em>Robinson Crusoe</em>.</p><p>Dampier's commentators have portrayed him as an unusual, not to say peculiar, man. Notwithstanding his undoubted qualities as an observer, he has been variously characterised as aloof, arrogant, hot-tempered and a weak leader of men. When he arrived on the western coast of Australia, he promptly elected to leave and head north out of dislike for the cold of more southerly latitudes. This physical sensitivity has often been seized on by his detractors, who point out that, as a result, Dampier missed out on becoming the name forever associated with the European discovery of Australia, that honour instead going to Captain James Cook some 80 years later. Yet it should be remembered that he was able to endure a never-ending plague of discomforts and ailments in the tropics. And once, wrecked off Ascension Island in the South Atlantic Ocean, he managed with his crew to survive for five weeks without help, living entirely on turtles and goats.</p><p>What of his early life, then? Dampier was born in 1651 in Somerset, England, the son of a tenant farmer, George, and his wife Ann. His birthplace, Hymerford House, stands to this day. His parents died before he reached seniority and his guardians apprenticed the young William to a ship's captain, the boy having shown very early inclinations to 'see the world'. There was nothing in his childhood to set Dampier apart from the numerous other young boys who were sent to sea at this time.</p><p>Having made brief passages to France and Newfoundland, he completed a more extended voyage to Java, where he began to learn the art of navigation. Returning briefly to Somerset, a neighbour offered Dampier a position overseeing his plantation in Jamaica, which he took up for a time, but he soon returned to sea on a trading voyage among the Caribbean islands. From the viewpoint of posterity, the most significant aspect of this time was that, as plantation manager, Dampier first started to keep a journal.</p><p>Although Dampier wrote several books, <em>A New Voyage Round the World</em> is the most important and it is worth considering just why this text met with such success. Certainly, the book would not have done so well purely on the merits of Dampier's findings regarding meteorology and natural history, even though they broke new ground at the time. What appealed more to book buyers of this era was his narrative of life among the pirates of the Caribbean islands, whom he joined for several years after leaving Jamaica. These tales of adventure among rogues and villains who had no regard for the law sparked widespread interest among his countrymen back home. More important even than this, however, is the superb nature of Dampier's prose, and his ability to communicate so vividly that raised the book above the common lot.</p><p>Dampier himself admits in the book's preface that he received help with the writing of the book, and other evidence exists to suggest that he was assisted by an unknown source. But whatever outside assistance he may have had, the book still has certain problems. In particular, his observations about nature are sometimes roughly dropped into the narrative at very odd junctures and these asides can sometimes interrupt the flow of the story. Dampier himself kept his observations about nature entirely separate from the main body of his travels, and we should therefore hold James Knapton responsible, as he was in charge of checking and revising Dampier's text, and his publishing company brought the finished book to a wider audience.</p><p>Dampier's life has been chronicled in full by numerous biographers, and I refer the reader in particular to Clennell Wilkinson's excellent (and sadly out-of-print) 1929 biography, as well as the recent portrait by Anton Gill. In short, despite wide acclaim for his writing, Dampier was not blessed in the art of wealth accumulation. Travelling with the pirates, while providing subsistence and adventure, never netted him the treasure chest that a more astute financial operative might have acquired. He died in 1715, aged sixty-three, in Colerman Street, London.</p><p>We have then a man of myriad and colourful parts, and perhaps not always the easiest of sailors to get along with because of his arrogance and hot temper. But to dwell on these aspects today is to miss the point: it is <em>A New Voyage Round the World</em> that should provide the most illuminating and entertaining of Dampier's legacies. Above all, the text is studded with some wonderfully colourful expressions, and readers will enjoy some of the finest descriptions of storms in the English language, and the liberal wit throughout.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–31</h3>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Which of the following best summarises the writer's point in the first paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Dampier's book does not fall into a single category."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Readers were not interested in books on the subject of travel."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Today's readers do not appreciate the style of Dampier's writing."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Dampier sailed round the world more quickly than anyone before."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "The writer refers to Swift and Defoe in order to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; provide information regarding Dampier's sources."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; compare Dampier to two earlier writers."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; give an example of Dampier's influence."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; highlight two of Dampier's critics."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "Dampier left the western coast of Australia because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; He wanted to get to the north before Cook arrived."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; He found the temperature there unpleasant."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; He had problems with his crews."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; He requested medical attention."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "What does the writer say more about Dampier in the second paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; He could cope with physical hardship."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; He was a more adventurous explorer than Cook was."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; He had a kind personality than he is given credit for."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; He was calm in a crisis."
+                  }
+                ]
+              },
+              {
+                "number": 31,
+                "textHtml": "What information is given about Dampier's early life?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; He had a difficult relationship with the people looking after him."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; He was different from other youths who went to sea."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; He wanted to travel from a young age."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; He came from a family of sailors."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 32–35</h3>Complete the summary using the words below.",
+            "selectCount": 1,
+            "bodyHtml": "<div>The Text of A New Voyage Round the World</div><div> The success of the book cannot solely be attributed to the originality of Dampier's {{32}}. Readers of the time were fascinated with his stories of the time he spent with outlaws and his colourful way of writing. It seems certain that Dampier worked on the book with a mystery {{33}}. Some aspects of <em>A New Voyage Round the World</em> are problematic; descriptions of {{34}} were inserted into the account of Dampier's adventures in a way that distracted the reader. It seems that the responsibility for the final version of the book lies with the {{35}}. </div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Detailed illustrations"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Traveller"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Nature"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Editor"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Writer"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Scientific observations"
+              },
+              {
+                "letter": "G",
+                "textHtml": "The crew"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Artist"
+              },
+              {
+                "letter": "I",
+                "textHtml": "Plain language"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 36–40</h3>Do the following statements agree with the claims of the writer in Reading Passage 3?<br>Write <strong>YES</strong> / <strong>NO</strong> / <strong>NOT GIVEN</strong>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 36,
+                "textHtml": "Many people wrote biographies of Dampier as a result of personal contact with him."
+              },
+              {
+                "number": 37,
+                "textHtml": "Dampier was skilled at making money."
+              },
+              {
+                "number": 38,
+                "textHtml": "Dampier's patience was represented by the writer."
+              },
+              {
+                "number": 39,
+                "textHtml": "A New Voyage Round the World is considered as one of the most modern books."
+              },
+              {
+                "number": 40,
+                "textHtml": "Dampier supervised his neighbour's plantation in Jamaica."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "stones"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "cloth"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "receipt"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "envelope"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "sheep"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "triangles"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "accounting"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "paper"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "scene"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "separators"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "host-selling"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "funnier"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "NO"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "NO"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "YES"
+        ]
+      }
+    },
+    "sets": []
+  }
+}

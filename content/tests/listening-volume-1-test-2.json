@@ -1,0 +1,509 @@
+{
+  "slug": "listening-volume-1-test-2",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 1, Test 2",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10: Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Rental Property Application Form</div><table class=\"q-table\"><tbody><tr><td>Name:</td><td>Susan Smith <em>(Example)</em></td></tr><tr><td>Phone number:</td><td>{{1}} (mobile)</td></tr><tr><td>Email address:</td><td>Susansmith@{{2}}</td></tr><tr><td>Current address:</td><td>234 Becketts Road, Brisbane. 4054</td></tr><tr><td>New Zealand Employer:</td><td>Auckland Hospital</td></tr><tr><td>Occupation:</td><td>a {{3}}</td></tr><tr><td>Rental start date:</td><td>8th February</td></tr></tbody></table><p>Preferred property type:</p><p>first preference: a house with a {{4}}</p><p>second preference: an apartment with a big {{5}}</p><table class=\"q-table\"><tbody><tr><td>Bedrooms:</td><td>two</td></tr><tr><td>Furnishings:</td><td>a {{6}} is required</td></tr><tr><td>Maximum rent:</td><td>{{7}} $ per week</td></tr><tr><td>Preferred location:</td><td>near the {{8}}</td></tr></tbody></table><p>Other requirements:</p><p>must have {{9}} nearby</p><p>would like {{10}} included in the rent</p></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 11–20: Complete the notes below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>The Pre-school Family Centre</div><p>Features of the Pre-school Family Centre</p><ul><li>for children from {{11}} to 5 years old</li><li>run as a {{12}} by parents, who attend with their children</li><li>parents receive special {{13}} from the centre</li><li>children's activities organised in {{14}} age groups</li></ul><p>Facts about the Centre</p><ul><li>sessions from 9.30–12.30 each morning</li><li>one afternoon session to help prepare older children for {{15}} at school</li><li>parents must make several {{16}} before they enroll their child</li><li>each centre is officially recognised and receives {{17}} funding</li></ul><p>Parents' Commitments</p><ul><li>take on responsibility for a special {{18}}</li><li>attend one {{19}}</li></ul><p>Practical Advice</p><ul><li>attend regularly to help your child gain {{20}}</li><li>younger children may need to leave early</li><li>provide a snack for your child</li></ul></div>",
+            "maxWords": 4
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;John and Cath's presentation plans are different in",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; the examples used."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; the order of information."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; the main points made."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;What do the students agree about the anatomy section of their presentation?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; It would be better if Cath spoke about it."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; It should be kept quite short."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; It should be based on information from the internet."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What do the students agree to include in the last section?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; visuals of injuries"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; demonstrations of treatment"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; interviews with patients"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What is said about the different types of heel injury?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Diagnosis is straightforward."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; They are expensive to treat."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Some are more serious than others."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;On the subject of causes of heel injuries, the students agree to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; focus on a single reason."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; reject certain approaches."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; use a source written by their professor."
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;What does Cath say about stretching as a treatment?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; It is potentially risky."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; It is commonly confused with strengthening."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; It is the least effective part of treatment."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27 and 28: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Which <strong>TWO</strong> treatment techniques did the female runner find useful for her swollen heel?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; massage"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; ultrasound"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; rest"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; balancing exercises"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; ice"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 29 and 30: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "Which <strong>TWO</strong> sports did the male sprinter find most effective during his rehabilitation programme?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; swimming"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; weight-training"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; running on grass"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; cycling"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; jumping"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–36: Complete the table below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<table class=\"q-table\"><thead><tr><th>Layout</th><th>Description</th><th>Advantages</th><th>Disadvantages</th></tr></thead><tbody><tr><td>Grid</td><td>parallel aisles</td><td>efficient use of floor space<br>Controls {{31}}</td><td>Uninteresting layout<br>Shoppers can {{32}} through</td></tr><tr><td>Free-form</td><td>{{33}} organization</td><td>customers need more {{34}} to find products</td><td>poor use of space, so less {{35}}</td></tr><tr><td>Boutique</td><td>separates space into {{36}}</td><td>Displays arranged around a food speciality<br>creates attractive image</td><td>poor use of space</td></tr></tbody></table>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 37–40: Choose <strong>FOUR</strong> answers from the box and write the correct letter, A–F, next to questions 37–40.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "more expensive products"
+              },
+              {
+                "letter": "B",
+                "textHtml": "most profitable products"
+              },
+              {
+                "letter": "C",
+                "textHtml": "products reduced in price"
+              },
+              {
+                "letter": "D",
+                "textHtml": "products aimed at children"
+              },
+              {
+                "letter": "E",
+                "textHtml": "products requiring careful selection"
+              },
+              {
+                "letter": "F",
+                "textHtml": "slow-moving products"
+              }
+            ],
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "quieter areas"
+              },
+              {
+                "number": 38,
+                "textHtml": "end of aisles"
+              },
+              {
+                "number": 39,
+                "textHtml": "middle shelves"
+              },
+              {
+                "number": 40,
+                "textHtml": "near the entrance"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "614381997"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "post.com"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "chemist"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "garden"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "balcony"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "fridge"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "400"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "beach"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "parking",
+          "car park"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "electricity"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "3 months"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "cooperative"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "training"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "mixed"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "reading"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "visits"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "government"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "job"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "meeting"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "confidence"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "traffic flow"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "rush"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "random"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "time"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "cost-effective"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "smaller areas",
+          "smaller area"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "B"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          27,
+          28
+        ],
+        "accepted": [
+          "A",
+          "C"
+        ]
+      },
+      {
+        "questions": [
+          29,
+          30
+        ],
+        "accepted": [
+          "B",
+          "D"
+        ]
+      }
+    ]
+  }
+}

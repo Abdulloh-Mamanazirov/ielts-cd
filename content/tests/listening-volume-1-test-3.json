@@ -1,0 +1,625 @@
+{
+  "slug": "listening-volume-1-test-3",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 1, Test 3",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10: Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Riverdale Pre-school</div><p><strong>Children:</strong> in a class 20 <em>(Example)</em></p><p><strong>Classes:</strong> First group — Mrs. Oliver<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Second group — Mrs. {{1}}</p><p><strong>Hours &amp; Days:</strong> attend 3 days a week for a total of {{2}} hours</p><p><strong>Activities:</strong></p><div><p>Outside time</p><ul><li>running, playing, or something quieter</li><li>just got a new piece of equipment</li><li>intend to make a {{3}}</li></ul><p>Indoors</p><ul><li>this year, {{4}} activities are popular</li><li>they hear a {{5}} every day</li></ul></div><p><strong>Fees:</strong> Now costs ${{6}} per term</p><div><p>Fees include:</p><ul><li>a trip to a {{7}} this year</li><li>chance to take home a {{8}} every week</li></ul></div><p><strong>Do not forget:</strong></p><div><ul><li>in Suzie's bag put a {{9}}</li><li>arrange a visit; phone number: {{10}}</li></ul></div></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 11–15: Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>11</strong> &nbsp;Special conditions may apply to {{11}} students looking for a job.</p><p><strong>12</strong> &nbsp;The university Job Centre is located on the {{12}} Campus.</p><p><strong>13</strong> &nbsp;The Job Centre remains open until {{13}} every evening.</p><p><strong>14</strong> &nbsp;The only day the employment lawyer is available is {{14}}.</p><p><strong>15</strong> &nbsp;The university {{15}} regularly advertises new jobs.</p></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 16–20: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "&nbsp;At present, the university is offering part-time work in",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; its offices."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; the IT centre."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; the car parks."
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "textHtml": "&nbsp;Local employers visit the university",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; only in the first term."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; twice a term."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; throughout the year."
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "&nbsp;According to the speaker, a part-time job can",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; lead to a full-time job after graduation."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; provide a useful work record for the future."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; give the chance to develop team-work skills."
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "&nbsp;Students who work part-time",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; will be taxed."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; will be paid every week."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; will need private insurance."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "&nbsp;Part-time student workers are advised to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; give notice in writing."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; communicate by email."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; have a mobile phone."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21–26: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "&nbsp;How did John choose the topic of his research project?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; He thought the information would be useful for town planning."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; He has a special interest in the use of public services."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; He read about a similar study which had been done earlier."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "&nbsp;During his research, John is expecting to find that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; The use of public services has altered very little."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; A group of people has changed its habits."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; The most frequently used facility is the library."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "&nbsp;What is the problem with using official records?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; They may be lacking in detail."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; They may not be readily available."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; They may be difficult to analyse."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "&nbsp;What does the tutor think about John using a questionnaire to get information?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; He needs to do a course in questionnaire design first."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; He should use this method instead of looking at public records."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; He will find the practice he gets useful the following year."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "&nbsp;Which new variable does John agree to add to his investigation?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Occupation"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Income group"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Qualifications"
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "&nbsp;How many questionnaires will John distribute?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; The same number as in the previous study"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; A greater number than he needs for analysis"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; The number recommended in the project guidelines"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27 and 28: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Which <strong>TWO</strong> strategies will John use to encourage people to fill out his questionnaire?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Using simple language"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Delivering the questionnaires in person"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Making the questionnaires anonymous"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; Providing return envelopes"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; Trialing the questionnaire on friends"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 29 and 30: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "Which <strong>TWO</strong> pieces of advice does the tutor give John about his questionnaire?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; There should be a mixture of question types."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Some questions should elicit personal information."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; There should be an introduction to explain the survey's purpose."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; A telephone number should be provided for queries."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; The questions should only take a few minutes to answer."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–33: Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>31</strong> &nbsp;Undergraduates from both the engineering school and the {{31}} department can definitely take part in the project.</p><p><strong>32</strong> &nbsp;The automated vehicles will have to avoid obstacles such as {{32}}</p><p><strong>33</strong> &nbsp;The tutor mentions one vehicle which used technology such as lasers, {{33}} and laptops to measure its surroundings.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 34–36: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 34,
+                "textHtml": "&nbsp;The purpose of holding the race is to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; interest students in careers in industry."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; help provide finance for universities."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; find useful new design features."
+                  }
+                ]
+              },
+              {
+                "number": 35,
+                "textHtml": "&nbsp;The tutor says success will depend on",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; the software design."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; good, solid construction."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; sophisticated mechanisms."
+                  }
+                ]
+              },
+              {
+                "number": 36,
+                "textHtml": "&nbsp;This year's competitors were surprised that the vehicles",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; were so easy to design."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; were as successful as they were."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; took such a short time to construct."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-4-group-3",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 37–40: Complete the table below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<table class=\"q-table\"><thead><tr><th colspan=\"2\">Schedule</th></tr></thead><tbody><tr><td>Early May</td><td>Introductory {{37}} about the project</td></tr><tr><td>Late May</td><td>Essay giving information about relevant {{38}} and experience</td></tr><tr><td>June</td><td>Visit to a factory<br>Workshop</td></tr><tr><td>September</td><td>discuss {{39}}<br>learn to use design package</td></tr><tr><td>December</td><td>Submission of initial designs</td></tr><tr><td>January</td><td>Selection of the {{40}}</td></tr></tbody></table>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "Keogh"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "15"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "garden"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "music"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "story"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "470"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "farm"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "toy"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "pillow"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "0914638520"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "overseas"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "Woodside"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "8"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "tuesday"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "website"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "computer science"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "rocks"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "video cameras"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "seminar"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "skills"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "ideas"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "team"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          27,
+          28
+        ],
+        "accepted": [
+          "D",
+          "E"
+        ]
+      },
+      {
+        "questions": [
+          29,
+          30
+        ],
+        "accepted": [
+          "B",
+          "C"
+        ]
+      }
+    ]
+  }
+}

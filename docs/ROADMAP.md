@@ -19,9 +19,16 @@ without re-deriving anything.
 - **Marketing site** — home page and `/results`, design direction 1a.
 - **App screens** — navy sidebar with per-skill nav, dashboard with band
   history, test list with per-row state.
-- **Content** — 5 tests converted and validated from `_source-tests/`
-  (2 reading, 3 listening). Adapters in `scripts/convert/`. All five are
-  published.
+- **Content** — the instructor's "@bekhruzposts" Volume 1: ten reading and ten
+  listening, converted and validated from `_source-tests/`, all twenty
+  published. Two adapters in `scripts/convert/` (`bekhruz-reading.ts`,
+  `bekhruz-listening.ts`) parse the two self-contained HTML player templates by
+  structure — every IELTS group type, both answer-object shapes (`CA`/`PICK`,
+  `correctAnswers`/`pickGroups`), and roman-numbered matching-headings mapped to
+  letters. Each listening test's audio is a base64 data URL the converter
+  extracts to an .mp3; `npm run audio:upload -- --all --publish` ingests the
+  lot. The earlier one-off Cambridge/Safarov/mock adapters and their tests were
+  removed. Writing and speaking are unchanged (see below).
 - **Listening audio** — `src/lib/media/`: storage with path-traversal guards,
   range parsing, and container/duration probing. Authenticated streaming route
   at `/api/tests/[id]/audio` with 206/416 handling and an `X-Accel-Redirect`

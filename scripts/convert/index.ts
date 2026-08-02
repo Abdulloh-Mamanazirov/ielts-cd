@@ -1,89 +1,81 @@
+import { readdirSync } from "node:fs";
 import { resolve } from "node:path";
 
 import type { TestImport } from "../../src/lib/tests/schema";
 import { formatValidationReport, validateTestImport } from "../../src/lib/tests/validate";
-import { convertCambridgeListening } from "./cambridge-listening";
-import { convertCambridgeReading } from "./cambridge-reading";
-import { convertGiraffesReading } from "./giraffes-reading";
-import { convertMockListening } from "./mock-listening";
-import { convertSafarovListening } from "./safarov-listening";
+import { convertBekhruzReading } from "./bekhruz-reading";
+import { convertBekhruzListening } from "./bekhruz-listening";
 import { writeJson } from "./lib";
 
 /**
- * Converts the instructor's existing HTML mocks into canonical JSON, validates
- * each one, and writes the passes to content/tests/ ready for admin import.
+ * Converts the instructor's "@bekhruzposts" Volume 1 mocks — ten reading and
+ * ten listening, each a self-contained HTML player — into canonical JSON, and
+ * extracts each listening test's embedded base64 audio to an .mp3 the upload
+ * pipeline can ingest.
  *
- * Run with: npm run convert
+ *   npm run convert
+ *
+ * The two adapters parse structure rather than a hand-identified layout, so a
+ * new Volume drops in by adding files and letting the numbers below grow.
  */
 
 const SOURCE_DIR = "_source-tests";
 const OUTPUT_DIR = "content/tests";
+const MEDIA_DIR = "public/test-media";
+const MEDIA_URL_BASE = "/test-media";
+const SOURCE_LABEL = "@bekhruzposts, IELTS Volume 1";
 
-type Job = {
-  label: string;
-  outputName: string;
-  run: () => TestImport;
-};
+/** Finds "Reading Test 7 (...)" or "ListeningTest 2 (...)" → { n, path }. */
+function sourceFiles(kind: "Reading" | "Listening"): Array<{ n: number; path: string }> {
+  return readdirSync(resolve(SOURCE_DIR))
+    .filter((name) => name.endsWith(".html"))
+    .map((name) => {
+      const match = name.match(new RegExp(`^${kind}\\s*Test\\s*(\\d+)`, "i"));
+      return match ? { n: Number(match[1]), path: resolve(SOURCE_DIR, name) } : null;
+    })
+    .filter((entry): entry is { n: number; path: string } => entry !== null)
+    .sort((a, b) => a.n - b.n);
+}
 
-const jobs: Job[] = [
-  {
-    label: "Cambridge 21 Reading Test 4",
-    outputName: "cambridge-21-reading-test-4.json",
+type Job = { label: string; outputName: string; run: () => TestImport };
+
+const jobs: Job[] = [];
+
+for (const { n, path } of sourceFiles("Reading")) {
+  const slug = `reading-volume-1-test-${n}`;
+  jobs.push({
+    label: `Reading — Volume 1, Test ${n}`,
+    outputName: `${slug}.json`,
     run: () =>
-      convertCambridgeReading(resolve(SOURCE_DIR, "Cambridge 21 Reading Test 4.html"), {
-        title: "Cambridge 21 Reading Test 4",
-        source: "Cambridge IELTS 21, Academic Reading Test 4",
+      convertBekhruzReading(path, {
+        title: `IELTS Reading — Volume 1, Test ${n}`,
+        slug,
+        source: SOURCE_LABEL,
         durationSeconds: 3600,
-        isPremium: true,
-      }),
-  },
-  {
-    label: "Cambridge 21 Listening Test 4",
-    outputName: "cambridge-21-listening-test-4.json",
-    run: () =>
-      convertCambridgeListening(resolve(SOURCE_DIR, "Cambridge 21 Listening Test 4.html"), {
-        title: "Cambridge 21 Listening Test 4",
-        source: "Cambridge IELTS 21, Listening Test 4",
-        isPremium: true,
-      }),
-  },
-  {
-    label: "CD IELTS Listening — Volume 9, Test 2",
-    outputName: "cd-ielts-listening-volume-9-test-2.json",
-    run: () =>
-      convertSafarovListening(
-        resolve(SOURCE_DIR, "CD IELTS LIstening – Volume 9, Test 2 [@safarov_english].html"),
-        {
-          title: "CD IELTS Listening — Volume 9, Test 2",
-          source: "@safarov_english, CD IELTS Listening Volume 9",
-          isPremium: true,
-        },
-      ),
-  },
-  {
-    label: "IELTS CDI Listening Mock",
-    outputName: "ielts-cdi-listening-mock.json",
-    run: () =>
-      convertMockListening(resolve(SOURCE_DIR, "Listening Mock.html"), {
-        title: "IELTS CDI Listening Mock",
-        source: "IELTS CDI Listening Practice",
-        isPremium: true,
-        // Re-hosted locally; the source hot-links archive.org.
-        mapImageUrl: "/test-media/albany-fishing-map.png",
-      }),
-  },
-  {
-    label: "Giraffes Reading (single passage)",
-    outputName: "giraffes-reading-passage-1.json",
-    run: () =>
-      convertGiraffesReading(resolve(SOURCE_DIR, "IELTS_Reading_Passage1_Giraffes_CD.html"), {
-        title: "Giraffes in the Wild — Reading Passage 1",
-        source: "Practice passage, single-passage format",
-        durationSeconds: 1200,
         isPremium: false,
       }),
-  },
-];
+  });
+}
+
+for (const { n, path } of sourceFiles("Listening")) {
+  const slug = `listening-volume-1-test-${n}`;
+  jobs.push({
+    label: `Listening — Volume 1, Test ${n}`,
+    outputName: `${slug}.json`,
+    run: () =>
+      convertBekhruzListening(
+        path,
+        {
+          title: `IELTS Listening — Volume 1, Test ${n}`,
+          slug,
+          source: SOURCE_LABEL,
+          durationSeconds: 1800,
+          isPremium: false,
+        },
+        { audioPath: resolve(SOURCE_DIR, `${slug}.mp3`), mediaDir: MEDIA_DIR, mediaUrlBase: MEDIA_URL_BASE },
+      ),
+  });
+}
 
 let failures = 0;
 
@@ -109,9 +101,18 @@ for (const job of jobs) {
   console.log("");
 }
 
+if (jobs.length === 0) {
+  console.error(`No source tests found in ${SOURCE_DIR}.`);
+  process.exit(1);
+}
+
 if (failures > 0) {
   console.error(`${failures} of ${jobs.length} conversions failed validation.`);
   process.exit(1);
 }
 
-console.log(`${jobs.length} conversion(s) passed validation.`);
+console.log(
+  `${jobs.length} conversion(s) passed validation. ` +
+    `Listening audio was extracted to ${SOURCE_DIR}/*.mp3 — ` +
+    `run \`npm run db:seed\`, then \`npm run audio:upload -- --all --publish\`.`,
+);

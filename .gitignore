@@ -46,12 +46,18 @@ next-env.d.ts
 
 /src/generated/prisma
 
-# Source test media. The HTML and PDF originals are versioned because they are
-# the material the converters parse; the audio is ~90 MB and would live in git
-# history forever, so it is kept on disk and re-hosted to the media directory.
+# Source test media. The reading HTML originals are versioned because they are
+# small and are what the converters parse; the audio — and the listening HTML
+# exports, which embed ~190 MB of it as base64 data URLs — is kept on disk and
+# re-hosted to the media directory rather than living in git history forever.
+# `npm run convert` extracts the audio to _source-tests/*.mp3; the listening
+# JSON it writes is versioned, so the server needs only the audio (by scp), not
+# these sources. See docs/DEPLOY.md.
 /_source-tests/*.mp3
 /_source-tests/*.m4a
 /_source-tests/*.wav
+/_source-tests/Listening*.html
+/_source-tests/ListeningTest*.html
 
 # Windows crash dumps
 *.stackdump

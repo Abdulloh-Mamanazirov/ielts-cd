@@ -247,29 +247,43 @@ not access control.
   they are filled. Imports always land as drafts.
 - **Students** — premium grants, with a note recording why.
 
-## Converting the legacy HTML mocks
+## Converting the HTML mocks
 
-`_source-tests/` holds the instructor's existing self-contained HTML tests. Each
-has its own adapter under `scripts/convert/`, sharing one cleaning and
-validation pipeline. `npm run convert` writes validated JSON to `content/tests/`.
+`_source-tests/` holds the instructor's "@bekhruzposts" Volume 1 tests: ten
+reading and ten listening, each a self-contained HTML player. Two adapters under
+`scripts/convert/` — `bekhruz-reading.ts` and `bekhruz-listening.ts` — parse the
+two templates, sharing one cleaning and validation pipeline. `npm run convert`
+writes validated JSON to `content/tests/` and extracts each listening test's
+audio (see below).
 
-The five adapters cover three quite different source shapes: markup with the
-key in inline objects (Cambridge), a player that stores its questions as data
-and renders them at runtime (`safarov-listening`), and hand-written markup where
-each group's type has to be inferred from the controls used (`mock-listening`).
+Unlike the earlier one-off adapters, these parse by **structure**, not a
+hand-identified layout, so a whole Volume converts at once and the next drops in
+by adding files. Between them they handle every IELTS group type, both source
+answer-object shapes (reading's `CA` + `PICK`, listening's `correctAnswers` +
+`pickGroups`), two matching UIs (a `<select>` box and drag-and-drop tiles), and
+matching-headings — whose roman-numbered options (i, ii, …) are renumbered to
+the schema's A–Z letters in the order they are listed, with the answer key
+mapped through the same table.
 
 Word limits are read from the rubric by `maxWordsFromRubric`. Its phrase list is
 duplicated in `src/lib/tests/validate.ts`; keep the two in step, and note that
 "AND/OR A NUMBER" phrasings must be matched before the plainer ones they contain
-or the limit comes out one token short.
+or the limit comes out one token short. One source states a tighter limit than
+its own key respects ("ONE WORD ONLY" over a two-word answer); the listening
+adapter widens a group's cap to its longest accepted answer rather than reject
+the instructor's own key.
 
 Answer keys inside those files are JavaScript object literals, not JSON. They are
 read with a small hand-written parser rather than `eval` or `node:vm`, because
 the source HTML is downloaded from third parties and must never be executed.
 
-Listening audio in the source files is hot-linked from archive.org. The converter
-records the URL as `audioSourceUrl` so it gets re-hosted; a listening test cannot
-be published without an uploaded audio file.
+Listening audio is embedded as a base64 `data:audio/mpeg` URL — 15–25 MB per
+file, which is why the listening HTML sources are gitignored rather than
+versioned (the reading HTML, being small, is kept). `npm run convert` decodes it
+to `_source-tests/<slug>.mp3`, and `npm run audio:upload -- --all --publish`
+ingests every extracted file and releases the tests. A listening test cannot be
+published without an uploaded audio file. Maps embedded the same way are written
+into `public/test-media/` and referenced by the test's JSON.
 
 The writing and speaking tests have no adapter: they come from the official IELTS
 sample PDFs in `_source-tests/`, hand-authored into `content/tests/` the way the

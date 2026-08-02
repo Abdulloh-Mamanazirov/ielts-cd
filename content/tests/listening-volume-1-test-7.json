@@ -1,0 +1,650 @@
+{
+  "slug": "listening-volume-1-test-7",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Volume 1, Test 7",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Part 1",
+        "instructionsHtml": "<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 1–10: Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Rented Properties — Information About a House</div><p><strong>Available date:</strong> {{1}}</p><p>Prices:</p><ul><li>Rent: ${{2}} per month</li><li>Deposit: $1500</li><li>{{3}} $15</li></ul><p>Facilities:</p><ul><li>3 bedrooms and 2 bathrooms</li><li>A remodelled {{4}}</li><li>{{5}}</li><li>A {{6}} with a work area</li></ul><p>Utilities:</p><ul><li>The landlord will provide landscaping service, but the tenants must {{7}} the grass</li><li>The tenants should pay $15 for trashing and {{8}} service.</li><li>The tenants should pay for electricity, water and gas bills.</li></ul><p>Other information:</p><ul><li>There is no central air conditioning, but there is a {{9}} conditioning unit.</li><li>Name of landlord: Sam {{10}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Part 2",
+        "instructionsHtml": "<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 11–16: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "&nbsp;When does the riding in the park open?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; 9.00 am"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; 9.30 am"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; 10.00 am"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "&nbsp;How much does a Family-fast-line Track ticket cost if you book online?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; £78"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; £95"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; £113"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "&nbsp;What is suggested when you plan to go to the lake in the park?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; take a camera"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; go there in summer"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; take waterproof clothes"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "&nbsp;What is special about the rollercoaster bike?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; it uses special materials"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; it is the most exciting activity"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; it is designed for families"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "&nbsp;What should they bring to the resort?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; food for the picnic"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; cameras"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; bottled water"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "&nbsp;What activity is recommended toward the end of a day trip?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; watching fireworks"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; going fishing"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; joining the circus"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<p>Questions 17–20: What comment is made about each of the following activities? Choose <strong>FOUR</strong> answers from the box and write the correct letter, A–G, next to questions 17–20.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "doesn't have a long wait"
+              },
+              {
+                "letter": "B",
+                "textHtml": "is suitable for all families"
+              },
+              {
+                "letter": "C",
+                "textHtml": "is suitable for children"
+              },
+              {
+                "letter": "D",
+                "textHtml": "is suitable for young adults"
+              },
+              {
+                "letter": "E",
+                "textHtml": "is based on a real story"
+              },
+              {
+                "letter": "F",
+                "textHtml": "is the most frightening one"
+              },
+              {
+                "letter": "G",
+                "textHtml": "has a surprising ending"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Cowboy Show"
+              },
+              {
+                "number": 18,
+                "textHtml": "Driving School Ride"
+              },
+              {
+                "number": 19,
+                "textHtml": "Rollercoaster Jumping"
+              },
+              {
+                "number": 20,
+                "textHtml": "Magic Show"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Part 3",
+        "instructionsHtml": "<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 21 and 22: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> aspects should people just graduating from secondary school emphasise?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; degree of motivation"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; practical experience"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; eagerness to learn"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; educational qualifications"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; other areas of interest outside work"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 23 and 24: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Which <strong>TWO</strong> of the following are mentioned about women returning to work after raising children?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; they have limited working time"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; they are more expensive to retrain"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; they are very mature"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; they lack confidence"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; they have difficulty re-adjusting to work"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 25 and 26: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Which <strong>TWO</strong> types of people do employers always avoid hiring?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; people who have worked for a rival company"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; people who have worked for their previous company for a long time"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; people who were sacked by a previous company"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; people who have been unemployed for a long time"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; people who quit their job because it was unsuitable"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-4",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 27–29: Choose <strong>THREE</strong> letters, A–G.</p>",
+            "selectCount": 3,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Which <strong>THREE</strong> factors are mentioned as reasons why people avoid hiring retrenched workers?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; lack of experience relevant to new industries"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; higher costs of employment"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; comparatively old age"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; lack of work experience"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "&nbsp; the difficulty of retraining"
+                  },
+                  {
+                    "letter": "F",
+                    "textHtml": "&nbsp; the reputation of the previous company"
+                  },
+                  {
+                    "letter": "G",
+                    "textHtml": "&nbsp; previous skills which are useless"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-5",
+            "type": "completion",
+            "rubricHtml": "<p>Question 30: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for the answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Reasons for rejection during the application process</div><ul><li>Unsuitable experience and skills</li><li>Applicants' inappropriate {{30}} and appearance</li><li>Poor social skills</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Part 4",
+        "instructionsHtml": "<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 31–37: Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div><div>Organic Farming</div><p>Advantages</p><ul><li>Organic farming is {{31}}</li><li>It can boost the {{32}} of organic food products</li><li>It can save necessary {{33}} for producing pesticides and fertilisers</li></ul><p>Comparison with traditional farming</p><ul><li>{{34}}, which double in number, may attack organic vegetables.</li><li>Production of organic vegetables such as tomatoes and {{35}} is lower.</li><li>Winter weed production is {{36}} lower than it used to be — now 40%.</li><li>Production of organic products for animals, including organic {{37}}, stays the same.</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-4-group-2",
+            "type": "mcq",
+            "rubricHtml": "<p>Questions 38–40: Choose the correct letter, A, B or C.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 38,
+                "textHtml": "&nbsp;What happened to organic farming in India?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; Yields increased."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; Farmers were reluctant to accept it."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; Farmers could apply it successfully by following instructions."
+                  }
+                ]
+              },
+              {
+                "number": 39,
+                "textHtml": "&nbsp;The conclusion in the international organic farming review focuses on",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; whether people are interested in organic farming."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; comparing different methods of organic farming in different countries."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; whether organic farming is beneficial to wildlife."
+                  }
+                ]
+              },
+              {
+                "number": 40,
+                "textHtml": "&nbsp;According to the speaker, what is the main advantage of organic farming?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; it depends on consumers."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; it can produce food of more nutritional value."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; it can protect the environment."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "15th may",
+          "may 15th",
+          "15 may",
+          "may 15"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "1700"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "credit check"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "kitchen"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "dishwasher"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "garage"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "water"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "recycling"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "window"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "dressler"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "clothes"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "sustainable"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "sales"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "energy"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "insects"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "potatoes"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "10%",
+          "10 percent"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "grass"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "A"
+        ]
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "A",
+          "C"
+        ]
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "C",
+          "E"
+        ]
+      },
+      {
+        "questions": [
+          25,
+          26
+        ],
+        "accepted": [
+          "C",
+          "E"
+        ]
+      },
+      {
+        "questions": [
+          27,
+          28,
+          29
+        ],
+        "accepted": [
+          "A",
+          "C",
+          "E"
+        ]
+      }
+    ]
+  }
+}

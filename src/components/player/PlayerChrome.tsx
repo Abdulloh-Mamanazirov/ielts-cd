@@ -54,6 +54,8 @@ export function PlayerHeader({
           <p className="truncate text-[15px] font-bold text-ink">{title}</p>
           <p className="truncate text-[11.5px] text-ink-subtle">{subtitle}</p>
         </div>
+
+        <TelegramLink />
       </div>
 
       <div className="flex flex-none items-center gap-3 lg:gap-4">
@@ -249,6 +251,35 @@ export function ReviewHeader({
         </div>
       </div>
     </header>
+  );
+}
+
+/**
+ * The instructor's channel. Opens in its own tab — the attempt's timer is
+ * server-authoritative, so leaving the page never buys or costs a student time,
+ * and they land back on the exam exactly where they left it. Quiet by default,
+ * Telegram-blue on hover; icon only until there is room for the name.
+ */
+function TelegramLink() {
+  return (
+    <a
+      href="https://t.me/IELTS_ARMY"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Open our Telegram channel, IELTS ARMY, in a new tab"
+      className="inline-flex flex-none items-center gap-2 rounded-[9px] bg-[#e9f5fc] px-3 py-2.5 text-[13px] font-bold text-[#1b7fb5] transition hover:bg-[#229ed9] hover:text-white"
+    >
+      <TelegramGlyph />
+      <span className="hidden font-bold md:inline">IELTS ARMY</span>
+    </a>
+  );
+}
+
+function TelegramGlyph() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+      <path d="M21.94 4.72 18.62 20.4c-.25 1.1-.9 1.38-1.83.86l-5.05-3.72-2.44 2.35c-.27.27-.5.5-1.02.5l.36-5.16 9.4-8.49c.41-.36-.09-.56-.63-.2L5.19 13.5.18 11.93c-1.09-.34-1.11-1.09.23-1.61l19.6-7.56c.9-.34 1.7.2 1.4 1.66l.53.3z" />
+    </svg>
   );
 }
 

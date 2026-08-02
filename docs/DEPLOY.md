@@ -369,48 +369,45 @@ history:
 Pick it in a password manager. Do not reuse `ChangeMe123!` from development — it
 went through a URL during the tunnel work and should be considered public.
 
-The seed also loads all nine tests and, because the database is empty, the
-placeholder home page results and reviews. Those are placeholders with a stock
-certificate image: replace them with real students in `/admin/showcase` before
-you tell anyone the address.
+The seed also loads all the tests — the ten reading tests publish immediately;
+the ten listening tests land as drafts until they have audio — and, because the
+database is empty, the placeholder home page results and reviews. Those are
+placeholders with a stock certificate image: replace them with real students in
+`/admin/showcase` before you tell anyone the address.
 
-Listening tests stay in draft until they have audio. All three can fetch their
-own:
+Now the audio. Each listening test's recording is embedded in its source HTML as
+base64, which `npm run convert` extracts to `_source-tests/<slug>.mp3`. Those
+mp3s — and the 190 MB of listening HTML they come from — are **not in git**, so
+they have to travel by scp. From PowerShell in the project directory on your own
+machine:
+
+```powershell
+scp _source-tests/listening-volume-1-test-*.mp3 abdulloh@SERVER_IP:/srv/ielts/_source-tests/
+```
+
+If the `_source-tests` directory does not exist on the server yet:
+
+```bash
+sudo -u ielts mkdir -p /srv/ielts/_source-tests
+```
+
+Then attach and publish all ten at once — the uploader looks for a
+`_source-tests/<slug>.mp3` beside each listening test:
+
+```bash
+sudo -u ielts bash -c 'cd /srv/ielts && npm run audio:upload -- --all --publish'
+```
+
+Check what landed:
 
 ```bash
 sudo -u ielts bash -c 'cd /srv/ielts && npm run audio:upload -- --list'
 ```
 
-```bash
-sudo -u ielts bash -c 'cd /srv/ielts && npm run audio:upload -- --test cambridge-21-listening-test-4 --from-source --publish'
-```
-
-```bash
-sudo -u ielts bash -c 'cd /srv/ielts && npm run audio:upload -- --test cd-ielts-listening-volume-9-test-2 --from-source --publish'
-```
-
-```bash
-sudo -u ielts bash -c 'cd /srv/ielts && npm run audio:upload -- --test ielts-cdi-listening-mock --from-source --publish'
-```
-
-`--from-source` downloads from the URL the converter recorded — archive.org for
-two of them, catbox for the third. Those are other people's servers and one of
-them will eventually go away. If a download fails, send the file from your own
-machine instead, from PowerShell in the project directory:
-
-```powershell
-scp "_source-tests/Listening Mock.mp3" abdulloh@SERVER_IP:/tmp/listening-mock.mp3
-```
-
-then on the server:
-
-```bash
-sudo -u ielts bash -c 'cd /srv/ielts && npm run audio:upload -- --test ielts-cdi-listening-mock --file /tmp/listening-mock.mp3 --publish'
-```
-
 Re-running the uploader is safe: the storage key ends in a hash of the file, so
 the same audio lands in the same place and a replaced file has its predecessor
-cleaned up.
+cleaned up. You can delete the scp'd mp3s from `/srv/ielts/_source-tests/`
+afterwards — the bytes now live in the media directory.
 
 ## 11. Smoke tests
 

@@ -1,0 +1,586 @@
+{
+  "slug": "reading-volume-1-test-10",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 1, Test 10",
+    "source": "@bekhruzposts, IELTS Volume 1",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "The pesticide-free village",
+        "passageHtml": "<p>Read the text and answer questions 1–13</p><p>Around 20 years ago, a handful of families migrated from the Guntur district of Andhra Pradesh, south-east India, into Punukula, a community of around 900 people farming plots of between two and ten acres. The outsiders from Guntur brought cotton culture with them, and this attracted resident farmers by promising to bring in more hard cash than the mixed crops they were already growing to eat and sell, such as millet, mung beans, chilli and rice. But growing cotton meant using pesticides and fertilisers - until then a mystery to the mostly illiterate farmers of the community.</p><p>Local agro-chemical dealers obligingly filled the need for information and supplies. These 'middlemen' sold commercial seeds, fertilisers and insecticides on credit, and guaranteed purchase of the crop. They offered technical advice provided by the companies that supplied their products. The farmers depend on the dealers. If they wanted to grow cotton – and they did - it seemed they had no choice.</p><p>A quick 'high' of booming yields and incomes hooked growers during the early years of cotton in the region. Outlay on insecticides was fairly low because cotton pests hadn't moved in yet. Many farmers were so impressed with the chemicals that they started using them on their other crops as well. The immediate payoffs from chemically-dependent cotton agriculture both ensured and obscured the fact that the black dirt fields had gone into a freefall of environmental degradation, dragged down by a chain of cause and effect.</p><p>Soon cotton-eaters, such as bollworms and aphids, plagued the fields. Repeated spraying killed off the most susceptible pests and left the strongest to reproduce and pass on their resistance to generations of ever-hardier offspring. As the bugs grew tougher and more abundant, farmers applied a greater variety and quantity of poisons, sometimes mixing 'cocktails' of as many as ten insecticides. At the same time, cotton was gobbling up the nutrients in the soil, leaving the growers no option but to invest in chemical fertilisers.</p><p>By the time some farmers tried to break free of their chemical dependence, insecticides had already decimated the birds, wasps, beetles, and other predators that had once provided natural control of crop pests. Without their balancing presence, pests ran riot if insecticide was cut back. As outlays for fertilisers and insecticides escalated, the cost of producing cotton mounted. Eventually the expense of chemical inputs outgrew the cash value of the crop, and farmers fell further and further into debt and poverty.</p><p>Their vicious cycle was only broken by the willingness of a prominent village elder to experiment with something different. He had been among the first villagers to grow cotton, and he would be the first to try it without chemicals, as set out by a programme in Non-Pesticide Management (NPM). This had been devised for Punukula with the help of a Non-Government Organisation called SECURE that had become aware of the hardships caused by the pesticide trap.</p><p>It involved turning to neem, a fast-growing, broad-leaved evergreen tree related to mahogany. Neem protects itself against insects by producing a multitude of natural pesticides that have evolved specifically to defeat plant-eating insects. Thus they are generally harmless to humans and other animals, including birds and insects that eat pests.</p><p>The plant is native to India and Burma, where it has been used for centuries to control pests and to promote health. To protect cotton, neem seeds are simply ground into a powder, soaked overnight in water, and sprayed onto the crop at least every 10 days. Neem cake applied to the soil kills insect pests and doubles as an organic fertiliser high in nitrogen. As neem grows locally and is easy to process, it is much less expensive than the chemical insecticides sold for profit by the dealers and their corporate suppliers.</p><p>Quick, short-term gains had once pushed Punukula into chemical-dependent agriculture. Now they found that similar immediate rewards were helping to speed change in the other direction: the harvest of the next 20 NPM farmers was as good as the harvest of farmers using insecticides, and they came out ahead because they weren't buying insecticides, instead of investing cash (in short supply) in chemicals, they invested time and labour in NPM practices.</p><p>By the end of 2000, all the farmers in Punukula village were using NPM rather than chemicals for cotton, and they began to use it on other crops as well. The status and economic opportunities of women improved - neem became a source of income for some of them, as they gathered seeds from the surrounding area to sell for NPM in other villages. The improved situation meant that families could afford to put more land under cultivation.</p><p>In 2004, the panchayat (village government) formally declared Punukula to be a pesticide-free village. And they have big plans for the future, such as water purification. The village now serves as a model for disseminating NPM to other communities, with around 2000 farmers visiting each year. What began as a few farmers desperate to find a way to farm without poisons has become a movement with the potential to pull an entire region back from ecological disaster.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–4</h3>Do the following statements agree with the information given in Reading Passage 1?<br>TRUE if the statement agrees &nbsp;|&nbsp; FALSE if it contradicts &nbsp;|&nbsp; NOT GIVEN if no information",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Cotton growing was expected to raise more money than other crops."
+              },
+              {
+                "number": 2,
+                "textHtml": "Some of the local agro-chemical dealers had been farmers in the past."
+              },
+              {
+                "number": 3,
+                "textHtml": "Initially the farmers' cotton yields were low."
+              },
+              {
+                "number": 4,
+                "textHtml": "At first, the farmers failed to notice the negative effects on their fields of pesticide use."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 5–10</h3>Complete the notes below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div> Non-Pesticide-Management Programme <ul><li>Developed with the aid of SECURE</li><li>Based on use of an {{5}} called neem</li><li>Neem contains many {{6}} that target plant-eating predators</li></ul> Neem <ul><li>Used as a pesticide</li><li>{{7}} formed by grinding seeds</li><li>Left {{8}} to soak in water</li><li>Sprayed regularly</li><li>Used as a pesticide and as a fertilizer</li><li>Added in {{9}} form to soil</li><li>Contains a lot of {{10}}</li></ul></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 11–13</h3>Choose <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>11.</strong>&nbsp; In which year did farmers finally stop using chemicals on cotton crops in Punukula? {{11}}</p></div><div><p><strong>12.</strong>&nbsp; What did the women of Punukula collect to make money? {{12}}</p></div><div><p><strong>13.</strong>&nbsp; What project do the authorities in Punukula hope to set up in the future? {{13}}</p></div>",
+            "maxWords": 3
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Skyscraper Farming",
+        "passageHtml": "<p>Read the text and answer questions 14–26</p><p><strong>A</strong>&nbsp;&nbsp;Today's environment scientists are in no doubt that the world's resources of fertile soil are rapidly deteriorating, and that new land for agriculture is becoming ever more sparse. Intensive farming urbanisation, desertification and sea-level rises are all putting growing pressure on the planet's agricultural land and therefore on food supplies. Currently 24 per cent of the world's 11.5 billion hectares of cultivated land has already undergone human-induced soil degradation particularly through erosion, according to a recent study by the UK Government Office for Science.</p><p><strong>B</strong>&nbsp;&nbsp;The global population is expected to exceed nine billion by 2050 - up a third from today's level and studies suggest that food production will have to go up by 70 per cent if we are to feed all of those new mouths. This means that scientists will have to develop new ways of growing crops if we are to avoid a humanitarian crisis. Indeed, UN Food and Agriculture Organization figures suggest that the number of undernourished people is already growing. And with escalating climate change, crop yields in many areas have been projected to decline.</p><p><strong>C</strong>&nbsp;&nbsp;With this in mind, some scientists and agricultural experts are advocating an innovative alternative to traditional farming whereby skyscrapers packed with shelf-based systems for growing vegetables on each storey - known as 'vertical farms' - could hold the key to revolutionising agriculture. Columbia University professor Dickson Despommier claims that vertical farming could boost crop yields many times over. A single 20-storey vertical farm could theoretically feed 50,000 people, according to Despommier. And if the theory translates into reality as proposed, 160 skyscraper-sized vertical farms could feed the entire population of New York City, while 180 would be needed to feed London, 289 to feed Cairo and 302 to feed Kolkata.</p><p><strong>D</strong>&nbsp;&nbsp;It's a compelling vision, and one that has already been put into practice in Asia. Albeit on a smaller scale. But there are problems, such as initial investment and operating costs that are too great, says a spokesman for Japan's Ministry of Agriculture, Forestry and Fisheries. Nevertheless Tokyo-based mushroom producer Hokuto Corporation is a model example of how a vertical farm can be profitable. With 28 vertical mushroom farms operating across the country, it produces some 68,000 tonnes of mushrooms annually. Vertical mushroom farms have more advantages than ground-level farms, says Hokuto's Ted Yamanoko. Yamanoko goes on to highlight the relative cost-effectiveness of his organisation's farming practices together with reduced emissions of greenhouse gases.</p><p><strong>E</strong>&nbsp;&nbsp;And the impact of vertical farms could extend beyond feeding established urban populations. Despommier sees them as being capable of helping centres of displaced persons - such as refugee camps - in much the same way that Mobile Army Surgical Hospital (MASH) units are deployed in emergency situations. \"Developing an emergency-response system for crop production inside specially constructed modular and highly transportable greenhouses would allow for humanitarian interventions, at least for refugees that are forced out of their countries by political turmoil,\" he says. \"If you have three or four storeys of food already growing some place, they could become mobile units that could be picked up by helicopters and dropped into the middle of a crisis zone. The food would be ready to pick and eat. It could be designed to supply people with all the nutrition they need to make it through the crisis.\"</p><p><strong>F</strong>&nbsp;&nbsp;But it isn't only about increasing food production. Despommier is concerned about the harm which farming has done to the world's landscape over a relatively short time span, particularly the elimination of hardwood forests. Farming is only 12,000 years old, he points out, and we now have for the first time the chance to feed everyone on earth and still return land to its original ecological function. Natalie Jeremijenko, associate professor at New York University, agrees. \"The challenge that we have now is how we can design urban agriculture systems that not only reduce food miles, but also improve the world's ecosystems,\" she says. By significantly reducing the amount of land required for food production, vertical farms could help to enrich biodiversity. And according to Jeremijenko, this can, in turn, help to improve the productivity of conventional farms, as the health of agricultural land is often tied to the health of the surrounding ecosystems. Furthermore, vertical farming could dramatically cut the utilisation of fossil fuels. And also reduce geopolitical tensions in countries where poor farming conditions cause conflict and malnutrition.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–19</h3>Reading Passage 2 has six paragraphs, A–F. Choose the correct heading for each paragraph from the list of headings below.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Potential production capabilities of vertical farms"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Opposition to new ideas about food production"
+              },
+              {
+                "letter": "C",
+                "textHtml": "A successful application of vertical farming technology"
+              },
+              {
+                "letter": "D",
+                "textHtml": "The potential to provide urgent relief"
+              },
+              {
+                "letter": "E",
+                "textHtml": "The original inspiration for vertical farming"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Various environmental benefits of vertical farming"
+              },
+              {
+                "letter": "G",
+                "textHtml": "An increasing problem for farmers worldwide"
+              },
+              {
+                "letter": "H",
+                "textHtml": "A return to traditional farming methods"
+              },
+              {
+                "letter": "I",
+                "textHtml": "A rising demand for food"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 20–22</h3>Complete the sentences below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
+            "selectCount": 1,
+            "bodyHtml": "<div><p><strong>20.</strong>&nbsp; A UK Government study found that {{20}} is a significant factor contributing to worldwide levels of soil degradation.</p></div><div><p><strong>21.</strong>&nbsp; Disadvantages of vertical farming projects include the expense of setting them up, as well as their high {{21}}.</p></div><div><p><strong>22.</strong>&nbsp; {{22}} could potentially be used to take vertical farming facilities to areas where there is a critical food shortage.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 23–26</h3>Match each statement with the correct person. Write A, B or C in boxes 23–26.<strong>NB</strong>&nbsp; You may use any letter more than once.",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Dickson Despommier"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Ted Yamanoko"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Natalie Jeremijenko"
+              }
+            ],
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Vertical farming can have financial benefits."
+              },
+              {
+                "number": 24,
+                "textHtml": "Traditional farming has had a negative effect on the natural world."
+              },
+              {
+                "number": 25,
+                "textHtml": "Vertical farming could dramatically increase world food production."
+              },
+              {
+                "number": 26,
+                "textHtml": "Traditional farms may benefit from wider use of vertical farming."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Marketing And Mind Control",
+        "passageHtml": "<p>Read the text and answer questions 27–40</p><p>While there had been a long tradition of giving rings as a commitment to marry, the custom of giving diamond engagement rings was in large part manufactured by one of the most effective marketing campaigns in history. In the early 1900s, diamond sales were declining, posing a serious problem for the company that essentially had control over the diamond market. In 1938, this company hired an advertising agency, which proposed reshaping social attitudes toward diamonds. As well as magazines showing film stars draped in diamonds, the agency arranged for movies to incorporate diamond engagement rings into their plots. The campaign culminated with the slogan: 'A diamond is forever'. At the time, the approach was unique. Rather than pushing a brand, the objective was to promote diamonds as the symbol of everlasting love. This was achieved by exploiting the associative nature of the brain: associating neurons activated by the concept of 'love' with neurons that encoded the concept of \"diamonds\". By 1941, diamond sales had increased by 55 %.</p><p>Advertising comes in many forms, from blatant neon signs to subtly embedded products in movies. In each case, the goal is to mould our habits, desires and opinions. Our visual system is targeted by an avalanche of information on the internet, street posters, and billboards and in movie theatres. Our auditory system submits to catchy radio jingles and telemarketers. More surreptitiously, our olfactory system is targeted by variations of vanilla and citrus perfumes aimed at enticing us to linger in a retail outlet. It is difficult to measure how effective these campaigns are, but as in the 'A diamond is forever' campaign, they can be so successful that they change the fabric of our culture. In the case of bottled water, we are swayed by advertising into paying for something that we can obtain for free. Most people cannot distinguish bottled from tap water, much less between brands of bottled water, which is why you rarely hear of a bottled water company proposing a blind taste test.</p><p>So why is marketing such an effective mind-control technique? It is interesting to consider whether other animals exhibit anything analogous to humans' susceptibility to advertising. If we provide a lab rat with two types of cereal, it will consume approximately the same amount of each. However, if we put that rat with another rat that spent its day eating just one type, when faced with a choice, our rat will now show a preference for the same type as the other rat was eating. Psychologists call this 'socially transmitted food preference'.</p><p>What many regard as the first documented examples of cultural learning in primates started with a clever monkey that lived in a colony of Japanese monkeys on the island of Koshima. She began taking her dirt-covered sweet potatoes to the river to wash them before eating them. Upon seeing this, a few other open-minded monkeys picked up on the idea. Potato washing then spread from monkey to monkey and, over the course of a few years, most monkeys were eating clean potatoes. Humans are clearly not the only animals to engage in imitation and social learning.</p><p>Learning by observation can be an extraordinarily valuable brain feature; this is how we learn to communicate and perform motor skills as well as deal with many everyday problems. For example, a newcomer struggling to purchase tickets and navigate the subway system in a foreign city may step back to learn from the people nearby. Humans and other primates exhibit multiple forms of imitative learning and this is called cultural transmission.</p><p>A component of advertising relies on the marketer's ability to tap into the brain's propensity for imitation. Anybody who has watched TV knows advertisements are disproportionately populated with attractive, successful looking individuals. If we are going to imitate someone, we are more inclined to imitate those who appear to be popular and appealing.</p><p>Although not all researchers are convinced by the findings, a number of studies indicate that some animals also imitate dominant members of their group. Primatologist Frans de Waal provides anecdotal evidence of preferential imitation among chimpanzees. He noted that in one particular group the dominant male was hurt and was limping as a result. Soon unlikely if a non-dominant male had been injured.</p><p>Imitation is undoubtedly an invaluable ability, but often our propensity to imitate generalises indiscriminately, leading to poor decisions. When athlete Dick Fosbury revolutionised the high jump by jumping over the bar backward in 1968, imitators obviously copied his jumping style, not his brand of sports shoes. However, today, sports people appear in advertisements asking us to buy the laptops or sports drinks that they promote. Rationally, we know these people's success did not depend on these products, so it seems our propensity to purchase products relates more to neural programs that evolved to encourage imitation of those further up the social ladder.</p><p>Today, companies engage in stealth marketing campaigns in which people are paid to frequent bars or websites to covertly promote certain products. Companies also perform studies in which they track the eye movements of people viewing displays, and carefully craft names, packages and jingles associated with their products. While we may like to believe that manipulation on a grand scale would not be possible, that's not to say that advertising is innately harmful. To the contrary, the marketing of products or ideas is essential to human culture. The point is that we should ensure our choices reflect our actual goals and desires, and we must distinguish between the dissemination of information which is for our own good, and our manipulation for the benefit of companies.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–31</h3>Choose the correct letter, A, B, C or D.",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "According to the writer, which marketing technique attempts to make consumers stay in a shop for longer?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; playing appealing music"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; emitting pleasant scents"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; displaying attractive posters"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; making in-store announcements"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "The writer mentions bottled water in order to show that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; consumers buy it because of the fact that it is marketed."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; people purchase it despite the fact that it has no taste."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; marketers need not do taste tests when a campaign is effective."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; tests prove that people cannot differentiate it from tap water."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "According to the writer, socially transmitted food preference occurs when",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; only dominant members of an animal group influence what others eat."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; the same types of animals naturally prefer the same types of food."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; animals are influenced by what any other animals of the same species eat."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; a food type is more desirable because an animal views that food as scarce."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "According to the writer, how is learning by observation and imitation a useful feature of the brain?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; it helps people overcome challenges."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; positive models can influence social behaviour."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; it can give an advantage when communicating with others."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; cultural norms and relationships can be understood more easily."
+                  }
+                ]
+              },
+              {
+                "number": 31,
+                "textHtml": "According to the writer, how does television advertising exploit the human tendency to imitate others?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "&nbsp; It shows buying behaviour that marketers want to encourage in viewers."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "&nbsp; It features people who have a desirable image."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "&nbsp; It shows older people whom teenagers admire."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "&nbsp; It features successful people endorsing products responsible for their success."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 32–36</h3>Do the following statements agree with the claims of the writer in Reading Passage 3?<br>YES if the statement agrees &nbsp;|&nbsp; NO if it contradicts &nbsp;|&nbsp; NOT GIVEN if impossible to say",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 32,
+                "textHtml": "The diamond campaign worked by making a connection in people's minds between diamonds and luxury."
+              },
+              {
+                "number": 33,
+                "textHtml": "People are more aware of visual marketing than auditory marketing."
+              },
+              {
+                "number": 34,
+                "textHtml": "The campaign advertising diamonds had a positive influence on society."
+              },
+              {
+                "number": 35,
+                "textHtml": "There is still some uncertainty about whether animals copy the behaviour of the most powerful animals among them."
+              },
+              {
+                "number": 36,
+                "textHtml": "Consumers make a logical connection between celebrities' achievements and the products they promote."
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 37–40</h3>Complete each sentence with the correct ending, A–G, below.",
+            "selectCount": 1,
+            "bodyHtml": "<div>37The behaviour of the monkeys on the island of Koshima showed that{{37}}</div><div>38Primatologist Frans de Waal found that{{38}}</div><div>39Dick Fosbury is mentioned in order to show that{{39}}</div><div>40A feature of some modern marketing campaigns is that{{40}}</div><div>Sentence Endings</div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "people imitated behaviour that was linked with success."
+              },
+              {
+                "letter": "B",
+                "textHtml": "younger animals of a certain species are more likely to imitate each other."
+              },
+              {
+                "letter": "C",
+                "textHtml": "an animal would imitate another that had higher status."
+              },
+              {
+                "letter": "D",
+                "textHtml": "imitation of popular sportspeople has occurred for many decades."
+              },
+              {
+                "letter": "E",
+                "textHtml": "products are marketed to potential consumers who are unaware that marketing is occurring."
+              },
+              {
+                "letter": "F",
+                "textHtml": "animals can develop new habits by observation."
+              },
+              {
+                "letter": "G",
+                "textHtml": "incentives are provided for consumers who behave in a certain way."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "evergreen tree",
+          "evergreen"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "natural pesticides",
+          "pesticides"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "a powder",
+          "powder"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "overnight"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "cake"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "nitrogen"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "2000"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "neem seeds",
+          "seeds"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "water purification",
+          "purification"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "G"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "erosion"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "operating costs",
+          "costs"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "helicopters"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "NO"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "NO"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "E"
+        ]
+      }
+    },
+    "sets": []
+  }
+}
