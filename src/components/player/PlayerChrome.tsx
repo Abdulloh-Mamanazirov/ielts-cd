@@ -263,14 +263,14 @@ export function ReviewHeader({
 function TelegramLink() {
   return (
     <a
-      href="https://t.me/IELTS_ARMY"
+      href="https://t.me/DN_IELTS"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Open our Telegram channel, IELTS ARMY, in a new tab"
+      aria-label="Open our Telegram channel, DN IELTS, in a new tab"
       className="inline-flex flex-none items-center gap-2 rounded-[9px] bg-[#e9f5fc] px-3 py-2.5 text-[13px] font-bold text-[#1b7fb5] transition hover:bg-[#229ed9] hover:text-white"
     >
       <TelegramGlyph />
-      <span className="hidden font-bold md:inline">IELTS ARMY</span>
+      <span className="hidden font-bold md:inline">DN IELTS Telegram</span>
     </a>
   );
 }
