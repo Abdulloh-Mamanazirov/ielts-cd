@@ -126,7 +126,7 @@ export function WritingPlayer({
   }
 
   return (
-    <div className="flex h-dvh flex-col overflow-hidden bg-surface-alt">
+    <div className="flex h-dvh min-h-dvh flex-col overflow-hidden bg-surface-alt">
       <PlayerHeader
         title={test.title}
         subtitle={`${attempt.mode === "MOCK" ? "Mock" : "Practice"} · ${tasks.length} task${tasks.length === 1 ? "" : "s"}`}

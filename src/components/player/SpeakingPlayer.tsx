@@ -188,7 +188,7 @@ export function SpeakingPlayer({
   }
 
   return (
-    <div className="flex h-dvh flex-col overflow-hidden bg-surface-alt">
+    <div className="flex h-dvh min-h-dvh flex-col overflow-hidden bg-surface-alt">
       <PlayerHeader
         title={test.title}
         subtitle={`${locked ? "Mock" : "Practice"} · ${prompts.length} questions`}

@@ -234,7 +234,7 @@ export function TestPlayer({
   return (
     // `overflow-hidden`: the player owns the viewport and scrolls inside its own
     // panes. Nothing should ever be able to scroll the document behind it.
-    <div className="flex h-dvh flex-col overflow-hidden bg-surface-alt">
+    <div className="flex h-dvh min-h-dvh flex-col overflow-hidden bg-surface-alt">
       {reviewMode && result ? (
         <ReviewHeader
           title={test.title}
