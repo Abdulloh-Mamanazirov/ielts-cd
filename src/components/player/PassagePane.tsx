@@ -66,7 +66,8 @@ function markEvidenceRuns(html: string, marks: EvidenceMark[]): string {
 }
 
 /**
- * Reading passage, set in serif because exam prose is read at length.
+ * Reading passage, in the same sans face and text size as the questions, which
+ * is how the computer-delivered exam sets both.
  *
  * In review a student can ask where an answer came from; the snippet is wrapped
  * in a blue mark and scrolled to, which teaches location rather than just
@@ -255,7 +256,7 @@ export function PassagePane({
         style={{ fontSize }}
         onMouseUp={readSelection}
         onClick={onArticleClick}
-        className="font-serif leading-[1.75] text-ink [&_.para-label]:font-bold [&_[data-ev-badge]]:ml-0.5 [&_[data-ev-badge]]:rounded [&_[data-ev-badge]]:bg-brand-blue [&_[data-ev-badge]]:px-1 [&_[data-ev-badge]]:py-px [&_[data-ev-badge]]:align-super [&_[data-ev-badge]]:font-sans [&_[data-ev-badge]]:text-[9px] [&_[data-ev-badge]]:font-bold [&_[data-ev-badge]]:leading-none [&_[data-ev-badge]]:text-white [&_[data-ev-wrong]]:bg-brand-red-cta/[0.12] [&_[data-ev-wrong]]:shadow-[inset_0_-2px_0_#e10046] [&_[data-ev-wrong]_[data-ev-badge]]:bg-brand-red-cta [&_[data-evidence]]:rounded [&_[data-evidence]]:bg-brand-blue/15 [&_[data-evidence]]:px-0.5 [&_[data-evidence]]:text-ink [&_[data-evidence]]:shadow-[inset_0_-2px_0_#0154f8] [&_[data-hl]]:cursor-pointer [&_[data-hl]]:rounded-sm [&_[data-hl]]:bg-[#ffe89a] [&_[data-hl]]:text-ink [&_[data-note]]:shadow-[inset_0_-2px_0_#e10046] [&_h1]:mb-4 [&_h1]:font-sans [&_h1]:text-xl [&_h1]:font-bold [&_h4]:mb-3 [&_h4]:font-sans [&_h4]:font-bold [&_h5]:mb-2 [&_h5]:mt-5 [&_h5]:font-sans [&_h5]:font-bold [&_p]:mb-4"
+        className="leading-[1.75] text-ink [&_.para-label]:font-bold [&_[data-ev-badge]]:ml-0.5 [&_[data-ev-badge]]:rounded [&_[data-ev-badge]]:bg-brand-blue [&_[data-ev-badge]]:px-1 [&_[data-ev-badge]]:py-px [&_[data-ev-badge]]:align-super [&_[data-ev-badge]]:font-sans [&_[data-ev-badge]]:text-[9px] [&_[data-ev-badge]]:font-bold [&_[data-ev-badge]]:leading-none [&_[data-ev-badge]]:text-white [&_[data-ev-wrong]]:bg-brand-red-cta/[0.12] [&_[data-ev-wrong]]:shadow-[inset_0_-2px_0_#e10046] [&_[data-ev-wrong]_[data-ev-badge]]:bg-brand-red-cta [&_[data-evidence]]:rounded [&_[data-evidence]]:bg-brand-blue/15 [&_[data-evidence]]:px-0.5 [&_[data-evidence]]:text-ink [&_[data-evidence]]:shadow-[inset_0_-2px_0_#0154f8] [&_[data-hl]]:cursor-pointer [&_[data-hl]]:rounded-sm [&_[data-hl]]:bg-[#ffe89a] [&_[data-hl]]:text-ink [&_[data-note]]:shadow-[inset_0_-2px_0_#e10046] [&_h1]:mb-4 [&_h1]:font-sans [&_h1]:text-xl [&_h1]:font-bold [&_h4]:mb-3 [&_h4]:font-sans [&_h4]:font-bold [&_h5]:mb-2 [&_h5]:mt-5 [&_h5]:font-sans [&_h5]:font-bold [&_p]:mb-4"
       >
         <RichHtml html={marked} />
       </article>

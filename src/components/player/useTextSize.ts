@@ -3,7 +3,7 @@
 import { useCallback, useSyncExternalStore } from "react";
 
 /** The design's three steps. Anything else and passages reflow unpredictably. */
-export const TEXT_STEPS = [16, 18, 20] as const;
+export const TEXT_STEPS = [17, 19, 21] as const;
 type TextStep = (typeof TEXT_STEPS)[number];
 
 const STORAGE_KEY = "ielts:textSize";

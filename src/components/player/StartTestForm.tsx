@@ -23,6 +23,16 @@ export function StartTestForm({
     setStarting(mode);
     setError(null);
 
+    // Enter fullscreen for the exam. Requested here, inside the click gesture
+    // and before any await, which is what browsers require; it carries through
+    // the client-side navigation into the player. Best-effort — a browser that
+    // refuses or lacks the API just stays in a normal window.
+    try {
+      await document.documentElement.requestFullscreen?.();
+    } catch {
+      /* fullscreen unavailable — continue windowed */
+    }
+
     try {
       const response = await fetch("/api/attempts", {
         method: "POST",

@@ -49,18 +49,17 @@ export function ArcMark({
 }
 
 export function Logo({ className, compact = false }: { className?: string; compact?: boolean }) {
+  // The uploaded brand mark (DN over an open book, IELTS beneath). It is square,
+  // so it is sized by height and keeps its own width.
   return (
-    <span className={cn("flex items-center gap-3", className)}>
-      <ArcMark size={34} />
-      {!compact && (
-        <span className="flex flex-col leading-none">
-          <span className="font-display text-[15px] tracking-[0.01em] text-ink">DAVRONBEK</span>
-          <span className="mt-1 text-[9.5px] font-bold tracking-[0.3em] text-ink-subtle">
-            IELTS ACADEMIC
-          </span>
-        </span>
-      )}
-    </span>
+    <Image
+      src="/logo.png"
+      alt="DN IELTS — Davronbek Nabiev"
+      width={1254}
+      height={1254}
+      priority
+      className={cn("w-auto", compact ? "h-9" : "h-11", className)}
+    />
   );
 }
 

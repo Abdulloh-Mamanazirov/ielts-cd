@@ -132,7 +132,7 @@ export default async function TestsPage({
               unlock it on your account.
             </p>
             <a
-              href="https://t.me/ielts_army_uz"
+              href="https://t.me/DavronbekNabiev"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex items-center gap-3 rounded-[10px] bg-brand-red-cta px-6 py-3.5 text-sm font-bold text-white transition hover:bg-brand-red-dark"
