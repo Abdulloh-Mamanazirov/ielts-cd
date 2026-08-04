@@ -5,7 +5,7 @@ import { PageHeader } from "@/components/app/PageHeader";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { describeTest, isSkillSlug, skillBySlug } from "@/lib/skills";
-import { cn } from "@/lib/utils";
+import { cn, naturalCompare } from "@/lib/utils";
 
 export const metadata = { title: "Practice tests" };
 
@@ -49,6 +49,15 @@ export default async function TestsPage({
       select: { id: true, testId: true, status: true, band: true },
     }),
   ]);
+
+  // The database can only sort titles lexicographically, which files "Test 10"
+  // between "Test 1" and "Test 2". Re-sort here so the numbers read in order.
+  tests.sort(
+    (a, b) =>
+      a.skill.localeCompare(b.skill) ||
+      Number(a.isPremium) - Number(b.isPremium) ||
+      naturalCompare(a.title, b.title),
+  );
 
   // One row, one state — so the eye can scan a single column for status.
   const stateFor = (testId: string) => {

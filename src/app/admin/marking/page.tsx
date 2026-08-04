@@ -1,10 +1,15 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 
 import { AdminPage, EmptyState } from "@/components/admin/AdminPage";
 import { prisma } from "@/lib/db";
+import { INSTRUCTOR_MARKING_ENABLED } from "@/lib/features";
 import { cn } from "@/lib/utils";
 
 export default async function MarkingQueuePage() {
+  // Parked feature: nothing reaches this queue while submission is off.
+  if (!INSTRUCTOR_MARKING_ENABLED) redirect("/admin");
+
   const attempts = await prisma.attempt.findMany({
     where: {
       status: "SUBMITTED",

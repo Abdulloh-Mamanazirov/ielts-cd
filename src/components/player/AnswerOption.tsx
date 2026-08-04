@@ -39,6 +39,12 @@ export function AnswerOption({
   mark: OptionMark;
   onSelect: () => void;
 }) {
+  // Some sources carry the control letter as the option's entire text, so the
+  // badge and the text are the same character and the row reads "C   C". Show
+  // it once: the badge is dropped and the text stands on its own.
+  const isBareLetter =
+    textHtml.replace(/<[^>]*>/g, "").trim().toUpperCase() === letter.trim().toUpperCase();
+
   return (
     <label
       className={cn(
@@ -70,7 +76,7 @@ export function AnswerOption({
 
       <Control multi={multi} checked={checked} mark={mark} />
 
-      {showLetter && (
+      {showLetter && !isBareLetter && (
         <span aria-hidden className="w-[0.9em] flex-none font-bold text-ink">
           {letter}
         </span>

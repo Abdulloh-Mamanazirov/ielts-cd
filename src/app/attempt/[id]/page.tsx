@@ -4,6 +4,7 @@ import { SpeakingPlayer } from "@/components/player/SpeakingPlayer";
 import { TestPlayer, type AttemptSnapshot } from "@/components/player/TestPlayer";
 import { WritingPlayer } from "@/components/player/WritingPlayer";
 import { requireUser } from "@/lib/auth/guards";
+import { INSTRUCTOR_MARKING_ENABLED } from "@/lib/features";
 import type { Annotations } from "@/lib/player/highlights";
 import { prisma } from "@/lib/db";
 import { getPlayableTest } from "@/lib/tests/access";
@@ -50,8 +51,10 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
   // Three players, one lifecycle. Which one a student gets is decided here and
   // nowhere else.
   // Marking is the paid part. A free student can sit either test and keep the
-  // work; they just cannot put it in the instructor's queue.
-  const canRequestReview = user.isPremium || user.role === "ADMIN";
+  // work; they just cannot put it in the instructor's queue. While marking is
+  // switched off entirely, nobody can — the work is still saved either way.
+  const canRequestReview =
+    INSTRUCTOR_MARKING_ENABLED && (user.isPremium || user.role === "ADMIN");
 
   if (access.test.skill === "writing") {
     return (

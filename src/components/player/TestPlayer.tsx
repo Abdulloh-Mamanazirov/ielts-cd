@@ -196,6 +196,14 @@ export function TestPlayer({
   const remaining = useCountdown(attempt.expiresAt, reviewMode, submit);
   const currentPart = parts.find((part) => part.number === activePart) ?? parts[0];
 
+  // In a mock the student should not know which Volume or Test they drew — on
+  // the day there is no such label, and knowing it invites looking the paper up
+  // afterwards. The real title comes back in review, once the paper is marked.
+  const displayTitle =
+    attempt.mode === "MOCK" && !reviewMode
+      ? `IELTS ${test.skill === "listening" ? "Listening" : "Reading"}`
+      : test.title;
+
   const answeredCount = navParts
     .flatMap((part) => part.questions)
     .filter((question) => (answers[String(question)] ?? "").trim()).length;
@@ -252,7 +260,7 @@ export function TestPlayer({
         />
       ) : (
         <PlayerHeader
-          title={test.title}
+          title={displayTitle}
           subtitle={`${attempt.mode === "MOCK" ? "Mock" : "Practice"} · ${test.totalQuestions} questions`}
           exitHref={exitHref}
           remaining={remaining}

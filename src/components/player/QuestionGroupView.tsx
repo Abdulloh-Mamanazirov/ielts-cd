@@ -230,12 +230,22 @@ function ActiveRule() {
 function WordBank({ group }: { group: QuestionGroup }) {
   return (
     <ul className="mb-5 grid gap-x-6 gap-y-1.5 rounded-md bg-surface-alt px-4 py-3.5 text-[0.95em] sm:grid-cols-2">
-      {group.wordBank?.map((item) => (
-        <li key={item.letter} className="flex gap-2.5">
-          <span className="w-[0.9em] flex-none font-bold text-ink">{item.letter}</span>
-          <RichHtml html={item.textHtml} className="text-ink" />
-        </li>
-      ))}
+      {group.wordBank?.map((item) => {
+        // Same guard as AnswerOption: never print the control letter twice when
+        // a source stores it as the entry's whole text.
+        const isBareLetter =
+          item.textHtml.replace(/<[^>]*>/g, "").trim().toUpperCase() ===
+          item.letter.trim().toUpperCase();
+
+        return (
+          <li key={item.letter} className="flex gap-2.5">
+            {!isBareLetter && (
+              <span className="w-[0.9em] flex-none font-bold text-ink">{item.letter}</span>
+            )}
+            <RichHtml html={item.textHtml} className="text-ink" />
+          </li>
+        );
+      })}
     </ul>
   );
 }
