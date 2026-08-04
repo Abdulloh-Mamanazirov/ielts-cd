@@ -21,13 +21,58 @@ const sourceSerif = Source_Serif_4({
   weight: ["400", "600"],
 });
 
+const DESCRIPTION =
+  "Computer-delivered IELTS Academic mock tests and practice with instant scoring and band feedback, from instructor Davronbek Nabiev in Tashkent, Uzbekistan.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dn-ielts.uz"),
   title: {
     default: "Davronbek Nabiev — IELTS Mock Tests",
     template: "%s · Davronbek Nabiev",
   },
-  description:
-    "Computer-delivered IELTS Academic mock tests and practice with instant scoring and band feedback.",
+  description: DESCRIPTION,
+  applicationName: "DN IELTS",
+  authors: [{ name: "Davronbek Nabiev" }],
+  creator: "Davronbek Nabiev",
+  publisher: "Davronbek Nabiev",
+  keywords: [
+    "IELTS",
+    "IELTS mock test",
+    "IELTS Academic",
+    "computer-delivered IELTS",
+    "IELTS practice test",
+    "IELTS band score",
+    "IELTS Uzbekistan",
+    "IELTS Tashkent",
+    "Davronbek Nabiev",
+    "DN IELTS",
+  ],
+  verification: {
+    google: "EYx-D9y9nGs9B6uApjGffKotNU4QnzI4RY0MGDChFg8",
+  },
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "DN IELTS — Davronbek Nabiev",
+    title: "Davronbek Nabiev — IELTS Mock Tests",
+    description: DESCRIPTION,
+    url: "https://dn-ielts.uz",
+    locale: "en_US",
+    images: [{ url: "/logo.png", width: 1254, height: 1254, alt: "DN IELTS" }],
+  },
+  twitter: {
+    card: "summary",
+    title: "Davronbek Nabiev — IELTS Mock Tests",
+    description: DESCRIPTION,
+    images: ["/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large" },
+  },
 };
 
 export default function RootLayout({

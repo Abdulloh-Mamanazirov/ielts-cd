@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { ArcMark } from "@/components/marketing/Brand";
+import { LogoMark } from "@/components/marketing/Brand";
 import { AdminNav } from "@/components/admin/AdminNav";
 import { requireAdmin } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
@@ -31,7 +31,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
       <aside className="flex shrink-0 flex-col bg-ink text-white lg:sticky lg:top-0 lg:h-dvh lg:w-[236px]">
         <div className="px-5 py-5">
           <Link href="/admin" className="flex items-center gap-3">
-            <ArcMark size={28} />
+            <LogoMark size={28} />
             <span className="flex flex-col leading-none">
               <span className="font-display text-[13px]">DAVRONBEK</span>
               <span className="mt-1 text-[8.5px] font-bold tracking-[0.28em] text-brand-red">

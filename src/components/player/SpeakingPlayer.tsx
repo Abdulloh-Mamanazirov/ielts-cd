@@ -8,6 +8,7 @@ import { formatClock, PlayerHeader } from "./PlayerChrome";
 import { RichHtml } from "./SlotHtml";
 import { ConfirmDialog } from "./SubmitDialog";
 import { useCountdown } from "./useCountdown";
+import { useLockWindowScroll } from "./useLockWindowScroll";
 import { useRecorder } from "./useRecorder";
 import { useTextSize } from "./useTextSize";
 import type { AttemptSnapshot } from "./TestPlayer";
@@ -39,6 +40,8 @@ export function SpeakingPlayer({
 }) {
   const prompts = useMemo(() => test.content.prompts ?? [], [test.content.prompts]);
   const locked = attempt.mode === "MOCK";
+
+  useLockWindowScroll();
 
   const [index, setIndex] = useState(0);
   const [phase, setPhase] = useState<Phase>("briefing");

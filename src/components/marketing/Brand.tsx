@@ -49,16 +49,42 @@ export function ArcMark({
 }
 
 export function Logo({ className, compact = false }: { className?: string; compact?: boolean }) {
-  // The uploaded brand mark (DN over an open book, IELTS beneath). It is square,
-  // so it is sized by height and keeps its own width.
+  return (
+    <span className={cn("flex items-center gap-3", className)}>
+      <Image
+        src="/logo.png"
+        alt="DN IELTS — Davronbek Nabiev"
+        width={1254}
+        height={1254}
+        priority
+        className="h-14 w-auto flex-none"
+      />
+      {!compact && (
+        <span className="flex flex-col leading-none">
+          <span className="font-display text-[15px] tracking-[0.01em] text-ink">DAVRONBEK</span>
+          <span className="mt-1 text-[9.5px] font-bold tracking-[0.3em] text-ink-subtle">
+            IELTS ACADEMIC
+          </span>
+        </span>
+      )}
+    </span>
+  );
+}
+
+/**
+ * The uploaded brand logo as a standalone square, for the places the old arc
+ * mark stood on its own. Its background is near-white, so it is rounded to read
+ * as a tidy badge on the dark sidebars and footer rather than a hard-edged box.
+ */
+export function LogoMark({ size = 34, className }: { size?: number; className?: string }) {
   return (
     <Image
       src="/logo.png"
-      alt="DN IELTS — Davronbek Nabiev"
+      alt="DN IELTS"
       width={1254}
       height={1254}
-      priority
-      className={cn("w-auto", compact ? "h-9" : "h-11", className)}
+      className={cn("flex-none rounded-md", className)}
+      style={{ width: size, height: size }}
     />
   );
 }
@@ -143,7 +169,7 @@ export function HeroPortrait() {
         </div>
 
         <div className="absolute -right-2 -top-1 flex h-[88px] w-[88px] items-center justify-center rounded-xl bg-white shadow-[0_20px_38px_-20px_rgba(11,17,32,.5)]">
-          <ArcMark size={44} />
+          <LogoMark size={56} />
         </div>
 
         <div className="absolute -bottom-4 left-0 flex items-center gap-2.5 rounded-lg bg-ink px-4 py-2.5 text-[11.5px] font-bold tracking-[0.14em] text-white shadow-[0_18px_30px_-18px_rgba(11,17,32,.9)]">

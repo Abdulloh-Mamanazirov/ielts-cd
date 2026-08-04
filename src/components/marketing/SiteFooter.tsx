@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { ArcMark } from "./Brand";
+import { LogoMark } from "./Brand";
 import { site } from "@/content/site";
 
 const QUICK_LINKS = [
@@ -23,7 +23,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-[1440px] gap-10 px-8 py-14 sm:grid-cols-2 lg:grid-cols-4 lg:px-14">
         <div>
           <span className="flex items-center gap-3">
-            <ArcMark size={34} />
+            <LogoMark size={34} />
             <span className="flex flex-col leading-none">
               <span className="font-display text-[15px] tracking-[0.01em]">DAVRONBEK</span>
               <span className="mt-1 text-[9.5px] font-bold tracking-[0.3em] text-white/45">

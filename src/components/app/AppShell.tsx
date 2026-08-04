@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { ArcMark } from "@/components/marketing/Brand";
+import { LogoMark } from "@/components/marketing/Brand";
 import { SkillIcon } from "@/components/SkillIcon";
 import { LogoutButton } from "./LogoutButton";
 import type { SessionUser } from "@/lib/auth/session";
@@ -29,7 +29,7 @@ export function AppShell({
       <aside className="flex shrink-0 flex-col bg-ink text-white lg:sticky lg:top-0 lg:h-dvh lg:w-[248px] lg:overflow-y-auto">
         <div className="flex items-center justify-between gap-3 px-5 py-5 lg:block">
           <Link href="/" className="flex items-center gap-3">
-            <ArcMark size={30} />
+            <LogoMark size={30} />
             <span className="flex flex-col leading-none">
               <span className="font-display text-[13px] tracking-[0.01em]">DAVRONBEK</span>
               <span className="mt-1 text-[8.5px] font-bold tracking-[0.28em] text-white/45">

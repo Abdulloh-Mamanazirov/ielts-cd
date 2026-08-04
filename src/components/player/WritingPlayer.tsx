@@ -11,6 +11,7 @@ import { SplitView } from "./SplitView";
 import { Cell, ConfirmDialog } from "./SubmitDialog";
 import { useAutosave } from "./useAutosave";
 import { useCountdown } from "./useCountdown";
+import { useLockWindowScroll } from "./useLockWindowScroll";
 import { useTextSize } from "./useTextSize";
 import type { AttemptSnapshot } from "./TestPlayer";
 
@@ -36,6 +37,8 @@ export function WritingPlayer({
     () => [...(test.content.tasks ?? [])].sort((a, b) => a.number - b.number),
     [test.content.tasks],
   );
+
+  useLockWindowScroll();
 
   const [texts, setTexts] = useState<Record<string, string>>(attempt.answers ?? {});
   const [activeTask, setActiveTask] = useState(tasks[0]?.number ?? 1);
