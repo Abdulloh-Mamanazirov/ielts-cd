@@ -5,6 +5,8 @@ import type { TestImport } from "../../src/lib/tests/schema";
 import { formatValidationReport, validateTestImport } from "../../src/lib/tests/validate";
 import { convertBekhruzReading } from "./bekhruz-reading";
 import { convertBekhruzListening } from "./bekhruz-listening";
+import { convertCambridgeReading } from "./cambridge-reading";
+import { convertCambridgeListening } from "./cambridge-listening";
 import { writeJson } from "./lib";
 
 /**
@@ -61,7 +63,21 @@ function namedVolume(text: string): number | null {
   return match ? Number(match[1]) : null;
 }
 
-type Found = { skill: "reading" | "listening"; volume: number; n: number; path: string; slug: string };
+type Found = {
+  skill: "reading" | "listening";
+  /** Which library, and which Volume or Cambridge book inside it. */
+  series: "REAL_EXAM" | "CAMBRIDGE";
+  seriesNumber: number;
+  n: number;
+  path: string;
+  slug: string;
+};
+
+/** "Cambridge 21", "Cam 19", "CB18" — the book number, if this is one. */
+function namedCambridge(text: string): number | null {
+  const match = text.match(/\b(?:cambridge|camb?|cb)[\s_-]*(\d{1,2})\b/i);
+  return match ? Number(match[1]) : null;
+}
 
 /**
  * Resolves every source file to a skill, Volume and test number. Skill and
@@ -77,61 +93,85 @@ function discover(): Found[] {
     const hay = `${basename(path)} ${readTitle(path)}`;
     const skill = /listening/i.test(hay) ? "listening" : /reading/i.test(hay) ? "reading" : null;
     const test = hay.match(/(?:^|[\s_(])Test[\s_]*(\d+)/i);
-    const volume = namedVolume(hay) ?? namedVolume(basename(dirname(path)));
-    if (!skill || !test || volume === null) {
+
+    // A Cambridge book is named as one; everything else is an instructor Volume.
+    const book = namedCambridge(hay) ?? namedCambridge(basename(dirname(path)));
+    const volume = book === null ? (namedVolume(hay) ?? namedVolume(basename(dirname(path)))) : null;
+
+    const series = book !== null ? "CAMBRIDGE" : "REAL_EXAM";
+    const seriesNumber = book ?? volume;
+
+    if (!skill || !test || seriesNumber === null) {
       console.warn(`skip  ${basename(path)} — could not read skill/volume/number`);
       continue;
     }
 
     const n = Number(test[1]);
-    const slug = `${skill}-volume-${volume}-test-${n}`;
+    const slug =
+      series === "CAMBRIDGE"
+        ? `${skill}-cambridge-${seriesNumber}-test-${n}`
+        : `${skill}-volume-${seriesNumber}-test-${n}`;
+
     if (seen.has(slug)) {
       console.warn(`skip  ${basename(path)} — ${slug} already taken`);
       continue;
     }
     seen.add(slug);
-    found.push({ skill, volume, n, path, slug });
+    found.push({ skill, series, seriesNumber, n, path, slug });
   }
 
-  return found.sort((a, b) => a.skill.localeCompare(b.skill) || a.volume - b.volume || a.n - b.n);
+  return found.sort(
+    (a, b) =>
+      a.skill.localeCompare(b.skill) ||
+      a.series.localeCompare(b.series) ||
+      a.seriesNumber - b.seriesNumber ||
+      a.n - b.n,
+  );
 }
 
 type Job = { label: string; outputName: string; run: () => TestImport };
 
 const jobs: Job[] = discover().map((test) => {
-  const { skill, volume, n, path, slug } = test;
-  const label = `${skill === "reading" ? "Reading" : "Listening"} — Volume ${volume}, Test ${n}`;
+  const { skill, series, seriesNumber, n, path, slug } = test;
+  const cambridge = series === "CAMBRIDGE";
+  const setName = cambridge ? `Cambridge ${seriesNumber}` : `Volume ${seriesNumber}`;
+  const skillName = skill === "reading" ? "Reading" : "Listening";
+  const label = `${skillName} — ${setName}, Test ${n}`;
+  const title = `IELTS ${skillName} — ${setName}, Test ${n}`;
+  const source = cambridge ? `Cambridge IELTS ${seriesNumber}` : SOURCE_LABEL;
+  const shelf = { series, seriesNumber, testNumber: n };
 
   if (skill === "reading") {
     return {
       label,
       outputName: `${slug}.json`,
-      run: () =>
-        convertBekhruzReading(path, {
-          title: `IELTS Reading — Volume ${volume}, Test ${n}`,
-          slug,
-          source: SOURCE_LABEL,
-          durationSeconds: 3600,
-          isPremium: false,
-        }),
+      run: () => {
+        const meta = { title, slug, source, durationSeconds: 3600, isPremium: false };
+        const imported = cambridge
+          ? convertCambridgeReading(path, meta)
+          : convertBekhruzReading(path, meta);
+        return { ...imported, ...shelf };
+      },
     };
   }
 
   return {
     label,
     outputName: `${slug}.json`,
-    run: () =>
-      convertBekhruzListening(
-        path,
-        {
-          title: `IELTS Listening — Volume ${volume}, Test ${n}`,
-          slug,
-          source: SOURCE_LABEL,
-          durationSeconds: 1800,
-          isPremium: false,
-        },
-        { audioPath: resolve(SOURCE_DIR, `${slug}.mp3`), mediaDir: MEDIA_DIR, mediaUrlBase: MEDIA_URL_BASE },
-      ),
+    run: () => {
+      const meta = { title, slug, source, durationSeconds: 1800, isPremium: false };
+      const imported = cambridge
+        ? convertCambridgeListening(path, meta, {
+            mediaDir: MEDIA_DIR,
+            mediaUrlBase: MEDIA_URL_BASE,
+          })
+        : convertBekhruzListening(path, meta, {
+            audioPath: resolve(SOURCE_DIR, `${slug}.mp3`),
+            mediaDir: MEDIA_DIR,
+            mediaUrlBase: MEDIA_URL_BASE,
+          });
+      return { ...imported, ...shelf };
+    },
   };
 });
 

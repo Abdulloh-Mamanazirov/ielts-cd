@@ -1,0 +1,751 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Cambridge 21, Test 3",
+    "source": "Cambridge IELTS 21",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "Saving the saiga",
+        "instructionsHtml": "Reading Passage 1<p>You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below.</p>",
+        "passageHtml": "Saving the saiga <p id=\"para-1\">The saiga, a species of antelope native to Central Asia, once roamed the vast grasslands of this region in enormous herds, many millions strong. Regrettably, such spectacular sights are a thing of the past. Today, the saiga is largely confined to a single country: Kazakhstan. This country is estimated to be home to well over 90% of the global saiga population, with Russia, Mongolia and Uzbekistan accounting for the rest.</p><p id=\"para-2\">The saiga is perfectly adapted to the tough conditions of the remote wilderness of the steppes of Central Asia. One such adaptation is its bizarre bulbous nose, which enables the animal to survive the extreme seasonal temperature swings of the region. The swollen nostrils of the nose serve several purposes: they filter out dust and cool the blood during hot, dry summers, and they warm the cold air before it enters the saiga's lungs in winter. Other seasonal adaptations include a heavy winter coat that the saiga sheds when the weather warms up.</p><p id=\"para-3\">Despite these superb adaptations to harsh conditions, the saiga has no defence against the threats posed by humans. It was almost driven to extinction by hunters in the 19th century. Legal protection ensured its survival for a while, and numbers steadily recovered throughout most of the 20th century. But the respite was only temporary. In the ten years following the break-up of the former Soviet Union in 1991, over 95% of the global population was lost — one of the fastest examples of species loss ever recorded for a mammal.</p><p id=\"para-4\">The dramatic decline during this decade was due to illegal poaching on an industrial scale. Male saiga are a particular target, because their horns are highly prized by traditional medicine practitioners. Poaching reached epidemic levels after misguided conservationists tried to relieve the pressure on threatened African rhinos by actively encouraging the use of saiga horns in traditional medicine as an alternative to those of rhinos. Male saiga were almost wiped out, leading to a population crash from which the species has been struggling to recover ever since.</p><p id=\"para-5\">Another threat to the survival of the saiga is loss of habitat, as a result of agricultural expansion and human settlement. Physical barriers such as railways, pipelines and fences can block the seasonal migration routes of this transboundary species. In the worst cases, herds may starve to death after being trapped.</p><p id=\"para-6\">Then there is the risk of disease. In 2015, an outbreak of haemorrhagic septicaemia, caused by the normally harmless bacterium <em>Pasteurella multocida</em>, killed over 75% of the global adult saiga population in just three weeks. In 2017, 60% of the Mongolian saiga population — a subspecies found nowhere else in the world — was killed by a virus that spilled over from livestock. These so-called mass mortality events represent an unpredictable and serious threat to the species.</p><p id=\"para-7\">Climate change poses a further threat. Although well adapted to cold winters and hot summers, saiga struggle to cope with temperature extremes and unpredictable fluctuations in climate. Experts believe that unusually warm weather may have triggered the 2015 mass mortality event. The steppe region has also become increasingly arid in recent years, and many of the smaller streams that the species normally depended on have dried up and vanished.</p><p id=\"para-8\">Recent efforts to save the saiga have been spearheaded by the Altyn Dala Conservation Initiative, a project led by the Association for the Conservation of Biodiversity of Kazakhstan, working in partnership with the Kazakh government's Committee for Forestry and Wildlife, Frankfurt Zoological Society and Fauna and Flora, an international conservation charity. Its purpose is to protect and restore Kazakhstan's steppe, semi-desert and desert ecosystems and the many species they support, including the critically endangered saiga. In 2022 the United Nations recognised the initiative as a World Restoration Flagship project, an accolade reserved for the ten best examples of large-scale ecosystem restoration around the globe.</p><p id=\"para-9\">So, how many saiga are there now? By 2000, the global saiga population had hit an all-time low of just 21,000 individuals. There was some recovery in the first decade of the new millennium but this was then crushed by devastating mass mortality events that saw the loss of hundreds of thousands of the species. But thanks to the intervention of the Altyn Dala Conservation Initiative, the most recent episodes in the ongoing story of the saiga have been relatively uplifting. Three years ago, the Ustyurt Plateau population in Kazakhstan experienced its largest mass birth of saiga calves in many years. An aerial census two years ago recorded an estimated 842,000 saiga across Kazakhstan as a whole, and according to an aerial survey earlier this year, the saiga population in Kazakhstan now exceeds 1.9 million. The world's strangest-looking antelope remains critically endangered, but the direction of travel is positive.</p>",
+        "groups": [
+          {
+            "id": "part-q1-7",
+            "rubricHtml": "<h3>Questions 1–7</h3><p>Complete the notes below.</p><p>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p><p>Write your answers in boxes 1–7 on your answer sheet.</p>",
+            "maxWords": 1,
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div class=\"summary\"><h4 class=\"summary-title\">The saiga</h4><p>Adaptations</p><ul class=\"notes-list\"><li>has a large bulbous nose with swollen nostrils that <ul><li>keep {{1}} out</li><li>lower the temperature of its {{2}} in summer</li><li>warm the air entering its lungs in winter</li></ul></li><li>grows a thick {{3}} in winter, which it loses in spring</li></ul><p>Reasons for population decline</p><ul class=\"notes-list\"><li>poaching, especially for the {{4}} of male saiga</li><li>expansion of farms and settlements, causing reduction in the size of the saiga's {{5}}</li><li>loss of access to the {{6}} which they use for migration</li><li>various forms of disease, leading to mass mortality events</li><li>climate change, causing the disappearance of {{7}} which the saiga relied on</li></ul></div>"
+          },
+          {
+            "id": "part-q8-13",
+            "rubricHtml": "<h3>Questions 8–13</h3><p>Do the following statements agree with the information given in Reading Passage 1?</p><p>In boxes 8–13 on your answer sheet, write</p>",
+            "selectCount": 1,
+            "type": "tfng",
+            "questions": [
+              {
+                "number": 8,
+                "textHtml": "Today, numbers of saiga are distributed evenly across four nations in Central Asia: Kazakhstan, Russia, Mongolia and Uzbekistan."
+              },
+              {
+                "number": 9,
+                "textHtml": "For most of the 20th century, the population of saiga were falling."
+              },
+              {
+                "number": 10,
+                "textHtml": "Efforts to protect rhinos in Africa had a significant effect on saiga populations."
+              },
+              {
+                "number": 11,
+                "textHtml": "Unpredictable fluctuations in climate are threatening the wildlife of Central Asia more than in other parts of the world."
+              },
+              {
+                "number": 12,
+                "textHtml": "The Altyn Dala Conservation Initiative was formed for the benefit of a number of different animals."
+              },
+              {
+                "number": 13,
+                "textHtml": "The Altyn Dala Conservation Initiative's recognition as a World Restoration Flagship project attracted additional international funding for the scheme."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "The problems of getting around the city of Dar es Salaam",
+        "instructionsHtml": "Reading Passage 2<p>You should spend about 20 minutes on Questions 14–26, which are based on Reading Passage 2 below.</p>",
+        "passageHtml": "The problems of getting around the city of Dar es Salaam <p id=\"para-d1\">Dar es Salaam in Tanzania is one of the fastest growing cities in Africa. Its population has increased eightfold since 1980 and swells by half a million people every year. United Nations projections anticipate it will become a megacity within seven years as its population passes 10 million, reaching 13.4 million by 2035. Daniel Hoornweg for the Global Cities Institute forecasts the city could be home to an incredible 73.7 million people by 2100.</p><p id=\"para-d2\">Today, four out of five of its people live in single-storey informal settlements on the spreading edges of the city, where the journey to and from the centre regularly takes over two hours. It can be longer if rain turns the dirt roads to mud.</p><p id=\"para-d3\">Even in the middle of the day, traffic frequently slows to a stop without warning. It is not unusual for cars and minibuses to queue for 20 minutes at a key intersection. A single suburban rail line serves residents in a few areas to the south but is tiny in the context of the wider city. Outside the centre many rely on boda boda (motorbike taxis) to navigate the narrow side streets and potholed mud roads that make up much of the metropolis. Their safety record is scandalous.</p><p id=\"para-d4\">Dar es Salaam's reliance on four arterial roads into the city is a legacy of the colonial government that planned the city at the start of the 20th century to cater for a population of 35,000. Most of the current growth is made up of young people arriving from the countryside to find work, and as the population has exploded, Dar es Salaam has grown around those four highways. Nearly all the expansion is happening on the periphery, and nearly all takes place informally without any agreed strategy.</p><p id=\"para-d5\">But Dar es Salaam is pinning its hopes on a solution that could offer a different model for Africa's megacities, giving them an alternative to a future controlled by the private car. Unlike many cities on the continent, Dar es Salaam isn't trying to build a metro. It has chosen a less exciting but cheaper and more achievable method: the bus.</p><p id=\"para-d6\">The DART bus rapid transit (BRT) system runs on bus lanes separated from other traffic, mostly in the middle of the road to reduce stoppages. Ticket purchase and control takes place at stations prior to boarding and the buses are step-free, which means the entire route is accessible to people using wheelchairs or who are travelling with baby buggies.</p><p id=\"para-d7\">'The new buses are much, much better,' says Paulas George, a young IT worker. He takes the bus every day and it has cut his journey time by two-thirds. He says it is not perfect, though, complaining that drivers often refuse to turn on the air conditioning to save fuel.</p><p id=\"para-d8\">That is not the only problem. A shortage of buses after a serious flood at the main depot during the rainy season means the system is carrying 200,000 people a day — half the expected capacity. Smartcards can't be used as the mechanical readers aren't working either, forcing passengers to buy individual paper tickets for every journey. Each is printed with a scannable QR code, but there are no scanners. Staff stand by the gates and tear tickets as people enter. As a result, queues are considerable at peak times.</p><p id=\"para-d9\">Morogoro Road to the north-west of the city was phase I of the BRT project. Phases II and III will install bus lanes along Nyerere Road to the south-west and Kilwa Road to the south. Construction on both routes is due to start imminently. Phase IV, towards Bagamoyo in the north, is in the preliminary design stage. 'Much of the city will have access to a world-class transport system within the space of a few years,' says Chris Kost, the Africa director of ITDP (the Institute for Transportation and Development Policy). All phases are being planned to high standards and, once complete, a third of city residents will be within a short walk of the BRT network.</p><p id=\"para-d10\">The ITDP regrets Africa's obsession with metros. 'With a metro, an international firm will often just parachute in its own system,' says Kost. 'Bus rapid transit allows existing stakeholders to get involved. That's what we did in Dar es Salaam and what we're planning in Nairobi, where the bus bodies will be built in the city and local operators will look after tickets, fare collection and IT … Bus rapid transit has been transformational for Dar es Salaam. For millions of people in African cities, this is their best hope of ever being connected.'</p>",
+        "groups": [
+          {
+            "id": "part-q14-18",
+            "rubricHtml": "<h3>Questions 14–18</h3><p>Do the following statements agree with the information given in Reading Passage 2?</p><p>In boxes 14–18 on your answer sheet, write</p>",
+            "selectCount": 1,
+            "type": "tfng",
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "The population of Dar es Salaam is rising more rapidly than was previously predicted."
+              },
+              {
+                "number": 15,
+                "textHtml": "Most of the residents of Dar es Salaam live in high-rise blocks on the edge of the city."
+              },
+              {
+                "number": 16,
+                "textHtml": "Residents have been consulted about their views on the suburban rail line in Dar es Salaam."
+              },
+              {
+                "number": 17,
+                "textHtml": "The majority of the present residential development in Dar es Salaam is unplanned."
+              },
+              {
+                "number": 18,
+                "textHtml": "Dar es Salaam's authorities have decided to follow the public transport plan adopted by a large number of African cities."
+              }
+            ]
+          },
+          {
+            "id": "part-q19-26",
+            "rubricHtml": "<h3>Questions 19–26</h3><p>Complete the notes below.</p><p>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p><p>Write your answers in boxes 19–26 on your answer sheet.</p>",
+            "maxWords": 1,
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div class=\"summary\"><h4 class=\"summary-title\">Dar es Salaam's DART Bus Rapid Transit system</h4><p>Features</p><ul class=\"notes-list\"><li>the buses use designated {{19}} to cut down on delays</li><li>passengers pay fares before {{20}}</li><li>passengers in {{21}} can use every part of the system</li></ul><p>Problems</p><ul class=\"notes-list\"><li>the temperature control is sometimes not activated in order to reduce {{22}} use</li><li>insufficient number of vehicles are available due to the effects of a severe {{23}}</li><li>passengers are unable to use {{24}} because some equipment is out of action</li><li>tickets have to be checked manually at station {{25}}</li><li>{{26}} frequently build up during rush hours</li></ul></div>"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Rethinking the Past",
+        "instructionsHtml": "Reading Passage 3<p>You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below.</p>",
+        "passageHtml": "Rethinking the Past <p id=\"para-p1\">It is by now a truism that the story of human evolution is being rethought. Discoveries have come thick and fast over the last decade or so, and these have forced us to rethink many crucial points, such as how old our species is — about 300,000 years old as opposed to 200,000 — and what extinct hominins, such as our cousins the Neanderthals, were really like. But because there are so many species and eras involved, it's hard to discern the common threads linking them.</p><p id=\"para-p2\">However, I do think it's possible to draw out some overall messages from the blizzard of archaeological finds in recent years. Two things stand out to me. One is the growing evidence that many supposedly 'advanced' behaviours, such as architecture and art, can be traced much further back in time than we thought, often to hominin species that existed before modern humans. And the other is that we have badly misunderstood gender roles in prehistoric societies, imposing patriarchal values onto cultures that had very different ideas about how women should behave.</p><p id=\"para-p3\">Let's start with architecture. At Kalambo Falls in Zambia, researchers found buried logs that had been shaped with stone tools so that they interlocked. They seem to have once been part of a larger structure, perhaps a building. This would be unsurprising if they weren't 476,000 years old. That's almost 200,000 years before our species, Homo sapiens, evolved. Extinct hominins also managed to settle in extreme places. For instance, we now know that extinct hominins such as the Denisovans lived on the frozen heights of high-altitude regions 200,000 years ago — upending the old notion that such environments were only settled by modern humans around 3,600 years ago.</p><p id=\"para-p4\">Art also seems to have been invented by older hominins. We have had evidence for a long time now that Neanderthals painted on cave walls. Even earlier species, such as Homo erectus, may also have made art, for example by engraving patterns on shells. By far the most contentious claim in this area is that Homo naledi made art. H. naledi lived around 250,000 years ago, making it a contemporary of our species. However, it had quite a small brain, typical of older hominins — and was therefore, according to palaeoanthropological dogma, incapable of complex behaviours. Nevertheless, in the Rising Star cave system in South Africa where the H. naledi remains were found, researchers have found what seem to be etchings — resembling rudimentary artwork — on the cave walls, though these have yet to be firmly dated.</p><p id=\"para-p5\">To say these claims about H. naledi are controversial is to understate the situation. Many experts say the evidence presented so far is completely inadequate to support them. The dispute has only been heightened by the way the results were released, in a non-traditional journal that publishes peer reviews publicly alongside the paper. My views on the H. naledi controversy are complicated. I do think more evidence is needed: in particular with regard to the dating of the etchings. At the same time, I think the species' small brains are a distraction. Palaeoanthropologists got fixated on brain size because it was what they could see: if what you have is skeletons, then all you know about brains are their shapes and sizes. But other properties, such as the brain's internal wiring, are surely equally important and may explain how a species like H. naledi might have been capable of complex behaviours, despite their small brains.</p><p id=\"para-p6\">In a sense, we shouldn't be surprised that so many of these behaviours had their origins in older, extinct hominins. Evolution usually works by incremental steps and so does technology. The first birds weren't great at flying, and the first mobile phones weren't great at, well, anything really. The idea that there was a sudden explosion of intelligence and creativity at some point in our evolution isn't inherently ridiculous: sometimes a system hits a tipping point and undergoes runaway change. But there was never that much evidence that human evolution worked this way. Instead, it seems the Neanderthals and many others all walked so we could run.</p><p id=\"para-p7\">One way or another, the H. naledi story is going to be an example of letting our preconceptions get in the way of the evidence. The same is true for our ideas about gender in prehistory. Archaeology was invented by individuals with now unfashionably patriarchal views about gender, and those notions fed into their research. Today's researchers are trying to unpick this stuff, and there have been some significant steps in recent years.</p><p id=\"para-p8\">Perhaps the most dramatic was the demolition of 'Man the Hunter'. This was the idea, promoted for decades, that in most prehistoric societies the men went out to hunt and the women looked after the home. However, a meta-analysis published in June 2023 compiled data on several dozen foraging societies and found women hunted in 80 per cent of them. In line with this, it emerged that an ancient spear-throwing tool called an atlatl enables women to launch projectiles at the same speed as men. We have also seen growing evidence of women occupying positions of authority in ancient societies. The Viking queen Thyra may have helped unify Denmark in the 900s. Going further back, an Iberian leader from around 4000 years ago turned out to be female, not male as many had assumed, when proteins in her teeth were analysed.</p><p id=\"para-p9\">It seems that the more we find out about past societies, the more our preconceptions about the ways society 'has to be' turn out to be wrong. Inequality, authoritarianism and patriarchy aren't inevitable. They're choices, and prehistory shows us that we can choose differently.</p>",
+        "groups": [
+          {
+            "id": "part-q27-30",
+            "rubricHtml": "<h3>Questions 27–30</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p><p>Write the correct letter in boxes 27–30 on your answer sheet.</p>",
+            "selectCount": 1,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "What is the writer doing in the second paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "pinpointing some key changes in our understanding of prehistory"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "outlining some aspects of prehistory which are still poorly understood"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "summarising some attitudes towards recent archaeological revelations"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "giving an overview of some current disagreements among archaeologists"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "In the sixth paragraph, the writer mentions mobile phones to make the point that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "most developments happen in a gradual way."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "innovation can come from a variety of sources."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "not all technological advancements are positive."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the path of evolution can often be unpredictable."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "In the seventh paragraph, the phrase 'unpick this stuff' refers to the task of",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "assessing the impact of certain recent research findings."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "questioning the authenticity of evidence used in earlier research."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "conducting research into how prehistoric societies were organised."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "reevaluating research influenced by outdated beliefs about society."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "What does the writer suggest in the final paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Studying past societies could help us create a fairer society today."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "We should not judge past societies by the standards of modern society."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "We still have much to learn about how societies have evolved over history."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "There is more than one way to interpret evidence about societies in prehistoric times."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-q31-34",
+            "rubricHtml": "<h3>Questions 31–34</h3><p>Complete each sentence with the correct ending, <strong>A–F</strong>, below.</p><p>Write the correct letter, <strong>A–F</strong>, in boxes 31–34 on your answer sheet.</p>",
+            "selectCount": 1,
+            "type": "matching",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              }
+            ],
+            "questions": [
+              {
+                "number": 31,
+                "textHtml": "The findings at Kalambo Falls revealed that"
+              },
+              {
+                "number": 32,
+                "textHtml": "Evidence from high-altitude regions suggests that"
+              },
+              {
+                "number": 33,
+                "textHtml": "An academic publication from June 2023 shows that"
+              },
+              {
+                "number": 34,
+                "textHtml": "Analysis of a 4000-year-old Iberian leader indicates that"
+              }
+            ]
+          },
+          {
+            "id": "part-q35-40",
+            "rubricHtml": "<h3>Questions 35–40</h3><p>Do the following statements agree with the views of the writer in Reading Passage 3?</p><p>In boxes 35–40 on your answer sheet, write</p>",
+            "selectCount": 1,
+            "type": "ynng",
+            "questions": [
+              {
+                "number": 35,
+                "textHtml": "It seems likely that the Neanderthals' cave paintings were the first examples of artwork ever created."
+              },
+              {
+                "number": 36,
+                "textHtml": "It is very rare to find prehistoric artwork carved onto shells."
+              },
+              {
+                "number": 37,
+                "textHtml": "The methods which the researchers used to examine the Rising Star cave system were rather unconventional."
+              },
+              {
+                "number": 38,
+                "textHtml": "It is unclear how old the etchings in the Rising Star cave system are."
+              },
+              {
+                "number": 39,
+                "textHtml": "The means used to publicise the findings from the Rising Star cave system added to the controversy that surrounds them."
+              },
+              {
+                "number": 40,
+                "textHtml": "The size of H. naledi brains is a key factor in the question of whether these hominins were able to produce art."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "dust"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 2: the swollen nostrils \"filter out dust and cool the blood\" — so they keep dust out.",
+        "evidence": {
+          "anchor": "para-2",
+          "snippet": "they filter out dust and cool the blood"
+        }
+      },
+      "2": {
+        "accepted": [
+          "blood"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 2: the nostrils \"cool the blood during hot, dry summers\" — they lower the temperature of its blood.",
+        "evidence": {
+          "anchor": "para-2",
+          "snippet": "cool the blood during hot, dry summers"
+        }
+      },
+      "3": {
+        "accepted": [
+          "coat",
+          "coats"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 2: the saiga grows \"a heavy winter coat that the saiga sheds when the weather warms up\".",
+        "evidence": {
+          "anchor": "para-2",
+          "snippet": "a heavy winter coat that the saiga sheds"
+        }
+      },
+      "4": {
+        "accepted": [
+          "horns",
+          "horn"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 4: male saiga are targeted \"because their horns are highly prized\" — poaching is for the horns.",
+        "evidence": {
+          "anchor": "para-4",
+          "snippet": "their horns are highly prized by traditional medicine practitioners"
+        }
+      },
+      "5": {
+        "accepted": [
+          "habitat",
+          "habitats"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 5: \"loss of habitat, as a result of agricultural expansion and human settlement\" reduces the saiga's habitat.",
+        "evidence": {
+          "anchor": "para-5",
+          "snippet": "loss of habitat, as a result of agricultural expansion"
+        }
+      },
+      "6": {
+        "accepted": [
+          "routes",
+          "route"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 5: barriers \"can block the seasonal migration routes\" — the saiga lose access to the routes.",
+        "evidence": {
+          "anchor": "para-5",
+          "snippet": "block the seasonal migration routes"
+        }
+      },
+      "7": {
+        "accepted": [
+          "streams",
+          "stream"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 7: \"many of the smaller streams that the species normally depended on have dried up\" — the streams disappear.",
+        "evidence": {
+          "anchor": "para-7",
+          "snippet": "many of the smaller streams that the species normally depended on"
+        }
+      },
+      "8": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "FALSE — Paragraph 1: over 90% live in Kazakhstan, \"with Russia, Mongolia and Uzbekistan accounting for the rest\", so numbers are not spread evenly.",
+        "evidence": {
+          "anchor": "para-1",
+          "snippet": "with Russia, Mongolia and Uzbekistan accounting for the rest"
+        }
+      },
+      "9": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "FALSE — Paragraph 3: \"numbers steadily recovered throughout most of the 20th century\" — they were rising, not falling.",
+        "evidence": {
+          "anchor": "para-3",
+          "snippet": "numbers steadily recovered throughout most of the 20th century"
+        }
+      },
+      "10": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "TRUE — Paragraph 4: conservationists encouraged \"the use of saiga horns\" to relieve pressure on rhinos, which drove up saiga poaching.",
+        "evidence": {
+          "anchor": "para-4",
+          "snippet": "encouraging the use of saiga horns in traditional"
+        }
+      },
+      "11": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "NOT GIVEN — Paragraph 7 describes the climate threat to saiga but does not compare Central Asia with other parts of the world.",
+        "evidence": {
+          "anchor": "para-7",
+          "snippet": "saiga struggle to cope with temperature extremes"
+        }
+      },
+      "12": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "TRUE — Paragraph 8: the initiative protects ecosystems \"and the many species they support, including the critically endangered saiga\".",
+        "evidence": {
+          "anchor": "para-8",
+          "snippet": "the many species they support, including the critically endangered saiga"
+        }
+      },
+      "13": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "NOT GIVEN — Paragraph 8 mentions the UN recognition but says nothing about it attracting additional funding.",
+        "evidence": {
+          "anchor": "para-8",
+          "snippet": "recognised the initiative as a World Restoration Flagship project"
+        }
+      },
+      "14": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "NOT GIVEN — Paragraph 1 gives population projections but does not say growth is faster than previously predicted.",
+        "evidence": {
+          "anchor": "para-d1",
+          "snippet": "United Nations projections anticipate it will become a megacity"
+        }
+      },
+      "15": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "FALSE — Paragraph 2: \"four out of five of its people live in single-storey informal settlements\", not high-rise blocks.",
+        "evidence": {
+          "anchor": "para-d2",
+          "snippet": "four out of five of its people live in single-storey informal settlements"
+        }
+      },
+      "16": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "NOT GIVEN — Paragraph 3 mentions the suburban rail line but says nothing about consulting residents.",
+        "evidence": {
+          "anchor": "para-d3",
+          "snippet": "A single suburban rail line serves residents"
+        }
+      },
+      "17": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "TRUE — Paragraph 4: nearly all expansion \"takes place informally without any agreed strategy\" — i.e. unplanned.",
+        "evidence": {
+          "anchor": "para-d4",
+          "snippet": "nearly all takes place informally without any agreed strategy"
+        }
+      },
+      "18": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "FALSE — Paragraph 5: \"Unlike many cities on the continent, Dar es Salaam isn't trying to build a metro.\"",
+        "evidence": {
+          "anchor": "para-d5",
+          "snippet": "Dar es Salaam isn't trying to build a metro"
+        }
+      },
+      "19": {
+        "accepted": [
+          "lanes",
+          "lane"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 6: the system \"runs on bus lanes separated from other traffic ... to reduce stoppages\" — designated lanes.",
+        "evidence": {
+          "anchor": "para-d6",
+          "snippet": "runs on bus lanes separated from other traffic"
+        }
+      },
+      "20": {
+        "accepted": [
+          "boarding"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 6: \"Ticket purchase and control takes place at stations prior to boarding.\"",
+        "evidence": {
+          "anchor": "para-d6",
+          "snippet": "takes place at stations prior to boarding"
+        }
+      },
+      "21": {
+        "accepted": [
+          "wheelchairs",
+          "wheelchair"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 6: the step-free buses are \"accessible to people using wheelchairs\" — they can use the whole system.",
+        "evidence": {
+          "anchor": "para-d6",
+          "snippet": "accessible to people using wheelchairs"
+        }
+      },
+      "22": {
+        "accepted": [
+          "fuel"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 7: drivers \"refuse to turn on the air conditioning to save fuel\".",
+        "evidence": {
+          "anchor": "para-d7",
+          "snippet": "refuse to turn on the air conditioning to save fuel"
+        }
+      },
+      "23": {
+        "accepted": [
+          "flood"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 8: \"a shortage of buses after a serious flood at the main depot\".",
+        "evidence": {
+          "anchor": "para-d8",
+          "snippet": "a serious flood at the main depot"
+        }
+      },
+      "24": {
+        "accepted": [
+          "smartcards",
+          "smartcard"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 8: \"Smartcards can't be used as the mechanical readers aren't working\".",
+        "evidence": {
+          "anchor": "para-d8",
+          "snippet": "Smartcards can't be used as the mechanical readers aren't working"
+        }
+      },
+      "25": {
+        "accepted": [
+          "gates",
+          "gate"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 8: \"Staff stand by the gates and tear tickets\" — tickets are checked at the gates.",
+        "evidence": {
+          "anchor": "para-d8",
+          "snippet": "Staff stand by the gates and tear tickets"
+        }
+      },
+      "26": {
+        "accepted": [
+          "queues",
+          "queue"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 8: \"queues are considerable at peak times\" — queues build up during rush hours.",
+        "evidence": {
+          "anchor": "para-d8",
+          "snippet": "queues are considerable at peak times"
+        }
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple Choice",
+        "explanation": "A — In the second paragraph the writer says \"Two things stand out\", pinpointing key changes in our understanding of prehistory.",
+        "evidence": {
+          "anchor": "para-p2",
+          "snippet": "Two things stand out to me"
+        }
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple Choice",
+        "explanation": "A — The mobile-phones example illustrates that \"Evolution usually works by incremental steps\", i.e. most developments are gradual.",
+        "evidence": {
+          "anchor": "para-p6",
+          "snippet": "Evolution usually works by incremental steps"
+        }
+      },
+      "29": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Multiple Choice",
+        "explanation": "D — \"unpick this stuff\" refers to re-examining research shaped by \"unfashionably patriarchal views\" — outdated beliefs about society.",
+        "evidence": {
+          "anchor": "para-p7",
+          "snippet": "trying to unpick this stuff"
+        }
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple Choice",
+        "explanation": "A — The final paragraph argues inequality and patriarchy \"aren't inevitable. They're choices\" — studying the past can help us build a fairer society.",
+        "evidence": {
+          "anchor": "para-p9",
+          "snippet": "aren't inevitable. They're choices"
+        }
+      },
+      "31": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching Sentence Endings",
+        "explanation": "E — The shaped, interlocking logs at Kalambo Falls, \"476,000 years\" old, show Homo sapiens was not the only species capable of sophisticated workmanship.",
+        "evidence": {
+          "anchor": "para-p3",
+          "snippet": "That's almost 200,000 years before our species"
+        }
+      },
+      "32": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Matching Sentence Endings",
+        "explanation": "F — The Denisovans \"lived on the frozen heights of high-altitude regions 200,000 years ago\" — other species survived harsh environments before Homo sapiens.",
+        "evidence": {
+          "anchor": "para-p3",
+          "snippet": "lived on the frozen heights of high-altitude regions 200,000 years ago"
+        }
+      },
+      "33": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching Sentence Endings",
+        "explanation": "D — The June 2023 meta-analysis \"found women hunted in 80 per cent\" of foraging societies — experts may have been wrong about who looked for food.",
+        "evidence": {
+          "anchor": "para-p8",
+          "snippet": "found women hunted in 80 per cent of them"
+        }
+      },
+      "34": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching Sentence Endings",
+        "explanation": "B — The Iberian leader \"turned out to be female, not male as many had assumed\" — assumptions about who held power were inaccurate.",
+        "evidence": {
+          "anchor": "para-p8",
+          "snippet": "turned out to be female, not male as many had assumed"
+        }
+      },
+      "35": {
+        "accepted": [
+          "NO"
+        ],
+        "type": "Yes / No / Not Given",
+        "explanation": "NO — Paragraph 4 says \"even earlier species, such as Homo erectus, may also have made art\", so Neanderthal paintings were probably not the first.",
+        "evidence": {
+          "anchor": "para-p4",
+          "snippet": "Even earlier species, such as Homo erectus, may also have made art"
+        }
+      },
+      "36": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "Yes / No / Not Given",
+        "explanation": "NOT GIVEN — Paragraph 4 mentions engraving patterns on shells but says nothing about how rare such artwork is.",
+        "evidence": {
+          "anchor": "para-p4",
+          "snippet": "by engraving patterns on shells"
+        }
+      },
+      "37": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "Yes / No / Not Given",
+        "explanation": "NOT GIVEN — The passage criticises the journal used to release the results, but says nothing about the examination methods being unconventional.",
+        "evidence": {
+          "anchor": "para-p5",
+          "snippet": "the evidence presented so far is completely inadequate"
+        }
+      },
+      "38": {
+        "accepted": [
+          "YES"
+        ],
+        "type": "Yes / No / Not Given",
+        "explanation": "YES — Paragraph 5: more evidence is needed \"with regard to the dating of the etchings\", which \"have yet to be firmly dated\".",
+        "evidence": {
+          "anchor": "para-p5",
+          "snippet": "with regard to the dating of the etchings"
+        }
+      },
+      "39": {
+        "accepted": [
+          "YES"
+        ],
+        "type": "Yes / No / Not Given",
+        "explanation": "YES — Paragraph 5: \"the dispute has only been heightened by the way the results were released\" in a non-traditional journal.",
+        "evidence": {
+          "anchor": "para-p5",
+          "snippet": "has only been heightened by the way the results were released"
+        }
+      },
+      "40": {
+        "accepted": [
+          "NO"
+        ],
+        "type": "Yes / No / Not Given",
+        "explanation": "NO — Paragraph 5: the writer thinks \"the species' small brains are a distraction\", not a key factor.",
+        "evidence": {
+          "anchor": "para-p5",
+          "snippet": "the species' small brains are a distraction"
+        }
+      }
+    },
+    "sets": []
+  },
+  "slug": "reading-cambridge-21-test-3",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 21,
+  "testNumber": 3
+}

@@ -239,9 +239,15 @@ function parseObjectLiteral(source: string, start: number): unknown {
 export function toSlotHtml<T extends AnyNode>($: Cheerio, root: cheerio.Cheerio<T>): string {
   // Wrapper spans in the Cambridge files, bare inputs in the listening file.
   root.find(".blank-wrapper").each((_, element) => {
-    const id = $(element).attr("id") ?? "";
-    const number = id.replace(/^question-/, "");
-    $(element).replaceWith(number ? `{{${number}}}` : "");
+    const wrapper = $(element);
+    // Usually the wrapper carries id="question-31". In the Cambridge books'
+    // drag-and-drop summaries it carries nothing and the number lives on an
+    // inner `.dd-blank[data-q]`, so fall through to that rather than dropping
+    // the blank — which would leave the summary with no answerable slots.
+    const id = wrapper.attr("id") ?? wrapper.find("[id^='question-']").first().attr("id") ?? "";
+    const number =
+      id.replace(/^question-/, "") || wrapper.find("[data-q]").first().attr("data-q") || "";
+    wrapper.replaceWith(/^\d+$/.test(number) ? `{{${number}}}` : "");
   });
 
   root.find("input.gap, input[data-q]").each((_, element) => {

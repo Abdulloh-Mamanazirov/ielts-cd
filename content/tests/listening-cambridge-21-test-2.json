@@ -1,0 +1,727 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 21, Test 2",
+    "source": "Cambridge IELTS 21",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "rubricHtml": "Questions 1–10Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.",
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div>One-day classes at Steynford College</div><div><table class=\"q-table\"><thead><tr><th>Course</th><th>Date</th><th>Cost</th><th>Notes</th></tr></thead><tbody><tr><td>Vietnamese food</td><td> {{1}}</td><td>£59</td><td>It provides information on the use of herbs.<br>There are no places at present.</td></tr><tr><td>Bread making</td><td>20 March</td><td>£ {{2}}</td><td>There is also an extra charge for ingredients.<br>Participants make white bread, sourdough and {{3}}.</td></tr><tr><td>Face massage</td><td>23 February</td><td>£35</td><td>The teacher trained in {{4}}.<br>Bring a {{5}}.</td></tr><tr><td>Candle making</td><td> {{6}}</td><td>£52</td><td>Only {{7}} ingredients are used.<br>The candles can be used as presents.</td></tr><tr><td>Silk painting</td><td>18 May</td><td>£ {{8}}</td><td>Bring an apron or old {{9}}.</td></tr><tr><td>DIY for beginners</td><td>24 February</td><td>£125</td><td>Learn how to<br>• use a drill, saw and {{10}}<br>• put up a shelf.</td></tr></tbody></table></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "rubricHtml": "Questions 11 and 12Choose <strong>TWO</strong> letters, <strong>A–E</strong>.",
+            "selectCount": 2,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Which <strong>TWO</strong> pieces of advice are given about the Marsden Coastal Walk?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Stop for lunch in an ancient town."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Don’t miss the ruins of a certain building."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Catch a boat to the start of this walk."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Be careful of the steep and rocky paths."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Don’t worry about getting lost."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "rubricHtml": "Questions 13 and 14Choose <strong>TWO</strong> letters, <strong>A–E</strong>.",
+            "selectCount": 2,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 13,
+                "textHtml": "Which <strong>TWO</strong> things are said about the Melby Heritage Walk?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "This walk is mostly downhill."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The paths can get busy during the day."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "This is a circular walk."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "A tower stands on the site of an older structure."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "There are far-reaching views the whole way."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "rubricHtml": "Questions 15–20Label the map below. Drag each place, for Questions <strong>15–20</strong>, onto the correct building, <strong>A–I</strong>, on the plan.",
+            "selectCount": 1,
+            "type": "map_labeling",
+            "imageUrl": "/test-media/listening-cambridge-21-test-2-p2-map.jpg",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Exhibition"
+              },
+              {
+                "number": 16,
+                "textHtml": "Baths"
+              },
+              {
+                "number": 17,
+                "textHtml": "Tools"
+              },
+              {
+                "number": 18,
+                "textHtml": "Vehicles"
+              },
+              {
+                "number": 19,
+                "textHtml": "Ponies"
+              },
+              {
+                "number": 20,
+                "textHtml": "Education centre"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "rubricHtml": "Questions 21 and 22Choose <strong>TWO</strong> letters, <strong>A–E</strong>.",
+            "selectCount": 2,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> facts in the sessions on food safety were new information for Nadia and Fergus?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the amount of plastic in the ocean"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the number of diseases caused by contaminated food"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the amount of food that is wasted"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the number of people who are obese"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the result of treating animals with antibiotics"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "rubricHtml": "Questions 23 and 24Choose <strong>TWO</strong> letters, <strong>A–E</strong>.",
+            "selectCount": 2,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Which <strong>TWO</strong> features of a project aiming to prevent food fraud impressed Fergus?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the new technology it used"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the publicity it received"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the use of multiple tests on food items"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the variety of dietary requirements included"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the way information was made widely accessible"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "rubricHtml": "Questions 25 and 26Choose <strong>TWO</strong> letters, <strong>A–E</strong>.",
+            "selectCount": 2,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Which <strong>TWO</strong> topics do both students recommend should be included in the course?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "sustainable fishing"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "targeted nutrition"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "global differences in consumption"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "sustainable agriculture"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "digital technology and food"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-4",
+            "rubricHtml": "Questions 27–30Complete the flow-chart below. Choose <strong>FOUR</strong> answers from the box and drag the correct option next to Questions 27–30.",
+            "selectCount": 1,
+            "type": "matching",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "This was challenging but enjoyable."
+              },
+              {
+                "letter": "B",
+                "textHtml": "This led to some disagreement."
+              },
+              {
+                "letter": "C",
+                "textHtml": "This was easy to decide on."
+              },
+              {
+                "letter": "D",
+                "textHtml": "This was helped by the guidelines provided."
+              },
+              {
+                "letter": "E",
+                "textHtml": "This seemed like an unnecessary stage."
+              },
+              {
+                "letter": "F",
+                "textHtml": "This involved selecting a new ingredient."
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Initial aim"
+              },
+              {
+                "number": 28,
+                "textHtml": "Literature review"
+              },
+              {
+                "number": 29,
+                "textHtml": "Product development"
+              },
+              {
+                "number": 30,
+                "textHtml": "Product production"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "rubricHtml": "Questions 31–40Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.",
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Challenges facing the cruise ship industry</div><div>Problems with overtourism</div><ul class=\"notes-list\"><li> {{31}} is one of the worst problems.</li><li>A tourist {{32}} is being introduced in some cities to reduce numbers, e.g. Barcelona.</li><li>Bruges: action was taken to limit day trips from the nearby port because the city was becoming a ‘theme park’ (e.g. many shops were only stocking {{33}} and souvenirs).</li><li>Dubrovnik: limits the number of tourists by managing the {{34}} of cruise ship arrivals.</li></ul><div>Problems of perception</div><ul class=\"notes-list\"><li>Cruises are generally associated with the elderly.</li><li>There is an assumption about the {{35}} of cruises.</li><li>People think there may be too many {{36}}.</li></ul><div>Solutions</div><p>Cruise lines are attracting younger customers by:</p><ul class=\"notes-list\"><li>becoming more sustainable e.g. using hybrid engines.</li><li>having a wide range of activities e.g. boxing, {{37}} and well-being programmes.</li><li>offering a diverse selection of food including {{38}} options.</li><li>providing reliable {{39}}.</li><li>improving marketing on social media with high quality {{40}}.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "13 january",
+          "13th january",
+          "the 13th of january",
+          "13th of january",
+          "january 13",
+          "13.01",
+          "13.1",
+          "13/01",
+          "13/1",
+          "13 jan"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "I think that was on the 13th of January"
+        }
+      },
+      "2": {
+        "accepted": [
+          "48",
+          "forty-eight",
+          "forty eight",
+          "48.00"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "The actual cost is £48"
+        }
+      },
+      "3": {
+        "accepted": [
+          "pizza"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "they make white bread and then they make sourdough"
+        }
+      },
+      "4": {
+        "accepted": [
+          "india"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "a traditional technique used in India and she actually did her training there"
+        }
+      },
+      "5": {
+        "accepted": [
+          "mirror",
+          "a mirror"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "you have to take a mirror to the class"
+        }
+      },
+      "6": {
+        "accepted": [
+          "6 april",
+          "6th april",
+          "the 6th of april",
+          "6th of april",
+          "april 6",
+          "06.04",
+          "6.4",
+          "6/04",
+          "6/4"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "yes, it's on the 6th"
+        }
+      },
+      "7": {
+        "accepted": [
+          "natural"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "the candles are all made out of natural products"
+        }
+      },
+      "8": {
+        "accepted": [
+          "67.50",
+          "sixty-seven fifty",
+          "sixty seven fifty",
+          "67.5"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "It's £67.50, which is really good value"
+        }
+      },
+      "9": {
+        "accepted": [
+          "shirt",
+          "a shirt",
+          "old shirt"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "like an apron if you've got one, or a shirt that you don't use any more"
+        }
+      },
+      "10": {
+        "accepted": [
+          "hammer",
+          "a hammer"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "I even need to learn how to use a hammer"
+        }
+      },
+      "15": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Map/Plan labelling",
+        "evidence": {
+          "snippet": "Beyond that room is the exhibition"
+        }
+      },
+      "16": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Map/Plan labelling",
+        "evidence": {
+          "snippet": "the building directly to the north of the engine house"
+        }
+      },
+      "17": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Map/Plan labelling",
+        "evidence": {
+          "snippet": "a small L-shaped building in the middle of the northern boundary"
+        }
+      },
+      "18": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Map/Plan labelling",
+        "evidence": {
+          "snippet": "is in the southwest corner of the site"
+        }
+      },
+      "19": {
+        "accepted": [
+          "h"
+        ],
+        "type": "Map/Plan labelling",
+        "evidence": {
+          "snippet": "on the north-eastern boundary of the site, not approached via a covered walkway"
+        }
+      },
+      "20": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Map/Plan labelling",
+        "evidence": {
+          "snippet": "connected to the ticket office via a short section of covered walkway"
+        }
+      },
+      "27": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Flow-chart completion",
+        "evidence": {
+          "snippet": "We made up our minds about that pretty quickly"
+        }
+      },
+      "28": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Flow-chart completion",
+        "evidence": {
+          "snippet": "the handout with advice for the project was very useful here"
+        }
+      },
+      "29": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Flow-chart completion",
+        "evidence": {
+          "snippet": "we finally decided to use jackfruit"
+        }
+      },
+      "30": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Flow-chart completion",
+        "evidence": {
+          "snippet": "it turned out fine and we had a lot of fun"
+        }
+      },
+      "31": {
+        "accepted": [
+          "pollution"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Pollution, for example, is among the greatest threats"
+        }
+      },
+      "32": {
+        "accepted": [
+          "tax",
+          "a tax"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "imposing a tax which all visitors to the city from cruise ships have to pay"
+        }
+      },
+      "33": {
+        "accepted": [
+          "chocolate"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "selling chocolate, which Belgium is famous for"
+        }
+      },
+      "34": {
+        "accepted": [
+          "timing"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "control the timing of all cruise ship entries"
+        }
+      },
+      "35": {
+        "accepted": [
+          "cost"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "cost is also a major factor in putting younger groups off"
+        }
+      },
+      "36": {
+        "accepted": [
+          "rules"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "cruises have lots of rules about what to wear"
+        }
+      },
+      "37": {
+        "accepted": [
+          "diving"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "most offer diving expeditions"
+        }
+      },
+      "38": {
+        "accepted": [
+          "vegan"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Vegan dishes are standard"
+        }
+      },
+      "39": {
+        "accepted": [
+          "wifi",
+          "wi-fi",
+          "wi fi"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "guarantee wifi that can be relied upon at all times"
+        }
+      },
+      "40": {
+        "accepted": [
+          "videos",
+          "video"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "produce first rate videos for social media channels"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          11,
+          12
+        ],
+        "accepted": [
+          "b",
+          "e"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "The castle's now just a pile of stones but it's a great place to take photos"
+        }
+      },
+      {
+        "questions": [
+          13,
+          14
+        ],
+        "accepted": [
+          "c",
+          "d"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "brings you back down to the starting point"
+        }
+      },
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "b",
+          "e"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "unsafe food causes more than 200 different diseases"
+        }
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "c",
+          "d"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "these tests were carried out at different stages"
+        }
+      },
+      {
+        "questions": [
+          25,
+          26
+        ],
+        "accepted": [
+          "a",
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "not so much on the seafood industry"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-21-test-2",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/c-21-t-2-full/C21T2_full.mp3",
+  "series": "CAMBRIDGE",
+  "seriesNumber": 21,
+  "testNumber": 2
+}

@@ -1,0 +1,726 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 21, Test 1",
+    "source": "Cambridge IELTS 21",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "rubricHtml": "Questions 1–6Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.",
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div>Oyster Bay Sailing Club Courses</div><div><table class=\"q-table\"><thead><tr><th>Name of course</th><th>What you learn</th><th>Cost</th><th>Other information</th></tr></thead><tbody><tr><td>Taster day</td><td>introduction to sailing</td><td>£120 if booking one place</td><td>small groups (max {{1}} people)</td></tr><tr><td>Level 1</td><td>basic theory e.g. understanding the {{2}} and tides<br>basic sailing skills including {{3}} information</td><td>£200<br>a {{4}} available for club members<br>all inclusive (plus a useful {{5}})</td><td> {{6}} at the end of the course for all participants</td></tr></tbody></table></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "part-1-group-2",
+            "rubricHtml": "Questions 7–10Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.",
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div class=\"summary\"><div>General information</div><ul class=\"notes-list\"><li>Participants must be able to swim.</li><li>Bring suitable clothing, a {{7}} and toiletries (e.g. shampoo).</li><li>There is a {{8}} at the club.</li><li>Online training {{9}} are recommended.</li><li> {{10}} are available for course participants.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "rubricHtml": "Questions 11–16Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.",
+            "selectCount": 1,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "What should trainees always expect to get when working on low budget short films?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "travel expenses"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a minimum wage"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "meals"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "According to the speaker, on big budget films trainees may get experience of",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "makeup for special effects."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "working with different ethnicities."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "creating a variety of hair styles."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "The speaker says a problem for makeup artists is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "dealing with difficult directors."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "being shouted at by their supervisor."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "waiting around for hours doing nothing."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "How did the speaker feel when she met famous actors for the first time?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "very shy"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "very proud"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "very disappointed"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "What advice does the speaker give about makeup kits?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Always carry a basic kit with you."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Only buy the best products for a makeup kit."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Ask other makeup artists to check your kit."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "What advice does the speaker give about creating a portfolio?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Keep print and digital photos."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Only include a small selection of photos."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Get permission to use photos."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "rubricHtml": "Questions 17–20What ability is required for each of the following duties? Drag the correct ability into the box next to each duty. <strong>You may use any ability more than once.</strong>",
+            "selectCount": 1,
+            "type": "matching",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "being well-organised"
+              },
+              {
+                "letter": "B",
+                "textHtml": "being flexible"
+              },
+              {
+                "letter": "C",
+                "textHtml": "working quickly"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Prepping an actor"
+              },
+              {
+                "number": 18,
+                "textHtml": "Continuity"
+              },
+              {
+                "number": 19,
+                "textHtml": "General"
+              },
+              {
+                "number": 20,
+                "textHtml": "Applying makeup"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "rubricHtml": "Questions 21 and 22Choose <strong>TWO</strong> letters, <strong>A–E</strong>.",
+            "selectCount": 2,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> features of the lecture on ocean biodiversity had the greatest impact on the students?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the references to local problems"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the broad focus of the examples"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the practical suggestions for solutions"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the type of issues discussed"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the implications for government policy"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "rubricHtml": "Questions 23 and 24Choose <strong>TWO</strong> letters, <strong>A–E</strong>.",
+            "selectCount": 2,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Which <strong>TWO</strong> details about the research project particularly impressed the students?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the team’s previous successes"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "its wide geographical scale"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the use of new technology"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the extensive statistical evidence"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the large range of specialists involved"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "rubricHtml": "Questions 25–30What is the students’ opinion of each of the following resources related to ocean biodiversity? Choose <strong>SIX</strong> answers from the box and drag the correct option next to questions 25–30.",
+            "selectCount": 1,
+            "type": "matching",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "This is aimed at a very specialist audience."
+              },
+              {
+                "letter": "B",
+                "textHtml": "This is now rather outdated."
+              },
+              {
+                "letter": "C",
+                "textHtml": "This was an effective description of a new danger."
+              },
+              {
+                "letter": "D",
+                "textHtml": "This suggests possible ways to improve the situation."
+              },
+              {
+                "letter": "E",
+                "textHtml": "This does not give a balanced account."
+              },
+              {
+                "letter": "F",
+                "textHtml": "This is too predictable to be useful."
+              },
+              {
+                "letter": "G",
+                "textHtml": "This gives insufficient evidence for its claims."
+              },
+              {
+                "letter": "H",
+                "textHtml": "This gives a clear explanation of the problems."
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Article on invasive lionfish"
+              },
+              {
+                "number": 26,
+                "textHtml": "Documentary on microplastics"
+              },
+              {
+                "number": 27,
+                "textHtml": "Podcast on ocean pollution"
+              },
+              {
+                "number": 28,
+                "textHtml": "Book on coastal ecosystems"
+              },
+              {
+                "number": 29,
+                "textHtml": "Article on metal toxicity"
+              },
+              {
+                "number": 30,
+                "textHtml": "Podcast on floating marine cities"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "rubricHtml": "Questions 31–40Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.",
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Sources of rubber</div><div>Three resources which are essential for industrial civilisation</div><ul class=\"notes-list\"><li> {{31}}</li><li>fossil fuels</li><li>rubber</li></ul><div>Natural rubber</div><p>This mainly comes from the Para rubber tree, now cultivated in South-East Asia.</p><p>The supply is limited because</p><ul class=\"notes-list\"><li>the growth of the tree is {{32}}.</li><li>production cannot easily be adjusted because of increasing or decreasing {{33}}.</li><li>the tree only grows near the {{34}}.</li><li>extracting the latex (rubber) is labour-intensive</li><li>it is very difficult to {{35}} rubber after production.</li></ul><p>New threats include</p><ul class=\"notes-list\"><li>lack of genetic diversity, leading to danger of disease caused by a {{36}}.</li><li>a shift to the cultivation of palm oil</li><li>extreme {{37}} events.</li></ul><div>Synthetic rubber</div><ul class=\"notes-list\"><li>may be used for engine parts and cooking utensils</li><li>is less {{38}} than natural rubber</li><li>is unsuitable for many purposes e.g. the tyres of aircraft.</li></ul><div>An alternative source of natural rubber</div><ul class=\"notes-list\"><li>A wild flower (a type of dandelion) has rubber in its {{39}}.</li><li>It can be grown in many locations and does not require good {{40}}.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "10",
+          "ten"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "no more than ten"
+        }
+      },
+      "2": {
+        "accepted": [
+          "weather"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "you learn about things like the weather"
+        }
+      },
+      "3": {
+        "accepted": [
+          "safety"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "everything you need to know about safety"
+        }
+      },
+      "4": {
+        "accepted": [
+          "discount",
+          "a discount"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "There's a discount for members."
+        }
+      },
+      "5": {
+        "accepted": [
+          "dictionary",
+          "a dictionary"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "you also get a really good dictionary"
+        }
+      },
+      "6": {
+        "accepted": [
+          "certificate",
+          "a certificate"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "on completion of the course you get a certificate"
+        }
+      },
+      "7": {
+        "accepted": [
+          "towel",
+          "a towel"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "And a towel?"
+        }
+      },
+      "8": {
+        "accepted": [
+          "cafe",
+          "café",
+          "café"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "is there a cafe at the club?"
+        }
+      },
+      "9": {
+        "accepted": [
+          "videos",
+          "video"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "I recommend you watch some videos we use for training"
+        }
+      },
+      "10": {
+        "accepted": [
+          "lockers",
+          "locker"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "if there are lockers for people to use?"
+        }
+      },
+      "11": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "Make sure your transport costs are covered"
+        }
+      },
+      "12": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "work with a range of age groups, as well as different ethnicities"
+        }
+      },
+      "13": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "even when they're having to work with directors who are impatient"
+        }
+      },
+      "14": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "At first, I found it overwhelming and could hardly speak"
+        }
+      },
+      "15": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "which they'll be expected to have with them at all times"
+        }
+      },
+      "16": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "you'll need to get approval from the makeup designer"
+        }
+      },
+      "17": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "you'll need to step in and get this done without wasting any time"
+        }
+      },
+      "18": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "This information needs to be kept in good order"
+        }
+      },
+      "19": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "being willing to do whatever is asked of you"
+        }
+      },
+      "20": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "you'll need to keep up a swift pace"
+        }
+      },
+      "25": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "he didn't really provide much information to explain why"
+        }
+      },
+      "26": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "it was made ten years ago"
+        }
+      },
+      "27": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "Most of it was stating the obvious."
+        }
+      },
+      "28": {
+        "accepted": [
+          "h"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "I ended up with a much better understanding of the issues"
+        }
+      },
+      "29": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "The article on metal toxicity was way above my head"
+        }
+      },
+      "30": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "it presented a rather one-sided picture"
+        }
+      },
+      "31": {
+        "accepted": [
+          "metal",
+          "metals"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "One of these is metal"
+        }
+      },
+      "32": {
+        "accepted": [
+          "slow"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "cultivating them's a slow process"
+        }
+      },
+      "33": {
+        "accepted": [
+          "demand"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the demand for that crop is rising or falling"
+        }
+      },
+      "34": {
+        "accepted": [
+          "equator",
+          "the equator"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "only around the equator"
+        }
+      },
+      "35": {
+        "accepted": [
+          "recycle"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "we can recycle them, but although this is also possible with rubber, it's very difficult"
+        }
+      },
+      "36": {
+        "accepted": [
+          "fungus"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "The most dangerous threat is a fungus"
+        }
+      },
+      "37": {
+        "accepted": [
+          "weather"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "hit by extreme types of weather"
+        }
+      },
+      "38": {
+        "accepted": [
+          "strong"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "it's not anything like as strong"
+        }
+      },
+      "39": {
+        "accepted": [
+          "roots",
+          "its roots"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "its roots cut open, they're found to contain rubber"
+        }
+      },
+      "40": {
+        "accepted": [
+          "soil",
+          "good soil"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "they don't need rich soil"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "b",
+          "d"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "The examples she gave were at a more global level"
+        }
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "c",
+          "e"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "to have so many experts working together"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-21-test-1",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/c-21-t-1/C21T1.mp3",
+  "series": "CAMBRIDGE",
+  "seriesNumber": 21,
+  "testNumber": 1
+}

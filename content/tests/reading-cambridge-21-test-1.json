@@ -1,0 +1,803 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Cambridge 21, Test 1",
+    "source": "Cambridge IELTS 21",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "title": "The Davies Sisters",
+        "instructionsHtml": "Reading Passage 1<p>You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below.</p>",
+        "passageHtml": "The Davies Sisters <p><em>Between 1908 and 1924, Gwendoline and Margaret Davies amassed one of the largest collections of late-nineteenth and early-twentieth-century French paintings in Britain.</em></p><p id=\"para-1\">Gwendoline (1882–1951) and Margaret (1884–1963) Davies were the granddaughters of David Davies, a Welshman who amassed a fortune in the shipping and mining industries. In 1907, when Gwendoline came into her inheritance (Margaret would follow in 1909), the sisters were said to be the wealthiest unmarried women in Britain. Their religious upbringing in rural Wales gave them a deep sense of social responsibility and they chose to use their inheritance for cultural and philanthropic* purposes.</p><p id=\"para-2\">While there was no real family history of art collecting, the sisters' education was rigorously geared toward such pursuits. Their London school focused on cultural rather than academic study, and they travelled extensively with their governess, Jane Blaker, visiting art galleries and making extensive notes on the collections there.</p><p id=\"para-3\">The sisters began to make regular art purchases from 1908, which roughly coincided with the dates of their inheritance. They took advice from various people, including the art dealer Hugh Blaker (the brother of Jane Blaker) and David Croal Thompson, who was also an art dealer. While it was long assumed that these men were largely responsible for the nature of the sisters' collection, it has recently been accepted that Gwendoline and Margaret retained a far more active role in the process.</p><p id=\"para-4\">The sisters' journals reveal their preference for Old Master** paintings. Yet they initially made very few attempts to secure any such works. While the sisters were wealthy in relative terms, their income was nothing compared to the fortunes of American art collectors of this period, such as J. Pierpont Morgan. Quite simply, high quality Old Master works were, if not beyond their means, then beyond what they were willing to pay for them. Instead, their early purchases were of the fashionable, safe variety, and included, for example, paintings by the French artist Jean-Baptiste-Camille Corot.</p><p id=\"para-5\">However, it was only a few years before their collecting took a new direction and they turned to the work of the French Impressionists***. We know that Hugh Blaker, as a champion of contemporary French art, had a hand in the decision, and we know also that they would have seen examples on their various trips to Paris. Whatever the precise reason for this change, their first purchases of Impressionist art, made in October 1912, were scenes of Venice by the French artist Claude Monet. Over the next 12 years, the sisters amassed the bulk of their Impressionist collection, including six further works by Monet, two more by Manet, and three by Renoir, including his well-known painting La Parisienne.</p><p id=\"para-6\">The First World War (1914–1918) played a part in the development of the sisters' collection. Their initial response to the war effort was to finance the safe passage of artists from occupied Belgium to Wales, as a humanitarian act, but also with the hope of establishing a vibrant artists' community in the area. Later in the conflict, both sisters decided to volunteer at a canteen for troops at Troyes, in northern France; Gwendoline in 1916, followed by Margaret in 1917.</p><p id=\"para-7\">It was tedious and distressing work, which would have a permanent effect on Gwendoline's health. Yet on one of numerous trips to nearby Paris, she visited the Bernheim-Jeune Gallery. Here she acquired two works by Cézanne – Provençal Landscape and The François Zola Dam. The paintings were shipped directly to Bath, England, where they became the first works by Cézanne to go on display in a public gallery in Britain.</p><p id=\"para-8\">Commentators have often described the sisters as unlikely pioneer collectors. Much is made of their isolation in rural Wales and the fact that they didn't make friends with artists or gallery owners. Yet they didn't feel obliged to follow fashionable tastes and were free to pursue their own preferences. Although they relied on a trusted circle of advisers, they made frequent trips to London and Paris, and also regularly had paintings sent to their home for consideration.</p><p id=\"para-9\">By the early 1920s, Gwendoline felt increasingly uncomfortable buying art works when faced with the poverty and social upheaval created by the First World War. Her philanthropic pursuits then became focused almost exclusively on social causes and the development of the sisters' home at Gregynog Hall into a conference centre and venue for the Gregynog Festival of Music and Poetry. Gwendoline made her final art purchase in March 1926. Margaret also stopped collecting around this time, but started again in the 1930s acquiring, on a relatively small scale, work by contemporary British artists.</p><p id=\"para-10\">The sisters collected French Impressionist paintings at a time when such art was routinely ignored by individuals and institutions alike. The Gwendoline and Margaret Davies collection, donated in 1951 and 1963 respectively to the National Museum Wales, contains major examples of work by leading French Impressionists. In collecting paintings that they loved, the sisters created a lasting and meaningful cultural legacy for the people of Wales and beyond.</p><p>* philanthropic: seeking to promote the welfare of others, often by charitable funding<br>** Old Master: a highly respected artist of great skill who worked in Europe before about 1800<br>*** Impressionist: an artist with a style of painting that developed in France in the late 1800s</p>",
+        "groups": [
+          {
+            "id": "part-q1-7",
+            "rubricHtml": "<h3>Questions 1–7</h3><p>Complete the notes below.</p><p>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>",
+            "maxWords": 1,
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div class=\"summary\"><h4>Gwendoline and Margaret Davies</h4><h5>Family and early life</h5><ul class=\"notes-list\"><li>their grandfather's wealth came from {{1}} and transportation businesses</li><li>their upbringing gave them a sense of social responsibility</li><li>their {{2}} was designed to give them an interest in activities such as collecting art</li><li>their governess took them on trips to art galleries</li><li>they took lengthy {{3}} about the things they saw in art galleries</li></ul><h5>The sisters as art collectors</h5><ul class=\"notes-list\"><li>their {{4}} showed they liked Old Master paintings, but they were expensive to buy</li><li>their early purchases were safe, popular paintings</li><li>the first Impressionist paintings they bought showed places in {{5}}</li></ul><h5>Impact of First World War</h5><ul class=\"notes-list\"><li>they helped bring artists from Belgium to Wales</li><li>they worked in a {{6}} for soldiers in France</li></ul><h5>Opinions about the sisters as art collectors</h5><ul class=\"notes-list\"><li>were not considered typical collectors – they lived in isolation in the countryside and did not have any {{7}} who were artists</li></ul></div>"
+          },
+          {
+            "id": "part-q8-13",
+            "rubricHtml": "<h3>Questions 8–13</h3><p>Do the following statements agree with the information given in Reading Passage 1?</p><p>In boxes 8–13 on your answer sheet, write</p>",
+            "selectCount": 1,
+            "type": "tfng",
+            "questions": [
+              {
+                "number": 8,
+                "textHtml": "The Davies sisters' childhood influenced the way they decided to use their wealth."
+              },
+              {
+                "number": 9,
+                "textHtml": "The Jean-Baptiste-Camille Corot paintings in the Davies sisters' collection were purchased from a gallery in France."
+              },
+              {
+                "number": 10,
+                "textHtml": "Hugh Blaker opposed the Davies sisters' decision to buy art by French Impressionists."
+              },
+              {
+                "number": 11,
+                "textHtml": "The exhibition of Cézanne paintings at the Bath gallery was very popular with the public."
+              },
+              {
+                "number": 12,
+                "textHtml": "The impact of the First World War encouraged Gwendoline to reconsider her interest in collecting art."
+              },
+              {
+                "number": 13,
+                "textHtml": "The Davies sisters bought French Impressionist art during a period when very few people were doing so."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Why we need silence",
+        "instructionsHtml": "Reading Passage 2<p>You should spend about 20 minutes on Questions 14–26, which are based on Reading Passage 2 below.</p>",
+        "passageHtml": "Why we need silence <p id=\"para-A\"><strong>A</strong>&nbsp;&nbsp;Humans are finely attuned to noise, and for good reason. From an evolutionary perspective, sounds give us vital information, helping us navigate the world and avoid danger. To help ensure loud or unexpected noises get the attention they deserve, our internal chemistry alters in response to them. Our blood pressure goes up, muscles tense and glands release hormones that prepare us for fight or flight. In the short term, this is a good thing. When we are exposed to too much noise over the long term, however, those responses can lead to a multitude of health issues, from sleep disturbance to even cardiovascular disease.</p><p id=\"para-B\"><strong>B</strong>&nbsp;&nbsp;The World Health Organization has recently designated excessive noise as an 'underestimated threat' to public health, and has said that people living in cities such as Mumbai, Tokyo and Buenos Aires are being exposed to far more than the recommended 40 decibels of noise at night. A report from the European Environment Agency concluded that noise was an ongoing and widespread issue in Europe, with at least 1 in 5 people consistently exposed to levels considered harmful to health. 'There are no \"earlids\" that can protect your brain from noise,' says Nick Antonio, an acoustic consultant who has contributed to the British and international standards for noise.</p><p id=\"para-C\"><strong>C</strong>&nbsp;&nbsp;The good news is that several cities have been working to turn the volume down. One of the first to do so was London. 'By providing recommendations for quieter buses, reducing noise from roads and also controlling noise from aircraft, they were able to make the city quieter,' says Antonio. Other cities have introduced noise-reducing road coatings, for instance, alongside greenery that muffles sound. Some solutions are more specific: Washington DC's ban on petrol-powered leaf blowers came into effect recently, while in New York City, legislation has been approved to fine people who modify their vehicles to make them noisier. 'People are seeing the benefits of these more quiet environments in their cities,' Antonio says. 'I expect we will see much more of this in the future.'</p><p id=\"para-D\"><strong>D</strong>&nbsp;&nbsp;Researchers are also seeking to understand what aspects of silent experiences are most beneficial to our health. One of the best-researched is the flotation tank: a lightproof, soundproof tank of salt water in which a person floats as a form of deep relaxation. While some people experience altered perception in the tanks, involving subtle humming sounds and visual effects, these effects are benign and do not detract from the benefits of the experience, says Justin Feinstein, a clinical neuropsychologist. 'When you don't have external sensory stimuli coming in, the brain tries to fill the void to make sense of this dark and silent world,' he explains. 'In these tanks, some people can even hear the sound of their eyes blinking,' says Feinstein. 'But it is the ability to focus on the breath that helps people reach a relaxed or meditative state.'</p><p id=\"para-E\"><strong>E</strong>&nbsp;&nbsp;To further explore flotation tanks as a therapeutic tool, Feinstein and his colleagues recruited 50 people with a variety of conditions related to stress and had them answer a questionnaire prior to and following a flotation session. Participants reported decreases in muscle tension, pain and symptoms of their conditions after a single, 1-hour float, alongside an increase in feelings of relaxation and overall wellbeing. Less is known about what effects sensory deprivation can have on the brain. To investigate, Feinstein's team had 48 people participate in either three 90-minute float sessions or three 90-minute periods of relaxing on a chair which reclined. Participants had their brains scanned using functional magnetic resonance imaging at the beginning and end of the trial. Float sessions uniquely decreased activity in the default mode network (DMN), a collection of brain regions commonly linked with depression. Feinstein says it is an exciting finding, because flotation tanks seem to offer a way of 'resetting' our nervous system to prevent it from getting out of balance.</p><p id=\"para-F\"><strong>F</strong>&nbsp;&nbsp;Neurobiologist Tai Dotan Ben-Soussan is also an advocate of silence as a therapy. 'When we find ways to be quiet, we are not only quiet in our environment, but quiet in our inner selves,' she explains. 'This allows us to be more aware of what is happening around us and what the situation may require from us so we can provide [a more] adequate response.' Not everyone will benefit from silence to the same extent, but Ben-Soussan says one characteristic is key: the person must need to want to engage in the experience. 'We see from animal models and human studies that volition and intentionality is important,' she says. 'When people do not want silence, it can be very distressing.'</p><p id=\"para-G\"><strong>G</strong>&nbsp;&nbsp;Eric Pfeifer, a psychotherapy researcher, also concedes that some people may not benefit from silence, particularly those who are in a heightened state of stress. 'People in these states may not be able to relax or calm down in a silent condition,' he says. Professional guidance can be useful, he adds, allowing people to approach silence slowly so that they can gradually enjoy the benefits. And Pfeifer is convinced that silence is more attainable in everyday life than people think. First, complete silence isn't necessary. In a recent study, he found that participants reported more relaxation and less boredom when they sat quietly in an outdoor garden compared with a completely silent room. Second, Pfeifer believes we don't need a lot of silence to gain benefits. 'You don't need to spend hours in silence,' he says. 'It is likely better to have more frequency of silence for a few minutes at a time than a longer period of silence only once a week. Just finding those places in your daily life where you can find some silence ... can make a big difference.'</p>",
+        "groups": [
+          {
+            "id": "part-q14-17",
+            "rubricHtml": "<h3>Questions 14–17</h3><p>Reading Passage 2 has seven sections, <strong>A–G</strong>.</p><p>Which section contains the following information?</p><p>Write the correct letter, <strong>A–G</strong>, in boxes 14–17 on your answer sheet.</p>",
+            "selectCount": 1,
+            "type": "matching",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "examples of strategies to decrease the noise that the public are exposed to"
+              },
+              {
+                "number": 15,
+                "textHtml": "data indicating the extent of the problem of excessive noise"
+              },
+              {
+                "number": 16,
+                "textHtml": "a description of physiological changes in our bodies when we hear sudden noises"
+              },
+              {
+                "number": 17,
+                "textHtml": "evidence that a relatively quiet environment can be more beneficial than a totally silent one"
+              }
+            ]
+          },
+          {
+            "id": "part-q18-21",
+            "rubricHtml": "<h3>Questions 18–21</h3><p>Complete the summary below.</p><p>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p><p>Write your answers in boxes 18–21 on your answer sheet.</p>",
+            "maxWords": 1,
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div class=\"summary\"><h4 class=\"summary-title\">Flotation Tanks</h4><p>According to Justin Feinstein, flotation tanks allow people to concentrate on their own {{18}}, which helps them relax and enables them to meditate. Feinstein and his colleagues conducted an experiment in which 50 people, who were all suffering from stress and related issues, were given a {{19}} to complete before and after using a flotation tank. Participants reported a reduction in their symptoms after an hour in the tank, together with signs of relaxation and improved general {{20}}.</p><p>In another experiment, the researchers had 48 people spend periods of 90 minutes either lying back in a chair or floating in a tank. Brain scans then revealed that those people who had been in a tank had decreased activity in parts of the brain associated with {{21}}.</p></div>"
+          },
+          {
+            "id": "part-q22-26",
+            "rubricHtml": "<h3>Questions 22–26</h3><p>Look at the following statements (Questions 22–26) and the list of people below.</p><p>Match each statement with the correct person, <strong>A, B, C or D</strong>.</p><p>Write the correct letter, <strong>A, B, C or D</strong>, in boxes 22–26 on your answer sheet.</p><p><strong>NB</strong> You may use any letter more than once.</p>",
+            "selectCount": 1,
+            "type": "matching",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              }
+            ],
+            "questions": [
+              {
+                "number": 22,
+                "textHtml": "It is unpleasant and upsetting for people to be placed in a silent environment against their will."
+              },
+              {
+                "number": 23,
+                "textHtml": "The trend towards creating quieter urban locations is likely to increase in the coming years."
+              },
+              {
+                "number": 24,
+                "textHtml": "When our body's senses are completely deprived of input, our minds compensate for this by creating the illusion of images and sounds."
+              },
+              {
+                "number": 25,
+                "textHtml": "Even a short amount of silent time can have a positive impact."
+              },
+              {
+                "number": 26,
+                "textHtml": "External and internal quietness makes us more conscious of events occurring in our surroundings and helps us react appropriately to these events."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Book review: The World of Sugar by Ulbe Bosma",
+        "instructionsHtml": "Reading Passage 3<p>You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below.</p>",
+        "passageHtml": "Book review: <em>The World of Sugar</em> by Ulbe Bosma <p id=\"para-s1\">Ulbe Bosma's <em>The World of Sugar</em> is a genuinely global history. Bosma discusses all the sugar-growing places of the world, beginning with Cuba and Java, the largest exporters of the early 20th century. But this is a history not just of cane sugar but also of beet sugar, an equally important form of traded sugar over the last hundred years. Beet sugar is grown mainly in Europe and the United States. It has also been massively subsidised and sold at artificially low prices on world markets, threatening the livelihood of producers of cane sugar.</p><p id=\"para-s2\">Bosma's discussion of the sugar market in Britain gives a sense of the book's range. The sweet-toothed British first bought cane sugar from their own slavery-dependent colonial plantations. Following the abolition of slavery in the British Empire, cane sugar was imported to Britain from places which retained the practice, such as Cuba and Brazil. Towards the end of the 19th century, the British started to import beet sugar from continental Europe. Only in the 20th century was there a move to develop a national beet sugar industry.</p><p id=\"para-s3\">The book provides a global labour history, investigating the wide range of labour regimes associated with growing sugar. Contrary to popular belief, cane sugar production was never just restricted to large, dedicated plantations owned by rich men. For example, in Java, a huge exporter of sugar in the early 20th century, sugar cane was grown together with rice in an extraordinarily labour-intensive way by small farmers.</p><p id=\"para-s4\"><em>The World of Sugar</em> is also a story of similarity and continuity in sugar cultivation. For example, imported labour has been used for much large-scale production. German beet fields employed Polish workers; Mexicans and many others, including Sicilians, were vital to US sugar production. Cane cutting, Bosma shows, remains a poorly paid and brutal business to this day in many places in the world. But as well as this, the book is about the continuity of the use of traditional methods on small farms. In the mid 20th-century, this type of sugar production dominated in South Asia and Latin America.</p><p id=\"para-s5\">This is also a history of capitalists and sugar dynasties, as well as corporations that in some cases have remained influential over very long periods. Great firms and great interests have had profound influence on the policies of states. In many places — not just the British Caribbean but Cuba and the Philippines too — a powerful sugar bourgeoisie played a major role in politics and their interests were consequently protected by trade barriers and subsidies. In the battle for control of the industry, it was inevitably the poor countries which came off worse. All this is explored by Bosma with wonderful subtlety and control.</p><p id=\"para-s6\">But sugar production was never just a matter of agriculture. It also involved the extraction, close to the place of harvest, of sucrose from the sugar plant, a process which required machinery powered by humans, animals, wind or steam. Further processes involved boiling (from the 19th century, this often involved vacuum systems) and the separation of sugar from other materials in a process known as refinement. From very early on, sugar production was an energy-intensive industrial process, mostly taking place in the countryside and in refineries in centres of consumption, both small and large. The growth of the industry entailed a very rapid diffusion of ideas and techniques from one country to another. Cuba, for example, developed an extraordinarily dense system of railways to transport workers and cane, as well as steam-powered sugar factories. Particular varieties of cane sugar and beet sugar spread very rapidly across the world, in accordance with local needs and demands.</p><p id=\"para-s7\">Where once only tiny quantities of sugar could be produced, now new techniques, varieties, fertilisers, irrigation systems and much more have turned gleaming white sugar into a ubiquitous chemical. Over the same time, there has been a massive increase in consumption. Once regarded as a luxury, sugar came to be promoted as a valuable source of energy. But as the consumption of sugar has increased, so has the harm it does, whether to people's teeth or weight. In the face of appalling obstruction from the sugar industry to attempts to reduce consumption, some countries have been forced to tax sugar in order to bring that about. The sugar industry has a history of attacking its critics and, when it comes to obesity, of trying to blame fats, and lack of exercise and self-control. And the recent past has seen worrying new developments in mass sweetening. High-fructose corn syrup made from maize using an enzymatic process invented in Japan in the 1960s has a similar number of calories to table sugar but is far cheaper to produce. It is now widely consumed, having been adopted in the making of soft drinks and a large number of processed foods, and is regarded as a leading cause of obesity.</p><p id=\"para-s8\">This is a wonderfully rich book, a model of global history, the history of production and the history of capitalism. Bosma avoids outbursts of emotion, celebratory or critical, even if they might have made his analysis of the multiple tragedies involving sugar all the more powerful. He shows that we could always have done without sugar and that today we have many alternative sources of sweetness. Yet many of the poorest people in the world still depend on it to make a living.</p>",
+        "groups": [
+          {
+            "id": "part-q27-30",
+            "rubricHtml": "<h3>Questions 27–30</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>",
+            "selectCount": 1,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "What does the reviewer suggest about the cultivation and trading of sugar in the first paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Sugar has played a major role in international relations."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Beet sugar has been made more internationally competitive."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Cane sugar is thought to be of superior quality to beet sugar."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "New locations for cultivating sugar have increased production."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "In the second paragraph, when discussing the sugar market in Britain, the reviewer stresses",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how the sources used changed over time."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "how developments in agriculture affected trade."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the increased demand for sugar over the years."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the growing support for ethical methods of cultivation."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "What is the reviewer doing in the third paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "describing an efficient approach to sugar cultivation"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "explaining why the use of sugar plantations declined"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "addressing a misconception about the growing of sugar cane"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "evaluating different approaches to the cultivation of sugar cane"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "In the final paragraph, what does the reviewer suggest is the overall message of Bosma’s book?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Sugar is a harmful and unnecessary product."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Economic pressure is needed to control sugar production."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Conditions for workers in sugar production should be improved."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Intensive marketing of sugar has had disastrous consequences."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-q31-36",
+            "rubricHtml": "<h3>Questions 31–36</h3><p>Complete the summary using the list of words below.</p><p>Drag the correct word into each gap.</p>",
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div class=\"summary\"><h4 class=\"summary-title\">Sugar cultivation and production</h4><p>The book <em>The World of Sugar</em> points out the similarities in the way that sugar was cultivated around the world. In the big industries in both Germany and the US, sugar farming depended on {{31}}. However, in other parts of the world such as South Asia and Latin America, {{32}} continued.</p><p>Sugar production has also involved {{33}} who were eager to protect their markets. In countries such as Cuba the sugar industry therefore had a major influence on {{34}}.</p><p>To support the interests of sugar producers, {{35}} were established. As a result of this, {{36}} were penalised.</p></div><div></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "national governments"
+              },
+              {
+                "letter": "B",
+                "textHtml": "agricultural developments"
+              },
+              {
+                "letter": "C",
+                "textHtml": "less wealthy nations"
+              },
+              {
+                "letter": "D",
+                "textHtml": "untrained workers"
+              },
+              {
+                "letter": "E",
+                "textHtml": "small-scale cultivation"
+              },
+              {
+                "letter": "F",
+                "textHtml": "outdated methods"
+              },
+              {
+                "letter": "G",
+                "textHtml": "financial controls"
+              },
+              {
+                "letter": "H",
+                "textHtml": "migrant workers"
+              },
+              {
+                "letter": "I",
+                "textHtml": "powerful individuals and businesses"
+              }
+            ]
+          },
+          {
+            "id": "part-q37-40",
+            "rubricHtml": "<h3>Questions 37–40</h3><p>Do the following statements agree with the views of the writer in Reading Passage 3?</p>",
+            "selectCount": 1,
+            "type": "ynng",
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "Sugar has now become available in large quantities due to a range of agricultural developments."
+              },
+              {
+                "number": 38,
+                "textHtml": "Advertisers initially marketed sugar as a luxury product."
+              },
+              {
+                "number": 39,
+                "textHtml": "The invention of high-fructose corn syrup was a positive development."
+              },
+              {
+                "number": 40,
+                "textHtml": "High-fructose corn syrup is an ingredient in many processed foods."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "mining"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 1: David Davies \"amassed a fortune in the shipping and mining industries\". Transportation = shipping, so the other industry is mining.",
+        "evidence": {
+          "anchor": "para-1",
+          "snippet": "amassed a fortune in the shipping and mining industries"
+        }
+      },
+      "2": {
+        "accepted": [
+          "education"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 2: \"the sisters' education was rigorously geared toward such pursuits\" such as collecting art.",
+        "evidence": {
+          "anchor": "para-2",
+          "snippet": "education was rigorously geared toward such pursuits"
+        }
+      },
+      "3": {
+        "accepted": [
+          "notes"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 2: travelling with their governess, they spent time \"making extensive notes on the collections\" in art galleries.",
+        "evidence": {
+          "anchor": "para-2",
+          "snippet": "making extensive notes on the collections there"
+        }
+      },
+      "4": {
+        "accepted": [
+          "journals",
+          "journal"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 4: \"The sisters' journals reveal their preference for Old Master paintings.\"",
+        "evidence": {
+          "anchor": "para-4",
+          "snippet": "journals reveal their preference for Old Master"
+        }
+      },
+      "5": {
+        "accepted": [
+          "Venice"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 5: their first Impressionist purchases \"were scenes of Venice by the French artist Claude Monet.\"",
+        "evidence": {
+          "anchor": "para-5",
+          "snippet": "were scenes of Venice by the French artist Claude Monet"
+        }
+      },
+      "6": {
+        "accepted": [
+          "canteen"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 6: both sisters decided to \"volunteer at a canteen for troops at Troyes\" in northern France.",
+        "evidence": {
+          "anchor": "para-6",
+          "snippet": "volunteer at a canteen for troops at Troyes"
+        }
+      },
+      "7": {
+        "accepted": [
+          "friends",
+          "friend"
+        ],
+        "type": "Note Completion",
+        "explanation": "Paragraph 8: they \"didn't make friends with artists or gallery owners\", so they had no friends who were artists.",
+        "evidence": {
+          "anchor": "para-8",
+          "snippet": "didn't make friends with artists or gallery owners"
+        }
+      },
+      "8": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "TRUE — Paragraph 1: their \"religious upbringing ... gave them a deep sense of social responsibility and they chose to use their inheritance for cultural and philanthropic purposes.\" Their childhood shaped how they used their wealth.",
+        "evidence": {
+          "anchor": "para-1",
+          "snippet": "they chose to use their inheritance for cultural and philanthropic"
+        }
+      },
+      "9": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "NOT GIVEN — Paragraph 4 says their early purchases included paintings by Corot, but the passage never states where these works were bought.",
+        "evidence": {
+          "anchor": "para-4",
+          "snippet": "paintings by the French artist Jean-Baptiste-Camille Corot"
+        }
+      },
+      "10": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "FALSE — Paragraph 5: Hugh Blaker, \"a champion of contemporary French art, had a hand in the decision\" to buy Impressionist art. He supported it; he did not oppose it.",
+        "evidence": {
+          "anchor": "para-5",
+          "snippet": "a champion of contemporary French art, had a hand in the decision"
+        }
+      },
+      "11": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "NOT GIVEN — Paragraph 7 says the Cézanne works were the first to go on display in a public gallery in Britain, but nothing is said about how popular the exhibition was.",
+        "evidence": {
+          "anchor": "para-7",
+          "snippet": "to go on display in a public gallery in Britain"
+        }
+      },
+      "12": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "TRUE — Paragraph 9: Gwendoline \"felt increasingly uncomfortable buying art works when faced with the poverty and social upheaval created by the First World War.\"",
+        "evidence": {
+          "anchor": "para-9",
+          "snippet": "felt increasingly uncomfortable buying art works"
+        }
+      },
+      "13": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "TRUE / FALSE / NOT GIVEN",
+        "explanation": "TRUE — Paragraph 10: they collected this art \"at a time when such art was routinely ignored by individuals and institutions alike.\"",
+        "evidence": {
+          "anchor": "para-10",
+          "snippet": "such art was routinely ignored by individuals and institutions alike"
+        }
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching Information",
+        "explanation": "Section C describes how cities are working to \"turn the volume down\" — quieter buses, noise-reducing road coatings, and bans on leaf blowers and noisy vehicles. These are strategies to cut the noise the public faces.",
+        "evidence": {
+          "anchor": "para-C",
+          "snippet": "several cities have been working to turn the volume down"
+        }
+      },
+      "15": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching Information",
+        "explanation": "Section B gives figures showing how big the problem is: the WHO's 40-decibel night-time limit and the European Environment Agency report that \"at least 1 in 5 people\" are exposed to harmful levels.",
+        "evidence": {
+          "anchor": "para-B",
+          "snippet": "at least 1 in 5 people consistently exposed to levels considered harmful to health"
+        }
+      },
+      "16": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching Information",
+        "explanation": "Section A explains the body's reaction to sudden noise: \"Our blood pressure goes up, muscles tense and glands release hormones that prepare us for fight or flight.\" These are physiological changes.",
+        "evidence": {
+          "anchor": "para-A",
+          "snippet": "Our blood pressure goes up, muscles tense and glands release hormones that prepare us for fight or flight"
+        }
+      },
+      "17": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Matching Information",
+        "explanation": "Section G reports Pfeifer's study in which participants \"reported more relaxation and less boredom when they sat quietly in an outdoor garden compared with a completely silent room\" — a quiet place beating total silence.",
+        "evidence": {
+          "anchor": "para-G",
+          "snippet": "more relaxation and less boredom when they sat quietly in an outdoor garden compared with a completely silent room"
+        }
+      },
+      "18": {
+        "accepted": [
+          "breath"
+        ],
+        "type": "Summary Completion",
+        "explanation": "Section D: Feinstein says \"it is the ability to focus on the breath that helps people reach a relaxed or meditative state.\"",
+        "evidence": {
+          "anchor": "para-D",
+          "snippet": "it is the ability to focus on the breath that helps people reach a relaxed or meditative state"
+        }
+      },
+      "19": {
+        "accepted": [
+          "questionnaire"
+        ],
+        "type": "Summary Completion",
+        "explanation": "Section E: the 50 stressed participants \"answer a questionnaire prior to and following a flotation session.\"",
+        "evidence": {
+          "anchor": "para-E",
+          "snippet": "had them answer a questionnaire prior to and following a flotation session"
+        }
+      },
+      "20": {
+        "accepted": [
+          "wellbeing",
+          "well-being"
+        ],
+        "type": "Summary Completion",
+        "explanation": "Section E: participants reported \"an increase in feelings of relaxation and overall wellbeing.\"",
+        "evidence": {
+          "anchor": "para-E",
+          "snippet": "an increase in feelings of relaxation and overall wellbeing"
+        }
+      },
+      "21": {
+        "accepted": [
+          "depression"
+        ],
+        "type": "Summary Completion",
+        "explanation": "Section E: float sessions \"decreased activity in the default mode network (DMN), a collection of brain regions commonly linked with depression.\"",
+        "evidence": {
+          "anchor": "para-E",
+          "snippet": "a collection of brain regions commonly linked with depression"
+        }
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching Features",
+        "explanation": "C — Ben-Soussan: \"When people do not want silence, it can be very distressing.\" Being placed in silence against one's will is upsetting.",
+        "evidence": {
+          "anchor": "para-F",
+          "snippet": "When people do not want silence, it can be very distressing"
+        }
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching Features",
+        "explanation": "A — Antonio: \"I expect we will see much more of this in the future,\" referring to quieter city environments.",
+        "evidence": {
+          "anchor": "para-C",
+          "snippet": "I expect we will see much more of this in the future"
+        }
+      },
+      "24": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching Features",
+        "explanation": "B — Feinstein: \"the brain tries to fill the void to make sense of this dark and silent world,\" and people may even \"hear the sound of their eyes blinking\" — the mind creates images and sounds.",
+        "evidence": {
+          "anchor": "para-D",
+          "snippet": "the brain tries to fill the void to make sense of this dark and silent world"
+        }
+      },
+      "25": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching Features",
+        "explanation": "D — Pfeifer: \"You don't need to spend hours in silence ... It is likely better to have more frequency of silence for a few minutes at a time.\" A short amount helps.",
+        "evidence": {
+          "anchor": "para-G",
+          "snippet": "You don't need to spend hours in silence"
+        }
+      },
+      "26": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching Features",
+        "explanation": "C — Ben-Soussan: being quiet \"allows us to be more aware of what is happening around us and what the situation may require from us so we can provide [a more] adequate response.\"",
+        "evidence": {
+          "anchor": "para-F",
+          "snippet": "This allows us to be more aware of what is happening around us"
+        }
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Multiple Choice",
+        "explanation": "Para 1: beet sugar \"has been massively subsidised and sold at artificially low prices on world markets\" — subsidies make it more able to compete internationally. (B)",
+        "evidence": {
+          "anchor": "para-s1",
+          "snippet": "It has also been massively subsidised and sold at artificially low prices on world markets"
+        }
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple Choice",
+        "explanation": "Para 2: the reviewer traces how Britain’s sugar sources changed over time — its own colonies, then Cuba and Brazil, then beet sugar from Europe, and finally a national beet industry. (A)",
+        "evidence": {
+          "anchor": "para-s2",
+          "snippet": "Towards the end of the 19th century, the British started to import beet sugar from continental Europe"
+        }
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Multiple Choice",
+        "explanation": "Para 3: \"Contrary to popular belief, cane sugar production was never just restricted to large, dedicated plantations owned by rich men\" — the reviewer corrects a common false belief. (C)",
+        "evidence": {
+          "anchor": "para-s3",
+          "snippet": "Contrary to popular belief, cane sugar production was never just restricted to large, dedicated plantations owned by rich men"
+        }
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple Choice",
+        "explanation": "Para 8 (final): Bosma shows \"we could always have done without sugar\" and that we now have \"many alternative sources of sweetness\", while sugar does great harm — i.e. sugar is harmful and unnecessary. (A)",
+        "evidence": {
+          "anchor": "para-s8",
+          "snippet": "He shows that we could always have done without sugar and that today we have many alternative sources of sweetness"
+        }
+      },
+      "31": {
+        "accepted": [
+          "H"
+        ],
+        "type": "Summary Completion",
+        "explanation": "Para 4: German beet fields used Polish workers and US production relied on Mexicans and Sicilians — imported / migrant workers. (H = migrant workers)",
+        "evidence": {
+          "anchor": "para-s4",
+          "snippet": "German beet fields employed Polish workers; Mexicans and many others, including Sicilians, were vital to US sugar production"
+        }
+      },
+      "32": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Summary Completion",
+        "explanation": "Para 4: in South Asia and Latin America \"traditional methods on small farms\" dominated — i.e. small-scale cultivation. (E)",
+        "evidence": {
+          "anchor": "para-s4",
+          "snippet": "the continuity of the use of traditional methods on small farms"
+        }
+      },
+      "33": {
+        "accepted": [
+          "I"
+        ],
+        "type": "Summary Completion",
+        "explanation": "Para 5: the industry involved \"capitalists and sugar dynasties... corporations\" and a \"powerful sugar bourgeoisie\" who protected their markets. (I = powerful individuals and businesses)",
+        "evidence": {
+          "anchor": "para-s5",
+          "snippet": "This is also a history of capitalists and sugar dynasties, as well as corporations"
+        }
+      },
+      "34": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Summary Completion",
+        "explanation": "Para 5: these great interests \"had profound influence on the policies of states\" — i.e. national governments. (A)",
+        "evidence": {
+          "anchor": "para-s5",
+          "snippet": "Great firms and great interests have had profound influence on the policies of states"
+        }
+      },
+      "35": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Summary Completion",
+        "explanation": "Para 5: their interests were \"protected by trade barriers and subsidies\" — financial controls. (G)",
+        "evidence": {
+          "anchor": "para-s5",
+          "snippet": "their interests were consequently protected by trade barriers and subsidies"
+        }
+      },
+      "36": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Summary Completion",
+        "explanation": "Para 5: as a result \"it was inevitably the poor countries which came off worse\" — less wealthy nations were penalised. (C)",
+        "evidence": {
+          "anchor": "para-s5",
+          "snippet": "it was inevitably the poor countries which came off worse"
+        }
+      },
+      "37": {
+        "accepted": [
+          "YES"
+        ],
+        "type": "Yes / No / Not Given",
+        "explanation": "Para 7: \"new techniques, varieties, fertilisers, irrigation systems and much more\" turned sugar into a \"ubiquitous chemical\" — agricultural developments made it abundant, so YES.",
+        "evidence": {
+          "anchor": "para-s7",
+          "snippet": "now new techniques, varieties, fertilisers, irrigation systems and much more have turned gleaming white sugar into a ubiquitous chemical"
+        }
+      },
+      "38": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "Yes / No / Not Given",
+        "explanation": "Para 7: sugar was \"once regarded as a luxury\", but the passage never says advertisers marketed it as a luxury — so NOT GIVEN.",
+        "evidence": {
+          "anchor": "para-s7",
+          "snippet": "Once regarded as a luxury, sugar came to be promoted as a valuable source of energy"
+        }
+      },
+      "39": {
+        "accepted": [
+          "NO"
+        ],
+        "type": "Yes / No / Not Given",
+        "explanation": "Para 7: high-fructose corn syrup is described as a \"worrying\" development and \"a leading cause of obesity\" — the writer views it negatively, so NO.",
+        "evidence": {
+          "anchor": "para-s7",
+          "snippet": "is regarded as a leading cause of obesity"
+        }
+      },
+      "40": {
+        "accepted": [
+          "YES"
+        ],
+        "type": "Yes / No / Not Given",
+        "explanation": "Para 7: it has \"been adopted in the making of soft drinks and a large number of processed foods\" — this agrees with the statement, so YES.",
+        "evidence": {
+          "anchor": "para-s7",
+          "snippet": "having been adopted in the making of soft drinks and a large number of processed foods"
+        }
+      }
+    },
+    "sets": []
+  },
+  "slug": "reading-cambridge-21-test-1",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 21,
+  "testNumber": 1
+}

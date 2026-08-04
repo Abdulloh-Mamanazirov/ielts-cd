@@ -284,6 +284,13 @@ export const testImportSchema = z.object({
     .optional(),
   isPremium: z.boolean().optional(),
   /**
+   * Where this sits on the practice shelf: which body of material, and where
+   * inside it. Optional because a one-off test need belong to no numbered set.
+   */
+  series: z.enum(["REAL_EXAM", "CAMBRIDGE"]).optional(),
+  seriesNumber: positiveInt.optional(),
+  testNumber: positiveInt.optional(),
+  /**
    * Where the listening audio came from, for tests converted from a source that
    * streamed it. The importer surfaces this so the audio gets re-hosted rather
    * than hot-linked; a listening test cannot be published without an upload.

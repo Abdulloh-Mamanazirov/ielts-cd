@@ -64,7 +64,8 @@ async function seedTests() {
       continue;
     }
 
-    const { content, answerKey, slug, isPremium, audioSourceUrl } = report.parsed;
+    const { content, answerKey, slug, isPremium, audioSourceUrl, series, seriesNumber, testNumber } =
+      report.parsed;
     const skill = content.skill.toUpperCase() as "LISTENING" | "READING" | "WRITING" | "SPEAKING";
 
     // A listening test has no audio until someone uploads it, and an unplayable
@@ -88,6 +89,11 @@ async function seedTests() {
       durationSeconds: content.durationSeconds,
       source: content.source ?? null,
       audioSourceUrl: audioSourceUrl ?? null,
+      // Where it sits on the shelf. Left alone when the import does not say, so
+      // the migration's backfill is not overwritten with nulls.
+      ...(series ? { series } : {}),
+      ...(seriesNumber ? { seriesNumber } : {}),
+      ...(testNumber ? { testNumber } : {}),
     };
 
     if (existing) {

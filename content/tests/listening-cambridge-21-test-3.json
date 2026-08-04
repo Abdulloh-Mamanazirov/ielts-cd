@@ -1,0 +1,715 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 21, Test 3",
+    "source": "Cambridge IELTS 21",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "rubricHtml": "Questions 1–10Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.",
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Ferry to Shetland Islands</div><ul class=\"notes-list\"><li>Name of ferry company: {{1}} Ferries</li><li>Ferries depart seven times per {{2}} in summer</li><li>Cost for four people with car: a little less than £ {{3}}</li><li>Cancellation policy: receive a {{4}} (if cancelled a month in advance)</li></ul><div>Advice</div><ul class=\"notes-list\"><li>Cabins:<br>book one with a {{5}}<br>luxury cabins have a TV</li><li>Bring snacks and {{6}} for the children</li><li>A {{7}} is required for the dog kennels</li><li>Try to see {{8}} in the morning</li><li>If time, visit {{9}} Castle</li><li>The {{10}} restaurant in a nearby village is recommended</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "rubricHtml": "Questions 11 and 12Choose <strong>TWO</strong> letters, <strong>A–E</strong>.",
+            "selectCount": 2,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Which <strong>TWO</strong> explanations for the popularity of street food are given?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "low price"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "locally sourced"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "freshly made"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "convenience"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "unusual food"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "rubricHtml": "Questions 13 and 14Choose <strong>TWO</strong> letters, <strong>A–E</strong>.",
+            "selectCount": 2,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 13,
+                "textHtml": "Which <strong>TWO</strong> places are recommended for new street food businesses?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "music festivals"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "food markets"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "weddings"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "parties"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "parks"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "rubricHtml": "Questions 15 and 16Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.",
+            "selectCount": 1,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "What does the speaker say about getting equipment for a street food business?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "High quality equipment is a good investment."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It’s best to buy second-hand equipment."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Renting equipment can be cheap."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "What advice is given about creating a product for a street food business?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Provide information about the ingredients."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It is important to have an original product."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The presentation is an important factor."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-4",
+            "rubricHtml": "Questions 17–20What problem did the owners of each of the following street food businesses experience? Choose <strong>FOUR</strong> answers from the box and drag the correct problem next to questions 17–20.",
+            "selectCount": 1,
+            "type": "matching",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Some ingredients were too expensive."
+              },
+              {
+                "letter": "B",
+                "textHtml": "The meals took a long time to prepare."
+              },
+              {
+                "letter": "C",
+                "textHtml": "They had no money for marketing."
+              },
+              {
+                "letter": "D",
+                "textHtml": "It was difficult to get a permit to sell food."
+              },
+              {
+                "letter": "E",
+                "textHtml": "A competitor was selling similar food in their area."
+              },
+              {
+                "letter": "F",
+                "textHtml": "They worked very long hours."
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Thai Basil"
+              },
+              {
+                "number": 18,
+                "textHtml": "Basque"
+              },
+              {
+                "number": 19,
+                "textHtml": "Lou’s kitchen"
+              },
+              {
+                "number": 20,
+                "textHtml": "Chip Chop"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "rubricHtml": "Questions 21 and 22Choose <strong>TWO</strong> letters, <strong>A–E</strong>.",
+            "selectCount": 2,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> points do the speakers make about the terms ‘ethical’ and ‘sustainable’ fashion?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Their definitions keep changing."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "People think they mean the same thing."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The term ‘eco-friendly’ is preferable."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They are often used imprecisely."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Companies should avoid using them on clothing labels."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "rubricHtml": "Questions 23 and 24Choose <strong>TWO</strong> letters, <strong>A–E</strong>.",
+            "selectCount": 2,
+            "type": "mcq",
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Which <strong>TWO</strong> claims about wool production do the speakers disagree with?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Sheep are generally well-treated."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Wool is easy to recycle."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Wool is a long-lasting fabric."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Wool production involves few chemicals."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Sheep do less environmental damage than other livestock."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "rubricHtml": "Questions 25–30What comment do the speakers make about each of the following semi-synthetic fabrics? Choose <strong>SIX</strong> answers from the box and drag the correct comment next to questions 25–30.",
+            "selectCount": 1,
+            "type": "matching",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "The production process is fuel efficient."
+              },
+              {
+                "letter": "B",
+                "textHtml": "It is the least sustainable of alternative fabrics."
+              },
+              {
+                "letter": "C",
+                "textHtml": "Production costs are high."
+              },
+              {
+                "letter": "D",
+                "textHtml": "It provides additional health benefits."
+              },
+              {
+                "letter": "E",
+                "textHtml": "It is not durable in the long-term."
+              },
+              {
+                "letter": "F",
+                "textHtml": "It needs to be produced in a certain way to be sustainable."
+              },
+              {
+                "letter": "G",
+                "textHtml": "Chemicals required for production can be reused."
+              },
+              {
+                "letter": "H",
+                "textHtml": "This is from a wholly sustainable source."
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Lyocell"
+              },
+              {
+                "number": 26,
+                "textHtml": "Cupro"
+              },
+              {
+                "number": 27,
+                "textHtml": "Bamboo"
+              },
+              {
+                "number": 28,
+                "textHtml": "EcoVero"
+              },
+              {
+                "number": 29,
+                "textHtml": "Cork"
+              },
+              {
+                "number": 30,
+                "textHtml": "Hemp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "rubricHtml": "Questions 31–40Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.",
+            "selectCount": 1,
+            "type": "completion",
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Invasive species</div><p><b>Definition:</b> an animal or plant that causes harm to an environment after being introduced by humans</p><div>An invasive species can be a problem when it:</div><ul class=\"notes-list\"><li>eats native species.</li><li>introduces a new {{31}}.</li><li>takes food from native species.</li><li>threatens an entire {{32}}.</li></ul><div>How invasive species spread</div><ul class=\"notes-list\"><li>accidentally e.g. via people returning from their {{33}} or on cargo ships</li><li>intentionally e.g. for pest control, or as {{34}}.</li></ul><div>Examples of invasive species</div><ul class=\"notes-list\"><li>Rhinella marina (toads) <ul class=\"notes-list\"><li>were introduced to Australia from Hawaii in 1935 to eat a type of insect that was damaging the {{35}} plantations.</li><li>failed to solve the problem and became widespread in the north of Australia.</li><li>are poisonous for any species that eats them and reduce the food available for native frogs.</li></ul></li><li>Japanese knotweed plants were popular among 19th-century gardeners in the UK.</li><li>Rhododendron plants prevent {{36}} from reaching native plants.</li><li>Grey squirrels from N. America reduce sources of food for the UK’s native red squirrels and spread a {{37}} that kills red squirrels.</li></ul><div>Tackling invasive species</div><ul class=\"notes-list\"><li>Monitoring helps us to understand the {{38}} of invasive species and the impact they have.</li><li>Setting up a national {{39}} makes it easier to track them.</li><li>Asking the public to {{40}} and report them helps with monitoring.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "northern"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "it's called Northern Ferries"
+        }
+      },
+      "2": {
+        "accepted": [
+          "week"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "there's only one ferry leaving every evening in summer anyway, seven days a week"
+        }
+      },
+      "3": {
+        "accepted": [
+          "250",
+          "£250",
+          "two hundred and fifty"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "four people and a car worked out at just under £250"
+        }
+      },
+      "4": {
+        "accepted": [
+          "voucher",
+          "a voucher"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "I don't think it's their policy to give refunds - just a voucher"
+        }
+      },
+      "5": {
+        "accepted": [
+          "window",
+          "a window"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "We booked too late to get a cabin with a window"
+        }
+      },
+      "6": {
+        "accepted": [
+          "books",
+          "book"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "So it's best to bring some books for them."
+        }
+      },
+      "7": {
+        "accepted": [
+          "blanket",
+          "a blanket"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "The kennels on board are OK - they're quite big - you just need to provide a blanket."
+        }
+      },
+      "8": {
+        "accepted": [
+          "dolphins",
+          "dolphin"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "in the morning keeping a lookout for dolphins"
+        }
+      },
+      "9": {
+        "accepted": [
+          "drum"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Drum Castle."
+        }
+      },
+      "10": {
+        "accepted": [
+          "italian"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "found an Italian one in a village nearby"
+        }
+      },
+      "15": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I'd try to get things like hobs and fridges second hand if you can."
+        }
+      },
+      "16": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "It's got to be easy to eat and look attractive or customers won't come back."
+        }
+      },
+      "17": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "Their work-life balance was non-existent as they were working til midnight"
+        }
+      },
+      "18": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "it was hard to make a profit because the price of fish - essential for some of their dishes - was so high"
+        }
+      },
+      "19": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "some of their dishes were quite complicated"
+        }
+      },
+      "20": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "what they hadn't realised was that they'd need a special licence"
+        }
+      },
+      "25": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "Over 99% of dissolving agents used in the manufacturing process are used again."
+        }
+      },
+      "26": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "It doesn't compare favourably with all the other sustainable fabrics we've looked at"
+        }
+      },
+      "27": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "it was only organic bamboo that's truly sustainable"
+        }
+      },
+      "28": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "manufacturing causes 50 percent fewer emissions and takes up half as much energy"
+        }
+      },
+      "29": {
+        "accepted": [
+          "h"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "it's the only fabric that's fundamentally sustainable"
+        }
+      },
+      "30": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "clothes made from hemp protect the wearer from the sun and it's also antibacterial"
+        }
+      },
+      "31": {
+        "accepted": [
+          "disease"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "they may bring a disease with them, which native species have never faced before"
+        }
+      },
+      "32": {
+        "accepted": [
+          "ecosystem"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "one of the biggest causes of damage in an ecosystem, actually putting its survival at risk"
+        }
+      },
+      "33": {
+        "accepted": [
+          "holiday",
+          "holidays"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "people who've been on holiday in another country come back with"
+        }
+      },
+      "34": {
+        "accepted": [
+          "pets",
+          "pet"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "to use them to control pests on farms, or to be pets"
+        }
+      },
+      "35": {
+        "accepted": [
+          "sugar"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "responsible for destroying crops of sugar on many of the plantations"
+        }
+      },
+      "36": {
+        "accepted": [
+          "light"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "they block out so much light that native wild flowers can't grow beneath them"
+        }
+      },
+      "37": {
+        "accepted": [
+          "virus"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the grey squirrels carry a type of virus that is deadly to the red squirrels"
+        }
+      },
+      "38": {
+        "accepted": [
+          "behaviour",
+          "behavior"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "learning about the behaviour of new species coming into the country"
+        }
+      },
+      "39": {
+        "accepted": [
+          "database"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "to create a database for the whole country"
+        }
+      },
+      "40": {
+        "accepted": [
+          "photograph"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "They should be encouraged to photograph harmful species"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          11,
+          12
+        ],
+        "accepted": [
+          "c",
+          "e"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "People like the idea of trying something they can't get anywhere else."
+        }
+      },
+      {
+        "questions": [
+          13,
+          14
+        ],
+        "accepted": [
+          "b",
+          "e"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "Food markets, on the other hand, are great because customers are always really interested in food"
+        }
+      },
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "b",
+          "d"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "most people use these terms interchangeably"
+        }
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "d",
+          "e"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I wasn't convinced by the argument that wool production is sustainable because it doesn't use many chemicals"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-21-test-3",
+  "isPremium": false,
+  "audioSourceUrl": "https://archive.org/download/c-21-t-3-full/C21T3_full.mp3",
+  "series": "CAMBRIDGE",
+  "seriesNumber": 21,
+  "testNumber": 3
+}
