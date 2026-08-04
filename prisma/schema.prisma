@@ -28,6 +28,15 @@ enum TestStatus {
   ARCHIVED
 }
 
+/// Which body of material a test belongs to. The practice shelf is browsed by
+/// this first, then by book or volume number, rather than as one long list.
+enum TestSeries {
+  /// The instructor's own "@bekhruzposts" Volumes.
+  REAL_EXAM
+  /// Official Cambridge IELTS books, numbered by edition.
+  CAMBRIDGE
+}
+
 enum AttemptMode {
   PRACTICE
   MOCK
@@ -117,6 +126,16 @@ model Test {
   description     String?
   isPremium       Boolean    @default(false)
   status          TestStatus @default(DRAFT)
+  /// Which body of material this belongs to, and where inside it. `seriesNumber`
+  /// is the Volume number for REAL_EXAM and the book number for CAMBRIDGE;
+  /// `testNumber` is the test within that book or volume. Both are nullable
+  /// because a one-off test need not sit in any numbered set.
+  series          TestSeries @default(REAL_EXAM)
+  seriesNumber    Int?
+  testNumber      Int?
+  /// Reserved for full mocks: kept out of the practice shelf entirely so a
+  /// student cannot sit it beforehand and inflate their mock band.
+  mockOnly        Boolean    @default(false)
   schemaVersion   Int        @default(1)
   // Rendered by the player; safe to send to the browser.
   content         Json
@@ -139,6 +158,7 @@ model Test {
 
   @@index([skill, status])
   @@index([status, isPremium])
+  @@index([skill, series, seriesNumber])
 }
 
 model AudioAsset {
