@@ -34,7 +34,12 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
   // A finished attempt belongs on the results page, not back in the player.
   if (attempt.status !== "IN_PROGRESS") redirect(`/dashboard/results/${attempt.id}`);
 
-  const access = await getPlayableTest(attempt.testId, user);
+  // A section of a full mock is opened on the mock's authority: the composition
+  // was fixed when it started, and it may legitimately include material the
+  // student's plan does not open on the practice shelf.
+  const access = await getPlayableTest(attempt.testId, user, {
+    insideFullMock: Boolean(attempt.fullMockId),
+  });
   if (!access.ok) notFound();
 
   const snapshot: AttemptSnapshot = {

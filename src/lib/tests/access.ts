@@ -1,6 +1,8 @@
 import { prisma } from "@/lib/db";
 import { canAccessTest } from "@/lib/auth/guards";
 import type { SessionUser } from "@/lib/auth/session";
+import { allowsTest, effectivePlan } from "@/lib/plans";
+import { loadPlans } from "@/lib/plans-store";
 import { testContentSchema, testAnswerKeySchema, type TestContent, type TestAnswerKey } from "./schema";
 
 export type AccessDenial = "not_found" | "not_signed_in" | "premium_required" | "unavailable";
@@ -27,6 +29,8 @@ export type PlayableTest = {
 export async function getPlayableTest(
   testId: string,
   user: SessionUser | null,
+  /** A full mock draws from the whole library, so it bypasses the plan gate. */
+  options?: { insideFullMock?: boolean },
 ): Promise<{ ok: true; test: PlayableTest } | { ok: false; reason: AccessDenial }> {
   const record = await prisma.test.findUnique({
     where: { id: testId },
@@ -42,6 +46,9 @@ export async function getPlayableTest(
       audioAssetId: true,
       audioAsset: { select: { durationSeconds: true } },
       content: true,
+      series: true,
+      seriesNumber: true,
+      mockOnly: true,
     },
   });
 
@@ -51,6 +58,21 @@ export async function getPlayableTest(
   if (record.status !== "PUBLISHED" && !isAdmin) return { ok: false, reason: "not_found" };
   if (!user) return { ok: false, reason: "not_signed_in" };
   if (!canAccessTest(user, record)) return { ok: false, reason: "premium_required" };
+
+  // Material reserved for full mocks is reachable only inside one. Admins may
+  // still open it to check it.
+  if (record.mockOnly && !isAdmin && !options?.insideFullMock) {
+    return { ok: false, reason: "not_found" };
+  }
+
+  // What the subscription opens. Skipped inside a full mock, which composes
+  // itself from the whole library on purpose.
+  if (!isAdmin && !options?.insideFullMock) {
+    const plans = await loadPlans();
+    if (!allowsTest(plans, effectivePlan(user), record)) {
+      return { ok: false, reason: "premium_required" };
+    }
+  }
 
   // A listening test with no uploaded audio cannot be sat, even by an admin
   // previewing it; silence would just look like a bug.

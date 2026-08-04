@@ -5,6 +5,8 @@ import { PageHeader } from "@/components/app/PageHeader";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { describeTest, isSkillSlug, skillBySlug } from "@/lib/skills";
+import { allowsSeries, effectivePlan } from "@/lib/plans";
+import { loadPlans } from "@/lib/plans-store";
 import { cn, naturalCompare } from "@/lib/utils";
 
 export const metadata = { title: "Practice tests" };
@@ -115,7 +117,14 @@ export default async function TestsPage({
     return { kind: "available" as const, attempt: null };
   };
 
+  const plans = await loadPlans();
+  const plan = effectivePlan(user);
   const hasPremium = user.isPremium || user.role === "ADMIN";
+
+  /** Whether the subscription opens a given book or volume of a series. */
+  const opens = (series: "REAL_EXAM" | "CAMBRIDGE", seriesNumber: number | null) =>
+    user.role === "ADMIN" || allowsSeries(plans[plan].access[series], seriesNumber);
+
   const submitted = new Set(
     attempts.filter((attempt) => attempt.status === "SUBMITTED").map((a) => a.testId),
   );
@@ -138,6 +147,7 @@ export default async function TestsPage({
         number,
         total: members.length,
         done: members.filter((test) => submitted.has(test.id)).length,
+        locked: seriesSlug ? !opens(SERIES[seriesSlug].db, number || null) : false,
       };
     });
 
@@ -245,17 +255,25 @@ export default async function TestsPage({
                 style={{ animationDelay: `${index * 45}ms` }}
               >
                 <Link
-                  href={`${base}&series=${seriesSlug}&set=${entry.number}`}
-                  className="group flex flex-col rounded-xl bg-white p-5 shadow-[0_1px_2px_rgba(11,17,32,.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_40px_-22px_rgba(11,17,32,.35)]"
+                  href={
+                    entry.locked ? "/pricing" : `${base}&series=${seriesSlug}&set=${entry.number}`
+                  }
+                  className={cn(
+                    "group flex flex-col rounded-xl bg-white p-5 shadow-[0_1px_2px_rgba(11,17,32,.08)] transition duration-300",
+                    entry.locked
+                      ? "opacity-65 hover:opacity-100"
+                      : "hover:-translate-y-1 hover:shadow-[0_22px_40px_-22px_rgba(11,17,32,.35)]",
+                  )}
                 >
-                  <span className="text-[10px] font-bold tracking-[0.2em] text-ink-subtle">
+                  <span className="flex items-center justify-between text-[10px] font-bold tracking-[0.2em] text-ink-subtle">
                     {SERIES[seriesSlug].setEyebrow}
+                    {entry.locked && <LockIcon />}
                   </span>
                   <span className="mt-1 font-display text-xl text-ink">
                     {SERIES[seriesSlug].setLabel(entry.number)}
                   </span>
                   <span className="mt-3 text-xs text-ink-subtle">
-                    {entry.done} of {entry.total} done
+                    {entry.locked ? "Upgrade to open" : `${entry.done} of ${entry.total} done`}
                   </span>
                   <span
                     aria-hidden
@@ -277,7 +295,8 @@ export default async function TestsPage({
         {level === "tests" && (
         <ul className="mx-auto max-w-4xl space-y-px bg-rule">
           {visible.map((test) => {
-            const locked = test.isPremium && !hasPremium;
+            const locked =
+              (test.isPremium && !hasPremium) || !opens(test.series, test.seriesNumber);
             const state = stateFor(test.id);
 
             return (

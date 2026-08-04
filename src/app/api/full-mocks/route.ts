@@ -3,6 +3,8 @@ import { z } from "zod";
 import { requireUserApi } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { planFullMock } from "@/lib/full-mock/service";
+import { effectivePlan, mockAllowance } from "@/lib/plans";
+import { loadPlans } from "@/lib/plans-store";
 
 const startSchema = z.object({
   includeSpeaking: z.boolean().default(false),
@@ -31,6 +33,29 @@ export async function POST(request: Request) {
     select: { id: true },
   });
   if (existing) return Response.json({ fullMock: existing, resumed: true });
+
+  // The plan's allowance. `unlimitedMocks` is the per-student override the
+  // instructor turns on as an exam date approaches; resuming the mock already
+  // in progress above is never blocked by this.
+  const plans = await loadPlans();
+  const allowance = mockAllowance(plans, effectivePlan(auth.user), auth.user);
+
+  if (allowance !== null) {
+    const taken = await prisma.fullMock.count({ where: { userId: auth.user.id } });
+    if (taken >= allowance) {
+      return Response.json(
+        {
+          error:
+            allowance === 1
+              ? "Your plan includes one full mock, and you have already used it."
+              : `Your plan includes ${allowance} full mocks, and you have used them all.`,
+          reason: "mock_limit",
+          allowance,
+        },
+        { status: 403 },
+      );
+    }
+  }
 
   const planned = await planFullMock(auth.user, parsed.data.includeSpeaking);
   if (!planned.ok) {

@@ -2,7 +2,7 @@ import { createHmac, randomBytes, timingSafeEqual } from "node:crypto";
 import { cookies } from "next/headers";
 
 import { prisma } from "@/lib/db";
-import type { Role } from "@/generated/prisma/enums";
+import type { Plan, Role } from "@/generated/prisma/enums";
 
 export const SESSION_COOKIE = "ielts_session";
 const SESSION_TTL_DAYS = 30;
@@ -11,10 +11,14 @@ const SLIDING_RENEW_AFTER = 0.5;
 
 export type SessionUser = {
   id: string;
-  email: string;
+  /** Null for accounts created through the Telegram bot. */
+  email: string | null;
   fullName: string;
   role: Role;
   isPremium: boolean;
+  plan: Plan;
+  planExpiresAt: Date | null;
+  unlimitedMocks: boolean;
 };
 
 function sessionSecret(): string {
@@ -86,6 +90,9 @@ export async function getSessionUser(): Promise<SessionUser | null> {
           fullName: true,
           role: true,
           isPremium: true,
+          plan: true,
+          planExpiresAt: true,
+          unlimitedMocks: true,
         },
       },
     },

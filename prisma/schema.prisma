@@ -28,6 +28,14 @@ enum TestStatus {
   ARCHIVED
 }
 
+/// Subscription tiers. STUDENT is for the instructor's own students; PREMIUM
+/// is the public paid plan. Both run for a year unless granted open-ended.
+enum Plan {
+  FREE
+  STUDENT
+  PREMIUM
+}
+
 /// Which body of material a test belongs to. The practice shelf is browsed by
 /// this first, then by book or volume number, rather than as one long list.
 enum TestSeries {
@@ -68,14 +76,30 @@ enum TestimonialMedia {
 
 model User {
   id                 String    @id @default(cuid())
-  email              String    @unique
-  passwordHash       String
+  /// Null for accounts created through the Telegram bot, which have no
+  /// password to go with an address. The instructor signs in with email.
+  email              String?   @unique
+  passwordHash       String?
   fullName           String
   role               Role      @default(STUDENT)
   isPremium          Boolean   @default(false)
   premiumGrantedAt   DateTime?
   premiumGrantedById String?
   premiumNote        String?
+  /// Subscription. `planExpiresAt` is null for FREE and for a plan that was
+  /// granted without an end date; a past date means the plan has lapsed and
+  /// the account falls back to FREE.
+  plan               Plan      @default(FREE)
+  planExpiresAt      DateTime?
+  /// Overrides the plan's full-mock allowance for this student — what the
+  /// instructor turns on as someone's exam date approaches.
+  unlimitedMocks     Boolean   @default(false)
+  /// Identity from the Telegram bot.
+  telegramId         String?   @unique
+  telegramUsername   String?
+  phone              String?
+  /// Whether they said they already study with the instructor.
+  isStudent          Boolean   @default(false)
   lastLoginAt        DateTime?
   createdAt          DateTime  @default(now())
   updatedAt          DateTime  @updatedAt
@@ -83,10 +107,13 @@ model User {
   sessions           Session[]
   attempts           Attempt[]
   fullMocks          FullMock[]
+  loginTokens        LoginToken[]
   reviewedWriting    WritingSubmission[] @relation("WritingReviewer")
 
   @@index([isPremium])
   @@index([createdAt])
+  @@index([plan])
+  @@index([isStudent])
 }
 
 // Session tokens are random 32-byte values; only their SHA-256 hash is stored,
@@ -322,6 +349,31 @@ model Testimonial {
   updatedAt    DateTime         @updatedAt
 
   @@index([isVisible, displayOrder])
+}
+
+/// Where a Telegram sign-up has got to. One row per chat, deleted once the
+/// account exists, so an abandoned registration leaves nothing behind.
+model TelegramRegistration {
+  telegramId String   @id
+  /// NAME -> STUDENT -> PHONE -> done.
+  step       String   @default("NAME")
+  fullName   String?
+  isStudent  Boolean?
+  username   String?
+  updatedAt  DateTime @updatedAt
+}
+
+/// A single-use link the bot sends so a chat can become a browser session.
+/// Only the hash is stored, exactly as with session cookies.
+model LoginToken {
+  tokenHash String    @id
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  @@index([userId])
 }
 
 model SiteSetting {

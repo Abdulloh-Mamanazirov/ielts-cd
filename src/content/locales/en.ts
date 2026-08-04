@@ -83,6 +83,7 @@ export const en = {
   nav: [
     { href: "/results", label: "Student results" },
     { href: "/#practice", label: "Practice tests" },
+    { href: "/pricing", label: "Plans" },
     { href: "/#about", label: "About me" },
     { href: "/#testimonials", label: "Reviews" },
   ],

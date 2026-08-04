@@ -9,6 +9,7 @@ import { prisma } from "@/lib/db";
 import { refreshFullMock } from "@/lib/full-mock/service";
 import { testAnswerKeySchema } from "@/lib/tests/schema";
 import { validateTestImport } from "@/lib/tests/validate";
+import { savePlans } from "@/lib/plans-store";
 
 /**
  * Admin mutations.
@@ -730,4 +731,120 @@ export async function moveTestimonial(id: string, delta: -1 | 1): Promise<Action
 
   revalidateShowcase();
   return { ok: true, message: "Order updated." };
+}
+
+// ---------------------------------------------------------------------------
+// Subscription plans
+// ---------------------------------------------------------------------------
+
+const accessSchema = z.union([
+  z.object({ kind: z.literal("all") }),
+  z.object({ kind: z.literal("none") }),
+  z.object({ kind: z.literal("some"), numbers: z.array(z.number().int().positive()) }),
+]);
+
+const planSchema = z.object({
+  label: z.string().min(1).max(40),
+  tagline: z.string().max(200),
+  price: z.string().max(60),
+  period: z.string().max(60),
+  benefits: z.array(z.string().min(1).max(200)).min(1),
+  access: z.object({ REAL_EXAM: accessSchema, CAMBRIDGE: accessSchema }),
+  // null is unlimited.
+  fullMocks: z.number().int().nonnegative().nullable(),
+  featured: z.boolean(),
+  inviteOnly: z.boolean(),
+});
+
+const plansSchema = z.object({
+  FREE: planSchema,
+  STUDENT: planSchema,
+  PREMIUM: planSchema,
+});
+
+/** Saves the whole plan configuration: prices, wording, access and allowances. */
+export async function updatePlans(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const parsed = plansSchema.safeParse(input);
+  if (!parsed.success) {
+    return { ok: false, error: parsed.error.issues[0]?.message ?? "Invalid request" };
+  }
+
+  await savePlans(parsed.data);
+
+  // Access rules decide what the shelf shows and what the pricing page says.
+  revalidatePath("/pricing");
+  revalidatePath("/tests");
+  revalidatePath("/admin/plans");
+  return { ok: true, message: "Plans saved." };
+}
+
+/** Sets a student's subscription, its end date, and their mock allowance. */
+export async function updateStudentPlan(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const schema = z.object({
+    userId: z.string().min(1),
+    plan: z.enum(["FREE", "STUDENT", "PREMIUM"]),
+    // Blank means no end date.
+    expiresAt: z.string().optional(),
+    unlimitedMocks: z.boolean(),
+  });
+
+  const parsed = schema.safeParse(input);
+  if (!parsed.success) {
+    return { ok: false, error: parsed.error.issues[0]?.message ?? "Invalid request" };
+  }
+
+  const { userId, plan, expiresAt, unlimitedMocks } = parsed.data;
+  const ends = expiresAt ? new Date(expiresAt) : null;
+  if (ends && Number.isNaN(ends.getTime())) return { ok: false, error: "Invalid end date" };
+
+  await prisma.user.update({
+    where: { id: userId },
+    data: {
+      plan,
+      planExpiresAt: ends,
+      unlimitedMocks,
+      // isPremium is the older flag the rest of the app still reads; keep it in
+      // step so a paid plan and a manual grant never disagree.
+      isPremium: plan !== "FREE",
+      premiumGrantedAt: plan !== "FREE" ? new Date() : null,
+      premiumGrantedById: plan !== "FREE" ? admin.id : null,
+    },
+  });
+
+  revalidatePath("/admin/students");
+  return { ok: true, message: "Student updated." };
+}
+
+/** Name, phone and "is a current student" — the fields the bot collects. */
+export async function updateStudentProfile(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const schema = z.object({
+    userId: z.string().min(1),
+    fullName: z.string().min(1).max(120),
+    phone: z.string().max(40).optional(),
+    isStudent: z.boolean(),
+  });
+
+  const parsed = schema.safeParse(input);
+  if (!parsed.success) {
+    return { ok: false, error: parsed.error.issues[0]?.message ?? "Invalid request" };
+  }
+
+  const { userId, fullName, phone, isStudent } = parsed.data;
+
+  await prisma.user.update({
+    where: { id: userId },
+    data: { fullName, phone: phone?.trim() || null, isStudent },
+  });
+
+  revalidatePath("/admin/students");
+  return { ok: true, message: "Profile updated." };
 }

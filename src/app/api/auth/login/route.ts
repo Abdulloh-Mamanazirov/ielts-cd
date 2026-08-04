@@ -71,20 +71,23 @@ export async function POST(request: Request) {
     },
   });
 
-  if (!user) {
+  // A Telegram account has no password, so there is nothing to verify against —
+  // it is refused here exactly like a wrong address, without saying which.
+  if (!user || !user.passwordHash) {
     await decoy(password);
     await recordLoginAttempt(email, false, ip);
     return fail("credentials", 401);
   }
 
-  const valid = await verifyPassword(password, user.passwordHash);
+  const passwordHash = user.passwordHash;
+  const valid = await verifyPassword(password, passwordHash);
   if (!valid) {
     await recordLoginAttempt(email, false, ip);
     return fail("credentials", 401);
   }
 
   // Upgrade the stored hash opportunistically, while we have the plaintext.
-  if (needsRehash(user.passwordHash)) {
+  if (needsRehash(passwordHash)) {
     await prisma.user
       .update({ where: { id: user.id }, data: { passwordHash: await hashPassword(password) } })
       .catch(() => {});
