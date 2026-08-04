@@ -617,3 +617,55 @@ service units and an nginx upstream swap, not a bigger script.
   file, so the seed does not touch it. A student can sit it today. Archive it in
   `/admin/tests` or write the questions before launch.
 - **Uzbek and Russian** are unwired on purpose — see `docs/ROADMAP.md`.
+
+## 16. The Telegram sign-in bot
+
+Students do not choose a password: they talk to the bot, which checks they have
+joined the channel, asks their name and whether they already study with the
+instructor, optionally takes their phone number, and sends back a one-time link
+that becomes a browser session. Email sign-in stays for the instructor.
+
+Three settings, all on the server, none of them ever in git or in chat:
+
+```bash
+ sudo -u ielts bash -c 'cat >> /srv/ielts/.env <<EOT
+TELEGRAM_BOT_TOKEN="the token from @BotFather"
+TELEGRAM_WEBHOOK_SECRET="$(openssl rand -hex 24)"
+TELEGRAM_CHANNEL="@DN_IELTS"
+EOT'
+```
+
+Start that line with a space, so the token stays out of your shell history. If
+the token has ever been pasted anywhere it should be considered public: revoke
+it in **@BotFather → /revoke** and use the new one.
+
+`TELEGRAM_WEBHOOK_SECRET` is not optional padding. Telegram echoes it in a
+header on every call, and the endpoint refuses anything else — without it
+anyone who guessed the URL could invent users.
+
+Then point the bot at the server and restart:
+
+```bash
+sudo -u ielts bash -c 'cd /srv/ielts && npm run telegram:webhook -- --set'
+sudo systemctl restart ielts
+```
+
+Check it took:
+
+```bash
+sudo -u ielts bash -c 'cd /srv/ielts && npm run telegram:webhook -- --info'
+```
+
+`url` should be `https://dn-ielts.uz/api/telegram/webhook` and
+`pending_update_count` 0.
+
+**Make the bot an administrator of the channel.** The "have you joined?" check
+calls `getChatMember`, which only works for an admin. Until it is promoted the
+check deliberately *fails open* — everyone is allowed through rather than
+nobody — so a missed step here quietly stops enforcing the requirement instead
+of breaking sign-up. Promote it, then register a throwaway account from an
+account that has not joined and confirm it is asked to.
+
+`TELEGRAM_BOT_USERNAME` may also be set if the bot is ever renamed; it defaults
+to `dn_ielts_reg_bot` and only decides where the site's "Continue with
+Telegram" button points.

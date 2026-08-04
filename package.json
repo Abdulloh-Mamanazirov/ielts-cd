@@ -15,7 +15,8 @@
     "db:studio": "prisma studio",
     "db:seed": "tsx scripts/seed.ts",
     "convert": "tsx scripts/convert/index.ts",
-    "audio:upload": "tsx scripts/upload-audio.ts"
+    "audio:upload": "tsx scripts/upload-audio.ts",
+    "telegram:webhook": "tsx scripts/telegram-webhook.ts"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.9.0",
