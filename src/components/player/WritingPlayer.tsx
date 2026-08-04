@@ -11,7 +11,6 @@ import { SplitView } from "./SplitView";
 import { Cell, ConfirmDialog } from "./SubmitDialog";
 import { useAutosave } from "./useAutosave";
 import { useCountdown } from "./useCountdown";
-import { useLockWindowScroll } from "./useLockWindowScroll";
 import { useTextSize } from "./useTextSize";
 import type { AttemptSnapshot } from "./TestPlayer";
 
@@ -37,8 +36,6 @@ export function WritingPlayer({
     () => [...(test.content.tasks ?? [])].sort((a, b) => a.number - b.number),
     [test.content.tasks],
   );
-
-  useLockWindowScroll();
 
   const [texts, setTexts] = useState<Record<string, string>>(attempt.answers ?? {});
   const [activeTask, setActiveTask] = useState(tasks[0]?.number ?? 1);
@@ -129,7 +126,7 @@ export function WritingPlayer({
   }
 
   return (
-    <div className="flex h-dvh min-h-dvh flex-col overflow-hidden bg-surface-alt">
+    <div className="fixed inset-x-0 top-0 flex h-dvh flex-col overflow-hidden bg-surface-alt">
       <PlayerHeader
         title={test.title}
         subtitle={`${attempt.mode === "MOCK" ? "Mock" : "Practice"} · ${tasks.length} task${tasks.length === 1 ? "" : "s"}`}

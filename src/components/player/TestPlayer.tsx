@@ -19,7 +19,6 @@ import { SplitView } from "./SplitView";
 import { SubmitDialog } from "./SubmitDialog";
 import { useAutosave } from "./useAutosave";
 import { useCountdown } from "./useCountdown";
-import { useLockWindowScroll } from "./useLockWindowScroll";
 import { useTextSize } from "./useTextSize";
 
 export type AttemptSnapshot = {
@@ -57,8 +56,6 @@ export function TestPlayer({
   const { queue, flush, status } = useAutosave(attempt.id);
   const { size, step, canDecrease, canIncrease } = useTextSize();
   const reviewMode = result !== null;
-
-  useLockWindowScroll();
 
   const saveAnnotations = useCallback(
     (annotations: Annotations) => queue({ annotations }),
@@ -237,7 +234,7 @@ export function TestPlayer({
   return (
     // `overflow-hidden`: the player owns the viewport and scrolls inside its own
     // panes. Nothing should ever be able to scroll the document behind it.
-    <div className="flex h-dvh min-h-dvh flex-col overflow-hidden bg-surface-alt">
+    <div className="fixed inset-x-0 top-0 flex h-dvh flex-col overflow-hidden bg-surface-alt">
       {reviewMode && result ? (
         <ReviewHeader
           title={test.title}

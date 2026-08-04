@@ -8,7 +8,6 @@ import { formatClock, PlayerHeader } from "./PlayerChrome";
 import { RichHtml } from "./SlotHtml";
 import { ConfirmDialog } from "./SubmitDialog";
 import { useCountdown } from "./useCountdown";
-import { useLockWindowScroll } from "./useLockWindowScroll";
 import { useRecorder } from "./useRecorder";
 import { useTextSize } from "./useTextSize";
 import type { AttemptSnapshot } from "./TestPlayer";
@@ -40,8 +39,6 @@ export function SpeakingPlayer({
 }) {
   const prompts = useMemo(() => test.content.prompts ?? [], [test.content.prompts]);
   const locked = attempt.mode === "MOCK";
-
-  useLockWindowScroll();
 
   const [index, setIndex] = useState(0);
   const [phase, setPhase] = useState<Phase>("briefing");
@@ -191,7 +188,7 @@ export function SpeakingPlayer({
   }
 
   return (
-    <div className="flex h-dvh min-h-dvh flex-col overflow-hidden bg-surface-alt">
+    <div className="fixed inset-x-0 top-0 flex h-dvh flex-col overflow-hidden bg-surface-alt">
       <PlayerHeader
         title={test.title}
         subtitle={`${locked ? "Mock" : "Practice"} · ${prompts.length} questions`}
