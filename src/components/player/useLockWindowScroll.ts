@@ -15,11 +15,17 @@ import { useEffect } from "react";
  */
 export function useLockWindowScroll() {
   useEffect(() => {
-    const root = document.documentElement;
-    const previous = root.style.overflow;
-    root.style.overflow = "hidden";
+    // Lock both the root and the body: on the player pages the body is the
+    // element that actually scrolls, so locking only the root would leave the
+    // window free to move — which is exactly the bug this guards against.
+    const html = document.documentElement;
+    const { body } = document;
+    const previous = { html: html.style.overflow, body: body.style.overflow };
+    html.style.overflow = "hidden";
+    body.style.overflow = "hidden";
     return () => {
-      root.style.overflow = previous;
+      html.style.overflow = previous.html;
+      body.style.overflow = previous.body;
     };
   }, []);
 }
