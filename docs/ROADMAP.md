@@ -93,6 +93,35 @@ without re-deriving anything.
   build against a throwaway Postgres on every push, then deploys `master` over
   SSH by pulling and running `scripts/deploy.sh`.
 
+- **Shelf categorisation** — listening and reading are browsed in three steps:
+  Cambridge materials or Real Exam materials, then the book or Volume, then its
+  tests. `Test` carries `series`, `seriesNumber`, `testNumber` and a `mockOnly`
+  flag; the migration backfilled every existing test by parsing its slug.
+  Writing and speaking stay a flat list.
+
+- **Cambridge books** — `scripts/convert/cambridge-{reading,listening}.ts` read
+  the Inspera-style CDI export, which shares no markup with the @bekhruzposts
+  files. Worth having its own adapters: those exports ship an answer key,
+  per-question explanations, question-type labels and an `evidence` map naming
+  the paragraph and sentence behind each answer, so the review screen's
+  "where did this come from" marks come free. Cambridge 21 (4 reading, 4
+  listening) is imported and passing 40/40.
+
+- **Subscriptions** — Free, Student and Premium in `src/lib/plans.ts`, with
+  prices, wording, benefits, per-series access and the full-mock allowance
+  stored in `SiteSetting` and edited at `/admin/plans`. Stored settings merge
+  over the defaults field by field, so a missing field can never render blank.
+  A paid plan lapses to Free on its own once `planExpiresAt` passes — nothing
+  runs on a schedule. `/pricing` is the public page. A full mock bypasses the
+  gate deliberately: its composition is fixed when it starts.
+
+- **Telegram sign-in** — students register through @dn_ielts_reg_bot, which
+  checks channel membership, asks their name and whether they already study
+  with the instructor, optionally takes a phone number, and sends a single-use
+  link that becomes a session. Token and webhook secret live in `.env` only.
+  The channel check fails open until the bot is promoted to channel admin —
+  see `docs/DEPLOY.md` §16. Email sign-in remains for the instructor.
+
 ## Next, in priority order
 
 ### 1. Uzbek and Russian translations
