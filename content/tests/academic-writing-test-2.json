@@ -1,6 +1,6 @@
 {
   "slug": "academic-writing-test-2",
-  "isPremium": true,
+  "isPremium": false,
   "content": {
     "schemaVersion": 1,
     "skill": "writing",

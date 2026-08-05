@@ -302,7 +302,9 @@ export default async function TestsPage({
         {level === "tests" && (
         <ul className="mx-auto max-w-4xl space-y-px bg-rule">
           {visible.map((test) => {
-            const locked = (test.isPremium && !hasPremium) || !opensTest(test);
+            const alwaysOpen = test.skill === "WRITING" || test.skill === "SPEAKING";
+            const locked =
+              !alwaysOpen && ((test.isPremium && !hasPremium) || !opensTest(test));
             const state = stateFor(test.id);
 
             return (

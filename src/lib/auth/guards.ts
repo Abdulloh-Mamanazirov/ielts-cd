@@ -52,9 +52,16 @@ export async function requireAdminApi(): Promise<
 /** Premium tests are gated here and nowhere else, so the rule has one home. */
 export function canAccessTest(
   user: SessionUser | null,
-  test: { isPremium: boolean },
+  test: { isPremium: boolean; skill?: string },
 ): boolean {
-  if (!test.isPremium) return Boolean(user);
   if (!user) return false;
+
+  // Writing and speaking are open on every plan and are never metered — see
+  // `allowsTest`. Honouring an old per-test premium flag on them would
+  // contradict that, and the flag is baked into content files rather than set
+  // by hand, so it cannot simply be turned off in the admin screen.
+  if (test.skill === "WRITING" || test.skill === "SPEAKING") return true;
+
+  if (!test.isPremium) return true;
   return user.isPremium || user.role === "ADMIN";
 }
