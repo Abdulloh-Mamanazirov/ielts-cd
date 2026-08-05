@@ -70,6 +70,17 @@ export async function sendMessage(chatId: string, text: string, keyboard?: Keybo
 }
 
 /**
+ * Stops the spinner on an inline button. Telegram keeps a tapped button looking
+ * busy until this is called, which reads as the bot having hung.
+ */
+export async function answerCallback(callbackId: string, text?: string) {
+  return call("answerCallbackQuery", {
+    callback_query_id: callbackId,
+    ...(text ? { text, show_alert: false } : {}),
+  });
+}
+
+/**
  * Whether the user has joined the channel.
  *
  * Deliberately fails open: if the bot has not been made an administrator of the

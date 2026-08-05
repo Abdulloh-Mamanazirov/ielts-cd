@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/db";
 import {
+  answerCallback,
   botConfigured,
   hasJoinedChannel,
   issueLoginLink,
@@ -66,13 +67,21 @@ export async function POST(request: Request) {
   const data = update.callback_query?.data;
   const contact = update.message?.contact;
 
+  // The sign-in button on the site is a deep link, so Telegram delivers
+  // "/start login" rather than a bare "/start". Match the command, not the
+  // whole message, or the very first thing a student sends falls through to
+  // the "press /start" branch.
+  const command = (name: string) => new RegExp(`^/${name}(?:@\\w+)?(?:\\s|$)`).test(text ?? "");
+  const isStart = command("start");
+  const isLogin = command("login");
+
   // Already registered: hand them a fresh link rather than starting again.
   const existing = await prisma.user.findUnique({
     where: { telegramId },
     select: { id: true, fullName: true },
   });
 
-  if (existing && (text === "/start" || text === "/login")) {
+  if (existing && (isStart || isLogin)) {
     const link = await issueLoginLink(existing.id);
     await sendMessage(
       chatId,
@@ -81,25 +90,8 @@ export async function POST(request: Request) {
     return ok();
   }
 
-  if (text === "/start") {
-    if (!(await hasJoinedChannel(telegramId))) {
-      await sendMessage(
-        chatId,
-        `Please join our channel first, then press /start again.`,
-        {
-          inline_keyboard: [
-            [
-              {
-                text: "Join the channel",
-                url: `https://t.me/${REQUIRED_CHANNEL.replace(/^@/, "")}`,
-              },
-            ],
-          ],
-        },
-      );
-      return ok();
-    }
-
+  /** Asks for the name and opens the registration. */
+  const beginRegistration = async () => {
     await prisma.telegramRegistration.upsert({
       where: { telegramId },
       create: { telegramId, step: "NAME", username },
@@ -116,6 +108,44 @@ export async function POST(request: Request) {
         ? { keyboard: [[{ text: suggested }]], resize_keyboard: true, one_time_keyboard: true }
         : undefined,
     );
+  };
+
+  /**
+   * The join prompt. Two buttons on purpose: one to open the channel, and one
+   * to come back and say so — without the second there is nothing to press
+   * after joining, and the conversation just stops.
+   */
+  const askToJoin = async (again = false) =>
+    sendMessage(
+      chatId,
+      again
+        ? `You are not in the channel yet. Join it, then tap <b>I've joined</b> again.`
+        : `One step first: please join our channel.\n\nOnce you have, tap <b>I've joined</b> below.`,
+      {
+        inline_keyboard: [
+          [{ text: "📣 Open the channel", url: `https://t.me/${REQUIRED_CHANNEL.replace(/^@/, "")}` }],
+          [{ text: "✅ I've joined", callback_data: "joined" }],
+        ],
+      },
+    );
+
+  if (isStart) {
+    if (!(await hasJoinedChannel(telegramId))) {
+      await askToJoin();
+      return ok();
+    }
+    await beginRegistration();
+    return ok();
+  }
+
+  // "I've joined" — re-check rather than take their word for it.
+  if (data === "joined") {
+    if (update.callback_query) await answerCallback(update.callback_query.id);
+    if (!(await hasJoinedChannel(telegramId))) {
+      await askToJoin(true);
+      return ok();
+    }
+    await beginRegistration();
     return ok();
   }
 
@@ -146,6 +176,7 @@ export async function POST(request: Request) {
 
   // Step 2 — whether they are one of his students.
   if (registration.step === "STUDENT" && data?.startsWith("student:")) {
+    if (update.callback_query) await answerCallback(update.callback_query.id);
     await prisma.telegramRegistration.update({
       where: { telegramId },
       data: { isStudent: data === "student:yes", step: "PHONE" },

@@ -5,7 +5,7 @@ import { PageHeader } from "@/components/app/PageHeader";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { describeTest, isSkillSlug, skillBySlug } from "@/lib/skills";
-import { allowsSeries, effectivePlan } from "@/lib/plans";
+import { allowsSeries, allowsTest, effectivePlan } from "@/lib/plans";
 import { loadPlans } from "@/lib/plans-store";
 import { cn, naturalCompare } from "@/lib/utils";
 
@@ -124,6 +124,13 @@ export default async function TestsPage({
   /** Whether the subscription opens a given book or volume of a series. */
   const opens = (series: "REAL_EXAM" | "CAMBRIDGE", seriesNumber: number | null) =>
     user.role === "ADMIN" || allowsSeries(plans[plan].access[series], seriesNumber);
+
+  /** Whether it opens a particular test — writing and speaking always do. */
+  const opensTest = (test: {
+    skill: "LISTENING" | "READING" | "WRITING" | "SPEAKING";
+    series: "REAL_EXAM" | "CAMBRIDGE";
+    seriesNumber: number | null;
+  }) => user.role === "ADMIN" || allowsTest(plans, plan, test);
 
   const submitted = new Set(
     attempts.filter((attempt) => attempt.status === "SUBMITTED").map((a) => a.testId),
@@ -295,8 +302,7 @@ export default async function TestsPage({
         {level === "tests" && (
         <ul className="mx-auto max-w-4xl space-y-px bg-rule">
           {visible.map((test) => {
-            const locked =
-              (test.isPremium && !hasPremium) || !opens(test.series, test.seriesNumber);
+            const locked = (test.isPremium && !hasPremium) || !opensTest(test);
             const state = stateFor(test.id);
 
             return (

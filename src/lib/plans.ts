@@ -1,4 +1,4 @@
-import type { Plan, TestSeries } from "@/generated/prisma/enums";
+import type { Plan, Skill, TestSeries } from "@/generated/prisma/enums";
 
 /**
  * Subscription plans: what each one costs, what it promises, and — the part the
@@ -132,8 +132,13 @@ export function allowsSeries(access: SeriesAccess, seriesNumber: number | null):
 export function allowsTest(
   plans: PlansConfig,
   plan: Plan,
-  test: { series: TestSeries; seriesNumber: number | null; isPremium?: boolean },
+  test: { skill?: Skill; series: TestSeries; seriesNumber: number | null; isPremium?: boolean },
 ): boolean {
+  // Writing and speaking are open on every plan. They are not auto-graded, so
+  // there is no band to meter, and a student who cannot practise them at all
+  // is a student who arrives on exam day having written nothing.
+  if (test.skill === "WRITING" || test.skill === "SPEAKING") return true;
+
   return allowsSeries(plans[plan].access[test.series], test.seriesNumber);
 }
 
