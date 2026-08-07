@@ -1,0 +1,723 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 17, Test 2",
+    "source": "Cambridge IELTS 17",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–7</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Opportunities for voluntary work in Southoe village</div>\n<div><strong>Library</strong></div>\n<ul class=\"notes-list\">\n<li>Help with {{1}} books (times to be arranged)</li>\n<li>Help needed to keep {{2}} of books up to date</li>\n<li>Library is in the {{3}} Room in the village hall</li>\n</ul>\n<div><strong>Lunch club</strong></div>\n<ul class=\"notes-list\">\n<li>Help by providing {{4}}</li>\n<li>Help with hobbies such as {{5}}</li>\n</ul>\n<div><strong>Help for individuals needed next week</strong></div>\n<ul class=\"notes-list\">\n<li>Taking Mrs Carroll to {{6}}</li>\n<li>Work in the {{7}} at Mr Selsbury’s house</li>\n</ul>\n</div>"
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 8–10</h3><p>Complete the table below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div><table class=\"q-table\">\n<thead><tr><th colspan=\"4\">Village social events</th></tr>\n<tr><th>Date</th><th>Event</th><th>Location</th><th>Help needed</th></tr></thead>\n<tbody>\n<tr><td>19 Oct</td><td>{{8}}</td><td>Village hall</td><td>providing refreshments</td></tr>\n<tr><td>18 Nov</td><td>dance</td><td>Village hall</td><td>checking {{9}}</td></tr>\n<tr><td>31 Dec</td><td>New Year’s Eve party</td><td>Mountfort Hotel</td><td>designing the {{10}}</td></tr>\n</tbody></table></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 11–14</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Oniton Hall</strong></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Many past owners made changes to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the gardens."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the house."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the farm."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "Sir Edward Downes built Oniton Hall because he wanted",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a place for discussing politics."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a place to display his wealth."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a place for artists and writers."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "Visitors can learn about the work of servants in the past from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "audio guides."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "photographs."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "people in costume."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "What is new for children at Oniton Hall?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "clothes for dressing up"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "mini tractors"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the adventure playground"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 15–20</h3><p>Which activity is offered at each of the following locations on the farm?</p><p>Choose <strong>SIX</strong> answers from the box and write the correct letter, <strong>A–H</strong>, next to Questions 15–20.</p><p><strong>Locations on the farm</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "shopping"
+              },
+              {
+                "letter": "B",
+                "textHtml": "watching cows being milked"
+              },
+              {
+                "letter": "C",
+                "textHtml": "seeing old farming equipment"
+              },
+              {
+                "letter": "D",
+                "textHtml": "eating and drinking"
+              },
+              {
+                "letter": "E",
+                "textHtml": "starting a trip"
+              },
+              {
+                "letter": "F",
+                "textHtml": "seeing rare breeds of animals"
+              },
+              {
+                "letter": "G",
+                "textHtml": "helping to look after animals"
+              },
+              {
+                "letter": "H",
+                "textHtml": "using farming tools"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "dairy"
+              },
+              {
+                "number": 16,
+                "textHtml": "large barn"
+              },
+              {
+                "number": 17,
+                "textHtml": "small barn"
+              },
+              {
+                "number": 18,
+                "textHtml": "stables"
+              },
+              {
+                "number": 19,
+                "textHtml": "shed"
+              },
+              {
+                "number": 20,
+                "textHtml": "parkland"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 21 and 22</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> things do the students agree they need to include in their reviews of <em>Romeo and Juliet</em>?</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> things do the students agree they need to include in their reviews of <em>Romeo and Juliet</em>?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "analysis of the text"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a summary of the plot"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a description of the theatre"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "a personal reaction"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "a reference to particular scenes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 23–27</h3><p>Which opinion do the speakers give about each of the following aspects of The Emporium’s production of <em>Romeo and Juliet</em>?</p><p>Choose <strong>FIVE</strong> answers from the box and write the correct letter, <strong>A–G</strong>, next to Questions 23–27.</p><p><strong>Aspects of the production</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "They both expected this to be more traditional."
+              },
+              {
+                "letter": "B",
+                "textHtml": "They both thought this was original."
+              },
+              {
+                "letter": "C",
+                "textHtml": "They agree this created the right atmosphere."
+              },
+              {
+                "letter": "D",
+                "textHtml": "They agree this was a major strength."
+              },
+              {
+                "letter": "E",
+                "textHtml": "They were both disappointed by this."
+              },
+              {
+                "letter": "F",
+                "textHtml": "They disagree about why this was an issue."
+              },
+              {
+                "letter": "G",
+                "textHtml": "They disagree about how this could be improved."
+              }
+            ],
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "the set"
+              },
+              {
+                "number": 24,
+                "textHtml": "the lighting"
+              },
+              {
+                "number": 25,
+                "textHtml": "the costume design"
+              },
+              {
+                "number": 26,
+                "textHtml": "the music"
+              },
+              {
+                "number": 27,
+                "textHtml": "the actors’ delivery"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 28–30</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 28,
+                "textHtml": "The students think the story of <em>Romeo and Juliet</em> is still relevant for young people today because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it illustrates how easily conflict can start."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it deals with problems that families experience."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it teaches them about relationships."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "The students found watching <em>Romeo and Juliet</em> in another language",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "frustrating."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "demanding."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "moving."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "Why do the students think Shakespeare’s plays have such international appeal?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The stories are exciting."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There are recognisable characters."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They can be interpreted in many ways."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">The impact of digital technology on the Icelandic language</div>\n<div><strong>The Icelandic language</strong></div>\n<ul class=\"notes-list\">\n<li>has approximately {{31}} speakers</li>\n<li>has a {{32}} that is still growing</li>\n<li>has not changed a lot over the last thousand years</li>\n<li>has its own words for computer-based concepts, such as web browser and {{33}}</li>\n</ul>\n<div><strong>Young speakers</strong></div>\n<ul class=\"notes-list\">\n<li>are big users of digital technology, such as {{34}}</li>\n<li>are becoming {{35}} very quickly</li>\n<li>are having discussions using only English while they are in the {{36}} at school</li>\n<li>are better able to identify the content of a {{37}} in English than Icelandic</li>\n</ul>\n<div><strong>Technology and internet companies</strong></div>\n<ul class=\"notes-list\">\n<li>write very little in Icelandic because of the small number of speakers and because of how complicated its {{38}} is</li>\n</ul>\n<div><strong>The Icelandic government</strong></div>\n<ul class=\"notes-list\">\n<li>has set up a fund to support the production of more digital content in the language</li>\n<li>believes that Icelandic has a secure future</li>\n<li>is worried that young Icelanders may lose their {{39}} as Icelanders</li>\n<li>is worried about the consequences of children not being {{40}} in either Icelandic or English</li>\n</ul>\n</div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "collecting"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "one thing you could do is get involved in collecting them"
+        }
+      },
+      "2": {
+        "accepted": [
+          "records"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the records that we keep of the books we’re given"
+        }
+      },
+      "3": {
+        "accepted": [
+          "west"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "we simply have the use of a room in the village hall, the West Room"
+        }
+      },
+      "4": {
+        "accepted": [
+          "transport"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "I could help with transport, if that’s of any use."
+        }
+      },
+      "5": {
+        "accepted": [
+          "art"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "particularly if there are any art groups"
+        }
+      },
+      "6": {
+        "accepted": [
+          "hospital"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "She needs a lift to the hospital next week"
+        }
+      },
+      "7": {
+        "accepted": [
+          "garden"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "if you could do some weeding in his garden, that would be wonderful"
+        }
+      },
+      "8": {
+        "accepted": [
+          "quiz"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "on the 19th of October, we’re holding a quiz"
+        }
+      },
+      "9": {
+        "accepted": [
+          "tickets"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "we sell tickets in advance, and having an extra person to check them at the door"
+        }
+      },
+      "10": {
+        "accepted": [
+          "poster"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "The one thing we haven’t got yet is a poster."
+        }
+      },
+      "11": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "Almost all of them have left their mark, generally by adding new rooms, like the ballroom and conservatory, or by demolishing others"
+        }
+      },
+      "12": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "hosted meetings of creative and literary people, like painters and poets"
+        }
+      },
+      "13": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "you’ll see volunteers dressed up as nineteenth-century servants"
+        }
+      },
+      "14": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "Our latest addition is child-sized tractors, that you can drive around the grounds"
+        }
+      },
+      "15": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "It’s now the place to go for lunch, or afternoon tea, or just a cup of coffee and a slice of homemade cake"
+        }
+      },
+      "16": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "here is our collection of agricultural tools"
+        }
+      },
+      "17": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "where you can groom the donkeys and horses, to keep their coats clean"
+        }
+      },
+      "18": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "the place to go to buy gifts, books, our own jams and pickles, and clothes and blankets"
+        }
+      },
+      "19": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "you can climb into a horse-drawn carriage for a lovely, relaxing tour"
+        }
+      },
+      "20": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "You’ll see types of cattle and sheep that are hardly ever found on farms these days"
+        }
+      },
+      "23": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "I think it was visually really stunning. I’d say that was probably the most memorable thing about this production"
+        }
+      },
+      "24": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "It helped to change the mood of the quieter scenes. — That’s a good point."
+        }
+      },
+      "25": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "I was a bit surprised by the contemporary dress … I had assumed it would be more conventional"
+        }
+      },
+      "26": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "I thought they were wasted because the music didn’t have much impact in Acts 2 and 3 — Yes, that was a shame"
+        }
+      },
+      "27": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "They were speaking too fast … I thought it was because they weren’t speaking loudly enough"
+        }
+      },
+      "28": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "There are always disagreements and tension between teenagers and their parents"
+        }
+      },
+      "29": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "The ending was pretty powerful. — That somehow intensified the emotion for me."
+        }
+      },
+      "30": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "they can also be understood on different levels … allows directors to experiment and find new angles"
+        }
+      },
+      "31": {
+        "accepted": [
+          "321,000",
+          "321000"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "is spoken by around 321,000 people"
+        }
+      },
+      "32": {
+        "accepted": [
+          "vocabulary"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the vocabulary of Icelandic is continually increasing"
+        }
+      },
+      "33": {
+        "accepted": [
+          "podcast"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "there’s an Icelandic word for podcast – which is too hard to pronounce"
+        }
+      },
+      "34": {
+        "accepted": [
+          "smartphones"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Think about smartphones … today young people use them all the time"
+        }
+      },
+      "35": {
+        "accepted": [
+          "bilingual"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "it promotes their bilingual skills"
+        }
+      },
+      "36": {
+        "accepted": [
+          "playground"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "playground conversations in Icelandic secondary schools can be conducted entirely in English"
+        }
+      },
+      "37": {
+        "accepted": [
+          "picture"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "find it easier to say what is in a picture using English, rather than Icelandic"
+        }
+      },
+      "38": {
+        "accepted": [
+          "grammar"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "The other drawback of Icelandic is the grammar, which is significantly more complex than in most languages"
+        }
+      },
+      "39": {
+        "accepted": [
+          "identity"
+        ],
+        "type": "Note completion"
+      },
+      "40": {
+        "accepted": [
+          "fluent"
+        ],
+        "type": "Note completion"
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "d",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "the emotional impact the performance had on us … how well the director handled important bits of the play"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-17-test-2",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 17,
+  "testNumber": 2
+}
