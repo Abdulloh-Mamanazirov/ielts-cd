@@ -1,0 +1,761 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 17, Test 1",
+    "source": "Cambridge IELTS 17",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Buckworth Conservation Group</div>\n<div><strong>Regular activities</strong></div>\n<div>Beach</div>\n<ul class=\"notes-list\">\n<li>making sure the beach does not have {{1}} on it</li>\n<li>no {{2}}</li>\n</ul>\n<div>Nature reserve</div>\n<ul class=\"notes-list\">\n<li>maintaining paths</li>\n<li>nesting boxes for birds installed</li>\n<li>next task is taking action to attract {{3}} to the place</li>\n<li>identifying types of {{4}}</li>\n<li>building a new {{5}}</li>\n</ul>\n<div><strong>Forthcoming events</strong></div>\n<div>Saturday</div>\n<ul class=\"notes-list\">\n<li>meet at Dunsmore Beach car park</li>\n<li>walk across the sands and reach the {{6}}</li>\n<li>take a picnic</li>\n<li>wear appropriate {{7}}</li>\n</ul>\n<div>Woodwork session</div>\n<ul class=\"notes-list\">\n<li>suitable for {{8}} to participate in</li>\n<li>making {{9}} out of wood</li>\n<li>17th, from 10 a.m. to 3 p.m.</li>\n<li>cost of session (no camping): £{{10}}</li>\n</ul>\n</div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 11–14</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Boat trip round Tasmania</strong></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "What is the maximum number of people who can stand on each side of the boat?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "9"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "15"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "18"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "What colour are the tour boats?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "dark red"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "jet black"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "light green"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "Which lunchbox is suitable for someone who doesn’t eat meat or fish?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Lunchbox 1"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Lunchbox 2"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Lunchbox 3"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "What should people do with their litter?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "take it home"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "hand it to a member of staff"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "put it in the bins provided on the boat"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 15 and 16</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> features of the lighthouse does Lou mention?</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Which <strong>TWO</strong> features of the lighthouse does Lou mention?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "why it was built"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "who built it"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how long it took to build"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "who staffed it"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "what it was built with"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 17 and 18</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> types of creature might come close to the boat?</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which <strong>TWO</strong> types of creature might come close to the boat?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "sea eagles"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "fur seals"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "dolphins"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "whales"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "penguins"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-4",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 19 and 20</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> points does Lou make about the caves?</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> points does Lou make about the caves?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Only large tourist boats can visit them."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The entrances to them are often blocked."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It is too dangerous for individuals to go near them."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Someone will explain what is inside them."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "They cannot be reached on foot."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 21–26</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Work experience for veterinary science students</strong></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "What problem did both Diana and Tim have when arranging their work experience?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "making initial contact with suitable farms"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "organising transport to and from the farm"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "finding a placement for the required length of time"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "Tim was pleased to be able to help",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a lamb that had a broken leg."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a sheep that was having difficulty giving birth."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a newly born lamb that was having trouble feeding."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "Diana says the sheep on her farm",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "were of various different varieties."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "were mainly reared for their meat."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "had better quality wool than sheep on the hills."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "What did the students learn about adding supplements to chicken feed?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "These should only be given if specially needed."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It is worth paying extra for the most effective ones."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The amount given at one time should be limited."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "What happened when Diana was working with dairy cows?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "She identified some cows incorrectly."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "She accidentally threw some milk away."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She made a mistake when storing milk."
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "What did both farmers mention about vets and farming?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Vets are failing to cope with some aspects of animal health."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There needs to be a fundamental change in the training of vets."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Some jobs could be done by the farmer rather than by a vet."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 27–30</h3><p>What opinion do the students give about each of the following modules on their veterinary science course?</p><p>Choose <strong>FOUR</strong> answers from the box and write the correct letter, <strong>A–F</strong>, next to questions 27–30.</p><p><strong>Modules on Veterinary Science course</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Tim found this easier than expected."
+              },
+              {
+                "letter": "B",
+                "textHtml": "Tim thought this was not very clearly organised."
+              },
+              {
+                "letter": "C",
+                "textHtml": "Diana may do some further study on this."
+              },
+              {
+                "letter": "D",
+                "textHtml": "They both found the reading required for this was difficult."
+              },
+              {
+                "letter": "E",
+                "textHtml": "Tim was shocked at something he learned on this module."
+              },
+              {
+                "letter": "F",
+                "textHtml": "They were both surprised how little is known about some aspects of this."
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Medical terminology"
+              },
+              {
+                "number": 28,
+                "textHtml": "Diet and nutrition"
+              },
+              {
+                "number": 29,
+                "textHtml": "Animal disease"
+              },
+              {
+                "number": 30,
+                "textHtml": "Wildlife medication"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Labyrinths</div>\n<div><strong>Definition</strong></div>\n<ul class=\"notes-list\">\n<li>a winding spiral path leading to a central area</li>\n</ul>\n<div><strong>Labyrinths compared with mazes</strong></div>\n<ul class=\"notes-list\">\n<li>Mazes are a type of {{31}}\n<ul class=\"notes-list\">\n<li>{{32}} is needed to navigate through a maze</li>\n<li>the word ‘maze’ is derived from a word meaning a feeling of {{33}}</li>\n</ul>\n</li>\n<li>Labyrinths represent a journey through life\n<ul class=\"notes-list\">\n<li>they have frequently been used in {{34}} and prayer</li>\n</ul>\n</li>\n</ul>\n<div><strong>Early examples of the labyrinth spiral</strong></div>\n<ul class=\"notes-list\">\n<li>Ancient carvings on {{35}} have been found across many cultures</li>\n<li>The Pima, a Native American tribe, wove the symbol on baskets</li>\n<li>Ancient Greeks used the symbol on {{36}}</li>\n</ul>\n<div><strong>Walking labyrinths</strong></div>\n<ul class=\"notes-list\">\n<li>The largest surviving example of a turf labyrinth once had a big {{37}} at its centre</li>\n</ul>\n<div><strong>Labyrinths nowadays</strong></div>\n<ul class=\"notes-list\">\n<li>Believed to have a beneficial impact on mental and physical health, e.g., walking a maze can reduce a person’s {{38}} rate</li>\n<li>Used in medical and health and fitness settings and also prisons</li>\n<li>Popular with patients, visitors and staff in hospitals\n<ul class=\"notes-list\">\n<li>patients who can’t walk can use ‘finger labyrinths’ made from {{39}}</li>\n<li>research has shown that Alzheimer’s sufferers experience less {{40}}</li>\n</ul>\n</li>\n</ul>\n</div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "litter"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "trying to keep the beach free of litter"
+        }
+      },
+      "2": {
+        "accepted": [
+          "dogs"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Is it OK to take dogs?"
+        }
+      },
+      "3": {
+        "accepted": [
+          "insects"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "next we’re going to work on encouraging insects"
+        }
+      },
+      "4": {
+        "accepted": [
+          "butterflies"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "identify the different species of butterflies that visit the reserve"
+        }
+      },
+      "5": {
+        "accepted": [
+          "wall"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "replacing the wall on the southern side"
+        }
+      },
+      "6": {
+        "accepted": [
+          "island"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the sands are dry enough for us to walk to the island without getting wet"
+        }
+      },
+      "7": {
+        "accepted": [
+          "boots"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "make sure your boots are waterproof"
+        }
+      },
+      "8": {
+        "accepted": [
+          "beginners"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Is it OK for beginners to take part?"
+        }
+      },
+      "9": {
+        "accepted": [
+          "spoons"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "You’ll be starting with wooden spoons"
+        }
+      },
+      "10": {
+        "accepted": [
+          "35",
+          "thirty five"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "There’s a charge of £35, including lunch"
+        }
+      },
+      "11": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "if there are more than nine people on either side of the boat, we’ll move some of you over"
+        }
+      },
+      "12": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "our new ones now have these comfortable dark red seats and a light-green exterior"
+        }
+      },
+      "13": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "Lunchbox 2 contains a cheddar cheese roll"
+        }
+      },
+      "14": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "Jess, myself or Ray, our other guide, will collect it from you"
+        }
+      },
+      "21": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "arranging the work experience was hard … finding the right sort of farm to apply to wasn’t easy"
+        }
+      },
+      "22": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I was up most of one night helping a sheep deliver a lamb"
+        }
+      },
+      "23": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "So were they bred for their meat? — Mostly, yes."
+        }
+      },
+      "24": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "he didn’t give them as a matter of routine, just at times when the chickens seemed to particularly require them"
+        }
+      },
+      "25": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I got mixed up, and I poured some milk from the wrong cow in with the milk for humans, so the whole lot had to be thrown away"
+        }
+      },
+      "26": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "some of the stuff the vets do, like minor operations, he’d be quite capable of doing himself"
+        }
+      },
+      "27": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "I’d thought it’d be hard, but actually I found it all quite straightforward"
+        }
+      },
+      "28": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "there’s such limited checking into whether or not it’s contaminated … I thought that was terrible"
+        }
+      },
+      "29": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "scientists don’t know much about the diseases that affect them … I thought they’d know a lot about ways of controlling and eradicating those diseases, but that’s not the case at all"
+        }
+      },
+      "30": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "I thought I might write my dissertation on something connected with that"
+        }
+      },
+      "31": {
+        "accepted": [
+          "puzzle"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "it is a kind of puzzle with an intricate network of paths"
+        }
+      },
+      "32": {
+        "accepted": [
+          "logic"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "using logic to work out the pattern"
+        }
+      },
+      "33": {
+        "accepted": [
+          "confusion"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "The word ‘maze’ is believed to come from a Scandinavian word for a state of confusion"
+        }
+      },
+      "34": {
+        "accepted": [
+          "meditation"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "have been used as a meditation and prayer tool in many cultures"
+        }
+      },
+      "35": {
+        "accepted": [
+          "stone"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "The earliest examples of the labyrinth spiral pattern have been found carved into stone"
+        }
+      },
+      "36": {
+        "accepted": [
+          "coins"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "In Ancient Greece, the labyrinth spiral was used on coins"
+        }
+      },
+      "37": {
+        "accepted": [
+          "tree"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the largest one at Saffron Walden, England, which used to have a large tree in the middle of it"
+        }
+      },
+      "38": {
+        "accepted": [
+          "breathing"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "physical benefits, which include slower breathing"
+        }
+      },
+      "39": {
+        "accepted": [
+          "paper"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "a paper ‘finger labyrinth’"
+        }
+      },
+      "40": {
+        "accepted": [
+          "anxiety"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "relief from anxiety’ for Alzheimer’s patients"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          15,
+          16
+        ],
+        "accepted": [
+          "a",
+          "d"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "to protect sailors as a number of shipwrecks had led to significant loss of life … These workers were mainly prison convicts until the middle of that century when ordinary families willing to live in such circumstances took over"
+        }
+      },
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "b",
+          "c"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "fur seals, we’ll stop and watch them swimming around the coast … Dolphins, on the other hand, can sometimes approach on their own or in groups"
+        }
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "d",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "They can only be approached by sea … we’ll be able to see the openings to the caves, and at that point we’ll talk to you about what lies beyond"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-17-test-1",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 17,
+  "testNumber": 1
+}
