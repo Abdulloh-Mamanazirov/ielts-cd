@@ -689,13 +689,19 @@
         "accepted": [
           "identity"
         ],
-        "type": "Note completion"
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "will young Icelanders lose their sense of their own identity"
+        }
       },
       "40": {
         "accepted": [
           "fluent"
         ],
-        "type": "Note completion"
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "If children are learning two languages through different routes, neither of which they are fully fluent in, will they be able to express themselves properly"
+        }
       }
     },
     "sets": [
