@@ -1,0 +1,751 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 18, Test 1",
+    "source": "Cambridge IELTS 18",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Transport survey</div>\n<div class=\"form-row\"><span class=\"form-label\">Name:</span><span class=\"form-value\">Sadie Jones</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Year of birth:</span><span class=\"form-value\">1991</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Postcode:</span><span class=\"form-value\">{{1}}</span></div>\n<div><strong>Travelling by bus</strong></div>\n<div class=\"form-row\"><span class=\"form-label\">Date of bus journey:</span><span class=\"form-value\">{{2}}</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Reason for trip:</span><span class=\"form-value\">shopping and visit to the {{3}}</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Travelled by bus because cost of</span><span class=\"form-value\">{{4}} too high</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Got on bus at</span><span class=\"form-value\">{{5}} Street</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Complaints about bus service:</span><span class=\"form-value\">\n<ul class=\"notes-list\"><li>bus today was {{6}}</li><li>frequency of buses in the {{7}}</li></ul>\n</span></div>\n<div><strong>Travelling by car</strong></div>\n<div class=\"form-row\"><span class=\"form-label\">Goes to the</span><span class=\"form-value\">{{8}} by car</span></div>\n<div><strong>Travelling by bicycle</strong></div>\n<div>Dislikes travelling by bike in the city centre because of the {{9}}</div>\n<div>Doesn’t own a bike because of a lack of {{10}}</div>\n</div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 11–13</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Becoming a volunteer for ACE</strong></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Why does the speaker apologise about the seats?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They are too small."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There are not enough of them."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Some of them are very close together."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "What does the speaker say about the age of volunteers?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The age of volunteers is less important than other factors."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Young volunteers are less reliable than older ones."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Most volunteers are about 60 years old."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "What does the speaker say about training?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It is continuous."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It is conducted by a manager."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It takes place online."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 14 and 15</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> issues does the speaker ask the audience to consider before they apply to be volunteers?</p>",
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Which <strong>TWO</strong> issues does the speaker ask the audience to consider before they apply to be volunteers?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "their financial situation"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "their level of commitment"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "their work experience"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "their ambition"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "their availability"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 16–20</h3><p>What does the speaker suggest would be helpful for each of the following areas of voluntary work?</p><p>Choose <strong>FIVE</strong> answers from the box and write the correct letter, <strong>A–G</strong>, next to Questions 16–20.</p><p><strong>Area of voluntary work</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "experience on stage"
+              },
+              {
+                "letter": "B",
+                "textHtml": "original, new ideas"
+              },
+              {
+                "letter": "C",
+                "textHtml": "parenting skills"
+              },
+              {
+                "letter": "D",
+                "textHtml": "an understanding of food and diet"
+              },
+              {
+                "letter": "E",
+                "textHtml": "retail experience"
+              },
+              {
+                "letter": "F",
+                "textHtml": "a good memory"
+              },
+              {
+                "letter": "G",
+                "textHtml": "a good level of fitness"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "Fundraising"
+              },
+              {
+                "number": 17,
+                "textHtml": "Litter collection"
+              },
+              {
+                "number": 18,
+                "textHtml": "‘Playmates’"
+              },
+              {
+                "number": 19,
+                "textHtml": "Story club"
+              },
+              {
+                "number": 20,
+                "textHtml": "First aid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 21–26</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Talk on jobs in fashion design</strong></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "What problem did Chantal have at the start of the talk?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Her view of the speaker was blocked."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "She was unable to find an empty seat."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The students next to her were talking."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "What were Hugo and Chantal surprised to hear about the job market?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It has become more competitive than it used to be."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There is more variety in it than they had realised."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Some areas of it are more exciting than others."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "Hugo and Chantal agree that the speaker’s message was",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "unfair to them at times."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "hard for them to follow."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "critical of the industry."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "What do Hugo and Chantal criticise about their school careers advice?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "when they received the advice"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "how much advice was given"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "who gave the advice"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "When discussing their future, Hugo and Chantal disagree on",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "which is the best career in fashion."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "when to choose a career in fashion."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "why they would like a career in fashion."
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "How does Hugo feel about being an unpaid assistant?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He is realistic about the practice."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He feels the practice is dishonest."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He thinks others want to change the practice."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 27 and 28</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> mistakes did the speaker admit she made in her first job?</p>",
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Which <strong>TWO</strong> mistakes did the speaker admit she made in her first job?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "being dishonest to her employer"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "paying too much attention to how she looked"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "expecting to become well known"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "trying to earn a lot of money"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "openly disliking her client"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 29 and 30</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> pieces of retail information do Hugo and Chantal agree would be useful?</p>",
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "Which <strong>TWO</strong> pieces of retail information do Hugo and Chantal agree would be useful?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the reasons people return fashion items"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "how much time people have to shop for clothes"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "fashion designs people want but can’t find"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the best time of year for fashion buying"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the most popular fashion sizes"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Elephant translocation</div>\n<div><strong>Reasons for overpopulation at Majete National Park</strong></div>\n<ul class=\"notes-list\">\n<li>strict enforcement of anti-poaching laws</li>\n<li>successful breeding</li>\n</ul>\n<div><strong>Problems caused by elephant overpopulation</strong></div>\n<ul class=\"notes-list\">\n<li>greater competition, causing hunger for elephants</li>\n<li>damage to {{31}} in the park</li>\n</ul>\n<div><strong>The translocation process</strong></div>\n<ul class=\"notes-list\">\n<li>a suitable group of elephants from the same {{32}} was selected</li>\n<li>vets and park staff made use of {{33}} to help guide the elephants into an open plain</li>\n<li>elephants were immobilised with tranquilisers\n<ul class=\"notes-list\">\n<li>this process had to be completed quickly to reduce {{34}}</li>\n<li>elephants had to be turned on their {{35}} to avoid damage to their lungs</li>\n<li>elephants’ {{36}} had to be monitored constantly</li>\n<li>tracking devices were fitted to the matriarchs</li>\n<li>data including the size of their tusks and {{37}} was taken</li>\n</ul>\n</li>\n<li>elephants were taken by truck to their new reserve</li>\n</ul>\n<div><strong>Advantages of translocation at Nkhotakota Wildlife Park</strong></div>\n<ul class=\"notes-list\">\n<li>{{38}} opportunities</li>\n<li>a reduction in the number of poachers and {{39}}</li>\n<li>an example of conservation that other parks can follow</li>\n<li>an increase in {{40}} as a contributor to GDP</li>\n</ul>\n</div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "dw30 7yz"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "It’s DW30 7YZ"
+        }
+      },
+      "2": {
+        "accepted": [
+          "24 april",
+          "24th april"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "It’s the 24th of April, isn’t it?"
+        }
+      },
+      "3": {
+        "accepted": [
+          "dentist"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the main reason I came here was to go to the dentist"
+        }
+      },
+      "4": {
+        "accepted": [
+          "parking"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "I stopped driving in ages ago because parking was so difficult to find"
+        }
+      },
+      "5": {
+        "accepted": [
+          "claxby"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "At the bus stop on Claxby Street"
+        }
+      },
+      "6": {
+        "accepted": [
+          "late"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "this morning it was late"
+        }
+      },
+      "7": {
+        "accepted": [
+          "evening"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "any time I’ve been in town in the evening … I’ve noticed you have to wait a long time for a bus"
+        }
+      },
+      "8": {
+        "accepted": [
+          "supermarket"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Mainly just to go to the supermarket"
+        }
+      },
+      "9": {
+        "accepted": [
+          "pollution"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "I’m not keen on cycling there because of all the pollution"
+        }
+      },
+      "10": {
+        "accepted": [
+          "storage"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "I live in a flat – on the second floor and it doesn’t have any storage"
+        }
+      },
+      "11": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "we have brought in extra seats so that no one has to stand, but it does mean that the people at the back of the room may be a bit squashed"
+        }
+      },
+      "12": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "you can be as young as 16 or you can be 60 or over … Other considerations, such as reliability, are crucial"
+        }
+      },
+      "13": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "training doesn’t end when you start working for us – it takes place before, during and after periods of work"
+        }
+      },
+      "16": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "If you have the creativity to come up with an imaginative or novel way of fundraising, we’d be delighted"
+        }
+      },
+      "17": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "litter collection and for this it’s useful if you can walk for long periods, sometimes uphill"
+        }
+      },
+      "18": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "it’s good if you know something about nutrition"
+        }
+      },
+      "19": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "helping out at our story club for disabled children, especially if you have done some acting"
+        }
+      },
+      "20": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "to take in a lot of information and not forget any important steps or details"
+        }
+      },
+      "21": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "this guy sat right in front of me and he was so tall! — It’s hard to see through people’s heads, isn’t it?"
+        }
+      },
+      "22": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "it looks like there’s a whole range of … areas of work that we hadn’t even thought of"
+        }
+      },
+      "23": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "It was a bit harsh, though! We know it’s a tough industry. — Yeah – and we’re only first years, after all."
+        }
+      },
+      "24": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "none of them were very inspiring. They could have asked more people like today’s speaker to talk to us"
+        }
+      },
+      "25": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I promised myself that I’d go through this course and keep an open mind till the end. — But I think it’s better to pick an area of the industry now"
+        }
+      },
+      "26": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I’m prepared for that, aren’t you?"
+        }
+      },
+      "31": {
+        "accepted": [
+          "fences"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Elephants were routinely knocking down fences around the park"
+        }
+      },
+      "32": {
+        "accepted": [
+          "family"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "groups of between eight and twenty, all belonging to one family"
+        }
+      },
+      "33": {
+        "accepted": [
+          "helicopters"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "A team of vets and park rangers flew over the park in helicopters and targeted a group"
+        }
+      },
+      "34": {
+        "accepted": [
+          "stress"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "This also had to be done as quickly as possible so as to minimise the stress caused"
+        }
+      },
+      "35": {
+        "accepted": [
+          "sides"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "So all the elephants had to be placed on their sides"
+        }
+      },
+      "36": {
+        "accepted": [
+          "breathing"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "It was very important to keep an eye on their breathing"
+        }
+      },
+      "37": {
+        "accepted": [
+          "feet"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Measurements were taken of each elephant’s tusks … and also of their feet"
+        }
+      },
+      "38": {
+        "accepted": [
+          "employment"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Employment prospects have improved enormously"
+        }
+      },
+      "39": {
+        "accepted": [
+          "weapons"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "many of them volunteered to give up their weapons"
+        }
+      },
+      "40": {
+        "accepted": [
+          "tourism"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "All this has been a big draw for tourism, which contributes five times more than the illegal wildlife trade to GDP"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          14,
+          15
+        ],
+        "accepted": [
+          "b",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "it is critical that you have enough hours in the day … What we value is dedication"
+        }
+      },
+      {
+        "questions": [
+          27,
+          28
+        ],
+        "accepted": [
+          "b",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "telling her she was more interested in her own appearance than his … she should have hidden her negative feelings about him, but she didn’t"
+        }
+      },
+      {
+        "questions": [
+          29,
+          30
+        ],
+        "accepted": [
+          "a",
+          "c"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "it would be useful to know if there’s a gap in the market … you found out the garments sold there were being returned"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-18-test-1",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 18,
+  "testNumber": 1
+}
