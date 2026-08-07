@@ -76,7 +76,12 @@ export function SplitView({
             </button>
           ))}
         </div>
-        <div className="min-h-0 flex-1 overflow-hidden rounded-xl bg-white shadow-[0_1px_2px_rgba(11,17,32,.08)]">
+        {/* flex-col, not a bare block: the pane inside sizes itself with
+            `flex-1`, which only works if its parent is a flex container. As a
+            block this wrapper let the pane grow to its full content height, so
+            it overflowed instead of scrolling — the scroll only moved when a
+            nav tap called scrollIntoView, never by touch. */}
+        <div className="flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl bg-white shadow-[0_1px_2px_rgba(11,17,32,.08)]">
           {tab === "left" ? left : right}
         </div>
       </div>

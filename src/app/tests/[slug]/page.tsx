@@ -19,7 +19,7 @@ export default async function TestStartPage({ params }: { params: Promise<{ slug
     const messages: Record<string, string> = {
       not_found: "This test is not available.",
       premium_required:
-        "This is a premium test. Ask your instructor to unlock premium access for your account.",
+        "This is a premium test. Ask the admin to unlock premium access for your account.",
       unavailable: "This test is not ready yet — its audio has not been uploaded.",
       not_signed_in: "Please sign in.",
     };

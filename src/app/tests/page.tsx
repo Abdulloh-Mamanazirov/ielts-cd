@@ -180,7 +180,7 @@ export default async function TestsPage({
               ? SERIES[seriesSlug].blurb
               : hasPremium
                 ? "You have access to every test, free and premium."
-                : "Free tests are open to you. Premium tests unlock when your instructor grants access."
+                : "Free tests are open to you. Premium tests unlock when the admin grants access."
         }
       />
 
@@ -355,8 +355,8 @@ export default async function TestsPage({
               Full Cambridge mocks, marked the moment you finish.
             </h2>
             <p className="mt-3 max-w-[52ch] text-sm leading-relaxed text-white/65">
-              Premium access is granted by your instructor. Message him on Telegram and he will
-              unlock it on your account.
+              Premium access is granted by the admin. Message us on Telegram and it will be
+              unlocked on your account.
             </p>
             <a
               href="https://t.me/DavronbekNabiev"

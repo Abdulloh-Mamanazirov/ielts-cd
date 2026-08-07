@@ -65,7 +65,6 @@ export async function POST(request: Request) {
   const username = from.username ?? null;
   const text = update.message?.text?.trim();
   const data = update.callback_query?.data;
-  const contact = update.message?.contact;
 
   // The sign-in button on the site is a deep link, so Telegram delivers
   // "/start login" rather than a bare "/start". Match the command, not the
@@ -155,56 +154,17 @@ export async function POST(request: Request) {
     return ok();
   }
 
-  // Step 1 — the name.
-  if (registration.step === "NAME" && text) {
+  // The only question is their name. Sending it creates the account — no phone
+  // and no "are you a student"; the admin sets those by hand if they matter.
+  // A leading slash is ignored so a stray /login is not taken as a name.
+  if (registration.step === "NAME" && text && !text.startsWith("/")) {
     const fullName = text.slice(0, 120);
-    await prisma.telegramRegistration.update({
-      where: { telegramId },
-      data: { fullName, step: "STUDENT" },
-    });
-
-    await sendMessage(chatId, `Thanks, ${escapeHtml(fullName)}. Do you already study with Davronbek?`, {
-      inline_keyboard: [
-        [
-          { text: "Yes, I'm his student", callback_data: "student:yes" },
-          { text: "No, not yet", callback_data: "student:no" },
-        ],
-      ],
-    });
-    return ok();
-  }
-
-  // Step 2 — whether they are one of his students.
-  if (registration.step === "STUDENT" && data?.startsWith("student:")) {
-    if (update.callback_query) await answerCallback(update.callback_query.id);
-    await prisma.telegramRegistration.update({
-      where: { telegramId },
-      data: { isStudent: data === "student:yes", step: "PHONE" },
-    });
-
-    await sendMessage(
-      chatId,
-      "Last step: share your phone number so your instructor can reach you. This is optional.",
-      {
-        keyboard: [[{ text: "📱 Share my number", request_contact: true }], [{ text: "Skip" }]],
-        resize_keyboard: true,
-        one_time_keyboard: true,
-      },
-    );
-    return ok();
-  }
-
-  // Step 3 — the phone, or skipping it. Either way the account is created.
-  if (registration.step === "PHONE" && (contact || text)) {
-    const phone = contact?.phone_number ?? null;
 
     const user = await prisma.user.create({
       data: {
-        fullName: registration.fullName ?? "Student",
+        fullName,
         telegramId,
         telegramUsername: username,
-        phone,
-        isStudent: registration.isStudent ?? false,
         role: "STUDENT",
         plan: "FREE",
       },
@@ -216,7 +176,7 @@ export async function POST(request: Request) {
     const link = await issueLoginLink(user.id);
     await sendMessage(
       chatId,
-      `You're all set.\n\n<a href="${link}">Open your dashboard</a>\n\nThe link works once and expires in 15 minutes. Send /login any time for a new one.`,
+      `You're all set, ${escapeHtml(fullName)}.\n\n<a href="${link}">Open your dashboard</a>\n\nThe link works once and expires in 15 minutes. Send /login any time for a new one.`,
       { remove_keyboard: true },
     );
     return ok();
