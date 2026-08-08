@@ -1,0 +1,725 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 18, Test 2",
+    "source": "Cambridge IELTS 18",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–5</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Working at Milo’s Restaurants</div>\n<div><strong>Benefits</strong></div>\n<ul class=\"notes-list\">\n<li>{{1}} provided for all staff</li>\n<li>{{2}} during weekdays at all Milo’s Restaurants</li>\n<li>{{3}} provided after midnight</li>\n</ul>\n<div><strong>Person specification</strong></div>\n<ul class=\"notes-list\">\n<li>must be prepared to work well in a team</li>\n<li>must care about maintaining a high standard of {{4}}</li>\n<li>must have a qualification in {{5}}</li>\n</ul>\n</div>"
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 6–10</h3><p>Complete the table below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div><table class=\"q-table\">\n<thead><tr><th>Location</th><th>Job title</th><th>Responsibilities include</th><th>Pay and conditions</th></tr></thead>\n<tbody>\n<tr><td>{{6}} Street</td><td>Breakfast supervisor</td>\n<td>Checking portions, etc. are correct<br>Making sure {{7}} is clean</td>\n<td>Starting salary £{{8}} per hour<br>Start work at 5.30 a.m.</td></tr>\n<tr><td>City Road</td><td>Junior chef</td>\n<td>Supporting senior chefs<br>Maintaining stock and organising {{9}}</td>\n<td>Annual salary £23,000<br>No work on a {{10}} once a month</td></tr>\n</tbody></table></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 11 and 12</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>What are the <strong>TWO</strong> main reasons why this site has been chosen for the housing development?</p>",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "What are the <strong>TWO</strong> main reasons why this site has been chosen for the housing development?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It has suitable geographical features."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There is easy access to local facilities."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It has good connections with the airport."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "The land is of little agricultural value."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "It will be convenient for workers."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 13 and 14</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> aspects of the planned housing development have people given positive feedback about?</p>",
+            "questions": [
+              {
+                "number": 13,
+                "textHtml": "Which <strong>TWO</strong> aspects of the planned housing development have people given positive feedback about?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the facilities for cyclists"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the impact on the environment"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the encouragement of good relations between residents"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the low cost of all the accommodation"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the rural location"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "map_labeling",
+            "rubricHtml": "<h3>Questions 15–20</h3><p>Label the map below.</p><p>Write the correct letter, <strong>A–I</strong>, next to Questions 15–20.</p>",
+            "selectCount": 1,
+            "imageUrl": "/test-media/listening-cambridge-18-test-2-p2-map.jpg",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "School"
+              },
+              {
+                "number": 16,
+                "textHtml": "Sports centre"
+              },
+              {
+                "number": 17,
+                "textHtml": "Clinic"
+              },
+              {
+                "number": 18,
+                "textHtml": "Community centre"
+              },
+              {
+                "number": 19,
+                "textHtml": "Supermarket"
+              },
+              {
+                "number": 20,
+                "textHtml": "Playground"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 21–24</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Why do the students think the Laki eruption of 1783 is so important?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It was the most severe eruption in modern times."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It led to the formal study of volcanoes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It had a profound effect on society."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "What surprised Adam about observations made at the time?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the number of places producing them"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the contradictions in them"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the lack of scientific data to support them"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "According to Michelle, what did the contemporary sources say about the Laki haze?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "People thought it was similar to ordinary fog."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It was associated with health issues."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It completely blocked out the sun for weeks."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "Adam corrects Michelle when she claims that Benjamin Franklin",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "came to the wrong conclusion about the cause of the haze."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "was the first to identify the reason for the haze."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "supported the opinions of other observers about the haze."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 25 and 26</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> issues following the Laki eruption surprised the students?</p>",
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Which <strong>TWO</strong> issues following the Laki eruption surprised the students?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how widespread the effects were"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "how long-lasting the effects were"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the number of deaths it caused"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the speed at which the volcanic ash cloud spread"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "how people ignored the warning signs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 27–30</h3><p>What comment do the students make about the impact of the Laki eruption on the following countries?</p><p>Choose <strong>FOUR</strong> answers from the box and write the correct letter, <strong>A–F</strong>, next to Questions 27–30.</p><p><strong>Countries</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "This country suffered the most severe loss of life."
+              },
+              {
+                "letter": "B",
+                "textHtml": "The impact on agriculture was predictable."
+              },
+              {
+                "letter": "C",
+                "textHtml": "There was a significant increase in deaths of young people."
+              },
+              {
+                "letter": "D",
+                "textHtml": "Animals suffered from a sickness."
+              },
+              {
+                "letter": "E",
+                "textHtml": "This country saw the highest rise in food prices in the world."
+              },
+              {
+                "letter": "F",
+                "textHtml": "It caused a particularly harsh winter."
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Iceland"
+              },
+              {
+                "number": 28,
+                "textHtml": "Egypt"
+              },
+              {
+                "number": 29,
+                "textHtml": "UK"
+              },
+              {
+                "number": 30,
+                "textHtml": "USA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Pockets</div>\n<div><strong>Reason for choice of subject</strong></div>\n<ul class=\"notes-list\">\n<li>They are {{31}} but can be overlooked by consumers and designers.</li>\n</ul>\n<div><strong>Pockets in men’s clothes</strong></div>\n<ul class=\"notes-list\">\n<li>Men started to wear {{32}} in the 18th century.</li>\n<li>A {{33}} sewed pockets into the lining of the garments.</li>\n<li>The wearer could use the pockets for small items.</li>\n<li>Bigger pockets might be made for men who belonged to a certain type of {{34}}.</li>\n</ul>\n<div><strong>Pockets in women’s clothes</strong></div>\n<ul class=\"notes-list\">\n<li>Women’s pockets were less {{35}} than men’s.</li>\n<li>Women were very concerned about pickpockets.</li>\n<li>Pockets were produced in pairs using {{36}} to link them together.</li>\n<li>Pockets hung from the women’s {{37}} under skirts and petticoats.</li>\n<li>Items such as {{38}} could be reached through a gap in the material.</li>\n<li>Pockets, of various sizes, stayed inside clothing for many decades.</li>\n<li>When dresses changed shape, hidden pockets had a negative effect on the {{39}} of women.</li>\n<li>Bags called ‘pouches’ became popular, before women carried a {{40}}.</li>\n</ul>\n</div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "training"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "all employees get training – even temporary staff"
+        }
+      },
+      "2": {
+        "accepted": [
+          "discount"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "you can get a discount at any of their restaurants"
+        }
+      },
+      "3": {
+        "accepted": [
+          "taxi"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "after midnight, the company will pay for you to get a taxi home"
+        }
+      },
+      "4": {
+        "accepted": [
+          "service"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "a really high level of service … that will be equally important at Milo’s"
+        }
+      },
+      "5": {
+        "accepted": [
+          "english"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "you’ll need to have a certificate in English"
+        }
+      },
+      "6": {
+        "accepted": [
+          "wivenhoe"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "The first one is in Wivenhoe Street"
+        }
+      },
+      "7": {
+        "accepted": [
+          "equipment"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "checking all the procedures for cleaning the equipment are being followed"
+        }
+      },
+      "8": {
+        "accepted": [
+          "9.75"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "to begin with, you’d be getting £9.75"
+        }
+      },
+      "9": {
+        "accepted": [
+          "deliveries"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "sorting out all the deliveries"
+        }
+      },
+      "10": {
+        "accepted": [
+          "sunday"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "you do get one Sunday off every four weeks"
+        }
+      },
+      "15": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Map labelling",
+        "evidence": {
+          "snippet": "a road from there that goes right up through the development. The school will be on that road, at the corner of the second turning to the left"
+        }
+      },
+      "16": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Map labelling",
+        "evidence": {
+          "snippet": "on the western side of the development, just below the road that branches off from London Road"
+        }
+      },
+      "17": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Map labelling",
+        "evidence": {
+          "snippet": "The clinic will be just below this, to the right of a street of houses"
+        }
+      },
+      "18": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Map labelling",
+        "evidence": {
+          "snippet": "a row of specially designed houses specifically for residents over 65, and the community centre will be adjoining this"
+        }
+      },
+      "19": {
+        "accepted": [
+          "h"
+        ],
+        "type": "Map labelling",
+        "evidence": {
+          "snippet": "a supermarket between the two entrances to the development … it’ll be just to the south of these"
+        }
+      },
+      "20": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Map labelling",
+        "evidence": {
+          "snippet": "the road that goes up from the South Entrance … curves round to the left at the top, and the playground will be in that curve"
+        }
+      },
+      "21": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "what I found more significant was how it impacted directly and indirectly on political events, as well as having massive social and economic consequences"
+        }
+      },
+      "22": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I was surprised there were so many weather stations established by that time"
+        }
+      },
+      "23": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "blamed the haze for an increase in headaches, respiratory issues and asthma attacks"
+        }
+      },
+      "24": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "It was Benjamin Franklin who realised that before anyone else. — He’s often credited with that, apparently. But a French naturalist beat him to it"
+        }
+      },
+      "27": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "livestock as they grazed in the fields. They were poisoned"
+        }
+      },
+      "28": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "the famine there led to more people dying than any other country"
+        }
+      },
+      "29": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "the mortality rate … about double the usual number and included an unusually high percentage of people under the age of 25"
+        }
+      },
+      "30": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "there was ice floating down the Mississippi, which was unprecedented"
+        }
+      },
+      "31": {
+        "accepted": [
+          "convenient"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "nothing is quite as convenient as being able to pop your phone or credit card into your pocket"
+        }
+      },
+      "32": {
+        "accepted": [
+          "suits"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "that was the time when suits became popular"
+        }
+      },
+      "33": {
+        "accepted": [
+          "tailor"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "pockets were sewn into this cloth by whichever tailor the customer used"
+        }
+      },
+      "34": {
+        "accepted": [
+          "profession"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "larger but plainer if the wearer was someone with a profession who needed to carry medical instruments"
+        }
+      },
+      "35": {
+        "accepted": [
+          "visible"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "they weren’t nearly as visible"
+        }
+      },
+      "36": {
+        "accepted": [
+          "string",
+          "strings"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "a pair of pockets made that were tied together with string"
+        }
+      },
+      "37": {
+        "accepted": [
+          "waist",
+          "waists"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Women tied the pockets around their waist"
+        }
+      },
+      "38": {
+        "accepted": [
+          "perfume"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "an opening in the folds of their skirts through which they could reach whatever they needed, like their perfume"
+        }
+      },
+      "39": {
+        "accepted": [
+          "image"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the pairs of pockets became very noticeable – they stood out too much and detracted from the woman’s image"
+        }
+      },
+      "40": {
+        "accepted": [
+          "handbag"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "they inevitably led on to the handbag of more modern times"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          11,
+          12
+        ],
+        "accepted": [
+          "b",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "there’s a lot of demand for housing for employees in the region … an excellent hospital just 15 kilometres away, and a large secondary school even closer"
+        }
+      },
+      {
+        "questions": [
+          13,
+          14
+        ],
+        "accepted": [
+          "b",
+          "c"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "blended in well with the natural features of the landscape … a place where people of all ages can live together happily"
+        }
+      },
+      {
+        "questions": [
+          25,
+          26
+        ],
+        "accepted": [
+          "a",
+          "b"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "not that the effects would go on for so long … strange weather events were being reported as far away as North America and North Africa"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-18-test-2",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 18,
+  "testNumber": 2
+}
