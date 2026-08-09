@@ -1,0 +1,721 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 18, Test 4",
+    "source": "Cambridge IELTS 18",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Job details from employment agency</div>\n<div class=\"form-row\"><span class=\"form-label\">Role</span><span class=\"form-value\">{{1}}</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Location</span><span class=\"form-value\">Fordham {{2}} Centre<br>{{3}} Road, Fordham</span></div>\n<div><strong>Work involves</strong></div>\n<ul class=\"notes-list\">\n<li>dealing with enquiries</li>\n<li>making {{4}} and reorganising them</li>\n<li>maintaining the internal {{5}}</li>\n<li>general administration</li>\n</ul>\n<div><strong>Requirements</strong></div>\n<ul class=\"notes-list\">\n<li>{{6}} (essential)</li>\n<li>a calm and {{7}} manner</li>\n<li>good IT skills</li>\n</ul>\n<div><strong>Other information</strong></div>\n<ul class=\"notes-list\">\n<li>a {{8}} job – further opportunities may be available</li>\n<li>hours: 7.45 a.m. to {{9}} p.m. Monday to Friday</li>\n<li>{{10}} is available onsite</li>\n</ul>\n</div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 11–14</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "The museum building was originally",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a factory."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a private home."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a hall of residence."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "The university uses part of the museum building as",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "teaching rooms."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a research library."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "administration offices."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "What does the guide say about the entrance fee?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Visitors decide whether or not they wish to pay."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Only children and students receive a discount."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The museum charges extra for special exhibitions."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "What are visitors advised to leave in the cloakroom?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "cameras"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "coats"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "bags"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 15–20</h3><p>What information does the speaker give about each of the following areas of the museum?</p><p>Choose <strong>SIX</strong> answers from the box and write the correct letter, <strong>A–H</strong>, next to Questions 15–20.</p><p><strong>Areas of museum</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Parents must supervise their children."
+              },
+              {
+                "letter": "B",
+                "textHtml": "There are new things to see."
+              },
+              {
+                "letter": "C",
+                "textHtml": "It is closed today."
+              },
+              {
+                "letter": "D",
+                "textHtml": "This is only for school groups."
+              },
+              {
+                "letter": "E",
+                "textHtml": "There is a quiz for visitors."
+              },
+              {
+                "letter": "F",
+                "textHtml": "It features something created by students."
+              },
+              {
+                "letter": "G",
+                "textHtml": "An expert is here today."
+              },
+              {
+                "letter": "H",
+                "textHtml": "There is a one-way system."
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Four Seasons"
+              },
+              {
+                "number": 16,
+                "textHtml": "Farmhouse Kitchen"
+              },
+              {
+                "number": 17,
+                "textHtml": "A Year on the Farm"
+              },
+              {
+                "number": 18,
+                "textHtml": "Wagon Walk"
+              },
+              {
+                "number": 19,
+                "textHtml": "Bees are Magic"
+              },
+              {
+                "number": 20,
+                "textHtml": "The Pond"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 21 and 22</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> educational skills were shown in the video of children doing origami?</p>",
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> educational skills were shown in the video of children doing origami?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "solving problems"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "following instructions"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "working cooperatively"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "learning through play"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "developing hand-eye coordination"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 23–27</h3><p>Which comment do the students make about each of the following children in the video?</p><p>Choose <strong>FIVE</strong> answers from the box and write the correct letter, <strong>A–G</strong>, next to Questions 23–27.</p><p><strong>Children</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "demonstrated independence"
+              },
+              {
+                "letter": "B",
+                "textHtml": "asked for teacher support"
+              },
+              {
+                "letter": "C",
+                "textHtml": "developed a competitive attitude"
+              },
+              {
+                "letter": "D",
+                "textHtml": "seemed to find the activity calming"
+              },
+              {
+                "letter": "E",
+                "textHtml": "seemed pleased with the results"
+              },
+              {
+                "letter": "F",
+                "textHtml": "seemed confused"
+              },
+              {
+                "letter": "G",
+                "textHtml": "seemed to find the activity easy"
+              }
+            ],
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Sid"
+              },
+              {
+                "number": 24,
+                "textHtml": "Jack"
+              },
+              {
+                "number": 25,
+                "textHtml": "Naomi"
+              },
+              {
+                "number": 26,
+                "textHtml": "Anya"
+              },
+              {
+                "number": 27,
+                "textHtml": "Zara"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 28–30</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 28,
+                "textHtml": "Before starting an origami activity in class, the students think it is important for the teacher to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "make models that demonstrate the different stages."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "check children understand the terminology involved."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "tell children not to worry if they find the activity difficult."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "The students agree that some teachers might be unwilling to use origami in class because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "they may not think that crafts are important."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "they may not have the necessary skills."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "they may worry that it will take up too much time."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "Why do the students decide to use origami in their maths teaching practice?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to correct a particular misunderstanding"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to set a challenge"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to introduce a new concept"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Victor Hugo</div>\n<div><strong>His novel, <em>Les Misérables</em></strong></div>\n<ul class=\"notes-list\">\n<li>It has been adapted for theatre and cinema.</li>\n<li>We know more about its overall {{31}} than about its author.</li>\n</ul>\n<div><strong>His early career</strong></div>\n<ul class=\"notes-list\">\n<li>In Paris, his career was successful and he led the Romantic movement.</li>\n<li>He spoke publicly about social issues, such as {{32}} and education.</li>\n<li>Napoleon III disliked his views and exiled him.</li>\n</ul>\n<div><strong>His exile from France</strong></div>\n<ul class=\"notes-list\">\n<li>Victor Hugo had to live elsewhere in {{33}}.</li>\n<li>He used his income from the sale of some {{34}} he had written to buy a house on Guernsey.</li>\n</ul>\n<div><strong>His house on Guernsey</strong></div>\n<ul class=\"notes-list\">\n<li>Victor Hugo lived in this house until the end of the Empire in France.</li>\n<li>The ground floor contains portraits, {{35}} and tapestries that he valued.</li>\n<li>He bought cheap {{36}} made of wood and turned this into beautiful wall carvings.</li>\n<li>The first floor consists of furnished areas with wallpaper and {{37}} that have a Chinese design.</li>\n<li>The library still contains many of his favourite books.</li>\n<li>He wrote in a room at the top of the house that had a view of the {{38}}.</li>\n<li>He entertained other writers as well as poor {{39}} in his house.</li>\n<li>Victor Hugo’s {{40}} gave ownership of the house to the city of Paris in 1927.</li>\n</ul>\n</div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "receptionist"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "a position for a receptionist"
+        }
+      },
+      "2": {
+        "accepted": [
+          "medical"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Fordham, so not too far away for you, and it’s at the medical centre there"
+        }
+      },
+      "3": {
+        "accepted": [
+          "chastons"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "It’s quite near the station, on Chastons Road"
+        }
+      },
+      "4": {
+        "accepted": [
+          "appointments"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "making appointments, whether face to face or on the phone"
+        }
+      },
+      "5": {
+        "accepted": [
+          "database"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "keeping the centre’s database up-to-date"
+        }
+      },
+      "6": {
+        "accepted": [
+          "experience"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "one thing they do require is someone with experience"
+        }
+      },
+      "7": {
+        "accepted": [
+          "confident"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "stay calm, and at the same time be confident"
+        }
+      },
+      "8": {
+        "accepted": [
+          "temporary"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "this isn’t a permanent job, it’s temporary"
+        }
+      },
+      "9": {
+        "accepted": [
+          "1.15"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "One fifteen"
+        }
+      },
+      "10": {
+        "accepted": [
+          "parking"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "is there parking available for staff at the centre? — Yes, there is"
+        }
+      },
+      "11": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "constructed in 1880 as the home of a local businessman"
+        }
+      },
+      "12": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "uses the main part of the building. You may see students going into the building for lessons"
+        }
+      },
+      "13": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "We do have a donation box just over there so feel free to give whatever amount you consider appropriate"
+        }
+      },
+      "14": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "a cloakroom, if you’d like to leave your coats and bags somewhere … though keep your coats and jackets on as it’s quite cold in the museum garden today"
+        }
+      },
+      "15": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "It was designed especially for the museum by a group of young people on a film studies course"
+        }
+      },
+      "16": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "this morning, a specialist cheesemaker will be giving demonstrations"
+        }
+      },
+      "17": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "If you’re feeling competitive, you can take our memory test in which you answer questions about things you’ve seen in the museum"
+        }
+      },
+      "18": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "The carts are old and fragile, so we ask you to keep your children close to you"
+        }
+      },
+      "19": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "we’re redeveloping this area so you can’t visit that at the moment"
+        }
+      },
+      "20": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "There are baby ducks that are only a few days old, as well as tiny frogs"
+        }
+      },
+      "23": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "it helped him to settle down and start concentrating"
+        }
+      },
+      "24": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "You could see him trying out different things rather than asking the teacher for help"
+        }
+      },
+      "25": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "she decided she wanted her mouse to be the best and that motivated her to try harder"
+        }
+      },
+      "26": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "produced the perfect bird with very little effort"
+        }
+      },
+      "27": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "She seemed unsure about what she was supposed to do"
+        }
+      },
+      "28": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "prepare examples, showing each of the steps involved in making the bird. But that was a really good idea"
+        }
+      },
+      "29": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I bet it’s because so many teachers are clumsy like me — too much effort required if you’re not good with your hands"
+        }
+      },
+      "30": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I think it would also work really well for presenting fractions, which is coming up soon"
+        }
+      },
+      "31": {
+        "accepted": [
+          "plot"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "some of us, I’m sure, have a pretty general idea of the plot, but we know much less about the author"
+        }
+      },
+      "32": {
+        "accepted": [
+          "poverty"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "he also gave many speeches about issues like the level of poverty"
+        }
+      },
+      "33": {
+        "accepted": [
+          "europe"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Victor Hugo was forced to reside in other parts of Europe"
+        }
+      },
+      "34": {
+        "accepted": [
+          "poetry"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "he bought using the money he’d made in France from the publication of a collection of his poetry"
+        }
+      },
+      "35": {
+        "accepted": [
+          "drawings"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "portraits of its members still hang in rooms on the ground floor, along with drawings"
+        }
+      },
+      "36": {
+        "accepted": [
+          "furniture"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "dark wood panelling that Victor Hugo created himself using wooden furniture that he bought in the market"
+        }
+      },
+      "37": {
+        "accepted": [
+          "lamps"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "a strong Chinese influence in these areas in things like the wallpaper pattern and the lamps"
+        }
+      },
+      "38": {
+        "accepted": [
+          "harbour",
+          "harbor"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "a room called the Lookout – called that because it looks out over the harbour"
+        }
+      },
+      "39": {
+        "accepted": [
+          "children"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "he also invited a large group of local children from the deprived areas of the island to dinner once a week"
+        }
+      },
+      "40": {
+        "accepted": [
+          "relatives"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the house was owned by his relatives, and they decided to donate it to the city of Paris"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "b",
+          "d"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "listening hard to make sure they did all the steps in the right order … the children were all having fun while being taught something new"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-18-test-4",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 18,
+  "testNumber": 4
+}
