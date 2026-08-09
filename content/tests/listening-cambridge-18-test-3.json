@@ -1,0 +1,732 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 18, Test 3",
+    "source": "Cambridge IELTS 18",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–4</h3><p>Complete the form below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Wayside Camera Club membership form</div>\n<div class=\"form-row\"><span class=\"form-label\">Name:</span><span class=\"form-value\">Dan Green</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Email address:</span><span class=\"form-value\">dan1068@market.com</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Home address:</span><span class=\"form-value\">52 {{1}} Street, Peacetown</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Heard about us:</span><span class=\"form-value\">from a {{2}}</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Reasons for joining:</span><span class=\"form-value\">to enter competitions<br>to {{3}}</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Type of membership:</span><span class=\"form-value\">{{4}} membership (£30)</span></div>\n</div>"
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 5–10</h3><p>Complete the table below.</p><p>Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div><table class=\"q-table\">\n<thead><tr><th colspan=\"3\">Photography competitions</th></tr>\n<tr><th>Title of competition</th><th>Instructions</th><th>Feedback to Dan</th></tr></thead>\n<tbody>\n<tr><td>‘{{5}}’</td><td>A scene in the home</td><td>The picture’s composition was not good.</td></tr>\n<tr><td>‘Beautiful Sunsets’</td><td>Scene must show some {{6}}</td><td>The {{7}} was wrong.</td></tr>\n<tr><td>‘{{8}}’</td><td>Scene must show {{9}}</td><td>The photograph was too {{10}}.</td></tr>\n</tbody></table></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 11 and 12</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> warnings does Dan give about picking mushrooms?</p>",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Which <strong>TWO</strong> warnings does Dan give about picking mushrooms?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Don’t pick more than one variety of mushroom at a time."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Don’t pick mushrooms near busy roads."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Don’t eat mushrooms given to you."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Don’t eat mushrooms while picking them."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Don’t pick old mushrooms."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 13 and 14</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> ideas about wild mushrooms does Dan say are correct?</p>",
+            "questions": [
+              {
+                "number": 13,
+                "textHtml": "Which <strong>TWO</strong> ideas about wild mushrooms does Dan say are correct?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Mushrooms should always be peeled before eating."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Mushrooms eaten by animals may be unsafe."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Cooking destroys toxins in mushrooms."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Brightly coloured mushrooms can be edible."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "All poisonous mushrooms have a bad smell."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 15–20</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "What advice does Dan give about picking mushrooms in parks?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Choose wooded areas."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Don’t disturb wildlife."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Get there early."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "Dan says it is a good idea for beginners to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "use a mushroom app."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "join a group."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "take a reference book."
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "textHtml": "What does Dan say is important for conservation?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "selecting only fully grown mushrooms"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "picking a limited amount of mushrooms"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "avoiding areas where rare mushroom species grow"
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "According to Dan, some varieties of wild mushrooms are in decline because there is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a huge demand for them from restaurants."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a lack of rain in this part of the country."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a rise in building developments locally."
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "Dan says that when storing mushrooms, people should",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "keep them in the fridge for no more than two days."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "keep them in a brown bag in a dark room."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "leave them for a period after washing them."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "What does Dan say about trying new varieties of mushrooms?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Experiment with different recipes."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Expect some to have a strong taste."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Cook them for a long time."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 21 and 22</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> opinions about the Luddites do the students express?</p>",
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> opinions about the Luddites do the students express?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Their actions were ineffective."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They are still influential today."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They have received unfair criticism."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They were proved right."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Their attitude is understandable."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 23 and 24</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> predictions about the future of work are the students doubtful about?</p>",
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Which <strong>TWO</strong> predictions about the future of work are the students doubtful about?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Work will be more rewarding."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Unemployment will fall."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "People will want to delay retiring."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Working hours will be shorter."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "People will change jobs more frequently."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 25–30</h3><p>What comment do the students make about each of the following jobs?</p><p>Choose <strong>SIX</strong> answers from the box and write the correct letter, <strong>A–G</strong>, next to Questions 25–30.</p><p><strong>Jobs</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "These jobs are likely to be at risk."
+              },
+              {
+                "letter": "B",
+                "textHtml": "Their role has become more interesting in recent years."
+              },
+              {
+                "letter": "C",
+                "textHtml": "The number of people working in this sector has fallen dramatically."
+              },
+              {
+                "letter": "D",
+                "textHtml": "This job will require more qualifications."
+              },
+              {
+                "letter": "E",
+                "textHtml": "Higher disposable income has led to a huge increase in jobs."
+              },
+              {
+                "letter": "F",
+                "textHtml": "There is likely to be a significant rise in demand for this service."
+              },
+              {
+                "letter": "G",
+                "textHtml": "Both employment and productivity have risen."
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Accountants"
+              },
+              {
+                "number": 26,
+                "textHtml": "Hairdressers"
+              },
+              {
+                "number": 27,
+                "textHtml": "Administrative staff"
+              },
+              {
+                "number": 28,
+                "textHtml": "Agricultural workers"
+              },
+              {
+                "number": 29,
+                "textHtml": "Care workers"
+              },
+              {
+                "number": 30,
+                "textHtml": "Bank clerks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Space Traffic Management</div>\n<div><strong>A Space Traffic Management system</strong></div>\n<ul class=\"notes-list\">\n<li>is a concept similar to Air Traffic Control, but for satellites rather than planes.</li>\n<li>would aim to set up legal and {{31}} ways of improving safety.</li>\n<li>does not actually exist at present.</li>\n</ul>\n<div><strong>Problems in developing effective Space Traffic Management</strong></div>\n<ul class=\"notes-list\">\n<li>Satellites are now quite {{32}} and therefore more widespread (e.g. there are constellations made up of {{33}} of satellites).</li>\n<li>At present, satellites are not required to transmit information to help with their {{34}}.</li>\n<li>There are few systems for {{35}} satellites.</li>\n<li>Small pieces of debris may be difficult to identify.</li>\n<li>Operators may be unwilling to share details of satellites used for {{36}} or commercial reasons.</li>\n<li>It may be hard to collect details of the object’s {{37}} at a given time.</li>\n<li>Scientists can only make a {{38}} about where the satellite will go.</li>\n</ul>\n<div><strong>Solutions</strong></div>\n<ul class=\"notes-list\">\n<li>Common standards should be agreed on for the presentation of information.</li>\n<li>The information should be combined in one {{39}}.</li>\n<li>A coordinated system must be designed to create {{40}} in its users.</li>\n</ul>\n</div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "marrowfield"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "It’s 52 Marrowfield Street"
+        }
+      },
+      "2": {
+        "accepted": [
+          "relative"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "I was talking to a relative the other day and he suggested it"
+        }
+      },
+      "3": {
+        "accepted": [
+          "socialise",
+          "socialize"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "I also like to socialise with other photographers"
+        }
+      },
+      "4": {
+        "accepted": [
+          "full"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "£30 a year for full membership"
+        }
+      },
+      "5": {
+        "accepted": [
+          "domestic life"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "the theme was entitled ‘Domestic Life’"
+        }
+      },
+      "6": {
+        "accepted": [
+          "clouds"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "The instructions were to capture the clouds as well"
+        }
+      },
+      "7": {
+        "accepted": [
+          "timing"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "the timing wasn’t right"
+        }
+      },
+      "8": {
+        "accepted": [
+          "animal magic"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "the third competition I entered was called ‘Animal Magic’"
+        }
+      },
+      "9": {
+        "accepted": [
+          "movement",
+          "animal movement"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "there had to be some movement in the scene"
+        }
+      },
+      "10": {
+        "accepted": [
+          "dark"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "I suspected that it was a bit dark, which is what I was told"
+        }
+      },
+      "15": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "you need to be there first thing in the morning"
+        }
+      },
+      "16": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "If possible, you should go with a group led by an expert"
+        }
+      },
+      "17": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "You should never pick all the mushrooms in one area – collect only enough for your own needs"
+        }
+      },
+      "18": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "the biggest problem is that so many new houses have been built in this area in the last ten years"
+        }
+      },
+      "19": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "They’ll be fine for a couple of days, but it’s best to cook them as soon as possible"
+        }
+      },
+      "20": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "They’re great in so many dishes – stir fries, risottos, pasta"
+        }
+      },
+      "25": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "there are more of them than ever. They’re still really in demand and have become far more efficient"
+        }
+      },
+      "26": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "people’s earning power has gone up so they can afford to spend more on personal services like that"
+        }
+      },
+      "27": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "Really boring compared to these days, when they’re given much more responsibility and higher status"
+        }
+      },
+      "28": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "I’d have assumed it would be more than 50%. Now it’s less than 0.2%"
+        }
+      },
+      "29": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "But now of course this sector will see huge growth"
+        }
+      },
+      "30": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "technology will certainly make most of the jobs they do now redundant"
+        }
+      },
+      "31": {
+        "accepted": [
+          "technical"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "we’d need to have a set of legal measures, and we’d also have to develop the technical systems"
+        }
+      },
+      "32": {
+        "accepted": [
+          "cheap"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "satellites are relatively cheap these days"
+        }
+      },
+      "33": {
+        "accepted": [
+          "thousands"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "whole constellations, consisting of thousands of them"
+        }
+      },
+      "34": {
+        "accepted": [
+          "identification"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "it doesn’t have to send back any information to Earth to allow its identification"
+        }
+      },
+      "35": {
+        "accepted": [
+          "tracking"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "at present we don’t have anything like enough proper ways of tracking them"
+        }
+      },
+      "36": {
+        "accepted": [
+          "military"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "a satellite may be designed for military purposes"
+        }
+      },
+      "37": {
+        "accepted": [
+          "location"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "Details are needed about the object itself, as well as about its location"
+        }
+      },
+      "38": {
+        "accepted": [
+          "prediction"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "all that the scientists can do is to put forward a prediction concerning where the satellite is heading next"
+        }
+      },
+      "39": {
+        "accepted": [
+          "database"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "that will involve creating a single database"
+        }
+      },
+      "40": {
+        "accepted": [
+          "trust"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "it’s also essential that this system is one that establishes trust"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          11,
+          12
+        ],
+        "accepted": [
+          "b",
+          "c"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "you should never consume mushrooms picked by friends or neighbours … avoid is mushrooms growing beside busy roads"
+        }
+      },
+      {
+        "questions": [
+          13,
+          14
+        ],
+        "accepted": [
+          "b",
+          "d"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "it’s only OK to eat mushrooms that are pale or dull – this is completely untrue … just because deer or squirrels eat a particular mushroom doesn’t mean that you can"
+        }
+      },
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "a",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "ultimately, they didn’t achieve anything … it probably didn’t seem a positive thing at the time. I can see why the Luddites felt so threatened"
+        }
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "b",
+          "d"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "all the evidence shows people are spending longer than ever at work … what about lower unemployment? I’m not so sure about that"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-18-test-3",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 18,
+  "testNumber": 3
+}
