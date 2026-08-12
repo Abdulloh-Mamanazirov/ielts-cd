@@ -1,0 +1,712 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 19, Test 1",
+    "source": "Cambridge IELTS 19",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Hinchingbrooke Country Park</div>\n<div><strong>The park</strong></div>\n<div class=\"form-row\"><span class=\"form-label\">Area:</span><span class=\"form-value\">{{1}} hectares</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Habitats:</span><span class=\"form-value\">wetland, grassland and woodland</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Wetland:</span><span class=\"form-value\">lakes, ponds and a {{2}}</span></div>\n<div>Wildlife includes birds, insects and animals</div>\n<div><strong>Subjects studied in educational visits include</strong></div>\n<div class=\"form-row\"><span class=\"form-label\">Science:</span><span class=\"form-value\">Children look at {{3}} about plants, etc.</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Geography:</span><span class=\"form-value\">includes learning to use a {{4}} and compass</span></div>\n<div class=\"form-row\"><span class=\"form-label\">History:</span><span class=\"form-value\">changes in land use</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Leisure and tourism:</span><span class=\"form-value\">mostly concentrates on the park’s {{5}}</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Music:</span><span class=\"form-value\">Children make {{6}} with natural materials, and experiment with rhythm and speed.</span></div>\n<div><strong>Benefits of outdoor educational visits</strong></div>\n<ul class=\"notes-list\">\n<li>They give children a feeling of {{7}} that they may not have elsewhere.</li>\n<li>Children learn new {{8}} and gain self-confidence.</li>\n</ul>\n<div><strong>Practical issues</strong></div>\n<ul class=\"notes-list\">\n<li>Cost per child: £{{9}}</li>\n<li>Adults, such as {{10}}, free</li>\n</ul>\n</div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 11–15</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Stanthorpe Twinning Association</strong></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "During the visit to Malatte, in France, members especially enjoyed",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "going to a theme park."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "experiencing a river trip."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "visiting a cheese factory."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "What will happen in Stanthorpe to mark the 25th anniversary of the Twinning Association?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "A tree will be planted."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "A garden seat will be bought."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "A footbridge will be built."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "Which event raised most funds this year?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the film show"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the pancake evening"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the cookery demonstration"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "For the first evening with the French visitors host families are advised to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "take them for a walk round the town."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "go to a local restaurant."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "have a meal at home."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "On Saturday evening there will be the chance to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "listen to a concert."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "watch a match."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "take part in a competition."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "map_labeling",
+            "rubricHtml": "<h3>Questions 16–20</h3><p>Label the map below.</p><p>Write the correct letter, <strong>A–H</strong>, next to Questions 16–20.</p>",
+            "selectCount": 1,
+            "imageUrl": "/test-media/listening-cambridge-19-test-1-p2-map.jpg",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "Farm shop"
+              },
+              {
+                "number": 17,
+                "textHtml": "Disabled entry"
+              },
+              {
+                "number": 18,
+                "textHtml": "Adventure playground"
+              },
+              {
+                "number": 19,
+                "textHtml": "Kitchen gardens"
+              },
+              {
+                "number": 20,
+                "textHtml": "The Temple of the Four Winds"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 21 and 22</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> things did Colin find most satisfying about his bread reuse project?</p>",
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> things did Colin find most satisfying about his bread reuse project?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "receiving support from local restaurants"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "finding a good way to prevent waste"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "overcoming problems in a basic process"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "experimenting with designs and colours"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "learning how to apply 3-D printing"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 23 and 24</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> ways do the students agree that touch-sensitive sensors for food labels could be developed in future?</p>",
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Which <strong>TWO</strong> ways do the students agree that touch-sensitive sensors for food labels could be developed in future?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "for use on medical products"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to show that food is no longer fit to eat"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "for use with drinks as well as foods"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "to provide applications for blind people"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "to indicate the weight of certain foods"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 25–30</h3><p>What is the students’ opinion about each of the following food trends?</p><p>Choose <strong>SIX</strong> answers from the box and write the correct letter, <strong>A–H</strong>, next to Questions 25–30.</p><p><strong>Food trends</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "This is only relevant to young people."
+              },
+              {
+                "letter": "B",
+                "textHtml": "This may have disappointing results."
+              },
+              {
+                "letter": "C",
+                "textHtml": "This already seems to be widespread."
+              },
+              {
+                "letter": "D",
+                "textHtml": "Retailers should do more to encourage this."
+              },
+              {
+                "letter": "E",
+                "textHtml": "More financial support is needed for this."
+              },
+              {
+                "letter": "F",
+                "textHtml": "Most people know little about this."
+              },
+              {
+                "letter": "G",
+                "textHtml": "There should be stricter regulations about this."
+              },
+              {
+                "letter": "H",
+                "textHtml": "This could be dangerous."
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Use of local products"
+              },
+              {
+                "number": 26,
+                "textHtml": "Reduction in unnecessary packaging"
+              },
+              {
+                "number": 27,
+                "textHtml": "Gluten-free and lactose-free food"
+              },
+              {
+                "number": 28,
+                "textHtml": "Use of branded products related to celebrity chefs"
+              },
+              {
+                "number": 29,
+                "textHtml": "Development of ‘ghost kitchens’ for takeaway food"
+              },
+              {
+                "number": 30,
+                "textHtml": "Use of mushrooms for common health concerns"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Céide Fields</div>\n<ul class=\"notes-list\">\n<li>an important Neolithic archaeological site in the northwest of Ireland</li>\n</ul>\n<div><strong>Discovery</strong></div>\n<ul class=\"notes-list\">\n<li>In the 1930s, a local teacher realised that stones beneath the bog surface were once {{31}}.</li>\n<li>His {{32}} became an archaeologist and undertook an investigation of the site:\n<ul class=\"notes-list\">\n<li>a traditional method used by local people to dig for {{33}} was used to identify where stones were located</li>\n<li>carbon dating later proved the site was Neolithic.</li>\n</ul>\n</li>\n<li>Items are well preserved in the bog because of a lack of {{34}}.</li>\n</ul>\n<div><strong>Neolithic farmers</strong></div>\n<ul class=\"notes-list\">\n<li>Houses were {{35}} in shape and had a hole in the roof.</li>\n<li>Neolithic innovations include:\n<ul class=\"notes-list\">\n<li>cooking indoors</li>\n<li>pots used for storage and to make {{36}}.</li>\n</ul>\n</li>\n<li>Each field at Céide was large enough to support a big {{37}}.</li>\n<li>The fields were probably used to restrict the grazing of animals – no evidence of structures to house them during {{38}}.</li>\n</ul>\n<div><strong>Reasons for the decline in farming</strong></div>\n<ul class=\"notes-list\">\n<li>a decline in {{39}} quality</li>\n<li>an increase in {{40}}</li>\n</ul>\n</div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "69",
+          "sixty-nine"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the park covers 170 acres, that’s 69 hectares"
+        }
+      },
+      "2": {
+        "accepted": [
+          "stream"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "ponds and a stream that flows through the park"
+        }
+      },
+      "3": {
+        "accepted": [
+          "data"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "They also collect and analyse data about the things they see"
+        }
+      },
+      "4": {
+        "accepted": [
+          "map"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "learn and practise reading a map and using a compass"
+        }
+      },
+      "5": {
+        "accepted": [
+          "visitors"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "That focuses on your visitors, I would imagine"
+        }
+      },
+      "6": {
+        "accepted": [
+          "sounds"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the children experiment with natural materials to create sounds"
+        }
+      },
+      "7": {
+        "accepted": [
+          "freedom"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "they get a sense of freedom that might not be a normal part of their lives"
+        }
+      },
+      "8": {
+        "accepted": [
+          "skills"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "they develop new skills. This gives them greater self-confidence"
+        }
+      },
+      "9": {
+        "accepted": [
+          "4.95"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "If there are over 30, it costs £4.95 for each child"
+        }
+      },
+      "10": {
+        "accepted": [
+          "leaders"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "There’s no charge for leaders and other adults"
+        }
+      },
+      "11": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "the final boat trip down the river – that was the real highlight"
+        }
+      },
+      "12": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "we’ve decided to plant a poplar tree in the museum gardens"
+        }
+      },
+      "13": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "Our pancake evening was well attended and made record profits"
+        }
+      },
+      "14": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "have dinner in the house or garden rather than eating out"
+        }
+      },
+      "15": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "we’ll have Toby Sharp and his band performing English and Scottish country songs"
+        }
+      },
+      "16": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Map labelling",
+        "evidence": {
+          "snippet": "it’s in the old stables, which is the first building you come to … in the far corner on the left"
+        }
+      },
+      "17": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Map labelling",
+        "evidence": {
+          "snippet": "This is on the far side of the house from the car park"
+        }
+      },
+      "18": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Map labelling",
+        "evidence": {
+          "snippet": "That’s at the northern end of the larger lake, in a bend on the path that leads to the lake"
+        }
+      },
+      "19": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Map labelling",
+        "evidence": {
+          "snippet": "The kitchen gardens are rectangular and surrounded by a wall … to the north-east of the house, quite near the smaller lake"
+        }
+      },
+      "20": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Map labelling",
+        "evidence": {
+          "snippet": "when the path forks, take the right-hand path … the temple is right at the end"
+        }
+      },
+      "25": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "more focus on local products … they need to be more proactive to address that"
+        }
+      },
+      "26": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "the need for a reduction in unnecessary packaging … The government needs to do something about it"
+        }
+      },
+      "27": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "Lots of people I know have been buying that type of food for years now"
+        }
+      },
+      "28": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "I bought something like that once, but I won’t again … it didn’t actually taste of anything"
+        }
+      },
+      "29": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "people aren’t aware of that – it’s all kept very quiet"
+        }
+      },
+      "30": {
+        "accepted": [
+          "h"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "They might be taking a big risk there … it’s hard to know which varieties are safe to eat"
+        }
+      },
+      "31": {
+        "accepted": [
+          "walls"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "rows of stones. He realised that these must be walls"
+        }
+      },
+      "32": {
+        "accepted": [
+          "son"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Patrick Caulfield’s son Seamus, who had become an archaeologist"
+        }
+      },
+      "33": {
+        "accepted": [
+          "fuel"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "a traditional method which local people had always used for finding fuel"
+        }
+      },
+      "34": {
+        "accepted": [
+          "oxygen"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "because of the acidity of the peat and the deficiency of oxygen"
+        }
+      },
+      "35": {
+        "accepted": [
+          "rectangular"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "These weren’t round as people often assume, but rectangular"
+        }
+      },
+      "36": {
+        "accepted": [
+          "lamps"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "they served as lamps"
+        }
+      },
+      "37": {
+        "accepted": [
+          "family"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "each plot of land was of a suitable size to sustain an extended family"
+        }
+      },
+      "38": {
+        "accepted": [
+          "winter"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "no structures have been found which would have been used to shelter animals in the winter"
+        }
+      },
+      "39": {
+        "accepted": [
+          "soil"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "The soil would have become less productive"
+        }
+      },
+      "40": {
+        "accepted": [
+          "rain"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "there was a lot more rain"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "b",
+          "d"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "I had time to play around with different patterns … a more appetising colour … make something appetising out of bits of old bread that would’ve been thrown away otherwise"
+        }
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "a",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "I thought it might be really good for drug storage in hospitals and pharmacies … how many kilograms a joint of meat is"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-19-test-1",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 19,
+  "testNumber": 1
+}
