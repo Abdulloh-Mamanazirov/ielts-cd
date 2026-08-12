@@ -1,0 +1,783 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 19, Test 2",
+    "source": "Cambridge IELTS 19",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–6</h3><p>Complete the form below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Guitar Group</div>\n<div class=\"form-row\"><span class=\"form-label\">Coordinator:</span><span class=\"form-value\">Gary {{1}}</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Level:</span><span class=\"form-value\">{{2}}</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Place:</span><span class=\"form-value\">the {{3}}<br>{{4}} Street<br>First floor, Room T347</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Time:</span><span class=\"form-value\">Thursday morning at {{5}}</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Recommended website:</span><span class=\"form-value\">‘The perfect {{6}}’</span></div>\n</div>"
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 7–10</h3><p>Complete the table below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div><table class=\"q-table\">\n<thead><tr><th colspan=\"3\">A typical 45-minute guitar lesson</th></tr>\n<tr><th>Time</th><th>Activity</th><th>Notes</th></tr></thead>\n<tbody>\n<tr><td>5 minutes</td><td>tuning guitars</td><td>using an app or by {{7}}</td></tr>\n<tr><td>10 minutes</td><td>strumming chords using our thumbs</td><td>keeping time while the teacher is {{8}}</td></tr>\n<tr><td>15 minutes</td><td>playing songs</td><td>often listening to a {{9}} of a song</td></tr>\n<tr><td>10 minutes</td><td>playing single notes and simple tunes</td><td>playing together, then {{10}}</td></tr>\n<tr><td>5 minutes</td><td>noting things to practise at home</td><td></td></tr>\n</tbody></table></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 11–16</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Working as a lifeboat volunteer</strong></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "What made David leave London and move to Northsea?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He was eager to develop a hobby."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He wanted to work shorter hours."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He found his job in website design unsatisfying."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "The Lifeboat Institution in Northsea was built with money provided by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a local organisation."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a local resident."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the local council."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "In his health assessment, the doctor was concerned about the fact that David",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "might be colour blind."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "was rather short-sighted."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "had undergone eye surgery."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "After arriving at the lifeboat station, they aim to launch the boat within",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "five minutes."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "six to eight minutes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "eight and a half minutes."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "As a ‘helmsman’, David has the responsibility of deciding",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "who will be the members of his crew."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "what equipment it will be necessary to take."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "if the lifeboat should be launched."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "As well as going out on the lifeboat, David",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "gives talks on safety at sea."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "helps with fundraising."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "recruits new volunteers."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 17 and 18</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> things does David say about the lifeboat volunteer training?</p>",
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which <strong>TWO</strong> things does David say about the lifeboat volunteer training?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The residential course developed his leadership skills."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The training in use of ropes and knots was quite brief."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The training exercises have built up his mental strength."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "The casualty care activities were particularly challenging for him."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "The wave tank activities provided practice in survival techniques."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 19 and 20</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> things does David find most motivating about the work he does?</p>",
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> things does David find most motivating about the work he does?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "working as part of a team"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "experiences when working in winter"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "being thanked by those he has helped"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the fact that it keeps him fit"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "the chance to develop new equipment"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 21–24</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "At first, Don thought the topic of recycling footwear might be too",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "limited in scope."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "hard to research."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "boring for listeners."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "When discussing trainers, Bella and Don disagree about",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how popular they are among young people."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "how suitable they are for school."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how quickly they wear out."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "Bella says that she sometimes recycles shoes because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "they no longer fit."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "she no longer likes them."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "they are no longer in fashion."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "What did the article say that confused Don?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Public consumption of footwear has risen."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Less footwear is recycled now than in the past."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "People dispose of more footwear than they used to."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 25–28</h3><p>What reasons did the recycling manager give for rejecting footwear, according to the students?</p><p>Choose <strong>FOUR</strong> answers from the box and write the correct letter, <strong>A–F</strong>, next to Questions 25–28.</p><p><strong>Footwear</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "one shoe was missing"
+              },
+              {
+                "letter": "B",
+                "textHtml": "the colour of one shoe had faded"
+              },
+              {
+                "letter": "C",
+                "textHtml": "one shoe had a hole in it"
+              },
+              {
+                "letter": "D",
+                "textHtml": "the shoes were brand new"
+              },
+              {
+                "letter": "E",
+                "textHtml": "the shoes were too dirty"
+              },
+              {
+                "letter": "F",
+                "textHtml": "the stitching on the shoes was broken"
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "the high-heeled shoes"
+              },
+              {
+                "number": 26,
+                "textHtml": "the ankle boots"
+              },
+              {
+                "number": 27,
+                "textHtml": "the baby shoes"
+              },
+              {
+                "number": 28,
+                "textHtml": "the trainers"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 29 and 30</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "Why did the project to make ‘new’ shoes out of old shoes fail?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "People believed the ‘new’ pairs of shoes were unhygienic."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There were not enough good parts to use in the old shoes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The shoes in the ‘new’ pairs were not completely alike."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "Bella and Don agree that they can present their topic",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "from a new angle."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "with relevant images."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "in a straightforward way."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Tardigrades</div>\n<ul class=\"notes-list\">\n<li>more than 1,000 species, 0.05–1.2 millimetres long</li>\n<li>also known as water ‘bears’ (due to how they {{31}}) and ‘moss piglets’</li>\n</ul>\n<div><strong>Physical appearance</strong></div>\n<ul class=\"notes-list\">\n<li>a {{32}} round body and four pairs of legs</li>\n<li>claws or {{33}} for gripping</li>\n<li>absence of respiratory organs</li>\n<li>body filled with a liquid that carries both {{34}} and blood</li>\n<li>mouth shaped like a {{35}} with teeth called stylets</li>\n</ul>\n<div><strong>Habitat</strong></div>\n<ul class=\"notes-list\">\n<li>often found at the bottom of a lake or on plants</li>\n<li>very resilient and can exist in very low or high {{36}}</li>\n</ul>\n<div><strong>Cryptobiosis</strong></div>\n<ul class=\"notes-list\">\n<li>In dry conditions, they roll into a ball called a ‘tun’.</li>\n<li>They stay alive with a much lower metabolism than usual.</li>\n<li>A type of {{37}} ensures their DNA is not damaged.</li>\n<li>Research is underway to find out how many days they can stay alive in {{38}}.</li>\n</ul>\n<div><strong>Feeding</strong></div>\n<ul class=\"notes-list\">\n<li>consume liquids, e.g., those found in moss or {{39}}</li>\n<li>may eat other tardigrades</li>\n</ul>\n<div><strong>Conservation status</strong></div>\n<ul class=\"notes-list\">\n<li>They are not considered to be {{40}}.</li>\n</ul>\n</div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "mathieson"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "his name’s Gary Mathieson"
+        }
+      },
+      "2": {
+        "accepted": [
+          "beginners"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "he said it was a class for beginners"
+        }
+      },
+      "3": {
+        "accepted": [
+          "college"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "he decided to book a room at the college in town"
+        }
+      },
+      "4": {
+        "accepted": [
+          "new"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "at the bottom of New Street near the city roundabout"
+        }
+      },
+      "5": {
+        "accepted": [
+          "11",
+          "eleven"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "It used to be 10.30 … but now we meet at 11"
+        }
+      },
+      "6": {
+        "accepted": [
+          "instrument"
+        ],
+        "type": "Form completion",
+        "evidence": {
+          "snippet": "There’s a website called ‘The perfect instrument’"
+        }
+      },
+      "7": {
+        "accepted": [
+          "ear"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "Some people have an app they use, but others do it by ear"
+        }
+      },
+      "8": {
+        "accepted": [
+          "clapping"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "we’re so bad at keeping time, so Gary starts clapping to help us"
+        }
+      },
+      "9": {
+        "accepted": [
+          "recording"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "He often brings a recording of the song and plays it to us first"
+        }
+      },
+      "10": {
+        "accepted": [
+          "alone"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "he sometimes gets us to play one at a time – you know, alone"
+        }
+      },
+      "11": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I’d been really keen on boats as a teenager, and I thought if I went to live by the sea, I might be able to pursue that interest a bit more in my free time"
+        }
+      },
+      "12": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "funds provided by a generous member of the public who’d lived here all her life"
+        }
+      },
+      "13": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "They gave me tests for colour blindness and they thought I might have a problem there"
+        }
+      },
+      "14": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "we try to get the boat off the dock and out to sea in another six to eight minutes"
+        }
+      },
+      "15": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "it’s ultimately my decision whether it’s safe to launch the boat"
+        }
+      },
+      "16": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I speak to youth groups and sailing clubs in the area about the sorts of problems that sailors and swimmers can have"
+        }
+      },
+      "21": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "perhaps there isn’t enough to say about it"
+        }
+      },
+      "22": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "don’t they look a bit casual for school uniform? … Actually, I think some of them look quite smart on pupils"
+        }
+      },
+      "23": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "recycled some perfectly good shoes, that haven’t gone out of fashion and still fit, just because they don’t look great on me any more"
+        }
+      },
+      "24": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "the amount of recycled footwear has fallen: it’s 6 percent now compared to a previous level of 11 percent"
+        }
+      },
+      "25": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "the heels were too stained with mud and grass to re-sell them"
+        }
+      },
+      "26": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "One of the shoes was a much lighter shade than the other one"
+        }
+      },
+      "27": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "You’d think it would have been easy to find the other, but it wasn’t"
+        }
+      },
+      "28": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "One of the soles was so worn under the foot that you could put your finger through it"
+        }
+      },
+      "29": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "It was because the pairs of shoes weren’t identical"
+        }
+      },
+      "30": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "we can show that by taking a very different approach to it"
+        }
+      },
+      "31": {
+        "accepted": [
+          "move"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "‘bear’ because of the way they move"
+        }
+      },
+      "32": {
+        "accepted": [
+          "short"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "They have a body which is short"
+        }
+      },
+      "33": {
+        "accepted": [
+          "discs"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "what they have are discs"
+        }
+      },
+      "34": {
+        "accepted": [
+          "oxygen"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "oxygen and also blood are transported in a fluid that fills the cavity of the body"
+        }
+      },
+      "35": {
+        "accepted": [
+          "tube"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "The tardigrade’s mouth is a kind of tube"
+        }
+      },
+      "36": {
+        "accepted": [
+          "temperatures"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "they’re also able to withstand temperatures as cold as −200 degrees centigrade, or highs of more than 148 degrees centigrade"
+        }
+      },
+      "37": {
+        "accepted": [
+          "protein"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "tardigrades produce a protein that protects their DNA"
+        }
+      },
+      "38": {
+        "accepted": [
+          "space"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "tests taking place in space, to determine how long tardigrades might be able to survive there"
+        }
+      },
+      "39": {
+        "accepted": [
+          "seaweed"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "They suck the juices from moss, or extract fluid from seaweed"
+        }
+      },
+      "40": {
+        "accepted": [
+          "endangered"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "tardigrades have not been evaluated by the International Union for Conservation of Nature and are not on any endangered list"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "c",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "it’s given me the confidence to deal with extreme situations without panicking … we could get experience at what to do if the boat turned over in a storm at night"
+        }
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "a",
+          "b"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "They’re a great group – we’re like a family really … it’s the colder months that can be the most rewarding time"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-19-test-2",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 19,
+  "testNumber": 2
+}
