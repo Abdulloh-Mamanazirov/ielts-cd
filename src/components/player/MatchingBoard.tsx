@@ -26,6 +26,15 @@ import { RichHtml } from "./SlotHtml";
  * Nothing new is stored: the answer is still the letter, so grading, autosave,
  * the navigator and review are untouched.
  */
+
+/**
+ * "Which section contains …" banks hold nothing but the section labels, so the
+ * entry's text is the letter itself. Printing both the control letter and the
+ * text then shows "A A". Same guard as WordBank in QuestionGroupView.
+ */
+const isBareLetter = (letter: string, label: string) =>
+  label.trim().toUpperCase() === letter.trim().toUpperCase();
+
 export function MatchingBoard({
   group,
   answers,
@@ -298,14 +307,16 @@ function Zone({
       {filled ? (
         <>
           <span className="flex-none font-bold text-ink">{letter}</span>
-          <span
-            className={cn(
-              "min-w-0 flex-1",
-              correct === false ? "text-brand-red-cta line-through" : "text-ink",
-            )}
-          >
-            {label}
-          </span>
+          {!isBareLetter(letter, label) && (
+            <span
+              className={cn(
+                "min-w-0 flex-1",
+                correct === false ? "text-brand-red-cta line-through" : "text-ink",
+              )}
+            >
+              {label}
+            </span>
+          )}
         </>
       ) : (
         <span className="w-full text-center font-bold tabular-nums text-ink-subtle">{number}</span>
@@ -354,7 +365,9 @@ function BankOption({
       )}
     >
       <span className="w-[0.9em] flex-none font-bold text-ink">{letter}</span>
-      <span className="min-w-0 flex-1 text-ink">{label}</span>
+      {!isBareLetter(letter, label) && (
+        <span className="min-w-0 flex-1 text-ink">{label}</span>
+      )}
     </button>
   );
 }
