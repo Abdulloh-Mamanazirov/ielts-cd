@@ -1,0 +1,733 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 19, Test 4",
+    "source": "Cambridge IELTS 19",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–6</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 3,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">First day at work</div>\n<div class=\"form-row\"><span class=\"form-label\">Name of supervisor:</span><span class=\"form-value\">{{1}}</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Where to leave coat and bag:</span><span class=\"form-value\">use {{2}} in staffroom</span></div>\n<div class=\"form-row\"><span class=\"form-label\">See Tiffany in HR:</span><span class=\"form-value\">to give {{3}} number<br>to collect {{4}}</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Location of HR office:</span><span class=\"form-value\">on {{5}} floor</span></div>\n<div class=\"form-row\"><span class=\"form-label\">Supervisor’s mobile number:</span><span class=\"form-value\">{{6}}</span></div>\n</div>"
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 7–10</h3><p>Complete the table below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div><table class=\"q-table\">\n<thead><tr><th colspan=\"4\">Responsibilities</th></tr>\n<tr><th></th><th>Task 1</th><th>Task 2</th><th>Notes</th></tr></thead>\n<tbody>\n<tr><td><strong>Bakery section</strong></td><td>Check sell-by dates</td><td>Change price labels</td><td>Use {{7}} labels</td></tr>\n<tr><td><strong>Sushi takeaway counter</strong></td><td>Re-stock with {{8}} boxes if needed</td><td>Wipe preparation area and clean the sink</td><td>Do not clean any knives</td></tr>\n<tr><td><strong>Meat and fish counters</strong></td><td>Clean the serving area, including the weighing scales</td><td>Collect {{9}} for the fish from the cold-room</td><td>Must wear special {{10}}</td></tr>\n</tbody></table></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 11 and 12</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> problems with some training programmes for new runners does Liz mention?</p>",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Which <strong>TWO</strong> problems with some training programmes for new runners does Liz mention?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "There is a risk of serious injury."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They are unsuitable for certain age groups."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They are unsuitable for people with health issues."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "It is difficult to stay motivated."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "There is a lack of individual support."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 13 and 14</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> tips does Liz recommend for new runners?</p>",
+            "questions": [
+              {
+                "number": 13,
+                "textHtml": "Which <strong>TWO</strong> tips does Liz recommend for new runners?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "doing two runs a week"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "running in the evening"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "going on runs with a friend"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "listening to music during runs"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "running very slowly"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 15–18</h3><p>What reason prevented each of the following members of the Compton Park Runners Club from joining until recently?</p><p>Write the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>, next to Questions 15–18.</p><p><strong>Club members</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "a lack of confidence"
+              },
+              {
+                "letter": "B",
+                "textHtml": "a dislike of running"
+              },
+              {
+                "letter": "C",
+                "textHtml": "a lack of time"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Ceri"
+              },
+              {
+                "number": 16,
+                "textHtml": "James"
+              },
+              {
+                "number": 17,
+                "textHtml": "Leo"
+              },
+              {
+                "number": 18,
+                "textHtml": "Mark"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-4",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 19 and 20</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "What does Liz say about running her first marathon?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It had always been her ambition."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Her husband persuaded her to do it."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She nearly gave up before the end."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "Liz says new runners should sign up for a race",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "every six months."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "within a few weeks of taking up running."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "after completing several practice runs."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 21–25</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Kieran thinks the packing advice given by Jane’s grandfather is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "common sense."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "hard to follow."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "over-protective."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "How does Jane feel about the books her grandfather has given her?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They are not worth keeping."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They should go to a collector."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They have sentimental value for her."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "Jane and Kieran agree that hardback books should be",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "put out on display."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "given as gifts to visitors."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "more attractively designed."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "While talking about taking a book from a shelf, Jane",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "describes the mistakes other people make doing it."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "reflects on a significant childhood experience."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "explains why some books are easier to remove than others."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "What do Jane and Kieran suggest about new books?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Their parents liked buying them as presents."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They would like to buy more of them."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Not everyone can afford them."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 26–30</h3><p>Where does Jane’s grandfather keep each of the following types of books in his shop?</p><p>Choose <strong>FIVE</strong> answers from the box and write the correct letter, <strong>A–G</strong>, next to Questions 26–30.</p><p><strong>Types of books</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "near the entrance"
+              },
+              {
+                "letter": "B",
+                "textHtml": "in the attic"
+              },
+              {
+                "letter": "C",
+                "textHtml": "at the back of the shop"
+              },
+              {
+                "letter": "D",
+                "textHtml": "on a high shelf"
+              },
+              {
+                "letter": "E",
+                "textHtml": "near the stairs"
+              },
+              {
+                "letter": "F",
+                "textHtml": "in a specially designed space"
+              },
+              {
+                "letter": "G",
+                "textHtml": "within the café"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "rare books"
+              },
+              {
+                "number": 27,
+                "textHtml": "children’s books"
+              },
+              {
+                "number": 28,
+                "textHtml": "unwanted books"
+              },
+              {
+                "number": 29,
+                "textHtml": "requested books"
+              },
+              {
+                "number": 30,
+                "textHtml": "coursebooks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Tree planting</div>\n<div><strong>Reforestation projects should:</strong></div>\n<ul class=\"notes-list\">\n<li>include a range of tree species</li>\n<li>not include invasive species because of possible {{31}} with native species</li>\n<li>aim to capture carbon, protect the environment and provide sustainable sources of {{32}} for local people</li>\n<li>use tree seeds with a high genetic diversity to increase resistance to {{33}} and climate change</li>\n<li>plant trees on previously forested land which is in a bad condition, not select land which is being used for {{34}}</li>\n</ul>\n<div><strong>Large-scale reforestation projects</strong></div>\n<ul class=\"notes-list\">\n<li>Base planning decisions on information from accurate {{35}}.</li>\n<li>Drones are useful for identifying areas in Brazil which are endangered by keeping {{36}} and illegal logging.</li>\n</ul>\n<div><strong>Lampang Province, Northern Thailand</strong></div>\n<ul class=\"notes-list\">\n<li>A forest was restored in an area damaged by mining.</li>\n<li>A variety of native fig trees were planted, which are important for\n<ul class=\"notes-list\">\n<li>supporting many wildlife species</li>\n<li>increasing the {{37}} of recovery by attracting animals and birds, e.g., {{38}} were soon attracted to the area.</li>\n</ul>\n</li>\n</ul>\n<div><strong>Involving local communities</strong></div>\n<ul class=\"notes-list\">\n<li>Destruction of mangrove forests in Madagascar made it difficult for people to make a living from {{39}}.</li>\n<li>The mangrove reforestation project:\n<ul class=\"notes-list\">\n<li>provided employment for local people</li>\n<li>restored a healthy ecosystem</li>\n<li>protects against the higher risk of {{40}}.</li>\n</ul>\n</li>\n</ul>\n</div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "kaeden"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "It’s Kaeden … It’s K-A-E-D-E-N"
+        }
+      },
+      "2": {
+        "accepted": [
+          "locker",
+          "lockers"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Put your coat and rucksack in one of the lockers there"
+        }
+      },
+      "3": {
+        "accepted": [
+          "passport"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "I was told to bring my passport with me"
+        }
+      },
+      "4": {
+        "accepted": [
+          "uniform"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Tiffany will give you a uniform"
+        }
+      },
+      "5": {
+        "accepted": [
+          "third",
+          "3rd"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "HR are a couple of floors above that, on the third floor"
+        }
+      },
+      "6": {
+        "accepted": [
+          "0412 665 903",
+          "0412665903"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "It’s oh-four-one-two double-six-five nine-oh-three"
+        }
+      },
+      "7": {
+        "accepted": [
+          "yellow"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "put a yellow one on the package, next to the original price"
+        }
+      },
+      "8": {
+        "accepted": [
+          "plastic"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "Beneath those is where we keep the plastic boxes"
+        }
+      },
+      "9": {
+        "accepted": [
+          "ice"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "The fish is laid on ice, but when that starts to melt"
+        }
+      },
+      "10": {
+        "accepted": [
+          "gloves"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "make sure you put on thermal gloves when you take anything out of the cold-room"
+        }
+      },
+      "15": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "wasn’t sure if she’d be able to do it. She was worried about being left behind and being the slowest runner"
+        }
+      },
+      "16": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "James had always hated the idea of running"
+        }
+      },
+      "17": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "wasn’t sure he’d be able to fit training into his busy schedule"
+        }
+      },
+      "18": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "It took him months to find the courage to contact us"
+        }
+      },
+      "19": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I felt like giving up halfway through – it was only the support of the spectators that kept me going"
+        }
+      },
+      "20": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "after you’ve been training for a few weeks, it’s worth putting your name down for a 5K"
+        }
+      },
+      "21": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "you have to support the spine otherwise the paper can come away from the cover — Yeah – that’s obvious"
+        }
+      },
+      "22": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "I should dump them really if they’re going to deteriorate further, but I’d feel bad. They’ll always remind me of him"
+        }
+      },
+      "23": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "if they have, say, a colourful book on a table, it’s the first thing I’m drawn to — I agree"
+        }
+      },
+      "24": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "He watched me pull a heavy book off the shelf when I was small, and it fell on the floor and broke apart"
+        }
+      },
+      "25": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "New books aren’t cheap, though, are they? — I guess we’re lucky we can buy them"
+        }
+      },
+      "26": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "he puts them out in the shop but makes sure you need a ladder to get them"
+        }
+      },
+      "27": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "he’s got a dedicated area on the ground floor with cushions"
+        }
+      },
+      "28": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "he just leaves unwanted books by the front door for customers to take"
+        }
+      },
+      "29": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "books people or institutions have requested, they all go at the far end"
+        }
+      },
+      "30": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "he’s moved them downstairs … They’re actually part of the coffee shop"
+        }
+      },
+      "31": {
+        "accepted": [
+          "competition"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Invasive species … are often in competition with native species"
+        }
+      },
+      "32": {
+        "accepted": [
+          "food"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "improve the availability of food for the local community"
+        }
+      },
+      "33": {
+        "accepted": [
+          "disease"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Using seeds with low genetic diversity … can make them vulnerable to disease and unable to adapt to climate change"
+        }
+      },
+      "34": {
+        "accepted": [
+          "agriculture"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Reforesting areas which are currently exploited for agriculture should be avoided"
+        }
+      },
+      "35": {
+        "accepted": [
+          "maps"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Having detailed and up-to-date maps identifying high-priority areas for intervention is essential"
+        }
+      },
+      "36": {
+        "accepted": [
+          "cattle"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "parts of the Amazon are being devastated by human activities such as rearing cattle and illegal logging"
+        }
+      },
+      "37": {
+        "accepted": [
+          "speed"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "they accelerate the speed of the recovery process by attracting animals and birds"
+        }
+      },
+      "38": {
+        "accepted": [
+          "monkeys"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "after only three rainy seasons, monkeys started visiting to eat the fig fruits"
+        }
+      },
+      "39": {
+        "accepted": [
+          "fishing"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "badly affected the fishing industry, which was a major source of employment for local people"
+        }
+      },
+      "40": {
+        "accepted": [
+          "flooding"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "The mangroves also act as a defence against the increased threat of flooding"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          11,
+          12
+        ],
+        "accepted": [
+          "c",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "they don’t work for everyone – especially if you suffer from something like a heart condition or asthma … there’s no one to provide any answers"
+        }
+      },
+      {
+        "questions": [
+          13,
+          14
+        ],
+        "accepted": [
+          "a",
+          "d"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "Listening to music can be very helpful … aim to train regularly – twice a week is enough to begin with"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-19-test-4",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 19,
+  "testNumber": 4
+}
