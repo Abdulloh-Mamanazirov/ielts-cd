@@ -1,0 +1,701 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 19, Test 3",
+    "source": "Cambridge IELTS 19",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–6</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Local food shops</div>\n<div><strong>Where to go</strong></div>\n<ul class=\"notes-list\">\n<li>Kite Place – near the {{1}}</li>\n</ul>\n<div><strong>Fish market</strong></div>\n<ul class=\"notes-list\">\n<li>cross the {{2}} and turn right</li>\n<li>best to go before {{3}} pm, earlier than closing time</li>\n</ul>\n<div><strong>Organic shop</strong></div>\n<ul class=\"notes-list\">\n<li>called ‘{{4}}’</li>\n<li>below a restaurant in the large, grey building</li>\n<li>look for the large {{5}} outside</li>\n</ul>\n<div><strong>Supermarket</strong></div>\n<ul class=\"notes-list\">\n<li>take a {{6}} minibus, number 289</li>\n</ul>\n</div>"
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 7–10</h3><p>Complete the table below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div><table class=\"q-table\">\n<thead><tr><th colspan=\"3\">Shopping</th></tr>\n<tr><th></th><th>To buy</th><th>Other ideas</th></tr></thead>\n<tbody>\n<tr><td><strong>Fish market</strong></td><td>a dozen prawns</td><td>a handful of {{7}} (type of seaweed)</td></tr>\n<tr><td><strong>Organic shop</strong></td><td>beans and a {{8}} for dessert</td><td>spices and {{9}}</td></tr>\n<tr><td><strong>Bakery</strong></td><td>a brown loaf</td><td>a {{10}} tart</td></tr>\n</tbody></table></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 11–16</h3><p>What information is given about each of the following festival workshops?</p><p>Choose <strong>SIX</strong> answers from the box and write the correct letter, <strong>A–H</strong>, next to Questions 11–16.</p><p><strong>Festival workshops</strong></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "involves painting and drawing"
+              },
+              {
+                "letter": "B",
+                "textHtml": "will be led by a prize-winning author"
+              },
+              {
+                "letter": "C",
+                "textHtml": "is aimed at children with a disability"
+              },
+              {
+                "letter": "D",
+                "textHtml": "involves a drama activity"
+              },
+              {
+                "letter": "E",
+                "textHtml": "focuses on new relationships"
+              },
+              {
+                "letter": "F",
+                "textHtml": "is aimed at a specific age group"
+              },
+              {
+                "letter": "G",
+                "textHtml": "explores an unhappy feeling"
+              },
+              {
+                "letter": "H",
+                "textHtml": "raises awareness of a particular culture"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Superheroes"
+              },
+              {
+                "number": 12,
+                "textHtml": "Just do it"
+              },
+              {
+                "number": 13,
+                "textHtml": "Count on me"
+              },
+              {
+                "number": 14,
+                "textHtml": "Speak up"
+              },
+              {
+                "number": 15,
+                "textHtml": "Jump for joy"
+              },
+              {
+                "number": 16,
+                "textHtml": "Sticks and stones"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 17 and 18</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> reasons does the speaker give for recommending <em>Alive and Kicking</em>?</p>",
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which <strong>TWO</strong> reasons does the speaker give for recommending <em>Alive and Kicking</em>?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It will appeal to both boys and girls."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The author is well known."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It has colourful illustrations."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "It is funny."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "It deals with an important topic."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 19 and 20</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> pieces of advice does the speaker give to parents about reading?</p>",
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> pieces of advice does the speaker give to parents about reading?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Encourage children to write down new vocabulary."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Allow children to listen to audio books."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Get recommendations from librarians."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Give children a choice about what they read."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Only read aloud to children until they can read independently."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 21–25</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Science experiment for Year 12 students</strong></p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "How does Clare feel about the students in her Year 12 science class?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "worried that they are not making progress"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "challenged by their poor behaviour in class"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "frustrated at their lack of interest in the subject"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "How does Jake react to Clare’s suggestion about an experiment based on children’s diet?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He is concerned that the results might not be meaningful."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He feels some of the data might be difficult to obtain."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He suspects that the conclusions might be upsetting."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "What problem do they agree may be involved in an experiment involving animals?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Any results may not apply to humans."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It may be complicated to get permission."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Students may not be happy about animal experiments."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "What question do they decide the experiment should address?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Are mice capable of controlling their food intake?"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Does an increase in sugar lead to health problems?"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "How much do supplements of different kinds affect health?"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "Clare might also consider doing another experiment involving",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "other types of food supplement."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "different genetic strains of mice."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "varying amounts of exercise."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 26–30</h3><p>Complete the flowchart below.</p><p>Choose <strong>FIVE</strong> answers from the box and write the correct letter, <strong>A–H</strong>, next to Questions 26–30.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "size"
+              },
+              {
+                "letter": "B",
+                "textHtml": "escape"
+              },
+              {
+                "letter": "C",
+                "textHtml": "age"
+              },
+              {
+                "letter": "D",
+                "textHtml": "water"
+              },
+              {
+                "letter": "E",
+                "textHtml": "cereal"
+              },
+              {
+                "letter": "F",
+                "textHtml": "calculations"
+              },
+              {
+                "letter": "G",
+                "textHtml": "changes"
+              },
+              {
+                "letter": "H",
+                "textHtml": "colour"
+              }
+            ],
+            "bodyHtml": "<div>\n<div class=\"flow-box\">Choose mice which are all the same {{26}}.</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Divide the mice into two groups, each with a different {{27}}.</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Put each group in a separate cage.<br>Feed group A commercial mouse food.<br>Feed group B the same, but also sugar contained in {{28}}.</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Take measurements using an electronic scale.<br>Place them in a weighing chamber to prevent {{29}}.</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Do all necessary {{30}}.</div>\n</div>"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\">\n<div class=\"summary-title\">Microplastics</div>\n<div><strong>Where microplastics come from</strong></div>\n<ul class=\"notes-list\">\n<li>fibres from some {{31}} during washing</li>\n<li>the breakdown of large pieces of plastic</li>\n<li>waste from industry</li>\n<li>the action of vehicle tyres on roads</li>\n</ul>\n<div><strong>Effects of microplastics</strong></div>\n<ul class=\"notes-list\">\n<li>They cause injuries to the {{32}} of wildlife and affect their digestive systems.</li>\n<li>They enter the food chain, e.g., in bottled and tap water, {{33}} and seafood.</li>\n<li>They may not affect human health, but they are already banned in skin cleaning products and {{34}} in some countries.</li>\n<li>Microplastics enter the soil through the air, rain and {{35}}.</li>\n</ul>\n<div><strong>Microplastics in the soil – a study by Anglia Ruskin University</strong></div>\n<ul class=\"notes-list\">\n<li>Earthworms are important because they add {{36}} to the soil.</li>\n<li>The study aimed to find whether microplastics in earthworms affect the {{37}} of plants.</li>\n<li>The study found that microplastics caused:\n<ul class=\"notes-list\">\n<li>{{38}} loss in earthworms</li>\n<li>fewer seeds to germinate</li>\n<li>a rise in the level of {{39}} in the soil.</li>\n</ul>\n</li>\n</ul>\n<div>The study concluded:</div>\n<ul class=\"notes-list\">\n<li>soil should be seen as an important natural process.</li>\n<li>changes to soil damage both ecosystems and {{40}}.</li>\n</ul>\n</div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "harbour",
+          "harbor"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Kite Place – it’s the area by the harbour"
+        }
+      },
+      "2": {
+        "accepted": [
+          "bridge"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "you have to go over the bridge and then it’s on the right"
+        }
+      },
+      "3": {
+        "accepted": [
+          "3.30",
+          "three thirty",
+          "half three"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "As long as you get there by 3.30, you should be fine"
+        }
+      },
+      "4": {
+        "accepted": [
+          "rose"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "it’s the name of a flower. I know, it’s ‘Rose’"
+        }
+      },
+      "5": {
+        "accepted": [
+          "sign"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "there’s also a big sign on the pavement"
+        }
+      },
+      "6": {
+        "accepted": [
+          "purple"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "It’s purple and the number is 289"
+        }
+      },
+      "7": {
+        "accepted": [
+          "samphire"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "Have you ever tried samphire? … It’s a type of seaweed"
+        }
+      },
+      "8": {
+        "accepted": [
+          "melon"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "I’d prefer a melon – it’s bigger too"
+        }
+      },
+      "9": {
+        "accepted": [
+          "coconut"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "sells a lot of spices there … and things like coconut"
+        }
+      },
+      "10": {
+        "accepted": [
+          "strawberry"
+        ],
+        "type": "Table completion",
+        "evidence": {
+          "snippet": "they have a whole range of tarts and the best are the strawberry ones"
+        }
+      },
+      "11": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "a chance for deaf children to share their reading experiences"
+        }
+      },
+      "12": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "an opportunity for aspiring actors to do some role play"
+        }
+      },
+      "13": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "the issues of friendship for 13–14-year-olds"
+        }
+      },
+      "14": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "encouraging children to describe situations where young people experience loneliness"
+        }
+      },
+      "15": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "It recently received the gold medal at the Waterford Awards"
+        }
+      },
+      "16": {
+        "accepted": [
+          "h"
+        ],
+        "type": "Matching",
+        "evidence": {
+          "snippet": "to help local children learn about their Jamaican roots"
+        }
+      },
+      "21": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "It’s just that they don’t seem to think that science has anything to do with their lives"
+        }
+      },
+      "22": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "you’d also need to have access to the children’s medical records and I don’t think people would be happy about that"
+        }
+      },
+      "23": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "the same thing wouldn’t necessarily be true for people, would it?"
+        }
+      },
+      "24": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "maybe the focus could be on whether mice can control their own diet"
+        }
+      },
+      "25": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "you could give some of the mice the chance to be more active, running on a wheel or something"
+        }
+      },
+      "26": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Flowchart completion",
+        "evidence": {
+          "snippet": "all young ones, not a mixture of old and young"
+        }
+      },
+      "27": {
+        "accepted": [
+          "h"
+        ],
+        "type": "Flowchart completion",
+        "evidence": {
+          "snippet": "mark them in some way? — You could use food colouring"
+        }
+      },
+      "28": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Flowchart completion",
+        "evidence": {
+          "snippet": "give them something like cereal with it"
+        }
+      },
+      "29": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Flowchart completion",
+        "evidence": {
+          "snippet": "a weighing chamber to stop the mice from running away"
+        }
+      },
+      "30": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Flowchart completion",
+        "evidence": {
+          "snippet": "once we’ve measured the weight gain of each mouse we can work out the average for each group"
+        }
+      },
+      "31": {
+        "accepted": [
+          "clothing"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "microfibres detach from synthetic clothing"
+        }
+      },
+      "32": {
+        "accepted": [
+          "mouths"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "damaging their mouths"
+        }
+      },
+      "33": {
+        "accepted": [
+          "salt"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "salt and many kinds of seafood have also been found to contain microplastics"
+        }
+      },
+      "34": {
+        "accepted": [
+          "toothpaste"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "legislation which prevents manufacturers from adding plastic microbeads to shower gels, facial cleansers and toothpaste"
+        }
+      },
+      "35": {
+        "accepted": [
+          "fertilisers",
+          "fertilizers"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "many of the fertilisers used by both farmers and gardeners contain microplastics"
+        }
+      },
+      "36": {
+        "accepted": [
+          "nutrients"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "By feeding on soil, they mix nutrients into it"
+        }
+      },
+      "37": {
+        "accepted": [
+          "growth"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "ingestion of these by earthworms – would impact soil quality and ultimately inhibit plant growth"
+        }
+      },
+      "38": {
+        "accepted": [
+          "weight"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "The result was that the worms lost weight rapidly"
+        }
+      },
+      "39": {
+        "accepted": [
+          "acid"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "there was an increase in the amount of acid found in the soil"
+        }
+      },
+      "40": {
+        "accepted": [
+          "society"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "not only ecosystems but also the whole of society are negatively impacted"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "d",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "It deals with the serious issue of immigration … this one actually made me cry with laughter"
+        }
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "b",
+          "c"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "let them listen to audio books … introduce new authors and genres to them. Librarians should be able to help you with this"
+        }
+      }
+    ]
+  },
+  "slug": "listening-cambridge-19-test-3",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 19,
+  "testNumber": 3
+}
