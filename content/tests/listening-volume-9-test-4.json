@@ -289,20 +289,20 @@
           {
             "id": "part-4-group-2",
             "type": "matching",
-            "rubricHtml": "<p>Questions 34–40</p>",
+            "rubricHtml": "<p>Questions 34–40</p><p>Listen and write the correct letter, <strong>A, B or C</strong>, next to Questions 34–40. You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": ","
+                "textHtml": "A"
               },
               {
                 "letter": "B",
-                "textHtml": "or"
+                "textHtml": "B"
               },
               {
                 "letter": "C",
-                "textHtml": "for each point. You may choose any letter more than once."
+                "textHtml": "C"
               }
             ],
             "questions": [

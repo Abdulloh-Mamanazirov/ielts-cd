@@ -18,24 +18,24 @@
           {
             "id": "part-1-group-1",
             "type": "matching",
-            "rubricHtml": "<p>Questions 1–6</p>",
+            "rubricHtml": "<p>Questions 1–6</p><p>Listen and write the correct letter, <strong>A, B, C or D</strong>, next to Questions 1–6. You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": ","
+                "textHtml": "A"
               },
               {
                 "letter": "B",
-                "textHtml": ","
+                "textHtml": "B"
               },
               {
                 "letter": "C",
-                "textHtml": "or"
+                "textHtml": "C"
               },
               {
                 "letter": "D",
-                "textHtml": ", next to Questions 1–6."
+                "textHtml": "D"
               }
             ],
             "questions": [

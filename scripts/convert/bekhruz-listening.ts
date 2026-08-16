@@ -173,22 +173,45 @@ function matchingParts($: CheerioAPI, body: Cheerio<Element>): { wordBank: Optio
   };
 }
 
+/**
+ * Rubric prose that also bolds its answer letters, e.g. "Write the correct
+ * letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>, next to
+ * Questions 12-15." Left unguarded, parseBox split lines like this into fake
+ * options (A -> ",", B -> "or", C -> ", next to questions 12-15."), which is how
+ * a dozen Volume matching groups ended up with rubric fragments for a word bank.
+ */
+const RUBRIC_PHRASE =
+  /correct letter|next to (the )?question|for each (item|point|statement|aspect|of)|more than once|choose (the|two|from)/i;
+
+/** True when the "options" are really the enumeration inside a rubric line. */
+function looksLikeRubric(options: Option[]): boolean {
+  if (!options.length) return true;
+  const junk = options.filter((o) => /^[,;.]?\s*(or|and)?[,;.]?$/i.test(o.textHtml)).length;
+  const rubricky = options.some((o) => RUBRIC_PHRASE.test(o.textHtml));
+  return rubricky || junk >= Math.ceil(options.length / 2);
+}
+
 /** "<strong>A</strong> the realistic colours <strong>B</strong> ..." → options. */
 function parseBox($: CheerioAPI, body: Cheerio<Element>): Option[] {
-  const box = body
+  // Every strong-bearing block, not just the first: the real option box often
+  // sits below the rubric line, which also bolds its A/B/C letters.
+  const boxes = body
     .find("div, p")
-    .filter((_, el) => $(el).find("strong").length >= 2 && $(el).find("select, input").length === 0)
-    .first();
-  if (!box.length) return [];
-  const html = (box.html() ?? "").replace(/&nbsp;/g, " ");
-  const options: Option[] = [];
-  const re = /<strong>\s*([A-Z])\s*<\/strong>([\s\S]*?)(?=<strong>\s*[A-Z]\s*<\/strong>|$)/g;
-  let m: RegExpExecArray | null;
-  while ((m = re.exec(html))) {
-    const textHtml = m[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
-    if (textHtml) options.push({ letter: m[1], textHtml });
+    .filter((_, el) => $(el).find("strong").length >= 2 && $(el).find("select, input").length === 0);
+
+  for (const el of boxes.toArray()) {
+    if (RUBRIC_PHRASE.test($(el).text())) continue; // skip the rubric itself
+    const html = ($(el).html() ?? "").replace(/&nbsp;/g, " ");
+    const options: Option[] = [];
+    const re = /<strong>\s*([A-Z])\s*<\/strong>([\s\S]*?)(?=<strong>\s*[A-Z]\s*<\/strong>|$)/g;
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(html))) {
+      const textHtml = m[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+      if (textHtml) options.push({ letter: m[1], textHtml });
+    }
+    if (options.length && !looksLikeRubric(options)) return options;
   }
-  return options;
+  return [];
 }
 
 /** MCQ items keyed by radio name (qN); stem is the nearest preceding <p>. */

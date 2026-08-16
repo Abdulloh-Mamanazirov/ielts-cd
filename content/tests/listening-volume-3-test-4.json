@@ -280,24 +280,24 @@
           {
             "id": "part-3-group-2",
             "type": "matching",
-            "rubricHtml": "<p>Questions 25–30</p>",
+            "rubricHtml": "<p>Questions 25–30</p><p>Listen and write the correct letter, <strong>A, B, C or D</strong>, next to Questions 25–30. You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": ","
+                "textHtml": "A"
               },
               {
                 "letter": "B",
-                "textHtml": ","
+                "textHtml": "B"
               },
               {
                 "letter": "C",
-                "textHtml": "or"
+                "textHtml": "C"
               },
               {
                 "letter": "D",
-                "textHtml": "(you may use any letter more than once)."
+                "textHtml": "D"
               }
             ],
             "questions": [
