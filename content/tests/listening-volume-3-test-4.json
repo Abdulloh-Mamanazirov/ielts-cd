@@ -285,19 +285,19 @@
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": "A"
+                "textHtml": "recreational"
               },
               {
                 "letter": "B",
-                "textHtml": "B"
+                "textHtml": "practical"
               },
               {
                 "letter": "C",
-                "textHtml": "C"
+                "textHtml": "spiritual"
               },
               {
                 "letter": "D",
-                "textHtml": "D"
+                "textHtml": "commercial"
               }
             ],
             "questions": [

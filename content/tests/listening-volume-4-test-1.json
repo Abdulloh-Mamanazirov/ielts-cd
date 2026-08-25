@@ -23,19 +23,19 @@
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": "A"
+                "textHtml": "Royal Hotel"
               },
               {
                 "letter": "B",
-                "textHtml": "B"
+                "textHtml": "Star Hotel"
               },
               {
                 "letter": "C",
-                "textHtml": "C"
+                "textHtml": "Winchester Hotel"
               },
               {
                 "letter": "D",
-                "textHtml": "D"
+                "textHtml": "all three hotels"
               }
             ],
             "questions": [
@@ -263,35 +263,35 @@
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": "A"
+                "textHtml": "ultrasound"
               },
               {
                 "letter": "B",
-                "textHtml": "B"
+                "textHtml": "gamma-ray technology"
               },
               {
                 "letter": "C",
-                "textHtml": "C"
+                "textHtml": "stone"
               },
               {
                 "letter": "D",
-                "textHtml": "D"
+                "textHtml": "a laser scanner"
               },
               {
                 "letter": "E",
-                "textHtml": "E"
+                "textHtml": "a radar machine"
               },
               {
                 "letter": "F",
-                "textHtml": "F"
+                "textHtml": "glass"
               },
               {
                 "letter": "G",
-                "textHtml": "G"
+                "textHtml": "a thermographic camera"
               },
               {
                 "letter": "H",
-                "textHtml": "H"
+                "textHtml": "brick"
               }
             ],
             "questions": [

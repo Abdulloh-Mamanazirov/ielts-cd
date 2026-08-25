@@ -118,15 +118,15 @@
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": "A"
+                "textHtml": "It should be a priority for fire wardens."
               },
               {
                 "letter": "B",
-                "textHtml": "B"
+                "textHtml": "It will be dealt with by an external specialist."
               },
               {
                 "letter": "C",
-                "textHtml": "C"
+                "textHtml": "It does not require attention."
               }
             ],
             "questions": [
