@@ -32,70 +32,70 @@
           {
             "id": "part-2-group-1",
             "type": "matching",
-            "rubricHtml": "<p>Questions 11–16: What tourist attraction does each of the following locations have? Choose <strong>SIX</strong> answers from the box and write the correct letter, A–I, next to questions 11–16.</p>",
+            "rubricHtml": "<h3>Questions 11–16</h3><p>What tourist attraction does each of the following locations have?</p><p>Choose <strong>6</strong> answers from the box and write the correct letter, <strong>A–I</strong>, next to Questions 11–16.</p>",
             "selectCount": 1,
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": "A"
+                "textHtml": "farming life in the past"
               },
               {
                 "letter": "B",
-                "textHtml": "B"
+                "textHtml": "nature reserve"
               },
               {
                 "letter": "C",
-                "textHtml": "C"
+                "textHtml": "canoes"
               },
               {
                 "letter": "D",
-                "textHtml": "D"
+                "textHtml": "old ruins"
               },
               {
                 "letter": "E",
-                "textHtml": "E"
+                "textHtml": "newly born deer"
               },
               {
                 "letter": "F",
-                "textHtml": "F"
+                "textHtml": "birds"
               },
               {
                 "letter": "G",
-                "textHtml": "G"
+                "textHtml": "waterfalls"
               },
               {
                 "letter": "H",
-                "textHtml": "H"
+                "textHtml": "wild flowers"
               },
               {
                 "letter": "I",
-                "textHtml": "I"
+                "textHtml": "hills"
               }
             ],
             "questions": [
               {
                 "number": 11,
-                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+                "textHtml": "Sheepfold"
               },
               {
                 "number": 12,
-                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+                "textHtml": "Brown Mare"
               },
               {
                 "number": 13,
-                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+                "textHtml": "Doris"
               },
               {
                 "number": 14,
-                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+                "textHtml": "Lodge Estate"
               },
               {
                 "number": 15,
-                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+                "textHtml": "Aurden"
               },
               {
                 "number": 16,
-                "textHtml": "Drag a letter onto the matching location, or use the dropdown. Attractions A — farming life in the past B — nature reserve C — canoes D — old ruins E — newly born deer F — birds G — waterfalls H — wild flowers I — hills 11 Sheepfold 12 Brown Mare 13 Doris 14 Lodge Estate 15 Aurden 16 Eastlake"
+                "textHtml": "Eastlake"
               }
             ]
           },

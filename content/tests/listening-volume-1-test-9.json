@@ -321,50 +321,50 @@
           {
             "id": "part-3-group-3",
             "type": "matching",
-            "rubricHtml": "<p>Questions 27–30: What is people's attitude toward playing each of the following types of music in restaurants? Choose <strong>FOUR</strong> answers from the box and write the correct letter, A–F, next to questions 27–30.</p>",
+            "rubricHtml": "<h3>Questions 27–30</h3><p>What is people’s attitude toward playing each of the following types of music in restaurants?</p><p>Choose <strong>4</strong> answers from the box and write the correct letter, <strong>A–F</strong>, next to Questions 27–30.</p>",
             "selectCount": 1,
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": "A"
+                "textHtml": "people spend more money"
               },
               {
                 "letter": "B",
-                "textHtml": "B"
+                "textHtml": "people don't notice the music"
               },
               {
                 "letter": "C",
-                "textHtml": "C"
+                "textHtml": "people will come back again"
               },
               {
                 "letter": "D",
-                "textHtml": "D"
+                "textHtml": "not worth the price"
               },
               {
                 "letter": "E",
-                "textHtml": "E"
+                "textHtml": "leave right after eating"
               },
               {
                 "letter": "F",
-                "textHtml": "F"
+                "textHtml": "don't like the restaurant"
               }
             ],
             "questions": [
               {
                 "number": 27,
-                "textHtml": "Drag a letter onto the matching music type, or use the dropdown. Attitudes A — people spend more money B — people don't notice the music C — people will come back again D — not worth the price E — leave right after eating F — don't like the restaurant 27 no music 28 jazz 29 classical music 30 pop music"
+                "textHtml": "no music"
               },
               {
                 "number": 28,
-                "textHtml": "Drag a letter onto the matching music type, or use the dropdown. Attitudes A — people spend more money B — people don't notice the music C — people will come back again D — not worth the price E — leave right after eating F — don't like the restaurant 27 no music 28 jazz 29 classical music 30 pop music"
+                "textHtml": "jazz"
               },
               {
                 "number": 29,
-                "textHtml": "Drag a letter onto the matching music type, or use the dropdown. Attitudes A — people spend more money B — people don't notice the music C — people will come back again D — not worth the price E — leave right after eating F — don't like the restaurant 27 no music 28 jazz 29 classical music 30 pop music"
+                "textHtml": "classical music"
               },
               {
                 "number": 30,
-                "textHtml": "Drag a letter onto the matching music type, or use the dropdown. Attitudes A — people spend more money B — people don't notice the music C — people will come back again D — not worth the price E — leave right after eating F — don't like the restaurant 27 no music 28 jazz 29 classical music 30 pop music"
+                "textHtml": "pop music"
               }
             ]
           }
