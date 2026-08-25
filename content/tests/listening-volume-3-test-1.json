@@ -40,8 +40,8 @@
         "groups": [
           {
             "id": "part-2-group-1",
-            "type": "matching",
-            "rubricHtml": "<p>Questions 11–16</p>",
+            "type": "map_labeling",
+            "rubricHtml": "<h3>Questions 11–16</h3><p>Label the map below.</p><p>Write the correct letter, <strong>A–I</strong>, next to Questions 11–16.</p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -106,7 +106,8 @@
                 "number": 16,
                 "textHtml": "Massage room"
               }
-            ]
+            ],
+            "imageUrl": "/test-media/listening-volume-3-test-1-p2-map.png"
           },
           {
             "id": "part-2-group-2",

@@ -112,9 +112,9 @@
           {
             "id": "part-2-group-2",
             "type": "map_labeling",
-            "rubricHtml": "<p>Questions 15–20: Label the map below. Write the correct letter, A–I, next to questions 15–20.</p>",
+            "rubricHtml": "<h3>Questions 15–20</h3><p>Label the map below.</p><p>Write the correct letter, <strong>A–I</strong>, next to Questions 15–20.</p>",
             "selectCount": 1,
-            "imageUrl": "/test-media/listening-volume-1-test-4-map-1.png",
+            "imageUrl": "/test-media/listening-volume-1-test-4-p2-map.png",
             "wordBank": [
               {
                 "letter": "A",
