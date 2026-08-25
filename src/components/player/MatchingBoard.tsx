@@ -65,6 +65,13 @@ export function MatchingBoard({
     questions.map((q) => (answers[String(q.number)] ?? "").trim()).filter(Boolean),
   );
 
+  // Whether a letter may answer more than one question. When it can, graying a
+  // used option reads as "you cannot pick this again", which is wrong and costs
+  // real marks. The rubric usually says so outright; failing that, more
+  // questions than options means reuse is unavoidable (e.g. 6 items, 3 answers).
+  const allowsReuse =
+    /more than once/i.test(group.rubricHtml ?? "") || questions.length > bank.length;
+
   // Escape puts down whatever is in hand, which is the way out of a half-made
   // move without having to guess where it is safe to click.
   useEffect(() => {
@@ -209,12 +216,10 @@ export function MatchingBoard({
                   letter={item.letter}
                   label={htmlToText(item.textHtml)}
                   held={held === item.letter}
-                  // Used answers stay pickable. Some matching rubrics allow a
-                  // letter more than once, and we cannot tell which from the
-                  // content — blocking a legitimate reuse costs a real mark,
-                  // while greying it is enough of a nudge for the ones that do
-                  // not.
-                  used={used.has(item.letter)}
+                  // Grey a used option only when reuse is not allowed — a nudge
+                  // that it is spoken for. When a letter may be reused, greying
+                  // it wrongly signals it is spent, so leave it looking pickable.
+                  used={!allowsReuse && used.has(item.letter)}
                   reviewMode={reviewMode}
                   onPick={() => {
                     const next = held === item.letter ? null : item.letter;
