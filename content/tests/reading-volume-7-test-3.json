@@ -141,39 +141,35 @@
           },
           {
             "id": "part-2-group-2",
-            "type": "matching",
-            "rubricHtml": "<h3>Questions 21–22</h3>Which TWO of the following reasons are given as possible explanations of scientists' play behaviour?",
-            "selectCount": 1,
-            "wordBank": [
-              {
-                "letter": "A",
-                "textHtml": "Play may provide relief from their work."
-              },
-              {
-                "letter": "B",
-                "textHtml": "Scientists sometimes spend time as teachers."
-              },
-              {
-                "letter": "C",
-                "textHtml": "The age of scientists predisposes them to play."
-              },
-              {
-                "letter": "D",
-                "textHtml": "Scientists get ideas from children's questions."
-              },
-              {
-                "letter": "E",
-                "textHtml": "Scientists are secretive about their work."
-              }
-            ],
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 21 and 22</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which TWO of the following reasons are given as possible explanations of scientists' play behaviour?</p>",
+            "selectCount": 2,
             "questions": [
               {
                 "number": 21,
-                "textHtml": "Reason 1"
-              },
-              {
-                "number": 22,
-                "textHtml": "Reason 2"
+                "textHtml": "Which TWO of the following reasons are given as possible explanations of scientists' play behaviour?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Play may provide relief from their work."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Scientists sometimes spend time as teachers."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The age of scientists predisposes them to play."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Scientists get ideas from children's questions."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Scientists are secretive about their work."
+                  }
+                ]
               }
             ]
           },
@@ -466,24 +462,6 @@
           "snippet": "involved a perfume atomiser bought at a local pharmacy, is a classic example of such inspired tinkering"
         }
       },
-      "21": {
-        "accepted": [
-          "A",
-          "C"
-        ],
-        "evidence": {
-          "snippet": "science presents them with too much seriousness"
-        }
-      },
-      "22": {
-        "accepted": [
-          "A",
-          "C"
-        ],
-        "evidence": {
-          "snippet": "tend to be very young"
-        }
-      },
       "23": {
         "accepted": [
           "data"
@@ -629,6 +607,21 @@
         }
       }
     },
-    "sets": []
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "A",
+          "C"
+        ],
+        "type": "Multiple choice (choose two)",
+        "evidence": {
+          "snippet": "science presents them with too much seriousness"
+        }
+      }
+    ]
   }
 }
