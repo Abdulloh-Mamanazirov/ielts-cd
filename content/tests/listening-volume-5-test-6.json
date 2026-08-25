@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Volunteer work application form: Grace Brown</div><p>Mobile phone number: 021 636 7189</p><p>Email address</p><ul><li>graceb@ {{1}} .co.nz</li></ul><p>Qualification</p><ul><li>a diploma in {{2}}</li></ul><p>Agreed work hours</p><ul><li>from {{3}} am to 2pm Monday to Friday</li></ul><p>Volunteer work experience</p><ul><li>a volunteer city {{4}}</li><li>a volunteer netball team {{5}}</li><li>at Rugby World Cup</li></ul><p>Hobbies</p><ul><li>likes to work in her {{6}}</li><li>enjoys flower arranging</li><li>plays the {{7}}</li></ul><p>Type of work offered</p><ul><li>working on a {{8}} for a month</li><li>working in a community centre with elderly people</li></ul><p>Why is she interested in volunteering?</p><ul><li>wants to have more {{9}}</li><li>wants to help others</li></ul><p>Where did she hear about the agency?</p><ul><li>saw an advertisement at the {{10}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Volunteer work application form: Grace Brown</strong></div><p>Mobile phone number: 021 636 7189</p><p>Email address</p><ul><li>graceb@ {{1}} .co.nz</li></ul><p>Qualification</p><ul><li>a diploma in {{2}}</li></ul><p>Agreed work hours</p><ul><li>from {{3}} am to 2pm Monday to Friday</li></ul><p>Volunteer work experience</p><ul><li>a volunteer city {{4}}</li><li>a volunteer netball team {{5}}</li><li>at Rugby World Cup</li></ul><p>Hobbies</p><ul><li>likes to work in her {{6}}</li><li>enjoys flower arranging</li><li>plays the {{7}}</li></ul><p>Type of work offered</p><ul><li>working on a {{8}} for a month</li><li>working in a community centre with elderly people</li></ul><p>Why is she interested in volunteering?</p><ul><li>wants to have more {{9}}</li><li>wants to help others</li></ul><p>Where did she hear about the agency?</p><ul><li>saw an advertisement at the {{10}}</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -457,7 +457,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 39 and 40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>The Horseshoe Crab</div><ul><li><strong>Related to:</strong> spider</li><li><strong>Most common food:</strong> {{39}}</li><li><strong>Time of year when female lays eggs:</strong> {{40}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div><strong>The Horseshoe Crab</strong></div><ul><li><strong>Related to:</strong> spider</li><li><strong>Most common food:</strong> {{39}}</li><li><strong>Time of year when female lays eggs:</strong> {{40}}</li></ul></div>",
             "maxWords": 1
           }
         ]

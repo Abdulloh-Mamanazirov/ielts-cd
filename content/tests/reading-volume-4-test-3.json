@@ -327,7 +327,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 36-40</h3>Complete each sentence with the correct ending, A-G, below.",
             "selectCount": 1,
-            "bodyHtml": "<div>36The traditional view of science is that{{36}}</div><div>37A sociological view of science argues that{{37}}</div><div>38Collins is of the opinion that{{38}}</div><div>39The writer suggests that a supporter of fluoridation may conclude that{{39}}</div><div>40The writer suggests that an opponent of fluoridation may conclude that{{40}}</div><div>Endings</div>",
+            "bodyHtml": "<div>36The traditional view of science is that{{36}}</div><div>37A sociological view of science argues that{{37}}</div><div>38Collins is of the opinion that{{38}}</div><div>39The writer suggests that a supporter of fluoridation may conclude that{{39}}</div><div>40The writer suggests that an opponent of fluoridation may conclude that{{40}}</div><div><strong>Endings</strong></div>",
             "wordBank": [
               {
                 "letter": "A",

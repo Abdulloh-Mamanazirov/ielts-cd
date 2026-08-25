@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–5</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Poppy Reserve in Sandcastle</div><ul><li>Almond Valley Poppy Reserve is a nature reserve</li><li>the poppies will be at their best at the end of the {{1}}</li><li>the poppies on the hills are {{2}} in colour</li><li>the reserve is located to the {{3}} of Lakeside</li><li>the best time for photography is mid-afternoon</li><li>wear {{4}} because of rattlesnakes</li><li>the reserve is a {{5}} park</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div><strong>Poppy Reserve in Sandcastle</strong></div><ul><li>Almond Valley Poppy Reserve is a nature reserve</li><li>the poppies will be at their best at the end of the {{1}}</li><li>the poppies on the hills are {{2}} in colour</li><li>the reserve is located to the {{3}} of Lakeside</li><li>the best time for photography is mid-afternoon</li><li>wear {{4}} because of rattlesnakes</li><li>the reserve is a {{5}} park</li></ul></div>",
             "maxWords": 1
           },
           {
@@ -387,7 +387,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Office Design</div><p>Early 20th Century</p><ul><li>workers employed to do {{31}} were arranged in rows</li></ul><p>1960s to present</p><p>Variations in design of open-plan offices:</p><ul><li>first, workers had individual {{32}}</li><li>later, they had cubicles with high or low {{33}}</li><li>nowadays, workers may have to {{34}} a work area</li></ul><p>Survey results</p><p>Attitudes of employees to open-plan designs:</p><ul><li>there is a lack of {{35}} and {{36}}</li><li>they pose a risk to our {{37}} (staff records support this)</li></ul><p>Attitudes of employers to open-plan designs:</p><ul><li>they significantly reduce rent and {{38}} costs</li><li>they improve teamwork and communication</li><li>they can make {{39}} staff easier</li></ul><p>In reality, employees are unhappy and are often distracted by the {{40}} in the office.</p></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div><strong>Office Design</strong></div><p>Early 20th Century</p><ul><li>workers employed to do {{31}} were arranged in rows</li></ul><p>1960s to present</p><p>Variations in design of open-plan offices:</p><ul><li>first, workers had individual {{32}}</li><li>later, they had cubicles with high or low {{33}}</li><li>nowadays, workers may have to {{34}} a work area</li></ul><p>Survey results</p><p>Attitudes of employees to open-plan designs:</p><ul><li>there is a lack of {{35}} and {{36}}</li><li>they pose a risk to our {{37}} (staff records support this)</li></ul><p>Attitudes of employers to open-plan designs:</p><ul><li>they significantly reduce rent and {{38}} costs</li><li>they improve teamwork and communication</li><li>they can make {{39}} staff easier</li></ul><p>In reality, employees are unhappy and are often distracted by the {{40}} in the office.</p></div>",
             "maxWords": 1
           }
         ]

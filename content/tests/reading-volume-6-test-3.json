@@ -19,7 +19,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 1–7</h3>Complete the notes below. Choose <strong>ONE WORD AND/OR A NUMBER</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div>Farming in the ancient world</div><div><p>Prehistoric times – people collected wild plants, and {{1}} to get meat</p><ul><li>11,500 years ago – people began growing crops, probably {{2}}, e.g. rice or corn – people started to domesticate various types of animals</li><li>Creation of a {{3}} led to the exchange of goods and the beginnings of trade, which resulted in the emergence of cities and the growth of {{4}}</li><li>Farmers gradually began using better {{5}} made from different materials</li><li>Systems of providing a supply of {{6}} were invented in Mesopotamia</li><li>{{7}} years ago, a large proportion of people worldwide had become dependent on farming</li></ul></div>",
+            "bodyHtml": "<div><strong>Farming in the ancient world</strong></div><div><p>Prehistoric times – people collected wild plants, and {{1}} to get meat</p><ul><li>11,500 years ago – people began growing crops, probably {{2}}, e.g. rice or corn – people started to domesticate various types of animals</li><li>Creation of a {{3}} led to the exchange of goods and the beginnings of trade, which resulted in the emergence of cities and the growth of {{4}}</li><li>Farmers gradually began using better {{5}} made from different materials</li><li>Systems of providing a supply of {{6}} were invented in Mesopotamia</li><li>{{7}} years ago, a large proportion of people worldwide had become dependent on farming</li></ul></div>",
             "maxWords": 2
           },
           {

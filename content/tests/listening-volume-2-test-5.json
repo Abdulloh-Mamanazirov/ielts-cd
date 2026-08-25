@@ -353,7 +353,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–36</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Suburbs</div><p>People living in the suburbs</p><ul><li>labour workers, {{31}}</li></ul><p>Advantages of living in the suburbs</p><ul><li>Tax and the prices of {{32}} are low.</li><li>It is easy to start a {{33}}.</li><li>Building {{34}} housing areas to meet the demand of a growing population.</li><li>People have more {{35}} because of wider roads.</li></ul><p>Problem</p><ul><li>lack of space for {{36}} in the suburbs</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Suburbs</strong></div><p>People living in the suburbs</p><ul><li>labour workers, {{31}}</li></ul><p>Advantages of living in the suburbs</p><ul><li>Tax and the prices of {{32}} are low.</li><li>It is easy to start a {{33}}.</li><li>Building {{34}} housing areas to meet the demand of a growing population.</li><li>People have more {{35}} because of wider roads.</li></ul><p>Problem</p><ul><li>lack of space for {{36}} in the suburbs</li></ul></div>",
             "maxWords": 2
           },
           {

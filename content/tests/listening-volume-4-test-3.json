@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–4</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>HOMECARE CLEANING AGENCY</div><p>House Details</p><ul><li><strong>Customer referred by:</strong> friend</li><li><strong>Location:</strong> in the {{1}}</li><li><strong>Type of cleaning:</strong> regular</li><li><strong>Rooms:</strong></li><li>• two {{2}} bedrooms (third bedroom used as {{3}})</li><li>• kitchen/diner</li><li>• {{4}}</li><li>• family room</li><li>• two bathrooms</li></ul></div>",
+            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div><strong>HOMECARE CLEANING AGENCY</strong></div><p>House Details</p><ul><li><strong>Customer referred by:</strong> friend</li><li><strong>Location:</strong> in the {{1}}</li><li><strong>Type of cleaning:</strong> regular</li><li><strong>Rooms:</strong></li><li>• two {{2}} bedrooms (third bedroom used as {{3}})</li><li>• kitchen/diner</li><li>• {{4}}</li><li>• family room</li><li>• two bathrooms</li></ul></div>",
             "maxWords": 2
           },
           {
@@ -90,7 +90,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 8–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>HOMECARE CLEANING AGENCY</div><p>Customer Details</p><ul><li><strong>Name:</strong> Rose Kelly</li><li><strong>Address:</strong> 48 {{8}} Road, Mount Eden</li><li><strong>Day of job:</strong> {{9}}</li><li><strong>Time:</strong> 9.30 am</li><li><strong>Cost per hour:</strong> $25</li><li><strong>Maximum length of job:</strong> {{10}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>HOMECARE CLEANING AGENCY</strong></div><p>Customer Details</p><ul><li><strong>Name:</strong> Rose Kelly</li><li><strong>Address:</strong> 48 {{8}} Road, Mount Eden</li><li><strong>Day of job:</strong> {{9}}</li><li><strong>Time:</strong> 9.30 am</li><li><strong>Cost per hour:</strong> $25</li><li><strong>Maximum length of job:</strong> {{10}}</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -441,7 +441,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Employment Survey on Graduates</div><p>Overview</p><ul><li>interviews from which subject: {{31}}</li><li>two research methods: email questionnaires and {{32}}</li></ul><p>Findings</p><ul><li>32% of students tended to acquire another {{33}}</li><li>only 4% were unemployed</li><li>most of the students work in the {{34}} sector</li><li>majority are happy with: {{35}}</li></ul><p>Feedback</p><p>Useful skills learned in college:</p><ul><li>working as a {{36}} member</li><li>personal organization</li><li>{{37}} ability</li></ul><p>Useless skills:</p><ul><li>{{38}} (lack of training)</li><li>advice on {{39}} (unnecessary)</li><li>advice on finding a {{40}} (not enough)</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div><strong>Employment Survey on Graduates</strong></div><p>Overview</p><ul><li>interviews from which subject: {{31}}</li><li>two research methods: email questionnaires and {{32}}</li></ul><p>Findings</p><ul><li>32% of students tended to acquire another {{33}}</li><li>only 4% were unemployed</li><li>most of the students work in the {{34}} sector</li><li>majority are happy with: {{35}}</li></ul><p>Feedback</p><p>Useful skills learned in college:</p><ul><li>working as a {{36}} member</li><li>personal organization</li><li>{{37}} ability</li></ul><p>Useless skills:</p><ul><li>{{38}} (lack of training)</li><li>advice on {{39}} (unnecessary)</li><li>advice on finding a {{40}} (not enough)</li></ul></div>",
             "maxWords": 2
           }
         ]

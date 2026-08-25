@@ -19,7 +19,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10: Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div>Tour Booking Enquiry</div><p><strong>Type of holiday:</strong> {{1}}</p><p>Hotel:</p><ul><li>Meal: including {{2}}</li><li>Facilities: a pool, a nightclub and a {{3}}</li><li>Prices: reduce from £{{4}} to £315</li></ul><p><strong>Self-catering Apartment:</strong> Stay in a {{5}} room</p><p><strong>Equipment Rental:</strong> Rental for one week: £{{6}}</p><p>Types of Insurance:</p><ul><li>{{7}} Cover: £30</li><li>Premier cover: £{{8}}</li></ul><p><strong>Transport:</strong> The cheapest way of going to airport: by {{9}}</p><p><strong>Payment method:</strong> Pay by {{10}} : no extra fee</p></div>",
+            "bodyHtml": "<div><div><strong>Tour Booking Enquiry</strong></div><p><strong>Type of holiday:</strong> {{1}}</p><p>Hotel:</p><ul><li>Meal: including {{2}}</li><li>Facilities: a pool, a nightclub and a {{3}}</li><li>Prices: reduce from £{{4}} to £315</li></ul><p><strong>Self-catering Apartment:</strong> Stay in a {{5}} room</p><p><strong>Equipment Rental:</strong> Rental for one week: £{{6}}</p><p>Types of Insurance:</p><ul><li>{{7}} Cover: £30</li><li>Premier cover: £{{8}}</li></ul><p><strong>Transport:</strong> The cheapest way of going to airport: by {{9}}</p><p><strong>Payment method:</strong> Pay by {{10}} : no extra fee</p></div>",
             "maxWords": 2
           }
         ]
@@ -184,7 +184,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 21–22: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div>Things that need to be done</div><ul><li>Hand in book reports with the next assignment</li><li>Check accuracy of the {{21}} in the last section</li><li>Give more {{22}}</li><li>Expand ideas to improve the grade</li></ul></div>",
+            "bodyHtml": "<div><div><strong>Things that need to be done</strong></div><ul><li>Hand in book reports with the next assignment</li><li>Check accuracy of the {{21}} in the last section</li><li>Give more {{22}}</li><li>Expand ideas to improve the grade</li></ul></div>",
             "maxWords": 1
           },
           {
@@ -253,7 +253,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div>Research on birds in Australia</div><p>The study by Cunningham in 1995</p><ul><li>It aimed to study birds which were {{31}} in cities</li></ul><p>Methodology</p><ul><li>Researchers were able to {{32}} rather than count the number of birds by some methods, such as random sampling.</li><li>Researchers studied birds' companionship habits using a {{33}} system.</li><li>Researchers attached tags to birds' legs to identify their {{34}} over time.</li></ul><p>Findings</p><ul><li>Birds tended to choose the same nesting site in which they were raised</li><li>Human activities such as {{35}} had a negative effect on the reproduction of birds</li></ul><p>Measures taken by local organisation</p><ul><li>To increase birds' rate of {{36}} in various ways</li><li>To reduce the dangers caused by {{37}} farms, e.g. colliding with turbines</li></ul><p>The study by Conway in 2006</p><ul><li>Researchers monitored the {{38}} of birds' nocturnal callings during flight</li><li>{{39}} were taken to listen to birds' sounds</li><li>Data could be collected through noise detection devices placed at a great {{40}}</li></ul></div>",
+            "bodyHtml": "<div><div><strong>Research on birds in Australia</strong></div><p>The study by Cunningham in 1995</p><ul><li>It aimed to study birds which were {{31}} in cities</li></ul><p>Methodology</p><ul><li>Researchers were able to {{32}} rather than count the number of birds by some methods, such as random sampling.</li><li>Researchers studied birds' companionship habits using a {{33}} system.</li><li>Researchers attached tags to birds' legs to identify their {{34}} over time.</li></ul><p>Findings</p><ul><li>Birds tended to choose the same nesting site in which they were raised</li><li>Human activities such as {{35}} had a negative effect on the reproduction of birds</li></ul><p>Measures taken by local organisation</p><ul><li>To increase birds' rate of {{36}} in various ways</li><li>To reduce the dangers caused by {{37}} farms, e.g. colliding with turbines</li></ul><p>The study by Conway in 2006</p><ul><li>Researchers monitored the {{38}} of birds' nocturnal callings during flight</li><li>{{39}} were taken to listen to birds' sounds</li><li>Data could be collected through noise detection devices placed at a great {{40}}</li></ul></div>",
             "maxWords": 1
           }
         ]

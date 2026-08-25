@@ -19,7 +19,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10: Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div>Damaged Fridge Report</div><p><strong>Warranty:</strong> 3 years</p><p><strong>Model:</strong> {{1}} Mount</p><p><strong>Colour:</strong> {{2}}</p><p><strong>Date of purchase:</strong> {{3}}</p><p>Problems:</p><ul><li>The non-stop {{4}}</li><li>{{5}} degrees</li></ul><p><strong>The repair shop:</strong> Ken's appliance (near to the {{6}})</p><p>The customer needs to store food for her {{7}} shop.</p><p><strong>Total value of loss:</strong> ${{8}}</p><p>Things to do:</p><ul><li>Ask the {{9}} to call back</li><li>Replace the damaged {{10}}</li></ul></div>",
+            "bodyHtml": "<div><div><strong>Damaged Fridge Report</strong></div><p><strong>Warranty:</strong> 3 years</p><p><strong>Model:</strong> {{1}} Mount</p><p><strong>Colour:</strong> {{2}}</p><p><strong>Date of purchase:</strong> {{3}}</p><p>Problems:</p><ul><li>The non-stop {{4}}</li><li>{{5}} degrees</li></ul><p><strong>The repair shop:</strong> Ken's appliance (near to the {{6}})</p><p>The customer needs to store food for her {{7}} shop.</p><p><strong>Total value of loss:</strong> ${{8}}</p><p>Things to do:</p><ul><li>Ask the {{9}} to call back</li><li>Replace the damaged {{10}}</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -179,7 +179,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 21–30: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div>Sports Utility Vehicles (SUVs)</div><ul><li>SUVs are mainly used in {{21}}</li><li>They are heavily advertised through {{22}} campaigns.</li><li>They have a very powerful {{23}}</li><li>People feel {{24}} when driving them.</li><li>Drivers like the {{25}}</li><li>They are {{26}} to the environment.</li><li>Because of their heavy {{27}}, they absorb impact energy.</li><li>They are liable to {{28}}</li></ul><p>How to limit the use of SUVs</p><ul><li>Limit use to those people who need them (e.g. {{29}})</li><li>Raise cost of {{30}} for drivers</li></ul></div>",
+            "bodyHtml": "<div><div><strong>Sports Utility Vehicles (SUVs)</strong></div><ul><li>SUVs are mainly used in {{21}}</li><li>They are heavily advertised through {{22}} campaigns.</li><li>They have a very powerful {{23}}</li><li>People feel {{24}} when driving them.</li><li>Drivers like the {{25}}</li><li>They are {{26}} to the environment.</li><li>Because of their heavy {{27}}, they absorb impact energy.</li><li>They are liable to {{28}}</li></ul><p>How to limit the use of SUVs</p><ul><li>Limit use to those people who need them (e.g. {{29}})</li><li>Raise cost of {{30}} for drivers</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -246,7 +246,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 38–40: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div>Recommendations</div><ul><li>Ask new students to complete questionnaires to gauge their level of {{38}}</li><li>Encourage them to play the role of {{39}}</li><li>Provide {{40}} services</li></ul></div>",
+            "bodyHtml": "<div><div><strong>Recommendations</strong></div><ul><li>Ask new students to complete questionnaires to gauge their level of {{38}}</li><li>Encourage them to play the role of {{39}}</li><li>Provide {{40}} services</li></ul></div>",
             "maxWords": 1
           }
         ]

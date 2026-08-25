@@ -55,7 +55,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 8–13</h3>Complete the notes below. Write <b>ONE WORD ONLY</b> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><div>The Cycle of Cranberry Production</div><h5>Winter</h5><div>• Growers {{8}} the bogs to protect vines. </div><div>• Sand is put on bogs to increase {{9}} and encourage growth. </div><div>• Trees are removed to promote the movement of {{10}}. </div><h5>Spring</h5><div>• {{11}} is supplied to protect against frost. </div><div>• {{12}} is done to control pests. </div><h5>Summer</h5><div>• Growers check for {{13}} growth. </div></div>",
+            "bodyHtml": "<div><div><strong>The Cycle of Cranberry Production</strong></div><h5>Winter</h5><div>• Growers {{8}} the bogs to protect vines. </div><div>• Sand is put on bogs to increase {{9}} and encourage growth. </div><div>• Trees are removed to promote the movement of {{10}}. </div><h5>Spring</h5><div>• {{11}} is supplied to protect against frost. </div><div>• {{12}} is done to control pests. </div><h5>Summer</h5><div>• Growers check for {{13}} growth. </div></div>",
             "maxWords": 1
           }
         ]
@@ -305,7 +305,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 35–40</h3>Complete the summary using the list of words, <b>A–K</b>, below. Drag and drop the correct letter into each box. You can click a filled box to remove the answer.",
             "selectCount": 1,
-            "bodyHtml": "<div>The positive aspects of sibling relationships</div><div><p>Annette Henderson suggests that young children's interactions with older siblings involve {{35}}. Also, a Cambridge study found that siblings still enjoy {{36}} even when they have a tendency to fight. Research conducted in 2003 suggests that children develop {{37}} as a result of seeking attention. Another factor is the trend for smaller families, which may mean that today's siblings enjoy {{38}} as adults. A 2010 American study linked having a sister with {{39}} among children aged 10–14. Finally, having a sibling may promote {{40}} according to the same study.</p></div>",
+            "bodyHtml": "<div><strong>The positive aspects of sibling relationships</strong></div><div><p>Annette Henderson suggests that young children's interactions with older siblings involve {{35}}. Also, a Cambridge study found that siblings still enjoy {{36}} even when they have a tendency to fight. Research conducted in 2003 suggests that children develop {{37}} as a result of seeking attention. Another factor is the trend for smaller families, which may mean that today's siblings enjoy {{38}} as adults. A 2010 American study linked having a sister with {{39}} among children aged 10–14. Finally, having a sibling may promote {{40}} according to the same study.</p></div>",
             "wordBank": [
               {
                 "letter": "A",

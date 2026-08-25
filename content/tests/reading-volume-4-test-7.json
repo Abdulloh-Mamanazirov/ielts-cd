@@ -19,7 +19,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 1–6</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div>Data on food deserts and their effects on health</div><div> The Brooklyn Food Association <ul><li>The online map provides users with a store's name, {{1}} and details of its produce</li><li>One goal of the mapping project is to help develop new {{2}} on food.</li><li>Citizen maps are sometimes made when {{3}} maps are unsatisfactory.</li></ul> Reasons for the development of food deserts <ul><li>New research suggests that people living in food deserts often have low {{4}}</li><li>Some supermarkets are unable to buy enough {{5}} inside cities for their stores</li><li>Small grocery stores in cities often cannot cope with supermarket {{6}}</li></ul></div>",
+            "bodyHtml": "<div><strong>Data on food deserts and their effects on health</strong></div><div> The Brooklyn Food Association <ul><li>The online map provides users with a store's name, {{1}} and details of its produce</li><li>One goal of the mapping project is to help develop new {{2}} on food.</li><li>Citizen maps are sometimes made when {{3}} maps are unsatisfactory.</li></ul> Reasons for the development of food deserts <ul><li>New research suggests that people living in food deserts often have low {{4}}</li><li>Some supermarkets are unable to buy enough {{5}} inside cities for their stores</li><li>Small grocery stores in cities often cannot cope with supermarket {{6}}</li></ul></div>",
             "maxWords": 1
           },
           {
@@ -339,7 +339,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 37–40</h3>Complete each sentence with the correct ending, A-F, below.",
             "selectCount": 1,
-            "bodyHtml": "<div>37One limitation in the information produced by all of this research is that it{{37}}</div><div>38The best thing about this type of research{{38}}</div><div>39The most important achievement of traditional navigators{{39}}</div><div>40The migration of people from Asia to the Pacific{{40}}</div><div>List of Endings</div>",
+            "bodyHtml": "<div>37One limitation in the information produced by all of this research is that it{{37}}</div><div>38The best thing about this type of research{{38}}</div><div>39The most important achievement of traditional navigators{{39}}</div><div>40The migration of people from Asia to the Pacific{{40}}</div><div><strong>List of Endings</strong></div>",
             "wordBank": [
               {
                 "letter": "A",

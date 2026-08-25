@@ -51,7 +51,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 7–13</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div>Clipper races</div><div> The ships <ul><li>Clipper ships were first used for trading by American merchants.</li><li>The ships were remarkable for the number of {{7}} they had.</li><li>The performance of British tea clippers was particularly affected when there were {{8}} at sea.</li></ul> The races <ul><li>It was in a ship called {{9}} that the British first competed successfully against the Americans.</li><li>Richard Green's ship arrived two days ahead of its competitor.</li><li>Competition increased when additional Chinese trading {{10}} were established.</li><li>Merchants were occasionally in such a hurry that they failed to complete the {{11}} before leaving China.</li><li>At the end of their journey, the ships needed the help of {{12}}.</li></ul> The rewards <ul><li>The crews were motivated by both {{13}} and their enthusiasm for the competition.</li></ul></div>",
+            "bodyHtml": "<div><strong>Clipper races</strong></div><div> The ships <ul><li>Clipper ships were first used for trading by American merchants.</li><li>The ships were remarkable for the number of {{7}} they had.</li><li>The performance of British tea clippers was particularly affected when there were {{8}} at sea.</li></ul> The races <ul><li>It was in a ship called {{9}} that the British first competed successfully against the Americans.</li><li>Richard Green's ship arrived two days ahead of its competitor.</li><li>Competition increased when additional Chinese trading {{10}} were established.</li><li>Merchants were occasionally in such a hurry that they failed to complete the {{11}} before leaving China.</li><li>At the end of their journey, the ships needed the help of {{12}}.</li></ul> The rewards <ul><li>The crews were motivated by both {{13}} and their enthusiasm for the competition.</li></ul></div>",
             "maxWords": 1
           }
         ]
@@ -66,7 +66,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 14–18</h3>Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div>Types of homing behaviour</div><div> First type <p>Birds rely on their sophisticated {{14}}. However, they are generally most successful if they are released within their feeding territory.</p> Second type <p>Birds select their accustomed {{15}}, no matter where they are released. As a result, they may miss their {{16}}.</p> Third type <p>Birds orientate correctly, even when they are released in an unfamiliar place and have no {{17}} to make use of. One bird with this type of skill is the {{18}}.</p></div>",
+            "bodyHtml": "<div><strong>Types of homing behaviour</strong></div><div> First type <p>Birds rely on their sophisticated {{14}}. However, they are generally most successful if they are released within their feeding territory.</p> Second type <p>Birds select their accustomed {{15}}, no matter where they are released. As a result, they may miss their {{16}}.</p> Third type <p>Birds orientate correctly, even when they are released in an unfamiliar place and have no {{17}} to make use of. One bird with this type of skill is the {{18}}.</p></div>",
             "maxWords": 2
           },
           {

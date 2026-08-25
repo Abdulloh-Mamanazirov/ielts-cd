@@ -189,7 +189,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 27–31</h3>Drag and drop the correct letter into each box. You can click a filled box to remove the answer.",
             "selectCount": 1,
-            "bodyHtml": "<div>Characteristics of New Zealand skinks</div><div><p>There are three kinds of reptiles in New Zealand: the tuatara, the gecko and the skink. Skinks are easily distinguished from these other natives by their shiny scale and {{27}}. In common with other reptiles, the grand and Otago species of skink have cold blood and therefore must have their {{28}} externally controlled. They are unique in that they do not require a long {{29}}. Many species are yet to be identified, and identification depends primarily on their {{30}} and extremely small physical differences. In {{31}}, skinks may potentially live for about 30 years.</p></div>",
+            "bodyHtml": "<div><strong>Characteristics of New Zealand skinks</strong></div><div><p>There are three kinds of reptiles in New Zealand: the tuatara, the gecko and the skink. Skinks are easily distinguished from these other natives by their shiny scale and {{27}}. In common with other reptiles, the grand and Otago species of skink have cold blood and therefore must have their {{28}} externally controlled. They are unique in that they do not require a long {{29}}. Many species are yet to be identified, and identification depends primarily on their {{30}} and extremely small physical differences. In {{31}}, skinks may potentially live for about 30 years.</p></div>",
             "wordBank": [
               {
                 "letter": "A",

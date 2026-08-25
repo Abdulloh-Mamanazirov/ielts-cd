@@ -172,7 +172,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 9 and 10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Address</div><ul><li>Winsham Farm</li><li>{{9}} Rd</li><li>Near Sherborne</li><li>Postcode: {{10}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Address</strong></div><ul><li>Winsham Farm</li><li>{{9}} Rd</li><li>Near Sherborne</li><li>Postcode: {{10}}</li></ul></div>",
             "maxWords": 3
           }
         ]
@@ -282,7 +282,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 21 and 22</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div>Reasons for having Study Syndicates</div><ul><li>teaching one another is a good way to learn</li><li>it gives the opportunity to {{21}}</li><li>shared reading means fuller notes</li><li>you can do {{22}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div><strong>Reasons for having Study Syndicates</strong></div><ul><li>teaching one another is a good way to learn</li><li>it gives the opportunity to {{21}}</li><li>shared reading means fuller notes</li><li>you can do {{22}}</li></ul></div>",
             "maxWords": 3
           },
           {
@@ -290,7 +290,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 23–25</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Plan for Study Syndicate</div><table class=\"q-table\"><tbody><tr><th>Date</th><th>Geology topic</th><th>Name of presenter</th></tr><tr><td>9th May</td><td>{{23}}</td><td>Bob</td></tr><tr><td>{{24}}</td><td>glaciated areas</td><td>Andy</td></tr><tr><td>23rd May</td><td>rock formation</td><td>Helen and John</td></tr><tr><td>{{25}}</td><td>volcanoes</td><td>John</td></tr></tbody></table></div>",
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Plan for Study Syndicate</strong></div><table class=\"q-table\"><tbody><tr><th>Date</th><th>Geology topic</th><th>Name of presenter</th></tr><tr><td>9th May</td><td>{{23}}</td><td>Bob</td></tr><tr><td>{{24}}</td><td>glaciated areas</td><td>Andy</td></tr><tr><td>23rd May</td><td>rock formation</td><td>Helen and John</td></tr><tr><td>{{25}}</td><td>volcanoes</td><td>John</td></tr></tbody></table></div>",
             "maxWords": 3
           },
           {
@@ -313,7 +313,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div>Health on the Night Shift</div><p>Background</p><ul><li>{{31}} in number of night workers because of 24-hour shopping / services</li><li>need to examine effects of changing work and sleep habits</li><li>US and British research found these lead to health problems</li></ul><p>Main causes</p><ul><li><strong>A)</strong> {{32}}</li><li>– regulates daily life</li><li>– connected to behavioural patterns and cycles of {{33}} and ......</li><li>– programmes us to be awake and asleep at certain times</li><li><strong>B)</strong> Sleep debt</li><li>– impossible to get enough sleep during daytime</li><li><strong>C)</strong> {{34}}</li><li>– different working / sleeping times → 'dislocation'</li></ul><p>Effects</p><ul><li><strong>A)</strong> Physical</li><li>– higher incidence of heart problems and {{35}} problems</li><li>– more minor illnesses, suggesting immunity of shift workers is affected</li><li><strong>B)</strong> Psychological</li><li>– most common: {{36}}</li><li>– {{37}} affected, e.g. decision-making, planning, which regulate our {{38}}</li><li><strong>C)</strong> Social</li><li>– destruction of {{39}} and other relationships, e.g. {{40}}</li><li>– eventually, for individuals: social isolation</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div><strong>Health on the Night Shift</strong></div><p>Background</p><ul><li>{{31}} in number of night workers because of 24-hour shopping / services</li><li>need to examine effects of changing work and sleep habits</li><li>US and British research found these lead to health problems</li></ul><p>Main causes</p><ul><li><strong>A)</strong> {{32}}</li><li>– regulates daily life</li><li>– connected to behavioural patterns and cycles of {{33}} and ......</li><li>– programmes us to be awake and asleep at certain times</li><li><strong>B)</strong> Sleep debt</li><li>– impossible to get enough sleep during daytime</li><li><strong>C)</strong> {{34}}</li><li>– different working / sleeping times → 'dislocation'</li></ul><p>Effects</p><ul><li><strong>A)</strong> Physical</li><li>– higher incidence of heart problems and {{35}} problems</li><li>– more minor illnesses, suggesting immunity of shift workers is affected</li><li><strong>B)</strong> Psychological</li><li>– most common: {{36}}</li><li>– {{37}} affected, e.g. decision-making, planning, which regulate our {{38}}</li><li><strong>C)</strong> Social</li><li>– destruction of {{39}} and other relationships, e.g. {{40}}</li><li>– eventually, for individuals: social isolation</li></ul></div>",
             "maxWords": 4
           }
         ]

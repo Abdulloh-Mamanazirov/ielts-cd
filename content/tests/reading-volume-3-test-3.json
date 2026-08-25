@@ -43,7 +43,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 5–10</h3>Complete the notes below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div>Non-Pesticide-Management Programme</div><div><ul><li>Developed with the aid of SECURE</li><li>Based on use of an <strong>5</strong>&nbsp;{{5}} called neem</li><li>Neem contains many <strong>6</strong>&nbsp;{{6}} that target plant-eating predators</li></ul> Neem <p>Used as a pesticide</p><ul><li><strong>7</strong>&nbsp;{{7}} formed by grinding seeds</li><li>left <strong>8</strong>&nbsp;{{8}} to soak in water</li><li>sprayed regularly</li></ul><p>Used as a pesticide and as a fertiliser</p><ul><li>added in <strong>9</strong>&nbsp;{{9}} form to soil</li><li>contains a lot of <strong>10</strong>&nbsp;{{10}}</li></ul></div>",
+            "bodyHtml": "<div><strong>Non-Pesticide-Management Programme</strong></div><div><ul><li>Developed with the aid of SECURE</li><li>Based on use of an <strong>5</strong>&nbsp;{{5}} called neem</li><li>Neem contains many <strong>6</strong>&nbsp;{{6}} that target plant-eating predators</li></ul> Neem <p>Used as a pesticide</p><ul><li><strong>7</strong>&nbsp;{{7}} formed by grinding seeds</li><li>left <strong>8</strong>&nbsp;{{8}} to soak in water</li><li>sprayed regularly</li></ul><p>Used as a pesticide and as a fertiliser</p><ul><li>added in <strong>9</strong>&nbsp;{{9}} form to soil</li><li>contains a lot of <strong>10</strong>&nbsp;{{10}}</li></ul></div>",
             "maxWords": 2
           },
           {
@@ -66,7 +66,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 14–19</h3>Complete the flow-chart below. Choose <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div>Step-by-step guide to making Flynn's water filters</div><div><div>Make the mixture for the filter from organic material (e.g. tea, coffee, rice), <strong>14</strong>&nbsp;{{14}} and <strong>15</strong>&nbsp;{{15}}</div><div class=\"flow-arrow\">↓</div><div>Shape into pots and place them in a fire made from <strong>16</strong>&nbsp;{{16}} and <strong>17</strong>&nbsp;{{17}}</div><div class=\"flow-arrow\">↓</div><div>Fuel the fire to reach a maximum heat of <strong>18</strong>&nbsp;{{18}}</div><div class=\"flow-arrow\">↓</div><div>Remove the filters from the fire</div><div class=\"flow-arrow\">↓</div><div>Bake the filters in the fire for a maximum period of <strong>19</strong>&nbsp;{{19}}</div></div>",
+            "bodyHtml": "<div><strong>Step-by-step guide to making Flynn's water filters</strong></div><div><div>Make the mixture for the filter from organic material (e.g. tea, coffee, rice), <strong>14</strong>&nbsp;{{14}} and <strong>15</strong>&nbsp;{{15}}</div><div class=\"flow-arrow\">↓</div><div>Shape into pots and place them in a fire made from <strong>16</strong>&nbsp;{{16}} and <strong>17</strong>&nbsp;{{17}}</div><div class=\"flow-arrow\">↓</div><div>Fuel the fire to reach a maximum heat of <strong>18</strong>&nbsp;{{18}}</div><div class=\"flow-arrow\">↓</div><div>Remove the filters from the fire</div><div class=\"flow-arrow\">↓</div><div>Bake the filters in the fire for a maximum period of <strong>19</strong>&nbsp;{{19}}</div></div>",
             "maxWords": 3
           },
           {

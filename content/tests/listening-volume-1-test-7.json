@@ -19,7 +19,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10: Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div>Rented Properties — Information About a House</div><p><strong>Available date:</strong> {{1}}</p><p>Prices:</p><ul><li>Rent: ${{2}} per month</li><li>Deposit: $1500</li><li>{{3}} $15</li></ul><p>Facilities:</p><ul><li>3 bedrooms and 2 bathrooms</li><li>A remodelled {{4}}</li><li>{{5}}</li><li>A {{6}} with a work area</li></ul><p>Utilities:</p><ul><li>The landlord will provide landscaping service, but the tenants must {{7}} the grass</li><li>The tenants should pay $15 for trashing and {{8}} service.</li><li>The tenants should pay for electricity, water and gas bills.</li></ul><p>Other information:</p><ul><li>There is no central air conditioning, but there is a {{9}} conditioning unit.</li><li>Name of landlord: Sam {{10}}</li></ul></div>",
+            "bodyHtml": "<div><div><strong>Rented Properties — Information About a House</strong></div><p><strong>Available date:</strong> {{1}}</p><p>Prices:</p><ul><li>Rent: ${{2}} per month</li><li>Deposit: $1500</li><li>{{3}} $15</li></ul><p>Facilities:</p><ul><li>3 bedrooms and 2 bathrooms</li><li>A remodelled {{4}}</li><li>{{5}}</li><li>A {{6}} with a work area</li></ul><p>Utilities:</p><ul><li>The landlord will provide landscaping service, but the tenants must {{7}} the grass</li><li>The tenants should pay $15 for trashing and {{8}} service.</li><li>The tenants should pay for electricity, water and gas bills.</li></ul><p>Other information:</p><ul><li>There is no central air conditioning, but there is a {{9}} conditioning unit.</li><li>Name of landlord: Sam {{10}}</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -355,7 +355,7 @@
             "type": "completion",
             "rubricHtml": "<p>Question 30: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for the answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div>Reasons for rejection during the application process</div><ul><li>Unsuitable experience and skills</li><li>Applicants' inappropriate {{30}} and appearance</li><li>Poor social skills</li></ul></div>",
+            "bodyHtml": "<div><div><strong>Reasons for rejection during the application process</strong></div><ul><li>Unsuitable experience and skills</li><li>Applicants' inappropriate {{30}} and appearance</li><li>Poor social skills</li></ul></div>",
             "maxWords": 1
           }
         ]
@@ -370,7 +370,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–37: Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div>Organic Farming</div><p>Advantages</p><ul><li>Organic farming is {{31}}</li><li>It can boost the {{32}} of organic food products</li><li>It can save necessary {{33}} for producing pesticides and fertilisers</li></ul><p>Comparison with traditional farming</p><ul><li>{{34}}, which double in number, may attack organic vegetables.</li><li>Production of organic vegetables such as tomatoes and {{35}} is lower.</li><li>Winter weed production is {{36}} lower than it used to be — now 40%.</li><li>Production of organic products for animals, including organic {{37}}, stays the same.</li></ul></div>",
+            "bodyHtml": "<div><div><strong>Organic Farming</strong></div><p>Advantages</p><ul><li>Organic farming is {{31}}</li><li>It can boost the {{32}} of organic food products</li><li>It can save necessary {{33}} for producing pesticides and fertilisers</li></ul><p>Comparison with traditional farming</p><ul><li>{{34}}, which double in number, may attack organic vegetables.</li><li>Production of organic vegetables such as tomatoes and {{35}} is lower.</li><li>Winter weed production is {{36}} lower than it used to be — now 40%.</li><li>Production of organic products for animals, including organic {{37}}, stays the same.</li></ul></div>",
             "maxWords": 2
           },
           {

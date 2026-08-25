@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Renting an apartment</div><p>Location</p><ul><li>in central Sydney</li></ul><p>Description</p><ul><li>a {{1}} apartment (for one or two people)</li><li>approximately 34 square metres</li><li>a shared {{2}}</li><li>on the fourteenth floor</li><li>views of the {{3}}</li><li>outdoor area: a {{4}}</li></ul><p>Tenants have</p><ul><li>a {{5}} (no charge for residents)</li><li>an indoor pool</li><li>two {{6}} (reduced charge for residents)</li><li>underground {{7}}</li><li>easy access to transport in the area</li></ul><p>Rent</p><ul><li>${{8}} per month</li><li>include {{9}}</li></ul><p>Other details</p><ul><li>available from {{10}} August</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Renting an apartment</strong></div><p>Location</p><ul><li>in central Sydney</li></ul><p>Description</p><ul><li>a {{1}} apartment (for one or two people)</li><li>approximately 34 square metres</li><li>a shared {{2}}</li><li>on the fourteenth floor</li><li>views of the {{3}}</li><li>outdoor area: a {{4}}</li></ul><p>Tenants have</p><ul><li>a {{5}} (no charge for residents)</li><li>an indoor pool</li><li>two {{6}} (reduced charge for residents)</li><li>underground {{7}}</li><li>easy access to transport in the area</li></ul><p>Rent</p><ul><li>${{8}} per month</li><li>include {{9}}</li></ul><p>Other details</p><ul><li>available from {{10}} August</li></ul></div>",
             "maxWords": 1
           }
         ]
@@ -355,7 +355,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–36</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Earth-sheltered Housing</div><p>Advantages:</p><ul><li>has a {{31}} on the environment</li><li>increased use of energy-efficient {{32}} technologies</li><li>can have a very long {{33}}</li><li>easy to maintain</li><li>no noise from the {{34}} outside (big problem in many conventional homes)</li><li>health benefits from advanced methods of {{35}}</li></ul><p>Earth-sheltered housing in the UK:</p><ul><li>no longer difficult to get planning permission</li><li>more likely to get approval for development in {{36}} areas</li><li>may replace mobile homes on the coast</li></ul></div>",
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div><strong>Earth-sheltered Housing</strong></div><p>Advantages:</p><ul><li>has a {{31}} on the environment</li><li>increased use of energy-efficient {{32}} technologies</li><li>can have a very long {{33}}</li><li>easy to maintain</li><li>no noise from the {{34}} outside (big problem in many conventional homes)</li><li>health benefits from advanced methods of {{35}}</li></ul><p>Earth-sheltered housing in the UK:</p><ul><li>no longer difficult to get planning permission</li><li>more likely to get approval for development in {{36}} areas</li><li>may replace mobile homes on the coast</li></ul></div>",
             "maxWords": 2
           },
           {

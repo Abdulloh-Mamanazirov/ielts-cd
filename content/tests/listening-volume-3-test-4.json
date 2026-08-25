@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Student Accommodation</div><table class=\"q-table\"><tbody><tr><th>Type</th><th>Cost</th><th>Contract</th></tr><tr><td><em>Example:</em> College — single room</td><td>Standard £3276/yr; en-suite £{{1}}/yr (meals not included)</td><td>36 weeks (rooms not available during the {{2}})</td></tr><tr><td>{{3}} — room with a family</td><td>£150/week — all inclusive</td><td>Arrangements are {{4}}</td></tr><tr><td>Private renting: room in a share house or a {{5}}</td><td>£275–£490/month. Extra costs: gas &amp; electricity ≈ £{{6}}/month; {{7}}: £9; {{8}}</td><td>6 months. Need: {{9}}; two {{10}}</td></tr></tbody></table></div>",
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Student Accommodation</strong></div><table class=\"q-table\"><tbody><tr><th>Type</th><th>Cost</th><th>Contract</th></tr><tr><td><em>Example:</em> College — single room</td><td>Standard £3276/yr; en-suite £{{1}}/yr (meals not included)</td><td>36 weeks (rooms not available during the {{2}})</td></tr><tr><td>{{3}} — room with a family</td><td>£150/week — all inclusive</td><td>Arrangements are {{4}}</td></tr><tr><td>Private renting: room in a share house or a {{5}}</td><td>£275–£490/month. Extra costs: gas &amp; electricity ≈ £{{6}}/month; {{7}}: £9; {{8}}</td><td>6 months. Need: {{9}}; two {{10}}</td></tr></tbody></table></div>",
             "maxWords": 2
           }
         ]
@@ -383,7 +383,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 33–37</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Research findings</div><table class=\"q-table\"><tbody><tr><th></th><th>Social &amp; Environmental Factors</th><th>Other Factors</th><th>Personal Characteristics</th></tr><tr><td>First level of importance</td><td>Effective support</td><td>Perceived success in study</td><td>Enjoyment of a {{33}}</td></tr><tr><td>Second level of importance</td><td>Positive experiences at {{34}}</td><td>Good {{35}}</td><td>Many {{36}} in daily life</td></tr><tr><td>Third level of importance</td><td>Good interaction with the {{37}}</td><td>No family problems</td><td>Capacity for multi-tasking</td></tr></tbody></table></div>",
+            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div><strong>Research findings</strong></div><table class=\"q-table\"><tbody><tr><th></th><th>Social &amp; Environmental Factors</th><th>Other Factors</th><th>Personal Characteristics</th></tr><tr><td>First level of importance</td><td>Effective support</td><td>Perceived success in study</td><td>Enjoyment of a {{33}}</td></tr><tr><td>Second level of importance</td><td>Positive experiences at {{34}}</td><td>Good {{35}}</td><td>Many {{36}} in daily life</td></tr><tr><td>Third level of importance</td><td>Good interaction with the {{37}}</td><td>No family problems</td><td>Capacity for multi-tasking</td></tr></tbody></table></div>",
             "maxWords": 1
           },
           {
@@ -391,7 +391,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 38–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Recommendations</div><ul><li>Ask new students to complete questionnaires to gauge their level of {{38}}.</li><li>Train selected students to act as {{39}}.</li><li>Outside office hours, offer {{40}} help.</li><li>Follow up students who miss deadlines.</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div><strong>Recommendations</strong></div><ul><li>Ask new students to complete questionnaires to gauge their level of {{38}}.</li><li>Train selected students to act as {{39}}.</li><li>Outside office hours, offer {{40}} help.</li><li>Follow up students who miss deadlines.</li></ul></div>",
             "maxWords": 1
           }
         ]

@@ -69,7 +69,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 7–9</h3>Complete the flow-chart below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div>How ambergris is formed</div><div><div>Ambergris is formed in whales because of problems digesting the {{7}} of giant squid.</div><div class=\"flow-arrow\">↓</div><div>Black liquid is produced and is {{8}} from time to time.</div><div class=\"flow-arrow\">↓</div><div>The liquid {{9}} on contact with the air.</div></div>",
+            "bodyHtml": "<div><strong>How ambergris is formed</strong></div><div><div>Ambergris is formed in whales because of problems digesting the {{7}} of giant squid.</div><div class=\"flow-arrow\">↓</div><div>Black liquid is produced and is {{8}} from time to time.</div><div class=\"flow-arrow\">↓</div><div>The liquid {{9}} on contact with the air.</div></div>",
             "maxWords": 2
           },
           {

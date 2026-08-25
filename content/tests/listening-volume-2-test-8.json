@@ -389,7 +389,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–36</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Solar water purifier (SW40)</div><ul><li><strong>31</strong> &nbsp;High levels of {{31}} make bore water unsafe to drink.</li><li><strong>32</strong> &nbsp;The SW40 produces water so pure it can be used in {{32}}.</li><li><strong>33</strong> &nbsp;One problem with the present production method is that it is quite {{33}}.</li><li><strong>34</strong> &nbsp;The speaker hopes to get financial support from an agency called {{34}}.</li><li><strong>35</strong> &nbsp;The SW40 has a maximum output of {{35}}.</li><li><strong>36</strong> &nbsp;Each SW40 produces enough water for a {{36}} on a sunny day.</li></ul></div>",
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Solar water purifier (SW40)</strong></div><ul><li><strong>31</strong> &nbsp;High levels of {{31}} make bore water unsafe to drink.</li><li><strong>32</strong> &nbsp;The SW40 produces water so pure it can be used in {{32}}.</li><li><strong>33</strong> &nbsp;One problem with the present production method is that it is quite {{33}}.</li><li><strong>34</strong> &nbsp;The speaker hopes to get financial support from an agency called {{34}}.</li><li><strong>35</strong> &nbsp;The SW40 has a maximum output of {{35}}.</li><li><strong>36</strong> &nbsp;Each SW40 produces enough water for a {{36}} on a sunny day.</li></ul></div>",
             "maxWords": 2
           },
           {
@@ -397,7 +397,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 37–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Label the diagram below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Cross-section of the SW40 solar water purifier</div><ul><li>lid made of {{37}}</li><li>best inclined at an angle of {{38}}</li><li>UV light destroys {{39}}</li><li>water {{40}} containing pure water</li></ul></div>",
+            "bodyHtml": "<p>Label the diagram below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Cross-section of the SW40 solar water purifier</strong></div><ul><li>lid made of {{37}}</li><li>best inclined at an angle of {{38}}</li><li>UV light destroys {{39}}</li><li>water {{40}} containing pure water</li></ul></div>",
             "maxWords": 2
           }
         ]

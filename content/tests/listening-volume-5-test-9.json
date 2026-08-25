@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Enquiries on Hot Air Balloon Trip</div><ul><li>The lowest price: £{{1}} per person</li><li>Each participant will be given a free {{2}} at the end of the flight</li><li>The exact date can only be booked {{3}}</li><li>The balloon can fly a maximum height of {{4}} metres</li><li>There are no flights at {{5}}</li><li>The best time of year to go is in {{6}}</li><li>Flights may be cancelled because of bad weather, e.g., {{7}}</li><li>It is advised to wear a jacket and a {{8}}</li><li>There is no {{9}} restriction for adults</li><li>Participants must be able to {{10}} throughout the flight</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Enquiries on Hot Air Balloon Trip</strong></div><ul><li>The lowest price: £{{1}} per person</li><li>Each participant will be given a free {{2}} at the end of the flight</li><li>The exact date can only be booked {{3}}</li><li>The balloon can fly a maximum height of {{4}} metres</li><li>There are no flights at {{5}}</li><li>The best time of year to go is in {{6}}</li><li>Flights may be cancelled because of bad weather, e.g., {{7}}</li><li>It is advised to wear a jacket and a {{8}}</li><li>There is no {{9}} restriction for adults</li><li>Participants must be able to {{10}} throughout the flight</li></ul></div>",
             "maxWords": 1
           }
         ]
@@ -329,7 +329,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Technology and Education</div><ul><li>Some people believed {{31}} failed to help students interact with teachers</li><li>IT in education develops a tight {{32}} with local economy</li><li>Computers are commonly used to develop teaching {{33}}</li></ul><p>The new mode in the IT school of Westbrook University</p><ul><li>Students enjoy the {{34}} with teachers.</li><li>New technology builds up greater {{35}} for students</li><li>Compared with traditional teaching, the new way is more {{36}}</li><li>It offers students quality {{37}}</li><li>It is seen as new solutions to new {{38}}</li><li>It nurtures {{39}} management skills</li><li>It also provides students a source of {{40}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div><strong>Technology and Education</strong></div><ul><li>Some people believed {{31}} failed to help students interact with teachers</li><li>IT in education develops a tight {{32}} with local economy</li><li>Computers are commonly used to develop teaching {{33}}</li></ul><p>The new mode in the IT school of Westbrook University</p><ul><li>Students enjoy the {{34}} with teachers.</li><li>New technology builds up greater {{35}} for students</li><li>Compared with traditional teaching, the new way is more {{36}}</li><li>It offers students quality {{37}}</li><li>It is seen as new solutions to new {{38}}</li><li>It nurtures {{39}} management skills</li><li>It also provides students a source of {{40}}</li></ul></div>",
             "maxWords": 1
           }
         ]

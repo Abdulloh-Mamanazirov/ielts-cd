@@ -172,7 +172,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 9 and 10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Address</div><ul><li>Winsham Farm</li><li>{{9}} Rd</li><li>Near Sherborne</li><li>Postcode: {{10}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Address</strong></div><ul><li>Winsham Farm</li><li>{{9}} Rd</li><li>Near Sherborne</li><li>Postcode: {{10}}</li></ul></div>",
             "maxWords": 3
           }
         ]
@@ -459,7 +459,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div>Food Safety Standards</div><p>Risk Assessment</p><p>Scientists have to consider potential problems with:</p><ul><li>the products' {{31}} (could they attract harmful bacteria?)</li><li>method of preparation (will it eliminate harmful micro-organisms?)</li><li>how products are {{32}} and distributed</li><li>supermarkets (e.g. changes in {{33}} affecting the condition of frozen food)</li><li>end-users (how is food usually handled in the home?)</li></ul><p>Factors Affecting Food Consumption</p><p>Legislation</p><p>Consumer attitudes</p><ul><li>e.g. dislike of additives + growth of the {{34}} food market in Australia</li></ul><p>The food industry</p><ul><li>supermarkets may use price or {{35}} as their selling strategy (but the main concern is profitability)</li></ul><p>The mass media</p><ul><li>now the main source of {{36}} for many</li><li>negative effect because not objective: <ul><li>concern for {{37}}</li><li>news is now a form of {{38}} which can mislead the public</li></ul></li><li>few programmes deal with food safety or {{39}}</li></ul><p>Personal opinion</p><ul><li>importance of education: as with the benefits of exercise, many children can influence their {{40}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div><strong>Food Safety Standards</strong></div><p>Risk Assessment</p><p>Scientists have to consider potential problems with:</p><ul><li>the products' {{31}} (could they attract harmful bacteria?)</li><li>method of preparation (will it eliminate harmful micro-organisms?)</li><li>how products are {{32}} and distributed</li><li>supermarkets (e.g. changes in {{33}} affecting the condition of frozen food)</li><li>end-users (how is food usually handled in the home?)</li></ul><p>Factors Affecting Food Consumption</p><p>Legislation</p><p>Consumer attitudes</p><ul><li>e.g. dislike of additives + growth of the {{34}} food market in Australia</li></ul><p>The food industry</p><ul><li>supermarkets may use price or {{35}} as their selling strategy (but the main concern is profitability)</li></ul><p>The mass media</p><ul><li>now the main source of {{36}} for many</li><li>negative effect because not objective: <ul><li>concern for {{37}}</li><li>news is now a form of {{38}} which can mislead the public</li></ul></li><li>few programmes deal with food safety or {{39}}</li></ul><p>Personal opinion</p><ul><li>importance of education: as with the benefits of exercise, many children can influence their {{40}}</li></ul></div>",
             "maxWords": 1
           }
         ]

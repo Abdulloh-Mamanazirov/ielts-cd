@@ -108,7 +108,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 7–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Personal information</div><p>Name: Anu Bhatt</p><p>Address: {{7}} Road</p><p>Postcode: {{8}}</p><p>Family medical history</p><p>Both of her parents have {{9}}</p><p>Other information</p><p>Medicine allergy: {{10}}</p></div>",
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Personal information</strong></div><p>Name: Anu Bhatt</p><p>Address: {{7}} Road</p><p>Postcode: {{8}}</p><p>Family medical history</p><p>Both of her parents have {{9}}</p><p>Other information</p><p>Medicine allergy: {{10}}</p></div>",
             "maxWords": 3
           }
         ]
@@ -369,7 +369,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>How Surtsey was formed</div><ul><li>In 1963 the activity from an underwater {{31}} started to form an island.</li><li>Fishermen saw {{32}} coming up out of the sea.</li></ul><p>What scientists found in the early days</p><ul><li>The first plant life was a type of {{33}}.</li><li>The first sign of animal life found was a fly.</li><li>Scientists were surprised by the widespread growth of {{34}}.</li></ul><p>Later findings</p><ul><li>In the 1960s, birds brought seeds to the island.</li><li>In the 1970s, {{35}} were probably carried to the island.</li><li>The first green vegetation (marchantia) formed a thick {{36}} on Surtsey.</li></ul><p>Contrast</p><ul><li>Surtsey is an island only 39 years old. The {{37}} were obtained as early as 5 years after the eruption.</li><li>However, {{38}} observations suggest that the volcano is very energetic.</li></ul><p>Climate and future</p><ul><li>The enormous waves of winter {{39}}.</li><li>An assessment assumes that the island will survive for many {{40}}.</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>How Surtsey was formed</strong></div><ul><li>In 1963 the activity from an underwater {{31}} started to form an island.</li><li>Fishermen saw {{32}} coming up out of the sea.</li></ul><p>What scientists found in the early days</p><ul><li>The first plant life was a type of {{33}}.</li><li>The first sign of animal life found was a fly.</li><li>Scientists were surprised by the widespread growth of {{34}}.</li></ul><p>Later findings</p><ul><li>In the 1960s, birds brought seeds to the island.</li><li>In the 1970s, {{35}} were probably carried to the island.</li><li>The first green vegetation (marchantia) formed a thick {{36}} on Surtsey.</li></ul><p>Contrast</p><ul><li>Surtsey is an island only 39 years old. The {{37}} were obtained as early as 5 years after the eruption.</li><li>However, {{38}} observations suggest that the volcano is very energetic.</li></ul><p>Climate and future</p><ul><li>The enormous waves of winter {{39}}.</li><li>An assessment assumes that the island will survive for many {{40}}.</li></ul></div>",
             "maxWords": 1
           }
         ]

@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div>Weekend Course Booking Form</div><ul><li>Booking for: a guitar workshop</li><li>Start date: {{1}}</li><li>Course code: {{2}}</li><li>Previous course attended: Editing {{3}}</li><li>Name: Nick {{4}}</li><li>Address: 27 Hawthorn {{5}}, Bristol, BS4 2QG</li><li>Contact number: 07707 438 297</li><li>Age: 26</li><li>Occupation: {{6}}</li><li>Dietary requests: no {{7}}</li><li>One-to-one lesson selected: {{8}} guitar</li><li>First heard about us from: a {{9}}</li><li>Additional request: would like {{10}} if possible</li></ul></div>",
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Weekend Course Booking Form</strong></div><ul><li>Booking for: a guitar workshop</li><li>Start date: {{1}}</li><li>Course code: {{2}}</li><li>Previous course attended: Editing {{3}}</li><li>Name: Nick {{4}}</li><li>Address: 27 Hawthorn {{5}}, Bristol, BS4 2QG</li><li>Contact number: 07707 438 297</li><li>Age: 26</li><li>Occupation: {{6}}</li><li>Dietary requests: no {{7}}</li><li>One-to-one lesson selected: {{8}} guitar</li><li>First heard about us from: a {{9}}</li><li>Additional request: would like {{10}} if possible</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -198,7 +198,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 21–23</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div>Action Research Course for Practising Teachers</div><p>Course Notes</p><ul><li>course leader: Alan Cumner (get his recent book called '{{21}}')</li></ul><p>Course objectives — to develop skills in:</p><ul><li>using different research techniques</li><li>researching as part of a {{22}}</li><li>{{23}} (in a collaborative culture)</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div><strong>Action Research Course for Practising Teachers</strong></div><p>Course Notes</p><ul><li>course leader: Alan Cumner (get his recent book called '{{21}}')</li></ul><p>Course objectives — to develop skills in:</p><ul><li>using different research techniques</li><li>researching as part of a {{22}}</li><li>{{23}} (in a collaborative culture)</li></ul></div>",
             "maxWords": 2
           },
           {
