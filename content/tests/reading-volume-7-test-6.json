@@ -134,7 +134,7 @@
           {
             "id": "part-2-group-2",
             "type": "matching",
-            "rubricHtml": "<h3>Questions 20–23</h3>Match each statement with the correct researcher, A, B or C.",
+            "rubricHtml": "<h3>Questions 20–23</h3>Match each statement with the correct researcher, A, B or C.<p><strong>NB</strong> You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {

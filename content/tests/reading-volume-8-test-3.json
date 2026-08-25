@@ -224,7 +224,7 @@
           {
             "id": "part-3-group-2",
             "type": "matching",
-            "rubricHtml": "<h3>Questions 31–35</h3>Which paragraph (A-I) contains the following information?",
+            "rubricHtml": "<h3>Questions 31–35</h3>Which paragraph (A-I) contains the following information?<p><strong>NB</strong> You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {

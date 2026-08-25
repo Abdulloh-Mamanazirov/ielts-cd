@@ -68,7 +68,7 @@
           {
             "id": "part-2-group-1",
             "type": "matching",
-            "rubricHtml": "<h3>Questions 14-19</h3>Reading Passage 2 has nine paragraphs, A-I. Which paragraph contains the following information?<em>Write the correct letter, A-I, in boxes 14-19.</em>",
+            "rubricHtml": "<h3>Questions 14-19</h3>Reading Passage 2 has nine paragraphs, A-I. Which paragraph contains the following information?<em>Write the correct letter, A-I, in boxes 14-19.</em><p><strong>NB</strong> You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -291,7 +291,7 @@
           {
             "id": "part-3-group-2",
             "type": "matching",
-            "rubricHtml": "<h3>Questions 34-37</h3>Classify the following statements as referring to",
+            "rubricHtml": "<h3>Questions 34-37</h3>Classify the following statements as referring to<p><strong>NB</strong> You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {

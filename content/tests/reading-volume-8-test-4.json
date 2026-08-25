@@ -64,7 +64,7 @@
           {
             "id": "part-2-group-1",
             "type": "matching",
-            "rubricHtml": "<h3>Questions 14–18</h3>Which paragraph contains the following information? Write the correct letter <strong>A–G</strong>.",
+            "rubricHtml": "<h3>Questions 14–18</h3>Which paragraph contains the following information? Write the correct letter <strong>A–G</strong>.<p><strong>NB</strong> You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -122,7 +122,7 @@
           {
             "id": "part-2-group-2",
             "type": "matching",
-            "rubricHtml": "<h3>Questions 19–23</h3>Match each statement with the correct person, A-D.",
+            "rubricHtml": "<h3>Questions 19–23</h3>Match each statement with the correct person, A-D.<p><strong>NB</strong> You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {

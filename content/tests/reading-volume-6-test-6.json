@@ -17,7 +17,7 @@
           {
             "id": "part-1-group-1",
             "type": "matching",
-            "rubricHtml": "<h3>Questions 1–6</h3>According to the information in Reading Passage 1, classify the following facts as referring to:",
+            "rubricHtml": "<h3>Questions 1–6</h3>According to the information in Reading Passage 1, classify the following facts as referring to:<p><strong>NB</strong> You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {

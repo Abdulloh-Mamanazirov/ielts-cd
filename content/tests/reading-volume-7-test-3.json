@@ -195,7 +195,7 @@
           {
             "id": "part-3-group-1",
             "type": "matching",
-            "rubricHtml": "<h3>Questions 27–31</h3>Reading Passage 3 has six sections, A-F.Which section contains the following information?",
+            "rubricHtml": "<h3>Questions 27–31</h3>Reading Passage 3 has six sections, A-F.Which section contains the following information?<p><strong>NB</strong> You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -249,7 +249,7 @@
           {
             "id": "part-3-group-2",
             "type": "matching",
-            "rubricHtml": "<h3>Questions 32–40</h3>Classify the following statements as referring to A, B or C.",
+            "rubricHtml": "<h3>Questions 32–40</h3>Classify the following statements as referring to A, B or C.<p><strong>NB</strong> You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {

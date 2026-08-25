@@ -118,7 +118,7 @@
           {
             "id": "part-2-group-2",
             "type": "matching",
-            "rubricHtml": "<h3>Questions 19-22</h3>Match each statement with the correct researcher or researchers.",
+            "rubricHtml": "<h3>Questions 19-22</h3>Match each statement with the correct researcher or researchers.<p><strong>NB</strong> You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {

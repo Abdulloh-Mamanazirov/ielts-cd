@@ -64,7 +64,7 @@
           {
             "id": "part-2-group-1",
             "type": "matching",
-            "rubricHtml": "<h3>Questions 14–17</h3>Look at the following findings (Questions 14–17) and the list of researchers below. Match each finding with the correct researcher, <strong>A, B or C</strong>.",
+            "rubricHtml": "<h3>Questions 14–17</h3>Look at the following findings (Questions 14–17) and the list of researchers below. Match each finding with the correct researcher, <strong>A, B or C</strong>.<p><strong>NB</strong> You may use any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {
