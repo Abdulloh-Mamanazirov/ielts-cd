@@ -261,8 +261,21 @@ function CompletionBody({
   reviewFor,
   onAnswer,
   onFocusQuestion,
+  onShowEvidence,
 }: GroupViewProps) {
   const letterOnly = Boolean(group.wordBank && group.wordBank.length > 0);
+
+  // The completion slots are inline in the body HTML, so there is no per-question
+  // panel to hang the evidence off. In a listening test (no passage to jump to,
+  // hence no onShowEvidence) we instead list the recording lines for the answers
+  // the student missed, below the notes -- the spoken-word proof they would get
+  // from a highlighted passage in reading.
+  const recordingLines =
+    reviewMode && !onShowEvidence
+      ? [...new Set([...(group.bodyHtml ?? "").matchAll(/\{\{\s*(\d+)\s*\}\}/g)].map((m) => Number(m[1])))]
+          .map((n) => ({ n, review: reviewFor(n) }))
+          .filter((x) => x.review && !x.review.correct && x.review.evidence?.snippet)
+      : [];
 
   const renderSlot = useCallback(
     (questionNumber: number) => {
@@ -287,6 +300,22 @@ function CompletionBody({
   return (
     <div className="question-body leading-8 text-ink [&_li]:py-1 [&_.flow-arrow]:my-1 [&_.flow-arrow]:text-center [&_.flow-arrow]:text-brand-blue [&_.flow-box]:rounded-md [&_.flow-box]:bg-surface-alt [&_.flow-box]:px-4 [&_.flow-box]:py-3 [&_.form-label]:font-semibold [&_.form-row]:flex [&_.form-row]:flex-wrap [&_.form-row]:gap-x-3 [&_.form-row]:border-b [&_.form-row]:border-rule [&_.form-row]:py-2 [&_.notes-list]:list-disc [&_.notes-list]:pl-5 [&_.q-table]:w-full [&_.q-table_td]:border [&_.q-table_td]:border-rule [&_.q-table_td]:p-2.5 [&_.q-table_th]:border [&_.q-table_th]:border-rule [&_.q-table_th]:bg-surface-alt [&_.q-table_th]:p-2.5 [&_.q-table_th]:text-left [&_.summary-title]:mb-2 [&_.summary-title]:font-bold">
       <SlotHtml html={group.bodyHtml ?? ""} renderSlot={renderSlot} />
+
+      {recordingLines.length > 0 && (
+        <figure className="mt-4 rounded-[10px] border-l-[3px] border-brand-blue/40 bg-surface-alt px-4 py-3 leading-relaxed">
+          <figcaption className="text-[10px] font-bold tracking-[0.16em] text-ink-subtle">
+            IN THE RECORDING
+          </figcaption>
+          <ul className="mt-1.5 space-y-1.5">
+            {recordingLines.map(({ n, review }) => (
+              <li key={n} className="flex gap-2 text-sm text-ink">
+                <span className="flex-none font-bold text-brand-blue">{n}</span>
+                <span className="italic">“{review!.evidence!.snippet}”</span>
+              </li>
+            ))}
+          </ul>
+        </figure>
+      )}
     </div>
   );
 }
