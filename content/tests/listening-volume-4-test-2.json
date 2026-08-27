@@ -276,8 +276,8 @@
           },
           {
             "id": "part-3-group-3",
-            "type": "matching",
-            "rubricHtml": "<p>Questions 25–30</p>",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 25–30</h3><p>Complete the flow-chart below.</p><p>Choose <strong>SIX</strong> answers from the box and write the correct letter, <strong>A–H</strong>, next to Questions 25–30.</p><p><strong>Geography lesson plan: student activities</strong></p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -313,32 +313,7 @@
                 "textHtml": "methods of transport"
               }
             ],
-            "questions": [
-              {
-                "number": 25,
-                "textHtml": ""
-              },
-              {
-                "number": 26,
-                "textHtml": ""
-              },
-              {
-                "number": 27,
-                "textHtml": ""
-              },
-              {
-                "number": 28,
-                "textHtml": ""
-              },
-              {
-                "number": 29,
-                "textHtml": ""
-              },
-              {
-                "number": 30,
-                "textHtml": ""
-              }
-            ]
+            "bodyHtml": "<div>\n<div class=\"flow-box\">Examine a pencil and discuss where the component materials come from.</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Locate the top {{25}} on a world map.</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Discuss the pros and cons of different {{26}}.</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">In groups, discuss countries’ possible {{27}} to the USA.</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Complete a {{28}} about pencil distribution within the USA.</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Share ideas about the {{29}} of pencils.</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Prepare a {{30}}.</div>\n</div>"
           }
         ]
       },

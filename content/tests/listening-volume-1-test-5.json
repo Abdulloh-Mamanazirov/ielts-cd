@@ -153,7 +153,7 @@
           {
             "id": "part-3-group-1",
             "type": "mcq",
-            "rubricHtml": "<p>Questions 21 and 22: Choose <strong>TWO</strong> letters, A–E.</p>",
+            "rubricHtml": "<p>Questions 21 and 22: Choose <strong>TWO</strong> letters, A–D.</p>",
             "selectCount": 2,
             "questions": [
               {
@@ -174,11 +174,7 @@
                   },
                   {
                     "letter": "D",
-                    "textHtml": "&nbsp; electricity production is affected (option D)"
-                  },
-                  {
-                    "letter": "E",
-                    "textHtml": "&nbsp; electricity production is affected (option E)"
+                    "textHtml": "&nbsp; electricity production is affected"
                   }
                 ]
               }
@@ -542,7 +538,7 @@
         ],
         "accepted": [
           "B",
-          "E"
+          "D"
         ]
       }
     ]
