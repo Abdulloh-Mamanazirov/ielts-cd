@@ -163,7 +163,10 @@ function MapLabelling({
                 verdict={review ? (review.correct ? "correct" : "incorrect") : undefined}
               />
 
-              <span className="min-w-0 flex-1 text-ink">{question.textHtml}</span>
+              {/* Not flex-1: letting the label grow pushed the answer letters
+                  to the far right, leaving a wide gap between each place name
+                  and its options. Sitting them next to the label reads better. */}
+              <span className="min-w-0 text-ink">{question.textHtml}</span>
 
               <span className="flex flex-wrap gap-1">
                 {letters.map((letter) => {
@@ -282,7 +285,7 @@ function CompletionBody({
   );
 
   return (
-    <div className="question-body leading-8 text-ink [&_.flow-arrow]:my-1 [&_.flow-arrow]:text-center [&_.flow-arrow]:text-brand-blue [&_.flow-box]:rounded-md [&_.flow-box]:bg-surface-alt [&_.flow-box]:px-4 [&_.flow-box]:py-3 [&_.form-label]:font-semibold [&_.form-row]:flex [&_.form-row]:flex-wrap [&_.form-row]:gap-x-3 [&_.form-row]:border-b [&_.form-row]:border-rule [&_.form-row]:py-2 [&_.notes-list]:list-disc [&_.notes-list]:pl-5 [&_.q-table]:w-full [&_.q-table_td]:border [&_.q-table_td]:border-rule [&_.q-table_td]:p-2.5 [&_.q-table_th]:border [&_.q-table_th]:border-rule [&_.q-table_th]:bg-surface-alt [&_.q-table_th]:p-2.5 [&_.q-table_th]:text-left [&_.summary-title]:mb-2 [&_.summary-title]:font-bold">
+    <div className="question-body leading-8 text-ink [&_li]:py-1 [&_.flow-arrow]:my-1 [&_.flow-arrow]:text-center [&_.flow-arrow]:text-brand-blue [&_.flow-box]:rounded-md [&_.flow-box]:bg-surface-alt [&_.flow-box]:px-4 [&_.flow-box]:py-3 [&_.form-label]:font-semibold [&_.form-row]:flex [&_.form-row]:flex-wrap [&_.form-row]:gap-x-3 [&_.form-row]:border-b [&_.form-row]:border-rule [&_.form-row]:py-2 [&_.notes-list]:list-disc [&_.notes-list]:pl-5 [&_.q-table]:w-full [&_.q-table_td]:border [&_.q-table_td]:border-rule [&_.q-table_td]:p-2.5 [&_.q-table_th]:border [&_.q-table_th]:border-rule [&_.q-table_th]:bg-surface-alt [&_.q-table_th]:p-2.5 [&_.q-table_th]:text-left [&_.summary-title]:mb-2 [&_.summary-title]:font-bold">
       <SlotHtml html={group.bodyHtml ?? ""} renderSlot={renderSlot} />
     </div>
   );
