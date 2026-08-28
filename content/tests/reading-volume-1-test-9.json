@@ -405,7 +405,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 38–40 — Word Box Completion</h3>Complete each of the following statements with words taken from the box below.",
             "selectCount": 1,
-            "bodyHtml": "<div><p><strong>38.</strong>&nbsp; When suspended, the eggs of the cane toad resemble {{38}}.</p></div><div><p><strong>39.</strong>&nbsp; Cane toads were introduced into Australia in order to stop beetle young eating sugar cane {{39}}.</p></div><div><p><strong>40.</strong>&nbsp; The text says that dogs affected by cane toad poisoning may have problems with {{40}}.</p></div>",
+            "bodyHtml": "<div class=\"word-box\"><span>flowers</span><span>hearing</span><span>hair</span><span>walking</span><span>leaves</span><span>roots</span><span>smelling</span><span>tadpoles</span><span>stalks</span><span>rope</span><span>seeds</span><span>sleeping</span></div><div><p><strong>38.</strong>&nbsp; When suspended, the eggs of the cane toad resemble {{38}}.</p></div><div><p><strong>39.</strong>&nbsp; Cane toads were introduced into Australia in order to stop beetle young eating sugar cane {{39}}.</p></div><div><p><strong>40.</strong>&nbsp; The text says that dogs affected by cane toad poisoning may have problems with {{40}}.</p></div>",
             "maxWords": 1
           }
         ]
@@ -709,7 +709,7 @@
       },
       "38": {
         "accepted": [
-          "10"
+          "rope"
         ],
         "evidence": {
           "snippet": "hangs in ropy strands if picked up"
@@ -717,12 +717,12 @@
       },
       "39": {
         "accepted": [
-          "6"
+          "roots"
         ]
       },
       "40": {
         "accepted": [
-          "4"
+          "walking"
         ],
         "evidence": {
           "snippet": "collapse of the hind limbs"
