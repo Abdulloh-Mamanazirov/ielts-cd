@@ -2,7 +2,7 @@
 
 import { useCallback, useState } from "react";
 
-import type { Annotations, Highlight } from "@/lib/player/highlights";
+import type { Annotations, Highlight, QuestionHighlight } from "@/lib/player/highlights";
 
 /**
  * Highlights and notes for one attempt.
@@ -54,6 +54,28 @@ export function useAnnotations(
     [annotations, update],
   );
 
+  const addQuestionHighlight = useCallback(
+    (highlight: QuestionHighlight) => {
+      update({
+        ...annotations,
+        questionHighlights: [...(annotations.questionHighlights ?? []), highlight],
+      });
+    },
+    [annotations, update],
+  );
+
+  const removeQuestionHighlight = useCallback(
+    (id: string) => {
+      update({
+        ...annotations,
+        questionHighlights: (annotations.questionHighlights ?? []).filter(
+          (entry) => entry.id !== id,
+        ),
+      });
+    },
+    [annotations, update],
+  );
+
   const setScratchpad = useCallback(
     (scratchpad: string) => update({ ...annotations, scratchpad }),
     [annotations, update],
@@ -62,9 +84,12 @@ export function useAnnotations(
   return {
     annotations,
     highlights: annotations.highlights ?? [],
+    questionHighlights: annotations.questionHighlights ?? [],
     scratchpad: annotations.scratchpad ?? "",
     addHighlight,
     removeHighlight,
+    addQuestionHighlight,
+    removeQuestionHighlight,
     setNote,
     setScratchpad,
   };

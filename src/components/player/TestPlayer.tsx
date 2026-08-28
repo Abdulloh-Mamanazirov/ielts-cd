@@ -12,6 +12,7 @@ import { PassagePane, type Evidence, type EvidenceMark } from "./PassagePane";
 import { useAnnotations } from "./useAnnotations";
 import { PlayerHeader, ReviewHeader } from "./PlayerChrome";
 import { QuestionGroupView, type ReviewInfo } from "./QuestionGroupView";
+import { QuestionHighlighter } from "./QuestionHighlighter";
 import { QuestionNav, type NavPart } from "./QuestionNav";
 import { ScoreReveal } from "./ScoreReveal";
 import { RichHtml } from "./SlotHtml";
@@ -220,7 +221,17 @@ export function TestPlayer({
     .map((part) => ({ number: part.number, startSeconds: part.audioStartSeconds! }));
 
   const questionsPane = (
-    <div className="min-h-0 flex-1 overflow-y-auto px-6 py-5 lg:px-8" style={{ fontSize: size }}>
+    <QuestionHighlighter
+      part={currentPart?.number ?? 1}
+      fontSize={size}
+      // Highlighting is a while-solving study aid: review adds verdict/answer
+      // text that would shift the offsets the marks are anchored to.
+      enabled={!reviewMode}
+      highlights={notes.questionHighlights}
+      onAdd={notes.addQuestionHighlight}
+      onRemove={notes.removeQuestionHighlight}
+      className="relative min-h-0 flex-1 overflow-y-auto px-6 py-5 lg:px-8"
+    >
       {currentPart?.groups.map((group) => (
         <QuestionGroupView
           key={group.id}
@@ -236,7 +247,7 @@ export function TestPlayer({
           onShowEvidence={currentPart?.passageHtml ? setEvidence : undefined}
         />
       ))}
-    </div>
+    </QuestionHighlighter>
   );
 
   return (

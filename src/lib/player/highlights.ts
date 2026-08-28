@@ -23,8 +23,27 @@ export type Highlight = {
   note?: string;
 };
 
+/**
+ * Student highlight over the *questions* column (listening, or a reading test's
+ * question pane). There is no single passage string to weave marks into here —
+ * the questions are live React components with inputs — so these are painted
+ * with the CSS Custom Highlight API instead, which never touches the DOM. The
+ * offsets are over the question pane's text for one part, which is stable while
+ * solving (an `<input>`'s value is not part of `textContent`).
+ */
+export type QuestionHighlight = {
+  id: string;
+  /** Part the questions belong to; each part shows a different set. */
+  part: number;
+  start: number;
+  end: number;
+  text: string;
+};
+
 export type Annotations = {
   highlights?: Highlight[];
+  /** Highlights over the questions column, painted without DOM marks. */
+  questionHighlights?: QuestionHighlight[];
   /** Free scratchpad, for tests with no passage to highlight. */
   scratchpad?: string;
 };
