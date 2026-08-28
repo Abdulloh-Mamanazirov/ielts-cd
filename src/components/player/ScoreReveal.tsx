@@ -102,7 +102,7 @@ export function ScoreReveal({
 
           <Link
             href={resultsHref}
-            className="mt-3 block w-full rounded-[10px] px-6 py-2.5 text-[13px] font-bold text-ink-subtle underline-offset-4 transition hover:text-ink hover:underline"
+            className="mt-3 block w-full rounded-[10px] bg-surface-alt px-6 py-3 text-sm font-bold text-ink-muted shadow-[inset_0_0_0_1.5px_rgba(11,17,32,.16)] transition hover:bg-white hover:text-ink hover:shadow-[inset_0_0_0_1.5px_rgba(11,17,32,.4)]"
           >
             Back to my results
           </Link>

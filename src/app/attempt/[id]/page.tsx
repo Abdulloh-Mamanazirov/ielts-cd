@@ -7,11 +7,19 @@ import { requireUser } from "@/lib/auth/guards";
 import { INSTRUCTOR_MARKING_ENABLED } from "@/lib/features";
 import type { Annotations } from "@/lib/player/highlights";
 import { prisma } from "@/lib/db";
+import type { GradeResult, QuestionVerdict } from "@/lib/tests/grade";
 import { getPlayableTest } from "@/lib/tests/access";
 
-export default async function AttemptPage({ params }: { params: Promise<{ id: string }> }) {
+export default async function AttemptPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ id: string }>;
+  searchParams: Promise<{ review?: string }>;
+}) {
   const { id } = await params;
-  const user = await requireUser(`/attempt/${id}`);
+  const { review } = await searchParams;
+  const user = await requireUser(`/attempt/${id}${review ? "?review=1" : ""}`);
 
   const attempt = await prisma.attempt.findFirst({
     where: { id, userId: user.id },
@@ -26,13 +34,25 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
       startedAt: true,
       expiresAt: true,
       fullMockId: true,
+      rawScore: true,
+      band: true,
+      result: true,
     },
   });
 
   if (!attempt) notFound();
 
-  // A finished attempt belongs on the results page, not back in the player.
-  if (attempt.status !== "IN_PROGRESS") redirect(`/dashboard/results/${attempt.id}`);
+  // A finished auto-graded attempt can be re-opened read-only to walk the marked
+  // paper (`?review=1`); otherwise a finished attempt belongs on the results page.
+  const stored = attempt.result as
+    | { verdicts?: QuestionVerdict[]; scaledScore?: number; isEstimate?: boolean }
+    | null;
+  const wantsReview =
+    attempt.status !== "IN_PROGRESS" && Boolean(review) && (stored?.verdicts?.length ?? 0) > 0;
+
+  if (attempt.status !== "IN_PROGRESS" && !wantsReview) {
+    redirect(`/dashboard/results/${attempt.id}`);
+  }
 
   // A section of a full mock is opened on the mock's authority: the composition
   // was fixed when it started, and it may legitimately include material the
@@ -72,5 +92,16 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
     );
   }
 
-  return <TestPlayer test={access.test} attempt={snapshot} />;
+  const initialResult: GradeResult | null = wantsReview
+    ? {
+        rawScore: attempt.rawScore ?? 0,
+        totalQuestions: access.test.totalQuestions,
+        band: attempt.band ?? 0,
+        scaledScore: stored?.scaledScore ?? attempt.rawScore ?? 0,
+        isEstimate: stored?.isEstimate ?? false,
+        verdicts: stored?.verdicts ?? [],
+      }
+    : null;
+
+  return <TestPlayer test={access.test} attempt={snapshot} initialResult={initialResult} />;
 }

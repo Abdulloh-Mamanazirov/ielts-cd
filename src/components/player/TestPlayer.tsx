@@ -44,9 +44,12 @@ export type AttemptSnapshot = {
 export function TestPlayer({
   test,
   attempt,
+  initialResult = null,
 }: {
   test: PlayableTest;
   attempt: AttemptSnapshot;
+  /** Re-opening a finished attempt: start in review with the stored marks. */
+  initialResult?: GradeResult | null;
 }) {
   const parts = useMemo(() => test.content.parts ?? [], [test.content.parts]);
 
@@ -54,7 +57,7 @@ export function TestPlayer({
   const [flags, setFlags] = useState<number[]>(attempt.flags ?? []);
   const [activePart, setActivePart] = useState(parts[0]?.number ?? 1);
   const [activeQuestion, setActiveQuestion] = useState(1);
-  const [result, setResult] = useState<GradeResult | null>(null);
+  const [result, setResult] = useState<GradeResult | null>(initialResult);
   const [scoreOpen, setScoreOpen] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [dialogOpen, setDialogOpen] = useState(false);
@@ -349,6 +352,7 @@ export function TestPlayer({
       {reviewMode && result ? (
         <ReviewHeader
           title={test.title}
+          resultsHref={`/dashboard/results/${attempt.id}`}
           submittedAt={new Date().toLocaleString(undefined, {
             day: "numeric",
             month: "long",

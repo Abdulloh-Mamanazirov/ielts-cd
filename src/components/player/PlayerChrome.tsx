@@ -198,6 +198,7 @@ function SaveIndicator({ status }: { status: SaveStatus }) {
 /** Review header. Same layout, inverted value — you can never mistake it for a live attempt. */
 export function ReviewHeader({
   title,
+  resultsHref,
   submittedAt,
   timeUsed,
   rawScore,
@@ -206,6 +207,8 @@ export function ReviewHeader({
   isEstimate,
 }: {
   title: string;
+  /** This attempt's own results page, so review and results reach each other. */
+  resultsHref: string;
   submittedAt: string;
   timeUsed: string | null;
   rawScore: number;
@@ -217,7 +220,7 @@ export function ReviewHeader({
     <header className="flex min-h-[66px] flex-none flex-wrap items-center justify-between gap-4 bg-ink px-4 py-3 text-white lg:px-[22px] lg:py-0">
       <div className="flex min-w-0 items-center gap-4">
         <Link
-          href="/dashboard"
+          href={resultsHref}
           className="inline-flex items-center gap-2 rounded-[9px] bg-white/10 px-3.5 py-2.5 text-[13px] font-bold transition hover:bg-white hover:text-ink"
         >
           <ArrowLeft />

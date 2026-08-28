@@ -83,6 +83,18 @@ export default async function ResultPage({ params }: { params: Promise<{ id: str
         />
       </div>
 
+      {/* The rich, marked paper (passage + highlighted answers) lives in the
+          player; this re-opens it read-only so the two views reach each other. */}
+      {verdicts.length > 0 && (
+        <Link
+          href={`/attempt/${attempt.id}?review=1`}
+          className="mt-6 inline-flex items-center gap-2 rounded-[10px] bg-brand-red-cta px-5 py-3 text-sm font-bold text-white shadow-[0_14px_26px_-12px_rgba(225,0,70,.7)] transition hover:bg-brand-red-dark"
+        >
+          See where I went wrong
+          <span aria-hidden>→</span>
+        </Link>
+      )}
+
       {attempt.band === null && !autoGraded && (
         <p className="mt-5 rounded-xl bg-brand-blue-soft px-5 py-4 text-sm leading-relaxed text-ink-muted">
           {attempt.reviewRequested ? (
