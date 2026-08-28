@@ -81,8 +81,8 @@
           },
           {
             "id": "part-2-group-2",
-            "type": "matching",
-            "rubricHtml": "<p>Questions 15–20</p>",
+            "type": "map_labeling",
+            "rubricHtml": "<p>Questions 15–20</p><p>Label the map below.</p><p>Write the correct letter, <strong>A–I</strong>, next to Questions 15–20.</p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -147,7 +147,8 @@
                 "number": 20,
                 "textHtml": "Pony rides"
               }
-            ]
+            ],
+            "imageUrl": "/test-media/listening-volume-7-test-7-p2-map.jpg"
           }
         ]
       },

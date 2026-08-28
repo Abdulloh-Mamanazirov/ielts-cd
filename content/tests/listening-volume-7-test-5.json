@@ -31,8 +31,8 @@
         "groups": [
           {
             "id": "part-2-group-1",
-            "type": "matching",
-            "rubricHtml": "<p>Questions 11–16</p>",
+            "type": "map_labeling",
+            "rubricHtml": "<p>Questions 11–16</p><p>Label the map below.</p><p>Write the correct letter, <strong>A–H</strong>, next to Questions 11–16.</p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -93,7 +93,8 @@
                 "number": 16,
                 "textHtml": "Bike trail"
               }
-            ]
+            ],
+            "imageUrl": "/test-media/listening-volume-7-test-5-p2-map.jpg"
           },
           {
             "id": "part-2-group-2",

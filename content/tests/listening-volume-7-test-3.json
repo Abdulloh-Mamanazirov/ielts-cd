@@ -89,15 +89,15 @@
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": "A"
+                "textHtml": "She really likes it."
               },
               {
                 "letter": "B",
-                "textHtml": "B"
+                "textHtml": "She doesn't mind it."
               },
               {
                 "letter": "C",
-                "textHtml": "C"
+                "textHtml": "She hates it."
               }
             ],
             "questions": [

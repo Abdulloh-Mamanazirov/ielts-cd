@@ -135,15 +135,15 @@
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": "A"
+                "textHtml": "Walkers are advised to have this"
               },
               {
                 "letter": "B",
-                "textHtml": "B"
+                "textHtml": "Walkers can have this, if they wish"
               },
               {
                 "letter": "C",
-                "textHtml": "C"
+                "textHtml": "Walkers are advised NOT to have this"
               }
             ],
             "questions": [
