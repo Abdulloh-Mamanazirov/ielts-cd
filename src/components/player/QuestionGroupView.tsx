@@ -38,7 +38,7 @@ export type GroupViewProps = {
   onAnswer: (questionNumber: number, value: string) => void;
   onFocusQuestion: (questionNumber: number) => void;
   onToggleFlag: (questionNumber: number) => void;
-  onShowEvidence?: (evidence: { anchor?: string; snippet?: string }) => void;
+  onShowEvidence?: (evidence: { anchor?: string; snippet?: string; qnum?: number }) => void;
 };
 
 /**
@@ -461,7 +461,7 @@ function QuestionItem({
       </div>
 
       {review && !review.correct && (
-        <Explanation review={review} onShowEvidence={onShowEvidence} />
+        <Explanation review={review} questionNumber={number} onShowEvidence={onShowEvidence} />
       )}
     </div>
   );

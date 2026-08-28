@@ -8,7 +8,14 @@ import { applyHighlightMarks, type Highlight } from "@/lib/player/highlights";
 import { cn } from "@/lib/utils";
 import { HeadingDropSlot } from "./MatchingHeadings";
 
-export type Evidence = { anchor?: string; snippet?: string };
+export type Evidence = {
+  anchor?: string;
+  snippet?: string;
+  /** Review: the question whose mark to jump to (its badge is `data-qnum`). */
+  qnum?: number;
+  /** Bumped on every "show me where" click so the same target re-flashes. */
+  nonce?: number;
+};
 /** One answer's location in the passage, for the review "where did this come from" marks. */
 export type EvidenceMark = { n: number; snippet: string; correct: boolean };
 
@@ -182,22 +189,43 @@ export function PassagePane({
     return parse(source, options);
   }, [marked, headingSlots]);
 
+  // Stepping through review with the navigator brings the current question's
+  // mark into view (no flash — it is a quiet move, not a request to look). A
+  // "show me where" click also moves here, then the effect below flashes it.
   useEffect(() => {
     const root = scroller.current;
     if (!root) return;
-
-    // As the student steps through review, bring the current question's mark
-    // into view; otherwise fall back to the single focused snippet or anchor.
-    let target: Element | null = null;
     if (showAllMarks && focusQuestion != null) {
-      target = root.querySelector(`[data-qnum="${focusQuestion}"]`);
-    } else if (evidence) {
-      target =
-        root.querySelector("[data-evidence]") ??
-        (evidence.anchor ? root.querySelector(`#${CSS.escape(evidence.anchor)}`) : null);
+      root
+        .querySelector(`[data-qnum="${focusQuestion}"]`)
+        ?.scrollIntoView({ behavior: "smooth", block: "center" });
     }
-    target?.scrollIntoView({ behavior: "smooth", block: "center" });
-  }, [evidence, focusQuestion, showAllMarks, marked]);
+  }, [focusQuestion, showAllMarks, marked]);
+
+  // "Show me where": jump to that one answer's mark and flash it, so it stands
+  // out from the forty other marks already on the passage. Keyed on `evidence`
+  // (its nonce changes on every click) so the same target flashes again.
+  useEffect(() => {
+    const root = scroller.current;
+    if (!root || !evidence) return;
+    // With a question number (review) go only to that answer's own mark — never
+    // fall back to another, which would flash the wrong sentence. Without one
+    // (the single-evidence path) use the lone evidence mark or its anchor.
+    const target =
+      evidence.qnum != null
+        ? root.querySelector(`[data-qnum="${evidence.qnum}"]`)
+        : (root.querySelector("[data-evidence]") ??
+          (evidence.anchor ? root.querySelector(`#${CSS.escape(evidence.anchor)}`) : null));
+    if (!(target instanceof HTMLElement)) return;
+
+    target.scrollIntoView({ behavior: "smooth", block: "center" });
+    target.classList.add("evidence-flash");
+    const timer = window.setTimeout(() => target.classList.remove("evidence-flash"), 1200);
+    return () => {
+      window.clearTimeout(timer);
+      target.classList.remove("evidence-flash");
+    };
+  }, [evidence]);
 
   /** Character offset of a DOM position within the passage's text. */
   const offsetOf = useCallback((node: Node, offset: number): number => {

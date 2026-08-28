@@ -187,7 +187,11 @@ export function MatchingBoard({
                       <span aria-hidden>→ </span>
                       {review.expected} {textFor(review.expected)}
                     </p>
-                    <Explanation review={review} onShowEvidence={onShowEvidence} />
+                    <Explanation
+                      review={review}
+                      questionNumber={question.number}
+                      onShowEvidence={onShowEvidence}
+                    />
                   </>
                 )}
               </li>

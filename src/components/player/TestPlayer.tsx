@@ -125,6 +125,14 @@ export function TestPlayer({
     return marks;
   }, [reviewMode, navParts, reviewFor]);
 
+  // "Show me where": jump the passage to this answer and flash it. The nonce
+  // makes each click a distinct value, so re-clicking the same one flashes
+  // again; focusing the question also lines up the navigator.
+  const showEvidence = useCallback((info: { anchor?: string; snippet?: string; qnum?: number }) => {
+    setEvidence({ ...info, nonce: Date.now() });
+    if (info.qnum != null) setActiveQuestion(info.qnum);
+  }, []);
+
   const handleAnswer = useCallback(
     (questionNumber: number, value: string) => {
       setAnswers((previous) => ({ ...previous, [String(questionNumber)]: value }));
@@ -327,7 +335,7 @@ export function TestPlayer({
           onAnswer={handleAnswer}
           onFocusQuestion={setActiveQuestion}
           onToggleFlag={handleToggleFlag}
-          onShowEvidence={currentPart?.passageHtml ? setEvidence : undefined}
+          onShowEvidence={currentPart?.passageHtml ? showEvidence : undefined}
         />
       ))}
     </QuestionHighlighter>

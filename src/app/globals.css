@@ -129,6 +129,18 @@ body {
   color: var(--color-ink);
 }
 
+/* "Show me where": a one-shot flash on the answer's mark in the passage, so the
+   right one stands out from the others already highlighted in review. */
+@keyframes evidence-flash {
+  0% { background-color: #ffd43b; box-shadow: 0 0 0 4px #ffd43b; }
+  70% { background-color: #ffe066; box-shadow: 0 0 0 2px #ffe066; }
+  100% { background-color: transparent; box-shadow: 0 0 0 0 transparent; }
+}
+.evidence-flash {
+  border-radius: 3px;
+  animation: evidence-flash 1.15s ease-out;
+}
+
 /* The 120px column grid that sits under the editorial sections. */
 .om-grid-lines {
   background-image: linear-gradient(90deg, rgba(11, 17, 32, 0.055) 1px, transparent 1px);

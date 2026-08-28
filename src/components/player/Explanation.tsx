@@ -5,10 +5,12 @@ import type { ReviewInfo } from "./QuestionGroupView";
 /** Written like a teacher speaking: what was needed, and where the proof sits. */
 export function Explanation({
   review,
+  questionNumber,
   onShowEvidence,
 }: {
   review: ReviewInfo;
-  onShowEvidence?: (evidence: { anchor?: string; snippet?: string }) => void;
+  questionNumber?: number;
+  onShowEvidence?: (evidence: { anchor?: string; snippet?: string; qnum?: number }) => void;
 }) {
   return (
     <div className="mt-3 rounded-[10px] bg-surface-alt p-4">
@@ -31,7 +33,7 @@ export function Explanation({
           // Reading: jump to and highlight the phrase in the passage on screen.
           <button
             type="button"
-            onClick={() => onShowEvidence(review.evidence!)}
+            onClick={() => onShowEvidence({ ...review.evidence!, qnum: questionNumber })}
             className="mt-3 inline-flex items-center gap-2 rounded-lg bg-white px-3 py-2 text-xs font-bold text-brand-blue shadow-[inset_0_0_0_1.5px_rgba(1,84,248,.3)] transition hover:bg-brand-blue hover:text-white"
           >
             Show me where
