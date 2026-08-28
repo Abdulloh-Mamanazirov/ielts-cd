@@ -55,7 +55,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 8–13</h3>Complete the notes below. Choose <b>ONE WORD ONLY</b> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><p></p><h4>Challenges and Support</h4><div><strong>Challenges faced by RFDS dentists</strong></div><ul><li>need to bring equipment including {{8}} for records</li><li>aircraft used to carry equipment have restricted {{9}}</li><li>problems offering some services, e.g., fitting {{10}}</li><li>people in remote areas are more likely to have infection in their mouth</li></ul><div><strong>Products supplied by RFDS dentists</strong></div><div>if necessary RFDS provides:</div><ul><li>{{11}} and {{12}} for regular use</li><li>{{13}} to limit dental accidents on the sports field</li></ul><p></p></div>",
+            "bodyHtml": "<div><p></p><h4>Challenges and Support</h4><div class=\"notes-title\"><strong>Challenges faced by RFDS dentists</strong></div><ul><li>need to bring equipment including {{8}} for records</li><li>aircraft used to carry equipment have restricted {{9}}</li><li>problems offering some services, e.g., fitting {{10}}</li><li>people in remote areas are more likely to have infection in their mouth</li></ul><div><strong>Products supplied by RFDS dentists</strong></div><div>if necessary RFDS provides:</div><ul><li>{{11}} and {{12}} for regular use</li><li>{{13}} to limit dental accidents on the sports field</li></ul><p></p></div>",
             "maxWords": 1
           }
         ]

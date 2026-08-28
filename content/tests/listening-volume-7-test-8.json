@@ -281,7 +281,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 21 and 22</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div><strong>Reasons for having study Syndicates</strong></div><ul><li>Teaching one another is a good way to learn</li><li>It gives the opportunity to {{21}}</li><li>Shared reading means fuller notes</li><li>You can do {{22}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Reasons for having study Syndicates</strong></div><ul><li>Teaching one another is a good way to learn</li><li>It gives the opportunity to {{21}}</li><li>Shared reading means fuller notes</li><li>You can do {{22}}</li></ul></div>",
             "maxWords": 2
           },
           {
@@ -297,7 +297,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 26–30</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><ul><li>Presentation should last for {{26}}</li><li>(plan time for {{27}})</li></ul><p>Sources of information</p><ul><li>Bibliography</li><li>Library books</li><li>{{28}}</li><li>{{29}}</li></ul><p>For the presentations, use</p><ul><li>Overhead projector</li><li>Whiteboard</li><li>{{30}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><ul><li>Presentation should last for {{26}}</li><li>(plan time for {{27}})</li></ul><p class=\"sub-head\">Sources of information</p><ul><li>Bibliography</li><li>Library books</li><li>{{28}}</li><li>{{29}}</li></ul><p>For the presentations, use</p><ul><li>Overhead projector</li><li>Whiteboard</li><li>{{30}}</li></ul></div>",
             "maxWords": 4
           }
         ]
@@ -312,7 +312,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>The African clawed frog (Xenopus laevis)</strong></div><p>Description</p><ul><li>Skin is {{31}} and can vary in colour</li><li>Skin is coated with a slippery film for {{32}}</li><li>Males are {{33}} the size of females</li></ul><p>Habitats</p><ul><li>Native to Africa</li><li>Live in fresh water – preferred water that is {{34}}</li><li>Can survive high levels of {{35}} in water</li><li>Cannot survive if there is any metal in water</li><li>In drought conditions, may live in {{36}} for up to a year</li></ul><p>Diet</p><ul><li>Eat living or dead water creatures</li><li>Find food using their sense of {{37}}, their fingers, and their lateral lines</li><li>Take food into their mouths using front legs and a {{38}} system</li></ul><p>Other information</p><ul><li>Now popular as a pet in the US</li><li>In some US states they are identified as a {{39}}</li><li>Used in laboratories for developmental research</li><li>Mucus from the skin was found to have {{40}} properties</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>The African clawed frog (Xenopus laevis)</strong></div><p class=\"sub-head\">Description</p><ul><li>Skin is {{31}} and can vary in colour</li><li>Skin is coated with a slippery film for {{32}}</li><li>Males are {{33}} the size of females</li></ul><p class=\"sub-head\">Habitats</p><ul><li>Native to Africa</li><li>Live in fresh water – preferred water that is {{34}}</li><li>Can survive high levels of {{35}} in water</li><li>Cannot survive if there is any metal in water</li><li>In drought conditions, may live in {{36}} for up to a year</li></ul><p class=\"sub-head\">Diet</p><ul><li>Eat living or dead water creatures</li><li>Find food using their sense of {{37}}, their fingers, and their lateral lines</li><li>Take food into their mouths using front legs and a {{38}} system</li></ul><p class=\"sub-head\">Other information</p><ul><li>Now popular as a pet in the US</li><li>In some US states they are identified as a {{39}}</li><li>Used in laboratories for developmental research</li><li>Mucus from the skin was found to have {{40}} properties</li></ul></div>",
             "maxWords": 1
           }
         ]

@@ -335,7 +335,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 33–37</h3>Complete the summary using the list of words, <strong>A–G</strong>, below.",
             "selectCount": 1,
-            "bodyHtml": "<p>Drag a word into each gap (or tap a word, then tap a gap). Tap × to clear.</p><div><p><strong>Packaging design in the pharmaceutical industry</strong></p><p>Over-the-counter drugs: First, a proposal is written by the {{33}}. Then several designs are produced by the {{34}}. Finally, selected designs are shown to {{35}}.</p><p>Prescription-only drugs: The {{36}} create the design. The design is then passed to {{37}}.</p></div>",
+            "bodyHtml": "<p>Drag a word into each gap (or tap a word, then tap a gap). Tap × to clear.</p><div><p class=\"notes-title\"><strong>Packaging design in the pharmaceutical industry</strong></p><p>Over-the-counter drugs: First, a proposal is written by the {{33}}. Then several designs are produced by the {{34}}. Finally, selected designs are shown to {{35}}.</p><p>Prescription-only drugs: The {{36}} create the design. The design is then passed to {{37}}.</p></div>",
             "wordBank": [
               {
                 "letter": "A",

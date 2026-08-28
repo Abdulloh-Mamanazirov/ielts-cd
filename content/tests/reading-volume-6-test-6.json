@@ -69,7 +69,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 7–9</h3>Complete the flow-chart below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>How ambergris is formed</strong></div><div><div>Ambergris is formed in whales because of problems digesting the {{7}} of giant squid.</div><div class=\"flow-arrow\">↓</div><div>Black liquid is produced and is {{8}} from time to time.</div><div class=\"flow-arrow\">↓</div><div>The liquid {{9}} on contact with the air.</div></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>How ambergris is formed</strong></div><div><div>Ambergris is formed in whales because of problems digesting the {{7}} of giant squid.</div><div class=\"flow-arrow\">↓</div><div>Black liquid is produced and is {{8}} from time to time.</div><div class=\"flow-arrow\">↓</div><div>The liquid {{9}} on contact with the air.</div></div>",
             "maxWords": 2
           },
           {
@@ -166,7 +166,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 18–22</h3>Complete the summary of paragraphs D and E below. Choose <strong>ONE WORD ONLY</strong> from paragraph D or E for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><p><strong>Photographers' responses to criticism</strong></p><p>In response to the suggestion that photography could not be considered an art form, photographers acted in two ways. Some of them rejected this criticism, certain that they could create pictures similar to {{18}} and did this by carefully setting up the different parts of the {{19}} before taking the photograph. Other things they did included causing the picture to be rather {{20}} and some who wanted to try to make the print look like a canvas even {{21}} their photographs. Others were anxious that their work should not be looked upon as some sort of {{22}} painting and were much more concerned with the fact that the camera seemed to be able to produce a more accurate representation of what they could see around them.</p></div>",
+            "bodyHtml": "<div><p class=\"sub-head\"><strong>Photographers' responses to criticism</strong></p><p>In response to the suggestion that photography could not be considered an art form, photographers acted in two ways. Some of them rejected this criticism, certain that they could create pictures similar to {{18}} and did this by carefully setting up the different parts of the {{19}} before taking the photograph. Other things they did included causing the picture to be rather {{20}} and some who wanted to try to make the print look like a canvas even {{21}} their photographs. Others were anxious that their work should not be looked upon as some sort of {{22}} painting and were much more concerned with the fact that the camera seemed to be able to produce a more accurate representation of what they could see around them.</p></div>",
             "maxWords": 1
           },
           {

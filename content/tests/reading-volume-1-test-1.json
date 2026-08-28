@@ -19,7 +19,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 1–7</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>Chinese Silk</strong></div><div>Early Uses — Clothing<ul><li>at first, silk only available to Chinese of high rank</li><li>emperor wore {{1}} silk indoors</li></ul>In industry<ul><li>silk items included parts of musical instruments, fishing strings and {{2}}</li></ul>Currency<ul><li>silk was used as payment of {{3}} as well as for wages and rewards</li><li>silk replaced {{4}} as a unit of value</li><li>silk soon used as payment in {{5}} trade</li></ul>Evidence of silk trade<ul><li><strong>1070 BC, Egypt:</strong> hair of a {{6}} contained silk</li><li><strong>2nd century BC, Persia &amp; Mesopotamia:</strong> gifts of silk were presented by Chinese ambassadors</li><li><strong>1015 AD, north-west China:</strong> silk objects were hidden inside {{7}}</li></ul></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>Chinese Silk</strong></div><div>Early Uses — Clothing<ul><li>at first, silk only available to Chinese of high rank</li><li>emperor wore {{1}} silk indoors</li></ul>In industry<ul><li>silk items included parts of musical instruments, fishing strings and {{2}}</li></ul>Currency<ul><li>silk was used as payment of {{3}} as well as for wages and rewards</li><li>silk replaced {{4}} as a unit of value</li><li>silk soon used as payment in {{5}} trade</li></ul>Evidence of silk trade<ul><li><strong>1070 BC, Egypt:</strong> hair of a {{6}} contained silk</li><li><strong>2nd century BC, Persia &amp; Mesopotamia:</strong> gifts of silk were presented by Chinese ambassadors</li><li><strong>1015 AD, north-west China:</strong> silk objects were hidden inside {{7}}</li></ul></div>",
             "maxWords": 1
           },
           {
@@ -321,7 +321,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 37–40</h3>Complete the summary using the list of words, <strong>A–J</strong>, below.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>Mozart</strong></div><p>Drag a word into each gap in the summary.</p><div><p>The case of Mozart could be quoted as evidence against the 10,000-hour-practice theory. However, the writer points out that the young Mozart received a lot of {{37}} from his father, and that the symphony he wrote at the age of {{38}} was not {{39}} and may be of only academic interest. The case therefore supports the view that expertise is not solely the result of {{40}} characteristics.</p></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>Mozart</strong></div><p>Drag a word into each gap in the summary.</p><div><p>The case of Mozart could be quoted as evidence against the 10,000-hour-practice theory. However, the writer points out that the young Mozart received a lot of {{37}} from his father, and that the symphony he wrote at the age of {{38}} was not {{39}} and may be of only academic interest. The case therefore supports the view that expertise is not solely the result of {{40}} characteristics.</p></div>",
             "wordBank": [
               {
                 "letter": "A",

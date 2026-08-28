@@ -51,7 +51,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 7–13</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>A short history of Maori healing</strong></div><div> Pre-European arrival <ul><li>Maori were using plant-based remedies, as well as treatment including massage</li><li>Diseases sent from the gods were thought to be caused by disobeying a spiritual {{7}}</li><li>Sickness could be attributed to eating food from a sacred {{8}} or burning sacred wood</li></ul> After European arrival <div><strong>1800s</strong></div><ul><li>The inability of Maori healers to cure new diseases meant the Maori people lost {{9}} in them.</li><li>Eventually the {{10}} for Maori healing began shutting down</li></ul><div><strong>1970s</strong></div><ul><li>Published {{11}} showed that Maori were not as healthy as Europeans</li></ul><div><strong>2000s</strong></div><ul><li>Maori healers can be seen working with Western doctors in {{12}} in cities</li><li>Many patients appreciate the fact that the Maori {{13}} is used by healers</li></ul></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>A short history of Maori healing</strong></div><div> Pre-European arrival <ul><li>Maori were using plant-based remedies, as well as treatment including massage</li><li>Diseases sent from the gods were thought to be caused by disobeying a spiritual {{7}}</li><li>Sickness could be attributed to eating food from a sacred {{8}} or burning sacred wood</li></ul> After European arrival <div><strong>1800s</strong></div><ul><li>The inability of Maori healers to cure new diseases meant the Maori people lost {{9}} in them.</li><li>Eventually the {{10}} for Maori healing began shutting down</li></ul><div><strong>1970s</strong></div><ul><li>Published {{11}} showed that Maori were not as healthy as Europeans</li></ul><div><strong>2000s</strong></div><ul><li>Maori healers can be seen working with Western doctors in {{12}} in cities</li><li>Many patients appreciate the fact that the Maori {{13}} is used by healers</li></ul></div>",
             "maxWords": 1
           }
         ]
@@ -361,7 +361,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 38–40</h3>Complete each sentence with the correct ending, A-G, below.",
             "selectCount": 1,
-            "bodyHtml": "<div>38A book that uses terms such as 'anterior cingulate cortex'{{38}}</div><div>39The use of three-dimensional illustrations in the book{{39}}</div><div>40The inclusion of essays by research scientists in Mapping the Mind{{40}}</div><div><strong>List of Endings</strong></div>",
+            "bodyHtml": "<div>38A book that uses terms such as 'anterior cingulate cortex'{{38}}</div><div>39The use of three-dimensional illustrations in the book{{39}}</div><div>40The inclusion of essays by research scientists in Mapping the Mind{{40}}</div><div class=\"notes-title\"><strong>List of Endings</strong></div>",
             "wordBank": [
               {
                 "letter": "A",

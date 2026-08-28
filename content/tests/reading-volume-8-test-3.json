@@ -140,7 +140,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 21–22</h3>Which <strong>TWO</strong> statements are made by Professor Brian Little in the first paragraph?",
             "selectCount": 1,
-            "bodyHtml": "<div><p><strong>21.</strong></p>{{21}}</div><div><p><strong>22.</strong></p>{{22}}</div>",
+            "bodyHtml": "<div><p class=\"notes-title\"><strong>21.</strong></p>{{21}}</div><div><p><strong>22.</strong></p>{{22}}</div>",
             "wordBank": [
               {
                 "letter": "A",

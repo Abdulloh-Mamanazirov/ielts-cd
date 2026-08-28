@@ -167,7 +167,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 31–34</h3>Complete the diagram using <strong>NO MORE THAN TWO WORDS</strong> from Reading Passage 3.",
             "selectCount": 1,
-            "bodyHtml": "Process: Polylactic Acid<div><p>Milling → Corn</p><p>↓</p><p>{{31}}</p><p>↓</p><p>unrefined dextrose</p><p>↓</p><p>{{32}} → Lactic acid</p><p>↓</p><p>{{33}} → Lactide</p><p>↓</p><p>Vacuum distillation → get {{34}}</p><p>↓</p><p>Solvent-free melting → Nature Works PLA</p></div>",
+            "bodyHtml": "Process: Polylactic Acid<div><p class=\"sub-head\">Milling → Corn</p><p>↓</p><p>{{31}}</p><p>↓</p><p class=\"sub-head\">unrefined dextrose</p><p>↓</p><p>{{32}} → Lactic acid</p><p>↓</p><p>{{33}} → Lactide</p><p>↓</p><p>Vacuum distillation → get {{34}}</p><p>↓</p><p class=\"sub-head\">Solvent-free melting → Nature Works PLA</p></div>",
             "maxWords": 2
           },
           {

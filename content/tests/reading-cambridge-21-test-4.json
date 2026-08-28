@@ -63,7 +63,7 @@
             "maxWords": 1,
             "selectCount": 1,
             "type": "completion",
-            "bodyHtml": "<div class=\"summary\"><h4 class=\"summary-title\">Cooking with biogas in Dunga</h4><p>Benefits for the women in the village of cooking with biogas</p><ul class=\"notes-list\"><li>no need for them to spend so much {{11}} collecting fuel</li><li>they can focus on different tasks that bring in {{12}}</li><li>they are less likely to experience certain diseases connected to burning wood</li></ul><p>Drawbacks of changing to biogas</p><ul class=\"notes-list\"><li>the {{13}} of the digesters is beyond the reach of most villages</li></ul></div>"
+            "bodyHtml": "<div class=\"summary\"><h4 class=\"summary-title\">Cooking with biogas in Dunga</h4><p>Benefits for the women in the village of cooking with biogas</p><ul class=\"notes-list\"><li>no need for them to spend so much {{11}} collecting fuel</li><li>they can focus on different tasks that bring in {{12}}</li><li>they are less likely to experience certain diseases connected to burning wood</li></ul><p class=\"sub-head\">Drawbacks of changing to biogas</p><ul class=\"notes-list\"><li>the {{13}} of the digesters is beyond the reach of most villages</li></ul></div>"
           }
         ]
       },

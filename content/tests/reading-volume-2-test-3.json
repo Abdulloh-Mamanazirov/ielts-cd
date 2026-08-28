@@ -319,7 +319,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 37–40</h3>Complete each sentence with the correct ending, <strong>A–F</strong>, below.",
             "selectCount": 1,
-            "bodyHtml": "<p>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p><div><div>37The destruction of Edwardian ornamentation{{37}}</div><div>38It is extraordinary that a limited number of photographs{{38}}</div><div>39The problem of having so many floor levels to deal with{{39}}</div><div>40The glass flooring in the Mackelvie Gallery which reveals old features{{40}}</div></div><div><strong>Endings</strong></div>",
+            "bodyHtml": "<p>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p><div><div>37The destruction of Edwardian ornamentation{{37}}</div><div>38It is extraordinary that a limited number of photographs{{38}}</div><div>39The problem of having so many floor levels to deal with{{39}}</div><div>40The glass flooring in the Mackelvie Gallery which reveals old features{{40}}</div></div><div class=\"notes-title\"><strong>Endings</strong></div>",
             "wordBank": [
               {
                 "letter": "A",

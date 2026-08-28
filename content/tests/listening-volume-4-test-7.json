@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Holiday rental</strong></div><p><em>Example</em> &nbsp; Owners' name: Carol and <strong>Dave</strong> Marriott</p><p>Aster cottage</p><ul><li>Available for week beginning {{1}}</li><li>Cost for the week: ${{2}}</li></ul><p>Periwinkle Cottage</p><ul><li>The same price as Aster Cottage last year</li><li>Part of a building that was first used as a {{3}}</li><li>The living room leads out to the {{4}}</li><li>View of the {{5}} from the bedroom</li><li>Bring our own {{6}}</li><li>Doesn't have a {{7}}</li></ul><p>The town</p><ul><li>The owner recommends the {{8}} restaurant</li><li>The town is well known for its antique shops</li></ul><p>Payment</p><ul><li>Deposit: ${{9}}</li><li>Deadline for final payment: final day of {{10}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Holiday rental</strong></div><p><em>Example</em> &nbsp; Owners' name: Carol and <strong>Dave</strong> Marriott</p><p class=\"sub-head\">Aster cottage</p><ul><li>Available for week beginning {{1}}</li><li>Cost for the week: ${{2}}</li></ul><p class=\"sub-head\">Periwinkle Cottage</p><ul><li>The same price as Aster Cottage last year</li><li>Part of a building that was first used as a {{3}}</li><li>The living room leads out to the {{4}}</li><li>View of the {{5}} from the bedroom</li><li>Bring our own {{6}}</li><li>Doesn't have a {{7}}</li></ul><p class=\"sub-head\">The town</p><ul><li>The owner recommends the {{8}} restaurant</li><li>The town is well known for its antique shops</li></ul><p class=\"sub-head\">Payment</p><ul><li>Deposit: ${{9}}</li><li>Deadline for final payment: final day of {{10}}</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -112,8 +112,8 @@
           },
           {
             "id": "part-2-group-2",
-            "type": "matching",
-            "rubricHtml": "<p>Questions 15–20</p>",
+            "type": "map_labeling",
+            "rubricHtml": "<p>Questions 15–20</p><p>Label the map below.</p><p>Write the correct letter, <strong>A–I</strong>, next to Questions 15–20.</p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -178,7 +178,8 @@
                 "number": 20,
                 "textHtml": "Water Station"
               }
-            ]
+            ],
+            "imageUrl": "/test-media/listening-volume-4-test-7-p2-map.png"
           }
         ]
       },
@@ -369,7 +370,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div><strong>Aboriginal Textile Design</strong></div><p>Ernabella Arts Centre</p><ul><li>Artists produce craft and learn new techniques</li><li>Initially, artists produced rugs made from {{31}}</li><li>Later artists made batik and screen-printed fabrics</li></ul><p>Tiwi Designs</p><ul><li>Early designs included {{32}} images</li><li>Designs are linked to traditional beliefs, e.g. some designs are believed to bring {{33}}</li></ul><p>Jimmy Pike</p><ul><li>Inspired by the Australian landscape, especially the {{34}}</li><li>Started creating art when he was in {{35}}</li><li>His textiles were used to make {{36}}</li></ul><p>Bronwyn Bancroft</p><ul><li>Her work is a modern look at {{37}} and nature</li><li>1995 — painted a successful Aboriginal athlete's jeans with lizards and a {{38}}</li><li>2001 — designed a 'Journey of a Nation' parade outfit with part of a {{39}} on it</li></ul><p>Copyright Issues</p><ul><li>Exploiting Aboriginal imagery affects the artists and the cultural group, e.g. 'The {{40}} Case'</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Aboriginal Textile Design</strong></div><p class=\"sub-head\">Ernabella Arts Centre</p><ul><li>Artists produce craft and learn new techniques</li><li>Initially, artists produced rugs made from {{31}}</li><li>Later artists made batik and screen-printed fabrics</li></ul><p class=\"sub-head\">Tiwi Designs</p><ul><li>Early designs included {{32}} images</li><li>Designs are linked to traditional beliefs, e.g. some designs are believed to bring {{33}}</li></ul><p class=\"sub-head\">Jimmy Pike</p><ul><li>Inspired by the Australian landscape, especially the {{34}}</li><li>Started creating art when he was in {{35}}</li><li>His textiles were used to make {{36}}</li></ul><p class=\"sub-head\">Bronwyn Bancroft</p><ul><li>Her work is a modern look at {{37}} and nature</li><li>1995 — painted a successful Aboriginal athlete's jeans with lizards and a {{38}}</li><li>2001 — designed a 'Journey of a Nation' parade outfit with part of a {{39}} on it</li></ul><p class=\"sub-head\">Copyright Issues</p><ul><li>Exploiting Aboriginal imagery affects the artists and the cultural group, e.g. 'The {{40}} Case'</li></ul></div>",
             "maxWords": 1
           }
         ]

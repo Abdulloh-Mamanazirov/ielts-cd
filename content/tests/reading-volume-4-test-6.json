@@ -89,7 +89,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 8–13</h3>Complete the flow-chart below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>How the limestone is extracted and used</strong></div><div><div>The {{8}} drill rows of {{9}}</div><div>↓</div><div>{{10}} are used</div><div>↓</div><div>The result is that the rock eventually {{11}}</div><div>↓</div><div>Once extracted, the limestone</div><div><div>↙</div><div>↘</div></div><div><div>is made into {{12}}</div><div>or, through a {{13}} process, can be used to make quicklime.</div></div></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>How the limestone is extracted and used</strong></div><div><div>The {{8}} drill rows of {{9}}</div><div>↓</div><div>{{10}} are used</div><div>↓</div><div>The result is that the rock eventually {{11}}</div><div>↓</div><div>Once extracted, the limestone</div><div><div>↙</div><div>↘</div></div><div><div>is made into {{12}}</div><div>or, through a {{13}} process, can be used to make quicklime.</div></div></div>",
             "maxWords": 2
           }
         ]

@@ -19,7 +19,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 1–6</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>A history of video games</strong></div><div>1960s<ul><li>Spacewar was first played on a computer and special screen.</li></ul>1970s<ul><li>Advances in technology led to cheaper {{1}} and the possibility of coin-operated video games.</li><li>The first successful coin-operated video game was {{2}}.</li><li>{{3}} was bought from its original owners.</li><li>Space Invaders was successful because of its colourful {{4}}.</li></ul>1980s<ul><li>Pac-Man was the first game to attract {{5}}.</li></ul>1990s<ul><li>At first one company dominated the market.</li><li>By the end of the decade {{6}} had become the biggest selling home entertainment product.</li></ul></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>A history of video games</strong></div><div>1960s<ul><li>Spacewar was first played on a computer and special screen.</li></ul>1970s<ul><li>Advances in technology led to cheaper {{1}} and the possibility of coin-operated video games.</li><li>The first successful coin-operated video game was {{2}}.</li><li>{{3}} was bought from its original owners.</li><li>Space Invaders was successful because of its colourful {{4}}.</li></ul>1980s<ul><li>Pac-Man was the first game to attract {{5}}.</li></ul>1990s<ul><li>At first one company dominated the market.</li><li>By the end of the decade {{6}} had become the biggest selling home entertainment product.</li></ul></div>",
             "maxWords": 1
           },
           {
@@ -182,7 +182,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 23–26</h3>Complete the summary below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>The iron bridge</strong></div><div><p>Before the late 18th century, bridges were traditionally constructed of wood and {{23}}. Then the engineer {{24}} manufactured the elements of an innovative bridge across the {{25}}. This iron bridge was the subject of a number of artworks, including a notable one by {{26}}. While some may have viewed it as ugly, artists regarded the bridge as a central feature of the landscape.</p></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>The iron bridge</strong></div><div><p>Before the late 18th century, bridges were traditionally constructed of wood and {{23}}. Then the engineer {{24}} manufactured the elements of an innovative bridge across the {{25}}. This iron bridge was the subject of a number of artworks, including a notable one by {{26}}. While some may have viewed it as ugly, artists regarded the bridge as a central feature of the landscape.</p></div>",
             "maxWords": 2
           }
         ]
@@ -339,7 +339,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 36–40</h3>Complete the summary using the list of words, <strong>A-I</strong>, below.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>Nicholson's advice to the corporate world</strong></div><div><p>Nicholson believes that if we know why people act the way they do, we can change {{36}} so employees will work more efficiently. Nicholson's ideas are unwelcome to {{37}} but some executives are more open to what evolutionary psychology says. However, these executives still believe that there is a {{38}} that will make employees act according to the company's practices. According to Nicholson, these senior executives are engaging in {{39}} and we should not try to change {{40}} but instead we should change our business structures.</p></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>Nicholson's advice to the corporate world</strong></div><div><p>Nicholson believes that if we know why people act the way they do, we can change {{36}} so employees will work more efficiently. Nicholson's ideas are unwelcome to {{37}} but some executives are more open to what evolutionary psychology says. However, these executives still believe that there is a {{38}} that will make employees act according to the company's practices. According to Nicholson, these senior executives are engaging in {{39}} and we should not try to change {{40}} but instead we should change our business structures.</p></div>",
             "wordBank": [
               {
                 "letter": "A",

@@ -19,7 +19,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–6: Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Riverside Festival — Programme of Events</p><table class=\"q-table\"><thead><tr><th>Date</th><th>Time</th><th>Event</th><th>Location</th><th>Comments</th></tr></thead><tbody><tr><td>June 19th</td><td>7 p.m.</td><td><em>Example</em><br>Concert</td><td>the {{1}}</td><td></td></tr><tr><td>June 20th</td><td>{{2}} p.m.</td><td>tour</td><td>meet at the {{3}}</td><td>includes a visit to an old flour mill</td></tr><tr><td>June 21st</td><td>all day</td><td>children's {{4}} competition</td><td>Beechen Community Centre</td><td>bring a {{5}}</td></tr><tr><td>June 21st</td><td>evening</td><td>fireworks</td><td>by the {{6}}</td><td></td></tr></tbody></table>",
+            "bodyHtml": "<p class=\"sub-head\">Riverside Festival — Programme of Events</p><table class=\"q-table\"><thead><tr><th>Date</th><th>Time</th><th>Event</th><th>Location</th><th>Comments</th></tr></thead><tbody><tr><td>June 19th</td><td>7 p.m.</td><td><em>Example</em><br>Concert</td><td>the {{1}}</td><td></td></tr><tr><td>June 20th</td><td>{{2}} p.m.</td><td>tour</td><td>meet at the {{3}}</td><td>includes a visit to an old flour mill</td></tr><tr><td>June 21st</td><td>all day</td><td>children's {{4}} competition</td><td>Beechen Community Centre</td><td>bring a {{5}}</td></tr><tr><td>June 21st</td><td>evening</td><td>fireworks</td><td>by the {{6}}</td><td></td></tr></tbody></table>",
             "maxWords": 2
           },
           {
@@ -27,7 +27,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 7–10: Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div><strong>Additional Information</strong></div><ul><li>This year, activities end by {{7}} p.m.</li><li>There won't be any {{8}} in the town centre this year.</li><li>The festival's web address is www.{{9}}.com</li><li>Festival organisers would like to receive {{10}} online.</li></ul></div>",
+            "bodyHtml": "<div><div class=\"notes-title\"><strong>Additional Information</strong></div><ul><li>This year, activities end by {{7}} p.m.</li><li>There won't be any {{8}} in the town centre this year.</li><li>The festival's web address is www.{{9}}.com</li><li>Festival organisers would like to receive {{10}} online.</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -122,7 +122,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 15–17: Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div><strong>Clothes and Equipment</strong></div><p>Bring:</p><ul><li>boots with thick soles</li><li>spare {{15}}</li><li>light waterproofs</li><li>suncream: strength — {{16}}</li><li>a {{17}} folder for map, etc.</li></ul></div>",
+            "bodyHtml": "<div><div class=\"notes-title\"><strong>Clothes and Equipment</strong></div><p class=\"sub-head\">Bring:</p><ul><li>boots with thick soles</li><li>spare {{15}}</li><li>light waterproofs</li><li>suncream: strength — {{16}}</li><li>a {{17}} folder for map, etc.</li></ul></div>",
             "maxWords": 3
           },
           {
@@ -312,7 +312,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40: Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
             "selectCount": 1,
-            "bodyHtml": "<div><div><strong>Languages in Vanuatu</strong></div><p>Local languages:</p><ul><li>Actively spoken languages: 81</li><li>Declining languages: 17</li><li>{{31}} languages: 8</li><li>Total: 106</li></ul><p>Foreign languages:</p><ul><li>English is used in the {{32}} system</li></ul><div><strong>Bislama</strong></div><ul><li>Spoken by 90% of the population today.</li><li>In the past this language was described as {{33}}.</li></ul><div><strong>History of Bislama</strong></div><ul><li>Around 1800 it was used as a common language on many ships.</li><li>After 1860 Vanuatu people worked in Australian {{34}}.</li><li>After 1950 people moved to the {{35}}.</li></ul><div><strong>Description of Bislama</strong></div><p>General</p><ul><li>Bislama should be called a {{36}} pidgin.</li></ul><p>Vocabulary</p><ul><li>Most words come from English.</li><li>Words such as \"from\" may have more {{37}} in Bislama.</li><li>Less than 10% of words are of {{38}} origin.</li><li>Pacific words describe the natural world and also local {{39}}.</li></ul><p>Grammar</p><ul><li>It is based on Vanuatu languages.</li><li>The word \"long\" acts as an important {{40}} in Bislama.</li></ul></div>",
+            "bodyHtml": "<div><div class=\"notes-title\"><strong>Languages in Vanuatu</strong></div><p class=\"sub-head\">Local languages:</p><ul><li>Actively spoken languages: 81</li><li>Declining languages: 17</li><li>{{31}} languages: 8</li><li>Total: 106</li></ul><p class=\"sub-head\">Foreign languages:</p><ul><li>English is used in the {{32}} system</li></ul><div><strong>Bislama</strong></div><ul><li>Spoken by 90% of the population today.</li><li>In the past this language was described as {{33}}.</li></ul><div><strong>History of Bislama</strong></div><ul><li>Around 1800 it was used as a common language on many ships.</li><li>After 1860 Vanuatu people worked in Australian {{34}}.</li><li>After 1950 people moved to the {{35}}.</li></ul><div><strong>Description of Bislama</strong></div><p class=\"sub-head\">General</p><ul><li>Bislama should be called a {{36}} pidgin.</li></ul><p class=\"sub-head\">Vocabulary</p><ul><li>Most words come from English.</li><li>Words such as \"from\" may have more {{37}} in Bislama.</li><li>Less than 10% of words are of {{38}} origin.</li><li>Pacific words describe the natural world and also local {{39}}.</li></ul><p class=\"sub-head\">Grammar</p><ul><li>It is based on Vanuatu languages.</li><li>The word \"long\" acts as an important {{40}} in Bislama.</li></ul></div>",
             "maxWords": 1
           }
         ]

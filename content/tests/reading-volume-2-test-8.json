@@ -435,7 +435,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 37–40</h3>Complete the summary using the list of words, <strong>A–M</strong>, below.",
             "selectCount": 1,
-            "bodyHtml": "<p>Drag a word into each gap (or tap a word, then tap a gap). Tap × to clear.</p><div><p><strong>The earliest form of writing</strong></p><p>Most archaeological evidence shows that the people of {{37}} invented writing in around 3,300 BC. Their script was written on {{38}} and was called {{39}}. Their script originally showed images related to political power and business, and later developed to become more {{40}}.</p></div>",
+            "bodyHtml": "<p>Drag a word into each gap (or tap a word, then tap a gap). Tap × to clear.</p><div><p class=\"sub-head\"><strong>The earliest form of writing</strong></p><p>Most archaeological evidence shows that the people of {{37}} invented writing in around 3,300 BC. Their script was written on {{38}} and was called {{39}}. Their script originally showed images related to political power and business, and later developed to become more {{40}}.</p></div>",
             "wordBank": [
               {
                 "letter": "A",

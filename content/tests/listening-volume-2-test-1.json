@@ -19,7 +19,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Consultation — Patient Information</strong></div><ul><li>Name: Anu {{1}}</li><li>Post code: {{2}}</li><li>Current address: {{3}} Avenue</li><li>Birthday: October 1st {{4}}</li><li>Phone number: 875934</li></ul><p>Health Condition</p><ul><li>Illness has lasted for {{5}} days</li><li>Symptom: sees {{6}} lights</li><li>Possible cause: the room was too {{7}}</li><li>Previous hospital: {{8}} Hospital</li></ul><p>Suggestions</p><ul><li>Have a good rest after staring at a {{9}} for a long time</li><li>Use some medicine to ease eye {{10}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Consultation — Patient Information</strong></div><ul><li>Name: Anu {{1}}</li><li>Post code: {{2}}</li><li>Current address: {{3}} Avenue</li><li>Birthday: October 1st {{4}}</li><li>Phone number: 875934</li></ul><p class=\"sub-head\">Health Condition</p><ul><li>Illness has lasted for {{5}} days</li><li>Symptom: sees {{6}} lights</li><li>Possible cause: the room was too {{7}}</li><li>Previous hospital: {{8}} Hospital</li></ul><p class=\"sub-head\">Suggestions</p><ul><li>Have a good rest after staring at a {{9}} for a long time</li><li>Use some medicine to ease eye {{10}}</li></ul></div>",
             "maxWords": 3
           }
         ]
@@ -312,7 +312,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–36</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Study of Fossil Park</strong></div><p>Types of fossils:</p><ul><li>transitional fossils: rare, show evidence of evolutionary change</li><li>{{31}} fossils: more common, actual fossilised remains</li><li>{{32}} fossils: indirect evidence of animals, such as footprints or tunnels</li></ul><p>Fossilisation processes:</p><ul><li>Organism trapped in volcanic ash</li><li>Petrifaction:</li><li>An animal is {{33}} in the mud after death</li><li>Mud dries and hardens</li><li>{{34}} replace the bones, leaving a stone shape</li></ul><p>Purchasing fossils:</p><ul><li>Site: shop outside the park, or from the park's {{35}}</li><li>Prices: generally {{36}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Study of Fossil Park</strong></div><p class=\"sub-head\">Types of fossils:</p><ul><li>transitional fossils: rare, show evidence of evolutionary change</li><li>{{31}} fossils: more common, actual fossilised remains</li><li>{{32}} fossils: indirect evidence of animals, such as footprints or tunnels</li></ul><p class=\"sub-head\">Fossilisation processes:</p><ul><li>Organism trapped in volcanic ash</li><li>Petrifaction:</li><li>An animal is {{33}} in the mud after death</li><li>Mud dries and hardens</li><li>{{34}} replace the bones, leaving a stone shape</li></ul><p class=\"sub-head\">Purchasing fossils:</p><ul><li>Site: shop outside the park, or from the park's {{35}}</li><li>Prices: generally {{36}}</li></ul></div>",
             "maxWords": 1
           },
           {

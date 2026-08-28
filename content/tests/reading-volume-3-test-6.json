@@ -65,7 +65,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 7–10</h3>Complete each sentence with the correct ending, <strong>A–E</strong>, below.",
             "selectCount": 1,
-            "bodyHtml": "<p>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p><div><div>7Havighurst proposed a set of tasks which{{7}}</div><div>8A course of study at high school{{8}}</div><div>9The speed of development of thinking ability during adolescence{{9}}</div><div>10Adolescence is a time when the young person{{10}}</div></div><div><strong>Endings</strong></div>",
+            "bodyHtml": "<p>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p><div><div>7Havighurst proposed a set of tasks which{{7}}</div><div>8A course of study at high school{{8}}</div><div>9The speed of development of thinking ability during adolescence{{9}}</div><div>10Adolescence is a time when the young person{{10}}</div></div><div class=\"notes-title\"><strong>Endings</strong></div>",
             "wordBank": [
               {
                 "letter": "A",

@@ -51,7 +51,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 7–13</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>Optional courses</strong></div><div> Authenticity and Replication <ul><li>genuine art is studied in addition to that considered {{7}}</li><li>art objects are studied in {{8}}</li></ul> French Painting 1880–1912 <ul><li>the course covers the period up to when {{9}} started to be prominent</li><li>the course looks at the connections between art and new developments such as {{10}}</li></ul> Medieval European Art <ul><li>the course looks at two issues: artistic creativity and processes for teaching technique</li><li>the course considers how artists could be original when taught by an expert in a {{11}}</li></ul> Reception of Classical European Art <ul><li>life-sized and miniature sculpture is examined</li><li>painting is examined by looking at the decoration of {{12}}</li><li>architecture is assessed by studying 19th century models bought by {{13}}</li></ul></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>Optional courses</strong></div><div> Authenticity and Replication <ul><li>genuine art is studied in addition to that considered {{7}}</li><li>art objects are studied in {{8}}</li></ul> French Painting 1880–1912 <ul><li>the course covers the period up to when {{9}} started to be prominent</li><li>the course looks at the connections between art and new developments such as {{10}}</li></ul> Medieval European Art <ul><li>the course looks at two issues: artistic creativity and processes for teaching technique</li><li>the course considers how artists could be original when taught by an expert in a {{11}}</li></ul> Reception of Classical European Art <ul><li>life-sized and miniature sculpture is examined</li><li>painting is examined by looking at the decoration of {{12}}</li><li>architecture is assessed by studying 19th century models bought by {{13}}</li></ul></div>",
             "maxWords": 1
           }
         ]
@@ -267,7 +267,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 37–40</h3>Complete the summary using the list of words, <strong>A–I</strong>, below.",
             "selectCount": 1,
-            "bodyHtml": "<div><p><strong>The scope of the writer's study</strong></p><p>It was important for the writer to limit several aspects of his {{37}}. He decided to focus on a limited {{38}} in Roman history and to concentrate on the section of the population who were {{39}}. The writer was interested in the physical environment, the people that ruled the country, and the {{40}} that contributed both to Rome's strength and to its weaknesses.</p></div>",
+            "bodyHtml": "<div><p class=\"sub-head\"><strong>The scope of the writer's study</strong></p><p>It was important for the writer to limit several aspects of his {{37}}. He decided to focus on a limited {{38}} in Roman history and to concentrate on the section of the population who were {{39}}. The writer was interested in the physical environment, the people that ruled the country, and the {{40}} that contributed both to Rome's strength and to its weaknesses.</p></div>",
             "wordBank": [
               {
                 "letter": "A",

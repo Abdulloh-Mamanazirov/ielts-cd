@@ -172,7 +172,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 9 and 10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR NUMBERS</strong> for each answer.</p><div><div><strong>Address</strong></div><p>Winsham Farm</p><p>{{9}} Rd.</p><p>Near Sherborne</p><p>{{10}}</p></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR NUMBERS</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Address</strong></div><p class=\"sub-head\">Winsham Farm</p><p>{{9}} Rd.</p><p class=\"sub-head\">Near Sherborne</p><p>{{10}}</p></div>",
             "maxWords": 2
           }
         ]
@@ -282,7 +282,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 21 and 22</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div><strong>Reasons for having study syndicates</strong></div><ul><li><strong>A.</strong> Teaching one another is a good way to learn</li><li><strong>B.</strong> Shared reading means fuller notes</li><li><strong>C.</strong> It gives the opportunity to <strong>21</strong> {{21}}</li><li><strong>D.</strong> You can do <strong>22</strong> {{22}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Reasons for having study syndicates</strong></div><ul><li><strong>A.</strong> Teaching one another is a good way to learn</li><li><strong>B.</strong> Shared reading means fuller notes</li><li><strong>C.</strong> It gives the opportunity to <strong>21</strong> {{21}}</li><li><strong>D.</strong> You can do <strong>22</strong> {{22}}</li></ul></div>",
             "maxWords": 3
           },
           {
@@ -290,7 +290,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 23–25</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Plan for study syndicate</strong></div><table class=\"q-table\"><tbody><tr><th>Date</th><th>Geology Topic</th><th>Presenter</th></tr><tr><td>9th May</td><td>{{23}}</td><td>Bob</td></tr><tr><td>{{24}}</td><td>Glaciated areas</td><td>Andy</td></tr><tr><td>23rd May</td><td>Rock formation</td><td>Helen and John</td></tr><tr><td>{{25}}</td><td>Volcanoes</td><td>John</td></tr></tbody></table></div>",
+            "bodyHtml": "<p>Complete the table below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Plan for study syndicate</strong></div><table class=\"q-table\"><tbody><tr><th>Date</th><th>Geology Topic</th><th>Presenter</th></tr><tr><td>9th May</td><td>{{23}}</td><td>Bob</td></tr><tr><td>{{24}}</td><td>Glaciated areas</td><td>Andy</td></tr><tr><td>23rd May</td><td>Rock formation</td><td>Helen and John</td></tr><tr><td>{{25}}</td><td>Volcanoes</td><td>John</td></tr></tbody></table></div>",
             "maxWords": 2
           },
           {
@@ -313,7 +313,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div><strong>Health on the Night Shift</strong></div><p>Background</p><ul><li>An <strong>31</strong> {{31}} in the number of night workers because of 24-hour shopping / services.</li><li>Changing work and sleep habits lead to health problems (US &amp; British research).</li></ul><p>Main causes</p><ul><li><strong>A)</strong><strong>32</strong> {{32}} — regulates daily life; connected to cycles of <strong>33</strong> {{33}} (and dark); programmes us to be awake / asleep at certain times.</li><li><strong>B)</strong> Sleep debt — impossible to get enough sleep during the daytime.</li><li><strong>C)</strong><strong>34</strong> {{34}} — different working / sleeping times, 'dislocation'.</li></ul><p>Effects</p><ul><li><strong>A) Physical:</strong> higher incidence of <strong>35</strong> {{35}} problems (and stomach problems); more minor illnesses (immunity affected).</li><li><strong>B) Psychological:</strong> most common is <strong>36</strong> {{36}}; <strong>37</strong> {{37}} affected (e.g. decision-making, planning), which regulate our <strong>38</strong> {{38}}.</li><li><strong>C) Social:</strong> destruction of <strong>39</strong> {{39}} and other relationships, e.g. <strong>40</strong> {{40}}; eventually, social isolation.</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN THREE WORDS</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Health on the Night Shift</strong></div><p class=\"sub-head\">Background</p><ul><li>An <strong>31</strong> {{31}} in the number of night workers because of 24-hour shopping / services.</li><li>Changing work and sleep habits lead to health problems (US &amp; British research).</li></ul><p class=\"sub-head\">Main causes</p><ul><li><strong>A)</strong><strong>32</strong> {{32}} — regulates daily life; connected to cycles of <strong>33</strong> {{33}} (and dark); programmes us to be awake / asleep at certain times.</li><li><strong>B)</strong> Sleep debt — impossible to get enough sleep during the daytime.</li><li><strong>C)</strong><strong>34</strong> {{34}} — different working / sleeping times, 'dislocation'.</li></ul><p class=\"sub-head\">Effects</p><ul><li><strong>A) Physical:</strong> higher incidence of <strong>35</strong> {{35}} problems (and stomach problems); more minor illnesses (immunity affected).</li><li><strong>B) Psychological:</strong> most common is <strong>36</strong> {{36}}; <strong>37</strong> {{37}} affected (e.g. decision-making, planning), which regulate our <strong>38</strong> {{38}}.</li><li><strong>C) Social:</strong> destruction of <strong>39</strong> {{39}} and other relationships, e.g. <strong>40</strong> {{40}}; eventually, social isolation.</li></ul></div>",
             "maxWords": 3
           }
         ]

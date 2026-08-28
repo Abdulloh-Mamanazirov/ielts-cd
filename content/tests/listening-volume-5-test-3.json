@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Sailing Courses</strong></div><p>Example: There will be a Taster Day on <u>22nd June</u></p><p>Two-day course</p><ul><li>This covers basic techniques.</li><li>Children are always accompanied by their {{1}}</li><li>Cost: £{{2}}</li></ul><p>Five-day course</p><ul><li>Cost: £125</li><li>Children can sail alone from the third day onwards.</li><li>Children learn how to sail in different kinds of weather.</li><li>Children receive a {{3}} on the last day.</li></ul><p>Clothing</p><ul><li>Children should wear warm clothes.</li><li>Children must wear {{4}}</li><li>Children are recommended to bring extra trousers which are {{5}}</li><li>Children are not allowed to wear {{6}}</li></ul><p>Additional information</p><ul><li>Visitors can buy a {{7}} in the Marina Stores.</li><li>There is a free car park next to the {{8}}</li><li>Send the registration form two weeks before the course.</li><li>Remember to include the name of Jacob's {{9}}</li><li>There is an optional form giving permission to take {{10}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the form below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Sailing Courses</strong></div><p>Example: There will be a Taster Day on <u>22nd June</u></p><p class=\"sub-head\">Two-day course</p><ul><li>This covers basic techniques.</li><li>Children are always accompanied by their {{1}}</li><li>Cost: £{{2}}</li></ul><p class=\"sub-head\">Five-day course</p><ul><li>Cost: £125</li><li>Children can sail alone from the third day onwards.</li><li>Children learn how to sail in different kinds of weather.</li><li>Children receive a {{3}} on the last day.</li></ul><p class=\"sub-head\">Clothing</p><ul><li>Children should wear warm clothes.</li><li>Children must wear {{4}}</li><li>Children are recommended to bring extra trousers which are {{5}}</li><li>Children are not allowed to wear {{6}}</li></ul><p class=\"sub-head\">Additional information</p><ul><li>Visitors can buy a {{7}} in the Marina Stores.</li><li>There is a free car park next to the {{8}}</li><li>Send the registration form two weeks before the course.</li><li>Remember to include the name of Jacob's {{9}}</li><li>There is an optional form giving permission to take {{10}}</li></ul></div>",
             "maxWords": 1
           }
         ]
@@ -64,15 +64,15 @@
             "wordBank": [
               {
                 "letter": "A",
-                "textHtml": "A"
+                "textHtml": "The North Coast"
               },
               {
                 "letter": "B",
-                "textHtml": "B"
+                "textHtml": "The South Coast"
               },
               {
                 "letter": "C",
-                "textHtml": "C"
+                "textHtml": "The East Coast"
               }
             ],
             "questions": [
@@ -99,7 +99,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 16–20</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div><strong>Advice to Visitors</strong></div><ul><li>Bring your own {{16}} and insect spray</li><li>It may not be possible to use your {{17}} in the western area.</li><li>Don't drink water from {{18}}</li><li>Be careful of the {{19}} as they bite</li><li>Try the local {{20}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Advice to Visitors</strong></div><ul><li>Bring your own {{16}} and insect spray</li><li>It may not be possible to use your {{17}} in the western area.</li><li>Don't drink water from {{18}}</li><li>Be careful of the {{19}} as they bite</li><li>Try the local {{20}}</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -303,7 +303,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div><strong>Transhumance</strong></div><p>Two Types of Transhumance</p><ul><li>fixed: mainly in countries with predictable seasons, e.g. Switzerland</li><li>nomadic: in areas with unpredictable climatic conditions, e.g. Somalia</li></ul><p>Study on the Movement of Pastoralists</p><ul><li>for fixed transhumance, the pattern of movement is described as {{31}}</li><li>while for nomadic transhumance, the pattern is more complex and varied</li></ul><p>Differences in terms of Homes</p><ul><li>fixed transhumance live in a semi-permanent shelter on high ground such as {{32}}</li><li>nomadic transhumance always stay in portable shelters, e.g. homes of the Gabra people carried on {{33}}</li></ul><p>Number of People Involved</p><ul><li>for fixed transhumance, only {{34}} pastoralists make the journey</li><li>however, all nomadic transhumance migrate with their livestock</li></ul><p>Diet and Goods</p><ul><li>people who do not leave the valleys may become {{35}}</li><li>exchange animals with other communities for {{36}}</li><li>herds provide all needs — food and {{37}}</li></ul><p>Research in Algeria in North Africa</p><ul><li>they traditionally arrive in time to help local residents with the {{38}}</li><li>their homes are {{39}} which are temporary shelters</li><li>a better term to describe this type of transhumance might be {{40}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Transhumance</strong></div><p class=\"sub-head\">Two Types of Transhumance</p><ul><li>fixed: mainly in countries with predictable seasons, e.g. Switzerland</li><li>nomadic: in areas with unpredictable climatic conditions, e.g. Somalia</li></ul><p class=\"sub-head\">Study on the Movement of Pastoralists</p><ul><li>for fixed transhumance, the pattern of movement is described as {{31}}</li><li>while for nomadic transhumance, the pattern is more complex and varied</li></ul><p class=\"sub-head\">Differences in terms of Homes</p><ul><li>fixed transhumance live in a semi-permanent shelter on high ground such as {{32}}</li><li>nomadic transhumance always stay in portable shelters, e.g. homes of the Gabra people carried on {{33}}</li></ul><p class=\"sub-head\">Number of People Involved</p><ul><li>for fixed transhumance, only {{34}} pastoralists make the journey</li><li>however, all nomadic transhumance migrate with their livestock</li></ul><p class=\"sub-head\">Diet and Goods</p><ul><li>people who do not leave the valleys may become {{35}}</li><li>exchange animals with other communities for {{36}}</li><li>herds provide all needs — food and {{37}}</li></ul><p class=\"sub-head\">Research in Algeria in North Africa</p><ul><li>they traditionally arrive in time to help local residents with the {{38}}</li><li>their homes are {{39}} which are temporary shelters</li><li>a better term to describe this type of transhumance might be {{40}}</li></ul></div>",
             "maxWords": 1
           }
         ]

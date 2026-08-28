@@ -322,7 +322,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 24–26</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>Hearst Tower</strong></div><div><p>Norman Foster's Hearst Tower was built in 2006. The 40-storey modern triangular-patterned building is made of glass and steel, contrasting with the base which is in the style of the 1920s. The sight of the building's {{24}} has a striking impact on commuters and employees. Some passers-by may find the building's design confusing, as it mixes old and new elements. Inside the tower {{25}} carry employees up past a large water sculpture in the light-filled {{26}}.</p></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>Hearst Tower</strong></div><div><p>Norman Foster's Hearst Tower was built in 2006. The 40-storey modern triangular-patterned building is made of glass and steel, contrasting with the base which is in the style of the 1920s. The sight of the building's {{24}} has a striking impact on commuters and employees. Some passers-by may find the building's design confusing, as it mixes old and new elements. Inside the tower {{25}} carry employees up past a large water sculpture in the light-filled {{26}}.</p></div>",
             "maxWords": 1
           }
         ]
@@ -427,7 +427,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 37–40</h3>Complete the flow-chart below. Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>The Marketing Information System (MIS)</strong></div><div>Step 1<ul><li>{{37}}</li></ul>Step 2<ul><li>Find out their {{38}}</li></ul>Step 3 – Developed through<ul><li>{{39}}</li><li>marketing intelligence activities</li><li>research process</li></ul>Step 4<ul><li>Processed by the {{40}}</li></ul>Step 5<ul><li>Timely and accurate data distribution</li></ul></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>The Marketing Information System (MIS)</strong></div><div>Step 1<ul><li>{{37}}</li></ul>Step 2<ul><li>Find out their {{38}}</li></ul>Step 3 – Developed through<ul><li>{{39}}</li><li>marketing intelligence activities</li><li>research process</li></ul>Step 4<ul><li>Processed by the {{40}}</li></ul>Step 5<ul><li>Timely and accurate data distribution</li></ul></div>",
             "maxWords": 2
           }
         ]

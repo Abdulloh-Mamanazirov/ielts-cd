@@ -19,7 +19,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 1–6</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>The early history of graphite in Britain</strong></div><div><ul><li>Graphite was first found below a {{1}} blown down in a storm.</li><li>The first use of graphite was to make marks on {{2}}.</li><li>The characteristics of raw graphite:<ul><li>dirty to use because it is so {{3}}</li><li>originally wrapped in {{4}} or animal skin to make it useable as a pencil.</li></ul></li><li>Graphite came to the notice of the government for military and commercial purposes.<ul><li>The government completely took over the {{5}} at Borrowdale.</li><li>They employed guards to protect the graphite on its journey south.</li></ul></li><li>Local people began to {{6}} graphite for the money involved.<ul><li>The government passed a law to protect the graphite industry.</li></ul></li></ul></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>The early history of graphite in Britain</strong></div><div><ul><li>Graphite was first found below a {{1}} blown down in a storm.</li><li>The first use of graphite was to make marks on {{2}}.</li><li>The characteristics of raw graphite:<ul><li>dirty to use because it is so {{3}}</li><li>originally wrapped in {{4}} or animal skin to make it useable as a pencil.</li></ul></li><li>Graphite came to the notice of the government for military and commercial purposes.<ul><li>The government completely took over the {{5}} at Borrowdale.</li><li>They employed guards to protect the graphite on its journey south.</li></ul></li><li>Local people began to {{6}} graphite for the money involved.<ul><li>The government passed a law to protect the graphite industry.</li></ul></li></ul></div>",
             "maxWords": 1
           },
           {
@@ -300,7 +300,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 38–40</h3>Complete the summary using the list of words, <strong>A-F</strong>, below.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>The core-accretion model</strong></div><div><p>A hard centre becomes larger and this produces enough gravity to draw gas from the {{38}} around it.</p></div><div><strong>The gravitational-instability model</strong></div><div><p>Stars can break up the outer gaseous parts which surround objects in the sky because the attraction of the {{39}} from stars is very powerful. Heat caused by {{40}} can also destroy the material surrounding the objects in a relatively short time. Planet-sized segments may split away from the main body following several orbits of the parent star.</p></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>The core-accretion model</strong></div><div><p>A hard centre becomes larger and this produces enough gravity to draw gas from the {{38}} around it.</p></div><div><strong>The gravitational-instability model</strong></div><div><p>Stars can break up the outer gaseous parts which surround objects in the sky because the attraction of the {{39}} from stars is very powerful. Heat caused by {{40}} can also destroy the material surrounding the objects in a relatively short time. Planet-sized segments may split away from the main body following several orbits of the parent star.</p></div>",
             "wordBank": [
               {
                 "letter": "A",

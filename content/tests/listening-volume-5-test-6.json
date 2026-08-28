@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Volunteer work application form: Grace Brown</strong></div><p>Mobile phone number: 021 636 7189</p><p>Email address</p><ul><li>graceb@ {{1}} .co.nz</li></ul><p>Qualification</p><ul><li>a diploma in {{2}}</li></ul><p>Agreed work hours</p><ul><li>from {{3}} am to 2pm Monday to Friday</li></ul><p>Volunteer work experience</p><ul><li>a volunteer city {{4}}</li><li>a volunteer netball team {{5}}</li><li>at Rugby World Cup</li></ul><p>Hobbies</p><ul><li>likes to work in her {{6}}</li><li>enjoys flower arranging</li><li>plays the {{7}}</li></ul><p>Type of work offered</p><ul><li>working on a {{8}} for a month</li><li>working in a community centre with elderly people</li></ul><p>Why is she interested in volunteering?</p><ul><li>wants to have more {{9}}</li><li>wants to help others</li></ul><p>Where did she hear about the agency?</p><ul><li>saw an advertisement at the {{10}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Volunteer work application form: Grace Brown</strong></div><p>Mobile phone number: 021 636 7189</p><p class=\"sub-head\">Email address</p><ul><li>graceb@ {{1}} .co.nz</li></ul><p class=\"sub-head\">Qualification</p><ul><li>a diploma in {{2}}</li></ul><p class=\"sub-head\">Agreed work hours</p><ul><li>from {{3}} am to 2pm Monday to Friday</li></ul><p class=\"sub-head\">Volunteer work experience</p><ul><li>a volunteer city {{4}}</li><li>a volunteer netball team {{5}}</li><li>at Rugby World Cup</li></ul><p class=\"sub-head\">Hobbies</p><ul><li>likes to work in her {{6}}</li><li>enjoys flower arranging</li><li>plays the {{7}}</li></ul><p class=\"sub-head\">Type of work offered</p><ul><li>working on a {{8}} for a month</li><li>working in a community centre with elderly people</li></ul><p class=\"sub-head\">Why is she interested in volunteering?</p><ul><li>wants to have more {{9}}</li><li>wants to help others</li></ul><p class=\"sub-head\">Where did she hear about the agency?</p><ul><li>saw an advertisement at the {{10}}</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -112,8 +112,8 @@
           },
           {
             "id": "part-2-group-2",
-            "type": "matching",
-            "rubricHtml": "<p>Questions 15–20</p>",
+            "type": "map_labeling",
+            "rubricHtml": "<p>Questions 15–20</p><p>Label the map below.</p><p>Write the correct letter, <strong>A–J</strong>, next to Questions 15–20.</p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -182,7 +182,8 @@
                 "number": 20,
                 "textHtml": "Unripe strawberries"
               }
-            ]
+            ],
+            "imageUrl": "/test-media/listening-volume-5-test-6-p2-map.jpg"
           }
         ]
       },
@@ -369,7 +370,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–34</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the sentences below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><p>American Salt Marshes</p><ul><li><strong>31</strong> &nbsp;The salt content in marshes can be as high as that of the {{31}}.</li><li><strong>32</strong> &nbsp;At different times of the day, there are changes in salinity and in the {{32}} and warmth of the water.</li><li><strong>33</strong> &nbsp;Animals such as worms and shrimps feed on the {{33}} that grow in the marsh.</li><li><strong>34</strong> &nbsp;Marshland in the US has been used in the past for {{34}} cultivation.</li></ul>",
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><p class=\"sub-head\">American Salt Marshes</p><ul><li><strong>31</strong> &nbsp;The salt content in marshes can be as high as that of the {{31}}.</li><li><strong>32</strong> &nbsp;At different times of the day, there are changes in salinity and in the {{32}} and warmth of the water.</li><li><strong>33</strong> &nbsp;Animals such as worms and shrimps feed on the {{33}} that grow in the marsh.</li><li><strong>34</strong> &nbsp;Marshland in the US has been used in the past for {{34}} cultivation.</li></ul>",
             "maxWords": 1
           },
           {
@@ -457,7 +458,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 39 and 40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div><strong>The Horseshoe Crab</strong></div><ul><li><strong>Related to:</strong> spider</li><li><strong>Most common food:</strong> {{39}}</li><li><strong>Time of year when female lays eggs:</strong> {{40}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS</strong> for each answer.</p><div><div class=\"notes-title\"><strong>The Horseshoe Crab</strong></div><ul><li><strong>Related to:</strong> spider</li><li><strong>Most common food:</strong> {{39}}</li><li><strong>Time of year when female lays eggs:</strong> {{40}}</li></ul></div>",
             "maxWords": 1
           }
         ]

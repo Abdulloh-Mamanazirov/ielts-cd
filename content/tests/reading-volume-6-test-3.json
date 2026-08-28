@@ -19,7 +19,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 1–7</h3>Complete the notes below. Choose <strong>ONE WORD AND/OR A NUMBER</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>Farming in the ancient world</strong></div><div><p>Prehistoric times – people collected wild plants, and {{1}} to get meat</p><ul><li>11,500 years ago – people began growing crops, probably {{2}}, e.g. rice or corn – people started to domesticate various types of animals</li><li>Creation of a {{3}} led to the exchange of goods and the beginnings of trade, which resulted in the emergence of cities and the growth of {{4}}</li><li>Farmers gradually began using better {{5}} made from different materials</li><li>Systems of providing a supply of {{6}} were invented in Mesopotamia</li><li>{{7}} years ago, a large proportion of people worldwide had become dependent on farming</li></ul></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>Farming in the ancient world</strong></div><div><p>Prehistoric times – people collected wild plants, and {{1}} to get meat</p><ul><li>11,500 years ago – people began growing crops, probably {{2}}, e.g. rice or corn – people started to domesticate various types of animals</li><li>Creation of a {{3}} led to the exchange of goods and the beginnings of trade, which resulted in the emergence of cities and the growth of {{4}}</li><li>Farmers gradually began using better {{5}} made from different materials</li><li>Systems of providing a supply of {{6}} were invented in Mesopotamia</li><li>{{7}} years ago, a large proportion of people worldwide had become dependent on farming</li></ul></div>",
             "maxWords": 2
           },
           {
@@ -128,7 +128,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 20–24</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><p><strong>Designing aeroplane wings</strong></p><p>Hang-gliders, microlights, small planes and birds share the same wing shape – a curve which provides the maximum amount of {{20}}. But while these wings can support an individual person, they cannot support the weight of a huge aircraft. In fact, the enormous wings of a modern plane look like a thin {{21}} when viewed from the side. Space is not wasted because the {{22}} needed to power a flight is kept inside each wing. The pilot can adjust the {{23}} which are located at the {{24}} of the wings. This changes the aerofoil's curvature as well as the angle of attack and causes the plane to rise or descend.</p></div>",
+            "bodyHtml": "<div><p class=\"sub-head\"><strong>Designing aeroplane wings</strong></p><p>Hang-gliders, microlights, small planes and birds share the same wing shape – a curve which provides the maximum amount of {{20}}. But while these wings can support an individual person, they cannot support the weight of a huge aircraft. In fact, the enormous wings of a modern plane look like a thin {{21}} when viewed from the side. Space is not wasted because the {{22}} needed to power a flight is kept inside each wing. The pilot can adjust the {{23}} which are located at the {{24}} of the wings. This changes the aerofoil's curvature as well as the angle of attack and causes the plane to rise or descend.</p></div>",
             "maxWords": 1
           },
           {

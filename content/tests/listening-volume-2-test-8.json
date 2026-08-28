@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Wildlife Conservation Society — Application for membership</div><p>Caller's name: Michael Jones</p><p>Heard of WCS from: {{1}}</p><p>Address: 21 Beale Street, Leeds</p><p>Postcode: {{2}}</p><p>Phone number: 0117358642</p><p>Email address: {{3}}</p><p>Length of membership: {{4}} years</p><p>Type of membership: {{5}}</p><p>Fee: £{{6}}</p><p>Payment details</p><p>Payment method: direct debit</p><p>Name of bank: {{7}}</p><p>Account name: Michael Jones &nbsp;·&nbsp; Account number: 01059612</p><p>Date of first payment: {{8}}</p><p>Reference number: {{9}}</p><p>Other requests: extra information pack, {{10}}</p></div>",
+            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div>Wildlife Conservation Society — Application for membership</div><p>Caller's name: Michael Jones</p><p>Heard of WCS from: {{1}}</p><p>Address: 21 Beale Street, Leeds</p><p>Postcode: {{2}}</p><p>Phone number: 0117358642</p><p>Email address: {{3}}</p><p>Length of membership: {{4}} years</p><p>Type of membership: {{5}}</p><p>Fee: £{{6}}</p><p class=\"sub-head\">Payment details</p><p>Payment method: direct debit</p><p>Name of bank: {{7}}</p><p>Account name: Michael Jones &nbsp;·&nbsp; Account number: 01059612</p><p>Date of first payment: {{8}}</p><p>Reference number: {{9}}</p><p>Other requests: extra information pack, {{10}}</p></div>",
             "maxWords": 3
           }
         ]
@@ -389,7 +389,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–36</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Solar water purifier (SW40)</strong></div><ul><li><strong>31</strong> &nbsp;High levels of {{31}} make bore water unsafe to drink.</li><li><strong>32</strong> &nbsp;The SW40 produces water so pure it can be used in {{32}}.</li><li><strong>33</strong> &nbsp;One problem with the present production method is that it is quite {{33}}.</li><li><strong>34</strong> &nbsp;The speaker hopes to get financial support from an agency called {{34}}.</li><li><strong>35</strong> &nbsp;The SW40 has a maximum output of {{35}}.</li><li><strong>36</strong> &nbsp;Each SW40 produces enough water for a {{36}} on a sunny day.</li></ul></div>",
+            "bodyHtml": "<p>Complete the sentences below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Solar water purifier (SW40)</strong></div><ul><li><strong>31</strong> &nbsp;High levels of {{31}} make bore water unsafe to drink.</li><li><strong>32</strong> &nbsp;The SW40 produces water so pure it can be used in {{32}}.</li><li><strong>33</strong> &nbsp;One problem with the present production method is that it is quite {{33}}.</li><li><strong>34</strong> &nbsp;The speaker hopes to get financial support from an agency called {{34}}.</li><li><strong>35</strong> &nbsp;The SW40 has a maximum output of {{35}}.</li><li><strong>36</strong> &nbsp;Each SW40 produces enough water for a {{36}} on a sunny day.</li></ul></div>",
             "maxWords": 2
           },
           {
@@ -397,7 +397,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 37–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Label the diagram below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Cross-section of the SW40 solar water purifier</strong></div><ul><li>lid made of {{37}}</li><li>best inclined at an angle of {{38}}</li><li>UV light destroys {{39}}</li><li>water {{40}} containing pure water</li></ul></div>",
+            "bodyHtml": "<p>Label the diagram below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Cross-section of the SW40 solar water purifier</strong></div><ul><li>lid made of {{37}}</li><li>best inclined at an angle of {{38}}</li><li>UV light destroys {{39}}</li><li>water {{40}} containing pure water</li></ul></div>",
             "maxWords": 2
           }
         ]

@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><p><strong>Name of the hotel:</strong> {{1}}</p><p>Major changes</p><ul><li>signboard: the {{2}} needs to be bigger</li><li>swimming pool: to be relocated from the {{3}} to the {{4}}</li><li>resting area: turn the {{5}} room into reception</li></ul><p>Notice board</p><ul><li>translation needed: {{6}}</li></ul><p>Price board</p><ul><li>current colour: {{7}}</li></ul><p><strong>Construction:</strong> starts before {{8}}</p><p><strong>Manager's name:</strong> {{9}} Barron</p><p><strong>Telephone number:</strong> {{10}}</p></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>NO MORE THAN TWO WORDS AND/OR A NUMBER</strong> for each answer.</p><div><p><strong>Name of the hotel:</strong> {{1}}</p><p class=\"sub-head\">Major changes</p><ul><li>signboard: the {{2}} needs to be bigger</li><li>swimming pool: to be relocated from the {{3}} to the {{4}}</li><li>resting area: turn the {{5}} room into reception</li></ul><p class=\"sub-head\">Notice board</p><ul><li>translation needed: {{6}}</li></ul><p class=\"sub-head\">Price board</p><ul><li>current colour: {{7}}</li></ul><p><strong>Construction:</strong> starts before {{8}}</p><p><strong>Manager's name:</strong> {{9}} Barron</p><p><strong>Telephone number:</strong> {{10}}</p></div>",
             "maxWords": 2
           }
         ]
@@ -354,7 +354,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–36</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Suburbs</strong></div><p>People living in the suburbs</p><ul><li>labour workers, {{31}}</li></ul><p>Advantages of living in the suburbs</p><ul><li>Tax and the prices of {{32}} are low.</li><li>It is easy to start a {{33}}.</li><li>Building {{34}} housing areas to meet the demand of a growing population.</li><li>People have more {{35}} because of wider roads.</li></ul><p>Problem</p><ul><li>lack of space for {{36}} in the suburbs</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Suburbs</strong></div><p class=\"sub-head\">People living in the suburbs</p><ul><li>labour workers, {{31}}</li></ul><p class=\"sub-head\">Advantages of living in the suburbs</p><ul><li>Tax and the prices of {{32}} are low.</li><li>It is easy to start a {{33}}.</li><li>Building {{34}} housing areas to meet the demand of a growing population.</li><li>People have more {{35}} because of wider roads.</li></ul><p class=\"sub-head\">Problem</p><ul><li>lack of space for {{36}} in the suburbs</li></ul></div>",
             "maxWords": 2
           },
           {

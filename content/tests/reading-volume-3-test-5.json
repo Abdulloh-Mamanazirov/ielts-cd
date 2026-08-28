@@ -51,7 +51,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 7–13</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>Caral as a trading centre</strong></div><div> Items discovered at Caral but not naturally occurring in the area <ul><li>the <strong>7</strong>&nbsp;{{7}} of a certain plant</li><li><strong>8</strong>&nbsp;{{8}} used to make jewellery</li><li>the remains of certain food such as <strong>9</strong>&nbsp;{{9}}</li></ul> Clues to farming around Caral <ul><li><strong>10</strong>&nbsp;{{10}} still in existence today indicate water diverted from rivers</li><li>no evidence that <strong>11</strong>&nbsp;{{11}} was grown</li></ul> Evidence of relationship with fishing communities <ul><li>the excavation findings and fishing nets found on the coast suggest Caral farmers traded <strong>12</strong>&nbsp;{{12}}</li><li>dried squash may have been used to aid <strong>13</strong>&nbsp;{{13}} of fishing nets</li></ul></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>Caral as a trading centre</strong></div><div> Items discovered at Caral but not naturally occurring in the area <ul><li>the <strong>7</strong>&nbsp;{{7}} of a certain plant</li><li><strong>8</strong>&nbsp;{{8}} used to make jewellery</li><li>the remains of certain food such as <strong>9</strong>&nbsp;{{9}}</li></ul> Clues to farming around Caral <ul><li><strong>10</strong>&nbsp;{{10}} still in existence today indicate water diverted from rivers</li><li>no evidence that <strong>11</strong>&nbsp;{{11}} was grown</li></ul> Evidence of relationship with fishing communities <ul><li>the excavation findings and fishing nets found on the coast suggest Caral farmers traded <strong>12</strong>&nbsp;{{12}}</li><li>dried squash may have been used to aid <strong>13</strong>&nbsp;{{13}} of fishing nets</li></ul></div>",
             "maxWords": 1
           }
         ]
@@ -185,7 +185,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 27–29</h3>Complete each sentence with the correct ending, <strong>A–E</strong>, below.",
             "selectCount": 1,
-            "bodyHtml": "<p>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p><div><div>27The speed of technological changes{{27}}</div><div>28A dependency on technology and computers{{28}}</div><div>29A deterioration in personal service{{29}}</div></div><div><strong>Endings</strong></div>",
+            "bodyHtml": "<p>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p><div><div>27The speed of technological changes{{27}}</div><div>28A dependency on technology and computers{{28}}</div><div>29A deterioration in personal service{{29}}</div></div><div class=\"notes-title\"><strong>Endings</strong></div>",
             "wordBank": [
               {
                 "letter": "A",

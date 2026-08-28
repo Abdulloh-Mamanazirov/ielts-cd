@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>The London Relocation Services</strong></div><p><strong>Customer's name:</strong> Anna Woods</p><p>Customer's personal details</p><ul><li>Current address: 118 {{1}} Park, Ballysillan</li><li>Postcode: BT149BJ</li><li>Phone No: {{2}} (Mobile)</li></ul><p>Other information</p><ul><li>Anna is hoping to find work as a {{3}}</li><li>She needs to find a {{4}} school for her son.</li></ul><p>Requirements for the new property</p><p><strong>Location</strong></p><ul><li>Her preferred location is in the {{5}} of the city.</li><li>Her husband would like to be near a {{6}}.</li><li>Her son would prefer to be close to a {{7}}.</li></ul><p><strong>Property details</strong></p><ul><li>She would like to live in a {{8}}</li><li>She would prefer {{9}} bedrooms</li><li>A small {{10}} is also desirable</li></ul></div>",
+            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>The London Relocation Services</strong></div><p><strong>Customer's name:</strong> Anna Woods</p><p class=\"sub-head\">Customer's personal details</p><ul><li>Current address: 118 {{1}} Park, Ballysillan</li><li>Postcode: BT149BJ</li><li>Phone No: {{2}} (Mobile)</li></ul><p class=\"sub-head\">Other information</p><ul><li>Anna is hoping to find work as a {{3}}</li><li>She needs to find a {{4}} school for her son.</li></ul><p class=\"sub-head\">Requirements for the new property</p><p class=\"sub-head\"><strong>Location</strong></p><ul><li>Her preferred location is in the {{5}} of the city.</li><li>Her husband would like to be near a {{6}}.</li><li>Her son would prefer to be close to a {{7}}.</li></ul><p class=\"sub-head\"><strong>Property details</strong></p><ul><li>She would like to live in a {{8}}</li><li>She would prefer {{9}} bedrooms</li><li>A small {{10}} is also desirable</li></ul></div>",
             "maxWords": 1
           }
         ]
@@ -339,8 +339,8 @@
           },
           {
             "id": "part-3-group-2",
-            "type": "matching",
-            "rubricHtml": "<p>Questions 27–30</p>",
+            "type": "completion",
+            "rubricHtml": "<p>Questions 27–30</p><p>According to Ted, what is the right way to make a successful presentation?</p><p>Choose <strong>FOUR</strong> letters from the box and write the correct letter, <strong>A–G</strong>, next to Questions 27–30.</p><p><strong>How to make a successful presentation</strong></p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -372,24 +372,7 @@
                 "textHtml": "research"
               }
             ],
-            "questions": [
-              {
-                "number": 27,
-                "textHtml": ""
-              },
-              {
-                "number": 28,
-                "textHtml": ""
-              },
-              {
-                "number": 29,
-                "textHtml": ""
-              },
-              {
-                "number": 30,
-                "textHtml": ""
-              }
-            ]
+            "bodyHtml": "<div><div class=\"flow-box\"><strong>Step 1.</strong> Write {{27}}</div><div class=\"flow-arrow\">↓</div><div class=\"flow-box\"><strong>Step 2.</strong> {{28}} further on the topic</div><div class=\"flow-arrow\">↓</div><div class=\"flow-box\"><strong>Step 3.</strong> Put a {{29}} for every picture and support it</div><div class=\"flow-arrow\">↓</div><div class=\"flow-box\"><strong>Step 4.</strong> every slide illustrates a thought, all the thoughts link together</div><div class=\"flow-arrow\">↓</div><div class=\"flow-box\"><strong>Step 5.</strong> Write {{30}}</div></div>"
           }
         ]
       },
@@ -403,7 +386,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–36</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div><strong>GRAPHICAL SYMBOL</strong></div><p>'Graphical symbol'</p><ul><li>includes the logographs in Egyptian hieroglyphic writing and ancient Chinese pictograms</li><li>found in Africa, the Americas, and Oceania</li><li>still has something to do with {{31}} use today</li></ul><p>Ancient graphic writing systems</p><ul><li>Researchers obtain a wide range of {{32}} about past civilisations.</li><li>Rosetta Stone was found in 1799 when members of Napoleon's expedition got to Egypt.</li><li>Frenchman Jean-Francois Champollion determined the phonetic values of the symbols in 1822.</li><li>In those symbols, {{33}} are used to depict various meanings.</li></ul><p>Camera obscura</p><ul><li>{{34}} helps people understand history better.</li><li>Some charities will {{35}} many endangered species.</li><li>A camera was tied to one {{36}} of a bird.</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div class=\"notes-title\"><strong>GRAPHICAL SYMBOL</strong></div><p class=\"sub-head\">'Graphical symbol'</p><ul><li>includes the logographs in Egyptian hieroglyphic writing and ancient Chinese pictograms</li><li>found in Africa, the Americas, and Oceania</li><li>still has something to do with {{31}} use today</li></ul><p class=\"sub-head\">Ancient graphic writing systems</p><ul><li>Researchers obtain a wide range of {{32}} about past civilisations.</li><li>Rosetta Stone was found in 1799 when members of Napoleon's expedition got to Egypt.</li><li>Frenchman Jean-Francois Champollion determined the phonetic values of the symbols in 1822.</li><li>In those symbols, {{33}} are used to depict various meanings.</li></ul><p class=\"sub-head\">Camera obscura</p><ul><li>{{34}} helps people understand history better.</li><li>Some charities will {{35}} many endangered species.</li><li>A camera was tied to one {{36}} of a bird.</li></ul></div>",
             "maxWords": 1
           },
           {

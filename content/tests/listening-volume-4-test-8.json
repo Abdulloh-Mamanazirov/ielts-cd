@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–8</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Post Office — Package Delivery Form</strong></div><ul><li><strong>Country of destination:</strong> USA</li><li><strong>Package to reach destination by:</strong> {{1}} at latest</li><li><strong>Service selected:</strong> {{2}} Express</li><li><strong>Sender — Name:</strong> Peter White</li><li>Address: {{3}}</li><li>Suburb: Lakeview</li><li><strong>Delivery to — Name:</strong> Anna {{4}}</li><li>Address: Apartment 228, {{5}}</li><li>Upper {{6}}</li><li>New York</li><li><strong>Contents:</strong> {{7}}</li><li>{{8}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the form below. Write <strong>NO MORE THAN THREE WORDS AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Post Office — Package Delivery Form</strong></div><ul><li><strong>Country of destination:</strong> USA</li><li><strong>Package to reach destination by:</strong> {{1}} at latest</li><li><strong>Service selected:</strong> {{2}} Express</li><li><strong>Sender — Name:</strong> Peter White</li><li>Address: {{3}}</li><li>Suburb: Lakeview</li><li><strong>Delivery to — Name:</strong> Anna {{4}}</li><li>Address: Apartment 228, {{5}}</li><li>Upper {{6}}</li><li>New York</li><li><strong>Contents:</strong> {{7}}</li><li>{{8}}</li></ul></div>",
             "maxWords": 3
           },
           {
@@ -138,8 +138,8 @@
           },
           {
             "id": "part-2-group-2",
-            "type": "matching",
-            "rubricHtml": "<p>Questions 16–20</p>",
+            "type": "map_labeling",
+            "rubricHtml": "<p>Questions 16–20</p><p>Label the map below.</p><p>Write the correct letter, <strong>A–H</strong>, next to Questions 16–20.</p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -196,7 +196,8 @@
                 "number": 20,
                 "textHtml": "Outdoor Facilities Manager's office"
               }
-            ]
+            ],
+            "imageUrl": "/test-media/listening-volume-4-test-8-p2-map.png"
           }
         ]
       },
@@ -377,7 +378,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div><strong>Plant Behaviour</strong></div><p>Changing ideas</p><ul><li>Scientists once thought of plants as being {{31}} organisms</li><li>Now there is evidence that this is not true</li></ul><p>Recent studies</p><p>Great Lakes sea rocket</p><ul><li>Found on {{32}}</li><li>When near other plants, it normally produces extra {{33}} to compete for nutrients.</li><li>However, it behaves differently if it is related to the other plants</li></ul><p>Sagebrush and thornapple</p><ul><li>Recognise surrounding plants by the type of {{34}} that they reflect</li><li>Identification is possible because all plants have a particular {{35}}</li></ul><p>Dodder plant</p><ul><li>Is unable to produce {{36}}</li><li>Needs to feed off another plant to survive</li><li>Affects farmers' crops, e.g. alfalfa, {{37}} and citrus</li><li>Identifies suitable 'hosts' by detecting the {{38}} they give off</li><li>Moves in a {{39}} to check the environment, then grows towards the most suitable host</li></ul><p>Plant science</p><ul><li>Use of modern {{40}} provides evidence of plant behaviour</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Plant Behaviour</strong></div><p class=\"sub-head\">Changing ideas</p><ul><li>Scientists once thought of plants as being {{31}} organisms</li><li>Now there is evidence that this is not true</li></ul><p class=\"sub-head\">Recent studies</p><p class=\"sub-head\">Great Lakes sea rocket</p><ul><li>Found on {{32}}</li><li>When near other plants, it normally produces extra {{33}} to compete for nutrients.</li><li>However, it behaves differently if it is related to the other plants</li></ul><p class=\"sub-head\">Sagebrush and thornapple</p><ul><li>Recognise surrounding plants by the type of {{34}} that they reflect</li><li>Identification is possible because all plants have a particular {{35}}</li></ul><p class=\"sub-head\">Dodder plant</p><ul><li>Is unable to produce {{36}}</li><li>Needs to feed off another plant to survive</li><li>Affects farmers' crops, e.g. alfalfa, {{37}} and citrus</li><li>Identifies suitable 'hosts' by detecting the {{38}} they give off</li><li>Moves in a {{39}} to check the environment, then grows towards the most suitable host</li></ul><p class=\"sub-head\">Plant science</p><ul><li>Use of modern {{40}} provides evidence of plant behaviour</li></ul></div>",
             "maxWords": 1
           }
         ]

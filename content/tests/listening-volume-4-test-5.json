@@ -20,7 +20,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 1–4</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div><strong>School Art Competition — Arrangements for this year</strong></div><table class=\"q-table\"><tbody><tr><th>Age group</th><th>Theme</th><th>Type of art</th><th>Prize</th></tr><tr><td>Junior students</td><td>{{1}}</td><td>a drawing</td><td>{{2}} tickets</td></tr><tr><td>Senior students</td><td>the {{3}}</td><td>a photograph</td><td>a {{4}} voucher</td></tr></tbody></table></div>",
+            "bodyHtml": "<p>Complete the table below. Write <strong>ONE WORD ONLY</strong> for each answer.</p><div><div class=\"notes-title\"><strong>School Art Competition — Arrangements for this year</strong></div><table class=\"q-table\"><tbody><tr><th>Age group</th><th>Theme</th><th>Type of art</th><th>Prize</th></tr><tr><td>Junior students</td><td>{{1}}</td><td>a drawing</td><td>{{2}} tickets</td></tr><tr><td>Senior students</td><td>the {{3}}</td><td>a photograph</td><td>a {{4}} voucher</td></tr></tbody></table></div>",
             "maxWords": 1
           },
           {
@@ -28,7 +28,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 5–10</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><p>Further details</p><p>Submitting the artwork</p><ul><li>When: no later than {{5}}</li><li>Where: at the {{6}}</li></ul><p>Competition judge</p><ul><li>Name: Rebecca {{7}}</li><li>Her phone number: {{8}}</li></ul><p>After the judging</p><ul><li>The display will be in the Bridge Street Gallery.</li><li>The artworks will appear in a {{9}}</li><li>The art exhibition will be followed by a {{10}} produced by the school.</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><p class=\"sub-head\">Further details</p><p class=\"sub-head\">Submitting the artwork</p><ul><li>When: no later than {{5}}</li><li>Where: at the {{6}}</li></ul><p class=\"sub-head\">Competition judge</p><ul><li>Name: Rebecca {{7}}</li><li>Her phone number: {{8}}</li></ul><p class=\"sub-head\">After the judging</p><ul><li>The display will be in the Bridge Street Gallery.</li><li>The artworks will appear in a {{9}}</li><li>The art exhibition will be followed by a {{10}} produced by the school.</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -94,8 +94,8 @@
           },
           {
             "id": "part-2-group-2",
-            "type": "matching",
-            "rubricHtml": "<p>Questions 15–20</p>",
+            "type": "map_labeling",
+            "rubricHtml": "<p>Questions 15–20</p><p>Label the map below.</p><p>Write the correct letter, <strong>A–J</strong>, next to Questions 15–20.</p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -164,7 +164,8 @@
                 "number": 20,
                 "textHtml": "Kiosk"
               }
-            ]
+            ],
+            "imageUrl": "/test-media/listening-volume-4-test-5-p2-map.png"
           }
         ]
       },
@@ -341,7 +342,7 @@
             "type": "completion",
             "rubricHtml": "<p>Questions 31–40</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div><strong>Gastropods (snails and slugs)</strong></div><p>Evolution</p><ul><li>minerals in the bodies of gastropods are like those in the {{31}}</li><li>fossils date back 500 million years</li></ul><p>Physical features</p><ul><li>single, muscular foot</li><li>radula (used for feeding)</li><li>Shell (snails only)</li><li>size: British shells range from 1.5-50 mm</li><li>form: most shells coil to the {{32}}</li><li>some shells have ribs, spines or {{33}}</li><li>they have various colours and patterns</li></ul><p>Feeding habits</p><ul><li>mainly feed on rotting plants, fungi or algae</li><li>some eat live animals, e.g. shield slugs eat {{34}}</li></ul><p>Predators</p><ul><li>birds, frogs, flies</li><li>humans — snails were probably introduced to Britain as food in the {{35}}</li><li>many gastropods have particular types of {{36}} itself slippery, e.g. glutinous snail makes</li></ul><p>Habitats</p><ul><li>gastropods prefer dampness and shade</li><li>{{37}} conditions are worst</li><li>biggest variety is found in old, natural habitats, e.g. {{38}} and meadowland</li><li>highly specialised species live in unusual habitats, e.g. blind snail lives entirely below the {{39}}</li><li>good indicators of the quality of the {{40}}</li></ul></div>",
+            "bodyHtml": "<p>Complete the notes below. Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p><div><div class=\"notes-title\"><strong>Gastropods (snails and slugs)</strong></div><p class=\"sub-head\">Evolution</p><ul><li>minerals in the bodies of gastropods are like those in the {{31}}</li><li>fossils date back 500 million years</li></ul><p class=\"sub-head\">Physical features</p><ul><li>single, muscular foot</li><li>radula (used for feeding)</li><li>Shell (snails only)</li><li>size: British shells range from 1.5-50 mm</li><li>form: most shells coil to the {{32}}</li><li>some shells have ribs, spines or {{33}}</li><li>they have various colours and patterns</li></ul><p class=\"sub-head\">Feeding habits</p><ul><li>mainly feed on rotting plants, fungi or algae</li><li>some eat live animals, e.g. shield slugs eat {{34}}</li></ul><p class=\"sub-head\">Predators</p><ul><li>birds, frogs, flies</li><li>humans — snails were probably introduced to Britain as food in the {{35}}</li><li>many gastropods have particular types of {{36}} itself slippery, e.g. glutinous snail makes</li></ul><p class=\"sub-head\">Habitats</p><ul><li>gastropods prefer dampness and shade</li><li>{{37}} conditions are worst</li><li>biggest variety is found in old, natural habitats, e.g. {{38}} and meadowland</li><li>highly specialised species live in unusual habitats, e.g. blind snail lives entirely below the {{39}}</li><li>good indicators of the quality of the {{40}}</li></ul></div>",
             "maxWords": 2
           }
         ]

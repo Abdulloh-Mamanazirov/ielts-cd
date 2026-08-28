@@ -55,7 +55,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 8–13</h3>Complete the table below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>The development of paper</strong></div><div><table class=\"q-table\"><thead><tr><th>Place</th><th>Date of introduction</th><th>Materials used</th><th>Method of production</th></tr></thead><tbody><tr><td>Egypt</td><td>about 2400 BC</td><td>a plant called papyrus</td><td>{{8}} of the plant were softened in water, woven and pounded</td></tr><tr><td>Europe</td><td>unknown</td><td>parchment made from the skin of animals such as {{9}}</td><td>skin was dried and {{10}}</td></tr><tr><td>China</td><td>105 AD</td><td>{{11}} of a mulberry tree and hemp rags</td><td>ingredients were mixed with water, pressed and put outside in the sun</td></tr><tr><td>{{12}}</td><td>751 AD</td><td>flax and hemp</td><td>mills made of {{13}} used were</td></tr></tbody></table></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>The development of paper</strong></div><div><table class=\"q-table\"><thead><tr><th>Place</th><th>Date of introduction</th><th>Materials used</th><th>Method of production</th></tr></thead><tbody><tr><td>Egypt</td><td>about 2400 BC</td><td>a plant called papyrus</td><td>{{8}} of the plant were softened in water, woven and pounded</td></tr><tr><td>Europe</td><td>unknown</td><td>parchment made from the skin of animals such as {{9}}</td><td>skin was dried and {{10}}</td></tr><tr><td>China</td><td>105 AD</td><td>{{11}} of a mulberry tree and hemp rags</td><td>ingredients were mixed with water, pressed and put outside in the sun</td></tr><tr><td>{{12}}</td><td>751 AD</td><td>flax and hemp</td><td>mills made of {{13}} used were</td></tr></tbody></table></div>",
             "maxWords": 1
           }
         ]
@@ -194,7 +194,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 24–26</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>The 'mix and match' strategy</strong></div><div><p>One aspect of the Talbot Park project that some critics are concerned about is that the higher {{24}} of accommodation would lead to the old social problems returning. To prevent this, a team of various {{25}} worked on the project to ensure the buildings were not uniform. Further, they created pleasant, functional interiors that could still be built within their {{26}}. Finally, the absence of walls means Talbot Park is characterised by openness, making it easier to regulate behaviour within the community.</p></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>The 'mix and match' strategy</strong></div><div><p>One aspect of the Talbot Park project that some critics are concerned about is that the higher {{24}} of accommodation would lead to the old social problems returning. To prevent this, a team of various {{25}} worked on the project to ensure the buildings were not uniform. Further, they created pleasant, functional interiors that could still be built within their {{26}}. Finally, the absence of walls means Talbot Park is characterised by openness, making it easier to regulate behaviour within the community.</p></div>",
             "maxWords": 1
           }
         ]

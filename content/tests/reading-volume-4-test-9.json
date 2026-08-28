@@ -51,7 +51,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 7–13</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>The Many Uses of Pepper</strong></div><div>Ancient Rome<ul><li>the Romans used pepper to reduce {{7}} caused by many health issues</li><li>{{8}} containing pepper was used as medicine to bring down high temperatures</li></ul>India<ul><li>pepper has been used in Ayurvedic medicine for thousands of years</li><li>pepper was thought to be able to extract {{9}} from people, as indicated by its name in Sanskrit</li><li>pepper was used to treat problems with people's {{10}}</li></ul>Uses in Europe in the Middle Ages<ul><li>in wealthy households, pepper was stored in {{11}}</li><li>{{12}} written at that time required large amounts of pepper</li><li>rent could be paid in the form of pepper in city areas</li><li>people who worked with pepper had to wear clothes without {{13}} to discourage theft</li></ul></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>The Many Uses of Pepper</strong></div><div>Ancient Rome<ul><li>the Romans used pepper to reduce {{7}} caused by many health issues</li><li>{{8}} containing pepper was used as medicine to bring down high temperatures</li></ul>India<ul><li>pepper has been used in Ayurvedic medicine for thousands of years</li><li>pepper was thought to be able to extract {{9}} from people, as indicated by its name in Sanskrit</li><li>pepper was used to treat problems with people's {{10}}</li></ul>Uses in Europe in the Middle Ages<ul><li>in wealthy households, pepper was stored in {{11}}</li><li>{{12}} written at that time required large amounts of pepper</li><li>rent could be paid in the form of pepper in city areas</li><li>people who worked with pepper had to wear clothes without {{13}} to discourage theft</li></ul></div>",
             "maxWords": 1
           }
         ]
@@ -188,7 +188,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 23–26</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>The horseshoe crab in Florida</strong></div><div><p>A study of the Indian River Lagoon system in Florida has shown a {{23}} in the horseshoe crab's population. This means that animals that eat both horseshoe crabs and their {{24}} could also be impacted. The result would affect the Indian River Lagoon system's {{25}}. Local fishermen taking horseshoe crabs for {{26}} could be one cause of the reduction in numbers.</p></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>The horseshoe crab in Florida</strong></div><div><p>A study of the Indian River Lagoon system in Florida has shown a {{23}} in the horseshoe crab's population. This means that animals that eat both horseshoe crabs and their {{24}} could also be impacted. The result would affect the Indian River Lagoon system's {{25}}. Local fishermen taking horseshoe crabs for {{26}} could be one cause of the reduction in numbers.</p></div>",
             "maxWords": 1
           }
         ]
@@ -277,7 +277,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 30–34</h3>Complete each sentence with the correct ending, A-G, below.",
             "selectCount": 1,
-            "bodyHtml": "<div>30Buss and Plomin tried to find evidence for{{30}}</div><div>31Kagan rejected the idea that certain traits were mainly a result of{{31}}</div><div>32Kagan suggested that the root of behavioural traits lay in{{32}}</div><div>33Kagan measured children's emotional reactions by assessing{{33}}</div><div>34Dunn and Kendrick reported an effect on temperament of{{34}}</div><div><strong>List of Endings</strong></div>",
+            "bodyHtml": "<div>30Buss and Plomin tried to find evidence for{{30}}</div><div>31Kagan rejected the idea that certain traits were mainly a result of{{31}}</div><div>32Kagan suggested that the root of behavioural traits lay in{{32}}</div><div>33Kagan measured children's emotional reactions by assessing{{33}}</div><div>34Dunn and Kendrick reported an effect on temperament of{{34}}</div><div class=\"notes-title\"><strong>List of Endings</strong></div>",
             "wordBank": [
               {
                 "letter": "A",

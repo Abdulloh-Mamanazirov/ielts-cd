@@ -51,7 +51,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 7–13</h3>Complete the notes below. Write <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><h3>The development of tennis in England</h3><p><strong>“Real tennis” court at Hampton Court</strong></p><p>– The ball may be hit against the {{7}} around the court</p><p>– The {{8}} is lower in the centre</p><p><strong>1850s</strong></p><p>– Balls made out of {{9}} started to be used</p><p><strong>1874</strong></p><p>– Major Walter C. Wingfield published written {{10}} for the game</p><p>– Produced complete sets of tennis {{11}} for sale</p><p>– Introduced a name for the game which was never adopted</p><p>– Designed an unusual {{12}} for the court</p><p><strong>1877</strong></p><p>– The first large {{13}} was held</p></div>",
+            "bodyHtml": "<div><h3>The development of tennis in England</h3><p class=\"sub-head\"><strong>“Real tennis” court at Hampton Court</strong></p><p>– The ball may be hit against the {{7}} around the court</p><p>– The {{8}} is lower in the centre</p><p class=\"sub-head\"><strong>1850s</strong></p><p>– Balls made out of {{9}} started to be used</p><p class=\"sub-head\"><strong>1874</strong></p><p>– Major Walter C. Wingfield published written {{10}} for the game</p><p>– Produced complete sets of tennis {{11}} for sale</p><p>– Introduced a name for the game which was never adopted</p><p>– Designed an unusual {{12}} for the court</p><p class=\"sub-head\"><strong>1877</strong></p><p>– The first large {{13}} was held</p></div>",
             "maxWords": 1
           }
         ]

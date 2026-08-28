@@ -55,7 +55,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 8–13</h3>Complete the notes below. Choose <strong>ONE WORD AND/OR A NUMBER</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>The Morepork</strong></div><div>Appearance<ul><li>approximately {{8}} in length</li><li>large yellow eyes</li><li>feathers with fringes to enable quiet flight</li></ul>Nesting<ul><li>nests in trees, plants or spaces in roots and {{9}}</li><li>after about 35 days, baby moreporks are capable of leaving the nest</li></ul>Hunting<ul><li>transports its prey using its {{10}}</li><li>can be chased away by other birds during the {{11}}</li><li>attacked {{12}} that had been introduced to Motuora island</li></ul>Threats<ul><li>may be exposed to {{13}} in their prey</li></ul></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>The Morepork</strong></div><div>Appearance<ul><li>approximately {{8}} in length</li><li>large yellow eyes</li><li>feathers with fringes to enable quiet flight</li></ul>Nesting<ul><li>nests in trees, plants or spaces in roots and {{9}}</li><li>after about 35 days, baby moreporks are capable of leaving the nest</li></ul>Hunting<ul><li>transports its prey using its {{10}}</li><li>can be chased away by other birds during the {{11}}</li><li>attacked {{12}} that had been introduced to Motuora island</li></ul>Threats<ul><li>may be exposed to {{13}} in their prey</li></ul></div>",
             "maxWords": 2
           }
         ]
@@ -253,7 +253,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 31–35</h3>Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>Studies on conformity</strong></div><div><p>In the Jennes study, people had to guess how many {{31}} were in a container. Jennes found that, in most cases, people opted for an estimate given by a {{32}}.</p><p>Asch asked his subjects to {{33}} line lengths. To test the extent to which people would conform, he placed his subjects with colleagues who gave {{34}} responses. He found that his subjects agreed with his colleagues 32% of the time, although they admitted to feeling {{35}} about giving their answer.</p></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>Studies on conformity</strong></div><div><p>In the Jennes study, people had to guess how many {{31}} were in a container. Jennes found that, in most cases, people opted for an estimate given by a {{32}}.</p><p>Asch asked his subjects to {{33}} line lengths. To test the extent to which people would conform, he placed his subjects with colleagues who gave {{34}} responses. He found that his subjects agreed with his colleagues 32% of the time, although they admitted to feeling {{35}} about giving their answer.</p></div>",
             "maxWords": 1
           },
           {
@@ -261,7 +261,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 36–40</h3>Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
             "selectCount": 1,
-            "bodyHtml": "<div><strong>Kelman's processes of social conformity</strong></div><div>Compliance<ul><li>people support the majority view despite their own ideas</li><li>social harmony is maintained</li><li>illustrated by the results of the research conducted by {{36}}</li></ul>{{37}}<ul><li>majority view is considered most {{38}} view</li><li>people persuade themselves despite their own ideas</li></ul>{{39}}<ul><li>people change their ideas to those of the majority</li><li>typical of {{40}}</li></ul></div>",
+            "bodyHtml": "<div class=\"notes-title\"><strong>Kelman's processes of social conformity</strong></div><div>Compliance<ul><li>people support the majority view despite their own ideas</li><li>social harmony is maintained</li><li>illustrated by the results of the research conducted by {{36}}</li></ul>{{37}}<ul><li>majority view is considered most {{38}} view</li><li>people persuade themselves despite their own ideas</li></ul>{{39}}<ul><li>people change their ideas to those of the majority</li><li>typical of {{40}}</li></ul></div>",
             "maxWords": 1
           }
         ]
