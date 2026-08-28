@@ -1,10 +1,12 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import parse, { type HTMLReactParserOptions } from "html-react-parser";
+import { Element as DomElement } from "domhandler";
 
 import { applyHighlightMarks, type Highlight } from "@/lib/player/highlights";
 import { cn } from "@/lib/utils";
-import { RichHtml } from "./SlotHtml";
+import { HeadingDropSlot } from "./MatchingHeadings";
 
 export type Evidence = { anchor?: string; snippet?: string };
 /** One answer's location in the passage, for the review "where did this come from" marks. */
@@ -80,6 +82,7 @@ function markEvidenceRuns(html: string, marks: EvidenceMark[]): string {
 export function PassagePane({
   html,
   title,
+  headingSlots,
   evidence,
   evidenceMarks,
   focusQuestion,
@@ -94,6 +97,9 @@ export function PassagePane({
   /** Passage title, when it is kept out of `html` (see TestPlayer). Rendered as
       a heading above the article, so it never shifts the highlight offsets. */
   title?: string;
+  /** Matching-headings: paragraph letter → question number. A numbered drop box
+      is woven in above each named paragraph. */
+  headingSlots?: Record<string, number>;
   evidence?: Evidence | null;
   /** Review: every answer's location in this passage, badged with its number. */
   evidenceMarks?: EvidenceMark[];
@@ -141,6 +147,41 @@ export function PassagePane({
     );
   }, [html, mine, snippet, showAllMarks, evidenceMarks]);
 
+  // Matching headings: weave an empty marker in front of each named paragraph,
+  // which the parser below swaps for a numbered drop box. Volume passages open a
+  // paragraph with a bold letter (`<p><strong>A</strong>`); Cambridge ones tag
+  // it `id="para-A"`. The marker carries no text, so it never moves a highlight.
+  const parsed = useMemo(() => {
+    let source = marked;
+    const slots = headingSlots ?? {};
+    if (Object.keys(slots).length > 0) {
+      source = source.replace(
+        /<p>\s*<strong>\s*([A-Za-z])\s*<\/strong>/g,
+        (whole, letter: string) =>
+          slots[letter.toUpperCase()] != null
+            ? `<span data-mh-para="${letter.toUpperCase()}"></span>${whole}`
+            : whole,
+      );
+      source = source.replace(
+        /<[a-z][a-z0-9]*[^>]*\sid="para-([A-Za-z0-9]+)"[^>]*>/g,
+        (whole, letter: string) =>
+          slots[letter.toUpperCase()] != null
+            ? `<span data-mh-para="${letter.toUpperCase()}"></span>${whole}`
+            : whole,
+      );
+    }
+
+    const options: HTMLReactParserOptions = {
+      replace(node) {
+        if (node instanceof DomElement && node.attribs?.["data-mh-para"]) {
+          return <HeadingDropSlot paraLetter={node.attribs["data-mh-para"]} />;
+        }
+        return undefined;
+      },
+    };
+    return parse(source, options);
+  }, [marked, headingSlots]);
+
   useEffect(() => {
     const root = scroller.current;
     if (!root) return;
@@ -163,7 +204,15 @@ export function PassagePane({
     const root = article.current;
     if (!root) return -1;
 
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    // A matching-headings drop box lives inside the passage but is not part of
+    // its text: skip it, so its label and any dropped heading never shift the
+    // character offsets that highlights are anchored to.
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: (candidate) =>
+        (candidate.parentElement?.closest("[data-mh-slot]"))
+          ? NodeFilter.FILTER_REJECT
+          : NodeFilter.FILTER_ACCEPT,
+    });
     let total = 0;
     let current = walker.nextNode();
 
@@ -265,7 +314,7 @@ export function PassagePane({
         onClick={onArticleClick}
         className="leading-[1.75] text-ink [&_.para-label]:font-bold [&_[data-ev-badge]]:ml-0.5 [&_[data-ev-badge]]:rounded [&_[data-ev-badge]]:bg-brand-blue [&_[data-ev-badge]]:px-1 [&_[data-ev-badge]]:py-px [&_[data-ev-badge]]:align-super [&_[data-ev-badge]]:font-sans [&_[data-ev-badge]]:text-[9px] [&_[data-ev-badge]]:font-bold [&_[data-ev-badge]]:leading-none [&_[data-ev-badge]]:text-white [&_[data-ev-wrong]]:bg-brand-red-cta/[0.12] [&_[data-ev-wrong]]:shadow-[inset_0_-2px_0_#e10046] [&_[data-ev-wrong]_[data-ev-badge]]:bg-brand-red-cta [&_[data-evidence]]:rounded [&_[data-evidence]]:bg-brand-blue/15 [&_[data-evidence]]:px-0.5 [&_[data-evidence]]:text-ink [&_[data-evidence]]:shadow-[inset_0_-2px_0_#0154f8] [&_[data-hl]]:cursor-pointer [&_[data-hl]]:rounded-sm [&_[data-hl]]:bg-[#ffe89a] [&_[data-hl]]:text-ink [&_[data-note]]:shadow-[inset_0_-2px_0_#e10046] [&_h1]:mb-4 [&_h1]:font-sans [&_h1]:text-xl [&_h1]:font-bold [&_h4]:mb-3 [&_h4]:font-sans [&_h4]:font-bold [&_h5]:mb-2 [&_h5]:mt-5 [&_h5]:font-sans [&_h5]:font-bold [&_p]:mb-4"
       >
-        <RichHtml html={marked} />
+        {parsed}
       </article>
 
       {draft && (

@@ -8,6 +8,7 @@ import { AnswerInput } from "./AnswerInput";
 import { AnswerOption, type OptionMark } from "./AnswerOption";
 import { Explanation } from "./Explanation";
 import { MatchingBoard } from "./MatchingBoard";
+import { HeadingsList, isMatchingHeadings } from "./MatchingHeadings";
 import { RichHtml, SlotHtml } from "./SlotHtml";
 
 export { Explanation };
@@ -72,6 +73,10 @@ export function QuestionGroupView(props: GroupViewProps) {
 
       {group.type === "map_labeling" ? (
         <MapLabelling {...props} />
+      ) : isMatchingHeadings(group) && props.onShowEvidence ? (
+        // Reading passage present: the numbered boxes render in the passage, so
+        // this side shows only the list of headings to drag from.
+        <HeadingsList group={group} />
       ) : isDragBoard(group) ? (
         // The board draws its own answer box, so no separate word bank above it.
         <MatchingBoard {...props} />

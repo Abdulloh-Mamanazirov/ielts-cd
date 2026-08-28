@@ -13,6 +13,12 @@ import { useAnnotations } from "./useAnnotations";
 import { PlayerHeader, ReviewHeader } from "./PlayerChrome";
 import { QuestionGroupView, type ReviewInfo } from "./QuestionGroupView";
 import { QuestionHighlighter } from "./QuestionHighlighter";
+import {
+  isMatchingHeadings,
+  MatchingHeadingsProvider,
+  paragraphMap,
+  type MatchingHeadingsValue,
+} from "./MatchingHeadings";
 import { QuestionNav, type NavPart } from "./QuestionNav";
 import { ScoreReveal } from "./ScoreReveal";
 import { RichHtml } from "./SlotHtml";
@@ -53,6 +59,7 @@ export function TestPlayer({
   const [submitting, setSubmitting] = useState(false);
   const [dialogOpen, setDialogOpen] = useState(false);
   const [evidence, setEvidence] = useState<Evidence | null>(null);
+  const [heldHeading, setHeldHeading] = useState<string | null>(null);
 
   const { queue, flush, status } = useAutosave(attempt.id);
   const { size, step, canDecrease, canIncrease } = useTextSize();
@@ -197,6 +204,82 @@ export function TestPlayer({
   const remaining = useCountdown(attempt.expiresAt, reviewMode, submit);
   const currentPart = parts.find((part) => part.number === activePart) ?? parts[0];
 
+  // Matching headings for the current passage: the group, and which paragraph
+  // each numbered box belongs to. Only reading parts (with a passage to hang the
+  // boxes on) qualify.
+  const matchingHeadings = useMemo(() => {
+    const part = parts.find((entry) => entry.number === activePart) ?? parts[0];
+    const group = part?.passageHtml
+      ? part.groups.find((entry) => isMatchingHeadings(entry))
+      : undefined;
+    if (!group) return null;
+    const paraToQnum = paragraphMap(group);
+    return { paraToQnum, qnums: Object.values(paraToQnum), bank: group.wordBank ?? [] };
+  }, [parts, activePart]);
+
+  // A heading is used once: dropping one that sits elsewhere moves it, rather
+  // than cloning it. Clearing the box it leaves also frees that number.
+  const placeHeading = useCallback(
+    (questionNumber: number, letter: string) => {
+      if (letter && matchingHeadings) {
+        for (const other of matchingHeadings.qnums) {
+          if (other !== questionNumber && (answers[String(other)] ?? "").toUpperCase() === letter.toUpperCase()) {
+            handleAnswer(other, "");
+          }
+        }
+      }
+      handleAnswer(questionNumber, letter);
+    },
+    [answers, matchingHeadings, handleAnswer],
+  );
+
+  const usedHeadings = useMemo(() => {
+    const used = new Set<string>();
+    if (matchingHeadings) {
+      for (const qnum of matchingHeadings.qnums) {
+        const value = answers[String(qnum)];
+        if (value) used.add(value.toUpperCase());
+      }
+    }
+    return used;
+  }, [matchingHeadings, answers]);
+
+  // Dropping the "picked up" heading is a cross-pane gesture, so the held letter
+  // and the placement handlers travel through context to both panes.
+  const matchingHeadingsValue = useMemo<MatchingHeadingsValue | null>(() => {
+    if (!matchingHeadings) return null;
+    return {
+      paraToQnum: matchingHeadings.paraToQnum,
+      bank: matchingHeadings.bank,
+      answerOf: (qnum) => answers[String(qnum)] ?? "",
+      usedLetters: usedHeadings,
+      place: placeHeading,
+      reviewFor,
+      reviewMode,
+      activeQuestion,
+      onFocusQuestion: setActiveQuestion,
+      held: heldHeading,
+      setHeld: setHeldHeading,
+    };
+  }, [
+    matchingHeadings,
+    answers,
+    usedHeadings,
+    placeHeading,
+    reviewFor,
+    reviewMode,
+    activeQuestion,
+    heldHeading,
+  ]);
+
+  // A heading picked up on one part should not stay in hand onto the next.
+  // Reset during render (React's documented pattern) rather than in an effect.
+  const [heldPart, setHeldPart] = useState(activePart);
+  if (heldPart !== activePart) {
+    setHeldPart(activePart);
+    if (heldHeading !== null) setHeldHeading(null);
+  }
+
   // In a mock the student should not know which Volume or Test they drew — on
   // the day there is no such label, and knowing it invites looking the paper up
   // afterwards. The real title comes back in review, once the paper is marked.
@@ -251,8 +334,9 @@ export function TestPlayer({
   );
 
   return (
-    // `overflow-hidden`: the player owns the viewport and scrolls inside its own
-    // panes. Nothing should ever be able to scroll the document behind it.
+    <MatchingHeadingsProvider value={matchingHeadingsValue}>
+    {/* `overflow-hidden`: the player owns the viewport and scrolls inside its own
+        panes. Nothing should ever be able to scroll the document behind it. */}
     <div className="fixed inset-x-0 top-0 flex h-dvh flex-col overflow-hidden bg-surface-alt">
       {reviewMode && result ? (
         <ReviewHeader
@@ -327,6 +411,7 @@ export function TestPlayer({
                   ? currentPart.title
                   : undefined
               }
+              headingSlots={matchingHeadings?.paraToQnum}
               evidence={evidence}
               evidenceMarks={evidenceMarks}
               focusQuestion={reviewMode ? activeQuestion : null}
@@ -389,5 +474,6 @@ export function TestPlayer({
         />
       )}
     </div>
+    </MatchingHeadingsProvider>
   );
 }
