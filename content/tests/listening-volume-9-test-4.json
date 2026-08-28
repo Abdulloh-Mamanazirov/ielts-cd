@@ -289,7 +289,7 @@
           {
             "id": "part-4-group-2",
             "type": "matching",
-            "rubricHtml": "<p>Questions 34–40</p><p>Listen and write the correct letter, <strong>A, B or C</strong>, next to Questions 34–40. You may use any letter more than once.</p>",
+            "rubricHtml": "<p>Questions 34–40</p><p>Which theorist makes each of the following points?</p><p>Choose <strong>A</strong>, <strong>B</strong> or <strong>C</strong> for each point. You may choose any letter more than once.</p>",
             "selectCount": 1,
             "wordBank": [
               {
@@ -308,31 +308,31 @@
             "questions": [
               {
                 "number": 34,
-                "textHtml": ""
+                "textHtml": "Current teaching methods don't work."
               },
               {
                 "number": 35,
-                "textHtml": ""
+                "textHtml": "Many students don't understand computers."
               },
               {
                 "number": 36,
-                "textHtml": ""
+                "textHtml": "Computer technology doesn't interest all students."
               },
               {
                 "number": 37,
-                "textHtml": ""
+                "textHtml": "Students can still learn the traditional way."
               },
               {
                 "number": 38,
-                "textHtml": ""
+                "textHtml": "Students still need to learn research skills."
               },
               {
                 "number": 39,
-                "textHtml": ""
+                "textHtml": "We should use computer games to teach."
               },
               {
                 "number": 40,
-                "textHtml": ""
+                "textHtml": "Computers can't replace educators."
               }
             ]
           }
