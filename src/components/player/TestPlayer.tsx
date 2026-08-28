@@ -318,6 +318,15 @@ export function TestPlayer({
           left={
             <PassagePane
               html={currentPart.passageHtml}
+              // Volume readings keep the passage title in `part.title` (out of
+              // the body); Cambridge readings embed it as a leading <h1>. Render
+              // the field only when the body has no <h1> of its own, so the ones
+              // that carry both do not print the title twice.
+              title={
+                currentPart.title && !/^\s*<h1/i.test(currentPart.passageHtml)
+                  ? currentPart.title
+                  : undefined
+              }
               evidence={evidence}
               evidenceMarks={evidenceMarks}
               focusQuestion={reviewMode ? activeQuestion : null}

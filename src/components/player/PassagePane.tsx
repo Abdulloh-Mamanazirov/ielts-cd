@@ -79,6 +79,7 @@ function markEvidenceRuns(html: string, marks: EvidenceMark[]): string {
  */
 export function PassagePane({
   html,
+  title,
   evidence,
   evidenceMarks,
   focusQuestion,
@@ -90,6 +91,9 @@ export function PassagePane({
   onSetNote,
 }: {
   html: string;
+  /** Passage title, when it is kept out of `html` (see TestPlayer). Rendered as
+      a heading above the article, so it never shifts the highlight offsets. */
+  title?: string;
   evidence?: Evidence | null;
   /** Review: every answer's location in this passage, badged with its number. */
   evidenceMarks?: EvidenceMark[];
@@ -251,6 +255,9 @@ export function PassagePane({
 
   return (
     <div ref={scroller} className="relative min-h-0 flex-1 overflow-y-auto px-6 py-5 lg:px-8">
+      {title && (
+        <h1 className="mb-4 font-sans text-xl font-bold text-ink">{title}</h1>
+      )}
       <article
         ref={article}
         style={{ fontSize }}
