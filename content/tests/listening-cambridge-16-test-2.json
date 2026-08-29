@@ -1,0 +1,564 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 16, Test 2",
+    "source": "Cambridge IELTS 16",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Copying photos to digital format</div>\n<p><strong>Name of company: Picturerep</strong></p>\n<p class=\"sub-head\">Requirements</p>\n<ul class=\"notes-list\">\n<li>Maximum size of photos is 30 cm, minimum size 4 cm.</li>\n<li>Photos must not be in a {{1}} or an album.</li>\n</ul>\n<p class=\"sub-head\">Cost</p>\n<ul class=\"notes-list\">\n<li>The cost for 360 photos is £{{2}} (including one disk).</li>\n<li>Before the completed order is sent, {{3}} is required.</li>\n</ul>\n<p class=\"sub-head\">Services included in the price</p>\n<ul class=\"notes-list\">\n<li>Photos can be placed in a folder, e.g. with the name {{4}}.</li>\n<li>The {{5}} and contrast can be improved if necessary.</li>\n<li>Photos which are very fragile will be scanned by {{6}}.</li>\n</ul>\n<p class=\"sub-head\">Special restore service (costs extra)</p>\n<ul class=\"notes-list\">\n<li>It may be possible to remove an object from a photo, or change the {{7}}.</li>\n<li>A photo which is not correctly in {{8}} cannot be fixed.</li>\n</ul>\n<p class=\"sub-head\">Other information</p>\n<ul class=\"notes-list\">\n<li>Orders are completed within {{9}}.</li>\n<li>Send the photos in a box (not {{10}}).</li>\n</ul></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 11–15</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Dartfield House school used to be",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a tourist information centre."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a private home."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a local council building."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "What is planned with regard to the lower school?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "All buildings on the main site will be improved."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The lower school site will be used for new homes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Additional school buildings will be constructed on the lower school site."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "The catering has been changed because of",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "long queuing times."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "changes to the school timetable."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "dissatisfaction with the menus."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "Parents are asked to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "help their children to decide in advance which serving point to use."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "make sure their children have enough money for food."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "advise their children on healthy food to eat."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "What does the speaker say about the existing canteen?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Food will still be served there."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Only staff will have access to it."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Pupils can take their food into it."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 16–18</h3><p>What comment does the speaker make about each of the following serving points in the Food Hall?</p><p>Choose <strong>THREE</strong> answers from the box and write the correct letter, <strong>A–D</strong>, next to Questions 16–18.</p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "pupils help to plan menus"
+              },
+              {
+                "letter": "B",
+                "textHtml": "only vegetarian food"
+              },
+              {
+                "letter": "C",
+                "textHtml": "different food every week"
+              },
+              {
+                "letter": "D",
+                "textHtml": "daily change in menu"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "textHtml": "World Adventures"
+              },
+              {
+                "number": 17,
+                "textHtml": "Street Life"
+              },
+              {
+                "number": 18,
+                "textHtml": "Speedy Italian"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 19 and 20</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> optional after-school lessons are new?</p>",
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> optional after-school lessons are new?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "swimming"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "piano"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "acting"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "cycling"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "theatre sound and lighting"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 21–24</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Assignment on sleep and dreams</strong></p>",
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Luke read that one reason why we often forget dreams is that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "our memories cannot cope with too much information."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "we might otherwise be confused about what is real."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "we do not think they are important."
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "What do Luke and Susie agree about dreams predicting the future?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It may just be due to chance."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It only happens with certain types of event."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It happens more often than some people think."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "Susie says that a study on pre-school children having a short nap in the day",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "had controversial results."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "used faulty research methodology."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "failed to reach any clear conclusions."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "In their last assignment, both students had problems with",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "statistical analysis."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "making an action plan."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "self-assessment."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 25–30</h3><p>Complete the flow chart below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Assignment plan</div>\n<div class=\"flow-box\">Decide on research question: Is there a relationship between hours of sleep and number of dreams?</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Decide on sample: Twelve students from the {{25}} department</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Decide on methodology: Self-reporting</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Decide on procedure: Answers on {{26}}</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Check ethical guidelines for working with {{27}}. Ensure that risk is assessed and {{28}} is kept to a minimum</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">Analyse the results: Calculate the correlation and make a {{29}}</div>\n<div class=\"flow-arrow\">↓</div>\n<div class=\"flow-box\">{{30}} the research</div></div>"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Health benefits of dance</div>\n<p class=\"sub-head\">Recent findings:</p>\n<ul class=\"notes-list\">\n<li>All forms of dance produce various hormones associated with feelings of happiness.</li>\n<li>Dancing with others has a more positive impact than dancing alone.</li>\n<li>An experiment on university students suggested that dance increases {{31}}.</li>\n<li>For those with mental illness, dance could be used as a form of {{32}}.</li>\n</ul>\n<p class=\"sub-head\">Benefits of dance for older people:</p>\n<ul class=\"notes-list\">\n<li>accessible for people with low levels of {{33}}</li>\n<li>reduces the risk of heart disease</li>\n<li>better {{34}} reduces the risk of accidents</li>\n<li>improves {{35}} function by making it work faster</li>\n<li>improves participants' general well-being</li>\n<li>gives people more {{36}} to take exercise</li>\n<li>can lessen the feeling of {{37}}, very common in older people</li>\n</ul>\n<p class=\"sub-head\">Benefits of Zumba:</p>\n<ul class=\"notes-list\">\n<li>A study at The University of Wisconsin showed that doing Zumba for 40 minutes uses up as many {{38}} as other quite intense forms of exercise.</li>\n<li>The <em>American Journal of Health Behavior</em> study showed that:\n<ul><li>women suffering from {{39}} benefited from doing Zumba.</li>\n<li>Zumba became a {{40}} for the participants.</li></ul></li>\n</ul></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "frame"
+        ],
+        "type": "Note completion"
+      },
+      "2": {
+        "accepted": [
+          "195"
+        ],
+        "type": "Note completion"
+      },
+      "3": {
+        "accepted": [
+          "payment"
+        ],
+        "type": "Note completion"
+      },
+      "4": {
+        "accepted": [
+          "Grandparents"
+        ],
+        "type": "Note completion"
+      },
+      "5": {
+        "accepted": [
+          "colour",
+          "color"
+        ],
+        "type": "Note completion"
+      },
+      "6": {
+        "accepted": [
+          "hand"
+        ],
+        "type": "Note completion"
+      },
+      "7": {
+        "accepted": [
+          "background"
+        ],
+        "type": "Note completion"
+      },
+      "8": {
+        "accepted": [
+          "focus"
+        ],
+        "type": "Note completion"
+      },
+      "9": {
+        "accepted": [
+          "ten",
+          "10"
+        ],
+        "type": "Note completion"
+      },
+      "10": {
+        "accepted": [
+          "plastic"
+        ],
+        "type": "Note completion"
+      },
+      "11": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "12": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "13": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "14": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "15": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "16": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching"
+      },
+      "17": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching"
+      },
+      "18": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching"
+      },
+      "21": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "22": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "23": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "24": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "25": {
+        "accepted": [
+          "history"
+        ],
+        "type": "Flow-chart completion"
+      },
+      "26": {
+        "accepted": [
+          "paper"
+        ],
+        "type": "Flow-chart completion"
+      },
+      "27": {
+        "accepted": [
+          "humans",
+          "people"
+        ],
+        "type": "Flow-chart completion"
+      },
+      "28": {
+        "accepted": [
+          "stress"
+        ],
+        "type": "Flow-chart completion"
+      },
+      "29": {
+        "accepted": [
+          "graph"
+        ],
+        "type": "Flow-chart completion"
+      },
+      "30": {
+        "accepted": [
+          "evaluate"
+        ],
+        "type": "Flow-chart completion"
+      },
+      "31": {
+        "accepted": [
+          "creativity"
+        ],
+        "type": "Note completion"
+      },
+      "32": {
+        "accepted": [
+          "therapy"
+        ],
+        "type": "Note completion"
+      },
+      "33": {
+        "accepted": [
+          "fitness"
+        ],
+        "type": "Note completion"
+      },
+      "34": {
+        "accepted": [
+          "balance"
+        ],
+        "type": "Note completion"
+      },
+      "35": {
+        "accepted": [
+          "brain"
+        ],
+        "type": "Note completion"
+      },
+      "36": {
+        "accepted": [
+          "motivation"
+        ],
+        "type": "Note completion"
+      },
+      "37": {
+        "accepted": [
+          "isolation"
+        ],
+        "type": "Note completion"
+      },
+      "38": {
+        "accepted": [
+          "calories"
+        ],
+        "type": "Note completion"
+      },
+      "39": {
+        "accepted": [
+          "obesity"
+        ],
+        "type": "Note completion"
+      },
+      "40": {
+        "accepted": [
+          "habit"
+        ],
+        "type": "Note completion"
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "b",
+          "c"
+        ],
+        "type": "Multiple choice (choose two)"
+      }
+    ]
+  },
+  "slug": "listening-cambridge-16-test-2",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 16,
+  "testNumber": 2
+}
