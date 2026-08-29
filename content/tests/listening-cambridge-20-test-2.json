@@ -1,0 +1,614 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 20, Test 2",
+    "source": "Cambridge IELTS 20",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the table below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Local councils can arrange practical support to help those caring for elderly people at home.</div>\n<p class=\"sub-head\">This can give the carer:</p>\n<ul class=\"notes-list\"><li>time for other responsibilities</li><li>a {{1}}</li></ul>\n<p class=\"sub-head\">Assessment of mother's needs</p>\n<p>This may include discussion of:</p>\n<ul class=\"notes-list\"><li>how much {{2}} the caring involves</li></ul>\n<p class=\"sub-head\">What types of tasks are involved, e.g.:</p>\n<ul class=\"notes-list\"><li>help with dressing</li><li>helping her have a {{3}}</li><li>shopping</li><li>helping with meals</li><li>dealing with {{4}}</li></ul>\n<p class=\"sub-head\">Any aspects of caring that are especially difficult, e.g.:</p>\n<ul class=\"notes-list\"><li>loss of {{5}}</li><li>{{6}} her</li><li>preventing a {{7}}</li></ul>\n<p class=\"sub-head\">Types of support that may be offered to carers</p>\n<ul class=\"notes-list\"><li>transport costs, e.g. cost of a {{8}}</li><li>car-related costs, e.g. fuel and {{9}}</li><li>help with housework</li><li>help to reduce {{10}}</li></ul></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 11–16</h3><p>What is the role of the volunteers in each of the following activities?</p><p>Choose <strong>SIX</strong> answers from the box and write the correct letter, <strong>A–I</strong>, next to Questions 11–16.</p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "providing entertainment"
+              },
+              {
+                "letter": "B",
+                "textHtml": "providing publicity about a council service"
+              },
+              {
+                "letter": "C",
+                "textHtml": "contacting local businesses"
+              },
+              {
+                "letter": "D",
+                "textHtml": "giving advice to visitors"
+              },
+              {
+                "letter": "E",
+                "textHtml": "collecting feedback on events"
+              },
+              {
+                "letter": "F",
+                "textHtml": "selling tickets"
+              },
+              {
+                "letter": "G",
+                "textHtml": "introducing guest speakers at an event"
+              },
+              {
+                "letter": "H",
+                "textHtml": "encouraging cooperation between local organisations"
+              },
+              {
+                "letter": "I",
+                "textHtml": "helping people find their seats"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "walking around the town centre"
+              },
+              {
+                "number": 12,
+                "textHtml": "helping at concerts"
+              },
+              {
+                "number": 13,
+                "textHtml": "getting involved with community groups"
+              },
+              {
+                "number": 14,
+                "textHtml": "helping with a magazine"
+              },
+              {
+                "number": 15,
+                "textHtml": "participating at lunches for retired people"
+              },
+              {
+                "number": 16,
+                "textHtml": "helping with the website"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 17–20</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which event requires the largest number of volunteers?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the music festival"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the science festival"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the book festival"
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "textHtml": "What is the most important requirement for volunteers at the festivals?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "interpersonal skills"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "personal interest in the event"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "flexibility"
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "New volunteers will start working in the week beginning",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "2 September."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "9 September."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "23 September."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "What is the next annual event for volunteers?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a boat trip"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a barbecue"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "a party"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 21–25</h3><p>What is Rosie and Colin's opinion about each of the following aspects of human geography?</p><p>Choose <strong>FIVE</strong> answers from the box and write the correct letter, <strong>A–G</strong>, next to Questions 21–25.</p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "The information given about this was too vague."
+              },
+              {
+                "letter": "B",
+                "textHtml": "This may not be relevant to their course."
+              },
+              {
+                "letter": "C",
+                "textHtml": "This will involve only a small number of statistics."
+              },
+              {
+                "letter": "D",
+                "textHtml": "It will be easy to find facts about this."
+              },
+              {
+                "letter": "E",
+                "textHtml": "The facts about this may not be reliable."
+              },
+              {
+                "letter": "F",
+                "textHtml": "No useful research has been done on this."
+              },
+              {
+                "letter": "G",
+                "textHtml": "The information provided about this was interesting."
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Population"
+              },
+              {
+                "number": 22,
+                "textHtml": "Health"
+              },
+              {
+                "number": 23,
+                "textHtml": "Economies"
+              },
+              {
+                "number": 24,
+                "textHtml": "Culture"
+              },
+              {
+                "number": 25,
+                "textHtml": "Poverty"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 26–30</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "Rosie says that in her own city the main problem is",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "crime."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "housing."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "unemployment."
+                  }
+                ]
+              },
+              {
+                "number": 27,
+                "textHtml": "What recent additions to the outskirts of their cities are both students happy about?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "conference centres"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "sports centres"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "retail centres"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "The students agree that developing disused industrial sites may",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "have unexpected costs."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "damage the urban environment."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "destroy valuable historical buildings."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "The students will mention Masdar City as an example of an attempt to achieve",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "daily collections for waste recycling."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "sustainable energy use."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "free transport for everyone."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "When discussing the ecotown of Greenhill Abbots, Colin is uncertain about",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "what its objectives were."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "why there was opposition to it."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how much of it has actually been built."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Developing food trends</div>\n<ul class=\"notes-list\">\n<li>The growth in interest in food fashions started with {{31}} of food being shared on social media.</li>\n<li>The UK food industry is constantly developing products which are new or different.</li>\n<li>Influencers on social media become 'ambassadors' for a brand.</li>\n<li>Sales of {{32}} food brands have grown rapidly this way.</li>\n<li>Supermarkets track demand for ingredients on social media.</li>\n<li>Famous {{33}} are influential.</li>\n</ul>\n<p class=\"sub-head\">Marketing campaigns</p>\n<p class=\"sub-head\">The avocado</p>\n<ul class=\"notes-list\"><li>{{34}} were invited to visit growers in South Africa.</li>\n<li>Advertising focused on its {{35}} benefits.</li></ul>\n<p class=\"sub-head\">Oat milk</p>\n<ul class=\"notes-list\"><li>A Swedish brand's media campaign received publicity by upsetting competitors.</li>\n<li>Promotion in the USA through {{36}} shops reduced the need for advertising.</li>\n<li>It appealed to consumers who are concerned about the {{37}}.</li></ul>\n<p class=\"sub-head\">Norwegian skrei</p>\n<ul class=\"notes-list\"><li>has helped strengthen the {{38}} of Norwegian seafood.</li>\n<li>Ethical concerns</li></ul>\n<p class=\"sub-head\">Quinoa</p>\n<ul class=\"notes-list\"><li>Its success led to an increase in its {{39}}.</li>\n<li>Overuse of resources resulted in poor quality {{40}}.</li></ul></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "break"
+        ],
+        "type": "Note completion"
+      },
+      "2": {
+        "accepted": [
+          "time"
+        ],
+        "type": "Note completion"
+      },
+      "3": {
+        "accepted": [
+          "shower"
+        ],
+        "type": "Note completion"
+      },
+      "4": {
+        "accepted": [
+          "money"
+        ],
+        "type": "Note completion"
+      },
+      "5": {
+        "accepted": [
+          "memory"
+        ],
+        "type": "Note completion"
+      },
+      "6": {
+        "accepted": [
+          "lifting"
+        ],
+        "type": "Note completion"
+      },
+      "7": {
+        "accepted": [
+          "fall"
+        ],
+        "type": "Note completion"
+      },
+      "8": {
+        "accepted": [
+          "taxi"
+        ],
+        "type": "Note completion"
+      },
+      "9": {
+        "accepted": [
+          "insurance"
+        ],
+        "type": "Note completion"
+      },
+      "10": {
+        "accepted": [
+          "stress"
+        ],
+        "type": "Note completion"
+      },
+      "11": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching"
+      },
+      "12": {
+        "accepted": [
+          "i"
+        ],
+        "type": "Matching"
+      },
+      "13": {
+        "accepted": [
+          "h"
+        ],
+        "type": "Matching"
+      },
+      "14": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching"
+      },
+      "15": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching"
+      },
+      "16": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching"
+      },
+      "17": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "18": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "19": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "20": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "21": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching"
+      },
+      "22": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching"
+      },
+      "23": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching"
+      },
+      "24": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching"
+      },
+      "25": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching"
+      },
+      "26": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "27": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "28": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "29": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "30": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "31": {
+        "accepted": [
+          "photos",
+          "photographs",
+          "pictures"
+        ],
+        "type": "Note completion"
+      },
+      "32": {
+        "accepted": [
+          "vegan"
+        ],
+        "type": "Note completion"
+      },
+      "33": {
+        "accepted": [
+          "chefs",
+          "cooks"
+        ],
+        "type": "Note completion"
+      },
+      "34": {
+        "accepted": [
+          "journalists",
+          "reporters"
+        ],
+        "type": "Note completion"
+      },
+      "35": {
+        "accepted": [
+          "health"
+        ],
+        "type": "Note completion"
+      },
+      "36": {
+        "accepted": [
+          "coffee"
+        ],
+        "type": "Note completion"
+      },
+      "37": {
+        "accepted": [
+          "environment"
+        ],
+        "type": "Note completion"
+      },
+      "38": {
+        "accepted": [
+          "reputation"
+        ],
+        "type": "Note completion"
+      },
+      "39": {
+        "accepted": [
+          "price",
+          "cost"
+        ],
+        "type": "Note completion"
+      },
+      "40": {
+        "accepted": [
+          "soil"
+        ],
+        "type": "Note completion"
+      }
+    },
+    "sets": []
+  },
+  "slug": "listening-cambridge-20-test-2",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 20,
+  "testNumber": 2
+}

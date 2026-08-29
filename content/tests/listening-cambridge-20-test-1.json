@@ -1,0 +1,667 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 20, Test 1",
+    "source": "Cambridge IELTS 20",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the form below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<table class=\"q-table\">\n<tr><th>Name of Restaurant</th><th>Location</th><th>Reason for Recommendation</th><th>Other Comments</th></tr>\n<tr><td><strong>The Junction</strong></td><td>Greyson Street, near the station</td><td>Good for people who are especially keen on {{1}}</td><td>Quite expensive. The {{2}} is a good place for a drink.</td></tr>\n<tr><td><strong>Paloma</strong></td><td>In Bow Street, next to the cinema</td><td>{{3}} food, good for sharing</td><td>Staff are very friendly. Need to pay £50 deposit. A limited selection of {{4}} food on the menu.</td></tr>\n<tr><td><strong>The {{5}}</strong></td><td>At the top of a {{6}}</td><td>A famous chef. All the {{7}} are very good. Only uses {{8}} ingredients.</td><td>Set lunch costs: £{{9}} per person. Portions probably of {{10}} size.</td></tr>\n</table>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 11–16</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Heather says pottery differs from other art forms because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it lasts longer in the ground."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it is practised by more people."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it can be repaired more easily."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "Archaeologists sometimes identify the use of ancient pottery from",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the clay it was made with."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the marks that are on it."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the basic shape of it."
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "Some people join Heather's pottery class because they want to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "create an item that looks very old."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "find something that they are good at."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "make something that will outlive them."
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "What does Heather value most about being a potter?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "its calming effect"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "its messy nature"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "its physical benefits"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "Most of the visitors to Edelman Pottery",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "bring friends to join courses."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "have never made a pot before."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "try to learn techniques too quickly."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "Heather reminds her visitors that they should",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "put on their aprons."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "change their clothes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "take off their jewellery."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 17 and 18</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> things does Heather explain about kilns?</p>",
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which <strong>TWO</strong> things does Heather explain about kilns?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "what their function is"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "when they were invented"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "ways of keeping them safe"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "where to put one in your home"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "what some people use instead of one"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 19 and 20</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> points does Heather make about a potter's tools?</p>",
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> points does Heather make about a potter's tools?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Some are hard to hold."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Some are worth buying."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Some are essential items."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Some have memorable names."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Some are available for use by participants."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 21 and 22</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> things do the students both believe are responsible for the increase in loneliness?</p>",
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> things do the students both believe are responsible for the increase in loneliness?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "social media"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "smaller nuclear families"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "urban design"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "longer lifespans"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "a mobile workforce"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 23 and 24</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> health risks associated with loneliness do the students agree are based on solid evidence?</p>",
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Which <strong>TWO</strong> health risks associated with loneliness do the students agree are based on solid evidence?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a weakened immune system"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "dementia"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "cancer"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "obesity"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "cardiovascular disease"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 25 and 26</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> opinions do both the students express about the evolutionary theory of loneliness?</p>",
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "Which <strong>TWO</strong> opinions do both the students express about the evolutionary theory of loneliness?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It has little practical relevance."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It needs further investigation."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It is misleading."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "It should be more widely accepted."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "It is difficult to understand."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-4",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 27–30</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Loneliness and mental health</strong></p>",
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "When comparing loneliness to depression, the students",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "doubt that there will ever be a medical cure for loneliness."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "claim that the link between loneliness and mental health is overstated."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "express frustration that loneliness is not taken more seriously."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "Why do the students decide to start their presentation with an example from their own experience?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to explain how difficult loneliness can be"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to highlight a situation that most students will recognise"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to emphasise that feeling lonely is more common for men than women"
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "The students agree that talking to strangers is a good strategy for dealing with loneliness because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "it creates a sense of belonging."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "it builds self-confidence."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "it makes people feel more positive."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "The students find it difficult to understand why solitude is considered to be",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "similar to loneliness."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "necessary for mental health."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "an enjoyable experience."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Reclaiming urban rivers</div>\n<p class=\"sub-head\">Historical Background</p>\n<ul class=\"notes-list\">\n<li>Nearly all major cities were built on a river.</li>\n<li>Rivers were traditionally used for transport, fishing, and recreation.</li>\n<li>Industrial development and rising populations later led to:\n<ul><li>more sewage from houses being discharged into the river.</li>\n<li>pollution from {{31}} on the river bank.</li></ul></li>\n<li>In 1957, the River Thames in London was declared biologically {{32}}.</li>\n</ul>\n<p class=\"sub-head\">Recent Improvements</p>\n<ul class=\"notes-list\">\n<li>Seals and even a {{33}} have been seen in the River Thames.</li>\n<li>Riverside warehouses are converted to restaurants and {{34}}.</li>\n<li>In Los Angeles, there are plans to:\n<ul><li>build a riverside {{35}}.</li>\n<li>display {{36}} projects.</li></ul></li>\n<li>In Paris, {{37}} are created on the sides of the river every summer.</li>\n</ul>\n<p class=\"sub-head\">Transport Possibilities</p>\n<ul class=\"notes-list\">\n<li>Over 2 billion passengers already travel by {{38}} in cities round the world.</li>\n<li>Changes in shopping habits mean the number of deliveries that are made is increasing.</li>\n<li>Instead of road transport, goods could be transported by large freight barges and electric {{39}} or, in future, by {{40}}.</li>\n</ul></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "fish"
+        ],
+        "type": "Note completion"
+      },
+      "2": {
+        "accepted": [
+          "roof"
+        ],
+        "type": "Note completion"
+      },
+      "3": {
+        "accepted": [
+          "Spanish",
+          "spanish"
+        ],
+        "type": "Note completion"
+      },
+      "4": {
+        "accepted": [
+          "vegetarian"
+        ],
+        "type": "Note completion"
+      },
+      "5": {
+        "accepted": [
+          "Audley"
+        ],
+        "type": "Note completion"
+      },
+      "6": {
+        "accepted": [
+          "hotel"
+        ],
+        "type": "Note completion"
+      },
+      "7": {
+        "accepted": [
+          "reviews"
+        ],
+        "type": "Note completion"
+      },
+      "8": {
+        "accepted": [
+          "local"
+        ],
+        "type": "Note completion"
+      },
+      "9": {
+        "accepted": [
+          "30",
+          "thirty"
+        ],
+        "type": "Note completion"
+      },
+      "10": {
+        "accepted": [
+          "average"
+        ],
+        "type": "Note completion"
+      },
+      "11": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "12": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "13": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "14": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "15": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "16": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "27": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "28": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "29": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "30": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "31": {
+        "accepted": [
+          "factories"
+        ],
+        "type": "Note completion"
+      },
+      "32": {
+        "accepted": [
+          "dead"
+        ],
+        "type": "Note completion"
+      },
+      "33": {
+        "accepted": [
+          "whale"
+        ],
+        "type": "Note completion"
+      },
+      "34": {
+        "accepted": [
+          "apartments"
+        ],
+        "type": "Note completion"
+      },
+      "35": {
+        "accepted": [
+          "park"
+        ],
+        "type": "Note completion"
+      },
+      "36": {
+        "accepted": [
+          "art"
+        ],
+        "type": "Note completion"
+      },
+      "37": {
+        "accepted": [
+          "beaches"
+        ],
+        "type": "Note completion"
+      },
+      "38": {
+        "accepted": [
+          "ferry"
+        ],
+        "type": "Note completion"
+      },
+      "39": {
+        "accepted": [
+          "bikes"
+        ],
+        "type": "Note completion"
+      },
+      "40": {
+        "accepted": [
+          "drone"
+        ],
+        "type": "Note completion"
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "a",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)"
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "c",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)"
+      },
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "c",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)"
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "a",
+          "c"
+        ],
+        "type": "Multiple choice (choose two)"
+      },
+      {
+        "questions": [
+          25,
+          26
+        ],
+        "accepted": [
+          "a",
+          "b"
+        ],
+        "type": "Multiple choice (choose two)"
+      }
+    ]
+  },
+  "slug": "listening-cambridge-20-test-1",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 20,
+  "testNumber": 1
+}

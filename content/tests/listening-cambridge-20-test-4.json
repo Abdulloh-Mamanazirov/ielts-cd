@@ -1,0 +1,619 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 20, Test 4",
+    "source": "Cambridge IELTS 20",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Advice on family visit</div>\n<p class=\"sub-head\">Accommodation</p>\n<ul class=\"notes-list\"><li>{{1}} Hotel on George Street</li>\n<li>cost of family room per night: £{{2}} (approx.)</li></ul>\n<p class=\"sub-head\">Recommended trips</p>\n<ul class=\"notes-list\"><li>a {{3}} tour of the city centre (starts in Carlton Square)</li>\n<li>a trip by {{4}} to the old fort</li></ul>\n<p class=\"sub-head\">Science Museum</p>\n<ul class=\"notes-list\"><li>best day to visit: {{5}}</li>\n<li>see the exhibition about {{6}} which opens soon</li></ul>\n<p class=\"sub-head\">Food</p>\n<ul class=\"notes-list\"><li>Clacton Market:\n<ul><li>good for {{7}} food</li><li>need to have lunch before {{8}} p.m.</li></ul></li></ul>\n<p class=\"sub-head\">Theatre tickets</p>\n<ul class=\"notes-list\"><li>save up to {{9}}% on ticket prices at bargaintickets.com</li></ul>\n<p class=\"sub-head\">Free activities</p>\n<ul class=\"notes-list\"><li>Blakewell Gardens:\n<ul><li>Roots Music Festival</li><li>climb Telegraph Hill to see a view of the {{10}}</li></ul></li></ul></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 11 and 12</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> things does the speaker say about visiting the football stadium with children?</p>",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Which <strong>TWO</strong> things does the speaker say about visiting the football stadium with children?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Children can get their photo taken with a football player"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There is a competition for children today"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Parents must stay with their children at all times"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Children will need sunhats and drinks"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "The café has a special offer on meals for children"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 13 and 14</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> features of the stadium tour are new this year?</p>",
+            "questions": [
+              {
+                "number": 13,
+                "textHtml": "Which <strong>TWO</strong> features of the stadium tour are new this year?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "VIP tour"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "360 cinema experience"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "audio guide"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "dressing room tour"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "tours in other languages"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 15–20</h3><p>Which event in the history of football in the UK took place in each of the following years?</p><p>Choose <strong>SIX</strong> answers from the box and write the correct letter, <strong>A–H</strong>, next to Questions 15–20.</p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "the introduction of pay for the players"
+              },
+              {
+                "letter": "B",
+                "textHtml": "a change to the design of the goal"
+              },
+              {
+                "letter": "C",
+                "textHtml": "the first use of lights for matches"
+              },
+              {
+                "letter": "D",
+                "textHtml": "the introduction of goalkeepers"
+              },
+              {
+                "letter": "E",
+                "textHtml": "the first international match"
+              },
+              {
+                "letter": "F",
+                "textHtml": "two changes to the rules of the game"
+              },
+              {
+                "letter": "G",
+                "textHtml": "the introduction of a fee for spectators"
+              },
+              {
+                "letter": "H",
+                "textHtml": "an agreement on the length of a game"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "1870"
+              },
+              {
+                "number": 16,
+                "textHtml": "1874"
+              },
+              {
+                "number": 17,
+                "textHtml": "1875"
+              },
+              {
+                "number": 18,
+                "textHtml": "1877"
+              },
+              {
+                "number": 19,
+                "textHtml": "1878"
+              },
+              {
+                "number": 20,
+                "textHtml": "1880"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 21 and 22</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> benefits for children of learning to write did both students find surprising?</p>",
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> benefits for children of learning to write did both students find surprising?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "improved fine motor skills"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "improved memory"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "improved concentration"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "improved imagination"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "improved spatial awareness"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 23 and 24</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>For children with dyspraxia, which <strong>TWO</strong> problems with handwriting do the students think are easiest to correct?</p>",
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "For children with dyspraxia, which <strong>TWO</strong> problems with handwriting do the students think are easiest to correct?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "not spacing letters correctly"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "not writing in a straight line"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "applying too much pressure when writing"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "confusing letter shapes"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "writing very slowly"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 25–30</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "What does the woman say about using laptops to teach writing to children with dyslexia?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Children often lack motivation to learn that way"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Children become fluent relatively quickly"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Children react more positively if they make a mistake"
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "textHtml": "When discussing whether to teach cursive or print writing, the woman thinks that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "cursive writing disadvantages a certain group of children"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "print writing is associated with lower academic performance"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "most teachers in the UK prefer a traditional approach to handwriting"
+                  }
+                ]
+              },
+              {
+                "number": 27,
+                "textHtml": "According to the students, what impact does poor handwriting have on exam performance?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "There is evidence to suggest grades are affected by poor handwriting"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Neat handwriting is less important now than it used to be"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Candidates write more slowly and produce shorter answers"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "What prediction does the man make about the future of handwriting?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Touch typing will be taught before writing by hand"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Children will continue to learn to write by hand"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "People will dislike handwriting on digital devices"
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "The woman is concerned that relying on digital devices has made it difficult for her to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "take detailed notes"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "spell and punctuate"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "read old documents"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "How do the students feel about their own handwriting?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "concerned they are unable to write quickly"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "embarrassed by comments made about it"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "regretful that they have lost the habit"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Research in the area around the Chembe Bird Sanctuary</div>\n<p class=\"sub-head\">The importance of birds of prey to local communities</p>\n<ul class=\"notes-list\">\n<li>They destroy {{31}} and other rodents.</li>\n<li>They help prevent farmers from being bitten by {{32}}.</li>\n<li>They have been an important part of local culture for many years.</li>\n<li>They now support the economy by encouraging {{33}} in the area.</li>\n</ul>\n<p class=\"sub-head\">Falling numbers of birds of prey</p>\n<ul class=\"notes-list\">\n<li>The birds may be accidentally killed:\n<ul><li>by {{34}} when hunting or sleeping.</li>\n<li>by electrocution from power lines, especially during times of high {{35}}.</li></ul></li>\n<li>Local farmers may illegally shoot them or {{36}} them.</li>\n</ul>\n<p class=\"sub-head\">Ways of protecting chickens from birds of prey</p>\n<ul class=\"notes-list\">\n<li>Clearing away vegetation (unhelpful).</li>\n<li>Providing a {{37}} for chickens (expensive).</li>\n<li>Frightening birds of prey by:\n<ul><li>keeping a {{38}}.</li><li>making a {{39}} (e.g., with metal objects).</li></ul></li>\n<li>A {{40}} of methods is usually most effective.</li>\n</ul></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "Kings",
+          "King's"
+        ],
+        "type": "Note completion"
+      },
+      "2": {
+        "accepted": [
+          "125"
+        ],
+        "type": "Note completion"
+      },
+      "3": {
+        "accepted": [
+          "walking"
+        ],
+        "type": "Note completion"
+      },
+      "4": {
+        "accepted": [
+          "boat"
+        ],
+        "type": "Note completion"
+      },
+      "5": {
+        "accepted": [
+          "Tuesday"
+        ],
+        "type": "Note completion"
+      },
+      "6": {
+        "accepted": [
+          "space"
+        ],
+        "type": "Note completion"
+      },
+      "7": {
+        "accepted": [
+          "vegetarian"
+        ],
+        "type": "Note completion"
+      },
+      "8": {
+        "accepted": [
+          "2.30"
+        ],
+        "type": "Note completion"
+      },
+      "9": {
+        "accepted": [
+          "75"
+        ],
+        "type": "Note completion"
+      },
+      "10": {
+        "accepted": [
+          "port"
+        ],
+        "type": "Note completion"
+      },
+      "15": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching"
+      },
+      "16": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching"
+      },
+      "17": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching"
+      },
+      "18": {
+        "accepted": [
+          "h"
+        ],
+        "type": "Matching"
+      },
+      "19": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching"
+      },
+      "20": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching"
+      },
+      "25": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "26": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "27": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "28": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "29": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "30": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "31": {
+        "accepted": [
+          "rats"
+        ],
+        "type": "Note completion"
+      },
+      "32": {
+        "accepted": [
+          "snakes"
+        ],
+        "type": "Note completion"
+      },
+      "33": {
+        "accepted": [
+          "tourism"
+        ],
+        "type": "Note completion"
+      },
+      "34": {
+        "accepted": [
+          "traffic"
+        ],
+        "type": "Note completion"
+      },
+      "35": {
+        "accepted": [
+          "rain"
+        ],
+        "type": "Note completion"
+      },
+      "36": {
+        "accepted": [
+          "poison"
+        ],
+        "type": "Note completion"
+      },
+      "37": {
+        "accepted": [
+          "building"
+        ],
+        "type": "Note completion"
+      },
+      "38": {
+        "accepted": [
+          "dog"
+        ],
+        "type": "Note completion"
+      },
+      "39": {
+        "accepted": [
+          "noise"
+        ],
+        "type": "Note completion"
+      },
+      "40": {
+        "accepted": [
+          "combination"
+        ],
+        "type": "Note completion"
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          11,
+          12
+        ],
+        "accepted": [
+          "b",
+          "c"
+        ],
+        "type": "Multiple choice (choose two)"
+      },
+      {
+        "questions": [
+          13,
+          14
+        ],
+        "accepted": [
+          "a",
+          "c"
+        ],
+        "type": "Multiple choice (choose two)"
+      },
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "c",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)"
+      },
+      {
+        "questions": [
+          23,
+          24
+        ],
+        "accepted": [
+          "a",
+          "c"
+        ],
+        "type": "Multiple choice (choose two)"
+      }
+    ]
+  },
+  "slug": "listening-cambridge-20-test-4",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 20,
+  "testNumber": 4
+}
