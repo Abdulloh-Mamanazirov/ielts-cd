@@ -155,27 +155,25 @@ export function PassagePane({
   }, [html, mine, snippet, showAllMarks, evidenceMarks]);
 
   // Matching headings: weave an empty marker in front of each named paragraph,
-  // which the parser below swaps for a numbered drop box. Volume passages open a
-  // paragraph with a bold letter (`<p><strong>A</strong>`); Cambridge ones tag
-  // it `id="para-A"`. The marker carries no text, so it never moves a highlight.
+  // which the parser below swaps for a numbered drop box. Cambridge passages tag
+  // the section `id="para-A"` AND open it with a bold letter (`<p><strong>A</strong>`);
+  // volume passages only have the bold letter. Insert one box per letter (the
+  // `seen` guard stops a Cambridge paragraph getting two), preferring the id so
+  // the box sits above the whole section. The marker carries no text, so it never
+  // moves a highlight.
   const parsed = useMemo(() => {
     let source = marked;
     const slots = headingSlots ?? {};
     if (Object.keys(slots).length > 0) {
-      source = source.replace(
-        /<p>\s*<strong>\s*([A-Za-z])\s*<\/strong>/g,
-        (whole, letter: string) =>
-          slots[letter.toUpperCase()] != null
-            ? `<span data-mh-para="${letter.toUpperCase()}"></span>${whole}`
-            : whole,
-      );
-      source = source.replace(
-        /<[a-z][a-z0-9]*[^>]*\sid="para-([A-Za-z0-9]+)"[^>]*>/g,
-        (whole, letter: string) =>
-          slots[letter.toUpperCase()] != null
-            ? `<span data-mh-para="${letter.toUpperCase()}"></span>${whole}`
-            : whole,
-      );
+      const seen = new Set<string>();
+      const mark = (whole: string, letter: string) => {
+        const up = letter.toUpperCase();
+        if (slots[up] == null || seen.has(up)) return whole;
+        seen.add(up);
+        return `<span data-mh-para="${up}"></span>${whole}`;
+      };
+      source = source.replace(/<[a-z][a-z0-9]*[^>]*\sid="para-([A-Za-z0-9]+)"[^>]*>/g, mark);
+      source = source.replace(/<p>\s*<strong>\s*([A-Za-z])\s*<\/strong>/g, mark);
     }
 
     const options: HTMLReactParserOptions = {
