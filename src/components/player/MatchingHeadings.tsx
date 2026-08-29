@@ -21,7 +21,9 @@ import { RichHtml } from "./SlotHtml";
  * answer is still the heading letter.
  */
 
-const PARAGRAPH = /paragraph\s+([A-Za-z])/i;
+// Cambridge labels the lettered blocks of a passage "Paragraph A" in some books
+// and "Section A" in others; both mean the same thing to the headings board.
+const PARAGRAPH = /(?:paragraph|section)\s+([A-Za-z])\b/i;
 
 /** A `matching` group whose every item is "Paragraph A", "Paragraph B", … */
 export function isMatchingHeadings(group: QuestionGroup): boolean {
