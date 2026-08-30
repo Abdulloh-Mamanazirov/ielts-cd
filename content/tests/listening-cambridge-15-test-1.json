@@ -1,0 +1,538 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 15, Test 1",
+    "source": "Cambridge IELTS 15",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Bankside Recruitment Agency</div>\n<ul class=\"notes-list\">\n<li>Address of agency: 497 Eastside, Docklands</li>\n<li>Name of agent: Becky {{1}}</li>\n<li>Phone number: 07866 510333</li>\n<li>Best to call her in the {{2}}</li>\n</ul>\n<p class=\"sub-head\">Typical jobs</p>\n<ul class=\"notes-list\">\n<li>Clerical and admin roles, mainly in the finance industry</li>\n<li>Must have good {{3}} skills</li>\n<li>Jobs are usually for at least one {{4}}</li>\n<li>Pay is usually £{{5}} per hour</li>\n</ul>\n<p class=\"sub-head\">Registration process</p>\n<ul class=\"notes-list\">\n<li>Wear a {{6}} to the interview</li>\n<li>Must bring your {{7}} to the interview</li>\n<li>They will ask questions about each applicant's {{8}}</li>\n</ul>\n<p class=\"sub-head\">Advantages of using an agency</p>\n<ul class=\"notes-list\">\n<li>The {{9}} you receive at interview will benefit you</li>\n<li>Will get access to vacancies which are not advertised</li>\n<li>Less {{10}} is involved in applying for jobs</li>\n</ul></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 11–14</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Matthews Island Holidays</strong></p>",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "According to the speaker, the company",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "has been in business for longer than most of its competitors."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "arranges holidays to more destinations than its competitors."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "has more customers than its competitors."
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "Where can customers meet the tour manager before travelling to the Isle of Man?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Liverpool"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Heysham"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Luton"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "How many lunches are included in the price of the holiday?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "three"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "four"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "five"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "Customers have to pay extra for",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "guaranteeing themselves a larger room."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "booking at short notice."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "transferring to another date."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 15–20</h3><p>Complete the table below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<table class=\"q-table\"><caption class=\"summary-title\">Timetable for Isle of Man holiday</caption>\n<thead><tr><th></th><th>Activity</th><th>Notes</th></tr></thead>\n<tbody>\n<tr><td>Day 1</td><td>Arrive</td><td>Introduction by manager<br>Hotel dining room has view of the {{15}}</td></tr>\n<tr><td>Day 2</td><td>Tynwald Exhibition and Peel</td><td>Tynwald may have been founded in {{16}} not 979.</td></tr>\n<tr><td>Day 3</td><td>Trip to Snaefell</td><td>Travel along promenade in a tram; train to Laxey; train to the {{17}} of Snaefell</td></tr>\n<tr><td>Day 4</td><td>Free day</td><td>Company provides a {{18}} for local transport and heritage sites.</td></tr>\n<tr><td>Day 5</td><td>Take the {{19}} railway train from Douglas to Port Erin</td><td>Free time, then coach to Castletown – former {{20}} has old castle.</td></tr>\n<tr><td>Day 6</td><td>Leave</td><td>Leave the island by ferry or plane</td></tr>\n</tbody></table>"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 21–26</h3><p>What did findings of previous research claim about the personality traits a child is likely to have because of their position in the family?</p><p>Choose <strong>SIX</strong> answers from the box and write the correct letter, <strong>A–H</strong>, next to Questions 21–26.</p><p><strong>Personality Traits</strong></p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "outgoing"
+              },
+              {
+                "letter": "B",
+                "textHtml": "selfish"
+              },
+              {
+                "letter": "C",
+                "textHtml": "independent"
+              },
+              {
+                "letter": "D",
+                "textHtml": "attention-seeking"
+              },
+              {
+                "letter": "E",
+                "textHtml": "introverted"
+              },
+              {
+                "letter": "F",
+                "textHtml": "co-operative"
+              },
+              {
+                "letter": "G",
+                "textHtml": "caring"
+              },
+              {
+                "letter": "H",
+                "textHtml": "competitive"
+              }
+            ],
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "the eldest child"
+              },
+              {
+                "number": 22,
+                "textHtml": "a middle child"
+              },
+              {
+                "number": 23,
+                "textHtml": "the youngest child"
+              },
+              {
+                "number": 24,
+                "textHtml": "a twin"
+              },
+              {
+                "number": 25,
+                "textHtml": "an only child"
+              },
+              {
+                "number": 26,
+                "textHtml": "a child with much older siblings"
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 27 and 28</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "What do the speakers say about the evidence relating to birth order and academic success?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "There is conflicting evidence about whether oldest children perform best in intelligence tests."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There is little doubt that birth order has less influence on academic achievement than socio-economic status."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Some studies have neglected to include important factors such as family size."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "What does Ruth think is surprising about the difference in oldest children's academic performance?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It is mainly thanks to their roles as teachers for their younger siblings."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The advantages they have only lead to a slightly higher level of achievement."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The extra parental attention they receive at a young age makes little difference."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 29 and 30</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> experiences of sibling rivalry do the speakers agree has been valuable for them?</p>",
+            "questions": [
+              {
+                "number": 29,
+                "textHtml": "Which <strong>TWO</strong> experiences of sibling rivalry do the speakers agree has been valuable for them?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "learning to share"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "learning to stand up for oneself"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "learning to be a good loser"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "learning to be tolerant"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "learning to say sorry"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">The Eucalyptus Tree in Australia</div>\n<p class=\"sub-head\">Importance</p>\n<ul class=\"notes-list\">\n<li>it provides {{31}} and food for a wide range of species</li>\n<li>its leaves provide {{32}} which is used to make a disinfectant</li>\n</ul>\n<p class=\"sub-head\">Reasons for present decline in number</p>\n<p class=\"sub-head\">A) Diseases</p>\n<p>(i) 'Mundulla Yellows'</p>\n<ul class=\"notes-list\">\n<li>Cause – lime used for making {{33}} was absorbed</li>\n<li>– trees were unable to take in necessary iron through their roots</li>\n</ul>\n<p>(ii) 'Bell-miner Associated Die-back'</p>\n<ul class=\"notes-list\">\n<li>Cause – {{34}} feed on eucalyptus leaves</li>\n<li>– they secrete a substance containing sugar</li>\n<li>– bell-miner birds are attracted by this and keep away other species</li>\n</ul>\n<p class=\"sub-head\">B) Bushfires</p>\n<p>William Jackson's theory:</p>\n<ul class=\"notes-list\">\n<li>high-frequency bushfires have impact on vegetation, resulting in the growth of {{35}}</li>\n<li>mid-frequency bushfires result in the growth of eucalyptus forests, because they:\n<ul><li>– make more {{36}} available to the trees</li>\n<li>– maintain the quality of the {{37}}</li></ul></li>\n<li>low-frequency bushfires result in the growth of {{38}} 'rainforest', which is:\n<ul><li>– a {{39}} ecosystem</li>\n<li>– an ideal environment for the {{40}} of the bell-miner</li></ul></li>\n</ul></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "Jamieson"
+        ],
+        "type": "Note completion"
+      },
+      "2": {
+        "accepted": [
+          "afternoon"
+        ],
+        "type": "Note completion"
+      },
+      "3": {
+        "accepted": [
+          "communication"
+        ],
+        "type": "Note completion"
+      },
+      "4": {
+        "accepted": [
+          "week"
+        ],
+        "type": "Note completion"
+      },
+      "5": {
+        "accepted": [
+          "10",
+          "ten"
+        ],
+        "type": "Note completion"
+      },
+      "6": {
+        "accepted": [
+          "suit"
+        ],
+        "type": "Note completion"
+      },
+      "7": {
+        "accepted": [
+          "passport"
+        ],
+        "type": "Note completion"
+      },
+      "8": {
+        "accepted": [
+          "personality"
+        ],
+        "type": "Note completion"
+      },
+      "9": {
+        "accepted": [
+          "feedback"
+        ],
+        "type": "Note completion"
+      },
+      "10": {
+        "accepted": [
+          "time"
+        ],
+        "type": "Note completion"
+      },
+      "11": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "12": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "13": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "14": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "15": {
+        "accepted": [
+          "river"
+        ],
+        "type": "Table completion"
+      },
+      "16": {
+        "accepted": [
+          "1422"
+        ],
+        "type": "Table completion"
+      },
+      "17": {
+        "accepted": [
+          "top"
+        ],
+        "type": "Table completion"
+      },
+      "18": {
+        "accepted": [
+          "pass"
+        ],
+        "type": "Table completion"
+      },
+      "19": {
+        "accepted": [
+          "steam"
+        ],
+        "type": "Table completion"
+      },
+      "20": {
+        "accepted": [
+          "capital"
+        ],
+        "type": "Table completion"
+      },
+      "21": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching"
+      },
+      "22": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching"
+      },
+      "23": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching"
+      },
+      "24": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching"
+      },
+      "25": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching"
+      },
+      "26": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching"
+      },
+      "27": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "28": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "31": {
+        "accepted": [
+          "shelter"
+        ],
+        "type": "Note completion"
+      },
+      "32": {
+        "accepted": [
+          "oil"
+        ],
+        "type": "Note completion"
+      },
+      "33": {
+        "accepted": [
+          "roads"
+        ],
+        "type": "Note completion"
+      },
+      "34": {
+        "accepted": [
+          "insects"
+        ],
+        "type": "Note completion"
+      },
+      "35": {
+        "accepted": [
+          "grass",
+          "grasses"
+        ],
+        "type": "Note completion"
+      },
+      "36": {
+        "accepted": [
+          "water"
+        ],
+        "type": "Note completion"
+      },
+      "37": {
+        "accepted": [
+          "soil"
+        ],
+        "type": "Note completion"
+      },
+      "38": {
+        "accepted": [
+          "dry"
+        ],
+        "type": "Note completion"
+      },
+      "39": {
+        "accepted": [
+          "simple"
+        ],
+        "type": "Note completion"
+      },
+      "40": {
+        "accepted": [
+          "nest",
+          "nests"
+        ],
+        "type": "Note completion"
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          29,
+          30
+        ],
+        "accepted": [
+          "b",
+          "d"
+        ],
+        "type": "Multiple choice (choose two)"
+      }
+    ]
+  },
+  "slug": "listening-cambridge-15-test-1",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 15,
+  "testNumber": 1
+}

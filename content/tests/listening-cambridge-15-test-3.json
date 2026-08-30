@@ -1,0 +1,538 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 15, Test 3",
+    "source": "Cambridge IELTS 15",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Employment Agency: Possible Jobs</div>\n<p class=\"sub-head\">First Job</p>\n<p>Administrative assistant in a company that produces {{1}} (North London)</p>\n<p>Responsibilities</p>\n<ul class=\"notes-list\">\n<li>data entry</li>\n<li>go to {{2}} and take notes</li>\n<li>general admin</li>\n<li>management of {{3}}</li>\n</ul>\n<p>Requirements</p>\n<ul class=\"notes-list\">\n<li>good computer skills including spreadsheets</li>\n<li>good interpersonal skills</li>\n<li>attention to {{4}}</li>\n</ul>\n<p>Experience</p>\n<ul class=\"notes-list\">\n<li>need a minimum of {{5}} of experience of teleconferencing</li>\n</ul>\n<p class=\"sub-head\">Second Job</p>\n<p>Warehouse assistant in South London</p>\n<p>Responsibilities</p>\n<ul class=\"notes-list\">\n<li>stock management</li>\n<li>managing {{6}}</li>\n</ul>\n<p>Requirements</p>\n<ul class=\"notes-list\">\n<li>ability to work with numbers</li>\n<li>good computer skills</li>\n<li>very organised and {{7}}</li>\n<li>good communication skills</li>\n<li>used to working in a {{8}}</li>\n<li>able to cope with items that are {{9}}</li>\n</ul>\n<p>Need experience of</p>\n<ul class=\"notes-list\">\n<li>driving in London</li>\n<li>warehouse work</li>\n<li>{{10}} service</li>\n</ul></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 11–16</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Street Play Scheme</strong></p>",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "When did the Street Play Scheme first take place?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "two years ago"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "three years ago"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "six years ago"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "textHtml": "How often is Beechwood Road closed to traffic now?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "once a week"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "on Saturdays and Sundays"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "once a month"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "textHtml": "Who is responsible for closing the road?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "a council official"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the police"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "local wardens"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "textHtml": "Residents who want to use their cars",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "have to park in another street."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "must drive very slowly."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "need permission from a warden."
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "textHtml": "Alice says that Street Play Schemes are most needed in",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "wealthy areas."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "quiet suburban areas."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "areas with heavy traffic."
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "textHtml": "What has been the reaction of residents who are not parents?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Many of them were unhappy at first."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They like seeing children play in the street."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They are surprised by the lack of noise."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 17 and 18</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> benefits for children does Alice think are the most important?</p>",
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which <strong>TWO</strong> benefits for children does Alice think are the most important?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "increased physical activity"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "increased sense of independence"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "opportunity to learn new games"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "opportunity to be part of a community"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "opportunity to make new friends"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 19 and 20</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> results of the King Street experiment surprised Alice?</p>",
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> results of the King Street experiment surprised Alice?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "more shoppers"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "improved safety"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "less air pollution"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "more relaxed atmosphere"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "less noise pollution"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 21–26</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">What Hazel should analyse about items in newspapers:</div>\n<ul class=\"notes-list\">\n<li>what {{21}} the item is on</li>\n<li>the {{22}} of the item, including the headline</li>\n<li>any {{23}} accompanying the item</li>\n<li>the {{24}} of the item, e.g. what's made prominent</li>\n<li>the writer's main {{25}}</li>\n<li>the {{26}} the writer may make about the reader</li>\n</ul></div>"
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 27–30</h3><p>What does Hazel decide to do about each of the following types of articles?</p><p>Write the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>, next to Questions 27–30.</p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "She will definitely look for a suitable article."
+              },
+              {
+                "letter": "B",
+                "textHtml": "She may look for a suitable article."
+              },
+              {
+                "letter": "C",
+                "textHtml": "She definitely won't look for an article."
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "national news item"
+              },
+              {
+                "number": 28,
+                "textHtml": "editorial"
+              },
+              {
+                "number": 29,
+                "textHtml": "human interest"
+              },
+              {
+                "number": 30,
+                "textHtml": "arts"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Early history of keeping clean</div>\n<p class=\"sub-head\">Prehistoric times:</p>\n<ul class=\"notes-list\">\n<li>water was used to wash off {{31}}</li>\n</ul>\n<p class=\"sub-head\">Ancient Babylon:</p>\n<ul class=\"notes-list\">\n<li>soap-like material found in {{32}} cylinders</li>\n</ul>\n<p class=\"sub-head\">Ancient Greece:</p>\n<ul class=\"notes-list\">\n<li>people cleaned themselves with sand and other substances</li>\n<li>used a strigil – scraper made of {{33}}</li>\n<li>washed clothes in streams</li>\n</ul>\n<p class=\"sub-head\">Ancient Germany and Gaul:</p>\n<ul class=\"notes-list\">\n<li>used soap to colour their {{34}}</li>\n</ul>\n<p class=\"sub-head\">Ancient Rome:</p>\n<ul class=\"notes-list\">\n<li>animal fat, ashes and clay mixed through action of rain, used for washing clothes</li>\n<li>from about 312 BC, water carried to Roman {{35}} by aqueducts</li>\n</ul>\n<p class=\"sub-head\">Europe in Middle Ages:</p>\n<ul class=\"notes-list\">\n<li>decline in bathing contributed to occurrence of {{36}}</li>\n<li>{{37}} began to be added to soap</li>\n</ul>\n<p class=\"sub-head\">Europe from 17th century:</p>\n<ul class=\"notes-list\">\n<li>1600s: cleanliness and bathing started becoming usual</li>\n<li>1791: Leblanc invented a way of making soda ash from {{38}}</li>\n<li>early 1800s: Chevreul turned soapmaking into a {{39}}</li>\n<li>from 1800s, there was no longer a {{40}} on soap</li>\n</ul></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "furniture"
+        ],
+        "type": "Note completion"
+      },
+      "2": {
+        "accepted": [
+          "meetings"
+        ],
+        "type": "Note completion"
+      },
+      "3": {
+        "accepted": [
+          "diary"
+        ],
+        "type": "Note completion"
+      },
+      "4": {
+        "accepted": [
+          "detail",
+          "details"
+        ],
+        "type": "Note completion"
+      },
+      "5": {
+        "accepted": [
+          "1",
+          "one"
+        ],
+        "type": "Note completion"
+      },
+      "6": {
+        "accepted": [
+          "deliveries"
+        ],
+        "type": "Note completion"
+      },
+      "7": {
+        "accepted": [
+          "tidy"
+        ],
+        "type": "Note completion"
+      },
+      "8": {
+        "accepted": [
+          "team"
+        ],
+        "type": "Note completion"
+      },
+      "9": {
+        "accepted": [
+          "heavy"
+        ],
+        "type": "Note completion"
+      },
+      "10": {
+        "accepted": [
+          "customer"
+        ],
+        "type": "Note completion"
+      },
+      "11": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "12": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "13": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "14": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "15": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "16": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "21": {
+        "accepted": [
+          "page"
+        ],
+        "type": "Note completion"
+      },
+      "22": {
+        "accepted": [
+          "size"
+        ],
+        "type": "Note completion"
+      },
+      "23": {
+        "accepted": [
+          "graphic",
+          "graphics"
+        ],
+        "type": "Note completion"
+      },
+      "24": {
+        "accepted": [
+          "structure"
+        ],
+        "type": "Note completion"
+      },
+      "25": {
+        "accepted": [
+          "purpose"
+        ],
+        "type": "Note completion"
+      },
+      "26": {
+        "accepted": [
+          "assumption",
+          "assumptions"
+        ],
+        "type": "Note completion"
+      },
+      "27": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching"
+      },
+      "28": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching"
+      },
+      "29": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching"
+      },
+      "30": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching"
+      },
+      "31": {
+        "accepted": [
+          "mud"
+        ],
+        "type": "Note completion"
+      },
+      "32": {
+        "accepted": [
+          "clay"
+        ],
+        "type": "Note completion"
+      },
+      "33": {
+        "accepted": [
+          "metal"
+        ],
+        "type": "Note completion"
+      },
+      "34": {
+        "accepted": [
+          "hair"
+        ],
+        "type": "Note completion"
+      },
+      "35": {
+        "accepted": [
+          "bath",
+          "baths"
+        ],
+        "type": "Note completion"
+      },
+      "36": {
+        "accepted": [
+          "disease",
+          "diseases"
+        ],
+        "type": "Note completion"
+      },
+      "37": {
+        "accepted": [
+          "perfume"
+        ],
+        "type": "Note completion"
+      },
+      "38": {
+        "accepted": [
+          "salt"
+        ],
+        "type": "Note completion"
+      },
+      "39": {
+        "accepted": [
+          "science"
+        ],
+        "type": "Note completion"
+      },
+      "40": {
+        "accepted": [
+          "tax"
+        ],
+        "type": "Note completion"
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "b",
+          "d"
+        ],
+        "type": "Multiple choice (choose two)"
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "a",
+          "e"
+        ],
+        "type": "Multiple choice (choose two)"
+      }
+    ]
+  },
+  "slug": "listening-cambridge-15-test-3",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 15,
+  "testNumber": 3
+}

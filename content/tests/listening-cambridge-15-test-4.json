@@ -1,0 +1,565 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 15, Test 4",
+    "source": "Cambridge IELTS 15",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Part 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the form below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Customer Satisfaction Survey</div>\n<p class=\"sub-head\">Customer details</p>\n<ul class=\"notes-list\">\n<li>Name: Sophie Bird</li>\n<li>Occupation: {{1}}</li>\n<li>Reason for travel today: {{2}}</li>\n</ul>\n<p class=\"sub-head\">Journey information</p>\n<ul class=\"notes-list\">\n<li>Name of station returning to: {{3}}</li>\n<li>Type of ticket purchased: standard {{4}} ticket</li>\n<li>Cost of ticket: £{{5}}</li>\n<li>When ticket was purchased: yesterday</li>\n<li>Where ticket was bought: {{6}}</li>\n</ul>\n<p class=\"sub-head\">Satisfaction with journey</p>\n<ul class=\"notes-list\">\n<li>Most satisfied with: the wifi</li>\n<li>Least satisfied with: the {{7}} this morning</li>\n</ul>\n<p class=\"sub-head\">Satisfaction with station facilities</p>\n<ul class=\"notes-list\">\n<li>Most satisfied with: how much {{8}} was provided</li>\n<li>Least satisfied with: lack of seats, particularly on the {{9}}</li>\n<li>Neither satisfied nor dissatisfied with: the {{10}} available</li>\n</ul></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Part 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "map_labeling",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 11–16</h3><p>Label the map below.</p><p>Write the correct letter, <strong>A–H</strong>, next to Questions 11–16.</p><p><strong>Croft Valley Park</strong></p>",
+            "imageUrl": "/test-media/listening-cambridge-15-test-4-p2-map.png",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "café"
+              },
+              {
+                "number": 12,
+                "textHtml": "toilets"
+              },
+              {
+                "number": 13,
+                "textHtml": "formal gardens"
+              },
+              {
+                "number": 14,
+                "textHtml": "outdoor gym"
+              },
+              {
+                "number": 15,
+                "textHtml": "skateboard ramp"
+              },
+              {
+                "number": 16,
+                "textHtml": "wild flowers"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 17 and 18</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>What does the speaker say about the adventure playground?</p>",
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "What does the speaker say about the adventure playground?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Children must be supervised."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It costs more in winter."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Some activities are only for younger children."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "No payment is required."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "It was recently expanded."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 19 and 20</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>What does the speaker say about the glass houses?</p>",
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "What does the speaker say about the glass houses?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They are closed at weekends."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Volunteers are needed to work there."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They were badly damaged by fire."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "More money is needed to repair some of the glass."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "Visitors can see palm trees from tropical regions."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Part 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 21–24</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>Presentation about refrigeration</strong></p>",
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "What did Annie discover from reading about icehouses?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "why they were first created"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "how the ice was kept frozen"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "where they were located"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "What point does Annie make about refrigeration in ancient Rome?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It became a commercial business."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It used snow from nearby."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It took a long time to become popular."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "In connection with modern refrigerators, both Annie and Jack are worried about",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the complexity of the technology."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the fact that some are disposed of irresponsibly."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the large number that quickly break down."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "What do Jack and Annie agree regarding domestic fridges?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They are generally good value for money."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There are plenty of useful variations."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They are more useful than other domestic appliances."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 25–30</h3><p>Who is going to do research into each topic?</p><p>Write the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>, next to Questions 25–30.</p><p><strong>People</strong></p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Annie"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Jack"
+              },
+              {
+                "letter": "C",
+                "textHtml": "both Annie and Jack"
+              }
+            ],
+            "questions": [
+              {
+                "number": 25,
+                "textHtml": "the goods that are refrigerated"
+              },
+              {
+                "number": 26,
+                "textHtml": "the effects on health"
+              },
+              {
+                "number": 27,
+                "textHtml": "the impact on food producers"
+              },
+              {
+                "number": 28,
+                "textHtml": "the impact on cities"
+              },
+              {
+                "number": 29,
+                "textHtml": "refrigerated transport"
+              },
+              {
+                "number": 30,
+                "textHtml": "domestic fridges"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Part 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">How the Industrial Revolution affected life in Britain</div>\n<p class=\"sub-head\">19th century</p>\n<ul class=\"notes-list\">\n<li>For the first time, people's possessions were used to measure Britain's {{31}}.</li>\n<li>Developments in production of goods and in {{32}} greatly changed lives.</li>\n</ul>\n<p class=\"sub-head\">MAIN AREAS OF CHANGE</p>\n<p class=\"sub-head\">Manufacturing</p>\n<ul class=\"notes-list\">\n<li>The Industrial Revolution would not have happened without the new types of {{33}} that were used then.</li>\n<li>The leading industry was {{34}} (its products became widely available).</li>\n<li>New {{35}} made factories necessary and so more people moved into towns.</li>\n</ul>\n<p class=\"sub-head\">Transport</p>\n<ul class=\"notes-list\">\n<li>The railways took the place of canals.</li>\n<li>Because of the new transport:\n<ul><li>– greater access to {{36}} made people more aware of what they could buy in shops.</li>\n<li>– when shopping, people were not limited to buying {{37}} goods.</li></ul></li>\n</ul>\n<p class=\"sub-head\">Retailing</p>\n<ul class=\"notes-list\">\n<li>The first department stores were opened.</li>\n<li>The displays of goods were more visible:\n<ul><li>– inside stores because of better {{38}}.</li>\n<li>– outside stores, because {{39}} were bigger.</li></ul></li>\n<li>{{40}} that was persuasive became much more common.</li>\n</ul></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "journalist"
+        ],
+        "type": "Note completion"
+      },
+      "2": {
+        "accepted": [
+          "shopping"
+        ],
+        "type": "Note completion"
+      },
+      "3": {
+        "accepted": [
+          "Staunfirth"
+        ],
+        "type": "Note completion"
+      },
+      "4": {
+        "accepted": [
+          "return"
+        ],
+        "type": "Note completion"
+      },
+      "5": {
+        "accepted": [
+          "23.70"
+        ],
+        "type": "Note completion"
+      },
+      "6": {
+        "accepted": [
+          "online"
+        ],
+        "type": "Note completion"
+      },
+      "7": {
+        "accepted": [
+          "delay"
+        ],
+        "type": "Note completion"
+      },
+      "8": {
+        "accepted": [
+          "information"
+        ],
+        "type": "Note completion"
+      },
+      "9": {
+        "accepted": [
+          "platform",
+          "platforms"
+        ],
+        "type": "Note completion"
+      },
+      "10": {
+        "accepted": [
+          "parking"
+        ],
+        "type": "Note completion"
+      },
+      "11": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Map labelling"
+      },
+      "12": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Map labelling"
+      },
+      "13": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Map labelling"
+      },
+      "14": {
+        "accepted": [
+          "h"
+        ],
+        "type": "Map labelling"
+      },
+      "15": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Map labelling"
+      },
+      "16": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Map labelling"
+      },
+      "21": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "22": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "23": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "24": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "25": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching"
+      },
+      "26": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching"
+      },
+      "27": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching"
+      },
+      "28": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching"
+      },
+      "29": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching"
+      },
+      "30": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching"
+      },
+      "31": {
+        "accepted": [
+          "wealth"
+        ],
+        "type": "Note completion"
+      },
+      "32": {
+        "accepted": [
+          "technology"
+        ],
+        "type": "Note completion"
+      },
+      "33": {
+        "accepted": [
+          "power"
+        ],
+        "type": "Note completion"
+      },
+      "34": {
+        "accepted": [
+          "textile",
+          "textiles"
+        ],
+        "type": "Note completion"
+      },
+      "35": {
+        "accepted": [
+          "machines"
+        ],
+        "type": "Note completion"
+      },
+      "36": {
+        "accepted": [
+          "newspapers"
+        ],
+        "type": "Note completion"
+      },
+      "37": {
+        "accepted": [
+          "local"
+        ],
+        "type": "Note completion"
+      },
+      "38": {
+        "accepted": [
+          "lighting"
+        ],
+        "type": "Note completion"
+      },
+      "39": {
+        "accepted": [
+          "windows"
+        ],
+        "type": "Note completion"
+      },
+      "40": {
+        "accepted": [
+          "Advertising"
+        ],
+        "type": "Note completion"
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "a",
+          "d"
+        ],
+        "type": "Multiple choice (choose two)"
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "a",
+          "c"
+        ],
+        "type": "Multiple choice (choose two)"
+      }
+    ]
+  },
+  "slug": "listening-cambridge-15-test-4",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 15,
+  "testNumber": 4
+}
