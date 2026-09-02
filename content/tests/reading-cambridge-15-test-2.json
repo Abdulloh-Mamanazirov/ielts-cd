@@ -388,6 +388,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "of the answers. That is not to suggest everyone should dance",
           "anchor": "para-B"
         }
       },
@@ -397,6 +398,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "Whereas medieval builders improvised and adapted",
           "anchor": "para-C"
         }
       },
@@ -406,6 +408,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "for tackling this problem. Yet it shares with engineering the aim",
           "anchor": "para-F"
         }
       },
@@ -415,6 +418,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "account that purpose-built street cafés could not operate in the hot",
           "anchor": "para-D"
         }
       },
@@ -424,6 +428,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "healthy transport. As a result, many are now being removed, causing",
           "anchor": "para-E"
         }
       },
@@ -433,6 +438,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "The way we travel around cities",
           "anchor": "para-A"
         }
       },
@@ -440,7 +446,11 @@
         "accepted": [
           "safety"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "British road, for example, were an engineering solution to pedestrian safety",
+          "anchor": "para-E"
+        }
       },
       "8": {
         "accepted": [
@@ -456,31 +466,51 @@
         "accepted": [
           "carriageway"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "using staggered access points to divide the crossing into two -",
+          "anchor": "para-E"
+        }
       },
       "10": {
         "accepted": [
           "mobile"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "feel longer, introducing psychological barriers greatly impacting those that are the",
+          "anchor": "para-E"
+        }
       },
       "11": {
         "accepted": [
           "dangerous"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "are the least mobile, and encouraging others to make dangerous crossings",
+          "anchor": "para-E"
+        }
       },
       "12": {
         "accepted": [
           "communities"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "harder to cross the road: they divide communities and decrease opportunities",
+          "anchor": "para-E"
+        }
       },
       "13": {
         "accepted": [
           "healthy"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "road: they divide communities and decrease opportunities for healthy transport. As",
+          "anchor": "para-E"
+        }
       },
       "14": {
         "accepted": [
@@ -488,6 +518,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "we could use it to make genetic modifications which could prevent",
           "anchor": "para-F"
         }
       },
@@ -497,6 +528,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "extinction'. The basic premise involves using cloning technology to turn the",
           "anchor": "para-A"
         }
       },
@@ -506,7 +538,8 @@
         ],
         "type": "Matching information",
         "evidence": {
-          "anchor": "para-D"
+          "snippet": "back to life. 'There is no carnivore now in Tasmania that",
+          "anchor": "para-B"
         }
       },
       "17": {
@@ -515,6 +548,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "on 1 September 1914, when the last living specimen died at",
           "anchor": "para-A"
         }
       },
@@ -574,109 +608,181 @@
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "could help to ensure that devils are never again subjected to",
+          "anchor": "para-B"
+        }
       },
       "24": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "be used to fully understand why various species went extinct in",
+          "anchor": "para-F"
+        }
       },
       "25": {
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "passenger pigeon, could, in theory, re-establish that forest disturbance, thereby creating",
+          "anchor": "para-D"
+        }
       },
       "26": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "she continues. 'We know that what we are doing today is",
+          "anchor": "para-F"
+        }
       },
       "27": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "smile in response to stimuli. Laughter is universal across all human",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "US sound engineer Charley Douglass hated dealing with the unpredictable laughter",
+          "anchor": "para-1"
+        }
       },
       "29": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "then played these recordings to listeners from 24 diverse societies, from",
+          "anchor": "para-2"
+        }
       },
       "30": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "California, San Diego, found that high-status individuals had different laughs from",
+          "anchor": "para-2"
+        }
       },
       "31": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "for low-status individuals, who were rated as significantly higher in status",
+          "anchor": "para-3"
+        }
       },
       "32": {
         "accepted": [
           "f"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "text. The students then were randomly assigned to watch a video",
+          "anchor": "para-4"
+        }
       },
       "33": {
         "accepted": [
           "h"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "the task at any point. Students who had watched the Mr.",
+          "anchor": "para-5"
+        }
       },
       "34": {
         "accepted": [
           "c"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "in which they had to cross out every instance of the",
+          "anchor": "para-4"
+        }
       },
       "35": {
         "accepted": [
           "d"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "BBC comedy Mr. Bean, others a relaxing scene with dolphins swimming",
+          "anchor": "para-4"
+        }
       },
       "36": {
         "accepted": [
           "e"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "in the ocean, and others a factual video about the management",
+          "anchor": "para-4"
+        }
       },
       "37": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "were remarkably consistent: worldwide, people's guesses were correct approximately 60% of",
+          "anchor": "para-2"
+        }
       },
       "38": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "social status of the laugher. In line with predictions, laughers producing",
+          "anchor": "para-3"
+        }
       },
       "39": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "achieve 10 consecutive correct answers. Participants were allowed to quit the",
+          "anchor": "para-5"
+        }
       },
       "40": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "stress and facilitate social relationships, the traditional view of task performance",
+          "anchor": "para-6"
+        }
       }
     },
     "sets": []

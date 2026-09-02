@@ -383,67 +383,111 @@
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Whaley. So, he has been working with local families to attempt",
+          "anchor": "para-5"
+        }
       },
       "10": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "farm is relatively small and doesn't yet provide him with enough",
+          "anchor": "para-6"
+        }
       },
       "11": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "cut across the forests and break up the corridors that allow",
+          "anchor": "para-7"
+        }
       },
       "12": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "very little,' Whaley explains. 'It's not like a rainforest that needs",
+          "anchor": "para-8"
+        }
       },
       "13": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "hope for lots of places, including Africa, where there is drought",
+          "anchor": "para-8"
+        }
       },
       "14": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "the northwest coast of Africa. This small volcanic island is mountainous,",
+          "anchor": "para-1"
+        }
       },
       "15": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "that silbadores are able to pass a surprising amount of information",
+          "anchor": "para-5"
+        }
       },
       "16": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "of the modality of signal. The non- Silbo speakers were not",
+          "anchor": "para-7"
+        }
       },
       "17": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "were of North African origin, already had a whistled language when",
+          "anchor": "para-8"
+        }
       },
       "18": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "whistled languages still in use, though only 12 have been described",
+          "anchor": "para-8"
+        }
       },
       "19": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "ensure its survival. Since 1999, Silbo Gomero has been taught in",
+          "anchor": "para-8"
+        }
       },
       "20": {
         "accepted": [
@@ -519,85 +563,141 @@
         "accepted": [
           "d"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "least in the short term, by damaging the environment and hurting",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "e"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "corrupt officials and unsophisticated landowners. When government regulation is effective, and",
+          "anchor": "para-1"
+        }
       },
       "29": {
         "accepted": [
           "f"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "government regulation is effective, and when the public is environmentally aware,",
+          "anchor": "para-1"
+        }
       },
       "30": {
         "accepted": [
           "h"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "case today for fishermen in an unmanaged fishery without quotas, and",
+          "anchor": "para-1"
+        }
       },
       "31": {
         "accepted": [
           "b"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "for international logging companies with short-term leases on tropical rainforest land",
+          "anchor": "para-1"
+        }
       },
       "32": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "blaming of businesses also ignores the ultimate responsibility of the public",
+          "anchor": "para-3"
+        }
       },
       "33": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "public can do that by suing businesses for harming them, as",
+          "anchor": "para-4"
+        }
       },
       "34": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "US public became concerned about the spread of a disease known",
+          "anchor": "para-5"
+        }
       },
       "35": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "believe that the public must accept the necessity for higher prices",
+          "anchor": "para-6"
+        }
       },
       "36": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "than disappointing. My conclusion is not a moralistic one about who",
+          "anchor": "para-7"
+        }
       },
       "37": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "found that not only did moral principles need to be made",
+          "anchor": "para-6"
+        }
       },
       "38": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "bad guy. In the past, businesses have changed when the public",
+          "anchor": "para-7"
+        }
       },
       "39": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "just as in the past, changes in public attitudes will be",
+          "anchor": "para-7"
+        }
       },
       "40": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "The environmental practices of big businesses",
+          "anchor": "para-1"
+        }
       }
     },
     "sets": []

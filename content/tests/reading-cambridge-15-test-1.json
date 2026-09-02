@@ -445,19 +445,31 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "preservative agent. Throughout this period, the Arabs were the exclusive importers",
+          "anchor": "para-2"
+        }
       },
       "6": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "By 1617, the VOC was the richest commercial operation in the",
+          "anchor": "para-4"
+        }
       },
       "7": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Breda, in 1667. Intent on securing their hold over every nutmeg-producing",
+          "anchor": "para-5"
+        }
       },
       "8": {
         "accepted": [
@@ -525,6 +537,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "as a result. At present, the average car spends more than",
           "anchor": "para-C"
         }
       },
@@ -534,6 +547,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "this. Another aim is to free the time people spend driving",
           "anchor": "para-B"
         }
       },
@@ -543,6 +557,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "mobility provider, drivers will have the freedom to select one that",
           "anchor": "para-E"
         }
       },
@@ -552,6 +567,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "these can most probably be conquered within the next 10 years.",
           "anchor": "para-G"
         }
       },
@@ -561,6 +577,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "of turnover may mean that vehicle production will not necessarily decrease.",
           "anchor": "para-D"
         }
       },
@@ -608,67 +625,111 @@
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "depleted forests of Borneo, and a visitor negotiate the subways of",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "away from the fact that we all have this enquiring instinct,",
+          "anchor": "para-2"
+        }
       },
       "29": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "and used the landscape to suggest the desires and fears of",
+          "anchor": "para-3"
+        }
       },
       "30": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "in the 19th century - as if the process of discovery",
+          "anchor": "para-3"
+        }
       },
       "31": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "is slightly different - and tends to reflect the field of",
+          "anchor": "para-5"
+        }
       },
       "32": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "this is what interests me: how a fresh interpretation, even of",
+          "anchor": "para-5"
+        }
       },
       "33": {
         "accepted": [
           "e"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "us, told me, 'If I'd gone across by camel when I",
+          "anchor": "para-4"
+        }
       },
       "34": {
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "writer Peter Fleming talks of the moment when the explorer returns",
+          "anchor": "para-3"
+        }
       },
       "35": {
         "accepted": [
           "d"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "somewhere new.' Then Robin Hanbury-Tenison, a campaigner on behalf of remote",
+          "anchor": "para-4"
+        }
       },
       "36": {
         "accepted": [
           "e"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "information from a remote place regardless of any great self-discovery.",
+          "anchor": "para-4"
+        }
       },
       "37": {
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "explorer is someone who has done something that no human has",
+          "anchor": "para-4"
+        }
       },
       "38": {
         "accepted": [

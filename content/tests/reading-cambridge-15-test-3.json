@@ -362,43 +362,71 @@
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "become a sculptor, but instead he complied with his father's wish",
+          "anchor": "para-1"
+        }
       },
       "2": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "he wanted to study sculpture, no teacher was appointed until his",
+          "anchor": "para-2"
+        }
       },
       "3": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "the sculpture examination and was awarded a scholarship to the Royal",
+          "anchor": "para-2"
+        }
       },
       "4": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "received at the Royal College, Moore visited many of the London",
+          "anchor": "para-2"
+        }
       },
       "5": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Museum in Paris, he was impressed by a cast of a",
+          "anchor": "para-3"
+        }
       },
       "6": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "sculpture, which he thought had a power and originality that no",
+          "anchor": "para-3"
+        }
       },
       "7": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "of the group was to convince the English public ofthe merits",
+          "anchor": "para-3"
+        }
       },
       "8": {
         "accepted": [
@@ -466,6 +494,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "around Thailand in the 1990s, William Janssen was impressed with the",
           "anchor": "para-A"
         }
       },
@@ -475,6 +504,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "mobile desalination unit that can take water from different places, such",
           "anchor": "para-B"
         }
       },
@@ -484,6 +514,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "main selling point is that unlike standard desalination techniques, it doesn't",
           "anchor": "para-C"
         }
       },
@@ -493,6 +524,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "A recent analysis found that at least two-thirds of the world's",
           "anchor": "para-D"
         }
       },
@@ -502,6 +534,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "The device is aimed at a wide variety of",
           "anchor": "para-E"
         }
       },
@@ -511,6 +544,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "(£685) a unit, said Janssen. 'We are a venture with a",
           "anchor": "para-F"
         }
       },
@@ -520,6 +554,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "in the UAE. It has raised £340,000 in funding so far.",
           "anchor": "para-G"
         }
       },
@@ -567,7 +602,11 @@
         "accepted": [
           "performance"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "another for the distilled water. The performance ofthe unit is shown",
+          "anchor": "para-C"
+        }
       },
       "26": {
         "accepted": [
@@ -583,85 +622,141 @@
         "accepted": [
           "c"
         ],
-        "type": "Sentence endings"
+        "type": "Sentence endings",
+        "evidence": {
+          "snippet": "each other fairy tales but the same story often takes a",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "b"
         ],
-        "type": "Sentence endings"
+        "type": "Sentence endings",
+        "evidence": {
+          "snippet": "But the really big surprise came when",
+          "anchor": "para-7"
+        }
       },
       "29": {
         "accepted": [
           "f"
         ],
-        "type": "Sentence endings"
+        "type": "Sentence endings",
+        "evidence": {
+          "snippet": "anthropologists, folklorists and other academics devising theories to explain the importance",
+          "anchor": "para-2"
+        }
       },
       "30": {
         "accepted": [
           "a"
         ],
-        "type": "Sentence endings"
+        "type": "Sentence endings",
+        "evidence": {
+          "snippet": "characteristics of living species in a process called 'phylogenetic analysis'. Tehrani",
+          "anchor": "para-3"
+        }
       },
       "31": {
         "accepted": [
           "e"
         ],
-        "type": "Sentence endings"
+        "type": "Sentence endings",
+        "evidence": {
+          "snippet": "regions, he ended up with 58 stories recorded from oral traditions.",
+          "anchor": "para-4"
+        }
       },
       "32": {
         "accepted": [
           "d"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "used the same approach to compare related versions of fairy tales",
+          "anchor": "para-3"
+        }
       },
       "33": {
         "accepted": [
           "f"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "he tested some assumptions about which aspects of the story alter",
+          "anchor": "para-5"
+        }
       },
       "34": {
         "accepted": [
           "b"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "However, Tehrani found no significant difference in the rate",
+          "anchor": "para-6"
+        }
       },
       "35": {
         "accepted": [
           "c"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "tales suggest that these narratives include really important information about the",
+          "anchor": "para-7"
+        }
       },
       "36": {
         "accepted": [
           "g"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "is fear - blood-thirsty and gruesome aspects of the story, such",
+          "anchor": "para-8"
+        }
       },
       "37": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "way to test these ideas, borrowing a technique from evolutionary biologists.",
+          "anchor": "para-2"
+        }
       },
       "38": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "they matter,'he says. He believes the perennial theme of women as",
+          "anchor": "para-9"
+        }
       },
       "39": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "known as The Tiger Grandmother, the villain is a woman, and",
+          "anchor": "para-9"
+        }
       },
       "40": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "he says. Clasen believes that scary stories teach us what it",
+          "anchor": "para-10"
+        }
       }
     },
     "sets": []
