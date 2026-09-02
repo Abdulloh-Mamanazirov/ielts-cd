@@ -413,11 +413,21 @@ describe("validateTestImport for writing", () => {
 
   it("errors on a prompt that is empty once its markup is stripped", () => {
     const blank = writingImport();
-    tasksOf(blank)[0].promptHtml = "<p></p>";
+    // Task 2 carries no image, so the prompt is all the student would have had.
+    tasksOf(blank)[1].promptHtml = "<p></p>";
 
     const report = validateTestImport(blank);
     assert.equal(report.ok, false);
     assert.ok(report.issues.some((issue) => issue.code === "empty_prompt"));
+  });
+
+  it("accepts an empty Task 1 prompt when the image carries the question", () => {
+    const imageOnly = writingImport();
+    tasksOf(imageOnly)[0].promptHtml = "";
+
+    const report = validateTestImport(imageOnly);
+    assert.equal(report.ok, true);
+    assert.ok(!report.issues.some((issue) => issue.code === "empty_prompt"));
   });
 
   it("warns when a task asks for fewer words than the exam requires", () => {

@@ -437,11 +437,15 @@ function checkWritingTasks(content: TestContent, issues: ValidationIssue[]) {
     }
     seen.add(task.number);
 
-    if (stripHtml(task.promptHtml).length === 0) {
+    // A task has to give the student something to work from. Usually that is
+    // the prompt, but a Task 1 whose image already carries the description and
+    // the "Summarise the information" instruction is sittable on the image
+    // alone -- so only the absence of both is a real error.
+    if (stripHtml(task.promptHtml).length === 0 && !task.imageUrl) {
       issues.push({
         level: "error",
         code: "empty_prompt",
-        message: `Writing task ${task.number} has an empty prompt`,
+        message: `Writing task ${task.number} has an empty prompt and no image`,
       });
     }
 

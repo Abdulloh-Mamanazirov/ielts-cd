@@ -1,0 +1,32 @@
+{
+  "slug": "writing-mock-10",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "writing",
+    "title": "Writing Mock 10",
+    "source": "DN IELTS writing mocks",
+    "totalQuestions": 0,
+    "durationSeconds": 3600,
+    "tasks": [
+      {
+        "number": 1,
+        "promptHtml": "",
+        "imageUrl": "/test-media/writing-mock-10-task1.png",
+        "minWords": 150,
+        "suggestedMinutes": 20
+      },
+      {
+        "number": 2,
+        "promptHtml": "<p>Write about the following topic:</p><blockquote><p>In some cities, public parks and open spaces are being changed into gardens where local residents can grow their own fruit and vegetables.</p><p>Do the advantages and disadvantages?</p></blockquote><p>Give reasons for your answer and include any relevant examples from your own knowledge or experience.</p>",
+        "minWords": 250,
+        "suggestedMinutes": 40
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

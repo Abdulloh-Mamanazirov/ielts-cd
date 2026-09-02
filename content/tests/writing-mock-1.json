@@ -1,0 +1,32 @@
+{
+  "slug": "writing-mock-1",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "writing",
+    "title": "Writing Mock 1",
+    "source": "DN IELTS writing mocks",
+    "totalQuestions": 0,
+    "durationSeconds": 3600,
+    "tasks": [
+      {
+        "number": 1,
+        "promptHtml": "",
+        "imageUrl": "/test-media/writing-mock-1-task1.png",
+        "minWords": 150,
+        "suggestedMinutes": 20
+      },
+      {
+        "number": 2,
+        "promptHtml": "<p>Write about the following topic:</p><blockquote><p>Some countries have introduced laws to limit the working hours that an employer can ask from an employee.</p><p>Why are these laws introduced?</p><p>Is this a positive or negative trend?</p></blockquote><p>Give reasons for your answer and include any relevant examples from your own knowledge or experience.</p>",
+        "minWords": 250,
+        "suggestedMinutes": 40
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "writing-mock-13",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "writing",
+    "title": "Writing Mock 13",
+    "source": "DN IELTS writing mocks",
+    "totalQuestions": 0,
+    "durationSeconds": 3600,
+    "tasks": [
+      {
+        "number": 1,
+        "promptHtml": "",
+        "imageUrl": "/test-media/writing-mock-13-task1.png",
+        "minWords": 150,
+        "suggestedMinutes": 20
+      },
+      {
+        "number": 2,
+        "promptHtml": "<p>Write about the following topic:</p><blockquote><p>The availability of entertainment such as playing video games on handheld devices is harmful to individuals and to the society they live in.</p><p>To what extent do you agree or disagree?</p></blockquote><p>Give reasons for your answer and include any relevant examples from your own knowledge or experience.</p>",
+        "minWords": 250,
+        "suggestedMinutes": 40
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

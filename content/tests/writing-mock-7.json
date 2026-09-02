@@ -1,0 +1,32 @@
+{
+  "slug": "writing-mock-7",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "writing",
+    "title": "Writing Mock 7",
+    "source": "DN IELTS writing mocks",
+    "totalQuestions": 0,
+    "durationSeconds": 3600,
+    "tasks": [
+      {
+        "number": 1,
+        "promptHtml": "",
+        "imageUrl": "/test-media/writing-mock-7-task1.png",
+        "minWords": 150,
+        "suggestedMinutes": 20
+      },
+      {
+        "number": 2,
+        "promptHtml": "<p>Write about the following topic:</p><blockquote><p>Parents should encourage children to spend less time studying and more time doing physical activities.</p><p>To what extent do you agree or disagree?</p></blockquote><p>Give reasons for your answer and include any relevant examples from your own knowledge or experience.</p>",
+        "minWords": 250,
+        "suggestedMinutes": 40
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}
