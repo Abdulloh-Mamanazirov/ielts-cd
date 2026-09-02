@@ -27,6 +27,9 @@ import {
  *   npm run audio:upload -- --test <slug> --from-source --publish
  */
 
+/** The exam's two minutes to check answers once the recording stops. */
+const ANSWER_CHECK_SECONDS = 120;
+
 type Options = {
   list: boolean;
   all: boolean;
@@ -289,6 +292,7 @@ async function upload(options: Options) {
       status: true,
       audioSourceUrl: true,
       audioAssetId: true,
+      durationSeconds: true,
     },
   });
 
@@ -327,6 +331,20 @@ async function upload(options: Options) {
 
   await prisma.test.update({ where: { id: test.id }, data: { audioAssetId: asset.id } });
   console.log(`ok    attached AudioAsset ${asset.id}`);
+
+  // A mock attempt's deadline is the test's own durationSeconds, so a recording
+  // longer than that cuts the student off before the audio ends. Every
+  // listening test used to carry a hardcoded 30 minutes while the recordings
+  // ran from 21 to 41 minutes, which silently truncated 41 of them.
+  const needed = (probe.durationSeconds ?? 0) + ANSWER_CHECK_SECONDS;
+  if (probe.durationSeconds && test.durationSeconds < needed) {
+    console.log(
+      `WARN  ${test.slug} allows ${formatDuration(test.durationSeconds)} but the recording runs ` +
+        `${formatDuration(probe.durationSeconds)}. In MOCK mode the student is cut off ` +
+        `${formatDuration(needed - test.durationSeconds)} early. Raise durationSeconds in ` +
+        `content/tests/${test.slug}.json to at least ${needed} and re-seed.`,
+    );
+  }
 
   await discardSuperseded(test.audioAssetId, asset.id);
 
