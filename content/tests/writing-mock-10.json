@@ -18,7 +18,7 @@
       },
       {
         "number": 2,
-        "promptHtml": "<p>Write about the following topic:</p><blockquote><p>In some cities, public parks and open spaces are being changed into gardens where local residents can grow their own fruit and vegetables.</p><p>Do the advantages and disadvantages?</p></blockquote><p>Give reasons for your answer and include any relevant examples from your own knowledge or experience.</p>",
+        "promptHtml": "<p>Write about the following topic:</p><blockquote><p>In some cities, public parks and open spaces are being changed into gardens where local residents can grow their own fruit and vegetables.</p><p>Do the advantages outweigh the disadvantages?</p></blockquote><p>Give reasons for your answer and include any relevant examples from your own knowledge or experience.</p>",
         "minWords": 250,
         "suggestedMinutes": 40
       }
