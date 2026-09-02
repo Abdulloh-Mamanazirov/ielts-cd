@@ -140,7 +140,7 @@ export function HeroPortrait() {
       <div className="relative aspect-[392/498] w-full">
         <div
           aria-hidden
-          className="absolute left-0 top-[6%] h-[94%] w-[88%] -rotate-[3.5deg] rounded-md bg-brand-red"
+          className="absolute left-0 top-[6%] h-[94%] w-[88%] -rotate-[3.5deg] rounded-md bg-brand-blue"
         />
 
         <div className="absolute right-0 top-0 h-full w-[88%] rounded-md bg-white p-3.5 shadow-[0_40px_70px_-34px_rgba(11,17,32,.55)]">

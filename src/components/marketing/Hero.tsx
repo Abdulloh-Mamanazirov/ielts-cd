@@ -45,18 +45,21 @@ export function Hero() {
           </p>
 
           <div className="mt-9 flex animate-[var(--animate-rise)] flex-wrap gap-3.5 [animation-delay:180ms]">
+            {/* Practice leads, in the red primary style: the site is about
+                everyday practice first and the mock second. Each label keeps
+                the destination it already had. */}
             <Link
-              href="/tests"
+              href="/signup"
               className="inline-flex items-center gap-3 rounded-[10px] bg-brand-red-cta px-7 py-4 text-lg font-bold text-white shadow-[0_16px_30px_-12px_rgba(225,0,70,.65),0_2px_0_rgba(11,17,32,.06)] transition hover:bg-brand-red-dark"
             >
-              {site.hero.primaryCta}
+              {site.hero.secondaryCta}
               <Arrow />
             </Link>
             <Link
-              href="/signup"
+              href="/tests"
               className="inline-flex items-center gap-2.5 rounded-[10px] bg-white px-7 py-4 text-lg font-bold text-ink shadow-[0_1px_0_rgba(11,17,32,.14),0_10px_24px_-16px_rgba(11,17,32,.6)] transition hover:-translate-y-0.5"
             >
-              {site.hero.secondaryCta}
+              {site.hero.primaryCta}
             </Link>
           </div>
 
