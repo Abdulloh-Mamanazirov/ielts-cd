@@ -1,6 +1,9 @@
 {
   "slug": "reading-volume-5-test-6",
   "isPremium": false,
+  "series": "REAL_EXAM",
+  "seriesNumber": 5,
+  "testNumber": 6,
   "content": {
     "schemaVersion": 1,
     "skill": "reading",
