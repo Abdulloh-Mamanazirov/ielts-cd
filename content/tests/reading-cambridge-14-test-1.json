@@ -353,31 +353,51 @@
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "been shown to be a key predictor of academic performance.",
+          "anchor": "para-12"
+        }
       },
       "10": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "even be useful in the diagnosis of neurodevelopmental disorders like autism.’",
+          "anchor": "para-13"
+        }
       },
       "11": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "better-structured stories when they first played with dolls representing characters in",
+          "anchor": "para-14"
+        }
       },
       "12": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "With the Lego building, however, not a single child said this",
+          "anchor": "para-14"
+        }
       },
       "13": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "‘Somehow the importance of play has been lost",
+          "anchor": "para-16"
+        }
       },
       "14": {
         "accepted": [
@@ -385,6 +405,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "had.’ The system, however, was prone to vandalism and theft. ‘After",
           "anchor": "para-E"
         }
       },
@@ -394,6 +415,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "per person per kilometre.’ Nevertheless, the council unanimously rejected the plan.",
           "anchor": "para-C"
         }
       },
@@ -403,6 +425,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "benefit from it, because I never filed for a patent.’",
           "anchor": "para-F"
         }
       },
@@ -412,6 +435,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "per person, per kilometre – would cost the municipality only 10%",
           "anchor": "para-C"
         }
       },
@@ -421,6 +445,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "was an answer to the perceived threats of air pollution and",
           "anchor": "para-A"
         }
       },
@@ -468,55 +493,91 @@
         "accepted": [
           "e"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "different levels of management and different stages of their careers (Enz",
+          "anchor": "para-8"
+        }
       },
       "28": {
         "accepted": [
           "d"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "obstacles preventing effective performance, employees feel more obligated to stay with",
+          "anchor": "para-5"
+        }
       },
       "29": {
         "accepted": [
           "b"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "hospitality industry has historically been dominated by underdeveloped HR practices (Lucas,",
+          "anchor": "para-3"
+        }
       },
       "30": {
         "accepted": [
           "d"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "managers provide recognition to employees, motivate employees to work together, and",
+          "anchor": "para-5"
+        }
       },
       "31": {
         "accepted": [
           "c"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "the many cited reasons are low compensation, inadequate benefits, poor working",
+          "anchor": "para-4"
+        }
       },
       "32": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "benefits, poor working conditions and compromised employee morale and attitudes (Maroudas",
+          "anchor": "para-4"
+        }
       },
       "33": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "view their work environment negatively, no evidence exists to support this",
+          "anchor": "para-6"
+        }
       },
       "34": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "dissatisfaction may result. Significantly, though, just fulfilling these needs does not",
+          "anchor": "para-9"
+        }
       },
       "35": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "to the hospitality industry include allowing adequate breaks during the working",
+          "anchor": "para-12"
+        }
       },
       "36": {
         "accepted": [

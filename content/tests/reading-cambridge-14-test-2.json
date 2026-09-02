@@ -265,67 +265,111 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "of the property, and Alexander spent much of his childhood in",
+          "anchor": "para-1"
+        }
       },
       "2": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "prospect of a business career, he stayed with it to please",
+          "anchor": "para-2"
+        }
       },
       "3": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "1860 and they cooperated on experiments with magnesium flares as a",
+          "anchor": "para-3"
+        }
       },
       "4": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "In spite of their friendship, their styles of photography were quite",
+          "anchor": "para-4"
+        }
       },
       "5": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "In 1866, he gave up his business to open",
+          "anchor": "para-5"
+        }
       },
       "6": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "landscape photographer. From about 1870 he dropped portraiture to specialize in",
+          "anchor": "para-5"
+        }
       },
       "7": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "record the principal structures along the almost-completed line connecting Montreal to",
+          "anchor": "para-7"
+        }
       },
       "8": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "in this post until 1897, when he retired completely from photography.",
+          "anchor": "para-8"
+        }
       },
       "9": {
         "accepted": [
           "merchant"
         ],
-        "type": "Note completion"
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Scotland in 1831 and was the son of a successful merchant.",
+          "anchor": "para-1"
+        }
       },
       "10": {
         "accepted": [
           "equipment"
         ],
-        "type": "Note completion"
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the time-consuming techniques involved and the weight of equipment. People wanted",
+          "anchor": "para-5"
+        }
       },
       "11": {
         "accepted": [
           "gifts"
         ],
-        "type": "Note completion"
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "People wanted to buy photographs as souvenirs of a trip or",
+          "anchor": "para-5"
+        }
       },
       "12": {
         "accepted": [
@@ -353,6 +397,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "to disease and frequent death. The prosperous steered clear of hospitals.",
           "anchor": "para-F"
         }
       },
@@ -362,6 +407,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "steel and air-conditioned skyscrapers as symbols of status, rather than practical",
           "anchor": "para-C"
         }
       },
@@ -371,6 +417,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "changes an hour – that’s similar to the performance of a",
           "anchor": "para-E"
         }
       },
@@ -380,6 +427,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "‘We spent three years digitally modelling",
           "anchor": "para-D"
         }
       },
@@ -389,6 +437,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "air conditioning systems, which were ‘relentlessly and aggressively marketed’ by their",
           "anchor": "para-B"
         }
       },
@@ -397,7 +446,11 @@
           "design",
           "designs"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "19th and earlier-20th centuries, including the design of ingeniously ventilated hospitals.",
+          "anchor": "para-D"
+        }
       },
       "20": {
         "accepted": [
@@ -443,7 +496,11 @@
         "accepted": [
           "public"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "building design was driven by a panicked public clamouring for buildings",
+          "anchor": "para-F"
+        }
       },
       "25": {
         "accepted": [
@@ -471,6 +528,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "We have more strategies for time management, project",
           "anchor": "para-A"
         }
       },
@@ -480,6 +538,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "of workers from all demographics claim to be dissatisfied with the",
           "anchor": "para-B"
         }
       },
@@ -489,6 +548,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "while now. Frederick Taylor was one of the forefathers of scientific",
           "anchor": "para-C"
         }
       },
@@ -498,6 +558,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "to organise our work; it’s the basic assumptions we hold in",
           "anchor": "para-D"
         }
       },
@@ -507,6 +568,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "more, recent studies show that order actually has diminishing returns. Order",
           "anchor": "para-E"
         }
       },
@@ -516,6 +578,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "is to create an environment devoid of structure and hierarchy and",
           "anchor": "para-F"
         }
       },
@@ -525,6 +588,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "In recent times companies have slowly started to embrace",
           "anchor": "para-G"
         }
       },
@@ -534,6 +598,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "evidence so far suggests disorder, much like order, also seems to",
           "anchor": "para-H"
         }
       },
@@ -571,19 +636,31 @@
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Here it’s the assumption that order is a necessary condition for",
+          "anchor": "para-D"
+        }
       },
       "39": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "of structure and hierarchy and enable everyone involved to engage as",
+          "anchor": "para-F"
+        }
       },
       "40": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "virtual collaboration and flexible working. Google and a number of other",
+          "anchor": "para-G"
+        }
       }
     },
     "sets": []

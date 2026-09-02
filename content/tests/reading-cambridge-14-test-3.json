@@ -381,6 +381,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "to perform various cognitive tasks. Job interviewers will make hiring decisions",
           "anchor": "para-B"
         }
       },
@@ -390,6 +391,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "theories’ – of intelligence, but no one knows for certain what",
           "anchor": "para-A"
         }
       },
@@ -399,6 +401,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "investigation of implicit theories reveals little correspondence between the extant implicit",
           "anchor": "para-D"
         }
       },
@@ -406,61 +409,101 @@
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "implicit theories. For example, parents’ implicit theories of their children’s language",
+          "anchor": "para-B"
+        }
       },
       "5": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "for children of different ages. How these expectations differ is in",
+          "anchor": "para-E"
+        }
       },
       "6": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "thus their assumptions, they are likely to miss the point of",
+          "anchor": "para-J"
+        }
       },
       "7": {
         "accepted": [
           "b"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "The Jeffersonian view is that people should have equal opportunities, but",
+          "anchor": "para-H"
+        }
       },
       "8": {
         "accepted": [
           "c"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "do not need or want any institutions that might lead to",
+          "anchor": "para-I"
+        }
       },
       "9": {
         "accepted": [
           "b"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "equally rewarded for their accomplishments. People are rewarded for what they",
+          "anchor": "para-H"
+        }
       },
       "10": {
         "accepted": [
           "a"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "view, is that people are born with different levels of intelligence",
+          "anchor": "para-G"
+        }
       },
       "11": {
         "accepted": [
           "a"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "who are less intelligent need the good offices of the more",
+          "anchor": "para-G"
+        }
       },
       "12": {
         "accepted": [
           "c"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "democracy, people are essentially intersubstitutable except for specialized skills, all of",
+          "anchor": "para-I"
+        }
       },
       "13": {
         "accepted": [
           "a"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "of themselves. Left to themselves, the unintelligent would create, as they",
+          "anchor": "para-G"
+        }
       },
       "14": {
         "accepted": [
@@ -468,6 +511,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "nature’s molecular diversity. This realization, together with several looming health crises,",
           "anchor": "para-C"
         }
       },
@@ -477,6 +521,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "it is now possible to snip out the stretches of the",
           "anchor": "para-H"
         }
       },
@@ -486,6 +531,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "primates – such as the capuchin monkeys who rub themselves with",
           "anchor": "para-A"
         }
       },
@@ -495,6 +541,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "are generally very small, and the glands inside them that secrete",
           "anchor": "para-F"
         }
       },
@@ -504,6 +551,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "develop a groundbreaking insect-derived medicine, my main motivation for looking at",
           "anchor": "para-I"
         }
       },
@@ -513,6 +561,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "a while, modern pharmaceutical science moved its focus away from nature",
           "anchor": "para-B"
         }
       },
@@ -522,6 +571,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "been identified. For example, alloferon, an antimicrobial compound produced by blow",
           "anchor": "para-E"
         }
       },
@@ -569,61 +619,101 @@
         "accepted": [
           "b"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "study it. Definitions range from discrete descriptions of various types of",
+          "anchor": "para-4"
+        }
       },
       "28": {
         "accepted": [
           "g"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "et al. 2011). The adult’s role in play varies as a",
+          "anchor": "para-10"
+        }
       },
       "29": {
         "accepted": [
           "f"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "(i.e. it is goal oriented). Researcher Joan Goodman (1994) suggested that",
+          "anchor": "para-9"
+        }
       },
       "30": {
         "accepted": [
           "e"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "dimension in determining playfulness; however, other researchers have suggested that process",
+          "anchor": "para-8"
+        }
       },
       "31": {
         "accepted": [
           "c"
         ],
-        "type": "Matching information"
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "intrinsic motivation’. Often, play is defined along a continuum as more",
+          "anchor": "para-6"
+        }
       },
       "32": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "in any circumstances, for instance when they have no real toys,",
+          "anchor": "para-1"
+        }
       },
       "33": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "essential elements in a child-centered approach to playful learning. Intrinsically motivated",
+          "anchor": "para-12"
+        }
       },
       "34": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "complex negotiations of social relationships, build a repertoire of creative problem-solving",
+          "anchor": "para-3"
+        }
       },
       "35": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "Full consensus on a formal definition",
+          "anchor": "para-4"
+        }
       },
       "36": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "such as work. Unlike play, work is typically not viewed as",
+          "anchor": "para-9"
+        }
       },
       "37": {
         "accepted": [

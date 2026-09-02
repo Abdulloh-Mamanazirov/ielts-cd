@@ -294,7 +294,11 @@
           "four",
           "4"
         ],
-        "type": "Note completion"
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "for around 140 days. Giraldo focused on ants at four age",
+          "anchor": "para-3"
+        }
       },
       "2": {
         "accepted": [
@@ -360,37 +364,61 @@
         "accepted": [
           "chemicals"
         ],
-        "type": "Note completion"
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "didn’t experience any drop in the levels of either serotonin or",
+          "anchor": "para-5"
+        }
       },
       "9": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "for almost 30 years and stay fit for nearly their entire",
+          "anchor": "para-2"
+        }
       },
       "10": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "days. Unlike all previous studies, which only estimated how old the",
+          "anchor": "para-3"
+        }
       },
       "11": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "a tethered fruit fly. Giraldo expected the older ants to perform",
+          "anchor": "para-4"
+        }
       },
       "12": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "similar aspects in bees, but the results of recent bee studies",
+          "anchor": "para-6"
+        }
       },
       "13": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "in the wild, the ants probably don’t live for a full",
+          "anchor": "para-7"
+        }
       },
       "14": {
         "accepted": [
@@ -398,6 +426,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "of these collapses have been sudden, dramatic and unexpected, or were",
           "anchor": "para-B"
         }
       },
@@ -407,6 +436,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "in zoos where there is less risk and fewer variables means",
           "anchor": "para-E"
         }
       },
@@ -416,6 +446,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "more detailed and impressive, and many natural history specimens are on",
           "anchor": "para-C"
         }
       },
@@ -425,6 +456,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "Animals in good zoos get a varied and high-quality diet with",
           "anchor": "para-A"
         }
       },
@@ -432,73 +464,121 @@
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "average captive animal will have a greater life expectancy compared with",
+          "anchor": "para-A"
+        }
       },
       "19": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "or extinction in the wild. A good number of species only",
+          "anchor": "para-B"
+        }
       },
       "20": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "While it is true that television documentaries are becoming ever more",
+          "anchor": "para-C"
+        }
       },
       "21": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "in the world. This was an area where zoos used to",
+          "anchor": "para-D"
+        }
       },
       "22": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "wild populations. Procedures such as capturing and moving at- risk or",
+          "anchor": "para-E"
+        }
       },
       "27": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "also known as ocean trash. Plenty of studies have sounded alarm",
+          "anchor": "para-2"
+        }
       },
       "28": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "a study could show that certain seabirds eat plastic bags, and",
+          "anchor": "para-3"
+        }
       },
       "29": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "go on to warn that whole bird populations are at risk",
+          "anchor": "para-3"
+        }
       },
       "30": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "through 2013. Within each paper, they asked what threats scientists had",
+          "anchor": "para-4"
+        }
       },
       "31": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "In 83 percent of cases, the perceived dangers of ocean trash",
+          "anchor": "para-5"
+        }
       },
       "32": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "says, only one well-designed study failed to find the effect it",
+          "anchor": "para-6"
+        }
       },
       "33": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "While mussels may be fine eating",
+          "anchor": "para-7"
+        }
       },
       "34": {
         "accepted": [
@@ -564,7 +644,11 @@
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "who study, among other things, the growing problem of marine debris,",
+          "anchor": "para-2"
+        }
       }
     },
     "sets": [
