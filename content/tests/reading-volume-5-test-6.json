@@ -203,8 +203,28 @@
                 "textHtml": "competitiveness"
               },
               {
+                "letter": "B",
+                "textHtml": "agriculture"
+              },
+              {
+                "letter": "C",
+                "textHtml": "jewellery"
+              },
+              {
+                "letter": "D",
+                "textHtml": "population"
+              },
+              {
+                "letter": "E",
+                "textHtml": "predators"
+              },
+              {
                 "letter": "F",
                 "textHtml": "respect"
+              },
+              {
+                "letter": "G",
+                "textHtml": "technology"
               },
               {
                 "letter": "H",
