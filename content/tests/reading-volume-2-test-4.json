@@ -317,9 +317,9 @@
           {
             "id": "part-3-group-3",
             "type": "completion",
-            "rubricHtml": "<h3>Questions 36–40</h3>Complete each sentence with the correct ending, <strong>A–G</strong>, below.",
+            "rubricHtml": "<h3>Questions 36–40</h3>Complete each sentence with the correct ending, <strong>A–G</strong>, below.<p class=\"notes-title\">Endings</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p><div><div>36A book about the life and work of Thomas Edison suggests that{{36}}</div><div>37People who have worked for CEOs like Steve Jobs claim that{{37}}</div><div>38Critics of Tim Harford's 2011 TED Talk claimed that{{38}}</div><div>39Steven Johnson's 'hummingbird effect' proposes that{{39}}</div><div>40Kode Biotech CEO Steve Henry believes that{{40}}</div></div><div class=\"notes-title\"><strong>Endings</strong></div>",
+            "bodyHtml": "<p>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p><div><div><strong>36</strong>&nbsp;&nbsp;A book about the life and work of Thomas Edison suggests that{{36}}</div><div><strong>37</strong>&nbsp;&nbsp;People who have worked for CEOs like Steve Jobs claim that{{37}}</div><div><strong>38</strong>&nbsp;&nbsp;Critics of Tim Harford's 2011 TED Talk claimed that{{38}}</div><div><strong>39</strong>&nbsp;&nbsp;Steven Johnson's 'hummingbird effect' proposes that{{39}}</div><div><strong>40</strong>&nbsp;&nbsp;Kode Biotech CEO Steve Henry believes that{{40}}</div></div>",
             "wordBank": [
               {
                 "letter": "A",

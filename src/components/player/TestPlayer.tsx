@@ -33,6 +33,8 @@ export type AttemptSnapshot = {
   mode: "PRACTICE" | "MOCK";
   startedAt: string;
   expiresAt: string | null;
+  /** The server's clock when the page was rendered; see useCountdown. */
+  serverNow?: string;
   answers: Record<string, string>;
   flags: number[];
   /** Highlights and notes. The server stores this without interpreting it. */
@@ -212,7 +214,7 @@ export function TestPlayer({
     [navParts],
   );
 
-  const remaining = useCountdown(attempt.expiresAt, reviewMode, submit);
+  const remaining = useCountdown(attempt.expiresAt, reviewMode, submit, attempt.serverNow);
   const currentPart = parts.find((part) => part.number === activePart) ?? parts[0];
 
   // Matching headings for the current passage: the group, and which paragraph

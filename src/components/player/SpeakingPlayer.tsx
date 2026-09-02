@@ -180,7 +180,7 @@ export function SpeakingPlayer({
     void submit(canRequestReview);
   }, [canRequestReview, submit]);
 
-  const testRemaining = useCountdown(attempt.expiresAt, submitted, autoSubmit);
+  const testRemaining = useCountdown(attempt.expiresAt, submitted, autoSubmit, attempt.serverNow);
   const answered = Object.keys(saved).length;
 
   if (!prompt) {

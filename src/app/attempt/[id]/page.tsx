@@ -67,6 +67,9 @@ export default async function AttemptPage({
     mode: attempt.mode,
     startedAt: attempt.startedAt.toISOString(),
     expiresAt: attempt.expiresAt?.toISOString() ?? null,
+    // The deadline is only meaningful next to the clock that set it. A student
+    // whose device clock is hours out would otherwise see a nonsense countdown.
+    serverNow: new Date().toISOString(),
     answers: (attempt.answers as Record<string, string>) ?? {},
     flags: (attempt.flags as number[]) ?? [],
     annotations: (attempt.annotations as Annotations) ?? {},

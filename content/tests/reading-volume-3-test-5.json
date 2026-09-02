@@ -183,9 +183,9 @@
           {
             "id": "part-3-group-1",
             "type": "completion",
-            "rubricHtml": "<h3>Questions 27–29</h3>Complete each sentence with the correct ending, <strong>A–E</strong>, below.",
+            "rubricHtml": "<h3>Questions 27–29</h3>Complete each sentence with the correct ending, <strong>A–E</strong>, below.<p class=\"notes-title\">Endings</p>",
             "selectCount": 1,
-            "bodyHtml": "<p>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p><div><div>27The speed of technological changes{{27}}</div><div>28A dependency on technology and computers{{28}}</div><div>29A deterioration in personal service{{29}}</div></div><div class=\"notes-title\"><strong>Endings</strong></div>",
+            "bodyHtml": "<p>Drag an ending into each gap (or tap an ending, then tap a gap). Tap × to clear.</p><div><div><strong>27</strong>&nbsp;&nbsp;The speed of technological changes{{27}}</div><div><strong>28</strong>&nbsp;&nbsp;A dependency on technology and computers{{28}}</div><div><strong>29</strong>&nbsp;&nbsp;A deterioration in personal service{{29}}</div></div>",
             "wordBank": [
               {
                 "letter": "A",

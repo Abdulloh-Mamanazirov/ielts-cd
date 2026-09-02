@@ -333,9 +333,9 @@
           {
             "id": "part-3-group-3",
             "type": "completion",
-            "rubricHtml": "<h3>Questions 37–40</h3>Complete each sentence with the correct ending, A–G, below.",
+            "rubricHtml": "<h3>Questions 37–40</h3>Complete each sentence with the correct ending, A–G, below.<p class=\"notes-title\">Sentence Endings</p>",
             "selectCount": 1,
-            "bodyHtml": "<div>37The behaviour of the monkeys on the island of Koshima showed that{{37}}</div><div>38Primatologist Frans de Waal found that{{38}}</div><div>39Dick Fosbury is mentioned in order to show that{{39}}</div><div>40A feature of some modern marketing campaigns is that{{40}}</div><div class=\"notes-title\"><strong>Sentence Endings</strong></div>",
+            "bodyHtml": "<div><strong>37</strong>&nbsp;&nbsp;The behaviour of the monkeys on the island of Koshima showed that{{37}}</div><div><strong>38</strong>&nbsp;&nbsp;Primatologist Frans de Waal found that{{38}}</div><div><strong>39</strong>&nbsp;&nbsp;Dick Fosbury is mentioned in order to show that{{39}}</div><div><strong>40</strong>&nbsp;&nbsp;A feature of some modern marketing campaigns is that{{40}}</div>",
             "wordBank": [
               {
                 "letter": "A",

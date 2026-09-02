@@ -263,7 +263,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 33–37</h3>Complete each sentence with the correct ending, <strong>A-G</strong>, below.",
             "selectCount": 1,
-            "bodyHtml": "<div>33Traditionally astronomers have believed that{{33}}</div><div>34Lucio Mayer physically observed that{{34}}</div><div>35Thomas Quinn believes that{{35}}</div><div>36Gerard Kuiper was the first to suggest that{{36}}</div><div>37Alan P Boss discovered that{{37}}</div>",
+            "bodyHtml": "<div><strong>33</strong>&nbsp;&nbsp;Traditionally astronomers have believed that{{33}}</div><div><strong>34</strong>&nbsp;&nbsp;Lucio Mayer physically observed that{{34}}</div><div><strong>35</strong>&nbsp;&nbsp;Thomas Quinn believes that{{35}}</div><div><strong>36</strong>&nbsp;&nbsp;Gerard Kuiper was the first to suggest that{{36}}</div><div><strong>37</strong>&nbsp;&nbsp;Alan P Boss discovered that{{37}}</div>",
             "wordBank": [
               {
                 "letter": "A",

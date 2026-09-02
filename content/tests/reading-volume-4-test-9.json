@@ -275,9 +275,9 @@
           {
             "id": "part-3-group-2",
             "type": "completion",
-            "rubricHtml": "<h3>Questions 30–34</h3>Complete each sentence with the correct ending, A-G, below.",
+            "rubricHtml": "<h3>Questions 30–34</h3>Complete each sentence with the correct ending, A-G, below.<p class=\"notes-title\">List of Endings</p>",
             "selectCount": 1,
-            "bodyHtml": "<div>30Buss and Plomin tried to find evidence for{{30}}</div><div>31Kagan rejected the idea that certain traits were mainly a result of{{31}}</div><div>32Kagan suggested that the root of behavioural traits lay in{{32}}</div><div>33Kagan measured children's emotional reactions by assessing{{33}}</div><div>34Dunn and Kendrick reported an effect on temperament of{{34}}</div><div class=\"notes-title\"><strong>List of Endings</strong></div>",
+            "bodyHtml": "<div><strong>30</strong>&nbsp;&nbsp;Buss and Plomin tried to find evidence for{{30}}</div><div><strong>31</strong>&nbsp;&nbsp;Kagan rejected the idea that certain traits were mainly a result of{{31}}</div><div><strong>32</strong>&nbsp;&nbsp;Kagan suggested that the root of behavioural traits lay in{{32}}</div><div><strong>33</strong>&nbsp;&nbsp;Kagan measured children's emotional reactions by assessing{{33}}</div><div><strong>34</strong>&nbsp;&nbsp;Dunn and Kendrick reported an effect on temperament of{{34}}</div>",
             "wordBank": [
               {
                 "letter": "A",

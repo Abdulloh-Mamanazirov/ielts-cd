@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 
 import type { QuestionGroup } from "@/lib/tests/schema";
 import { cn } from "@/lib/utils";
@@ -60,6 +60,11 @@ function isDragBoard(group: QuestionGroup): boolean {
 
 export function QuestionGroupView(props: GroupViewProps) {
   const { group } = props;
+  // A word bank used to be a printed list, so the only way to answer was to
+  // type the letter. Arming a chip here and dropping it into the next gap the
+  // student touches gives the same result with a tap, which is what the exam's
+  // own drag-and-drop feels like and what works on a phone.
+  const [armed, setArmed] = useState<string | null>(null);
 
   return (
     <section className="mb-9 scroll-mt-6" data-group={group.id}>
@@ -82,8 +87,14 @@ export function QuestionGroupView(props: GroupViewProps) {
         <MatchingBoard {...props} />
       ) : (
         <>
-          {group.wordBank && group.wordBank.length > 0 && <WordBank group={group} />}
-          {group.bodyHtml ? <CompletionBody {...props} /> : <ItemList {...props} />}
+          {group.wordBank && group.wordBank.length > 0 && (
+            <WordBank group={group} armed={armed} onArm={setArmed} disabled={props.reviewMode} />
+          )}
+          {group.bodyHtml ? (
+            <CompletionBody {...props} armed={armed} onPlaced={() => setArmed(null)} />
+          ) : (
+            <ItemList {...props} />
+          )}
         </>
       )}
     </section>
@@ -235,7 +246,17 @@ function ActiveRule() {
   );
 }
 
-function WordBank({ group }: { group: QuestionGroup }) {
+function WordBank({
+  group,
+  armed,
+  onArm,
+  disabled,
+}: {
+  group: QuestionGroup;
+  armed: string | null;
+  onArm: (letter: string | null) => void;
+  disabled: boolean;
+}) {
   return (
     <ul className="mb-5 grid gap-x-6 gap-y-1.5 rounded-md bg-surface-alt px-4 py-3.5 text-[0.95em] sm:grid-cols-2">
       {group.wordBank?.map((item) => {
@@ -245,12 +266,33 @@ function WordBank({ group }: { group: QuestionGroup }) {
           item.textHtml.replace(/<[^>]*>/g, "").trim().toUpperCase() ===
           item.letter.trim().toUpperCase();
 
+        const isArmed = armed === item.letter;
+
         return (
-          <li key={item.letter} className="flex gap-2.5">
-            {!isBareLetter && (
-              <span className="w-[0.9em] flex-none font-bold text-ink">{item.letter}</span>
-            )}
-            <RichHtml html={item.textHtml} className="text-ink" />
+          <li key={item.letter}>
+            <button
+              type="button"
+              disabled={disabled}
+              aria-pressed={isArmed}
+              onClick={() => onArm(isArmed ? null : item.letter)}
+              className={cn(
+                "flex w-full gap-2.5 rounded-md px-2 py-1 text-left transition",
+                !disabled && "cursor-pointer hover:bg-white",
+                isArmed && "bg-brand-blue text-white shadow-[0_0_0_2px_rgba(1,84,248,.35)]",
+              )}
+            >
+              {!isBareLetter && (
+                <span
+                  className={cn(
+                    "w-[0.9em] flex-none font-bold",
+                    isArmed ? "text-white" : "text-ink",
+                  )}
+                >
+                  {item.letter}
+                </span>
+              )}
+              <RichHtml html={item.textHtml} className={isArmed ? "text-white" : "text-ink"} />
+            </button>
           </li>
         );
       })}
@@ -267,7 +309,9 @@ function CompletionBody({
   onAnswer,
   onFocusQuestion,
   onShowEvidence,
-}: GroupViewProps) {
+  armed,
+  onPlaced,
+}: GroupViewProps & { armed?: string | null; onPlaced?: () => void }) {
   const letterOnly = Boolean(group.wordBank && group.wordBank.length > 0);
 
   // The completion slots are inline in the body HTML, so there is no per-question
@@ -290,7 +334,14 @@ function CompletionBody({
           questionNumber={questionNumber}
           value={answers[String(questionNumber)] ?? ""}
           onChange={(value) => onAnswer(questionNumber, value)}
-          onFocus={() => onFocusQuestion(questionNumber)}
+          onFocus={() => {
+            onFocusQuestion(questionNumber);
+            // A chip is waiting: the gap the student touches next is where it goes.
+            if (armed) {
+              onAnswer(questionNumber, armed);
+              onPlaced?.();
+            }
+          }}
           isActive={activeQuestion === questionNumber}
           verdict={review ? (review.correct ? "correct" : "incorrect") : undefined}
           expected={review && !review.correct ? review.expected : undefined}
@@ -299,7 +350,17 @@ function CompletionBody({
         />
       );
     },
-    [answers, activeQuestion, reviewMode, letterOnly, onAnswer, onFocusQuestion, reviewFor],
+    [
+      answers,
+      activeQuestion,
+      reviewMode,
+      letterOnly,
+      onAnswer,
+      onFocusQuestion,
+      reviewFor,
+      armed,
+      onPlaced,
+    ],
   );
 
   return (

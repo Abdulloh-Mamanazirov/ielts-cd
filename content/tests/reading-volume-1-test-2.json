@@ -221,7 +221,7 @@
             "type": "completion",
             "rubricHtml": "<h3>Questions 32–35</h3>Complete each sentence with the correct ending, <strong>A–H</strong>, below.",
             "selectCount": 1,
-            "bodyHtml": "<div>32The usual business environment{{32}}</div><div>33Geroski and Markides's book{{33}}</div><div>34Microsoft is an example of a company which{{34}}</div><div>35The origin of useful accidents{{35}}</div>",
+            "bodyHtml": "<div><strong>32</strong>&nbsp;&nbsp;The usual business environment{{32}}</div><div><strong>33</strong>&nbsp;&nbsp;Geroski and Markides's book{{33}}</div><div><strong>34</strong>&nbsp;&nbsp;Microsoft is an example of a company which{{34}}</div><div><strong>35</strong>&nbsp;&nbsp;The origin of useful accidents{{35}}</div>",
             "wordBank": [
               {
                 "letter": "A",

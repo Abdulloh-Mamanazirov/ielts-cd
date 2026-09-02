@@ -92,7 +92,7 @@ export function WritingPlayer({
     void submit(canRequestReview);
   }, [canRequestReview, submit]);
 
-  const remaining = useCountdown(attempt.expiresAt, submitted, autoSubmit);
+  const remaining = useCountdown(attempt.expiresAt, submitted, autoSubmit, attempt.serverNow);
   const current = tasks.find((task) => task.number === activeTask) ?? tasks[0];
 
   const counts = tasks.map((task) => ({

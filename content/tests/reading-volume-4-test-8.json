@@ -359,9 +359,9 @@
           {
             "id": "part-3-group-3",
             "type": "completion",
-            "rubricHtml": "<h3>Questions 38–40</h3>Complete each sentence with the correct ending, A-G, below.",
+            "rubricHtml": "<h3>Questions 38–40</h3>Complete each sentence with the correct ending, A-G, below.<p class=\"notes-title\">List of Endings</p>",
             "selectCount": 1,
-            "bodyHtml": "<div>38A book that uses terms such as 'anterior cingulate cortex'{{38}}</div><div>39The use of three-dimensional illustrations in the book{{39}}</div><div>40The inclusion of essays by research scientists in Mapping the Mind{{40}}</div><div class=\"notes-title\"><strong>List of Endings</strong></div>",
+            "bodyHtml": "<div><strong>38</strong>&nbsp;&nbsp;A book that uses terms such as 'anterior cingulate cortex'{{38}}</div><div><strong>39</strong>&nbsp;&nbsp;The use of three-dimensional illustrations in the book{{39}}</div><div><strong>40</strong>&nbsp;&nbsp;The inclusion of essays by research scientists in Mapping the Mind{{40}}</div>",
             "wordBank": [
               {
                 "letter": "A",
