@@ -56,7 +56,9 @@ export function PracticeSection({ counts }: { counts: Record<string, number> }) 
             return (
               <li key={skill.slug}>
                 <Link
-                  href="/tests"
+                  // Straight to that skill's shelf. /tests reads ?skill= and
+                  // site.skills[].slug is the same set as lib/skills SKILL_SLUGS.
+                  href={`/tests?skill=${skill.slug}`}
                   className="group flex h-full flex-col bg-white p-7 transition hover:bg-brand-red-cta"
                 >
                   <svg

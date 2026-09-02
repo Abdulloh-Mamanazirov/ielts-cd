@@ -48,7 +48,9 @@ export const en = {
       "Timed like the real exam",
       "Detailed feedback and band score",
     ],
-    mockCta: "Book a mock test",
+    // Points at the practice shelf, so it invites practice rather than a
+    // booking the site does not do. The key name is historical.
+    mockCta: "Practice now",
   },
 
   why: {
