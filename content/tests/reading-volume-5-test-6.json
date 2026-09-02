@@ -1,0 +1,639 @@
+{
+  "slug": "reading-volume-5-test-6",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 5, Test 6",
+    "source": "@bekhruzposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 1–13</strong>.</p>",
+        "passageHtml": "<h1>Starting school later has positive effects on teens</h1><p id=\"para-1\">With classes that start as early as 7 am and buses that pull up long before sunrise, some 80% of US children in grades 6 through 12 are not getting the recommended amount of sleep during the school year, according to research by the National Sleep Foundation, a sleep advocacy group. These early start times contribute to a myriad of problems. Exhausted children, studies suggest, not only struggle with moodiness, but also with depression. They gain weight and their grades suffer, and many turn to caffeine, with questionable results for productivity and unknown effects on the development of young brains.</p><p id=\"para-2\">Now, fueled by accumulating research on the benefits of letting teens sleep later, and evidence that delaying school start times even by just 30 minutes makes a huge difference in how well teens feel and perform, an increasing number of schools around the United States are starting the school day later than they used to. Many more are thinking about it. At the same time, however, there are strong pockets of resistance to change from administrators and parents who think that bus schedules will get too complicated, that starting later will interfere with after-school programs, or that children will simply stay up later if they know they can sleep in a little more.</p><p id=\"para-3\">According to Kyla Wahlstrom, director of the Center for Applied Research and Educational Improvement at the University of Minnesota, even though the two districts could not be more different in terms of race, socioeconomics and other factors, changes in both places appeared immediately.</p><p id=\"para-4\">Some of the outcomes were quite significant. For instance, students were noticeably more alert in the first two periods of the day. In addition, the cafeteria was calmer, and there were fewer fights in the halls. Students, who were now getting nearly an hour more sleep each night, said they felt less depressed. Even parents told teachers they thought their kids were easier to live with.</p><p id=\"para-5\">Blame biology, not laziness, for making teens reluctant to get up in the morning. As children grow older and approach puberty, a period of important biological change, their bodies circulate melatonin, the hormone that brings on sleepiness, two hours later than before.</p><p id=\"para-6\">As a result, teens find it impossible to fall asleep until about 11 p.m., even if they try to go to bed earlier. Yet teenagers still need an average of 9.25 hours of slumber each night. On top of the shift in natural sleeping and waking times, there is also another factor. This is related to a period of intense sleepiness which hits both adults and adolescents during the early morning hours. In adults this low point in alertness hits between 3 a.m. and 5 a.m.; in adolescents, it falls between about 5 a.m. and 7 a.m. That means that, while their alarm clocks are telling teens to get out of bed and demanding that their brains perform, their bodies signal to them to keep sleeping.</p><p id=\"para-7\">In addition to the mood, behavior and learning issues, scientists are starting to uncover more subtle ways in which such chronic lack of sleep can hurt children. Some studies, for example, show that sleep deprivation compromises the immune system. Others suggest that, with too little sleep, the body releases higher levels of hormones that induce hunger, possibly contributing to growing rates of obesity.</p><p id=\"para-8\">To stay awake, young people often turn to coffee, soda and other caffeinated beverages. In a public high school in the eastern US state of Massachusetts, 95% of polled students reported drinking caffeine in the prior two weeks, mostly in the form of soda as opposed to coffee, and most often in the afternoon and evening hours, Dr Amy Wolfson and a colleague reported in Health Education and Behavior. According to Dr Wolfson, there are no published guidelines for how much caffeine is too much for adolescents. However, the substance stays in the body for up to five hours, which is three hours longer than originally thought, and is costing teens unknown hours of sleep. Even if caffeinated teens manage to fall asleep, caffeine worsens the quality of their sleep. Finally, no one knows how caffeine might affect developing brains, although plenty of experts are concerned about the link between sugar in soda and weight gain.</p><p id=\"para-9\">As the sleep research piles up, a growing number of schools are moving toward later start times. No one has kept track of how many schools have made the change, but experts say they are fielding a growing number of calls from districts around the US asking for advice about whether and how to switch to later start times. Whatever it takes, teenagers need to get enough sleep. Changing school start times has proven to be one way to achieve this.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–5</h3><p>Do the following statements agree with the information given in Reading Passage 1?</p><p>Write <strong>TRUE</strong> if the statement agrees with the information, <strong>FALSE</strong> if the statement contradicts the information, or <strong>NOT GIVEN</strong> if there is no information on this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Sleep deprivation among children in the US is a result of current school starting times."
+              },
+              {
+                "number": 2,
+                "textHtml": "Research indicates that most overweight children need more sleep."
+              },
+              {
+                "number": 3,
+                "textHtml": "Concerns about re-arranging bus timetables make some people oppose later school start times."
+              },
+              {
+                "number": 4,
+                "textHtml": "The two school districts in the Minnesota experiment had similar groups of students."
+              },
+              {
+                "number": 5,
+                "textHtml": "Parents and children in the two Minnesota school districts which were studied got along better than before."
+              }
+            ]
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 6–13</h3><p>Complete the notes below.</p><p>Choose <strong>ONE WORD AND/OR A NUMBER</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<div class=\"summary\"><div class=\"notes-title\">The melatonin shift</div><div class=\"sub-head\">Biological changes</div><ul class=\"notes-list\"><li>Melatonin is released two hours later than before when teens start reaching {{6}}</li><li>Melatonin causes {{7}}</li></ul><div class=\"sub-head\">Sleep and awake times</div><ul class=\"notes-list\"><li>Big drop in {{8}} occurs later in the night</li><li>5am&ndash;7am for teens</li><li>3am&ndash;5am for adults</li></ul><div class=\"sub-head\">Sleep loss</div><ul class=\"notes-list\"><li>leads to a weakened immune system</li><li>hormones that are released increase {{9}}, causing risk of obesity</li></ul><div class=\"sub-head\">Caffeine</div><ul class=\"notes-list\"><li>teens in the Massachusetts study usually get caffeine by drinking {{10}}</li><li>effects can last for a maximum of {{11}}</li><li>makes sleep {{12}} worse</li><li>no information on its impact on how the young people's {{13}} mature</li></ul></div></div><div class=\"qsec\" id=\"qs2\"><p class=\"qnum-head\"><em>Questions 14&ndash;18</em></p><p class=\"qinst\">Reading Passage 2 has five sections, <strong>A-E</strong>. Choose the correct heading for each section from the list of headings below. Write the correct letter, <strong>i-vii</strong>, in boxes 14-18 on your answer sheet.</p><div class=\"headings-box\" id=\"mhHeadings\"><div class=\"mh-heading-card\" draggable=\"true\" data-code=\"i\" data-label=\"The desire to make expensive jewellery\"><strong>i</strong>&nbsp;&nbsp;The desire to make expensive jewellery</div><div class=\"mh-heading-card\" draggable=\"true\" data-code=\"ii\" data-label=\"The clues that indicate ancient items were decorative\"><strong>ii</strong>&nbsp;&nbsp;The clues that indicate ancient items were decorative</div><div class=\"mh-heading-card\" draggable=\"true\" data-code=\"iii\" data-label=\"Querying the changes in the value of traded items\"><strong>iii</strong>&nbsp;&nbsp;Querying the changes in the value of traded items</div><div class=\"mh-heading-card\" draggable=\"true\" data-code=\"iv\" data-label=\"A natural human talent\"><strong>iv</strong>&nbsp;&nbsp;A natural human talent</div><div class=\"mh-heading-card\" draggable=\"true\" data-code=\"v\" data-label=\"How status can be gained from ownership of goods\"><strong>v</strong>&nbsp;&nbsp;How status can be gained from ownership of goods</div><div class=\"mh-heading-card\" draggable=\"true\" data-code=\"vi\" data-label=\"Recent finds alter theories about when consumerism started\"><strong>vi</strong>&nbsp;&nbsp;Recent finds alter theories about when consumerism started</div><div class=\"mh-heading-card\" draggable=\"true\" data-code=\"vii\" data-label=\"Changes in research methods\"><strong>vii</strong>&nbsp;&nbsp;Changes in research methods</div></div><div class=\"qitem\"><p class=\"qprompt\"><strong>19.</strong>&nbsp; In section A, 'reciprocity' refers to our ancestors' ability to</p><div class=\"rgroup\" id=\"rg19\"><label class=\"rlabel\"><input type=\"radio\" name=\"q19\" value=\"A\" onchange=\"upd()\"> <strong>A</strong>&nbsp; keep written records of different goods traded</label><label class=\"rlabel\"><input type=\"radio\" name=\"q19\" value=\"B\" onchange=\"upd()\"> <strong>B</strong>&nbsp; monitor the balance between goods given and received</label><label class=\"rlabel\"><input type=\"radio\" name=\"q19\" value=\"C\" onchange=\"upd()\"> <strong>C</strong>&nbsp; produce more materials for trading purposes</label><label class=\"rlabel\"><input type=\"radio\" name=\"q19\" value=\"D\" onchange=\"upd()\"> <strong>D</strong>&nbsp; make money from trading goods and services</label></div></div><div class=\"qitem\"><p class=\"qprompt\"><strong>20.</strong>&nbsp; What is said about the ochre found around Blombos?</p><div class=\"rgroup\" id=\"rg20\"><label class=\"rlabel\"><input type=\"radio\" name=\"q20\" value=\"A\" onchange=\"upd()\"> <strong>A</strong>&nbsp; It is of a type only found in this particular area.</label><label class=\"rlabel\"><input type=\"radio\" name=\"q20\" value=\"B\" onchange=\"upd()\"> <strong>B</strong>&nbsp; It has all been dyed to give the same shade of red.</label><label class=\"rlabel\"><input type=\"radio\" name=\"q20\" value=\"C\" onchange=\"upd()\"> <strong>C</strong>&nbsp; It has been perfectly preserved despite its age.</label><label class=\"rlabel\"><input type=\"radio\" name=\"q20\" value=\"D\" onchange=\"upd()\"> <strong>D</strong>&nbsp; It appears it was selected for its colour.</label></div></div><div class=\"qitem\"><p class=\"qprompt\"><strong>21.</strong>&nbsp; What made the researchers realise the purpose of the beads found at the Blombos caves?</p><div class=\"rgroup\" id=\"rg21\"><label class=\"rlabel\"><input type=\"radio\" name=\"q21\" value=\"A\" onchange=\"upd()\"> <strong>A</strong>&nbsp; They are a great variety of shapes and sizes.</label><label class=\"rlabel\"><input type=\"radio\" name=\"q21\" value=\"B\" onchange=\"upd()\"> <strong>B</strong>&nbsp; They were found in large numbers all grouped around each other.</label><label class=\"rlabel\"><input type=\"radio\" name=\"q21\" value=\"C\" onchange=\"upd()\"> <strong>C</strong>&nbsp; They have patterns in many different colours.</label><label class=\"rlabel\"><input type=\"radio\" name=\"q21\" value=\"D\" onchange=\"upd()\"> <strong>D</strong>&nbsp; They have holes and markings suggesting they were joined together.</label></div></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 14–26</strong>.</p>",
+        "passageHtml": "<h1>Born to trade</h1><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;Humans are born to trade and we don't need shops or money to do it - the heart of commerce is an instinctive ability for what anthropologists call reciprocity. This is an ability to exchange goods of equal worth and it evolved as the brains of our ancient ancestors and societies became more complex, allowing individuals to keep a running tally of their interactions with others. Evidence from modern hunter-gatherers leaves little doubt that the exchange of food and favours is innate, as is the ability to keep track of the credits and debits that accrue as a result. Combine this skill for mental book-keeping with even the most basic material culture, and trade inevitably follows.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Once trade gets off the ground, the economic benefits quickly make it irresistible. But exchanging tools, food and other essentials of life in a barter economy is a far cry from the shopping mall. Modern consumerism strays beyond subsistence and utilitarianism to encompass everything from Gucci handbags and BMW convertibles to valuable paintings. Clearly, the worth of such goods is not inherent but resides in certain intangible qualities that we invest in them. When did humans start holding these goods in such high esteem?</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;All the archaeological evidence for the flowering of consumer culture has up to now pointed to a date of around 40,000 years ago. That's when early modern humans started making increasingly intricate bone and stone tools, carving patterns into rocks and creating representational art such as carved figurines, jewellery and cave painting. However, discoveries in Africa are pushing the origins of consumerism much further back into human prehistory. A few years ago, reports began to emerge of discoveries made at the Blombos cave, a site of ancient human habitation in South Africa. Christopher Henshilwood and colleagues from the University of Bergen in Norway dated thousands of pieces of ochre from the cave and many of them proved to be more than 100,000 years old - before the time that early humans moved out of Africa. Ochre, a coloured clay that comes in various shades from red to black, does not occur naturally around Blombos and must have been imported from quarries at least 30 kilometres away, either directly by Blombos residents or through trade. Although ochre can be used to dry and preserve or cure animal hides, the researchers are convinced the Blombos ochre had a symbolic purpose. For a start, it is predominantly red - any of the other colours available would have done for curing - and the surfaces of the clay had been scraped in a way that indicates they were used to yield pigment for dyes.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;An even more intriguing discovery from Blombos was of 41 beads dating from 76,000 years ago, found in clusters and made from the shells of a tiny mollusc. These cannot be natural deposits, argue the researchers, as each cluster contains shells of a similar size and colour with consistently placed holes. What's more, all the beads display a pattern of wear suggesting friction from rubbing against thread, clothes or other beads. The previous oldest find of beads in Africa dates back to just 45,000 years ago. And it seems the Blombos people's taste for beautiful items was not an isolated phenomenon. Jessica Thompson of Arizona State University in Tempe has described finding shell fragments from a site in Tanzania that she believes may represent debris from bead manufacture. They are at least 45,000 - and possibly 280,000 - years old. Although there is no evidence of how the ancient beads were used, their modern counterparts are often traded. So it looks as though our taste for jewellery and art is much older than we thought.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;But why did we come to value these objects in the first place? In many animal species, individuals signal their genetic fitness by showing off with attention-grabbing adornment. Some researchers think that in humans, consumer products play a similar role. Archaeologist Aimee Plourde, from the University of California, also argues that even in egalitarian societies, some people are more successful than others. Among our ancestors, superior skills in areas such as hunting, crafts, environmental knowledge and contact with neighbouring groups would have brought respect - in other words, prestige. And because prestige brings social benefits, people would want to show off their talents. The best way to do this would be through demonstrating possession of material items that are hard to fake. A good hunter, for instance, could advertise his skills by wearing the tooth of an animal that is elusive or dangerous, says Plourde. The benefits of prestige would also lead to competition to acquire it. As a result, the value and variety of prestige goods would spiral and there would be a parallel increase in the ranking of social systems. If Plourde is correct, prestige goods form a direct link between our innate drive for trade and the development of structured, hierarchical societies. They are arguably the first step on the road to modern civilisation, paving the way for agriculture and urbanisation. We may not be impressed by beads any more, but their modern equivalents have the same fascination. Nobody believes the guy who spends £670,000 on a Bugatti Veyron car does so because he needs to travel at 250mph. We all know in today's consumer society he's buying an exclusive status symbol.</p></div>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 14–18</h3><p>Reading Passage 2 has five sections, <strong>A–E</strong>.</p><p>Choose the correct heading for each section from the list of headings below.</p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "The desire to make expensive jewellery"
+              },
+              {
+                "letter": "B",
+                "textHtml": "The clues that indicate ancient items were decorative"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Querying the changes in the value of traded items"
+              },
+              {
+                "letter": "D",
+                "textHtml": "A natural human talent"
+              },
+              {
+                "letter": "E",
+                "textHtml": "How status can be gained from ownership of goods"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Recent finds alter theories about when consumerism started"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Changes in research methods"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Section A"
+              },
+              {
+                "number": 15,
+                "textHtml": "Section B"
+              },
+              {
+                "number": 16,
+                "textHtml": "Section C"
+              },
+              {
+                "number": 17,
+                "textHtml": "Section D"
+              },
+              {
+                "number": 18,
+                "textHtml": "Section E"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 19–21</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>",
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "In section A, 'reciprocity' refers to our ancestors' ability to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "keep written records of different goods traded"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "monitor the balance between goods given and received"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "produce more materials for trading purposes"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "make money from trading goods and services"
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "What is said about the ochre found around Blombos?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It is of a type only found in this particular area."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It has all been dyed to give the same shade of red."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It has been perfectly preserved despite its age."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "It appears it was selected for its colour."
+                  }
+                ]
+              },
+              {
+                "number": 21,
+                "textHtml": "What made the researchers realise the purpose of the beads found at the Blombos caves?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They are a great variety of shapes and sizes."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They were found in large numbers all grouped around each other."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They have patterns in many different colours."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They have holes and markings suggesting they were joined together."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 22–26</h3><p>Complete the summary below.</p><p>Choose <strong>FIVE</strong> answers from the box and write the correct letter, <strong>A–J</strong>, for each answer.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "competitiveness"
+              },
+              {
+                "letter": "F",
+                "textHtml": "respect"
+              },
+              {
+                "letter": "H",
+                "textHtml": "ancestors"
+              },
+              {
+                "letter": "I",
+                "textHtml": "species"
+              },
+              {
+                "letter": "J",
+                "textHtml": "city"
+              }
+            ],
+            "bodyHtml": "<div class=\"summary\"><p>Some researchers argue that we may use ownership of desirable goods to demonstrate our strength and fitness as other {{22}} uses their attractive physical features. Showing off one's superiority is not a new phenomenon and even in ancient times successful people would have gained {{23}} from this. A desire for status could have led to an increase in the worth of prestige goods and to {{24}} among people wishing to achieve this status.</p><p>It is thought that our natural desire to trade provided a basis for organised farming and {{25}} development and finally resulted in the complex societies which can be seen today. Whilst we do not value things such as beads nowadays, other items hold the same appeal for us and bring the same status as owing beads did for our {{26}}.</p></div>"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 27–40</strong>.</p>",
+        "passageHtml": "<h1>New Zealand home textile crafts of the 1930s to 1950s</h1><p id=\"para-1\">Domestic crafts do not build monuments to their makers, nor do they create wealth, and too often they have not survived. In consequence, the domestic crafts produced by mothers, grandmothers and great grandmothers in New Zealand are often overlooked. But needlework should be preserved, for it helps to convey a sense of people's identity and past beliefs in these remote islands in the Pacific Ocean.</p><p id=\"para-2\">Women of previous generations were expected to sew; they had to dress their families in an era when few people could afford to buy what they were capable of making. For some women this work may have been unwelcome drudgery, but for others it was an opportunity to explore their identities, beliefs and dreams with the only means readily at hand - a needle, some thread, and a piece of fabric.</p><p id=\"para-3\">Textiles are frustrating to collect. They are fragile; they stain; they develop rust marks; they fray and rot. If they are used, they deteriorate; yet if they are merely stored, the owner does not fully enjoy the pleasure of possession. That is probably why they have not been a popular thing to collect compared, for example, to antique furniture or fine china, which are more durable investments. It is also true that domestic crafts are seldom signed. We like signatures because we can more readily assign value - and high prices - if we can identify the maker. But most women at this time would never have considered signing their work. They were not expecting it to be seen outside their homes, where the creator's identity was never in doubt. And they probably did not even expect it to last very long.</p><p id=\"para-4\">It does not help that such work falls into the category of crafts either, rather than fine arts, because crafts are looked on too often as a poor cousin to true creativity. Worse, they are made in a domestic context, so do not belong in the consciously elevated tradition of craft objects which compete with the arts, such as furniture. If things are made to be useful, especially only within the home and by ordinary housewives, we seem to have agreed they cannot be art. Why not?</p><p id=\"para-5\">It might be argued that the collector of textiles is a little like an archaeologist. Archaeology is a combination of history and detective work, and it involves treasure that is often beautiful. Likewise, digging for the past is what textile collectors do in junk shops, and the objects they find are a way of understanding the past through physical evidence.</p><p id=\"para-6\">The domestic crafts of this period, the 1930-1950, cannot be separated from the women's magazines that were so popular at the time. The primary purpose of these publications was to allow women to glimpse how more prosperous people lived, by showing them photographs of the interiors of their houses. In these days before television, magazines provided realistic and achievable inducements to social betterment. In parallel to this, women were provided with much more down-to-earth and useful means of improving their homes in the form of printed patterns, which were readily available from fabric shops at low cost from the 1920s and 1930s onwards. Mostly, such patterns were for everyday items that fulfilled some domestic purpose - aprons, tea cosies, curtains, bed-spreads, chair covers and the like. With the benefit of hindsight, it is possible to distinguish this regulated tradition of needlework, governed by printed patterns, from the more individual work that women dreamed up themselves and whose form and execution were reflections of their own ideal and imagination. Although both schools have their merits, it is surely the latter tradition that will provide the collector with the greatest enjoyment. Most intriguing of all is work which suggests serendipity, even a certain element of chance, the piece having taken on a life of its own, determined perhaps by what resources were available at the time and the skill levels of the item's maker. When it comes to needlework, flaws can be enjoyable, even failure may bring pleasure, and in this respect needlework can be contrasted with other art forms, where successful completion is paramount.</p><p id=\"para-7\">Some people collect out of a sense of nostalgia, a desire to evoke a comforting time that seems gentler than the present. But nostalgia should not always be trusted as it can be a sanitised form of history that blots out harsh reality. However, if a certain degree of nostalgia can be felt for the fabrics of the past, it is because they remind us of the care and attention with which women selected them. The texture of certain abstract patterned fabrics from the 1950s has the power to transport us all back to the dress and fabric shops of that time where women agonised over which choices to make, though they probably loved every minute of it. Old patchwork quilts in particular are evocative, because they represent an unknown family's compressed history: pyjamas, ball gowns, smart summer frocks, school dresses, all thrown together, a jumble of decorative traditions, past ceremonies and dreams. Women of the past would often keep offcuts from their dressmaking and use them for patchwork, as a means of recording their family's story for others to appreciate.</p><p id=\"para-8\">These may sound like nostalgic thoughts, but we should also remember how hard women's lives were, that family life was not always idyllic, and that having no money was no fun. Such fabrics, then, should be seen as a wish for ideals and imaginations, although also for something better, a way of daydreaming about a life that would turn out well in the end.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 27–32</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>",
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "What does the writer say about domestic crafts in the first paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They can be sold for high prices today"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They were used to tell stories in the past"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They are sources of information about society"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They have been well documented by historians"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "What is the writer's main point in the second paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Women sewed to make money."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Women used to have larger families."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Sewing was enjoyed as a social activity."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Sewing could be a means of self-expression"
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "According to the writer, domestic crafts are not frequently collected because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "they are difficult to see"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "they are easily damaged"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "they provide little enjoyment"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "they have no practical use today"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "What point does the writer make about signatures on textiles?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Many women at that time could not sign their names"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The signatures have faded over time and cannot be seen"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The style of stitching served as an alternative to a signature"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They were unnecessary since everyone would know the maker"
+                  }
+                ]
+              },
+              {
+                "number": 31,
+                "textHtml": "What is the writer doing in the fourth paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "suggesting that needlework is not a true art form"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "challenging the usual distinction between 'arts' and crafts"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "arguing that functional objects were seldom made in the home"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "criticising the attitude of women today towards domestic crafts"
+                  }
+                ]
+              },
+              {
+                "number": 32,
+                "textHtml": "Why does the writer compare textile collecting to archaeology?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They both require hard work."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They involve similar processes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They can both be done on a low budget."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They are both undervalued in society today."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 33–36</h3><p>Complete the summary using the list of words, <strong>A–G</strong>, below.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "skilful"
+              },
+              {
+                "letter": "B",
+                "textHtml": "creative"
+              },
+              {
+                "letter": "C",
+                "textHtml": "wealthy"
+              },
+              {
+                "letter": "D",
+                "textHtml": "practical"
+              },
+              {
+                "letter": "E",
+                "textHtml": "imperfect"
+              },
+              {
+                "letter": "F",
+                "textHtml": "industrious"
+              },
+              {
+                "letter": "G",
+                "textHtml": "detailed"
+              }
+            ],
+            "bodyHtml": "<div class=\"summary\"><p>Women's magazines in this period mainly influenced domestic crafts because of their aspirational character as they focused on the {{33}} element of society. At the same time, more {{34}} assistance came in the form of printed patterns. The resulting aprons, and so on, can be contrasted with work that demonstrates the {{35}} side of the maker; of the two traditions, work that is less structured in nature is of greater interest to collectors. Most interestingly, the writer points out that many appreciate work that is {{36}}, and it is this characteristic that is believed to distinguish needlework from other arts.</p></div>"
+          },
+          {
+            "id": "part-3-group-3",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 37–40</h3><p>Do the following statements agree with the views of the writer in Reading Passage 3?</p><p>Write <strong>YES</strong> if the statement agrees with the views of the writer, <strong>NO</strong> if the statement contradicts the views of the writer, or <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "Nostalgia can promote an unreliable image of the past"
+              },
+              {
+                "number": 38,
+                "textHtml": "In the 1950s, women chose fabric according to its durability"
+              },
+              {
+                "number": 39,
+                "textHtml": "Patchwork quilts are only of interest to the makers' family"
+              },
+              {
+                "number": 40,
+                "textHtml": "Needlework was a way for women to escape the reality of their lives"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "3": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "4": {
+        "accepted": [
+          "FALSE"
+        ]
+      },
+      "5": {
+        "accepted": [
+          "TRUE"
+        ]
+      },
+      "6": {
+        "accepted": [
+          "puberty"
+        ]
+      },
+      "7": {
+        "accepted": [
+          "sleepiness"
+        ]
+      },
+      "8": {
+        "accepted": [
+          "alertness"
+        ]
+      },
+      "9": {
+        "accepted": [
+          "hunger"
+        ]
+      },
+      "10": {
+        "accepted": [
+          "soda"
+        ]
+      },
+      "11": {
+        "accepted": [
+          "five hours"
+        ]
+      },
+      "12": {
+        "accepted": [
+          "quality"
+        ]
+      },
+      "13": {
+        "accepted": [
+          "brains"
+        ]
+      },
+      "14": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "16": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "18": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "19": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "20": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "21": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "22": {
+        "accepted": [
+          "I"
+        ]
+      },
+      "23": {
+        "accepted": [
+          "F"
+        ]
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ]
+      },
+      "25": {
+        "accepted": [
+          "J"
+        ]
+      },
+      "26": {
+        "accepted": [
+          "H"
+        ]
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "30": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "31": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "32": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "33": {
+        "accepted": [
+          "C"
+        ]
+      },
+      "34": {
+        "accepted": [
+          "D"
+        ]
+      },
+      "35": {
+        "accepted": [
+          "B"
+        ]
+      },
+      "36": {
+        "accepted": [
+          "E"
+        ]
+      },
+      "37": {
+        "accepted": [
+          "YES"
+        ]
+      },
+      "38": {
+        "accepted": [
+          "NOT GIVEN"
+        ]
+      },
+      "39": {
+        "accepted": [
+          "NO"
+        ]
+      },
+      "40": {
+        "accepted": [
+          "YES"
+        ]
+      }
+    },
+    "sets": []
+  }
+}
