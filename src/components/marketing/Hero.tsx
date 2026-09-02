@@ -56,7 +56,7 @@ export function Hero() {
               <Arrow />
             </Link>
             <Link
-              href="/tests"
+              href="/full-mock"
               className="inline-flex items-center gap-2.5 rounded-[10px] bg-white px-7 py-4 text-lg font-bold text-ink shadow-[0_1px_0_rgba(11,17,32,.14),0_10px_24px_-16px_rgba(11,17,32,.6)] transition hover:-translate-y-0.5"
             >
               {site.hero.primaryCta}

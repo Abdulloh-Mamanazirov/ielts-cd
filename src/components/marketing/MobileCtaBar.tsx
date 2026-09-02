@@ -34,7 +34,7 @@ export function MobileCtaBar() {
       </Link>
 
       <Link
-        href="/tests"
+        href="/full-mock"
         aria-label={site.hero.primaryCta}
         className="inline-flex h-[54px] w-[54px] flex-none items-center justify-center rounded-[10px] bg-surface-alt text-brand-blue shadow-[inset_0_0_0_1.5px_rgba(1,84,248,.25)]"
       >

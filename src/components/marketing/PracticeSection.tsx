@@ -105,7 +105,7 @@ export function PracticeSection({ counts }: { counts: Record<string, number> }) 
           <div className="relative grid gap-8 p-8 lg:grid-cols-[1.15fr_1fr] lg:items-center lg:p-14">
             <div>
               <SectionHeading
-                eyebrow="FULL MOCK"
+                eyebrow="PRACTICE"
                 title={
                   <>
                     Sit the real thing
@@ -118,7 +118,7 @@ export function PracticeSection({ counts }: { counts: Record<string, number> }) 
                 className="mb-8"
               />
               <Link
-                href="/tests"
+                href="/dashboard"
                 className="inline-flex items-center gap-3 rounded-[10px] bg-brand-red-cta px-7 py-4 text-lg font-bold text-white shadow-[0_16px_30px_-12px_rgba(225,0,70,.65)] transition hover:bg-brand-red-dark"
               >
                 {site.practice.mockCta}
