@@ -53,7 +53,15 @@ export default async function TestsPage({
   searchParams: Promise<{ skill?: string; series?: string; set?: string }>;
 }) {
   const { skill, series, set } = await searchParams;
-  const user = await requireUser("/tests");
+  // Carry the chosen shelf through the login round trip. The landing page links
+  // straight to /tests?skill=reading, and a bare "/tests" here would drop that,
+  // landing the visitor on the unfiltered list after they sign in.
+  const query = new URLSearchParams(
+    Object.entries({ skill, series, set }).filter((entry): entry is [string, string] =>
+      Boolean(entry[1]),
+    ),
+  ).toString();
+  const user = await requireUser(`/tests${query ? `?${query}` : ""}`);
 
   const active = isSkillSlug(skill) ? skillBySlug(skill) : undefined;
 
