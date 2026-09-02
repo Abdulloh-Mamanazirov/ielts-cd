@@ -1,0 +1,92 @@
+{
+  "slug": "speaking-test-1",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "speaking",
+    "title": "Speaking Test 1 — Books and reading",
+    "source": "Cambridge IELTS 14, Test 1",
+    "description": "The full three-part interview: the future in Part 1, a long turn on “Describe a book that you enjoyed reading because you had to think a lot”, then a discussion of children and reading and electronic books.",
+    "totalQuestions": 0,
+    "durationSeconds": 840,
+    "prompts": [
+      {
+        "part": 1,
+        "promptHtml": "<p class=\"frame\">Let's talk about the future.</p><p>What job would you like to have ten years from now? [Why?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>How useful will English be for your future? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>How much travelling do you hope to do in the future? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>How do you think your life will change in the future? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 2,
+        "promptHtml": "<p>Describe a book that you enjoyed reading because you had to think a lot.</p>",
+        "bulletsHtml": [
+          "what this book was",
+          "why you decided to read it",
+          "what reading this book made you think about",
+          "and explain why you enjoyed reading this book"
+        ],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider children and reading.</p><p>What are the most popular types of children's books in your country?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>What are the benefits of parents reading books to their children?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Should parents always let children choose the books they read?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider electronic books.</p><p>How popular are electronic books are in your country?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>What are the advantages of parents reading electronic books (compared to printed books)?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Will electronic books ever completely replace printed books in the future?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

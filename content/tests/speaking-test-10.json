@@ -1,0 +1,92 @@
+{
+  "slug": "speaking-test-10",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "speaking",
+    "title": "Speaking Test 10 — Music",
+    "source": "Recalled exam questions",
+    "description": "The full three-part interview: music in Part 1, a long turn on “Describe a piece of music that means a lot to you”, then a discussion of music and society and learning an instrument.",
+    "totalQuestions": 0,
+    "durationSeconds": 840,
+    "prompts": [
+      {
+        "part": 1,
+        "promptHtml": "<p class=\"frame\">Let's talk about music.</p><p>What kind of music do you enjoy listening to? [Why?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>When do you usually listen to music? [Why?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>Have you ever learnt to play a musical instrument? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>Do you think your taste in music has changed as you have got older? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 2,
+        "promptHtml": "<p>Describe a piece of music that means a lot to you.</p>",
+        "bulletsHtml": [
+          "what the music is",
+          "when you first heard it",
+          "how often you listen to it",
+          "and explain why it means a lot to you"
+        ],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider music and society.</p><p>Why do you think music is important in every culture?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Do you agree that traditional music should be taught in schools?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>How has technology changed the way people listen to music?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider learning an instrument.</p><p>What are the benefits for children of learning a musical instrument?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Do you think music lessons should be free for everyone?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Is it harder to learn an instrument as an adult than as a child?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "speaking-test-2",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "speaking",
+    "title": "Speaking Test 2 — Your home",
+    "source": "Cambridge IELTS 14, Test 2",
+    "description": "The full three-part interview: social media in Part 1, a long turn on “Describe something you liked very much which you bought for your home”, then a discussion of creating a nice home and different types of home.",
+    "totalQuestions": 0,
+    "durationSeconds": 840,
+    "prompts": [
+      {
+        "part": 1,
+        "promptHtml": "<p class=\"frame\">Let's talk about social media.</p><p>Which social media websites do you use?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>How much time do you spend on social media sites? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>What kind of information about yourself have you put on social media? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>Is there anything you don't like about social media? [Why?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 2,
+        "promptHtml": "<p>Describe something you liked very much which you bought for your home.</p>",
+        "bulletsHtml": [
+          "what you bought",
+          "when and where you bought it",
+          "why you chose this particular thing",
+          "and explain why you liked it so much"
+        ],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider creating a nice home.</p><p>Why do some people buy lots of things for their home?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Do you think it is very expensive to make a home look nice?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Why don't some people care about how their home looks?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider different types of home.</p><p>In what ways is living in a flat/apartment better than living in a house?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Do you think homes will look different in the future?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Do you agree that the kinds of homes people prefer change as they get older?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "speaking-test-6",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "speaking",
+    "title": "Speaking Test 6 — Famous people",
+    "source": "Cambridge IELTS 15, Test 3",
+    "description": "The full three-part interview: swimming in Part 1, a long turn on “Describe a famous business person that you know about”, then a discussion of famous people today and the advantages of being famous.",
+    "totalQuestions": 0,
+    "durationSeconds": 840,
+    "prompts": [
+      {
+        "part": 1,
+        "promptHtml": "<p class=\"frame\">Let's talk about swimming.</p><p>Did you learn to swim when you were a child? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>How often do you go swimming now? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>What places are there for swimming where you live? [Why?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>Do you think it would be more enjoyable to go swimming outdoors or at an indoor pool? [Why?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 2,
+        "promptHtml": "<p>Describe a famous business person that you know about.</p>",
+        "bulletsHtml": [
+          "who this person is",
+          "what kind of business this person is involved in",
+          "what you know about this business person",
+          "and explain what you think of this business person"
+        ],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider famous people today.</p><p>What kinds of people are most famous in your country today?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Why are there so many stories about famous people in the news?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Do you agree or disagree that many young people today want to be famous?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider the advantages of being famous.</p><p>Do you think it is easy for famous people to earn a lot of money?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Why might famous people enjoy having fans?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>In what ways could famous people use their influence to do good things in the world?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

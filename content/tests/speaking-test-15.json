@@ -1,0 +1,92 @@
+{
+  "slug": "speaking-test-15",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "speaking",
+    "title": "Speaking Test 15 — Decisions",
+    "source": "Recalled exam questions",
+    "description": "The full three-part interview: photographs in Part 1, a long turn on “Describe an important decision you had to make”, then a discussion of making decisions and advice and influence.",
+    "totalQuestions": 0,
+    "durationSeconds": 840,
+    "prompts": [
+      {
+        "part": 1,
+        "promptHtml": "<p class=\"frame\">Let's talk about photographs.</p><p>Do you often take photographs? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>What kind of photographs do you like to take? [Why?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>Do you prefer to keep photographs on your phone or to print them? [Why?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>Have you ever framed a photograph to put on a wall? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 2,
+        "promptHtml": "<p>Describe an important decision you had to make.</p>",
+        "bulletsHtml": [
+          "what the decision was",
+          "when you had to make it",
+          "who helped you decide",
+          "and explain why the decision was important"
+        ],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider making decisions.</p><p>Why do some people find it hard to make up their minds?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Is it better to make a decision quickly or to take time over it?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Do you think people make better decisions as they get older?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider advice and influence.</p><p>Who do people usually turn to for advice about important matters?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Do you agree that parents should make big decisions for their children?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>How much are people's decisions influenced by advertising?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

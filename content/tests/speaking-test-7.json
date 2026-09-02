@@ -1,0 +1,92 @@
+{
+  "slug": "speaking-test-7",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "speaking",
+    "title": "Speaking Test 7 — Science on TV",
+    "source": "Cambridge IELTS 15, Test 4",
+    "description": "The full three-part interview: jewellery in Part 1, a long turn on “Describe an interesting TV programme you watched about a science topic”, then a discussion of science and the public and scientific discoveries.",
+    "totalQuestions": 0,
+    "durationSeconds": 840,
+    "prompts": [
+      {
+        "part": 1,
+        "promptHtml": "<p class=\"frame\">Let's talk about jewellery.</p><p>How often do you wear jewellery? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>What type of jewellery do you like best? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>When do people like to give jewellery in your country? [Why?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>Have you ever given jewellery to someone as a gift? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 2,
+        "promptHtml": "<p>Describe an interesting TV programme you watched about a science topic.</p>",
+        "bulletsHtml": [
+          "what science topic this TV programme was about",
+          "when you saw this TV programme",
+          "what you learnt from this TV programme about a science topic",
+          "and explain why you found this TV programme interesting"
+        ],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider science and the public.</p><p>How interested are most people in your country in science?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Why do you think children today might be better at science than their parents?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>How do you suggest the public can learn more about scientific developments?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider scientific discoveries.</p><p>What do you think are the most important scientific discoveries in the last 100 years?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Do you agree or disagree that there are no more major scientific discoveries left to make?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Who should pay for scientific research – governments or private companies?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "speaking-test-4",
+  "isPremium": false,
+  "content": {
+    "schemaVersion": 1,
+    "skill": "speaking",
+    "title": "Speaking Test 4 — Online shopping",
+    "source": "Cambridge IELTS 14, Test 4",
+    "description": "The full three-part interview: your neighbourhood in Part 1, a long turn on “Describe a website you have bought something from”, then a discussion of shopping online and online retail businesses.",
+    "totalQuestions": 0,
+    "durationSeconds": 840,
+    "prompts": [
+      {
+        "part": 1,
+        "promptHtml": "<p class=\"frame\">Let's talk about your neighbourhood.</p><p>Do you like the neighbourhood you live in? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>What do you do in your neighbourhood in your free time? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>What new things would you like to have in your neighbourhood? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 1,
+        "promptHtml": "<p>Would you like to live in another neighbourhood in your town or city? [Why/Why not?]</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 30
+      },
+      {
+        "part": 2,
+        "promptHtml": "<p>Describe a website you have bought something from.</p>",
+        "bulletsHtml": [
+          "what the website is",
+          "what you bought from this website",
+          "how satisfied you were with what you bought",
+          "and explain what you liked and disliked about using this website"
+        ],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider shopping online.</p><p>What kinds of things do people in your country often buy from online shops?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Why has online shopping become so popular in many countries?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>What are some possible disadvantages of buying things from online shops?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p class=\"frame\">Let's consider online retail businesses.</p><p>Do you agree that the prices of all goods should be lower on internet shopping sites than in shops?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Will large shopping malls continue to be popular, despite the growth of internet shopping?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      },
+      {
+        "part": 3,
+        "promptHtml": "<p>Do you think that some businesses (e.g. banks and travel agents) will only operate online in the future?</p>",
+        "prepSeconds": 0,
+        "speakSeconds": 60
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {},
+    "sets": []
+  }
+}
