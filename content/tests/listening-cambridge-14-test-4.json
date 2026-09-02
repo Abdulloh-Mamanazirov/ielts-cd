@@ -1,0 +1,627 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "IELTS Listening — Cambridge 14, Test 4",
+    "source": "Cambridge IELTS 14",
+    "totalQuestions": 40,
+    "durationSeconds": 1800,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Section 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 1–7</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 2,
+            "bodyHtml": "<table class=\"q-table\"><caption class=\"summary-title\">Enquiry about booking hotel room for event</caption>\n<tbody>\n<tr><td colspan=\"2\"><em>Example</em>&nbsp;&nbsp;Andrew is the <u>Events</u> Manager</td></tr>\n<tr><td colspan=\"2\"><strong>Rooms</strong></td></tr>\n<tr><td>Adelphi Room</td><td>– number of people who can sit down to eat: {{1}}<br>– has a gallery suitable for musicians<br>– can go out and see the {{2}} in pots on the terrace<br>– terrace has a view of a group of {{3}}</td></tr>\n<tr><td>Carlton Room</td><td>– number of people who can sit down to eat: 110<br>– has a {{4}}<br>– view of the lake</td></tr>\n<tr><td colspan=\"2\"><strong>Options</strong></td></tr>\n<tr><td>Master of Ceremonies:</td><td>– can give a {{5}} while people are eating<br>– will provide {{6}} if there are any problems</td></tr>\n<tr><td>Accommodation:</td><td>– in hotel rooms or {{7}}</td></tr>\n</tbody></table>"
+          },
+          {
+            "id": "part-1-group-2",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 8–10</h3><p>What is said about using each of the following hotel facilities?</p><p>Choose <strong>THREE</strong> answers from the box and write the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>, next to Questions 8–10.</p><p><strong>Availability</strong></p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "included in cost of hiring room"
+              },
+              {
+                "letter": "B",
+                "textHtml": "available at extra charge"
+              },
+              {
+                "letter": "C",
+                "textHtml": "not available"
+              }
+            ],
+            "questions": [
+              {
+                "number": 8,
+                "textHtml": "outdoor swimming pool"
+              },
+              {
+                "number": 9,
+                "textHtml": "gym"
+              },
+              {
+                "number": 10,
+                "textHtml": "tennis courts"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Section 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 11–16</h3><p>What information does the speaker give about each of the following excursions?</p><p>Choose <strong>SIX</strong> answers from the box and write the correct letter, <strong>A–H</strong>, next to Questions 11–16.</p><p><strong>Information</strong></p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "all downhill"
+              },
+              {
+                "letter": "B",
+                "textHtml": "suitable for beginners"
+              },
+              {
+                "letter": "C",
+                "textHtml": "only in good weather"
+              },
+              {
+                "letter": "D",
+                "textHtml": "food included"
+              },
+              {
+                "letter": "E",
+                "textHtml": "no charge"
+              },
+              {
+                "letter": "F",
+                "textHtml": "swimming possible"
+              },
+              {
+                "letter": "G",
+                "textHtml": "fully booked today"
+              },
+              {
+                "letter": "H",
+                "textHtml": "transport not included"
+              }
+            ],
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "dolphin watching"
+              },
+              {
+                "number": 12,
+                "textHtml": "forest walk"
+              },
+              {
+                "number": 13,
+                "textHtml": "cycle trip"
+              },
+              {
+                "number": 14,
+                "textHtml": "local craft tour"
+              },
+              {
+                "number": 15,
+                "textHtml": "observatory trip"
+              },
+              {
+                "number": 16,
+                "textHtml": "horse riding"
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 17 and 18</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> things does the speaker say about the attraction called <em>Musical Favourites</em>?</p>",
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "Which <strong>TWO</strong> things does the speaker say about the attraction called <em>Musical Favourites</em>?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "You pay extra for drinks."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "You must book it in advance."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "You get a reduction if you buy two tickets."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "You can meet the performers."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "You can take part in the show."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 19 and 20</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> things does the speaker say about the <em>Castle Feast</em>?</p>",
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "Which <strong>TWO</strong> things does the speaker say about the <em>Castle Feast</em>?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Visitors can dance after the meal."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "There is a choice of food."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Visitors wear historical costume."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Knives and forks are not used."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "The entertainment includes horse races."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Section 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 21–25</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p>",
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "What does Trevor find interesting about the purpose of children's literature?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the fact that authors may not realise what values they're teaching"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "the fact that literature can be entertaining and educational at the same time"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the fact that adults expect children to imitate characters in literature"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "textHtml": "Trevor says the module about the purpose of children's literature made him",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "analyse some of the stories that his niece reads."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "wonder how far popularity reflects good quality."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "decide to start writing some children's stories."
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "textHtml": "Stephanie is interested in the Pictures module because",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "she intends to become an illustrator."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "she can remember beautiful illustrations from her childhood."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "she believes illustrations are more important than words."
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "textHtml": "Trevor and Stephanie agree that comics",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "are inferior to books."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "have the potential for being useful."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "discourage children from using their imagination."
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "textHtml": "With regard to books aimed at only boys or only girls, Trevor was surprised",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "how long the distinction had gone unquestioned."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "how few books were aimed at both girls and boys."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "how many children enjoyed books intended for the opposite sex."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 26–30</h3><p>What comment is made about each of these stories?</p><p>Choose <strong>FIVE</strong> answers from the box and write the correct letter, <strong>A–G</strong>, next to Questions 26–30.</p><p><strong>Comments</strong></p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "translated into many other languages"
+              },
+              {
+                "letter": "B",
+                "textHtml": "hard to read"
+              },
+              {
+                "letter": "C",
+                "textHtml": "inspired a work in a different area of art"
+              },
+              {
+                "letter": "D",
+                "textHtml": "more popular than the author's other works"
+              },
+              {
+                "letter": "E",
+                "textHtml": "original title refers to another book"
+              },
+              {
+                "letter": "F",
+                "textHtml": "started a new genre"
+              },
+              {
+                "letter": "G",
+                "textHtml": "unlikely topic"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "Perrault's fairy tales"
+              },
+              {
+                "number": 27,
+                "textHtml": "<em>The Swiss Family Robinson</em>"
+              },
+              {
+                "number": 28,
+                "textHtml": "<em>The Nutcracker and The Mouse King</em>"
+              },
+              {
+                "number": 29,
+                "textHtml": "<em>The Lord of the Rings</em>"
+              },
+              {
+                "number": 30,
+                "textHtml": "<em>War Horse</em>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Section 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "selectCount": 1,
+            "maxWords": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">The hunt for sunken settlements and ancient shipwrecks</div>\n<p class=\"sub-head\">ATLIT-YAM</p>\n<ul class=\"notes-list\">\n<li>was a village on coast of eastern Mediterranean</li>\n<li>thrived until about 7,000 BC</li>\n<li>stone homes had a courtyard</li>\n<li>had a semicircle of large stones round a {{31}}</li>\n<li>cause of destruction unknown – now under the sea</li>\n<li>biggest settlement from the prehistoric period found on the seabed</li>\n<li>research carried out into structures, {{32}} and human remains</li>\n</ul>\n<p class=\"sub-head\">TRADITIONAL AUTONOMOUS UNDERWATER VEHICLES (AUVs)</p>\n<ul class=\"notes-list\">\n<li>used in the oil industry, e.g. to make {{33}}</li>\n<li>problems: they were expensive and {{34}}</li>\n</ul>\n<p class=\"sub-head\">LATEST AUVs</p>\n<ul class=\"notes-list\">\n<li>much easier to use, relatively cheap, sophisticated</li>\n</ul>\n<p class=\"sub-head\">Tests:</p>\n<ul class=\"notes-list\">\n<li>Marzamemi, Sicily: found ancient Roman ships carrying architectural elements made of {{35}}</li>\n</ul>\n<p class=\"sub-head\">Underwater internet:</p>\n<ul class=\"notes-list\">\n<li>{{36}} is used for short distance communication, acoustic waves for long distance</li>\n<li>plans for communication with researchers by satellite</li>\n<li>AUV can send data to another AUV that has better {{37}}, for example</li>\n</ul>\n<p class=\"sub-head\">Planned research in Gulf of Baratti:</p>\n<ul class=\"notes-list\">\n<li>to find out more about wrecks of ancient Roman ships, including\n<ul><li>– one carrying {{38}} supplies; tablets may have been used for cleaning the {{39}}</li>\n<li>– others carrying containers of olive oil or {{40}}</li></ul></li>\n</ul></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "85"
+        ],
+        "type": "Note completion"
+      },
+      "2": {
+        "accepted": [
+          "roses"
+        ],
+        "type": "Note completion"
+      },
+      "3": {
+        "accepted": [
+          "trees"
+        ],
+        "type": "Note completion"
+      },
+      "4": {
+        "accepted": [
+          "stage"
+        ],
+        "type": "Note completion"
+      },
+      "5": {
+        "accepted": [
+          "speech"
+        ],
+        "type": "Note completion"
+      },
+      "6": {
+        "accepted": [
+          "support"
+        ],
+        "type": "Note completion"
+      },
+      "7": {
+        "accepted": [
+          "cabins"
+        ],
+        "type": "Note completion"
+      },
+      "8": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching"
+      },
+      "9": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching"
+      },
+      "10": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching"
+      },
+      "11": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching"
+      },
+      "12": {
+        "accepted": [
+          "d"
+        ],
+        "type": "Matching"
+      },
+      "13": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Matching"
+      },
+      "14": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching"
+      },
+      "15": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching"
+      },
+      "16": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching"
+      },
+      "21": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "22": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Multiple choice"
+      },
+      "23": {
+        "accepted": [
+          "a"
+        ],
+        "type": "Multiple choice"
+      },
+      "24": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "25": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Multiple choice"
+      },
+      "26": {
+        "accepted": [
+          "f"
+        ],
+        "type": "Matching"
+      },
+      "27": {
+        "accepted": [
+          "e"
+        ],
+        "type": "Matching"
+      },
+      "28": {
+        "accepted": [
+          "c"
+        ],
+        "type": "Matching"
+      },
+      "29": {
+        "accepted": [
+          "b"
+        ],
+        "type": "Matching"
+      },
+      "30": {
+        "accepted": [
+          "g"
+        ],
+        "type": "Matching"
+      },
+      "31": {
+        "accepted": [
+          "spring"
+        ],
+        "type": "Note completion"
+      },
+      "32": {
+        "accepted": [
+          "tools"
+        ],
+        "type": "Note completion"
+      },
+      "33": {
+        "accepted": [
+          "maps"
+        ],
+        "type": "Note completion"
+      },
+      "34": {
+        "accepted": [
+          "heavy"
+        ],
+        "type": "Note completion"
+      },
+      "35": {
+        "accepted": [
+          "marble"
+        ],
+        "type": "Note completion"
+      },
+      "36": {
+        "accepted": [
+          "light"
+        ],
+        "type": "Note completion"
+      },
+      "37": {
+        "accepted": [
+          "camera",
+          "cameras"
+        ],
+        "type": "Note completion"
+      },
+      "38": {
+        "accepted": [
+          "medical"
+        ],
+        "type": "Note completion"
+      },
+      "39": {
+        "accepted": [
+          "eyes"
+        ],
+        "type": "Note completion"
+      },
+      "40": {
+        "accepted": [
+          "wine"
+        ],
+        "type": "Note completion"
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          17,
+          18
+        ],
+        "accepted": [
+          "b",
+          "d"
+        ],
+        "type": "Multiple choice (choose two)"
+      },
+      {
+        "questions": [
+          19,
+          20
+        ],
+        "accepted": [
+          "a",
+          "d"
+        ],
+        "type": "Multiple choice (choose two)"
+      }
+    ]
+  },
+  "slug": "listening-cambridge-14-test-4",
+  "isPremium": false,
+  "series": "CAMBRIDGE",
+  "seriesNumber": 14,
+  "testNumber": 4
+}
