@@ -19,7 +19,9 @@ export default async function ResultsPage() {
   const [results, testimonials] = await Promise.all([
     prisma.showcaseResult.findMany({
       where: { isVisible: true },
-      orderBy: [{ overallBand: "desc" }, { displayOrder: "asc" }],
+      // The instructor's own order, the same one /admin/showcase and the home
+      // page use. Sorting by band instead would silently re-shuffle it.
+      orderBy: [{ displayOrder: "asc" }, { overallBand: "desc" }],
       select: {
         id: true,
         studentName: true,
