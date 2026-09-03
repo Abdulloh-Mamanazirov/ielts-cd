@@ -3,7 +3,13 @@
 import { useState, useTransition } from "react";
 
 import { updatePlans } from "@/app/admin/actions";
-import { PLAN_ORDER, type PlanConfig, type PlansConfig, type SeriesAccess } from "@/lib/plans";
+import {
+  PLAN_ORDER,
+  type PlanConfig,
+  type PlansConfig,
+  type SeriesAccess,
+  type TestAccess,
+} from "@/lib/plans";
 import { cn } from "@/lib/utils";
 
 /**
@@ -13,13 +19,18 @@ import { cn } from "@/lib/utils";
  * The whole configuration is saved in one go, so a half-finished edit never
  * reaches the pricing page.
  */
+export type SkillTest = { slug: string; title: string };
+
 export function PlansEditor({
   initial,
   seriesNumbers,
+  skillTests,
 }: {
   initial: PlansConfig;
   /** Which volumes and books actually exist, so access can be ticked off. */
   seriesNumbers: { REAL_EXAM: number[]; CAMBRIDGE: number[] };
+  /** The writing and speaking tests themselves, chosen one by one. */
+  skillTests: { WRITING: SkillTest[]; SPEAKING: SkillTest[] };
 }) {
   const [plans, setPlans] = useState<PlansConfig>(initial);
   const [message, setMessage] = useState<string | null>(null);
@@ -129,29 +140,21 @@ export function PlansEditor({
                 }
               />
 
-              {/* Writing and speaking sit in no numbered set, so they cannot be
-                  ticked off in the pickers above and need their own switches. */}
-              <div>
-                <span className="mb-1 block text-[11px] font-bold text-ink-subtle">
-                  Writing and speaking
-                </span>
-                <div className="flex flex-wrap gap-4">
-                  <Toggle
-                    checked={plan.skills.WRITING}
-                    onChange={(WRITING) =>
-                      patch(key, { skills: { ...plan.skills, WRITING } })
-                    }
-                    label="Writing tests"
-                  />
-                  <Toggle
-                    checked={plan.skills.SPEAKING}
-                    onChange={(SPEAKING) =>
-                      patch(key, { skills: { ...plan.skills, SPEAKING } })
-                    }
-                    label="Speaking tests"
-                  />
-                </div>
-              </div>
+              {/* Writing and speaking sit in no numbered set, so they are
+                  picked one by one rather than ticked off by number. */}
+              <TestPicker
+                label="Writing tests"
+                available={skillTests.WRITING}
+                value={plan.skills.WRITING}
+                onChange={(WRITING) => patch(key, { skills: { ...plan.skills, WRITING } })}
+              />
+
+              <TestPicker
+                label="Speaking tests"
+                available={skillTests.SPEAKING}
+                value={plan.skills.SPEAKING}
+                onChange={(SPEAKING) => patch(key, { skills: { ...plan.skills, SPEAKING } })}
+              />
 
               <div className="mt-1 flex flex-wrap gap-4">
                 <Toggle
@@ -280,6 +283,76 @@ function AccessPicker({
               )}
             >
               {number}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/** All, none, or a ticked list of the individual tests that exist. */
+function TestPicker({
+  label,
+  available,
+  value,
+  onChange,
+}: {
+  label: string;
+  available: SkillTest[];
+  value: TestAccess;
+  onChange: (access: TestAccess) => void;
+}) {
+  const chosen = value.kind === "some" ? value.slugs : [];
+  const order = available.map((test) => test.slug);
+
+  const toggle = (slug: string) => {
+    const next = chosen.includes(slug)
+      ? chosen.filter((entry) => entry !== slug)
+      // Kept in the order the tests are listed, so a saved config reads the
+      // same way it was ticked.
+      : [...chosen, slug].sort((a, b) => order.indexOf(a) - order.indexOf(b));
+    onChange({ kind: "some", slugs: next });
+  };
+
+  return (
+    <div>
+      <span className="mb-1 block text-[11px] font-bold text-ink-subtle">{label}</span>
+      <div className="flex gap-1.5">
+        {(["all", "none", "some"] as const).map((kind) => (
+          <button
+            key={kind}
+            type="button"
+            onClick={() => onChange(kind === "some" ? { kind: "some", slugs: chosen } : { kind })}
+            className={cn(
+              "rounded-[7px] px-2.5 py-1 text-[11px] font-bold transition",
+              value.kind === kind ? "bg-ink text-white" : "bg-surface-alt text-ink-muted",
+            )}
+          >
+            {kind === "all" ? "All" : kind === "none" ? "None" : "Choose"}
+          </button>
+        ))}
+      </div>
+
+      {value.kind === "some" && (
+        <div className="mt-2 flex flex-wrap gap-1.5">
+          {available.length === 0 && (
+            <span className="text-[11px] text-ink-subtle">None imported yet.</span>
+          )}
+          {available.map((test) => (
+            <button
+              key={test.slug}
+              type="button"
+              onClick={() => toggle(test.slug)}
+              title={test.title}
+              className={cn(
+                "h-7 rounded-[6px] px-2 text-[11px] font-bold transition",
+                chosen.includes(test.slug)
+                  ? "bg-brand-blue text-white"
+                  : "bg-surface-alt text-ink-muted hover:bg-ink/10",
+              )}
+            >
+              {test.title}
             </button>
           ))}
         </div>

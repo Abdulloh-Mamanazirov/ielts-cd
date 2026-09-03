@@ -136,6 +136,8 @@ export default async function TestsPage({
   /** Whether the subscription opens a particular test. */
   const opensTest = (test: {
     skill: "LISTENING" | "READING" | "WRITING" | "SPEAKING";
+    // Writing and speaking are chosen by slug, so the gate needs it.
+    slug: string;
     series: "REAL_EXAM" | "CAMBRIDGE";
     seriesNumber: number | null;
   }) => user.role === "ADMIN" || allowsTest(plans, plan, test);
@@ -310,9 +312,11 @@ export default async function TestsPage({
         {level === "tests" && (
         <ul className="mx-auto max-w-4xl space-y-px bg-rule">
           {visible.map((test) => {
-            const alwaysOpen = test.skill === "WRITING" || test.skill === "SPEAKING";
-            const locked =
-              !alwaysOpen && ((test.isPremium && !hasPremium) || !opensTest(test));
+            // The per-test premium flag is ignored for writing and speaking, as
+            // in canAccessTest -- what gates those is the plan's own selection,
+            // which opensTest checks for every skill.
+            const flagApplies = test.skill !== "WRITING" && test.skill !== "SPEAKING";
+            const locked = (flagApplies && test.isPremium && !hasPremium) || !opensTest(test);
             const state = stateFor(test.id);
 
             return (

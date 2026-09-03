@@ -20,11 +20,18 @@ export type SeriesAccess =
   | { kind: "some"; numbers: number[] };
 
 /**
- * Which ungraded skills a plan opens. Listening and reading are gated by the
- * series access above, but writing and speaking belong to no numbered volume or
- * book, so a list of numbers cannot describe them. They get their own switch.
+ * Which writing or speaking tests a plan opens.
+ *
+ * These belong to no numbered volume or book, so they cannot be ticked off by
+ * number the way the series access works. They are chosen by slug instead, which
+ * also means a plan keeps exactly the tests it was given when new ones are added.
  */
-export type SkillAccess = { WRITING: boolean; SPEAKING: boolean };
+export type TestAccess =
+  | { kind: "all" }
+  | { kind: "none" }
+  | { kind: "some"; slugs: string[] };
+
+export type SkillAccess = { WRITING: TestAccess; SPEAKING: TestAccess };
 
 export type PlanConfig = {
   label: string;
@@ -65,7 +72,7 @@ export const DEFAULT_PLANS: PlansConfig = {
       REAL_EXAM: { kind: "some", numbers: [1] },
       CAMBRIDGE: { kind: "none" },
     },
-    skills: { WRITING: true, SPEAKING: true },
+    skills: { WRITING: { kind: "all" }, SPEAKING: { kind: "all" } },
     fullMocks: 1,
     featured: false,
     inviteOnly: false,
@@ -86,7 +93,7 @@ export const DEFAULT_PLANS: PlansConfig = {
       REAL_EXAM: { kind: "all" },
       CAMBRIDGE: { kind: "all" },
     },
-    skills: { WRITING: true, SPEAKING: true },
+    skills: { WRITING: { kind: "all" }, SPEAKING: { kind: "all" } },
     fullMocks: 1,
     featured: true,
     inviteOnly: true,
@@ -107,7 +114,7 @@ export const DEFAULT_PLANS: PlansConfig = {
       REAL_EXAM: { kind: "all" },
       CAMBRIDGE: { kind: "all" },
     },
-    skills: { WRITING: true, SPEAKING: true },
+    skills: { WRITING: { kind: "all" }, SPEAKING: { kind: "all" } },
     fullMocks: null,
     featured: false,
     inviteOnly: false,
@@ -139,16 +146,31 @@ export function allowsSeries(access: SeriesAccess, seriesNumber: number | null):
   return seriesNumber !== null && access.numbers.includes(seriesNumber);
 }
 
+/** Whether a plan opens a particular writing or speaking test. */
+export function allowsSkillTest(access: TestAccess, slug: string | undefined): boolean {
+  if (access.kind === "all") return true;
+  if (access.kind === "none") return false;
+  // Without a slug there is nothing to match, so a chosen few cannot include it.
+  return slug !== undefined && access.slugs.includes(slug);
+}
+
 /** Whether a plan opens a given test. */
 export function allowsTest(
   plans: PlansConfig,
   plan: Plan,
-  test: { skill?: Skill; series: TestSeries; seriesNumber: number | null; isPremium?: boolean },
+  test: {
+    skill?: Skill;
+    slug?: string;
+    series: TestSeries;
+    seriesNumber: number | null;
+    isPremium?: boolean;
+  },
 ): boolean {
   // Writing and speaking sit in no numbered set, so the series access cannot
-  // describe them; each plan carries its own switch, set in the admin screen.
-  if (test.skill === "WRITING") return plans[plan].skills.WRITING;
-  if (test.skill === "SPEAKING") return plans[plan].skills.SPEAKING;
+  // describe them; each plan picks them individually, by slug.
+  if (test.skill === "WRITING" || test.skill === "SPEAKING") {
+    return allowsSkillTest(plans[plan].skills[test.skill], test.slug);
+  }
 
   return allowsSeries(plans[plan].access[test.series], test.seriesNumber);
 }
@@ -201,4 +223,11 @@ export function describeAccess(access: SeriesAccess): string {
   if (access.kind === "none") return "None";
   if (access.numbers.length === 0) return "None";
   return access.numbers.join(", ");
+}
+
+/** The same, for a writing or speaking selection. */
+export function describeTestAccess(access: TestAccess): string {
+  if (access.kind === "all") return "All";
+  if (access.kind === "none" || access.slugs.length === 0) return "None";
+  return `${access.slugs.length} selected`;
 }

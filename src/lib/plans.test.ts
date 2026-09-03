@@ -1,43 +1,56 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 
-import { DEFAULT_PLANS, allowsTest, mergePlans, type PlansConfig } from "./plans";
+import { DEFAULT_PLANS, allowsTest, mergePlans, type PlansConfig, type TestAccess } from "./plans";
 
-/** A plan set where FREE opens neither writing nor speaking. */
-function withSkills(WRITING: boolean, SPEAKING: boolean): PlansConfig {
+/** A plan set whose FREE tier opens the given writing and speaking tests. */
+function withSkills(WRITING: TestAccess, SPEAKING: TestAccess): PlansConfig {
   return {
     ...DEFAULT_PLANS,
     FREE: { ...DEFAULT_PLANS.FREE, skills: { WRITING, SPEAKING } },
   };
 }
 
-const writing = { skill: "WRITING", series: "REAL_EXAM", seriesNumber: null } as const;
-const speaking = { skill: "SPEAKING", series: "REAL_EXAM", seriesNumber: null } as const;
+const w1 = { skill: "WRITING", slug: "writing-mock-1", series: "REAL_EXAM", seriesNumber: null } as const;
+const w2 = { skill: "WRITING", slug: "writing-mock-2", series: "REAL_EXAM", seriesNumber: null } as const;
+const s1 = { skill: "SPEAKING", slug: "speaking-test-1", series: "REAL_EXAM", seriesNumber: null } as const;
 const reading = { skill: "READING", series: "CAMBRIDGE", seriesNumber: 16 } as const;
 
 describe("allowsTest for writing and speaking", () => {
-  it("opens them when the plan's switch is on", () => {
-    const plans = withSkills(true, true);
-    assert.equal(allowsTest(plans, "FREE", writing), true);
-    assert.equal(allowsTest(plans, "FREE", speaking), true);
+  it("opens every test when the plan says all", () => {
+    const plans = withSkills({ kind: "all" }, { kind: "all" });
+    assert.equal(allowsTest(plans, "FREE", w1), true);
+    assert.equal(allowsTest(plans, "FREE", s1), true);
   });
 
-  it("closes them when the plan's switch is off", () => {
-    const plans = withSkills(false, false);
-    assert.equal(allowsTest(plans, "FREE", writing), false);
-    assert.equal(allowsTest(plans, "FREE", speaking), false);
+  it("closes every test when the plan says none", () => {
+    const plans = withSkills({ kind: "none" }, { kind: "none" });
+    assert.equal(allowsTest(plans, "FREE", w1), false);
+    assert.equal(allowsTest(plans, "FREE", s1), false);
   });
 
-  it("switches the two skills independently", () => {
-    const plans = withSkills(true, false);
-    assert.equal(allowsTest(plans, "FREE", writing), true);
-    assert.equal(allowsTest(plans, "FREE", speaking), false);
+  it("opens only the tests that were picked", () => {
+    const plans = withSkills({ kind: "some", slugs: ["writing-mock-1"] }, { kind: "none" });
+    assert.equal(allowsTest(plans, "FREE", w1), true);
+    assert.equal(allowsTest(plans, "FREE", w2), false);
+    assert.equal(allowsTest(plans, "FREE", s1), false);
+  });
+
+  it("selects the two skills independently", () => {
+    const plans = withSkills({ kind: "all" }, { kind: "none" });
+    assert.equal(allowsTest(plans, "FREE", w1), true);
+    assert.equal(allowsTest(plans, "FREE", s1), false);
+  });
+
+  it("closes a picked test that arrives without a slug", () => {
+    // Nothing to match on, so a chosen few cannot be said to include it.
+    const plans = withSkills({ kind: "some", slugs: ["writing-mock-1"] }, { kind: "all" });
+    const noSlug = { skill: "WRITING", series: "REAL_EXAM", seriesNumber: null } as const;
+    assert.equal(allowsTest(plans, "FREE", noSlug), false);
   });
 
   it("leaves listening and reading to the series access", () => {
-    // Turning writing and speaking off must not touch the graded skills, which
-    // FREE opens by volume rather than by skill.
-    const plans = withSkills(false, false);
+    const plans = withSkills({ kind: "none" }, { kind: "none" });
     assert.equal(allowsTest(plans, "FREE", reading), false); // FREE opens no Cambridge
     assert.equal(allowsTest(plans, "PREMIUM", reading), true);
   });
@@ -48,12 +61,18 @@ describe("mergePlans", () => {
     // The stored JSON predates `skills`; the old behaviour was that both were
     // open on every plan, and an upgrade must not silently close them.
     const merged = mergePlans({ FREE: { label: "Free", price: "0" } });
-    assert.deepEqual(merged.FREE.skills, { WRITING: true, SPEAKING: true });
+    assert.deepEqual(merged.FREE.skills, {
+      WRITING: { kind: "all" },
+      SPEAKING: { kind: "all" },
+    });
     assert.equal(merged.FREE.label, "Free");
   });
 
-  it("honours a stored switch", () => {
-    const merged = mergePlans({ FREE: { skills: { WRITING: false, SPEAKING: true } } });
-    assert.deepEqual(merged.FREE.skills, { WRITING: false, SPEAKING: true });
+  it("honours a stored selection", () => {
+    const merged = mergePlans({
+      FREE: { skills: { WRITING: { kind: "some", slugs: ["writing-mock-3"] }, SPEAKING: { kind: "none" } } },
+    });
+    assert.deepEqual(merged.FREE.skills.WRITING, { kind: "some", slugs: ["writing-mock-3"] });
+    assert.deepEqual(merged.FREE.skills.SPEAKING, { kind: "none" });
   });
 });

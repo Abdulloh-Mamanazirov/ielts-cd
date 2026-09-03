@@ -743,6 +743,12 @@ const accessSchema = z.union([
   z.object({ kind: z.literal("some"), numbers: z.array(z.number().int().positive()) }),
 ]);
 
+const testAccessSchema = z.union([
+  z.object({ kind: z.literal("all") }),
+  z.object({ kind: z.literal("none") }),
+  z.object({ kind: z.literal("some"), slugs: z.array(z.string().min(1).max(120)) }),
+]);
+
 const planSchema = z.object({
   label: z.string().min(1).max(40),
   tagline: z.string().max(200),
@@ -750,7 +756,7 @@ const planSchema = z.object({
   period: z.string().max(60),
   benefits: z.array(z.string().min(1).max(200)).min(1),
   access: z.object({ REAL_EXAM: accessSchema, CAMBRIDGE: accessSchema }),
-  skills: z.object({ WRITING: z.boolean(), SPEAKING: z.boolean() }),
+  skills: z.object({ WRITING: testAccessSchema, SPEAKING: testAccessSchema }),
   // null is unlimited.
   fullMocks: z.number().int().nonnegative().nullable(),
   featured: z.boolean(),
