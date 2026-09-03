@@ -133,7 +133,7 @@ export default async function TestsPage({
   const opens = (series: "REAL_EXAM" | "CAMBRIDGE", seriesNumber: number | null) =>
     user.role === "ADMIN" || allowsSeries(plans[plan].access[series], seriesNumber);
 
-  /** Whether it opens a particular test — writing and speaking always do. */
+  /** Whether the subscription opens a particular test. */
   const opensTest = (test: {
     skill: "LISTENING" | "READING" | "WRITING" | "SPEAKING";
     series: "REAL_EXAM" | "CAMBRIDGE";

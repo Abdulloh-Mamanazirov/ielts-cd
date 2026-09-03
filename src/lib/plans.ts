@@ -19,6 +19,13 @@ export type SeriesAccess =
   /** Specific Volume or Cambridge numbers, e.g. [1, 2]. */
   | { kind: "some"; numbers: number[] };
 
+/**
+ * Which ungraded skills a plan opens. Listening and reading are gated by the
+ * series access above, but writing and speaking belong to no numbered volume or
+ * book, so a list of numbers cannot describe them. They get their own switch.
+ */
+export type SkillAccess = { WRITING: boolean; SPEAKING: boolean };
+
 export type PlanConfig = {
   label: string;
   tagline: string;
@@ -28,6 +35,7 @@ export type PlanConfig = {
   period: string;
   benefits: string[];
   access: Record<TestSeries, SeriesAccess>;
+  skills: SkillAccess;
   /** Full mocks allowed per account. `null` means unlimited. */
   fullMocks: number | null;
   /** Draws the card out on the pricing page. */
@@ -57,6 +65,7 @@ export const DEFAULT_PLANS: PlansConfig = {
       REAL_EXAM: { kind: "some", numbers: [1] },
       CAMBRIDGE: { kind: "none" },
     },
+    skills: { WRITING: true, SPEAKING: true },
     fullMocks: 1,
     featured: false,
     inviteOnly: false,
@@ -77,6 +86,7 @@ export const DEFAULT_PLANS: PlansConfig = {
       REAL_EXAM: { kind: "all" },
       CAMBRIDGE: { kind: "all" },
     },
+    skills: { WRITING: true, SPEAKING: true },
     fullMocks: 1,
     featured: true,
     inviteOnly: true,
@@ -97,6 +107,7 @@ export const DEFAULT_PLANS: PlansConfig = {
       REAL_EXAM: { kind: "all" },
       CAMBRIDGE: { kind: "all" },
     },
+    skills: { WRITING: true, SPEAKING: true },
     fullMocks: null,
     featured: false,
     inviteOnly: false,
@@ -134,10 +145,10 @@ export function allowsTest(
   plan: Plan,
   test: { skill?: Skill; series: TestSeries; seriesNumber: number | null; isPremium?: boolean },
 ): boolean {
-  // Writing and speaking are open on every plan. They are not auto-graded, so
-  // there is no band to meter, and a student who cannot practise them at all
-  // is a student who arrives on exam day having written nothing.
-  if (test.skill === "WRITING" || test.skill === "SPEAKING") return true;
+  // Writing and speaking sit in no numbered set, so the series access cannot
+  // describe them; each plan carries its own switch, set in the admin screen.
+  if (test.skill === "WRITING") return plans[plan].skills.WRITING;
+  if (test.skill === "SPEAKING") return plans[plan].skills.SPEAKING;
 
   return allowsSeries(plans[plan].access[test.series], test.seriesNumber);
 }
@@ -171,6 +182,12 @@ export function mergePlans(stored: unknown): PlansConfig {
       access: {
         REAL_EXAM: over.access?.REAL_EXAM ?? base.access.REAL_EXAM,
         CAMBRIDGE: over.access?.CAMBRIDGE ?? base.access.CAMBRIDGE,
+      },
+      // A config stored before this field existed keeps the old behaviour,
+      // which was writing and speaking open on every plan.
+      skills: {
+        WRITING: over.skills?.WRITING ?? base.skills.WRITING,
+        SPEAKING: over.skills?.SPEAKING ?? base.skills.SPEAKING,
       },
       fullMocks: over.fullMocks === undefined ? base.fullMocks : over.fullMocks,
     };

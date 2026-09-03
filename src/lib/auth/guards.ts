@@ -56,10 +56,10 @@ export function canAccessTest(
 ): boolean {
   if (!user) return false;
 
-  // Writing and speaking are open on every plan and are never metered — see
-  // `allowsTest`. Honouring an old per-test premium flag on them would
-  // contradict that, and the flag is baked into content files rather than set
-  // by hand, so it cannot simply be turned off in the admin screen.
+  // Whether a plan opens writing and speaking is decided in the admin screen —
+  // see `allowsTest`, which runs alongside this check. The per-test premium
+  // flag is ignored for them because it is baked into content files rather
+  // than set by hand, so it could not be turned off if it were wrong.
   if (test.skill === "WRITING" || test.skill === "SPEAKING") return true;
 
   if (!test.isPremium) return true;

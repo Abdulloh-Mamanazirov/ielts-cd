@@ -129,6 +129,30 @@ export function PlansEditor({
                 }
               />
 
+              {/* Writing and speaking sit in no numbered set, so they cannot be
+                  ticked off in the pickers above and need their own switches. */}
+              <div>
+                <span className="mb-1 block text-[11px] font-bold text-ink-subtle">
+                  Writing and speaking
+                </span>
+                <div className="flex flex-wrap gap-4">
+                  <Toggle
+                    checked={plan.skills.WRITING}
+                    onChange={(WRITING) =>
+                      patch(key, { skills: { ...plan.skills, WRITING } })
+                    }
+                    label="Writing tests"
+                  />
+                  <Toggle
+                    checked={plan.skills.SPEAKING}
+                    onChange={(SPEAKING) =>
+                      patch(key, { skills: { ...plan.skills, SPEAKING } })
+                    }
+                    label="Speaking tests"
+                  />
+                </div>
+              </div>
+
               <div className="mt-1 flex flex-wrap gap-4">
                 <Toggle
                   checked={plan.featured}

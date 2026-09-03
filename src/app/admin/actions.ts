@@ -750,6 +750,7 @@ const planSchema = z.object({
   period: z.string().max(60),
   benefits: z.array(z.string().min(1).max(200)).min(1),
   access: z.object({ REAL_EXAM: accessSchema, CAMBRIDGE: accessSchema }),
+  skills: z.object({ WRITING: z.boolean(), SPEAKING: z.boolean() }),
   // null is unlimited.
   fullMocks: z.number().int().nonnegative().nullable(),
   featured: z.boolean(),
