@@ -317,31 +317,51 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "but mostly land-based people, who learned to build ships from the",
+          "anchor": "para-1"
+        }
       },
       "2": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "from the 6th century BCE, they were fixed using a method",
+          "anchor": "para-2"
+        }
       },
       "3": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "method, still in use today, which consisted of building the frame",
+          "anchor": "para-2"
+        }
       },
       "4": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "powerful in the Mediterranean, and the Romans had control over what",
+          "anchor": "para-3"
+        }
       },
       "5": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "to popular perception, rowers were not slaves but mostly Roman citizens",
+          "anchor": "para-4"
+        }
       },
       "6": {
         "accepted": [
@@ -429,6 +449,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "have easily misplaced arrows and they often discarded broken bows rather",
           "anchor": "para-D"
         }
       },
@@ -438,6 +459,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "‘Fieldwork is hard work – hiking with all our equipment, often",
           "anchor": "para-C"
         }
       },
@@ -447,6 +469,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "climate would likely have meant widespread crop failures, so more people",
           "anchor": "para-F"
         }
       },
@@ -456,6 +479,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "Norway’s mountains are probably still hiding a lot of",
           "anchor": "para-H"
         }
       },
@@ -465,6 +489,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "through to the 900s CE. Trade networks connecting Scandinavia with Europe",
           "anchor": "para-G"
         }
       },
@@ -474,6 +499,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "ice cover around the world, glacial archaeologists need to race the",
           "anchor": "para-B"
         }
       },
@@ -512,37 +538,61 @@
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "An international team of scientists led",
+          "anchor": "para-A"
+        }
       },
       "28": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "crops. ‘It is estimated that agricultural yields will need to double",
+          "anchor": "para-D"
+        }
       },
       "29": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "major threat to achieving this. Key crops such as wheat and",
+          "anchor": "para-D"
+        }
       },
       "30": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "are sensitive to high temperatures. Thermal stress reduces crop yields by",
+          "anchor": "para-D"
+        }
       },
       "31": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "plant growth. During the day, sunlight activates the molecules, slowing down",
+          "anchor": "para-E"
+        }
       },
       "32": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "these molecules change states, and the pace at which they change",
+          "anchor": "para-B"
+        }
       },
       "33": {
         "accepted": [
@@ -550,6 +600,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "of research as we have outstanding collaborators nearby who work on",
           "anchor": "para-H"
         }
       },
@@ -559,6 +610,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "internal thermometer in plant cells could help us breed tougher crops.",
           "anchor": "para-D"
         }
       },
@@ -568,6 +620,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "the dual role of phytochromes provides the science behind a well-known",
           "anchor": "para-G"
         }
       },
@@ -577,6 +630,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "and flowers to bud early, something humans have long used to",
           "anchor": "para-C"
         }
       },
@@ -586,6 +640,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "The new findings, published in the journal",
           "anchor": "para-A"
         }
       },

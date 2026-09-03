@@ -405,49 +405,81 @@
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "figures scattered around England, with the vast majority on the chalk",
+          "anchor": "para-1"
+        }
       },
       "2": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "of the country’s southern counties. The figures include giants, horses, crosses",
+          "anchor": "para-1"
+        }
       },
       "3": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Oxfordshire. The White Horse has recently been re-dated and shown to",
+          "anchor": "para-2"
+        }
       },
       "4": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "ancient pre-Roman Iron Age date. More controversial is the date of",
+          "anchor": "para-2"
+        }
       },
       "5": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "huge figures was simply to remove the overlying grass to reveal",
+          "anchor": "para-3"
+        }
       },
       "6": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "gleaming white chalk below. However, the grass would soon grow over",
+          "anchor": "para-3"
+        }
       },
       "7": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "in exactly the same place, thus creating a different shape to",
+          "anchor": "para-3"
+        }
       },
       "8": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "The most famous of these figures",
+          "anchor": "para-2"
+        }
       },
       "9": {
         "accepted": [
@@ -503,163 +535,271 @@
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "and they will outlive us. Invisible to the naked eye, they",
+          "anchor": "para-1"
+        }
       },
       "15": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "is amazing is that while the number of human cells in",
+          "anchor": "para-2"
+        }
       },
       "16": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "these extraordinarily potent creatures was a Dutch lens-maker called Antony van",
+          "anchor": "para-5"
+        }
       },
       "17": {
         "accepted": [
           "g"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "tolerance, pointing out that while fewer than one hundred species of",
+          "anchor": "para-6"
+        }
       },
       "18": {
         "accepted": [
           "b"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "heroes. Instead we should realise we have a symbiotic relationship, that",
+          "anchor": "para-6"
+        }
       },
       "19": {
         "accepted": [
           "h"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "unravelling the ways in which bacteria aid digestion, regulate our immune",
+          "anchor": "para-7"
+        }
       },
       "20": {
         "accepted": [
           "e"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "there are studies indicating that the excessive use of household detergents",
+          "anchor": "para-8"
+        }
       },
       "21": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "detergents and antibacterial products actually destroys the microbes that normally keep",
+          "anchor": "para-8"
+        }
       },
       "22": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "more dangerous germs at bay. Other studies show that keeping a",
+          "anchor": "para-8"
+        }
       },
       "23": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "of Yong’s book must be prepared for a decidedly unglamorous world.",
+          "anchor": "para-9"
+        }
       },
       "24": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "for a decidedly unglamorous world. Among the less appealing case studies",
+          "anchor": "para-9"
+        }
       },
       "25": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "million people a year – mosquitoes are being loaded with a",
+          "anchor": "para-9"
+        }
       },
       "26": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "manipulate microbes means we could construct buildings with useful microbes built",
+          "anchor": "para-9"
+        }
       },
       "27": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "it isn’t an exceptional trait possessed by a small handful of",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "situational, and cultural factors are even more powerful in shaping wisdom",
+          "anchor": "para-2"
+        }
       },
       "29": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "others lack it, but that our ability to reason wisely depends",
+          "anchor": "para-3"
+        }
       },
       "30": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "own day-to-day decisions is to look at scenarios from a third-party",
+          "anchor": "para-5"
+        }
       },
       "31": {
         "accepted": [
           "d"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "One is intellectual humility or recognition of the limits of our",
+          "anchor": "para-4"
+        }
       },
       "32": {
         "accepted": [
           "a"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "own knowledge, and another is appreciation of perspectives wider than the",
+          "anchor": "para-4"
+        }
       },
       "33": {
         "accepted": [
           "c"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "than the issue at hand. Sensitivity to the possibility of change",
+          "anchor": "para-4"
+        }
       },
       "34": {
         "accepted": [
           "f"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "scenarios from a third-party perspective, as though giving advice to a",
+          "anchor": "para-5"
+        }
       },
       "35": {
         "accepted": [
           "g"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "is also key, along with compromise or integration of different attitudes",
+          "anchor": "para-4"
+        }
       },
       "36": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "to imagine their career either ‘as if you were a distant",
+          "anchor": "para-7"
+        }
       },
       "37": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "In another study, couples in long-term romantic relationships were",
+          "anchor": "para-8"
+        }
       },
       "38": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "their own perspective. Participants then discussed the incident with their partner",
+          "anchor": "para-8"
+        }
       },
       "39": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "‘Ego-decentering promotes greater focus on others",
+          "anchor": "para-9"
+        }
       },
       "40": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "personality traits, but research shows only a small positive relationship between",
+          "anchor": "para-10"
+        }
       }
     },
     "sets": []

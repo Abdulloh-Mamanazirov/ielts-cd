@@ -466,25 +466,41 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "to cut through high mountains when the qanat method was not",
+          "anchor": "para-3"
+        }
       },
       "8": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "a practical alternative. This method required greater planning and advanced knowledge",
+          "anchor": "para-3"
+        }
       },
       "9": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "the tunnel not being usable. An inscription written on the side",
+          "anchor": "para-3"
+        }
       },
       "10": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "in modern-day Algeria, describes how the two teams of builders missed",
+          "anchor": "para-3"
+        }
       },
       "11": {
         "accepted": [
@@ -522,79 +538,131 @@
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "Unbeknown to most of us, an invisible, game-changing transformation links everyone",
+          "anchor": "para-1"
+        }
       },
       "15": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "when we innovate but when we ignore what we disrupt or",
+          "anchor": "para-3"
+        }
       },
       "16": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "an environment to develop. Further, it will adapt to that environment’s",
+          "anchor": "para-4"
+        }
       },
       "17": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "describes how many college students actively avoid the classic literature of",
+          "anchor": "para-5"
+        }
       },
       "18": {
         "accepted": [
           "d"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "screen use may be causing a variety of troubling downstream effects",
+          "anchor": "para-6"
+        }
       },
       "19": {
         "accepted": [
           "h"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "in different mediums. Mangen’s group asked subjects questions about a short",
+          "anchor": "para-6"
+        }
       },
       "20": {
         "accepted": [
           "f"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "to screen-reading peers, particularly in their ability to sequence detail and",
+          "anchor": "para-6"
+        }
       },
       "21": {
         "accepted": [
           "b"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "norm’ in reading is skimming, involving word-spotting and browsing through the",
+          "anchor": "para-7"
+        }
       },
       "22": {
         "accepted": [
           "c"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "reading processes. In other words, we don’t have time to grasp",
+          "anchor": "para-7"
+        }
       },
       "23": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "various mediums and how that changes not only what we read,",
+          "anchor": "para-8"
+        }
       },
       "24": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "of critical analysis and empathy affects us all equally. It affects",
+          "anchor": "para-8"
+        }
       },
       "25": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "require and receive no analysis, leaving us susceptible to false information",
+          "anchor": "para-8"
+        }
       },
       "26": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "reading brain is hardly finished. We possess both the science and",
+          "anchor": "para-9"
+        }
       },
       "27": {
         "accepted": [
@@ -602,6 +670,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "require a good forecast, and AI is almost always better at",
           "anchor": "para-A"
         }
       },
@@ -611,6 +680,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "technology giant IBM’s supercomputer programs. Their attempt to promote this program",
           "anchor": "para-B"
         }
       },
@@ -620,6 +690,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "what AI has to offer. Trust in other people is often",
           "anchor": "para-C"
         }
       },
@@ -629,6 +700,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "life. It was found that, regardless of whether the film they",
           "anchor": "para-D"
         }
       },
@@ -638,6 +710,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "Another solution may be to reveal",
           "anchor": "para-E"
         }
       },
@@ -647,6 +720,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "Research suggests that allowing people some control over AI",
           "anchor": "para-F"
         }
       },
@@ -654,49 +728,81 @@
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "for all these technological advances, we still seem to deeply lack",
+          "anchor": "para-A"
+        }
       },
       "34": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "not always the case), AI’s decision-making process is usually too difficult",
+          "anchor": "para-C"
+        }
       },
       "35": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "instances where AI goes wrong. Embarrassing AI failures receive a disproportionate",
+          "anchor": "para-C"
+        }
       },
       "36": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "future polarised the participants’ attitudes. Optimists became more extreme in their",
+          "anchor": "para-D"
+        }
       },
       "37": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "tendency known as “confirmation bias”. As AI is represented more and",
+          "anchor": "para-D"
+        }
       },
       "38": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "the advantages offered by AI could place a large group of",
+          "anchor": "para-D"
+        }
       },
       "39": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "improve trust in AI. Simply having previous experience with AI can",
+          "anchor": "para-E"
+        }
       },
       "40": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "showed that when people were allowed the freedom to slightly modify",
+          "anchor": "para-F"
+        }
       }
     },
     "sets": []

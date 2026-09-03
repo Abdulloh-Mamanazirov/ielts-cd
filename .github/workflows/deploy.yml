@@ -95,6 +95,9 @@ jobs:
           printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
 
+      # Everything below runs as `ielts`, which owns /srv/ielts and holds the
+      # GitHub deploy key. As the login user, git refuses the checkout for
+      # dubious ownership and has no key to authenticate the fetch with.
       - name: Pull and rebuild
         env:
           DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
@@ -103,7 +106,7 @@ jobs:
           ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes \
             "$DEPLOY_USER@$DEPLOY_HOST" \
             'set -euo pipefail
+             sudo -u ielts git -C /srv/ielts fetch --prune origin
+             sudo -u ielts git -C /srv/ielts reset --hard origin/master
              cd /srv/ielts
-             git fetch --prune origin
-             git reset --hard origin/master
-             bash scripts/deploy.sh'
+             sudo -u ielts bash scripts/deploy.sh'

@@ -376,43 +376,71 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "of fat underneath their skin. Humans with comparative levels of adipose",
+          "anchor": "para-1"
+        }
       },
       "2": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "light on this mystery. They compared the genetic structure of polar",
+          "anchor": "para-2"
+        }
       },
       "3": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "A 2014 study by Shi Ping",
+          "anchor": "para-2"
+        }
       },
       "4": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "a gene known as APoB, which reduces levels of low-density lipoproteins",
+          "anchor": "para-2"
+        }
       },
       "5": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "build their dens. In addition, six months later, when they finally",
+          "anchor": "para-4"
+        }
       },
       "6": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "with their cubs, there was no evidence of significant loss of",
+          "anchor": "para-4"
+        }
       },
       "7": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "polar bears can be understood, many bedridden humans, and even astronauts,",
+          "anchor": "para-4"
+        }
       },
       "8": {
         "accepted": [
@@ -480,6 +508,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "The pyramids are the most famous",
           "anchor": "para-A"
         }
       },
@@ -489,6 +518,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "stone. Prior to Djoser’s reign, tombs were rectangular monuments made of",
           "anchor": "para-B"
         }
       },
@@ -498,6 +528,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "it is now known that the building process went through many",
           "anchor": "para-C"
         }
       },
@@ -507,6 +538,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "tallest structure of its time. The complex in which it was",
           "anchor": "para-D"
         }
       },
@@ -516,6 +548,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "body was laid to rest, was dug beneath the base of",
           "anchor": "para-E"
         }
       },
@@ -525,6 +558,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "design of the underground network did not prevent ancient robbers from",
           "anchor": "para-F"
         }
       },
@@ -534,6 +568,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "Egyptologist Miroslav Verner writes, ‘Few monuments hold a place in",
           "anchor": "para-G"
         }
       },
@@ -581,85 +616,141 @@
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "3–14% of the global workforce will need to switch to a",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "result of the ‘algorithmication’ of jobs that are dependent on data",
+          "anchor": "para-2"
+        }
       },
       "29": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "creep into working practices whereby workers learn through the ‘algorithm’s eyes’",
+          "anchor": "para-6"
+        }
       },
       "30": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "will mean a ‘jobless future’ by looking at the causes of",
+          "anchor": "para-12"
+        }
       },
       "31": {
         "accepted": [
           "g"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "rather than on production – the so-called knowledge economy. Algorithms are",
+          "anchor": "para-2"
+        }
       },
       "32": {
         "accepted": [
           "e"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "through the ‘algorithm’s eyes’ and become dependent on its instructions. Alternative",
+          "anchor": "para-6"
+        }
       },
       "33": {
         "accepted": [
           "c"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "instructions. Alternative explorations – where experimentation and human instinct lead to",
+          "anchor": "para-6"
+        }
       },
       "34": {
         "accepted": [
           "f"
         ],
-        "type": "Summary (words)"
+        "type": "Summary (words)",
+        "evidence": {
+          "snippet": "avoid. Their objective is to make AI technologies more trustworthy and",
+          "anchor": "para-8"
+        }
       },
       "35": {
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "just 50 jobs for humans. The number of jobs will increase:",
+          "anchor": "para-10"
+        }
       },
       "36": {
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "can outperform humans,’ says Pachidi. ‘Organisations are attracted to using algorithms",
+          "anchor": "para-3"
+        }
       },
       "37": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "have once imagined,’ he adds. ‘Just as the industrial revolution brought",
+          "anchor": "para-14"
+        }
       },
       "38": {
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "‘We need to make sure we fully understand the dilemmas that",
+          "anchor": "para-8"
+        }
       },
       "39": {
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "whole life course for everyone: ‘The traditional trajectory of full-time education",
+          "anchor": "para-9"
+        }
       },
       "40": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "then I’d like to see governments seizing the opportunity to improve",
+          "anchor": "para-13"
+        }
       }
     },
     "sets": [
