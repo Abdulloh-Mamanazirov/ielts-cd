@@ -438,49 +438,81 @@
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "century, is generally attributed to the relentless efforts of sheep farmers",
+          "anchor": "para-5"
+        }
       },
       "7": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "There was only one successful attempt to breed",
+          "anchor": "para-6"
+        }
       },
       "8": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Zoo and Tasmania's Hobart Zoo. The famous naturalist John Gould foresaw",
+          "anchor": "para-6"
+        }
       },
       "9": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "pressure to preserve the thylacine, nor was much concern expressed by",
+          "anchor": "para-7"
+        }
       },
       "10": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "the scarcity of the thylacine to suggest that some should be",
+          "anchor": "para-7"
+        }
       },
       "11": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "it was not until 1929, with the species on the very",
+          "anchor": "para-7"
+        }
       },
       "12": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "north-east of Tasmania in 1930, leaving just captive specimens. Official protection",
+          "anchor": "para-8"
+        }
       },
       "13": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "There have been numerous expeditions and",
+          "anchor": "para-9"
+        }
       },
       "14": {
         "accepted": [
@@ -488,6 +520,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "sunflower or other competing oils. That immensely high yield - which",
           "anchor": "para-F"
         }
       },
@@ -497,6 +530,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "regulated by a group called the Roundtable on Sustainable Palm Oil",
           "anchor": "para-G"
         }
       },
@@ -506,6 +540,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "world. It's almost certainly in the soap we wash with in",
           "anchor": "para-A"
         }
       },
@@ -515,6 +550,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "ecological role. Ellwood believes that reintroducing the bird's nest fern into",
           "anchor": "para-H"
         }
       },
@@ -524,6 +560,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "trees. Between 1990 and 2012, the global land area devoted to",
           "anchor": "para-B"
         }
       },
@@ -533,6 +570,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "role palm oil plays in lifting many millions of people in",
           "anchor": "para-E"
         }
       },
@@ -542,6 +580,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "and Indonesia. Endangered species - most famously the Sumatran orangutan, but",
           "anchor": "para-C"
         }
       },
@@ -590,85 +629,141 @@
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "New York City. The book combines geology, history, economics, and a",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "of the cost of development. At first glance, it is not",
+          "anchor": "para-3"
+        }
       },
       "29": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "which the chapter is based, it is probably more technical than",
+          "anchor": "para-5"
+        }
       },
       "30": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "of urban economic theory that may serve as a distraction to",
+          "anchor": "para-7"
+        }
       },
       "31": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "century to the present day. The data work that went into",
+          "anchor": "para-8"
+        }
       },
       "32": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "a 'helicopter time-machine' ride - giving a fascinating account of how",
+          "anchor": "para-2"
+        }
       },
       "33": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "informative and well researched and set the stage for the economic",
+          "anchor": "para-3"
+        }
       },
       "34": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "four primary immigrant enclaves and analyzes their locations in terms of",
+          "anchor": "para-4"
+        }
       },
       "35": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "on the least valuable land, between the industries located on the",
+          "anchor": "para-4"
+        }
       },
       "36": {
         "accepted": [
           "h"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "and Midtown New York is the reason for skyscrapers not being",
+          "anchor": "para-6"
+        }
       },
       "37": {
         "accepted": [
           "d"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "bedrock does increase foundation costs, these costs were neither prohibitively high",
+          "anchor": "para-6"
+        }
       },
       "38": {
         "accepted": [
           "i"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "high nor were they large compared to the overall cost of",
+          "anchor": "para-6"
+        }
       },
       "39": {
         "accepted": [
           "b"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "describes the use of caissons, which enable workers to dig down",
+          "anchor": "para-6"
+        }
       },
       "40": {
         "accepted": [
           "f"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "not only how caissons work, but also the dangers involved. While",
+          "anchor": "para-6"
+        }
       }
     },
     "sets": [

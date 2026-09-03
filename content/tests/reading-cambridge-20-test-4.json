@@ -367,37 +367,61 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "figure in American art. Remarkably, she remained independent from shifting art",
+          "anchor": "para-1"
+        }
       },
       "9": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "from high school in 1905, she had determined to make her",
+          "anchor": "para-2"
+        }
       },
       "10": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "art in a new direction. She sent some of these drawings",
+          "anchor": "para-3"
+        }
       },
       "11": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "black-and- white portraits of O’Keeffe, taken over the course of twenty",
+          "anchor": "para-4"
+        }
       },
       "12": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "pictures between 1946 and 1960, she reinvented the patio into an",
+          "anchor": "para-8"
+        }
       },
       "13": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "viewed from just above clouds. In both series, O’Keeffe increased the",
+          "anchor": "para-9"
+        }
       },
       "14": {
         "accepted": [
@@ -405,6 +429,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "help defend coastal areas by trapping sediment in their net-like root",
           "anchor": "para-C"
         }
       },
@@ -414,6 +439,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "times, with scientists forecasting that global warming would continue for around",
           "anchor": "para-A"
         }
       },
@@ -423,6 +449,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "elevating houses, English explains – about a third of what it",
           "anchor": "para-D"
         }
       },
@@ -432,6 +459,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "future in LA,' says Spotts. Using a Geographic Information System data",
           "anchor": "para-F"
         }
       },
@@ -489,25 +517,41 @@
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "embed natural processes and that engage and benefit communities and local",
+          "anchor": "para-C"
+        }
       },
       "24": {
         "accepted": [
           "e"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "its average temperature by 1.5°C. 'Urban cooling is literally a matter",
+          "anchor": "para-F"
+        }
       },
       "25": {
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "know that in 20, 30, 40 years, we’ll need to go",
+          "anchor": "para-B"
+        }
       },
       "26": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "tip of everybody’s tongue, but this technology is becoming necessary in",
+          "anchor": "para-D"
+        }
       },
       "27": {
         "accepted": [
@@ -515,7 +559,8 @@
         ],
         "type": "Matching information",
         "evidence": {
-          "anchor": "para-D"
+          "snippet": "wildlife from predators. For example, their presence has been found to",
+          "anchor": "para-G"
         }
       },
       "28": {
@@ -524,6 +569,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "we can get this right, there may be a bright future",
           "anchor": "para-G"
         }
       },
@@ -533,6 +579,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "animals become the dog’s family. The dogs will place themselves between",
           "anchor": "para-B"
         }
       },
@@ -542,6 +589,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "at the University of Tasmania, more than 65 per cent of",
           "anchor": "para-C"
         }
       },
@@ -551,6 +599,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "various parts of the world. These dogs are raised from an",
           "anchor": "para-B"
         }
       },
@@ -558,31 +607,51 @@
         "accepted": [
           "d"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "believes this result applies widely. ‘There is common ground from the",
+          "anchor": "para-D"
+        }
       },
       "33": {
         "accepted": [
           "e"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "dogs – but warned that such self-reported results must be taken",
+          "anchor": "para-E"
+        }
       },
       "34": {
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "two have dogs,’ says Ribeiro. ‘If we are not working with",
+          "anchor": "para-E"
+        }
       },
       "35": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "are managed and used properly, livestock guard dogs are the most",
+          "anchor": "para-C"
+        }
       },
       "36": {
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "fun to be around, but too much human affection makes it",
+          "anchor": "para-B"
+        }
       },
       "37": {
         "accepted": [

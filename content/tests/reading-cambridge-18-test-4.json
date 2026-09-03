@@ -486,6 +486,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "help out. Other considerations include installing drainage paths, meeting health and",
           "anchor": "para-D"
         }
       },
@@ -495,6 +496,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "buildings to have green roofs. Toronto, Canada, has policies dating from",
           "anchor": "para-C"
         }
       },
@@ -504,6 +506,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "sustainably long into the future. The success stories need to be",
           "anchor": "para-E"
         }
       },
@@ -513,6 +516,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "water. Research also indicates that green roofs can be integrated with",
           "anchor": "para-B"
         }
       },
@@ -522,6 +526,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "installing green roofs is worthwhile, economic arguments are still the most",
           "anchor": "para-D"
         }
       },
@@ -569,163 +574,271 @@
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "to quantify cognitive ability. Then, in the early 20th century, progressive",
+          "anchor": "para-1"
+        }
       },
       "15": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "growth mindset in schools is coaxing students away from seeing failure",
+          "anchor": "para-2"
+        }
       },
       "16": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "future tasks. Meanwhile, the former took on only those tasks that",
+          "anchor": "para-3"
+        }
       },
       "17": {
         "accepted": [
           "c"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "statistician Andrew Gelman claims that 'their research designs have enough degrees",
+          "anchor": "para-5"
+        }
       },
       "18": {
         "accepted": [
           "b"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "her work accordingly. In fact, she argues that her work has",
+          "anchor": "para-6"
+        }
       },
       "19": {
         "accepted": [
           "a"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "held that earlier view and sought to quantify cognitive ability. Then,",
+          "anchor": "para-1"
+        }
       },
       "20": {
         "accepted": [
           "e"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "and Gregory Walton claim that interventions should be delivered in a",
+          "anchor": "para-7"
+        }
       },
       "21": {
         "accepted": [
           "b"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "for learning and improvement. It's not just a vehicle for making",
+          "anchor": "para-6"
+        }
       },
       "22": {
         "accepted": [
           "d"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "Dweck's work, is finding that the results are repeatedly null. He",
+          "anchor": "para-5"
+        }
       },
       "23": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "not lost on Dweck, and she deserves great credit for responding",
+          "anchor": "para-6"
+        }
       },
       "24": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "is evidence to suggest that the actual effect of achievement on",
+          "anchor": "para-8"
+        }
       },
       "25": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "Recent evidence would suggest that growth mindset interventions are not the",
+          "anchor": "para-9"
+        }
       },
       "26": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "attribute for students. Paradoxically, however, that aspiration is not well served",
+          "anchor": "para-9"
+        }
       },
       "27": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "went through four editions and was the focus of an international",
+          "anchor": "para-2"
+        }
       },
       "28": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "that the continents moved laterally, rather than supposing that they remained",
+          "anchor": "para-3"
+        }
       },
       "29": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "plausible and how they worked, using evidence from a large number",
+          "anchor": "para-3"
+        }
       },
       "30": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "tectonics is in many respects quite different from Wegener's proposal, in",
+          "anchor": "para-3"
+        }
       },
       "31": {
         "accepted": [
           "i"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "about Wegener's life and work, one of the most intriguing things",
+          "anchor": "para-4"
+        }
       },
       "32": {
         "accepted": [
           "f"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "he was not a geologist. He trained as an astronomer and",
+          "anchor": "para-4"
+        }
       },
       "33": {
         "accepted": [
           "a"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "of Marburg, in southern Germany. However, he was not an 'unknown'.",
+          "anchor": "para-4"
+        }
       },
       "34": {
         "accepted": [
           "c"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "not an 'unknown'. In 1906 he had set a world record",
+          "anchor": "para-4"
+        }
       },
       "35": {
         "accepted": [
           "h"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "he had taken part in a highly publicized and extremely dangerous",
+          "anchor": "para-4"
+        }
       },
       "36": {
         "accepted": [
           "e"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "northeast Greenland. He had also made a name for himself amongst",
+          "anchor": "para-4"
+        }
       },
       "37": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "geophysics, and paleoclimatology*, and thus I have been at great pains",
+          "anchor": "para-5"
+        }
       },
       "38": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "his lifetime have survived and he didn't keep notebooks or diaries",
+          "anchor": "para-7"
+        }
       },
       "39": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "parallel to their scientific notebooks. The more such material a scientist",
+          "anchor": "para-8"
+        }
       },
       "40": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "often with apparent freedom, but most of the time our lives",
+          "anchor": "para-9"
+        }
       }
     },
     "sets": [

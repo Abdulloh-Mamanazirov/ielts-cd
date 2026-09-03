@@ -370,7 +370,11 @@
         "accepted": [
           "hair"
         ],
-        "type": "Note completion"
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "wrinkled skin. They also have some hairs covering their bodies which",
+          "anchor": "para-2"
+        }
       },
       "4": {
         "accepted": [
@@ -406,43 +410,71 @@
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "fresh water and salt water, taking advantage of coastal mangroves and",
+          "anchor": "para-6"
+        }
       },
       "8": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "is typically restricted to Florida. When the ambient water temperature drops",
+          "anchor": "para-6"
+        }
       },
       "9": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "from Mauritania down to Angola. The species also makes use of",
+          "anchor": "para-7"
+        }
       },
       "10": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "(IUCN). It is estimated that 140,000 Amazonian manatees were killed between",
+          "anchor": "para-8"
+        }
       },
       "11": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "the IUCN. Both are also expected to undergo a decline of",
+          "anchor": "para-9"
+        }
       },
       "12": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "over the next 40 years. A review of almost 1,800 cases",
+          "anchor": "para-9"
+        }
       },
       "13": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "manatees is boat strikes. However, laws in certain parts of Florida",
+          "anchor": "para-9"
+        }
       },
       "14": {
         "accepted": [
@@ -450,6 +482,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "Contrary to popular belief, procrastination is not due to laziness",
           "anchor": "para-B"
         }
       },
@@ -459,6 +492,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "be overly critical of ourselves. We should remind ourselves that we’re",
           "anchor": "para-F"
         }
       },
@@ -468,6 +502,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "brain imaging has found that areas of the brain linked to",
           "anchor": "para-B"
         }
       },
@@ -535,85 +570,141 @@
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "judgments himself about a strike*, DeJesus had decisions fed to him",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "some strange calls. In response, MLB decided to tweak the dimensions",
+          "anchor": "para-4"
+        }
       },
       "29": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "that ABS is profoundly consistent. MLB says the device is near-perfect,",
+          "anchor": "para-4"
+        }
       },
       "30": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "exciting. The results showed that everyone wanted more action: more hits,",
+          "anchor": "para-6"
+        }
       },
       "31": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "Sword's team brainstormed potential fixes. Any rule that existed, they talked",
+          "anchor": "para-7"
+        }
       },
       "32": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "you want into the system. \"It might be a triangle, or",
+          "anchor": "para-7"
+        }
       },
       "33": {
         "accepted": [
           "f"
         ],
-        "type": "Summary (phrases)"
+        "type": "Summary (phrases)",
+        "evidence": {
+          "snippet": "who had commissioned the system, wanted human umpires to announce the",
+          "anchor": "para-2"
+        }
       },
       "34": {
         "accepted": [
           "d"
         ],
-        "type": "Summary (phrases)"
+        "type": "Summary (phrases)",
+        "evidence": {
+          "snippet": "DeJesus it was a strike. Previously, calling a strike was a",
+          "anchor": "para-2"
+        }
       },
       "35": {
         "accepted": [
           "h"
         ],
-        "type": "Summary (phrases)"
+        "type": "Summary (phrases)",
+        "evidence": {
+          "snippet": "passes through the 'strike zone' (an imaginary zone about seventeen inches",
+          "anchor": "para-2"
+        }
       },
       "36": {
         "accepted": [
           "b"
         ],
-        "type": "Summary (phrases)"
+        "type": "Summary (phrases)",
+        "evidence": {
+          "snippet": "has been the game's animating force—countless arguments between a team's manager",
+          "anchor": "para-3"
+        }
       },
       "37": {
         "accepted": [
           "g"
         ],
-        "type": "Summary (phrases)"
+        "type": "Summary (phrases)",
+        "evidence": {
+          "snippet": "in an umpire's face, but you must never shout personal abuse",
+          "anchor": "para-3"
+        }
       },
       "38": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "precision can sometimes cause problems. But these applications deal with something",
+          "anchor": "para-8"
+        }
       },
       "39": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "make baseball more exciting since executives are terrified of losing younger",
+          "anchor": "para-6"
+        }
       },
       "40": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "replied. He later told me, \"This is part of a movement",
+          "anchor": "para-9"
+        }
       }
     },
     "sets": [

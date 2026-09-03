@@ -434,37 +434,61 @@
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Manchester and Liverpool. In addition, steam-powered boats and ships were widely",
+          "anchor": "para-3"
+        }
       },
       "9": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "instead of the traditional charcoal. This method was cheaper and produced",
+          "anchor": "para-5"
+        }
       },
       "10": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "In the 1830s and 1840s, Samuel Morse and other inventors worked",
+          "anchor": "para-6"
+        }
       },
       "11": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "country's economic output overall and improved the standard of living for",
+          "anchor": "para-8"
+        }
       },
       "12": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "years learning their craft, and they feared that unskilled machine operators",
+          "anchor": "para-8"
+        }
       },
       "13": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "In the days that followed, other Luddites were arrested, and dozens",
+          "anchor": "para-9"
+        }
       },
       "14": {
         "accepted": [
@@ -472,6 +496,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "body responds to stressful situations, as both affect the production of",
           "anchor": "para-D"
         }
       },
@@ -481,6 +506,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "as excitement, rather than nerves. Developing psychological skills, such as visualisation,",
           "anchor": "para-F"
         }
       },
@@ -490,6 +516,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "rate during a match, which she later attributed to 'the accumulation",
           "anchor": "para-A"
         }
       },
@@ -499,6 +526,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "threat state. Research shows that the challenge states lead to good",
           "anchor": "para-C"
         }
       },
@@ -508,6 +536,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "stress responses can be promoted through the language that they and",
           "anchor": "para-F"
         }
       },
@@ -556,85 +585,141 @@
         "accepted": [
           "h"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "the early age of 40. She was the only woman to",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "a"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "highly selective girls' school but maths wasn't her interest - reading",
+          "anchor": "para-2"
+        }
       },
       "29": {
         "accepted": [
           "c"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "her about what he'd learned. He shared a famous maths problem",
+          "anchor": "para-2"
+        }
       },
       "30": {
         "accepted": [
           "b"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "by what she did and also resolute in the face of",
+          "anchor": "para-3"
+        }
       },
       "31": {
         "accepted": [
           "j"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "sums it up. 'Of course, the most rewarding part is the",
+          "anchor": "para-3"
+        }
       },
       "32": {
         "accepted": [
           "i"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "doing mathematics for me is like being on a long hike",
+          "anchor": "para-3"
+        }
       },
       "33": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "her background unusual? Apparently not. Most Nobel prize winners were unexceptional",
+          "anchor": "para-4"
+        }
       },
       "34": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "high physics and maths scores. He struggled at work initially, but",
+          "anchor": "para-4"
+        }
       },
       "35": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "While the jury is out on",
+          "anchor": "para-6"
+        }
       },
       "36": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "had curiosity, character and determination. He struggled against rejection in early",
+          "anchor": "para-11"
+        }
       },
       "37": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "not that I'm so smart, it's just that I stay with",
+          "anchor": "para-11"
+        }
       },
       "38": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "the gifted and talented. However, they must be taught the right",
+          "anchor": "para-7"
+        }
       },
       "39": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "music to memory to sport, he doesn't think unique and innate",
+          "anchor": "para-8"
+        }
       },
       "40": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "in disadvantaged areas. Interviews uncovered strong evidence of an adult or",
+          "anchor": "para-10"
+        }
       }
     },
     "sets": [

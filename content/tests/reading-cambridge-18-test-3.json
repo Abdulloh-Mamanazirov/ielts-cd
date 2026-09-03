@@ -472,6 +472,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "a concrete mix. Fly ash, a byproduct of coal-burning power plants,",
           "anchor": "para-G"
         }
       },
@@ -481,6 +482,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "constructed almost entirely from timber. Vancouver, Vienna and Brumunddal in Norway",
           "anchor": "para-D"
         }
       },
@@ -490,6 +492,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "of concrete relatively cheap and found in abundance in most places",
           "anchor": "para-C"
         }
       },
@@ -499,6 +502,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "wood has its limitations and only when a wider range of",
           "anchor": "para-F"
         }
       },
@@ -546,91 +550,151 @@
         "accepted": [
           "c"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "carbon in the concrete mix, their use is not always straightforward.",
+          "anchor": "para-G"
+        }
       },
       "10": {
         "accepted": [
           "a"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "beat. 'Concrete is amazing stuff. Making anything with similar properties is",
+          "anchor": "para-C"
+        }
       },
       "11": {
         "accepted": [
           "b"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "that the company is seeing increasing demand globally for building in",
+          "anchor": "para-F"
+        }
       },
       "12": {
         "accepted": [
           "d"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "without breaking through. At present, these alternatives are rarely as cost-effective",
+          "anchor": "para-H"
+        }
       },
       "13": {
         "accepted": [
           "a"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "that makes it high carbon. The sheer scale of manufacture is",
+          "anchor": "para-B"
+        }
       },
       "14": {
         "accepted": [
           "c"
         ],
-        "type": "Matching headings"
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "weaknesses along with its strengths. The boilers had to be lit",
+          "anchor": "para-A"
+        }
       },
       "15": {
         "accepted": [
           "h"
         ],
-        "type": "Matching headings"
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "of steam cars were few. A new technology called the Internal",
+          "anchor": "para-B"
+        }
       },
       "16": {
         "accepted": [
           "f"
         ],
-        "type": "Matching headings"
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "Doble and his three brothers built their first steam car in",
+          "anchor": "para-C"
+        }
       },
       "17": {
         "accepted": [
           "e"
         ],
-        "type": "Matching headings"
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "The Model B proved to be",
+          "anchor": "para-D"
+        }
       },
       "18": {
         "accepted": [
           "g"
         ],
-        "type": "Matching headings"
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "investment in his automobile design, which he used to open the",
+          "anchor": "para-E"
+        }
       },
       "19": {
         "accepted": [
           "a"
         ],
-        "type": "Matching headings"
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "the handful of completed cars complained that the vehicles were sluggish",
+          "anchor": "para-F"
+        }
       },
       "20": {
         "accepted": [
           "d"
         ],
-        "type": "Matching headings"
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "early 1924, the Doble brothers shipped a Model E to New",
+          "anchor": "para-G"
+        }
       },
       "21": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "after starting up. At first, these noisy gasoline cars were unpopular",
+          "anchor": "para-B"
+        }
       },
       "22": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "car in their parents' basement. It comprised parts taken from a",
+          "anchor": "para-C"
+        }
       },
       "23": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "The following year Abner Doble drove the Model B from Massachusetts",
+          "anchor": "para-E"
+        }
       },
       "24": {
         "accepted": [
@@ -647,7 +711,11 @@
           "fifty",
           "50"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "The brothers made one final attempt",
+          "anchor": "para-G"
+        }
       },
       "26": {
         "accepted": [
@@ -663,85 +731,141 @@
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "the original. For three students, even these literacy demands are beyond",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "attainment. At a macro level, it requires the establishment of academically",
+          "anchor": "para-3"
+        }
       },
       "29": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "parents and burn out teachers. The brightest ones will never summit",
+          "anchor": "para-5"
+        }
       },
       "30": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "proximal development' (ZPD). This is the gap between what they can",
+          "anchor": "para-6"
+        }
       },
       "31": {
         "accepted": [
           "h"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "Education Research Institute, notes that 'tracking has minimal effects on learning",
+          "anchor": "para-7"
+        }
       },
       "32": {
         "accepted": [
           "d"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "streaming appears to significantly and negatively affect those students assigned to",
+          "anchor": "para-7"
+        }
       },
       "33": {
         "accepted": [
           "f"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "These students tend to have much higher representation of low socioeconomic",
+          "anchor": "para-7"
+        }
       },
       "34": {
         "accepted": [
           "e"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "socioeconomic class. Less significant is the small benefit for those lucky",
+          "anchor": "para-7"
+        }
       },
       "35": {
         "accepted": [
           "b"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "Streaming students by diagnosed achievement automatically limits what the teacher feels",
+          "anchor": "para-8"
+        }
       },
       "36": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "Lev Vygotsky. In the 1930s, Vygotsky emphasised the importance of targeting",
+          "anchor": "para-6"
+        }
       },
       "37": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "I would never think of. They operate with different language tools",
+          "anchor": "para-9"
+        }
       },
       "38": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "struggling classmates. There is also something exciting about passing on skills",
+          "anchor": "para-9"
+        }
       },
       "39": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "And today, more than ever, we need the many to flourish",
+          "anchor": "para-10"
+        }
       },
       "40": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "of a few bright stars. Once a year, I go on",
+          "anchor": "para-10"
+        }
       }
     },
     "sets": []

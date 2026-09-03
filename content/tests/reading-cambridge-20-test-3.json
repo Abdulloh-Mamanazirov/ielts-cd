@@ -469,37 +469,61 @@
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "century. In the early 1800s, ship owners from Boston, USA, had",
+          "anchor": "para-2"
+        }
       },
       "9": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "expanded and the cells burst, this spoilt the flavor and texture",
+          "anchor": "para-4"
+        }
       },
       "10": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Massachusetts, USA, named Clarence Birdseye, ran out of money and went",
+          "anchor": "para-5"
+        }
       },
       "11": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "of Birdseye's freezing techniques, and with the help of a clever",
+          "anchor": "para-11"
+        }
       },
       "12": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "potatoes and vegetables served in the same segmented aluminum tray that",
+          "anchor": "para-11"
+        }
       },
       "13": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Today, the US frozen food industry has",
+          "anchor": "para-12"
+        }
       },
       "14": {
         "accepted": [
@@ -507,6 +531,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "Conservationists have put the final touches",
           "anchor": "para-A"
         }
       },
@@ -516,6 +541,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "Corals are composed of tiny animals,",
           "anchor": "para-B"
         }
       },
@@ -525,6 +551,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "'rainforests of the sea', though the comparison is dismissed by some",
           "anchor": "para-C"
         }
       },
@@ -534,6 +561,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "under very serious threat, with the most immediate problem coming in",
           "anchor": "para-D"
         }
       },
@@ -543,6 +571,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "However, scientists are trying to pinpoint hardy",
           "anchor": "para-E"
         }
       },
@@ -552,6 +581,7 @@
         ],
         "type": "Matching headings",
         "evidence": {
+          "snippet": "laboratories around the world, with the London Zoo centre linked to",
           "anchor": "para-F"
         }
       },
@@ -589,85 +619,141 @@
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "to human welfare. I think we should ensure that robots remain",
+          "anchor": "para-6"
+        }
       },
       "28": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "artificial intelligence and robots persist; none have in fact risen up",
+          "anchor": "para-8"
+        }
       },
       "29": {
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "then goes on to say, 'Robots are still limited in their",
+          "anchor": "para-4"
+        }
       },
       "30": {
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "on Earth or on Mars we should always do it in",
+          "anchor": "para-3"
+        }
       },
       "31": {
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "[these] resources back to Earth. The vast majority of Earth is",
+          "anchor": "para-2"
+        }
       },
       "32": {
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "sometimes advise students that it's better to read first-rate science fiction",
+          "anchor": "para-9"
+        }
       },
       "33": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "To this question, Rees replied, 'Those who should be worried are",
+          "anchor": "para-6"
+        }
       },
       "34": {
         "accepted": [
           "c"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "of 'colonisation' of other planets seemed morally dubious: 'I think whether",
+          "anchor": "para-3"
+        }
       },
       "35": {
         "accepted": [
           "b"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "response was to say that we have already seen the damaging",
+          "anchor": "para-7"
+        }
       },
       "36": {
         "accepted": [
           "d"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "As his response, Wolpert commented, 'Science fiction has often been remarkable",
+          "anchor": "para-10"
+        }
       },
       "37": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "machines themselves. In her view, it stems from humans' tendency to",
+          "anchor": "para-5"
+        }
       },
       "38": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "on computer networks, and that these could behave like a single",
+          "anchor": "para-6"
+        }
       },
       "39": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "at predicting the future. ... Science fiction has painted a vivid",
+          "anchor": "para-10"
+        }
       },
       "40": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "other. She then explained that the division did not always exist,",
+          "anchor": "para-11"
+        }
       }
     },
     "sets": [

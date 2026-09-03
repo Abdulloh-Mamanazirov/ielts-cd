@@ -367,37 +367,61 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "relatively short wings and tail. It is the world’s only flightless",
+          "anchor": "para-1"
+        }
       },
       "2": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "breed in summer and autumn, but only in years when food",
+          "anchor": "para-3"
+        }
       },
       "3": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "in incubation or chick-rearing – females alone incubate eggs and feed",
+          "anchor": "para-3"
+        }
       },
       "4": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "feathers to make soft cloaks. With them came the Polynesian dog",
+          "anchor": "para-4"
+        }
       },
       "5": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Unfortunately, predation by feral cats on Rakiura",
+          "anchor": "para-8"
+        }
       },
       "6": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "supplementary feeding of adults, and rescuing and hand-raising any failing chicks.",
+          "anchor": "para-9"
+        }
       },
       "7": {
         "accepted": [
@@ -475,6 +499,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "millions of others succumbed. Nevertheless, opportunities are limited as the number",
           "anchor": "para-C"
         }
       },
@@ -484,6 +509,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "bothered about that?’ For her, the environmental case for reintroducing elm",
           "anchor": "para-G"
         }
       },
@@ -493,6 +519,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "down, but in the ’70s a second epidemic was triggered by",
           "anchor": "para-B"
         }
       },
@@ -502,6 +529,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "have contributed to their survival. Strong winds from the sea make",
           "anchor": "para-E"
         }
       },
@@ -511,6 +539,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "centimetres or so in diameter, it becomes a perfect size for",
           "anchor": "para-C"
         }
       },
@@ -518,31 +547,51 @@
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "tiny amount of the pathogen. ‘The effects are very quick,’ says",
+          "anchor": "para-F"
+        }
       },
       "20": {
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "which is a good thing.’ Others are more wary. ‘On the",
+          "anchor": "para-G"
+        }
       },
       "21": {
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "balance lies between the three. I don’t see how it can",
+          "anchor": "para-C"
+        }
       },
       "22": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "if we’re not careful, as the threat is right on our",
+          "anchor": "para-E"
+        }
       },
       "23": {
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "Elliot of the Woodland Trust. ‘You look at old photographs from",
+          "anchor": "para-A"
+        }
       },
       "24": {
         "accepted": [
@@ -578,85 +627,141 @@
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "up information under stressful conditions. But do we become better or",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "workdays vary quite a bit. Some are pretty relaxed; they'll spend",
+          "anchor": "para-2"
+        }
       },
       "29": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "This is how we arrived at",
+          "anchor": "para-4"
+        }
       },
       "30": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "this 'switch' is related to a sudden boost in a neural",
+          "anchor": "para-7"
+        }
       },
       "31": {
         "accepted": [
           "b"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "People are normally quite optimistic –",
+          "anchor": "para-5"
+        }
       },
       "32": {
         "accepted": [
           "g"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "pattern emerged. Under these conditions, they became hyper-vigilant to bad news,",
+          "anchor": "para-5"
+        }
       },
       "33": {
         "accepted": [
           "f"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "normally quite optimistic – they will ignore bad news and embrace",
+          "anchor": "para-5"
+        }
       },
       "34": {
         "accepted": [
           "e"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "in students who were told they had to give a surprise",
+          "anchor": "para-6"
+        }
       },
       "35": {
         "accepted": [
           "d"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "We found that perceived threat acted as a trigger",
+          "anchor": "para-3"
+        }
       },
       "36": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "our behaviour. Studies show that if we observe positive feeds on",
+          "anchor": "para-9"
+        }
       },
       "37": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "and comments on social media. Repeatedly checking your phone, according to",
+          "anchor": "para-10"
+        }
       },
       "38": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "disaster or major financial crash, there is often a wave of",
+          "anchor": "para-11"
+        }
       },
       "39": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "that it spreads extremely rapidly, can create collective fear that is",
+          "anchor": "para-11"
+        }
       },
       "40": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "good news, however, is that positive emotions, such as hope, are",
+          "anchor": "para-12"
+        }
       }
     },
     "sets": []

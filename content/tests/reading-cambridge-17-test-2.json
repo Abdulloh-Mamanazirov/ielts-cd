@@ -422,49 +422,81 @@
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "to a nearby town where they were sold for a small",
+          "anchor": "para-1"
+        }
       },
       "7": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "150 BCE and 70 CE, is still the subject of scholarly",
+          "anchor": "para-2"
+        }
       },
       "8": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "for the Book of Esther. The only entire book of the",
+          "anchor": "para-4"
+        }
       },
       "9": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "of gold and silver caches. Using an unconventional vocabulary and odd",
+          "anchor": "para-5"
+        }
       },
       "10": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "archbishop known as Mar Samuel acquired four of the original seven",
+          "anchor": "para-6"
+        }
       },
       "11": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "to the United States and unsuccessfully offered them to a number",
+          "anchor": "para-6"
+        }
       },
       "12": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "calendar they would have used. The scroll names celebrations that indicate",
+          "anchor": "para-7"
+        }
       },
       "13": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "from another Dead Sea Scroll. Only one more known scroll remains",
+          "anchor": "para-7"
+        }
       },
       "14": {
         "accepted": [
@@ -472,6 +504,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "way they managed to create a strain resistant to a common",
           "anchor": "para-C"
         }
       },
@@ -481,6 +514,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "a larger population for breeding, much genetic diversity is lost. And",
           "anchor": "para-B"
         }
       },
@@ -490,6 +524,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "be 'catapulted into the mainstream', including foxtail, oat-grass and cowpea. By",
           "anchor": "para-E"
         }
       },
@@ -499,6 +534,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "It took at least 3,000 years",
           "anchor": "para-A"
         }
       },
@@ -508,6 +544,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "'They are quite tasty,' says Kudla.",
           "anchor": "para-C"
         }
       },
@@ -515,31 +552,51 @@
         "accepted": [
           "b"
         ],
-        "type": "Matching researchers"
+        "type": "Matching researchers",
+        "evidence": {
+          "snippet": "including foxtail, oat-grass and cowpea. By choosing wild plants that are",
+          "anchor": "para-E"
+        }
       },
       "20": {
         "accepted": [
           "d"
         ],
-        "type": "Matching researchers"
+        "type": "Matching researchers",
+        "evidence": {
+          "snippet": "Lab in the UK. But it will be hard for new",
+          "anchor": "para-E"
+        }
       },
       "21": {
         "accepted": [
           "a"
         ],
-        "type": "Matching researchers"
+        "type": "Matching researchers",
+        "evidence": {
+          "snippet": "But Kudla didn't want to reveal which species were",
+          "anchor": "para-E"
+        }
       },
       "22": {
         "accepted": [
           "c"
         ],
-        "type": "Matching researchers"
+        "type": "Matching researchers",
+        "evidence": {
+          "snippet": "Eck. But she adds that taking the work further would be",
+          "anchor": "para-D"
+        }
       },
       "23": {
         "accepted": [
           "a"
         ],
-        "type": "Matching researchers"
+        "type": "Matching researchers",
+        "evidence": {
+          "snippet": "plants in the world, but 90 percent of our energy comes",
+          "anchor": "para-A"
+        }
       },
       "24": {
         "accepted": [
@@ -576,85 +633,141 @@
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "Scientific discovery is popularly believed to",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "view. However, we believe that it largely misrepresents the real nature",
+          "anchor": "para-2"
+        }
       },
       "29": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "Setting aside such greats as Darwin",
+          "anchor": "para-3"
+        }
       },
       "30": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "father of modern atomic theory, jumped off from this interesting idea",
+          "anchor": "para-4"
+        }
       },
       "31": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "conferred by riding acey-deucy? No. He suffered a leg injury, which",
+          "anchor": "para-6"
+        }
       },
       "32": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "Kepler, Curie, Pasteur and Edison. These notions merely label rather than",
+          "anchor": "para-8"
+        }
       },
       "33": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "The Law of Effect was advanced by psychologist Edward Thorndike in",
+          "anchor": "para-9"
+        }
       },
       "34": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "This simple law holds that organisms tend to repeat successful behaviors",
+          "anchor": "para-9"
+        }
       },
       "35": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "the Law of Effect operates is not as clearly known as",
+          "anchor": "para-10"
+        }
       },
       "36": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "The time seems right for abandoning",
+          "anchor": "para-11"
+        }
       },
       "37": {
         "accepted": [
           "f"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "in promoting breakthrough scientific achievements, as if ideas spontaneously pop into",
+          "anchor": "para-1"
+        }
       },
       "38": {
         "accepted": [
           "d"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "noteworthy given the fact that Nicholson was wrong about the presence",
+          "anchor": "para-4"
+        }
       },
       "39": {
         "accepted": [
           "e"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "of other stories show that fresh advances can arise from error,",
+          "anchor": "para-7"
+        }
       },
       "40": {
         "accepted": [
           "b"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "process of variation and selection, without any end objective in sight.",
+          "anchor": "para-9"
+        }
       }
     },
     "sets": []

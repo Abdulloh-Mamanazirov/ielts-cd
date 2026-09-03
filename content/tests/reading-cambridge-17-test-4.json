@@ -305,37 +305,61 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "for this destruction is that insect pests are destroying vast quantities",
+          "anchor": "para-1"
+        }
       },
       "2": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "species are suffering. In fact, some of the island's insectivorous bats",
+          "anchor": "para-1"
+        }
       },
       "3": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "from the University of Lisbon. 'But our study is the first",
+          "anchor": "para-9"
+        }
       },
       "4": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "species of indigenous bats are taking advantage of habitat modification to",
+          "anchor": "para-4"
+        }
       },
       "5": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "above the country's rice fields. They include the Malagasy mouse-eared bat,",
+          "anchor": "para-4"
+        }
       },
       "6": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "are preying on rice pests, including the paddy swarming caterpillar and",
+          "anchor": "para-5"
+        }
       },
       "7": {
         "accepted": [
@@ -413,6 +437,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "is to 'hold wealth constant'. This involves following the lives of",
           "anchor": "para-E"
         }
       },
@@ -422,6 +447,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "Faculty of Economics. It includes court records, guild ledgers, parish registers,",
           "anchor": "para-A"
         }
       },
@@ -431,6 +457,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "counter to the guild ordinance'. When Juliana continued taking jobs reserved",
           "anchor": "para-D"
         }
       },
@@ -440,6 +467,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "growth is far from straightforward. 'German-speaking central Europe is an excellent",
           "anchor": "para-F"
         }
       },
@@ -449,6 +477,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "at marriage, remarriage and death. From badger skins to Bibles, sewing",
           "anchor": "para-C"
         }
       },
@@ -498,6 +527,7 @@
         ],
         "type": "Matching paragraphs",
         "evidence": {
+          "snippet": "the feat go back centuries. The first recorded game in Europe",
           "anchor": "para-D"
         }
       },
@@ -507,6 +537,7 @@
         ],
         "type": "Matching paragraphs",
         "evidence": {
+          "snippet": "blind even without realising it. The nature of the game is",
           "anchor": "para-E"
         }
       },
@@ -516,6 +547,7 @@
         ],
         "type": "Matching paragraphs",
         "evidence": {
+          "snippet": "these standard tests,' said Rissman. 'We didn't find anything other than",
           "anchor": "para-F"
         }
       },
@@ -525,6 +557,7 @@
         ],
         "type": "Matching paragraphs",
         "evidence": {
+          "snippet": "from beyond the chess-playing community. In the hope of understanding how",
           "anchor": "para-B"
         }
       },
@@ -534,6 +567,7 @@
         ],
         "type": "Matching paragraphs",
         "evidence": {
+          "snippet": "chess for me is that I have found the one thing",
           "anchor": "para-H"
         }
       },
@@ -543,6 +577,7 @@
         ],
         "type": "Matching paragraphs",
         "evidence": {
+          "snippet": "because they are fairly uninteresting. But the ends of games are",
           "anchor": "para-E"
         }
       },
@@ -550,25 +585,41 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "is not the hard part. While his challengers will play the",
+          "anchor": "para-A"
+        }
       },
       "34": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "clothes and unusual hairstyles, and he gets his kicks from the",
+          "anchor": "para-A"
+        }
       },
       "35": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "can perform such mental feats, researchers at the University of California",
+          "anchor": "para-B"
+        }
       },
       "36": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "chess with your eyes closed is not a far reach for",
+          "anchor": "para-B"
+        }
       },
       "37": {
         "accepted": [

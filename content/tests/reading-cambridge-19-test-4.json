@@ -321,37 +321,61 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "According to conservationists, populations of around two thirds of",
+          "anchor": "para-1"
+        }
       },
       "2": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "plant material, and in turn act as prey for birds as",
+          "anchor": "para-1"
+        }
       },
       "3": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "they are active and reproduce. Scientists refer to the timing of",
+          "anchor": "para-2"
+        }
       },
       "4": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "over the past 20 years, species have advanced by between three",
+          "anchor": "para-3"
+        }
       },
       "5": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "unwillingly by unnaturally fast changes? The answer is still unknown, but",
+          "anchor": "para-3"
+        }
       },
       "6": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "together data from millions of records that had been submitted by",
+          "anchor": "para-4"
+        }
       },
       "7": {
         "accepted": [
@@ -430,6 +454,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "point to the fact that demand for resources such as copper,",
           "anchor": "para-C"
         }
       },
@@ -439,6 +464,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "The oceans occupy around 70% of",
           "anchor": "para-F"
         }
       },
@@ -448,6 +474,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "suggested the deep seabed, and hydrothermal vents, which are created when",
           "anchor": "para-E"
         }
       },
@@ -457,6 +484,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "for nearby communities, and that the global regulatory framework is not",
           "anchor": "para-D"
         }
       },
@@ -464,37 +492,61 @@
         "accepted": [
           "d"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "in an environmentally sustainable way, instead of continually looking at the",
+          "anchor": "para-F"
+        }
       },
       "19": {
         "accepted": [
           "b"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "environmental and social impacts, and the marginalisation of indigenous peoples and",
+          "anchor": "para-D"
+        }
       },
       "20": {
         "accepted": [
           "a"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "bioactive potential of marine resources, to see if there are any",
+          "anchor": "para-B"
+        }
       },
       "21": {
         "accepted": [
           "e"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "destroyed and must be protected. 'Mining will be the greatest assault",
+          "anchor": "para-F"
+        }
       },
       "22": {
         "accepted": [
           "b"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "Moon, Mars and even Venus have all been mapped and studied",
+          "anchor": "para-D"
+        }
       },
       "23": {
         "accepted": [
           "c"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "respect to the deep sea, \"We don't yet know what we",
+          "anchor": "para-D"
+        }
       },
       "24": {
         "accepted": [
@@ -530,25 +582,41 @@
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "There has long been a general",
+          "anchor": "para-2"
+        }
       },
       "28": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "Selfish Gene became popular because it fitted so well with -",
+          "anchor": "para-3"
+        }
       },
       "29": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "that in the prehistoric era, the world was very sparsely populated.",
+          "anchor": "para-5"
+        }
       },
       "30": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "anthropologist Bruce Knauft has remarked, hunter-gatherers are characterised by 'extreme political",
+          "anchor": "para-6"
+        }
       },
       "31": {
         "accepted": [
@@ -604,31 +672,51 @@
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "Many anthropologists believe that societies such as the !Kung were",
+          "anchor": "para-8"
+        }
       },
       "37": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "In view of the above, there seems little reason to assume",
+          "anchor": "para-8"
+        }
       },
       "38": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "cooperation, egalitarianism, altruism and peacefulness as innate characteristics of human beings.",
+          "anchor": "para-9"
+        }
       },
       "39": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "as has often been assumed, why do modern humans behave so",
+          "anchor": "para-10"
+        }
       },
       "40": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "Research has shown repeatedly that when the natural habitats of primates",
+          "anchor": "para-10"
+        }
       }
     },
     "sets": []

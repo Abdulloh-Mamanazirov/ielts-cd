@@ -367,43 +367,71 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "colleagues from Australian National University became the first archaeologists to explore",
+          "anchor": "para-1"
+        }
       },
       "2": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "were made using clam shells. Axes made from clam shells from",
+          "anchor": "para-3"
+        }
       },
       "3": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "were about 120 metres lower, meaning Obi was a much larger",
+          "anchor": "para-4"
+        }
       },
       "4": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "most recent ice age ended, the climate became significantly warmer and",
+          "anchor": "para-5"
+        }
       },
       "5": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "coincidence that around this time the first axes crafted from stone",
+          "anchor": "para-5"
+        }
       },
       "6": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "unearthed in the Kelo caves, people living there mainly hunted the",
+          "anchor": "para-6"
+        }
       },
       "7": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "the reason for the departure, there is no evidence for use",
+          "anchor": "para-9"
+        }
       },
       "8": {
         "accepted": [
@@ -471,6 +499,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "IWMI. 'The idea is that people in a developing country will",
           "anchor": "para-G"
         }
       },
@@ -480,6 +509,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "Wide Fund for Nature (WWFN), half of the world's wetlands have",
           "anchor": "para-A"
         }
       },
@@ -489,6 +519,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "McCartney is cautiously optimistic, however. 'Awareness of the importance of wetlands",
           "anchor": "para-H"
         }
       },
@@ -498,6 +529,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "human development. Consequently, they are of considerable religious, historical and archaeological",
           "anchor": "para-B"
         }
       },
@@ -555,109 +587,181 @@
         "accepted": [
           "a"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "'For sustainability, it's essential that local people are involved in wetland",
+          "anchor": "para-G"
+        }
       },
       "24": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "governments recognised their long-term value. 'Different governments have different attitudes,' he",
+          "anchor": "para-H"
+        }
       },
       "25": {
         "accepted": [
           "d"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "can be even more devastating. 'Sediment run-off and fertilisers can be",
+          "anchor": "para-F"
+        }
       },
       "26": {
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "been lost. 'It can be as simple as planting a few",
+          "anchor": "para-C"
+        }
       },
       "27": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "or a meeting room, but will struggle to cope with the",
+          "anchor": "para-2"
+        }
       },
       "28": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "is somewhat similar to subtitling. It helps that lecturers speak clearly,",
+          "anchor": "para-3"
+        }
       },
       "29": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "any language in the universe. It came to represent one of",
+          "anchor": "para-4"
+        }
       },
       "30": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "with a stranger,' says Ochoa. That can't have been totally unexpected.",
+          "anchor": "para-6"
+        }
       },
       "31": {
         "accepted": [
           "c"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "certain Asian nations, noting that voice translation has really taken off",
+          "anchor": "para-7"
+        }
       },
       "32": {
         "accepted": [
           "e"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "system needs to be simultaneous, like the translator's voice speaking over",
+          "anchor": "para-7"
+        }
       },
       "33": {
         "accepted": [
           "f"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "physical challenges such as noise, they will also need to be",
+          "anchor": "para-8"
+        }
       },
       "34": {
         "accepted": [
           "b"
         ],
-        "type": "Matching sentence endings"
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "only polite to respect this. Etiquette-sensitive artificial translators could relieve people",
+          "anchor": "para-8"
+        }
       },
       "35": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "seamless, ubiquitous artificial speech translation, it will actually add value to",
+          "anchor": "para-9"
+        }
       },
       "36": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "add value to language skills. Whether it will help people conduct",
+          "anchor": "para-9"
+        }
       },
       "37": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "open to question - though one noteworthy possibility is that it",
+          "anchor": "para-9"
+        }
       },
       "38": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "technology simulates the speaker's voice, their lip movements won't match, and",
+          "anchor": "para-10"
+        }
       },
       "39": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "Waibel highlights the significance of certain",
+          "anchor": "para-7"
+        }
       },
       "40": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "the value of learning them. Sharing a language can promote a",
+          "anchor": "para-10"
+        }
       }
     },
     "sets": []

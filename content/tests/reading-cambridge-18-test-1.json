@@ -304,14 +304,22 @@
           "1,000 kg",
           "1000 kg"
         ],
-        "type": "Sentence completion"
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "open area are in production, 20 staff will harvest up to",
+          "anchor": "para-3"
+        }
       },
       "3": {
         "accepted": [
           "consumption",
           "food consumption"
         ],
-        "type": "Sentence completion"
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "this, there's no reason why you shouldn't eventually target maybe between",
+          "anchor": "para-3"
+        }
       },
       "4": {
         "accepted": [
@@ -358,37 +366,61 @@
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Detroit and Tokyo to Bangkok. Strawberries are being grown in disused",
+          "anchor": "para-6"
+        }
       },
       "9": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "farming, he says, is 'virtuous'. The equipment weighs little, can be",
+          "anchor": "para-6"
+        }
       },
       "10": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "is cheap to run, too, consuming a tiny fraction of the",
+          "anchor": "para-6"
+        }
       },
       "11": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "those of classic intensive agriculture, are lower than soil-based organic growers.",
+          "anchor": "para-7"
+        }
       },
       "12": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "this way, of course, and much of the produce is suited",
+          "anchor": "para-7"
+        }
       },
       "13": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "obviously not an option. And beans tend to take up a",
+          "anchor": "para-7"
+        }
       },
       "14": {
         "accepted": [
@@ -396,6 +428,7 @@
         ],
         "type": "Matching paragraphs",
         "evidence": {
+          "snippet": "their trees as high-quality timber. The norm was to remove the",
           "anchor": "para-B"
         }
       },
@@ -405,6 +438,7 @@
         ],
         "type": "Matching paragraphs",
         "evidence": {
+          "snippet": "A tree's 'value' depends on several factors including its",
           "anchor": "para-A"
         }
       },
@@ -414,6 +448,7 @@
         ],
         "type": "Matching paragraphs",
         "evidence": {
+          "snippet": "gasified for electrical generation and can even be made into liquid",
           "anchor": "para-C"
         }
       },
@@ -423,6 +458,7 @@
         ],
         "type": "Matching paragraphs",
         "evidence": {
+          "snippet": "and pathogens visiting forests including hemlock wooly adelgid, Asian longhorned beetle,",
           "anchor": "para-E"
         }
       },
@@ -432,6 +468,7 @@
         ],
         "type": "Matching paragraphs",
         "evidence": {
+          "snippet": "'low-use wood' in the forests. Some people even call these 'junk",
           "anchor": "para-B"
         }
       },
@@ -439,19 +476,31 @@
         "accepted": [
           "b"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "procedures. These types of cut reduce the number of sick trees",
+          "anchor": "para-E"
+        }
       },
       "20": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "there are two harvests and the money that comes in is",
+          "anchor": "para-F"
+        }
       },
       "21": {
         "accepted": [
           "c"
         ],
-        "type": "Matching features"
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "which tree species are regenerated. It leaves a young forest where",
+          "anchor": "para-F"
+        }
       },
       "22": {
         "accepted": [
@@ -509,6 +558,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "and other players in space are collaborating in new ways to",
           "anchor": "para-C"
         }
       },
@@ -518,6 +568,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "himself as a space environmentalist: 'I want to make space a",
           "anchor": "para-F"
         }
       },
@@ -527,7 +578,8 @@
         ],
         "type": "Matching information",
         "evidence": {
-          "anchor": "para-A"
+          "snippet": "a US commercial Iridium satellite smashed into an inactive Russian communications",
+          "anchor": "para-B"
         }
       },
       "30": {
@@ -536,6 +588,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "University of Texas at Austin: planes line up in the sky,",
           "anchor": "para-E"
         }
       },
@@ -545,6 +598,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "where everything is in orbit. Others are developing taxonomies of space",
           "anchor": "para-B"
         }
       },
@@ -592,31 +646,51 @@
         "accepted": [
           "c"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "out to avoid potential collisions. 'If you knew precisely where everything",
+          "anchor": "para-D"
+        }
       },
       "37": {
         "accepted": [
           "d"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "that is safe to operate, that is free and useful for",
+          "anchor": "para-F"
+        }
       },
       "38": {
         "accepted": [
           "b"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "25 years. But so far, only about half of all missions",
+          "anchor": "para-C"
+        }
       },
       "39": {
         "accepted": [
           "d"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "database draws two purple lines: the US and Russian sources contain",
+          "anchor": "para-F"
+        }
       },
       "40": {
         "accepted": [
           "a"
         ],
-        "type": "Matching people"
+        "type": "Matching people",
+        "evidence": {
+          "snippet": "we go on like this, we will reach a point of",
+          "anchor": "para-B"
+        }
       }
     },
     "sets": []

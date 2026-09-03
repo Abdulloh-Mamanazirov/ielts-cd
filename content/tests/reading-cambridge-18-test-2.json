@@ -326,7 +326,11 @@
           "posts",
           "timber posts"
         ],
-        "type": "Note completion"
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "and located within the circle may have once held a ring",
+          "anchor": "para-2"
+        }
       },
       "3": {
         "accepted": [
@@ -392,151 +396,251 @@
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "an outer crescent or ring; some were assembled into the iconic",
+          "anchor": "para-6"
+        }
       },
       "10": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Stonehenge until roughly 1600 BCE, with the bluestones in particular being",
+          "anchor": "para-6"
+        }
       },
       "11": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "However, in the mid-20th century, radiocarbon dating demonstrated that Stonehenge stood",
+          "anchor": "para-7"
+        }
       },
       "12": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "different phase of its construction. Bones, tools and other artefacts found",
+          "anchor": "para-8"
+        }
       },
       "13": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "of attention over the decades, critics maintain that Stonehenge's builders probably",
+          "anchor": "para-10"
+        }
       },
       "14": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "perform highly specialised tasks. But many experts believe this restriction is",
+          "anchor": "para-2"
+        }
       },
       "15": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "think it will stop there. Machines will be free of many",
+          "anchor": "para-3"
+        }
       },
       "16": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "thing, with disastrous consequences - King Midas, for example, might have",
+          "anchor": "para-4"
+        }
       },
       "17": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "this task difficult is that we are far from reliably human-friendly",
+          "anchor": "para-5"
+        }
       },
       "18": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "For safety's sake, then, we want the machines to be",
+          "anchor": "para-6"
+        }
       },
       "19": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "be. This won't be easy, given that we are tribal creatures",
+          "anchor": "para-7"
+        }
       },
       "20": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "we presently take for granted. We might lose our freedom to",
+          "anchor": "para-8"
+        }
       },
       "21": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "silicon police limiting our options? They might be so good at",
+          "anchor": "para-9"
+        }
       },
       "22": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "we won't notice them; but few of us are likely to",
+          "anchor": "para-9"
+        }
       },
       "23": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "possible, but if it is, it will require a cooperative spirit,",
+          "anchor": "para-11"
+        }
       },
       "24": {
         "accepted": [
           "c"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "to some extent already here. AI already has some input into",
+          "anchor": "para-10"
+        }
       },
       "25": {
         "accepted": [
           "a"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "health system. However, we'd be depriving some humans (e.g. senior doctors)",
+          "anchor": "para-10"
+        }
       },
       "26": {
         "accepted": [
           "e"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "some humans (e.g. senior doctors) of the control they presently enjoy.",
+          "anchor": "para-10"
+        }
       },
       "27": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "The word 'genius' is universally associated with the name",
+          "anchor": "para-2"
+        }
       },
       "28": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "plague in the 14th century, which caused a global crisis resulting",
+          "anchor": "para-3"
+        }
       },
       "29": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "and death, if left unaddressed. Then, as now, radical solutions were",
+          "anchor": "para-3"
+        }
       },
       "30": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "on an 'ideal city' project, which - due to its excessive",
+          "anchor": "para-4"
+        }
       },
       "31": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "remain unfulfilled. Yet given that unsustainable urban models are a key",
+          "anchor": "para-4"
+        }
       },
       "32": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "projects in Italy, such as the reconfiguration of the town of",
+          "anchor": "para-5"
+        }
       },
       "33": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "vision of Leonardo's ideal city because of his disordered way of",
+          "anchor": "para-6"
+        }
       },
       "34": {
         "accepted": [

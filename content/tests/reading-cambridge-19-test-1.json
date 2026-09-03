@@ -388,43 +388,71 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "few. Yet five years previously, he had been regarded as a",
+          "anchor": "para-1"
+        }
       },
       "2": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "on the player's playing style. Another change was so subtle as",
+          "anchor": "para-2"
+        }
       },
       "3": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "available to the public; rather, each racket is individually made to",
+          "anchor": "para-3"
+        }
       },
       "4": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "with different kinds of paint. The rackets they use now weigh",
+          "anchor": "para-3"
+        }
       },
       "5": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "back to the 1970s, when the amateur German tennis player Werner",
+          "anchor": "para-5"
+        }
       },
       "6": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "They will continually change it depending on various factors including the",
+          "anchor": "para-6"
+        }
       },
       "7": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "US professional player Pete Sampras was attributed to the addition of",
+          "anchor": "para-9"
+        }
       },
       "8": {
         "accepted": [
@@ -461,7 +489,11 @@
           "intestines",
           "gut"
         ],
-        "type": "Note completion"
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "were strung with natural gut made from the outer layer of",
+          "anchor": "para-7"
+        }
       },
       "12": {
         "accepted": [
@@ -489,6 +521,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "king of Alashiya (modern Cyprus) rejected Akhenaten's claims of a connection",
           "anchor": "para-D"
         }
       },
@@ -498,6 +531,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "Mediterranean menace. Taking personal command, Pompey divided the entire Mediterranean into",
           "anchor": "para-G"
         }
       },
@@ -507,6 +541,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "first and second millennia BCE for governments to resort to pirates'",
           "anchor": "para-C"
         }
       },
@@ -516,6 +551,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "When one mentions pirates, an image springs to most people's",
           "anchor": "para-A"
         }
       },
@@ -525,6 +561,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "long-term solution to the problem, many more were offered land in",
           "anchor": "para-G"
         }
       },
@@ -534,6 +571,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "Thus, in the ancient world most were restricted to a few",
           "anchor": "para-B"
         }
       },
@@ -571,85 +609,141 @@
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "as verbal communication has existed. Deceiving others can offer an apparent",
+          "anchor": "para-2"
+        }
       },
       "28": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "than in the past. Yet the means to correct misinformation might,",
+          "anchor": "para-3"
+        }
       },
       "29": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "unduly influence attitudes and behavior, leading people to think and act",
+          "anchor": "para-4"
+        }
       },
       "30": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "structures in the United States: regulatory agencies here tend to focus",
+          "anchor": "para-7"
+        }
       },
       "31": {
         "accepted": [
           "g"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "potential for subsequent problems. Although it is fairly routine for individuals",
+          "anchor": "para-6"
+        }
       },
       "32": {
         "accepted": [
           "j"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "dilemma is neatly summarized by a contrast between how the 17th-century",
+          "anchor": "para-6"
+        }
       },
       "33": {
         "accepted": [
           "h"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "across information that is false, the question of exactly how -",
+          "anchor": "para-6"
+        }
       },
       "34": {
         "accepted": [
           "b"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "radio, or reads information online. First of all, people who encounter",
+          "anchor": "para-5"
+        }
       },
       "35": {
         "accepted": [
           "e"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "believe it, at least initially. Secondly, electronic and print media often",
+          "anchor": "para-5"
+        }
       },
       "36": {
         "accepted": [
           "c"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "misinformation, even if rhetorically compelling, requires resources and planning to accomplish",
+          "anchor": "para-8"
+        }
       },
       "37": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "corrective campaigns to be persuasive, audiences need to be able to",
+          "anchor": "para-8"
+        }
       },
       "38": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "to comprehend them, which requires either effort to frame messages in",
+          "anchor": "para-8"
+        }
       },
       "39": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "developing potential solutions and remedies. The journey forward undoubtedly will be",
+          "anchor": "para-9"
+        }
       },
       "40": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "common. Yet at this time many people also are passionately developing",
+          "anchor": "para-9"
+        }
       }
     },
     "sets": [

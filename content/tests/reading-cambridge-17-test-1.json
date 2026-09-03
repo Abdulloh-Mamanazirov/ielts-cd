@@ -462,43 +462,71 @@
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "opened on 10 January 1863, was the world's first underground railway.",
+          "anchor": "para-5"
+        }
       },
       "8": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "railway. On its first day, almost 40,000 passengers were carried between",
+          "anchor": "para-5"
+        }
       },
       "9": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "steam could be condensed. However, smoke and fumes remained a problem,",
+          "anchor": "para-6"
+        }
       },
       "10": {
         "accepted": [
           "true"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "centre. The 'cut and cover' method of construction was not an",
+          "anchor": "para-7"
+        }
       },
       "11": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "The carriages were narrow and had tiny windows just below the",
+          "anchor": "para-8"
+        }
       },
       "12": {
         "accepted": [
           "false"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "was a great technical achievement, it did not make a profit.",
+          "anchor": "para-8"
+        }
       },
       "13": {
         "accepted": [
           "not given"
         ],
-        "type": "True/False/Not Given"
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "operation using new electric locomotives. It was very popular and soon",
+          "anchor": "para-8"
+        }
       },
       "14": {
         "accepted": [
@@ -506,6 +534,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "in later eras. Today, however, stadiums are regarded with growing scepticism.",
           "anchor": "para-A"
         }
       },
@@ -515,6 +544,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "GWh of electricity annually. This reduces the annual output of carbon",
           "anchor": "para-F"
         }
       },
@@ -524,6 +554,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "function beyond sport, such as hotels, retail outlets, conference centres, restaurants",
           "anchor": "para-E"
         }
       },
@@ -533,6 +564,7 @@
         ],
         "type": "Matching information",
         "evidence": {
+          "snippet": "accessible to the general public, require more energy to run and",
           "anchor": "para-D"
         }
       },
@@ -590,85 +622,141 @@
         "accepted": [
           "h"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "father had died for and did a deal with the Scots,",
+          "anchor": "para-1"
+        }
       },
       "28": {
         "accepted": [
           "j"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "deal with the Scots, thereby accepting Presbyterianism as the national religion",
+          "anchor": "para-1"
+        }
       },
       "29": {
         "accepted": [
           "f"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "west of England in 1651. After being comprehensively defeated on the",
+          "anchor": "para-1"
+        }
       },
       "30": {
         "accepted": [
           "b"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "subject of a national manhunt, with a huge sum offered for",
+          "anchor": "para-1"
+        }
       },
       "31": {
         "accepted": [
           "d"
         ],
-        "type": "Summary completion"
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "escapes, to evade the Parliamentarians before seeking refuge in France. For",
+          "anchor": "para-1"
+        }
       },
       "32": {
         "accepted": [
           "not given"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "king, the 50-year-old Charles II requested a meeting with the writer",
+          "anchor": "para-2"
+        }
       },
       "33": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "two three-hour sittings, the king related to him in great detail",
+          "anchor": "para-2"
+        }
       },
       "34": {
         "accepted": [
           "no"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "be beyond hope of recovery, I began to think of the",
+          "anchor": "para-2"
+        }
       },
       "35": {
         "accepted": [
           "yes"
         ],
-        "type": "Yes/No/Not Given"
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "One of the joys of Spencer's",
+          "anchor": "para-3"
+        }
       },
       "36": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "1649, the young Charles II sacrificed one of the very principles",
+          "anchor": "para-1"
+        }
       },
       "37": {
         "accepted": [
           "c"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "reader gets to the action. The day-by-day retelling of the fugitives'",
+          "anchor": "para-3"
+        }
       },
       "38": {
         "accepted": [
           "a"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "to imagine many other kings marking the lowest point in their",
+          "anchor": "para-4"
+        }
       },
       "39": {
         "accepted": [
           "b"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "the great tale. He has even-handed sympathy for both the fugitive",
+          "anchor": "para-5"
+        }
       },
       "40": {
         "accepted": [
           "d"
         ],
-        "type": "Multiple choice"
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "of what it all meant. Would Charles II have been a",
+          "anchor": "para-6"
+        }
       }
     },
     "sets": [
