@@ -1,16 +1,20 @@
 import { randomUUID } from "node:crypto";
-import { mkdir, writeFile } from "node:fs/promises";
-import { join, resolve } from "node:path";
 
 import { requireAdminApi } from "@/lib/auth/guards";
+import { imageUrlFor } from "@/lib/media/images";
+import { IMAGE_PREFIX, writeMediaFile } from "@/lib/media/storage";
 
 /**
- * Test artwork: writing Task 1 charts, map-labelling diagrams.
+ * Test artwork: writing Task 1 charts, map-labelling diagrams, certificate
+ * scans and video thumbnails.
  *
- * These go into `public/test-media/` rather than the private media directory,
- * because unlike audio and recordings they are not worth protecting — a chart
- * carries no answers — and being plain static files means `imageUrl` is a URL
- * the browser can cache rather than a route that has to stream.
+ * Nothing here needs protecting — a chart carries no answers — but it still
+ * goes to the media directory rather than `public/test-media/`. Next lists
+ * `public/` once when the server starts, so a file written there while it runs
+ * is a 404 to the app until the next deploy: the upload appeared to succeed and
+ * the picture came out blank, because `next/image` optimises by fetching the
+ * path back through the app. `/media/images/<file>` is a route, read per
+ * request, so an upload works the moment it lands.
  */
 
 export const runtime = "nodejs";
@@ -78,15 +82,13 @@ export async function POST(request: Request) {
     .slice(0, 60) || "image";
 
   const filename = `${slug}-${randomUUID().slice(0, 8)}${EXTENSIONS[detected]}`;
-  const directory = resolve(process.cwd(), "public", "test-media");
 
   try {
-    await mkdir(directory, { recursive: true });
-    await writeFile(join(directory, filename), bytes);
+    await writeMediaFile(`${IMAGE_PREFIX}/${filename}`, bytes);
   } catch (error) {
     console.error(`Could not store test image ${filename}:`, error);
     return Response.json({ error: "The server could not store that image." }, { status: 500 });
   }
 
-  return Response.json({ url: `/test-media/${filename}` }, { status: 201 });
+  return Response.json({ url: imageUrlFor(filename) }, { status: 201 });
 }

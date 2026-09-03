@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 #
-# Nightly backup: the database, the private media directory, and the admin's
-# uploaded images.
+# Nightly backup: the database, the private media directory, and whatever the
+# admin uploaded into the checkout before uploads moved out of it.
 #
-# That third one is easy to forget. Test charts and student certificates are
-# written into public/test-media/ inside the checkout, where they are untracked
-# files — git will not restore them and a fresh clone will not have them.
+# Uploads now go to /var/lib/ielts/media/images, so the second archive covers
+# them. public/test-media is still taken because the images uploaded there
+# before the move are untracked files — git will not restore them and a fresh
+# clone will not have them.
 #
 # Installed as root's cron job; see docs/DEPLOY.md, step 13.
 #

@@ -13,6 +13,14 @@ import { Readable } from "node:stream";
 /** Subdirectories under the media root, so audio and recordings stay separable. */
 export const AUDIO_PREFIX = "audio";
 export const RECORDING_PREFIX = "recordings";
+/**
+ * Admin-uploaded artwork: Task 1 charts, map diagrams, certificate scans,
+ * video thumbnails. Unlike audio these are public, but they still cannot live
+ * under public/ — Next lists that directory once at startup, so anything
+ * written there while the server runs is a 404 until the next restart, which
+ * takes `next/image` down with it. See `src/app/media/images/[name]/route.ts`.
+ */
+export const IMAGE_PREFIX = "images";
 
 /**
  * One path segment: starts alphanumeric, then word characters, dots or hyphens.

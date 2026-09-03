@@ -7,6 +7,7 @@ import { reorder } from "@/lib/admin/order";
 import { requireAdminApi } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { refreshFullMock } from "@/lib/full-mock/service";
+import { isSiteImageUrl } from "@/lib/media/images";
 import { testAnswerKeySchema } from "@/lib/tests/schema";
 import { validateTestImport } from "@/lib/tests/validate";
 import { savePlans } from "@/lib/plans-store";
@@ -355,7 +356,7 @@ const imageSchema = z.object({
   target: z.union([z.number().int().positive(), z.string().min(1)]),
   // Relative path from the upload route, never an arbitrary URL: an offsite
   // image would break the moment that host went down or changed the file.
-  url: z.string().regex(/^\/test-media\/[A-Za-z0-9._-]+$/, "That is not an uploaded image"),
+  url: z.string().refine(isSiteImageUrl, "That is not an uploaded image"),
 });
 
 /**
@@ -498,10 +499,11 @@ const bandField = z
 /**
  * An image this site is hosting, not one borrowed from elsewhere.
  *
- * Uploads land in `/test-media/`, but seeded rows point at files in the public
- * root, so both shapes have to pass. What is excluded is an absolute URL — a
- * certificate on someone else's host disappears the day they tidy up — and
- * anything carrying a traversal segment.
+ * Uploads land in `/media/images/`, committed artwork sits in `/test-media/`,
+ * and seeded rows point at files in the public root, so all three shapes have
+ * to pass. What is excluded is an absolute URL — a certificate on someone
+ * else's host disappears the day they tidy up — and anything carrying a
+ * traversal segment.
  */
 const localImage = z
   .string()

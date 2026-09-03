@@ -540,10 +540,12 @@ Then nightly at 03:30:
 echo '30 3 * * * root bash /srv/ielts/deploy/backup.sh >> /var/log/ielts-backup.log 2>&1' | sudo tee /etc/cron.d/ielts-backup
 ```
 
-It dumps the database, the private media directory, and `public/test-media` —
-that last one because admin image uploads (test charts, student certificates)
-are written into the checkout as untracked files. Git will not bring them back
-and a fresh clone will not have them.
+It dumps the database, the private media directory, and `public/test-media`.
+Admin image uploads (test charts, student certificates, video thumbnails) go
+into the media directory, so the second archive covers them; `public/test-media`
+is still taken because the images uploaded there before the move are untracked
+files in the checkout. Git will not bring those back and a fresh clone will not
+have them.
 
 Backups on the same disk protect against a bad migration, not against losing the
 server. Copy them off now and then:
