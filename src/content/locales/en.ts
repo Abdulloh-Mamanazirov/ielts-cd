@@ -13,9 +13,9 @@ export const en = {
     tagline: "Helping students achieve IELTS Band 7–9",
     location: "Tashkent, Uzbekistan",
     email: "davronbeknabiev@gmail.com",
-    phone: "+998 93 262 66 77",
-    telegram: "https://t.me/DavronbekNabiev",
-    telegramHandle: "@DavronbekNabiev",
+    // Enquiries go to the manager's account, not the instructor's own.
+    telegram: "https://t.me/dn_ielts_manager",
+    telegramHandle: "@dn_ielts_manager",
     instagram: "https://instagram.com/",
     youtube: "https://youtube.com/",
   },

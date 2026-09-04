@@ -45,14 +45,6 @@ export function SiteFooter() {
           </h2>
           <ul className="space-y-3 text-sm text-white/70">
             <li>
-              <a
-                href={`tel:${site.instructor.phone.replace(/\s/g, "")}`}
-                className="transition hover:text-white"
-              >
-                {site.instructor.phone}
-              </a>
-            </li>
-            <li>
               <a href={`mailto:${site.instructor.email}`} className="transition hover:text-white">
                 {site.instructor.email}
               </a>
