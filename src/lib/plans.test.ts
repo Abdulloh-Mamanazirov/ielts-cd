@@ -1,4 +1,6 @@
 import assert from "node:assert/strict";
+import { existsSync } from "node:fs";
+import { resolve } from "node:path";
 import { describe, it } from "node:test";
 
 import { DEFAULT_PLANS, allowsTest, mergePlans, type PlansConfig, type TestAccess } from "./plans";
@@ -74,5 +76,81 @@ describe("mergePlans", () => {
     });
     assert.deepEqual(merged.FREE.skills.WRITING, { kind: "some", slugs: ["writing-mock-3"] });
     assert.deepEqual(merged.FREE.skills.SPEAKING, { kind: "none" });
+  });
+});
+
+const v1t1 = {
+  skill: "READING",
+  slug: "reading-volume-1-test-1",
+  series: "REAL_EXAM",
+  seriesNumber: 1,
+} as const;
+const v1t4 = {
+  skill: "READING",
+  slug: "reading-volume-1-test-4",
+  series: "REAL_EXAM",
+  seriesNumber: 1,
+} as const;
+const c14t1 = {
+  skill: "LISTENING",
+  slug: "listening-cambridge-14-test-1",
+  series: "CAMBRIDGE",
+  seriesNumber: 14,
+} as const;
+
+describe("allowsTest for reading and listening", () => {
+  it("opens part of a volume without opening the rest of it", () => {
+    // The free tier: three tests of Volume 1, not the other seven.
+    assert.equal(allowsTest(DEFAULT_PLANS, "FREE", v1t1), true);
+    assert.equal(allowsTest(DEFAULT_PLANS, "FREE", v1t4), false);
+  });
+
+  it("opens the one Cambridge test the free plan names", () => {
+    assert.equal(allowsTest(DEFAULT_PLANS, "FREE", c14t1), true);
+    assert.equal(
+      allowsTest(DEFAULT_PLANS, "FREE", { ...c14t1, slug: "listening-cambridge-14-test-2" }),
+      false,
+    );
+  });
+
+  it("still opens everything for a paid plan", () => {
+    for (const test of [v1t1, v1t4, c14t1]) {
+      assert.equal(allowsTest(DEFAULT_PLANS, "PREMIUM", test), true);
+      assert.equal(allowsTest(DEFAULT_PLANS, "STUDENT", test), true);
+    }
+  });
+
+  it("closes a per-test plan for a paper that arrives without a slug", () => {
+    const noSlug = { skill: "READING", series: "REAL_EXAM", seriesNumber: 1 } as const;
+    assert.equal(allowsTest(DEFAULT_PLANS, "FREE", noSlug), false);
+  });
+
+  it("keeps whole-number access working alongside it", () => {
+    const plans: PlansConfig = {
+      ...DEFAULT_PLANS,
+      FREE: {
+        ...DEFAULT_PLANS.FREE,
+        access: { REAL_EXAM: { kind: "some", numbers: [1] }, CAMBRIDGE: { kind: "none" } },
+      },
+    };
+    assert.equal(allowsTest(plans, "FREE", v1t1), true);
+    assert.equal(allowsTest(plans, "FREE", v1t4), true);
+    assert.equal(allowsTest(plans, "FREE", c14t1), false);
+  });
+});
+
+describe("the free plan's own configuration", () => {
+  it("names only tests that exist in content/tests", () => {
+    // A typo here would silently close the free tier, so the slugs are checked
+    // against the files the seed loads rather than trusted.
+    const access = [DEFAULT_PLANS.FREE.access.REAL_EXAM, DEFAULT_PLANS.FREE.access.CAMBRIDGE];
+    const slugs = access.flatMap((entry) => (entry.kind === "tests" ? entry.slugs : []));
+    assert.equal(slugs.length, 8);
+    for (const slug of slugs) {
+      assert.ok(
+        existsSync(resolve("content/tests", `${slug}.json`)),
+        `${slug} has no test file`,
+      );
+    }
   });
 });

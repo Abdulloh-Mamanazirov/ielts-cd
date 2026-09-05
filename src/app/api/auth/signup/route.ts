@@ -3,8 +3,15 @@ import { hashPassword } from "@/lib/auth/password";
 import { clientIp, readSubmittedBody, safeNext, userAgent } from "@/lib/auth/request";
 import { createSession } from "@/lib/auth/session";
 import { fieldErrors, signupSchema } from "@/lib/auth/validation";
+import { loadAuthSettings } from "@/lib/auth-settings-store";
 
 export async function POST(request: Request) {
+  // Checked here and not only on the page: hiding a form removes the button,
+  // not the endpoint behind it.
+  if (!(await loadAuthSettings()).emailSignup) {
+    return Response.json({ error: "Email sign-up is closed" }, { status: 403 });
+  }
+
   const submitted = await readSubmittedBody(request);
   if (!submitted.ok) {
     return Response.json({ error: "Expected a JSON or form body" }, { status: 400 });

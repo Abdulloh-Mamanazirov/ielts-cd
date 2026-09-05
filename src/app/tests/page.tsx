@@ -6,7 +6,7 @@ import { site } from "@/content/site";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { describeTest, isSkillSlug, skillBySlug } from "@/lib/skills";
-import { allowsSeries, allowsTest, effectivePlan } from "@/lib/plans";
+import { allowsTest, effectivePlan } from "@/lib/plans";
 import { loadPlans } from "@/lib/plans-store";
 import { cn, naturalCompare } from "@/lib/utils";
 
@@ -130,10 +130,6 @@ export default async function TestsPage({
   const plan = effectivePlan(user);
   const hasPremium = user.isPremium || user.role === "ADMIN";
 
-  /** Whether the subscription opens a given book or volume of a series. */
-  const opens = (series: "REAL_EXAM" | "CAMBRIDGE", seriesNumber: number | null) =>
-    user.role === "ADMIN" || allowsSeries(plans[plan].access[series], seriesNumber);
-
   /** Whether the subscription opens a particular test. */
   const opensTest = (test: {
     skill: "LISTENING" | "READING" | "WRITING" | "SPEAKING";
@@ -165,7 +161,10 @@ export default async function TestsPage({
         number,
         total: members.length,
         done: members.filter((test) => submitted.has(test.id)).length,
-        locked: seriesSlug ? !opens(SERIES[seriesSlug].db, number || null) : false,
+        // A plan can open part of a volume, so the card is only shut when
+        // nothing inside it is open — otherwise a free student would be locked
+        // out of the three tests they are entitled to.
+        locked: members.every((test) => !opensTest(test)),
       };
     });
 

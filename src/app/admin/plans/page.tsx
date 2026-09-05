@@ -15,13 +15,24 @@ export const dynamic = "force-dynamic";
  * not have been imported yet.
  */
 export default async function PlansAdminPage() {
-  const [plans, sets, skillTestRows] = await Promise.all([
+  const [plans, sets, seriesTestRows, skillTestRows] = await Promise.all([
     loadPlans(),
     prisma.test.findMany({
       where: { status: "PUBLISHED", seriesNumber: { not: null } },
       select: { series: true, seriesNumber: true },
       distinct: ["series", "seriesNumber"],
       orderBy: [{ series: "asc" }, { seriesNumber: "asc" }],
+    }),
+    // The individual papers, for a plan that opens part of a volume rather
+    // than all of it.
+    prisma.test.findMany({
+      where: {
+        status: "PUBLISHED",
+        seriesNumber: { not: null },
+        skill: { in: ["READING", "LISTENING"] },
+      },
+      select: { slug: true, title: true, skill: true, series: true, seriesNumber: true, testNumber: true },
+      orderBy: [{ seriesNumber: "asc" }, { testNumber: "asc" }, { skill: "asc" }],
     }),
     // Writing and speaking belong to no numbered set, so they are listed
     // individually and chosen by slug.
@@ -47,13 +58,31 @@ export default async function PlansAdminPage() {
 
   const skillTests = { WRITING: bySkill("WRITING"), SPEAKING: bySkill("SPEAKING") };
 
+  const inSeries = (series: "REAL_EXAM" | "CAMBRIDGE") =>
+    seriesTestRows
+      .filter((test) => test.series === series)
+      .map(({ slug, title, skill, seriesNumber, testNumber }) => ({
+        slug,
+        title,
+        skill: skill as "READING" | "LISTENING",
+        seriesNumber: seriesNumber!,
+        testNumber,
+      }));
+
+  const seriesTests = { REAL_EXAM: inSeries("REAL_EXAM"), CAMBRIDGE: inSeries("CAMBRIDGE") };
+
   return (
     <AdminPage
       eyebrow="PLANS"
       title="Subscriptions"
       subtitle="Prices, wording, which material each plan opens, and how many full mocks it allows. Saved changes appear on the pricing page immediately."
     >
-      <PlansEditor initial={plans} seriesNumbers={seriesNumbers} skillTests={skillTests} />
+      <PlansEditor
+        initial={plans}
+        seriesNumbers={seriesNumbers}
+        seriesTests={seriesTests}
+        skillTests={skillTests}
+      />
     </AdminPage>
   );
 }

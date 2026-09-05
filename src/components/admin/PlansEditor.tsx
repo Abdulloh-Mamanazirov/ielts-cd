@@ -21,14 +21,26 @@ import { cn } from "@/lib/utils";
  */
 export type SkillTest = { slug: string; title: string };
 
+/** One reading or listening paper, for the per-test access picker. */
+export type SeriesTest = {
+  slug: string;
+  title: string;
+  skill: "READING" | "LISTENING";
+  seriesNumber: number;
+  testNumber: number | null;
+};
+
 export function PlansEditor({
   initial,
   seriesNumbers,
+  seriesTests,
   skillTests,
 }: {
   initial: PlansConfig;
   /** Which volumes and books actually exist, so access can be ticked off. */
   seriesNumbers: { REAL_EXAM: number[]; CAMBRIDGE: number[] };
+  /** The reading and listening papers inside them, for per-test access. */
+  seriesTests: { REAL_EXAM: SeriesTest[]; CAMBRIDGE: SeriesTest[] };
   /** The writing and speaking tests themselves, chosen one by one. */
   skillTests: { WRITING: SkillTest[]; SPEAKING: SkillTest[] };
 }) {
@@ -125,6 +137,7 @@ export function PlansEditor({
               <AccessPicker
                 label="Real Exam volumes"
                 available={seriesNumbers.REAL_EXAM}
+                tests={seriesTests.REAL_EXAM}
                 value={plan.access.REAL_EXAM}
                 onChange={(access) =>
                   patch(key, { access: { ...plan.access, REAL_EXAM: access } })
@@ -134,6 +147,7 @@ export function PlansEditor({
               <AccessPicker
                 label="Cambridge books"
                 available={seriesNumbers.CAMBRIDGE}
+                tests={seriesTests.CAMBRIDGE}
                 value={plan.access.CAMBRIDGE}
                 onChange={(access) =>
                   patch(key, { access: { ...plan.access, CAMBRIDGE: access } })
@@ -223,44 +237,77 @@ function Toggle({
   );
 }
 
-/** All, none, or a ticked list of the numbers that actually exist. */
+/**
+ * All, none, whole volumes, or individual papers.
+ *
+ * The last mode exists because a plan can open part of a volume — the free tier
+ * opens the first three tests of Volume 1 and nothing else — which no list of
+ * whole numbers can express.
+ */
 function AccessPicker({
   label,
   available,
+  tests,
   value,
   onChange,
 }: {
   label: string;
   available: number[];
+  /** Every reading and listening paper in this series, grouped by its number. */
+  tests: SeriesTest[];
   value: SeriesAccess;
   onChange: (access: SeriesAccess) => void;
 }) {
-  const chosen = value.kind === "some" ? value.numbers : [];
+  const chosenNumbers = value.kind === "some" ? value.numbers : [];
+  const chosenSlugs = value.kind === "tests" ? value.slugs : [];
+  const order = tests.map((test) => test.slug);
 
-  const toggle = (number: number) => {
-    const next = chosen.includes(number)
-      ? chosen.filter((entry) => entry !== number)
-      : [...chosen, number].sort((a, b) => a - b);
+  const toggleNumber = (number: number) => {
+    const next = chosenNumbers.includes(number)
+      ? chosenNumbers.filter((entry) => entry !== number)
+      : [...chosenNumbers, number].sort((a, b) => a - b);
     onChange({ kind: "some", numbers: next });
   };
+
+  const toggleSlug = (slug: string) => {
+    const next = chosenSlugs.includes(slug)
+      ? chosenSlugs.filter((entry) => entry !== slug)
+      : [...chosenSlugs, slug].sort((a, b) => order.indexOf(a) - order.indexOf(b));
+    onChange({ kind: "tests", slugs: next });
+  };
+
+  const numbers = [...new Set(tests.map((test) => test.seriesNumber))].sort((a, b) => a - b);
+
+  const MODES = [
+    { kind: "all", label: "All" },
+    { kind: "none", label: "None" },
+    { kind: "some", label: "Whole sets" },
+    { kind: "tests", label: "Single tests" },
+  ] as const;
 
   return (
     <div>
       <span className="mb-1 block text-[11px] font-bold text-ink-subtle">{label}</span>
-      <div className="flex gap-1.5">
-        {(["all", "none", "some"] as const).map((kind) => (
+      <div className="flex flex-wrap gap-1.5">
+        {MODES.map((mode) => (
           <button
-            key={kind}
+            key={mode.kind}
             type="button"
             onClick={() =>
-              onChange(kind === "some" ? { kind: "some", numbers: chosen } : { kind })
+              onChange(
+                mode.kind === "some"
+                  ? { kind: "some", numbers: chosenNumbers }
+                  : mode.kind === "tests"
+                    ? { kind: "tests", slugs: chosenSlugs }
+                    : { kind: mode.kind },
+              )
             }
             className={cn(
               "rounded-[7px] px-2.5 py-1 text-[11px] font-bold transition",
-              value.kind === kind ? "bg-ink text-white" : "bg-surface-alt text-ink-muted",
+              value.kind === mode.kind ? "bg-ink text-white" : "bg-surface-alt text-ink-muted",
             )}
           >
-            {kind === "all" ? "All" : kind === "none" ? "None" : "Choose"}
+            {mode.label}
           </button>
         ))}
       </div>
@@ -274,16 +321,52 @@ function AccessPicker({
             <button
               key={number}
               type="button"
-              onClick={() => toggle(number)}
+              onClick={() => toggleNumber(number)}
               className={cn(
                 "h-7 min-w-[28px] rounded-[6px] px-1.5 text-[11px] font-bold transition",
-                chosen.includes(number)
+                chosenNumbers.includes(number)
                   ? "bg-brand-blue text-white"
                   : "bg-surface-alt text-ink-muted hover:bg-ink/10",
               )}
             >
               {number}
             </button>
+          ))}
+        </div>
+      )}
+
+      {value.kind === "tests" && (
+        <div className="mt-2 max-h-72 space-y-2.5 overflow-y-auto rounded-[8px] bg-surface-alt p-2">
+          {numbers.length === 0 && (
+            <span className="text-[11px] text-ink-subtle">None imported yet.</span>
+          )}
+          {numbers.map((number) => (
+            <div key={number}>
+              <span className="mb-1 block text-[10px] font-bold tracking-[0.14em] text-ink-subtle">
+                {number}
+              </span>
+              <div className="flex flex-wrap gap-1">
+                {tests
+                  .filter((test) => test.seriesNumber === number)
+                  .map((test) => (
+                    <button
+                      key={test.slug}
+                      type="button"
+                      onClick={() => toggleSlug(test.slug)}
+                      title={test.title}
+                      className={cn(
+                        "h-6 rounded-[5px] px-1.5 text-[10.5px] font-bold transition",
+                        chosenSlugs.includes(test.slug)
+                          ? "bg-brand-blue text-white"
+                          : "bg-white text-ink-muted hover:bg-ink/10",
+                      )}
+                    >
+                      {test.skill === "READING" ? "R" : "L"}
+                      {test.testNumber ?? ""}
+                    </button>
+                  ))}
+              </div>
+            </div>
           ))}
         </div>
       )}

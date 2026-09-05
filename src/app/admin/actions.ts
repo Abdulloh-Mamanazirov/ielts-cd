@@ -11,6 +11,7 @@ import { isSiteImageUrl } from "@/lib/media/images";
 import { testAnswerKeySchema } from "@/lib/tests/schema";
 import { validateTestImport } from "@/lib/tests/validate";
 import { savePlans } from "@/lib/plans-store";
+import { saveAuthSettings } from "@/lib/auth-settings-store";
 
 /**
  * Admin mutations.
@@ -743,6 +744,7 @@ const accessSchema = z.union([
   z.object({ kind: z.literal("all") }),
   z.object({ kind: z.literal("none") }),
   z.object({ kind: z.literal("some"), numbers: z.array(z.number().int().positive()) }),
+  z.object({ kind: z.literal("tests"), slugs: z.array(z.string().min(1).max(120)) }),
 ]);
 
 const testAccessSchema = z.union([
@@ -856,4 +858,37 @@ export async function updateStudentProfile(input: unknown): Promise<ActionResult
 
   revalidatePath("/admin/students");
   return { ok: true, message: "Profile updated." };
+}
+
+// ---------------------------------------------------------------------------
+// Sign-up settings
+// ---------------------------------------------------------------------------
+
+const authSettingsSchema = z.object({ emailSignup: z.boolean() });
+
+/**
+ * Opens or closes registration by email and password.
+ *
+ * Signing in with an email is untouched — an account that already exists must
+ * keep working, so closing registration never locks anyone out.
+ */
+export async function updateAuthSettings(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const parsed = authSettingsSchema.safeParse(input);
+  if (!parsed.success) {
+    return { ok: false, error: parsed.error.issues[0]?.message ?? "Invalid request" };
+  }
+
+  await saveAuthSettings(parsed.data);
+
+  revalidatePath("/signup");
+  revalidatePath("/admin/settings");
+  return {
+    ok: true,
+    message: parsed.data.emailSignup
+      ? "Email sign-up is open."
+      : "Email sign-up is closed. Telegram still works.",
+  };
 }

@@ -12,12 +12,17 @@ import type { Plan, Skill, TestSeries } from "@/generated/prisma/enums";
  * live site with a blank price.
  */
 
-/** Which numbered books or volumes of a series a plan opens. */
+/** Which reading and listening material of a series a plan opens. */
 export type SeriesAccess =
   | { kind: "all" }
   | { kind: "none" }
-  /** Specific Volume or Cambridge numbers, e.g. [1, 2]. */
-  | { kind: "some"; numbers: number[] };
+  /** Whole Volume or Cambridge numbers, e.g. [1, 2]. */
+  | { kind: "some"; numbers: number[] }
+  /**
+   * Individual papers, by slug — a free plan that opens the first three tests
+   * of Volume 1 but not the rest of it cannot be said in whole numbers.
+   */
+  | { kind: "tests"; slugs: string[] };
 
 /**
  * Which writing or speaking tests a plan opens.
@@ -62,15 +67,31 @@ export const DEFAULT_PLANS: PlansConfig = {
     price: "0",
     period: "forever",
     benefits: [
-      "Volume 1 reading and listening tests",
+      "Real Exam Volume 1, tests 1–3: reading and listening",
+      "Cambridge 14 Test 1: reading and listening",
       "Instant band score and full answer review",
       "See where every answer came from in the passage",
       "One full mock exam",
       "Writing and speaking practice, saved to your dashboard",
     ],
+    // A taster rather than a whole volume, so the free tier shows what the
+    // platform does without giving away the library.
     access: {
-      REAL_EXAM: { kind: "some", numbers: [1] },
-      CAMBRIDGE: { kind: "none" },
+      REAL_EXAM: {
+        kind: "tests",
+        slugs: [
+          "reading-volume-1-test-1",
+          "listening-volume-1-test-1",
+          "reading-volume-1-test-2",
+          "listening-volume-1-test-2",
+          "reading-volume-1-test-3",
+          "listening-volume-1-test-3",
+        ],
+      },
+      CAMBRIDGE: {
+        kind: "tests",
+        slugs: ["reading-cambridge-14-test-1", "listening-cambridge-14-test-1"],
+      },
     },
     skills: { WRITING: { kind: "all" }, SPEAKING: { kind: "all" } },
     fullMocks: 1,
@@ -138,10 +159,16 @@ export function effectivePlan(user: {
   return user.plan;
 }
 
-/** Whether a plan opens a particular book or volume. */
-export function allowsSeries(access: SeriesAccess, seriesNumber: number | null): boolean {
+/** Whether a plan opens a particular reading or listening test. */
+export function allowsSeries(
+  access: SeriesAccess,
+  seriesNumber: number | null,
+  slug?: string,
+): boolean {
   if (access.kind === "all") return true;
   if (access.kind === "none") return false;
+  // Without a slug there is nothing to match, so a chosen few cannot include it.
+  if (access.kind === "tests") return slug !== undefined && access.slugs.includes(slug);
   // A test with no number belongs to no set, so it cannot be in a chosen few.
   return seriesNumber !== null && access.numbers.includes(seriesNumber);
 }
@@ -172,7 +199,7 @@ export function allowsTest(
     return allowsSkillTest(plans[plan].skills[test.skill], test.slug);
   }
 
-  return allowsSeries(plans[plan].access[test.series], test.seriesNumber);
+  return allowsSeries(plans[plan].access[test.series], test.seriesNumber, test.slug);
 }
 
 /**
@@ -221,6 +248,9 @@ export function mergePlans(stored: unknown): PlansConfig {
 export function describeAccess(access: SeriesAccess): string {
   if (access.kind === "all") return "All";
   if (access.kind === "none") return "None";
+  if (access.kind === "tests") {
+    return access.slugs.length === 0 ? "None" : `${access.slugs.length} tests`;
+  }
   if (access.numbers.length === 0) return "None";
   return access.numbers.join(", ");
 }

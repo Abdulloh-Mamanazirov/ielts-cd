@@ -18,6 +18,7 @@ const ITEMS = [
   { href: "/admin/students", label: "Students" },
   { href: "/admin/plans", label: "Plans" },
   { href: "/admin/showcase", label: "Results & reviews" },
+  { href: "/admin/settings", label: "Settings" },
 ];
 
 export function AdminNav({
