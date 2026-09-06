@@ -29,6 +29,45 @@ export function normalizeAnswer(raw: string): string {
   );
 }
 
+/**
+ * The same answer with the grouping taken out of a number or a code, or null
+ * when it is neither.
+ *
+ * Answer keys print long numbers the way the exam booklet does — a phone number
+ * as "87954 82361", a postcode as "DW30 7YZ" — but that grouping is typography,
+ * not part of the answer. A student who types the digits straight through has
+ * written the same thing, and an examiner marks it right.
+ *
+ * The rule fires only when every part contains a digit, which is the shape of a
+ * number or a code and never of an ordinary two-word answer. That is what keeps
+ * "10 September", "3 weeks" and "factor 40" comparing as the two words they are.
+ */
+function ungrouped(normalized: string): string | null {
+  if (!normalized.includes(" ")) return null;
+  const parts = normalized.split(" ");
+  if (!parts.every((part) => /\d/.test(part))) return null;
+  return parts.join("");
+}
+
+/** Every spelling one answer can be compared under. */
+function comparableForms(raw: string): string[] {
+  const normalized = normalizeAnswer(raw);
+  const joined = ungrouped(normalized);
+  return joined ? [normalized, joined] : [normalized];
+}
+
+/**
+ * Whether a student's answer and an accepted one are the same answer.
+ *
+ * Compared in both directions so it does not matter which side the key happened
+ * to write in groups.
+ */
+export function answersMatch(submitted: string, candidate: string): boolean {
+  const mine = comparableForms(submitted);
+  const theirs = comparableForms(candidate);
+  return mine.some((form) => form !== "" && theirs.includes(form));
+}
+
 /** Words a student wrote, for enforcing rubric limits like "ONE WORD ONLY". */
 export function countWords(raw: string): number {
   const cleaned = raw.trim();
@@ -42,7 +81,6 @@ export function isBlank(raw: string | null | undefined): boolean {
 }
 
 export function matchesAnyAccepted(submitted: string, accepted: readonly string[]): boolean {
-  const normalized = normalizeAnswer(submitted);
-  if (!normalized) return false;
-  return accepted.some((candidate) => normalizeAnswer(candidate) === normalized);
+  if (!normalizeAnswer(submitted)) return false;
+  return accepted.some((candidate) => answersMatch(submitted, candidate));
 }

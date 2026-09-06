@@ -1,5 +1,5 @@
 import { bandForRawScore, type GradedSkill } from "./bands";
-import { countWords, isBlank, normalizeAnswer } from "./normalize";
+import { countWords, isBlank, matchesAnyAccepted, normalizeAnswer } from "./normalize";
 import { groupByQuestionNumber, partByQuestionNumber } from "./slots";
 import type { AnswerSet, TestAnswerKey, TestContent } from "./schema";
 
@@ -122,9 +122,7 @@ export function gradeSubmission(
     }
 
     const answered = !isBlank(raw);
-    const matched =
-      answered &&
-      entry.accepted.some((candidate) => normalizeAnswer(candidate) === normalizeAnswer(raw));
+    const matched = answered && matchesAnyAccepted(raw, entry.accepted);
 
     const limit = group?.maxWords;
     const withinLimit = !limit || !answered || countWords(raw) <= limit;

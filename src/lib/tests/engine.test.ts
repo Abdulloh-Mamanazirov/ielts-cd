@@ -5,7 +5,7 @@ import type { z } from "zod";
 
 import { bandForRawScore, overallBand } from "./bands";
 import { gradeSubmission, perfectSubmission } from "./grade";
-import { countWords, normalizeAnswer } from "./normalize";
+import { answersMatch, countWords, normalizeAnswer } from "./normalize";
 import {
   testAnswerKeySchema,
   testContentSchema,
@@ -80,6 +80,38 @@ function sampleImport(): z.input<typeof testImportSchema> {
     },
   };
 }
+
+describe("answersMatch on grouped numbers and codes", () => {
+  it("accepts a phone number typed without the key's grouping", () => {
+    // Cambridge 14 Test 1 question 10: the booklet prints the crime reference
+    // number as two groups, a student typed the digits straight through, and
+    // an examiner marks that right.
+    assert.equal(answersMatch("8795482361", "87954 82361"), true);
+    assert.equal(answersMatch("87954 82361", "87954 82361"), true);
+  });
+
+  it("works whichever side carries the spaces", () => {
+    assert.equal(answersMatch("87954 82361", "8795482361"), true);
+    assert.equal(answersMatch("0412 665 903", "0412665903"), true);
+  });
+
+  it("accepts a postcode typed without its space", () => {
+    assert.equal(answersMatch("dw307yz", "DW30 7YZ"), true);
+  });
+
+  it("leaves ordinary two-word answers alone", () => {
+    // "10September" is not the answer "10 September"; only parts that all
+    // carry a digit are treated as one grouped number.
+    assert.equal(answersMatch("10september", "10 September"), false);
+    assert.equal(answersMatch("3weeks", "3 weeks"), false);
+    assert.equal(answersMatch("factor40", "factor 40"), false);
+  });
+
+  it("still refuses a different number", () => {
+    assert.equal(answersMatch("8795482362", "87954 82361"), false);
+    assert.equal(answersMatch("87954", "87954 82361"), false);
+  });
+});
 
 describe("normalizeAnswer", () => {
   it("ignores case, spacing, and surrounding punctuation", () => {
