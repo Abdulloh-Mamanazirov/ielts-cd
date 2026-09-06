@@ -1,6 +1,8 @@
 import { prisma } from "@/lib/db";
-import { gradeSubmission, type Submission } from "@/lib/tests/grade";
-import { countWords, normalizeAnswer } from "@/lib/tests/normalize";
+import { refreshFullMock } from "@/lib/full-mock/service";
+import { bandForRawScore, FULL_TEST_QUESTIONS, type GradedSkill } from "@/lib/tests/bands";
+import { gradeSubmission, type QuestionVerdict, type Submission } from "@/lib/tests/grade";
+import { countWords, matchesAnyAccepted, normalizeAnswer } from "@/lib/tests/normalize";
 import { groupByQuestionNumber } from "@/lib/tests/slots";
 import type { QuestionGroup, TestAnswerKey, TestContent } from "@/lib/tests/schema";
 
@@ -167,3 +169,74 @@ async function recordUnrecognizedAnswers(
 }
 
 export { SUBMIT_GRACE_SECONDS };
+
+/**
+ * Re-marks finished attempts of one test against its current answer key.
+ *
+ * A verdict can only move from wrong to right: accepting an answer, or fixing
+ * the comparison, is an admission that a student was marked down unfairly, and
+ * neither should ever be able to take a mark away from someone who has already
+ * seen their band.
+ *
+ * Only the affected attempts are written, and each one's score and band are
+ * recomputed from its own verdicts, so nothing else about it moves.
+ */
+export async function regradeSubmittedAttempts(testId: string): Promise<number> {
+  const test = await prisma.test.findUnique({
+    where: { id: testId },
+    select: { skill: true, answerKey: true, content: true },
+  });
+  if (!test) return 0;
+  if (!isAutoGraded(String(test.skill).toLowerCase() as TestContent["skill"])) return 0;
+
+  const answers = (test.answerKey as { answers?: Record<string, { accepted?: string[] }> } | null)
+    ?.answers;
+  if (!answers) return 0;
+
+  const attempts = await prisma.attempt.findMany({
+    where: { testId, status: "SUBMITTED" },
+    select: { id: true, result: true, fullMockId: true },
+  });
+
+  const skill = String(test.skill).toLowerCase() as GradedSkill;
+  const totalQuestions =
+    (test.content as { totalQuestions?: number } | null)?.totalQuestions ?? FULL_TEST_QUESTIONS;
+
+  let corrected = 0;
+  const mocks = new Set<string>();
+
+  for (const attempt of attempts) {
+    const stored = attempt.result as { verdicts?: QuestionVerdict[] } | null;
+    const verdicts = stored?.verdicts;
+    if (!Array.isArray(verdicts)) continue;
+
+    let changed = false;
+    const fixed = verdicts.map((verdict) => {
+      // An answer rejected for breaking the word limit was not a marking
+      // mistake, so it stays rejected.
+      if (verdict.correct || verdict.overWordLimit || !verdict.submitted) return verdict;
+      const accepted = answers[String(verdict.number)]?.accepted;
+      if (!accepted || !matchesAnyAccepted(verdict.submitted, accepted)) return verdict;
+      changed = true;
+      return { ...verdict, correct: true };
+    });
+
+    if (!changed) continue;
+
+    const rawScore = fixed.filter((verdict) => verdict.correct).length;
+    const { band, scaledScore, isEstimate } = bandForRawScore(skill, rawScore, totalQuestions);
+
+    await prisma.attempt.update({
+      where: { id: attempt.id },
+      data: { result: { ...stored, verdicts: fixed, scaledScore, isEstimate }, rawScore, band },
+    });
+
+    corrected += 1;
+    if (attempt.fullMockId) mocks.add(attempt.fullMockId);
+  }
+
+  // A corrected section can change the mock's overall band.
+  for (const id of mocks) await refreshFullMock(id);
+
+  return corrected;
+}

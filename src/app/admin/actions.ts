@@ -6,6 +6,7 @@ import { z } from "zod";
 import { reorder } from "@/lib/admin/order";
 import { requireAdminApi } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
+import { regradeSubmittedAttempts } from "@/lib/attempts/service";
 import { refreshFullMock } from "@/lib/full-mock/service";
 import { isSiteImageUrl } from "@/lib/media/images";
 import { testAnswerKeySchema } from "@/lib/tests/schema";
@@ -425,10 +426,11 @@ const reviewSchema = z.object({
 /**
  * Accepts or rejects a student answer the grader did not recognise.
  *
- * Accepting writes the variant into the test's answer key, so every future
- * sitting marks it correct. Past attempts are deliberately left alone —
- * silently changing a band a student has already seen is worse than the
- * original miss.
+ * Accepting writes the variant into the test's answer key, and re-marks the
+ * attempts it was collected from: those students typed a right answer and were
+ * told it was wrong, and leaving the band standing keeps the injustice the
+ * queue exists to catch. A verdict can only move from wrong to right, and the
+ * count comes back in the confirmation rather than changing quietly.
  */
 export async function decideAnswerReview(input: unknown): Promise<ActionResult> {
   const admin = await assertAdmin();
@@ -450,6 +452,8 @@ export async function decideAnswerReview(input: unknown): Promise<ActionResult> 
   if (!review) return { ok: false, error: "Review not found" };
   if (review.status !== "PENDING") return { ok: false, error: "Already decided" };
 
+  let corrected = 0;
+
   if (parsed.data.accept) {
     const test = await prisma.test.findUnique({
       where: { id: review.testId },
@@ -469,6 +473,8 @@ export async function decideAnswerReview(input: unknown): Promise<ActionResult> 
       where: { id: review.testId },
       data: { answerKey: key.data },
     });
+
+    corrected = await regradeSubmittedAttempts(review.testId);
   }
 
   await prisma.answerReview.update({
@@ -480,9 +486,17 @@ export async function decideAnswerReview(input: unknown): Promise<ActionResult> 
   });
 
   revalidatePath("/admin/reviews");
+  if (corrected > 0) {
+    revalidatePath("/dashboard");
+  }
   return {
     ok: true,
-    message: parsed.data.accept ? "Added to the answer key." : "Rejected.",
+    message: parsed.data.accept
+      ? `Added to the answer key.` +
+        (corrected > 0
+          ? ` ${corrected} past attempt${corrected === 1 ? "" : "s"} re-marked.`
+          : "")
+      : "Rejected.",
   };
 }
 

@@ -276,9 +276,54 @@ async function seedHomepageContent() {
   );
 }
 
+/**
+ * Puts back the answers the instructor accepted in the admin panel.
+ *
+ * Accepting a variant writes it into the Test row's key, not into the JSON, so
+ * seeding — which replaces the key wholesale from the file — would silently
+ * undo every one of those decisions and start marking those students wrong
+ * again. The AnswerReview table records what was accepted, so the additions can
+ * simply be re-applied afterwards.
+ */
+async function restoreAcceptedAnswers() {
+  const accepted = await prisma.answerReview.findMany({
+    where: { status: "ACCEPTED" },
+    select: { testId: true, questionNumber: true, rawExample: true },
+  });
+  if (accepted.length === 0) return;
+
+  const byTest = new Map<string, typeof accepted>();
+  for (const review of accepted) {
+    const list = byTest.get(review.testId) ?? [];
+    list.push(review);
+    byTest.set(review.testId, list);
+  }
+
+  let restored = 0;
+  for (const [testId, reviews] of byTest) {
+    const test = await prisma.test.findUnique({ where: { id: testId }, select: { answerKey: true } });
+    const key = test?.answerKey as { answers?: Record<string, { accepted?: string[] }> } | null;
+    if (!key?.answers) continue;
+
+    let changed = false;
+    for (const review of reviews) {
+      const entry = key.answers[String(review.questionNumber)];
+      if (!entry?.accepted || entry.accepted.includes(review.rawExample)) continue;
+      entry.accepted.push(review.rawExample);
+      changed = true;
+      restored += 1;
+    }
+
+    if (changed) await prisma.test.update({ where: { id: testId }, data: { answerKey: key } });
+  }
+
+  console.log(`ok    ${restored} accepted answer(s) put back into their keys`);
+}
+
 async function main() {
   await seedAdmin();
   await seedTests();
+  await restoreAcceptedAnswers();
   await seedHomepageContent();
 }
 

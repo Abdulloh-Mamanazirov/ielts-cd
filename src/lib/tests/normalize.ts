@@ -3,6 +3,9 @@
  * through the same normalizer, so the key can be authored naturally.
  */
 
+import { canonicalDate } from "./dates";
+import { canonicalSpelling } from "./spelling";
+
 const LEADING_ARTICLE = /^(?:a|an|the)\s+/;
 
 export function normalizeAnswer(raw: string): string {
@@ -49,11 +52,25 @@ function ungrouped(normalized: string): string | null {
   return parts.join("");
 }
 
-/** Every spelling one answer can be compared under. */
+/**
+ * Every form one answer can be compared under: as typed, and as each of the
+ * equivalences an examiner would apply — a grouped number without its spaces,
+ * the other variety's spelling, and a date written the other way round.
+ */
 function comparableForms(raw: string): string[] {
   const normalized = normalizeAnswer(raw);
+  const forms = new Set<string>([normalized]);
+
   const joined = ungrouped(normalized);
-  return joined ? [normalized, joined] : [normalized];
+  if (joined) forms.add(joined);
+
+  const spelled = canonicalSpelling(normalized);
+  forms.add(spelled);
+
+  const date = canonicalDate(spelled);
+  if (date) forms.add(date);
+
+  return [...forms];
 }
 
 /**

@@ -113,6 +113,58 @@ describe("answersMatch on grouped numbers and codes", () => {
   });
 });
 
+describe("answersMatch on British and American spelling", () => {
+  it("accepts the other variety of a word the key happens to use", () => {
+    // The key said "theatre" and students typed "theater"; IELTS accepts both.
+    assert.equal(answersMatch("theater", "theatre"), true);
+    assert.equal(answersMatch("colour", "color"), true);
+    assert.equal(answersMatch("traveling", "travelling"), true);
+    assert.equal(answersMatch("radio programme", "radio program"), true);
+  });
+
+  it("does not treat a misspelling as the other variety", () => {
+    // A blanket -ise/-ize rule would let these through. IELTS marks spelling.
+    assert.equal(answersMatch("surprize", "surprise"), false);
+    assert.equal(answersMatch("advertize", "advertise"), false);
+  });
+
+  it("leaves pairs apart that only sometimes mean the same thing", () => {
+    // Both "story" answers in the library are narratives, not floors, and the
+    // "credit check" is a background check rather than a cheque.
+    assert.equal(answersMatch("storey", "story"), false);
+    assert.equal(answersMatch("credit cheque", "credit check"), false);
+  });
+
+  it("still marks a different word wrong", () => {
+    assert.equal(answersMatch("dairy", "diary"), false);
+    assert.equal(answersMatch("dogs", "dog"), false);
+  });
+});
+
+describe("answersMatch on dates", () => {
+  it("accepts a date written either way round", () => {
+    assert.equal(answersMatch("September 10th", "10 September"), true);
+    assert.equal(answersMatch("10 September", "September 10"), true);
+    assert.equal(answersMatch("the 13th of January", "13 January"), true);
+    assert.equal(answersMatch("13 Jan", "13 January"), true);
+  });
+
+  it("keeps a bare month apart from a date", () => {
+    assert.equal(answersMatch("September", "10 September"), false);
+    assert.equal(answersMatch("10 September", "September"), false);
+  });
+
+  it("keeps different dates apart", () => {
+    assert.equal(answersMatch("11 September", "10 September"), false);
+    assert.equal(answersMatch("10 October", "10 September"), false);
+  });
+
+  it("does not read a date into an answer that is not one", () => {
+    assert.equal(answersMatch("mayor", "may 4"), false);
+    assert.equal(answersMatch("30 march 1988", "30 march"), false);
+  });
+});
+
 describe("normalizeAnswer", () => {
   it("ignores case, spacing, and surrounding punctuation", () => {
     assert.equal(normalizeAnswer("  Camouflage. "), "camouflage");
