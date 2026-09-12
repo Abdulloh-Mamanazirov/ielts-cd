@@ -1,7 +1,7 @@
 import Image from "next/image";
 
+import instructorPhoto from "../../../public/instructor.webp";
 import { site } from "@/content/site";
-import { publicAsset } from "@/lib/site-assets";
 import { cn } from "@/lib/utils";
 
 /**
@@ -131,10 +131,13 @@ export function Marquee({
 /**
  * Hero portrait: a hard red block offset behind a white photo card, with the
  * logo tile and location pill floating off its edges.
+ *
+ * The photo is imported rather than referenced by path so its URL carries a
+ * hash of the file. Browsers and the image optimiser cache by URL, for hours;
+ * a photo replaced under the same name kept showing the old one to anyone who
+ * had already seen it. To change it, overwrite public/instructor.webp.
  */
 export function HeroPortrait() {
-  const photo = publicAsset("instructor");
-
   return (
     <div className="relative mx-auto w-full max-w-[496px]">
       <div className="relative aspect-[392/498] w-full">
@@ -145,26 +148,14 @@ export function HeroPortrait() {
 
         <div className="absolute right-0 top-0 h-full w-[88%] rounded-md bg-white p-3.5 shadow-[0_40px_70px_-34px_rgba(11,17,32,.55)]">
           <div className="relative h-full w-full overflow-hidden bg-surface-alt">
-            {photo ? (
-              <Image
-                src={photo}
-                alt={`${site.instructor.name}, IELTS instructor`}
-                fill
-                priority
-                sizes="(max-width: 1024px) 70vw, 380px"
-                className="object-cover object-top"
-              />
-            ) : (
-              <div className="flex h-full flex-col items-center justify-center p-6 text-center">
-                <span aria-hidden className="text-4xl">
-                  🎓
-                </span>
-                <p className="mt-3 text-sm font-bold text-ink">Instructor photo</p>
-                <p className="mt-1 text-xs text-ink-subtle">
-                  Add <code>public/instructor.webp</code>
-                </p>
-              </div>
-            )}
+            <Image
+              src={instructorPhoto}
+              alt={`${site.instructor.name}, IELTS instructor`}
+              fill
+              priority
+              sizes="(max-width: 1024px) 70vw, 380px"
+              className="object-cover object-top"
+            />
           </div>
         </div>
 
