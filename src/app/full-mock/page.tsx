@@ -29,6 +29,7 @@ export default async function FullMockPage() {
         id: true,
         startedAt: true,
         includeSpeaking: true,
+        event: { select: { title: true, token: true } },
         attempts: {
           orderBy: { sequence: "asc" },
           select: {
@@ -50,6 +51,7 @@ export default async function FullMockPage() {
         id: true,
         completedAt: true,
         overallBand: true,
+        event: { select: { title: true } },
         attempts: {
           orderBy: { sequence: "asc" },
           select: { id: true, band: true, test: { select: { skill: true, title: true } } },
@@ -79,8 +81,11 @@ export default async function FullMockPage() {
           {current ? (
             <section className="bg-white px-6 py-6 lg:px-8">
               <h2 className="text-[10px] font-bold tracking-[0.22em] text-brand-blue">
-                IN PROGRESS
+                {current.event ? "MOCK TEST · IN PROGRESS" : "IN PROGRESS"}
               </h2>
+              {current.event && (
+                <p className="mt-2 text-base font-bold text-ink">{current.event.title}</p>
+              )}
               <p className="mt-2 text-sm text-ink-muted">
                 Started {current.startedAt.toLocaleDateString()}. Sections run in exam order; each
                 clock starts the moment you open that section.
@@ -136,7 +141,12 @@ export default async function FullMockPage() {
                 })}
               </ol>
 
-              <StartFullMock mode="continue" fullMockId={current.id} />
+              <StartFullMock
+                mode="continue"
+                fullMockId={current.id}
+                // An event is one sitting; there is nothing to give up to.
+                canAbandon={!current.event}
+              />
             </section>
           ) : (
             <section className="bg-white px-6 py-6 lg:px-8">
@@ -171,9 +181,10 @@ export default async function FullMockPage() {
                     <div className="flex flex-wrap items-center gap-4">
                       <div className="min-w-0 flex-1">
                         <p className="text-sm font-bold text-ink">
-                          {mock.completedAt?.toLocaleDateString()}
+                          {mock.event ? mock.event.title : mock.completedAt?.toLocaleDateString()}
                         </p>
                         <p className="mt-0.5 text-xs text-ink-subtle">
+                          {mock.event ? `${mock.completedAt?.toLocaleDateString()} · ` : ""}
                           {mock.attempts.length} sections
                         </p>
                       </div>

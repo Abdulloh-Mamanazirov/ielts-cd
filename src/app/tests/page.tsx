@@ -30,14 +30,16 @@ const SERIES = {
     db: "CAMBRIDGE" as const,
     name: "Cambridge materials",
     blurb: "The official Cambridge IELTS books, exactly as they are printed.",
-    setLabel: (n: number) => `Cambridge ${n}`,
+    setLabel: (n: number) => (n === 0 ? "Other papers" : `Cambridge ${n}`),
     setEyebrow: "BOOK",
   },
   "real-exam": {
     db: "REAL_EXAM" as const,
     name: "Real Exam materials",
     blurb: "Papers collected from recent real exams, grouped into Volumes.",
-    setLabel: (n: number) => `Volume ${n}`,
+    // A paper that belongs to no numbered volume — a released event paper,
+    // say — files under 0 and is shown as such rather than as "Volume 0".
+    setLabel: (n: number) => (n === 0 ? "Other papers" : `Volume ${n}`),
     setEyebrow: "VOLUME",
   },
 };
@@ -85,6 +87,7 @@ export default async function TestsPage({
         status: "PUBLISHED",
         // Material reserved for full mocks never appears on the practice shelf.
         mockOnly: false,
+        eventOnly: false,
         ...(active ? { skill: active.db } : {}),
       },
       orderBy: [{ skill: "asc" }, { isPremium: "asc" }, { title: "asc" }],

@@ -1,0 +1,534 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "listening",
+    "title": "Mock Test — Listening",
+    "source": "@shohrukhposts",
+    "totalQuestions": 40,
+    "durationSeconds": 2400,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "Section 1<p>Listen and answer questions 1–10.</p>",
+        "groups": [
+          {
+            "id": "part-1-group-1",
+            "type": "completion",
+            "selectCount": 1,
+            "maxWords": 1,
+            "rubricHtml": "<h3>Questions 1–10</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "bodyHtml": "<div class=\"summary\"><div class=\"notes-title\">Watertown Community Centre Programmes</div><p><em>Example</em>&nbsp;&nbsp;Name of staff member: Maria</p><div class=\"sub-head\">Yoga</div><ul class=\"notes-list\"> <li>&lsquo;Modern Yoga&rsquo; is good for losing {{1}}.</li> <li>&lsquo;Yoga and More&rsquo; is beneficial for those with aches in their {{2}}.</li> <li>&lsquo;Original Yoga&rsquo; is great for {{3}}.</li> <li>Classes last for 55 minutes.</li> <li>Participants should bring a {{4}}.</li> </ul><div class=\"sub-head\">Ballet</div><ul class=\"notes-list\"> <li>The Wednesday class focuses on difficult routines and {{5}}.</li> <li>The Thursday class is preparing for a {{6}}.</li> </ul><div class=\"sub-head\">Soccer</div><ul class=\"notes-list\"> <li>In the Rookies team, the children learn the main skills of soccer.</li> <li>Parents bring a {{7}} to be shared.</li> </ul><div class=\"sub-head\">Aerobics</div><ul class=\"notes-list\"> <li>Classes are held 16 times a week.</li> <li>It&rsquo;s best to go before {{8}} instead of later.</li> <li>High-impact aerobics helps maintain a strong {{9}}.</li> </ul><div class=\"sub-head\">Registration procedures</div><ul class=\"notes-list\"> <li>Can pay online or at {{10}} in the centre.</li> <li>$360 for 12 weeks.</li> </ul></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "Section 2<p>Listen and answer questions 11–20.</p>",
+        "groups": [
+          {
+            "id": "part-2-group-1",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 11 and 12</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> facts are given about the lake in the Royal Nature Park?</p>",
+            "questions": [
+              {
+                "number": 11,
+                "textHtml": "Which <strong>TWO</strong> facts are given about the lake in the Royal Nature Park?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Aquatic life feeds on plants floating on the lake"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Visitors can swim in any part of the lake"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "There is little life in the deepest parts of the lake"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "The lake has very low water levels"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "There is evidence that corn was grown nearby"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-2",
+            "type": "mcq",
+            "selectCount": 2,
+            "rubricHtml": "<h3>Questions 13 and 14</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> facts are given about the First Nations longhouses in the park?</p>",
+            "questions": [
+              {
+                "number": 13,
+                "textHtml": "Which <strong>TWO</strong> facts are given about the First Nations longhouses in the park?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They are built on two levels"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Several families might live in one house"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Animals were kept inside"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Children helped to build them"
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "They were later destroyed by fire"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part-2-group-3",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 15–20</h3><p>Which activity will people do at each of the following events?</p><p>Choose <strong>SIX</strong> answers from the box and write the correct letter, <strong>A–I</strong>, next to Questions 15–20.</p><p><strong>Activities</strong></p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "enter a competition"
+              },
+              {
+                "letter": "B",
+                "textHtml": "pick produce"
+              },
+              {
+                "letter": "C",
+                "textHtml": "paint pictures of leaves"
+              },
+              {
+                "letter": "D",
+                "textHtml": "take a walk at night"
+              },
+              {
+                "letter": "E",
+                "textHtml": "follow winter trails"
+              },
+              {
+                "letter": "F",
+                "textHtml": "find carvings of endangered species"
+              },
+              {
+                "letter": "G",
+                "textHtml": "learn about production of a traditional food"
+              },
+              {
+                "letter": "H",
+                "textHtml": "participate in an animal show"
+              },
+              {
+                "letter": "I",
+                "textHtml": "feed the animals"
+              }
+            ],
+            "questions": [
+              {
+                "number": 15,
+                "textHtml": "Sweet Water Season"
+              },
+              {
+                "number": 16,
+                "textHtml": "Season of the Harvest"
+              },
+              {
+                "number": 17,
+                "textHtml": "Fall into Nature"
+              },
+              {
+                "number": 18,
+                "textHtml": "Moccasin Time"
+              },
+              {
+                "number": 19,
+                "textHtml": "Hide and Seek Trail"
+              },
+              {
+                "number": 20,
+                "textHtml": "Pine Ridge Way"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "Section 3<p>Listen and answer questions 21–30.</p>",
+        "groups": [
+          {
+            "id": "part-3-group-1",
+            "type": "completion",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 21–25</h3><p>Complete the flow-chart below.</p><p>Choose <strong>FIVE</strong> answers from the box and write the correct letter, <strong>A–G</strong>, next to Questions 21–25.</p><p><strong>How the Varroa mite attacks</strong></p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "the blood"
+              },
+              {
+                "letter": "B",
+                "textHtml": "a flower"
+              },
+              {
+                "letter": "C",
+                "textHtml": "the hive"
+              },
+              {
+                "letter": "D",
+                "textHtml": "the honey"
+              },
+              {
+                "letter": "E",
+                "textHtml": "a honeycomb cell"
+              },
+              {
+                "letter": "F",
+                "textHtml": "the queen bee"
+              },
+              {
+                "letter": "G",
+                "textHtml": "a virus"
+              }
+            ],
+            "bodyHtml": "<div><div class=\"flow-box\">The mite moves from the bee to {{21}}.</div><div class=\"flow-arrow\">↓</div><div class=\"flow-box\">The mite travels to {{22}} on a new host.</div><div class=\"flow-arrow\">↓</div><div class=\"flow-box\">Inside, the mite enters the honeycomb cell</div><div class=\"flow-arrow\">↓</div><div class=\"flow-box\">The mite uses {{23}} to hide its smell.</div><div class=\"flow-arrow\">↓</div><div class=\"flow-box\">The mite feeds on {{24}} of the bee larva.</div><div class=\"flow-arrow\">↓</div><div class=\"flow-box\">The mite reproduces and moves on.</div><div class=\"flow-arrow\">↓</div><div class=\"flow-box\">The bee is left weakened and with {{25}}.</div></div>"
+          },
+          {
+            "id": "part-3-group-2",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 26–30</h3><p>What problem do the speakers identify with each of the following types of bee?</p><p>Choose <strong>FIVE</strong> answers from the box and write the correct letter, <strong>A–G</strong>, next to Questions 26–30.</p><p><strong>Problems</strong></p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "could introduce pests"
+              },
+              {
+                "letter": "B",
+                "textHtml": "needs a warm climate"
+              },
+              {
+                "letter": "C",
+                "textHtml": "not much is known about it"
+              },
+              {
+                "letter": "D",
+                "textHtml": "numbers are too few to help farmers"
+              },
+              {
+                "letter": "E",
+                "textHtml": "spreads weeds"
+              },
+              {
+                "letter": "F",
+                "textHtml": "too aggressive"
+              },
+              {
+                "letter": "G",
+                "textHtml": "unable to produce honey"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "textHtml": "European Bumblebee"
+              },
+              {
+                "number": 27,
+                "textHtml": "Blue Banded Bee"
+              },
+              {
+                "number": 28,
+                "textHtml": "Africanised Bee"
+              },
+              {
+                "number": 29,
+                "textHtml": "Australian Stingless Bee"
+              },
+              {
+                "number": 30,
+                "textHtml": "Canadian Leafcutter Bee"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "instructionsHtml": "Section 4<p>Listen and answer questions 31–40.</p>",
+        "groups": [
+          {
+            "id": "part-4-group-1",
+            "type": "completion",
+            "selectCount": 1,
+            "maxWords": 1,
+            "rubricHtml": "<h3>Questions 31–40</h3><p>Complete the notes below.</p><p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>",
+            "bodyHtml": "<div class=\"summary\"><div class=\"notes-title\">After Action Review Process</div><div class=\"sub-head\">Background</div><ul class=\"notes-list\"> <li>A way of evaluating during a project in order to make improvements</li> <li>Developed by the {{31}}.</li> </ul><div class=\"sub-head\">Benefits</div><ul class=\"notes-list\"> <li>Not just for large projects &mdash; can also be used after: <ul class=\"notes-list\"> <li>a staff meeting</li> <li>a {{32}} incident</li> </ul> </li> <li>Develops better team communication because of the emphasis on {{33}}.</li> </ul><div class=\"sub-head\">What is an After Action Review?</div><ul class=\"notes-list\"> <li>It&rsquo;s a meeting that: <ul class=\"notes-list\"> <li>concentrates on results and the {{34}} for them</li> <li>encourages participation</li> <li>stresses the need to {{35}} each other</li> </ul> </li> </ul><div class=\"sub-head\">Things to remember when conducting an After Action Review</div><ul class=\"notes-list\"> <li>Use an external facilitator (so stronger team members cannot dominate)</li> <li>To encourage participation, get the group&rsquo;s thoughts in {{36}}.</li> <li>Remember to use {{37}} questions</li> <li>Give any recommendations to other team {{38}}.</li> <li>Make sure you follow up on ideas and provide {{39}} for employees</li> <li>Remember to check the {{40}} often</li> </ul></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "weight"
+        ],
+        "type": "Note completion"
+      },
+      "2": {
+        "accepted": [
+          "back"
+        ],
+        "type": "Note completion"
+      },
+      "3": {
+        "accepted": [
+          "beginners"
+        ],
+        "type": "Note completion"
+      },
+      "4": {
+        "accepted": [
+          "mat"
+        ],
+        "type": "Note completion"
+      },
+      "5": {
+        "accepted": [
+          "jumps"
+        ],
+        "type": "Note completion"
+      },
+      "6": {
+        "accepted": [
+          "competition"
+        ],
+        "type": "Note completion"
+      },
+      "7": {
+        "accepted": [
+          "snack"
+        ],
+        "type": "Note completion"
+      },
+      "8": {
+        "accepted": [
+          "work"
+        ],
+        "type": "Note completion"
+      },
+      "9": {
+        "accepted": [
+          "heart"
+        ],
+        "type": "Note completion"
+      },
+      "10": {
+        "accepted": [
+          "reception"
+        ],
+        "type": "Note completion"
+      },
+      "15": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Matching"
+      },
+      "16": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching"
+      },
+      "17": {
+        "accepted": [
+          "H"
+        ],
+        "type": "Matching"
+      },
+      "18": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching"
+      },
+      "19": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Matching"
+      },
+      "20": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching"
+      },
+      "21": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Flowchart completion"
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Flowchart completion"
+      },
+      "23": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Flowchart completion"
+      },
+      "24": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Flowchart completion"
+      },
+      "25": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Flowchart completion"
+      },
+      "26": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching"
+      },
+      "27": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching"
+      },
+      "28": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Matching"
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching"
+      },
+      "30": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching"
+      },
+      "31": {
+        "accepted": [
+          "army"
+        ],
+        "type": "Note completion"
+      },
+      "32": {
+        "accepted": [
+          "safety"
+        ],
+        "type": "Note completion"
+      },
+      "33": {
+        "accepted": [
+          "learning"
+        ],
+        "type": "Note completion"
+      },
+      "34": {
+        "accepted": [
+          "reasons"
+        ],
+        "type": "Note completion"
+      },
+      "35": {
+        "accepted": [
+          "trust"
+        ],
+        "type": "Note completion"
+      },
+      "36": {
+        "accepted": [
+          "writing"
+        ],
+        "type": "Note completion"
+      },
+      "37": {
+        "accepted": [
+          "open"
+        ],
+        "type": "Note completion"
+      },
+      "38": {
+        "accepted": [
+          "leaders"
+        ],
+        "type": "Note completion"
+      },
+      "39": {
+        "accepted": [
+          "training"
+        ],
+        "type": "Note completion"
+      },
+      "40": {
+        "accepted": [
+          "time"
+        ],
+        "type": "Note completion"
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          11,
+          12
+        ],
+        "accepted": [
+          "E",
+          "C"
+        ],
+        "type": "Multiple choice (choose two)"
+      },
+      {
+        "questions": [
+          13,
+          14
+        ],
+        "accepted": [
+          "B",
+          "D"
+        ],
+        "type": "Multiple choice (choose two)"
+      }
+    ]
+  },
+  "slug": "listening-event-mock-1",
+  "isPremium": false,
+  "eventOnly": true,
+  "series": "REAL_EXAM"
+}

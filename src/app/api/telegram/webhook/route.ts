@@ -5,6 +5,7 @@ import {
   hasJoinedChannel,
   issueLoginLink,
   REQUIRED_CHANNEL,
+  returnPathFromStart,
   sendMessage,
 } from "@/lib/telegram/bot";
 
@@ -74,6 +75,10 @@ export async function POST(request: Request) {
   const isStart = command("start");
   const isLogin = command("login");
 
+  // "/start join_abc" — the site's event link asks to come back to that event.
+  const startPayload = text?.match(/^\/start(?:@\w+)?\s+(\S+)/)?.[1];
+  const returnTo = returnPathFromStart(startPayload);
+
   // Already registered: hand them a fresh link rather than starting again.
   const existing = await prisma.user.findUnique({
     where: { telegramId },
@@ -81,10 +86,12 @@ export async function POST(request: Request) {
   });
 
   if (existing && (isStart || isLogin)) {
-    const link = await issueLoginLink(existing.id);
+    const link = await issueLoginLink(existing.id, returnTo);
     await sendMessage(
       chatId,
-      `Welcome back, ${escapeHtml(existing.fullName)}.\n\n<a href="${link}">Open your dashboard</a>\n\nThe link works once and expires in 15 minutes.`,
+      `Welcome back, ${escapeHtml(existing.fullName)}.\n\n<a href="${link}">${
+        returnTo ? "Open the mock test" : "Open your dashboard"
+      }</a>\n\nThe link works once and expires in 15 minutes.`,
     );
     return ok();
   }
@@ -93,8 +100,16 @@ export async function POST(request: Request) {
   const beginRegistration = async () => {
     await prisma.telegramRegistration.upsert({
       where: { telegramId },
-      create: { telegramId, step: "NAME", username },
-      update: { step: "NAME", username, fullName: null, isStudent: null },
+      create: { telegramId, step: "NAME", username, returnTo },
+      // A bare /start after an event link keeps the event; only a new event
+      // link replaces it.
+      update: {
+        step: "NAME",
+        username,
+        fullName: null,
+        isStudent: null,
+        ...(returnTo ? { returnTo } : {}),
+      },
     });
 
     const suggested = [from.first_name, from.last_name].filter(Boolean).join(" ");
@@ -173,10 +188,12 @@ export async function POST(request: Request) {
 
     await prisma.telegramRegistration.delete({ where: { telegramId } }).catch(() => {});
 
-    const link = await issueLoginLink(user.id);
+    const link = await issueLoginLink(user.id, registration.returnTo);
     await sendMessage(
       chatId,
-      `You're all set, ${escapeHtml(fullName)}.\n\n<a href="${link}">Open your dashboard</a>\n\nThe link works once and expires in 15 minutes. Send /login any time for a new one.`,
+      `You're all set, ${escapeHtml(fullName)}.\n\n<a href="${link}">${
+        registration.returnTo ? "Open the mock test" : "Open your dashboard"
+      }</a>\n\nThe link works once and expires in 15 minutes. Send /login any time for a new one.`,
       { remove_keyboard: true },
     );
     return ok();

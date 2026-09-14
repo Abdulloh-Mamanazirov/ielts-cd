@@ -9,7 +9,11 @@ import {
   submitForReview,
   SUBMIT_GRACE_SECONDS,
 } from "@/lib/attempts/service";
+import { attemptIsInEvent } from "@/lib/events/service";
 import { refreshFullMock } from "@/lib/full-mock/service";
+import { canRequestReview as markingAllows } from "@/lib/marking-settings";
+import { loadMarkingSettings } from "@/lib/marking-settings-store";
+import { effectivePlan } from "@/lib/plans";
 import { getAnswerKey } from "@/lib/tests/access";
 
 const submitSchema = z.object({
@@ -71,10 +75,17 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
   // no band at all rather than a zero, which would drag down a band average
   // that the instructor has not even looked at yet.
   if (!isAutoGraded(loaded.content.skill)) {
-    // Marking is the paid part. A free student can still sit the test and keep
-    // their work; they just cannot put it in the instructor's queue.
-    const mayRequestReview = auth.user.isPremium || auth.user.role === "ADMIN";
-    const reviewRequested = Boolean(parsed.data.forReview) && mayRequestReview;
+    // Whether the work may join the instructor's queue is a per-plan switch.
+    // An event essay always does, and is queued whatever the client sent —
+    // the whole sitting exists to be marked.
+    const inEvent = await attemptIsInEvent(attempt.fullMockId);
+    const mayRequestReview = markingAllows(
+      await loadMarkingSettings(),
+      auth.user,
+      effectivePlan(auth.user),
+      inEvent,
+    );
+    const reviewRequested = inEvent || (Boolean(parsed.data.forReview) && mayRequestReview);
 
     await submitForReview(
       attempt.id,

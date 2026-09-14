@@ -12,9 +12,12 @@ import { useRouter } from "next/navigation";
 export function StartFullMock({
   mode,
   fullMockId,
+  canAbandon = true,
 }: {
   mode: "start" | "continue";
   fullMockId?: string;
+  /** An event sitting cannot be given up: it is the one paper the student has. */
+  canAbandon?: boolean;
 }) {
   const router = useRouter();
   const [includeSpeaking, setIncludeSpeaking] = useState(false);
@@ -107,7 +110,7 @@ export function StartFullMock({
 
         {/* Only one mock runs at a time, so without a way out an abandoned
             sitting would block every future one. */}
-        {mode === "continue" && (
+        {mode === "continue" && canAbandon && (
           <button
             type="button"
             onClick={abandon}

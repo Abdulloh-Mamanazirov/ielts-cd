@@ -19,12 +19,17 @@ export async function POST(_request: Request, context: { params: Promise<{ id: s
 
   const fullMock = await prisma.fullMock.findFirst({
     where: { id, userId: auth.user.id },
-    select: { id: true, status: true },
+    select: { id: true, status: true, eventId: true },
   });
 
   if (!fullMock) return Response.json({ error: "Full mock not found" }, { status: 404 });
   if (fullMock.status !== "IN_PROGRESS") {
     return Response.json({ error: "That mock is already finished" }, { status: 409 });
+  }
+  // An event is one sitting per person. Giving it up would either lock them out
+  // or, if a second were allowed, let them see the paper twice.
+  if (fullMock.eventId) {
+    return Response.json({ error: "A mock test sitting cannot be abandoned" }, { status: 409 });
   }
 
   await prisma.attempt.updateMany({

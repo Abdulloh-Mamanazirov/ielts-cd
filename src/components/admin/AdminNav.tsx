@@ -3,18 +3,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { INSTRUCTOR_MARKING_ENABLED } from "@/lib/features";
 import { cn } from "@/lib/utils";
 
 const ITEMS = [
   { href: "/admin", label: "Overview", exact: true },
-  // Marking is hidden while instructor submission is switched off — there is
-  // nothing for the queue to receive.
-  ...(INSTRUCTOR_MARKING_ENABLED
-    ? [{ href: "/admin/marking", label: "Marking", badge: "marking" as const }]
-    : []),
+  { href: "/admin/marking", label: "Marking", badge: "marking" as const },
   { href: "/admin/reviews", label: "Answer reviews", badge: "reviews" as const },
   { href: "/admin/tests", label: "Tests" },
+  { href: "/admin/events", label: "Events" },
   { href: "/admin/students", label: "Students" },
   { href: "/admin/plans", label: "Plans" },
   { href: "/admin/showcase", label: "Results & reviews" },

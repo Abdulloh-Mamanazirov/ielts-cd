@@ -104,11 +104,12 @@ model User {
   createdAt          DateTime  @default(now())
   updatedAt          DateTime  @updatedAt
 
-  sessions           Session[]
-  attempts           Attempt[]
-  fullMocks          FullMock[]
-  loginTokens        LoginToken[]
-  reviewedWriting    WritingSubmission[] @relation("WritingReviewer")
+  sessions        Session[]
+  attempts        Attempt[]
+  fullMocks       FullMock[]
+  eventEntries    EventParticipant[]
+  loginTokens     LoginToken[]
+  reviewedWriting WritingSubmission[] @relation("WritingReviewer")
 
   @@index([isPremium])
   @@index([createdAt])
@@ -146,24 +147,28 @@ model LoginAttempt {
 }
 
 model Test {
-  id              String     @id @default(cuid())
-  slug            String     @unique
+  id              String      @id @default(cuid())
+  slug            String      @unique
   skill           Skill
   title           String
   description     String?
-  isPremium       Boolean    @default(false)
-  status          TestStatus @default(DRAFT)
+  isPremium       Boolean     @default(false)
+  status          TestStatus  @default(DRAFT)
   /// Which body of material this belongs to, and where inside it. `seriesNumber`
   /// is the Volume number for REAL_EXAM and the book number for CAMBRIDGE;
   /// `testNumber` is the test within that book or volume. Both are nullable
   /// because a one-off test need not sit in any numbered set.
-  series          TestSeries @default(REAL_EXAM)
+  series          TestSeries  @default(REAL_EXAM)
   seriesNumber    Int?
   testNumber      Int?
   /// Reserved for full mocks: kept out of the practice shelf entirely so a
   /// student cannot sit it beforehand and inflate their mock band.
-  mockOnly        Boolean    @default(false)
-  schemaVersion   Int        @default(1)
+  mockOnly        Boolean     @default(false)
+  /// Reserved for a mock event: off the shelf AND out of the random full-mock
+  /// pool, so nobody meets it before the event. Cleared when the event's
+  /// material is released to the library.
+  eventOnly       Boolean     @default(false)
+  schemaVersion   Int         @default(1)
   // Rendered by the player; safe to send to the browser.
   content         Json
   // Accepted answers, explanations, evidence. Never serialize this to a client.
@@ -176,12 +181,15 @@ model Test {
   // Where a converted listening test's audio came from, so the admin knows what
   // to re-host. Publishing still requires an uploaded audioAsset.
   audioSourceUrl  String?
-  createdAt       DateTime   @default(now())
-  updatedAt       DateTime   @updatedAt
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
   publishedAt     DateTime?
 
   attempts        Attempt[]
   answerReviews   AnswerReview[]
+  listeningEvents MockEvent[]    @relation("EventListening")
+  readingEvents   MockEvent[]    @relation("EventReading")
+  writingEvents   MockEvent[]    @relation("EventWriting")
 
   @@index([skill, status])
   @@index([status, isPremium])
@@ -197,7 +205,7 @@ model AudioAsset {
   durationSeconds Int?
   createdAt       DateTime @default(now())
 
-  tests           Test[]
+  tests Test[]
 }
 
 model Attempt {
@@ -212,9 +220,9 @@ model Attempt {
   fullMock   FullMock?     @relation(fields: [fullMockId], references: [id], onDelete: SetNull)
   sequence   Int?
 
-  answers     Json @default("{}")
-  flags       Json @default("[]")
-  annotations Json @default("{}")
+  answers     Json  @default("{}")
+  flags       Json  @default("[]")
+  annotations Json  @default("{}")
   result      Json?
 
   rawScore         Int?
@@ -242,15 +250,73 @@ model FullMock {
   id              String         @id @default(cuid())
   userId          String
   user            User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  /// Set when this sitting is a mock event's fixed paper rather than one
+  /// composed at random from the library.
+  eventId         String?
+  event           MockEvent?     @relation(fields: [eventId], references: [id], onDelete: SetNull)
   includeSpeaking Boolean        @default(false)
   status          FullMockStatus @default(IN_PROGRESS)
   overallBand     Float?
   startedAt       DateTime       @default(now())
   completedAt     DateTime?
 
-  attempts        Attempt[]
+  attempts    Attempt[]
+  participant EventParticipant?
 
   @@index([userId, startedAt])
+  @@index([eventId])
+}
+
+enum MockEventStatus {
+  DRAFT
+  OPEN
+  CLOSED
+}
+
+/// A promotional sitting: one fixed paper — listening, reading, writing —
+/// reachable only through a link the instructor hands out. Each participant
+/// sits it once, as a FullMock, so grading, timing and the dashboard are the
+/// ones every other mock uses.
+model MockEvent {
+  id              String          @id @default(cuid())
+  title           String
+  description     String?
+  /// The join link is /join/<token>. Unguessable, and regenerated on demand
+  /// if it leaks.
+  token           String          @unique
+  status          MockEventStatus @default(DRAFT)
+  /// Optional cut-off; the admin can also close it by hand at any time.
+  closesAt        DateTime?
+  maxParticipants Int?
+  listeningTestId String
+  listeningTest   Test            @relation("EventListening", fields: [listeningTestId], references: [id])
+  readingTestId   String
+  readingTest     Test            @relation("EventReading", fields: [readingTestId], references: [id])
+  writingTestId   String
+  writingTest     Test            @relation("EventWriting", fields: [writingTestId], references: [id])
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+
+  participants EventParticipant[]
+  sittings     FullMock[]
+
+  @@index([status])
+}
+
+/// Who joined an event, and their sitting once they started it. One row per
+/// person per event, which is what makes it one sitting each.
+model EventParticipant {
+  id         String    @id @default(cuid())
+  eventId    String
+  event      MockEvent @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  userId     String
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  fullMockId String?   @unique
+  fullMock   FullMock? @relation(fields: [fullMockId], references: [id], onDelete: SetNull)
+  joinedAt   DateTime  @default(now())
+
+  @@unique([eventId, userId])
+  @@index([userId])
 }
 
 model WritingSubmission {
@@ -307,25 +373,25 @@ model AnswerReview {
 }
 
 model ShowcaseResult {
-  id           String   @id @default(cuid())
-  studentName  String
-  overallBand  Float
-  listening    Float?
-  reading      Float?
-  writing      Float?
-  speaking     Float?
-  quoteEn      String?
-  quoteUz      String?
-  quoteRu      String?
+  id             String    @id @default(cuid())
+  studentName    String
+  overallBand    Float
+  listening      Float?
+  reading        Float?
+  writing        Float?
+  speaking       Float?
+  quoteEn        String?
+  quoteUz        String?
+  quoteRu        String?
   // Scan of the Test Report Form. Redact personal details before uploading:
   // a real TRF carries the candidate's full name, ID, date of birth and
   // nationality, none of which belong on a public page.
   certificateUrl String?
   testDate       DateTime?
-  displayOrder Int      @default(0)
-  isVisible    Boolean  @default(true)
-  createdAt    DateTime @default(now())
-  updatedAt    DateTime @updatedAt
+  displayOrder   Int       @default(0)
+  isVisible      Boolean   @default(true)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
 
   @@index([isVisible, displayOrder])
 }
@@ -360,6 +426,10 @@ model TelegramRegistration {
   fullName   String?
   isStudent  Boolean?
   username   String?
+  /// Where to send them once they are in — an event's join page, say. The
+  /// bot's deep link carries it, and registration takes several messages, so
+  /// it has to be kept somewhere in between.
+  returnTo   String?
   updatedAt  DateTime @updatedAt
 }
 

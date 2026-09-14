@@ -7,12 +7,14 @@ import { reorder } from "@/lib/admin/order";
 import { requireAdminApi } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { regradeSubmittedAttempts } from "@/lib/attempts/service";
+import { newEventToken } from "@/lib/events/service";
 import { refreshFullMock } from "@/lib/full-mock/service";
 import { isSiteImageUrl } from "@/lib/media/images";
 import { testAnswerKeySchema } from "@/lib/tests/schema";
 import { validateTestImport } from "@/lib/tests/validate";
 import { savePlans } from "@/lib/plans-store";
 import { saveAuthSettings } from "@/lib/auth-settings-store";
+import { saveMarkingSettings } from "@/lib/marking-settings-store";
 
 /**
  * Admin mutations.
@@ -904,5 +906,234 @@ export async function updateAuthSettings(input: unknown): Promise<ActionResult> 
     message: parsed.data.emailSignup
       ? "Email sign-up is open."
       : "Email sign-up is closed. Telegram still works.",
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Mock events
+// ---------------------------------------------------------------------------
+
+const eventSchema = z.object({
+  id: z.string().min(1).optional(),
+  title: z.string().trim().min(1, "Give the event a name").max(120),
+  description: z.string().trim().max(1000).optional(),
+  listeningTestId: z.string().min(1, "Pick a listening test"),
+  readingTestId: z.string().min(1, "Pick a reading test"),
+  writingTestId: z.string().min(1, "Pick a writing test"),
+  /** `<input type="datetime-local">`; empty when cleared. */
+  closesAt: z.string().max(40).optional(),
+  maxParticipants: z.number().int().positive().nullable().optional(),
+});
+
+function parseClosesAt(value: string | undefined): Date | null {
+  if (!value?.trim()) return null;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+/** Every page an event's state shows on. */
+function revalidateEvent(id: string, token?: string) {
+  revalidatePath("/admin/events");
+  revalidatePath(`/admin/events/${id}`);
+  if (token) revalidatePath(`/join/${token}`);
+}
+
+export type SaveEventResult = ActionResult | { ok: true; message: string; id: string };
+
+/**
+ * Creates or edits an event. The three tests must be published and of the
+ * right skill, and a listening test must have its audio — an event whose
+ * first section cannot be sat is worse than no event.
+ */
+export async function saveMockEvent(input: unknown): Promise<SaveEventResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const parsed = eventSchema.safeParse(input);
+  if (!parsed.success) {
+    return { ok: false, error: parsed.error.issues[0]?.message ?? "Invalid request" };
+  }
+  const { id, closesAt, description, maxParticipants, ...rest } = parsed.data;
+
+  const tests = await prisma.test.findMany({
+    where: { id: { in: [rest.listeningTestId, rest.readingTestId, rest.writingTestId] } },
+    select: { id: true, skill: true, status: true, audioAssetId: true },
+  });
+  const byId = new Map(tests.map((test) => [test.id, test]));
+  const check = (testId: string, skill: "LISTENING" | "READING" | "WRITING") => {
+    const test = byId.get(testId);
+    if (!test || test.skill !== skill) return `Pick a ${skill.toLowerCase()} test`;
+    if (test.status !== "PUBLISHED") return `The ${skill.toLowerCase()} test is not published`;
+    if (skill === "LISTENING" && !test.audioAssetId) return "The listening test has no audio yet";
+    return null;
+  };
+  const problem =
+    check(rest.listeningTestId, "LISTENING") ??
+    check(rest.readingTestId, "READING") ??
+    check(rest.writingTestId, "WRITING");
+  if (problem) return { ok: false, error: problem };
+
+  const data = {
+    ...rest,
+    description: description || null,
+    closesAt: parseClosesAt(closesAt),
+    maxParticipants: maxParticipants ?? null,
+  };
+
+  if (id) {
+    const existing = await prisma.mockEvent.findUnique({
+      where: { id },
+      select: {
+        token: true,
+        listeningTestId: true,
+        readingTestId: true,
+        writingTestId: true,
+        _count: { select: { participants: true } },
+      },
+    });
+    if (!existing) return { ok: false, error: "Event not found" };
+
+    // Once anyone has joined, the paper is fixed: swapping a test under a
+    // student mid-event would make the roster meaningless.
+    const changed =
+      existing.listeningTestId !== rest.listeningTestId ||
+      existing.readingTestId !== rest.readingTestId ||
+      existing.writingTestId !== rest.writingTestId;
+    if (existing._count.participants > 0 && changed) {
+      return { ok: false, error: "The tests cannot change once someone has joined" };
+    }
+
+    await prisma.mockEvent.update({ where: { id }, data });
+    revalidateEvent(id, existing.token);
+    return { ok: true, message: "Event saved.", id };
+  }
+
+  const created = await prisma.mockEvent.create({
+    data: { ...data, token: newEventToken() },
+    select: { id: true, token: true },
+  });
+  revalidateEvent(created.id, created.token);
+  return { ok: true, message: "Event created.", id: created.id };
+}
+
+const eventStatusSchema = z.object({
+  id: z.string().min(1),
+  status: z.enum(["DRAFT", "OPEN", "CLOSED"]),
+});
+
+/** Opens or closes the link. Closing stops new entries; sittings under way carry on. */
+export async function setMockEventStatus(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const parsed = eventStatusSchema.safeParse(input);
+  if (!parsed.success) return { ok: false, error: "Invalid request" };
+
+  const event = await prisma.mockEvent.update({
+    where: { id: parsed.data.id },
+    data: { status: parsed.data.status },
+    select: { token: true },
+  });
+  revalidateEvent(parsed.data.id, event.token);
+
+  const word = { DRAFT: "a draft again", OPEN: "open", CLOSED: "closed" }[parsed.data.status];
+  return { ok: true, message: `The event is now ${word}.` };
+}
+
+/** A fresh link. The old one stops working the moment this returns. */
+export async function regenerateMockEventLink(id: string): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const before = await prisma.mockEvent.findUnique({ where: { id }, select: { token: true } });
+  if (!before) return { ok: false, error: "Event not found" };
+
+  await prisma.mockEvent.update({ where: { id }, data: { token: newEventToken() } });
+  revalidateEvent(id, before.token);
+  return { ok: true, message: "New link generated. The old one no longer works." };
+}
+
+/**
+ * Puts a closed event's paper on the practice shelf, where every other test
+ * lives. Only once closed: releasing it while people can still join would
+ * hand the answers to anyone who practises first.
+ */
+export async function releaseMockEventTests(id: string): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const event = await prisma.mockEvent.findUnique({
+    where: { id },
+    select: { status: true, listeningTestId: true, readingTestId: true, writingTestId: true },
+  });
+  if (!event) return { ok: false, error: "Event not found" };
+  if (event.status !== "CLOSED") return { ok: false, error: "Close the event first" };
+
+  // A test shared with an event that is still open stays reserved.
+  const ids = [event.listeningTestId, event.readingTestId, event.writingTestId];
+  const stillReserved = await prisma.mockEvent.findMany({
+    where: {
+      id: { not: id },
+      status: { not: "CLOSED" },
+      OR: [
+        { listeningTestId: { in: ids } },
+        { readingTestId: { in: ids } },
+        { writingTestId: { in: ids } },
+      ],
+    },
+    select: { listeningTestId: true, readingTestId: true, writingTestId: true },
+  });
+  const keep = new Set(
+    stillReserved.flatMap((e) => [e.listeningTestId, e.readingTestId, e.writingTestId]),
+  );
+  const release = ids.filter((testId) => !keep.has(testId));
+
+  const result = await prisma.test.updateMany({
+    where: { id: { in: release }, eventOnly: true },
+    data: { eventOnly: false },
+  });
+
+  revalidateEvent(id);
+  revalidatePath("/tests");
+  revalidatePath("/admin/tests");
+  return {
+    ok: true,
+    message:
+      result.count === 0
+        ? "Nothing to release — these tests are already on the shelf."
+        : `${result.count} test${result.count === 1 ? "" : "s"} released to the library.`,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Marking settings
+// ---------------------------------------------------------------------------
+
+const markingSettingsSchema = z.object({
+  FREE: z.boolean(),
+  STUDENT: z.boolean(),
+  PREMIUM: z.boolean(),
+});
+
+/** Which plans may send writing and speaking to the instructor for a band. */
+export async function updateMarkingSettings(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const parsed = markingSettingsSchema.safeParse(input);
+  if (!parsed.success) return { ok: false, error: "Invalid request" };
+
+  await saveMarkingSettings(parsed.data);
+  revalidatePath("/admin/settings");
+
+  const open = (Object.keys(parsed.data) as Array<keyof typeof parsed.data>).filter(
+    (plan) => parsed.data[plan],
+  );
+  return {
+    ok: true,
+    message:
+      open.length === 0
+        ? "Marking is closed to every plan. Event essays are still marked."
+        : `Marking open to: ${open.map((plan) => plan.toLowerCase()).join(", ")}.`,
   };
 }

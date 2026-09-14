@@ -51,6 +51,8 @@ export async function planFullMock(
     where: {
       status: "PUBLISHED",
       skill: { in: skills },
+      // An event's paper must not turn up in anyone's mock before the event.
+      eventOnly: false,
       ...(canUsePremium ? {} : { isPremium: false }),
     },
     select: {
@@ -104,7 +106,7 @@ export async function fullMockBlockers(user: SessionUser | null): Promise<Skill[
   const canUsePremium = Boolean(user && (user.isPremium || user.role === "ADMIN"));
 
   const available = await prisma.test.findMany({
-    where: { status: "PUBLISHED", ...(canUsePremium ? {} : { isPremium: false }) },
+    where: { status: "PUBLISHED", eventOnly: false, ...(canUsePremium ? {} : { isPremium: false }) },
     select: { skill: true, audioAssetId: true },
   });
 

@@ -64,7 +64,7 @@ async function seedTests() {
       continue;
     }
 
-    const { content, answerKey, slug, isPremium, audioSourceUrl, series, seriesNumber, testNumber } =
+    const { content, answerKey, slug, isPremium, eventOnly, audioSourceUrl, series, seriesNumber, testNumber } =
       report.parsed;
     const skill = content.skill.toUpperCase() as "LISTENING" | "READING" | "WRITING" | "SPEAKING";
 
@@ -82,6 +82,7 @@ async function seedTests() {
       title: content.title,
       description: content.description ?? null,
       isPremium: isPremium ?? false,
+      eventOnly: eventOnly ?? false,
       schemaVersion: content.schemaVersion,
       content,
       answerKey,

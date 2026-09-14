@@ -74,6 +74,7 @@ export default async function AdminTestsPage({
       skill: true,
       status: true,
       isPremium: true,
+      eventOnly: true,
       totalQuestions: true,
       durationSeconds: true,
       updatedAt: true,
@@ -155,6 +156,9 @@ export default async function AdminTestsPage({
                         <p className="mt-0.5 truncate text-xs text-ink-subtle">
                           {describeTest(test.totalQuestions, test.durationSeconds)}
                           {test.isPremium ? " · Premium" : " · Free"}
+                          {test.eventOnly && (
+                            <span className="font-bold text-brand-red-cta"> · Event only</span>
+                          )}
                           {test._count.attempts > 0 && ` · ${test._count.attempts} sat`}
                           {test.audioAsset && ` · ${test.audioAsset.filename}`}
                         </p>

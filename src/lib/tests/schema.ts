@@ -283,6 +283,8 @@ export const testImportSchema = z.object({
     .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "Slug must be lowercase words separated by hyphens")
     .optional(),
   isPremium: z.boolean().optional(),
+  /** Reserved for a mock event: off the shelf and out of the random mock pool. */
+  eventOnly: z.boolean().optional(),
   /**
    * Where this sits on the practice shelf: which body of material, and where
    * inside it. Optional because a one-off test need belong to no numbered set.

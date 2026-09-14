@@ -1,0 +1,811 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "Mock Test — Reading",
+    "source": "@shohrukhposts",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 1–13</strong>, which are based on Reading Passage 1.</p>",
+        "passageHtml": "<h1>Sydney Opera House</h1><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;Sydney Opera House is an example of late modern architecture; it is admired internationally and treasured by the people of Australia.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;In 1956 the Premier of New South Wales, Australia, announced an international competition for the design of an opera house for Sydney. It attracted more than 200 entries from around the world and was won by Jørn Utzon, a relatively little-known architect from Denmark. The story goes that during the judging of the competition, one judge, American architect Eero Saarinen, arrived in Sydney after the other three judges had started assessing the entries. He looked through their rejected entries and stopped at the Utzon design, declaring it to be outstanding.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;It was Utzon’s life and travels that had shaped his design for the Sydney Opera House. Though he had never visited the site, he used his maritime background to study naval charts of Sydney Harbour. His early exposure to shipbuilding provided the inspiration for the design of the roof of the Sydney Opera House, which is a series of curved ‘shells’ that look like the sails of a sailing ship billowing on the wind. From his travels to Mexico, he had the idea of placing his building on a wide horizontal platform.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;Construction of the platform began in 1959, and throughout the early 1960s Utzon amended his original designs in order to develop a way to build the large ‘shells’ that cover the two main halls. The construction of the roof brought together some of the world’s best engineers and craftsmen, devising innovative techniques to create a major visual impact in accordance with Utzon’s vision. The design was one of the first examples of the use of computer-aided design for complex shapes.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;Although Utzon had spectacular plans for the interior, he was unable to realise them. Cost overruns contributed to criticism of the project and, after a change of government, the Minister of Works began questioning Utzon’s schedules and cost estimates. Payments to Utzon were stopped and he was forced to withdraw as chief architect in 1966. Following his resignation, there were protests through the streets led by prominent architect Harry Seidler and others, demanding Utzon be reinstated as architect. However, Utzon was not reinstated and left Australia in 1966. He never returned and new architects were appointed to complete the building in his absence. The original cost estimate for the Opera House was $7 million, with the completion date set at 26 January 1963. However, the Opera House was not formally completed until 1973, having cost $102 million.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;Since its opening in 1973, Sydney Opera House has earned a reputation as a world-class performing arts centre, and become a symbol of both Sydney and Australia. Situated at Bennelong Point on Sydney Harbour, it consists of a series of large precast ‘shells’ made of concrete, each composed of sections of a sphere of 75.2 metres radius, forming the roofs of the structure, set on a monumental platform. The building is 183 metres long and 120 metres wide at its widest point. It is supported on 588 concrete piers which are sunk approximately 25 metres below sea level.</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;Although the roof structures are commonly referred to as ‘shells’, they are precast concrete panels supported by concrete ribs. The ‘shells’ are covered with 1,056,000 white and cream-coloured tiles manufactured in a factory in Sweden that generally produced stoneware tiles for the paper-mill industry. The design solution and construction of the shell structure took eight years to complete, and the development of the special ceramic tiles took over three years. Apart from the tiles covering the ‘shells’, the building’s exterior is mostly clad with granite quarried in Australia.</p></div><div class=\"passage-section\" id=\"para-H\"><p><strong>H</strong>&nbsp;&nbsp;Contrary to its name, Sydney Opera House includes multiple performance venues. It is among the busiest performing arts centres in the world, holding over 1,500 performances each year. It hosts a large number of performing arts companies, including the four resident companies: Opera Australia; the Australian Ballet; the Sydney Theatre Company and the Sydney Symphony Orchestra.</p></div><div class=\"passage-section\" id=\"para-I\"><p><strong>I</strong>&nbsp;&nbsp;With its grand setting and cathedral-like atmosphere, the Concert Hall is Sydney Opera House’s most prestigious performance space. The largest of all Sydney Opera House interior venues, it delivers outstanding acoustics thanks to its high ceiling and wood panelling. There is a sizeable outdoor forecourt from which people ascend to the main entrance. The steps, which lead up from the forecourt to the main performance venues, are nearly 100 metres wide.</p></div><div class=\"passage-section\" id=\"para-J\"><p><strong>J</strong>&nbsp;&nbsp;In 1999, Utzon was re-engaged to develop a set of design principles to act as a guide for future changes to the building. All of this design work he did from his base in Europe. These principles help to ensure that the building’s architectural integrity is maintained. The first alteration to the exterior of the building was the addition of a new colonnade, which shades nine large glass openings into the previously solid exterior wall. This Utzon-led project, completed in 2006, enabled theatre patrons to see the harbour for the first time from the theatre foyers. The design also incorporates the first public lift and interior escalators to assist less mobile patrons.</p></div><div class=\"passage-section\" id=\"para-K\"><p><strong>K</strong>&nbsp;&nbsp;Since 2007, the cultural, heritage and architectural importance of Sydney Opera House has been protected by its inclusion on the World Heritage List.</p></div>",
+        "groups": [
+          {
+            "id": "p1-g1",
+            "type": "tfng",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 1–7</h3><p>Do the following statements agree with the information given in Reading Passage 1?</p><p>Write <strong>TRUE</strong> if the statement agrees with the information, <strong>FALSE</strong> if the statement contradicts the information, or <strong>NOT GIVEN</strong> if there is no information on this.</p>",
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Utzon was famous for his work before he designed the Opera House."
+              },
+              {
+                "number": 2,
+                "textHtml": "Utzon’s design was favoured by the four judges of the competition from the beginning."
+              },
+              {
+                "number": 3,
+                "textHtml": "Utzon’s knowledge of boats gave him the idea for parts of the Opera House."
+              },
+              {
+                "number": 4,
+                "textHtml": "Utzon was impressed by the opera houses he had seen in Mexico."
+              },
+              {
+                "number": 5,
+                "textHtml": "Utzon changed his designs in the 1960s after construction began."
+              },
+              {
+                "number": 6,
+                "textHtml": "Seidler defended Utzon’s role as architect."
+              },
+              {
+                "number": 7,
+                "textHtml": "Utzon went back to Australia in 1973 for the opening of the Opera House."
+              }
+            ]
+          },
+          {
+            "id": "p1-g2",
+            "type": "completion",
+            "selectCount": 1,
+            "maxWords": 2,
+            "rubricHtml": "<h3>Questions 8–13</h3><p>Complete the notes below.</p><p>Choose <strong>ONE WORD AND/OR A NUMBER</strong> from the passage for each answer.</p>",
+            "bodyHtml": "<div class=\"summary\"><div class=\"notes-title\">Sydney Opera House</div><div class=\"sub-head\">Final cost</div><ul class=\"notes-list\"><li>${{8}}</li></ul><div class=\"sub-head\">Construction</div><ul class=\"notes-list\"><li>a large platform acting as a base for the building</li><li>concrete panels used to make ‘shells’, which are covered in tiles</li><li>over a million tiles from {{9}}</li><li>{{10}} from Australia covering the outside walls</li></ul><div class=\"sub-head\">Use</div><ul class=\"notes-list\"><li>more than 1,500 performances annually</li><li>{{11}} performing arts companies have their home base at the Opera House</li></ul><div class=\"sub-head\">Outside</div><ul class=\"notes-list\"><li>a large {{12}} at the foot of a wide staircase</li></ul><div class=\"sub-head\">Alterations</div><ul class=\"notes-list\"><li>a colonnade was added in 2006</li><li>openings made the {{13}} visible from foyers</li></ul></div>"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 14–26</strong>, which are based on Reading Passage 2.</p>",
+        "passageHtml": "<h1>A Unique Golden Textile</h1><p class=\"passage-intro\"><em>A two-man project to use spider silk is achieved after four years</em></p><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;A rare textile made from the silk of more than a million wild spiders has been on display at the American Museum of Natural History in New York City. To produce this golden cloth, 70 people spent four years collecting golden orb spiders from telephone poles in Madagascar, while another dozen workers carefully extracted about 80 feet of silk filament from each of the arachnids. The resulting 11-foot by 4-foot textile is the only large piece of cloth made from natural spider silk existing in the world today.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Spider silk is very elastic and strong compared with steel or Kevlar, said textile expert Simon Peers, who co-led the project. Kevlar is a lightweight synthetic fabric which is chemically related to nylon. It is very tough and durable and used in bullet-proof vests. Kevlar is also resistant to wear, tear, and heat and has absolutely no melting point. But the tensile strength of spider silk is even greater than Kevlar’s aramid filaments, and greater than that of high-grade steel. Most importantly, spider silk is extremely lightweight: a strand of spider silk long enough to circle the Earth would weigh less than 500 grams (18 oz). Spider silk is also especially ductile, able to stretch up to 140 percent of its length without breaking. It can hold its strength below −40°C. This gives it a very high toughness, which equals that of commercial fibers.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;Researchers have long been intrigued by the unique properties of spider silk. Unfortunately, spider silk is extremely hard to mass produce. Unlike silk worms, which are easy to raise in captivity, spiders have a habit of chomping off each other’s heads when housed together. According to Peers, there’s scientific research going on all over the world right now trying to replicate the tensile properties of spider silk and apply it to all sorts of areas in medicine and industry, but no one up until now has succeeded in replicating 100 percent of the properties of natural spider silk.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;Peers came up with the idea of weaving spider silk after learning about the French missionary Jacob Paul Camboue, who worked with spiders in Madagascar during the 1880s and 1890s. Camboue built a small, hand-driven machine to extract silk from up to 24 spiders at once, without harming them. The spiders were temporarily restrained, their silk extracted, and then let go. Peers managed to build a replica of this 24-spider silking machine that was used at the turn of the century, said Nicholas Godley, who co-led the project with Peers. As an experiment, the pair collected an initial batch of about 20 spiders. When we stuck them in the machine and started turning it, lo and behold, this beautiful gold-colored silk started coming out, Godley said.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;But to make a textile of any significant size, the silk experts had to drastically scale up their plan. Fourteen thousand spiders yield about an ounce of silk, Godley said, and the textile weighs about 2.6 pounds. The numbers are overwhelming. To get as much silk as they needed, Godley and Peers began hiring dozens of spider handlers to collect wild arachnids and carefully harness them to the silk-extraction machine. We had to find people who were willing to work with spiders, Godley said, because they bite. By the end of the project, Godley and Peers extracted silk from more than 1 million female golden orb spiders, which are abundant throughout Madagascar and known for the rich golden color of their silk. Because the spiders only produce silk during the rainy season, workers collected all the spiders between October and June. Then an additional 12 people used hand-powered machines to extract the silk and weave it into 96-filament thread. Once the spiders had been silked, they were released back into the wild, where Godley said it takes them about a week to regenerate their silk. We can go back and re-silk the same spiders, he said. It’s like the gift that never stops giving.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;Of course, spending four years to produce a single textile of spider silk isn’t very practical for scientists trying to study the properties of spider silk, or companies that want to manufacture the fabric for use as a biomedical product, or an alternative to Kevlar armor. Several groups have tried inserting spider genes into bacteria or even cows and goats to produce silk, but so far, the attempts have been only moderately successful. Part of the reason it’s so hard to generate spider silk in the lab is that it starts out as a liquid protein that’s produced by a special gland in the spider’s abdomen. Using their spinneret, spiders apply force to rearrange the protein’s molecular structure and transform it into solid silk. When we talk about a spider spinning silk, we’re talking about how the spider applies forces to produce a transformation from liquid to solid, said spider silk expert Todd Blackledge of the University of Akron, Ohio, US, who was not involved in creating the textile. Scientists simply can’t replicate the efficiency with which a spider produces silk. Every year we’re getting closer and closer to being able to mass-produce it, but we’re not there yet. For now, it seems we’ll have to be content with one incredibly beautiful cloth, graciously provided by more than a million spiders.</p></div>",
+        "groups": [
+          {
+            "id": "p2-g1",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 14–19</h3><p>Reading Passage 2 has six paragraphs, <strong>A–F</strong>.</p><p>Choose the correct heading for each paragraph from the list of headings below.</p><p><strong>List of Headings</strong></p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Experimenting with an old idea"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Life cycle of Madagascar spiders"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Advances in the textile industry"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Resources needed to meet the project’s demands"
+              },
+              {
+                "letter": "E",
+                "textHtml": "The physical properties of spider silk"
+              },
+              {
+                "letter": "F",
+                "textHtml": "A scientific analysis of spider silk"
+              },
+              {
+                "letter": "G",
+                "textHtml": "A unique work of art"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Importance of the silk textile market"
+              },
+              {
+                "letter": "I",
+                "textHtml": "Difficulties of raising spiders in captivity"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph <strong>A</strong>"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph <strong>B</strong>"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph <strong>C</strong>"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph <strong>D</strong>"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph <strong>E</strong>"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph <strong>F</strong>"
+              }
+            ]
+          },
+          {
+            "id": "p2-g2",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 20–23</h3><p>Look at the following statements (Questions 20–23) and the list of researchers below.</p><p>Match each statement with the correct researcher, <strong>A</strong>, <strong>B</strong> or <strong>C</strong>.</p><p><strong>NB</strong> You may use any letter more than once.</p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Simon Peers"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Nicholas Godley"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Todd Blackledge"
+              }
+            ],
+            "questions": [
+              {
+                "number": 20,
+                "textHtml": "It takes a tremendous number of spiders to make a small amount of silk."
+              },
+              {
+                "number": 21,
+                "textHtml": "Scientists want to use the qualities of spider silk for medical purposes."
+              },
+              {
+                "number": 22,
+                "textHtml": "Scientists are making some progress in their efforts to manufacture spider silk."
+              },
+              {
+                "number": 23,
+                "textHtml": "Spider silk compares favorably to materials known for their strength."
+              }
+            ]
+          },
+          {
+            "id": "p2-g3",
+            "type": "completion",
+            "selectCount": 1,
+            "maxWords": 1,
+            "rubricHtml": "<h3>Questions 24–26</h3><p>Complete the summary below.</p><p>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>",
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Producing spider silk in the lab</div><p>Both scientists and manufacturers are interested in producing silk for many different purposes. Some researchers have tried to grow silk by introducing genetic material into {{24}} and some animals. But these experiments have been somewhat disappointing.</p><p>It is difficult to make spider silk in a lab setting because the silk comes from a liquid protein made in a {{25}} inside the spider’s body. When a spider spins silk, it causes a {{26}} that turns this liquid into solid silk. Scientists cannot replicate this yet.</p></div>"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 27–40</strong>, which are based on Reading Passage 3.</p>",
+        "passageHtml": "<h1>Sea Change for Salinity</h1><p class=\"passage-intro\"><em>One of the most serious problems facing Australian farmers is an increase in the salt content in the soil. However, there are new weapons emerging in the fight against salinity.</em></p><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;Beneath the flat, impassive surface of Australia lie hidden mountains, valleys and gorges – ancient traps and channels for the deadly salt that is stealthily killing so much of the Australian landscape. The war on salt is calling forth new weapons. A suite of high technologies used by geologists to see underground and prospect for gold and minerals is now being used to pinpoint the presence of salt beneath the landscape, and predict where it might move.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Unless this process is clearly understood, warns Chief of Exploration and Mining Dr Neil Phillips, the hard work now underway of planning and tree-planting on the surface may be rendered ineffective: salt can still sneak past and erupt, following one of the ancient river channels formed millions of years ago. The use of airborne electromagnetics to detect salt hidden beneath the landscape has been around for a decade, but the past two years have seen a major development in its precision and powers of detection. Like the use of radar in battles, it has the potential to turn the tide of the struggle in favour of the defence by helping to pinpoint, plot and predict the movements of the foe.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;Angus Howell, who farms near Warrenbayne, in Southeast Australia, saw his first outbreak of salt in 1948. Over the ensuing decades the patches spread and multiplied until they consumed almost 100 hectares. By the late 1970s, Howell and his fellow farmers had decided it was time for action and established a government-funded ‘Landcare’ group in a bid to save Australia’s farmland. But despite a mounting effort by scientists, farmers and governments, the ‘white death’ continued to encroach. Small successes were eclipsed by larger defeats and fresh outbreaks.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;‘The technical solutions just aren’t there yet for dealing with broadacre salinity, nor are the social and economic solutions. How do you introduce the land-use changes that are needed when people still need to make a living?’ Howell asks. There is no satisfactory solution yet. Part of the problem has lain in salt’s ability to mount ambushes, emerging somewhere new, sometimes unexpected and unexplained, beating plans to intercept it. Only now are scientists starting to really disclose its secret subterranean stores and passages.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;The need for such knowledge is pressing. Salt has already afflicted six million hectares of once-productive country. At present rates it is predicted that, by 2050, it will have sterilised a total of 17 million hectares and the waters of Australia’s Murray River will regularly exceed the World Health Organisation’s salt limits for drinking water. Defeating this assault may take centuries, not decades.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;Electromagnetic surveys measure the electrical conductivity of soil to reveal the distribution of salt and the nature and variability of the regolith – the weathered rock and sediment that may lie above the bedrock. Magnetic surveys measure small differences in the Earth’s magnetic field, enabling scientists to probe the deep past and reconstruct ancient landscapes – rivers, basins and faults now buried under tens of metres of sediments. These features help to reveal where groundwater is stored, dictate the direction of groundwater movement, and are critical to predicting or ruling out salinity hot-spots.</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;Radiometric analysis is based on the detection of radiation emitted by elements contained in rocks and soils, allowing scientists to delineate landforms. These factors influence the mobility of salt through the soil profile and help determine where to plant particular crop species to tackle the problem.</p><p>Using data from the Murray River region, scientists have revealed a network of ancient drainage channels buried metres beneath the current landscape. These buried channels may carry salt and sometimes run at right angles to channels on the surface. This implies that the salt could move underground in quite a different direction to what one would expect by looking at surface slope and drainage.</p></div><div class=\"passage-section\" id=\"para-H\"><p><strong>H</strong>&nbsp;&nbsp;One of the biggest advances in detection, says Professor Neil Phillips, has come with the integration of different techniques such as magnetics, electromagnetics and radiomagnetics, and ground mapping. Individually, these technologies only gave clues to what was going on underground. Together they provide a far more revealing picture of the subsurface landscape, several hundred metres deep.</p><p>Advanced airborne electromagnetics, in particular, enables scientists to take ‘slices’ of the landscape at depths of five metres, ten metres, fifteen metres and so on, to determine where salt may be stored at depth. This is building up a four-dimensional picture of the subsurface landscape, enabling researchers to understand movements of salt in width, depth, breadth and time.</p><p>From such technologies it will be possible to locate salt stores, identify how saline they are, look at man-made and natural changes to the landscape that may cause it to mobilise, and then predict where it will head to and over what time span. This in turn will give the salt warriors time to model various ways of containing or curbing the menace, see what works best and then try it out on the ground.</p></div>",
+        "groups": [
+          {
+            "id": "p3-g1",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 27–33</h3><p>Reading Passage 3 has eight sections, <strong>A–H</strong>.</p><p>Which section contains the following information?</p><p><strong>NB</strong> You may use any letter more than once.</p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Section A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Section B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Section C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Section D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Section E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Section F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Section G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Section H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "a prediction of the future risk of salt to water supplies"
+              },
+              {
+                "number": 28,
+                "textHtml": "the reason why technologies must be combined to be effective"
+              },
+              {
+                "number": 29,
+                "textHtml": "a reference to the recent improvements in the accuracy of airborne electromagnetics"
+              },
+              {
+                "number": 30,
+                "textHtml": "the organization of concerned farmers into an official body"
+              },
+              {
+                "number": 31,
+                "textHtml": "the estimated length of time salinity is likely to be a problem"
+              },
+              {
+                "number": 32,
+                "textHtml": "a summary of stages in a proposed plan of action to combat the salt problem"
+              },
+              {
+                "number": 33,
+                "textHtml": "the possibility that current re-vegetation practices are a waste of time"
+              }
+            ]
+          },
+          {
+            "id": "p3-g2",
+            "type": "matching",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 34–36</h3><p>Look at the following techniques (Questions 34–36) and the list of uses below.</p><p>Match each technique with the correct use, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p><p><strong>List of Uses</strong></p>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "can help farmers choose the best location for plants"
+              },
+              {
+                "letter": "B",
+                "textHtml": "can show the composition of the top layer of the ground"
+              },
+              {
+                "letter": "C",
+                "textHtml": "can detect how far below ground the salt is"
+              },
+              {
+                "letter": "D",
+                "textHtml": "can determine how old the salt is in a particular area"
+              }
+            ],
+            "questions": [
+              {
+                "number": 34,
+                "textHtml": "Electromagnetic surveys"
+              },
+              {
+                "number": 35,
+                "textHtml": "Radiometric analysis"
+              },
+              {
+                "number": 36,
+                "textHtml": "Airborne electromagnetics"
+              }
+            ]
+          },
+          {
+            "id": "p3-g3",
+            "type": "mcq",
+            "selectCount": 1,
+            "rubricHtml": "<h3>Questions 37–40</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>",
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "What link does the writer make between salt and gold?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They can both be found in the same locations."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Both have been found to have an impact on the landscape."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The same techniques can be used to find both."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Neither are present in mountainous areas."
+                  }
+                ]
+              },
+              {
+                "number": 38,
+                "textHtml": "What is the ‘process’ referred to in Section B?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "the killing of vegetation by salt"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "salt’s ability to travel below ground"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the ability of trees to decrease salt levels"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the detection of salt by tracing other minerals"
+                  }
+                ]
+              },
+              {
+                "number": 39,
+                "textHtml": "According to Angus Howell, one problem in the fight against salinity is that",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "not enough farmers are concerned about the fight."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "farmers’ requests for help have been ignored."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "some possible measures may cause farmers to lose income."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the government has not provided farmers with sufficient financial support."
+                  }
+                ]
+              },
+              {
+                "number": 40,
+                "textHtml": "Which of the following best describes the writer’s view of the salinity problem in Australia?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Farmers are fighting an enemy that moves secretly and hides well."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Farmers have been able to contain this enemy in a small area."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Farmers have already had significant success in fighting this problem."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Farmers need to form more organised groups to solve this problem."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "anchor": "para-B",
+          "snippet": "was won by Jørn Utzon, a relatively little-known architect from Denmark."
+        }
+      },
+      "2": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "anchor": "para-B",
+          "snippet": "started assessing the entries. He looked through their rejected entries and"
+        }
+      },
+      "3": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "anchor": "para-C",
+          "snippet": "naval charts of Sydney Harbour. His early exposure to shipbuilding provided"
+        }
+      },
+      "4": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "anchor": "para-C",
+          "snippet": "ship billowing on the wind. From his travels to Mexico, he"
+        }
+      },
+      "5": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "anchor": "para-D",
+          "snippet": "platform began in 1959, and throughout the early 1960s Utzon amended"
+        }
+      },
+      "6": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "anchor": "para-E",
+          "snippet": "Following his resignation, there were protests through the streets led by"
+        }
+      },
+      "7": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "anchor": "para-E",
+          "snippet": "and left Australia in 1966. He never returned and new architects"
+        }
+      },
+      "8": {
+        "accepted": [
+          "102 million",
+          "$102 million",
+          "102,000,000",
+          "$102,000,000"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "anchor": "para-E",
+          "snippet": "not formally completed until 1973, having cost $102 million."
+        }
+      },
+      "9": {
+        "accepted": [
+          "Sweden"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "anchor": "para-G",
+          "snippet": "with 1,056,000 white and cream-coloured tiles manufactured in a factory in"
+        }
+      },
+      "10": {
+        "accepted": [
+          "granite"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "anchor": "para-G",
+          "snippet": "the building’s exterior is mostly clad with granite quarried in Australia."
+        }
+      },
+      "11": {
+        "accepted": [
+          "four"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "anchor": "para-H",
+          "snippet": "performing arts companies, including the four resident companies: Opera Australia; the"
+        }
+      },
+      "12": {
+        "accepted": [
+          "forecourt"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "anchor": "para-I",
+          "snippet": "There is a sizeable outdoor forecourt from which people ascend to"
+        }
+      },
+      "13": {
+        "accepted": [
+          "harbour",
+          "harbor"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "anchor": "para-C",
+          "snippet": "to study naval charts of Sydney Harbour. His early exposure to"
+        }
+      },
+      "14": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "anchor": "para-A",
+          "snippet": "11-foot by 4-foot textile is the only large piece of cloth"
+        }
+      },
+      "15": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "anchor": "para-B",
+          "snippet": "Spider silk is very elastic and"
+        }
+      },
+      "16": {
+        "accepted": [
+          "I"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "anchor": "para-C",
+          "snippet": "easy to raise in captivity, spiders have a habit of chomping"
+        }
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "anchor": "para-D",
+          "snippet": "silk after learning about the French missionary Jacob Paul Camboue, who"
+        }
+      },
+      "18": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "anchor": "para-E",
+          "snippet": "drastically scale up their plan. Fourteen thousand spiders yield about an"
+        }
+      },
+      "19": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "anchor": "para-F",
+          "snippet": "single textile of spider silk isn’t very practical for scientists trying"
+        }
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "anchor": "para-B",
+          "snippet": "or Kevlar, said textile expert Simon Peers, who co-led the project."
+        }
+      },
+      "21": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "anchor": "para-F",
+          "snippet": "solid, said spider silk expert Todd Blackledge of the University of"
+        }
+      },
+      "22": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "anchor": "para-B",
+          "snippet": "or Kevlar, said textile expert Simon Peers, who co-led the project."
+        }
+      },
+      "23": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "anchor": "para-B",
+          "snippet": "or Kevlar, said textile expert Simon Peers, who co-led the project."
+        }
+      },
+      "24": {
+        "accepted": [
+          "bacteria"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "anchor": "para-F",
+          "snippet": "tried inserting spider genes into bacteria or even cows and goats"
+        }
+      },
+      "25": {
+        "accepted": [
+          "gland"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "anchor": "para-F",
+          "snippet": "that’s produced by a special gland in the spider’s abdomen. Using"
+        }
+      },
+      "26": {
+        "accepted": [
+          "transformation"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "anchor": "para-F",
+          "snippet": "applies forces to produce a transformation from liquid to solid, said"
+        }
+      },
+      "27": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "anchor": "para-E",
+          "snippet": "for such knowledge is pressing. Salt has already afflicted six million"
+        }
+      },
+      "28": {
+        "accepted": [
+          "H"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "anchor": "para-H",
+          "snippet": "Phillips, has come with the integration of different techniques such as"
+        }
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "anchor": "para-H",
+          "snippet": "Advanced airborne electromagnetics, in particular, enables"
+        }
+      },
+      "30": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "anchor": "para-C",
+          "snippet": "Angus Howell, who farms near Warrenbayne, in Southeast Australia, saw his"
+        }
+      },
+      "31": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "anchor": "para-B",
+          "snippet": "Chief of Exploration and Mining Dr Neil Phillips, the hard work"
+        }
+      },
+      "32": {
+        "accepted": [
+          "H"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "anchor": "para-H",
+          "snippet": "it will be possible to locate salt stores, identify how saline"
+        }
+      },
+      "33": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "anchor": "para-B",
+          "snippet": "Unless this process is clearly understood,"
+        }
+      },
+      "34": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "anchor": "para-F",
+          "snippet": "Electromagnetic surveys measure the electrical conductivity"
+        }
+      },
+      "35": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "anchor": "para-G",
+          "snippet": "Radiometric analysis is based on the"
+        }
+      },
+      "36": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "anchor": "para-H",
+          "snippet": "in particular, enables scientists to take ‘slices’ of the landscape at"
+        }
+      },
+      "37": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "anchor": "para-A",
+          "snippet": "impassive surface of Australia lie hidden mountains, valleys and gorges –"
+        }
+      },
+      "38": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "anchor": "para-B",
+          "snippet": "Unless this process is clearly understood,"
+        }
+      },
+      "39": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "anchor": "para-C",
+          "snippet": "Angus Howell, who farms near Warrenbayne,"
+        }
+      },
+      "40": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "anchor": "para-A",
+          "snippet": "Beneath the flat, impassive surface of"
+        }
+      }
+    },
+    "sets": []
+  },
+  "slug": "reading-event-mock-1",
+  "isPremium": false,
+  "eventOnly": true,
+  "series": "REAL_EXAM"
+}

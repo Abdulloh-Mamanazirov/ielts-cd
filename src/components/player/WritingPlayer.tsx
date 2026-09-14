@@ -26,11 +26,17 @@ export function WritingPlayer({
   test,
   attempt,
   canRequestReview,
+  reviewRequired = false,
 }: {
   test: PlayableTest;
   attempt: AttemptSnapshot;
-  /** Instructor marking is the paid part; free students still keep their work. */
+  /** Whether the student's plan lets them send this to the instructor. */
   canRequestReview: boolean;
+  /**
+   * An event essay is always marked, so the student is not offered a way to
+   * finish without sending it — the server queues it regardless.
+   */
+  reviewRequired?: boolean;
 }) {
   const tasks = useMemo(
     () => [...(test.content.tasks ?? [])].sort((a, b) => a.number - b.number),
@@ -245,14 +251,20 @@ export function WritingPlayer({
                 shortTasks.length === 1 ? "is" : "are"
               } under the minimum.`
         }
-        confirmLabel={canRequestReview ? "Send to my instructor" : "Finish and keep my work"}
+        confirmLabel={
+          reviewRequired
+            ? "Submit for marking"
+            : canRequestReview
+              ? "Send to my instructor"
+              : "Finish and keep my work"
+        }
         confirmingLabel="Finishing…"
         cancelLabel="Keep writing"
         submitting={submitting}
         onConfirm={() => void submit(canRequestReview)}
         onCancel={() => setDialogOpen(false)}
-        secondaryLabel={canRequestReview ? "Finish without sending" : undefined}
-        onSecondary={canRequestReview ? () => void submit(false) : undefined}
+        secondaryLabel={canRequestReview && !reviewRequired ? "Finish without sending" : undefined}
+        onSecondary={canRequestReview && !reviewRequired ? () => void submit(false) : undefined}
       >
         <dl className="mt-5 flex gap-px overflow-hidden rounded-lg bg-rule">
           {counts.map(({ task, words }) => (

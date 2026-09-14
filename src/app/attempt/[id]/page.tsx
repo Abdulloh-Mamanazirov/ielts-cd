@@ -4,9 +4,11 @@ import { SpeakingPlayer } from "@/components/player/SpeakingPlayer";
 import { TestPlayer, type AttemptSnapshot } from "@/components/player/TestPlayer";
 import { WritingPlayer } from "@/components/player/WritingPlayer";
 import { requireUser } from "@/lib/auth/guards";
-import { INSTRUCTOR_MARKING_ENABLED } from "@/lib/features";
 import type { Annotations } from "@/lib/player/highlights";
 import { prisma } from "@/lib/db";
+import { canRequestReview as markingAllows } from "@/lib/marking-settings";
+import { loadMarkingSettings } from "@/lib/marking-settings-store";
+import { effectivePlan } from "@/lib/plans";
 import type { GradeResult, QuestionVerdict } from "@/lib/tests/grade";
 import { getPlayableTest } from "@/lib/tests/access";
 
@@ -34,6 +36,7 @@ export default async function AttemptPage({
       startedAt: true,
       expiresAt: true,
       fullMockId: true,
+      fullMock: { select: { eventId: true } },
       rawScore: true,
       band: true,
       result: true,
@@ -41,6 +44,7 @@ export default async function AttemptPage({
   });
 
   if (!attempt) notFound();
+  const inEvent = Boolean(attempt.fullMock?.eventId);
 
   // A finished auto-graded attempt can be re-opened read-only to walk the marked
   // paper (`?review=1`); otherwise a finished attempt belongs on the results page.
@@ -59,6 +63,7 @@ export default async function AttemptPage({
   // student's plan does not open on the practice shelf.
   const access = await getPlayableTest(attempt.testId, user, {
     insideFullMock: Boolean(attempt.fullMockId),
+    insideEvent: inEvent,
   });
   if (!access.ok) notFound();
 
@@ -78,15 +83,24 @@ export default async function AttemptPage({
 
   // Three players, one lifecycle. Which one a student gets is decided here and
   // nowhere else.
-  // Marking is the paid part. A free student can sit either test and keep the
-  // work; they just cannot put it in the instructor's queue. While marking is
-  // switched off entirely, nobody can — the work is still saved either way.
-  const canRequestReview =
-    INSTRUCTOR_MARKING_ENABLED && (user.isPremium || user.role === "ADMIN");
+  // Whether the work can go to the instructor is a per-plan switch in the admin
+  // panel; an event essay always does, since marking it is what the event is
+  // for. Either way the work is saved.
+  const canRequestReview = markingAllows(
+    await loadMarkingSettings(),
+    user,
+    effectivePlan(user),
+    inEvent,
+  );
 
   if (access.test.skill === "writing") {
     return (
-      <WritingPlayer test={access.test} attempt={snapshot} canRequestReview={canRequestReview} />
+      <WritingPlayer
+        test={access.test}
+        attempt={snapshot}
+        canRequestReview={canRequestReview}
+        reviewRequired={inEvent}
+      />
     );
   }
   if (access.test.skill === "speaking") {

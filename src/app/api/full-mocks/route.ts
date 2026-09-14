@@ -41,7 +41,8 @@ export async function POST(request: Request) {
   const allowance = mockAllowance(plans, effectivePlan(auth.user), auth.user);
 
   if (allowance !== null) {
-    const taken = await prisma.fullMock.count({ where: { userId: auth.user.id } });
+    // An event sitting is the instructor's invitation, not the plan's mock.
+    const taken = await prisma.fullMock.count({ where: { userId: auth.user.id, eventId: null } });
     if (taken >= allowance) {
       return Response.json(
         {

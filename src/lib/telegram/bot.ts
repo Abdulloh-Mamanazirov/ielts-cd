@@ -97,8 +97,14 @@ export async function hasJoinedChannel(telegramId: string): Promise<boolean> {
   return ["creator", "administrator", "member", "restricted"].includes(result.status);
 }
 
-/** Issues a single-use login link. Only the hash is stored. */
-export async function issueLoginLink(userId: string): Promise<string> {
+/**
+ * Issues a single-use login link. Only the hash is stored.
+ *
+ * `returnTo` is the page to land on instead of the dashboard — a student who
+ * followed an event link should come back to that event, not have to find it
+ * again. It rides in the URL and is checked as a local path when consumed.
+ */
+export async function issueLoginLink(userId: string, returnTo?: string | null): Promise<string> {
   const raw = randomBytes(32).toString("base64url");
   const tokenHash = createHash("sha256").update(raw).digest("hex");
 
@@ -110,7 +116,22 @@ export async function issueLoginLink(userId: string): Promise<string> {
     },
   });
 
-  return `${SITE_URL}/auth/telegram?token=${raw}`;
+  const next = returnTo ? `&next=${encodeURIComponent(returnTo)}` : "";
+  return `${SITE_URL}/auth/telegram?token=${raw}${next}`;
+}
+
+/**
+ * The page a bot deep link asks to return to, from its /start payload.
+ *
+ * Telegram only allows [A-Za-z0-9_-] in a payload, so a path cannot travel as
+ * itself; the site sends "join_<token>" and this turns it back into the URL.
+ * Anything unrecognised means the dashboard.
+ */
+export function returnPathFromStart(payload: string | undefined): string | null {
+  if (!payload) return null;
+  const join = payload.match(/^join_([A-Za-z0-9_-]{6,64})$/);
+  if (join) return `/join/${join[1]}`;
+  return null;
 }
 
 /**

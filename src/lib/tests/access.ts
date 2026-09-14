@@ -29,8 +29,12 @@ export type PlayableTest = {
 export async function getPlayableTest(
   testId: string,
   user: SessionUser | null,
-  /** A full mock draws from the whole library, so it bypasses the plan gate. */
-  options?: { insideFullMock?: boolean },
+  options?: {
+    /** A full mock draws from the whole library, so it bypasses the plan gate. */
+    insideFullMock?: boolean;
+    /** An event sitting is the only way to a test reserved for that event. */
+    insideEvent?: boolean;
+  },
 ): Promise<{ ok: true; test: PlayableTest } | { ok: false; reason: AccessDenial }> {
   const record = await prisma.test.findUnique({
     where: { id: testId },
@@ -49,6 +53,7 @@ export async function getPlayableTest(
       series: true,
       seriesNumber: true,
       mockOnly: true,
+      eventOnly: true,
     },
   });
 
@@ -59,9 +64,13 @@ export async function getPlayableTest(
   if (!user) return { ok: false, reason: "not_signed_in" };
   if (!canAccessTest(user, record)) return { ok: false, reason: "premium_required" };
 
-  // Material reserved for full mocks is reachable only inside one. Admins may
-  // still open it to check it.
+  // Material reserved for full mocks is reachable only inside one, and an
+  // event's paper only inside that event's sitting. Admins may still open
+  // either to check it.
   if (record.mockOnly && !isAdmin && !options?.insideFullMock) {
+    return { ok: false, reason: "not_found" };
+  }
+  if (record.eventOnly && !isAdmin && !options?.insideEvent) {
     return { ok: false, reason: "not_found" };
   }
 

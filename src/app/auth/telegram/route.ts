@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 
 import { prisma } from "@/lib/db";
+import { safeNext } from "@/lib/auth/request";
 import { createSession } from "@/lib/auth/session";
 import { consumeLoginToken } from "@/lib/telegram/bot";
 
@@ -13,8 +14,11 @@ import { consumeLoginToken } from "@/lib/telegram/bot";
 export const dynamic = "force-dynamic";
 
 export async function GET(request: Request) {
-  const token = new URL(request.url).searchParams.get("token");
+  const url = new URL(request.url);
+  const token = url.searchParams.get("token");
   if (!token) redirect("/login?error=telegram");
+  // Where the bot was asked to bring them back to: a local path, else the dashboard.
+  const next = safeNext(url.searchParams.get("next"));
 
   const userId = await consumeLoginToken(token);
   if (!userId) redirect("/login?error=expired");
@@ -28,5 +32,5 @@ export async function GET(request: Request) {
     .update({ where: { id: userId }, data: { lastLoginAt: new Date() } })
     .catch(() => {});
 
-  redirect("/dashboard");
+  redirect(next);
 }
