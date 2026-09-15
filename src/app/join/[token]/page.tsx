@@ -105,7 +105,11 @@ export default async function JoinEventPage({ params }: { params: Promise<{ toke
           </p>
 
           <div className="mt-7">
-            {!user ? (
+            {refusal && !sitting ? (
+              // Said before the sign-up step: nobody should create an account
+              // for an event that will then turn them away.
+              <Refusal reason={refusal} />
+            ) : !user ? (
               <>
                 <a
                   href={`https://t.me/${BOT_USERNAME}?start=join_${token}`}
@@ -124,8 +128,6 @@ export default async function JoinEventPage({ params }: { params: Promise<{ toke
               ) : (
                 <StartEventSitting eventId={event.id} mode="continue" />
               )
-            ) : refusal ? (
-              <Refusal reason={refusal} />
             ) : (
               <StartEventSitting eventId={event.id} mode="start" />
             )}
