@@ -4,6 +4,7 @@ import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 
 import {
+  deleteMockEvent,
   regenerateMockEventLink,
   releaseMockEventTests,
   setMockEventStatus,
@@ -21,12 +22,15 @@ export function EventControls({
   status,
   joinUrl,
   released,
+  participants,
 }: {
   eventId: string;
   status: Status;
   joinUrl: string;
   /** Whether the paper is already on the shelf, so the button can say so. */
   released: boolean;
+  /** Deleting is only offered while nobody has joined. */
+  participants: number;
 }) {
   const router = useRouter();
   const [copied, setCopied] = useState(false);
@@ -119,6 +123,23 @@ export function EventControls({
             onClick={() => run(() => releaseMockEventTests(eventId))}
           >
             {released ? "Tests are on the shelf" : "Release tests to the library"}
+          </Button>
+        )}
+        {participants === 0 && (
+          <Button
+            tone="danger"
+            disabled={pending}
+            onClick={() => {
+              if (window.confirm("Delete this event? Nobody has joined, so nothing else is lost.")) {
+                start(async () => {
+                  const result = await deleteMockEvent(eventId);
+                  if (result.ok) router.push("/admin/events");
+                  else setError(result.error);
+                });
+              }
+            }}
+          >
+            Delete
           </Button>
         )}
       </div>

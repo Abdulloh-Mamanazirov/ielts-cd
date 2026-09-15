@@ -92,6 +92,7 @@ export default async function EventAdminPage({ params }: { params: Promise<{ id:
           status={event.status}
           joinUrl={`${SITE_URL}/join/${event.token}`}
           released={released}
+          participants={event._count.participants}
         />
 
         <section>

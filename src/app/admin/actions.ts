@@ -1137,3 +1137,26 @@ export async function updateMarkingSettings(input: unknown): Promise<ActionResul
         : `Marking open to: ${open.map((plan) => plan.toLowerCase()).join(", ")}.`,
   };
 }
+
+/**
+ * Removes an event nobody has joined. Once there are participants there are
+ * sittings and results behind it, and those are the students' — close it
+ * instead.
+ */
+export async function deleteMockEvent(id: string): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const event = await prisma.mockEvent.findUnique({
+    where: { id },
+    select: { _count: { select: { participants: true } } },
+  });
+  if (!event) return { ok: false, error: "Event not found" };
+  if (event._count.participants > 0) {
+    return { ok: false, error: "Someone has joined this event. Close it instead of deleting it." };
+  }
+
+  await prisma.mockEvent.delete({ where: { id } });
+  revalidatePath("/admin/events");
+  return { ok: true, message: "Event deleted." };
+}
