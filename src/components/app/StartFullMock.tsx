@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
+import { enterFullscreen } from "./MockProgress";
+
 /**
  * Starts a mock, or opens its next section.
  *
@@ -25,6 +27,7 @@ export function StartFullMock({
   const [error, setError] = useState<string | null>(null);
 
   const go = async () => {
+    enterFullscreen();
     setBusy(true);
     setError(null);
 

@@ -15,6 +15,7 @@ import { validateTestImport } from "@/lib/tests/validate";
 import { savePlans } from "@/lib/plans-store";
 import { saveAuthSettings } from "@/lib/auth-settings-store";
 import { saveMarkingSettings } from "@/lib/marking-settings-store";
+import { saveMockSettings } from "@/lib/mock-settings-store";
 
 /**
  * Admin mutations.
@@ -1159,4 +1160,28 @@ export async function deleteMockEvent(id: string): Promise<ActionResult> {
   await prisma.mockEvent.delete({ where: { id } });
   revalidatePath("/admin/events");
   return { ok: true, message: "Event deleted." };
+}
+
+// ---------------------------------------------------------------------------
+// Mock experience
+// ---------------------------------------------------------------------------
+
+const mockSettingsSchema = z.object({ celebrateCompletion: z.boolean() });
+
+/** Whether finishing a full mock ends with confetti and a congratulations card. */
+export async function updateMockSettings(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const parsed = mockSettingsSchema.safeParse(input);
+  if (!parsed.success) return { ok: false, error: "Invalid request" };
+
+  await saveMockSettings(parsed.data);
+  revalidatePath("/admin/settings");
+  return {
+    ok: true,
+    message: parsed.data.celebrateCompletion
+      ? "A finished mock is celebrated."
+      : "A finished mock shows its results quietly.",
+  };
 }

@@ -1,13 +1,12 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 
 import { AppShell } from "@/components/app/AppShell";
 import { PageHeader } from "@/components/app/PageHeader";
 import { StartFullMock } from "@/components/app/StartFullMock";
-import { SkillIcon } from "@/components/SkillIcon";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { fullMockBlockers } from "@/lib/full-mock/service";
-import { cn } from "@/lib/utils";
 
 export const metadata = { title: "Full mock" };
 
@@ -60,6 +59,10 @@ export default async function FullMockPage() {
     }),
   ]);
 
+  // Mid-mock the student belongs on the focused page — sections done, one
+  // button — not on a dashboard page with a sidebar to wander off through.
+  if (current) redirect(`/full-mock/${current.id}`);
+
   const ready = blockers.length === 0;
 
   return (
@@ -78,77 +81,6 @@ export default async function FullMockPage() {
 
       <div className="px-6 pb-16 pt-6 lg:px-10 lg:pt-8">
         <div className="mx-auto max-w-4xl space-y-px bg-rule">
-          {current ? (
-            <section className="bg-white px-6 py-6 lg:px-8">
-              <h2 className="text-[10px] font-bold tracking-[0.22em] text-brand-blue">
-                {current.event ? "MOCK TEST · IN PROGRESS" : "IN PROGRESS"}
-              </h2>
-              {current.event && (
-                <p className="mt-2 text-base font-bold text-ink">{current.event.title}</p>
-              )}
-              <p className="mt-2 text-sm text-ink-muted">
-                Started {current.startedAt.toLocaleDateString()}. Sections run in exam order; each
-                clock starts the moment you open that section.
-              </p>
-
-              <ol className="mt-5 space-y-px bg-rule">
-                {current.attempts.map((attempt) => {
-                  const done = attempt.status === "SUBMITTED";
-                  const isNext =
-                    !done &&
-                    current.attempts.find((a) => a.status === "IN_PROGRESS")?.id === attempt.id;
-
-                  return (
-                    <li
-                      key={attempt.id}
-                      className={cn(
-                        "flex flex-wrap items-center gap-4 px-5 py-4",
-                        isNext ? "bg-brand-blue-soft" : "bg-white",
-                      )}
-                    >
-                      <SkillIcon
-                        skill={attempt.test.skill.toLowerCase()}
-                        size={18}
-                        className={cn(
-                          "flex-none",
-                          done ? "text-ok" : isNext ? "text-brand-blue" : "text-ink-faint",
-                        )}
-                      />
-                      <div className="min-w-0 flex-1">
-                        <p className="truncate text-sm font-bold text-ink">
-                          {SKILL_LABEL[attempt.test.skill]}
-                        </p>
-                        <p className="mt-0.5 truncate text-xs text-ink-subtle">
-                          {attempt.test.title} · {Math.round(attempt.test.durationSeconds / 60)} min
-                        </p>
-                      </div>
-
-                      {done ? (
-                        <span className="text-[11px] font-bold tracking-[0.08em] text-ok">
-                          {attempt.band !== null ? attempt.band.toFixed(1) : "SUBMITTED"}
-                        </span>
-                      ) : isNext ? (
-                        <span className="text-[11px] font-bold tracking-[0.08em] text-brand-blue">
-                          {attempt.expiresAt ? "RESUME" : "NEXT"}
-                        </span>
-                      ) : (
-                        <span className="text-[11px] font-bold tracking-[0.08em] text-ink-faint">
-                          LOCKED
-                        </span>
-                      )}
-                    </li>
-                  );
-                })}
-              </ol>
-
-              <StartFullMock
-                mode="continue"
-                fullMockId={current.id}
-                // An event is one sitting; there is nothing to give up to.
-                canAbandon={!current.event}
-              />
-            </section>
-          ) : (
             <section className="bg-white px-6 py-6 lg:px-8">
               <h2 className="text-[10px] font-bold tracking-[0.22em] text-ink-subtle">
                 START A MOCK
@@ -167,7 +99,6 @@ export default async function FullMockPage() {
                 </p>
               )}
             </section>
-          )}
 
           {past.length > 0 && (
             <section className="bg-white px-6 py-6 lg:px-8">

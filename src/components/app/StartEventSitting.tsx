@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
+import { enterFullscreen } from "./MockProgress";
+
 /**
  * Starts an event sitting, or opens its next section.
  *
@@ -22,6 +24,9 @@ export function StartEventSitting({
   const [error, setError] = useState<string | null>(null);
 
   const go = async () => {
+    // Asked for inside the click, before anything async, or the browser
+    // refuses it as unprompted.
+    enterFullscreen();
     setBusy(true);
     setError(null);
     try {

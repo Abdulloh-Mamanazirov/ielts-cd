@@ -277,7 +277,11 @@ function WordBank({
               onClick={() => onArm(isArmed ? null : item.letter)}
               className={cn(
                 "flex w-full gap-2.5 rounded-md px-2 py-1 text-left transition",
-                !disabled && "cursor-pointer hover:bg-white",
+                // The hover for an unpicked option is a white lift. It must not
+                // apply to the picked one, or hovering it painted white over
+                // white text and the choice vanished under the pointer.
+                !disabled && !isArmed && "cursor-pointer hover:bg-white",
+                !disabled && isArmed && "cursor-pointer hover:bg-brand-blue-dark",
                 isArmed && "bg-brand-blue text-white shadow-[0_0_0_2px_rgba(1,84,248,.35)]",
               )}
             >

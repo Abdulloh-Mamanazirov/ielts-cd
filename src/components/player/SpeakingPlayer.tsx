@@ -169,7 +169,7 @@ export function SpeakingPlayer({
       }
       setSubmitted(true);
       window.location.href = attempt.fullMockId
-        ? "/full-mock"
+        ? `/full-mock/${attempt.fullMockId}`
         : `/dashboard/results/${attempt.id}`;
     } finally {
       setSubmitting(false);
@@ -192,7 +192,7 @@ export function SpeakingPlayer({
       <PlayerHeader
         title={test.title}
         subtitle={`${locked ? "Mock" : "Practice"} · ${prompts.length} questions`}
-        exitHref={attempt.fullMockId ? "/full-mock" : `/tests?skill=${test.skill}`}
+        exitHref={attempt.fullMockId ? `/full-mock/${attempt.fullMockId}` : `/tests?skill=${test.skill}`}
         remaining={testRemaining}
         totalSeconds={test.durationSeconds}
         saveStatus={phase === "saving" ? "saving" : answered > 0 ? "saved" : "idle"}

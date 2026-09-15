@@ -182,7 +182,7 @@ export function TestPlayer({
       // the end rather than opened in place — a student should not be reading
       // explanations with the reading clock about to start.
       if (attempt.fullMockId) {
-        window.location.href = "/full-mock";
+        window.location.href = `/full-mock/${attempt.fullMockId}`;
         return;
       }
 
@@ -308,7 +308,7 @@ export function TestPlayer({
   // Back where the student came from: the skill they were browsing, or the mock
   // they are part way through. Landing on the undifferentiated list after a
   // reading test means finding the reading tests again by hand.
-  const exitHref = attempt.fullMockId ? "/full-mock" : `/tests?skill=${test.skill}`;
+  const exitHref = attempt.fullMockId ? `/full-mock/${attempt.fullMockId}` : `/tests?skill=${test.skill}`;
 
   // Part offsets are optional in the schema; without them the track just has no
   // markers on it.

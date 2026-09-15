@@ -3,6 +3,7 @@ import { describe, it } from "node:test";
 
 import { joinRefusal, newEventToken } from "./rules";
 import { canRequestReview, mergeMarkingSettings } from "../marking-settings";
+import { mergeMockSettings } from "../mock-settings";
 
 const open = {
   status: "OPEN" as const,
@@ -76,5 +77,16 @@ describe("canRequestReview", () => {
 
   it("ignores a stored value that is not a boolean", () => {
     assert.equal(mergeMarkingSettings({ FREE: "true" }).FREE, false);
+  });
+});
+
+describe("mergeMockSettings", () => {
+  it("celebrates by default", () => {
+    assert.equal(mergeMockSettings(undefined).celebrateCompletion, true);
+  });
+
+  it("honours the switch and ignores a non-boolean", () => {
+    assert.equal(mergeMockSettings({ celebrateCompletion: false }).celebrateCompletion, false);
+    assert.equal(mergeMockSettings({ celebrateCompletion: "false" }).celebrateCompletion, true);
   });
 });

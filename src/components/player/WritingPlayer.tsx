@@ -85,7 +85,7 @@ export function WritingPlayer({
       // results page is the right destination — unless another section of a
       // full mock is waiting.
       window.location.href = attempt.fullMockId
-        ? "/full-mock"
+        ? `/full-mock/${attempt.fullMockId}`
         : `/dashboard/results/${attempt.id}`;
     } finally {
       setSubmitting(false);
@@ -136,7 +136,7 @@ export function WritingPlayer({
       <PlayerHeader
         title={test.title}
         subtitle={`${attempt.mode === "MOCK" ? "Mock" : "Practice"} · ${tasks.length} task${tasks.length === 1 ? "" : "s"}`}
-        exitHref={attempt.fullMockId ? "/full-mock" : `/tests?skill=${test.skill}`}
+        exitHref={attempt.fullMockId ? `/full-mock/${attempt.fullMockId}` : `/tests?skill=${test.skill}`}
         remaining={remaining}
         totalSeconds={test.durationSeconds}
         saveStatus={status}
