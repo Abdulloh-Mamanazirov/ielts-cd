@@ -3,7 +3,7 @@ import { describe, it } from "node:test";
 
 import { joinRefusal, newEventToken } from "./rules";
 import { canRequestReview, mergeMarkingSettings } from "../marking-settings";
-import { mergeMockSettings } from "../mock-settings";
+import { mergeMockSettings, revealsAnswers, revealsBands } from "../mock-settings";
 
 const open = {
   status: "OPEN" as const,
@@ -88,5 +88,27 @@ describe("mergeMockSettings", () => {
   it("honours the switch and ignores a non-boolean", () => {
     assert.equal(mergeMockSettings({ celebrateCompletion: false }).celebrateCompletion, false);
     assert.equal(mergeMockSettings({ celebrateCompletion: "false" }).celebrateCompletion, true);
+  });
+});
+
+describe("what a mock reveals", () => {
+  it("shows everything by default", () => {
+    const s = mergeMockSettings(undefined);
+    assert.equal(revealsBands(s, "MOCK"), true);
+    assert.equal(revealsAnswers(s, "MOCK"), true);
+  });
+
+  it("withholds from mocks only, never from practice", () => {
+    const s = mergeMockSettings({ showSectionBands: false, showCorrectAnswers: false });
+    assert.equal(revealsBands(s, "MOCK"), false);
+    assert.equal(revealsAnswers(s, "MOCK"), false);
+    assert.equal(revealsBands(s, "PRACTICE"), true);
+    assert.equal(revealsAnswers(s, "PRACTICE"), true);
+  });
+
+  it("switches the two independently", () => {
+    const s = mergeMockSettings({ showSectionBands: false });
+    assert.equal(revealsBands(s, "MOCK"), false);
+    assert.equal(revealsAnswers(s, "MOCK"), true);
   });
 });

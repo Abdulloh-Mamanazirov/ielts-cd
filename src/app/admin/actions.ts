@@ -1166,9 +1166,13 @@ export async function deleteMockEvent(id: string): Promise<ActionResult> {
 // Mock experience
 // ---------------------------------------------------------------------------
 
-const mockSettingsSchema = z.object({ celebrateCompletion: z.boolean() });
+const mockSettingsSchema = z.object({
+  celebrateCompletion: z.boolean(),
+  showCorrectAnswers: z.boolean(),
+  showSectionBands: z.boolean(),
+});
 
-/** Whether finishing a full mock ends with confetti and a congratulations card. */
+/** What a student is shown after a mock, and whether the end is celebrated. */
 export async function updateMockSettings(input: unknown): Promise<ActionResult> {
   const admin = await assertAdmin();
   if (!admin) return { ok: false, error: "Not allowed" };
@@ -1177,11 +1181,17 @@ export async function updateMockSettings(input: unknown): Promise<ActionResult> 
   if (!parsed.success) return { ok: false, error: "Invalid request" };
 
   await saveMockSettings(parsed.data);
+  // Every page that shows a mock's result reads the switch on request; the
+  // cached ones are the dashboard and the student's own pages.
   revalidatePath("/admin/settings");
-  return {
-    ok: true,
-    message: parsed.data.celebrateCompletion
-      ? "A finished mock is celebrated."
-      : "A finished mock shows its results quietly.",
-  };
+  revalidatePath("/dashboard");
+  revalidatePath("/full-mock");
+
+  const { showSectionBands, showCorrectAnswers, celebrateCompletion } = parsed.data;
+  const parts = [
+    showSectionBands ? "bands shown" : "bands hidden",
+    showCorrectAnswers ? "answers shown" : "answers hidden",
+    celebrateCompletion ? "celebrated" : "no celebration",
+  ];
+  return { ok: true, message: `After a mock: ${parts.join(", ")}.` };
 }

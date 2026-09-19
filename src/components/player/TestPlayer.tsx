@@ -47,11 +47,18 @@ export function TestPlayer({
   test,
   attempt,
   initialResult = null,
+  marksInPlace = true,
 }: {
   test: PlayableTest;
   attempt: AttemptSnapshot;
   /** Re-opening a finished attempt: start in review with the stored marks. */
   initialResult?: GradeResult | null;
+  /**
+   * Whether the marked paper opens here the moment the test is submitted.
+   * False when the instructor withholds a mock's marking or bands: the page
+   * hands over to the results page, which shows only what is allowed.
+   */
+  marksInPlace?: boolean;
 }) {
   const parts = useMemo(() => test.content.parts ?? [], [test.content.parts]);
 
@@ -185,6 +192,10 @@ export function TestPlayer({
         window.location.href = `/full-mock/${attempt.fullMockId}`;
         return;
       }
+      if (!marksInPlace) {
+        window.location.href = `/dashboard/results/${attempt.id}`;
+        return;
+      }
 
       // No router.refresh(): the attempt page redirects a submitted attempt to
       // the results page, which would pull the student away from the passage
@@ -197,7 +208,7 @@ export function TestPlayer({
     } finally {
       setSubmitting(false);
     }
-  }, [answers, attempt.fullMockId, attempt.id, flush, reviewMode, submitting]);
+  }, [answers, attempt.fullMockId, attempt.id, flush, marksInPlace, reviewMode, submitting]);
 
   const goToQuestion = useCallback(
     (questionNumber: number) => {

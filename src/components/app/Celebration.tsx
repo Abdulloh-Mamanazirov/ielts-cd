@@ -148,12 +148,15 @@ export function Celebration({
   mockId,
   title,
   overallBand,
+  withheld = false,
   children,
 }: {
   mockId: string;
   title: string;
   /** Null while an essay is still with the instructor. */
   overallBand: number | null;
+  /** The instructor is not showing bands: congratulate without a number. */
+  withheld?: boolean;
   /** The band summary, rendered inside the card. */
   children?: React.ReactNode;
 }) {
@@ -192,7 +195,11 @@ export function Celebration({
           >
             You finished {title}.
           </h2>
-          {overallBand !== null ? (
+          {withheld ? (
+            <p className="mx-auto mt-5 max-w-[34ch] text-sm leading-relaxed text-ink-muted">
+              Every section is in. Your results will be released by the instructor.
+            </p>
+          ) : overallBand !== null ? (
             <>
               <p className="mt-6 text-[10px] font-bold tracking-[0.22em] text-ink-subtle">
                 OVERALL BAND

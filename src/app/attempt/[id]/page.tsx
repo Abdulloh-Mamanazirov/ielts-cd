@@ -8,6 +8,8 @@ import type { Annotations } from "@/lib/player/highlights";
 import { prisma } from "@/lib/db";
 import { canRequestReview as markingAllows } from "@/lib/marking-settings";
 import { loadMarkingSettings } from "@/lib/marking-settings-store";
+import { revealsAnswers, revealsBands } from "@/lib/mock-settings";
+import { loadMockSettings } from "@/lib/mock-settings-store";
 import { effectivePlan } from "@/lib/plans";
 import type { GradeResult, QuestionVerdict } from "@/lib/tests/grade";
 import { getPlayableTest } from "@/lib/tests/access";
@@ -51,8 +53,17 @@ export default async function AttemptPage({
   const stored = attempt.result as
     | { verdicts?: QuestionVerdict[]; scaledScore?: number; isEstimate?: boolean }
     | null;
+  // Whether a mock may show its marking and its numbers is the instructor's
+  // switch; practice always may.
+  const mockSettings = await loadMockSettings();
+  const showAnswers = revealsAnswers(mockSettings, attempt.mode);
+  const showBands = revealsBands(mockSettings, attempt.mode);
+
   const wantsReview =
-    attempt.status !== "IN_PROGRESS" && Boolean(review) && (stored?.verdicts?.length ?? 0) > 0;
+    attempt.status !== "IN_PROGRESS" &&
+    Boolean(review) &&
+    showAnswers &&
+    (stored?.verdicts?.length ?? 0) > 0;
 
   if (attempt.status !== "IN_PROGRESS" && !wantsReview) {
     redirect(`/dashboard/results/${attempt.id}`);
@@ -120,5 +131,14 @@ export default async function AttemptPage({
       }
     : null;
 
-  return <TestPlayer test={access.test} attempt={snapshot} initialResult={initialResult} />;
+  return (
+    <TestPlayer
+      test={access.test}
+      attempt={snapshot}
+      initialResult={initialResult}
+      // A mock whose marking or numbers are withheld cannot open them in place
+      // after submitting; it goes to the results page, which shows what it may.
+      marksInPlace={showAnswers && showBands}
+    />
+  );
 }

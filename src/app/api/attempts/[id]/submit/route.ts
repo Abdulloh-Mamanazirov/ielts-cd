@@ -13,6 +13,8 @@ import { attemptIsInEvent } from "@/lib/events/service";
 import { refreshFullMock } from "@/lib/full-mock/service";
 import { canRequestReview as markingAllows } from "@/lib/marking-settings";
 import { loadMarkingSettings } from "@/lib/marking-settings-store";
+import { revealsAnswers, revealsBands } from "@/lib/mock-settings";
+import { loadMockSettings } from "@/lib/mock-settings-store";
 import { effectivePlan } from "@/lib/plans";
 import { getAnswerKey } from "@/lib/tests/access";
 
@@ -51,6 +53,7 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
       startedAt: true,
       expiresAt: true,
       fullMockId: true,
+      mode: true,
     },
   });
 
@@ -115,14 +118,21 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
 
   if (attempt.fullMockId) await refreshFullMock(attempt.fullMockId);
 
+  // A mock whose marking or numbers the instructor withholds does not get them
+  // here either: the page redirects, and a response the page never renders
+  // is still a response the browser's network tab can read.
+  const settings = await loadMockSettings();
+  const bands = revealsBands(settings, attempt.mode);
+  const answers = revealsAnswers(settings, attempt.mode);
+
   return Response.json({
-    rawScore: result.rawScore,
     totalQuestions: result.totalQuestions,
-    band: result.band,
-    scaledScore: result.scaledScore,
     isEstimate: result.isEstimate,
-    verdicts: result.verdicts,
     lateSubmission,
     fullMockId: attempt.fullMockId,
+    ...(bands
+      ? { rawScore: result.rawScore, band: result.band, scaledScore: result.scaledScore }
+      : {}),
+    ...(answers ? { verdicts: result.verdicts } : {}),
   });
 }

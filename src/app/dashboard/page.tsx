@@ -7,6 +7,8 @@ import { StartPractice } from "@/components/app/StartPractice";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { fullMockBlockers } from "@/lib/full-mock/service";
+import { revealsBands } from "@/lib/mock-settings";
+import { loadMockSettings } from "@/lib/mock-settings-store";
 import { cn } from "@/lib/utils";
 
 export const metadata = { title: "Dashboard" };
@@ -22,7 +24,7 @@ const SKILL_LABEL: Record<string, string> = {
 export default async function DashboardPage() {
   const user = await requireUser("/dashboard");
 
-  const [attempts, inProgress, testsBySkill] = await Promise.all([
+  const [rawAttempts, inProgress, testsBySkill, mockSettings] = await Promise.all([
     prisma.attempt.findMany({
       where: { userId: user.id, status: "SUBMITTED" },
       orderBy: { submittedAt: "asc" },
@@ -49,7 +51,17 @@ export default async function DashboardPage() {
       where: { status: "PUBLISHED" },
       _count: { _all: true },
     }),
+    loadMockSettings(),
   ]);
+
+  // A mock whose numbers the instructor withholds is shown as sat, not scored:
+  // its band and score are blanked here so nothing below — the list, the best
+  // band, the history chart, the weakest skill — can leak them.
+  const attempts = rawAttempts.map((attempt) =>
+    revealsBands(mockSettings, attempt.mode)
+      ? { ...attempt, withheld: false }
+      : { ...attempt, band: null, rawScore: null, withheld: true },
+  );
 
   const fullMockReady = (await fullMockBlockers(user)).length === 0;
 
@@ -210,14 +222,18 @@ export default async function DashboardPage() {
                         {attempt.submittedAt?.toLocaleDateString()}
                       </p>
                     </div>
-                    {attempt.test.totalQuestions > 0 && (
+                    {attempt.test.totalQuestions > 0 && !attempt.withheld && (
                       <span className="text-sm tabular-nums text-ink-muted">
                         {attempt.rawScore}/{attempt.test.totalQuestions}
                       </span>
                     )}
                     {/* Writing and speaking carry no band until the instructor
                         sets one, which is what makes null the right signal here. */}
-                    {attempt.band === null ? (
+                    {attempt.withheld ? (
+                      <span className="rounded-full bg-surface-alt px-3 py-1 text-[11px] font-bold tracking-[0.04em] text-ink-subtle">
+                        SUBMITTED
+                      </span>
+                    ) : attempt.band === null ? (
                       <span className="rounded-full bg-surface-alt px-3 py-1 text-[11px] font-bold tracking-[0.04em] text-ink-subtle">
                         {attempt.reviewRequested ? "AWAITING MARKING" : "NOT SENT"}
                       </span>

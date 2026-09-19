@@ -8,6 +8,7 @@ import { LogoMark } from "@/components/marketing/Brand";
 import { SkillIcon } from "@/components/SkillIcon";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
+import { revealsAnswers, revealsBands } from "@/lib/mock-settings";
 import { loadMockSettings } from "@/lib/mock-settings-store";
 import { cn } from "@/lib/utils";
 
@@ -65,6 +66,10 @@ export default async function FullMockProgressPage({
   const finished = mock.status === "COMPLETED";
   const abandoned = mock.status === "ABANDONED";
 
+  // Every section of a mock is a MOCK attempt, so the switches apply to all of it.
+  const showBands = revealsBands(settings, "MOCK");
+  const showAnswers = revealsAnswers(settings, "MOCK");
+
   return (
     <main className="min-h-dvh bg-surface-alt">
       <div className="mx-auto max-w-xl px-5 py-10 lg:py-14">
@@ -93,7 +98,7 @@ export default async function FullMockProgressPage({
             {title}
           </h1>
 
-          {finished && (
+          {finished && showBands && (
             <div className="mt-7 text-center">
               <p className="text-[10px] font-bold tracking-[0.22em] text-ink-subtle">OVERALL BAND</p>
               <p className="mt-1 font-display text-7xl leading-none text-brand-red">
@@ -106,6 +111,11 @@ export default async function FullMockProgressPage({
                 </p>
               )}
             </div>
+          )}
+          {finished && !showBands && (
+            <p className="mx-auto mt-7 max-w-[44ch] text-center text-sm leading-relaxed text-ink-muted">
+              Every section is in. Your results will be released by the instructor.
+            </p>
           )}
 
           <ol className={cn("space-y-px bg-rule", finished ? "mt-7" : "mt-6")}>
@@ -132,8 +142,12 @@ export default async function FullMockProgressPage({
                   </div>
                   {done ? (
                     <span className="font-display text-xl leading-none text-ink">
-                      {marked ? (
+                      {marked && showBands ? (
                         attempt.band!.toFixed(1)
+                      ) : !showBands ? (
+                        <span className="text-[10px] font-bold tracking-[0.12em] text-ok">
+                          SUBMITTED
+                        </span>
                       ) : (
                         <span className="text-[10px] font-bold tracking-[0.12em] text-ink-subtle">
                           {skill === "WRITING" || skill === "SPEAKING"
@@ -157,8 +171,9 @@ export default async function FullMockProgressPage({
               return (
                 <li key={attempt.id}>
                   {/* The marked paper opens only once the mock is over: mid-exam
-                      the page is a corridor between sections, not a reading room. */}
-                  {finished && done && marked ? (
+                      the page is a corridor between sections, not a reading room.
+                      And only if the instructor lets students see it at all. */}
+                  {finished && done && marked && (showAnswers || showBands) ? (
                     <Link
                       href={`/dashboard/results/${attempt.id}`}
                       className={cn(
@@ -223,9 +238,10 @@ export default async function FullMockProgressPage({
           <Celebration
             mockId={mock.id}
             title={mock.event?.title ?? "the full mock"}
-            overallBand={mock.overallBand}
+            overallBand={showBands ? mock.overallBand : null}
+            withheld={!showBands}
           >
-            <dl className="flex justify-center gap-6">
+            {showBands && <dl className="flex justify-center gap-6">
               {mock.attempts.map((attempt) => (
                 <div key={attempt.id}>
                   <dt className="text-[10px] font-bold tracking-[0.16em] text-ink-subtle">
@@ -236,7 +252,7 @@ export default async function FullMockProgressPage({
                   </dd>
                 </div>
               ))}
-            </dl>
+            </dl>}
           </Celebration>
         )}
       </div>

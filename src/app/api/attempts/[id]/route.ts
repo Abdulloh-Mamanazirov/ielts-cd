@@ -3,6 +3,8 @@ import { z } from "zod";
 import { requireUserApi } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { isExpired } from "@/lib/attempts/service";
+import { revealsBands } from "@/lib/mock-settings";
+import { loadMockSettings } from "@/lib/mock-settings-store";
 import type { Prisma } from "@/generated/prisma/client";
 
 const patchSchema = z.object({
@@ -39,6 +41,12 @@ export async function GET(_request: Request, context: { params: Promise<{ id: st
   const { id } = await context.params;
   const attempt = await loadOwnedAttempt(id, auth.user.id);
   if (!attempt) return Response.json({ error: "Attempt not found" }, { status: 404 });
+
+  // The numbers of a mock are the instructor's to release; this endpoint must
+  // not hand them out when the pages are withholding them.
+  if (!revealsBands(await loadMockSettings(), attempt.mode)) {
+    return Response.json({ attempt: { ...attempt, rawScore: null, band: null } });
+  }
 
   return Response.json({ attempt });
 }

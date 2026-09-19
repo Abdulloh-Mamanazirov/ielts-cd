@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
+import { revealsAnswers, revealsBands } from "@/lib/mock-settings";
+import { loadMockSettings } from "@/lib/mock-settings-store";
 import type { QuestionVerdict } from "@/lib/tests/grade";
 import { cn } from "@/lib/utils";
 
@@ -44,13 +46,19 @@ export default async function ResultPage({ params }: { params: Promise<{ id: str
 
   if (!attempt || !attempt.submittedAt) notFound();
 
+  // What a mock may show its student is the instructor's switch. Practice
+  // always shows everything.
+  const settings = await loadMockSettings();
+  const showBands = revealsBands(settings, attempt.mode);
+  const showAnswers = revealsAnswers(settings, attempt.mode);
+
   const stored = attempt.result as {
     verdicts?: QuestionVerdict[];
     isEstimate?: boolean;
     /** Speaking has no submission row, so its marking rides in the attempt. */
     instructorFeedback?: string;
   } | null;
-  const verdicts = stored?.verdicts ?? [];
+  const verdicts = showAnswers ? (stored?.verdicts ?? []) : [];
   const autoGraded = attempt.test.totalQuestions > 0;
   const feedback = attempt.writingSubmission?.instructorFeedback ?? stored?.instructorFeedback;
 
@@ -66,22 +74,29 @@ export default async function ResultPage({ params }: { params: Promise<{ id: str
         {attempt.timeSpentSeconds !== null && ` · ${formatDuration(attempt.timeSpentSeconds)}`}
       </p>
 
-      <div className="mt-6 flex flex-wrap gap-4">
-        {autoGraded && (
-          <Stat label="Score" value={`${attempt.rawScore}/${attempt.test.totalQuestions}`} />
-        )}
-        <Stat
-          label={
-            attempt.band === null
-              ? "Band"
-              : stored?.isEstimate
-                ? "Indicative band"
-                : "Band"
-          }
-          value={attempt.band?.toFixed(1) ?? "—"}
-          accent
-        />
-      </div>
+      {showBands ? (
+        <div className="mt-6 flex flex-wrap gap-4">
+          {autoGraded && (
+            <Stat label="Score" value={`${attempt.rawScore}/${attempt.test.totalQuestions}`} />
+          )}
+          <Stat
+            label={
+              attempt.band === null
+                ? "Band"
+                : stored?.isEstimate
+                  ? "Indicative band"
+                  : "Band"
+            }
+            value={attempt.band?.toFixed(1) ?? "—"}
+            accent
+          />
+        </div>
+      ) : (
+        <p className="mt-6 rounded-xl bg-brand-blue-soft px-5 py-4 text-sm leading-relaxed text-ink-muted">
+          <strong className="font-bold text-ink">Submitted.</strong> This was a mock, and your
+          result will be released by the instructor.
+        </p>
+      )}
 
       {/* The rich, marked paper (passage + highlighted answers) lives in the
           player; this re-opens it read-only so the two views reach each other. */}
@@ -95,7 +110,7 @@ export default async function ResultPage({ params }: { params: Promise<{ id: str
         </Link>
       )}
 
-      {attempt.band === null && !autoGraded && (
+      {showBands && attempt.band === null && !autoGraded && (
         <p className="mt-5 rounded-xl bg-brand-blue-soft px-5 py-4 text-sm leading-relaxed text-ink-muted">
           {attempt.reviewRequested ? (
             <>

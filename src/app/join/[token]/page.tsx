@@ -6,6 +6,8 @@ import { LogoMark } from "@/components/marketing/Brand";
 import { SkillIcon } from "@/components/SkillIcon";
 import { getSessionUser } from "@/lib/auth/session";
 import { eventForJoin, joinRefusal } from "@/lib/events/service";
+import { revealsBands } from "@/lib/mock-settings";
+import { loadMockSettings } from "@/lib/mock-settings-store";
 import { BOT_USERNAME } from "@/lib/telegram/bot";
 import { cn } from "@/lib/utils";
 
@@ -24,8 +26,12 @@ export default async function JoinEventPage({ params }: { params: Promise<{ toke
   if (!/^[A-Za-z0-9_-]{6,64}$/.test(token)) notFound();
 
   const user = await getSessionUser();
-  const event = await eventForJoin(token, user?.id ?? null);
+  const [event, mockSettings] = await Promise.all([
+    eventForJoin(token, user?.id ?? null),
+    loadMockSettings(),
+  ]);
   if (!event) notFound();
+  const showBands = revealsBands(mockSettings, "MOCK");
 
   const sitting = event.participant?.fullMock ?? null;
   const refusal = sitting
@@ -85,11 +91,13 @@ export default async function JoinEventPage({ params }: { params: Promise<{ toke
                   </div>
                   {done && (
                     <span className="text-[11px] font-bold tracking-[0.08em] text-ok">
-                      {attempt.band !== null
-                        ? attempt.band.toFixed(1)
-                        : section.skill === "writing"
-                          ? "AWAITING MARKING"
-                          : "SUBMITTED"}
+                      {!showBands
+                        ? "SUBMITTED"
+                        : attempt.band !== null
+                          ? attempt.band.toFixed(1)
+                          : section.skill === "writing"
+                            ? "AWAITING MARKING"
+                            : "SUBMITTED"}
                     </span>
                   )}
                 </li>
@@ -124,7 +132,7 @@ export default async function JoinEventPage({ params }: { params: Promise<{ toke
               </>
             ) : sitting ? (
               sitting.status === "COMPLETED" ? (
-                <Result overallBand={sitting.overallBand} />
+                <Result overallBand={showBands ? sitting.overallBand : null} withheld={!showBands} />
               ) : (
                 <StartEventSitting eventId={event.id} mode="continue" />
               )
@@ -147,17 +155,23 @@ export default async function JoinEventPage({ params }: { params: Promise<{ toke
   );
 }
 
-function Result({ overallBand }: { overallBand: number | null }) {
+function Result({ overallBand, withheld }: { overallBand: number | null; withheld: boolean }) {
   return (
     <div className="rounded-[10px] bg-ink px-5 py-4 text-white">
-      <p className="text-[10px] font-bold tracking-[0.22em] text-white/60">YOUR RESULT</p>
-      <p className="mt-1.5 font-display text-3xl leading-none text-brand-red">
-        {overallBand !== null ? overallBand.toFixed(1) : "—"}
+      <p className="text-[10px] font-bold tracking-[0.22em] text-white/60">
+        {withheld ? "COMPLETED" : "YOUR RESULT"}
       </p>
+      {!withheld && (
+        <p className="mt-1.5 font-display text-3xl leading-none text-brand-red">
+          {overallBand !== null ? overallBand.toFixed(1) : "—"}
+        </p>
+      )}
       <p className="mt-2 text-xs text-white/70">
-        {overallBand !== null
-          ? "Overall band. Open your dashboard for each section."
-          : "Your essays are with the instructor. The overall band appears here once they are marked."}
+        {withheld
+          ? "Every section is in. Your results will be released by the instructor."
+          : overallBand !== null
+            ? "Overall band. Open your dashboard for each section."
+            : "Your essays are with the instructor. The overall band appears here once they are marked."}
       </p>
       <Link
         href="/dashboard"

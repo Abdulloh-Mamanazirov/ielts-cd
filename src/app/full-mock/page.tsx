@@ -7,6 +7,8 @@ import { StartFullMock } from "@/components/app/StartFullMock";
 import { requireUser } from "@/lib/auth/guards";
 import { prisma } from "@/lib/db";
 import { fullMockBlockers } from "@/lib/full-mock/service";
+import { revealsBands } from "@/lib/mock-settings";
+import { loadMockSettings } from "@/lib/mock-settings-store";
 
 export const metadata = { title: "Full mock" };
 
@@ -20,7 +22,7 @@ const SKILL_LABEL: Record<string, string> = {
 export default async function FullMockPage() {
   const user = await requireUser("/full-mock");
 
-  const [blockers, current, past] = await Promise.all([
+  const [blockers, current, past, mockSettings] = await Promise.all([
     fullMockBlockers(user),
     prisma.fullMock.findFirst({
       where: { userId: user.id, status: "IN_PROGRESS" },
@@ -57,6 +59,7 @@ export default async function FullMockPage() {
         },
       },
     }),
+    loadMockSettings(),
   ]);
 
   // Mid-mock the student belongs on the focused page — sections done, one
@@ -64,6 +67,7 @@ export default async function FullMockPage() {
   if (current) redirect(`/full-mock/${current.id}`);
 
   const ready = blockers.length === 0;
+  const showBands = revealsBands(mockSettings, "MOCK");
 
   return (
     <AppShell user={user} current="/full-mock">
@@ -124,7 +128,7 @@ export default async function FullMockPage() {
                           OVERALL
                         </p>
                         <p className="mt-0.5 font-display text-xl leading-none text-brand-red">
-                          {mock.overallBand?.toFixed(1) ?? "—"}
+                          {showBands ? (mock.overallBand?.toFixed(1) ?? "—") : "—"}
                         </p>
                       </div>
                     </div>
@@ -138,7 +142,7 @@ export default async function FullMockPage() {
                           >
                             {SKILL_LABEL[attempt.test.skill]}
                             <span className="font-bold tabular-nums">
-                              {attempt.band?.toFixed(1) ?? "—"}
+                              {showBands ? (attempt.band?.toFixed(1) ?? "—") : "—"}
                             </span>
                           </Link>
                         </li>
