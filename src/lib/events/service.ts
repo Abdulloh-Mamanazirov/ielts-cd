@@ -35,6 +35,7 @@ export async function eventForJoin(token: string, userId: string | null) {
     ? await prisma.eventParticipant.findUnique({
         where: { eventId_userId: { eventId: event.id, userId } },
         select: {
+          speakingBand: true,
           fullMock: {
             select: {
               id: true,
@@ -146,6 +147,8 @@ export type RosterRow = {
   listening: number | null;
   reading: number | null;
   writing: number | null;
+  /** Entered by the instructor after the face-to-face interview. */
+  speaking: number | null;
   overall: number | null;
   /** The writing attempt, for the link into the marking screen. */
   writingAttemptId: string | null;
@@ -160,6 +163,7 @@ export async function eventRoster(eventId: string): Promise<RosterRow[]> {
     select: {
       id: true,
       joinedAt: true,
+      speakingBand: true,
       user: { select: { id: true, fullName: true, telegramUsername: true, phone: true } },
       fullMock: {
         select: {
@@ -199,6 +203,7 @@ export async function eventRoster(eventId: string): Promise<RosterRow[]> {
       listening: bandFor("LISTENING"),
       reading: bandFor("READING"),
       writing: bandFor("WRITING"),
+      speaking: row.speakingBand,
       overall: row.fullMock?.overallBand ?? null,
       writingAttemptId: writing?.id ?? null,
       state,

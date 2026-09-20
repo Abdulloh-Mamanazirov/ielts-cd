@@ -1195,3 +1195,47 @@ export async function updateMockSettings(input: unknown): Promise<ActionResult> 
   ];
   return { ok: true, message: `After a mock: ${parts.join(", ")}.` };
 }
+
+const speakingBandSchema = z.object({
+  participantId: z.string().min(1),
+  // Half bands 0–9, or null to clear a slip of the hand.
+  band: z
+    .number()
+    .min(0)
+    .max(9)
+    .refine((value) => (value * 2) % 1 === 0, { message: "Bands go in halves" })
+    .nullable(),
+});
+
+/**
+ * Records an event participant's speaking band from the face-to-face
+ * interview. Speaking is not sat on the platform in an event, so there is no
+ * attempt to mark; the band goes on the participant and into the overall.
+ */
+export async function setEventSpeakingBand(input: unknown): Promise<ActionResult> {
+  const admin = await assertAdmin();
+  if (!admin) return { ok: false, error: "Not allowed" };
+
+  const parsed = speakingBandSchema.safeParse(input);
+  if (!parsed.success) {
+    return { ok: false, error: parsed.error.issues[0]?.message ?? "Invalid request" };
+  }
+
+  const participant = await prisma.eventParticipant.update({
+    where: { id: parsed.data.participantId },
+    data: { speakingBand: parsed.data.band },
+    select: { eventId: true, fullMockId: true },
+  });
+
+  // A fourth band changes the overall.
+  if (participant.fullMockId) await refreshFullMock(participant.fullMockId);
+
+  revalidatePath(`/admin/events/${participant.eventId}`);
+  if (participant.fullMockId) revalidatePath(`/full-mock/${participant.fullMockId}`);
+  return {
+    ok: true,
+    message:
+      parsed.data.band === null ? "Speaking band cleared." : `Speaking ${parsed.data.band.toFixed(1)} recorded.`,
+  };
+}
+

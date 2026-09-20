@@ -17,6 +17,7 @@ const HEADER = [
   "Listening",
   "Reading",
   "Writing",
+  "Speaking",
   "Overall",
   "Status",
 ];
@@ -47,6 +48,7 @@ export async function GET(_request: Request, context: { params: Promise<{ id: st
         row.listening,
         row.reading,
         row.writing,
+        row.speaking,
         row.overall,
         row.state.replace("_", " "),
       ]

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { AdminPage, EmptyState } from "@/components/admin/AdminPage";
 import { EventControls } from "@/components/admin/EventControls";
 import { EventForm } from "@/components/admin/EventForm";
+import { SpeakingBandCell } from "@/components/admin/SpeakingBandCell";
 import { prisma } from "@/lib/db";
 import { asDateTimeInput, eventTestOptions } from "@/lib/events/admin";
 import { eventRoster, type RosterRow } from "@/lib/events/service";
@@ -99,11 +100,15 @@ export default async function EventAdminPage({ params }: { params: Promise<{ id:
           <h2 className="mb-3 text-[10px] font-bold tracking-[0.22em] text-ink-subtle">
             PARTICIPANTS
           </h2>
+          <p className="mb-3 text-[12px] text-ink-subtle">
+            L, R and W come from the paper. Type the speaking band into <strong>S</strong> after
+            the interview; the overall updates as soon as it is in.
+          </p>
           {roster.length === 0 ? (
             <EmptyState>Nobody has joined yet. Share the link above.</EmptyState>
           ) : (
             <div className="overflow-x-auto rounded-xl bg-white shadow-[0_1px_2px_rgba(11,17,32,.08)]">
-              <table className="w-full min-w-[720px] text-left text-[13px]">
+              <table className="w-full min-w-[820px] text-left text-[13px]">
                 <thead>
                   <tr className="border-b border-rule text-[10px] font-bold tracking-[0.16em] text-ink-subtle">
                     <th className="px-4 py-3">STUDENT</th>
@@ -112,6 +117,7 @@ export default async function EventAdminPage({ params }: { params: Promise<{ id:
                     <th className="px-3 py-3 text-right">L</th>
                     <th className="px-3 py-3 text-right">R</th>
                     <th className="px-3 py-3 text-right">W</th>
+                    <th className="px-3 py-3 text-right">S</th>
                     <th className="px-3 py-3 text-right">OVERALL</th>
                     <th className="px-4 py-3 text-right">STATUS</th>
                   </tr>
@@ -145,6 +151,14 @@ export default async function EventAdminPage({ params }: { params: Promise<{ id:
                         <Band value={row.listening} />
                         <Band value={row.reading} />
                         <Band value={row.writing} />
+                        {/* Speaking is examined face to face and typed in here. */}
+                        <td className="px-3 py-3 text-right">
+                          <SpeakingBandCell
+                            participantId={row.participantId}
+                            band={row.speaking}
+                            disabled={row.fullMockId === null}
+                          />
+                        </td>
                         <td className="px-3 py-3 text-right font-display text-base text-brand-red">
                           {row.overall?.toFixed(1) ?? "—"}
                         </td>

@@ -44,6 +44,9 @@ export default async function FullMockProgressPage({
         status: true,
         overallBand: true,
         event: { select: { title: true, token: true } },
+        // Speaking in an event is examined face to face; the band lives on the
+        // participant rather than on an attempt.
+        participant: { select: { speakingBand: true } },
         attempts: {
           orderBy: { sequence: "asc" },
           select: {
@@ -196,6 +199,25 @@ export default async function FullMockProgressPage({
                 </li>
               );
             })}
+            {mock.participant?.speakingBand !== null &&
+              mock.participant?.speakingBand !== undefined && (
+                <li>
+                  <div className="flex items-center gap-4 bg-white px-4 py-3.5">
+                    <SkillIcon skill="speaking" size={18} className="flex-none text-ok" />
+                    <div className="min-w-0 flex-1">
+                      <p className="text-sm font-bold text-ink">Speaking</p>
+                      <p className="mt-0.5 text-xs text-ink-subtle">Face to face with the instructor</p>
+                    </div>
+                    {showBands ? (
+                      <span className="font-display text-xl leading-none text-ink">
+                        {mock.participant.speakingBand.toFixed(1)}
+                      </span>
+                    ) : (
+                      <span className="text-[10px] font-bold tracking-[0.12em] text-ok">DONE</span>
+                    )}
+                  </div>
+                </li>
+              )}
           </ol>
 
           <div className="mt-7">
@@ -252,6 +274,15 @@ export default async function FullMockProgressPage({
                   </dd>
                 </div>
               ))}
+              {mock.participant?.speakingBand !== null &&
+                mock.participant?.speakingBand !== undefined && (
+                  <div>
+                    <dt className="text-[10px] font-bold tracking-[0.16em] text-ink-subtle">S</dt>
+                    <dd className="mt-1 font-display text-2xl leading-none text-ink">
+                      {mock.participant.speakingBand.toFixed(1)}
+                    </dd>
+                  </div>
+                )}
             </dl>}
           </Celebration>
         )}

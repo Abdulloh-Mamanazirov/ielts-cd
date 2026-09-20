@@ -133,6 +133,9 @@ export async function refreshFullMock(fullMockId: string) {
       id: true,
       status: true,
       attempts: { select: { status: true, band: true } },
+      // An event's speaking is examined face to face and entered by hand; it
+      // has no attempt, but it is a fourth band when it is there.
+      participant: { select: { speakingBand: true } },
     },
   });
 
@@ -141,8 +144,10 @@ export async function refreshFullMock(fullMockId: string) {
   const allSubmitted = mock.attempts.every((attempt) => attempt.status === "SUBMITTED");
   if (!allSubmitted) return mock.status;
 
-  const bands = mock.attempts.map((attempt) => attempt.band).filter((b): b is number => b !== null);
-  const everySkillMarked = bands.length === mock.attempts.length;
+  const sat = mock.attempts.map((attempt) => attempt.band).filter((b): b is number => b !== null);
+  const everySkillMarked = sat.length === mock.attempts.length;
+  const speaking = mock.participant?.speakingBand;
+  const bands = speaking !== null && speaking !== undefined ? [...sat, speaking] : sat;
 
   await prisma.fullMock.update({
     where: { id: fullMockId },

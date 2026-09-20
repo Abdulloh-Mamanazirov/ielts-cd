@@ -103,6 +103,19 @@ export default async function JoinEventPage({ params }: { params: Promise<{ toke
                 </li>
               );
             })}
+            {event.participant?.speakingBand !== null &&
+              event.participant?.speakingBand !== undefined && (
+                <li className="flex items-center gap-4 bg-surface-alt px-4 py-3.5">
+                  <SkillIcon skill="speaking" size={18} className="flex-none text-ok" />
+                  <div className="min-w-0 flex-1">
+                    <p className="text-sm font-bold text-ink">Speaking</p>
+                    <p className="mt-0.5 text-xs text-ink-subtle">Face to face with the instructor</p>
+                  </div>
+                  <span className="text-[11px] font-bold tracking-[0.08em] text-ok">
+                    {showBands ? event.participant.speakingBand.toFixed(1) : "DONE"}
+                  </span>
+                </li>
+              )}
           </ol>
 
           <p className="mt-5 text-[13px] leading-relaxed text-ink-muted">
