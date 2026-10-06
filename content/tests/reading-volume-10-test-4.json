@@ -1,0 +1,735 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 10, Test 4",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 1–13</strong>.</p>",
+        "passageHtml": "<h1>The Impact of the Potato</h1><p class=\"passage-intro\"><em>Jeff Chapman relates the story of history's most important vegetable</em></p><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;The potato was first cultivated in South America between three and seven thousand years ago, though scientists believe it may have grown wild in the region as long as 13,000 years ago. The genetic patterns of potato distribution indicate that the potato probably originated in the mountainous west-central region of the continent.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Early Spanish chroniclers who misused the Indian word batata (sweet potato) as the name for the potato noted the importance of the tuber to the Incan Empire. The Incas had learned to preserve the potato for storage by dehydrating and mashing the potatoes into a substance called chuño, which could be stored in a room for up to 10 years, providing excellent insurance against possible crop failures. As well as using the food as a staple crop, the Incas thought potatoes made childbirth easier and used them to treat injuries.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;The Spanish conquistadors first encountered the potato when they arrived in Peru in 1532 in search of gold and noted Inca miners eating chuño. At the time, the Spaniards failed to realize that the potato represented a far more important treasure than either silver or gold, but they did gradually begin to use potatoes as basic rations aboard their ships. After the arrival of the potato in Spain in 1570, a few Spanish farmers began to cultivate it on a small scale, mostly as food for livestock.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;Throughout Europe, potatoes were regarded with suspicion, distaste, and fear. Generally considered to be unfit for human consumption, they were used only as animal fodder and sustenance for the starving. In northern Europe, potatoes were primarily grown in botanical gardens as an exotic novelty. Even peasants refused to eat a plant that produced ugly, misshapen tubers and that had come from a heathen civilization. Some felt that the potato plant's resemblance to plants in the nightshade family hinted that it was the creation of witches or devils.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;In meat-loving England, farmers and urban workers regarded potatoes with extreme distaste. In 1662, the Royal Society recommended the cultivation of the tuber to the English government and the nation, but this recommendation had little impact. Potatoes did not become a staple until, during the food shortages associated with the Revolutionary Wars, the English government began to officially encourage potato cultivation. In 1795, the Board of Agriculture issued a pamphlet entitled \"Hints Respecting the Culture and Use of Potatoes\"; this was followed shortly by pro-potato editorials and potato recipes in The Times. Gradually, the lower classes began to follow the lead of the upper classes.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;A similar pattern emerged across the English Channel in the Netherlands, Belgium and France. While the potato slowly gained ground in eastern France (where it was often the only crop remaining after marauding soldiers plundered wheat fields and vineyards), it did not achieve widespread acceptance until the late 1700s. The peasants remained suspicious, in spite of a 1771 paper from the Faculté de Paris testifying that the potato was not harmful but beneficial. The people began to overcome their distaste when the plant received the royal seal of approval: Louis XVI began to sport a potato flower in his buttonhole, and Marie-Antoinette wore a purple potato blossom in her hair.</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;Frederick the Great of Prussia saw the potato's potential to help feed his nation and lower the price of bread, but faced the challenge of overcoming the people's prejudice against the plant. When he issued a 1774 order for his subjects to grow potatoes as protection against famine, the town of Kolberg replied: \"The things have neither smell nor taste; not even the dogs will eat them, so what use are they to us?\" Trying a less direct approach to encourage his subjects to begin planting potatoes, Frederick used a bit of reverse psychology: he planted a royal field of potato plants and stationed a heavy guard to protect this field from thieves. Nearby peasants naturally assumed that anything worth guarding was worth stealing, and so sneaked into the field and snatched the plants for their home gardens. Of course, this was entirely in line with Frederick's wishes.</p></div><div class=\"passage-section\" id=\"para-H\"><p><strong>H</strong>&nbsp;&nbsp;Historians debate whether the potato was primarily a cause or an effect of the huge population boom in industrial-era England and Wales. Prior to 1800, the English diet had consisted primarily of meat, supplemented by bread, butter, and cheese. Few vegetables were consumed, with most vegetables being regarded as nutritionally worthless and potentially harmful. This view began to change gradually in the late 1700s. The Industrial Revolution was drawing an ever-increasing percentage of the populace into crowded cities, where only the richest could afford homes with ovens or coal storage rooms, and people were working 12–16-hour days, which left them with little time or energy to prepare food. High-yielding, easily prepared potato crops were the obvious solution to England's food problems.</p></div><div class=\"passage-section\" id=\"para-I\"><p><strong>I</strong>&nbsp;&nbsp;Whereas most of their neighbours regarded the potato with suspicion and had to be persuaded to use it by the upper classes, the Irish peasantry embraced the tuber more passionately than anyone since the Incas. The potato was well suited to the Irish soil and climate, and its high yield suited the most important concern of most Irish farmers: to feed their families.</p></div><div class=\"passage-section\" id=\"para-J\"><p><strong>J</strong>&nbsp;&nbsp;The most dramatic example of the potato's potential to alter population patterns occurred in Ireland, where the potato had become a staple by 1800. The Irish population doubled to eight million between 1780 and 1841, without any significant expansion of industry or reform of agricultural techniques beyond the widespread cultivation of the potato. Though Irish landholding practices were primitive in comparison with those of England, the potato's high yields allowed even the poorest farmers to produce more healthy food than they needed with scarcely any investment or hard labour. Even children could easily plant, harvest, and cook potatoes, which, of course, required no threshing, curing, or grinding. The abundance provided by potatoes greatly decreased infant mortality and encouraged early marriage.</p></div>",
+        "groups": [
+          {
+            "id": "p1-g1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–5</h3><p>Do the following statements agree with the information given in Reading Passage 1?</p><p>Write <strong>TRUE</strong> if the statement agrees with the information, <strong>FALSE</strong> if the statement contradicts the information, or <strong>NOT GIVEN</strong> if there is no information on this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Early Spanish chroniclers called the potato by the Incan name 'chuño'."
+              },
+              {
+                "number": 2,
+                "textHtml": "The purpose of the Spanish coming to Peru was to find potatoes."
+              },
+              {
+                "number": 3,
+                "textHtml": "The Spanish believed that the potato had the same nutrients as other vegetables."
+              },
+              {
+                "number": 4,
+                "textHtml": "Peasants at that time did not like to eat potatoes because they were ugly."
+              },
+              {
+                "number": 5,
+                "textHtml": "The popularity of potatoes in the UK was due to food shortages during the war."
+              }
+            ]
+          },
+          {
+            "id": "p1-g2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 6–13</h3><p>Complete the sentences below.</p><p>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><p>In France, people began to overcome their disgust towards potatoes because the King put a potato {{6}} in his buttonhole.</p><p>Frederick realised the potential of the potato but had to handle the {{7}} from ordinary people.</p><p>The King of Prussia adopted a form of {{8}} psychology to make people accept potatoes.</p><p>Before 1800, English people preferred eating {{9}} with bread, butter and cheese.</p><p>The obvious way to deal with England's food problems was high-yielding potato {{10}}</p><p>The Irish {{11}} and climate suited potatoes well.</p><p>Between 1780 and 1841, thanks to the {{12}} of the potato, the Irish population doubled to eight million.</p><p>The potato's high yields helped the poorest farmers to produce more healthy food almost without {{13}} or hard labour.</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 14–26</strong>.</p>",
+        "passageHtml": "<h1>Solving the problem of waste disposal</h1><p class=\"passage-intro\"><em>With the amount of rubbish being produced around the world increasing, Mark Rowe asks whether a new generation of incineration plants can help to solve the problem</em></p><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;For many years, burning rubbish has been portrayed as the lazy option when it comes to dealing with the problem of waste disposal, since it sends toxic fumes into the air and appears to support a consumerist, throwaway society. Norway, however, appears to be burning its way through a sizeable chunk of Europe's municipal waste, using the heat created by this process to warm and power homes in many of its cities. Norway isn't alone: Germany, Sweden, Belgium and the Netherlands all burn significant quantities of rubbish, and across Europe there are 420 plants burning municipal waste. With Europe dumping 150 million tonnes of rubbish into landfill every year, there would seem to be limitless supply.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Those who support burning waste say that a new generation of incinerators has made it a more attractive option. Filters and scrubbing mechanisms now capture harmful substances such as mercury, hydrochloric acid and heavy metals. According to Ted Michaels, president of the US-based Energy Recovery Centre, 'There has been constant evolution in combustion engineering and emissions-control technology, and the output from these facilities is now minuscule.' Above all, however, supporters say that incineration is the only way of preventing the long-term impacts of landfill. In ten years' time, says the World Bank, humans will be generating 2.2 billion tonnes of solid waste per year. Advocates see incineration as a practical way to deal swiftly with an immediate problem.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;Levels of waste generation vary hugely around the world. 'It's a problem for the developed nations,' says Joergen Fenhann, a senior scientist working with the UN Environment Programme in Denmark. 'The more you develop, the more you produce, buy and throw away.' But the growth of incineration hasn't been universally welcomed. Lars Haltbrekken, chairman of Friends of the Earth in Norway, is concerned that incineration plants appear to generate demand for their services. 'The problem in Norway,' he explains, 'is that we have built too many waste-burning factories. So we've ended up importing waste from other countries. If you look at this from a very narrow perspective, it is, of course, better for the climate to burn rubbish from the UK rather than leave it in landfill there,' he continues. 'But from a broader perspective, it's a lazy way of getting rid of waste; you don't stimulate the goals of reducing, reusing and recycling.'</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;Incineration is also at odds with EU policy, which promotes a 'recycling hierarchy': ideally, we simply produce less waste in the first place; failing that, we reuse objects more; the next best option is recycling; only then should we consider incineration, while dumping in landfill is the last resort. Dealing with the problem of waste disposal involves tracing the whole process that takes the material from its inception to landfill. We used to call this the 'cradle-to-grave' life cycle; now, the talk is of 'cradle to cradle' and an even more comprehensive concept known as 'zero waste'. 'The philosophy of cradle to cradle is about designing products that are actually good for the environment at the end of their life,' says Joan Marc Simon, European spokesman for the environmental movement GAIA. 'You design a bottle that contains no toxins, is fully recyclable and requires the minimum amount of energy.' As Simon points out, however, without the right mechanisms in place, 'nothing guarantees that this bottle will end up being properly collected and treated in the appropriate recycling facility'.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;Tim Burns, policy manager at Keep Britain Tidy, says, 'In the UK alone, people waste 10 billion tonnes of food every year. You can argue about composting that, or not buying it in the first place—if you do that, then that's money the retailers don't get, so it's not always clear-cut. The implications of zero waste are that we're going to have to take a good long look at those well-stocked supermarket shelves, too. Supermarkets keep their shelves stocked even when demand isn't there, which means they have to pay to dispose of a lot of food,' says Burns. 'But that cost is less to them than the cost in brand damage of having empty shelves.'</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;Recent history and changes in trends in recycling suggest that we should be prepared for unexpected developments. 'If someone back in the 1980s had suggested what waste would be like now, they would have been completely wrong,' says Richard Fisher, a PhD researcher at Cranfield University. 'Consumerism has developed at a pace we never expected. Nobody would have said there would be so much electronic waste. But recycling has grown, too—ten years ago, nobody would have predicted today's levels of recycling.' But he points out that the need to reduce waste is still a difficult message to sell to consumers. He suggests that what people are really concerned about is their loved ones and the future they face. 'Perhaps we can align the environmental message to these deep-seated values,' he says. 'We need to look at whether it's business that drives consumers or the other way around. You need government to play a leadership role, whereas countries such as the UK seem to be stepping away from the environment in pursuit of short-term economic goals.'</p></div>",
+        "groups": [
+          {
+            "id": "p2-g1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–19</h3><p>Reading Passage 2 has six paragraphs, <strong>A–F</strong>.</p><p>Choose the correct heading for each paragraph from the list of headings below.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "New terminology reflecting changing attitudes to waste disposal"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Fundamental changes in behaviour in the past and future"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Ways of rewarding the public for recycling"
+              },
+              {
+                "letter": "D",
+                "textHtml": "A surprising approach to waste disposal by several countries"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Difficult choices for individuals and businesses"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Arguments against incineration from a country that uses it"
+              },
+              {
+                "letter": "G",
+                "textHtml": "A number of justifications for the use of incineration"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph A"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph B"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph C"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph D"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph E"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph F"
+              }
+            ]
+          },
+          {
+            "id": "p2-g2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 20–23</h3><p>Look at the following people (Questions 20–23) and the list of opinions below.</p><p>Match each person with the correct opinion, <strong>A–G</strong>.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Incineration does not encourage responsible attitudes to waste disposal."
+              },
+              {
+                "letter": "B",
+                "textHtml": "Recycling can sometimes create serious problems for the future."
+              },
+              {
+                "letter": "C",
+                "textHtml": "Greater consumerism leads to higher levels of waste."
+              },
+              {
+                "letter": "D",
+                "textHtml": "Proper systems are needed for the recycling of environmentally-friendly products."
+              },
+              {
+                "letter": "E",
+                "textHtml": "Landfill remains a necessary option in many countries."
+              },
+              {
+                "letter": "F",
+                "textHtml": "Incineration of waste is now relatively harmless to the environment."
+              },
+              {
+                "letter": "G",
+                "textHtml": "Efforts to reduce waste may affect profits for some types of companies."
+              }
+            ],
+            "questions": [
+              {
+                "number": 20,
+                "textHtml": "Ted Michaels"
+              },
+              {
+                "number": 21,
+                "textHtml": "Joergen Fenhann"
+              },
+              {
+                "number": 22,
+                "textHtml": "Joan Marc Simon"
+              },
+              {
+                "number": 23,
+                "textHtml": "Tim Burns"
+              }
+            ]
+          },
+          {
+            "id": "p2-g3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 24–26</h3><p>Complete the summary below.</p><p>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">What recent history tells us about recycling</div><p>Richard Fisher, a researcher from Cranfield University, points out that the pace of consumerism has increased more quickly than was predicted in the 1980s. There has, for example, been unexpected growth in waste from {{24}} products. He suggests that the need to protect the environment should be linked to basic values, and adds that it might be better if consumers had more influence over {{25}} and more direction was provided by {{26}}</p></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 27–40</strong>.</p>",
+        "passageHtml": "<h1>How to clean a beach</h1><p class=\"passage-intro\"><em>Oil spills such as the disaster in the Gulf of Mexico serve to remind us of the potential dangers of various commercial activities for our fragile oceanic environments</em></p><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;After the oil tanker Prestige spilt her cargo just off north-west Spain in November 2002, the beautiful beaches of the Galician coastline were covered by a metre-deep mixture of oil and seawater. The Prestige was only one incident in a long series of accidents involving oil tankers. But while each new incident, including that of the Prestige, brings environmental destruction and financial loss, it also improves our understanding of how to deal with oil spills. This knowledge is hard-won, as people have often learned from mistakes made in dealing with oil spills. Aggressive clean-ups have sometimes caused more damage than the oil. But such difficulties apart, a rough consensus on how to deal with the issues involved in clearing up oil spills has begun to emerge.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Oil is much less damaging at sea than on shore, so the best option is to skim the spilled oil off the surface of the water using specially equipped ships. A series of wooden booms floating on the surface of the water can also be used to protect the coastline. But the sea around the Prestige was too rough for the former, and much of the coast too exposed for booms to work, so there was little that could be done except watch the oil wash up onto the beaches.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;When oil arrives onshore, the question becomes how best to save affected plants and animals, while minimizing damage to the surrounding ecosystem, without running up a huge bill. In large spills, leaving nature to do the job is a bad idea. Even the oiliest shore will return to normal, but without human intervention this can take many years. In the case of the Prestige, both the volume of oil spilt and the wildlife, fishing and tourist value of the Galician coast demanded action by specialists.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;To decide what to do, specialists combined their own professional experience with local knowledge in an assessment process known as 'net environmental benefit analysis'. Factors taken into account include possible environmental destruction, such as damage to an oiled beach which is home to a breeding colony of seals or seabirds. Less immediate socio-economic repercussions also come into play: local people may rely on shellfish beds, for example, or an affected beach could be a tourist destination. And such practical realities as the cost incurred by a particular clean-up option and how easy it will be to implement are also assessed.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;Every intensive clean-up option has its drawbacks. When oil from the Exxon Valdez polluted the Alaskan shoreline in 1989, hot water applied under high pressure was used to scrub the beaches. But the parts of the shoreline that got this treatment recovered more slowly than those that did not. In Spain, this technique has so far been used only on man-made structures such as harbour walls.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;Other methods have been even more aggressive than this. When the Torrey Canyon ran aground off the south coast of England in March 1967, oiled beaches were treated with 10,000 tonnes of chemical sprays. These turned out to be more toxic than the oil: many seashore invertebrates died, and the nutrients in the dispersants caused an explosion of seaweed growth.</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;In Galicia, local people wanted heavy machinery to come in and remove large quantities of oil quickly. But this has its own environmental cost. There were no tracks to the worst-affected beaches and it was feared that building them would harm the surrounding landscape. But in one of the areas affected, oil on the surface of the beaches was likely to be washed into the pipe that supplied water to a large fish farm. In the end, the desire to safeguard the farm tipped the balance in favour of building tracks for bulldozers and earthmovers, which scooped up the oil from the beach. Such equipment was not used in all areas affected by the Prestige spill, however. Salt-marshes and estuaries are such delicate terrain that almost any activity does more damage than the oil.</p></div><div class=\"passage-section\" id=\"para-H\"><p><strong>H</strong>&nbsp;&nbsp;After the Amoco Cadiz disaster in 1978, when nearly a quarter of a million tonnes of oil were spilt off the coast of north-western France, heavy equipment was sent in to some polluted salt-marshes, where it scraped up the top half-metre of sediment. Twelve years later, these areas had still not recovered, whereas the oiled marshes that went uncleaned seemed in good shape.</p></div><div class=\"passage-section\" id=\"para-I\"><p><strong>I</strong>&nbsp;&nbsp;After a short period of time, the Prestige spill moved from the emergency phase—high profile, high pressure—to a long-term painstaking project. Cleaning the beaches, for example, was a huge task. At Carnota, one of the most heavily affected areas of Galicia, dozens of volunteers and soldiers worked their way along six kilometres of sand on hands and knees, scraping up the small lumps of solidified oil. At other beaches nearby, people sifted the sand and combed seaside plants by hand to remove the oil and stop it becoming buried.</p></div><div class=\"passage-section\" id=\"para-J\"><p><strong>J</strong>&nbsp;&nbsp;Once workers there had done all they could, stubborn patches still remained on rocks and in crevices. A possibility was to move oily rocks down the beach into the surf since this accelerates the natural cleaning process, as can 'flushing'—i.e. pumping seawater over the shore and sifting the oil out of the run-off. But as the coastline became cleaner, the clean-up started to cost more for progressively less reward and more environmental damage. The Galicians were then faced with perhaps their most difficult decision: when to stop. As with most such operations, this decision is usually taken by local politicians rather than by environmentalists.</p></div>",
+        "groups": [
+          {
+            "id": "p3-g1",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 27–31</h3><p>Do the following statements agree with the claims of the writer in Reading Passage 3?</p><p>Write <strong>YES</strong> if the statement agrees with the claims of the writer, <strong>NO</strong> if the statement contradicts the claims of the writer, or <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Each oil tanker accident adds to our knowledge of how to deal with oil spills."
+              },
+              {
+                "number": 28,
+                "textHtml": "Attempts to clean up oil spills have occasionally done more harm than the oil itself."
+              },
+              {
+                "number": 29,
+                "textHtml": "The Prestige disaster caused more damage than any previous oil spill in the region."
+              },
+              {
+                "number": 30,
+                "textHtml": "It is best to let nature clean up large oil spills without any human intervention."
+              },
+              {
+                "number": 31,
+                "textHtml": "Most oil spills are caused by poor maintenance of tankers."
+              }
+            ]
+          },
+          {
+            "id": "p3-g2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 32–36</h3><p>Complete the summary below.</p><p>Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Deciding how to respond to an oil spill</div><p>When specialists have to decide how to react to an oil spill, they use a process called 'net environmental benefit analysis'. In this process, they combine their professional experience with {{32}}. They consider the possible environmental destruction, as well as less immediate {{33}} effects on the local community. Practical issues, including the {{34}} of each option, are assessed too.</p><p>Every intensive clean-up method has disadvantages. Following the Exxon Valdez spill, {{35}} under high pressure was used on the beaches, but this slowed their recovery. After the Torrey Canyon ran aground, the beaches were treated with {{36}} which proved to be more toxic than the oil itself.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "p3-g3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 37–40</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "Why did the authorities decide to build tracks for heavy machinery in one part of Galicia?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Local residents demanded that the oil be removed quickly."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They wanted to protect the water supply to a fish farm."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The beaches there were too exposed for other methods."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "It was the cheapest available way to remove the oil."
+                  }
+                ]
+              },
+              {
+                "number": 38,
+                "textHtml": "What did the Amoco Cadiz disaster demonstrate about salt-marshes?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Leaving them untouched can be better than cleaning them."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They recover from oil pollution within a few years."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Heavy machinery is the most effective way to clean them."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They are less sensitive to oil than other environments."
+                  }
+                ]
+              },
+              {
+                "number": 39,
+                "textHtml": "How was the oil mainly removed from the beaches at Carnota?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "by pumping seawater over the shore"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "by hand"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "using bulldozers and earthmovers"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "by moving oily rocks into the surf"
+                  }
+                ]
+              },
+              {
+                "number": 40,
+                "textHtml": "According to the writer, who usually decides when to stop a clean-up operation?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "environmental specialists"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "local politicians"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "the owners of the tankers"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the central government"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Early Spanish chroniclers who misused the Indian word batata (sweet potato) as the",
+          "anchor": "para-B"
+        }
+      },
+      "2": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "in Peru in 1532 in search of gold and noted Inca miners",
+          "anchor": "para-C"
+        }
+      },
+      "3": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "chuño. At the time, the Spaniards failed to realize that the potato represented a far more important",
+          "anchor": "para-C"
+        }
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "an exotic novelty. Even peasants refused to eat a plant that produced ugly, misshapen tubers and that had come",
+          "anchor": "para-D"
+        }
+      },
+      "5": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "become a staple until, during the food shortages associated with the Revolutionary Wars, the English government began",
+          "anchor": "para-E"
+        }
+      },
+      "6": {
+        "accepted": [
+          "flower"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "royal seal of approval: Louis XVI began to sport a potato flower in his buttonhole, and",
+          "anchor": "para-F"
+        }
+      },
+      "7": {
+        "accepted": [
+          "prejudice"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "faced the challenge of overcoming the people's prejudice against the plant. When he issued a",
+          "anchor": "para-G"
+        }
+      },
+      "8": {
+        "accepted": [
+          "reverse"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "planting potatoes, Frederick used a bit of reverse psychology: he planted a royal",
+          "anchor": "para-G"
+        }
+      },
+      "9": {
+        "accepted": [
+          "meat"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "Wales. Prior to 1800, the English diet had consisted primarily of meat, supplemented by bread, butter,",
+          "anchor": "para-H"
+        }
+      },
+      "10": {
+        "accepted": [
+          "crops"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "to prepare food. High-yielding, easily prepared potato crops were the obvious solution to England's food problems.",
+          "anchor": "para-H"
+        }
+      },
+      "11": {
+        "accepted": [
+          "soil"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "Incas. The potato was well suited to the Irish soil and climate, and its high yield",
+          "anchor": "para-I"
+        }
+      },
+      "12": {
+        "accepted": [
+          "cultivation"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "reform of agricultural techniques beyond the widespread cultivation of the potato. Though Irish landholding practices",
+          "anchor": "para-J"
+        }
+      },
+      "13": {
+        "accepted": [
+          "investment"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "food than they needed with scarcely any investment or hard labour. Even children could easily",
+          "anchor": "para-J"
+        }
+      },
+      "14": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "a consumerist, throwaway society. Norway, however, appears to be burning its way through a sizeable chunk",
+          "anchor": "para-A"
+        }
+      },
+      "15": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "Those who support burning waste say that a new generation",
+          "anchor": "para-B"
+        }
+      },
+      "16": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "hasn't been universally welcomed. Lars Haltbrekken, chairman of Friends of the Earth in Norway, is concerned that incineration",
+          "anchor": "para-C"
+        }
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "the 'cradle-to-grave' life cycle; now, the talk is of 'cradle to cradle' and",
+          "anchor": "para-D"
+        }
+      },
+      "18": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "the retailers don't get, so it's not always clear-cut. The implications of zero",
+          "anchor": "para-E"
+        }
+      },
+      "19": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "Recent history and changes in trends in recycling suggest that we should",
+          "anchor": "para-F"
+        }
+      },
+      "20": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "and emissions-control technology, and the output from these facilities is now minuscule.' Above all, however, supporters",
+          "anchor": "para-B"
+        }
+      },
+      "21": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "Programme in Denmark. 'The more you develop, the more you produce, buy and throw away.'",
+          "anchor": "para-C"
+        }
+      },
+      "22": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "Simon points out, however, without the right mechanisms in place, 'nothing guarantees that this",
+          "anchor": "para-D"
+        }
+      },
+      "23": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "place—if you do that, then that's money the retailers don't get, so it's not always",
+          "anchor": "para-E"
+        }
+      },
+      "24": {
+        "accepted": [
+          "electronic"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "said there would be so much electronic waste. But recycling has grown,",
+          "anchor": "para-F"
+        }
+      },
+      "25": {
+        "accepted": [
+          "business"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "need to look at whether it's business that drives consumers or the other way",
+          "anchor": "para-F"
+        }
+      },
+      "26": {
+        "accepted": [
+          "government"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "the other way around. You need government to play a leadership role, whereas countries such as",
+          "anchor": "para-F"
+        }
+      },
+      "27": {
+        "accepted": [
+          "YES"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "destruction and financial loss, it also improves our understanding of how to deal with oil spills. This knowledge is hard-won,",
+          "anchor": "para-A"
+        }
+      },
+      "28": {
+        "accepted": [
+          "YES"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "dealing with oil spills. Aggressive clean-ups have sometimes caused more damage than the oil. But such difficulties apart,",
+          "anchor": "para-A"
+        }
+      },
+      "29": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "of oil and seawater. The Prestige was only one incident in a long series",
+          "anchor": "para-A"
+        }
+      },
+      "30": {
+        "accepted": [
+          "NO"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "up a huge bill. In large spills, leaving nature to do the job is a bad idea. Even the oiliest shore",
+          "anchor": "para-C"
+        }
+      },
+      "31": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "a long series of accidents involving oil tankers. But while each new",
+          "anchor": "para-A"
+        }
+      },
+      "32": {
+        "accepted": [
+          "local knowledge"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "what to do, specialists combined their own professional experience with local knowledge in an assessment process",
+          "anchor": "para-D"
+        }
+      },
+      "33": {
+        "accepted": [
+          "socio-economic"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "of seals or seabirds. Less immediate socio-economic repercussions also come into play:",
+          "anchor": "para-D"
+        }
+      },
+      "34": {
+        "accepted": [
+          "cost"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "such practical realities as the cost incurred by a particular clean-up option and how easy it",
+          "anchor": "para-D"
+        }
+      },
+      "35": {
+        "accepted": [
+          "hot water"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "Alaskan shoreline in 1989, hot water applied under high pressure was used to scrub",
+          "anchor": "para-E"
+        }
+      },
+      "36": {
+        "accepted": [
+          "chemical sprays"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "beaches were treated with 10,000 tonnes of chemical sprays. These turned out to",
+          "anchor": "para-F"
+        }
+      },
+      "37": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "farm. In the end, the desire to safeguard the farm tipped the balance in favour of building",
+          "anchor": "para-G"
+        }
+      },
+      "38": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "still not recovered, whereas the oiled marshes that went uncleaned seemed in good shape.",
+          "anchor": "para-H"
+        }
+      },
+      "39": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "six kilometres of sand on hands and knees, scraping up the small lumps of solidified oil. At",
+          "anchor": "para-I"
+        }
+      },
+      "40": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "with most such operations, this decision is usually taken by local politicians rather than by environmentalists.",
+          "anchor": "para-J"
+        }
+      }
+    },
+    "sets": []
+  },
+  "slug": "reading-volume-10-test-4",
+  "isPremium": false,
+  "series": "REAL_EXAM",
+  "seriesNumber": 10,
+  "testNumber": 4
+}

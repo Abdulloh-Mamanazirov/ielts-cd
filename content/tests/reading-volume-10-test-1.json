@@ -1,0 +1,801 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 10, Test 1",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 1–13</strong>.</p>",
+        "passageHtml": "<h1>The Formation of Continents and the Evolution of Species</h1><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;The fact that there was once a Pangean supercontinent, a Panthalassa Ocean, and a Tethys Ocean, has profound implications for the evolution of multicellular life on Earth. These considerations were unknown to the scientists of the 19th century - making their scientific deductions even more remarkable. Quite independently of each other, Charles Darwin and his young contemporary Alfred Russel Wallace reached the conclusion that life had evolved by natural selection. Wallace later wrote in My Life of his own inspiration.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Why do some species die and some live? The answer was clearly that on the whole the best fit lived. From the effects of disease, the most-healthy escaped; from enemies the strongest, the swiftest or the most cunning; from famine the best hunters. Then, it suddenly flashed on me that this self-acting process would improve the race, because in every generation the inferior would inevitably be killed off and the superior would remain, that is, the fittest would survive.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;Both Darwin's and Wallace's ideas about natural selection had been influenced by the essays of Thomas Malthus in his Principles of Population. Their conclusions, however, had been the direct result of their personal observation of animals and plants in widely separated geographic locations: Darwin from his experiences during the voyage of the Beagle, and particularly during the ship's visit to the Galapagos Islands in the East Pacific in 1835; Wallace during his years of travel in the Amazon Basin and in the Indonesia-Australian Archipelago in the 1850s.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;Darwin had been documenting his ideas on natural selection for many years when he received a paper on this same subject from Wallace, who asked for Darwin's opinion and help in getting it published. In July 1858, Charles Lyell and J. D Hooker, close friends of Darwin, pressed Darwin to present his conclusions so that he would not lose priority to an unknown naturalist. Presiding over the hastily called but now historic meeting of the Linnean Society in London, Lyell and Hooker explained to the distinguished members how \"these two gentlemen\" (who were absent: Wallace was abroad, and Darwin chose not to attend), had \"independently and unknown to one another, conceived the same very ingenious theory\"</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;Both Darwin and Wallace had realized that the anomalous distribution of species in particular regions had profound evolutionary significance. Subsequently, Darwin spent the rest of his days in almost total seclusion thinking and writing mainly about the origin of species. In contrast, Wallace applied himself to the science of biogeography, the study of the pattern and distribution of species, and its significance, resulting in the publication of a massive two volume work the Geographical Distribution of Animals in 1876.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;Wallace was a gentle and modest man, but also persistent and quietly courageous. He spent years working in the most arduous possible climates and terrains, particularly in the Malay Archipelago, he made patient and detailed zoological observations and collected huge numbers of specimens for museums and collectors - which is how he made a living. One result of his work was the conclusion that there is a distinct faunal boundary, called \"Wallace's line,\" between an Asian realm of animals in Java, Borneo and the Philippines and an Australian realm in New Guinea and Australia. In essence this boundary posed a difficult question: How on Earth did plants and animals with a clear affinity to the Northern Hemisphere meet with their Southern Hemispheric counterparts along such a distinct Malaysian demarcation zone? Wallace was uncertain about demarcation on one particular island - Celebes, a curiously shaped place that is midway between the two groups. Initially he assigned its flora-fauna to the Australian side of the line, but later he transferred it to the Asian side. Today we know the reason for his dilemma. 200 MYA East and West Celebes were islands with their own natural history lying on opposite sides of the Tethys Ocean. They did not collide until about 15 MYA. The answer to the main question is that Wallace's Line categorizes Laurasia-derived flora-fauna (the Asian) and Gondwana-derived flora-fauna (the Australian), fauna that had evolved on opposing shores of the Tethys. The closure of the Tethys Ocean today is manifested by the ongoing collision of Australia/New Guinea with Indochina/Indonesia and the continuing closure of the Mediterranean Sea-a remnant of the Western Tethys Ocean.</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;In his ORIGIN OF CONTINENTS AND OCEANS, Wegener quoted at length from Wallace's Geographical Distribution of Animals. According to Wegener's reading, Wallace had identified three clear divisions of Australian animals, which supported his own theory of continental displacement. Wallace had shown that animals long established in southwestern Australia had an affinity with animals in South Africa, Madagascar, India, and Ceylon, but did not have an affinity with those in Asia. Wallace also showed that Australian marsupials and monotremes are clearly related to those in South America, the Moluccas, and various Pacific islands, and that none are found in neighboring Indonesia. From this and related data, Wegener concluded that the then broadly accepted \"landbridge\" theory could not account for this distribution of animals and that only his theory of continental drift could explain it.</p></div><div class=\"passage-section\" id=\"para-H\"><p><strong>H</strong>&nbsp;&nbsp;The theory that Wegener dismissed in preference to his own proposed that plants and animals had once migrated across now-submerged intercontinental landbridges. In 1885, one of Europe's leading geologists, Eduard Suess, theorized that as the rigid Earth cools, its upper crust shrinks and wrinkles like the withering skin of an aging apple. He suggested that the planet's seas and oceans now fill the wrinkles between once-contiguous plateaus.</p></div><div class=\"passage-section\" id=\"para-I\"><p><strong>I</strong>&nbsp;&nbsp;Today, we know that we live on a dynamic Earth with shifting, colliding and separating tectonic plates, not a \"withering skin\", and the main debate in the field of biogeography has shifted. The discussion now concerns \"dispersalism\" versus \"vicarianism\" unrestricted radiation of species on the one hand and the development of barriers to migration on the other. Dispersion is a short-term phenomenon-the daily or seasonal migration of species and their radiation to the limits of their natural environment on an extensive and continuous landmass. Vicarian evolution, however, depends upon the separation and isolation of a variety of species within the confines of natural barriers in the form of islands, lakes, or shallow seas-topographical features that take a long time to develop.</p></div>",
+        "groups": [
+          {
+            "id": "p1-g1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 1–5</h3><p>Look at the following statements (Questions 1–5) and the list of people below.</p><p>Match each statement with the correct person, <strong>A–E</strong>.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Suess"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Wallace"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Darwin and Wallace"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Wegener"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Lyell and Hooker"
+              }
+            ],
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Urged Darwin to publish his scientific findings"
+              },
+              {
+                "number": 2,
+                "textHtml": "Depicted physical features of earth's crust"
+              },
+              {
+                "number": 3,
+                "textHtml": "Believed in continental drift theory while rejecting another one"
+              },
+              {
+                "number": 4,
+                "textHtml": "Published works about wildlife distribution in different regions"
+              },
+              {
+                "number": 5,
+                "textHtml": "Evolution of species is based on selection by nature"
+              }
+            ]
+          },
+          {
+            "id": "p1-g2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 6–8</h3><p>Reading Passage 1 has nine paragraphs, <strong>A–I</strong>.</p><p>Which paragraph contains the following information?</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 6,
+                "textHtml": "The most adaptable would survive"
+              },
+              {
+                "number": 7,
+                "textHtml": "The boundary called Wallace's line is found between Asia and Australia"
+              },
+              {
+                "number": 8,
+                "textHtml": "Animal affinity exists between Australia and Africa"
+              }
+            ]
+          },
+          {
+            "id": "p1-g3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 9–13</h3><p>Complete the summary below.</p><p>Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><p>Wegener found that continental drift instead of \"land bridge\" theory in which vegetation and wildlife {{9}} intercontinentally, could explain strange species' distribution phenomenon. However, Eduard Suess compared the wrinkle of the crust to the {{10}} of an old apple. Now it is well known that we are living on the planet where there are {{11}} in constant mobile states instead of what Suess described. The debate in biogeography has switched to concerns between two terms: \"{{12}}\" and \"{{13}}\".</p></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 14–26</strong>.</p>",
+        "passageHtml": "<h1>Demystifying Yawn</h1><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;When a scientist began to study yawning in the 1980s, it was difficult to convince some of his research students of the merits of \"yawning science.\" Although it may appear quirky, his decision to study yawning was a logical extension to human beings of his research in developmental neuroscience, reported in such papers as \"Wing-flapping during Development and Evolution.\" As a neurobehavioral problem, there is not much difference between the wing-flapping of birds and the face and body flapping of human yawners.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Yawning is an ancient, primitive act. Humans do it even before they are born, opening wide in the womb. Some snakes unhinge their jaws to do it. One species of penguins yawns as part of mating. Only now are researchers beginning to understand why we yawn, when we yawn and why we yawn back. A professor of cognitive neuroscience at Drexel University in Philadelphia, Steven Platek, studies the act of contagious yawning, something done only by people and other primates.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;In his first experiment, he used a psychological test to rank people on their empathic feelings. He found that participants who did not score high on compassion did not yawn back. \"We literally had people saying, 'Why am I looking at people yawning?'\" Professor Platek said. \"It just had no effect.\"</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;For his second experiment, he put 10 students in a magnetic resonance imaging machine as they watched videotapes of people yawning. When the students watched the videos, the part of the brain which reacted was the part scientists believe controls empathy - the posterior cingulate, in the brain's middle rear. \"I don't know if it's necessarily that nice people yawn more, but I think it's a good indicator of a state of mind,\" said Professor Platek. \"It's also a good indicator if you're empathizing with me and paying attention.\"</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;His third experiment is studying yawning in those with brain disorders, such as autism and schizophrenia, in which victims have difficulty connecting emotionally with others. A psychology professor at the University of Maryland, Robert Provine, is one of the few other researchers into yawning. He found the basic yawn lasts about six seconds and they come in bouts with an interval of about 68 seconds. Men and women yawn or half-yawn equally often, but men are significantly less likely to cover their mouths which may indicate complex distinction in genders. \"A watched yawner never yawns,\" Professor Provine said. However, the physical root of yawning remains a mystery. Some researchers say it's coordinated within the hypothalamus of the brain, the area that also controls breathing.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;Yawning and stretching also share properties and may be performed together as parts of a global motor complex. But they do not always co-occur, people usually yawn when we stretch, but we don't always stretch when we yawn, especially before bedtime. Studies by G.H.A. Visser and H.F. Prechtl in the early 1980s, charting movement in the developing fetus using ultrasound, observed not just yawning but a link between yawning and stretching as early as the end of the first prenatal trimester.</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;The most extraordinary demonstration of the yawn-stretch linkage occurs in many people paralyzed on one side of their body because of brain damage caused by a stroke. The prominent British neurologist Sir Francis Walshe noted in 1923 that when these hemiplegics yawn, they are startled and mystified to observe that their otherwise paralyzed arm rises and flexes automatically in what neurologists term an \"associated response.\" Yawning apparently activates undamaged, unconsciously controlled connections between the brain and the cord motor system innervating the paralyzed limb. It is not known whether the associated response is a positive prognosis for recovery, nor whether yawning is therapeutic for reinnervation or prevention of muscular atrophy.</p></div><div class=\"passage-section\" id=\"para-H\"><p><strong>H</strong>&nbsp;&nbsp;Clinical neurology offers other surprises. Some patients with \"locked-in\" syndrome, who are almost totally deprived of the ability to move voluntarily, can yawn normally. The neural circuits for spontaneous yawning must exist in the brain stem near other respiratory and vasomotor centers, because yawning is performed by anencephalic individuals who possess only the medulla oblongata. The multiplicity of stimuli of contagious yawning, by contrast, implicates many higher brain regions.</p></div>",
+        "groups": [
+          {
+            "id": "p2-g1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 14–18</h3><p>Complete the summary below.</p><p>Choose <strong>NO MORE THAN THREE WORDS</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><ul class=\"notes-list\"><li>A psychology professor drew a conclusion that an average yawn lasts about 6 seconds followed by an {{14}} before another yawn.</li><li>It is almost at the same frequency that males and females yawn or half yawn, but behavior accompanied with yawning shows a {{15}} in genders.</li><li>Besides, a part of the brain involved in yawning may also be responsible for {{16}}.</li><li>Another study found that there is a link between a yawn and {{17}} during the first three months of pregnancy,</li><li>and yawning was also shown to set off an involuntary movement in people with {{18}}.</li></ul></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "p2-g2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 19–23</h3><p>Reading Passage 2 has eight paragraphs, <strong>A–H</strong>.</p><p>Which paragraph contains the following information?</p><p><strong>NB</strong> You may use any letter more than once.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              }
+            ],
+            "questions": [
+              {
+                "number": 19,
+                "textHtml": "The rate for yawning shows some regular pattern."
+              },
+              {
+                "number": 20,
+                "textHtml": "Yawning is an inherent ability that appears in both animals and humans."
+              },
+              {
+                "number": 21,
+                "textHtml": "Stretching and yawning doesn't always occur together."
+              },
+              {
+                "number": 22,
+                "textHtml": "Yawning may suggest people are empathetic and attentive."
+              },
+              {
+                "number": 23,
+                "textHtml": "Some superior areas in the brain may underline the infectious feature of yawning."
+              }
+            ]
+          },
+          {
+            "id": "p2-g3",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 24–26</h3><p>Do the following statements agree with the information given in Reading Passage 2?</p><p>Write <strong>TRUE</strong> if the statement agrees with the information, <strong>FALSE</strong> if the statement contradicts the information, or <strong>NOT GIVEN</strong> if there is no information on this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 24,
+                "textHtml": "Some participants in Platek's first experiment did not understand why they were asked to look at people yawning."
+              },
+              {
+                "number": 25,
+                "textHtml": "The results from the second experiment indicate the link between yawning and empathy."
+              },
+              {
+                "number": 26,
+                "textHtml": "Yawning shows a positive impact on the recovery from brain damage brought by a stroke."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 27–40</strong>.</p>",
+        "passageHtml": "<h1>Incorrect Terminology in Science</h1><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;Science plays an increasingly significant role in people's lives, making the faithful communication of scientific developments more important than ever. Yet such communication is fraught with challenges that can easily distort discussions, leading to unnecessary confusion and misunderstandings.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Some problems stem from the esoteric nature of current research and the associated difficulty of finding sufficiently faithful terminology. Abstraction and complexity are not signs that a given scientific direction is wrong, as some commentators have suggested, but are instead a tribute to the success of human ingenuity in meeting the increasingly complex challenges that nature presents. They can, however, make communication more difficult. But many of the biggest challenges for science reporting arise because in areas of evolving research, scientists themselves often only partly understand the full implications of any particular advance or development. Since that dynamic applies to most of the scientific developments that directly affect people's lives: global warming, cancer research, diet studies - learning how to overcome it is critical to spurring a more informed scientific debate among the broader public.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;Ambiguous word choices are the source of some misunderstandings. Scientists often employ colloquial terminology, which they then assign a specific meaning that is impossible to fathom without proper training. The term \"relativity,\" for example, is intrinsically misleading. Many interpret the theory to mean that everything is relative and there are no absolutes. Yet although the measurements any observer makes depend on his coordinates and reference frame, the physical phenomena he measures have an invariant description that transcends that observer's particular coordinates. Einstein's theory of relativity is really about finding an invariant description of physical phenomena. True, Einstein agreed with the idea that his theory would have been better named \"Invarianten theory.\" But the term \"relativity\" was already entrenched at the time for him to change.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;\"The uncertainty principle\" is another frequently abused term. It is sometimes interpreted as a limitation on observers and their ability to make measurements. But it is not about intrinsic limitations on any one particular measurement; it is about the inability to precisely measure particular pairs of quantities simultaneously. The first interpretation is perhaps more engaging from a philosophical or political perspective. It's just not what science is about.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;Even the word \"theory\" can be a problem. Unlike most people, who use the word to describe a passing conjecture that they often regard as suspect, physicists have very specific ideas in mind when they talk about theories. For physicists, theories entail a definite physical framework embodied in a set of fundamental assumptions about the world that lead to a specific set of equations and predictions - ones that are borne out by successful predictions. Theories aren't necessarily shown to be correct or complete immediately. Even Einstein took the better part of a decade to develop the correct version of his theory of general relativity. But eventually both the ideas and the measurements settle down and theories are either proven correct, abandoned or absorbed into other, more encompassing theories.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;\"Global warming\" is another example of problematic terminology. Climatologists predict more drastic fluctuations in temperature and rainfall - not necessarily that every place will be warmer. The name sometimes subverts the debate, since it lets people argue that their winter was worse, so how could there be global warming? Clearly \"global climate change\" would have been a better name. But not all problems stem solely from poor word choices. Some stem from the intrinsically complex nature of much of modern science. Science sometimes transcends this limitation: remarkably, chemists were able to detail the precise chemical processes involved in the destruction of the ozone layer, making the evidence that chlorofluorocarbon gases (Freon, for example) were destroying the ozone layer indisputably.</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;A better understanding of the mathematical significance of results and less insistence on a simple story would help to clarify many scientific discussions. For several months, Harvard was tortured by empty debates over the relative intrinsic scientific abilities of men and women. One of the more amusing aspects of the discussion was that those who believed in the differences and those who didn't used the same evidence about gender-specific special ability. How could that be? The answer is that the data shows no substantial effects. Social factors might account for these tiny differences, which in any case have an unclear connection to scientific ability. Not much of a headline when phrased that way, is it? Each type of science has its own source of complexity and potential for miscommunication. Yet there are steps we can take to improve public understanding in all cases. The first would be to inculcate greater understanding and acceptance of indirect scientific evidence. The information from an unmanned space mission is no less legitimate than the information from one in which people are on board.</p></div><div class=\"passage-section\" id=\"para-H\"><p><strong>H</strong>&nbsp;&nbsp;This doesn't mean never questioning an interpretation, but it also doesn't mean equating indirect evidence with blind belief, as people sometimes suggest. Second, we might need different standards for evaluating science with urgent policy implications than research with purely theoretical value. When scientists say they are not certain about their predictions, it doesn't necessarily mean they've found nothing substantial. It would be better if scientists were more open about the mathematical significance of their results and if the public didn't treat math as quite so scary. Statistics and errors, which tell us the uncertainty in a measurement, give us the tools to evaluate new developments fairly.</p></div><div class=\"passage-section\" id=\"para-I\"><p><strong>I</strong>&nbsp;&nbsp;But most importantly, people have to recognize that science can be complex. If we accept only simple stories, the description will necessarily be distorted. When advances are subtle or complicated, scientists should be willing to go the extra distance to give proper explanations and be patient about the truth. Even so, some difficulties are unavoidable. Most developments reflect work in progress, so the story is complex because no one yet knows the big picture.</p></div>",
+        "groups": [
+          {
+            "id": "p3-g1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–31</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Why is the faithful communication of science important?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Science plays an increasingly significant role in people's lives."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Science is fraught with challenges the public are interested in."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The nature of complexity in science communication leads to confusion."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Scientific inventions are more important than ever before."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "What is the reason for many of the biggest challenges in science reporting?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Phenomenon such as global warming, cancer research, diet studies are too complex"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Scientists themselves often only partly understand the Theory of Evolution"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Scientists do not totally comprehend the impact of certain scientific advancements"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Scientists themselves often partly understand the esoteric communication nature"
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "According to the 3rd paragraph, the reference to the term and example of \"theory of relativity\" is to demonstrate",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Theory of relativity is about an invariant physical phenomenon"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Scientific terms can sometimes cause misunderstandings"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The term \"relativity,\" is designed to be misleading public"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Everything is relative and there is no absolute existence"
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "Which one is a good example of an area where scientists used appropriate terminology",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The uncertainty principle"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Global warming"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The theory of relativity"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Freon's destructive process on Ozone"
+                  }
+                ]
+              },
+              {
+                "number": 31,
+                "textHtml": "What is a surprising finding of the Harvard debates in the passage?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "There are equal intrinsic scientific abilities of men and women."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Both sides used the same data in support of their argument."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The scientific data usually shows no substantial figures to support a debated idea."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Social factors might have a clear connection to scientific ability."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p3-g2",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 32–35</h3><p>Do the following statements agree with the claims of the writer in Reading Passage 3?</p><p>Write <strong>YES</strong> if the statement agrees with the claims of the writer, <strong>NO</strong> if the statement contradicts the claims of the writer, or <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 32,
+                "textHtml": "\"Global warming\" scientifically refers to greater fluctuations in temperature and rainfall rather than a universal temperature rise."
+              },
+              {
+                "number": 33,
+                "textHtml": "More media coverage of \"global warming\" would help the public to recognize the phenomenon."
+              },
+              {
+                "number": 34,
+                "textHtml": "Harvard debates should focus more on female scientists than male scientists."
+              },
+              {
+                "number": 35,
+                "textHtml": "Indirect scientific evidence is always less reliable than direct scientific evidence."
+              }
+            ]
+          },
+          {
+            "id": "p3-g3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 36–40</h3><p>Complete the summary below.</p><p>Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><p>Science Communication is fraught with challenges that can easily distort discussions, leading to unnecessary confusion and misunderstandings. Firstly, ambiguous {{36}} are the source of some misunderstandings. Common people without proper training do not understand clearly or deeply a specific scientific meaning via the {{37}} that scientists often employ. For example, uncertainty is not about {{38}} limitations on any particular {{39}}. What's more, even the word \"theory\" can be a problem. Theories aren't necessarily shown to be correct or complete immediately since scientists often evolved better versions of specific theories, a good example can be the theory of {{40}}. Thus, most importantly people have to recognize that science can be complex.</p></div>",
+            "maxWords": 2
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "close friends of Darwin, pressed Darwin to present his conclusions so that he would",
+          "anchor": "para-D"
+        }
+      },
+      "2": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "the rigid Earth cools, its upper crust shrinks and wrinkles like the withering skin",
+          "anchor": "para-H"
+        }
+      },
+      "3": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "of animals and that only his theory of continental drift could explain it.",
+          "anchor": "para-G"
+        }
+      },
+      "4": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "significance, resulting in the publication of a massive two volume work the Geographical Distribution of",
+          "anchor": "para-E"
+        }
+      },
+      "5": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "contemporary Alfred Russel Wallace reached the conclusion that life had evolved by natural selection. Wallace later wrote in",
+          "anchor": "para-A"
+        }
+      },
+      "6": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "would remain, that is, the fittest would survive.",
+          "anchor": "para-B"
+        }
+      },
+      "7": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "conclusion that there is a distinct faunal boundary, called \"Wallace's line,\" between",
+          "anchor": "para-F"
+        }
+      },
+      "8": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "established in southwestern Australia had an affinity with animals in South Africa, Madagascar, India, and Ceylon,",
+          "anchor": "para-G"
+        }
+      },
+      "9": {
+        "accepted": [
+          "migrated"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "that plants and animals had once migrated across now-submerged intercontinental landbridges. In 1885, one of",
+          "anchor": "para-H"
+        }
+      },
+      "10": {
+        "accepted": [
+          "withering skin"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "shrinks and wrinkles like the withering skin of an aging apple. He suggested that the",
+          "anchor": "para-H"
+        }
+      },
+      "11": {
+        "accepted": [
+          "tectonic plates"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "with shifting, colliding and separating tectonic plates, not a \"withering skin\",",
+          "anchor": "para-I"
+        }
+      },
+      "12": {
+        "accepted": [
+          "dispersalism"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "The discussion now concerns \"dispersalism\" versus \"vicarianism\" unrestricted radiation",
+          "anchor": "para-I"
+        }
+      },
+      "13": {
+        "accepted": [
+          "vicarianism"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "now concerns \"dispersalism\" versus \"vicarianism\" unrestricted radiation of species",
+          "anchor": "para-I"
+        }
+      },
+      "14": {
+        "accepted": [
+          "interval"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "they come in bouts with an interval of about 68 seconds. Men and women yawn",
+          "anchor": "para-E"
+        }
+      },
+      "15": {
+        "accepted": [
+          "distinction",
+          "complex distinction"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "mouths which may indicate complex distinction in genders. \"A watched yawner never",
+          "anchor": "para-E"
+        }
+      },
+      "16": {
+        "accepted": [
+          "breathing"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "the brain, the area that also controls breathing.",
+          "anchor": "para-E"
+        }
+      },
+      "17": {
+        "accepted": [
+          "stretching"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "not just yawning but a link between yawning and stretching as early as the",
+          "anchor": "para-F"
+        }
+      },
+      "18": {
+        "accepted": [
+          "brain damage"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "side of their body because of brain damage caused by a stroke. The prominent British neurologist",
+          "anchor": "para-G"
+        }
+      },
+      "19": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "about six seconds and they come in bouts with an interval of",
+          "anchor": "para-E"
+        }
+      },
+      "20": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "Yawning is an ancient, primitive act. Humans do it even",
+          "anchor": "para-B"
+        }
+      },
+      "21": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "global motor complex. But they do not always co-occur, people usually yawn when",
+          "anchor": "para-F"
+        }
+      },
+      "22": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "good indicator if you're empathizing with me and paying attention.\"",
+          "anchor": "para-D"
+        }
+      },
+      "23": {
+        "accepted": [
+          "H"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "contagious yawning, by contrast, implicates many higher brain regions.",
+          "anchor": "para-H"
+        }
+      },
+      "24": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "literally had people saying, 'Why am I looking at people yawning?'\" Professor Platek said. \"It",
+          "anchor": "para-C"
+        }
+      },
+      "25": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "brain which reacted was the part scientists believe controls empathy - the posterior cingulate,",
+          "anchor": "para-D"
+        }
+      },
+      "26": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "innervating the paralyzed limb. It is not known whether the associated response is a positive prognosis for recovery, nor whether",
+          "anchor": "para-G"
+        }
+      },
+      "27": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "role in people's lives, making the faithful communication of scientific developments more important than ever. Yet such communication is",
+          "anchor": "para-A"
+        }
+      },
+      "28": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "areas of evolving research, scientists themselves often only partly understand the full implications of any particular advance",
+          "anchor": "para-B"
+        }
+      },
+      "29": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "term \"relativity,\" for example, is intrinsically misleading. Many interpret the theory",
+          "anchor": "para-C"
+        }
+      },
+      "30": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "transcends this limitation: remarkably, chemists were able to detail the precise chemical processes involved in the destruction",
+          "anchor": "para-F"
+        }
+      },
+      "31": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "and those who didn't used the same evidence about gender-specific special ability. How could that be?",
+          "anchor": "para-G"
+        }
+      },
+      "32": {
+        "accepted": [
+          "YES"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "temperature and rainfall - not necessarily that every place will be warmer. The name sometimes subverts",
+          "anchor": "para-F"
+        }
+      },
+      "33": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "place will be warmer. The name sometimes subverts the debate, since it lets people",
+          "anchor": "para-F"
+        }
+      },
+      "34": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "several months, Harvard was tortured by empty debates over the relative intrinsic",
+          "anchor": "para-G"
+        }
+      },
+      "35": {
+        "accepted": [
+          "NO"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "an unmanned space mission is no less legitimate than the information from one",
+          "anchor": "para-G"
+        }
+      },
+      "36": {
+        "accepted": [
+          "word choices"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "Ambiguous word choices are the source of",
+          "anchor": "para-C"
+        }
+      },
+      "37": {
+        "accepted": [
+          "colloquial terminology"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "misunderstandings. Scientists often employ colloquial terminology, which they then assign",
+          "anchor": "para-C"
+        }
+      },
+      "38": {
+        "accepted": [
+          "intrinsic"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "to make measurements. But it is not about intrinsic limitations on any one particular",
+          "anchor": "para-D"
+        }
+      },
+      "39": {
+        "accepted": [
+          "measurement"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "not about intrinsic limitations on any one particular measurement; it is about the",
+          "anchor": "para-D"
+        }
+      },
+      "40": {
+        "accepted": [
+          "general relativity",
+          "relativity"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "the correct version of his theory of general relativity. But eventually both the",
+          "anchor": "para-E"
+        }
+      }
+    },
+    "sets": []
+  },
+  "slug": "reading-volume-10-test-1",
+  "isPremium": false,
+  "series": "REAL_EXAM",
+  "seriesNumber": 10,
+  "testNumber": 1
+}

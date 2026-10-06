@@ -1,0 +1,782 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 10, Test 6",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 1–13</strong>.</p>",
+        "passageHtml": "<h1>Antonio Stradivari – Violin Maker Supreme</h1><p id=\"para-1\">From the 1670s onwards, the violin maker Antonio Stradivari (1644-1737) successfully applied his inspired vision and enormous attention to detail to the artistic and commercial challenges of running an international high-art workshop from his base of operations in Cremona, Italy. The challenges of responding to the demands of the musical elite in Europe at the time would have been substantial, with all of the associated problems of transportation, communication, currency exchange, acquiring materials and sustaining a productive workshop at a high technical level.</p><p id=\"para-2\">But Stradivari was clearly capable of meeting these demands and his violins became the dominant force in string-instrument building in Europe from 1700 to his death in 1737. Somewhat lower production levels from the Stradivari workshop after 1727 left a gap in Cremona that was filled in the main by the Italian violin maker Bartolomeo Giuseppe Guarneri (1698-1744). Nonetheless, in most years, both in terms of quantity and the quality of material and finished product, the output from the Stradivari workshop exceeded that of all the other instrument makers in Cremona combined.</p><p id=\"para-3\">Production from the Stradivari workshop began to accelerate toward a historical high point after 1700. Between 1709 and 1717 or so, the workshop mainly produced instruments based on Stradivari's most celebrated models. Exceptional levels of craftsmanship were combined with an extraordinary consistency of production. The year 1715, when the Lipinski model of Stradivari was built, is considered by many to be the height of classical stringed instrument making. Between 1714 and 1716, the workshop was producing an astonishing 16 instruments or more annually, using the finest materials available anywhere and designed along the boldest patterns ever conceived of for stringed instruments. The instruments represented a fusion of a bold idea with unprecedented focus on materials and finishes.</p><p id=\"para-4\">The origins of the Stradivari approach to production are not always readily apparent: that Stradivari would have encountered the earlier violin forms of the Amati and Rugeri families in Cremona is to be expected, and the influence of traditional Cremonese methods is in evidence even in his earliest works. That Stradivari may have encountered other instruments, and how they may have influenced future designs, is largely a matter of speculation.</p><p id=\"para-5\">Whether by direct influence or his own inventiveness, in the 1690s Stradivari experimented with improvements to the forms with which he began his career. In particular, he began experimenting with a longer form than that of contemporary makers in Cremona. This may have been informed by the larger instruments produced by instrument makers from the Brescian region of Italy, such as Giovanni Paolo Maggini (c.1580-c.1630), which were already considered antiques in Stradivari's day. Functionally, Stradivari's so-called Long Pattern instruments from this period recall some of the deeper sound produced by the Brescian models.</p><p id=\"para-6\">No historical record indicating Stradivari's awareness of older forms has come to light, so we can only guess at what may have directly influenced the development of his designs. Whatever the influences were, he discarded the Long Pattern model in 1699, but a decade later returned to forms of larger dimensions.</p><p id=\"para-7\">The larger violins that began to appear around 1709 are of similar length to the Long Pattern instruments but were generally broader throughout, creating an unprecedented amount of airspace within the violin. The arching on the fronts and backs of these violins produced some of the greatest violins ever created.</p><p id=\"para-8\">Stradivari was substantially ahead of his time with his creations. The large performance venues that are the norm today were unheard of in the 1700s, and the power and brilliance of his mature instruments explain the presence of the solo violin in a modern, 3,000-seat concert hall. One can only wonder what course music performance might have taken had his violins never been invented. In the decades and centuries after they were built, as concerts took place in increasingly large public venues, Stradivari's violins, like the Lipinski and its close cousins, the Hochstein and the Cremonese, helped make music available to a broader class of citizens beyond just the aristocracy.</p><p id=\"para-9\">Stradivari instruments have proven demonstrably superior to all attempts at replication: although it has been some 300 years since their creation, Stradivari instruments remain in use in modern concert halls as the choice of contemporary artists, to the benefit of audiences. For this reason, Stradivari instruments are unique among art objects and there is no craftsman more worthy of the unchallenged reputation that Antonio Stradivari enjoys.</p>",
+        "groups": [
+          {
+            "id": "p1-g1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–7</h3><p>Do the following statements agree with the information given in Reading Passage 1?</p><p>Write <strong>TRUE</strong> if the statement agrees with the information, <strong>FALSE</strong> if the statement contradicts the information, or <strong>NOT GIVEN</strong> if there is no information on this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Stradivari was a good businessman as well as a craftsman."
+              },
+              {
+                "number": 2,
+                "textHtml": "The majority of the musical elite wanted the same model of violin."
+              },
+              {
+                "number": 3,
+                "textHtml": "Stradivari produced fewer violins between 1727 and his death in 1737."
+              },
+              {
+                "number": 4,
+                "textHtml": "Bartolomeo Giuseppe Guarneri attempted to use Stradivari's ideas."
+              },
+              {
+                "number": 5,
+                "textHtml": "Other violin companies in Cremona consistently produced violins in greater quantity than the Stradivari workshop."
+              },
+              {
+                "number": 6,
+                "textHtml": "Between 1709 and 1717, the Stradivari workshop focused on a few very famous designs."
+              },
+              {
+                "number": 7,
+                "textHtml": "It's likely that Stradivari came across the violins made by the Amati and Rugeri families."
+              }
+            ]
+          },
+          {
+            "id": "p1-g2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 8–13</h3><p>Complete the notes below.</p><p>Choose <strong>ONE WORD AND/OR A NUMBER</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Italian Violin Makers</div><p class=\"sub-head\">Influences and experiments</p><ul class=\"notes-list\"><li>certain influences in the 1690s led to Stradivari making {{8}} designs to his initial violins.</li><li>large violins from Brescia were thought to be {{9}}</li><li>the sound produced by the Brescian violins was {{10}} than that of other violins</li><li>Stradivari stopped making Long Pattern instruments sometime during {{11}}</li><li>the large violins produced after 1709 had more airspace than ever before</li></ul><p class=\"sub-head\">Ahead of his time</p><ul class=\"notes-list\"><li>Stradivari made {{12}} violin performances in large concert halls possible</li><li>Stradivari's work means that audiences today are not limited to the aristocracy.</li><li>no other craftsman has managed to equal the {{13}} that Stradivari has gained.</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 14–26</strong>.</p>",
+        "passageHtml": "<h1>Antarctic Architecture: Halley VI</h1><p class=\"passage-intro\"><em>Inspired by science fiction, the Halley VI Research Station has a lot to teach about how architecture can impact psychology</em></p><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;One morning in 2004, Hugh Broughton was listening to the radio when two voices caused him to pay attention. One of them he recognised through his work as an architect. It was the President of the Royal Institute of British Architects, George Ferguson. The other was less familiar: the director of the British Antarctic Survey, Chris Rapley. The two were announcing a competition to design a new research station in Antarctica. It was a job, they explained, that presented an unusual set of challenges. The site of the new structure was on floating ice 50 kilometres from the Antarctic mainland. Previous stations built in the vicinity had recorded temperatures as low as -50 degrees Celsius and winds of up to 160 kilometres an hour. Only one had escaped the fate of being completely engulfed by snow and abandoned. But it too was now in jeopardy. Ferguson and Rapley listed a number of criteria that they'd be looking for: a background in building in remote locations, knowledge of extreme climates, and an understanding of complex logistics. Broughton ticked zero of those boxes, but that didn't prevent him from entering the competition – and winning it.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;The structure that Broughton designed, which was completed in 2012, is called Halley VI. It's made of eight conjoined pods, raised above the snow by hydraulic legs at the feet of which is a set of massive skis, allowing the entire station to be moved by bulldozers. It doesn't surprise Broughton that people often use film references to describe his creation. He openly admits that science fiction from the 1960s was a big influence. Of course, a few of Broughton's ideas had to be tempered when he learned more about the challenges associated with building near the South Pole. He realised that, in a year, only the 12 weeks of summer were suitable for construction work, meaning most of the base had to be prefabricated in South Africa, transported by ship and then built over a few summer seasons. No single element could weigh more than 9 tonnes, lest it fall through the ice during transportation. There was also the matter of complying with the Antarctic Treaty, which governs all activity on the icy continent. The rule outlawing the introduction of any non-indigenous plant life, for example, meant that plans to plant salad vegetables in a garden in the station had to be abandoned.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;Still, Broughton managed to navigate these challenges and enlisted the help of a colour expert to devise a palette that was bright, but not overpowering. Lebanese cedar, which gives off a natural fragrance, was used around parts of the station to combat sensory deprivation. As well, Broughton worked with a team to develop special lighting that simulates the sun's rhythms; the aim was to mitigate seasonal affective disorder (winter depression) during the 105 days a year in which there is no daylight. Few appreciate the impact of these innovations more than Tom Welsh, Halley VI's winter station leader. 'During the winter, you can't really get out and do very much,' he says. 'So you really rely on getting your mental stimulus from inside the station.' The large central module is key for this function. It's where staff meet to watch movies, eat and play pool. Welsh's team has even constructed a small mini golf course there.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;Life at Halley VI isn't all fun and games. There's also the job of conducting research into topics ranging from space weather to ozone levels. Some of this work is done on a purpose-built observation deck atop the northernmost module. The station's triple-glazed windows and heating system normally keep the temperature fairly moderate, but they're not completely foolproof. In 2014, a power outage left the entire station exposed to record low temperatures for 19 hours. It was so cold that when someone threw a cup of boiling water in the air, it instantly turned into a cloud of ice crystals.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;Thankfully, the entire crisis was eventually brought under control, and no one was hurt. But it gave Halley VI's team a taste of what life was like for pioneering Antarctic explorers at the start of the 20th century. Back then, research stations provided the bare essentials of survival. They were usually dirty, stuffy places, where tempers flared and the divisions in ranks were strictly maintained. 'There were definitely a lot of people living in very close contact with each other,' says Pip Cheshire, a New Zealand architect who has helped restore a number of old Antarctic huts. 'There are a few cases of explorers actually succumbing to \"cabin fever\" in these harsh surroundings.'</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;It's difficult to imagine such bleakness on Halley VI. Here, every measure is taken to make its crew comfortable. Broughton is now seen as an expert in designing research bases, and was commissioned to design a new facility for the Spanish Antarctic programme. NASA also reached out for guidance on how to build stations for long-range space missions. 'They've asked questions like, \"How small were the sleeping quarters and what features did you introduce to give them individual personality?\"' he says. 'They're interested in how architecture can contribute to psychological wellbeing during long periods of isolation.'</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;For Sam Jacob, a London-based architect and writer who recently wrote a foreword for a book about Antarctic architecture, applying Broughton's ideas to space travel makes sense. 'Antarctica is the place on Earth that is the least like Earth, if you know what I mean – it's the place most like another planet,' he says. 'So, with that in mind, you can really imagine Halley sitting on a planet in outer space. It's something that's not only informed by science fiction, but could also give an idea of how we might actually colonise other places.'</p></div>",
+        "groups": [
+          {
+            "id": "p2-g1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–18</h3><p>Reading Passage 2 has seven sections, <strong>A–G</strong>.</p><p>Which section contains the following information?</p><p><strong>NB</strong> You may use any letter more than once.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "a description of living conditions in the early days of Antarctic exploration"
+              },
+              {
+                "number": 15,
+                "textHtml": "examples of consultants who helped Broughton provide pleasant surroundings on Halley VI"
+              },
+              {
+                "number": 16,
+                "textHtml": "a description of a time when technical failure led to an emergency situation"
+              },
+              {
+                "number": 17,
+                "textHtml": "information about Broughton's lack of experience before he designed Halley VI"
+              },
+              {
+                "number": 18,
+                "textHtml": "a reference to recreational activities on Halley VI"
+              }
+            ]
+          },
+          {
+            "id": "p2-g2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 19–22</h3><p>Complete the summary below.</p><p>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Construction of Halley VI</div><p>The station Broughton designed consists of {{19}} that are linked together. These are attached to skis and so can be transported using {{20}}. Broughton faced some unexpected challenges in the construction of Halley VI. One such challenge was that building work could only take place on the site in {{21}}. Pieces of the structure were made off-site and brought in by {{22}}. The weight of the components had to be limited so that they wouldn't go through the ice.</p></div>",
+            "maxWords": 1
+          },
+          {
+            "id": "p2-g3",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 23–26</h3><p>Look at the following statements (Questions 23–26) and the list of people below.</p><p>Match each statement with the correct person or people, <strong>A–D</strong>.</p><p><strong>NB</strong> You may use any letter more than once.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "George Ferguson and Chris Rapley"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Tom Welsh"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Pip Cheshire"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Sam Jacob"
+              }
+            ],
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "Living conditions on stations in Antarctica used to be crowded."
+              },
+              {
+                "number": 24,
+                "textHtml": "Antarctica is different from everywhere else in the world."
+              },
+              {
+                "number": 25,
+                "textHtml": "The project would require an architect who had done similar work before."
+              },
+              {
+                "number": 26,
+                "textHtml": "The station may provide a sense of how to build in difficult locations elsewhere."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 27–40</strong>.</p>",
+        "passageHtml": "<h1>Lawrence Johnston and Hidcote Garden</h1><p class=\"passage-intro\"><em>Robin Lane Fox writes about the American genius behind a remarkable garden in the English Cotswolds</em></p><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;Today, the National Trust in the UK administers hundreds of public gardens, while sixty years ago there was only one, Hidcote Manor near the English village of Chipping Campden. In 1949 Hidcote attracted a mere 600 visitors and took all of £30 during its first public season. Nowadays, Hidcote is famous worldwide as a masterpiece of design and planting, attracting 150,000 visitors and raising nearly £1 million from entrance tickets annually.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Hidcote Garden was the creation of an American in Britain, the shy Major Lawrence Johnston, who came to live on the site in 1907 with his widowed mother, Gertrude Winthrop. In some respects Winthrop feared her son's talents for expensive landscape gardening and never allowed him full access to the family's funds. Nonetheless, with her inspiration and guidance Johnston started his design in 1908 and brought it to a peak in the early 1930s when he was in his 60s. He may rightly be ranked at this time beside Harold Nicolson and Vita Sackville-West, creators of Sissinghurst, his garden's only surviving equal.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;In the last years of his life, Johnston placed faith in his head gardener Nancy Lindsay. Lindsay was undoubtedly a skilled plantswoman but she had many other talents as well, including one for taking offence, and she was ill-suited to dealing with her impassioned views. When the National Trust subsequently acquired the garden from Johnston, none of his crucial garden diaries could be found, and some speculated that Lindsay had burned them to hurt her employer. Whatever their actual fate, Trust gardener Graham Thomas was tasked with reviving Hidcote, and he had to manage without these crucial documents. Thomas knew that for the gardens to be a commercial success he needed to extend those areas that were of most interest to the general public, so he introduced new plants and a Mediterranean Bank where Johnston had had nothing of the sort, while retaining the existing superb structure of avenues and evergreen rooms. As a result, since 1949, the visiting public has innocently been admiring Thomas's flower plantings, not Johnston's own. When the important designer Russell Page had visited Hidcote in 1934 he had hailed the half-hardy plants in the summer house as one of the highlights. But Thomas later got rid of them and pulled the house down, fearing such relatively colourless exhibits would not capture the public's imagination.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;Then, in 2002, Johnston's old diaries and notebooks resurfaced. The present head gardener had started to give lectures about Hidcote's lost early designs, during which he appealed for memories from his audience. A few months later an envelope arrived. There was no letter inside, only Johnston's personal diaries from the 1920s and 30s. The sender may be unknown but the importance of these documents to Hidcote is certain, for they contain invaluable notes regarding the selection of plants and, even better still, detailed sketches by Johnston himself showing how the different parts of the garden are related and how those relationships evolve over the seasons. These documents are a rarity in other ways too, for they never dwell on the issues so typically addressed in diaries – relationships, loves and longings. These are far more interesting, for they represent a classic social history of an English country house during the inter-war years.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;On page after page Johnston describes the layout of the plants and gardens, interspersed, for example, with that day's guests. The famous novelist Edith Wharton is recorded as coming for lunch, beside a recipe for poison to kill garden weeds. It is this mix of glamour and the everyday that makes the diaries of such peculiar fascination. At their heart, though, these are useful documents containing, for example, lengthy lists of those who might one day be of service around the estate, including local stone masons and glaziers, or repairers of broken china from as far away as France.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;The discovery of the diaries has offered Hidcote a new direction for the years ahead. Inspired by them, an anonymous American has given the gardens £1.6 million. This is a remarkable chance, which the Trust has gladly seized upon to allow for crucial repair work on paths and the famous pool, together with the reconstruction of the old summer house. However, the real implications of the discoveries made from the diaries are more problematic, for now the Trust must take its collection of plants up one notch. We now possess information about the very plants that most appealed to Johnston in the garden's golden years. Today, these may not be easy to source, nor so appealing to contemporary tastes.</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;'But isn't it all so long ago?', a non-gardening academic recently asked me. On the contrary, Hidcote is still with us, a living legacy. It includes the greatest central vista in British gardening, the design I regard as the greatest in British art in the past century. It was the work of an American genius building an un-American garden of his own. I do not believe the fashionable guess nowadays that Johnston was informed by books on contemporary design by Britain's Thomas Mawson, an altogether less innovative mind. This is not least because there is so much in the garden to remind us of how Johnston had travelled widely in Europe, which Mawson had not. It is Johnston's own origins, the events of his life, and his individual design flair that contribute to making Hidcote so unique.</p></div>",
+        "groups": [
+          {
+            "id": "p3-g1",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 27–31</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "What does the writer say about Hidcote Garden in the first paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It is the most popular with overseas visitors."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Its popularity has increased over the years."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It has increased in size since first opening."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "It is the largest garden administered by the National Trust."
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "textHtml": "The writer refers to the Sissinghurst garden in order to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "illustrate Hidcote's significance."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "highlight two of Johnston's critics."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "identify one of Johnston's inspirations."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "compare Hidcote to a garden that no longer exists."
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "textHtml": "What does the writer suggest about Nancy Lindsay?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "She was injured in an accident."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "She was head gardener after Johnston's death."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She lacked the necessary gardening talent."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "She may have had a disagreement with Johnston."
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "textHtml": "According to the writer, which of the following is true about Graham Thomas?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The public does not realise the extent of his contribution to the garden."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He did not have a sufficiently commercial mind."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He revived the garden based on the diaries."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "The public disliked his part of the garden."
+                  }
+                ]
+              },
+              {
+                "number": 31,
+                "textHtml": "The writer refers to Russell Page in order to",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "evaluate Thomas's work."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "criticise one of Thomas's rivals."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "give an example of Thomas's approach."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "correct a common mistake about Thomas."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p3-g2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 32–36</h3><p>Complete the summary using the list of words, <strong>A–I</strong>, below.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><p>As a result of talks of the garden's {{32}}, Johnston's diaries were returned by an anonymous source. Most valuable of all for today's gardeners at Hidcote were {{33}} revealing how the garden changed in the course of the year. From the diaries, we learn little of Johnston's {{34}}. Instead, they contain a fascinating combination of the exotic, such as stories of well-known {{35}}, and the more practical, like how to contact {{36}} in a foreign country.</p></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "drawings"
+              },
+              {
+                "letter": "B",
+                "textHtml": "plantings"
+              },
+              {
+                "letter": "C",
+                "textHtml": "private life"
+              },
+              {
+                "letter": "D",
+                "textHtml": "original plans"
+              },
+              {
+                "letter": "E",
+                "textHtml": "opportunities"
+              },
+              {
+                "letter": "F",
+                "textHtml": "craftsmen"
+              },
+              {
+                "letter": "G",
+                "textHtml": "visitors"
+              },
+              {
+                "letter": "H",
+                "textHtml": "future"
+              },
+              {
+                "letter": "I",
+                "textHtml": "poems"
+              }
+            ]
+          },
+          {
+            "id": "p3-g3",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 37–40</h3><p>Do the following statements agree with the claims of the writer in Reading Passage 3?</p><p>Write <strong>YES</strong> if the statement agrees with the claims of the writer, <strong>NO</strong> if the statement contradicts the claims of the writer, or <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "Gardening may be considered a form of art."
+              },
+              {
+                "number": 38,
+                "textHtml": "The original design of Hidcote should be retained as closely as possible."
+              },
+              {
+                "number": 39,
+                "textHtml": "Mawson was the most significant influence on Johnston's work."
+              },
+              {
+                "number": 40,
+                "textHtml": "Hidcote reflects aspects of Johnston's life experience."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "maker Antonio Stradivari (1644-1737) successfully applied his inspired vision and enormous attention to detail to the artistic and",
+          "anchor": "para-1"
+        }
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Italy. The challenges of responding to the demands of the musical elite in Europe at the time would",
+          "anchor": "para-1"
+        }
+      },
+      "3": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "his death in 1737. Somewhat lower production levels from the Stradivari workshop after 1727 left a gap in",
+          "anchor": "para-2"
+        }
+      },
+      "4": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "in Cremona that was filled in the main by the Italian violin maker Bartolomeo Giuseppe Guarneri (1698-1744). Nonetheless, in most",
+          "anchor": "para-2"
+        }
+      },
+      "5": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "from the Stradivari workshop exceeded that of all the other instrument makers in Cremona combined.",
+          "anchor": "para-2"
+        }
+      },
+      "6": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "and 1717 or so, the workshop mainly produced instruments based on Stradivari's most celebrated models.",
+          "anchor": "para-3"
+        }
+      },
+      "7": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "readily apparent: that Stradivari would have encountered the earlier violin forms of the Amati and Rugeri families in Cremona is to",
+          "anchor": "para-4"
+        }
+      },
+      "8": {
+        "accepted": [
+          "longer"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "In particular, he began experimenting with a longer form than that of contemporary",
+          "anchor": "para-5"
+        }
+      },
+      "9": {
+        "accepted": [
+          "antiques"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Maggini (c.1580-c.1630), which were already considered antiques in Stradivari's day. Functionally,",
+          "anchor": "para-5"
+        }
+      },
+      "10": {
+        "accepted": [
+          "deeper"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "from this period recall some of the deeper sound produced by the Brescian models.",
+          "anchor": "para-5"
+        }
+      },
+      "11": {
+        "accepted": [
+          "1699"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Whatever the influences were, he discarded the Long Pattern model in 1699, but a decade later",
+          "anchor": "para-6"
+        }
+      },
+      "12": {
+        "accepted": [
+          "solo"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "his mature instruments explain the presence of the solo violin in a modern, 3,000-seat",
+          "anchor": "para-8"
+        }
+      },
+      "13": {
+        "accepted": [
+          "reputation"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "craftsman more worthy of the unchallenged reputation that Antonio Stradivari enjoys.",
+          "anchor": "para-9"
+        }
+      },
+      "14": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "of the 20th century. Back then, research stations provided the bare essentials of survival. They were usually dirty,",
+          "anchor": "para-E"
+        }
+      },
+      "15": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "navigate these challenges and enlisted the help of a colour expert to devise a palette",
+          "anchor": "para-C"
+        }
+      },
+      "16": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "completely foolproof. In 2014, a power outage left the entire station exposed to record low temperatures",
+          "anchor": "para-D"
+        }
+      },
+      "17": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "understanding of complex logistics. Broughton ticked zero of those boxes, but that didn't prevent",
+          "anchor": "para-A"
+        }
+      },
+      "18": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "this function. It's where staff meet to watch movies, eat and play pool. Welsh's team has",
+          "anchor": "para-C"
+        }
+      },
+      "19": {
+        "accepted": [
+          "pods"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "called Halley VI. It's made of eight conjoined pods, raised above the snow",
+          "anchor": "para-B"
+        }
+      },
+      "20": {
+        "accepted": [
+          "bulldozers"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "set of massive skis, allowing the entire station to be moved by bulldozers. It doesn't surprise Broughton",
+          "anchor": "para-B"
+        }
+      },
+      "21": {
+        "accepted": [
+          "summer"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "that, in a year, only the 12 weeks of summer were suitable for construction work, meaning",
+          "anchor": "para-B"
+        }
+      },
+      "22": {
+        "accepted": [
+          "ship"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "prefabricated in South Africa, transported by ship and then built over",
+          "anchor": "para-B"
+        }
+      },
+      "23": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "ranks were strictly maintained. 'There were definitely a lot of people living in very close contact with each other,' says",
+          "anchor": "para-E"
+        }
+      },
+      "24": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "space travel makes sense. 'Antarctica is the place on Earth that is the least like Earth, if you know what",
+          "anchor": "para-G"
+        }
+      },
+      "25": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "was now in jeopardy. Ferguson and Rapley listed a number of criteria that they'd be looking",
+          "anchor": "para-A"
+        }
+      },
+      "26": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "by science fiction, but could also give an idea of how we might actually colonise other places.'",
+          "anchor": "para-G"
+        }
+      },
+      "27": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "its first public season. Nowadays, Hidcote is famous worldwide as a masterpiece of",
+          "anchor": "para-A"
+        }
+      },
+      "28": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "of Sissinghurst, his garden's only surviving equal.",
+          "anchor": "para-B"
+        }
+      },
+      "29": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "could be found, and some speculated that Lindsay had burned them to hurt her employer. Whatever their actual",
+          "anchor": "para-C"
+        }
+      },
+      "30": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "a result, since 1949, the visiting public has innocently been admiring Thomas's flower plantings, not",
+          "anchor": "para-C"
+        }
+      },
+      "31": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "plantings, not Johnston's own. When the important designer Russell Page had visited Hidcote in 1934",
+          "anchor": "para-C"
+        }
+      },
+      "32": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "give lectures about Hidcote's lost early designs, during which he appealed",
+          "anchor": "para-D"
+        }
+      },
+      "33": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "and, even better still, detailed sketches by Johnston himself showing how the different",
+          "anchor": "para-D"
+        }
+      },
+      "34": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "other ways too, for they never dwell on the issues so typically addressed",
+          "anchor": "para-D"
+        }
+      },
+      "35": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "with that day's guests. The famous novelist Edith Wharton is recorded as coming for lunch, beside a recipe",
+          "anchor": "para-E"
+        }
+      },
+      "36": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "service around the estate, including local stone masons and glaziers, or repairers of broken",
+          "anchor": "para-E"
+        }
+      },
+      "37": {
+        "accepted": [
+          "YES"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "vista in British gardening, the design I regard as the greatest in British art in the past century.",
+          "anchor": "para-G"
+        }
+      },
+      "38": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "old summer house. However, the real implications of the discoveries made from the diaries are more problematic, for now the Trust",
+          "anchor": "para-F"
+        }
+      },
+      "39": {
+        "accepted": [
+          "NO"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "by Britain's Thomas Mawson, an altogether less innovative mind. This is not least",
+          "anchor": "para-G"
+        }
+      },
+      "40": {
+        "accepted": [
+          "YES"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "is Johnston's own origins, the events of his life, and his individual design",
+          "anchor": "para-G"
+        }
+      }
+    },
+    "sets": []
+  },
+  "slug": "reading-volume-10-test-6",
+  "isPremium": false,
+  "series": "REAL_EXAM",
+  "seriesNumber": 10,
+  "testNumber": 6
+}

@@ -1,0 +1,810 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 10, Test 2",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 1–13</strong>.</p>",
+        "passageHtml": "<h1>A Brief History of Glassmaking</h1><p id=\"para-1\">The first known glass objects can be traced back to the ancient Eastern empires, in about 3500 BC, building on existing knowledge about glazes, a new material, including sand and metal oxides, was developed. This material - glass - was initially used for small pieces of jewellery and inlays in small statues. Then it was used increasingly for vessels made to hold perfumes, oils, and fragrances. Transparency was not a characteristic of these works. Of greater interest to the early glass artisans was the ability to reproduce the colour-and-structures of highly valued semi-precious stones.</p><p id=\"para-2\">By about 450 BC, artisans in the glass workshops of the Persian Empire had learned to apply other techniques to glassmaking, probably producing vessels of considerable size on a turning wheel. Cutting techniques were also used for some of their complex decorations. Meanwhile, the Greeks still concentrated their energies on ceramics, and used glass simply for coloured inlays in sculptures - especially for magnificent monumental statues in public sites.</p><p id=\"para-3\">However, in the 1st and 2nd centuries BC, an industry of luxury glass items of various forms did emerge in former Greek areas strongly influenced by eastern cultures. This industry was in turn to have a profound effect on the glass art of the early-Roman Empire.</p><p id=\"para-4\">The rise of the Roman Empire (1st century BC) was accompanied by an increase in glass production in the Mediterranean region. Initially glass retained its status as a luxury material - indeed from the earliest years of its development it had been generally considered equal to precious stones and valuable metals. Coloured glass bowls, mosaic-glass plates, and glass vessels with gold décor were very popular with the wealthy. However, as the empire expanded, the steps from luxury to mass production, and from decorative objects to vessels for daily use, were gradually taken. The grounding for this was the Syrian glassmakers' discovery at the beginning of the 1st century BC that glass, when melted, can be made into shapes by blowing down a hollow metal tube. Thus it became possible for these craftsmen to produce a large variety of vessels for different uses - from simple bottles to more decorative and complex pieces. Starting with the leading Syrian glassworks, glass as a manufactured product spread across the entire area of Roman rule. With mass production, glass increasingly became a trade item - of no minor importance in convincing the so-called 'barbarians' from the border areas such as Germany of the superiority of Roman civilization.</p><p id=\"para-5\">The well-planned network of roads in the Roman Empire ensured that the new shapes of manufactured glass objects, and the newly developed techniques used to produce them, were quickly spread and adopted. Wherever suitable materials were found, the same or very similar glass forms, with hardly any variation in quality, were made. This is true of the Italian peninsula, including Rome itself, where numerous workshops producing high-quality goods existed, as well as of Spain and along the shores of the Black Sea. Because of their particularly well-suited sand and large deposits of soda ash, however, the main centres of glass production remained in Syria, Mesopotamia, and Lower Egypt.</p><p id=\"para-6\">Starting in the 1st century AD, small vessels and utensils in Roman households came to be made predominantly of wheel-blown glass, but also of glass. Beside the large number of everyday small vessels for storing fragrances and medicinal extracts, there were bowls in all shapes - some formed on the humming-wheel; some blown - plates, lamps, and much more. Even vessels technically very difficult to produce have been found, such as playful bottles in the shape of birds or other animals.</p><p id=\"para-7\">Whereas colour characterised the appearance of early Roman glass - in keeping with the Greek tradition - from the 2nd century AD, the transparency and also lightness of the material as well as its shiny surface, came to be valued more. Usually it was left in its natural state, typical are vessels having a blue-green coloration of varying intensity. There was, though, an increasing tendency to apply intricate details, and a few coloured accents can be observed. Different coloured glass was also used for simple handles, or for one or two threads or strings of extra glass wrapped around the rims to give emphasis to the vessels' mouths.</p><p id=\"para-8\">In the late Roman period (3rd and 4th centuries AD) the tendency towards complexity was also reflected in the growing popularity of cut and engraved work. Blowing and the use of moulds were developed in new directions, surpassing the designs of the early period of glass-blowing. Later vessels such as the so-called shellfish beaker represented a climax in glassmaking of the later Roman period: fish and similar objects were blown separately, formed with special tools, and melted onto the walls of simply-shaped vessels.</p><p id=\"para-9\">Roman glass art continued to be exemplary, and much of the world-famous Venetian glass art from the early 15th century was based on the revival of such methods as thread-glass decoration or mosaic glass. In fact, most methods of glassmaking and glass-decoration changed very little in the centuries following the Roman Empire. This is true of the development of European glass art, even up to the early 19th century. Until chemistry became an established scientific discipline in the second quarter of that century, glassmaking technology underwent only minor improvements. Even now, however, several of the techniques used in the Roman Empire remain a puzzle that modern glass technicians cannot resolve.</p>",
+        "groups": [
+          {
+            "id": "p1-g1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–6</h3><p>Do the following statements agree with the information given in Reading Passage 1?</p><p>Write <strong>TRUE</strong> if the statement agrees with the information, <strong>FALSE</strong> if the statement contradicts the information, or <strong>NOT GIVEN</strong> if there is no information on this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "By about 450 BC, glass had become as important as ceramics in Greece."
+              },
+              {
+                "number": 2,
+                "textHtml": "The glassmakers of the early Roman Empire made copies of luxury Greek items."
+              },
+              {
+                "number": 3,
+                "textHtml": "With the rise of the Roman Empire, glass objects became more common."
+              },
+              {
+                "number": 4,
+                "textHtml": "Syrian glassmakers created many different types of objects by blowing glass."
+              },
+              {
+                "number": 5,
+                "textHtml": "The Roman road network provided a safer way of transporting glass than previous methods."
+              },
+              {
+                "number": 6,
+                "textHtml": "Roman glass vessels produced in the 1st century AD were restricted to simple designs."
+              }
+            ]
+          },
+          {
+            "id": "p1-g2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 7–13</h3><p>Complete the notes below.</p><p>Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Developments in glassmaking</div><p class=\"sub-head\">2nd century AD</p><ul class=\"notes-list\"><li>greater emphasis on glass having a {{7}}, lightness and transparency</li><li>complex {{8}} were often added, as well as coloured accents</li><li>extra threads of glass used to highlight the {{9}} of vessels</li></ul><p class=\"sub-head\">Late Roman period</p><ul class=\"notes-list\"><li>high point of later Roman glassmaking can be seen in containers like the {{10}}</li><li>certain tools were used to create shapes, which were then attached to simple vessels</li></ul><p class=\"sub-head\">Later developments</p><ul class=\"notes-list\"><li>from the 15th century, Venetians used old techniques like {{11}} and thread-glass decoration</li><li>acceptance of {{12}} as a subject for serious study in the 19th century led to improvements in glassmaking technology.</li><li>some methods dating back to the Roman Empire continue to be a {{13}} for today's glassmakers</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 14–26</strong>.</p>",
+        "passageHtml": "<h1>The return of the black-footed ferret</h1><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;The black-footed ferret (Mustela nigripes) is a small carnivorous mammal, similar in length to a domestic cat, and is the only ferret species native to North America. For at least 100,000 years they lived in an area that extended almost uninterrupted from southern Canada to northern Mexico. But numbers fell dramatically throughout the 19th and 20th centuries, to such an extent that the black-footed ferret was declared 'possibly extinct'. Then, almost miraculously, it returned from the dead.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Within the genus Mustela, the ferret belongs to the subgenus Putorius, of which there are only three extant species: the European polecat; the Siberian polecat; and the black-footed ferret. The European polecat lives in open forests and meadows, and is thought to be the ancestor of the domestic ferret. The Siberian polecat looks more similar to the black-footed ferret, and leads a similar life on open grasslands and semidesert regions across Russia, China and Siberia.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;Ferrets probably evolved in Europe between three and four million years ago, and dispersed into North America across an ice-age land bridge at least two million years ago. They then advanced south-eastward to the Great Plains through ice-free passageways. The black-footed ferret's history in North America is inextricably linked to the creature which became almost its sole prey - the prairie dog. These small rodents are a type of ground squirrel which live in networks of underground tunnels, known as burrows. The black-footed ferret's short legs and long, slim body make it superbly adapted for life in the burrow systems of its prey.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;Spending virtually all their time underground, black-footed ferrets have always been elusive. Ferrets are never mentioned in accounts of the early explorers or pioneers who crossed the Great Plains by wagon train during the early to mid-1800s. They were, however, occasionally listed in records kept by fur companies in the upper Missouri River basin during that period. Black-footed ferrets were not officially recognized by scientists until 1851, when a description and drawing of one featured in a book by the renowned naturalist John James Audubon and Reverend John Bachman. For over two decades, no other specimens were seen, and scientists even began to question their existence. Then, in 1874, a Dr Elliott Coues issued a request for specimens through the popular magazine The American Sportsman, and was soon rewarded. With these he was able to add to Audubon's description, and confirm the existence of the black-footed ferret.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;In the decades that followed, European settlement across North America changed the landscape dramatically, with vast areas being transformed into crop and grazing land. As agriculture and ranching expanded, the black-footed ferret's main prey, the prairie dog, became a target for extermination, and was eventually eradicated from 98% of its original range. The result was devastating for black-footed ferret populations throughout the continent. Even today, the prairie dog is still trapped and poisoned, because ranchers believe that it competes with livestock for grass - a notion that belies recent research showing that prairie dogs and cattle feed on different plants.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;As late as the 1950s, black-footed ferrets were still thought to occur in low densities throughout most of their historic range. However, by the 1960s, the only known population was a small colony in south-western South Dakota. In 1967, the US Fish and Wildlife Service classified the black-footed ferret as an endangered species, and in 1974 the South Dakota colony disappeared. Finally, in January 1979, the last ferret in a captive-breeding programme died - making the black-footed ferret the first mammal to be declared extinct in the Northern Hemisphere in the 20th century.</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;But that was not the end of the story. In 1981, a farm dog called Shep carried an odd-looking creature to its owner's ranch house in Meeteetse, Wyoming. The rancher put the carcass in his fridge and alerted state officials. The dog had found a black-footed ferret - which led to efforts again being made to save the species. An intensive search in the region led to the discovery of a 130-strong population. This wild colony thrived for a while, but disaster struck again and the number of animals was drastically reduced by the disease distemper - probably contracted from domestic dogs. In 1985, in a final bid to save the species, the remaining 18 individuals in the colony were trapped for a new captive-breeding programme. This project was successful, and there are now more than 2,000 black-footed ferrets in captivity across the US and Canada.</p></div><div class=\"passage-section\" id=\"para-H\"><p><strong>H</strong>&nbsp;&nbsp;A reintroduction programme began in 1991. Before they can be reintroduced into their natural habitat, captive ferrets have to learn to hunt and escape from predators. They are first held in pens on the prairie, where they are fed prairie dog meat. Once the ferrets associate these animals with food, keepers unleash live prey into the pens, and they soon realise that they must hunt or go hungry. Then, to get the ferrets used to living underground, they have to be tempted into the holes with food.</p></div><div class=\"passage-section\" id=\"para-I\"><p><strong>I</strong>&nbsp;&nbsp;Reintroduction programmes are now underway across the central USA, but there is one location that is key. The Janos area on the US-Mexico border is the obvious place to reactivate the continent's wild black-footed ferret population, being one of the most important remaining grassland ecosystems in the Americas, and home to an abundance of prairie dogs. In the last report, the future of the black-footed ferret finally looks promising.</p></div>",
+        "groups": [
+          {
+            "id": "p2-g1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 14–16</h3><p>Complete the sentences below.</p><p>Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><p>The black-footed ferret shares most characteristics with its relative, the {{14}}</p><p>North American ferrets are thought to have originally come from {{15}}</p><p>The {{16}} is the black-footed ferret's primary source of food throughout their time in North America.</p></div>",
+            "maxWords": 2
+          },
+          {
+            "id": "p2-g2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 17–22</h3><p>Look at the following events (Questions 17–22) and the list of dates below.</p><p>Match each event with the correct date, <strong>A–H</strong>.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "1851"
+              },
+              {
+                "letter": "B",
+                "textHtml": "1874"
+              },
+              {
+                "letter": "C",
+                "textHtml": "1967"
+              },
+              {
+                "letter": "D",
+                "textHtml": "1974"
+              },
+              {
+                "letter": "E",
+                "textHtml": "1979"
+              },
+              {
+                "letter": "F",
+                "textHtml": "1981"
+              },
+              {
+                "letter": "G",
+                "textHtml": "1985"
+              },
+              {
+                "letter": "H",
+                "textHtml": "1991"
+              }
+            ],
+            "questions": [
+              {
+                "number": 17,
+                "textHtml": "An appeal for evidence of black-footed ferrets was published."
+              },
+              {
+                "number": 18,
+                "textHtml": "A scheme for releasing captive-born black-footed ferrets into the wild was launched."
+              },
+              {
+                "number": 19,
+                "textHtml": "The black-footed ferret first appeared in a scientific work."
+              },
+              {
+                "number": 20,
+                "textHtml": "The discovery of a single black-footed ferret led to renewed hope for the species."
+              },
+              {
+                "number": 21,
+                "textHtml": "North America's last wild-born black-footed ferrets were taken into captivity."
+              },
+              {
+                "number": 22,
+                "textHtml": "Efforts to save the black-footed ferret were officially announced as having failed."
+              }
+            ]
+          },
+          {
+            "id": "p2-g3",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 23–26</h3><p>Reading Passage 2 has nine paragraphs, <strong>A–I</strong>.</p><p>Which paragraph contains the following information?</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              },
+              {
+                "letter": "F",
+                "textHtml": "F"
+              },
+              {
+                "letter": "G",
+                "textHtml": "G"
+              },
+              {
+                "letter": "H",
+                "textHtml": "H"
+              },
+              {
+                "letter": "I",
+                "textHtml": "I"
+              }
+            ],
+            "questions": [
+              {
+                "number": 23,
+                "textHtml": "reasons for the sharp decrease in black-footed ferret populations."
+              },
+              {
+                "number": 24,
+                "textHtml": "the procedure by which black-footed ferrets are taught to survive in the wild."
+              },
+              {
+                "number": 25,
+                "textHtml": "mention of doubts about whether there was such an animal as a black-footed ferret."
+              },
+              {
+                "number": 26,
+                "textHtml": "reference to a site which is ideal for the release of black-footed ferrets into the wild."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 27–40</strong>.</p>",
+        "passageHtml": "<h1>Rights for apes</h1><p class=\"passage-intro\"><em>Humans have rights, other animals don't - no matter how human-like they are. Kate Douglas investigates the controversial campaign to get that changed</em></p><p id=\"para-1\">A growing number of people across the world are attempting to persuade governments to grant great apes rudimentary 'human rights'. They argue that great apes are enough like us to deserve special treatment over other animals. The campaign has gathered momentum over the past few years and is stirring up a good deal of controversy. Various religious groups and the human rights charity, Amnesty International, point out that we have a long way to go to secure rights for humans before we start thinking about animals. Other critics argue that the proposal is not radical enough and should be extended to other intelligent social animals such as elephants and dolphins, and potentially to all animals.</p><p id=\"para-2\">The Great Ape Project (GAP) is an international organisation that has been lobbying for legal rights for apes since 1993. The project has had some degree of success. New Zealand considered the possibility of extending human rights to great apes in 1999 as part of its new animal welfare bill. In the end, the bill did not go as far as granting apes individual legal rights, but did give them special status. Testing or teaching involving apes now requires government approval and must demonstrate that any likely benefits are not outweighed by harm to the individual animal. In effect that means no biomedical testing, only studies that increase our understanding of these species. The practice of using apes in biomedical research has also effectively ended in Europe now. So with all this legal protection in place, what's the big deal about individual rights? GAP campaigners say that these regulations don't go far enough and they still allow people who own great apes to lawfully neglect their needs. Michele Stumpe, a lawyer based in the US, points out that without rights, animals are mere property and their owners have no obligation to consider their best interests. Legally, however, only 'persons' can have 'rights', which is why the law needs to be changed to recognise the 'personhood' of apes.</p><p id=\"para-3\">Stumpe says that one reason for the resistance is the use of terms like 'rights' and 'personhood'. It seems like a radical idea and that scares people, 'but when we talk about rights, it really just means protection in layman's terms,' she says. For the philosopher Peter Singer (Princeton University), the opposition runs deeper than just semantics. He says the great apes are 'the victims of arbitrary discrimination', or what he calls 'speciesism'. He makes an argument on moral grounds for extending human rights to all beings that show intelligence and awareness - including some level of self-awareness - and have emotional and social needs. That means going beyond the boundaries of our own species - and therein lies the problem. 'It's that gulf between humans and animals that people want to maintain,' he says. Others take a similar view. It requires a radical shift in people's ideas about themselves, according to Ian Redmond, chief consultant for the UN Great Apes Survival Project. Gary Francione, a leading animal-rights lawyer from Rutgers University in Newark, New Jersey, and a member of the original GAP group, calls it 'spiritual superiority'. 'We just think we're special because we're human.'</p><p id=\"para-4\">Those less sympathetic to the animal rights agenda see things rather differently. Some argue that beyond the species barrier lies a slippery slope. 'Mice share around 90 per cent of human DNA: should they get 90 per cent of human rights?' asks geneticist Steve Jones from University College, London. He is concerned that giving rights to great apes would be the beginning of the end of all research with animals. Singer accepts that there is a question about where you draw the line, but sees no reason for that to stop society from taking the first step. 'The strongest and clearest case is with great apes, but we're open to arguments that it could be extended to other mammals,' he says.</p><p id=\"para-5\">Some take it even further. Francione no longer supports the idea of extending rights to great apes on the basis that their minds are like ours. Instead, he argues that all sentient beings should have just one right: the right not to be treated as the property of humans. He believes his approach has the advantage of simplicity, because sentience - the ability to feel pain or distress - is an objective quality, and because it would bring an end to captive animals altogether. It would make it illegal to breed any animals, including agricultural animals and even pets, his ideas highlight a logical inconsistency at the heart of the GAP agenda: it seeks to give legal rights to animals but does not give them the right to be free. Francione's approach is certainly several steps too far for many people.</p><p id=\"para-6\">It is not clear what GAP's proposals mean for wild apes, and even some of the animals' most outspoken defenders are not convinced that giving them human rights is the best way to protect them. Primatologist Frans de Waal, from the Yerkes Regional Primate Research Center in Atlanta, US, says 'The concept of rights applies only to those capable of carrying responsibilities within our society.' He believes the emphasis should be on the obligations humans have towards other animals, both for their care and for their conservation.</p><p id=\"para-7\">Redmond, on the other hand, suggests that applying GAP principles to wild populations might lead to increased penalties for killing apes or even give them land rights, though he admits the latter is unlikely. At the very least, an increased regard for the well-being of apes among people in western countries would lead to a decreased demand for animals being kidnapped from the wild and then exported to zoos, wildlife parks or private collectors.</p>",
+        "groups": [
+          {
+            "id": "p3-g1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 27–31</h3><p>Complete the summary using the list of words, <strong>A–J</strong>, below.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><p>Some people believe that the campaign to grant human rights to the great apes does not go far enough. They want it to include other {{27}} that are judged to demonstrate understanding. One country introduced {{28}} which went some way to protecting the apes. As a result, anyone who is interested in using apes for {{29}} must first obtain the official go-ahead from the state. They will have to prove that any advances gained do not come at the expense of the animal’s {{30}} So researchers can now only work on projects that may lead to the acquisition of further {{31}} about the way apes function and interact.</p></div>",
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "freedom"
+              },
+              {
+                "letter": "B",
+                "textHtml": "welfare"
+              },
+              {
+                "letter": "C",
+                "textHtml": "knowledge"
+              },
+              {
+                "letter": "D",
+                "textHtml": "legislation"
+              },
+              {
+                "letter": "E",
+                "textHtml": "property"
+              },
+              {
+                "letter": "F",
+                "textHtml": "research"
+              },
+              {
+                "letter": "G",
+                "textHtml": "entertainment"
+              },
+              {
+                "letter": "H",
+                "textHtml": "treaties"
+              },
+              {
+                "letter": "I",
+                "textHtml": "intelligence"
+              },
+              {
+                "letter": "J",
+                "textHtml": "species"
+              }
+            ]
+          },
+          {
+            "id": "p3-g2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 32–36</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 32,
+                "textHtml": "Why does Stumpe refer to 'layman's terms'?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "to show that many people hold extreme views about animals."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "to suggest that campaigners are reluctant to criticise the law."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "to suggest that such inflated terminology is unnecessary."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "to argue that most people are not interested in protecting animals."
+                  }
+                ]
+              },
+              {
+                "number": 33,
+                "textHtml": "According to Singer, what is the root of the problem?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Levels of intelligence and awareness differ between species."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "People disagree on how intelligent animals like apes are"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Moral principles are not easy for everyone to understand."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Human beings want to see themselves as separate from animals."
+                  }
+                ]
+              },
+              {
+                "number": 34,
+                "textHtml": "If Francione's current idea was implemented,",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "sentient animals could not be kept in cages."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "any form of large-scale agriculture would cease to exist."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "great apes would be granted all the same rights as humans."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "people could no longer offer shelter to an animal."
+                  }
+                ]
+              },
+              {
+                "number": 35,
+                "textHtml": "What is the writer's attitude to Francione's theory?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "She is suspicious of the reasoning behind it."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "She is doubtful of its chances of being generally accepted."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "She is reassured by the impartial way it is expressed."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "She is pleased by its logical development."
+                  }
+                ]
+              },
+              {
+                "number": 36,
+                "textHtml": "How does de Waal change the perspective of the animal rights discussion?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "He recommends focusing on the way people look after animals."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "He would give rights only to those animals with a moral sense."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "He says that society should learn to be responsible for all of humanity."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "He thinks that conservation of endangered species should come first."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p3-g3",
+            "type": "ynng",
+            "rubricHtml": "<h3>Questions 37–40</h3><p>Do the following statements agree with the claims of the writer in Reading Passage 3?</p><p>Write <strong>YES</strong> if the statement agrees with the claims of the writer, <strong>NO</strong> if the statement contradicts the claims of the writer, or <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 37,
+                "textHtml": "Particularly valuable animals in captivity are more likely to be protected by law."
+              },
+              {
+                "number": 38,
+                "textHtml": "de Waal highlights the need to give human rights to higher order animals."
+              },
+              {
+                "number": 39,
+                "textHtml": "If GAP beliefs were implemented in the wild, the survival rate of the larger apes would increase."
+              },
+              {
+                "number": 40,
+                "textHtml": "If people in Western countries, for example, learned to consider apes' needs, fewer apes would be captured for sale."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "their complex decorations. Meanwhile, the Greeks still concentrated their energies on ceramics, and used glass simply",
+          "anchor": "para-2"
+        }
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "industry was in turn to have a profound effect on the glass art of the early-Roman Empire.",
+          "anchor": "para-3"
+        }
+      },
+      "3": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "(1st century BC) was accompanied by an increase in glass production in the Mediterranean region.",
+          "anchor": "para-4"
+        }
+      },
+      "4": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "for these craftsmen to produce a large variety of vessels for different uses - from simple bottles",
+          "anchor": "para-4"
+        }
+      },
+      "5": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "The well-planned network of roads in the Roman Empire ensured that the new",
+          "anchor": "para-5"
+        }
+      },
+      "6": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "lamps, and much more. Even vessels technically very difficult to produce have been found, such as playful bottles",
+          "anchor": "para-6"
+        }
+      },
+      "7": {
+        "accepted": [
+          "shiny surface"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "lightness of the material as well as its shiny surface, came to be valued",
+          "anchor": "para-7"
+        }
+      },
+      "8": {
+        "accepted": [
+          "details"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "an increasing tendency to apply intricate details, and a few coloured",
+          "anchor": "para-7"
+        }
+      },
+      "9": {
+        "accepted": [
+          "mouths"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "wrapped around the rims to give emphasis to the vessels' mouths.",
+          "anchor": "para-7"
+        }
+      },
+      "10": {
+        "accepted": [
+          "shellfish beaker"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "Later vessels such as the so-called shellfish beaker represented a climax in",
+          "anchor": "para-8"
+        }
+      },
+      "11": {
+        "accepted": [
+          "mosaic glass"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "of such methods as thread-glass decoration or mosaic glass. In fact, most methods",
+          "anchor": "para-9"
+        }
+      },
+      "12": {
+        "accepted": [
+          "chemistry"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the early 19th century. Until chemistry became an established scientific discipline in the second quarter",
+          "anchor": "para-9"
+        }
+      },
+      "13": {
+        "accepted": [
+          "puzzle"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "in the Roman Empire remain a puzzle that modern glass technicians cannot resolve.",
+          "anchor": "para-9"
+        }
+      },
+      "14": {
+        "accepted": [
+          "Siberian polecat"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "of the domestic ferret. The Siberian polecat looks more similar to the black-footed ferret, and leads a",
+          "anchor": "para-B"
+        }
+      },
+      "15": {
+        "accepted": [
+          "Europe"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "Ferrets probably evolved in Europe between three and four",
+          "anchor": "para-C"
+        }
+      },
+      "16": {
+        "accepted": [
+          "prairie dog"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "to the creature which became almost its sole prey - the prairie dog.",
+          "anchor": "para-C"
+        }
+      },
+      "17": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "question their existence. Then, in 1874, a Dr Elliott Coues issued a request for specimens through the popular magazine",
+          "anchor": "para-D"
+        }
+      },
+      "18": {
+        "accepted": [
+          "H"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "A reintroduction programme began in 1991. Before they can be",
+          "anchor": "para-H"
+        }
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "period. Black-footed ferrets were not officially recognized by scientists until 1851, when a description and",
+          "anchor": "para-D"
+        }
+      },
+      "20": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "end of the story. In 1981, a farm dog called Shep carried an odd-looking creature",
+          "anchor": "para-G"
+        }
+      },
+      "21": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "contracted from domestic dogs. In 1985, in a final bid to save the species, the remaining 18 individuals",
+          "anchor": "para-G"
+        }
+      },
+      "22": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "Dakota colony disappeared. Finally, in January 1979, the last ferret in a captive-breeding programme died - making the",
+          "anchor": "para-F"
+        }
+      },
+      "23": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "prey, the prairie dog, became a target for extermination, and was eventually eradicated",
+          "anchor": "para-E"
+        }
+      },
+      "24": {
+        "accepted": [
+          "H"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "into their natural habitat, captive ferrets have to learn to hunt and escape from predators. They are first held",
+          "anchor": "para-H"
+        }
+      },
+      "25": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "specimens were seen, and scientists even began to question their existence. Then, in 1874, a",
+          "anchor": "para-D"
+        }
+      },
+      "26": {
+        "accepted": [
+          "I"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "on the US-Mexico border is the obvious place to reactivate the continent's wild black-footed",
+          "anchor": "para-I"
+        }
+      },
+      "27": {
+        "accepted": [
+          "J"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "not radical enough and should be extended to other intelligent social animals such as elephants and",
+          "anchor": "para-1"
+        }
+      },
+      "28": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "great apes in 1999 as part of its new animal welfare bill. In the end, the",
+          "anchor": "para-2"
+        }
+      },
+      "29": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "give them special status. Testing or teaching involving apes now requires government approval and must demonstrate",
+          "anchor": "para-2"
+        }
+      },
+      "30": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "any likely benefits are not outweighed by harm to the individual animal. In effect that means",
+          "anchor": "para-2"
+        }
+      },
+      "31": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "means no biomedical testing, only studies that increase our understanding of these species. The practice of using",
+          "anchor": "para-2"
+        }
+      },
+      "32": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "we talk about rights, it really just means protection in layman's terms,' she says. For",
+          "anchor": "para-3"
+        }
+      },
+      "33": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "the problem. 'It's that gulf between humans and animals that people want to maintain,' he says. Others take",
+          "anchor": "para-3"
+        }
+      },
+      "34": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "objective quality, and because it would bring an end to captive animals altogether. It would make it",
+          "anchor": "para-5"
+        }
+      },
+      "35": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "free. Francione's approach is certainly several steps too far for many people.",
+          "anchor": "para-5"
+        }
+      },
+      "36": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "our society.' He believes the emphasis should be on the obligations humans have towards other animals, both for their care",
+          "anchor": "para-6"
+        }
+      },
+      "37": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "who own great apes to lawfully neglect their needs. Michele Stumpe, a lawyer",
+          "anchor": "para-2"
+        }
+      },
+      "38": {
+        "accepted": [
+          "NO"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "in Atlanta, US, says 'The concept of rights applies only to those capable of carrying responsibilities within our society.'",
+          "anchor": "para-6"
+        }
+      },
+      "39": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "principles to wild populations might lead to increased penalties for killing apes or even give them",
+          "anchor": "para-7"
+        }
+      },
+      "40": {
+        "accepted": [
+          "YES"
+        ],
+        "type": "Yes/No/Not Given",
+        "evidence": {
+          "snippet": "people in western countries would lead to a decreased demand for animals being kidnapped from the wild and",
+          "anchor": "para-7"
+        }
+      }
+    },
+    "sets": []
+  },
+  "slug": "reading-volume-10-test-2",
+  "isPremium": false,
+  "series": "REAL_EXAM",
+  "seriesNumber": 10,
+  "testNumber": 2
+}

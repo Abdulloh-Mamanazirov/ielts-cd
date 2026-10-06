@@ -1,0 +1,752 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 10, Test 5",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 1–13</strong>.</p>",
+        "passageHtml": "<h1>Tunnelling Under the Thames</h1><p class=\"passage-intro\"><em>The first tunnel ever to be built under a major river was the tunnel under London’s River Thames.</em></p><p id=\"para-1\">At the beginning of the 19th century, the port of London was the busiest in the world. Cargoes that had travelled thousands of miles and survived all the hazards of the sea were unloaded on the banks of the Thames, only for their owners to discover that the most frustrating portion of their journey lay ahead. Consignments intended for the southern parts of Britain had to be lifted onto horse carts, pulled through the docks and across London Bridge, built in the 12th century and as impractical as its early date implies. By 1820, London Bridge had become the centre of the world’s largest traffic jam.</p><p id=\"para-2\">It was an intolerable situation, and it was clear that if private enterprise could build another crossing closer to the docks, there would be good money to be made in tolls paid by users. Another bridge was out of the question, as this would deny sailing ships access to the city centre, and ambitious men turned their thoughts to tunnelling beneath the Thames instead. This was not such an obvious idea as it might appear. Although increasing demand for coal had meant a great many tunnels had been dug in mines in Britain, working methods remained primitive. Tunnels were dug by men with simple tools, by candlelight. However, in 1807, a group of businessmen set themselves up as the Thames Archway Company. Their ambition was to tunnel below the Thames, but there was little to guide them, as there had been no previous attempt to do this. Their chief engineer was Richard Trevithick, designer of the world’s first high-pressure steam engine. His men made progress at the beginning, but then things began to go disastrously wrong, with muddy soil pouring into the tunnel. Eventually, the Thames Archway Company had had enough. Its funds were exhausted, Trevithick was sick from exposure to the river water, and its efforts had proved only that a passage under the river exceeded the limits of contemporary mining technology.</p><p id=\"para-3\">At that time, the only machines used in mines were pumps. It took a man of genius to recognise that a different sort of machine was needed, a machine that could prevent the roof and walls of a tunnel from collapsing. This man was Marc Brunel, a Frenchman who had become one of the most prominent engineers in Britain. Not long after the failure of the Thames Archway Company, Brunel saw a rotten piece of wood lying on the riverbank. Examining the wood through a magnifying glass, he observed that it was infested with something that looked like a worm. Brunel realised that as it tunnelled through the wood, it would push chewed wood into its mouth and digest it, then excrete a hard substance that lined the new tunnel. Brunel realised that the worm’s digging technique could be adapted to produce a new way of tunnelling. His realisation led him to invent a device that has been used in one form or another in most major tunnels built since—the tunnelling shield. It consisted of a heavy iron frame that could be pushed forward a few inches at a time. The front of the frame was made up of a series of iron frames that could be folded back to allow miners to dig the ground ahead. Behind these frames was a wall consisting of a series of iron plates pressed against the tunnel face and supported on a set of horizontal wooden planks that would prevent the face from collapsing. It was a complex and rather cumbersome machine and not easy to use, but it seemed that it would protect the miners from the worst of the river’s water. Brunel’s team carefully examined earth samples taken from beneath the riverbed, and subsequently decided to dig the tunnel close to the muddy river bottom, where they could expect to find clay. This would be a more solid and safe substance to dig through than the sand that was found deeper down.</p><p id=\"para-4\">Brunel began work on his tunnel in 1825, but the problems of such an operation soon became apparent. Although the shield itself worked well, water began to drip into the tunnel. This was more of an annoyance than a danger while the pump was working, but this machine proved unreliable and sometimes failed altogether. When the pump broke down, work had to stop as the tunnel quickly flooded. There were occasions when the miners had to abandon their tools and flee for their lives. Even when Brunel’s men were able to work, they had to run the constant risk of the pumps failing. They also complained of frequent headaches and dizziness, caused by the poor air quality. The air underground was dirty and stale, contaminated due to the lack of an adequate ventilation system. There were lighting problems too. Illuminating the tunnels by candlelight was a constant challenge. Lamps gave off only a very weak glow, and there were a number of accidents because the miners could not see what they were doing. Lastly, a number of Brunel’s miners walked off the job because they could not tolerate the excessive temperatures that developed in the cramped conditions underground.</p><p id=\"para-5\">Despite all these setbacks, the tunnel finally emerged on the opposite river bank on August 12, 1841. Brunel’s triumph, however, was only partial. The small payment per person made by the thousands of visitors who flocked to see the marvel hardly paid even a penny per foot of the tunnel’s construction costs. Brunel had gone bankrupt long before the project was completed, and the government loan he had required to complete the project had to be paid back with interest. As a result, there was not enough funding to make it accessible to horse-drawn vehicles, as intended. Instead, the passageways were filled with souvenir sellers and entertainers. In the end, the tunnel was closed two years later, used at night, before it was finally closed entirely and fell into dereliction for decades.</p><p id=\"para-6\">It was only when the underground railway came to London in the 1880s that the Thames Tunnel found a measure of real usefulness. It was bought in 1869 by the East London Railway, which found it to be in such excellent condition that it was immediately pressed into service as a route for passenger trains heading east. The tunnel became, and remains, part of the London Underground network.</p>",
+        "groups": [
+          {
+            "id": "p1-g1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–8</h3><p>Do the following statements agree with the information given in Reading Passage 1?</p><p>Write <strong>TRUE</strong> if the statement agrees with the information, <strong>FALSE</strong> if the statement contradicts the information, or <strong>NOT GIVEN</strong> if there is no information on this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "In the early 19th century, the port of London was considered a safer destination than other ports."
+              },
+              {
+                "number": 2,
+                "textHtml": "London Bridge provided quick access for cargo being sent to southern Britain."
+              },
+              {
+                "number": 3,
+                "textHtml": "It was generally believed that a new river crossing would be profitable."
+              },
+              {
+                "number": 4,
+                "textHtml": "Building a second bridge crossing was initially considered to be the best solution."
+              },
+              {
+                "number": 5,
+                "textHtml": "It was believed that coal could be found under the River Thames."
+              },
+              {
+                "number": 6,
+                "textHtml": "The Thames Archway Company was the first group to try tunnelling below the Thames."
+              },
+              {
+                "number": 7,
+                "textHtml": "Some of Trevithick’s men were injured during a mudslide at his tunnel."
+              },
+              {
+                "number": 8,
+                "textHtml": "The Thames Archway Company ran out of money to finance the tunnel project."
+              }
+            ]
+          },
+          {
+            "id": "p1-g2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 9–13</h3><p>Complete the notes below.</p><p>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Marc Brunel’s Tunnel</div><p class=\"sub-head\">Preparing to build the tunnel</p><ul class=\"notes-list\"><li>Brunel noticed how a kind of {{9}} made its tunnels in wood.</li><li>Brunel created a device called a tunnelling shield, to protect people working under the river.</li><li>Brunel planned to build a tunnel at a relatively shallow depth, where {{10}} was likely to be found.</li></ul><p class=\"sub-head\">Problems faced by miners</p><ul class=\"notes-list\"><li>There were frequent floods caused by mechanical breakdowns.</li><li>The miners suffered from health problems such as headaches, {{11}} because of pollution in the tunnels.</li><li>Lighting problems led to several {{12}}</li><li>Some workers quit because of the high temperatures in the tunnel.</li></ul><p class=\"sub-head\">After the tunnel was finished</p><ul class=\"notes-list\"><li>The tunnel was finally completed in 1841.</li><li>Brunel did not have enough money to repay his debt to the {{13}}</li><li>The tunnel was abandoned until the 1880s.</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 14–26</strong>.</p>",
+        "passageHtml": "<h1>The Origin and Development of Applause</h1><p class=\"passage-intro\"><em>Whether you clap, cheer or whistle a great public performance, you are following a long tradition.</em></p><div class=\"passage-section\" id=\"para-1\"><p><strong>1</strong>&nbsp;&nbsp;Scholars aren’t quite sure about the origins of applause, but the form that is still most common, clapping the hands together, was formalized in Western culture during and after performances. During the time of the Roman Republic (509 BC–27 BC), the common way to end a play was for a chief actor to yell plaudite! (‘Goodbye and applause!’), thus signalling to the audience that it was time to give praise by striking hands and making explosive noise. It’s no surprise that this became a means of crowd manipulation. Rome saw the rise of a professional class of plauditi, or ‘people who clapped for their dinner’, hired to infiltrate crowds and manipulate their reactions to performances. Actors would hire a dozen or so people to spread out among their audiences and prolong the applause, or, if they were feeling especially bold, to start ‘spontaneous’ chants and shouts of praise.</p></div><div class=\"passage-section\" id=\"para-2\"><p><strong>2</strong>&nbsp;&nbsp;The Roman Republic came to an end and was replaced by the Roman Empire (27 BC – 476 AD) where applause became a way for leaders to interact directly with their citizens. One of the chief methods they used to estimate their standing with the people was gauging the greetings they got when they entered the arena. Leaders became astute at reading the volume, the rhythm, and the length of the crowd’s claps for clues about how well they were doing as officials and lawmakers. ‘We should think of it as an ancient type of opinion poll,’ says Greg Aldrete, a professor of history. ‘This is how you gauge the people.’ Roman leaders were gathering data about people by listening to applause.</p></div><div class=\"passage-section\" id=\"para-3\"><p><strong>3</strong>&nbsp;&nbsp;Clever leaders of the ancient world researched their rivals, too. Cicero, the Roman lawyer, would send friends to stand around outside the arena, taking notes to see what kind of greeting each official got when he entered, the better to see who was beloved by the people, and who was not. They had a lot of information to assess. ‘Ancient crowds were more interactive than they are today,’ Aldrete points out. ‘There was a lot of back and forth between speakers and crowds. And particularly in the Greco-Roman world, crowds, especially in cities, were really good at communicating messages through rhythmic clapping, sometimes coupled with shouts.’ The clapping was, he says, invaluable when assessing an adversary’s fortunes.</p></div><div class=\"passage-section\" id=\"para-4\"><p><strong>4</strong>&nbsp;&nbsp;Around the first centuries AD, those systems of applause became more and more elaborate. Applause no longer meant simply ‘claps’. While Greco-Roman audiences certainly smacked their palms together the same way we do today, their overall strategies of applause were much more varied than clapping alone. Crowds expressed degrees of approval of the person or persons before them, ranging from claps, to snaps (of the finger and thumb), to waves (of the edge of the toga). The emperor Aurelian decided to replace this gesture by waving a special handkerchief instead, a prop which he then distributed to all Roman citizens, so they would never be without a way to praise him.</p></div><div class=\"passage-section\" id=\"para-5\"><p><strong>5</strong>&nbsp;&nbsp;Although style of applause may have changed over the centuries, the need to manipulate remained. 16th-century French poet Jean Daurat is credited with bringing back the Roman practice of hiring professional applauders. In France, this group became known as a ‘claque’. Daurat handed out tickets to his own performances to people who promised to applaud at the end. By the early 1820s, claques had become institutionalized, with an agency in Paris specializing in the distribution of the claqueurs’ services. The historian William B. Cohen describes the intricate price lists agencies of this kind would hand out to potential patrons: polite clapping would cost this many francs, enthusiastic applause would cost this many. The claque also underwent a kind of classification: rieurs (laughers) would laugh loudly at the jokes; the pleureurs (criers) would feign tears in reaction to performances; the commissaires (officers) would learn a play or a piece of music by heart and then call attention to its best parts. The practice spread to Milan, to Vienna, and to London before falling out of fashion. The claque lost its power once people became aware of its tricks.</p></div><div class=\"passage-section\" id=\"para-6\"><p><strong>6</strong>&nbsp;&nbsp;And clapping itself evolved. In the 18th century, symphonies and concerts became more serious, aligning themselves with the reverence and spirituality associated with religious ceremonies. Knowing when to maintain silence, as well as when to clap, became a mark of sophistication, a kind of code for audiences to learn. Applause became a matter of ‘do’ or ‘don’t’, thus losing many old shades of meaning. Those changes changed performers, too. Applause became much less of a true dialogue with an audience, especially so with opera, where the singers saw it as part of a basic transaction with the crowd. So by the time the 19th century arrived, applause had become standardized and institutionalized, and had become an expectation rather than the reward it used to be.</p></div><div class=\"passage-section\" id=\"para-7\"><p><strong>7</strong>&nbsp;&nbsp;In the 21st century, we’re reinventing applause to make it what it’s always been: a coded form of communication. More and more, the digital world allows us to link and like and share through our devices. By connecting with others in this way, we become part of the performance by participating in it, demonstrating our appreciation by amplifying and extending the show through commenting and praising. Our kind of applause matters more now, in many ways, because it is no longer momentary and short-lived but is far more permanent instead.</p></div>",
+        "groups": [
+          {
+            "id": "p2-g1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–20</h3><p>Reading Passage 2 has seven paragraphs.</p><p>Choose the correct heading for each paragraph from the list of headings below.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "The impact of musical performance on the etiquette of applause"
+              },
+              {
+                "letter": "B",
+                "textHtml": "The negative effects of applause on a kind of public performer"
+              },
+              {
+                "letter": "C",
+                "textHtml": "The initial emergence of applause as a behaviour"
+              },
+              {
+                "letter": "D",
+                "textHtml": "A form of applause that is more far-reaching than before"
+              },
+              {
+                "letter": "E",
+                "textHtml": "The use of applause by political figures to evaluate their own popularity"
+              },
+              {
+                "letter": "F",
+                "textHtml": "How music can influence an audience’s level of applause"
+              },
+              {
+                "letter": "G",
+                "textHtml": "The different methods of applause employed in ancient times, besides clapping"
+              },
+              {
+                "letter": "H",
+                "textHtml": "The re-emergence and disappearance of fake appreciation"
+              },
+              {
+                "letter": "I",
+                "textHtml": "How the theatrical world copied the world of politics in giving applause"
+              },
+              {
+                "letter": "J",
+                "textHtml": "The use of applause in working out how popular an opponent was"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "Paragraph 1"
+              },
+              {
+                "number": 15,
+                "textHtml": "Paragraph 2"
+              },
+              {
+                "number": 16,
+                "textHtml": "Paragraph 3"
+              },
+              {
+                "number": 17,
+                "textHtml": "Paragraph 4"
+              },
+              {
+                "number": 18,
+                "textHtml": "Paragraph 5"
+              },
+              {
+                "number": 19,
+                "textHtml": "Paragraph 6"
+              },
+              {
+                "number": 20,
+                "textHtml": "Paragraph 7"
+              }
+            ]
+          },
+          {
+            "id": "p2-g2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 21 and 22</h3><p>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</p><p>Which <strong>TWO</strong> of the following statements are true of the ‘claque’ in France?</p>",
+            "selectCount": 2,
+            "questions": [
+              {
+                "number": 21,
+                "textHtml": "Which <strong>TWO</strong> of the following statements are true of the ‘claque’ in France?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "As a practice in France, it first appeared in the 16th century."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "It did not become a widespread practice within France."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The cost of hire depended on the fame of the client."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Claqueurs were divided into different categories."
+                  },
+                  {
+                    "letter": "E",
+                    "textHtml": "The practice did not exist beyond France."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p2-g3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 23–26</h3><p>Complete the sentences below.</p><p>Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><p>In the 18th century, people could show their superiority by understanding when either {{23}} or applause was appropriate.</p><p>Performers in the 18th century, in particular those working in the {{24}}, no longer had a meaningful dialogue with their audiences.</p><p>In the 19th century, applause was no longer offered as a {{25}} to performers.</p><p>Nowadays kinds of applause are considered {{26}} than those of the past.</p></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 27–40</strong>.</p>",
+        "passageHtml": "<h1>The Antikythera Mechanism</h1><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;One spring day in 1900, a party of Greek sponge divers took shelter from a storm near the island of Antikythera, which lies about 50 kilometres northwest of the western tip of Crete. After the storm, one of the group, Elias Stadiatis, decided to dive in search of giant clams to eat for their dinner. On a shelf about 43 metres below the surface of the water, he chanced upon the wreck of an ancient ship. Fragments of statues, looking like body parts, covered this ledge. The diver returned to the surface, bearing an arm made of bronze as proof of what he had discovered. He reported his find to the authorities and, in the autumn, he and his companions returned to dive on the Antikythera wreck on behalf of the Greek government. They spent the next ten months bringing up pieces of marble and bronze statues, amphorae, lamps and coins, all of which were sent to the National Museum in Athens for cleaning and restoration.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Among the artefacts retrieved from the shipwreck was a rather unprepossessing lump of bronze inside what seemed to be a wooden casing. This object was covered in barnacles and badly corroded by seawater, and didn’t attract much attention at first. It wasn’t until May 1902 that the leading Greek archaeologist Valerios Stais noticed that the wooden covering had dried out and split open, and the fused lump of metal inside it had separated into several pieces. The largest of these fragments was a dial about 14 cm in diameter, with some inscriptions on it. Some other fragments also appeared to be parts of dials with perfectly formed triangular teeth, like gear wheels. The evidence seemed to point to this being part of a kind of mechanical clock, but the researchers ultimately rejected this possibility, as the wreck had been dated to the first century BCE, and it was known that precise gears like these had not existed until fourteen centuries after that.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;Little progress on identifying either the purpose or origins of the mechanism was made until the late 1950s, when the device attracted the attention of a British-born polymath, Derek de Solla Price, who was working at Princeton University in the United States. Price realised that the inscriptions on the large dial indicated days, months and zodiac signs and theorised that the device used gears to trace the paths of the sun, moon and other planets in relation to the earth and to indicate their position at any given moment by means of pointers that had since been lost. Although his interpretation was basically sound, further research was hampered by the fact that only a few of the gears appear on the surface of the fused metal fragments of the mechanism.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;In 1971, the National Museum in Athens gave permission for Price, working with a Greek radiographer, to X-ray the fragments of the Antikythera mechanism. These two-dimensional images revealed many of the hidden gears and allowed Price to develop schematic drawings of how the mechanism must have worked. What he discovered confounded all previous theories of technology in the Hellenistic era and indicated that the ancient Greeks’ mechanical know-how and knowledge of astronomy came close to that of modern times. However, despite positive scholarly reviews of Price’s work, his idea that the Antikythera mechanism is an ancient analogue computer, published in his 1974 book “Gears from the Greeks”, fell on deaf ears where mainstream historians were concerned. This may have been due, at least in part, to the contemporaneous popularity of books by the Swiss writer Erich von Daniken, who postulated that ancient aliens had brought advanced technology to Earth; Price’s work may have inadvertently become associated with fringe theories and UFO-hunters as a result.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;Whatever the reason, little more official research was conducted on the mechanism until the 2005 launch of the Antikythera Mechanism Research Project, an international, multidisciplinary study that operates under the supervision of the Hellenic Ministry of Culture. The project examined the fragments of the Antikythera mechanism using state-of-the-art imaging equipment. One machine, nicknamed BladeRunner, was originally designed to detect cracks in aircraft turbine blades by means of three-dimensional X-ray technology. This project is ongoing, and new findings are being constantly made and revealed. Enough has already been discovered to vindicate Price.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;This modern research places the construction of the mechanism towards the end of the second century BCE and confirms that its bronze dials and gears would have been housed in a wooden box roughly the size of a modern shoebox. Like the clocks our grandparents’ generation kept on the mantelpiece, the mechanism had a circular dial at the front with rotating hands. Rather than showing hours and minutes, however, these hands indicated the positions of the sun and the moon in the sky at any given time, as well as of Mercury, Venus, Mars, Jupiter and Saturn, the five planets that are visible to the naked human eye.</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;In addition, the mechanism also allowed for the fact that the orbit of some planets around the sun appears to go backwards, or “retrograde”, at certain times during the celestial cycle. It has also been discovered that there were two dials on the back of the mechanism, one of which was a calendar and the other of which showed when solar and lunar eclipses would take place. A number of breathtaking models of the mechanism have been produced, including one made out of Lego blocks. These reveal the outstanding mechanical skills and astronomical knowledge of whoever built the Antikythera mechanism two thousand years or more before we developed the technological skills to start unlocking its secrets.</p></div>",
+        "groups": [
+          {
+            "id": "p3-g1",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 27–32</h3><p>Complete the summary below.</p><p>Choose <strong>NO MORE THAN THREE WORDS</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">The Discovery of the Antikythera Mechanism</div><p>The Antikythera mechanism was discovered by a diver who was looking for {{27}}. Instead, he found the remains of an ancient ship, from which he took proof to show his fellow divers. Having been commissioned to recover the relics, the same divers spent {{28}} retrieving items such as sculptures made of {{29}} for the National Museum. Another item they found was a {{30}} which contained a piece of metal. This was ignored until over a year later when a renowned archaeologist noticed that the inside was composed of several pieces, one of which had {{31}} on it, and others appeared to be apparatus of some sort, leading the investigators to think at first that the artefact might have been a {{32}}, although the historical origin of it suggested this was impossible.</p></div>",
+            "maxWords": 3
+          },
+          {
+            "id": "p3-g2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 33–37</h3><p>Complete each sentence with the correct ending, <strong>A–H</strong>, below.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "to calculate how the calendar operated."
+              },
+              {
+                "letter": "B",
+                "textHtml": "to identify problems in aeronautical components."
+              },
+              {
+                "letter": "C",
+                "textHtml": "to discover historical artifacts."
+              },
+              {
+                "letter": "D",
+                "textHtml": "to link the ancient device to theories about extraterrestrials."
+              },
+              {
+                "letter": "E",
+                "textHtml": "to use gears to calculate astronomical movements."
+              },
+              {
+                "letter": "F",
+                "textHtml": "to discover that there was more to the mechanism than first thought."
+              },
+              {
+                "letter": "G",
+                "textHtml": "to create a visual representation of the inside of the mechanism."
+              },
+              {
+                "letter": "H",
+                "textHtml": "to retrieve the outstanding relics."
+              }
+            ],
+            "questions": [
+              {
+                "number": 33,
+                "textHtml": "Elias Stadiatis had not intended"
+              },
+              {
+                "number": 34,
+                "textHtml": "The group of divers were asked"
+              },
+              {
+                "number": 35,
+                "textHtml": "Valerios Stais was the first"
+              },
+              {
+                "number": 36,
+                "textHtml": "Derek de Solla Price managed"
+              },
+              {
+                "number": 37,
+                "textHtml": "The Antikythera Mechanism Research Project used technology originally created"
+              }
+            ]
+          },
+          {
+            "id": "p3-g3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 38–40</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 38,
+                "textHtml": "How is the mechanism similar to more contemporary clock designs?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "It has a small, box shape."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The casing is made of wood"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "It has hands which turn around in a circle."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "It indicates how many minutes and hours have passed."
+                  }
+                ]
+              },
+              {
+                "number": 39,
+                "textHtml": "Which of the following does the Antikythera mechanism NOT display to an observer?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The current position of the moon in the sky."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Where to look if you want to see Jupiter at night."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "The number of moons belonging to Mars."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "The date of the next lunar eclipse."
+                  }
+                ]
+              },
+              {
+                "number": 40,
+                "textHtml": "What do our current models of the mechanism show?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "The mechanism is so advanced in design, we couldn't understand it until modern times."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "The creators of the Antikythera mechanism knew far more about astronomy than we do."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "We have only recently possessed the technology that belonged to the ancient Greeks."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "There are still things we don't understand about the Antikythera mechanism."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "of the 19th century, the port of London was the busiest in the world. Cargoes that had travelled",
+          "anchor": "para-1"
+        }
+      },
+      "2": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "the 12th century and as impractical as its early date implies. By 1820, London Bridge",
+          "anchor": "para-1"
+        }
+      },
+      "3": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "closer to the docks, there would be good money to be made in tolls paid by users. Another",
+          "anchor": "para-2"
+        }
+      },
+      "4": {
+        "accepted": [
+          "FALSE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "tolls paid by users. Another bridge was out of the question, as this would deny",
+          "anchor": "para-2"
+        }
+      },
+      "5": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "it might appear. Although increasing demand for coal had meant a great many tunnels had been dug in",
+          "anchor": "para-2"
+        }
+      },
+      "6": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "little to guide them, as there had been no previous attempt to do this. Their chief engineer was",
+          "anchor": "para-2"
+        }
+      },
+      "7": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "go disastrously wrong, with muddy soil pouring into the tunnel. Eventually, the Thames Archway",
+          "anchor": "para-2"
+        }
+      },
+      "8": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Company had had enough. Its funds were exhausted, Trevithick was sick from",
+          "anchor": "para-2"
+        }
+      },
+      "9": {
+        "accepted": [
+          "worm"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "it was infested with something that looked like a worm. Brunel realised that as",
+          "anchor": "para-3"
+        }
+      },
+      "10": {
+        "accepted": [
+          "clay"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the muddy river bottom, where they could expect to find clay. This would be a",
+          "anchor": "para-3"
+        }
+      },
+      "11": {
+        "accepted": [
+          "dizziness"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "They also complained of frequent headaches and dizziness, caused by the poor",
+          "anchor": "para-4"
+        }
+      },
+      "12": {
+        "accepted": [
+          "accidents"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "very weak glow, and there were a number of accidents because the miners could not see what they were doing.",
+          "anchor": "para-4"
+        }
+      },
+      "13": {
+        "accepted": [
+          "government"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "project was completed, and the government loan he had required to complete the project",
+          "anchor": "para-5"
+        }
+      },
+      "14": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "Scholars aren’t quite sure about the origins of applause, but the form that",
+          "anchor": "para-1"
+        }
+      },
+      "15": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "– 476 AD) where applause became a way for leaders to interact directly with their citizens. One of the chief",
+          "anchor": "para-2"
+        }
+      },
+      "16": {
+        "accepted": [
+          "J"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "Clever leaders of the ancient world researched their rivals, too. Cicero, the Roman",
+          "anchor": "para-3"
+        }
+      },
+      "17": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "more and more elaborate. Applause no longer meant simply ‘claps’. While Greco-Roman audiences",
+          "anchor": "para-4"
+        }
+      },
+      "18": {
+        "accepted": [
+          "H"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "Daurat is credited with bringing back the Roman practice of hiring professional applauders. In France, this group",
+          "anchor": "para-5"
+        }
+      },
+      "19": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "In the 18th century, symphonies and concerts became more serious, aligning themselves with the",
+          "anchor": "para-6"
+        }
+      },
+      "20": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "the 21st century, we’re reinventing applause to make it what it’s always been: a coded",
+          "anchor": "para-7"
+        }
+      },
+      "23": {
+        "accepted": [
+          "silence"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "associated with religious ceremonies. Knowing when to maintain silence, as well as when",
+          "anchor": "para-6"
+        }
+      },
+      "24": {
+        "accepted": [
+          "opera"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "dialogue with an audience, especially so with opera, where the singers saw",
+          "anchor": "para-6"
+        }
+      },
+      "25": {
+        "accepted": [
+          "reward"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "institutionalized, and had become an expectation rather than the reward it used to be.",
+          "anchor": "para-6"
+        }
+      },
+      "26": {
+        "accepted": [
+          "more permanent"
+        ],
+        "type": "Sentence completion",
+        "evidence": {
+          "snippet": "momentary and short-lived but is far more permanent instead.",
+          "anchor": "para-7"
+        }
+      },
+      "27": {
+        "accepted": [
+          "giant clams"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "the group, Elias Stadiatis, decided to dive in search of giant clams to eat for their",
+          "anchor": "para-A"
+        }
+      },
+      "28": {
+        "accepted": [
+          "ten months",
+          "10 months"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "government. They spent the next ten months bringing up pieces of marble and bronze",
+          "anchor": "para-A"
+        }
+      },
+      "29": {
+        "accepted": [
+          "marble and bronze"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "ten months bringing up pieces of marble and bronze statues, amphorae, lamps and coins,",
+          "anchor": "para-A"
+        }
+      },
+      "30": {
+        "accepted": [
+          "wooden casing"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "unprepossessing lump of bronze inside what seemed to be a wooden casing. This object was covered",
+          "anchor": "para-B"
+        }
+      },
+      "31": {
+        "accepted": [
+          "inscriptions"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "14 cm in diameter, with some inscriptions on it. Some other fragments also",
+          "anchor": "para-B"
+        }
+      },
+      "32": {
+        "accepted": [
+          "mechanical clock"
+        ],
+        "type": "Summary completion",
+        "evidence": {
+          "snippet": "point to this being part of a kind of mechanical clock, but the researchers ultimately",
+          "anchor": "para-B"
+        }
+      },
+      "33": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "surface of the water, he chanced upon the wreck of an ancient ship. Fragments of statues, looking",
+          "anchor": "para-A"
+        }
+      },
+      "34": {
+        "accepted": [
+          "H"
+        ],
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "he and his companions returned to dive on the Antikythera wreck on behalf of the Greek government. They spent the next",
+          "anchor": "para-A"
+        }
+      },
+      "35": {
+        "accepted": [
+          "F"
+        ],
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "the leading Greek archaeologist Valerios Stais noticed that the wooden covering had dried out and split open,",
+          "anchor": "para-B"
+        }
+      },
+      "36": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "the hidden gears and allowed Price to develop schematic drawings of how the mechanism",
+          "anchor": "para-D"
+        }
+      },
+      "37": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching sentence endings",
+        "evidence": {
+          "snippet": "machine, nicknamed BladeRunner, was originally designed to detect cracks in aircraft turbine blades by means of three-dimensional",
+          "anchor": "para-E"
+        }
+      },
+      "38": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "kept on the mantelpiece, the mechanism had a circular dial at the front with rotating hands. Rather than showing hours",
+          "anchor": "para-F"
+        }
+      },
+      "39": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "hours and minutes, however, these hands indicated the positions of the sun and the moon in the",
+          "anchor": "para-F"
+        }
+      },
+      "40": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "built the Antikythera mechanism two thousand years or more before we developed the technological skills to start unlocking its",
+          "anchor": "para-G"
+        }
+      }
+    },
+    "sets": [
+      {
+        "questions": [
+          21,
+          22
+        ],
+        "accepted": [
+          "A",
+          "D"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "remained. 16th-century French poet Jean Daurat is credited with bringing back the Roman practice of hiring professional applauders.",
+          "anchor": "para-5"
+        }
+      }
+    ]
+  },
+  "slug": "reading-volume-10-test-5",
+  "isPremium": false,
+  "series": "REAL_EXAM",
+  "seriesNumber": 10,
+  "testNumber": 5
+}

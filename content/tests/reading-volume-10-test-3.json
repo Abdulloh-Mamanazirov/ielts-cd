@@ -1,0 +1,791 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "skill": "reading",
+    "title": "IELTS Reading — Volume 10, Test 3",
+    "totalQuestions": 40,
+    "durationSeconds": 3600,
+    "parts": [
+      {
+        "number": 1,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 1–13</strong>.</p>",
+        "passageHtml": "<h1>Sleep Study on Modern-Day Hunter-Gatherers Dispels Popular Notions</h1><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;The sleep troubles common in modern life have long been blamed on our industrial society, from the city lights, long work hours and commutes, to caffeine and the Internet. Sleep researchers often look back on a time when humans were able to get more rest by sleeping and waking to the rhythms of the sun. It turns out that this may not be quite right. In fact, our ancestors may not have been getting the recommended eight hours of sleep, either.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;In a recent study, researchers traveled all over the world to examine sleep in some of the world's last remaining hunter-gatherer societies – the Hadza of Tanzania, the San of Namibia, and the Tsimane of Bolivia. Cut off from media, electricity and other distractions, these pre-industrial societies are thought to sleep the way humans did more than 10,000 years ago. Traveling to where they lived, often in humid, remote locations, researchers used medical devices to record the sleeping habits of 94 of these tribespeople and ended up collecting data representing 1,165 days.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;They found very similar sleep patterns despite their geographic isolation. On average, all three groups sleep a little less than 6.5 hours a night, do not take naps, and don't go to sleep when it gets dark. Like many of us, the Hadza, San, and Tsimane spend more time in bed – from 6.9 to 8.5 hours – than they do actually sleeping. This adds up to a sleep efficiency that is very similar to today's industrial populations.</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;According to Jerome Siegel, director of the University of California's Center for Sleep Research, evidence suggests sleep habits may not be environmental or cultural, but central to the physical makeup of humans. These findings question the millions of dollars that have been spent on research that tries to explain why some sleepers get only about six hours of sleep a night. Also, such findings question whether lack of sleep is a cause of obesity, mood disorders, and other physical and mental illnesses which have become so common in recent decades. Scientists have documented that people's energy often falls in the mid-afternoon. Some have suggested that it's because we've managed to suppress a natural desire for a nap.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;However, the new study provides evidence that this is unlikely, and that napping was actually rare in hunter-gatherer societies. The researchers estimated that naps may have occurred on up to 7 percent of winter days and 22 percent of summer days. They noted that their devices were only good at detecting longer naps, so it is possible that some of the study subjects took naps that were short, perhaps 15 minutes or less.</p></div><div class=\"passage-section\" id=\"para-F\"><p><strong>F</strong>&nbsp;&nbsp;Another fascinating finding from the study had to do with the circadian rhythms, our daily activity cycles related to sunlight. Instead of going to sleep right at dusk, tribespeople were staying awake an average of between 2.5 and 4.4 hours after sunset. All three tribes had fires going, but the light itself was much lower than you might get from a light bulb. They did, however, have a tendency to wake up anywhere between an hour before and an hour after sunrise.</p></div><div class=\"passage-section\" id=\"para-G\"><p><strong>G</strong>&nbsp;&nbsp;Siegel and his co-authors investigated this further by looking into the significance of temperature. They found that it also played a big role, though it was somewhat less important than light in influencing sleep patterns. They wrote that \"sleep in both the winter and summer usually occurred during the period of cooling and that waking times usually occurred near the height of the daily warming trend.\"</p></div><div class=\"passage-section\" id=\"para-H\"><p><strong>H</strong>&nbsp;&nbsp;The tribespeople that were studied are different from people living in modern conditions in a number of respects. Importantly, almost none of them were troubled by sleeplessness. In interviews with the researchers conducted through interpreters, only 1.5 to 2.5 percent of the study subjects said they had severe difficulties sleeping more than once a year. This figure is far lower than the 10 to 30 percent recorded in many industrialized countries today. Siegel suggested that \"mimicking aspects of the natural environment\" may therefore help treat some sleep disorders.</p></div><div class=\"passage-section\" id=\"para-I\"><p><strong>I</strong>&nbsp;&nbsp;The tribespeople are also much healthier. Not a single one is overweight, indicating their overall higher levels of physical fitness. They also tended to have healthier hearts. Thus comes a critical question. If we can't blame our health problems on our lack of sleep, could it be that the reason we feel so unrested is because of poor health?</p></div>",
+        "groups": [
+          {
+            "id": "p1-g1",
+            "type": "tfng",
+            "rubricHtml": "<h3>Questions 1–4</h3><p>Do the following statements agree with the information given in Reading Passage 1?</p><p>Write <strong>TRUE</strong> if the statement agrees with the information, <strong>FALSE</strong> if the statement contradicts the information, or <strong>NOT GIVEN</strong> if there is no information on this.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 1,
+                "textHtml": "Scientists studied hunter-gatherer societies because their sleep patterns are assumed to be similar to those of humans more than 10,000 years ago."
+              },
+              {
+                "number": 2,
+                "textHtml": "The medical devices used in the research were specially designed for humid conditions."
+              },
+              {
+                "number": 3,
+                "textHtml": "Researchers found that tribespeople stayed longer in bed than inhabitants of industrialised regions."
+              },
+              {
+                "number": 4,
+                "textHtml": "Jerome Siegel believes that environment and culture have little effect on sleep patterns"
+              }
+            ]
+          },
+          {
+            "id": "p1-g2",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 5–13</h3><p>Complete the notes below.</p><p>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">New Evidence on Sleep Patterns</div><p class=\"sub-head\">New ideas about napping</p><ul class=\"notes-list\"><li>scientists have recorded an afternoon drop in {{5}}</li><li>studies of hunter-gatherer societies show that napping was rare and occurred more often during the {{6}}</li><li>the devices may not have detected {{7}} naps</li></ul><p class=\"sub-head\">Daily activity cycles</p><ul class=\"notes-list\"><li>the tribespeople went to sleep several hours after sunset with {{8}}</li><li>there was little light</li><li>tribespeople usually woke up around {{9}}</li><li>scientists found that {{10}} had almost as much influence on sleep patterns as light</li></ul><p class=\"sub-head\">Differences between tribespeople and people in industrialised regions</p><ul class=\"notes-list\"><li>{{11}} is something that very few of the tribespeople suffered from</li><li>the environment of tribespeople may have been more suitable for sleep</li><li>tribespeople had better fitness than industrialised populations and were not {{12}}</li><li>tribespeople also had stronger {{13}}</li></ul></div>",
+            "maxWords": 1
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 14–26</strong>.</p>",
+        "passageHtml": "<h1>Bristlecone Pines</h1><div class=\"passage-section\" id=\"para-A\"><p><strong>A</strong>&nbsp;&nbsp;On the dry, windswept mountain tops of the Great Basin in the western United States, at altitudes of over 3,000 m, grow the bristlecone pines (Pinus longaeva, Pinus aristata). The bristlecone has adjusted to places on earth that no other tree wants to inhabit, and in these harsh environments has flourished. Bristlecones don't grow very tall, 18.3 m at the most, but usually much less, while the girth of the largest one has been measured at 11.2 m. What makes bristlecone pines truly remarkable is their longevity: their average age is over 1,000 years, with the oldest specimen - an individual known as Methuselah - dated at 4,723 years. This makes it not only the world's oldest living tree; it is also the earth's oldest living inhabitant. The extreme age of bristlecone pines was not known about until the 1950s, and was only discovered then thanks to the efforts of Edmund Schulman. In 1932, Schulman had begun his career in dendrochronology as an assistant to A. E. Douglass of the Laboratory of Tree-ring Research at the University of Arizona.</p></div><div class=\"passage-section\" id=\"para-B\"><p><strong>B</strong>&nbsp;&nbsp;Douglass had noted that the wide rings of certain species of trees were produced during wet years and, inversely, narrow rings during dry seasons. The more a tree's rate of growth has been affected by such environmental factors, the more variation in ring-to-ring growth will be present. This variation is referred to as sensitivity and the lack of ring variability is called complacency. Patterns of ring variability are important for establishing chronologies, which allow precise dating of climatic conditions in the past. Samples taken from trees of unknown age can be studied for matches with samples from trees of a known age with known sequences of growth. Using this process, when the rings match or are found to have overlapping patterns, the chronology can be extended further back in time.</p></div><div class=\"passage-section\" id=\"para-C\"><p><strong>C</strong>&nbsp;&nbsp;In his search for older trees that would provide more extensive chronologies, Schulman learned that certain species of trees in the upper-forest zones, growing under stressful conditions, showed sensitive records of drought in their growth-ring sequences. The short, distorted, and dwarfed trees of the upper tree lines were now his focus. During 1954 and 1955, an extensive survey of bristlecone stands from California to Colorado was carried out by Schulman and his assistant, C. W. Ferguson. They found the oldest trees at elevations of 3,048 to 3,354 m, often in seemingly impossible locations, on dolomite soils where no other plant life could survive. These trees showed large areas of deadwood and thin strips of living bark. The trees growing in the most extreme conditions, with scant soil and moisture, seemed to be the oldest. This prompted Schulman to write: 'The capacity of these trees to live so fantastically long may, when we come to understand it fully, perhaps serve as a guidepost on the road to the understanding of longevity in general.'</p></div><div class=\"passage-section\" id=\"para-D\"><p><strong>D</strong>&nbsp;&nbsp;So what factors do account for the longevity of bristlecone pines? Spring comes to the bristlecone pines in early May with the melting of snow and rising temperatures. In this subalpine zone there are only three warm summer months, often only six weeks, to produce growth and reserves for overwintering. All of this must be accomplished on a mere 25.4 cm of rainfall. To live so long under such conditions, the bristlecone has established several strategies. Firstly, bristlecone needles can live twenty to thirty years; thus, adding new foliage to that already on the tree takes little energy. The long-lived needles provide a stable photosynthetic capacity to sustain the tree over years of severe stress. Another strategy for surviving is the gradual dieback of living bark when the tree is damaged because of fire, lightning, drought, or storms. This reduction of tissue that the crown of the tree has to supply with nutrients balances the effect of any damage sustained. The surviving parts remain quite healthy. As an example, Pine Alpha, at over 4,000 years old, is over a metre in diameter, yet has only a 25 cm strip of living bark to support it. Finally, invasions from bacteria, fungi, or insects that prey upon most plants are unknown to the bristlecones due to their highly resinous wood.</p></div><div class=\"passage-section\" id=\"para-E\"><p><strong>E</strong>&nbsp;&nbsp;Environmental factors also play their part. The dry air common in the subalpine region helps preserve the trees from rotting. The oldest bristlecones live in the most exposed sites, with considerable space between each tree. The longevity of the bristlecone needles and the inability of other plants to grow in the dolomite soil preferred by the bristlecones make for little leaf litter. This distance in between, combined with the lack of ground cover, ensures that if a tree sustains a lightning strike and catches fire, the fire does not spread to surrounding trees. Thus, the bristlecone pines have survived for unknown centuries. The current threat is from all the people who come to visit them. As a result, Methuselah, the oldest tree, is not marked or identified with a plaque due to the threat of vandalism. The recording of past events provided by these trees, along with their great beauty, is too valuable for us to lose.</p></div>",
+        "groups": [
+          {
+            "id": "p2-g1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 14–17</h3><p>Reading Passage 2 has five paragraphs, <strong>A–E</strong>.</p><p>Which paragraph contains the following information?</p><p><strong>NB</strong> You may use any letter more than once.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "A"
+              },
+              {
+                "letter": "B",
+                "textHtml": "B"
+              },
+              {
+                "letter": "C",
+                "textHtml": "C"
+              },
+              {
+                "letter": "D",
+                "textHtml": "D"
+              },
+              {
+                "letter": "E",
+                "textHtml": "E"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "textHtml": "an explanation of differences in ring patterns"
+              },
+              {
+                "number": 15,
+                "textHtml": "mention of a human danger to bristlecone pines"
+              },
+              {
+                "number": 16,
+                "textHtml": "an account of research conducted on bristlecone pines"
+              },
+              {
+                "number": 17,
+                "textHtml": "an advantage of the bristlecone pines' habitat"
+              }
+            ]
+          },
+          {
+            "id": "p2-g2",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 18–20</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 18,
+                "textHtml": "According to the writer, the most interesting fact about bristlecone pines is their",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "habitat."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "height."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "width."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "age."
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "textHtml": "A pattern of narrow rings is caused by",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "alternating rainy and dry seasons."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "a lack of rain."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "restricted growth in some trees."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "high altitude."
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "textHtml": "Schulman chose to study trees growing at high levels because they were",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "shorter than similar trees."
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "growing in unusual shapes."
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "much older than other trees."
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "the only surviving plants."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p2-g3",
+            "type": "completion",
+            "rubricHtml": "<h3>Questions 21–26</h3><p>Complete the notes below.</p><p>Choose <strong>NO MORE THAN TWO WORDS</strong> from the passage for each answer.</p>",
+            "selectCount": 1,
+            "bodyHtml": "<div class=\"summary\"><div class=\"summary-title\">Factors in the survival of bristlecone pines</div><p class=\"sub-head\">a. features of bristlecone pines</p><ul class=\"notes-list\"><li>making new needles requires {{21}}</li><li>trees damaged by weather or fire can exist with only small areas of {{22}}</li><li>bristlecone wood is very {{23}}</li></ul><p class=\"sub-head\">b. features of the environment</p><ul class=\"notes-list\"><li>trees don't decay because of the {{24}}</li><li>fires don't spread easily because of the {{25}} between trees and absence of {{26}}</li></ul></div>",
+            "maxWords": 2
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instructionsHtml": "<p>You should spend about 20 minutes on <strong>Questions 27–40</strong>.</p>",
+        "passageHtml": "<h1>Loss of Rare Languages</h1><p class=\"passage-intro\"><em>\"Obviously we must do some serious rethinking of our priorities, lest linguistics go down in history as the only science that presided obliviously over the disappearance of 90 percent of the very field to which it is dedicated.\" – Michael Krauss, \"The World's Languages in Crisis\"</em></p><div class=\"passage-section\" id=\"para-1\"><p><strong>1</strong>&nbsp;&nbsp;Ten years ago, Michael Krauss sent a shudder through the discipline of linguistics with his prediction that half the 6,000 or so languages spoken in the world would cease to be uttered within a century. Unless scientists and community leaders directed a worldwide effort to stabilize the decline of local languages, he warned, nine tenths of the linguistic diversity of humankind would probably be doomed to extinction. Krauss's prediction was little more than an educated guess, but other respected linguists had been clanging out similar alarms. Kenneth L. Hale of the Massachusetts Institute of Technology noted in the same journal issue that eight languages on which he had done fieldwork had since passed into extinction. A 1990 survey in Australia found that 70 of the 90 surviving Aboriginal languages were no longer used regularly by all age groups. The same was true for all but 20 of the 175 Native American languages spoken or remembered in the US, Krauss told a congressional panel in 1992.</p></div><div class=\"passage-section\" id=\"para-2\"><p><strong>2</strong>&nbsp;&nbsp;Many experts in the field mourn the loss of rare languages, for several reasons. To start, there is scientific self-interest; some of the most basic questions in linguistics have to do with the limits of human speech, which are far from fully explored. Many researchers would like to know which structural elements of grammar and vocabulary—if any—are truly universal and probably therefore hardwired into the human brain. Other scientists try to reconstruct ancient migration patterns by comparing borrowed words that appear in otherwise unrelated languages. In each of these cases, the wider the portfolio of languages you study, the more likely you are to get the right answers.</p></div><div class=\"passage-section\" id=\"para-3\"><p><strong>3</strong>&nbsp;&nbsp;Despite the near constant buzz in linguistics about endangered languages over the past 10 years, the field has accomplished depressingly little. \"You would think that there would be some organized response to this dire situation—some attempt to determine which language can be saved and which should be documented before they disappear,\" says Sarah G. Thomason, a linguist at the University of Michigan at Ann Arbor. \"But there isn't any such effort organized in the profession. It is only recently that it has become fashionable enough to work on endangered languages.\" Six years ago, recalls Douglas H. Whalen of Yale University, \"when I asked linguists who was raising money to deal with these problems, I mostly got blank stares.\" So, Whalen and a few other linguists founded the Endangered Languages Fund. In the five years to 2001 they were able to collect only $80,000 for research grants. A similar foundation in England, directed by Nicholas Ostler, has raised just $8,000 since 1995.</p></div><div class=\"passage-section\" id=\"para-4\"><p><strong>4</strong>&nbsp;&nbsp;But there are encouraging signs that the field has turned a corner. The Volkswagen Foundation, a German charity, just issued its second round of grants totaling more than $2 million. It has created a multimedia archive at the Max Planck Institute for Psycholinguistics in the Netherlands that can house recordings, grammars, dictionaries and other data on endangered languages. To fill the archive, the foundation has dispatched field linguists to document Aweti (100 or so speakers in Brazil), Ega (about 300 speakers in Ivory Coast), Waima'a (a few hundred speakers in East Timor), and a dozen or so other languages unlikely to survive the century. The Ford Foundation has also edged into the arena. Its contributions helped to reinvigorate a master-apprentice program created in 1992 by Leanne Hinton of Berkeley and Native Americans worried about the imminent demise of about 50 indigenous languages in California. Fluent speakers receive $3,000 to teach a younger relative (who is also paid) their native tongue through 360 hours of shared activities, spread over six months. So far about 50 teams have completed the program, Hinton says, transmitting at least some knowledge of 25 languages. \"It's too early to call this language revitalization,\" Hinton admits. \"In California the death rate of elderly speakers will always be greater than the recruitment rate of young speakers. But at least we prolong the survival of the language.\" That will give linguists more time to record these tongues before they vanish.</p></div><div class=\"passage-section\" id=\"para-5\"><p><strong>5</strong>&nbsp;&nbsp;But the master-apprentice approach hasn't caught on outside the U.S., and Hinton's effort is a drop in the sea. At least 440 languages have been reduced to a mere handful of elders, according to the Ethnologue, a catalogue of languages produced by the Dallas-based group SIL International that comes closest to global coverage. For the vast majority of these languages, there is little or no record of their grammar, vocabulary, pronunciation or use in daily life. Even if a language has been fully documented, all that remains once it vanishes from active use is a fossil skeleton, a scattering of features that the scientist was lucky and astute enough to capture. Linguists may be able to sketch an outline of the forgotten language and fix its place on the evolutionary tree, but little more. \"How did people start conversations and talk to babies? How did husbands and wives converse?\" Hinton asks. \"Those are the first things you want to learn when you want to revitalize the language.\"</p></div><div class=\"passage-section\" id=\"para-6\"><p><strong>6</strong>&nbsp;&nbsp;But there is as yet no discipline of \"conservation linguistics,\" as there is for biology. Almost every strategy tried so far has succeeded in some places but failed in others, and there seems to be no way to predict with certainty what will work where. Twenty years ago in New Zealand, Maori speakers set up \"language nests,\" in which preschoolers were immersed in the native language. Additional Maori-only classes were added as the children progressed through elementary and secondary school. A similar approach was tried in Hawaii, with some success—the number of native speakers has stabilized at 1,000 or so, reports Joseph E. Grimes of SIL International, who is working on Oahu. Students can now get instruction in Hawaiian all the way through university.</p></div><div class=\"passage-section\" id=\"para-7\"><p><strong>7</strong>&nbsp;&nbsp;One factor that always seems to occur in the demise of a language is that the speakers begin to have collective doubts about the usefulness of language loyalty. Once they start regarding their own language as inferior to the majority language, people stop using it for all situations. Kids pick up on the attitude and prefer the dominant language. In many cases, people don't notice until they suddenly realize that their kids never speak the language, even at home. This is how Cornish, and some dialects of Scottish Gaelic, died out. Irish is still only rarely used for daily home life in Ireland, 80 years after the republic was founded with Irish as its first official language.</p></div><div class=\"passage-section\" id=\"para-8\"><p><strong>8</strong>&nbsp;&nbsp;Linguists agree that ultimately, the answer to the problem of language extinction is multilingualism. Even uneducated people can learn several languages, as long as they start as children. Indeed, most people in the world speak more than one tongue, and in places such as Cameroon (279 languages), Papua New Guinea (823) and India (387) it is common to speak three or four distinct languages and a dialect or two as well. Most Americans and Canadians, to the west of Quebec, have a gut reaction that anyone speaking another language in front of them is committing an immoral act. You get the same reaction in Australia and Russia. It is no coincidence that these are the areas where languages are disappearing the fastest. The first step in saving dying languages is to persuade the world's majorities to allow the minorities among them to speak with their own voices.</p></div>",
+        "groups": [
+          {
+            "id": "p3-g1",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 27–33</h3><p>Reading Passage 3 has eight paragraphs, <strong>1–8</strong>.</p><p>Choose the correct heading for each paragraph from the list of headings below.</p><p><strong>Example:</strong> Paragraph 3 — <em>A period when there was an absence of real efforts made</em></p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Inadequate data"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Consensus on an initial recommendation for saving dying out languages"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Positive gains in protection efforts"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Minimum requirement for saving a language"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Potential threat to minority languages"
+              },
+              {
+                "letter": "F",
+                "textHtml": "A period when there was an absence of real efforts made"
+              },
+              {
+                "letter": "G",
+                "textHtml": "Uncertainty about the success of native language programs"
+              },
+              {
+                "letter": "H",
+                "textHtml": "Lack in confidence in young speakers as a negative factor"
+              },
+              {
+                "letter": "I",
+                "textHtml": "Practice in several developing countries"
+              },
+              {
+                "letter": "J",
+                "textHtml": "Value of minority languages to linguists"
+              },
+              {
+                "letter": "K",
+                "textHtml": "Government participation in language field"
+              }
+            ],
+            "questions": [
+              {
+                "number": 27,
+                "textHtml": "Paragraph 1"
+              },
+              {
+                "number": 28,
+                "textHtml": "Paragraph 2"
+              },
+              {
+                "number": 29,
+                "textHtml": "Paragraph 4"
+              },
+              {
+                "number": 30,
+                "textHtml": "Paragraph 5"
+              },
+              {
+                "number": 31,
+                "textHtml": "Paragraph 6"
+              },
+              {
+                "number": 32,
+                "textHtml": "Paragraph 7"
+              },
+              {
+                "number": 33,
+                "textHtml": "Paragraph 8"
+              }
+            ]
+          },
+          {
+            "id": "p3-g2",
+            "type": "matching",
+            "rubricHtml": "<h3>Questions 34–38</h3><p>Look at the following statements (Questions 34–38) and the list of people below.</p><p>Match each statement with the correct person, <strong>A–F</strong>.</p>",
+            "selectCount": 1,
+            "wordBank": [
+              {
+                "letter": "A",
+                "textHtml": "Nicholas Ostler"
+              },
+              {
+                "letter": "B",
+                "textHtml": "Michael Krauss"
+              },
+              {
+                "letter": "C",
+                "textHtml": "Joseph E. Grimes"
+              },
+              {
+                "letter": "D",
+                "textHtml": "Sarah G. Thomason"
+              },
+              {
+                "letter": "E",
+                "textHtml": "Kenneth L. Hale"
+              },
+              {
+                "letter": "F",
+                "textHtml": "Douglas H. Whalen"
+              }
+            ],
+            "questions": [
+              {
+                "number": 34,
+                "textHtml": "Reported about the success of a language conservation practice in Hawaii"
+              },
+              {
+                "number": 35,
+                "textHtml": "Predicted that many languages would disappear soon"
+              },
+              {
+                "number": 36,
+                "textHtml": "Experienced loss of languages he had worked on personally"
+              },
+              {
+                "number": 37,
+                "textHtml": "Raised language funds in England"
+              },
+              {
+                "number": 38,
+                "textHtml": "Not enough effort on saving languages until recent work"
+              }
+            ]
+          },
+          {
+            "id": "p3-g3",
+            "type": "mcq",
+            "rubricHtml": "<h3>Questions 39 and 40</h3><p>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</p>",
+            "selectCount": 1,
+            "questions": [
+              {
+                "number": 39,
+                "textHtml": "What is real result of master-apprentice program sponsored by The Ford Foundation?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "Teach children how to speak native languages"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "Revive some endangered languages in California"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "Postpone the dying date for some endangered languages"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "Increase communication between students"
+                  }
+                ]
+              },
+              {
+                "number": 40,
+                "textHtml": "What should majority language speakers do according to the last paragraph?",
+                "options": [
+                  {
+                    "letter": "A",
+                    "textHtml": "They should teach their children endangered languages"
+                  },
+                  {
+                    "letter": "B",
+                    "textHtml": "They should learn at least four languages"
+                  },
+                  {
+                    "letter": "C",
+                    "textHtml": "They should show their loyalty to a dying language"
+                  },
+                  {
+                    "letter": "D",
+                    "textHtml": "They should be more tolerant of minority language speakers"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "answerKey": {
+    "schemaVersion": 1,
+    "answers": {
+      "1": {
+        "accepted": [
+          "TRUE"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "distractions, these pre-industrial societies are thought to sleep the way humans did more than 10,000 years",
+          "anchor": "para-B"
+        }
+      },
+      "2": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "in humid, remote locations, researchers used medical devices to record the sleeping habits of 94 of these",
+          "anchor": "para-B"
+        }
+      },
+      "3": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Hadza, San, and Tsimane spend more time in bed – from 6.9 to",
+          "anchor": "para-C"
+        }
+      },
+      "4": {
+        "accepted": [
+          "NOT GIVEN"
+        ],
+        "type": "True/False/Not Given",
+        "evidence": {
+          "snippet": "Sleep Research, evidence suggests sleep habits may not be environmental or cultural, but central to the",
+          "anchor": "para-D"
+        }
+      },
+      "5": {
+        "accepted": [
+          "energy"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "have documented that people's energy often falls in the mid-afternoon. Some have suggested that",
+          "anchor": "para-D"
+        }
+      },
+      "6": {
+        "accepted": [
+          "summer"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "of winter days and 22 percent of summer days. They noted that their",
+          "anchor": "para-E"
+        }
+      },
+      "7": {
+        "accepted": [
+          "short"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "of the study subjects took naps that were short, perhaps 15 minutes or",
+          "anchor": "para-E"
+        }
+      },
+      "8": {
+        "accepted": [
+          "fires"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "4.4 hours after sunset. All three tribes had fires going, but the light itself",
+          "anchor": "para-F"
+        }
+      },
+      "9": {
+        "accepted": [
+          "sunrise"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "an hour before and an hour after sunrise.",
+          "anchor": "para-F"
+        }
+      },
+      "10": {
+        "accepted": [
+          "temperature"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "investigated this further by looking into the significance of temperature. They found that it",
+          "anchor": "para-G"
+        }
+      },
+      "11": {
+        "accepted": [
+          "sleeplessness"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "number of respects. Importantly, almost none of them were troubled by sleeplessness. In interviews with the",
+          "anchor": "para-H"
+        }
+      },
+      "12": {
+        "accepted": [
+          "overweight"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "are also much healthier. Not a single one is overweight, indicating their overall higher",
+          "anchor": "para-I"
+        }
+      },
+      "13": {
+        "accepted": [
+          "hearts"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "physical fitness. They also tended to have healthier hearts. Thus comes a critical",
+          "anchor": "para-I"
+        }
+      },
+      "14": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "Douglass had noted that the wide rings of certain species of trees were produced during wet years and,",
+          "anchor": "para-B"
+        }
+      },
+      "15": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "a plaque due to the threat of vandalism. The recording of past",
+          "anchor": "para-E"
+        }
+      },
+      "16": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "During 1954 and 1955, an extensive survey of bristlecone stands from California to Colorado",
+          "anchor": "para-C"
+        }
+      },
+      "17": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching information",
+        "evidence": {
+          "snippet": "in the subalpine region helps preserve the trees from rotting. The oldest bristlecones live",
+          "anchor": "para-E"
+        }
+      },
+      "18": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "measured at 11.2 m. What makes bristlecone pines truly remarkable is their longevity: their average age",
+          "anchor": "para-A"
+        }
+      },
+      "19": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "wet years and, inversely, narrow rings during dry seasons. The more a tree's",
+          "anchor": "para-B"
+        }
+      },
+      "20": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "In his search for older trees that would provide more",
+          "anchor": "para-C"
+        }
+      },
+      "21": {
+        "accepted": [
+          "little energy"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "already on the tree takes little energy. The long-lived needles provide",
+          "anchor": "para-D"
+        }
+      },
+      "22": {
+        "accepted": [
+          "living bark"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "metre in diameter, yet has only a 25 cm strip of living bark to support",
+          "anchor": "para-D"
+        }
+      },
+      "23": {
+        "accepted": [
+          "resinous"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "the bristlecones due to their highly resinous wood.",
+          "anchor": "para-D"
+        }
+      },
+      "24": {
+        "accepted": [
+          "dry air"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "also play their part. The dry air common in the subalpine region helps preserve the",
+          "anchor": "para-E"
+        }
+      },
+      "25": {
+        "accepted": [
+          "distance"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "for little leaf litter. This distance in between, combined with the lack",
+          "anchor": "para-E"
+        }
+      },
+      "26": {
+        "accepted": [
+          "ground cover"
+        ],
+        "type": "Note completion",
+        "evidence": {
+          "snippet": "in between, combined with the lack of ground cover, ensures that if a",
+          "anchor": "para-E"
+        }
+      },
+      "27": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "years ago, Michael Krauss sent a shudder through the discipline of linguistics with his prediction that",
+          "anchor": "para-1"
+        }
+      },
+      "28": {
+        "accepted": [
+          "J"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "Many experts in the field mourn the loss of rare languages, for several reasons. To",
+          "anchor": "para-2"
+        }
+      },
+      "29": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "But there are encouraging signs that the field has turned a corner. The Volkswagen Foundation, a",
+          "anchor": "para-4"
+        }
+      },
+      "30": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "wives converse?\" Hinton asks. \"Those are the first things you want to",
+          "anchor": "para-5"
+        }
+      },
+      "31": {
+        "accepted": [
+          "G"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "failed in others, and there seems to be no way to predict with certainty what will work where. Twenty years ago in",
+          "anchor": "para-6"
+        }
+      },
+      "32": {
+        "accepted": [
+          "H"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "speakers begin to have collective doubts about the usefulness of language loyalty. Once they start regarding",
+          "anchor": "para-7"
+        }
+      },
+      "33": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching headings",
+        "evidence": {
+          "snippet": "Linguists agree that ultimately, the answer to the problem of language extinction is multilingualism. Even uneducated",
+          "anchor": "para-8"
+        }
+      },
+      "34": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "at 1,000 or so, reports Joseph E. Grimes of SIL International, who is working on",
+          "anchor": "para-6"
+        }
+      },
+      "35": {
+        "accepted": [
+          "B"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "the discipline of linguistics with his prediction that half the 6,000 or so languages spoken in the world",
+          "anchor": "para-1"
+        }
+      },
+      "36": {
+        "accepted": [
+          "E"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "same journal issue that eight languages on which he had done fieldwork had since passed",
+          "anchor": "para-1"
+        }
+      },
+      "37": {
+        "accepted": [
+          "A"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "similar foundation in England, directed by Nicholas Ostler, has raised",
+          "anchor": "para-3"
+        }
+      },
+      "38": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Matching features",
+        "evidence": {
+          "snippet": "organized in the profession. It is only recently that it has become fashionable enough to work",
+          "anchor": "para-3"
+        }
+      },
+      "39": {
+        "accepted": [
+          "C"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "rate of young speakers. But at least we prolong the survival of the language.\" That will give",
+          "anchor": "para-4"
+        }
+      },
+      "40": {
+        "accepted": [
+          "D"
+        ],
+        "type": "Multiple choice",
+        "evidence": {
+          "snippet": "persuade the world's majorities to allow the minorities among them to speak with their own voices.",
+          "anchor": "para-8"
+        }
+      }
+    },
+    "sets": []
+  },
+  "slug": "reading-volume-10-test-3",
+  "isPremium": false,
+  "series": "REAL_EXAM",
+  "seriesNumber": 10,
+  "testNumber": 3
+}
