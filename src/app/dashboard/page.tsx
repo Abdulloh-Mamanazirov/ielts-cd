@@ -31,6 +31,7 @@ export default async function DashboardPage() {
       select: {
         id: true,
         mode: true,
+        fullMockId: true,
         rawScore: true,
         band: true,
         reviewRequested: true,
@@ -54,11 +55,11 @@ export default async function DashboardPage() {
     loadMockSettings(),
   ]);
 
-  // A mock whose numbers the instructor withholds is shown as sat, not scored:
+  // A full-mock section whose numbers the instructor withholds is shown as sat, not scored:
   // its band and score are blanked here so nothing below — the list, the best
   // band, the history chart, the weakest skill — can leak them.
   const attempts = rawAttempts.map((attempt) =>
-    revealsBands(mockSettings, attempt.mode)
+    revealsBands(mockSettings, Boolean(attempt.fullMockId))
       ? { ...attempt, withheld: false }
       : { ...attempt, band: null, rawScore: null, withheld: true },
   );

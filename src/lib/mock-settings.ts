@@ -1,9 +1,11 @@
 /**
  * What a student is shown after a mock, and how it ends.
  *
- * "Mock" here is any attempt sat in MOCK mode — a section of a full mock or an
- * event, or a single test started under exam timing. Practice is never
- * affected: its whole point is seeing the marking.
+ * "Mock" here means a section of a full mock — an ordinary one or a mock test
+ * event, which is a full mock with an event attached. A single test is never
+ * affected, whether it was sat as practice or under exam timing: a student who
+ * picks one paper to try wants its marking, and withholding it there only
+ * frustrated people the switches were never aimed at.
  *
  * Stored in `SiteSetting` under `mock` so the instructor can switch these from
  * the admin panel. All on by default, which is the behaviour before the
@@ -43,14 +45,18 @@ export function mergeMockSettings(stored: unknown): MockSettings {
   return out;
 }
 
-type Mode = "PRACTICE" | "MOCK";
-
-/** Whether this attempt's bands and scores may be shown to the student. */
-export function revealsBands(settings: MockSettings, mode: Mode): boolean {
-  return mode !== "MOCK" || settings.showSectionBands;
+/**
+ * Whether this attempt's bands and scores may be shown to the student.
+ *
+ * `withinFullMock` is whether the attempt is a section of a full mock or an
+ * event — `Boolean(attempt.fullMockId)`. Not the attempt's mode: a single test
+ * started under exam timing is a MOCK attempt too, and stays fully visible.
+ */
+export function revealsBands(settings: MockSettings, withinFullMock: boolean): boolean {
+  return !withinFullMock || settings.showSectionBands;
 }
 
-/** Whether this attempt's marked paper may be shown to the student. */
-export function revealsAnswers(settings: MockSettings, mode: Mode): boolean {
-  return mode !== "MOCK" || settings.showCorrectAnswers;
+/** Whether this attempt's marked paper may be shown to the student. Same rule. */
+export function revealsAnswers(settings: MockSettings, withinFullMock: boolean): boolean {
+  return !withinFullMock || settings.showCorrectAnswers;
 }

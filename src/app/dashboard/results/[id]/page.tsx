@@ -19,6 +19,7 @@ export default async function ResultPage({ params }: { params: Promise<{ id: str
     select: {
       id: true,
       mode: true,
+      fullMockId: true,
       rawScore: true,
       band: true,
       reviewRequested: true,
@@ -46,11 +47,11 @@ export default async function ResultPage({ params }: { params: Promise<{ id: str
 
   if (!attempt || !attempt.submittedAt) notFound();
 
-  // What a mock may show its student is the instructor's switch. Practice
-  // always shows everything.
+  // What a full mock or an event may show its student is the instructor's
+  // switch. A single test, practice or timed, always shows everything.
   const settings = await loadMockSettings();
-  const showBands = revealsBands(settings, attempt.mode);
-  const showAnswers = revealsAnswers(settings, attempt.mode);
+  const showBands = revealsBands(settings, Boolean(attempt.fullMockId));
+  const showAnswers = revealsAnswers(settings, Boolean(attempt.fullMockId));
 
   const stored = attempt.result as {
     verdicts?: QuestionVerdict[];

@@ -67,7 +67,8 @@ export default async function FullMockPage() {
   if (current) redirect(`/full-mock/${current.id}`);
 
   const ready = blockers.length === 0;
-  const showBands = revealsBands(mockSettings, "MOCK");
+  // The history lists full mocks only.
+  const showBands = revealsBands(mockSettings, true);
 
   return (
     <AppShell user={user} current="/full-mock">

@@ -69,9 +69,9 @@ export default async function FullMockProgressPage({
   const finished = mock.status === "COMPLETED";
   const abandoned = mock.status === "ABANDONED";
 
-  // Every section of a mock is a MOCK attempt, so the switches apply to all of it.
-  const showBands = revealsBands(settings, "MOCK");
-  const showAnswers = revealsAnswers(settings, "MOCK");
+  // This page is only ever a full mock, so the switches apply to all of it.
+  const showBands = revealsBands(settings, true);
+  const showAnswers = revealsAnswers(settings, true);
 
   return (
     <main className="min-h-dvh bg-surface-alt">

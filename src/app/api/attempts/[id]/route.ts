@@ -30,6 +30,7 @@ async function loadOwnedAttempt(id: string, userId: string) {
       submittedAt: true,
       rawScore: true,
       band: true,
+      fullMockId: true,
     },
   });
 }
@@ -44,7 +45,7 @@ export async function GET(_request: Request, context: { params: Promise<{ id: st
 
   // The numbers of a mock are the instructor's to release; this endpoint must
   // not hand them out when the pages are withholding them.
-  if (!revealsBands(await loadMockSettings(), attempt.mode)) {
+  if (!revealsBands(await loadMockSettings(), Boolean(attempt.fullMockId))) {
     return Response.json({ attempt: { ...attempt, rawScore: null, band: null } });
   }
 

@@ -94,21 +94,27 @@ describe("mergeMockSettings", () => {
 describe("what a mock reveals", () => {
   it("shows everything by default", () => {
     const s = mergeMockSettings(undefined);
-    assert.equal(revealsBands(s, "MOCK"), true);
-    assert.equal(revealsAnswers(s, "MOCK"), true);
+    assert.equal(revealsBands(s, true), true);
+    assert.equal(revealsAnswers(s, true), true);
   });
 
-  it("withholds from mocks only, never from practice", () => {
+  it("withholds from full mocks and events only", () => {
     const s = mergeMockSettings({ showSectionBands: false, showCorrectAnswers: false });
-    assert.equal(revealsBands(s, "MOCK"), false);
-    assert.equal(revealsAnswers(s, "MOCK"), false);
-    assert.equal(revealsBands(s, "PRACTICE"), true);
-    assert.equal(revealsAnswers(s, "PRACTICE"), true);
+    assert.equal(revealsBands(s, true), false);
+    assert.equal(revealsAnswers(s, true), false);
+  });
+
+  it("never withholds from a single test, practice or timed", () => {
+    // A single test started under exam timing is a MOCK attempt with no full
+    // mock behind it; the switches are not aimed at it.
+    const s = mergeMockSettings({ showSectionBands: false, showCorrectAnswers: false });
+    assert.equal(revealsBands(s, false), true);
+    assert.equal(revealsAnswers(s, false), true);
   });
 
   it("switches the two independently", () => {
     const s = mergeMockSettings({ showSectionBands: false });
-    assert.equal(revealsBands(s, "MOCK"), false);
-    assert.equal(revealsAnswers(s, "MOCK"), true);
+    assert.equal(revealsBands(s, true), false);
+    assert.equal(revealsAnswers(s, true), true);
   });
 });

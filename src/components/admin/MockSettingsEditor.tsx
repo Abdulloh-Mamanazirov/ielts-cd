@@ -35,8 +35,8 @@ const SWITCHES: Array<{
 /**
  * The switches for what a mock shows its student afterwards. Saved as flipped.
  *
- * They apply to anything sat under exam timing — a full mock, an event, or a
- * single test started as a mock — and never to practice.
+ * They apply to full mocks and events only — never to a single test, whether
+ * it was sat as practice or under exam timing.
  */
 export function MockSettingsEditor({ initial }: { initial: MockSettings }) {
   const [settings, setSettings] = useState<MockSettings>(initial);
@@ -64,10 +64,10 @@ export function MockSettingsEditor({ initial }: { initial: MockSettings }) {
     <section className="rounded-xl bg-white p-6 shadow-[0_1px_2px_rgba(11,17,32,.08)]">
       <h2 className="text-sm font-bold text-ink">After a mock</h2>
       <p className="mt-1.5 max-w-[62ch] text-[13px] leading-relaxed text-ink-muted">
-        What a student is shown once they finish a mock — a full mock, a mock test event, or a
-        single test sat under exam timing. Practice always shows everything. These are global:
-        switching one back on reveals the results of every past mock, which is how you release
-        them.
+        What a student is shown once they finish a full mock or a mock test event. A single
+        test always shows everything, whether it was sat as practice or under exam timing.
+        These are global: switching one back on reveals the results of every past mock, which
+        is how you release them.
       </p>
 
       <ul className="mt-5 divide-y divide-rule">

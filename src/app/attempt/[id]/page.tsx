@@ -56,8 +56,8 @@ export default async function AttemptPage({
   // Whether a mock may show its marking and its numbers is the instructor's
   // switch; practice always may.
   const mockSettings = await loadMockSettings();
-  const showAnswers = revealsAnswers(mockSettings, attempt.mode);
-  const showBands = revealsBands(mockSettings, attempt.mode);
+  const showAnswers = revealsAnswers(mockSettings, Boolean(attempt.fullMockId));
+  const showBands = revealsBands(mockSettings, Boolean(attempt.fullMockId));
 
   const wantsReview =
     attempt.status !== "IN_PROGRESS" &&

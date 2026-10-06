@@ -122,8 +122,9 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
   // here either: the page redirects, and a response the page never renders
   // is still a response the browser's network tab can read.
   const settings = await loadMockSettings();
-  const bands = revealsBands(settings, attempt.mode);
-  const answers = revealsAnswers(settings, attempt.mode);
+  const inFullMock = Boolean(attempt.fullMockId);
+  const bands = revealsBands(settings, inFullMock);
+  const answers = revealsAnswers(settings, inFullMock);
 
   return Response.json({
     totalQuestions: result.totalQuestions,

@@ -31,7 +31,8 @@ export default async function JoinEventPage({ params }: { params: Promise<{ toke
     loadMockSettings(),
   ]);
   if (!event) notFound();
-  const showBands = revealsBands(mockSettings, "MOCK");
+  // An event sitting is a full mock.
+  const showBands = revealsBands(mockSettings, true);
 
   const sitting = event.participant?.fullMock ?? null;
   const refusal = sitting
